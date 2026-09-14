@@ -5,8 +5,9 @@ Jekyll builds from `docs/` at the **repository root** (emancipation pattern = `h
 ## GitHub Pages
 
 - **URL:** `https://ruvebal.github.io/creativity-techniques-uem/`
-- **Workflow:** `.github/workflows/pages.yml` *(to be added)*
+- **Workflow:** `.github/workflows/pages.yml` (GitHub Actions → Pages; not legacy branch deploy)
 - **`baseurl`:** `/creativity-techniques-uem` in `_config.yml`
+- **Note:** Legacy “Deploy from branch” served the README without `<!DOCTYPE html>` (Quirks Mode) and without site CSS. Pages source must stay on **GitHub Actions**.
 
 ## Excluded from the public site
 
