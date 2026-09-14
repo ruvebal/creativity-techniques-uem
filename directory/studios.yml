@@ -1,0 +1,48 @@
+- id: ideo
+  name: IDEO
+  kind: studio
+  status: practitioner
+  summary: Human-centred design / design-thinking popularisation studio. Treat method claims as practitioner discourse, not peer-reviewed pedagogy proof.
+  url: https://www.ideo.com/
+  doi: null
+  location: international
+  years: 1991–
+  references:
+    - 'Brown, Tim. 2009. Change by Design. Harper Business.'
+  units: [U1, U2, U3]
+
+- id: rca-helen-hamlyn
+  name: Helen Hamlyn Centre for Design (RCA)
+  kind: studio
+  status: established
+  summary: Inclusive design research centre; student and commissioned studio work with social briefings.
+  url: https://www.rca.ac.uk/research-innovation/research-centres/helen-hamlyn-centre-design/
+  doi: null
+  location: London
+  years: ongoing
+  references: []
+  units: [U3, U4]
+
+- id: processing-foundation
+  name: Processing Foundation
+  kind: studio
+  status: practitioner
+  summary: Generative-tools adjacency (Casey Reas & Ben Fry lineage) for creativity-and-technology units — not a classical creativity-technique method studio.
+  url: https://processingfoundation.org/
+  doi: null
+  location: international
+  years: ongoing
+  references: []
+  units: [U5]
+
+- id: showstudio
+  name: SHOWstudio
+  kind: studio
+  status: practitioner
+  summary: Nick Knight’s digital fashion / image-practice platform — adjacent creative-studio culture for visual ideation.
+  url: https://www.showstudio.com/
+  doi: null
+  location: London
+  years: 2000–
+  references: []
+  units: [U5]

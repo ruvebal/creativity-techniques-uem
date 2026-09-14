@@ -1,0 +1,48 @@
+- id: sir-misha-black-medal
+  name: Sir Misha Black Medal
+  kind: prize
+  status: established
+  summary: Distinguished services to design education (Royal Commission for the Exhibition of 1851 / Sir Misha Black Awards).
+  url: https://royalcommission1851.org/fellowships/sir-misha-black-awards
+  doi: null
+  location: United Kingdom
+  years: ongoing
+  references:
+    - 'Royal Commission for the Exhibition of 1851. Sir Misha Black Awards.'
+  units: [U1, U4]
+
+- id: red-dot
+  name: Red Dot (incl. Design Concept)
+  kind: prize
+  status: practitioner
+  summary: Industry consecration of design concepts and outcomes — useful as a workplace quality benchmark, not a substitute for design-education research prizes.
+  url: https://www.red-dot.org/
+  doi: null
+  location: international
+  years: ongoing
+  references: []
+  units: [U4]
+
+- id: if-design-award
+  name: iF Design Award
+  kind: prize
+  status: practitioner
+  summary: International industry design award used as outcome benchmark in professional practice discourse.
+  url: https://ifdesign.com/
+  doi: null
+  location: international
+  years: ongoing
+  references: []
+  units: [U4]
+
+- id: d-and-ad
+  name: D&AD
+  kind: prize
+  status: practitioner
+  summary: Advertising and design industry awards; quality signal for commercial creative work.
+  url: https://www.dandad.org/
+  doi: null
+  location: United Kingdom / international
+  years: ongoing
+  references: []
+  units: [U4]

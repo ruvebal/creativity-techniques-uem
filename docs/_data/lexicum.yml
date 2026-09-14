@@ -1,0 +1,68 @@
+schema: lexfield-public/v1
+cloned_at: '2026-09-14T08:35:15Z'
+source_note: Hydrated from lexfield YAML (creativity_techniques) on build.
+field:
+  slug: creativity_techniques
+  title: Creativity Techniques
+  description: >-
+    Controlled vocabulary for creativity-techniques pedagogy in higher-education design studios —
+    foundations, ideation repertoires, development methods, workplace application,
+    technology-mediated practice, personal development, and a critical scholarly layer.
+  namespace_prefix: ct
+  namespace_uri: https://crea-comm.net/lexfield/creativity_techniques#
+stats:
+  subfields: 7
+  concepts: 76
+provenance:
+  author:
+    name: Rubén Vega Balbás, PhD
+    role: Creative Technologist & Developer
+    orcid: https://orcid.org/0000-0001-6862-9081
+    email: ruvebal@crea-comm.net
+  vocabulary_engine:
+    name: lexfield
+    version: 0.1.0
+    path_hint: fieldlex (multi-tenant SKOS vocabulary engine)
+  publication_stack:
+    static_site: Jekyll 3.10.0
+    templates: Liquid 4.0.4
+    markdown: kramdown (GFM)
+    stylesheet: PostCSS + Tailwind CSS 3.x
+    hydrate: Node.js (js-yaml)
+  ontology:
+    skos:
+      name: SKOS
+      version: W3C Recommendation, 2009-08-18
+      url: https://www.w3.org/TR/skos-reference/
+    cidoc_crm:
+      name: CIDOC-CRM
+      version: 7.1.3 (2024-02-13)
+      url: https://gitlab.isl.ics.forth.gr/cidoc-crm/cidoc_crm_rdf
+  method: >-
+    Curriculum-local YAML snapshot compiled from lexfield; definitions authored as
+    controlled-vocabulary entries with optional CIDOC-CRM class mappings where heritage-relevant.
+  prototype_note: >-
+    The fashion field is the seed tenant of lexfield; creativity_techniques reuses the same
+    Field→Subfield→Concept schema and lexfield-public/v1 publication contract.
+subfields:
+  - slug: creativity_and_technology
+    title: Creativity and Technology
+    concept_count: 10
+  - slug: critical_layer
+    title: Critical Layer
+    concept_count: 14
+  - slug: foundations_importance
+    title: Foundations and Importance
+    concept_count: 11
+  - slug: idea_development_solutions
+    title: Idea Development and Solutions
+    concept_count: 10
+  - slug: idea_generation_selection
+    title: Idea Generation and Selection
+    concept_count: 12
+  - slug: personal_development
+    title: Personal Development
+    concept_count: 9
+  - slug: workplace_application
+    title: Workplace Application
+    concept_count: 10

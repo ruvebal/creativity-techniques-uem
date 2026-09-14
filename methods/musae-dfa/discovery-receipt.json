@@ -1,0 +1,24 @@
+{
+  "schema": "ct-method-discovery-receipt/v1",
+  "method_id": "musae-dfa",
+  "run_at": "2026-09-13T16:30:00+02:00",
+  "kind": "funded-transdisciplinary",
+  "funding": {
+    "grant_id": "101070421",
+    "doi": "10.3030/101070421",
+    "cordis_url": "https://cordis.europa.eu/project/id/101070421"
+  },
+  "queries": [
+    {
+      "slug": "profield-digital-creativity",
+      "query": "MUSAE Design Future Art-driven DFA transdisciplinary AI arts design method Horizon"
+    },
+    {
+      "slug": "profield-creativity-techniques",
+      "query": "Exten.D.T.2 design thinking emerging technologies AI education Horizon funded"
+    }
+  ],
+  "athanor_ingested": false,
+  "status": "cordis-public; ahmes-coat-missing",
+  "next": "procure DFA deliverables → Ahmes → ingest project_slug=profield-creativity-techniques"
+}

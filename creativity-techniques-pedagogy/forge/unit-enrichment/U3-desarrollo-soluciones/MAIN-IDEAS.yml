@@ -1,0 +1,29 @@
+# Student slideshow payload — ≤ 6 main ideas
+unit_id: U3
+title_en: Development techniques and solutions
+max_ideas: 6
+ideas:
+  - id: 1
+    heading: Make it rough, make it early
+    sentence: Early, disposable prototypes teach faster than polished guesses.
+    chicago: null
+  - id: 2
+    heading: Defer judgment to let ideas evolve
+    sentence: Premature critique kills the path from wild to workable.
+    chicago: null
+  - id: 3
+    heading: Iterate with an exit
+    sentence: Revision is valuable; decide when the brief is answered.
+    chicago: null
+  - id: 4
+    heading: Sketch to think
+    sentence: Visual framing is part of reasoning, not post-hoc illustration.
+    chicago: null
+  - id: 5
+    heading: Open the solution space
+    sentence: Under wicked briefs, abductive moves beat single-path plans.
+    chicago: null
+  - id: 6
+    heading: Reflect at checkpoints
+    sentence: "Development needs structured pauses: what changed, what stays."
+    chicago: null

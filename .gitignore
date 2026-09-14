@@ -1,0 +1,56 @@
+# creativity-techniques-uem — do not commit local build, secrets, or studio machine paths
+
+# --- Dependencies & Ruby ---
+node_modules/
+vendor/
+.bundle/
+*.gem
+
+# --- Jekyll / build output ---
+_site/
+_site_test/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+.tmp/
+tmp/
+coverage/
+
+# --- Secrets & local env ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*~
+.idea/
+.vscode/
+.cursor/
+
+# --- Ahmes / vault leakage (local only) ---
+creativity-techniques-pedagogy/**/pdfs/
+creativity-techniques-pedagogy/**/*.ahmes-ingest.log
+creativity-techniques-pedagogy/cv/sources/ahmes-vault-*
+**/*.db
+**/*.sqlite
+**/*.sqlite3
+
+# --- Absolute-path studio symlinks (machine-local; not portable) ---
+# Hydrate/rehydrate skip these when absent and keep committed docs/ snapshots.
+creativity-techniques-pedagogy/grounding/fieldlex/
+creativity-techniques-pedagogy/grounding/IMAGE-SOURCES.md
+creativity-techniques-pedagogy/grounding/lexicum.yaml
+creativity-techniques-pedagogy/grounding/media-query-queue.yaml
+creativity-techniques-pedagogy/grounding/pass1.edited.md
+creativity-techniques-pedagogy/grounding/media-samples/
+
+# --- Optional local media dumps ---
+docs/assets/images/profield-cache/.download-*
+*.part

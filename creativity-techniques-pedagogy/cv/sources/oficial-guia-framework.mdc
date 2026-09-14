@@ -1,0 +1,99 @@
+---
+description: Mandatory pedagogical framework — official UEM guía JSON structure binds all CV forging, unit forging, tracks, and assessment
+globs: 'creativity-techniques-pedagogy/**,docs/lessons/**,docs/tracks/**,docs/_data/**'
+alwaysApply: false
+---
+
+# Official guía framework — Técnicas de Creatividad
+
+> **The live PDF is the institutional contract.** In-repo JSON clones are working copies that must reconcile to `26-27/guias_docentes/9990002301.pdf`. Every CV, unit forge, `tracks.yml` hour allocation, and evaluation claim must close to the tables below. Do not invent competencies or contents.
+
+## Canonical sources (in-repo clones)
+
+| Course | Path | Upstream | PDF (authority) |
+| ------ | ---- | -------- | --- |
+| **Técnicas de Creatividad** | [`cv/guides/guia-tecnicas-de-creatividad-diseno-2025-26.json`](./cv/guides/guia-tecnicas-de-creatividad-diseno-2025-26.json) | profield field clone (Grado en **Diseño**, 2025-26) | `26-27/guias_docentes/9990002301.pdf` *(to be ingested)* |
+| **Comparison scrape** | [`cv/guides/9990002301-unicrawler.json`](./cv/guides/9990002301-unicrawler.json) | unicrawler 2026-27 | same PDF family — **may be Videojuegos variant**; do not treat as Diseño contract without reconcile |
+
+**Re-sync:** after PDF ingest, patch JSON and update this framework. Prefer PDF if JSON and PDF disagree.
+
+**Default modality for authoring:** `Modalidad presencial`.
+
+---
+
+## 1. Identity fields (2025-26 Diseño clone — verify after 2026-27 PDF)
+
+| Field | Value (clone) |
+| ----- | ------------- |
+| Subject | Técnicas de Creatividad |
+| Degree | Grado en Diseño |
+| Faculty | Facultad de Diseño y Tecnologías Creativas |
+| Year | 3 |
+| Semester | Primer semestre (S1) |
+| ECTS | 6 |
+| Module | Obligatoria |
+| Languages | Castellano |
+| Modality | Presencial |
+| Academic year | 2025/2026 *(supersede when 2026-27 PDF lands)* |
+| Coordinator | Sally Gutiérrez Dewar |
+
+---
+
+## 2. CONTENIDOS — teachable anchors (six units)
+
+Split from `contents` in the Diseño JSON. **Unit titles and lesson claims must map to one or more of these.**
+
+1. **U1** — Introducción a la creatividad y su importancia  
+2. **U2** — Técnicas de generación y selección de ideas  
+3. **U3** — Técnicas de desarrollo y soluciones  
+4. **U4** — Aplicación de las técnicas de creatividad en el ámbito laboral  
+5. **U5** — Creatividad y tecnología  
+6. **U6** — Creatividad y desarrollo personal  
+
+**Not CONTENIDOS:** critical layer **C1** (ideology), **C2** (labour), **C3** (GenAI authorship) — pedagogy/media vocab only.
+
+---
+
+## 3. Competencies (must be traceable)
+
+List competency codes from JSON `competencies` / `learning_outcomes` verbatim. Do not invent codes. Current clone includes CB1–CB5, CT7/9/10/15/17, CE12–16 and RA5/6/12/14/15.
+
+---
+
+## 4. Formative activities — presencial (150 h total)
+
+From `formative_activities.Modalidad presencial` in the Diseño clone:
+
+| Activity | Hours |
+| -------- | ----- |
+| Clases magistrales | 32 |
+| Ejercicios prácticos y resolución de problemas | 20.5 |
+| Exposición oral de trabajos | 5 |
+| Informes y escritos | 13.5 |
+| Trabajo autónomo | 50 |
+| Debates y coloquios | 9 |
+| Tutoría y seguimiento académico | 18 |
+| Pruebas de conocimiento | 2 |
+| **TOTAL** | **150** |
+
+**Contact-forgeable bucket (pedagogical allocation target):** 80 h  
+(clases + ejercicios + exposición + informes + debates = 32 + 20.5 + 5 + 13.5 + 9 = 80)
+
+Do not invent session timetables to fake allocation; declare gaps honestly until forged.
+
+---
+
+## 5. Evaluation — presencial
+
+| Instrument | Weight % |
+| ---------- | -------- |
+| Pruebas de conocimiento | 60 |
+| Entrega de y/o presentación de trabajos | 40 |
+
+Assessable activities (weeks from clone): Actividad 1 (1–5), Actividad 2 (2–6), Actividad 3 (5–10), Actividad 4 (12–15).
+
+---
+
+## 6. Bibliography
+
+Core and recommended lists live in JSON `bibliography_core` / `bibliography_recommended`. Scholarly extensions resolve against Ahmes vault `~/projects/ruvebal/scholar/bibliographies/creativity` — cite nodes only in forged lessons; student pages use Chicago author-date.

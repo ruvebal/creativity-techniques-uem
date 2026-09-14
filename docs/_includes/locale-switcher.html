@@ -1,0 +1,60 @@
+{% comment %}
+  locale-switcher.html
+  Renders a link to the equivalent page in the other language.
+  Uses page.lang, page.slug, _data/lessons.yml, and _data/tracks.yml.
+  Usage: {% include locale-switcher.html %}
+{% endcomment %}
+{% assign other_lang = 'es' %}
+{% if page.lang == 'es' %}{% assign other_lang = 'en' %}{% endif %}
+
+{% assign switcher_url = nil %}
+{% assign switcher_label = nil %}
+
+{% if other_lang == 'en' %}
+  {% assign switcher_label = 'EN' %}
+{% else %}
+  {% assign switcher_label = 'ES' %}
+{% endif %}
+
+{% if page.url contains '/lessons/' %}
+  {% assign current_lesson = site.data.lessons | where: 'slug', page.slug | first %}
+  {% if current_lesson %}
+    {% if other_lang == 'en' and current_lesson.path.en %}
+      {% assign switcher_url = current_lesson.path.en %}
+    {% elsif other_lang == 'es' and current_lesson.path.es %}
+      {% assign switcher_url = current_lesson.path.es %}
+    {% endif %}
+  {% endif %}
+{% elsif page.url contains '/tracks/' %}
+  {% for track in site.data.tracks %}
+    {% if page.lang == 'es' and track.path.es == page.url %}
+      {% if other_lang == 'en' and track.path.en %}{% assign switcher_url = track.path.en %}{% endif %}
+    {% elsif page.lang == 'en' and track.path.en == page.url %}
+      {% if other_lang == 'es' and track.path.es %}{% assign switcher_url = track.path.es %}{% endif %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% comment %} Fallback: methodology and track index pages {% endcomment %}
+{% if switcher_url == nil %}
+  {% if page.url contains '/methodology/es' %}
+    {% assign switcher_url = '/methodology/en/' | prepend: site.baseurl %}
+  {% elsif page.url contains '/methodology/en' %}
+    {% assign switcher_url = '/methodology/es/' | prepend: site.baseurl %}
+  {% elsif page.url contains '/tracks/es' %}
+    {% assign switcher_url = '/tracks/en/' | prepend: site.baseurl %}
+  {% elsif page.url contains '/tracks/en' %}
+    {% assign switcher_url = '/tracks/es/' | prepend: site.baseurl %}
+  {% endif %}
+{% else %}
+  {% assign switcher_url = switcher_url | prepend: site.baseurl %}
+{% endif %}
+
+{% if switcher_url %}
+<nav class="locale-switcher" aria-label="{% if page.lang == 'es' %}Cambiar idioma{% else %}Switch language{% endif %}">
+  <a href="{{ switcher_url }}" lang="{{ other_lang }}" hreflang="{{ other_lang }}" class="locale-link">
+    <span aria-hidden="true">🌐</span>
+    <span>{{ switcher_label }}</span>
+  </a>
+</nav>
+{% endif %}

@@ -1,0 +1,10 @@
+# Student slideshow payload — ≤ 6 main ideas
+unit_id: U0
+title_en: ''
+max_ideas: 6
+ideas: []
+# ideas:
+#   - id: 1
+#     heading: ''
+#     sentence: ''
+#     chicago: null

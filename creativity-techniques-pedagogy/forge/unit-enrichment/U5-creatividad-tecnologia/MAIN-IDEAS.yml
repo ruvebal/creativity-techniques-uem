@@ -1,0 +1,29 @@
+# Student slideshow payload — ≤ 6 main ideas
+unit_id: U5
+title_en: Creativity and technology
+max_ideas: 6
+ideas:
+  - id: 1
+    heading: Stage the tool
+    sentence: Use generative tools for early variation; keep framing and final judgment human.
+    chicago: null
+  - id: 2
+    heading: Show the process
+    sentence: Prompts, decisions, and re-authoring are part of the creative work.
+    chicago: null
+  - id: 3
+    heading: Refuse originality theatre
+    sentence: Pretty AI images without problem framing are empty craft.
+    chicago: null
+  - id: 4
+    heading: Assess judgment, not only surfaces
+    sentence: Studio assessment must see collaboration and reflection under AI.
+    chicago: null
+  - id: 5
+    heading: Agency stays with the designer
+    sentence: AI is collaborator/instrument — not the author of record.
+    chicago: null
+  - id: 6
+    heading: Name the costs
+    sentence: Critical reading of AI systems (power, labour, planet) belongs beside the toolkit.
+    chicago: null

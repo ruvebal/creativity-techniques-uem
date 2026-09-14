@@ -1,0 +1,377 @@
+---
+layout: default
+---
+
+{% comment %} Detect if TOC exists by checking if markdown has {:toc} {% endcomment %} {% assign has_toc = false %} {%
+if page.content contains '{:toc}' %} {% assign has_toc = true %} {% endif %} {% comment %} Build breadcrumb from page
+path {% endcomment %} {% assign path_parts = page.url | split: '/' %} {% assign breadcrumbs = '' | split: '' %} {%
+assign current_path = '' %} {% for part in path_parts %} {% if part != '' %} {% assign current_path = current_path |
+append: '/' | append: part %} {% assign breadcrumb_item = part | split: '-' | join: ' ' | capitalize %} {% assign
+breadcrumbs = breadcrumbs | push: breadcrumb_item %} {% endif %} {% endfor %}
+
+<!-- Print-only header with lesson title for every page -->
+<div class="print-page-header print-only">
+	{{ page.title }} · Rubén Vega Balbás, PhD · Creative Technologist & Developer · ruben.vega@universidadeuropea.es
+</div>
+
+{% if has_toc %}
+<button class="toc-toggle" id="toc-toggle" aria-label="Open table of contents" aria-expanded="false">
+	<svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+		<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+	</svg>
+	<span class="toc-toggle-text">{% if page.lang == "es" %}Contenido{% else %}Contents{% endif %}</span>
+</button>
+<div class="toc-backdrop" id="toc-backdrop" aria-hidden="true"></div>
+{% endif %}
+
+<div class="lesson-wrapper{% unless has_toc %} lesson-wrapper--no-toc{% endunless %}">
+	{% if has_toc %}
+	<aside class="lesson-toc" id="lesson-toc" aria-label="Table of Contents">
+		<div class="toc-container">
+			<div class="toc-header">
+				<h2 class="toc-title">{% if page.lang == "es" %} Tabla de contenidos {% else %} Table of Contents {% endif %}</h2>
+				<button class="toc-close" id="toc-close" aria-label="Close table of contents" aria-expanded="true">
+					<svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+					</svg>
+				</button>
+			</div>
+			<nav class="toc-nav" id="toc-nav">
+				<div id="toc-sidebar-placeholder" class="toc-content"></div>
+			</nav>
+		</div>
+	</aside>
+	{% endif %}
+
+	<div class="lesson-main">
+		{% include site-hero.html %}
+		<!-- Back to top button -->
+		<button
+			id="back-to-top"
+			class="back-to-top"
+			aria-label="{% if page.lang == 'es' %}Volver arriba{% else %}Back to top{% endif %}"
+			title="{% if page.lang == 'es' %}Volver arriba{% else %}Back to top{% endif %}">
+			<svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+			</svg>
+		</button>
+
+		<article class="lesson-content">
+			<!-- Breadcrumb Navigation -->
+			<nav class="breadcrumb" aria-label="Breadcrumb">
+				<ol class="breadcrumb-list">
+					<li class="breadcrumb-item">
+						<a href="{{ site.baseurl }}/" class="breadcrumb-link">
+							{% if page.lang == 'es' %}Inicio{% else %}Home{% endif %}
+						</a>
+					</li>
+					{% if page.url contains '/lessons/' %}
+					<li class="breadcrumb-item">
+						<span class="breadcrumb-separator" aria-hidden="true">/</span>
+						<a href="{{ site.baseurl }}/lessons/{{ page.lang }}/" class="breadcrumb-link">
+							{% if page.lang == 'es' %}Lecciones{% else %}Lessons{% endif %}
+						</a>
+					</li>
+					{% endif %} {% assign path_segments = page.url | split: '/' %} {% assign accumulated_path = '' %} {% assign
+					show_current_segment = false %} {% assign base_segment_path = '/lessons/' | append: page.lang | append: '/' |
+					append: page.slug | append: '/' %} {% if page.url == base_segment_path %} {% assign show_current_segment = true %}
+					{% endif %} {% for segment in path_segments %} {% if segment == '' %} {% continue %} {% endif %} {% assign
+					accumulated_path = accumulated_path | append: '/' | append: segment %} {% if segment == 'lessons' or segment ==
+					page.lang %} {% continue %} {% endif %} {% if segment == page.slug %} {% assign is_current_segment = true %} {%
+					else %} {% assign is_current_segment = false %} {% endif %} {% if is_current_segment and show_current_segment ==
+					false %} {% continue %} {% endif %}
+					<li class="breadcrumb-item">
+						<span class="breadcrumb-separator" aria-hidden="true">/</span>
+						{% if is_current_segment %}
+						<a href="{{ site.baseurl }}{{ accumulated_path }}/" class="breadcrumb-link">
+							{{ segment | replace: '-', ' ' | capitalize }}
+						</a>
+						{% else %}
+						<a href="{{ site.baseurl }}{{ accumulated_path }}/" class="breadcrumb-link">
+							{{ segment | replace: '-', ' ' | capitalize }}
+						</a>
+						{% endif %}
+					</li>
+					{% endfor %}
+					<li class="breadcrumb-item breadcrumb-current" aria-current="page">
+						<span class="breadcrumb-separator" aria-hidden="true">/</span>
+						<span class="breadcrumb-text">{{ page.title }}</span>
+					</li>
+				</ol>
+			</nav>
+
+			<header class="lesson-header{% if site.data.archive_covers[page.url] %} hero-section hero-section--archive hero-section--hub{% endif %}">
+				{% assign cover_key = page.slug | default: page.title | slugify %}
+				{% assign lesson_cover = site.data.lesson_covers[cover_key] %}
+				<div class="lesson-meta">
+					<p class="lesson-tagline">Creativity Techniques · Ideation and critical judgement in design</p>
+				</div>
+				{% if lesson_cover %}
+					{% assign lesson_cover_alt = lesson_cover.alt_en | default: lesson_cover.alt %}
+					<figure class="lesson-cover lesson-cover--{{ lesson_cover.family }}" data-cover-mode="{{ lesson_cover.mode }}">
+						<img
+							src="{{ '/assets/images/lesson-covers/' | append: lesson_cover.asset | append: '.svg' | relative_url }}"
+							width="1600"
+							height="900"
+							alt="{{ lesson_cover_alt | escape }}"
+							fetchpriority="high" />
+						<figcaption class="lesson-cover__caption">
+							<h1 class="lesson-title lesson-title--cover">{{ page.title }}</h1>
+							{% if page.status %} {% assign status_lower = page.status | downcase %}
+							<span class="lesson-status lesson-status--cover status-{{ page.status | downcase | replace: ' ', '-' }} flex-shrink-0">
+								{% if status_lower == 'finished' or status_lower == 'terminado' %} {% if page.lang == 'es' %}✓ Finalizado{% else
+								%}✓ Finished{% endif %} {% elsif status_lower == 'scaffold' %} {% if page.lang == 'es' %}Andamiaje{% else %}Scaffold{% endif %} {% elsif status_lower == 'draft' or status_lower == 'borrador' %} {% if page.lang == 'es'
+								%}Borrador{% else %}Draft{% endif %} {% elsif status_lower == 'in progress' or status_lower == 'in-progress' or
+								status_lower == 'en proceso' %} {% if page.lang == 'es' %}En Proceso{% else %}In Progress{% endif %} {% else %} {{
+								page.status | capitalize }} {% endif %}
+							</span>
+							{% endif %}
+						</figcaption>
+					</figure>
+				{% else %}
+				<div class="flex items-start justify-between gap-4 mb-4">
+					<h1 class="lesson-title flex-1">{{ page.title }}</h1>
+					{% if page.status %} {% assign status_lower = page.status | downcase %}
+					<span class="lesson-status status-{{ page.status | downcase | replace: ' ', '-' }} flex-shrink-0">
+						{% if status_lower == 'finished' or status_lower == 'terminado' %} {% if page.lang == 'es' %}✓ Finalizado{% else
+						%}✓ Finished{% endif %} {% elsif status_lower == 'scaffold' %} {% if page.lang == 'es' %}Andamiaje{% else %}Scaffold{% endif %} {% elsif status_lower == 'draft' or status_lower == 'borrador' %} {% if page.lang == 'es'
+						%}Borrador{% else %}Draft{% endif %} {% elsif status_lower == 'in progress' or status_lower == 'in-progress' or
+						status_lower == 'en proceso' %} {% if page.lang == 'es' %}En Proceso{% else %}In Progress{% endif %} {% else %} {{
+						page.status | capitalize }} {% endif %}
+					</span>
+					{% endif %}
+				</div>
+				{% endif %}
+				{% if page.author or page.date %}
+				<div class="lesson-author-date">
+					{% if page.author %}
+					<span class="lesson-author">By {{ page.author }}</span>
+					{% endif %} {% if page.date %}
+					<span class="lesson-date">{{ page.date | date: "%Y-%m-%d" }}</span>
+					{% endif %}
+				</div>
+				{% endif %}
+				<p class="lesson-url">
+					<span class="sr-only">URL:</span>
+					<a
+						href="{{ site.url }}{{ site.baseurl }}{{ page.url }}"
+						class="lesson-permalink"
+						aria-label="Permanent link to this lesson">
+						{{ site.url }}{{ site.baseurl }}{{ page.url }}
+					</a>
+				</p>
+			</header>
+
+			{% include locale-switcher.html %}
+			<div class="lesson-body prose prose-lg prose-slate dark:prose-invert">{{ content }}</div>
+		</article>
+	</div>
+</div>
+
+<script>
+	(function () {
+		// Move TOC from content to sidebar and hide the original heading
+		const toc = document.getElementById('markdown-toc');
+		const placeholder = document.getElementById('toc-sidebar-placeholder');
+
+		if (toc && placeholder) {
+			placeholder.appendChild(toc);
+		}
+
+		// Hide the TOC heading in the main content (handles multiple languages)
+		const tocHeading = document.querySelector('h2.no_toc');
+		if (tocHeading) {
+			const text = tocHeading.textContent.toLowerCase();
+			if (text.includes('table of contents') || text.includes('tabla de contenidos') || text.includes('📋')) {
+				tocHeading.style.display = 'none';
+			}
+		}
+
+		document.querySelectorAll('.lesson-body blockquote').forEach((quote) => {
+			const text = quote.textContent || '';
+			if (
+				text.includes('Tao of Development') ||
+				text.includes('Tao del Desarrollo') ||
+				text.includes('Tao del Desarrollador') ||
+				text.includes('Tao de la Desarrolladora')
+			) {
+				quote.classList.add('tao-development-quote');
+				const lastParagraph = quote.querySelector('p:last-child');
+				if (lastParagraph && !lastParagraph.querySelector('.tao-signature-break')) {
+					lastParagraph.innerHTML = lastParagraph.innerHTML.replace(/^\s*(—|&mdash;)/, '<span class="tao-signature-break">$1</span>');
+				}
+			}
+		});
+
+		// Mobile TOC toggle functionality
+		const tocToggle = document.getElementById('toc-toggle');
+		const tocClose = document.getElementById('toc-close');
+		const lessonToc = document.getElementById('lesson-toc');
+		const tocBackdrop = document.getElementById('toc-backdrop');
+
+		function openTOC() {
+			if (lessonToc) {
+				lessonToc.setAttribute('aria-expanded', 'true');
+				// Force display in case CSS isn't applying
+				lessonToc.style.display = 'block';
+				lessonToc.style.transform = 'translateX(0)';
+				lessonToc.style.visibility = 'visible';
+				lessonToc.style.opacity = '1';
+				lessonToc.style.zIndex = '100';
+			}
+			if (tocToggle) tocToggle.setAttribute('aria-expanded', 'true');
+			if (tocBackdrop) tocBackdrop.setAttribute('aria-hidden', 'false');
+			document.body.classList.add('toc-open');
+			document.body.style.overflow = 'hidden';
+		}
+
+		function closeTOC() {
+			if (lessonToc) {
+				lessonToc.setAttribute('aria-expanded', 'false');
+				// Reset inline styles
+				lessonToc.style.display = '';
+				lessonToc.style.transform = '';
+				lessonToc.style.visibility = '';
+				lessonToc.style.opacity = '';
+				lessonToc.style.zIndex = '';
+			}
+			if (tocToggle) tocToggle.setAttribute('aria-expanded', 'false');
+			if (tocBackdrop) tocBackdrop.setAttribute('aria-hidden', 'true');
+			document.body.classList.remove('toc-open');
+			document.body.style.overflow = '';
+		}
+
+		if (tocToggle && lessonToc) {
+			tocToggle.addEventListener('click', openTOC);
+		}
+
+		if (tocClose && lessonToc) {
+			tocClose.addEventListener('click', closeTOC);
+		}
+
+		if (tocBackdrop) {
+			tocBackdrop.addEventListener('click', closeTOC);
+		}
+
+		// Active TOC section highlighting based on scroll position
+		if (placeholder && placeholder.querySelector('a')) {
+			const tocLinks = placeholder.querySelectorAll('a[href^="#"]');
+			const sections = Array.from(tocLinks)
+				.map((link) => {
+					const id = link.getAttribute('href').substring(1);
+					const element = document.getElementById(id);
+					return element ? { link, element, id } : null;
+				})
+				.filter(Boolean);
+
+			if (sections.length > 0) {
+				// Intersection Observer for active section tracking
+				const observerOptions = {
+					rootMargin: '-20% 0px -70% 0px',
+					threshold: 0,
+				};
+
+				// Track if we're programmatically scrolling to prevent feedback loops
+				let isScrollingProgrammatically = false;
+
+				const observer = new IntersectionObserver((entries) => {
+					// Don't update during programmatic scroll
+					if (isScrollingProgrammatically) return;
+
+					entries.forEach((entry) => {
+						if (entry.isIntersecting) {
+							// Remove active class from all links
+							tocLinks.forEach((link) => {
+								link.classList.remove('toc-active');
+								link.parentElement?.classList.remove('toc-item-active');
+							});
+
+							// Find and activate the corresponding TOC link
+							const activeSection = sections.find((s) => s.element === entry.target);
+							if (activeSection) {
+								activeSection.link.classList.add('toc-active');
+								activeSection.link.parentElement?.classList.add('toc-item-active');
+
+								// Auto-scroll TOC to show active item (bidirectional sync)
+								const tocNav = document.getElementById('toc-nav');
+								if (tocNav && activeSection.link.offsetParent) {
+									isScrollingProgrammatically = true;
+
+									const linkTop = activeSection.link.offsetTop;
+									const linkHeight = activeSection.link.offsetHeight;
+									const navHeight = tocNav.offsetHeight;
+									const navScrollTop = tocNav.scrollTop;
+
+									// Calculate if link is outside visible area
+									if (linkTop < navScrollTop) {
+										// Link is above visible area - scroll up
+										tocNav.scrollTo({ top: linkTop - 20, behavior: 'smooth' });
+									} else if (linkTop + linkHeight > navScrollTop + navHeight) {
+										// Link is below visible area - scroll down
+										tocNav.scrollTo({ top: linkTop - navHeight + linkHeight + 20, behavior: 'smooth' });
+									}
+
+									// Reset flag after scroll animation
+									setTimeout(() => {
+										isScrollingProgrammatically = false;
+									}, 500);
+								}
+							}
+						}
+					});
+				}, observerOptions);
+
+				// Observe all sections
+				sections.forEach((section) => observer.observe(section.element));
+
+				// Smooth scroll for TOC links — document scroll (header stays fixed)
+				const siteHeader = document.getElementById('site-header');
+				const headerOffset = () => (siteHeader ? siteHeader.offsetHeight : 72) + 16;
+
+				tocLinks.forEach((link) => {
+					link.addEventListener('click', (e) => {
+						const href = link.getAttribute('href');
+						if (href.startsWith('#')) {
+							const target = document.querySelector(href);
+							if (target) {
+								e.preventDefault();
+								const offsetPosition = target.getBoundingClientRect().top + window.scrollY - headerOffset();
+
+								window.scrollTo({
+									top: offsetPosition,
+									behavior: 'smooth',
+								});
+
+								history.pushState(null, '', href);
+
+								if (window.innerWidth <= 1024) {
+									closeTOC();
+								}
+							}
+						}
+					});
+				});
+			}
+		}
+
+		// Back to top button functionality
+		const backToTopButton = document.getElementById('back-to-top');
+
+		if (backToTopButton) {
+			window.addEventListener('scroll', function () {
+				if (window.scrollY > 300) {
+					backToTopButton.classList.add('visible');
+				} else {
+					backToTopButton.classList.remove('visible');
+				}
+			});
+
+			backToTopButton.addEventListener('click', function () {
+				window.scrollTo({
+					top: 0,
+					behavior: 'smooth',
+				});
+			});
+		}
+	})();
+</script>

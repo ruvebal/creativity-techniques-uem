@@ -1,0 +1,26 @@
+schema: ct-field-directory/v1
+title: Field directory — Creativity Techniques
+source: creativity-techniques-pedagogy/grounding/pass1.edited.md
+updated: 2026-09-13
+categories:
+  - id: prizes
+    title: Prizes
+    route: /directory/en/prizes/
+  - id: awards
+    title: Awards
+    route: /directory/en/awards/
+  - id: studios
+    title: Studios and labs
+    route: /directory/en/studios/
+  - id: journals
+    title: Journals
+    route: /directory/en/journals/
+  - id: organizations
+    title: Organizations
+    route: /directory/en/organizations/
+  - id: contests
+    title: Contests and festivals
+    route: /directory/en/contests/
+  - id: figures
+    title: Artists and figures
+    route: /directory/en/figures/

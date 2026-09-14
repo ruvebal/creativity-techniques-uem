@@ -1,0 +1,6 @@
+{% if page.enable_page_art == true and page.hide_site_hero != true %}
+  {% assign page_art_entry = site.data.page_art[page.url] %}
+  {% if page_art_entry %}
+    {% include page-art.html %}
+  {% endif %}
+{% endif %}

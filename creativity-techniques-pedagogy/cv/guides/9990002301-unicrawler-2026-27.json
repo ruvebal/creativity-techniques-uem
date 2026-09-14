@@ -1,0 +1,135 @@
+{
+  "subject_name": "Técnicas de Creatividad",
+  "official_title_name": "Grado en Diseño de Videojuegos",
+  "school_or_faculty": "Facultad Diseño e Industrias Creativas",
+  "year": null,
+  "ects": 6.0,
+  "module_type": "Obligatoria",
+  "languages": [
+    "Castellano"
+  ],
+  "modality": "Presencial",
+  "semester": "Primer semestre",
+  "academic_year": "2026/2027",
+  "coordinating_professor": "Raquel Echeandía Sánchez",
+  "presentation": "Esta materia facilitará al alumno metodologías que le permitan activar y desarrollar su creatividad en el contexto profesional, caracterizado por los condicionantes de los encargos (fechas de entrega, condiciones específicas  de  cada  proyecto,  competencia,  etc.).  Las  metodologías  que  se  practicarán  afrontarán  la generación  de  ideas  y  búsqueda  de  soluciones  creativas  a  los  proyectos  desde  diversas  perspectivas: mediante estímulos gráficos; mediante asociaciones semánticas; mediante la exploración multifocal; a través de planteamientos analíticos; mediante actividades en grupo; mediante acciones. Durante todos los procesos que conllevan la creación de un videojuego, se atraviesan varias fases en las que el componente creativo tiene que desarrollarse y aplicarse en distintas áreas, tanto artísticas como técnicas. En la asignatura vamos a potenciar los caminos mentales de los estudiantes y a otorgarles las herramientas y procesos de cara a entrenar, abrir y explorar los cauces creativos que culminarán en las narraciones, diseños, códigos y representaciones gráficas que requiere cada proyecto, sabiendo adaptarse a este.",
+  "competencies": [
+    "CB2:  Que  los  estudiantes  sepan  aplicar  sus  conocimientos  a  su  trabajo  o  vocación  de  una  forma profesional y posean las competencias que suelen demostrarse por medio de la elaboración y defensa de argumentos y la resolución de problemas dentro de su área de estudio.",
+    "CB4: Que los estudiantes puedan transmitir información, ideas, problemas y soluciones a un público tanto especializado como no especializado.",
+    "CT10: Iniciativa y espíritu emprendedor: Capacidad para acometer con resolución acciones dificultosas o azarosas. Capacidad para anticipar problemas, proponer mejoras y perseverar en su consecución. Preferencia por asumir y llevar a cabo actividades.",
+    "CT11: Planificación y gestión del tiempo: Capacidad para establecer unos objetivos y elegir los medios",
+    "CT14: Innovación-Creatividad: Capacidad para proponer y elaborar soluciones nuevas y originales que añaden valor a problemas planteados, incluso de ámbitos diferentes al propio del problema.",
+    "CT17: Trabajo en equipo: Capacidad para integrarse y colaborar de forma activa con otras personas, áreas y/u organizaciones para la consecución de objetivos comunes.",
+    "CE9:  Apreciar  los  valores  formales,  semánticos,  funcionales  y  ergonómicos  del  diseño  de representaciones animadas.",
+    "CE11 Conocimiento del entorno laboral, los recursos de empleabilidad y el marco legal en el ámbito de los videojuegos.",
+    "CE21:  Capacidad  para  aplicar  las  técnicas  tradicionales  de  creación  artística  al  ámbito  de  los videojuegos.",
+    "CE34: Capacidad para aplicar los fundamentos creativos de generación de ideas  en los proyectos audiovisuales para entornos digitales interactivos."
+  ],
+  "learning_outcomes": [
+    "RA1: Entender las dinámicas que activan y desarrollan la creatividad en el proceso de elaboración de un proyecto.",
+    "RA2: Conocer habilidades de pensamiento crítico, creativo y reflexivo.",
+    "RA3: Proponer nuevas ideas o buscar soluciones y llevarlas a la práctica.",
+    "RA4: Identificar nuevas oportunidades y resistencias a los cambios.",
+    "RA5: Mostrar suficiencia a la hora de plantearse nuevos problemas y buscarles solución de manera autónoma."
+  ],
+  "contents": "La materia está organizada en cuatro unidades de aprendizaje: Unidad 1. Introducción a la creatividad. Unidad 2. Procesos Creativos, inspiración y pensar de forma diferente. Unidad 3. Planificación, Herramientas y Técnicas de Creatividad Unidad 4. Creatividad, innovación y entorno laboral.",
+  "methodologies": {
+    "General": [
+      "Clase Magistral",
+      "Aprendizaje Cooperativo"
+    ]
+  },
+  "formative_activities": {
+    "Modalidad presencial": [
+      {
+        "name": "Clases magistrales",
+        "hours": 30.0
+      },
+      {
+        "name": "Ejercicios prácticos y resolución de problemas",
+        "hours": 22.5
+      },
+      {
+        "name": "Exposición oral de trabajos",
+        "hours": 5.0
+      },
+      {
+        "name": "Informes y escritos",
+        "hours": 13.5
+      },
+      {
+        "name": "Trabajo autónomo",
+        "hours": 50.0
+      },
+      {
+        "name": "Debates y coloquios",
+        "hours": 9.0
+      },
+      {
+        "name": "Tutoría y seguimiento académico",
+        "hours": 18.0
+      },
+      {
+        "name": "Pruebas de conocimiento",
+        "hours": 2.0
+      }
+    ],
+    "Modalidad online": [
+      {
+        "name": "Clases magistrales",
+        "hours": 30.0
+      },
+      {
+        "name": "Ejercicios prácticos y resolución de problemas",
+        "hours": 22.5
+      },
+      {
+        "name": "Exposición oral de trabajos",
+        "hours": 5.0
+      },
+      {
+        "name": "Informes y escritos",
+        "hours": 13.5
+      },
+      {
+        "name": "Trabajo autónomo",
+        "hours": 50.0
+      },
+      {
+        "name": "Debates y coloquios",
+        "hours": 9.0
+      },
+      {
+        "name": "Tutoría y seguimiento académico",
+        "hours": 18.0
+      },
+      {
+        "name": "Pruebas de conocimiento",
+        "hours": 2.0
+      }
+    ]
+  },
+  "evaluation": {
+    "Modalidad presencial": [
+      {
+        "name": "Pruebas de conocimiento",
+        "weight_percent": 70.0
+      },
+      {
+        "name": "Entrega de y/o presentación de trabajos",
+        "weight_percent": 30.0
+      }
+    ],
+    "Modalidad online": [
+      {
+        "name": "Pruebas de conocimiento",
+        "weight_percent": 70.0
+      },
+      {
+        "name": "Entrega de y/o presentación de trabajos",
+        "weight_percent": 30.0
+      }
+    ]
+  },
+  "source_url": "https://universidadeuropea.es/myfiles/pr/9822001301.pdf"
+}

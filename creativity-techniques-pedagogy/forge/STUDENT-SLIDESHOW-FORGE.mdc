@@ -1,0 +1,106 @@
+---
+description: Student-facing Reveal.js slideshow contract for Creativity Techniques (UEM) — sibling of Digital Creativity student decks
+globs: 'docs/tracks/**,docs/lessons/**,creativity-techniques-pedagogy/forge/**'
+alwaysApply: false
+---
+
+# STUDENT SLIDESHOW FORGE — Creativity Techniques (UEM)
+
+Every forged **lesson** ships a short Reveal.js slideshow, visually consistent
+with [How to Pass Creativity Techniques](/tracks/ct/how-to-pass-this-track/)
+and with the sibling Digital Creativity student decks
+(`digital-creativity-uem` · `STUDENT-SLIDESHOW-FORGE.mdc` + `student-media-deck.js`).
+
+**Binding parallel contract:** [`SESSION-RHYTHM-AND-DELIVERABLES.mdc`](./SESSION-RHYTHM-AND-DELIVERABLES.mdc)
+(Masterclass → Lab/Portfolio → Workshop/Deliverable; D1–D5; geometrical BG law).
+
+The slideshow is **not** the lesson text, not the professor research brief, and
+not a research ledger. It is the in-class conceptual surface.
+
+## Two surfaces per unit (do not collapse)
+
+| Surface | Audience | Path pattern | Content |
+| ------- | -------- | ------------ | ------- |
+| **Professor brief** | Instructor | `creativity-techniques-pedagogy/forge/unit-enrichment/U*/PROFESSOR.md` (unpublished) | Full findings + session notes |
+| **Student slideshow** | Cohort | `docs/tracks/en/uem/2627-ct/u-N-*/` + `data/content.json` | Ideas + Lab/Workshop framing; public-safe only |
+| **Student lesson page** | Cohort | `docs/lessons/en/creativity-techniques/u-N-*/` | B1/B2/B3 prose; Chicago cites; gated provenance |
+
+## Mandatory deck spine (programmatic)
+
+Order is binding. Main Masterclass ideas stay **≤ 6**; Analysis / Lab / Workshop
+frame slides are structural and do **not** count against that six.
+
+```text
+C  unit_cover                       background_kind: profield     ← REQUIRED FIRST
+A  analysis_opener                  background_kind: geometrical   ← REQUIRED
+A+ analysis_model (optional)        background_kind: profield
+1… Masterclass ideas (≤ 6)          background_kind: profield | diagram
+N  lab_opener                       background_kind: geometrical   ← REQUIRED
+N+ Lab exercises (portfolio_bound)  background_kind: profield | none
+M  workshop_opener                  background_kind: geometrical   ← REQUIRED
+M+ Workshop work prompt             background_kind: none | diagram
+Z  outro / carry-forward            background_kind: geometrical   ← REQUIRED
+```
+
+`unit_cover` is the unit title / stake slide. It comes **before** analysis. Do not open the deck on analysis alone.
+
+`lab_opener` sentence (fixed intent, wording may vary slightly):
+
+> Exercises come next. Everything you produce in Lab goes into your **portfolio index**.
+
+The student **lesson** must contain the Analysis method in prose (language / medium / support + when defences start). Do not leave analysis only on the deck.
+## Background law
+
+| Role | Background |
+| ---- | ---------- |
+| Analysis model · Masterclass · Lab exercises | Accepted **Profield** media (public-safe fields only) |
+| Stance slides without a pack image | Course **diagram** — Koch triangle (`ct-koch-triangle-*.svg`), **not** Sierpinski |
+| `analysis_opener` · `lab_opener` · `workshop_opener` · `outro` | **Geometrical only** (`fractal-pass-track` SVGs) |
+| Never | Invented rights; Resource UUID / forger version in captions; Sierpinski as Masterclass fallback |
+
+Typed fields on each slide object:
+
+```yaml
+slide_role: unit_cover | analysis_opener | analysis_model | masterclass | lab_opener | lab_exercise | workshop_opener | workshop_work | outro
+background_kind: profield | geometrical | diagram | none
+media_slot_id: U1.still.example   # when background_kind: profield
+portfolio_bound: true | false
+portfolio_trace: "Save … in the portfolio index."
+quote: "Optional brief verbatim quotation (≤ ~40 words) when page-verified."
+```
+
+Student wording: prefer clear late-secondary / first-year voice. Prefer short verbs over managerial jargon. When a page-verified quote is brief and carries the main idea, put it on the slide *and* in the lesson.
+Public captions: title · credit · licence · source link. **Never** `resource_uuid`, `forger_version`, or review tags in square brackets.
+
+## Session arc (class time)
+
+| Block | Name | Student evidence |
+| ----- | ---- | ---------------- |
+| Analysis strip | Modelled analysis (s1–2) or 2×15 min defences (from s3) | D1 slideshow support |
+| Masterclass | Ideas + images | notes |
+| Lab | Exercises + debates | portfolio traces |
+| Workshop | Next deliverable clock | D1–D3 progress |
+
+Critical review / transposition: [`DISCURSIVE-CIRCULATION-FORGE.mdc`](./DISCURSIVE-CIRCULATION-FORGE.mdc) → **D2**.
+
+## Production route
+
+```text
+SESSION-RHYTHM-AND-DELIVERABLES
+→ enrichment PROFESSOR.md + MAIN-IDEAS.yml
+→ evidence matrix row
+→ lesson Markdown
+→ content.json (spine above)
+→ Reveal (student-media-deck.js)
+```
+
+## Implementation notes
+
+- Structural slides (`analysis_opener`, `lab_opener`, `workshop_opener`, `outro`) use `fractal-pass-track` SVGs only.
+- Masterclass diagram fallback: **Koch triangle** via `scripts/fractal-architecture/generate-koch-triangle.mjs` — do not use Sierpinski for deck Masterclass.
+- Profield images: **`npm run media:rehydrate`** reads `review-state.json` assignments (`project_id` + `unit_id`) as sole acceptance authority; URLs come from `media-index*.json`. Do not hard-code another unit’s sample images into a deck.
+- Public captions: title · credit · licence · source link. **Never** `resource_uuid`, `forger_version`, or review tags in square brackets.
+- Logo: transparent chrome — no card behind institutional logo.
+- Publication firewall: no studio infra names in rendered HTML.
+- Final event theme (TC): **What is creativity for you?**
+- Student lessons hub must state Analysis → Masterclass → Lab → Workshop: `docs/lessons/en/creativity-techniques/index.md`.

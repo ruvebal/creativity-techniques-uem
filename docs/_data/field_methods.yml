@@ -1,0 +1,98 @@
+schema: ct-field-methods/v1
+title: Methods — Creativity Techniques
+updated: 2026-09-13T00:00:00.000Z
+orientation: practice-learning
+methods:
+  - id: project-based-learning
+    title: Project-based learning
+    kind: practice-learning
+    summary: >
+      Learn by delivering a complete brief under constraints — not by collecting named techniques in
+      isolation. The project is the unit of meaning; techniques serve the brief.
+    steps:
+      - Receive or co-frame a design brief with criteria and deadline.
+      - Plan milestones (research, diverge, select, develop, deliver).
+      - Submit artefact + process note that explains decisions.
+    units:
+      - U1
+      - U2
+      - U3
+      - U4
+      - U5
+      - U6
+    references: []
+  - id: problem-solving-studio
+    title: Problem-solving studio
+    kind: practice-learning
+    summary: >
+      Treat creativity as situated problem work — frame the issue, explore options, test fitness,
+      and defend the choice. Wicked briefs need framing before tools.
+    steps:
+      - Name the problem and what would count as a good-enough answer.
+      - Generate options without early judgment.
+      - Select with explicit criteria and test against the brief.
+    units:
+      - U1
+      - U2
+      - U3
+      - U4
+    references: []
+  - id: diverge-converge-workshop
+    title: Diverge–converge workshop
+    kind: practice-learning
+    summary: >
+      Time-boxed sessions that separate opening (many options) from closing (selection). Fluency
+      without flexibility is one idea in many costumes.
+    steps:
+      - Protect a diverge window (quantity + variety).
+      - Switch modes deliberately into converge (criteria + pick).
+      - Record what was discarded and why.
+    units:
+      - U2
+      - U3
+    references: []
+  - id: critique-cycle
+    title: Critique cycle
+    kind: practice-learning
+    summary: >
+      Peer and tutor critique as a learning method — give/receive feedback that improves the next
+      iteration, not vanity praise. Process over polish alone.
+    steps:
+      - Present the brief, constraints, and current state briefly.
+      - Ask for specific feedback (criteria, gaps, next test).
+      - Log one change you will make before the next checkpoint.
+    units:
+      - U3
+      - U4
+      - U6
+    references: []
+  - id: iterative-prototyping
+    title: Iterative prototyping
+    kind: practice-learning
+    summary: >
+      Make rough, early versions so reaction teaches faster than speculation. Defer final polish
+      until the idea has survived contact with users or peers.
+    steps:
+      - Prototype the riskiest assumption first.
+      - Show it to someone who can react honestly.
+      - Revise once; decide when the brief is answered.
+    units:
+      - U3
+      - U5
+    references: []
+  - id: process-portfolio
+    title: Process portfolio
+    kind: practice-learning
+    summary: >
+      Evidence of learning is the trail — sketches, discarded options, criteria, and reflections —
+      not only the final image. Authorship includes how meaning was put into circulation and
+      revised.
+    steps:
+      - Keep a dated process folder for every project.
+      - Include at least one discarded path with a one-line reason.
+      - Disclose tools (including AI) and what you still own as judgment.
+    units:
+      - U4
+      - U5
+      - U6
+    references: []

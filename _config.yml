@@ -1,0 +1,95 @@
+title: 'Creativity Techniques'
+description: 'Creativity methods for design practice — lessons, methodology, and studio exercises for Creativity Techniques (Universidad Europea Creative Campus).'
+url: 'https://ruvebal.github.io'
+baseurl: '/creativity-techniques-uem'
+repository: 'ruvebal/creativity-techniques-uem'
+lang: en
+source: docs
+
+# Student-facing builds are fail-closed. Internal corpus provenance may only be
+# emitted when an operator explicitly changes this switch for a private build.
+publication:
+  publish_internal_metadata: false
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  parse_block_html: true
+  parse_span_html: true
+  show_warnings: false
+  auto_ids: true
+  auto_id_stripping: true
+  smart_quotes: [lsquo, rsquo, ldquo, rdquo]
+  entity_output: as_char
+  typographic_symbols:
+    hellip: '…'
+    ndash: '–'
+    mdash: '—'
+    laquo: '«'
+    raquo: '»'
+  footnote_nr: 1
+  footnote_backlink: '↩'
+  footnote_backlink_inline: true
+  footnote_backlink_class: 'footnote-back'
+  footnote_prefix: ''
+  toc_levels: 2..4
+theme: null
+highlighter: rouge
+permalink: /:categories/:path/
+
+include:
+  - lessons
+  - assets
+  - _data
+  - _plugins
+  - methodology
+  - tracks
+  - templates
+  - evaluation
+  - bibliography
+  - directory
+  - methods
+  - lexicum
+
+exclude:
+  - node_modules
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - scripts
+  - .github
+  - _research
+  - student-project-template
+  - creativity-techniques-pedagogy
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+collections:
+  lessons:
+    output: true
+    permalink: /lessons/:lang/:slug/
+  bibliography:
+    output: true
+    permalink: /bibliography/:lang/
+  methodology:
+    output: true
+    permalink: /methodology/:lang/
+  tracks:
+    output: true
+    permalink: /tracks/:lang/:slug/
+
+defaults:
+  - scope: { path: '' }
+    values: { lang: 'en' }
+  - scope: { path: 'lessons/en' }
+    values: { lang: 'en', layout: 'lesson' }
+  - scope: { path: 'methodology/en' }
+    values: { lang: 'en', layout: 'methodology' }
+  - scope: { path: 'tracks/en' }
+    values: { lang: 'en', layout: 'track' }
+  - scope: { path: 'bibliography/en' }
+    values: { lang: 'en', layout: 'default' }

@@ -1,0 +1,29 @@
+# Student slideshow payload — ≤ 6 main ideas
+unit_id: U4
+title_en: Applying creativity techniques in the workplace
+max_ideas: 6
+ideas:
+  - id: 1
+    heading: Conditions beat slogans
+    sentence: Workplaces foster or kill creativity through time, safety, and permission — not posters.
+    chicago: null
+  - id: 2
+    heading: Watch passion rhetoric
+    sentence: “Do anything for the brief” can mask unpaid labour and self-exploitation.
+    chicago: null
+  - id: 3
+    heading: Design the diverge window
+    sentence: Deadlines need a protected generation phase before pitch mode.
+    chicago: null
+  - id: 4
+    heading: Techniques meet stakeholders
+    sentence: Client briefs and validation change which ideas survive selection.
+    chicago: null
+  - id: 5
+    heading: Pitch is convergent craft
+    sentence: "Presenting is part of creativity technique: criteria, story, constraint honesty."
+    chicago: null
+  - id: 6
+    heading: Ethics inside the method
+    sentence: Judgment about harm, credit, and feasibility belongs in the workplace toolkit.
+    chicago: null

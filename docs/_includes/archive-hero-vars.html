@@ -1,0 +1,4 @@
+{% assign archive_cover = site.data.archive_covers[page.url] %}
+{% if archive_cover %}
+--hero-archive-image: url('{{ '/assets/images/archive-covers/' | append: archive_cover.asset | append: '.svg' | relative_url }}');
+{% endif %}

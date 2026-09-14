@@ -1,0 +1,12 @@
+id: iterative-prototyping
+title: Iterative prototyping
+kind: practice-learning
+summary: >
+  Make rough, early versions so reaction teaches faster than speculation.
+  Defer final polish until the idea has survived contact with users or peers.
+steps:
+  - Prototype the riskiest assumption first.
+  - Show it to someone who can react honestly.
+  - Revise once; decide when the brief is answered.
+units: [U3, U5]
+references: []

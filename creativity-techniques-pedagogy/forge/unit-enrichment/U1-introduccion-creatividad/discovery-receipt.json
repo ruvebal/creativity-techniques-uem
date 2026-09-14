@@ -1,0 +1,29 @@
+{
+  "schema": "ct-unit-enrichment-receipt/v1",
+  "unit_id": "U1",
+  "title_en": "Introduction to creativity and its importance",
+  "run_at": "2026-09-13T15:30:00+02:00",
+  "project_slug_primary": "profield-creativity-techniques",
+  "knowledge_scope": "field_prospection",
+  "fieldlex_scheme": "foundations_importance",
+  "pass1": "creativity-techniques-pedagogy/grounding/pass1.edited.md",
+  "queries": [
+    {
+      "slug": "profield-creativity-techniques",
+      "query": "Guilford divergent convergent thinking teachable creativity talent myth studio pedagogy design thinking Sch\u00f6n reflective practice"
+    },
+    {
+      "slug": "profield-creativity-techniques",
+      "query": "Amabile intrinsic motivation Consensual Assessment Technique creativity in context"
+    },
+    {
+      "slug": "pass1+fieldlex",
+      "query": "Divergent\u2013Convergent Rhythm; Teachable Creativity; Talent Myth; Wicked Problem; Design Thinking Discourse; Reflective Practice"
+    }
+  ],
+  "hit_notes": "DevIAC search_knowledge 2026-09-13; cite candidates only \u2014 Ahmes resolve before lesson Chicago",
+  "combine_relate_discuss": "creativity-techniques-pedagogy/grounding/COMBINE-RELATE-DISCUSS.md",
+  "evidence_matrix": "creativity-techniques-pedagogy/grounding/EVIDENCE-MATRIX.md",
+  "athanor_cli_project_row": "missing for profield-creativity-techniques \u2014 vectors live",
+  "main_ideas_count": 6
+}

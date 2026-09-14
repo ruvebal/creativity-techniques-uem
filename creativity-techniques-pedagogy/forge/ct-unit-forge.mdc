@@ -1,0 +1,72 @@
+---
+description: Forge one Creativity Techniques unit into lesson + studio brief + exercises + Reveal slideshow — hours bound to UEM guía
+globs: 'creativity-techniques-pedagogy/**,docs/lessons/**,docs/tracks/**'
+alwaysApply: false
+---
+
+# UNIT FORGE — Creativity Techniques (UEM · Grado en Diseño · Year 3)
+
+> One unit in → professor enrichment consumed → student lesson + **Reveal slideshow** (≤ 6 main ideas) + studio/exercise artefacts.
+> Pattern sibling: `digital-creativity-uem/digital-creativity-pedagogy/dc-unit-forge.mdc`.
+> Studio skill: `~/src/.cursor/skills/curriculum-forger` + `references/institution-ct.md`.
+
+## 0. Hard prerequisites (fail closed)
+
+1. [`SESSION-RHYTHM-AND-DELIVERABLES.mdc`](./SESSION-RHYTHM-AND-DELIVERABLES.mdc) — Masterclass → Lab → Workshop; D1–D5; geometrical `lab_opener` / `workshop_opener` / `outro`.  
+2. [`UNIT-THEME-ENRICHMENT.mdc`](./UNIT-THEME-ENRICHMENT.mdc) pack for this unit is complete (`PROFESSOR.md` + `MAIN-IDEAS.yml`) — board: [`unit-enrichment/INDEX.md`](./unit-enrichment/INDEX.md).  
+3. Grounding synthesis read: [`../grounding/COMBINE-RELATE-DISCUSS.md`](../grounding/COMBINE-RELATE-DISCUSS.md) + [`../grounding/pass1.edited.md`](../grounding/pass1.edited.md) + unit row in [`../grounding/EVIDENCE-MATRIX.md`](../grounding/EVIDENCE-MATRIX.md).  
+4. [`DISCURSIVE-CIRCULATION-FORGE.mdc`](./DISCURSIVE-CIRCULATION-FORGE.mdc) — **critical review trans-unit** (D2); every unit names lenguaje/medio/soporte + one circulation moment.  
+5. [`STUDENT-SLIDESHOW-FORGE.mdc`](./STUDENT-SLIDESHOW-FORGE.mdc) spine respected (≤ 6 Masterclass ideas + mandatory Lab/Workshop frame slides).  
+6. Official contract: guía JSON — **150 h** presencial; contact-forgeable **80 h**; evaluation **60/40**.  
+7. Discover in vectors · **cite Ahmes nodes only** (or honest `chicago: null` for pilot).
+
+Do **not** invent CONTENIDOS. Critical layers C1–C3 are pedagogy-only. Student **Methods** stays practice-oriented.
+
+## 1. Artefacts out
+
+| Artefact | Path |
+| -------- | ---- |
+| Student lesson (EN) | `docs/lessons/en/creativity-techniques/u-N-*/index.md` |
+| Student slideshow | `docs/tracks/en/uem/2627-ct/u-N-*/` + `data/content.json` (Reveal) |
+| Track index link | `docs/tracks/en/creativity-techniques/index.md` |
+| Professor brief | already in `forge/unit-enrichment/U*/PROFESSOR.md` (do not publish) |
+
+## 2. Hour mapping (guía clone — Design degree)
+
+Pedagogical slices of the **80 h** contact bucket across U1–U6. Close course totals in `docs/_data/tracks.yml`. Do not invent a week timetable.
+
+| Official activity | Course hours | Forge role |
+| ----------------- | ------------ | ---------- |
+| Clases magistrales | 32 | B1 + **slideshow** |
+| Ejercicios / resolución | 20.5 | B3 |
+| Exposición oral | 5 | presentation evidence |
+| Informes y escritos | 13.5 | written evidence |
+| Debates y coloquios | 9 | B1 debate prompts |
+| Trabajo autónomo · Tutoría · Pruebas | 50 · 18 · 2 | course residuals |
+
+## 3. Slideshow (mandatory)
+
+Every lesson includes a Reveal deck per [`STUDENT-SLIDESHOW-FORGE.mdc`](./STUDENT-SLIDESHOW-FORGE.mdc):
+
+- ≤ 6 Masterclass ideas from enrichment `MAIN-IDEAS.yml`
+- Required **`unit_cover`** first (title / stake), then **`analysis_opener`** (geometrical) and optional analysis model (Profield)
+- Lesson Markdown **must** contain Analysis method prose (language / medium / support; session-3 defence cadence) — not only a link to the deck
+- Required **`lab_opener`** (geometrical) before portfolio-bound exercises
+- Required **`workshop_opener`** + **`outro`** (geometrical)
+- Masterclass / Lab images from Profield public-safe assets; Koch triangle only as diagram fallback (never Sierpinski; never Resource UUID in captions)
+- Student voice: clear enough for a late-secondary / first-year reader; optional brief page-verified `quote` on idea slides
+
+Map B1 → Masterclass · B2/Lab exercises → portfolio · B3/Workshop → next deliverable (D1–D3).
+
+## 4. Waves (suggested)
+
+1. Enrichment pack (if missing)  
+2. Evidence matrix row  
+3. Lesson B1 prose from main ideas  
+4. B2 studio brief · B3 individual problem  
+5. Slideshow `content.json`  
+6. Publication gate  
+
+## 5. Honest stop
+
+If enrichment is incomplete, **stop**. Do not forge a decorative lesson from vector snippets alone.

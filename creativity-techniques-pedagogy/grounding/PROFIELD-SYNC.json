@@ -1,0 +1,48 @@
+{
+  "schema": "profield-curriculum-sync/v1",
+  "generated_at": "2026-09-11T13:10:00+00:00",
+  "authority": "curriculum root is mutable publication head; Profield run + fieldlex YAML are evidence / vocabulary factories",
+  "course": "creativity-techniques",
+  "source_run": "creativity-techniques/20260909",
+  "fieldlex_field": "creativity_techniques",
+  "fieldlex_concepts": 76,
+  "lexicum": {
+    "path": "/Users/ruvebal/src/profield/runs/creativity-techniques/20260909/lexicum.yaml",
+    "linked_as": "creativity-techniques-pedagogy/grounding/lexicum.yaml"
+  },
+  "media": {
+    "vocabulary": "fields/media-prospector/media-prospector-ct.yaml",
+    "queue": "/Users/ruvebal/src/profield/runs/creativity-techniques/20260909/media-query-queue.yaml",
+    "queue_seeds": 178,
+    "image_sources": "/Users/ruvebal/src/profield/runs/creativity-techniques/20260909/IMAGE-SOURCES.md",
+    "sample_run": "runs/media-prospector/CT/U2/20260911T130000Z"
+  },
+  "curriculum": {
+    "pdf_code": "9990002301",
+    "ahmes_vault": "/Users/ruvebal/ahmes-library/scholar/documents/9990002301_3cd91cef",
+    "document_id": "936c6463-d112-5950-b1a5-e1c400da9ddc",
+    "guia_json": "creativity-techniques-pedagogy/cv/guides/guia-tecnicas-de-creatividad-diseno-2025-26.json"
+  },
+  "grounding": {
+    "bibliography_dir": "/Users/ruvebal/projects/ruvebal/scholar/bibliographies/creativity",
+    "deviac_project_slug": "profield-creativity-techniques",
+    "knowledge_scope": "field_prospection",
+    "cite_rule": "Ahmes nodes only; vectors are discovery",
+    "pass1_linked": "creativity-techniques-pedagogy/grounding/pass1.edited.md",
+    "combine_relate_discuss": "creativity-techniques-pedagogy/grounding/COMBINE-RELATE-DISCUSS.md",
+    "evidence_matrix": "creativity-techniques-pedagogy/grounding/EVIDENCE-MATRIX.md",
+    "enrichment_run": "2026-09-13",
+    "unit_enrichment": "creativity-techniques-pedagogy/forge/unit-enrichment/"
+  },
+  "approved_edits": [
+    "2026-09-13: linked pass1.edited.md; ran DevIAC field_prospection queries U1–U6; wrote COMBINE-RELATE-DISCUSS + enrichment packs"
+  ],
+  "deferred": [
+    "Pass-3 DOI/URL tool verification on pass1.edited.md",
+    "MP7 media-queue-from-panorama CLI",
+    "Full CT media cascade U1–U6 + C1–C3",
+    "Athanor project row visibility vs DevIAC slug (vectors already live)",
+    "Ahmes coat·node·page resolve for evidence-matrix candidate rows",
+    "Unit forge lessons under docs/ (packs ready; cites still gated)"
+  ]
+}

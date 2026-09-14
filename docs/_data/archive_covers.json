@@ -1,0 +1,50 @@
+{
+	"/": {
+		"asset": "archive-home",
+		"title": "Creativity Techniques",
+		"family": "ct-flame",
+		"mode": "archive"
+	},
+	"/tracks/": {
+		"asset": "archive-tracks",
+		"title": "Track",
+		"family": "ct-coral",
+		"mode": "archive"
+	},
+	"/tracks/en/": {
+		"asset": "archive-tracks-en",
+		"title": "Track",
+		"family": "ct-flame",
+		"mode": "archive"
+	},
+	"/tracks/en/creativity-techniques/": {
+		"asset": "archive-ct",
+		"title": "Creativity Techniques · Year 3",
+		"family": "ct-flame",
+		"mode": "archive"
+	},
+	"/tracks/en/uem/2627-ct/": {
+		"asset": "archive-2627-ct",
+		"title": "Creativity Techniques · 2026–27",
+		"family": "ct-coral",
+		"mode": "archive"
+	},
+	"/methodology/en/": {
+		"asset": "archive-methodology",
+		"title": "Methodology",
+		"family": "ct-flame",
+		"mode": "archive"
+	},
+	"/evaluation/": {
+		"asset": "archive-evaluation",
+		"title": "Evaluation",
+		"family": "ct-coral",
+		"mode": "archive"
+	},
+	"/bibliography/en/": {
+		"asset": "archive-bibliography",
+		"title": "Bibliography",
+		"family": "ct-flame",
+		"mode": "archive"
+	}
+}

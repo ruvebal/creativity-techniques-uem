@@ -1,0 +1,22 @@
+id: six-thinking-hats
+title: Six Thinking Hats
+kind: practitioner
+funding: null
+summary: Role-separated group ideation (de Bono) — still rehearsed in design studios to structure parallel perspectives before convergence.
+steps:
+  - Assign or rotate coloured “hats” (roles/perspectives).
+  - Generate without collapsing into debate too early.
+  - Converge with explicit selection criteria.
+fieldlex:
+  - ct:sixThinkingHats
+  - ct:lateralThinking
+  - ct:divergentThinking
+units: [U2]
+references:
+  - 'De Bono, Edward. 1985. Six Thinking Hats. Little, Brown.'
+athanor:
+  ingested: false
+  project_slugs: [profield-creativity-techniques]
+  status: candidate
+  note: Pass-1 practitioner anchor; primary PDF coat not required for method gesture teaching.
+url: null

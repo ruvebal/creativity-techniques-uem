@@ -1,0 +1,608 @@
+/* ==========================================================================
+   WEB ATELIER - Print Stylesheet
+   Purpose: Optimize lesson content for PDF/print output
+   ========================================================================== */
+
+@media print {
+	/* --------------------------------------------------------------------------
+	   1. Page Setup
+	   -------------------------------------------------------------------------- */
+	/* Print page header - positioned at top of every page */
+	.print-page-header {
+		position: running(page-header);
+		font-size: 7.5pt;
+		color: #555;
+		text-align: center;
+		display: block;
+	}
+
+	@page {
+		size: A4;
+		margin: 1.2cm 1.5cm 2cm 1.5cm; /* More bottom margin for footer spacing */
+
+		@top-center {
+			content: element(page-header);
+			font-size: 7.5pt;
+			color: #555;
+		}
+
+		@bottom-left {
+			content: 'Rubén Vega Balbás, PhD — Creative Technologist & Developer · ruben.vega@universidadeuropea.es · ORCID 0000-0001-6862-9081';
+			font-size: 7.5pt;
+			color: #555;
+		}
+
+		@bottom-right {
+			content: 'Page ' counter(page) ' / ' counter(pages);
+			font-size: 7.5pt;
+			color: #555;
+		}
+	}
+
+	/* --------------------------------------------------------------------------
+	   2. Hide Non-Essential Elements (but keep lesson header and TOC)
+	   -------------------------------------------------------------------------- */
+	/* Hide site header/footer, not lesson content */
+	body > header,
+	body > nav,
+	body > footer,
+	header[class*='sticky'],
+	.sidebar,
+	.nav-toggle,
+	.search-container,
+	.breadcrumb,
+	.footer-nav,
+	.edit-on-github,
+	.interactive-demo,
+	video,
+	iframe,
+	.skip-link,
+	.copy-code-btn,
+	.no-print,
+	.sr-only {
+		display: none !important;
+	}
+
+	/* Show canonical URL in print header (first page) */
+	article.lesson > header .canonical-url {
+		display: block !important;
+		font-size: 7pt !important;
+		color: #333 !important;
+		margin-top: 0.2em !important;
+		margin-bottom: 0.2em !important;
+		word-break: break-all;
+		page-break-after: avoid;
+	}
+
+	article.lesson > header .canonical-url a {
+		color: #333 !important;
+		text-decoration: underline !important;
+		text-decoration-thickness: 0.5pt;
+		text-underline-offset: 1pt;
+	}
+
+	/* --------------------------------------------------------------------------
+	   3. Typography & Colors - Compact sizing
+	   -------------------------------------------------------------------------- */
+	body {
+		font-family: 'Georgia', 'Times New Roman', serif;
+		font-size: 9pt;
+		line-height: 1.3;
+		color: #000 !important;
+		background: #fff !important;
+		/* Hide scrollbars in print */
+		overflow: visible !important;
+		scrollbar-width: none;
+		-ms-overflow-style: none;
+	}
+
+	body::-webkit-scrollbar,
+	*::-webkit-scrollbar {
+		display: none !important;
+		width: 0 !important;
+		height: 0 !important;
+	}
+
+	/* Lesson header styling - hide redundant info */
+	article.lesson > header {
+		display: block !important;
+		margin-bottom: 1em !important;
+		padding-bottom: 0.5em !important;
+		border-bottom: 1px solid #333 !important;
+	}
+
+	/* Hide redundant WEB ATELIER subtitle */
+	article.lesson > header > div:first-child {
+		display: none !important;
+	}
+
+	/* Hide duplicate title (already in page header) */
+	article.lesson > header h1 {
+		display: none !important;
+	}
+
+	/* Hide duplicate URL */
+	article.lesson > header .canonical-url {
+		display: none !important;
+	}
+
+	/* Hide author/date line (redundant) */
+	article.lesson > header p:last-child {
+		display: none !important;
+	}
+
+	article.lesson > header p {
+		font-size: 8pt;
+		margin: 0.2em 0 !important;
+		color: #333 !important;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: 'Helvetica Neue', Arial, sans-serif;
+		color: #000 !important;
+		page-break-after: avoid;
+		break-after: avoid;
+	}
+
+	/* Main content headings - more vertical margin, especially after */
+	.prose h1 {
+		font-size: 12pt;
+		margin-top: 1.2em;
+		margin-bottom: 1.2em;
+	}
+
+	.prose h2 {
+		font-size: 11pt;
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+
+	.prose h3 {
+		font-size: 10pt;
+		margin-top: 0.9em;
+		margin-bottom: 0.9em;
+	}
+
+	.prose h4 {
+		font-size: 9.5pt;
+		margin-top: 0.8em;
+		margin-bottom: 0.8em;
+	}
+
+	/* --------------------------------------------------------------------------
+	   4. Page Break Control
+	   -------------------------------------------------------------------------- */
+	h1,
+	h2,
+	h3,
+	h4 {
+		page-break-after: avoid;
+		break-after: avoid;
+	}
+
+	p,
+	li {
+		orphans: 2;
+		widows: 2;
+		margin-top: 0.9em;
+		margin-bottom: 0.9em;
+		/* Prevent breaking paragraphs across pages */
+		page-break-inside: avoid;
+		break-inside: avoid;
+	}
+
+	/* Reduce spacing in lists */
+	ul,
+	ol {
+		margin-top: 0.3em;
+		margin-bottom: 0.3em;
+		padding-left: 1.2em;
+	}
+
+	li {
+		margin-top: 0.2em;
+		margin-bottom: 0.2em;
+	}
+
+	pre,
+	code,
+	table,
+	figure,
+	img,
+	ul,
+	ol {
+		page-break-inside: avoid;
+		break-inside: avoid;
+	}
+
+	.chapter,
+	.lesson-section {
+		page-break-before: always;
+		break-before: page;
+	}
+
+	/* --------------------------------------------------------------------------
+	   5. Links - Only show URL if link text doesn't already contain it
+	   -------------------------------------------------------------------------- */
+	/* Hide URL append for links that already show the URL in their text */
+	a[href*='http']:not([href*='localhost']):after {
+		content: none;
+	}
+
+	/* Only show URL for localhost/relative links that need clarification */
+	a[href^='http://localhost']:after,
+	a[href^='https://localhost']:after {
+		content: ' (' attr(href) ')';
+		font-size: 0.75em;
+		color: #666;
+		word-break: break-all;
+	}
+
+	/* Don't show URL for anchor links or relative paths */
+	a[href^='#']:after,
+	a[href^='/']:after {
+		content: none;
+	}
+
+	/* --------------------------------------------------------------------------
+	   6. Code Blocks - Compact with reduced line spacing
+	   -------------------------------------------------------------------------- */
+	pre {
+		background: #e8e8e8 !important;
+		border: 0.5pt solid #999;
+		padding: 0.5em !important;
+		font-size: 7.5pt !important;
+		line-height: 1.2 !important;
+		overflow-x: visible;
+		white-space: pre-wrap;
+		word-wrap: break-word;
+		margin-top: 0.4em !important;
+		margin-bottom: 0.4em !important;
+		/* Hide scrollbars */
+		scrollbar-width: none;
+		-ms-overflow-style: none;
+	}
+
+	pre::-webkit-scrollbar {
+		display: none;
+	}
+
+	pre code {
+		font-size: 7.5pt !important;
+		line-height: 1.2 !important;
+		padding: 0 !important;
+		background: transparent !important;
+	}
+
+	code {
+		font-family: 'Consolas', 'Monaco', monospace;
+		font-size: 8pt;
+		background: #e8e8e8;
+		padding: 0.1em 0.2em;
+	}
+
+	/* --------------------------------------------------------------------------
+	   7. Tables
+	   -------------------------------------------------------------------------- */
+	table {
+		border-collapse: collapse;
+		width: 100%;
+		margin: 1em 0;
+	}
+
+	th,
+	td {
+		border: 1px solid #333;
+		padding: 0.5em;
+		text-align: left;
+	}
+
+	th {
+		background: #d0d0d0 !important;
+		font-weight: bold;
+	}
+
+	/* --------------------------------------------------------------------------
+	   8. Images
+	   -------------------------------------------------------------------------- */
+	img {
+		max-width: 100% !important;
+		height: auto !important;
+	}
+
+	figure {
+		margin: 0.4em 0 !important;
+		text-align: center;
+	}
+
+	figcaption {
+		font-size: 7.5pt !important;
+		font-style: italic;
+		color: #333;
+		margin-top: 0.2em !important;
+	}
+
+	/* --------------------------------------------------------------------------
+	   9. Blockquotes & Callouts - More vertical margin, restyled code inside
+	   -------------------------------------------------------------------------- */
+	blockquote,
+	.prose blockquote,
+	article blockquote,
+	.prose > blockquote {
+		border-left: 1pt solid #999 !important;
+		margin-top: 1.2em !important;
+		margin-bottom: 1.2em !important;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+		padding-left: 1em !important;
+		padding-top: 0.8em !important;
+		padding-bottom: 0.8em !important;
+		padding-right: 0.5em !important;
+		font-style: italic;
+		color: #333;
+		font-size: 8.5pt;
+	}
+
+	/* Code inside blockquotes - lighter and more padding */
+	blockquote code,
+	.prose blockquote code {
+		background: #f5f5f5 !important;
+		color: #555 !important;
+		padding: 0.2em 0.4em !important;
+		border: 0.5pt solid #ddd !important;
+		font-size: 7.5pt !important;
+	}
+
+	blockquote pre,
+	.prose blockquote pre {
+		background: #f5f5f5 !important;
+		border: 0.5pt solid #ddd !important;
+		padding: 0.6em !important;
+		margin: 0.4em 0 !important;
+		font-size: 7pt !important;
+	}
+
+	blockquote pre code,
+	.prose blockquote pre code {
+		background: transparent !important;
+		border: none !important;
+		padding: 0 !important;
+		color: #555 !important;
+	}
+
+	/* Quote attribution - break to block, add spacing */
+	blockquote figcaption,
+	.prose blockquote figcaption,
+	figure.quote figcaption,
+	.prose figure.quote figcaption {
+		display: block !important;
+		margin-top: 0.8em !important;
+		margin-bottom: 0 !important;
+		text-align: right !important;
+		font-style: normal !important;
+		font-size: 7.5pt !important;
+		color: #666 !important;
+	}
+
+	/* Links after attribution - break to block */
+	blockquote figcaption a,
+	.prose blockquote figcaption a,
+	figure.quote figcaption a,
+	.prose figure.quote figcaption a {
+		display: block !important;
+		margin-top: 0.3em !important;
+		text-align: right !important;
+	}
+
+	/* Footnotes inside quotes - lighter color */
+	blockquote .footnotes,
+	.prose blockquote .footnotes,
+	blockquote sup,
+	.prose blockquote sup,
+	blockquote sup a,
+	.prose blockquote sup a {
+		color: #888 !important;
+		font-size: 7pt !important;
+	}
+
+	.callout,
+	.note,
+	.warning,
+	.tip {
+		border: 0.5pt solid #666;
+		padding: 0.5em !important;
+		margin: 0.4em 0 !important;
+		background: #e8e8e8 !important;
+		font-size: 8.5pt;
+	}
+
+	/* --------------------------------------------------------------------------
+	   10. Print-Only Elements
+	   -------------------------------------------------------------------------- */
+	.print-only {
+		display: block !important;
+	}
+
+	.print-footer {
+		position: fixed;
+		bottom: 0;
+		font-size: 8pt;
+		color: #999;
+	}
+
+	/* --------------------------------------------------------------------------
+	   11. Remove Dark Mode Styles for Print
+	   -------------------------------------------------------------------------- */
+	.dark {
+		background: #fff !important;
+		color: #000 !important;
+	}
+
+	/* --------------------------------------------------------------------------
+	   12. Prose Content Optimization - Compact layout
+	   -------------------------------------------------------------------------- */
+	.prose {
+		max-width: 100% !important;
+		color: #000 !important;
+		font-size: 9pt !important;
+		line-height: 1.3 !important;
+	}
+
+	.prose p {
+		margin-top: 0.9em !important;
+		margin-bottom: 0.9em !important;
+		/* Prevent breaking paragraphs across pages */
+		page-break-inside: avoid !important;
+		break-inside: avoid !important;
+	}
+
+	.prose a {
+		color: #000 !important;
+		text-decoration: underline;
+		text-decoration-thickness: 0.1pt !important;
+		text-underline-offset: 1pt;
+		text-decoration-color: #ccc !important;
+	}
+
+	/* Thinnest possible underlines for all links */
+	a {
+		text-decoration-thickness: 0.1pt !important;
+		text-underline-offset: 1pt !important;
+		text-decoration-color: #ccc !important;
+	}
+
+	.prose code {
+		background: #e8e8e8 !important;
+		color: #000 !important;
+		font-size: 8pt !important;
+	}
+
+	.prose pre {
+		background: #e8e8e8 !important;
+		color: #000 !important;
+	}
+
+	/* --------------------------------------------------------------------------
+	   13. Table of Contents - Allow page breaks, make more compact
+	   -------------------------------------------------------------------------- */
+	aside {
+		display: block !important;
+		/* Allow TOC to break across pages */
+		page-break-inside: auto;
+	}
+
+	#toc-sidebar-placeholder,
+	#markdown-toc {
+		display: block !important;
+		font-size: 7pt !important;
+		line-height: 1.15 !important;
+		margin-bottom: 0.2em !important;
+		/* Allow breaking */
+		page-break-inside: auto;
+		max-height: none !important;
+		overflow: visible !important;
+	}
+
+	#toc-sidebar-placeholder ul,
+	#markdown-toc ul {
+		list-style: none !important;
+		padding-left: 0.5em !important;
+		margin-top: 0.05em !important;
+		margin-bottom: 0.05em !important;
+		/* Allow breaking */
+		page-break-inside: auto;
+	}
+
+	#toc-sidebar-placeholder li,
+	#markdown-toc li {
+		margin-top: 0.05em !important;
+		margin-bottom: 0.05em !important;
+		/* Allow breaking */
+		page-break-inside: auto;
+		orphans: 1;
+		widows: 1;
+	}
+
+	#toc-sidebar-placeholder a,
+	#markdown-toc a {
+		color: #000 !important;
+		text-decoration: none;
+	}
+
+	/* TOC container styling - allow breaking, more compact */
+	aside nav {
+		display: block !important;
+		page-break-inside: auto;
+		max-height: none !important;
+		overflow: visible !important;
+	}
+
+	aside nav > div {
+		background: #e8e8e8 !important;
+		border: 0.5pt solid #999 !important;
+		padding: 0.3em !important;
+		margin-bottom: 0.3em !important;
+		/* Allow breaking */
+		page-break-inside: auto;
+		max-height: none !important;
+		overflow: visible !important;
+	}
+
+	aside nav h2 {
+		display: none !important; /* Hide "TABLE OF CONTENTS" heading - redundant */
+	}
+
+	/* --------------------------------------------------------------------------
+	   14. Reduce overall spacing and margins
+	   -------------------------------------------------------------------------- */
+	article.lesson {
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+
+	article.lesson > div {
+		margin: 0 !important;
+		gap: 0.5em !important;
+	}
+
+	/* Add extra space before footer - last elements */
+	article.lesson > div > *:last-child,
+	.prose > *:last-child {
+		margin-bottom: 1.5em !important;
+		padding-bottom: 0.5em !important;
+	}
+
+	/* Additional spacing reductions */
+	.prose figure {
+		margin-top: 0.4em !important;
+		margin-bottom: 0.4em !important;
+	}
+
+	/* Horizontal rules - Dashed, thin, with more vertical margin */
+	hr,
+	.prose hr,
+	article hr,
+	.prose > hr {
+		margin-top: 1.5em !important;
+		margin-bottom: 1.5em !important;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+		border: none !important;
+		border-top: 0.3pt dashed #bbb !important;
+		height: 0 !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+}
+
+/* Hide print-only elements on screen */
+@media screen {
+	.print-only {
+		display: none;
+	}
+}

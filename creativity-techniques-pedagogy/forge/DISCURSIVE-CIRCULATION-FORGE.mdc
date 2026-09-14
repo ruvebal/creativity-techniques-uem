@@ -1,0 +1,191 @@
+---
+description: Master forge for discursive circulation — language / medium / support + Verónian reception pedagogy for Creativity Techniques
+globs: 'creativity-techniques-pedagogy/forge/**,docs/lessons/**,docs/tracks/**'
+alwaysApply: false
+---
+
+# DISCURSIVE CIRCULATION FORGE — Creativity Techniques (UEM)
+
+**Role:** course-wide **critical review trans-unit** — grounds deliverable **D2 Transposition**
+(free format · palimpsest · discursive circulation as cultural feedback).
+Not a fake CONTENIDOS ID. Sibling session contract:
+[`SESSION-RHYTHM-AND-DELIVERABLES.mdc`](./SESSION-RHYTHM-AND-DELIVERABLES.mdc).
+
+Sibling of Digital Creativity’s [`IMAGE-ONTOLOGY-FORGE.mdc`](../../../../digital-creativity-uem/digital-creativity-pedagogy/forge/IMAGE-ONTOLOGY-FORGE.mdc)
+(DC D2 = transposition **into an image**).
+
+Forge a **foundational masterclass** (before or across U1–U6) that teaches creativity
+students the correct pedagogical stake: **meaning is produced in reception** —
+the communicative artefact is not a fixed form but a **form in circulation**
+(palimpsest: overwritten, re-read, re-mediated). Do not teach “forms as forms”;
+teach **forms as they travel**.
+
+Canonical frame: **circulación discursiva** (discursive circulation) — Verón,
+Steimberg, Carlón — with Anglo-Saxon contact in Hall’s encoding/decoding.
+
+## Pedagogical thesis (binding)
+
+```text
+Meaning is not sealed at production.
+Meaning happens in the gap between production and recognition.
+Creativity techniques put signs into circulation; audiences re-signify them.
+The studio artefact is a communicative object in motion — a palimpsest under brief.
+```
+
+Students must leave able to name **where** a technique acts (language / medium /
+support) and **what happens** when the piece is put into discursive circulation.
+
+## Core triad — do not collapse these terms
+
+| Spanish | English (course) | What it is | Examples |
+| ------- | ---------------- | ---------- | -------- |
+| **Lenguaje** | Language / code / semiotic system | Structured system of signs, rules, symbols that *generate* meaning | Visual code, typographic system, brand lexicon, musical language |
+| **Medio** | Medium (pl. media) | Socio-technical *channel*, form, or institution through which messages are organised | Television, cinema, print press, Instagram, pitch deck as institutional genre |
+| **Soporte** | Support / carrier / material substrate | Concrete physical or technical material that *holds* signifiers | Paper, canvas, magnetic tape, screen, optical disc, PDF file |
+
+Teaching rule: a creativity technique always lands somewhere in this triad.
+Example — *Oblique Strategies* cards are a **language** (constraint prompts) on a
+**support** (cards/paper/app) circulating in a **medium** (studio workshop /
+band session). Never call the screen “the medium” when you mean the substrate.
+
+## Discursive circulation — required vocabulary
+
+| Term (ES) | Term (EN) | Role in studio |
+| --------- | --------- | -------------- |
+| Circulación discursiva | Discursive circulation | Non-linear gap between production and recognition where social meaning is negotiated |
+| Puesta en circulación discursiva | Enactment of discursive circulation | Inserting a text/sign system into the social sphere so it can be interpreted and transformed |
+| Condiciones de producción | Conditions of production | Brief, institution, technical supports, semiotic rules that generate the text |
+| Condiciones de reconocimiento | Conditions of recognition / reception | Cultural and semiotic rules under which publics decode or re-signify |
+| Desajuste / décalage | Gap / asymmetry | Production never guarantees recognition (Verón) |
+| Contrato de lectura | Reading / enunciative contract | Implicit pact of tone, style, trust between enunciator and enunciatee |
+| Mediatización | Mediatization | Historical process by which practices become structured by media systems |
+| Hipermediatización | Hypermediatization (Carlón) | Bidirectional flow mass media ↔ social platforms; linear circulation breaks |
+
+Theoretical comparison to keep short in slides:
+
+| Focus | English | Primary theorists |
+| ----- | ------- | ----------------- |
+| Circulación | Discursive circulation | Eliseo Verón |
+| Géneros / estilos | Generic transgression & recirculation | Oscar Steimberg |
+| Hipercirculación | Hypercirculation / inter-systemic | Mario Carlón |
+
+Anglo parallel (one slide max): Hall (1980) encoding/decoding — not a substitute
+for Verón, a contact point for bilingual cohorts.
+
+## Ontology for creativity techniques (detection axes)
+
+Every student artefact is classified on **three** independent axes (do not merge):
+
+### A. Triad location
+
+```text
+language_code
+medium_institution
+support_substrate
+hybrid_triad
+```
+
+### B. Circulation moment
+
+```text
+conditions_of_production
+puesta_en_circulacion
+conditions_of_recognition
+gap_desajuste
+hypercirculation_loop
+```
+
+### C. Technique job (course CONTENIDOS)
+
+```text
+generate
+select
+develop
+workplace_transfer
+tech_mediation
+personal_agency
+```
+
+Students must never infer “the message got through” from polish alone. Record
+brief, support, medium, intended reading contract, and one plausible misreading.
+
+## Required lecture arc
+
+1. Why forms-as-forms fail creativity education — reception generates meaning.
+2. Lenguaje / medio / soporte — three terms, three mistakes to avoid.
+3. Putting a technique into circulation (puesta en circulación).
+4. Production vs recognition; the gap (desajuste).
+5. Reading contract in pitches, ads, and studio critiques.
+6. Palimpsest: iteration as overwriting under the same brief.
+7. Hypermediatization: platform loops and originality theatre (tie U5 lightly).
+8. Detection exercise: classify five artefacts on axes A–C.
+
+## 120-minute session
+
+```text
+00–25  students map one familiar ad/post: language / medium / support
+25–55  lecture: triad + discursive circulation + gap + reading contract
+55–85  circulation cards: production conditions → puesta → recognition → gap
+85–120 workshop: rewrite one card after peer recognition; save to process portfolio
+```
+
+Student slideshow: **≤ 6 main ideas** after title (same law as
+`STUDENT-SLIDESHOW-FORGE.mdc`). Professor brief holds the full theory ladder.
+
+## Output contract
+
+Produce:
+
+- Master session prompt (EN) under `forge/session-prompts/discursive-circulation.md`
+  (ES later if required by institution — site is EN-first);
+- Student slideshow payload (`MAIN-IDEAS.yml` style, ≤ 6 ideas);
+- Circulation-card exercise template (triad + circulation moment + technique job);
+- Evidence / bibliography shortlist from the lists below — Ahmes resolve before
+  Chicago in public HTML; honest `[BIBLIO-GAP]` in gated provenance only;
+- Link from enrichment / unit forge: every U* brief should name at least one
+  triad location and one circulation moment.
+
+Do **not** turn Methods into a research-programme catalogue. Practice methods
+stay project/problem/critique/prototyping/process (see `/methods/en/`).
+
+## Bibliographic spine (professor; resolve before student Chicago)
+
+### Triad / multimodality
+
+- Chandler, D. (2017). *Semiotics: The Basics* (3rd ed.). Routledge.
+- Elleström, L. (Ed.). (2010). *Media Borders, Multimodality and Intermediality*. Palgrave Macmillan.
+- Kress, G., & van Leeuwen, T. (2001). *Multimodal Discourse: The Modes and Media of Contemporary Communication*. Arnold.
+- Manovich, L. (2001). *The Language of New Media*. MIT Press.
+- McLuhan, M. (1964). *Understanding Media: The Extensions of Man*. McGraw-Hill.
+
+### Discursive circulation (Latin American socio-semiotics)
+
+- Verón, E. (1987). *La semiosis social: Fragmentos de una teoría de la discursividad*. Gedisa.
+- Verón, E. (2013). *La semiosis social, 2: Ideas, momentos, interpretantes*. Paidós.
+- Steimberg, O. (1993/2013). *Semiótica de los medios masivos*. Atuel.
+- Carlón, M., & Scolari, C. A. (Eds.). (2009). *El fin de los medios masivos*. La Crujía.
+- Hall, S. (1980). “Encoding/Decoding.” In *Culture, Media, Language*. Hutchinson.
+
+## Relation to other forges
+
+| Forge | Owns |
+| ----- | ---- |
+| This file | Meaning-in-circulation masterclass; triad + Verónian vocab |
+| `UNIT-THEME-ENRICHMENT.mdc` | Per-unit discovery packs |
+| `ct-unit-forge.mdc` | Student lesson + slideshow from enrichment |
+| `STUDENT-SLIDESHOW-FORGE.mdc` | ≤ 6 ideas deck law |
+| DC `IMAGE-ONTOLOGY-FORGE.mdc` | Image production ontology (sibling; do not duplicate) |
+
+## Execution sequence
+
+```text
+official guía CONTENIDOS
+→ this forge (thesis + triad + circulation vocab)
+→ enrichment pack (if unit-tied) or session prompt (if masterclass)
+→ MAIN-IDEAS.yml ≤ 6
+→ student lesson / slideshow
+→ publication + citation gates (no studio infra names)
+```
+
+If Ahmes cannot resolve a cite, keep the claim as an open teaching question on
+the student surface and mark the gap only in gated professor provenance.

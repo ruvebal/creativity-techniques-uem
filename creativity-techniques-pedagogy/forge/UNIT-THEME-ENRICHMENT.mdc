@@ -1,0 +1,100 @@
+---
+description: Cross-project Athanor + Profield enrichment before forging Creativity Techniques lessons — professor brief + ≤6 main ideas
+globs: 'creativity-techniques-pedagogy/forge/**,creativity-techniques-pedagogy/grounding/**'
+alwaysApply: false
+---
+
+# UNIT THEME ENRICHMENT — Creativity Techniques (UEM)
+
+Run **before** `ct-unit-forge` writes student lessons. Output feeds both the
+professor brief and the student slideshow main-idea list
+([`STUDENT-SLIDESHOW-FORGE.mdc`](./STUDENT-SLIDESHOW-FORGE.mdc)).
+
+## Goal
+
+For each official unit **U1–U6**, produce an enrichment pack that:
+
+1. Broadcasts the unit theme across **Athanor / DevIAC** (`project_slug=profield-creativity-techniques`, `knowledge_scope=field_prospection`) and related scholarly vaults  
+2. Cross-checks **Profield** prospection (`~/src/profield/runs/creativity-techniques/20260909/`)  
+3. Extracts **main ideas**, **connections**, **repeated referred works**, and **recurring authors**  
+4. Summarises **≤ 6 main ideas** for the student slideshow  
+5. Keeps the **full findings** on the professor-facing page (unpublished pedagogy tree)
+
+## Ready-to-run discovery commands
+
+```bash
+# Vectors (smoke-tested live)
+curl -s -X POST http://localhost:8100/vectors/search \
+  -H "Content-Type: application/json" \
+  -d '{"query":"<unit theme>","project_slug":"profield-creativity-techniques","knowledge_scope":"field_prospection","n_results":12}'
+
+# Optional MCP: search_knowledge with the same project_slug / knowledge_scope
+
+# Cite only after Ahmes resolve (never paste vector snippets into lessons)
+# ahmes query --cite "$DB:<node_id>" --style chicago-author-date
+```
+
+Cross-project broadcast (same theme, adjacent slugs — discovery only):
+
+| Slug | Use |
+| ---- | --- |
+| `profield-creativity-techniques` | Primary domain |
+| `profield-didactics` | How people learn / technique pedagogy (never substitute for domain cites) |
+| `profield-digital-creativity` | Sibling craft context only when U5 (technology) needs a bridge |
+
+## Pack layout (one directory per unit)
+
+```text
+creativity-techniques-pedagogy/forge/unit-enrichment/
+  INDEX.md                 # run status for U1–U6
+  _template/
+    PROFESSOR.md           # full findings
+    MAIN-IDEAS.yml         # ≤ 6 slides payloads
+  U1-introduccion-creatividad/
+    PROFESSOR.md
+    MAIN-IDEAS.yml
+    discovery-receipt.json # queries, timestamps, hit counts (no cite claims)
+  …
+```
+
+### PROFESSOR.md (required sections)
+
+1. Unit CONTENIDOS anchor (verbatim from guía)  
+2. Discovery queries run (text + slug + date)  
+3. Recurring authors (frequency across hits)  
+4. Recurring works (titles / DOIs when known)  
+5. Connection graph (who talks to whom — short prose or bullet edges)  
+6. Candidate main ideas (draft > 6 allowed here)  
+7. Cite-ready shortlist (Ahmes coat · node · page — or honest `[BIBLIO-GAP]`)  
+8. Gaps / risks for teaching  
+9. Proposed ≤ 6 slideshow ideas (final cut)
+
+### MAIN-IDEAS.yml (student-bound)
+
+```yaml
+unit_id: U2
+max_ideas: 6
+ideas:
+  - id: 1
+    heading: "…"
+    sentence: "…"
+    chicago: null   # or "(Author Year, page)" when evaluator-safe
+```
+
+## Gate before lesson forge
+
+| Check | Required |
+| ----- | -------- |
+| Enrichment pack exists for the unit | ✅ |
+| MAIN-IDEAS.yml has 1–6 ideas | ✅ |
+| PROFESSOR.md lists discovery queries | ✅ |
+| Evidence matrix row updated in `grounding/` | ✅ (may be honest NONE / gap) |
+| Student HTML contains no studio infra names | ✅ |
+
+**Enrichment run 2026-09-13:** packs U1–U6 complete; synthesis in
+[`../grounding/COMBINE-RELATE-DISCUSS.md`](../grounding/COMBINE-RELATE-DISCUSS.md);
+Pass-1 linked at [`../grounding/pass1.edited.md`](../grounding/pass1.edited.md).
+
+**Lesson forge** may start once the unit’s evidence-matrix row is honest
+(`candidate`/`gap` allowed for `chicago: null` slideshow drafts; **no**
+student Chicago claims until Ahmes resolve). See [`unit-enrichment/INDEX.md`](./unit-enrichment/INDEX.md).

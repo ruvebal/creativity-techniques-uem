@@ -1,0 +1,25 @@
+{
+  "schema": "ct-unit-enrichment-receipt/v1",
+  "unit_id": "U3",
+  "title_en": "Development techniques and solutions",
+  "run_at": "2026-09-13T15:30:00+02:00",
+  "project_slug_primary": "profield-creativity-techniques",
+  "knowledge_scope": "field_prospection",
+  "fieldlex_scheme": "idea_development_solutions",
+  "pass1": "creativity-techniques-pedagogy/grounding/pass1.edited.md",
+  "queries": [
+    {
+      "slug": "profield-creativity-techniques",
+      "query": "idea development iteration prototyping SCAMPER constraint reframing reflective practice wicked problems Buchanan Cross designerly"
+    },
+    {
+      "slug": "pass1+fieldlex",
+      "query": "Idea Development; Prototyping; Sketching as Thinking; Abductive Reasoning; Solution Space; Design Sprint"
+    }
+  ],
+  "hit_notes": "DevIAC search_knowledge 2026-09-13; cite candidates only \u2014 Ahmes resolve before lesson Chicago",
+  "combine_relate_discuss": "creativity-techniques-pedagogy/grounding/COMBINE-RELATE-DISCUSS.md",
+  "evidence_matrix": "creativity-techniques-pedagogy/grounding/EVIDENCE-MATRIX.md",
+  "athanor_cli_project_row": "missing for profield-creativity-techniques \u2014 vectors live",
+  "main_ideas_count": 6
+}

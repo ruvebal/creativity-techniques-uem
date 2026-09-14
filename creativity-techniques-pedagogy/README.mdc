@@ -1,0 +1,46 @@
+---
+description: Research & authority home for Técnicas de Creatividad — field map, authorities, proposals; not published on GitHub Pages
+globs: 'creativity-techniques-pedagogy/**'
+alwaysApply: false
+---
+
+# creativity-techniques-pedagogy — research home
+
+Mirror of `digital-creativity-pedagogy/` **structure**, not a copy of foreign CER claims or Cursor stack.
+
+## Layout
+
+| Path | Role |
+| ---- | ---- |
+| [`cv/guides/*.json`](./cv/guides/) | **Mandatory** official UEM guía clones |
+| [`oficial-guia-framework.mdc`](./oficial-guia-framework.mdc) | How hours, evaluation, competencies, CONTENIDOS bind all pedagogy |
+| *(future)* `ct-cv-forge.mdc` | Forge instructor CV / guía curricular from JSON |
+| *(future)* `ct-unit-forge.mdc` | One unit → lesson + studio + exercises |
+| [`grounding/`](./grounding/) | Field map, authorities, lexicum · discover/cite rules |
+| [`TEACHING-READINESS.mdc`](./TEACHING-READINESS.mdc) | Honest “can we teach yet?” audit |
+| [`cv/`](./cv/) | Guides (PDF-patched) + CV drafts + [`cv/UNIT-PLAN.md`](./cv/UNIT-PLAN.md) |
+| [`consent/`](./consent/) | C-set + S-set drafts (not DPO-approved, not on Pages) |
+| [`forge/`](./forge/) | Unit/session forge prompts *(future)* |
+
+## Critical layer (not CONTENIDOS)
+
+Media vocabulary includes **C1–C3**: ideology; labour; GenAI authorship. These inform lesson framing and media-prospector tags — they are **not** official guía content rows.
+
+## Grounding index
+
+| File | Status |
+| ---- | ------ |
+| [`grounding/lexicum.yaml`](./grounding/lexicum.yaml) | stub — canonical sources linked in README |
+| [`grounding/PROFIELD-SYNC.json`](./grounding/PROFIELD-SYNC.json) | minimal schema stub |
+| [`grounding/IMAGE-SOURCES.md`](./grounding/IMAGE-SOURCES.md) | media-prospector link stub |
+
+## Re-sync
+
+```bash
+PROFIELD=~/src/profield/runs/creativity-techniques/20260909
+G=creativity-techniques-pedagogy/grounding
+# After parent drops real lexicum:
+# ln -sf "$PROFIELD/lexicum.yaml" "$G/lexicum.yaml"
+```
+
+Upstream remains profield for pipeline artefacts; **this directory is the teaching-repo authority** once emancipated.

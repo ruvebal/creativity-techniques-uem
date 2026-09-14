@@ -1,0 +1,440 @@
+:root {
+  --background: 26 15 8;
+  --foreground: 255 247 236;
+  --primary: 255 113 25;
+  --accent: 255 220 25;
+  --muted: 90 64 48;
+  --muted-foreground: 232 213 196;
+  --border: 61 42 28;
+  --card: 26 15 8;
+  --radius: 0.65rem;
+}
+
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+  background: rgb(var(--background));
+  color: rgb(var(--foreground));
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.reveal {
+  color: rgb(var(--foreground));
+  font-size: clamp(18px, 2.15vw, 31px);
+}
+
+.reveal .slides {
+  text-align: left;
+}
+
+.reveal .slides section {
+  box-sizing: border-box;
+  max-height: calc(100vh - 4rem);
+  overflow-y: auto;
+  padding: clamp(1.15rem, 3.8vw, 2rem);
+  padding-bottom: clamp(3rem, 7vw, 4.5rem);
+  border: 1px solid rgb(var(--border) / 0.85);
+  border-radius: var(--radius);
+  background: rgb(var(--card) / 0.78);
+  box-shadow: 0 1rem 4rem rgb(0 0 0 / 0.24);
+  scrollbar-gutter: stable;
+}
+
+.pass-track-slide-copy {
+  position: relative;
+  z-index: 1;
+}
+
+.pass-track-slide-logo {
+  margin: 0 0 1rem;
+  text-align: left;
+}
+
+.pass-track-slide-logo img {
+  display: block;
+  width: auto;
+  max-width: min(13rem, 48%);
+  height: auto;
+  max-height: 2.5rem;
+  margin-right: auto;
+  margin-left: 0;
+  object-fit: contain;
+}
+
+.reveal .pass-track-slide-copy ul {
+  margin: 0.65rem 0;
+  padding-left: 1.25em;
+}
+
+.reveal .pass-track-slide-copy ul li {
+  margin: 0.42rem 0;
+  line-height: 1.48;
+}
+
+.pass-track-deck-header {
+  position: fixed;
+  top: max(0.75rem, env(safe-area-inset-top));
+  left: clamp(9rem, 18vw, 14rem);
+  right: max(0.75rem, env(safe-area-inset-right));
+  z-index: 39;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  box-sizing: border-box;
+  min-height: 3rem;
+  padding: 0.56rem 0.74rem;
+  border: 1px solid rgb(var(--foreground) / 0.16);
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, rgb(var(--card) / 0.7), rgb(var(--background) / 0.44));
+  box-shadow: 0 0.9rem 2.4rem rgb(0 0 0 / 0.22);
+  color: rgb(var(--foreground));
+  line-height: 1.08;
+  backdrop-filter: blur(18px) saturate(145%);
+}
+
+.pass-track-deck-header__title,
+.pass-track-deck-header__meta {
+  display: grid;
+  gap: 0.12rem;
+}
+
+.pass-track-deck-header__title span {
+  font-size: clamp(0.78rem, 1.25vw, 1rem);
+  font-weight: 700;
+}
+
+.pass-track-deck-header__title small,
+.pass-track-deck-header__meta {
+  color: rgb(var(--muted-foreground) / 0.9);
+  font-size: clamp(0.56rem, 0.9vw, 0.72rem);
+}
+
+.pass-track-deck-header__meta {
+  justify-items: end;
+  text-align: right;
+}
+
+.pass-track-deck-header a,
+.pass-track-calendar-note a {
+  color: rgb(var(--accent));
+}
+
+.pass-track-calendar-note {
+  margin-top: 1rem;
+  padding: 0.62rem 0.78rem;
+  border: 1px solid rgb(var(--foreground) / 0.14);
+  border-radius: var(--radius);
+  background: rgb(var(--background) / 0.44);
+  box-shadow: 0 0.65rem 1.8rem rgb(0 0 0 / 0.18);
+  color: rgb(var(--foreground) / 0.9);
+  font-size: 0.56em;
+  line-height: 1.25;
+  backdrop-filter: blur(16px) saturate(135%);
+}
+
+.pass-track-calendar-note div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.75rem;
+}
+
+.pass-track-calendar-note p {
+  margin: 0.28rem 0 0;
+  color: rgb(var(--muted-foreground) / 0.96);
+}
+
+.pass-track-art__caption {
+  position: fixed;
+  right: clamp(0.7rem, 2vw, 1.25rem);
+  bottom: clamp(3.2rem, 7vw, 4.5rem);
+  z-index: 35;
+  display: grid;
+  max-width: min(42rem, 68%);
+  gap: 0.18rem;
+  padding: 0.58rem 0.72rem;
+  border: 1px solid rgb(var(--foreground) / 0.16);
+  border-radius: 0.65rem;
+  background: rgb(var(--background) / 0.48);
+  box-shadow: 0 0.65rem 2rem rgb(0 0 0 / 0.2);
+  color: rgb(var(--foreground) / 0.9);
+  font-size: clamp(0.52rem, 1.05vw, 0.72rem);
+  font-weight: 400;
+  line-height: 1.28;
+  text-align: right;
+  backdrop-filter: blur(14px) saturate(125%);
+  pointer-events: none;
+}
+
+.pass-track-art__title,
+.pass-track-art__formula {
+  font-weight: 500;
+}
+
+.pass-track-art__formula {
+  color: rgb(var(--accent));
+}
+
+.pass-track-art__description,
+.pass-track-art__source,
+.pass-track-art__credit {
+  color: rgb(var(--muted-foreground) / 0.88);
+}
+
+.student-media-slide {
+  display: grid;
+  align-content: start;
+  min-height: min(62vh, 34rem);
+  max-width: min(46rem, 76%);
+  gap: 0.7rem;
+  padding: clamp(1.1rem, 3vw, 2rem);
+  border: 1px solid rgb(var(--foreground) / 0.18);
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, rgb(var(--card) / 0.9), rgb(var(--background) / 0.68));
+  box-shadow: 0 1rem 3rem rgb(var(--background) / 0.32);
+}
+
+.student-media-deck .reveal .slides section {
+	border: 0;
+	background: transparent;
+	box-shadow: none;
+}
+
+/* Reading mode: the image bleeds behind the card. */
+.student-media-deck .slide-background-content {
+	background-repeat: no-repeat;
+	background-color: rgb(var(--background));
+	transition: background-size 280ms ease, background-position 280ms ease;
+}
+
+/* Image mode: hide the card and reveal the complete image at natural ratio. */
+.student-media-deck.student-media-card-hidden .slide-background.present .slide-background-content {
+	background-size: contain !important;
+	background-position: center !important;
+	background-color: rgb(var(--background));
+}
+
+.student-media-card-hidden .student-media-slide {
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.98);
+}
+
+.student-media-card-hidden .student-media-caption {
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+}
+
+.student-media-controls {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 60;
+  display: flex;
+  gap: 0.45rem;
+}
+
+.student-media-controls button {
+  border: 1px solid rgb(var(--foreground) / 0.2);
+  border-radius: 999px;
+  padding: 0.48rem 0.7rem;
+  background: rgb(var(--card) / 0.68);
+  color: rgb(var(--foreground));
+  box-shadow: 0 0.5rem 1.5rem rgb(var(--background) / 0.22);
+  backdrop-filter: blur(16px) saturate(135%);
+  cursor: pointer;
+}
+
+.student-media-controls button:hover,
+.student-media-controls button:focus-visible {
+  background: rgb(var(--accent) / 0.22);
+  outline: 2px solid rgb(var(--accent) / 0.68);
+  outline-offset: 2px;
+}
+
+.student-media-slide__unit,
+.student-media-slide__credit,
+.student-media-slide__prompt,
+.student-media-caption {
+  color: rgb(var(--muted-foreground) / 0.95);
+}
+
+.student-media-slide__unit,
+.student-media-slide__credit {
+  margin: 0;
+  font-size: 0.55em;
+}
+
+.student-media-slide__citation {
+  margin: 0;
+  font-size: 0.7em;
+}
+
+.student-media-slide__citation a { color: rgb(var(--accent)); }
+
+.student-media-slide__quote {
+  margin: 0.35em 0 0;
+  padding: 0.35em 0.7em;
+  max-width: 34rem;
+  border-left: 3px solid rgb(var(--accent) / 0.85);
+  background: rgb(var(--foreground) / 0.06);
+  font-size: 0.72em;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.35;
+}
+
+.student-media-slide__quote p {
+  margin: 0;
+}
+
+.student-media-slide__prompt {
+  margin: 0;
+  font-size: 0.76em;
+  font-style: italic;
+}
+
+.student-media-caption {
+	position: fixed;
+	left: 1rem;
+	right: 1rem;
+	bottom: clamp(4.2rem, 8vw, 5.4rem);
+	z-index: 35;
+	display: block;
+	max-width: min(58rem, calc(100% - 2rem));
+	padding: 0.7rem 0.9rem;
+	border-top: 1px solid rgb(var(--foreground) / 0.42);
+	border: 1px solid rgb(var(--foreground) / 0.2);
+	border-radius: var(--radius);
+	background: linear-gradient(135deg, rgb(var(--card) / 0.9), rgb(var(--background) / 0.78));
+	box-shadow: 0 0.8rem 2rem rgb(0 0 0 / 0.24);
+	font-size: clamp(0.62rem, 1vw, 0.82rem);
+	line-height: 1.35;
+	letter-spacing: 0.015em;
+	text-transform: uppercase;
+	white-space: normal;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	backdrop-filter: blur(16px) saturate(135%);
+}
+
+.student-media-caption span,
+.student-media-caption a {
+	min-width: 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: normal;
+}
+
+.student-media-caption a { color: rgb(var(--accent)); }
+
+.reveal h1,
+.reveal h2,
+.reveal h3 {
+  color: rgb(var(--foreground));
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 500;
+  line-height: 1.08;
+}
+
+.reveal h1 { font-size: clamp(1.85rem, 5.8vw, 2.7rem); }
+.reveal h2 { font-size: clamp(1.4rem, 4.8vw, 2.1rem); }
+.reveal h3 { font-size: clamp(1.08rem, 3.8vw, 1.55rem); }
+
+.reveal a { color: rgb(var(--accent)); }
+.reveal table {
+  display: block;
+  width: 100%;
+  margin: 1rem 0;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
+.reveal th,
+.reveal td {
+  min-width: 8rem;
+  padding: 0.48rem 0.75rem;
+  border: 1px solid rgb(var(--border));
+  text-align: left;
+}
+.reveal th {
+  background: rgb(var(--muted) / 0.82);
+  font-weight: 500;
+}
+.reveal li { margin: 0.42rem 0; line-height: 1.48; }
+
+.track-back {
+  position: fixed;
+  z-index: 40;
+  background: rgb(var(--card) / 0.86);
+  backdrop-filter: blur(10px);
+}
+
+.deck-logo {
+  position: fixed;
+  z-index: 40;
+  /* No card chrome — logo floats on the fractal background */
+  background: transparent;
+  backdrop-filter: none;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.track-back {
+  top: max(0.75rem, env(safe-area-inset-top));
+  left: max(0.75rem, env(safe-area-inset-left));
+  padding: 0.58rem 0.82rem;
+  border-radius: var(--radius);
+  color: rgb(var(--foreground));
+  font-size: clamp(0.8rem, 2.5vw, 0.95rem);
+  line-height: 1;
+  text-decoration: none;
+}
+
+.deck-logo {
+  left: max(0.75rem, env(safe-area-inset-left));
+  bottom: max(0.75rem, env(safe-area-inset-bottom));
+  display: flex;
+  align-items: center;
+}
+
+.deck-logo img {
+  display: block;
+  width: auto;
+  max-width: 11rem;
+  height: clamp(1.5rem, 3.8vw, 2.2rem);
+  object-fit: contain;
+}
+
+@media (max-width: 720px) {
+  .pass-track-deck-header {
+    top: max(3.7rem, env(safe-area-inset-top));
+    left: 0.7rem;
+    right: 0.7rem;
+    align-items: start;
+  }
+
+  .pass-track-deck-header__meta {
+    display: none;
+  }
+
+  .reveal .slides section {
+    max-height: calc(100vh - 3rem);
+    padding: 1rem;
+    padding-bottom: 4.25rem;
+  }
+  .reveal ul { padding-left: 1.15em; }
+  .deck-logo {
+    left: 0.65rem;
+    right: auto;
+    bottom: 0.65rem;
+  }
+  .deck-logo img { max-width: 7.8rem; }
+  .pass-track-art__caption {
+    right: 0.7rem;
+    bottom: 3.45rem;
+    max-width: calc(100% - 1.4rem);
+  }
+}

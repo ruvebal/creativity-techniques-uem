@@ -1,0 +1,526 @@
+schema: ct-field-directory/v1
+title: Field directory — Creativity Techniques
+updated: 2026-09-13T00:00:00.000Z
+categories:
+  prizes:
+    - id: sir-misha-black-medal
+      name: Sir Misha Black Medal
+      kind: prize
+      status: established
+      summary: >-
+        Distinguished services to design education (Royal Commission for the Exhibition of 1851 /
+        Sir Misha Black Awards).
+      url: https://royalcommission1851.org/fellowships/sir-misha-black-awards
+      doi: null
+      location: United Kingdom
+      years: ongoing
+      references:
+        - Royal Commission for the Exhibition of 1851. Sir Misha Black Awards.
+      units:
+        - U1
+        - U4
+    - id: red-dot
+      name: Red Dot (incl. Design Concept)
+      kind: prize
+      status: practitioner
+      summary: >-
+        Industry consecration of design concepts and outcomes — useful as a workplace quality
+        benchmark, not a substitute for design-education research prizes.
+      url: https://www.red-dot.org/
+      doi: null
+      location: international
+      years: ongoing
+      references: []
+      units:
+        - U4
+    - id: if-design-award
+      name: iF Design Award
+      kind: prize
+      status: practitioner
+      summary: >-
+        International industry design award used as outcome benchmark in professional practice
+        discourse.
+      url: https://ifdesign.com/
+      doi: null
+      location: international
+      years: ongoing
+      references: []
+      units:
+        - U4
+    - id: d-and-ad
+      name: D&AD
+      kind: prize
+      status: practitioner
+      summary: Advertising and design industry awards; quality signal for commercial creative work.
+      url: https://www.dandad.org/
+      doi: null
+      location: United Kingdom / international
+      years: ongoing
+      references: []
+      units:
+        - U4
+  awards:
+    - id: sir-misha-black-innovation-design-education
+      name: Sir Misha Black Award for Innovation in Design Education
+      kind: award
+      status: established
+      summary: UK award for educational innovation in design teaching. 2024 recipient Zowie Broach (RCA).
+      url: https://royalcommission1851.org/award-recipients
+      doi: null
+      location: United Kingdom
+      years: ongoing
+      references:
+        - Royal Commission for the Exhibition of 1851. Award recipients.
+      units:
+        - U1
+        - U4
+    - id: helen-hamlyn-design-awards
+      name: Helen Hamlyn Design Awards
+      kind: award
+      status: practitioner
+      summary: Inclusive and socially responsive student studio work (RCA Helen Hamlyn Centre).
+      url: https://www.rca.ac.uk/research-innovation/research-centres/helen-hamlyn-centre-design/
+      doi: null
+      location: London
+      years: ongoing
+      references: []
+      units:
+        - U3
+        - U4
+    - id: idsa-idea
+      name: IDSA IDEA
+      kind: award
+      status: practitioner
+      summary: Industrial Designers Society of America excellence awards — professional outcome benchmark.
+      url: https://www.idsa.org/awards/
+      doi: null
+      location: United States / international
+      years: ongoing
+      references: []
+      units:
+        - U4
+    - id: core77-design-awards
+      name: Core77 Design Awards
+      kind: award
+      status: practitioner
+      summary: Industry design awards spanning concepts and completed work.
+      url: https://designawards.core77.com/
+      doi: null
+      location: international
+      years: ongoing
+      references: []
+      units:
+        - U4
+  studios:
+    - id: ideo
+      name: IDEO
+      kind: studio
+      status: practitioner
+      summary: >-
+        Human-centred design / design-thinking popularisation studio. Treat method claims as
+        practitioner discourse, not peer-reviewed pedagogy proof.
+      url: https://www.ideo.com/
+      doi: null
+      location: international
+      years: 1991–
+      references:
+        - Brown, Tim. 2009. Change by Design. Harper Business.
+      units:
+        - U1
+        - U2
+        - U3
+    - id: rca-helen-hamlyn
+      name: Helen Hamlyn Centre for Design (RCA)
+      kind: studio
+      status: established
+      summary: >-
+        Inclusive design research centre; student and commissioned studio work with social
+        briefings.
+      url: https://www.rca.ac.uk/research-innovation/research-centres/helen-hamlyn-centre-design/
+      doi: null
+      location: London
+      years: ongoing
+      references: []
+      units:
+        - U3
+        - U4
+    - id: processing-foundation
+      name: Processing Foundation
+      kind: studio
+      status: practitioner
+      summary: >-
+        Generative-tools adjacency (Casey Reas & Ben Fry lineage) for creativity-and-technology
+        units — not a classical creativity-technique method studio.
+      url: https://processingfoundation.org/
+      doi: null
+      location: international
+      years: ongoing
+      references: []
+      units:
+        - U5
+    - id: showstudio
+      name: SHOWstudio
+      kind: studio
+      status: practitioner
+      summary: >-
+        Nick Knight’s digital fashion / image-practice platform — adjacent creative-studio culture
+        for visual ideation.
+      url: https://www.showstudio.com/
+      doi: null
+      location: London
+      years: 2000–
+      references: []
+      units:
+        - U5
+  journals:
+    - id: design-issues
+      name: Design Issues
+      kind: journal
+      status: established
+      summary: >-
+        Design theory and history venue; home of Buchanan’s wicked-problems essay in design
+        thinking.
+      url: https://direct.mit.edu/desi
+      doi: null
+      location: international
+      years: ongoing
+      references:
+        - 'Buchanan, Richard. 1992. “Wicked Problems in Design Thinking.” Design Issues 8 (2): 5–21.'
+      units:
+        - U1
+        - U3
+    - id: design-and-culture
+      name: Design and Culture
+      kind: journal
+      status: established
+      summary: >-
+        Venue for Kimbell’s “Rethinking Design Thinking” critique of managerial design-thinking
+        discourse.
+      url: https://www.tandfonline.com/journals/rfdc20
+      doi: null
+      location: international
+      years: ongoing
+      references:
+        - >-
+          Kimbell, Lucy. 2011. “Rethinking Design Thinking: Part I.” Design and Culture 3 (3):
+          285–306.
+      units:
+        - U1
+        - U4
+    - id: american-psychologist
+      name: American Psychologist
+      kind: journal
+      status: established
+      summary: >-
+        Published Guilford’s 1950 “Creativity” essay — divergent-thinking parameters enter
+        educational assessment language.
+      url: https://www.apa.org/pubs/journals/amp
+      doi: null
+      location: United States
+      years: ongoing
+      references:
+        - >-
+          Guilford, J. P. 1950. “Creativity.” American Psychologist 5 (9): 444–454.
+          https://doi.org/10.1037/h0063487.
+      units:
+        - U1
+        - U2
+    - id: iasdr-proceedings
+      name: IASDR Conference Series
+      kind: journal
+      status: emerging
+      summary: Design research congress proceedings; 2025 host for Park’s GenAI studio-education paper.
+      url: https://dl.designresearchsociety.org/iasdr/
+      doi: null
+      location: international
+      years: ongoing
+      references:
+        - >-
+          Park, Hyunyim. 2025. “Generative AI in Studio-Based Design Education…” IASDR 2025.
+          https://doi.org/10.21606/iasdr.2025.845.
+      units:
+        - U5
+  organizations:
+    - id: cumulus
+      name: Cumulus Association
+      kind: organization
+      status: established
+      summary: Global art and design education network; peer-reviewed conference proceedings hub.
+      url: https://cumulusassociation.org/resources/conference-proceedings/
+      doi: null
+      location: international
+      years: ongoing
+      references: []
+      units:
+        - U1
+    - id: drs
+      name: Design Research Society (DRS)
+      kind: organization
+      status: established
+      summary: Research society for design; Design Pedagogy SIG (PedSIG) hosts studio-learning debate.
+      url: https://www.designresearchsociety.org/
+      doi: null
+      location: international
+      years: ongoing
+      references: []
+      units:
+        - U1
+        - U3
+    - id: dimad
+      name: DIMAD / Bienal Iberoamericana de Diseño
+      kind: organization
+      status: established
+      summary: >-
+        Ibero-American design biennial lineage (Matadero Madrid); hosts Encuentro BID de Enseñanza y
+        Diseño.
+      url: https://www.bid-dimad.org/
+      doi: null
+      location: Madrid / Ibero-America
+      years: ongoing
+      references: []
+      units:
+        - U1
+    - id: aiga
+      name: AIGA
+      kind: organization
+      status: practitioner
+      summary: >-
+        US professional design association — conferences and community events adjacent to workplace
+        creativity discourse.
+      url: https://www.aiga.org/
+      doi: null
+      location: United States
+      years: ongoing
+      references: []
+      units:
+        - U4
+    - id: dmi
+      name: Design Management Institute (DMI)
+      kind: organization
+      status: practitioner
+      summary: Design-in-business adjacency for workplace application of creativity techniques.
+      url: https://www.dmi.org/
+      doi: null
+      location: international
+      years: ongoing
+      references: []
+      units:
+        - U4
+  contests:
+    - id: encuentro-bid
+      name: Encuentro BID de Enseñanza y Diseño
+      kind: contest
+      status: established
+      summary: Biennial Ibero-American teaching forum within the Bienal Iberoamericana de Diseño.
+      url: https://www.bid-dimad.org/
+      doi: null
+      location: Madrid / Ibero-America
+      years: biennial
+      references: []
+      units:
+        - U1
+    - id: design-indaba
+      name: Design Indaba
+      kind: contest
+      status: practitioner
+      summary: Recurring Cape Town design and creativity public forum.
+      url: https://designindaba.com/
+      doi: null
+      location: Cape Town
+      years: ongoing
+      references: []
+      units:
+        - U1
+        - U4
+    - id: ars-electronica
+      name: Ars Electronica
+      kind: contest
+      status: practitioner
+      summary: >-
+        Linz festival for digital, generative, and experimental practice — creativity-and-technology
+        adjacency.
+      url: https://ars.electronica.art/
+      doi: null
+      location: Linz
+      years: ongoing
+      references: []
+      units:
+        - U5
+    - id: one-club-creative-week
+      name: One Club Creative Week
+      kind: contest
+      status: practitioner
+      summary: New York industry creative week (advertising/design). Correct name — not “Creativity Week.”
+      url: https://www.oneclub.org/
+      doi: null
+      location: New York
+      years: ongoing
+      references: []
+      units:
+        - U4
+    - id: cumulus-conference
+      name: Cumulus conferences
+      kind: contest
+      status: established
+      summary: Recurring art and design education congress with published proceedings.
+      url: https://cumulusassociation.org/
+      doi: null
+      location: international
+      years: ongoing
+      references: []
+      units:
+        - U1
+  figures:
+    - id: guilford
+      name: J. P. Guilford
+      kind: figure
+      status: established
+      summary: >-
+        Psychometric pioneer of divergent/convergent production; fluency, flexibility, originality,
+        elaboration still structure many studio rubrics.
+      url: null
+      doi: 10.1037/h0063487
+      location: United States
+      years: 1897–1987
+      references:
+        - 'Guilford, J. P. 1950. “Creativity.” American Psychologist 5 (9): 444–454.'
+      units:
+        - U1
+        - U2
+    - id: de-bono
+      name: Edward de Bono
+      kind: figure
+      status: practitioner
+      summary: >-
+        Lateral thinking; Six Thinking Hats — role-separated group ideation still rehearsed in
+        design studios.
+      url: null
+      doi: null
+      location: international
+      years: 1933–2021
+      references:
+        - De Bono, Edward. 1985. Six Thinking Hats. Little, Brown.
+      units:
+        - U2
+    - id: schoen
+      name: Donald A. Schön
+      kind: figure
+      status: established
+      summary: >-
+        Reflective practitioner — studio pedagogy as reflection-in-action, not algorithmic method
+        execution.
+      url: null
+      doi: null
+      location: United States
+      years: 1930–1997
+      references:
+        - Schön, Donald A. 1983. The Reflective Practitioner. Basic Books.
+      units:
+        - U1
+        - U3
+    - id: kimbell
+      name: Lucy Kimbell
+      kind: figure
+      status: established
+      summary: Design-as-practice critique of managerial design thinking (*Design and Culture*, 2011–2012).
+      url: null
+      doi: 10.2752/175470811X13071166525216
+      location: United Kingdom
+      years: contemporary
+      references:
+        - >-
+          Kimbell, Lucy. 2011. “Rethinking Design Thinking: Part I.” Design and Culture 3 (3):
+          285–306.
+      units:
+        - U1
+        - U4
+    - id: buchanan
+      name: Richard Buchanan
+      kind: figure
+      status: established
+      summary: Wicked / indeterminate design problems in design thinking (*Design Issues*, 1992).
+      url: null
+      doi: 10.2307/1511637
+      location: United States
+      years: contemporary
+      references:
+        - 'Buchanan, Richard. 1992. “Wicked Problems in Design Thinking.” Design Issues 8 (2): 5–21.'
+      units:
+        - U1
+        - U3
+    - id: kelley-david-tom
+      name: David Kelley & Tom Kelley
+      kind: figure
+      status: practitioner
+      summary: Creative confidence / human-centred design popularisation (*Creative Confidence*, 2013).
+      url: null
+      doi: null
+      location: United States
+      years: contemporary
+      references:
+        - Kelley, Tom, and David Kelley. 2013. Creative Confidence. Crown Business.
+      units:
+        - U2
+        - U3
+        - U6
+    - id: eno-schmidt
+      name: Brian Eno & Peter Schmidt
+      kind: figure
+      status: practitioner
+      summary: Oblique Strategies (1975) — prompt/constraint cards for breaking cognitive blocks.
+      url: null
+      doi: null
+      location: United Kingdom
+      years: 1975–
+      references:
+        - Eno, Brian, and Peter Schmidt. 1975. Oblique Strategies.
+      units:
+        - U2
+    - id: munari
+      name: Bruno Munari
+      kind: figure
+      status: practitioner
+      summary: >-
+        Visual games and structural exploration bridging art and design exercises (*Da cosa nasce
+        cosa*).
+      url: null
+      doi: null
+      location: Italy
+      years: 1907–1998
+      references:
+        - Munari, Bruno. 1981. Da cosa nasce cosa. Laterza.
+      units:
+        - U2
+        - U3
+    - id: park-hyunyim
+      name: Hyunyim Park
+      kind: figure
+      status: emerging
+      summary: >-
+        GenAI in studio-based design education — human–AI relationships, collaboration, assessment
+        (IASDR 2025).
+      url: https://doi.org/10.21606/iasdr.2025.845
+      doi: 10.21606/iasdr.2025.845
+      location: Hong Kong
+      years: 2025
+      references:
+        - Park, Hyunyim. 2025. “Generative AI in Studio-Based Design Education…” IASDR 2025.
+      units:
+        - U5
+    - id: broach-zowie
+      name: Zowie Broach
+      kind: figure
+      status: practitioner
+      summary: >-
+        Head of MA Fashion, RCA; 2024 Sir Misha Black Award for Innovation in Design Education —
+        experimental studio pedagogy exemplar (transfer with Ladder discipline).
+      url: >-
+        https://royalcommission1851.org/news/2024-sir-misha-black-award-for-innovation-in-design-education-to-be-given-to-zowie-broach
+      doi: null
+      location: London
+      years: contemporary
+      references: []
+      units:
+        - U1
+        - U4
+source_note: Seeded from the course field panorama; edit directory/*.yml to update.

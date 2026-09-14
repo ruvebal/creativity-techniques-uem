@@ -1,0 +1,48 @@
+- id: sir-misha-black-innovation-design-education
+  name: Sir Misha Black Award for Innovation in Design Education
+  kind: award
+  status: established
+  summary: UK award for educational innovation in design teaching. 2024 recipient Zowie Broach (RCA).
+  url: https://royalcommission1851.org/award-recipients
+  doi: null
+  location: United Kingdom
+  years: ongoing
+  references:
+    - 'Royal Commission for the Exhibition of 1851. Award recipients.'
+  units: [U1, U4]
+
+- id: helen-hamlyn-design-awards
+  name: Helen Hamlyn Design Awards
+  kind: award
+  status: practitioner
+  summary: Inclusive and socially responsive student studio work (RCA Helen Hamlyn Centre).
+  url: https://www.rca.ac.uk/research-innovation/research-centres/helen-hamlyn-centre-design/
+  doi: null
+  location: London
+  years: ongoing
+  references: []
+  units: [U3, U4]
+
+- id: idsa-idea
+  name: IDSA IDEA
+  kind: award
+  status: practitioner
+  summary: Industrial Designers Society of America excellence awards — professional outcome benchmark.
+  url: https://www.idsa.org/awards/
+  doi: null
+  location: United States / international
+  years: ongoing
+  references: []
+  units: [U4]
+
+- id: core77-design-awards
+  name: Core77 Design Awards
+  kind: award
+  status: practitioner
+  summary: Industry design awards spanning concepts and completed work.
+  url: https://designawards.core77.com/
+  doi: null
+  location: international
+  years: ongoing
+  references: []
+  units: [U4]

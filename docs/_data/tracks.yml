@@ -1,0 +1,59 @@
+# Track registry. Course-level hours close to the official guía (Grado en Diseño clone).
+# Session rows are pedagogical slices of the 80 h contact bucket; autonomous
+# work, tutoría, and pruebas remain course-level residuals.
+# Reconcile against oficial-guia-framework.mdc after 2026-27 PDF ingest.
+
+- slug: creativity-techniques
+  title:
+    en: 'Creativity Techniques'
+  path:
+    en: /tracks/en/creativity-techniques/
+  file:
+    en: tracks/en/creativity-techniques/index.md
+  status:
+    en: pilot
+  type: track
+  duration: 'S1 · 6 ECTS · 150 h · Compulsory · Year 3'
+  academic_year: '2026-27 (guía clone 2025-26 — verify PDF)'
+  modality: presencial
+  degree: "Bachelor's Degree in Design"
+  degree_url: 'https://creativecampus.universidadeuropea.com/en/degree-design-madrid/'
+  year_of_study: 3
+  source_url: '26-27/guias_docentes/9990002301.pdf'
+  formative_hours:
+    clases_magistrales: 32
+    ejercicios_resolucion: 20.5
+    exposicion_oral: 5
+    informes_escritos: 13.5
+    trabajo_autonomo: 50
+    debates: 9
+    tutoria: 18
+    pruebas: 2
+  formative_hours_total: 150
+  contact_forgeable_hours: 80
+  evaluation_weights:
+    pruebas: 60
+    entrega_presentacion: 40
+  units_list:
+    - unit_id: U1
+      title_en: 'Introduction to creativity and its importance'
+      lesson_en: /lessons/en/creativity-techniques/u-1-introduction-creativity/
+      deck_en: /tracks/ct/u-1-introduction-creativity/
+      status: pilot
+    - unit_id: U2
+      title_en: 'Idea generation and selection techniques'
+    - unit_id: U3
+      title_en: 'Development techniques and solutions'
+    - unit_id: U4
+      title_en: 'Applying creativity techniques in the workplace'
+    - unit_id: U5
+      title_en: 'Creativity and technology'
+    - unit_id: U6
+      title_en: 'Creativity and personal development'
+  sessions_list:
+    - session_id: u1-pilot
+      unit_id: U1
+      title_en: 'U1 Introduction — Masterclass / Lab / Workshop'
+      arc: [analysis_strip, masterclass, lab_portfolio, workshop_deliverable]
+  how_to_pass:
+    en: /tracks/ct/how-to-pass-this-track/

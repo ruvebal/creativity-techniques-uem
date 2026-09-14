@@ -1,0 +1,25 @@
+{
+  "schema": "ct-unit-enrichment-receipt/v1",
+  "unit_id": "U4",
+  "title_en": "Applying creativity techniques in the workplace",
+  "run_at": "2026-09-13T15:30:00+02:00",
+  "project_slug_primary": "profield-creativity-techniques",
+  "knowledge_scope": "field_prospection",
+  "fieldlex_scheme": "workplace_application",
+  "pass1": "creativity-techniques-pedagogy/grounding/pass1.edited.md",
+  "queries": [
+    {
+      "slug": "profield-creativity-techniques",
+      "query": "workplace creativity creative labour unpaid ideation hustle culture deadlines competition innovation framing Julier"
+    },
+    {
+      "slug": "pass1+fieldlex",
+      "query": "Client Brief; Innovation Framing; Competition and Deadline Pressure; Ethical Design Judgment; Creative Labour; Unpaid Ideation"
+    }
+  ],
+  "hit_notes": "DevIAC search_knowledge 2026-09-13; cite candidates only \u2014 Ahmes resolve before lesson Chicago",
+  "combine_relate_discuss": "creativity-techniques-pedagogy/grounding/COMBINE-RELATE-DISCUSS.md",
+  "evidence_matrix": "creativity-techniques-pedagogy/grounding/EVIDENCE-MATRIX.md",
+  "athanor_cli_project_row": "missing for profield-creativity-techniques \u2014 vectors live",
+  "main_ideas_count": 6
+}

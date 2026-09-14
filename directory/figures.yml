@@ -1,0 +1,128 @@
+- id: guilford
+  name: J. P. Guilford
+  kind: figure
+  status: established
+  summary: Psychometric pioneer of divergent/convergent production; fluency, flexibility, originality, elaboration still structure many studio rubrics.
+  url: null
+  doi: 10.1037/h0063487
+  location: United States
+  years: 1897–1987
+  references:
+    - 'Guilford, J. P. 1950. “Creativity.” American Psychologist 5 (9): 444–454.'
+  units: [U1, U2]
+
+- id: de-bono
+  name: Edward de Bono
+  kind: figure
+  status: practitioner
+  summary: Lateral thinking; Six Thinking Hats — role-separated group ideation still rehearsed in design studios.
+  url: null
+  doi: null
+  location: international
+  years: 1933–2021
+  references:
+    - 'De Bono, Edward. 1985. Six Thinking Hats. Little, Brown.'
+  units: [U2]
+
+- id: schoen
+  name: Donald A. Schön
+  kind: figure
+  status: established
+  summary: Reflective practitioner — studio pedagogy as reflection-in-action, not algorithmic method execution.
+  url: null
+  doi: null
+  location: United States
+  years: 1930–1997
+  references:
+    - 'Schön, Donald A. 1983. The Reflective Practitioner. Basic Books.'
+  units: [U1, U3]
+
+- id: kimbell
+  name: Lucy Kimbell
+  kind: figure
+  status: established
+  summary: Design-as-practice critique of managerial design thinking (*Design and Culture*, 2011–2012).
+  url: null
+  doi: 10.2752/175470811X13071166525216
+  location: United Kingdom
+  years: contemporary
+  references:
+    - 'Kimbell, Lucy. 2011. “Rethinking Design Thinking: Part I.” Design and Culture 3 (3): 285–306.'
+  units: [U1, U4]
+
+- id: buchanan
+  name: Richard Buchanan
+  kind: figure
+  status: established
+  summary: Wicked / indeterminate design problems in design thinking (*Design Issues*, 1992).
+  url: null
+  doi: 10.2307/1511637
+  location: United States
+  years: contemporary
+  references:
+    - 'Buchanan, Richard. 1992. “Wicked Problems in Design Thinking.” Design Issues 8 (2): 5–21.'
+  units: [U1, U3]
+
+- id: kelley-david-tom
+  name: David Kelley & Tom Kelley
+  kind: figure
+  status: practitioner
+  summary: Creative confidence / human-centred design popularisation (*Creative Confidence*, 2013).
+  url: null
+  doi: null
+  location: United States
+  years: contemporary
+  references:
+    - 'Kelley, Tom, and David Kelley. 2013. Creative Confidence. Crown Business.'
+  units: [U2, U3, U6]
+
+- id: eno-schmidt
+  name: Brian Eno & Peter Schmidt
+  kind: figure
+  status: practitioner
+  summary: Oblique Strategies (1975) — prompt/constraint cards for breaking cognitive blocks.
+  url: null
+  doi: null
+  location: United Kingdom
+  years: 1975–
+  references:
+    - 'Eno, Brian, and Peter Schmidt. 1975. Oblique Strategies.'
+  units: [U2]
+
+- id: munari
+  name: Bruno Munari
+  kind: figure
+  status: practitioner
+  summary: Visual games and structural exploration bridging art and design exercises (*Da cosa nasce cosa*).
+  url: null
+  doi: null
+  location: Italy
+  years: 1907–1998
+  references:
+    - 'Munari, Bruno. 1981. Da cosa nasce cosa. Laterza.'
+  units: [U2, U3]
+
+- id: park-hyunyim
+  name: Hyunyim Park
+  kind: figure
+  status: emerging
+  summary: GenAI in studio-based design education — human–AI relationships, collaboration, assessment (IASDR 2025).
+  url: https://doi.org/10.21606/iasdr.2025.845
+  doi: 10.21606/iasdr.2025.845
+  location: Hong Kong
+  years: 2025
+  references:
+    - 'Park, Hyunyim. 2025. “Generative AI in Studio-Based Design Education…” IASDR 2025.'
+  units: [U5]
+
+- id: broach-zowie
+  name: Zowie Broach
+  kind: figure
+  status: practitioner
+  summary: Head of MA Fashion, RCA; 2024 Sir Misha Black Award for Innovation in Design Education — experimental studio pedagogy exemplar (transfer with Ladder discipline).
+  url: https://royalcommission1851.org/news/2024-sir-misha-black-award-for-innovation-in-design-education-to-be-given-to-zowie-broach
+  doi: null
+  location: London
+  years: contemporary
+  references: []
+  units: [U1, U4]

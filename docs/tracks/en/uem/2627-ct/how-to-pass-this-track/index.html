@@ -1,0 +1,36 @@
+---
+layout: null
+permalink: /tracks/ct/how-to-pass-this-track/
+sitemap: false
+---
+{% assign track_page = site.pages | where: "permalink", "/tracks/en/creativity-techniques/" | first %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How to Pass Creativity Techniques — UEM 2026-27</title>
+  <link rel="stylesheet" href="{{ '/assets/css/reveal.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/pass-track-deck.css' | relative_url }}">
+</head>
+<body
+  data-brand="uem"
+  data-logo-url="{{ '/assets/images/institutional/uem-logo.png' | relative_url }}"
+  data-logo-alt="Universidad Europea Creative Campus"
+  data-track-title="{{ track_page.title | default: 'Creativity Techniques' | escape }}"
+  data-track-subtitle="{{ track_page.description | default: 'Year 3 · Bachelors Degree in Design · 2026–27' | escape }}"
+  data-track-author="{{ track_page.author | default: 'Rubén Vega Balbás, PhD' | escape }} · {{ track_page.date | default: site.time | date: '%-d %B %Y' }}"
+  data-content-url="{{ '/tracks/en/uem/2627-ct/how-to-pass-this-track/data/content.json' | relative_url }}"
+  data-calendar-url="{{ '/tracks/en/uem/2627-ct/how-to-pass-this-track/data/calendar.json' | relative_url }}"
+  data-art-base="{{ '/assets/images/fractal-pass-track' | relative_url }}">
+  <a class="track-back" href="{{ '/tracks/en/creativity-techniques/' | relative_url }}" aria-label="Back to track">← Back to track</a>
+  <div class="deck-logo" aria-label="Institutional logo">
+    <img src="{{ '/assets/images/institutional/uem-logo.png' | relative_url }}" alt="Universidad Europea Creative Campus" width="436" height="80">
+  </div>
+  <div class="reveal">
+    <div class="slides" id="slides"></div>
+  </div>
+  <script src="{{ '/assets/js/reveal.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/pass-track-deck.js' | relative_url }}"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+id: oblique-strategies
+title: Oblique Strategies
+kind: practitioner
+funding: null
+summary: Prompt/constraint cards (Eno & Schmidt, 1975) for breaking cognitive blocks during ideation.
+steps:
+  - Draw a constraint card when stuck.
+  - Force a lateral move without abandoning the brief.
+  - Record which prompts unlocked productive paths.
+fieldlex:
+  - ct:obliqueStrategies
+  - ct:mentalBlock
+units: [U2, U6]
+references:
+  - 'Eno, Brian, and Peter Schmidt. 1975. Oblique Strategies.'
+athanor:
+  ingested: false
+  project_slugs: [profield-creativity-techniques]
+  status: candidate
+  note: Practitioner gesture; Pass-1 ARTISTS list.
+url: null

@@ -1,0 +1,27 @@
+id: park-genai-studio
+title: GenAI in studio-based design education (Park)
+kind: emerging
+funding: null
+summary: >
+  Scholarly method-stance for human–AI relationships, collaboration, and
+  assessment in design studios (IASDR 2025). Complements funded MUSAE DFA with
+  classroom authorship/process transparency concerns.
+steps:
+  - Stage GenAI for early variation, not final authorship outsourcing.
+  - Document prompts, decisions, and human re-authoring.
+  - Assess process judgment as well as surface novelty.
+fieldlex:
+  - ct:generativeAiCoCreation
+  - ct:originalityTheatre
+  - ct:processTransparency
+  - ct:authorshipUnderGenAi
+units: [U5]
+references:
+  - 'Park, Hyunyim. 2025. “Generative AI in Studio-Based Design Education: Human–AI Relationships, Collaboration and Assessment.” IASDR 2025. https://doi.org/10.21606/iasdr.2025.845.'
+athanor:
+  ingested: true
+  project_slugs:
+    - profield-digital-creativity
+  status: candidate
+  note: Indexed under profield-digital-creativity (2026-09-13); resolve coat·node·page before Chicago in lessons.
+url: https://doi.org/10.21606/iasdr.2025.845

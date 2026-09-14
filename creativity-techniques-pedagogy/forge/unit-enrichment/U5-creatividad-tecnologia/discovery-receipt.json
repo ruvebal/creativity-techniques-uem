@@ -1,0 +1,29 @@
+{
+  "schema": "ct-unit-enrichment-receipt/v1",
+  "unit_id": "U5",
+  "title_en": "Creativity and technology",
+  "run_at": "2026-09-13T15:30:00+02:00",
+  "project_slug_primary": "profield-creativity-techniques",
+  "knowledge_scope": "field_prospection",
+  "fieldlex_scheme": "creativity_and_technology",
+  "pass1": "creativity-techniques-pedagogy/grounding/pass1.edited.md",
+  "queries": [
+    {
+      "slug": "profield-creativity-techniques",
+      "query": "generative AI co-creation authorship process transparency originality theatre prompt literacy design studio education Park"
+    },
+    {
+      "slug": "profield-digital-creativity",
+      "query": "generative AI studio design education collaborative ideation authorship assessment"
+    },
+    {
+      "slug": "pass1+fieldlex",
+      "query": "Generative AI Co-Creation; Originality Theatre; Process Transparency; Prompt Literacy; Park IASDR 2025"
+    }
+  ],
+  "hit_notes": "DevIAC search_knowledge 2026-09-13; cite candidates only \u2014 Ahmes resolve before lesson Chicago",
+  "combine_relate_discuss": "creativity-techniques-pedagogy/grounding/COMBINE-RELATE-DISCUSS.md",
+  "evidence_matrix": "creativity-techniques-pedagogy/grounding/EVIDENCE-MATRIX.md",
+  "athanor_cli_project_row": "missing for profield-creativity-techniques \u2014 vectors live",
+  "main_ideas_count": 6
+}

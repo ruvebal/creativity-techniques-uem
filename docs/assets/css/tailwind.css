@@ -1,0 +1,201 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	/* Table of Contents styling */
+	#markdown-toc {
+		ul {
+			@apply list-none pl-0 space-y-1;
+		}
+		a {
+			@apply text-slate-600 dark:text-neutral-400 hover:text-slate-900 dark:hover:text-neutral-100 py-1 px-2 block rounded transition-colors;
+		}
+		a:focus {
+			@apply outline-none ring-2 ring-blue-500 ring-offset-2;
+		}
+	}
+
+	/* Skip link styling */
+	.skip-link {
+		@apply sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:px-4 focus:py-2 focus:bg-blue-600 focus:text-white focus:z-50 focus:rounded;
+	}
+
+	/* Rouge Syntax Highlighting */
+	/* Base code block */
+	.highlight {
+		@apply overflow-x-auto;
+	}
+
+	/* Rouge token classes - Language keywords */
+	.highlight .k,
+	.highlight .kt {
+		color: #c792ea; /* purple */
+		font-weight: 600;
+	}
+
+	.highlight .kd,
+	.highlight .kn {
+		color: #c792ea;
+	}
+
+	/* Strings */
+	.highlight .s,
+	.highlight .s1,
+	.highlight .s2,
+	.highlight .s3 {
+		color: #c3e88d; /* green */
+	}
+
+	/* String interpolation */
+	.highlight .si {
+		color: #c3e88d;
+		font-weight: 600;
+	}
+
+	/* Comments */
+	.highlight .c,
+	.highlight .c1,
+	.highlight .cm,
+	.highlight .cp {
+		color: #546e7a; /* gray-blue */
+		font-style: italic;
+	}
+
+	/* Numbers */
+	.highlight .m,
+	.highlight .mi,
+	.highlight .mf {
+		color: #f78c6c; /* orange */
+	}
+
+	/* Function names */
+	.highlight .nf {
+		color: #82aaff; /* blue */
+	}
+
+	/* Variables */
+	.highlight .nb,
+	.highlight .nc {
+		color: #7fdbca; /* teal */
+	}
+
+	/* Built-ins */
+	.highlight .bp {
+		color: #ffcb6b; /* yellow */
+	}
+
+	/* Attributes/Properties */
+	.highlight .na {
+		color: #ffcb6b;
+	}
+
+	/* HTML/SGML - Tags */
+	.highlight .nt {
+		color: #ff5370; /* red-pink */
+		font-weight: 600;
+	}
+
+	/* HTML/SGML - Attribute names */
+	.highlight .na {
+		color: #ffcb6b; /* yellow */
+	}
+
+	/* Punctuation/Special */
+	.highlight .p {
+		color: #89ddff; /* cyan-blue */
+	}
+
+	/* JSON-specific tokens */
+	.highlight .nl {
+		/* null literal */
+		color: #c792ea; /* purple */
+	}
+
+	.highlight .mb {
+		/* boolean literal */
+		color: #f78c6c; /* orange */
+	}
+
+	/* Table captions */
+	.prose table caption {
+		@apply text-sm;
+	}
+
+	/* Dark mode adjustments */
+	.dark .highlight .k,
+	.dark .highlight .kt,
+	.dark .highlight .kd,
+	.dark .highlight .kn {
+		color: #c792ea;
+	}
+
+	.dark .highlight .s,
+	.dark .highlight .s1,
+	.dark .highlight .s2,
+	.dark .highlight .s3 {
+		color: #c3e88d;
+	}
+
+	.dark .highlight .c,
+	.dark .highlight .c1,
+	.dark .highlight .cm,
+	.dark .highlight .cp {
+		color: #757575; /* lighter gray for dark mode */
+	}
+
+	.dark .highlight .m,
+	.dark .highlight .mi,
+	.dark .highlight .mf {
+		color: #f78c6c;
+	}
+
+	.dark .highlight .nf {
+		color: #82aaff;
+	}
+
+	.dark .highlight .nb,
+	.dark .highlight .nc {
+		color: #7fdbca;
+	}
+
+	.dark .highlight .bp,
+	.dark .highlight .na {
+		color: #ffcb6b;
+	}
+
+	.dark .highlight .nt {
+		color: #ff5370;
+	}
+
+	.dark .highlight .p {
+		color: #89ddff;
+	}
+
+	.dark .highlight .nl {
+		color: #c792ea;
+	}
+
+	.dark .highlight .mb {
+		color: #f78c6c;
+	}
+}
+
+/* Remove backticks from inline code - outside @layer for proper CSS */
+.prose :where(code):not(:where([class~='not-prose'], [class~='not-prose'] *))::before,
+.prose :where(code):not(:where([class~='not-prose'], [class~='not-prose'] *))::after {
+	content: none !important;
+}
+
+/* Broken link styling */
+.broken-link {
+	opacity: 0.6;
+	cursor: not-allowed;
+	pointer-events: none;
+}
+
+.broken-link s {
+	text-decoration: line-through;
+	text-decoration-thickness: 2px;
+	text-decoration-color: #ef4444; /* red-500 */
+}

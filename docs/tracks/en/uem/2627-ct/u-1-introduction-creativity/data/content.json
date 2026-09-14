@@ -1,0 +1,361 @@
+---
+layout: null
+---
+{
+  "unit_label": "Creativity Techniques · U1 Introduction",
+  "final_event_theme": "What is creativity for you?",
+  "media_selection": {
+    "unit_id": "U1",
+    "project_id": "tc",
+    "collection": "unit-accepted",
+    "strategy": "review-state-assigned",
+    "description": "Accepted/ranked Profield review-state assets assigned to tc/U1.",
+    "media_overrides": {}
+  },
+  "assets": [
+    {
+      "media_slot_id": "U1.still.profield-1",
+      "asset_id": "nypl:07ed5120-2f28-0133-a598-58d385a7b928",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/3ecc1a2343c3bc48.php",
+      "source_file_url": "https://images.nypl.org/index.php?id=5337564&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/07ed5120-2f28-0133-a598-58d385a7b928",
+      "alt_text": "Creation of Adam",
+      "title": "Creation of Adam",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 4,
+      "selection_rank": 4,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U1.still.profield-2",
+      "asset_id": "nypl:2e51cc60-c554-012f-49f2-58d385a7bc34",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/37dc0f693437fddc.php",
+      "source_file_url": "https://images.nypl.org/index.php?id=G91F111_019F&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/2e51cc60-c554-012f-49f2-58d385a7bc34",
+      "alt_text": "The artist's dream.",
+      "title": "The artist's dream.",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 4,
+      "selection_rank": 4,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U1.still.profield-3",
+      "asset_id": "wikimedia:File:Five-Way Portrait of Marcel Duchamp, 21 June 1917, New York City.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/1e69510991fc9a37.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Five-Way_Portrait_of_Marcel_Duchamp%2C_21_June_1917%2C_New_York_City.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Five-Way_Portrait_of_Marcel_Duchamp,_21_June_1917,_New_York_City.jpg",
+      "alt_text": "Five-Way Portrait of Marcel Duchamp, 21 June 1917, New York City.jpg",
+      "title": "Five-Way Portrait of Marcel Duchamp, 21 June 1917, New York City.jpg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 4,
+      "selection_rank": 4,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U1.still.profield-4",
+      "asset_id": "nypl:05574380-c575-012f-544f-58d385a7bc34",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/a4477af5518f145f.php",
+      "source_file_url": "https://images.nypl.org/index.php?id=1942274&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/05574380-c575-012f-544f-58d385a7bc34",
+      "alt_text": "Dada siegt! : Wiedereröffnung der polizeilich geschlossenen Ausstellung, Schildergasse 37 ...",
+      "title": "Dada siegt! : Wiedereröffnung der polizeilich geschlossenen Ausstellung, Schildergasse 37 ...",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 3,
+      "selection_rank": 3,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U1.still.profield-5",
+      "asset_id": "nypl:195d82a0-3acf-0133-9eb9-00505686d14e",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/9093105dae3b42e3.php",
+      "source_file_url": "https://images.nypl.org/index.php?id=5339748&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/195d82a0-3acf-0133-9eb9-00505686d14e",
+      "alt_text": "Festival Dada, mercredi 26 mai 1920 à 3 h. après-midi",
+      "title": "Festival Dada, mercredi 26 mai 1920 à 3 h. après-midi",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 3,
+      "selection_rank": 3,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U1.still.profield-6",
+      "asset_id": "nypl:1ff4e4e0-c62b-012f-8b5a-58d385a7bc34",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/3431b3f642ee6a65.php",
+      "source_file_url": "https://images.nypl.org/index.php?id=1642709&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/1ff4e4e0-c62b-012f-8b5a-58d385a7bc34",
+      "alt_text": "A patent sideboard.",
+      "title": "A patent sideboard.",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 3,
+      "selection_rank": 3,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U1.still.profield-7",
+      "asset_id": "nypl:280b6a20-4180-0130-d5e6-58d385a7b928",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/d42ecff10bbdd06b.php",
+      "source_file_url": "https://images.nypl.org/index.php?id=5023595&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/280b6a20-4180-0130-d5e6-58d385a7b928",
+      "alt_text": "Reflection.",
+      "title": "Reflection.",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 3,
+      "selection_rank": 3,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U1.still.profield-8",
+      "asset_id": "nypl:4678b550-c55d-012f-5575-58d385a7bc34",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/259aed079d802ff0.php",
+      "source_file_url": "https://images.nypl.org/index.php?id=836597&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/4678b550-c55d-012f-5575-58d385a7bc34",
+      "alt_text": "Hook and ladder in action",
+      "title": "Hook and ladder in action",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 3,
+      "selection_rank": 3,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U1.still.profield-9",
+      "asset_id": "nypl:4cc1ab80-c6e7-012f-3e2c-58d385a7bc34",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/ad7189f98c755794.php",
+      "source_file_url": "https://images.nypl.org/index.php?id=1567396&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/4cc1ab80-c6e7-012f-3e2c-58d385a7bc34",
+      "alt_text": "Four designs for chairs, two designs for tables, three designs for lamps",
+      "title": "Four designs for chairs, two designs for tables, three designs for lamps",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 3,
+      "selection_rank": 3,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U1.still.profield-10",
+      "asset_id": "wikimedia:File:Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (68).JPG",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/337b1324e6f226b2.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Art%2BFeminism_Wikipedia_Edit-A-Thon_2015%2C_The_Banff_Centre%2C_Banff%2C_Alberta_%2868%29.JPG",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Art%2BFeminism_Wikipedia_Edit-A-Thon_2015,_The_Banff_Centre,_Banff,_Alberta_(68).JPG",
+      "alt_text": "Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (68).JPG",
+      "title": "Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (68).JPG",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 3,
+      "selection_rank": 3,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U1.still.profield-11",
+      "asset_id": "wikimedia:File:Iterative Process Diagram.svg",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/1b014b8e74a8b772.svg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Iterative_Process_Diagram.svg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Iterative_Process_Diagram.svg",
+      "alt_text": "Iterative Process Diagram.svg",
+      "title": "Iterative Process Diagram.svg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 3,
+      "selection_rank": 3,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U1.still.profield-12",
+      "asset_id": "wikimedia:File:RotaryDemisphereMarcelDuchampManRay.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/d4f5577b5191fd61.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/RotaryDemisphereMarcelDuchampManRay.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:RotaryDemisphereMarcelDuchampManRay.jpg",
+      "alt_text": "RotaryDemisphereMarcelDuchampManRay.jpg",
+      "title": "RotaryDemisphereMarcelDuchampManRay.jpg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 3,
+      "selection_rank": 3,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U1.still.profield-13",
+      "asset_id": "wikimedia:File:Rrose Sélavy (Marcel Duchamp), 1921 photograph by Man Ray.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/184af2a70e55d004.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Rrose_S%C3%A9lavy_%28Marcel_Duchamp%29%2C_1921_photograph_by_Man_Ray.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Rrose_S%C3%A9lavy_(Marcel_Duchamp),_1921_photograph_by_Man_Ray.jpg",
+      "alt_text": "Rrose Sélavy (Marcel Duchamp), 1921 photograph by Man Ray.jpg",
+      "title": "Rrose Sélavy (Marcel Duchamp), 1921 photograph by Man Ray.jpg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 3,
+      "selection_rank": 3,
+      "collection": "unit-accepted"
+    }
+  ],
+  "slides": [
+    {
+      "slide_role": "unit_cover",
+      "background_kind": "profield",
+      "media_slot_id": "U1.still.profield-1",
+      "heading": "U1 · Introduction to creativity",
+      "sentence": "Creativity is work you can pace: open many options, then choose what fits the brief.",
+      "prompt": "Not a talent myth — a studio craft"
+    },
+    {
+      "slide_role": "analysis_opener",
+      "background_kind": "geometrical",
+      "heading": "Analysis opens the class",
+      "sentence": "Sessions 1–2: the professor shows how to analyse. From session 3: two students start the session with a 15-minute defence each.",
+      "prompt": "Your D1 support = the defence slideshow"
+    },
+    {
+      "slide_role": "analysis_model",
+      "background_kind": "profield",
+      "media_slot_id": "U1.still.profield-2",
+      "heading": "How to analyse (model)",
+      "sentence": "Say what the piece is made of first: language, medium, support. Then ask where meaning travels when someone else sees it.",
+      "prompt": "Judge creativity only after you name those three"
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "profield",
+      "media_slot_id": "U1.still.profield-3",
+      "heading": "1 · Open, then close",
+      "sentence": "First invent many possibilities. Then pick what fits the needs of the brief.",
+      "quote": "The same creative act may involve both divergent and convergent thinking.",
+      "citation": {
+        "label": "(Craft 2003, 43)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#ref-craft-2003"
+      }
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "profield",
+      "media_slot_id": "U1.still.profield-4",
+      "heading": "2 · Four skills you can train",
+      "sentence": "Fluency (many ideas), flexibility (many angles), originality (unusual links), elaboration (work the details).",
+      "quote": "Fluency - the ability to produce a large number of ideas or solutions to a problem rapidly.",
+      "citation": {
+        "label": "(Chen 2012, 41)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#ref-chen-2012"
+      }
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "profield",
+      "media_slot_id": "U1.still.profield-5",
+      "heading": "3 · Tests are not the whole story",
+      "sentence": "Scoring well on “uses of a brick” does not prove you are strong in another field.",
+      "quote": "After all, the ability of divergent thinking with a paper clip may tell us little about an individual's talent in music.",
+      "citation": {
+        "label": "(Chen 2012, 41)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#ref-chen-2012"
+      }
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "profield",
+      "media_slot_id": "U1.still.profield-11",
+      "heading": "4 · Name the problem first",
+      "sentence": "Before you grab a creativity technique, say what is unclear in the brief.",
+      "prompt": "Studio stance — page cite still open"
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "profield",
+      "media_slot_id": "U1.still.profield-12",
+      "heading": "5 · Techniques are tools, not scripts",
+      "sentence": "A method helps you talk with the situation. It does not replace your judgement.",
+      "prompt": "Studio stance — page cite still open"
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "profield",
+      "media_slot_id": "U1.still.profield-6",
+      "heading": "6 · “Design thinking” is debated",
+      "sentence": "Use useful tools — and ask when buzzwords hide weak craft.",
+      "prompt": "Open debate — page cite still open"
+    },
+    {
+      "slide_role": "lab_opener",
+      "background_kind": "geometrical",
+      "heading": "Lab · Portfolio",
+      "sentence": "Exercises come next. Everything you make in Lab goes into your portfolio index.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Open or update the portfolio index before you leave."
+    },
+    {
+      "slide_role": "lab_exercise",
+      "background_kind": "profield",
+      "media_slot_id": "U1.still.profield-7",
+      "heading": "Debate · Language, medium, support & circulation",
+      "sentence": "Pick one work (yours or from class). Name language, medium, and support. Then argue: if the same piece moved to another venue, where would meaning break — in making, in the channel, or in recognition?",
+      "portfolio_bound": true,
+      "portfolio_trace": "Save your triad notes plus one circulation sentence from the debate."
+    },
+    {
+      "slide_role": "lab_exercise",
+      "background_kind": "profield",
+      "media_slot_id": "U1.still.profield-8",
+      "heading": "Exercise 1 · Research Marcel Duchamp",
+      "sentence": "Find three facts about Duchamp that connect to this unit: readymades, play with identity, or how meaning shifts when context changes.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Save three bullet points with sources in the portfolio index."
+    },
+    {
+      "slide_role": "lab_exercise",
+      "background_kind": "profield",
+      "media_slot_id": "U1.still.profield-9",
+      "heading": "Exercise 2 · Research the Dada movement",
+      "sentence": "What did Dada question about art, authorship, and institutions? Link at least one Dada tactic to a creativity technique you might use in studio.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Save a short paragraph plus one studio link in the portfolio index."
+    },
+    {
+      "slide_role": "lab_exercise",
+      "background_kind": "profield",
+      "media_slot_id": "U1.still.profield-10",
+      "heading": "Exercise 3 · Explore the course directory",
+      "sentence": "Browse the Directory. Pick two entries where you could see yourself after your studies — prize, studio, journal, figure, or organisation. Say why each fits you.",
+      "prompt": "Directory → /directory/en/",
+      "portfolio_bound": true,
+      "portfolio_trace": "Save two directory entries (with links) and two sentences on your path."
+    },
+    {
+      "slide_role": "workshop_opener",
+      "background_kind": "geometrical",
+      "heading": "Workshop · Deliverable",
+      "sentence": "Protected time on the next graded deliverable — not a second lecture."
+    },
+    {
+      "slide_role": "workshop_work",
+      "background_kind": "diagram",
+      "heading": "Reminder · From session 3 you start the session",
+      "sentence": "From session 3, two students open the class with a 15-minute analysis defence each. Use Workshop time now to outline that defence.",
+      "prompt": "Rubric: presentation 70% · support slideshow 20% · peer debate 10%."
+    },
+    {
+      "slide_role": "outro",
+      "background_kind": "geometrical",
+      "heading": "Carry forward",
+      "sentence": "Portfolio index open. D1 outline started. Final event theme: What is creativity for you?"
+    }
+  ]
+}

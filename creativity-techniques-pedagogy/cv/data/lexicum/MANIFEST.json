@@ -1,0 +1,17 @@
+{
+  "schema": "lexfield-clone-manifest/v1",
+  "cloned_at": "2026-09-14T08:35:15Z",
+  "upstream": {
+    "tool": "lexfield",
+    "field": "creativity_techniques",
+    "path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/creativity-techniques-uem/creativity-techniques-pedagogy/grounding/fieldlex/src-yaml"
+  },
+  "stats": {
+    "subfields": 7,
+    "concepts": 76
+  },
+  "publication": {
+    "route": "/lexicum/en/",
+    "contract": "lexfield-public/v1"
+  }
+}

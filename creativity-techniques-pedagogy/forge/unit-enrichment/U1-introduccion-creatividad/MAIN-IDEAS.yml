@@ -1,0 +1,46 @@
+# Student slideshow payload — ≤ 6 main ideas
+unit_id: U1
+title_en: Introduction to creativity and its importance
+max_ideas: 6
+voice: late-secondary / first-year clear English
+deck_spine: [unit_cover, analysis_opener, analysis_model, masterclass×6, lab_opener, lab_debate×1, lab_exercise×3, workshop_opener, workshop_work, outro]
+lab_practice:
+  debate: "Language / medium / support + circulation (merged former Lab A + B)"
+  exercises:
+    - "Research Marcel Duchamp"
+    - "Research Dada movement"
+    - "Explore course directory — where after studies"
+ideas:
+  - id: 1
+    heading: Open, then close
+    sentence: "First invent many possibilities. Then pick what fits the needs of the brief."
+    quote: "The same creative act may involve both divergent and convergent thinking."
+    chicago: "(Craft 2003, 43)"
+  - id: 2
+    heading: Four skills you can train
+    sentence: "Fluency (many ideas), flexibility (many angles), originality (unusual links), elaboration (work the details)."
+    quote: "Fluency - the ability to produce a large number of ideas or solutions to a problem rapidly."
+    chicago: "(Chen 2012, 41)"
+  - id: 3
+    heading: Tests are not the whole story
+    sentence: "Scoring well on “uses of a brick” does not prove you are strong in another field."
+    quote: "After all, the ability of divergent thinking with a paper clip may tell us little about an individual's talent in music."
+    chicago: "(Chen 2012, 41)"
+  - id: 4
+    heading: Name the problem first
+    sentence: "Before you grab a creativity technique, say what is unclear in the brief."
+    chicago: null
+    stance: studio_hypothesis
+  - id: 5
+    heading: Techniques are tools, not scripts
+    sentence: "A method helps you talk with the situation. It does not replace your judgement."
+    chicago: null
+    stance: studio_hypothesis
+  - id: 6
+    heading: “Design thinking” is debated
+    sentence: "Use useful tools — and ask when buzzwords hide weak craft."
+    chicago: null
+    stance: studio_hypothesis
+workshop_reminder:
+  heading: Reminder · From session 3 you start the session
+  sentence: "From session 3, two students open the class with a 15-minute analysis defence each. Use Workshop time now to outline that defence."

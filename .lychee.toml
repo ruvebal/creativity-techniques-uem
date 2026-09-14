@@ -1,0 +1,20 @@
+exclude_path = [
+  "**/node_modules/**",
+  "student-project-template/**",
+  "creativity-techniques-pedagogy/**",
+  "directory/**",
+  "methods/**",
+  "private/**"
+]
+
+exclude = [
+  "file://*",
+  "https://travis-ci.*/*",
+  "https://img.shields.io/*",
+  "https://www.gnu.org/*",
+  "http://nodeca.github.com/*"
+]
+
+max_concurrency = 8
+retry_wait_time = 2
+timeout = 30

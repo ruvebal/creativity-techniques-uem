@@ -1,0 +1,59 @@
+- id: cumulus
+  name: Cumulus Association
+  kind: organization
+  status: established
+  summary: Global art and design education network; peer-reviewed conference proceedings hub.
+  url: https://cumulusassociation.org/resources/conference-proceedings/
+  doi: null
+  location: international
+  years: ongoing
+  references: []
+  units: [U1]
+
+- id: drs
+  name: Design Research Society (DRS)
+  kind: organization
+  status: established
+  summary: Research society for design; Design Pedagogy SIG (PedSIG) hosts studio-learning debate.
+  url: https://www.designresearchsociety.org/
+  doi: null
+  location: international
+  years: ongoing
+  references: []
+  units: [U1, U3]
+
+- id: dimad
+  name: DIMAD / Bienal Iberoamericana de Diseño
+  kind: organization
+  status: established
+  summary: Ibero-American design biennial lineage (Matadero Madrid); hosts Encuentro BID de Enseñanza y Diseño.
+  url: https://www.bid-dimad.org/
+  doi: null
+  location: Madrid / Ibero-America
+  years: ongoing
+  references: []
+  units: [U1]
+
+- id: aiga
+  name: AIGA
+  kind: organization
+  status: practitioner
+  summary: US professional design association — conferences and community events adjacent to workplace creativity discourse.
+  url: https://www.aiga.org/
+  doi: null
+  location: United States
+  years: ongoing
+  references: []
+  units: [U4]
+
+- id: dmi
+  name: Design Management Institute (DMI)
+  kind: organization
+  status: practitioner
+  summary: Design-in-business adjacency for workplace application of creativity techniques.
+  url: https://www.dmi.org/
+  doi: null
+  location: international
+  years: ongoing
+  references: []
+  units: [U4]

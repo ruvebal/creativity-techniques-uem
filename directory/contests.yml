@@ -1,0 +1,59 @@
+- id: encuentro-bid
+  name: Encuentro BID de Enseñanza y Diseño
+  kind: contest
+  status: established
+  summary: Biennial Ibero-American teaching forum within the Bienal Iberoamericana de Diseño.
+  url: https://www.bid-dimad.org/
+  doi: null
+  location: Madrid / Ibero-America
+  years: biennial
+  references: []
+  units: [U1]
+
+- id: design-indaba
+  name: Design Indaba
+  kind: contest
+  status: practitioner
+  summary: Recurring Cape Town design and creativity public forum.
+  url: https://designindaba.com/
+  doi: null
+  location: Cape Town
+  years: ongoing
+  references: []
+  units: [U1, U4]
+
+- id: ars-electronica
+  name: Ars Electronica
+  kind: contest
+  status: practitioner
+  summary: Linz festival for digital, generative, and experimental practice — creativity-and-technology adjacency.
+  url: https://ars.electronica.art/
+  doi: null
+  location: Linz
+  years: ongoing
+  references: []
+  units: [U5]
+
+- id: one-club-creative-week
+  name: One Club Creative Week
+  kind: contest
+  status: practitioner
+  summary: New York industry creative week (advertising/design). Correct name — not “Creativity Week.”
+  url: https://www.oneclub.org/
+  doi: null
+  location: New York
+  years: ongoing
+  references: []
+  units: [U4]
+
+- id: cumulus-conference
+  name: Cumulus conferences
+  kind: contest
+  status: established
+  summary: Recurring art and design education congress with published proceedings.
+  url: https://cumulusassociation.org/
+  doi: null
+  location: international
+  years: ongoing
+  references: []
+  units: [U1]

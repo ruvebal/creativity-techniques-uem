@@ -1,0 +1,29 @@
+# Student slideshow payload — ≤ 6 main ideas
+unit_id: U6
+title_en: Creativity and personal development
+max_ideas: 6
+ideas:
+  - id: 1
+    heading: Confidence is practiced
+    sentence: Creative confidence grows from doing creative work — not from waiting to feel gifted.
+    chicago: null
+  - id: 2
+    heading: Beliefs convert potential
+    sentence: Believing you can and should act creatively turns ability into action.
+    chicago: null
+  - id: 3
+    heading: Mastery feeds regulation
+    sentence: Success experiences teach what to repeat, revise, or drop.
+    chicago: null
+  - id: 4
+    heading: Blocks are part of the path
+    sentence: Name blocks; use constraints, peers, and prompts to restart.
+    chicago: null
+  - id: 5
+    heading: Sustain beyond the workshop
+    sentence: Personal development means habits under real briefs, not one-day highs.
+    chicago: null
+  - id: 6
+    heading: Autonomy with accountability
+    sentence: Own your process inside the brief — without romantic isolation.
+    chicago: null

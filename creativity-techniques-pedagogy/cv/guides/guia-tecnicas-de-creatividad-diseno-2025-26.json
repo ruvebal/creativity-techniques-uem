@@ -1,0 +1,102 @@
+{
+  "subject_name": "Técnicas de Creatividad",
+  "official_title_name": "Grado en Diseño",
+  "school_or_faculty": "Facultad de Diseño y Tecnologías Creativas",
+  "year": 3,
+  "ects": 6.0,
+  "module_type": "Obligatoria",
+  "languages": ["Castellano"],
+  "modality": "Presencial",
+  "semester": "Primer semestre",
+  "academic_year": "2025/2026",
+  "coordinating_professor": "Sally Gutiérrez Dewar",
+  "presentation": "Esta materia facilitará al alumno metodologías que le permitan activar y desarrollar su creatividad en el contexto profesional, caracterizado por los condicionantes de los encargos (fechas de entrega, condiciones específicas de cada proyecto, competencia, etc.). Las metodologías que se practicarán afrontarán la generación de ideas y búsqueda de soluciones creativas a los proyectos desde diversas perspectivas: mediante estímulos gráficos; mediante asociaciones semánticas; mediante la exploración multifocal; a través de planteamientos analíticos; mediante actividades en grupo; mediante acciones. Exploraremos el mundo de la creatividad y aprenderemos como estimular nuestra creatividad con herramientas prácticas para así generar ideas vanguardistas. A través de ejercicios descubriremos cómo superar bloqueos mentales, fomentar la originalidad y desarrollar soluciones creativas a problemas complejos.",
+  "competencies": [
+    "CB1: Que los estudiantes hayan demostrado poseer y comprender conocimientos en su área de estudio que parte de la base de la educación secundaria general, y se suele encontrar a un nivel que, si bien se apoya en libros de texto avanzados, incluye también algunos aspectos que implican conocimientos procedentes de la vanguardia de su campo de estudio.",
+    "CB2: Que los estudiantes sepan aplicar sus conocimientos a su trabajo o vocación de una forma profesional y posean las competencias que suelen demostrarse por medio de la elaboración y defensa de argumentos y la resolución de problemas dentro de su área de estudio.",
+    "CB3: Que los estudiantes tengan la capacidad de reunir e interpretar datos relevantes (normalmente dentro de su área de estudio) para emitir juicios que incluyan una reflexión sobre temas relevantes de índole social, científica o ética.",
+    "CB4: Que los estudiantes puedan transmitir información, ideas, problemas y soluciones",
+    "CB5: Que los estudiantes hayan desarrollado aquellas habilidades de aprendizaje necesarias para comprender estudios posteriores con un alto grado de autonomía",
+    "CT7: Conciencia de los valores éticos.",
+    "CT9: Habilidades en las relaciones interpersonales.",
+    "CT10: Iniciativa y espíritu emprendedor. Capacidad para acometer con resolución acciones dificultosas o azarosas. Capacidad para anticipar problemas, proponer mejoras y perseverar.",
+    "CT15: Responsabilidad: Capacidad para cumplir los compromisos que alcanza la persona consigo mismo y con los demás a la hora de realizar una tarea y tratar de alcanzar un conjunto de objetivos dentro del proceso de aprendizaje. Capacidad existente en todo sujeto para reconocer y aceptar las consecuencias de un hecho realizado libremente.",
+    "CT17: Trabajo en equipo.",
+    "CE12: Capacidad para emitir juicio de valor analizando desde un punto de vista ético los casos dentro de la actividad profesional.",
+    "CE13: Capacidad para desarrollar habilidades comunicativas para la correcta transmisión de las ideas en un grupo de trabajo.",
+    "CE15: Capacidad para tomar decisiones razonadas, adecuar el comportamiento a distintas situaciones y asumir un estilo de liderazgo adecuado a cada situación.",
+    "CE16: Capacidad para desarrollar un pensamiento crítico, creativo y reflexivo en el ámbito profesional del diseño."
+  ],
+  "learning_outcomes": [
+    "RA5: Resolver problemas partiendo de premisas o información.",
+    "RA6: Mostrar suficiencia a la hora de plantearse nuevos problemas y buscarles solución de manera autónoma.",
+    "RA12: Comprender actitudes, intereses, necesidades y perspectivas de los otros y orientarse hacia el desarrollo de los demás.",
+    "RA14: Mostrar habilidades de pensamiento crítico, creativo y reflexivo.",
+    "RA15: Comprender la dinámica de los grupos de trabajo y su gestión eficaz. Reconocer capacidades y destrezas en los demás para gestionar su desarrollo."
+  ],
+  "contents": "La materia está organizada en seis unidades de aprendizaje: Unidad 1. Introducción a la creatividad y su importancia. Unidad 2. Técnicas de generación y selección de ideas. Unidad 3. Técnicas de desarrollo y soluciones. Unidad 4. Aplicación de las técnicas de creatividad en el ámbito laboral. Unidad 5. Creatividad y tecnología. Unidad 6. Creatividad y desarrollo personal.",
+  "methodologies": {
+    "General": [
+      "Clase Magistral",
+      "Aprendizaje Cooperativo",
+      "Aprendizaje experiencial"
+    ]
+  },
+  "formative_activities": {
+    "Modalidad presencial": [
+      {"name": "Clases magistrales", "hours": 32.0},
+      {"name": "Ejercicios prácticos y resolución de problemas", "hours": 20.5},
+      {"name": "Exposición oral de trabajos", "hours": 5.0},
+      {"name": "Informes y escritos", "hours": 13.5},
+      {"name": "Trabajo autónomo", "hours": 50.0},
+      {"name": "Debates y coloquios", "hours": 9.0},
+      {"name": "Tutoría y seguimiento académico", "hours": 18.0},
+      {"name": "Pruebas de conocimiento", "hours": 2.0}
+    ],
+    "Modalidad online": [
+      {"name": "Clases magistrales", "hours": 32.0},
+      {"name": "Ejercicios prácticos y resolución de problemas", "hours": 20.5},
+      {"name": "Exposición oral de trabajos", "hours": 5.0},
+      {"name": "Informes y escritos", "hours": 13.5},
+      {"name": "Trabajo autónomo", "hours": 50.0},
+      {"name": "Debates y coloquios", "hours": 9.0},
+      {"name": "Tutoría y seguimiento académico", "hours": 18.0},
+      {"name": "Pruebas de conocimiento", "hours": 2.0}
+    ]
+  },
+  "evaluation": {
+    "Modalidad presencial": [
+      {"name": "Pruebas de conocimiento", "weight_percent": 60.0},
+      {"name": "Entrega de y/o presentación de trabajos", "weight_percent": 40.0}
+    ]
+  },
+  "assessable_activities": [
+    {"name": "Actividad 1: análisis y reinvención de mecánicas", "weeks": "1-5"},
+    {"name": "Actividad 2: aplicando técnicas de creatividad I", "weeks": "2-6"},
+    {"name": "Actividad 3: aplicando técnicas de creatividad II", "weeks": "5-10"},
+    {"name": "Actividad 4: herramientas de planificación", "weeks": "12-15"}
+  ],
+  "bibliography_core": [
+    "Brown, Tim (2020). Diseñar el Cambio. Editorial Empresa Activa.",
+    "The Founder (2016). Dir. John Lee Hancock.",
+    "Fitzpatrick, R. (2019). El Mom Test. Gumroad Edita.",
+    "Knapp, J., Zeratsky, J. y Kowitz, B. (2018). Sprint. Editorial Conecta.",
+    "Norman, D. (2005). El diseño emocional. Ediciones Paidós.",
+    "Robinson, Ken. TED Talk: Do schools kill creativity?",
+    "Sikora, J. (1979). Manual de métodos creativos. Editorial Kapelusz.",
+    "Whiting, C. S. (1958). Creative Thinking. Reinhold Publishing Co.",
+    "Young, J. (1982). Una técnica para producir ideas. Eresma, Madrid."
+  ],
+  "bibliography_recommended": [
+    "Bevan, R. y Wright, T. (2005). Despierta toda tu creatividad. Ediciones Nowtilus.",
+    "De Bono, E. (1990). Lateral thinking. Harper Perennial.",
+    "De Bono, E. (1999). Six Thinking Hats. Back Bay Books.",
+    "Gardner, H. (2005). Arte, mente y cerebro. Paidós.",
+    "Maslow, A. (2005). La personalidad creadora. Kairós.",
+    "Roam, D. (2010). Tu mundo en una servilleta. Gestión 2000.",
+    "Robinson, Ken (2009). El Elemento. DeBolsillo.",
+    "Rodari, Gianni (2020). Libro de la Fantasía. Blackie Books."
+  ],
+  "source_note": "Operator-pasted Guía Docente text 2026-09-09; Grado en Diseño (not Videojuegos/Animación clones).",
+  "source_url": null
+}

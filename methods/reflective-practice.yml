@@ -1,0 +1,22 @@
+id: reflective-practice
+title: Reflective practice (studio)
+kind: scholarly
+funding: null
+summary: Schön’s reflection-in-action — techniques serve conversation with the situation, not checklist execution of creativity recipes.
+steps:
+  - Frame the indeterminate situation.
+  - Act, then reflect on what the move revealed.
+  - Reframe before the next technique cycle.
+fieldlex:
+  - ct:reflectivePractice
+  - ct:studioPedagogy
+  - ct:wickedProblem
+units: [U1, U3]
+references:
+  - 'Schön, Donald A. 1983. The Reflective Practitioner. Basic Books.'
+athanor:
+  ingested: false
+  project_slugs: [profield-creativity-techniques]
+  status: gap
+  note: Pass-1 ESTABLISHED; Ahmes coat resolve still owed for page-level cites.
+url: null

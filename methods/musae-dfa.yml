@@ -1,0 +1,43 @@
+id: musae-dfa
+title: MUSAE — Design Future Art-driven (DFA) method
+kind: funded-transdisciplinary
+funding:
+  programme: Horizon Europe RIA (HORIZON-CL4-2021-HUMAN-01-21)
+  grant_id: '101070421'
+  cordis_url: https://cordis.europa.eu/project/id/101070421
+  doi: 10.3030/101070421
+  years: 2022–2025
+  coordinator: Politecnico di Milano
+  eu_contribution_eur: 3088475.50
+summary: >
+  EU-funded transdisciplinary method that merges Design Futures (POLIMI) with
+  Art Thinking (Gluon / STARTS partners) so artists envision 5–10 year scenarios,
+  critically reflect, and collaborate with technology providers (including AI)
+  inside Digital Innovation Hubs. The “Factory Model” packages the method for
+  replication — human-centred, art-driven technology innovation rather than
+  brainstorming theatre.
+steps:
+  - Envision future scenarios (5–10 years) through artistic practice.
+  - Critically reflect on those futures against wellbeing and sustainability goals.
+  - Collaborate with technology partners (AI, wearables, robotics, HMI) to prototype responses.
+  - Package transferable “factory” guidelines for Digital Innovation Hubs.
+fieldlex:
+  - ct:generativeAiCoCreation
+  - ct:humanAiCollaboration
+  - ct:technologyMediatedCreativity
+  - ct:designThinkingDiscourse
+units: [U5, U4, U1]
+references:
+  - 'European Commission. MUSAE — Grant agreement ID 101070421. CORDIS. https://doi.org/10.3030/101070421.'
+  - 'MUSAE project site (when citing practice packs, prefer CORDIS + project outputs over secondary blogs).'
+athanor:
+  ingested: false
+  project_slugs:
+    - profield-creativity-techniques
+    - profield-digital-creativity
+  status: missing
+  note: >
+    2026-09-13 DevIAC broadcast found no Ahmes coat for MUSAE/DFA.
+    Profile is CORDIS-grounded (public grant record). Procurement/extract
+    into scholar vault before Chicago lesson cites beyond the CORDIS DOI.
+url: https://cordis.europa.eu/project/id/101070421

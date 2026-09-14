@@ -1,0 +1,40 @@
+<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "ScholarlyArticle",
+		"headline": "{{ page.title | default: site.title }}",
+		"author": {
+			"@type": "Person",
+			"name": "Rubén Vega Balbás, PhD",
+			"jobTitle": "Creative Technologist & Developer",
+			"affiliation": {
+				"@type": "Organization",
+				"name": "Universidad Europea Creative Campus",
+				"url": "https://creativecampus.universidadeuropea.com/"
+			},
+			"identifier": {
+				"@type": "PropertyValue",
+				"propertyID": "ORCID",
+				"value": "https://orcid.org/0000-0001-6862-9081"
+			},
+			"sameAs": [
+				"https://github.com/ruvebal",
+				"https://www.instagram.com/ruvebal/",
+				"https://orcid.org/0000-0001-6862-9081"
+			],
+			"contactPoint": {
+				"@type": "ContactPoint",
+				"contactType": "inquiries",
+				"email": "ruben.vega@universidadeuropea.es"
+			}
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "Creativity Techniques — Universidad Europea Creative Campus",
+			"url": "https://github.com/ruvebal/creativity-techniques-uem"
+		},
+		"datePublished": "{{ page.date | default: site.time | date: '%Y-%m-%d' }}",
+		"license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+		"keywords": ["creativity techniques", "design education", "ideation", "creative methods", "critical thinking"]
+	}
+</script>

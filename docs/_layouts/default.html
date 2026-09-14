@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}" id="html-root" class="dark" style="color-scheme: dark;">
+	<head>
+		{% include head.html %}
+	</head>
+	<body
+		class="bg-white dark:bg-neutral-950 text-slate-900 dark:text-neutral-100 antialiased transition-colors duration-200{% if site.data.archive_covers[page.url] %} has-archive-hero{% endif %}"
+		{% if site.data.archive_covers[page.url] %}style="{% include archive-hero-vars.html %}"{% endif %}>
+		<a href="#main" class="skip-link">Skip to main content</a>
+		{% include header.html %}
+		<main id="main" class="min-h-screen prose-slate dark:prose-invert w-full max-w-none">
+			{% unless page.layout == 'lesson' %}
+			{% assign archive_cover = site.data.archive_covers[page.url] %}
+			{% if archive_cover and page.layout == 'default' %}
+				{% unless page.content contains 'hero-section' %}
+			<section class="hero-section hero-section--archive hero-section--title-only" aria-labelledby="page-hero-title">
+				<h1 id="page-hero-title" class="hero-section__title">{{ page.title | escape }}</h1>
+				{% if page.description %}
+				<p class="hero-section__lede">{{ page.description | escape }}</p>
+				{% endif %}
+			</section>
+				{% endunless %}
+			{% endif %}
+			{% include site-hero.html %}
+			{% endunless %}
+			{{ content }}
+		</main>
+		{% include footer.html %}
+	</body>
+</html>

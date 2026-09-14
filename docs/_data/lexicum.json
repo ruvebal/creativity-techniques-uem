@@ -1,0 +1,1566 @@
+{
+  "schema": "lexfield-public/v1",
+  "cloned_at": "2026-09-14T08:35:15Z",
+  "field": {
+    "slug": "creativity_techniques",
+    "title": "Creativity Techniques",
+    "description": "Controlled vocabulary for creativity-techniques pedagogy in higher-education design studios — foundations, ideation repertoires, development methods, workplace application, technology-mediated practice, personal development, and a critical scholarly layer.",
+    "namespace_prefix": "ct",
+    "namespace_uri": "https://crea-comm.net/lexfield/creativity_techniques#"
+  },
+  "stats": {
+    "subfields": 7,
+    "concepts": 76
+  },
+  "subfields": [
+    {
+      "slug": "creativity_and_technology",
+      "title": "Creativity and Technology",
+      "description": "Digital and generative tools as ideation partners, with authorship, originality, and assessment questions for HE design studios.",
+      "concept_count": 10,
+      "concepts": [
+        {
+          "slug": "generativeAiCoCreation",
+          "pref_label": "Generative AI Co-Creation",
+          "definition": "Stage-specific use of generative models to propose, vary, or reframe ideas during early ideation while keeping problem framing and final judgment with the human studio team.",
+          "alt_labels": [
+            "GenAI co-creation",
+            "human–AI co-creation"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "humanAiCollaboration",
+            "critical_layer.genAiAuthorshipEthics"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "creativity_and_technology",
+          "qualified": "creativity_and_technology.generativeAiCoCreation",
+          "uri_local": "ct:generativeAiCoCreation"
+        },
+        {
+          "slug": "digitalIdeationPartner",
+          "pref_label": "Digital Ideation Partner",
+          "definition": "Software or model used to expand the search space of concepts—sketch assistants, semantic maps, generative image tools—without substituting for brief analysis or critique.",
+          "alt_labels": [
+            "digital creativity tool"
+          ],
+          "broader": [],
+          "narrower": [
+            "generativeVisualExploration"
+          ],
+          "related": [
+            "technologyMediatedCreativity"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "creativity_and_technology",
+          "qualified": "creativity_and_technology.digitalIdeationPartner",
+          "uri_local": "ct:digitalIdeationPartner"
+        },
+        {
+          "slug": "generativeVisualExploration",
+          "pref_label": "Generative Visual Exploration",
+          "definition": "Using generative image or layout systems to produce rapid visual candidates for discussion, distinct from craft-software training or final production pipelines.",
+          "alt_labels": [
+            "generative sketching"
+          ],
+          "broader": [
+            "digitalIdeationPartner"
+          ],
+          "narrower": [],
+          "related": [
+            "generativeAiCoCreation",
+            "originalityTheatre"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "creativity_and_technology",
+          "qualified": "creativity_and_technology.generativeVisualExploration",
+          "uri_local": "ct:generativeVisualExploration"
+        },
+        {
+          "slug": "computationalCreativity",
+          "pref_label": "Computational Creativity",
+          "definition": "Research and practice concerned with machines producing outputs judged novel and valuable, adjacent to studio pedagogy when tools propose candidate ideas rather than execute fixed rules.",
+          "alt_labels": [
+            "machine creativity"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "generativeAiCoCreation"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "creativity_and_technology",
+          "qualified": "creativity_and_technology.computationalCreativity",
+          "uri_local": "ct:computationalCreativity"
+        },
+        {
+          "slug": "humanAiCollaboration",
+          "pref_label": "Human–AI Collaboration",
+          "definition": "Studio arrangements that allocate roles between learners and models—prompting, curating, critiquing, documenting—so collaboration remains legible to assessment and ethics review.",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "generativeAiCoCreation",
+            "processTransparency"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "creativity_and_technology",
+          "qualified": "creativity_and_technology.humanAiCollaboration",
+          "uri_local": "ct:humanAiCollaboration"
+        },
+        {
+          "slug": "authorshipUnderGenAi",
+          "pref_label": "Authorship Under Generative AI",
+          "definition": "The question of who counts as author when model outputs are selected, edited, or orchestrated in a design process, central to portfolio, credit, and disclosure norms in HE.",
+          "alt_labels": [
+            "GenAI authorship"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "critical_layer.genAiAuthorshipEthics",
+            "critical_layer.disclosureRequirement"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "creativity_and_technology",
+          "qualified": "creativity_and_technology.authorshipUnderGenAi",
+          "uri_local": "ct:authorshipUnderGenAi"
+        },
+        {
+          "slug": "originalityTheatre",
+          "pref_label": "Originality Theatre",
+          "definition": "Presentation of AI-assisted or derivative work as wholly novel authorship without process visibility, critiqued in frontier studio discourse as masking weak problem framing.",
+          "alt_labels": [
+            "originality performance"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "critical_layer.originalityTheatreCritique",
+            "generativeVisualExploration"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "creativity_and_technology",
+          "qualified": "creativity_and_technology.originalityTheatre",
+          "uri_local": "ct:originalityTheatre"
+        },
+        {
+          "slug": "processTransparency",
+          "pref_label": "Process Transparency",
+          "definition": "Documenting prompts, edits, model versions, and human decisions so that creative process can be assessed alongside product under ambient generative assistance.",
+          "alt_labels": [
+            "process visibility"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "promptLiteracy",
+            "critical_layer.assessmentIntegrity"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "creativity_and_technology",
+          "qualified": "creativity_and_technology.processTransparency",
+          "uri_local": "ct:processTransparency"
+        },
+        {
+          "slug": "promptLiteracy",
+          "pref_label": "Prompt Literacy",
+          "definition": "The ability to formulate constraints, references, and iteration strategies when working with generative tools, treated as studio craft rather than vendor shortcut mastery alone.",
+          "alt_labels": [
+            "prompt craft"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "processTransparency",
+            "digitalIdeationPartner"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "creativity_and_technology",
+          "qualified": "creativity_and_technology.promptLiteracy",
+          "uri_local": "ct:promptLiteracy"
+        },
+        {
+          "slug": "technologyMediatedCreativity",
+          "pref_label": "Technology-Mediated Creativity",
+          "definition": "Creative work whose tempo, material, and collaboration patterns are shaped by digital platforms and models, requiring pedagogy distinct from analog-only method canons.",
+          "alt_labels": [
+            "tech-mediated creativity"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "digitalIdeationPartner",
+            "foundations_importance.studioPedagogy"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "creativity_and_technology",
+          "qualified": "creativity_and_technology.technologyMediatedCreativity",
+          "uri_local": "ct:technologyMediatedCreativity"
+        }
+      ]
+    },
+    {
+      "slug": "critical_layer",
+      "title": "Critical Layer",
+      "description": "Ideology, labour, and GenAI authorship critiques for debate hours and bibliography ethics in creativity-techniques curricula (Media Prospector units C1–C3).",
+      "concept_count": 14,
+      "concepts": [
+        {
+          "slug": "softSkillTheatre",
+          "pref_label": "Soft-Skill Theatre",
+          "definition": "Institutional presentation of creativity as a generic employability checkbox detached from technique repertoires, critique, and material conditions of design work in higher education.",
+          "alt_labels": [
+            "creativity soft skill",
+            "competency theatre"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "creativityIdeology",
+            "foundations_importance.talentMyth"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "critical_layer",
+          "qualified": "critical_layer.softSkillTheatre",
+          "uri_local": "ct:softSkillTheatre"
+        },
+        {
+          "slug": "creativityIdeology",
+          "pref_label": "Creativity Ideology",
+          "definition": "Cultural and managerial narratives that treat creativity as innate spark or innovation fuel, obscuring labour, method, power, and pedagogy in design studios.",
+          "alt_labels": [
+            "creativity discourse"
+          ],
+          "broader": [],
+          "narrower": [
+            "softSkillTheatre",
+            "designThinkingIdeologyCritique"
+          ],
+          "related": [
+            "workplace_application.innovationFraming"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "critical_layer",
+          "qualified": "critical_layer.creativityIdeology",
+          "uri_local": "ct:creativityIdeology"
+        },
+        {
+          "slug": "schoolingSuppressesCreativity",
+          "pref_label": "Schooling That Suppresses Creativity",
+          "definition": "Critical claim that normative assessment, ranking, and conformity in education can inhibit exploratory thinking unless studios explicitly protect divergent phases and reflective review.",
+          "alt_labels": [
+            "schooling kills creativity"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "softSkillTheatre",
+            "foundations_importance.teachableCreativity"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "critical_layer",
+          "qualified": "critical_layer.schoolingSuppressesCreativity",
+          "uri_local": "ct:schoolingSuppressesCreativity"
+        },
+        {
+          "slug": "designThinkingIdeologyCritique",
+          "pref_label": "Design Thinking Ideology Critique",
+          "definition": "Scholarly and studio critique of design thinking as managerial product or innovation theatre divorced from situated design practice and ethical judgment.",
+          "alt_labels": [
+            "anti-design-thinking pedagogy"
+          ],
+          "broader": [
+            "creativityIdeology"
+          ],
+          "narrower": [],
+          "related": [
+            "foundations_importance.designThinkingDiscourse"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "critical_layer",
+          "qualified": "critical_layer.designThinkingIdeologyCritique",
+          "uri_local": "ct:designThinkingIdeologyCritique"
+        },
+        {
+          "slug": "creativeLabour",
+          "pref_label": "Creative Labour",
+          "definition": "The often-invisible work of ideation, mood boards, iteration, and emotional labour in design professions, including unpaid or under-credited phases of creative production.",
+          "alt_labels": [
+            "creative work"
+          ],
+          "broader": [],
+          "narrower": [
+            "unpaidIdeation",
+            "hustleCulture"
+          ],
+          "related": [
+            "creditAllocation"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "critical_layer",
+          "qualified": "critical_layer.creativeLabour",
+          "uri_local": "ct:creativeLabour"
+        },
+        {
+          "slug": "unpaidIdeation",
+          "pref_label": "Unpaid Ideation",
+          "definition": "Speculative creative labour—competitions, pitches, internships—performed before contract or payment, raising questions about exploitation in professional entry paths.",
+          "alt_labels": [
+            "free pitching"
+          ],
+          "broader": [
+            "creativeLabour"
+          ],
+          "narrower": [],
+          "related": [
+            "workplace_application.competitionDeadlinePressure"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "critical_layer",
+          "qualified": "critical_layer.unpaidIdeation",
+          "uri_local": "ct:unpaidIdeation"
+        },
+        {
+          "slug": "hustleCulture",
+          "pref_label": "Hustle Culture",
+          "definition": "Normalisation of constant productivity and self-branding as signs of creative worth, critiqued for eroding reflection, collaboration, and sustainable practice in design careers.",
+          "alt_labels": [],
+          "broader": [
+            "creativeLabour"
+          ],
+          "narrower": [],
+          "related": [
+            "personal_development.sustainedCreativePractice"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "critical_layer",
+          "qualified": "critical_layer.hustleCulture",
+          "uri_local": "ct:hustleCulture"
+        },
+        {
+          "slug": "brainstormingMyth",
+          "pref_label": "Brainstorming Myth",
+          "definition": "Overconfidence in unstructured group brainstorming as optimal ideation despite documented issues with evaluation apprehension, dominance, and production blocking.",
+          "alt_labels": [
+            "brainstorming fallacy"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "idea_generation_selection.brainstorming",
+            "personal_development.groupDynamics"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "critical_layer",
+          "qualified": "critical_layer.brainstormingMyth",
+          "uri_local": "ct:brainstormingMyth"
+        },
+        {
+          "slug": "creditAllocation",
+          "pref_label": "Credit Allocation",
+          "definition": "How teams and firms assign ownership of ideas, presentation, and execution, a power-laden process especially salient in student group work and client-facing studios.",
+          "alt_labels": [
+            "idea credit",
+            "creative credit"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "creativeLabour",
+            "personal_development.groupDynamics"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "critical_layer",
+          "qualified": "critical_layer.creditAllocation",
+          "uri_local": "ct:creditAllocation"
+        },
+        {
+          "slug": "genAiAuthorshipEthics",
+          "pref_label": "GenAI Authorship Ethics",
+          "definition": "Norms for disclosure, consent, and fair credit when generative tools contribute to ideation or production in academic and professional design settings.",
+          "alt_labels": [
+            "AI authorship ethics"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "creativity_and_technology.authorshipUnderGenAi",
+            "disclosureRequirement"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "critical_layer",
+          "qualified": "critical_layer.genAiAuthorshipEthics",
+          "uri_local": "ct:genAiAuthorshipEthics"
+        },
+        {
+          "slug": "assessmentIntegrity",
+          "pref_label": "Assessment Integrity",
+          "definition": "Maintaining fair evaluation of student creative process and product when ambient generative assistance can produce polished outputs with minimal visible effort.",
+          "alt_labels": [
+            "academic integrity under AI"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "creativity_and_technology.processTransparency"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "critical_layer",
+          "qualified": "critical_layer.assessmentIntegrity",
+          "uri_local": "ct:assessmentIntegrity"
+        },
+        {
+          "slug": "disclosureRequirement",
+          "pref_label": "Disclosure Requirement",
+          "definition": "Expectation that learners document tool use, prompts, and edits so reviewers can distinguish human judgment from model output in portfolios and exams.",
+          "alt_labels": [
+            "AI disclosure"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "genAiAuthorshipEthics",
+            "assessmentIntegrity"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "critical_layer",
+          "qualified": "critical_layer.disclosureRequirement",
+          "uri_local": "ct:disclosureRequirement"
+        },
+        {
+          "slug": "originalityTheatreCritique",
+          "pref_label": "Originality Theatre Critique",
+          "definition": "Critical analysis of performances of novelty—human or AI-assisted—that conceal derivation, weak framing, or labour conditions behind surface innovation.",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "creativity_and_technology.originalityTheatre",
+            "genAiAuthorshipEthics"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "critical_layer",
+          "qualified": "critical_layer.originalityTheatreCritique",
+          "uri_local": "ct:originalityTheatreCritique"
+        },
+        {
+          "slug": "silencedCreativeCanons",
+          "pref_label": "Silenced Creative Canons",
+          "definition": "Critical attention to gender, class, disability, and colonial histories that shape which creators and methods are centred or erased in creativity pedagogy and industry canons.",
+          "alt_labels": [
+            "excluded creative voices"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "creativityIdeology",
+            "schoolingSuppressesCreativity"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "critical_layer",
+          "qualified": "critical_layer.silencedCreativeCanons",
+          "uri_local": "ct:silencedCreativeCanons"
+        }
+      ]
+    },
+    {
+      "slug": "foundations_importance",
+      "title": "Foundations and Importance",
+      "description": "Definitions, process models, and pedagogical rationales for teaching creativity as method under professional constraint in design higher education.",
+      "concept_count": 11,
+      "concepts": [
+        {
+          "slug": "divergentConvergentRhythm",
+          "pref_label": "Divergent–Convergent Rhythm",
+          "definition": "The studio pacing principle of separating open idea production from disciplined selection and refinement, downstream of mid-century divergent-thinking research and still used to structure briefs in design schools.",
+          "alt_labels": [
+            "generate then select",
+            "ideation rhythm"
+          ],
+          "broader": [],
+          "narrower": [
+            "idea_generation_selection.divergentThinking",
+            "idea_generation_selection.convergentSelection"
+          ],
+          "related": [],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "foundations_importance",
+          "qualified": "foundations_importance.divergentConvergentRhythm",
+          "uri_local": "ct:divergentConvergentRhythm"
+        },
+        {
+          "slug": "noveltyAndAppropriateness",
+          "pref_label": "Novelty and Appropriateness",
+          "definition": "A widely used definitional pair treating creative outcomes as both new relative to a context and fit for a stated problem, audience, or brief constraint.",
+          "alt_labels": [
+            "novelty + usefulness"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "wickedProblem",
+            "critical_layer.softSkillTheatre"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "foundations_importance",
+          "qualified": "foundations_importance.noveltyAndAppropriateness",
+          "uri_local": "ct:noveltyAndAppropriateness"
+        },
+        {
+          "slug": "fourPsModel",
+          "pref_label": "Four Ps Model",
+          "definition": "Rhodes's framework locating creativity in person, process, product, and press (environment), used in design pedagogy to avoid reducing creativity to individual talent or single artifacts alone.",
+          "alt_labels": [
+            "Rhodes 4Ps",
+            "person process product press"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "fourCCreativity",
+            "studioPedagogy"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "foundations_importance",
+          "qualified": "foundations_importance.fourPsModel",
+          "uri_local": "ct:fourPsModel"
+        },
+        {
+          "slug": "fourCCreativity",
+          "pref_label": "Four C Model of Creativity",
+          "definition": "Kaufman and Beghetto's distinction among mini-c, little-c, Pro-c, and Big-C creative accomplishment, helping HE studios calibrate expectations from classroom exercises to professional practice.",
+          "alt_labels": [
+            "Four C creativity"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "fourPsModel",
+            "teachableCreativity"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "foundations_importance",
+          "qualified": "foundations_importance.fourCCreativity",
+          "uri_local": "ct:fourCCreativity"
+        },
+        {
+          "slug": "teachableCreativity",
+          "pref_label": "Teachable Creativity",
+          "definition": "The pedagogical claim that creative performance in design can be developed through structured methods, rehearsal, and critique rather than treated as an unexplained gift.",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "talentMyth",
+            "personal_development.creativeConfidence",
+            "fourCCreativity"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "foundations_importance",
+          "qualified": "foundations_importance.teachableCreativity",
+          "uri_local": "ct:teachableCreativity"
+        },
+        {
+          "slug": "talentMyth",
+          "pref_label": "Talent Myth",
+          "definition": "The belief that creativity is an innate trait possessed by a fixed minority, critiqued in studio discourse because it obscures method, practice conditions, and equitable access to creative education.",
+          "alt_labels": [
+            "creativity-as-gift"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "teachableCreativity",
+            "critical_layer.creativityIdeology",
+            "critical_layer.schoolingSuppressesCreativity"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "foundations_importance",
+          "qualified": "foundations_importance.talentMyth",
+          "uri_local": "ct:talentMyth"
+        },
+        {
+          "slug": "wickedProblem",
+          "pref_label": "Wicked Problem",
+          "definition": "An indeterminate design problem whose framing, stakeholders, and success criteria remain contested, requiring iterative reframing rather than a single correct solution.",
+          "alt_labels": [
+            "indeterminate problem"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "noveltyAndAppropriateness",
+            "idea_development_solutions.visualProblemFraming",
+            "designThinkingDiscourse"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "foundations_importance",
+          "qualified": "foundations_importance.wickedProblem",
+          "uri_local": "ct:wickedProblem"
+        },
+        {
+          "slug": "designThinkingDiscourse",
+          "pref_label": "Design Thinking Discourse",
+          "definition": "A contested field of talk spanning situated design practice, commercial method kits, and managerial innovation rhetoric; taught critically in HE studios as discourse, not as neutral procedure.",
+          "alt_labels": [
+            "design thinking"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "wickedProblem",
+            "critical_layer.designThinkingIdeologyCritique",
+            "idea_development_solutions.designSprint"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "foundations_importance",
+          "qualified": "foundations_importance.designThinkingDiscourse",
+          "uri_local": "ct:designThinkingDiscourse"
+        },
+        {
+          "slug": "reflectivePractice",
+          "pref_label": "Reflective Practice",
+          "definition": "Studio pedagogy modeled on Schön's reflection-in-action, in which designers learn by conversing with the situation through sketching, prototyping, and critique rather than executing a fixed algorithm.",
+          "alt_labels": [
+            "reflection-in-action"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "studioPedagogy",
+            "personal_development.reflectiveInterpersonalSkills"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "foundations_importance",
+          "qualified": "foundations_importance.reflectivePractice",
+          "uri_local": "ct:reflectivePractice"
+        },
+        {
+          "slug": "criticalCreativeReflectiveThinking",
+          "pref_label": "Critical–Creative–Reflective Thinking",
+          "definition": "An integrative competency target in design HE combining analytic judgment, generative exploration, and metacognitive review of one's own process under brief constraints.",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "reflectivePractice",
+            "workplace_application.ethicalDesignJudgment"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "foundations_importance",
+          "qualified": "foundations_importance.criticalCreativeReflectiveThinking",
+          "uri_local": "ct:criticalCreativeReflectiveThinking"
+        },
+        {
+          "slug": "studioPedagogy",
+          "pref_label": "Studio Pedagogy",
+          "definition": "Higher-education design teaching organized around project briefs, desk crits, peer review, and iterative making, treating the studio as a semi-professional learning environment.",
+          "alt_labels": [
+            "design studio teaching"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "reflectivePractice",
+            "fourPsModel"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "foundations_importance",
+          "qualified": "foundations_importance.studioPedagogy",
+          "uri_local": "ct:studioPedagogy"
+        }
+      ]
+    },
+    {
+      "slug": "idea_development_solutions",
+      "title": "Idea Development and Solutions",
+      "description": "Methods for turning selected ideas into workable design solutions under analytical, user-centred, and sprint-class development stacks.",
+      "concept_count": 10,
+      "concepts": [
+        {
+          "slug": "ideaDevelopment",
+          "pref_label": "Idea Development",
+          "definition": "The studio phase in which a shortlisted concept is elaborated through sketches, models, scenarios, and tests until it meets brief constraints and can be defended to peers or stakeholders.",
+          "alt_labels": [
+            "concept development"
+          ],
+          "broader": [],
+          "narrower": [
+            "prototyping",
+            "visualProblemFraming"
+          ],
+          "related": [
+            "idea_generation_selection.convergentSelection"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "idea_development_solutions",
+          "qualified": "idea_development_solutions.ideaDevelopment",
+          "uri_local": "ct:ideaDevelopment"
+        },
+        {
+          "slug": "creativeProblemSolving",
+          "pref_label": "Creative Problem Solving",
+          "definition": "A structured development lineage—problem finding, idea finding, solution finding, acceptance finding—used in design pedagogy to connect ideation with implementation and stakeholder buy-in.",
+          "alt_labels": [
+            "CPS"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "designSprint",
+            "analyticalDecomposition"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "idea_development_solutions",
+          "qualified": "idea_development_solutions.creativeProblemSolving",
+          "uri_local": "ct:creativeProblemSolving"
+        },
+        {
+          "slug": "designSprint",
+          "pref_label": "Design Sprint",
+          "definition": "A time-compressed development stack combining problem framing, sketching, decision, prototyping, and user testing, taught as a workplace-ready method while distinguished from peer-reviewed studio pedagogy proof.",
+          "alt_labels": [
+            "sprint method"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "foundations_importance.designThinkingDiscourse",
+            "prototyping",
+            "workplace_application.stakeholderValidation"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "idea_development_solutions",
+          "qualified": "idea_development_solutions.designSprint",
+          "uri_local": "ct:designSprint"
+        },
+        {
+          "slug": "analyticalDecomposition",
+          "pref_label": "Analytical Decomposition",
+          "definition": "Breaking a selected idea or wicked problem into sub-problems, functions, or constraints so that development can proceed systematically rather than by aesthetic guesswork alone.",
+          "alt_labels": [
+            "analytical breakdown"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "abductiveReasoning",
+            "solutionSpace"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "idea_development_solutions",
+          "qualified": "idea_development_solutions.analyticalDecomposition",
+          "uri_local": "ct:analyticalDecomposition"
+        },
+        {
+          "slug": "visualProblemFraming",
+          "pref_label": "Visual Problem Framing",
+          "definition": "Using sketch, diagram, storyboard, or napkin-class visual notation to make problem structure, stakeholders, and assumptions visible before committing to a solution direction.",
+          "alt_labels": [
+            "visual framing",
+            "napkin sketch"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "sketchingAsThinking",
+            "foundations_importance.wickedProblem"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "idea_development_solutions",
+          "qualified": "idea_development_solutions.visualProblemFraming",
+          "uri_local": "ct:visualProblemFraming"
+        },
+        {
+          "slug": "sketchingAsThinking",
+          "pref_label": "Sketching as Thinking",
+          "definition": "Treating quick drawing not as presentation polish but as a cognitive tool for exploring form, sequence, and interaction during solution development.",
+          "alt_labels": [
+            "thinking through drawing"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "visualProblemFraming",
+            "prototyping"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "idea_development_solutions",
+          "qualified": "idea_development_solutions.sketchingAsThinking",
+          "uri_local": "ct:sketchingAsThinking"
+        },
+        {
+          "slug": "prototyping",
+          "pref_label": "Prototyping",
+          "definition": "Building low- to mid-fidelity artifacts—paper, foam, clickable flows, coded stubs—to test a solution hypothesis before full production commitment.",
+          "alt_labels": [
+            "rapid prototype"
+          ],
+          "broader": [
+            "ideaDevelopment"
+          ],
+          "narrower": [],
+          "related": [
+            "designSprint",
+            "userCenteredDesign"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "idea_development_solutions",
+          "qualified": "idea_development_solutions.prototyping",
+          "uri_local": "ct:prototyping"
+        },
+        {
+          "slug": "userCenteredDesign",
+          "pref_label": "User-Centred Design",
+          "definition": "A solution lens that iterates development against observed or inferred user needs, contexts, and pain points, common in design-thinking method stacks taught with critical awareness of simplification.",
+          "alt_labels": [
+            "UCD",
+            "human-centred design"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "prototyping",
+            "workplace_application.stakeholderValidation"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "idea_development_solutions",
+          "qualified": "idea_development_solutions.userCenteredDesign",
+          "uri_local": "ct:userCenteredDesign"
+        },
+        {
+          "slug": "abductiveReasoning",
+          "pref_label": "Abductive Reasoning",
+          "definition": "Designerly inference that proposes plausible solutions under incomplete information, associated with design cognition research and distinct from purely deductive or inductive problem solving.",
+          "alt_labels": [
+            "abduction"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "analyticalDecomposition",
+            "foundations_importance.reflectivePractice"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "idea_development_solutions",
+          "qualified": "idea_development_solutions.abductiveReasoning",
+          "uri_local": "ct:abductiveReasoning"
+        },
+        {
+          "slug": "solutionSpace",
+          "pref_label": "Solution Space",
+          "definition": "The set of feasible design responses bounded by brief, materials, time, and stakeholder constraints; studio teaching makes this space explorable rather than treating the first idea as inevitable.",
+          "alt_labels": [
+            "design solution space"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "analyticalDecomposition",
+            "foundations_importance.noveltyAndAppropriateness"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "idea_development_solutions",
+          "qualified": "idea_development_solutions.solutionSpace",
+          "uri_local": "ct:solutionSpace"
+        }
+      ]
+    },
+    {
+      "slug": "idea_generation_selection",
+      "title": "Idea Generation and Selection",
+      "description": "Graphic, semantic, multifocal, and group methods for producing ideas under brief and selecting candidates for development.",
+      "concept_count": 12,
+      "concepts": [
+        {
+          "slug": "graphicStimulus",
+          "pref_label": "Graphic Stimulus",
+          "definition": "Visual prompts—images, diagrams, collage fragments, or constrained drawing tasks—used to trigger associations and divergent responses before verbal refinement in studio ideation.",
+          "alt_labels": [
+            "visual stimulus",
+            "image prompt exercise"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "semanticAssociation",
+            "multifocalExploration"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "idea_generation_selection",
+          "qualified": "idea_generation_selection.graphicStimulus",
+          "uri_local": "ct:graphicStimulus"
+        },
+        {
+          "slug": "semanticAssociation",
+          "pref_label": "Semantic Association",
+          "definition": "A method linking words, concepts, or domains through metaphor, analogy, or lexical chains to escape literal brief readings and widen the idea search space.",
+          "alt_labels": [
+            "word association",
+            "analogical mapping"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "graphicStimulus",
+            "lateralThinking"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "idea_generation_selection",
+          "qualified": "idea_generation_selection.semanticAssociation",
+          "uri_local": "ct:semanticAssociation"
+        },
+        {
+          "slug": "multifocalExploration",
+          "pref_label": "Multifocal Exploration",
+          "definition": "Deliberate inspection of a problem from multiple viewpoints, scales, or user positions so that a brief is not solved from a single habitual frame.",
+          "alt_labels": [
+            "multifocal method",
+            "perspective shifting"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "sixThinkingHats",
+            "semanticAssociation"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "idea_generation_selection",
+          "qualified": "idea_generation_selection.multifocalExploration",
+          "uri_local": "ct:multifocalExploration"
+        },
+        {
+          "slug": "divergentThinking",
+          "pref_label": "Divergent Thinking",
+          "definition": "Production of many varied candidate ideas in response to an open prompt, prior to convergent filtering against brief criteria.",
+          "alt_labels": [],
+          "broader": [
+            "foundations_importance.divergentConvergentRhythm"
+          ],
+          "narrower": [],
+          "related": [
+            "brainstorming",
+            "fluencyFlexibilityOriginality"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "idea_generation_selection",
+          "qualified": "idea_generation_selection.divergentThinking",
+          "uri_local": "ct:divergentThinking"
+        },
+        {
+          "slug": "convergentSelection",
+          "pref_label": "Convergent Selection",
+          "definition": "Filtering, ranking, or combining generated ideas using explicit criteria such as feasibility, fit to brief, originality, and stakeholder value.",
+          "alt_labels": [],
+          "broader": [
+            "foundations_importance.divergentConvergentRhythm"
+          ],
+          "narrower": [],
+          "related": [
+            "ideationSession"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "idea_generation_selection",
+          "qualified": "idea_generation_selection.convergentSelection",
+          "uri_local": "ct:convergentSelection"
+        },
+        {
+          "slug": "fluencyFlexibilityOriginality",
+          "pref_label": "Fluency, Flexibility, Originality",
+          "definition": "Guilford-derived dimensions still used in studio rubrics to describe divergent output quantity, categorical variety, and novelty relative to peers or prior solutions.",
+          "alt_labels": [
+            "Guilford parameters"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "divergentThinking"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "idea_generation_selection",
+          "qualified": "idea_generation_selection.fluencyFlexibilityOriginality",
+          "uri_local": "ct:fluencyFlexibilityOriginality"
+        },
+        {
+          "slug": "lateralThinking",
+          "pref_label": "Lateral Thinking",
+          "definition": "Deliberate departure from established problem paths through provocation, reversal, or oblique moves, associated with de Bono and widely rehearsed in group studio exercises.",
+          "alt_labels": [
+            "sideways thinking"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "semanticAssociation",
+            "obliqueStrategies"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "idea_generation_selection",
+          "qualified": "idea_generation_selection.lateralThinking",
+          "uri_local": "ct:lateralThinking"
+        },
+        {
+          "slug": "sixThinkingHats",
+          "pref_label": "Six Thinking Hats",
+          "definition": "A role-separated group ideation protocol assigning emotional and functional stances (facts, risks, benefits, creativity, process, synthesis) to reduce premature convergence and dominance in critique sessions.",
+          "alt_labels": [
+            "de Bono six hats"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "multifocalExploration",
+            "ideationSession"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "idea_generation_selection",
+          "qualified": "idea_generation_selection.sixThinkingHats",
+          "uri_local": "ct:sixThinkingHats"
+        },
+        {
+          "slug": "brainstorming",
+          "pref_label": "Brainstorming",
+          "definition": "A facilitated group ideation format emphasizing deferred judgment and quantity of ideas, descended from Osborn's applied-imagination lineage and taught with caveats about documented group-process limits.",
+          "alt_labels": [
+            "brain storm"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "ideationSession",
+            "critical_layer.brainstormingMyth"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "idea_generation_selection",
+          "qualified": "idea_generation_selection.brainstorming",
+          "uri_local": "ct:brainstorming"
+        },
+        {
+          "slug": "obliqueStrategies",
+          "pref_label": "Oblique Strategies",
+          "definition": "A deck of constraint and prompt cards used to interrupt habitual thinking during studio blocks, associated with Eno and Schmidt and reusable as low-tech ideation infrastructure.",
+          "alt_labels": [
+            "oblique strategy cards"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "lateralThinking",
+            "personal_development.mentalBlock"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "idea_generation_selection",
+          "qualified": "idea_generation_selection.obliqueStrategies",
+          "uri_local": "ct:obliqueStrategies"
+        },
+        {
+          "slug": "ideaProduction",
+          "pref_label": "Idea Production",
+          "definition": "The deliberate craft of generating candidate concepts at volume and variety, distinct from later development into workable solutions or polished deliverables.",
+          "alt_labels": [
+            "idea generation"
+          ],
+          "broader": [],
+          "narrower": [
+            "graphicStimulus",
+            "semanticAssociation"
+          ],
+          "related": [
+            "divergentThinking"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "idea_generation_selection",
+          "qualified": "idea_generation_selection.ideaProduction",
+          "uri_local": "ct:ideaProduction"
+        },
+        {
+          "slug": "ideationSession",
+          "pref_label": "Ideation Session",
+          "definition": "A time-boxed studio block structured for divergent production and initial convergent selection, often combining individual sketching with group review under a brief.",
+          "alt_labels": [
+            "ideation workshop"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "brainstorming",
+            "convergentSelection",
+            "workplace_application.clientBrief"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "idea_generation_selection",
+          "qualified": "idea_generation_selection.ideationSession",
+          "uri_local": "ct:ideationSession"
+        }
+      ]
+    },
+    {
+      "slug": "personal_development",
+      "title": "Personal Development",
+      "description": "Creative confidence, mental blocks, reflective and interpersonal skills, and group dynamics as conditions for sustained creative practice in design HE.",
+      "concept_count": 9,
+      "concepts": [
+        {
+          "slug": "creativeConfidence",
+          "pref_label": "Creative Confidence",
+          "definition": "A learner's willingness to propose, test, and defend ideas under uncertainty, developed through structured method rehearsal and safe-to-fail studio iteration rather than motivational slogans alone.",
+          "alt_labels": [
+            "creative self-efficacy"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "foundations_importance.teachableCreativity",
+            "overcomingBlocks"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "personal_development",
+          "qualified": "personal_development.creativeConfidence",
+          "uri_local": "ct:creativeConfidence"
+        },
+        {
+          "slug": "mentalBlock",
+          "pref_label": "Mental Block",
+          "definition": "A perceived inability to generate or move forward on ideas despite available time and resources, addressed in studio through constraint exercises, role play, and environmental change rather than willpower alone.",
+          "alt_labels": [
+            "creative block"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "overcomingBlocks",
+            "idea_generation_selection.obliqueStrategies"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "personal_development",
+          "qualified": "personal_development.mentalBlock",
+          "uri_local": "ct:mentalBlock"
+        },
+        {
+          "slug": "overcomingBlocks",
+          "pref_label": "Overcoming Blocks",
+          "definition": "Deliberate techniques—oblique prompts, reframing, physical movement, switching media—to restore productive exploration when a learner stalls on a brief.",
+          "alt_labels": [
+            "unblocking"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "mentalBlock",
+            "creativeConfidence"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "personal_development",
+          "qualified": "personal_development.overcomingBlocks",
+          "uri_local": "ct:overcomingBlocks"
+        },
+        {
+          "slug": "groupDynamics",
+          "pref_label": "Group Dynamics",
+          "definition": "Patterns of participation, dominance, and support in team ideation that affect whose ideas survive selection and how credit is distributed in studio projects.",
+          "alt_labels": [
+            "team dynamics"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "peerCapabilityRecognition",
+            "critical_layer.creditAllocation"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "personal_development",
+          "qualified": "personal_development.groupDynamics",
+          "uri_local": "ct:groupDynamics"
+        },
+        {
+          "slug": "peerCapabilityRecognition",
+          "pref_label": "Peer Capability Recognition",
+          "definition": "The skill of identifying and mobilising complementary strengths within a design team during cooperative studio projects.",
+          "alt_labels": [
+            "recognising peer capability"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "groupDynamics",
+            "situationalLeadership"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "personal_development",
+          "qualified": "personal_development.peerCapabilityRecognition",
+          "uri_local": "ct:peerCapabilityRecognition"
+        },
+        {
+          "slug": "situationalLeadership",
+          "pref_label": "Situational Leadership",
+          "definition": "Adjusting one's facilitative or directive stance in a creative team according to task phase, expertise gaps, and deadline pressure rather than fixed personality roles.",
+          "alt_labels": [
+            "adaptive leadership"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "groupDynamics",
+            "workplace_application.reasonedDecisionMaking"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "personal_development",
+          "qualified": "personal_development.situationalLeadership",
+          "uri_local": "ct:situationalLeadership"
+        },
+        {
+          "slug": "reflectiveInterpersonalSkills",
+          "pref_label": "Reflective Interpersonal Skills",
+          "definition": "Combining self-review of one's creative process with respectful feedback to peers, linking Schön-style reflection to communication competencies in design HE.",
+          "alt_labels": [
+            "reflective interpersonal practice"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "foundations_importance.reflectivePractice",
+            "autonomyUnderBrief"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "personal_development",
+          "qualified": "personal_development.reflectiveInterpersonalSkills",
+          "uri_local": "ct:reflectiveInterpersonalSkills"
+        },
+        {
+          "slug": "autonomyUnderBrief",
+          "pref_label": "Autonomy Under Brief",
+          "definition": "The capacity to self-direct exploration and decision-making within explicit project constraints, a learning outcome distinct from unconstrained self-expression.",
+          "alt_labels": [
+            "autonomous problem framing"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "workplace_application.clientBrief",
+            "reflectiveInterpersonalSkills"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "personal_development",
+          "qualified": "personal_development.autonomyUnderBrief",
+          "uri_local": "ct:autonomyUnderBrief"
+        },
+        {
+          "slug": "sustainedCreativePractice",
+          "pref_label": "Sustained Creative Practice",
+          "definition": "Habits—reflection, collaboration, method rotation—that help designers continue producing under repetition, rejection, and professional pressure beyond a single course.",
+          "alt_labels": [
+            "long-term creative practice"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "creativeConfidence",
+            "groupDynamics"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "personal_development",
+          "qualified": "personal_development.sustainedCreativePractice",
+          "uri_local": "ct:sustainedCreativePractice"
+        }
+      ]
+    },
+    {
+      "slug": "workplace_application",
+      "title": "Workplace Application",
+      "description": "Applying creativity techniques under client briefs, deadlines, competition, and professional ethics in design practice.",
+      "concept_count": 10,
+      "concepts": [
+        {
+          "slug": "clientBrief",
+          "pref_label": "Client Brief",
+          "definition": "A formal or informal specification of goals, constraints, audience, and deliverables against which creative methods must produce accountable outcomes in professional design work.",
+          "alt_labels": [
+            "design brief",
+            "creative brief"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "professionalConstraint",
+            "idea_generation_selection.ideationSession"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "workplace_application",
+          "qualified": "workplace_application.clientBrief",
+          "uri_local": "ct:clientBrief"
+        },
+        {
+          "slug": "stakeholderValidation",
+          "pref_label": "Stakeholder Validation",
+          "definition": "Structured conversations, tests, or reviews with clients, users, or internal decision-makers to check that a developing solution remains aligned with needs and feasibility before commitment.",
+          "alt_labels": [
+            "stakeholder review"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "idea_development_solutions.userCenteredDesign",
+            "pitchPresentation"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "workplace_application",
+          "qualified": "workplace_application.stakeholderValidation",
+          "uri_local": "ct:stakeholderValidation"
+        },
+        {
+          "slug": "professionalConstraint",
+          "pref_label": "Professional Constraint",
+          "definition": "Non-negotiable limits—budget, brand guidelines, regulation, production capacity— that shape which creative moves are viable in workplace settings as opposed to open classroom exercises.",
+          "alt_labels": [
+            "real-world constraint"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "clientBrief",
+            "competitionDeadlinePressure"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "workplace_application",
+          "qualified": "workplace_application.professionalConstraint",
+          "uri_local": "ct:professionalConstraint"
+        },
+        {
+          "slug": "innovationFraming",
+          "pref_label": "Innovation Framing",
+          "definition": "Organisational language that positions design creativity as driver of new products, services, or processes; taught critically alongside method repertoires because framing affects credit, risk, and resource allocation.",
+          "alt_labels": [
+            "innovation discourse"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "organisationalChange",
+            "critical_layer.creativityIdeology"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "workplace_application",
+          "qualified": "workplace_application.innovationFraming",
+          "uri_local": "ct:innovationFraming"
+        },
+        {
+          "slug": "organisationalChange",
+          "pref_label": "Organisational Change",
+          "definition": "Contexts in which creative methods support new workflows, teams, or offerings inside firms or institutions, linking studio technique to change-management situations.",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "innovationFraming",
+            "reasonedDecisionMaking"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "workplace_application",
+          "qualified": "workplace_application.organisationalChange",
+          "uri_local": "ct:organisationalChange"
+        },
+        {
+          "slug": "reasonedDecisionMaking",
+          "pref_label": "Reasoned Decision Making",
+          "definition": "Choosing among creative alternatives with explicit justification—evidence, trade-offs, ethics—rather than charisma or hierarchy alone, a core professional competency in design leadership.",
+          "alt_labels": [
+            "reasoned decisions"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "ethicalDesignJudgment",
+            "foundations_importance.criticalCreativeReflectiveThinking"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "workplace_application",
+          "qualified": "workplace_application.reasonedDecisionMaking",
+          "uri_local": "ct:reasonedDecisionMaking"
+        },
+        {
+          "slug": "ethicalDesignJudgment",
+          "pref_label": "Ethical Design Judgment",
+          "definition": "Evaluating creative proposals for harm, exclusion, misrepresentation, or labour exploitation before they ship, treated as part of professional design practice rather than an optional add-on.",
+          "alt_labels": [
+            "design ethics"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "reasonedDecisionMaking",
+            "critical_layer.genAiAuthorshipEthics"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "workplace_application",
+          "qualified": "workplace_application.ethicalDesignJudgment",
+          "uri_local": "ct:ethicalDesignJudgment"
+        },
+        {
+          "slug": "teamCommunication",
+          "pref_label": "Team Communication",
+          "definition": "The communicative work—shared language, documentation, critique norms—that lets groups coordinate creative output under deadline without losing traceability of decisions.",
+          "alt_labels": [],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "pitchPresentation",
+            "personal_development.groupDynamics"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "workplace_application",
+          "qualified": "workplace_application.teamCommunication",
+          "uri_local": "ct:teamCommunication"
+        },
+        {
+          "slug": "competitionDeadlinePressure",
+          "pref_label": "Competition and Deadline Pressure",
+          "definition": "Workplace conditions in which creative methods must deliver under time boxes, pitches, or market windows, changing which techniques are appropriate and how originality is evaluated.",
+          "alt_labels": [
+            "deadline pressure"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "professionalConstraint",
+            "clientBrief"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "workplace_application",
+          "qualified": "workplace_application.competitionDeadlinePressure",
+          "uri_local": "ct:competitionDeadlinePressure"
+        },
+        {
+          "slug": "pitchPresentation",
+          "pref_label": "Pitch Presentation",
+          "definition": "A structured presentation of creative direction, rationale, and prototypes to secure client or internal approval, linking ideation repertoires to professional persuasion and documentation.",
+          "alt_labels": [
+            "creative pitch"
+          ],
+          "broader": [],
+          "narrower": [],
+          "related": [
+            "stakeholderValidation",
+            "teamCommunication"
+          ],
+          "scope_note": null,
+          "crm_mapping": null,
+          "subfield_slug": "workplace_application",
+          "qualified": "workplace_application.pitchPresentation",
+          "uri_local": "ct:pitchPresentation"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "author": {
+      "name": "Rubén Vega Balbás, PhD",
+      "role": "Creative Technologist & Developer",
+      "orcid": "https://orcid.org/0000-0001-6862-9081",
+      "email": "ruvebal@crea-comm.net"
+    },
+    "vocabulary_engine": {
+      "name": "lexfield",
+      "version": "0.1.0",
+      "path_hint": "fieldlex (multi-tenant SKOS vocabulary engine)"
+    },
+    "publication_stack": {
+      "static_site": "Jekyll 3.10.0",
+      "templates": "Liquid 4.0.4",
+      "markdown": "kramdown (GFM)",
+      "stylesheet": "PostCSS + Tailwind CSS 3.x",
+      "hydrate": "Node.js (js-yaml)"
+    },
+    "ontology": {
+      "skos": {
+        "name": "SKOS",
+        "version": "W3C Recommendation, 2009-08-18",
+        "url": "https://www.w3.org/TR/skos-reference/"
+      },
+      "cidoc_crm": {
+        "name": "CIDOC-CRM",
+        "version": "7.1.3 (2024-02-13)",
+        "url": "https://gitlab.isl.ics.forth.gr/cidoc-crm/cidoc_crm_rdf"
+      }
+    },
+    "method": "Curriculum-local YAML snapshot compiled from lexfield; definitions authored as controlled-vocabulary entries with optional CIDOC-CRM class mappings where heritage-relevant.",
+    "prototype_note": "The fashion field is the seed tenant of lexfield; creativity_techniques reuses the same Field→Subfield→Concept schema and lexfield-public/v1 publication contract."
+  }
+}

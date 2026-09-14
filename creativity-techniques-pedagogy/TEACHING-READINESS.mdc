@@ -1,0 +1,53 @@
+---
+description: Honest readiness audit for teaching Creativity Techniques (UEM)
+globs: 'creativity-techniques-pedagogy/**'
+alwaysApply: false
+---
+
+# Teaching readiness — Creativity Techniques (UEM)
+
+**Updated:** 2026-09-13
+
+## 0. Current verdict
+
+| Layer | State |
+| ----- | ----- |
+| **Site shell (EN)** | ✅ hubs, track, How to Pass, fractal triangle heroes |
+| **Session + D1–D5 contract** | ✅ `forge/SESSION-RHYTHM-AND-DELIVERABLES.mdc` (∥ DC) · How-to-Pass + `/evaluation/` updated |
+| **Unit-theme enrichment** | ✅ **done 2026-09-13** — U1–U6 packs + `grounding/COMBINE-RELATE-DISCUSS.md` |
+| **Lesson forges** | ✅ `ct-unit-forge` + slideshow spine (`lab_opener` geometrical) + discursive = D2 |
+| **Student slideshows** | ✅ contract; decks not yet forged |
+| **Official guía** | ✅ 2025-26 Design JSON + PDF vault; ◻ 2026-27 PDF reconcile still owed |
+
+**Cascade forge gate (surfaces):** ✅ ready — both TC and DC How-to-Pass / evaluation / forges aligned.  
+**Pilot U1:** ✅ lesson + slideshow with Chicago body cites (Craft / Chen / Csikszentmihalyi); Buchanan · Schön · Kimbell still open.  
+**Teaching (full U1–U6):** ◻ not ready.  
+**Tomorrow:** teach from U1 pilot + How to Pass; optional discursive masterclass still separate.
+
+## 1. Checklist
+
+| Surface | State |
+| --- | --- |
+| Official guía JSON clone (Diseño 2025-26) | ✅ |
+| PDF `9990002301` in pedagogy sources | ✅ |
+| DevIAC `profield-creativity-techniques` | ✅ queried U1–U6 |
+| Pass-1 panorama in grounding | ✅ `grounding/pass1.edited.md` |
+| Lexicum + fieldlex | ✅ |
+| COMBINE-RELATE-DISCUSS + evidence matrix | ✅ |
+| Enrichment packs U1–U6 | ✅ |
+| SESSION-RHYTHM + D1–D5 on How-to-Pass + evaluation | ✅ |
+| `ct-unit-forge` + slideshow + discursive (D2) | ✅ |
+| curriculum-forger `institution-ct.md` | ✅ |
+| Student lesson U1 | ✅ pilot |
+| Student slideshow U1 | ✅ spine complete |
+| Student lessons U2–U6 | ◻ none |
+| Ahmes coat·node·page on matrix rows | ◻ candidate/gap |
+| Consent drafts | ◻ empty |
+
+## 2. P0 before next forged lesson
+
+- [x] Enrichment for **U1–U6** (packs + ≤ 6 ideas each)
+- [x] Parallel surface fit with DC (session arc, Lab≠Workshop, geometrical openers, D1–D5)
+- [x] Pilot **U1** forged with `lab_opener` / `workshop_opener` / `outro`
+- [ ] Resolve ≥1 Ahmes Chicago cite **or** keep declaring `chicago: null` on claims
+- [ ] Forge U2 when ready (same spine)

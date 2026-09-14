@@ -1,0 +1,370 @@
+/* Field indexes — Directory / Lexicum / Methods (single route + #section) */
+
+.field-index {
+	max-width: min(72rem, 100%);
+	margin: 0 auto;
+	padding: 1.5rem clamp(1rem, 3vw, 2.5rem) 4rem;
+}
+
+.field-index__hero {
+	margin-bottom: 1.75rem;
+	padding-bottom: 1.25rem;
+	border-bottom: 1px solid color-mix(in oklab, var(--border-light), var(--primary) 25%);
+}
+
+.field-index__eyebrow {
+	margin: 0 0 0.35rem;
+	font-size: 0.75rem;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	color: var(--ct-flame-1);
+	font-weight: 500;
+}
+
+.field-index__title {
+	margin: 0 0 0.5rem;
+	font-size: clamp(1.75rem, 4vw, 2.6rem);
+	line-height: 1.15;
+	color: var(--text-primary);
+}
+
+.field-index__lede {
+	margin: 0;
+	max-width: 42rem;
+	color: var(--text-secondary);
+	font-size: clamp(1.15rem, 2vw, 1.35rem);
+	line-height: 1.5;
+	font-weight: 400;
+}
+
+.field-index__stats {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.75rem 1.5rem;
+	margin: 1.25rem 0 0;
+	padding: 0;
+	list-style: none;
+	font-size: 1.05rem;
+	color: var(--muted);
+}
+
+.field-index__stats strong {
+	color: var(--text-primary);
+	font-weight: 600;
+}
+
+.field-index__credit {
+	margin-top: 1.35rem;
+	max-width: 44rem;
+	font-size: 0.95rem;
+	line-height: 1.45;
+	color: var(--text-secondary);
+}
+
+.field-index__credit a {
+	color: var(--link);
+	text-underline-offset: 2px;
+}
+
+.field-index__credit-by {
+	margin: 0 0 0.4rem;
+	font-size: 1.05rem;
+	color: var(--text-primary);
+}
+
+.field-index__credit-stack,
+.field-index__credit-method {
+	margin: 0.35rem 0 0;
+	font-weight: 400;
+}
+
+.field-index__scheme-meta {
+	margin: 0 0 0.35rem;
+	font-size: 0.95rem;
+	color: var(--muted);
+}
+
+.field-index__scheme-desc {
+	margin: 0 0 1rem;
+	max-width: 42rem;
+	font-size: 1.1rem;
+	line-height: 1.45;
+	font-weight: 400;
+	color: var(--text-secondary);
+}
+
+.field-card-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(min(100%, 17.5rem), 1fr));
+	gap: 1rem;
+}
+
+.field-card-grid--lexicum {
+	grid-template-columns: 1fr;
+	max-width: 42rem;
+	gap: 1.15rem;
+}
+
+.field-index__toc {
+	position: sticky;
+	top: calc(var(--site-header-height, 4.5rem) + 0.5rem);
+	z-index: 20;
+	margin: 0 0 2rem;
+	padding: 0.85rem 1rem;
+	background: color-mix(in oklab, var(--bg), var(--ct-flame-4) 12%);
+	border: 1px solid var(--border-light);
+	border-radius: 0;
+}
+
+.dark .field-index__toc {
+	background: color-mix(in oklab, var(--background), var(--ct-flame-2) 18%);
+	border-color: color-mix(in oklab, var(--border-light), black 40%);
+}
+
+.field-index__toc-label {
+	margin: 0 0 0.5rem;
+	font-size: 0.7rem;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: var(--muted);
+}
+
+.field-index__toc ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.4rem 0.65rem;
+}
+
+.field-index__toc a {
+	display: inline-flex;
+	align-items: baseline;
+	gap: 0.35rem;
+	padding: 0.28rem 0.55rem;
+	text-decoration: none;
+	font-size: 0.85rem;
+	color: var(--text-secondary);
+	border: 1px solid transparent;
+	border-bottom: 2px solid color-mix(in oklab, var(--primary), transparent 70%);
+}
+
+.field-index__toc a:hover,
+.field-index__toc a:focus-visible,
+.field-index__toc a.is-active {
+	color: var(--primary-hover);
+	border-bottom-color: var(--ct-flame-1);
+	outline: none;
+}
+
+.field-index__count {
+	font-size: 0.7rem;
+	opacity: 0.7;
+	font-variant-numeric: tabular-nums;
+}
+
+.field-index__section {
+	scroll-margin-top: calc(var(--site-header-height, 4.5rem) + 5.5rem);
+	margin: 0 0 2.75rem;
+	padding-top: 0.25rem;
+}
+
+.field-index__section > h2 {
+	margin: 0 0 1rem;
+	font-size: clamp(1.2rem, 2.5vw, 1.55rem);
+	color: var(--text-primary);
+	border-left: 4px solid var(--ct-flame-1);
+	padding-left: 0.65rem;
+}
+
+.field-card-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(min(100%, 17.5rem), 1fr));
+	gap: 1rem;
+}
+
+.field-card {
+	scroll-margin-top: calc(var(--site-header-height, 4.5rem) + 5.5rem);
+	padding: 1rem 1.05rem 1.1rem;
+	background: color-mix(in oklab, var(--bg), white 40%);
+	border: 1px solid var(--border-light);
+	border-top: 3px solid var(--ct-coral-1);
+}
+
+.dark .field-card {
+	background: color-mix(in oklab, var(--background), white 4%);
+	border-color: color-mix(in oklab, var(--border-light), black 50%);
+}
+
+.field-card--method {
+	border-top-color: var(--ct-flame-3);
+	grid-column: 1 / -1;
+	max-width: 40rem;
+}
+
+.field-card--concept {
+	border-top-color: var(--ct-flame-5);
+}
+
+.field-card__title {
+	margin: 0 0 0.55rem;
+	font-size: clamp(1.35rem, 2.2vw, 1.75rem);
+	line-height: 1.2;
+	color: var(--text-primary);
+}
+
+.field-card__summary {
+	margin: 0;
+	max-width: 36rem;
+	font-size: clamp(1.15rem, 1.8vw, 1.35rem);
+	line-height: 1.5;
+	font-weight: 400;
+	color: var(--text-secondary);
+}
+
+.field-index .field-card__summary,
+.field-index .field-card__summary * {
+	font-weight: 400;
+}
+
+.field-card__alts,
+.field-card__rels {
+	margin: 0.75rem 0 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.4rem;
+}
+
+.field-chip {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.25rem;
+	padding: 0.25rem 0.6rem;
+	font-size: 0.9rem;
+	border: 1px solid var(--border-light);
+	background: color-mix(in oklab, var(--ct-flame-4), transparent 78%);
+	color: var(--text-secondary);
+}
+
+.field-chip--rel {
+	background: color-mix(in oklab, var(--ct-coral-1), transparent 82%);
+}
+
+.field-chip__kind {
+	font-size: 0.72rem;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	opacity: 0.75;
+}
+
+.field-card__semantic {
+	margin: 0.85rem 0 0;
+	font-size: 0.85rem;
+	font-weight: 400;
+	line-height: 1.4;
+	color: var(--muted);
+}
+
+.field-card__semantic-key {
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	font-size: 0.72rem;
+	margin-right: 0.25rem;
+	opacity: 0.85;
+}
+
+.field-card__badges {
+	margin: 0 0 0.4rem;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.35rem;
+}
+
+.field-card__status {
+	font-size: 0.68rem;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	padding: 0.15rem 0.4rem;
+	background: color-mix(in oklab, var(--ct-flame-4), transparent 70%);
+	color: var(--ct-flame-2);
+}
+
+.dark .field-card__status {
+	color: var(--ct-flame-4);
+	background: color-mix(in oklab, var(--ct-flame-2), transparent 55%);
+}
+
+.field-card__meta {
+	margin: 0;
+	font-size: 0.78rem;
+	color: var(--muted);
+}
+
+.field-card__link,
+.field-card__doi {
+	margin: 0.35rem 0 0;
+	font-size: 0.8rem;
+	word-break: break-word;
+}
+
+.field-card__refs {
+	margin: 0.5rem 0 0;
+	padding-left: 1.1rem;
+	font-size: 0.78rem;
+	color: var(--muted);
+}
+
+.field-card__steps {
+	margin: 0.5rem 0 0;
+	padding-left: 1.2rem;
+	font-size: 0.92rem;
+	line-height: 1.5;
+	color: var(--text-secondary);
+}
+
+.field-card__related {
+	margin: 0.4rem 0 0;
+	font-size: 0.8rem;
+}
+
+.field-card__related a {
+	text-decoration: underline;
+	text-underline-offset: 2px;
+}
+
+.field-index__related {
+	margin-top: 2rem;
+	padding-top: 1rem;
+	border-top: 1px solid var(--border-light);
+	font-size: 0.9rem;
+	color: var(--text-secondary);
+}
+
+.field-index__empty {
+	color: var(--muted);
+	font-style: italic;
+}
+
+/* Default layout wraps prose; field indexes need full-bleed width */
+main:has(.field-index) {
+	max-width: none;
+}
+
+main:has(.field-index) .prose,
+.field-index {
+	/* neutralize typography plugin density on our cards */
+}
+
+.field-index .field-card a {
+	color: var(--link);
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.field-index__section,
+	.field-card {
+		scroll-margin-top: calc(var(--site-header-height, 4.5rem) + 1rem);
+	}
+}

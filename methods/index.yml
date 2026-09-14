@@ -1,0 +1,12 @@
+schema: ct-field-methods/v1
+title: Methods — Creativity Techniques
+updated: 2026-09-13
+orientation: practice-learning
+note: Student-facing methods are practice-oriented only. Funded/scholarly method profiles may live under methods/*.yml with other kinds but are not hydrated to /methods/en/.
+entries:
+  - project-based-learning
+  - problem-solving-studio
+  - diverge-converge-workshop
+  - critique-cycle
+  - iterative-prototyping
+  - process-portfolio

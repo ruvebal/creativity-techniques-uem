@@ -1,0 +1,27 @@
+{% assign hreflang_es = nil %}
+{% assign hreflang_en = nil %}
+
+{% if page.url contains '/lessons/' %}
+  {% assign current_lesson = site.data.lessons | where: 'slug', page.slug | first %}
+  {% if current_lesson %}
+    {% assign hreflang_es = site.url | append: site.baseurl | append: current_lesson.path.es %}
+    {% assign hreflang_en = site.url | append: site.baseurl | append: current_lesson.path.en %}
+  {% endif %}
+{% elsif page.url contains '/tracks/' %}
+  {% for track in site.data.tracks %}
+    {% if track.path.es == page.url or track.path.en == page.url %}
+      {% assign hreflang_es = site.url | append: site.baseurl | append: track.path.es %}
+      {% assign hreflang_en = site.url | append: site.baseurl | append: track.path.en %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% if hreflang_es == nil or hreflang_en == nil %}
+  {% assign hreflang_es = page.url | replace: '/en/', '/es/' | absolute_url %}
+  {% assign hreflang_en = page.url | replace: '/es/', '/en/' | absolute_url %}
+{% endif %}
+
+<link rel="alternate" hreflang="es" href="{{ hreflang_es }}" />
+<link rel="alternate" hreflang="en" href="{{ hreflang_en }}" />
+<link rel="alternate" hreflang="x-default" href="{{ hreflang_en }}" />
+<link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />

@@ -1,0 +1,29 @@
+# Student slideshow payload — ≤ 6 main ideas
+unit_id: U2
+title_en: Idea generation and selection techniques
+max_ideas: 6
+ideas:
+  - id: 1
+    heading: Generate, then select
+    sentence: Creativity needs both exploration and systematic evaluation — schedule both.
+    chicago: null
+  - id: 2
+    heading: Fluency with flexibility
+    sentence: Many ideas only help if they differ; variants of one idea still count as one.
+    chicago: null
+  - id: 3
+    heading: Block the obvious first
+    sentence: Original responses require noticing and inhibiting the first automatic answer.
+    chicago: null
+  - id: 4
+    heading: Role and constraint tools
+    sentence: Hats and prompt cards change the social and cognitive frame of the session.
+    chicago: null
+  - id: 5
+    heading: Name selection criteria
+    sentence: Convergent choice needs explicit novelty and fitness-to-brief tests.
+    chicago: null
+  - id: 6
+    heading: Workshops are means, not genius
+    sentence: Fluency training supports practice; landmark ideas are rare and generative.
+    chicago: null

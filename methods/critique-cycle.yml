@@ -1,0 +1,12 @@
+id: critique-cycle
+title: Critique cycle
+kind: practice-learning
+summary: >
+  Peer and tutor critique as a learning method — give/receive feedback that
+  improves the next iteration, not vanity praise. Process over polish alone.
+steps:
+  - Present the brief, constraints, and current state briefly.
+  - Ask for specific feedback (criteria, gaps, next test).
+  - Log one change you will make before the next checkpoint.
+units: [U3, U4, U6]
+references: []

@@ -1,0 +1,160 @@
+---
+description: Shared session rhythm + five deliverables + Lab/Workshop naming — Creativity Techniques and Digital Creativity (parallel courses)
+globs: '**/forge/**,docs/tracks/**,docs/evaluation/**,docs/_data/tracks.yml'
+alwaysApply: false
+---
+
+# SESSION RHYTHM AND DELIVERABLES — TC ∥ DC
+
+Canonical parallel contract for:
+
+| Course | Repo | Final event theme |
+| ------ | ---- | ----------------- |
+| **Creativity Techniques (TC)** | `creativity-techniques-uem` | **What is creativity for you?** |
+| **Digital Creativity (DC)** | `digital-creativity-uem` | **Communicate and inspire: What is fashion for you?** |
+
+Official guía weights stay binding (TC **60/40**; DC **55/15/20/10** per current guía). This file is the **studio choreography** and intra-deliverable rubrics — it does not invent CONTENIDOS rows.
+
+Keep this file **substance-aligned** across both repos when amended.
+
+---
+
+## 1. Lab vs Workshop — names are NOT swapped
+
+| Name | What it is | What it is not |
+| ---- | ---------- | -------------- |
+| **Masterclass** | Professor slideshow: ideas + images (accepted Profield media) | Not the graded deliverable clock |
+| **Lab (Portfolio)** | Exercises + debates that **must enter the portfolio** | Not free-time polish |
+| **Workshop (Deliverable)** | Protected time to advance the **next graded deliverable** | Not a second lecture |
+
+Mnemonic: **Lab = leave traces in the portfolio. Workshop = work the deliverable.**
+
+---
+
+## 2. Mandatory session arc (every ordinary session)
+
+```text
+[Analysis strip — rolling]
+  Sessions 1–2: professor models how to analyse (lesson slideshow)
+  From session 3: 2 students × ~15 min in-person defence each
+         ↓
+[Masterclass]  professor ideas + images (Profield under contract)
+         ↓
+[Lab · Portfolio]  exercises + debates  ← announced by geometrical slide first
+         ↓
+[Workshop · Deliverable]  work time on next deliverable  ← geometrical open + outro
+```
+
+Indicative 120 minutes (adjust live; keep the order):
+
+| Block | ≈ minutes | Surface |
+| ----- | --------- | ------- |
+| Analysis strip | 0–30 | Defences (from s3) or modelled analysis (s1–s2) |
+| Masterclass | 30–60 | Student deck · Profield images |
+| Lab (Portfolio) | 60–90 | Exercises → portfolio index |
+| Workshop (Deliverable) | 90–120 | Next deliverable work |
+
+---
+
+## 3. Slideshow background law (programmatic)
+
+| Slide role | Background |
+| ---------- | ---------- |
+| Masterclass idea / look / analyse / concept | Accepted **Profield** media (or course diagram) |
+| **Lab opener** — “Exercises now — they go into your portfolio” | **Geometrical only** (`fractal-pass-track`) |
+| Lab exercise slides | Profield or plain text on theme |
+| **Workshop opener** — “Deliverable work time” | **Geometrical only** |
+| **Outro / carry-forward** | **Geometrical only** |
+| Masterclass diagram fallback (no pack image) | **Koch triangle** (`generate-koch-triangle.mjs`) — not Sierpinski |
+
+Never invent media. Never put Resource UUID / forger version in captions. Never use geometrical BGs as a substitute for required Profield slots on Masterclass content slides when a pack image exists.
+
+Typed slide keys for forges / `content.json`:
+
+```text
+slide_role: unit_cover | analysis_opener | analysis_model | masterclass | lab_opener | lab_exercise | workshop_opener | workshop_work | outro
+background_kind: profield | geometrical | diagram | none
+portfolio_bound: true | false
+```
+
+`unit_cover` MUST open **Creativity Techniques** unit decks (title / stake); `analysis_opener` follows immediately. Digital Creativity may keep its existing cover slot naming. The student **lesson** (TC) MUST include Analysis method prose (not deck-only). `lab_opener` MUST appear **immediately before** the first `lab_exercise`.
+
+---
+
+## 4. Five deliverables (parallel; course forks)
+
+### D1 — Analysis (defence slideshow)
+
+| | TC | DC |
+| - | -- | -- |
+| Object | Creativity / design artefact or campaign moment under brief | **Fashion image** related to a **piece on exhibition in Madrid** (coordinated visit with Spanish-cohort students) |
+| Form | **15 min** in-person defence; support = **slideshow** | Same |
+| Cadence | **2 students per session from session 3** | Same |
+| Intra-rubric | Presentation **70%** · deliverable support **20%** · peer debate **10%** | Same |
+
+### D2 — Transposition (critical review / palimpsest)
+
+| | TC | DC |
+| - | -- | -- |
+| Object | **Free choice · free format** — discursive circulation as cultural feedback (palimpsest) | Transpose chosen material **into an image** (series OK) |
+| Theory home | `DISCURSIVE-CIRCULATION-FORGE.mdc` (trans-unit) | Critical transposition + image ontology adjacency |
+| Evidence | Source declaration + process trail + reading of **desajuste** production↔recognition | Source + image series + process trail |
+
+This is the **critical review trans-unit** — not a fake CONTENIDOS ID; it is a **course-wide deliverable** grounded in the masterclass forge.
+
+### D3 — Atrium cohort event
+
+| | Both |
+| - | ---- |
+| Venue | University **Atrio** — AV, lighting, PA, microphones |
+| Submit | **Tech script** (cues, channels, roles, accessibility) |
+| Live | Performance / defence of the work under the final event theme |
+| TC theme | **What is creativity for you?** |
+| DC theme | **Communicate and inspire: What is fashion for you?** |
+
+### D4 — Portfolio index
+
+Single index document containing:
+
+1. Class **Lab** exercises (dated traces)  
+2. **D1–D3** deliverables (or links + metadata)  
+3. AI disclosure + authorship notes  
+
+Without the index, exercises do not count as assembled evidence.
+
+### D5 — Exam
+
+| Part | Role |
+| ---- | ---- |
+| Test / questionnaire | Official knowledge instrument (maps to guía *pruebas*) |
+| Final self-review | Written explanation of the **portfolio process** (oral may accompany) |
+
+---
+
+## 5. How-to-Pass surfaces (must state all of the above)
+
+Student How-to-Pass decks and `/evaluation/` pages in **both** repos must name:
+
+1. Session arc (Masterclass → Lab → Workshop)  
+2. Lab ≠ Workshop  
+3. D1–D5 with course forks  
+4. Final event theme  
+5. Geometrical vs Profield background rule (one sentence)  
+6. Official weights unchanged  
+
+---
+
+## 6. Forge readiness gate
+
+Before cascade-forging unit lessons:
+
+| Check | TC | DC |
+| ----- | -- | -- |
+| This contract present | required | required |
+| Slideshow forge cites `lab_opener` + geometrical law | required | required |
+| Unit forge cites D1–D5 + session arc | required | required |
+| Critical review trans-unit forge | `DISCURSIVE-CIRCULATION-FORGE.mdc` | Critical transposition section in this file + image ontology |
+| How-to-Pass + evaluation updated | required | required |
+| Enrichment / media packs | U* packs; cites may be `chicago: null` for pilot | Accepted MP5 where deck needs images |
+
+**Cascade rule:** fit this contract on **both** surfaces first; then forge units. Do not forge a unit that omits `lab_opener` or portfolio-bound Lab exercises.

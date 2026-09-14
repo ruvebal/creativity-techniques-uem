@@ -1,0 +1,51 @@
+- id: design-issues
+  name: Design Issues
+  kind: journal
+  status: established
+  summary: Design theory and history venue; home of Buchanan’s wicked-problems essay in design thinking.
+  url: https://direct.mit.edu/desi
+  doi: null
+  location: international
+  years: ongoing
+  references:
+    - 'Buchanan, Richard. 1992. “Wicked Problems in Design Thinking.” Design Issues 8 (2): 5–21.'
+  units: [U1, U3]
+
+- id: design-and-culture
+  name: Design and Culture
+  kind: journal
+  status: established
+  summary: Venue for Kimbell’s “Rethinking Design Thinking” critique of managerial design-thinking discourse.
+  url: https://www.tandfonline.com/journals/rfdc20
+  doi: null
+  location: international
+  years: ongoing
+  references:
+    - 'Kimbell, Lucy. 2011. “Rethinking Design Thinking: Part I.” Design and Culture 3 (3): 285–306.'
+  units: [U1, U4]
+
+- id: american-psychologist
+  name: American Psychologist
+  kind: journal
+  status: established
+  summary: Published Guilford’s 1950 “Creativity” essay — divergent-thinking parameters enter educational assessment language.
+  url: https://www.apa.org/pubs/journals/amp
+  doi: null
+  location: United States
+  years: ongoing
+  references:
+    - 'Guilford, J. P. 1950. “Creativity.” American Psychologist 5 (9): 444–454. https://doi.org/10.1037/h0063487.'
+  units: [U1, U2]
+
+- id: iasdr-proceedings
+  name: IASDR Conference Series
+  kind: journal
+  status: emerging
+  summary: Design research congress proceedings; 2025 host for Park’s GenAI studio-education paper.
+  url: https://dl.designresearchsociety.org/iasdr/
+  doi: null
+  location: international
+  years: ongoing
+  references:
+    - 'Park, Hyunyim. 2025. “Generative AI in Studio-Based Design Education…” IASDR 2025. https://doi.org/10.21606/iasdr.2025.845.'
+  units: [U5]
