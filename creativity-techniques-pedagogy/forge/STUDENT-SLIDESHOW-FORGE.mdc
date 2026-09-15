@@ -67,7 +67,7 @@ media_slot_id: U1.still.example   # when background_kind: profield
 portfolio_bound: true | false
 portfolio_trace: "Save … in the portfolio index."
 quote: "Optional brief quotation (≤ ~40 words) — Ahmes-verbatim or Tao invent (see golden rule 3)."
-quote_origin: ahmes | tao_invented   # required whenever quote is set
+quote_origin: page_verified | tao_invented   # required whenever quote is set; never put the corpus product name in student content.json
 semantic_tags: []   # DH metadata for the quote — see golden rule 3
 ```
 
@@ -83,7 +83,7 @@ Five rules override any conflicting habit above and bind every subsequent unit's
 1. **Typography is a little bigger overall.** Base `.reveal` size is now `clamp(22px, 2.6vw, 38px)`; headings scale proportionally. Do **not** revert to the pre-2026-09-14 clamps just because a slide "looks empty." A row-8 teenager reading a projection must not squint — that is the acceptance test, not screenshot aesthetics.
 2. **Write every slide as if for a 17-year-old high-school teenager (golden rule).** Short sentences. Concrete verbs. One idea per slide. No managerial abstractions (`stakeholder alignment`, `strategic ideation`), no untethered jargon. If a sentence would not survive being read aloud to a curious teenager, rewrite it before it ships. Keep the register the same across all six units.
 3. **Quote hierarchy — Ahmes first; Tao invent when Ahmes has no brief match.** Every substantive slide (cover, analysis_model, masterclass, lab_exercise, workshop_work) should carry a brief, specific `quote:` that sharpens the sentence — not a paraphrase of the heading.
-   - **Prefer Ahmes.** Resolve via `semantic-quote` against a real `extraction.db` node with `evaluator_safe=yes`. Full provenance (coat, node_id, page_index, printed_page, verbatim) lives in a switch-gated Markdown comment in the **lesson** file. `content.json` carries the verbatim string + `quote_origin: ahmes` + `citation.label` (Chicago author-date) + `citation.href` (anchor into the lesson's References).
+   - **Prefer page-verified vault extracts.** Resolve via `semantic-quote` against a real extraction database node with evaluator-safe status. Full provenance (coat, node_id, page_index, printed_page, verbatim) lives in a switch-gated Markdown comment in the **lesson** file. Student `content.json` carries the verbatim string + `quote_origin: page_verified` + `citation.label` (Chicago author-date) + `citation.href` (anchor into the lesson's References). **Never** write the corpus product name into `content.json` or public lesson HTML.
    - **If no brief Ahmes match:** invent one line in the voice of **The Tao of Creativity** (CT/TC) and propose it into TTOD via `ttod-bridge` (never hand-edit `ttod.yml`). Set `quote_origin: tao_invented`, `citation.label: (Tao of Creativity)`, and `citation.href` to the course Tao / TTOD public surface when one exists. Invents are studio aphorisms, never disguised as scholarly quotation.
    - **Semantic tags (required whenever `quote` is set).** Attach DH-aligned metadata on the slide object (not rendered to students by default):
      - `semantic_tags.themes` — short controlled phrases (e.g. `idea-generation`, `lateral-thinking`, `authorship`)
@@ -116,7 +116,23 @@ SESSION-RHYTHM-AND-DELIVERABLES
 → lesson Markdown
 → content.json (spine above)
 → Reveal (student-media-deck.js)
+→ wire track Units table + lesson In-class deck (publish gate)
 ```
+
+## Publish gate — track + lesson links (fail-closed)
+
+When a unit deck ships (`docs/tracks/en/uem/2627-ct/u-N-*/index.html` + `data/content.json`), **all** of the following are mandatory before the unit may leave `pending forge`:
+
+1. **Track Units table** (`docs/tracks/en/creativity-techniques/index.md`) — Status cell is exactly the pattern  
+   `**pilot** — [lesson]({{ '/lessons/en/creativity-techniques/<slug>/' | relative_url }}) · [deck]({{ '/tracks/ct/<slug>/' | relative_url }})`  
+   Both anchors must resolve. Pending units stay text-only (`pending forge`) — never invent a deck URL.
+2. **Lesson frontmatter** — `deck_url: /tracks/ct/<slug>/`
+3. **Lesson cover** — a real Markdown link, not bare text:  
+   `**In-class deck:** [UN student slideshow]({{ '/tracks/ct/<slug>/' | relative_url }})`  
+   Example (U1): [In-class deck on the live lesson](https://ruvebal.github.io/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/) must render `U1 student slideshow` as an `<a href="…/tracks/ct/u-1-introduction-creativity/">`.
+4. **How to Pass** rhythm line on the same cover (Analysis → Masterclass → Lab → Workshop).
+
+These two student surfaces (track table + lesson-head deck link) are forge law — same gate as Digital Creativity `STUDENT-SLIDESHOW-FORGE` publish gate. Cold review fails the unit if either is missing or not an `<a>`.
 
 ## Implementation notes
 

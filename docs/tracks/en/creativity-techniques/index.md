@@ -8,7 +8,7 @@ author: 'Rubén Vega Balbás, PhD'
 lang: en
 permalink: /tracks/en/creativity-techniques/
 description: 'S1 · 6 ECTS · Year 3 · 2026–27 — idea generation, selection, development, and critical judgement in design.'
-status: scaffold
+status: pilot
 ---
 
 ## Pass this track
@@ -17,7 +17,7 @@ status: scaffold
 
 **[How to Pass Creativity Techniques]({{ '/tracks/ct/how-to-pass-this-track/' | relative_url }})**
 
-This page is the fork-ready track index. Unit lessons are scaffolded next; do not invent Campus Virtual dates here.
+This page is the fork-ready track index. Do not invent Campus Virtual dates here.
 
 ## Programme frame
 
@@ -35,14 +35,16 @@ This page is the fork-ready track index. Unit lessons are scaffolded next; do no
 
 ## Status
 
-**Pilot units forged:** [U1 · Introduction to creativity]({{ '/lessons/en/creativity-techniques/u-1-introduction-creativity/' | relative_url }}) · [deck]({{ '/tracks/ct/u-1-introduction-creativity/' | relative_url }}) (hand-forged 2026-09-13; retrofitted with the `lesson-scribe` harness 2026-09-14 — voice anchor for later units). [U2 · Idea generation and selection]({{ '/lessons/en/creativity-techniques/u-2-idea-generation-selection/' | relative_url }}) · [deck]({{ '/tracks/ct/u-2-idea-generation-selection/' | relative_url }}) (first live use of the `lesson-scribe` harness 2026-09-14; Idea 1 integrated, Ideas 2–6 pending). Units U3–U6 remain pending. Page-level citations are still being completed for U2 — that is an honest gap, not a decorative lesson.
+**U1 and U2 are pilot** — each forged unit ships a student lesson **and** an in-class Reveal deck; both links appear in the Units table and again at the head of the lesson (**In-class deck**). U1 is the voice anchor (`lesson-scribe` retrofit 2026-09-14). U2 is the first live `lesson-scribe` pass (Idea 1 integrated; Ideas 2–6 pending page cites). **U3–U6 remain pending forge** — do not invent deck links for them. Page-level citations for U2 are still being completed; that is an honest gap.
 
 ## Units (official CONTENIDOS)
+
+Every **pilot** row must expose both surfaces: **[lesson](…)** · **[deck](…)**. Pending rows stay text-only until a deck folder exists.
 
 | Unit | Title | Status |
 | --- | --- | --- |
 | U1 | Introduction to creativity and its importance | **pilot** — [lesson]({{ '/lessons/en/creativity-techniques/u-1-introduction-creativity/' | relative_url }}) · [deck]({{ '/tracks/ct/u-1-introduction-creativity/' | relative_url }}) |
-| U2 | Idea generation and selection techniques | **pilot** — [lesson]({{ '/lessons/en/creativity-techniques/u-2-idea-generation-selection/' | relative_url }}) · [deck]({{ '/tracks/ct/u-2-idea-generation-selection/' | relative_url }}) · Idea 1 integrated through `lesson-scribe`; Ideas 2–6 pending |
+| U2 | Idea generation and selection techniques | **pilot** — [lesson]({{ '/lessons/en/creativity-techniques/u-2-idea-generation-selection/' | relative_url }}) · [deck]({{ '/tracks/ct/u-2-idea-generation-selection/' | relative_url }}) |
 | U3 | Development techniques and solutions | pending forge |
 | U4 | Applying creativity techniques in the workplace | pending forge |
 | U5 | Creativity and technology | pending forge |
@@ -52,7 +54,9 @@ Critical layers (ideology, labour, GenAI authorship) live in pedagogy/media voca
 
 ## How to complete a unit (once forged)
 
-Each lesson will follow a B1 / B2 / B3 package: frame the concept, define the studio artefact and definition of done, then isolate an individual problem. Submit a piece ID, process folder, final artefact, and process note; keep source files and disclose any AI assistance. Institutional dates and submission channels remain in Campus Virtual.
+Each lesson follows a B1 / B2 / B3 package: frame the concept, define the studio artefact and definition of done, then isolate an individual problem. Submit a piece ID, process folder, final artefact, and process note; keep source files and disclose any AI assistance. Institutional dates and submission channels remain in Campus Virtual.
+
+Open the unit from the table above, then use **In-class deck** at the lesson head for the Reveal surface used in class.
 
 ## Official contract
 
@@ -63,6 +67,7 @@ Pedagogical binding source: official guía PDF family `9990002301` (Design degre
 Guía clone: creativity-techniques-pedagogy/cv/guides/guia-tecnicas-de-creatividad-diseno-2025-26.json
 Framework: creativity-techniques-pedagogy/cv/sources/oficial-guia-framework.mdc
 Sibling pattern: digital-creativity-uem/docs/tracks/en/digital-creativity-i/
+Link gate: STUDENT-SLIDESHOW-FORGE.mdc §Publish gate — track + lesson links
 -->
 {% endif %}
 

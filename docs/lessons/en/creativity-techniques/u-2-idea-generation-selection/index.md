@@ -88,10 +88,10 @@ Thirty suns is fluency thirty, flexibility one — and that is the moment in the
 
 #### 3 · Block the obvious first
 
-The first ten circles on almost every [Thirty Circles](#exercise-1--thirty-circles-six-minutes) sheet are faces, suns, and balls — the interesting kinds only appear after the automatic hand runs out. That is the mechanism behind [Exercise 2](#exercise-2--oblique-strategies-on-your-d1) this week (Oblique Strategies, on your D1): drawing a card is a mechanical way to shove the first, obvious answer aside so a second answer can arrive, and the "unusual associations" that Csikszentmihalyi separates from raw fluency [(Csikszentmihalyi 2007, 8)](#ref-csikszentmihalyi-2007) live on the other side of that shove. de Bono's lateral-thinking textbook puts the same habit in plain language — looking for alternatives instead of blindly accepting the most obvious approach [(de Bono 1970, 17)](#ref-debono-1970) — and his dig-a-different-hole line is the one Ahmes-gated quote this unit keeps:
+The first ten circles on almost every [Thirty Circles](#exercise-1--thirty-circles-six-minutes) sheet are faces, suns, and balls — the interesting kinds only appear after the automatic hand runs out. That is the mechanism behind [Exercise 2](#exercise-2--oblique-strategies-on-your-d1) this week (Oblique Strategies, on your D1): drawing a card is a mechanical way to shove the first, obvious answer aside so a second answer can arrive, and the "unusual associations" that Csikszentmihalyi separates from raw fluency [(Csikszentmihalyi 2007, 8)](#ref-csikszentmihalyi-2007) live on the other side of that shove. de Bono's lateral-thinking textbook puts the same habit in plain language — looking for alternatives instead of blindly accepting the most obvious approach [(de Bono 1970, 17)](#ref-debono-1970) — and his dig-a-different-hole line is the one page-verified quote this unit keeps:
 
 > You cannot dig a hole in a different place by digging the same hole deeper. Vertical thinking is used to dig the same hole deeper. Lateral thinking is used to dig a hole in a different place.
-{: .ahmes-quote data-coat="bb5aec96" data-node="9797a1fb-37a5-5aeb-99b6-d22d25e35ef5"}
+{: .unit-quote}
 > — [(de Bono 1970, 9)](#ref-debono-1970)
 
 Count how many answers you had to refuse on your D1 before one felt neither derivative nor arbitrary — write the number down. Classical brainstorming's "defer judgement" rule says the opposite of this paragraph (do not censor first answers), which is not a settled question in the field — how much more original that idea might have been if you had blocked your obvious first thought is still open, and this class will not close it.
@@ -180,29 +180,32 @@ This unit trains a rhythm, not a definition — and it leaves several doors open
 
 - <span id="ref-craft-2003">Craft, Anna. 2003. *Creativity Across the Primary Curriculum*. London: Taylor & Francis. ISBN 9780203457283.</span>
 - <span id="ref-csikszentmihalyi-2007">Csikszentmihalyi, Mihaly. 2007. *Creativity: Flow and the Psychology of Discovery and Invention*. New York: HarperCollins. ISBN 9780061844034.</span>
-- <span id="ref-debono-1970">de Bono, Edward. 1970. *Lateral Thinking: A Textbook of Creativity*. London: Penguin Books. ISBN 9780141938318. — Ahmes coat `bb5aec96`; page-verified for Ideas 2–4.</span>
-- <span id="ref-rubin-2023">Rubin, Rick. 2023. *The Creative Act: A Way of Being*. New York: Penguin Press. ISBN 9780593652886. — Ahmes coat `574691eb`; page-verified practitioner counterpoint for Ideas 5–6 and Conclusion (not peer-reviewed pedagogy).</span>
-- <span id="ref-huppauf-wulf-2009">Hüppauf, Bernd, and Christoph Wulf, eds. 2009. *The Dynamics and Performativity of Imagination: The Image between the Visible and the Invisible*. New York: Routledge. ISBN 9780415990936. — Ahmes coat `94897108`; page-verified for imagination / fantasy / creativity distinction.</span>
-- <span id="ref-lehrer-2012">Lehrer, Jonah. 2012. *Imagine: How Creativity Works*. Boston: Houghton Mifflin Harcourt. ISBN 9780547386072. — Ahmes coat `9bdb76cd`; page-verified popular science — hold against Craft / Csikszentmihalyi; do not treat as pedagogy.</span>
-- <span id="ref-smith-2013">Smith, Sophy. 2013. *Hip-Hop Turntablism, Creativity and Collaboration*. Farnham: Ashgate. ISBN 9781409443377. — Ahmes coat `12be32e4`; page-verified for collaborative sampling / constraint.</span>
-- <span id="ref-markman-2009">Markman, Keith D., William M. P. Klein, and Julie A. Suhr, eds. 2009. *Handbook of Imagination and Mental Simulation*. New York: Psychology Press. ISBN 9781841698878. — Ahmes coat `e77c3d8d`; page-verified for counterfactual / alternative thinking.</span>
+- <span id="ref-debono-1970">de Bono, Edward. 1970. *Lateral Thinking: A Textbook of Creativity*. London: Penguin Books. ISBN 9780141938318. — page-verified for Ideas 2–4.</span>
+- <span id="ref-rubin-2023">Rubin, Rick. 2023. *The Creative Act: A Way of Being*. New York: Penguin Press. ISBN 9780593652886. — page-verified practitioner counterpoint for Ideas 5–6 and Conclusion (not peer-reviewed pedagogy).</span>
+- <span id="ref-huppauf-wulf-2009">Hüppauf, Bernd, and Christoph Wulf, eds. 2009. *The Dynamics and Performativity of Imagination: The Image between the Visible and the Invisible*. New York: Routledge. ISBN 9780415990936. — page-verified for imagination / fantasy / creativity distinction.</span>
+- <span id="ref-lehrer-2012">Lehrer, Jonah. 2012. *Imagine: How Creativity Works*. Boston: Houghton Mifflin Harcourt. ISBN 9780547386072. — page-verified popular science — hold against Craft / Csikszentmihalyi; do not treat as pedagogy.</span>
+- <span id="ref-smith-2013">Smith, Sophy. 2013. *Hip-Hop Turntablism, Creativity and Collaboration*. Farnham: Ashgate. ISBN 9781409443377. — page-verified for collaborative sampling / constraint.</span>
+- <span id="ref-markman-2009">Markman, Keith D., William M. P. Klein, and Julie A. Suhr, eds. 2009. *Handbook of Imagination and Mental Simulation*. New York: Psychology Press. ISBN 9781841698878. — page-verified for counterfactual / alternative thinking.</span>
 
 **Open procurement (candidates named but not cited in the body until page-verified extracts resolve):**
 
-- <span id="ref-kelley-2013">Kelley, Tom, and David Kelley. 2013. *Creative Confidence: Unleashing the Creative Potential Within Us All*. New York: Crown Business. — pending Ahmes coat.</span>
-- <span id="ref-beghetto-karwowski-2025">Beghetto, Ronald A., and Maciej Karwowski. 2025. *Creative Agency Unbound*. — pending Ahmes coat.</span>
+- <span id="ref-kelley-2013">Kelley, Tom, and David Kelley. 2013. *Creative Confidence: Unleashing the Creative Potential Within Us All*. New York: Crown Business. — primary extract pending.</span>
+- <span id="ref-beghetto-karwowski-2025">Beghetto, Ronald A., and Maciej Karwowski. 2025. *Creative Agency Unbound*. — primary extract pending.</span>
 - <span id="ref-csikszentmihalyi-1996">Csikszentmihalyi, Mihaly. 1996. *Creativity: Flow and the Psychology of Discovery and Invention*. New York: HarperCollins. — earlier edition; page cite for workshops-not-genius caveat pending.</span>
-- <span id="ref-debono-1981">de Bono, Edward. 1981. *Six Thinking Hats*. Markham, ON: Penguin Canada. — **BIBLIO-GAP for English page cites.** Cue-enrich symlink claimed this edition; Ahmes coat `591f5002` **RETIRED** 2026-09-15 to `~/ahmes-library/scholar/_retired/` (Spanish Granica, ISBN 9789506410612). Bibliography epub deleted. Do not cite.</span>
-- <span id="ref-debono-1985">de Bono, Edward. 1985. *Six Thinking Hats*. Boston: Little, Brown. — **Sole kept bibliography file**; Ahmes coat `7e7ba834` extracted (1323 nodes) but Docling text is Spanish/mangled — still **not** evaluator-safe for English body cites. Granica coat `591f5002` retired.</span>
+- <span id="ref-debono-1981">de Bono, Edward. 1981. *Six Thinking Hats*. Markham, ON: Penguin Canada. — English page cites still open; do not treat as verified for this unit.</span>
+- <span id="ref-debono-1985">de Bono, Edward. 1985. *Six Thinking Hats*. Boston: Little, Brown. — bibliography file retained; English body cites still open.</span>
 - <span id="ref-eno-schmidt-1975">Eno, Brian, and Peter Schmidt. 1975. *Oblique Strategies*. London: Opal. — practitioner Pass-1; used as method gesture only.</span>
 - <span id="ref-kimbell-2011">Kimbell, Lucy. 2011. "Rethinking Design Thinking: Part I." *Design and Culture* 3 (3): 285–306. — critique of design-thinking-as-discourse; primary extract owed; referenced in Idea 6 as declared gap.</span>
-- <span id="ref-avis-2013">Avis, Paul. 2013. *God and the Creative Imagination: Metaphor, Symbol and Myth in Religion and Theology*. London: Routledge. ISBN 9780203259412. — Ahmes coat `178b47c2` (evaluator_safe); light gap fill for cultural/theological imagination — not required for U2 body cites.</span>
+- <span id="ref-avis-2013">Avis, Paul. 2013. *God and the Creative Imagination: Metaphor, Symbol and Myth in Religion and Theology*. London: Routledge. ISBN 9780203259412. — light gap fill for cultural/theological imagination — not required for U2 body cites.</span>
 
 Do not treat these procurement-only titles as page-verified for this unit yet.
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
 MEDIA_RIGHTS_LINE: masterclass=diagram-fallback (Koch triangle); geometrical=fractal-pass-track; profield_pack=unassigned-until-media-rehydrate
+QUOTE_PROVENANCE: de Bono 1970 dig-hole quote · coat bb5aec96 · node 9797a1fb-37a5-5aeb-99b6-d22d25e35ef5 · p.9
+REF_COATS: debono-1970=bb5aec96; rubin=574691eb; huppauf=94897108; lehrer=9bdb76cd; smith=12be32e4; markman=e77c3d8d; avis=178b47c2
+SIX_HATS: 1985 coat 7e7ba834 mangled/Spanish extract — not evaluator_safe EN; Granica 591f5002 retired 2026-09-15
 -->
 {% endif %}
 

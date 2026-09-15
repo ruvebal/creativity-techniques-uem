@@ -28,8 +28,11 @@ Do **not** invent CONTENIDOS. Critical layers **C1–C3** (ideology; labour; Gen
 | -------- | ---- |
 | Student lesson (EN) | `docs/lessons/en/creativity-techniques/u-N-*/index.md` |
 | Student slideshow | `docs/tracks/en/uem/2627-ct/u-N-*/` + `data/content.json` (Reveal) |
-| Track index link | `docs/tracks/en/creativity-techniques/index.md` |
+| Track index link | `docs/tracks/en/creativity-techniques/index.md` — Units table **Status** = `**pilot** — [lesson](…) · [deck](…)` |
+| Lesson → deck link | Frontmatter `deck_url:` **and** cover line `**In-class deck:** [UN student slideshow]({{ '/tracks/ct/u-N-*/' | relative_url }})` |
 | Professor brief | already in `forge/unit-enrichment/U*/PROFESSOR.md` (do not publish) |
+
+**Fail closed:** a unit is not forged if either the track-table **deck** link or the lesson-head **In-class deck** `<a>` is missing. Do not invent either link for pending units.
 
 ## 2. Hour mapping (guía clone — Design degree)
 
@@ -51,6 +54,8 @@ Every lesson includes a Reveal deck per [`STUDENT-SLIDESHOW-FORGE.mdc`](./STUDEN
 - ≤ 6 Masterclass ideas from enrichment `MAIN-IDEAS.yml`
 - Required **`unit_cover`** first (title / stake), then **`analysis_opener`** (geometrical) and optional analysis model (Profield)
 - Lesson Markdown **must** contain Analysis method prose (language / medium / support; session-3 defence cadence) — not only a link to the deck
+- Lesson cover **must** expose the deck as a real link: `**In-class deck:** [UN student slideshow]({{ '/tracks/ct/<slug>/' | relative_url }})` plus frontmatter `deck_url: /tracks/ct/<slug>/`
+- Track Units table **must** list both `[lesson](…)` · `[deck](…)` in the Status cell for that unit (same permalinks)
 - Required **`lab_opener`** (geometrical) before portfolio-bound exercises
 - Required **`workshop_opener`** + **`outro`** (geometrical)
 - Masterclass / Lab images from Profield public-safe assets; Koch triangle only as diagram fallback (never Sierpinski; never Resource UUID in captions)
