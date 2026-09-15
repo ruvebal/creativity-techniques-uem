@@ -1,0 +1,60 @@
+# Seeded from COMBINE-RELATE-DISCUSS.md §3 — 2026-09-15 (T0)
+version: 1
+source: creativity-techniques-pedagogy/grounding/COMBINE-RELATE-DISCUSS.md
+tensions:
+  - id: T-U2-fluency-vs-selection
+    tendency: "Fluency workshops inflate count and feel like achievement"
+    consolidated: "Selection and elaboration are the craft; few generative ideas matter more than many clones"
+    unit_home: U2
+    chapter: fluency-flexibility
+    status: assigned
+    form_hint: haiku
+  - id: T-U1-dt-toolkit-vs-practice
+    tendency: "Managerial design-thinking toolkit as soft-skill theatre"
+    consolidated: "Techniques without framing empty craft; critique belongs in the same arc"
+    unit_home: U1
+    chapter: tools-not-scripts
+    status: assigned
+    form_hint: koan
+  - id: T-U4-hustle-vs-sustainable
+    tendency: "Passion / hustle culture normalises unpaid ideation"
+    consolidated: "Workplace technique includes refusing unpaid ideation"
+    unit_home: U4
+    chapter: workplace-labour
+    status: assigned
+    form_hint: maxima
+  - id: T-U5-genai-vs-originality
+    tendency: "GenAI as co-creator sold as originality"
+    consolidated: "Stage-specific use + process transparency + assessment of judgement"
+    unit_home: U5
+    chapter: technology-genai
+    status: assigned
+    form_hint: koan
+  - id: T-U1-brick-test-vs-domain
+    tendency: "Alternate-uses / brick scores treated as talent"
+    consolidated: "Context matters — studio judgement ≠ psychometric toy"
+    unit_home: U1
+    chapter: open-close
+    status: assigned
+    form_hint: yoda
+  - id: T-U2-practitioner-vs-peer-review
+    tendency: "Practitioner cards taught as science of creativity"
+    consolidated: "Honest gap: repertoire teaching is thinner than reflective canons — teach as rehearsable gestures"
+    unit_home: U2
+    chapter: tools-not-scripts
+    status: assigned
+    form_hint: maxima
+  - id: T-ALL-language-medium-support
+    tendency: "Students praise 'creativity' without naming where meaning travels"
+    consolidated: "Analysis triad language / medium / support + circulation before technique worship"
+    unit_home: U1
+    chapter: language-medium-support
+    status: assigned
+    form_hint: haiku
+  - id: T-U6-gift-vs-rehearsal
+    tendency: "Talent myth — you have it or you don't"
+    consolidated: "Creative confidence emerges from method rehearsal under a brief"
+    unit_home: U6
+    chapter: confidence-agency
+    status: assigned
+    form_hint: maxima

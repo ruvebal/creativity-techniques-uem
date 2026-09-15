@@ -1,0 +1,104 @@
+# Candidates — seed accepted lines mirrored on docs/tao (T2/T4 bootstrap 2026-09-15)
+version: 1
+candidates:
+  - id: C-U1-open-01
+    tension_id: T-U1-brick-test-vs-domain
+    form: yoda
+    text: "Talent, a brick test is not. Under a brief, judgement is."
+    status: accepted
+    slide_eligible: true
+    chapter: open-close
+  - id: C-U1-open-02
+    tension_id: T-U1-brick-test-vs-domain
+    form: maxima
+    text: "The way that scores on a toy is not the way that survives a brief."
+    status: accepted
+    slide_eligible: true
+    chapter: open-close
+  - id: C-U2-fluency-01
+    tension_id: T-U2-fluency-vs-selection
+    form: haiku
+    text: |
+      Thirty suns on the board.
+      One kind. The count lies quietly.
+      Winter studio light.
+    status: accepted
+    slide_eligible: true
+    chapter: fluency-flexibility
+  - id: C-U2-fluency-02
+    tension_id: T-U2-fluency-vs-selection
+    form: maxima
+    text: "Fluency without kinds is a crowd that agrees with itself."
+    status: accepted
+    slide_eligible: true
+    chapter: fluency-flexibility
+  - id: C-U2-tools-01
+    tension_id: T-U1-dt-toolkit-vs-practice
+    form: koan
+    text: |
+      A student said: «I used five techniques; therefore I was creative.»
+      The master asked: «Which idea did you refuse?»
+      The student named none.
+      In that silence the toolkit ended.
+    status: accepted
+    slide_eligible: false
+    chapter: tools-not-scripts
+  - id: C-U2-tools-02
+    tension_id: T-U2-practitioner-vs-peer-review
+    form: maxima
+    text: "A card is a gesture you can rehearse. It is not a proof."
+    status: accepted
+    slide_eligible: true
+    chapter: tools-not-scripts
+  - id: C-ALL-lms-01
+    tension_id: T-ALL-language-medium-support
+    form: haiku
+    text: |
+      Same sketch. New room.
+      Praise dies; the channel changed.
+      Support still paper.
+    status: accepted
+    slide_eligible: true
+    chapter: language-medium-support
+  - id: C-U4-labour-01
+    tension_id: T-U4-hustle-vs-sustainable
+    form: maxima
+    text: "Unpaid ideation is not passion. It is a brief without a contract."
+    status: accepted
+    slide_eligible: true
+    chapter: workplace-labour
+  - id: C-U5-genai-01
+    tension_id: T-U5-genai-vs-originality
+    form: koan
+    text: |
+      A student showed perfect alternatives the model wrote in a minute.
+      The master asked: «Where is your refusal?»
+      «There was nothing to refuse — all were good.»
+      «Then none were yours», said the master.
+    status: accepted
+    slide_eligible: false
+    chapter: technology-genai
+  - id: C-U6-conf-01
+    tension_id: T-U6-gift-vs-rehearsal
+    form: yoda
+    text: "Gifted, you may feel. Rehearse the method, you must."
+    status: accepted
+    slide_eligible: true
+    chapter: confidence-agency
+  - id: C-U1-problem-01
+    tension_id: T-U1-dt-toolkit-vs-practice
+    form: maxima
+    text: "Before the technique, name what is fuzzy in the brief."
+    status: accepted
+    slide_eligible: true
+    chapter: unclear-problem
+  - id: C-U3-select-01
+    tension_id: T-U2-fluency-vs-selection
+    form: haiku
+    text: |
+      Many doors opened.
+      One fits the brief. Close the rest
+      on purpose. Spring.
+    status: accepted
+    slide_eligible: true
+    chapter: selection-taste

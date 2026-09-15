@@ -12,7 +12,98 @@ layout: null
     "description": "Accepted/ranked Profield review-state assets assigned to tc/U2. Fill via `npm run media:rehydrate` once review-state.json ships U2 rows.",
     "media_overrides": {}
   },
-  "assets": [],
+  "assets": [
+    {
+      "media_slot_id": "U2.still.profield-1",
+      "asset_id": "wikimedia:File:Un chien andalou- Un perro andaluz.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/cc56afd75ebbfab4.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Un_chien_andalou-_Un_perro_andaluz.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Un_chien_andalou-_Un_perro_andaluz.jpg",
+      "alt_text": "Un chien andalou- Un perro andaluz.jpg",
+      "title": "Un chien andalou- Un perro andaluz.jpg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 8,
+      "selection_rank": 8,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U2.still.profield-2",
+      "asset_id": "nypl:08c74ef0-5530-0135-18ad-3fc83eb6687f",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/290eb35b25f7662d.php",
+      "source_file_url": "https://images.nypl.org/index.php?id=57332905&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/08c74ef0-5530-0135-18ad-3fc83eb6687f",
+      "alt_text": "Leonardo da Vinci",
+      "title": "Leonardo da Vinci",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 7,
+      "selection_rank": 7,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U2.still.profield-3",
+      "asset_id": "wikimedia:File:Sprite Fright-concept art-Victoria 01.png",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/5e5034d4db013da5.png",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Sprite_Fright-concept_art-Victoria_01.png",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Sprite_Fright-concept_art-Victoria_01.png",
+      "alt_text": "Sprite Fright-concept art-Victoria 01.png",
+      "title": "Sprite Fright-concept art-Victoria 01.png",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 7,
+      "selection_rank": 7,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U2.still.profield-4",
+      "asset_id": "nypl:02f7ad60-b9cb-0136-4a02-7f27c217b885",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/42f6022e28528ba4.php",
+      "source_file_url": "https://images.nypl.org/index.php?id=58005713&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/02f7ad60-b9cb-0136-4a02-7f27c217b885",
+      "alt_text": "Surrealistic window display, Bergdorf Goodman, New York City",
+      "title": "Surrealistic window display, Bergdorf Goodman, New York City",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 4,
+      "selection_rank": 4,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U2.still.profield-5",
+      "asset_id": "nypl:141c6730-768a-0137-0916-0710db36541b",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/691f91929e80d9e5.php",
+      "source_file_url": "https://images.nypl.org/index.php?id=58053557&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/141c6730-768a-0137-0916-0710db36541b",
+      "alt_text": "Circus artists",
+      "title": "Circus artists",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 4,
+      "selection_rank": 4,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U2.still.profield-6",
+      "asset_id": "nypl:125ccce0-5186-0132-9ead-58d385a7bbd0",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/336e44a26fb8d6a8.php",
+      "source_file_url": "https://images.nypl.org/index.php?id=5311858&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/125ccce0-5186-0132-9ead-58d385a7bbd0",
+      "alt_text": "Imagination is allowed full play at the American Laboratory Theatre",
+      "title": "Imagination is allowed full play at the American Laboratory Theatre",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 3,
+      "selection_rank": 3,
+      "collection": "unit-accepted"
+    }
+  ],
   "slides": [
     {
       "slide_role": "unit_cover",
@@ -296,7 +387,7 @@ layout: null
     },
     {
       "slide_role": "lab_exercise",
-      "background_kind": "none",
+      "background_kind": "profield",
       "heading": "Exercise 1 · Thirty circles, six minutes",
       "sentence": "Thirty blank circles. Six minutes. Fill as many as you can with distinct, recognisable objects — do not repeat a type.",
       "portfolio_bound": true,
@@ -322,11 +413,12 @@ layout: null
       "citation": {
         "label": "(Tao of Creativity)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#tao-of-creativity"
-      }
+      },
+      "media_slot_id": "U2.still.profield-1"
     },
     {
       "slide_role": "lab_exercise",
-      "background_kind": "none",
+      "background_kind": "profield",
       "heading": "Exercise 2 · Oblique Strategies, on your D1",
       "sentence": "Draw one Oblique Strategies card. Apply the prompt to your D1 object for 10 minutes. What shifted, what did not?",
       "portfolio_bound": true,
@@ -352,11 +444,12 @@ layout: null
       "citation": {
         "label": "(Tao of Creativity)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#tao-of-creativity"
-      }
+      },
+      "media_slot_id": "U2.still.profield-2"
     },
     {
       "slide_role": "lab_exercise",
-      "background_kind": "none",
+      "background_kind": "profield",
       "heading": "Exercise 3 · Selection rubric on paper",
       "sentence": "Score your best three ideas on novelty and fitness-to-brief (1–5). Rank them and defend the winner in one paragraph.",
       "portfolio_bound": true,
@@ -382,47 +475,14 @@ layout: null
       "citation": {
         "label": "(Tao of Creativity)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#tao-of-creativity"
-      }
-    },
-    {
-      "slide_role": "workshop_opener",
-      "background_kind": "geometrical",
-      "heading": "Workshop · Deliverable",
-      "sentence": "Protected time on your next D1 defence — apply today's tools to your own piece."
-    },
-    {
-      "slide_role": "workshop_work",
-      "background_kind": "diagram",
-      "heading": "Reminder · From session 3 you start the session",
-      "sentence": "Two 15-minute defences open the class. Use today's Workshop to add a generate/select frame to your analysis.",
-      "quote": "From session three, the room belongs to whoever can defend what the piece is made of.",
-      "quote_origin": "tao_invented",
-      "semantic_tags": {
-        "themes": [
-          "defence",
-          "d1"
-        ],
-        "cidoc": [
-          "crm:E33_Linguistic_Object"
-        ],
-        "getty_aat": [
-          "aphorisms"
-        ],
-        "dcterms": [
-          "dcterms:type=Text",
-          "dcterms:subject=defence"
-        ]
       },
-      "citation": {
-        "label": "(Tao of Creativity)",
-        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#tao-of-creativity"
-      }
+      "media_slot_id": "U2.still.profield-3"
     },
     {
       "slide_role": "outro",
       "background_kind": "geometrical",
       "heading": "Carry forward",
-      "sentence": "Portfolio index updated. Selection rubric drafted. Open question: whose criteria decide what counts as 'novel'?",
+      "sentence": "No Workshop in first lessons — Lab ends the session. D1 Analysis does not get Workshop time. From session 4: half Transposition, half final event.",
       "quote": "Whose criteria decide what counts as novel — yours, the brief's, or the room's?",
       "quote_origin": "tao_invented",
       "semantic_tags": {

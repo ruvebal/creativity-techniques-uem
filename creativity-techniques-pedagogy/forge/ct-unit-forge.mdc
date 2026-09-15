@@ -29,10 +29,10 @@ Do **not** invent CONTENIDOS. Critical layers **C1–C3** (ideology; labour; Gen
 | Student lesson (EN) | `docs/lessons/en/creativity-techniques/u-N-*/index.md` |
 | Student slideshow | `docs/tracks/en/uem/2627-ct/u-N-*/` + `data/content.json` (Reveal) |
 | Track index link | `docs/tracks/en/creativity-techniques/index.md` — Units table **Status** = `**pilot** — [lesson](…) · [deck](…)` |
-| Lesson → deck link | Frontmatter `deck_url:` **and** cover line `**In-class deck:** [UN student slideshow]({{ '/tracks/ct/u-N-*/' | relative_url }})` |
+| Lesson → deck link | Frontmatter `deck_url:` (sticky action bar in `lesson` layout) — **no** visible Cover deck line |
 | Professor brief | already in `forge/unit-enrichment/U*/PROFESSOR.md` (do not publish) |
 
-**Fail closed:** a unit is not forged if either the track-table **deck** link or the lesson-head **In-class deck** `<a>` is missing. Do not invent either link for pending units.
+**Fail closed:** a unit is not forged if either the track-table **deck** link or frontmatter `deck_url:` is missing. Do not invent either link for pending units.
 
 ## 2. Hour mapping (guía clone — Design degree)
 
@@ -54,7 +54,8 @@ Every lesson includes a Reveal deck per [`STUDENT-SLIDESHOW-FORGE.mdc`](./STUDEN
 - ≤ 6 Masterclass ideas from enrichment `MAIN-IDEAS.yml`
 - Required **`unit_cover`** first (title / stake), then **`analysis_opener`** (geometrical) and optional analysis model (Profield)
 - Lesson Markdown **must** contain Analysis method prose (language / medium / support; session-3 defence cadence) — not only a link to the deck
-- Lesson cover **must** expose the deck as a real link: `**In-class deck:** [UN student slideshow]({{ '/tracks/ct/<slug>/' | relative_url }})` plus frontmatter `deck_url: /tracks/ct/<slug>/`
+- Lesson frontmatter **must** set `deck_url: /tracks/ct/<slug>/` (sticky chrome button). Do **not** ship a visible Cover deck paragraph.
+- Frontmatter **should** set `master_idea:` + `practice_anchor:` (optional `frontier_signal:`) — see §4c.
 - Track Units table **must** list both `[lesson](…)` · `[deck](…)` in the Status cell for that unit (same permalinks)
 - Required **`lab_opener`** (geometrical) before portfolio-bound exercises
 - Required **`workshop_opener`** + **`outro`** (geometrical)
@@ -130,6 +131,43 @@ pointer (a book, a studio, a career path from the Directory), not a
 gesture. Sentence 3 asks the student what they will do with the gap.
 Sentence 4 closes without closing — the gap is the invitation.>
 ```
+
+## 4a-ter. Editorial note after References (Teaching Innovation Practice)
+
+Do **not** place “What the sources support…” (or any epistemic-limit editorial)
+between Masterclass paragraphs and Lab. After `## References`, before
+`## AI-assisted authorship`, ship:
+
+```markdown
+## Editorial note. Work in progress. Teaching Innovation Practice
+{: .lesson-editorial-note }
+
+<What page-verified sources support · what they do not · open cites.
+No new teaching content.>
+```
+
+This is the *Práctica de Innovación docente* transparency surface. Only the
+AI-authorship declaration may follow.
+
+## 4c. Lesson page chrome + agentic Cover + Practice anchor
+
+Visible student order after TOC:
+
+1. Sticky chrome (layout): breadcrumb + lang/deck **button bar** (`deck_url`).
+2. Header.
+3. Opening block in `<div class="lesson-opener" markdown="1">`: TTOD quote +
+   `{% include lesson-semantic-graphic.html %}`.
+4. Learning objectives → Analysis → Masterclass → Lab → Workshop → Conclusion →
+   References → Editorial note → AI declaration.
+
+**Cover is commented / agentic — never a visible H2.** Store CONTENIDOS, one-line
+stake, class rhythm, and grade feeds in `{% comment %} cover-agentic: … {% endcomment %}`.
+
+| Field | Rule |
+| ----- | ---- |
+| **Master idea** | One claim students can repeat |
+| **Practice anchor** | Durable operations/constructs to rehearse — **not** a tool UI |
+| **Frontier signal** | Optional named gap |
 
 ## 4b. Every lesson ships an AI-usage declaration + internal UUID/date
 

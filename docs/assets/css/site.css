@@ -1614,9 +1614,163 @@ html.dark,
 .lesson-session-frame__note { font-size: 0.8rem; line-height: 1.4; }
 .lesson-session-frame > p:last-child { margin: 0.75rem 0 0; }
 .lesson-session-frame__note { color: rgb(71 85 105); }
-.lesson-student-deck-link { margin: 0 auto 1rem; max-width: 900px; font-weight: 700; }
+
+/* ========================================
+   Sticky lesson chrome (breadcrumb + actions)
+   ======================================== */
+
+.lesson-sticky-chrome {
+	position: sticky;
+	top: var(--site-header-height, 4.5rem);
+	z-index: 28;
+	display: flex;
+	flex-direction: column;
+	gap: 0.55rem;
+	margin: 0 0 1.25rem;
+	padding: 0.55rem 0.75rem 0.7rem;
+	border: 1px solid var(--border-light, rgb(226 232 240));
+	border-radius: 0.85rem;
+	background: color-mix(in srgb, var(--bg-primary, #fff) 88%, transparent);
+	backdrop-filter: blur(10px);
+	box-shadow: 0 0.35rem 1.25rem rgb(15 23 42 / 0.06);
+}
+
+.lesson-sticky-chrome .breadcrumb {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.lesson-action-bar {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.35rem;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.lesson-action-bar__btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 1.35rem;
+	padding: 0.1rem 0.42rem;
+	border: 1px solid rgb(5 150 105 / 0.45);
+	border-radius: 0.35rem;
+	background: rgb(255 255 255 / 0.45);
+	color: #047857;
+	font-size: 0.62rem;
+	font-weight: 700;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+	text-transform: none;
+	transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.lesson-action-bar__btn:hover,
+.lesson-action-bar__btn:focus {
+	background: #059669;
+	color: #fff;
+	outline: none;
+}
+
+.lesson-action-bar__btn:focus-visible {
+	outline: 2px solid #6ee7b7;
+	outline-offset: 2px;
+}
+
+.lesson-action-bar__btn--deck {
+	border-color: rgb(15 118 110 / 0.55);
+	color: #0f766e;
+}
+
+.lesson-action-bar__btn--deck:hover,
+.lesson-action-bar__btn--deck:focus {
+	background: #0f766e;
+	color: #fff;
+}
+
+.lesson-action-bar__kbd {
+	font-size: 0.62rem;
+	font-weight: 700;
+	letter-spacing: 0.02em;
+}
+
+.lesson-action-bar__label {
+	display: none;
+}
+
+.dark .lesson-sticky-chrome {
+	background: color-mix(in srgb, #0b1220 90%, transparent);
+	border-color: rgb(51 65 85 / 0.8);
+}
+
+.dark .lesson-action-bar__btn {
+	background: rgb(15 23 42 / 0.55);
+	border-color: rgb(52 211 153 / 0.45);
+	color: #34d399;
+}
+
+.dark .lesson-action-bar__btn:hover,
+.dark .lesson-action-bar__btn:focus {
+	background: #34d399;
+	color: #0b1220;
+}
+
+/* Opening block: stacked quote + ideas + full-bleed image (no columns, no hex mask) */
+.lesson-opener {
+	display: flex;
+	flex-direction: column;
+	gap: 0.9rem;
+	margin: 0 0 2rem;
+	width: 100%;
+	padding: 0;
+	border: 0;
+	background: transparent;
+}
+
+.lesson-opener > .tao-development-quote,
+.lesson-body .lesson-opener > blockquote.tao-development-quote {
+	margin: 0;
+	border: 1px solid rgb(255 255 255 / 0.18);
+	border-left: 2px solid rgb(16 185 129 / 0.55);
+	border-radius: 1rem;
+	background:
+		linear-gradient(145deg, rgb(255 255 255 / 0.08), rgb(236 253 245 / 0.04)),
+		rgb(15 23 42 / 0.02);
+	backdrop-filter: blur(8px) saturate(1.1);
+	-webkit-backdrop-filter: blur(8px) saturate(1.1);
+	box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.2);
+}
+
+.lesson-opener .lesson-framing {
+	margin: 0;
+	padding: 0.85rem 1rem;
+	border: 1px solid rgb(148 163 184 / 0.18);
+	border-radius: 0.75rem;
+	background: rgb(248 250 252 / 0.12);
+	box-shadow: none;
+	backdrop-filter: blur(6px);
+	-webkit-backdrop-filter: blur(6px);
+}
+
+.lesson-opener .lesson-semantic {
+	margin: 0;
+	width: 100%;
+	max-width: none;
+	aspect-ratio: 20 / 7;
+	min-height: 0;
+	clip-path: none !important;
+	border-radius: 0.85rem;
+	overflow: hidden;
+	border: 1px solid rgb(148 163 184 / 0.28);
+}
 
 @media (max-width: 720px) {
+	.lesson-sticky-chrome {
+		padding-inline: 0.55rem;
+	}
+
 	.lesson-session-frame__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
@@ -1789,7 +1943,7 @@ html.dark,
 	aspect-ratio: 20 / 7;
 	overflow: hidden;
 	background: var(--surface, #101827);
-	clip-path: polygon(var(--semantic-corner) 0, calc(100% - var(--semantic-corner)) 0, 100% 50%, calc(100% - var(--semantic-corner)) 100%, var(--semantic-corner) 100%, 0 50%);
+	clip-path: none;
 	border: 1px solid rgb(148 163 184 / 0.28);
 }
 
@@ -1883,6 +2037,8 @@ html.dark,
 
 .lesson-framing p {
 	margin: 0;
+	max-width: 68ch;
+	line-height: 1.45;
 }
 
 .lesson-framing p + p {
@@ -1890,7 +2046,24 @@ html.dark,
 }
 
 .lesson-framing strong {
-	font-weight: 600;
+	font-weight: 700;
+	color: var(--link, #059669);
+}
+
+.lesson-editorial-note {
+	margin: 2rem 0 1.5rem;
+	padding: 1rem 1.15rem;
+	border: 1px dashed rgb(148 163 184 / 0.55);
+	border-radius: 0.75rem;
+	background: rgb(248 250 252 / 0.7);
+}
+
+.lesson-editorial-note > :first-child {
+	margin-top: 0;
+}
+
+.lesson-editorial-note > :last-child {
+	margin-bottom: 0;
 }
 
 @media (prefers-reduced-motion: reduce) {

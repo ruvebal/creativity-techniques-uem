@@ -1,0 +1,2445 @@
+{
+  "title": "The Tao of Creativity",
+  "subtitle": "Creativity Techniques · Universidad Europea Creative Campus",
+  "version": "0.1.0",
+  "lang": "en",
+  "cite_as": "Tao of Creativity",
+  "permalink": "/tao/",
+  "data_url": "/tao/data/quotes.json",
+  "intro": [
+    "The way that fits in a toolkit is not the eternal way.",
+    "Open many doors. Close most of them on purpose.",
+    "Invents here are studio aphorisms — never fake scholarship."
+  ],
+  "chapters": [
+    {
+      "id": "open-close",
+      "number": "I",
+      "title": "Open, then close",
+      "unit_home": [
+        "U1"
+      ],
+      "quotes": [
+        {
+          "id": "C-U1-open-01",
+          "form": "Yoda",
+          "text": "Talent, a brick test is not. Under a brief, judgement is.",
+          "slide_eligible": true,
+          "ttod": {
+            "section": "wisdom",
+            "level": "beginner",
+            "tags": [
+              "creativity",
+              "yoda",
+              "teaching",
+              "assessment"
+            ]
+          },
+          "lexicum": {
+            "concepts": [
+              {
+                "uri_local": "ct:talentMyth",
+                "qualified": "foundations_importance.talentMyth",
+                "pref_label": "Talent Myth",
+                "subfield_slug": "foundations_importance"
+              },
+              {
+                "uri_local": "ct:teachableCreativity",
+                "qualified": "foundations_importance.teachableCreativity",
+                "pref_label": "Teachable Creativity",
+                "subfield_slug": "foundations_importance"
+              }
+            ],
+            "primary": "ct:talentMyth"
+          },
+          "field_discussions": [
+            "T-U1-brick-test-vs-domain"
+          ],
+          "creativity_areas": [
+            "foundations_importance",
+            "idea_generation_selection"
+          ],
+          "semantic_tags": {
+            "themes": [
+              "talentMyth",
+              "teachableCreativity"
+            ],
+            "cidoc": [
+              "crm:E33_Linguistic_Object",
+              "crm:E73_Information_Object"
+            ],
+            "getty_aat": [
+              "aphorisms",
+              "creativity"
+            ],
+            "dcterms": [
+              "dcterms:type=Text",
+              "dcterms:subject=talentMyth",
+              "dcterms:educationLevel=undergraduate"
+            ],
+            "skos": {
+              "inScheme": "https://crea-comm.net/lexfield/creativity_techniques#",
+              "exactMatch": [
+                "ct:talentMyth",
+                "ct:teachableCreativity"
+              ]
+            }
+          }
+        },
+        {
+          "id": "C-U1-open-02",
+          "form": "Máxima",
+          "text": "The way that scores on a toy is not the way that survives a brief.",
+          "slide_eligible": true,
+          "ttod": {
+            "section": "wisdom",
+            "level": "intermediate",
+            "tags": [
+              "creativity",
+              "maxima",
+              "teaching"
+            ]
+          },
+          "lexicum": {
+            "concepts": [
+              {
+                "uri_local": "ct:talentMyth",
+                "qualified": "foundations_importance.talentMyth",
+                "pref_label": "Talent Myth",
+                "subfield_slug": "foundations_importance"
+              },
+              {
+                "uri_local": "ct:noveltyAndAppropriateness",
+                "qualified": "foundations_importance.noveltyAndAppropriateness",
+                "pref_label": "Novelty and Appropriateness",
+                "subfield_slug": "foundations_importance"
+              }
+            ],
+            "primary": "ct:talentMyth"
+          },
+          "field_discussions": [
+            "T-U1-brick-test-vs-domain"
+          ],
+          "creativity_areas": [
+            "foundations_importance",
+            "idea_generation_selection"
+          ],
+          "semantic_tags": {
+            "themes": [
+              "talentMyth",
+              "noveltyAndAppropriateness"
+            ],
+            "cidoc": [
+              "crm:E33_Linguistic_Object",
+              "crm:E73_Information_Object"
+            ],
+            "getty_aat": [
+              "aphorisms",
+              "creativity"
+            ],
+            "dcterms": [
+              "dcterms:type=Text",
+              "dcterms:subject=talentMyth",
+              "dcterms:educationLevel=undergraduate"
+            ],
+            "skos": {
+              "inScheme": "https://crea-comm.net/lexfield/creativity_techniques#",
+              "exactMatch": [
+                "ct:talentMyth",
+                "ct:noveltyAndAppropriateness"
+              ]
+            }
+          }
+        },
+        {
+          "id": "C-U1-open-03",
+          "form": "Haiku",
+          "text": "Many options first.\nThen the brief chooses with you.\nSpring, then autumn.",
+          "slide_eligible": true,
+          "ttod": {
+            "section": "wisdom",
+            "level": "beginner",
+            "tags": [
+              "creativity",
+              "haiku",
+              "teaching"
+            ]
+          },
+          "lexicum": {
+            "concepts": [
+              {
+                "uri_local": "ct:divergentConvergentRhythm",
+                "qualified": "foundations_importance.divergentConvergentRhythm",
+                "pref_label": "Divergent–Convergent Rhythm",
+                "subfield_slug": "foundations_importance"
+              }
+            ],
+            "primary": "ct:divergentConvergentRhythm"
+          },
+          "field_discussions": [
+            "T-U1-brick-test-vs-domain"
+          ],
+          "creativity_areas": [
+            "foundations_importance",
+            "idea_generation_selection"
+          ],
+          "semantic_tags": {
+            "themes": [
+              "divergentConvergentRhythm"
+            ],
+            "cidoc": [
+              "crm:E33_Linguistic_Object",
+              "crm:E73_Information_Object"
+            ],
+            "getty_aat": [
+              "haiku",
+              "creativity"
+            ],
+            "dcterms": [
+              "dcterms:type=Text",
+              "dcterms:subject=divergentConvergentRhythm",
+              "dcterms:educationLevel=undergraduate"
+            ],
+            "skos": {
+              "inScheme": "https://crea-comm.net/lexfield/creativity_techniques#",
+              "exactMatch": [
+                "ct:divergentConvergentRhythm"
+              ]
+            }
+          }
+        }
+      ],
+      "creativity_areas": [
+        {
+          "slug": "foundations_importance",
+          "title": "Foundations and Importance",
+          "uri_hint": "https://crea-comm.net/lexfield/creativity_techniques#foundations_importance"
+        },
+        {
+          "slug": "idea_generation_selection",
+          "title": "Idea Generation and Selection",
+          "uri_hint": "https://crea-comm.net/lexfield/creativity_techniques#idea_generation_selection"
+        }
+      ],
+      "field_discussions": [
+        {
+          "id": "T-U1-brick-test-vs-domain",
+          "label": "Alternate-uses / brick tests vs domain talent",
+          "teach_as": "Context matters — studio ≠ psychometric toy",
+          "unit_home": [
+            "U1"
+          ],
+          "combine_ref": "COMBINE-RELATE-DISCUSS §3"
+        }
+      ]
+    },
+    {
+      "id": "unclear-problem",
+      "number": "II",
+      "title": "The unclear problem",
+      "unit_home": [
+        "U1"
+      ],
+      "quotes": [
+        {
+          "id": "C-U1-problem-01",
+          "form": "Máxima",
+          "text": "Before the technique, name what is fuzzy in the brief.",
+          "slide_eligible": true,
+          "ttod": {
+            "section": "wisdom",
+            "level": "beginner",
+            "tags": [
+              "creativity",
+              "maxima",
+              "brief"
+            ]
+          },
+          "lexicum": {
+            "concepts": [
+              {
+                "uri_local": "ct:wickedProblem",
+                "qualified": "foundations_importance.wickedProblem",
+                "pref_label": "Wicked Problem",
+                "subfield_slug": "foundations_importance"
+              },
+              {
+                "uri_local": "ct:clientBrief",
+                "qualified": "workplace_application.clientBrief",
+                "pref_label": "Client Brief",
+                "subfield_slug": "workplace_application"
+              }
+            ],
+            "primary": "ct:wickedProblem"
+          },
+          "field_discussions": [
+            "T-U1-dt-toolkit-vs-practice"
+          ],
+          "creativity_areas": [
+            "foundations_importance",
+            "workplace_application"
+          ],
+          "semantic_tags": {
+            "themes": [
+              "wickedProblem",
+              "clientBrief"
+            ],
+            "cidoc": [
+              "crm:E33_Linguistic_Object",
+              "crm:E73_Information_Object"
+            ],
+            "getty_aat": [
+              "aphorisms",
+              "creativity"
+            ],
+            "dcterms": [
+              "dcterms:type=Text",
+              "dcterms:subject=wickedProblem",
+              "dcterms:educationLevel=undergraduate"
+            ],
+            "skos": {
+              "inScheme": "https://crea-comm.net/lexfield/creativity_techniques#",
+              "exactMatch": [
+                "ct:wickedProblem",
+                "ct:clientBrief"
+              ]
+            }
+          }
+        },
+        {
+          "id": "C-U1-problem-02",
+          "form": "Koan",
+          "text": "A team opened five methods before asking what hurt.\nThe master swept the cards aside.\n«Show me the fog», he said.",
+          "slide_eligible": false,
+          "ttod": {
+            "section": "wisdom",
+            "level": "intermediate",
+            "tags": [
+              "creativity",
+              "koan",
+              "teaching"
+            ]
+          },
+          "lexicum": {
+            "concepts": [
+              {
+                "uri_local": "ct:designThinkingDiscourse",
+                "qualified": "foundations_importance.designThinkingDiscourse",
+                "pref_label": "Design Thinking Discourse",
+                "subfield_slug": "foundations_importance"
+              },
+              {
+                "uri_local": "ct:softSkillTheatre",
+                "qualified": "critical_layer.softSkillTheatre",
+                "pref_label": "Soft-Skill Theatre",
+                "subfield_slug": "critical_layer"
+              }
+            ],
+            "primary": "ct:designThinkingDiscourse"
+          },
+          "field_discussions": [
+            "T-U1-dt-toolkit-vs-practice"
+          ],
+          "creativity_areas": [
+            "foundations_importance",
+            "workplace_application"
+          ],
+          "semantic_tags": {
+            "themes": [
+              "designThinkingDiscourse",
+              "softSkillTheatre"
+            ],
+            "cidoc": [
+              "crm:E33_Linguistic_Object",
+              "crm:E73_Information_Object"
+            ],
+            "getty_aat": [
+              "koans",
+              "creativity"
+            ],
+            "dcterms": [
+              "dcterms:type=Text",
+              "dcterms:subject=designThinkingDiscourse",
+              "dcterms:educationLevel=undergraduate"
+            ],
+            "skos": {
+              "inScheme": "https://crea-comm.net/lexfield/creativity_techniques#",
+              "exactMatch": [
+                "ct:designThinkingDiscourse",
+                "ct:softSkillTheatre"
+              ]
+            }
+          }
+        },
+        {
+          "id": "C-U1-problem-03",
+          "form": "Haiku",
+          "text": "Kickoff slides shine.\nNobody named the unclear part.\nWinter already.",
+          "slide_eligible": true,
+          "ttod": {
+            "section": "wisdom",
+            "level": "beginner",
+            "tags": [
+              "creativity",
+              "haiku"
+            ]
+          },
+          "lexicum": {
+            "concepts": [
+              {
+                "uri_local": "ct:wickedProblem",
+                "qualified": "foundations_importance.wickedProblem",
+                "pref_label": "Wicked Problem",
+                "subfield_slug": "foundations_importance"
+              },
+              {
+                "uri_local": "ct:studioPedagogy",
+                "qualified": "foundations_importance.studioPedagogy",
+                "pref_label": "Studio Pedagogy",
+                "subfield_slug": "foundations_importance"
+              }
+            ],
+            "primary": "ct:wickedProblem"
+          },
+          "field_discussions": [
+            "T-U1-dt-toolkit-vs-practice"
+          ],
+          "creativity_areas": [
+            "foundations_importance",
+            "workplace_application"
+          ],
+          "semantic_tags": {
+            "themes": [
+              "wickedProblem",
+              "studioPedagogy"
+            ],
+            "cidoc": [
+              "crm:E33_Linguistic_Object",
+              "crm:E73_Information_Object"
+            ],
+            "getty_aat": [
+              "haiku",
+              "creativity"
+            ],
+            "dcterms": [
+              "dcterms:type=Text",
+              "dcterms:subject=wickedProblem",
+              "dcterms:educationLevel=undergraduate"
+            ],
+            "skos": {
+              "inScheme": "https://crea-comm.net/lexfield/creativity_techniques#",
+              "exactMatch": [
+                "ct:wickedProblem",
+                "ct:studioPedagogy"
+              ]
+            }
+          }
+        }
+      ],
+      "creativity_areas": [
+        {
+          "slug": "foundations_importance",
+          "title": "Foundations and Importance",
+          "uri_hint": "https://crea-comm.net/lexfield/creativity_techniques#foundations_importance"
+        },
+        {
+          "slug": "workplace_application",
+          "title": "Workplace Application",
+          "uri_hint": "https://crea-comm.net/lexfield/creativity_techniques#workplace_application"
+        }
+      ],
+      "field_discussions": [
+        {
+          "id": "T-U1-dt-toolkit-vs-practice",
+          "label": "Managerial DT toolkit vs design-as-practice",
+          "teach_as": "Techniques without framing = soft-skill theatre",
+          "unit_home": [
+            "U1",
+            "U4",
+            "C1"
+          ],
+          "combine_ref": "COMBINE-RELATE-DISCUSS §3"
+        }
+      ]
+    },
+    {
+      "id": "fluency-flexibility",
+      "number": "III",
+      "title": "Fluency · flexibility",
+      "unit_home": [
+        "U2"
+      ],
+      "quotes": [
+        {
+          "id": "C-U2-fluency-01",
+          "form": "Haiku",
+          "text": "Thirty suns on the board.\nOne kind. The count lies quietly.\nWinter studio light.",
+          "slide_eligible": true,
+          "ttod": {
+            "section": "wisdom",
+            "level": "intermediate",
+            "tags": [
+              "creativity",
+              "haiku",
+              "fluency"
+            ]
+          },
+          "lexicum": {
+            "concepts": [
+              {
+                "uri_local": "ct:fluencyFlexibilityOriginality",
+                "qualified": "idea_generation_selection.fluencyFlexibilityOriginality",
+                "pref_label": "Fluency, Flexibility, Originality",
+                "subfield_slug": "idea_generation_selection"
+              },
+              {
+                "uri_local": "ct:divergentThinking",
+                "qualified": "idea_generation_selection.divergentThinking",
+                "pref_label": "Divergent Thinking",
+                "subfield_slug": "idea_generation_selection"
+              }
+            ],
+            "primary": "ct:fluencyFlexibilityOriginality"
+          },
+          "field_discussions": [
+            "T-U2-fluency-vs-selection"
+          ],
+          "creativity_areas": [
+            "idea_generation_selection"
+          ],
+          "semantic_tags": {
+            "themes": [
+              "fluencyFlexibilityOriginality",
+              "divergentThinking"
+            ],
+            "cidoc": [
+              "crm:E33_Linguistic_Object",
+              "crm:E73_Information_Object"
+            ],
+            "getty_aat": [
+              "haiku",
+              "creativity"
+            ],
+            "dcterms": [
+              "dcterms:type=Text",
+              "dcterms:subject=fluencyFlexibilityOriginality",
+              "dcterms:educationLevel=undergraduate"
+            ],
+            "skos": {
+              "inScheme": "https://crea-comm.net/lexfield/creativity_techniques#",
+              "exactMatch": [
+                "ct:fluencyFlexibilityOriginality",
+                "ct:divergentThinking"
+              ]
+            }
+          }
+        },
+        {
+          "id": "C-U2-fluency-02",
+          "form": "Máxima",
+          "text": "Fluency without kinds is a crowd that agrees with itself.",
+          "slide_eligible": true,
+          "ttod": {
+            "section": "wisdom",
+            "level": "intermediate",
+            "tags": [
+              "creativity",
+              "maxima",
+              "fluency"
+            ]
+          },
+          "lexicum": {
+            "concepts": [
+              {
+                "uri_local": "ct:fluencyFlexibilityOriginality",
+                "qualified": "idea_generation_selection.fluencyFlexibilityOriginality",
+                "pref_label": "Fluency, Flexibility, Originality",
+                "subfield_slug": "idea_generation_selection"
+              },
+              {
+                "uri_local": "ct:convergentSelection",
+                "qualified": "idea_generation_selection.convergentSelection",
+                "pref_label": "Convergent Selection",
+                "subfield_slug": "idea_generation_selection"
+              }
+            ],
+            "primary": "ct:fluencyFlexibilityOriginality"
+          },
+          "field_discussions": [
+            "T-U2-fluency-vs-selection"
+          ],
+          "creativity_areas": [
+            "idea_generation_selection"
+          ],
+          "semantic_tags": {
+            "themes": [
+              "fluencyFlexibilityOriginality",
+              "convergentSelection"
+            ],
+            "cidoc": [
+              "crm:E33_Linguistic_Object",
+              "crm:E73_Information_Object"
+            ],
+            "getty_aat": [
+              "aphorisms",
+              "creativity"
+            ],
+            "dcterms": [
+              "dcterms:type=Text",
+              "dcterms:subject=fluencyFlexibilityOriginality",
+              "dcterms:educationLevel=undergraduate"
+            ],
+            "skos": {
+              "inScheme": "https://crea-comm.net/lexfield/creativity_techniques#",
+              "exactMatch": [
+                "ct:fluencyFlexibilityOriginality",
+                "ct:convergentSelection"
+              ]
+            }
+          }
+        },
+        {
+          "id": "C-U2-fluency-03",
+          "form": "Yoda",
+          "text": "Counted thirty, the student had.\n«Flexible, are you?» asked the master.\n«Same sun, sunglasses on», the board confessed.",
+          "slide_eligible": false,
+          "ttod": {
+            "section": "wisdom",
+            "level": "advanced",
+            "tags": [
+              "creativity",
+              "yoda",
+              "koan",
+              "fluency"
+            ]
+          },
+          "lexicum": {
+            "concepts": [
+              {
+                "uri_local": "ct:fluencyFlexibilityOriginality",
+                "qualified": "idea_generation_selection.fluencyFlexibilityOriginality",
+                "pref_label": "Fluency, Flexibility, Originality",
+                "subfield_slug": "idea_generation_selection"
+              },
+              {
+                "uri_local": "ct:divergentThinking",
+                "qualified": "idea_generation_selection.divergentThinking",
+                "pref_label": "Divergent Thinking",
+                "subfield_slug": "idea_generation_selection"
+              }
+            ],
+            "primary": "ct:fluencyFlexibilityOriginality"
+          },
+          "field_discussions": [
+            "T-U2-fluency-vs-selection"
+          ],
+          "creativity_areas": [
+            "idea_generation_selection"
+          ],
+          "semantic_tags": {
+            "themes": [
+              "fluencyFlexibilityOriginality",
+              "divergentThinking"
+            ],
+            "cidoc": [
+              "crm:E33_Linguistic_Object",
+              "crm:E73_Information_Object"
+            ],
+            "getty_aat": [
+              "aphorisms",
+              "creativity"
+            ],
+            "dcterms": [
+              "dcterms:type=Text",
+              "dcterms:subject=fluencyFlexibilityOriginality",
+              "dcterms:educationLevel=undergraduate"
+            ],
+            "skos": {
+              "inScheme": "https://crea-comm.net/lexfield/creativity_techniques#",
+              "exactMatch": [
+                "ct:fluencyFlexibilityOriginality",
+                "ct:divergentThinking"
+              ]
+            }
+          }
+        }
+      ],
+      "creativity_areas": [
+        {
+          "slug": "idea_generation_selection",
+          "title": "Idea Generation and Selection",
+          "uri_hint": "https://crea-comm.net/lexfield/creativity_techniques#idea_generation_selection"
+        }
+      ],
+      "field_discussions": [
+        {
+          "id": "T-U2-fluency-vs-selection",
+          "label": "Fluency workshops vs selection / elaboration craft",
+          "teach_as": "Quantity is a means; selection and elaboration are the craft",
+          "unit_home": [
+            "U2",
+            "U3"
+          ],
+          "combine_ref": "COMBINE-RELATE-DISCUSS §3"
+        }
+      ]
+    },
+    {
+      "id": "selection-taste",
+      "number": "IV",
+      "title": "Selection · taste",
+      "unit_home": [
+        "U2",
+        "U3"
+      ],
+      "quotes": [
+        {
+          "id": "C-U3-select-01",
+          "form": "Haiku",
+          "text": "Many doors opened.\nOne fits the brief. Close the rest\non purpose. Spring.",
+          "slide_eligible": true,
+          "ttod": {
+            "section": "wisdom",
+            "level": "beginner",
+            "tags": [
+              "creativity",
+              "haiku",
+              "selection"
+            ]
+          },
+          "lexicum": {
+            "concepts": [
+              {
+                "uri_local": "ct:convergentSelection",
+                "qualified": "idea_generation_selection.convergentSelection",
+                "pref_label": "Convergent Selection",
+                "subfield_slug": "idea_generation_selection"
+              },
+              {
+                "uri_local": "ct:divergentConvergentRhythm",
+                "qualified": "foundations_importance.divergentConvergentRhythm",
+                "pref_label": "Divergent–Convergent Rhythm",
+                "subfield_slug": "foundations_importance"
+              }
+            ],
+            "primary": "ct:convergentSelection"
+          },
+          "field_discussions": [
+            "T-U2-fluency-vs-selection"
+          ],
+          "creativity_areas": [
+            "idea_generation_selection",
+            "idea_development_solutions"
+          ],
+          "semantic_tags": {
+            "themes": [
+              "convergentSelection",
+              "divergentConvergentRhythm"
+            ],
+            "cidoc": [
+              "crm:E33_Linguistic_Object",
+              "crm:E73_Information_Object"
+            ],
+            "getty_aat": [
+              "haiku",
+              "creativity"
+            ],
+            "dcterms": [
+              "dcterms:type=Text",
+              "dcterms:subject=convergentSelection",
+              "dcterms:educationLevel=undergraduate"
+            ],
+            "skos": {
+              "inScheme": "https://crea-comm.net/lexfield/creativity_techniques#",
+              "exactMatch": [
+                "ct:convergentSelection",
+                "ct:divergentConvergentRhythm"
+              ]
+            }
+          }
+        },
+        {
+          "id": "C-U3-select-02",
+          "form": "Máxima",
+          "text": "Closing is not failure. Closing is the second half of the creative act.",
+          "slide_eligible": true,
+          "ttod": {
+            "section": "wisdom",
+            "level": "intermediate",
+            "tags": [
+              "creativity",
+              "maxima",
+              "selection"
+            ]
+          },
+          "lexicum": {
+            "concepts": [
+              {
+                "uri_local": "ct:convergentSelection",
+                "qualified": "idea_generation_selection.convergentSelection",
+                "pref_label": "Convergent Selection",
+                "subfield_slug": "idea_generation_selection"
+              }
+            ],
+            "primary": "ct:convergentSelection"
+          },
+          "field_discussions": [
+            "T-U2-fluency-vs-selection"
+          ],
+          "creativity_areas": [
+            "idea_generation_selection",
+            "idea_development_solutions"
+          ],
+          "semantic_tags": {
+            "themes": [
+              "convergentSelection"
+            ],
+            "cidoc": [
+              "crm:E33_Linguistic_Object",
+              "crm:E73_Information_Object"
+            ],
+            "getty_aat": [
+              "aphorisms",
+              "creativity"
+            ],
+            "dcterms": [
+              "dcterms:type=Text",
+              "dcterms:subject=convergentSelection",
+              "dcterms:educationLevel=undergraduate"
+            ],
+            "skos": {
+              "inScheme": "https://crea-comm.net/lexfield/creativity_techniques#",
+              "exactMatch": [
+                "ct:convergentSelection"
+              ]
+            }
+          }
+        },
+        {
+          "id": "C-U3-select-03",
+          "form": "Koan",
+          "text": "A student kept every idea «in case».\nThe master asked: «Then what did you choose?»\nThe portfolio had no answer.",
+          "slide_eligible": false,
+          "ttod": {
+            "section": "wisdom",
+            "level": "intermediate",
+            "tags": [
+              "creativity",
+              "koan",
+              "selection"
+            ]
+          },
+          "lexicum": {
+            "concepts": [
+              {
+                "uri_local": "ct:convergentSelection",
+                "qualified": "idea_generation_selection.convergentSelection",
+                "pref_label": "Convergent Selection",
+                "subfield_slug": "idea_generation_selection"
+              },
+              {
+                "uri_local": "ct:studioPedagogy",
+                "qualified": "foundations_importance.studioPedagogy",
+                "pref_label": "Studio Pedagogy",
+                "subfield_slug": "foundations_importance"
+              }
+            ],
+            "primary": "ct:convergentSelection"
+          },
+          "field_discussions": [
+            "T-U2-fluency-vs-selection"
+          ],
+          "creativity_areas": [
+            "idea_generation_selection",
+            "idea_development_solutions"
+          ],
+          "semantic_tags": {
+            "themes": [
+              "convergentSelection",
+              "studioPedagogy"
+            ],
+            "cidoc": [
+              "crm:E33_Linguistic_Object",
+              "crm:E73_Information_Object"
+            ],
+            "getty_aat": [
+              "koans",
+              "creativity"
+            ],
+            "dcterms": [
+              "dcterms:type=Text",
+              "dcterms:subject=convergentSelection",
+              "dcterms:educationLevel=undergraduate"
+            ],
+            "skos": {
+              "inScheme": "https://crea-comm.net/lexfield/creativity_techniques#",
+              "exactMatch": [
+                "ct:convergentSelection",
+                "ct:studioPedagogy"
+              ]
+            }
+          }
+        }
+      ],
+      "creativity_areas": [
+        {
+          "slug": "idea_generation_selection",
+          "title": "Idea Generation and Selection",
+          "uri_hint": "https://crea-comm.net/lexfield/creativity_techniques#idea_generation_selection"
+        },
+        {
+          "slug": "idea_development_solutions",
+          "title": "Idea Development and Solutions",
+          "uri_hint": "https://crea-comm.net/lexfield/creativity_techniques#idea_development_solutions"
+        }
+      ],
+      "field_discussions": [
+        {
+          "id": "T-U2-fluency-vs-selection",
+          "label": "Fluency workshops vs selection / elaboration craft",
+          "teach_as": "Quantity is a means; selection and elaboration are the craft",
+          "unit_home": [
+            "U2",
+            "U3"
+          ],
+          "combine_ref": "COMBINE-RELATE-DISCUSS §3"
+        }
+      ]
+    },
+    {
+      "id": "tools-not-scripts",
+      "number": "V",
+      "title": "Tools, not scripts",
+      "unit_home": [
+        "U2",
+        "U4"
+      ],
+      "quotes": [
+        {
+          "id": "C-U2-tools-01",
+          "form": "Koan",
+          "text": "A student said: «I used five techniques; therefore I was creative.»\nThe master asked: «Which idea did you refuse?»\nThe student named none.\nIn that silence the toolkit ended.",
+          "slide_eligible": false,
+          "ttod": {
+            "section": "wisdom",
+            "level": "advanced",
+            "tags": [
+              "creativity",
+              "koan",
+              "methods"
+            ]
+          },
+          "lexicum": {
+            "concepts": [
+              {
+                "uri_local": "ct:softSkillTheatre",
+                "qualified": "critical_layer.softSkillTheatre",
+                "pref_label": "Soft-Skill Theatre",
+                "subfield_slug": "critical_layer"
+              },
+              {
+                "uri_local": "ct:designThinkingDiscourse",
+                "qualified": "foundations_importance.designThinkingDiscourse",
+                "pref_label": "Design Thinking Discourse",
+                "subfield_slug": "foundations_importance"
+              }
+            ],
+            "primary": "ct:softSkillTheatre"
+          },
+          "field_discussions": [
+            "T-U1-dt-toolkit-vs-practice",
+            "T-U2-practitioner-vs-peer-review"
+          ],
+          "creativity_areas": [
+            "idea_generation_selection",
+            "foundations_importance",
+            "critical_layer"
+          ],
+          "semantic_tags": {
+            "themes": [
+              "softSkillTheatre",
+              "designThinkingDiscourse"
+            ],
+            "cidoc": [
+              "crm:E33_Linguistic_Object",
+              "crm:E73_Information_Object"
+            ],
+            "getty_aat": [
+              "koans",
+              "creativity"
+            ],
+            "dcterms": [
+              "dcterms:type=Text",
+              "dcterms:subject=softSkillTheatre",
+              "dcterms:educationLevel=undergraduate"
+            ],
+            "skos": {
+              "inScheme": "https://crea-comm.net/lexfield/creativity_techniques#",
+              "exactMatch": [
+                "ct:softSkillTheatre",
+                "ct:designThinkingDiscourse"
+              ]
+            }
+          }
+        },
+        {
+          "id": "C-U2-tools-02",
+          "form": "Máxima",
+          "text": "A card is a gesture you can rehearse. It is not a proof.",
+          "slide_eligible": true,
+          "ttod": {
+            "section": "wisdom",
+            "level": "intermediate",
+            "tags": [
+              "creativity",
+              "maxima",
+              "methods"
+            ]
+          },
+          "lexicum": {
+            "concepts": [
+              {
+                "uri_local": "ct:obliqueStrategies",
+                "qualified": "idea_generation_selection.obliqueStrategies",
+                "pref_label": "Oblique Strategies",
+                "subfield_slug": "idea_generation_selection"
+              },
+              {
+                "uri_local": "ct:lateralThinking",
+                "qualified": "idea_generation_selection.lateralThinking",
+                "pref_label": "Lateral Thinking",
+                "subfield_slug": "idea_generation_selection"
+              }
+            ],
+            "primary": "ct:obliqueStrategies"
+          },
+          "field_discussions": [
+            "T-U1-dt-toolkit-vs-practice",
+            "T-U2-practitioner-vs-peer-review"
+          ],
+          "creativity_areas": [
+            "idea_generation_selection",
+            "foundations_importance",
+            "critical_layer"
+          ],
+          "semantic_tags": {
+            "themes": [
+              "obliqueStrategies",
+              "lateralThinking"
+            ],
+            "cidoc": [
+              "crm:E33_Linguistic_Object",
+              "crm:E73_Information_Object"
+            ],
+            "getty_aat": [
+              "aphorisms",
+              "creativity"
+            ],
+            "dcterms": [
+              "dcterms:type=Text",
+              "dcterms:subject=obliqueStrategies",
+              "dcterms:educationLevel=undergraduate"
+            ],
+            "skos": {
+              "inScheme": "https://crea-comm.net/lexfield/creativity_techniques#",
+              "exactMatch": [
+                "ct:obliqueStrategies",
+                "ct:lateralThinking"
+              ]
+            }
+          }
+        },
+        {
+          "id": "C-U2-tools-03",
+          "form": "Yoda",
+          "text": "Script, the method is not.\nTalk with the situation, you must.",
+          "slide_eligible": true,
+          "ttod": {
+            "section": "wisdom",
+            "level": "beginner",
+            "tags": [
+              "creativity",
+              "yoda",
+              "methods"
+            ]
+          },
+          "lexicum": {
+            "concepts": [
+              {
+                "uri_local": "ct:reflectivePractice",
+                "qualified": "foundations_importance.reflectivePractice",
+                "pref_label": "Reflective Practice",
+                "subfield_slug": "foundations_importance"
+              },
+              {
+                "uri_local": "ct:lateralThinking",
+                "qualified": "idea_generation_selection.lateralThinking",
+                "pref_label": "Lateral Thinking",
+                "subfield_slug": "idea_generation_selection"
+              }
+            ],
+            "primary": "ct:reflectivePractice"
+          },
+          "field_discussions": [
+            "T-U1-dt-toolkit-vs-practice",
+            "T-U2-practitioner-vs-peer-review"
+          ],
+          "creativity_areas": [
+            "idea_generation_selection",
+            "foundations_importance",
+            "critical_layer"
+          ],
+          "semantic_tags": {
+            "themes": [
+              "reflectivePractice",
+              "lateralThinking"
+            ],
+            "cidoc": [
+              "crm:E33_Linguistic_Object",
+              "crm:E73_Information_Object"
+            ],
+            "getty_aat": [
+              "aphorisms",
+              "creativity"
+            ],
+            "dcterms": [
+              "dcterms:type=Text",
+              "dcterms:subject=reflectivePractice",
+              "dcterms:educationLevel=undergraduate"
+            ],
+            "skos": {
+              "inScheme": "https://crea-comm.net/lexfield/creativity_techniques#",
+              "exactMatch": [
+                "ct:reflectivePractice",
+                "ct:lateralThinking"
+              ]
+            }
+          }
+        }
+      ],
+      "creativity_areas": [
+        {
+          "slug": "idea_generation_selection",
+          "title": "Idea Generation and Selection",
+          "uri_hint": "https://crea-comm.net/lexfield/creativity_techniques#idea_generation_selection"
+        },
+        {
+          "slug": "foundations_importance",
+          "title": "Foundations and Importance",
+          "uri_hint": "https://crea-comm.net/lexfield/creativity_techniques#foundations_importance"
+        },
+        {
+          "slug": "critical_layer",
+          "title": "Critical Layer",
+          "uri_hint": "https://crea-comm.net/lexfield/creativity_techniques#critical_layer"
+        }
+      ],
+      "field_discussions": [
+        {
+          "id": "T-U1-dt-toolkit-vs-practice",
+          "label": "Managerial DT toolkit vs design-as-practice",
+          "teach_as": "Techniques without framing = soft-skill theatre",
+          "unit_home": [
+            "U1",
+            "U4",
+            "C1"
+          ],
+          "combine_ref": "COMBINE-RELATE-DISCUSS §3"
+        },
+        {
+          "id": "T-U2-practitioner-vs-peer-review",
+          "label": "Practitioner cards vs peer-reviewed technique pedagogy",
+          "teach_as": "Rehearsable gestures, not science of creativity",
+          "unit_home": [
+            "U2",
+            "U3"
+          ],
+          "combine_ref": "COMBINE-RELATE-DISCUSS §3"
+        }
+      ]
+    },
+    {
+      "id": "language-medium-support",
+      "number": "VI",
+      "title": "Language · medium · support",
+      "unit_home": [
+        "U1"
+      ],
+      "quotes": [
+        {
+          "id": "C-ALL-lms-01",
+          "form": "Haiku",
+          "text": "Same sketch. New room.\nPraise dies; the channel changed.\nSupport still paper.",
+          "slide_eligible": true,
+          "ttod": {
+            "section": "wisdom",
+            "level": "intermediate",
+            "tags": [
+              "creativity",
+              "haiku",
+              "circulation",
+              "semiotics"
+            ]
+          },
+          "lexicum": {
+            "concepts": [
+              {
+                "uri_local": "ct:studioPedagogy",
+                "qualified": "foundations_importance.studioPedagogy",
+                "pref_label": "Studio Pedagogy",
+                "subfield_slug": "foundations_importance"
+              }
+            ],
+            "primary": "ct:studioPedagogy"
+          },
+          "field_discussions": [
+            "T-ALL-language-medium-support"
+          ],
+          "creativity_areas": [
+            "foundations_importance",
+            "critical_layer"
+          ],
+          "semantic_tags": {
+            "themes": [
+              "studioPedagogy"
+            ],
+            "cidoc": [
+              "crm:E33_Linguistic_Object",
+              "crm:E73_Information_Object"
+            ],
+            "getty_aat": [
+              "haiku",
+              "creativity"
+            ],
+            "dcterms": [
+              "dcterms:type=Text",
+              "dcterms:subject=studioPedagogy",
+              "dcterms:educationLevel=undergraduate"
+            ],
+            "skos": {
+              "inScheme": "https://crea-comm.net/lexfield/creativity_techniques#",
+              "exactMatch": [
+                "ct:studioPedagogy"
+              ]
+            }
+          }
+        },
+        {
+          "id": "C-ALL-lms-02",
+          "form": "Máxima",
+          "text": "Before you say creative, name the code, the channel, and what holds the signs.",
+          "slide_eligible": true,
+          "ttod": {
+            "section": "wisdom",
+            "level": "beginner",
+            "tags": [
+              "creativity",
+              "maxima",
+              "analysis"
+            ]
+          },
+          "lexicum": {
+            "concepts": [
+              {
+                "uri_local": "ct:studioPedagogy",
+                "qualified": "foundations_importance.studioPedagogy",
+                "pref_label": "Studio Pedagogy",
+                "subfield_slug": "foundations_importance"
+              },
+              {
+                "uri_local": "ct:reflectivePractice",
+                "qualified": "foundations_importance.reflectivePractice",
+                "pref_label": "Reflective Practice",
+                "subfield_slug": "foundations_importance"
+              }
+            ],
+            "primary": "ct:studioPedagogy"
+          },
+          "field_discussions": [
+            "T-ALL-language-medium-support"
+          ],
+          "creativity_areas": [
+            "foundations_importance",
+            "critical_layer"
+          ],
+          "semantic_tags": {
+            "themes": [
+              "studioPedagogy",
+              "reflectivePractice"
+            ],
+            "cidoc": [
+              "crm:E33_Linguistic_Object",
+              "crm:E73_Information_Object"
+            ],
+            "getty_aat": [
+              "aphorisms",
+              "creativity"
+            ],
+            "dcterms": [
+              "dcterms:type=Text",
+              "dcterms:subject=studioPedagogy",
+              "dcterms:educationLevel=undergraduate"
+            ],
+            "skos": {
+              "inScheme": "https://crea-comm.net/lexfield/creativity_techniques#",
+              "exactMatch": [
+                "ct:studioPedagogy",
+                "ct:reflectivePractice"
+              ]
+            }
+          }
+        },
+        {
+          "id": "C-ALL-lms-03",
+          "form": "Koan",
+          "text": "«It worked in class», said the student.\n«Where did meaning travel?» asked the master.\nThe feed had already rewritten it.",
+          "slide_eligible": false,
+          "ttod": {
+            "section": "wisdom",
+            "level": "advanced",
+            "tags": [
+              "creativity",
+              "koan",
+              "circulation"
+            ]
+          },
+          "lexicum": {
+            "concepts": [
+              {
+                "uri_local": "ct:studioPedagogy",
+                "qualified": "foundations_importance.studioPedagogy",
+                "pref_label": "Studio Pedagogy",
+                "subfield_slug": "foundations_importance"
+              }
+            ],
+            "primary": "ct:studioPedagogy"
+          },
+          "field_discussions": [
+            "T-ALL-language-medium-support"
+          ],
+          "creativity_areas": [
+            "foundations_importance",
+            "critical_layer"
+          ],
+          "semantic_tags": {
+            "themes": [
+              "studioPedagogy"
+            ],
+            "cidoc": [
+              "crm:E33_Linguistic_Object",
+              "crm:E73_Information_Object"
+            ],
+            "getty_aat": [
+              "koans",
+              "creativity"
+            ],
+            "dcterms": [
+              "dcterms:type=Text",
+              "dcterms:subject=studioPedagogy",
+              "dcterms:educationLevel=undergraduate"
+            ],
+            "skos": {
+              "inScheme": "https://crea-comm.net/lexfield/creativity_techniques#",
+              "exactMatch": [
+                "ct:studioPedagogy"
+              ]
+            }
+          }
+        }
+      ],
+      "creativity_areas": [
+        {
+          "slug": "foundations_importance",
+          "title": "Foundations and Importance",
+          "uri_hint": "https://crea-comm.net/lexfield/creativity_techniques#foundations_importance"
+        },
+        {
+          "slug": "critical_layer",
+          "title": "Critical Layer",
+          "uri_hint": "https://crea-comm.net/lexfield/creativity_techniques#critical_layer"
+        }
+      ],
+      "field_discussions": [
+        {
+          "id": "T-ALL-language-medium-support",
+          "label": "Language / medium / support · circulation of meaning",
+          "teach_as": "Name the triad before technique worship",
+          "unit_home": [
+            "U1",
+            "D2"
+          ],
+          "combine_ref": "SESSION-RHYTHM · D2 discursive circulation"
+        }
+      ]
+    },
+    {
+      "id": "workplace-labour",
+      "number": "VII",
+      "title": "Workplace · labour",
+      "unit_home": [
+        "U4"
+      ],
+      "quotes": [
+        {
+          "id": "C-U4-labour-01",
+          "form": "Máxima",
+          "text": "Unpaid ideation is not passion. It is a brief without a contract.",
+          "slide_eligible": true,
+          "ttod": {
+            "section": "wisdom",
+            "level": "intermediate",
+            "tags": [
+              "creativity",
+              "maxima",
+              "labour",
+              "ethics"
+            ]
+          },
+          "lexicum": {
+            "concepts": [
+              {
+                "uri_local": "ct:unpaidIdeation",
+                "qualified": "critical_layer.unpaidIdeation",
+                "pref_label": "Unpaid Ideation",
+                "subfield_slug": "critical_layer"
+              },
+              {
+                "uri_local": "ct:creativeLabour",
+                "qualified": "critical_layer.creativeLabour",
+                "pref_label": "Creative Labour",
+                "subfield_slug": "critical_layer"
+              }
+            ],
+            "primary": "ct:unpaidIdeation"
+          },
+          "field_discussions": [
+            "T-U4-hustle-vs-sustainable"
+          ],
+          "creativity_areas": [
+            "workplace_application",
+            "critical_layer"
+          ],
+          "semantic_tags": {
+            "themes": [
+              "unpaidIdeation",
+              "creativeLabour"
+            ],
+            "cidoc": [
+              "crm:E33_Linguistic_Object",
+              "crm:E73_Information_Object"
+            ],
+            "getty_aat": [
+              "aphorisms",
+              "creativity"
+            ],
+            "dcterms": [
+              "dcterms:type=Text",
+              "dcterms:subject=unpaidIdeation",
+              "dcterms:educationLevel=undergraduate"
+            ],
+            "skos": {
+              "inScheme": "https://crea-comm.net/lexfield/creativity_techniques#",
+              "exactMatch": [
+                "ct:unpaidIdeation",
+                "ct:creativeLabour"
+              ]
+            }
+          }
+        },
+        {
+          "id": "C-U4-labour-02",
+          "form": "Haiku",
+          "text": "Hustle noon.\nIdeas for free, again.\nAutumn refuses.",
+          "slide_eligible": true,
+          "ttod": {
+            "section": "wisdom",
+            "level": "beginner",
+            "tags": [
+              "creativity",
+              "haiku",
+              "labour"
+            ]
+          },
+          "lexicum": {
+            "concepts": [
+              {
+                "uri_local": "ct:hustleCulture",
+                "qualified": "critical_layer.hustleCulture",
+                "pref_label": "Hustle Culture",
+                "subfield_slug": "critical_layer"
+              },
+              {
+                "uri_local": "ct:unpaidIdeation",
+                "qualified": "critical_layer.unpaidIdeation",
+                "pref_label": "Unpaid Ideation",
+                "subfield_slug": "critical_layer"
+              }
+            ],
+            "primary": "ct:hustleCulture"
+          },
+          "field_discussions": [
+            "T-U4-hustle-vs-sustainable"
+          ],
+          "creativity_areas": [
+            "workplace_application",
+            "critical_layer"
+          ],
+          "semantic_tags": {
+            "themes": [
+              "hustleCulture",
+              "unpaidIdeation"
+            ],
+            "cidoc": [
+              "crm:E33_Linguistic_Object",
+              "crm:E73_Information_Object"
+            ],
+            "getty_aat": [
+              "haiku",
+              "creativity"
+            ],
+            "dcterms": [
+              "dcterms:type=Text",
+              "dcterms:subject=hustleCulture",
+              "dcterms:educationLevel=undergraduate"
+            ],
+            "skos": {
+              "inScheme": "https://crea-comm.net/lexfield/creativity_techniques#",
+              "exactMatch": [
+                "ct:hustleCulture",
+                "ct:unpaidIdeation"
+              ]
+            }
+          }
+        },
+        {
+          "id": "C-U4-labour-03",
+          "form": "Yoda",
+          "text": "Strong with overtime, the culture was.\nSustainable, the craft was not.",
+          "slide_eligible": true,
+          "ttod": {
+            "section": "wisdom",
+            "level": "intermediate",
+            "tags": [
+              "creativity",
+              "yoda",
+              "labour"
+            ]
+          },
+          "lexicum": {
+            "concepts": [
+              {
+                "uri_local": "ct:hustleCulture",
+                "qualified": "critical_layer.hustleCulture",
+                "pref_label": "Hustle Culture",
+                "subfield_slug": "critical_layer"
+              },
+              {
+                "uri_local": "ct:creativeLabour",
+                "qualified": "critical_layer.creativeLabour",
+                "pref_label": "Creative Labour",
+                "subfield_slug": "critical_layer"
+              }
+            ],
+            "primary": "ct:hustleCulture"
+          },
+          "field_discussions": [
+            "T-U4-hustle-vs-sustainable"
+          ],
+          "creativity_areas": [
+            "workplace_application",
+            "critical_layer"
+          ],
+          "semantic_tags": {
+            "themes": [
+              "hustleCulture",
+              "creativeLabour"
+            ],
+            "cidoc": [
+              "crm:E33_Linguistic_Object",
+              "crm:E73_Information_Object"
+            ],
+            "getty_aat": [
+              "aphorisms",
+              "creativity"
+            ],
+            "dcterms": [
+              "dcterms:type=Text",
+              "dcterms:subject=hustleCulture",
+              "dcterms:educationLevel=undergraduate"
+            ],
+            "skos": {
+              "inScheme": "https://crea-comm.net/lexfield/creativity_techniques#",
+              "exactMatch": [
+                "ct:hustleCulture",
+                "ct:creativeLabour"
+              ]
+            }
+          }
+        }
+      ],
+      "creativity_areas": [
+        {
+          "slug": "workplace_application",
+          "title": "Workplace Application",
+          "uri_hint": "https://crea-comm.net/lexfield/creativity_techniques#workplace_application"
+        },
+        {
+          "slug": "critical_layer",
+          "title": "Critical Layer",
+          "uri_hint": "https://crea-comm.net/lexfield/creativity_techniques#critical_layer"
+        }
+      ],
+      "field_discussions": [
+        {
+          "id": "T-U4-hustle-vs-sustainable",
+          "label": "Passion / hustle vs sustainable creative work",
+          "teach_as": "Workplace techniques include refusing unpaid ideation",
+          "unit_home": [
+            "U4",
+            "C2"
+          ],
+          "combine_ref": "COMBINE-RELATE-DISCUSS §3"
+        }
+      ]
+    },
+    {
+      "id": "technology-genai",
+      "number": "VIII",
+      "title": "Technology · GenAI",
+      "unit_home": [
+        "U5"
+      ],
+      "quotes": [
+        {
+          "id": "C-U5-genai-01",
+          "form": "Koan",
+          "text": "A student showed perfect alternatives the model wrote in a minute.\nThe master asked: «Where is your refusal?»\n«There was nothing to refuse — all were good.»\n«Then none were yours», said the master.",
+          "slide_eligible": false,
+          "ttod": {
+            "section": "wisdom",
+            "level": "advanced",
+            "tags": [
+              "creativity",
+              "koan",
+              "genai",
+              "authorship"
+            ]
+          },
+          "lexicum": {
+            "concepts": [
+              {
+                "uri_local": "ct:originalityTheatre",
+                "qualified": "creativity_and_technology.originalityTheatre",
+                "pref_label": "Originality Theatre",
+                "subfield_slug": "creativity_and_technology"
+              },
+              {
+                "uri_local": "ct:authorshipUnderGenAi",
+                "qualified": "creativity_and_technology.authorshipUnderGenAi",
+                "pref_label": "Authorship Under Generative AI",
+                "subfield_slug": "creativity_and_technology"
+              },
+              {
+                "uri_local": "ct:generativeAiCoCreation",
+                "qualified": "creativity_and_technology.generativeAiCoCreation",
+                "pref_label": "Generative AI Co-Creation",
+                "subfield_slug": "creativity_and_technology"
+              }
+            ],
+            "primary": "ct:originalityTheatre"
+          },
+          "field_discussions": [
+            "T-U5-genai-vs-originality"
+          ],
+          "creativity_areas": [
+            "creativity_and_technology",
+            "critical_layer"
+          ],
+          "semantic_tags": {
+            "themes": [
+              "originalityTheatre",
+              "authorshipUnderGenAi",
+              "generativeAiCoCreation"
+            ],
+            "cidoc": [
+              "crm:E33_Linguistic_Object",
+              "crm:E73_Information_Object"
+            ],
+            "getty_aat": [
+              "koans",
+              "creativity"
+            ],
+            "dcterms": [
+              "dcterms:type=Text",
+              "dcterms:subject=originalityTheatre",
+              "dcterms:educationLevel=undergraduate"
+            ],
+            "skos": {
+              "inScheme": "https://crea-comm.net/lexfield/creativity_techniques#",
+              "exactMatch": [
+                "ct:originalityTheatre",
+                "ct:authorshipUnderGenAi",
+                "ct:generativeAiCoCreation"
+              ]
+            }
+          }
+        },
+        {
+          "id": "C-U5-genai-02",
+          "form": "Máxima",
+          "text": "Speed without judgement is error at scale.",
+          "slide_eligible": true,
+          "ttod": {
+            "section": "wisdom",
+            "level": "intermediate",
+            "tags": [
+              "creativity",
+              "maxima",
+              "genai"
+            ]
+          },
+          "lexicum": {
+            "concepts": [
+              {
+                "uri_local": "ct:processTransparency",
+                "qualified": "creativity_and_technology.processTransparency",
+                "pref_label": "Process Transparency",
+                "subfield_slug": "creativity_and_technology"
+              },
+              {
+                "uri_local": "ct:generativeAiCoCreation",
+                "qualified": "creativity_and_technology.generativeAiCoCreation",
+                "pref_label": "Generative AI Co-Creation",
+                "subfield_slug": "creativity_and_technology"
+              }
+            ],
+            "primary": "ct:processTransparency"
+          },
+          "field_discussions": [
+            "T-U5-genai-vs-originality"
+          ],
+          "creativity_areas": [
+            "creativity_and_technology",
+            "critical_layer"
+          ],
+          "semantic_tags": {
+            "themes": [
+              "processTransparency",
+              "generativeAiCoCreation"
+            ],
+            "cidoc": [
+              "crm:E33_Linguistic_Object",
+              "crm:E73_Information_Object"
+            ],
+            "getty_aat": [
+              "aphorisms",
+              "creativity"
+            ],
+            "dcterms": [
+              "dcterms:type=Text",
+              "dcterms:subject=processTransparency",
+              "dcterms:educationLevel=undergraduate"
+            ],
+            "skos": {
+              "inScheme": "https://crea-comm.net/lexfield/creativity_techniques#",
+              "exactMatch": [
+                "ct:processTransparency",
+                "ct:generativeAiCoCreation"
+              ]
+            }
+          }
+        },
+        {
+          "id": "C-U5-genai-03",
+          "form": "Haiku",
+          "text": "Screen-glow winter.\nA thousand options. No taste.\nWho closed the door?",
+          "slide_eligible": true,
+          "ttod": {
+            "section": "wisdom",
+            "level": "beginner",
+            "tags": [
+              "creativity",
+              "haiku",
+              "genai"
+            ]
+          },
+          "lexicum": {
+            "concepts": [
+              {
+                "uri_local": "ct:originalityTheatre",
+                "qualified": "creativity_and_technology.originalityTheatre",
+                "pref_label": "Originality Theatre",
+                "subfield_slug": "creativity_and_technology"
+              },
+              {
+                "uri_local": "ct:processTransparency",
+                "qualified": "creativity_and_technology.processTransparency",
+                "pref_label": "Process Transparency",
+                "subfield_slug": "creativity_and_technology"
+              }
+            ],
+            "primary": "ct:originalityTheatre"
+          },
+          "field_discussions": [
+            "T-U5-genai-vs-originality"
+          ],
+          "creativity_areas": [
+            "creativity_and_technology",
+            "critical_layer"
+          ],
+          "semantic_tags": {
+            "themes": [
+              "originalityTheatre",
+              "processTransparency"
+            ],
+            "cidoc": [
+              "crm:E33_Linguistic_Object",
+              "crm:E73_Information_Object"
+            ],
+            "getty_aat": [
+              "haiku",
+              "creativity"
+            ],
+            "dcterms": [
+              "dcterms:type=Text",
+              "dcterms:subject=originalityTheatre",
+              "dcterms:educationLevel=undergraduate"
+            ],
+            "skos": {
+              "inScheme": "https://crea-comm.net/lexfield/creativity_techniques#",
+              "exactMatch": [
+                "ct:originalityTheatre",
+                "ct:processTransparency"
+              ]
+            }
+          }
+        }
+      ],
+      "creativity_areas": [
+        {
+          "slug": "creativity_and_technology",
+          "title": "Creativity and Technology",
+          "uri_hint": "https://crea-comm.net/lexfield/creativity_techniques#creativity_and_technology"
+        },
+        {
+          "slug": "critical_layer",
+          "title": "Critical Layer",
+          "uri_hint": "https://crea-comm.net/lexfield/creativity_techniques#critical_layer"
+        }
+      ],
+      "field_discussions": [
+        {
+          "id": "T-U5-genai-vs-originality",
+          "label": "GenAI co-creation vs originality theatre",
+          "teach_as": "Stage-specific use + process transparency + assessment of judgement",
+          "unit_home": [
+            "U5",
+            "C3"
+          ],
+          "combine_ref": "COMBINE-RELATE-DISCUSS §3"
+        }
+      ]
+    },
+    {
+      "id": "confidence-agency",
+      "number": "IX",
+      "title": "Confidence · agency",
+      "unit_home": [
+        "U6"
+      ],
+      "quotes": [
+        {
+          "id": "C-U6-conf-01",
+          "form": "Yoda",
+          "text": "Gifted, you may feel. Rehearse the method, you must.",
+          "slide_eligible": true,
+          "ttod": {
+            "section": "wisdom",
+            "level": "beginner",
+            "tags": [
+              "creativity",
+              "yoda",
+              "confidence"
+            ]
+          },
+          "lexicum": {
+            "concepts": [
+              {
+                "uri_local": "ct:creativeConfidence",
+                "qualified": "personal_development.creativeConfidence",
+                "pref_label": "Creative Confidence",
+                "subfield_slug": "personal_development"
+              },
+              {
+                "uri_local": "ct:talentMyth",
+                "qualified": "foundations_importance.talentMyth",
+                "pref_label": "Talent Myth",
+                "subfield_slug": "foundations_importance"
+              }
+            ],
+            "primary": "ct:creativeConfidence"
+          },
+          "field_discussions": [
+            "T-U6-gift-vs-rehearsal"
+          ],
+          "creativity_areas": [
+            "personal_development",
+            "foundations_importance"
+          ],
+          "semantic_tags": {
+            "themes": [
+              "creativeConfidence",
+              "talentMyth"
+            ],
+            "cidoc": [
+              "crm:E33_Linguistic_Object",
+              "crm:E73_Information_Object"
+            ],
+            "getty_aat": [
+              "aphorisms",
+              "creativity"
+            ],
+            "dcterms": [
+              "dcterms:type=Text",
+              "dcterms:subject=creativeConfidence",
+              "dcterms:educationLevel=undergraduate"
+            ],
+            "skos": {
+              "inScheme": "https://crea-comm.net/lexfield/creativity_techniques#",
+              "exactMatch": [
+                "ct:creativeConfidence",
+                "ct:talentMyth"
+              ]
+            }
+          }
+        },
+        {
+          "id": "C-U6-conf-02",
+          "form": "Máxima",
+          "text": "Confidence is not a mood. It is evidence that you paced open-then-close under a brief.",
+          "slide_eligible": true,
+          "ttod": {
+            "section": "wisdom",
+            "level": "intermediate",
+            "tags": [
+              "creativity",
+              "maxima",
+              "confidence"
+            ]
+          },
+          "lexicum": {
+            "concepts": [
+              {
+                "uri_local": "ct:creativeConfidence",
+                "qualified": "personal_development.creativeConfidence",
+                "pref_label": "Creative Confidence",
+                "subfield_slug": "personal_development"
+              },
+              {
+                "uri_local": "ct:divergentConvergentRhythm",
+                "qualified": "foundations_importance.divergentConvergentRhythm",
+                "pref_label": "Divergent–Convergent Rhythm",
+                "subfield_slug": "foundations_importance"
+              }
+            ],
+            "primary": "ct:creativeConfidence"
+          },
+          "field_discussions": [
+            "T-U6-gift-vs-rehearsal"
+          ],
+          "creativity_areas": [
+            "personal_development",
+            "foundations_importance"
+          ],
+          "semantic_tags": {
+            "themes": [
+              "creativeConfidence",
+              "divergentConvergentRhythm"
+            ],
+            "cidoc": [
+              "crm:E33_Linguistic_Object",
+              "crm:E73_Information_Object"
+            ],
+            "getty_aat": [
+              "aphorisms",
+              "creativity"
+            ],
+            "dcterms": [
+              "dcterms:type=Text",
+              "dcterms:subject=creativeConfidence",
+              "dcterms:educationLevel=undergraduate"
+            ],
+            "skos": {
+              "inScheme": "https://crea-comm.net/lexfield/creativity_techniques#",
+              "exactMatch": [
+                "ct:creativeConfidence",
+                "ct:divergentConvergentRhythm"
+              ]
+            }
+          }
+        },
+        {
+          "id": "C-U6-conf-03",
+          "form": "Haiku",
+          "text": "Talent myth melts.\nSix minutes. Thirty circles.\nSpring practice returns.",
+          "slide_eligible": true,
+          "ttod": {
+            "section": "wisdom",
+            "level": "beginner",
+            "tags": [
+              "creativity",
+              "haiku",
+              "confidence"
+            ]
+          },
+          "lexicum": {
+            "concepts": [
+              {
+                "uri_local": "ct:creativeConfidence",
+                "qualified": "personal_development.creativeConfidence",
+                "pref_label": "Creative Confidence",
+                "subfield_slug": "personal_development"
+              },
+              {
+                "uri_local": "ct:teachableCreativity",
+                "qualified": "foundations_importance.teachableCreativity",
+                "pref_label": "Teachable Creativity",
+                "subfield_slug": "foundations_importance"
+              }
+            ],
+            "primary": "ct:creativeConfidence"
+          },
+          "field_discussions": [
+            "T-U6-gift-vs-rehearsal"
+          ],
+          "creativity_areas": [
+            "personal_development",
+            "foundations_importance"
+          ],
+          "semantic_tags": {
+            "themes": [
+              "creativeConfidence",
+              "teachableCreativity"
+            ],
+            "cidoc": [
+              "crm:E33_Linguistic_Object",
+              "crm:E73_Information_Object"
+            ],
+            "getty_aat": [
+              "haiku",
+              "creativity"
+            ],
+            "dcterms": [
+              "dcterms:type=Text",
+              "dcterms:subject=creativeConfidence",
+              "dcterms:educationLevel=undergraduate"
+            ],
+            "skos": {
+              "inScheme": "https://crea-comm.net/lexfield/creativity_techniques#",
+              "exactMatch": [
+                "ct:creativeConfidence",
+                "ct:teachableCreativity"
+              ]
+            }
+          }
+        }
+      ],
+      "creativity_areas": [
+        {
+          "slug": "personal_development",
+          "title": "Personal Development",
+          "uri_hint": "https://crea-comm.net/lexfield/creativity_techniques#personal_development"
+        },
+        {
+          "slug": "foundations_importance",
+          "title": "Foundations and Importance",
+          "uri_hint": "https://crea-comm.net/lexfield/creativity_techniques#foundations_importance"
+        }
+      ],
+      "field_discussions": [
+        {
+          "id": "T-U6-gift-vs-rehearsal",
+          "label": "Talent myth vs method rehearsal",
+          "teach_as": "Creative confidence from paced open-then-close under a brief",
+          "unit_home": [
+            "U6"
+          ],
+          "combine_ref": "COMBINE-RELATE-DISCUSS §1 / §3"
+        }
+      ]
+    },
+    {
+      "id": "studio-critique",
+      "number": "X",
+      "title": "Studio · critique",
+      "unit_home": [
+        "D1",
+        "D2",
+        "D3"
+      ],
+      "quotes": [
+        {
+          "id": "C-STUDIO-01",
+          "form": "Máxima",
+          "text": "The critique that stings and is true — keep it. The rest is weather.",
+          "slide_eligible": true,
+          "ttod": {
+            "section": "wisdom",
+            "level": "intermediate",
+            "tags": [
+              "creativity",
+              "maxima",
+              "critique"
+            ]
+          },
+          "lexicum": {
+            "concepts": [
+              {
+                "uri_local": "ct:studioPedagogy",
+                "qualified": "foundations_importance.studioPedagogy",
+                "pref_label": "Studio Pedagogy",
+                "subfield_slug": "foundations_importance"
+              },
+              {
+                "uri_local": "ct:reflectivePractice",
+                "qualified": "foundations_importance.reflectivePractice",
+                "pref_label": "Reflective Practice",
+                "subfield_slug": "foundations_importance"
+              }
+            ],
+            "primary": "ct:studioPedagogy"
+          },
+          "field_discussions": [
+            "T-ALL-language-medium-support",
+            "T-U6-gift-vs-rehearsal"
+          ],
+          "creativity_areas": [
+            "foundations_importance",
+            "personal_development"
+          ],
+          "semantic_tags": {
+            "themes": [
+              "studioPedagogy",
+              "reflectivePractice"
+            ],
+            "cidoc": [
+              "crm:E33_Linguistic_Object",
+              "crm:E73_Information_Object"
+            ],
+            "getty_aat": [
+              "aphorisms",
+              "creativity"
+            ],
+            "dcterms": [
+              "dcterms:type=Text",
+              "dcterms:subject=studioPedagogy",
+              "dcterms:educationLevel=undergraduate"
+            ],
+            "skos": {
+              "inScheme": "https://crea-comm.net/lexfield/creativity_techniques#",
+              "exactMatch": [
+                "ct:studioPedagogy",
+                "ct:reflectivePractice"
+              ]
+            }
+          }
+        },
+        {
+          "id": "C-STUDIO-02",
+          "form": "Haiku",
+          "text": "Fifteen minutes. Defence.\nLanguage, medium, support named.\nSilence after: work.",
+          "slide_eligible": true,
+          "ttod": {
+            "section": "wisdom",
+            "level": "beginner",
+            "tags": [
+              "creativity",
+              "haiku",
+              "critique"
+            ]
+          },
+          "lexicum": {
+            "concepts": [
+              {
+                "uri_local": "ct:studioPedagogy",
+                "qualified": "foundations_importance.studioPedagogy",
+                "pref_label": "Studio Pedagogy",
+                "subfield_slug": "foundations_importance"
+              }
+            ],
+            "primary": "ct:studioPedagogy"
+          },
+          "field_discussions": [
+            "T-ALL-language-medium-support",
+            "T-U6-gift-vs-rehearsal"
+          ],
+          "creativity_areas": [
+            "foundations_importance",
+            "personal_development"
+          ],
+          "semantic_tags": {
+            "themes": [
+              "studioPedagogy"
+            ],
+            "cidoc": [
+              "crm:E33_Linguistic_Object",
+              "crm:E73_Information_Object"
+            ],
+            "getty_aat": [
+              "haiku",
+              "creativity"
+            ],
+            "dcterms": [
+              "dcterms:type=Text",
+              "dcterms:subject=studioPedagogy",
+              "dcterms:educationLevel=undergraduate"
+            ],
+            "skos": {
+              "inScheme": "https://crea-comm.net/lexfield/creativity_techniques#",
+              "exactMatch": [
+                "ct:studioPedagogy"
+              ]
+            }
+          }
+        },
+        {
+          "id": "C-STUDIO-03",
+          "form": "Koan",
+          "text": "A student asked for a grade without a refusal trail.\nThe master pointed at the empty portfolio index.\n«Begin there», he said.",
+          "slide_eligible": false,
+          "ttod": {
+            "section": "wisdom",
+            "level": "advanced",
+            "tags": [
+              "creativity",
+              "koan",
+              "portfolio"
+            ]
+          },
+          "lexicum": {
+            "concepts": [
+              {
+                "uri_local": "ct:studioPedagogy",
+                "qualified": "foundations_importance.studioPedagogy",
+                "pref_label": "Studio Pedagogy",
+                "subfield_slug": "foundations_importance"
+              },
+              {
+                "uri_local": "ct:creativeConfidence",
+                "qualified": "personal_development.creativeConfidence",
+                "pref_label": "Creative Confidence",
+                "subfield_slug": "personal_development"
+              }
+            ],
+            "primary": "ct:studioPedagogy"
+          },
+          "field_discussions": [
+            "T-ALL-language-medium-support",
+            "T-U6-gift-vs-rehearsal"
+          ],
+          "creativity_areas": [
+            "foundations_importance",
+            "personal_development"
+          ],
+          "semantic_tags": {
+            "themes": [
+              "studioPedagogy",
+              "creativeConfidence"
+            ],
+            "cidoc": [
+              "crm:E33_Linguistic_Object",
+              "crm:E73_Information_Object"
+            ],
+            "getty_aat": [
+              "koans",
+              "creativity"
+            ],
+            "dcterms": [
+              "dcterms:type=Text",
+              "dcterms:subject=studioPedagogy",
+              "dcterms:educationLevel=undergraduate"
+            ],
+            "skos": {
+              "inScheme": "https://crea-comm.net/lexfield/creativity_techniques#",
+              "exactMatch": [
+                "ct:studioPedagogy",
+                "ct:creativeConfidence"
+              ]
+            }
+          }
+        }
+      ],
+      "creativity_areas": [
+        {
+          "slug": "foundations_importance",
+          "title": "Foundations and Importance",
+          "uri_hint": "https://crea-comm.net/lexfield/creativity_techniques#foundations_importance"
+        },
+        {
+          "slug": "personal_development",
+          "title": "Personal Development",
+          "uri_hint": "https://crea-comm.net/lexfield/creativity_techniques#personal_development"
+        }
+      ],
+      "field_discussions": [
+        {
+          "id": "T-ALL-language-medium-support",
+          "label": "Language / medium / support · circulation of meaning",
+          "teach_as": "Name the triad before technique worship",
+          "unit_home": [
+            "U1",
+            "D2"
+          ],
+          "combine_ref": "SESSION-RHYTHM · D2 discursive circulation"
+        },
+        {
+          "id": "T-U6-gift-vs-rehearsal",
+          "label": "Talent myth vs method rehearsal",
+          "teach_as": "Creative confidence from paced open-then-close under a brief",
+          "unit_home": [
+            "U6"
+          ],
+          "combine_ref": "COMBINE-RELATE-DISCUSS §1 / §3"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "note": "Public JSON is student-safe. Lexicum links are course thesaurus URIs (ct:…). Field discussion ids match the Tao forge ledger / COMBINE tension table. semantic_tags are vault-compatible DH descriptors for invents.",
+    "lexicum_cloned_at": "2026-09-14T08:35:15Z"
+  },
+  "schema": "ct-tao-quotes/v1",
+  "thesaurus": {
+    "schema": "lexfield-public/v1",
+    "field_slug": "creativity_techniques",
+    "field_title": "Creativity Techniques",
+    "namespace_prefix": "ct",
+    "namespace_uri": "https://crea-comm.net/lexfield/creativity_techniques#",
+    "lexicum_path": "/lexicum/en/",
+    "ontology": {
+      "skos": "https://www.w3.org/TR/skos-reference/",
+      "cidoc_crm": "https://www.cidoc-crm.org/",
+      "getty_aat": "https://www.getty.edu/research/tools/vocabularies/aat/",
+      "dcterms": "http://purl.org/dc/terms/"
+    },
+    "note": "Concept links use uri_local (ct:…) from the course creativity thesaurus. semantic_tags follow the same DH shape used on student decks (CIDOC / AAT / DCTERMS) for vault-compatible invents — no corpus product names in this public file."
+  },
+  "field_discussions": [
+    {
+      "id": "T-U2-fluency-vs-selection",
+      "label": "Fluency workshops vs selection / elaboration craft",
+      "teach_as": "Quantity is a means; selection and elaboration are the craft",
+      "unit_home": [
+        "U2",
+        "U3"
+      ],
+      "combine_ref": "COMBINE-RELATE-DISCUSS §3"
+    },
+    {
+      "id": "T-U1-dt-toolkit-vs-practice",
+      "label": "Managerial DT toolkit vs design-as-practice",
+      "teach_as": "Techniques without framing = soft-skill theatre",
+      "unit_home": [
+        "U1",
+        "U4",
+        "C1"
+      ],
+      "combine_ref": "COMBINE-RELATE-DISCUSS §3"
+    },
+    {
+      "id": "T-U4-hustle-vs-sustainable",
+      "label": "Passion / hustle vs sustainable creative work",
+      "teach_as": "Workplace techniques include refusing unpaid ideation",
+      "unit_home": [
+        "U4",
+        "C2"
+      ],
+      "combine_ref": "COMBINE-RELATE-DISCUSS §3"
+    },
+    {
+      "id": "T-U5-genai-vs-originality",
+      "label": "GenAI co-creation vs originality theatre",
+      "teach_as": "Stage-specific use + process transparency + assessment of judgement",
+      "unit_home": [
+        "U5",
+        "C3"
+      ],
+      "combine_ref": "COMBINE-RELATE-DISCUSS §3"
+    },
+    {
+      "id": "T-U1-brick-test-vs-domain",
+      "label": "Alternate-uses / brick tests vs domain talent",
+      "teach_as": "Context matters — studio ≠ psychometric toy",
+      "unit_home": [
+        "U1"
+      ],
+      "combine_ref": "COMBINE-RELATE-DISCUSS §3"
+    },
+    {
+      "id": "T-U2-practitioner-vs-peer-review",
+      "label": "Practitioner cards vs peer-reviewed technique pedagogy",
+      "teach_as": "Rehearsable gestures, not science of creativity",
+      "unit_home": [
+        "U2",
+        "U3"
+      ],
+      "combine_ref": "COMBINE-RELATE-DISCUSS §3"
+    },
+    {
+      "id": "T-ALL-language-medium-support",
+      "label": "Language / medium / support · circulation of meaning",
+      "teach_as": "Name the triad before technique worship",
+      "unit_home": [
+        "U1",
+        "D2"
+      ],
+      "combine_ref": "SESSION-RHYTHM · D2 discursive circulation"
+    },
+    {
+      "id": "T-U6-gift-vs-rehearsal",
+      "label": "Talent myth vs method rehearsal",
+      "teach_as": "Creative confidence from paced open-then-close under a brief",
+      "unit_home": [
+        "U6"
+      ],
+      "combine_ref": "COMBINE-RELATE-DISCUSS §1 / §3"
+    }
+  ],
+  "creativity_areas": [
+    {
+      "slug": "creativity_and_technology",
+      "title": "Creativity and Technology",
+      "concept_count": 10
+    },
+    {
+      "slug": "critical_layer",
+      "title": "Critical Layer",
+      "concept_count": 14
+    },
+    {
+      "slug": "foundations_importance",
+      "title": "Foundations and Importance",
+      "concept_count": 11
+    },
+    {
+      "slug": "idea_development_solutions",
+      "title": "Idea Development and Solutions",
+      "concept_count": 10
+    },
+    {
+      "slug": "idea_generation_selection",
+      "title": "Idea Generation and Selection",
+      "concept_count": 12
+    },
+    {
+      "slug": "personal_development",
+      "title": "Personal Development",
+      "concept_count": 9
+    },
+    {
+      "slug": "workplace_application",
+      "title": "Workplace Application",
+      "concept_count": 10
+    }
+  ]
+}

@@ -37,10 +37,12 @@ A+ analysis_model (optional)        background_kind: profield
 1… Masterclass ideas (≤ 6)          background_kind: profield | diagram
 N  lab_opener                       background_kind: geometrical   ← REQUIRED
 N+ Lab exercises (portfolio_bound)  background_kind: profield | none
-M  workshop_opener                  background_kind: geometrical   ← REQUIRED
-M+ Workshop work prompt             background_kind: none | diagram
+M  workshop_opener                  background_kind: geometrical   ← from session 4 only
+M+ Workshop work prompt             background_kind: none | diagram | profield
 Z  outro / carry-forward            background_kind: geometrical   ← REQUIRED
 ```
+
+**First lessons (sessions 1–3):** omit `workshop_opener` / `workshop_work` entirely — session ends after Lab. Do not invent side deliverables. **D1 Analysis** never receives Workshop clock. **From session 4:** Workshop ≈½ **D2 Transposition** · ≈½ **D3 final event**.
 
 `unit_cover` is the unit title / stake slide. It comes **before** analysis. Do not open the deck on analysis alone.
 
@@ -57,6 +59,7 @@ The student **lesson** must contain the Analysis method in prose (language / med
 | Stance slides without a pack image | Course **diagram** — Koch triangle (`ct-koch-triangle-*.svg`), **not** Sierpinski |
 | `analysis_opener` · `lab_opener` · `workshop_opener` · `outro` | **Geometrical only** (`fractal-pass-track` SVGs) |
 | Never | Invented rights; Resource UUID / forger version in captions; Sierpinski as Masterclass fallback |
+| Never | Non-geometrical decorative fallbacks on transition slides; geometrical captions must include the SVG content-hash UUID |
 
 Typed fields on each slide object:
 
@@ -84,7 +87,7 @@ Five rules override any conflicting habit above and bind every subsequent unit's
 2. **Write every slide as if for a 17-year-old high-school teenager (golden rule).** Short sentences. Concrete verbs. One idea per slide. No managerial abstractions (`stakeholder alignment`, `strategic ideation`), no untethered jargon. If a sentence would not survive being read aloud to a curious teenager, rewrite it before it ships. Keep the register the same across all six units.
 3. **Quote hierarchy — Ahmes first; Tao invent when Ahmes has no brief match.** Every substantive slide (cover, analysis_model, masterclass, lab_exercise, workshop_work) should carry a brief, specific `quote:` that sharpens the sentence — not a paraphrase of the heading.
    - **Prefer page-verified vault extracts.** Resolve via `semantic-quote` against a real extraction database node with evaluator-safe status. Full provenance (coat, node_id, page_index, printed_page, verbatim) lives in a switch-gated Markdown comment in the **lesson** file. Student `content.json` carries the verbatim string + `quote_origin: page_verified` + `citation.label` (Chicago author-date) + `citation.href` (anchor into the lesson's References). **Never** write the corpus product name into `content.json` or public lesson HTML.
-   - **If no brief Ahmes match:** invent one line in the voice of **The Tao of Creativity** (CT/TC) and propose it into TTOD via `ttod-bridge` (never hand-edit `ttod.yml`). Set `quote_origin: tao_invented`, `citation.label: (Tao of Creativity)`, and `citation.href` to the course Tao / TTOD public surface when one exists. Invents are studio aphorisms, never disguised as scholarly quotation.
+   - **If no brief page-verified match:** invent one line in the voice of **The Tao of Creativity** (CT/TC) and propose it into TTOD via `ttod-bridge` (never hand-edit `ttod.yml`). Set `quote_origin: tao_invented`, `citation.label: (Tao of Creativity)`, and `citation.href` to `{{ '/tao/#<chapter-id>' | relative_url }}` (monograph: `docs/tao/`). Invents are studio aphorisms, never disguised as scholarly quotation. Forge loop: [`TAO-OF-CREATIVITY-FORGE.mdc`](./TAO-OF-CREATIVITY-FORGE.mdc) + cascade [`TAO-OF-CREATIVITY/INDEX.md`](./TAO-OF-CREATIVITY/INDEX.md).
    - **Semantic tags (required whenever `quote` is set).** Attach DH-aligned metadata on the slide object (not rendered to students by default):
      - `semantic_tags.themes` — short controlled phrases (e.g. `idea-generation`, `lateral-thinking`, `authorship`)
      - `semantic_tags.cidoc` — CIDOC-CRM classes when useful (e.g. `crm:E33_Linguistic_Object`, `crm:E73_Information_Object`)
@@ -103,7 +106,7 @@ These rules are checked by cold review before a lesson's `status:` may move off 
 | Analysis strip | Modelled analysis (s1–2) or 2×15 min defences (from s3) | D1 slideshow support |
 | Masterclass | Ideas + images | notes |
 | Lab | Exercises + debates | portfolio traces |
-| Workshop | Next deliverable clock | D1–D3 progress |
+| Workshop | **Absent** in first lessons; from **s4**: ≈½ Transposition · ≈½ final event | D2–D3 progress only |
 
 Critical review / transposition: [`DISCURSIVE-CIRCULATION-FORGE.mdc`](./DISCURSIVE-CIRCULATION-FORGE.mdc) → **D2**.
 

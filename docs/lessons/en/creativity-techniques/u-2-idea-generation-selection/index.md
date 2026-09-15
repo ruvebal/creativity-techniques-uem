@@ -10,6 +10,9 @@ description: 'Creativity needs two rhythms — open many doors, then close most 
 status: pilot
 tags: [creativity-techniques, generate-select, brainstorming, portfolio]
 deck_url: /tracks/ct/u-2-idea-generation-selection/
+master_idea: 'Creativity needs two rhythms — open many doors, then close most of them on purpose'
+practice_anchor: 'Generate many options first, then select with named criteria; keep fluency distinct from flexibility; treat selection as trained taste under a brief'
+frontier_signal: 'English Six Thinking Hats page cites, Kelley 2013, and Beghetto & Karwowski 2025 remain open — do not overclaim the Lab sequence'
 ---
 
 <!-- prettier-ignore-start -->
@@ -23,23 +26,25 @@ deck_url: /tracks/ct/u-2-idea-generation-selection/
 
 ---
 
+<div class="lesson-opener" markdown="1">
+
 > *"Once you have the fluent hand, learn the criteria."*
 > — Tao of Development
 {: .tao-development-quote }
 
----
+{% include lesson-semantic-graphic.html %}
 
-## Cover — what this unit is about
+</div>
 
-**Official CONTENIDOS:** *Unidad 2. Técnicas de generación y selección de ideas.*
-
-**In one line:** creativity is two rhythms, not one. You open many doors on purpose, then you close most of them on purpose. Either half alone is theatre, not craft.
-
-**In-class deck:** [U2 student slideshow]({{ '/tracks/ct/u-2-idea-generation-selection/' | relative_url }})
-
-**Every ordinary class:** Analysis → Masterclass → **Lab (Portfolio)** → **Workshop (Deliverable)**. Lab ≠ Workshop. See [How to Pass]({{ '/tracks/ct/how-to-pass-this-track/' | relative_url }}).
-
-**Grades this unit feeds:** presentation evidence (**40%** path) via Lab traces and D1 prep; knowledge tests (**60%**) via D5 later. Official weights stay as in the guía.
+{% comment %}
+cover-agentic:
+  unit: U2
+  contenidos: "Unidad 2. Técnicas de generación y selección de ideas."
+  one_line: "Creativity is two rhythms, not one — open many doors on purpose, then close most of them on purpose."
+  class_rhythm: "Analysis → Masterclass → Lab (Portfolio) → Workshop (Deliverable)"
+  evaluation_feed: "presentation evidence 40% path via Lab/D1; knowledge tests 60% via D5 later"
+  how_to_pass: "/tracks/ct/how-to-pass-this-track/"
+{% endcomment %}
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
@@ -53,8 +58,6 @@ slideshow_forge: STUDENT-SLIDESHOW-FORGE.mdc (2026-09-14 golden-rules amendment)
 lesson_orchestrator: ~/src/.cursor/skills/lesson-scribe/SKILL.md v0.1
 -->
 {% endif %}
-
----
 
 ## 🎯 Learning objectives
 
@@ -124,8 +127,6 @@ PROVENANCE_LINE: claim=U2.smith-collaboration-sampling; status=VERIFIED; source=
 PROVENANCE_LINE: claim=U2.huppauf-imagination-creativity-fantasy; status=VERIFIED; source={document_coat=94897108; node_id=edbc2759-0224-56a5-93fd-5bce9ac14b40; page_index=31; printed_page=32}; public_citation="(Hüppauf and Wulf 2009, 32)"; evaluator_safe=yes; note=public cite uses first editor; both editors in References
 -->
 {% endif %}
-
-**What the sources support — and what they do not.** Csikszentmihalyi (2007) supports the fluency/flexibility/originality triad reused from U1. de Bono (1970) page-verifies the generative/selective cut, the habit of delaying the obvious approach, and the provocative use of information — not English *Six Thinking Hats* page cites (cue-enrich file is Spanish Granica — BIBLIO-GAP for Penguin 1981 / Little Brown 1985). Rubin (2023) page-verifies a practitioner stance on consistent practice and editing-as-taste; it does **not** validate classroom hour schemes or replace peer-reviewed pedagogy. Lehrer (2012) is page-verified *as popular science* and should be named as a contradiction risk beside Craft/Csikszentmihalyi. Smith (2013) page-verifies collaborative sampling; Markman et al. (2009) page-verifies counterfactual alternative-thinking as a psychology bridge. Hüppauf and Wulf (2009) page-verify that imagination, fantasy, and creativity are related but not interchangeable terms — use that distinction when students collapse “more imaginative” into “more creative.” Kelley 2013 and Beghetto & Karwowski 2025 remain open for the generate+select thesis. Eno & Schmidt remain practitioner Pass-1. None of these pages prove that *this* unit's Lab exercises are the only valid path to trained selection.
 
 ---
 
@@ -208,6 +209,13 @@ REF_COATS: debono-1970=bb5aec96; rubin=574691eb; huppauf=94897108; lehrer=9bdb76
 SIX_HATS: 1985 coat 7e7ba834 mangled/Spanish extract — not evaluator_safe EN; Granica 591f5002 retired 2026-09-15
 -->
 {% endif %}
+
+---
+
+## Editorial note. Work in progress. Teaching Innovation Practice
+{: .lesson-editorial-note }
+
+Csikszentmihalyi (2007) supports the fluency/flexibility/originality triad reused from U1. de Bono (1970) page-verifies the generative/selective cut, the habit of delaying the obvious approach, and the provocative use of information — not English *Six Thinking Hats* page cites (cue-enrich file is Spanish Granica — BIBLIO-GAP for Penguin 1981 / Little Brown 1985). Rubin (2023) page-verifies a practitioner stance on consistent practice and editing-as-taste; it does **not** validate classroom hour schemes or replace peer-reviewed pedagogy. Lehrer (2012) is page-verified *as popular science* and should be named as a contradiction risk beside Craft/Csikszentmihalyi. Smith (2013) page-verifies collaborative sampling; Markman et al. (2009) page-verifies counterfactual alternative-thinking as a psychology bridge. Hüppauf and Wulf (2009) page-verify that imagination, fantasy, and creativity are related but not interchangeable terms — use that distinction when students collapse “more imaginative” into “more creative.” Kelley 2013 and Beghetto & Karwowski 2025 remain open for the generate+select thesis. Eno & Schmidt remain practitioner Pass-1. None of these pages prove that *this* unit's Lab exercises are the only valid path to trained selection. This note is part of an ongoing *Práctica de Innovación docente* — epistemic limits stay here, not between Masterclass paragraphs.
 
 ---
 

@@ -25,34 +25,50 @@ Keep this file **substance-aligned** across both repos when amended.
 | ---- | ---------- | -------------- |
 | **Masterclass** | Professor slideshow: ideas + images (accepted Profield media) | Not the graded deliverable clock |
 | **Lab (Portfolio)** | Exercises + debates that **must enter the portfolio** | Not free-time polish |
-| **Workshop (Deliverable)** | Protected time to advance the **next graded deliverable** | Not a second lecture |
+| **Workshop** | Protected studio time **from session 4** for **D2 Transposition** and **D3 final event** (≈ half / half) | Not a second lecture; **not** every-session filler; **not** D1 Analysis time |
 
-Mnemonic: **Lab = leave traces in the portfolio. Workshop = work the deliverable.**
+Mnemonic: **Lab = leave traces in the portfolio. Workshop (from s4) = Transposition + final event — never D1.**
+
+**D1 Analysis** is the next graded stake after early lessons, but it is defended in the **Analysis strip** (from session 3). It **does not** receive Workshop session time.
 
 ---
 
-## 2. Mandatory session arc (every ordinary session)
+## 2. Mandatory session arc
+
+### First lessons (sessions 1–3 · early units)
 
 ```text
 [Analysis strip — rolling]
   Sessions 1–2: professor models how to analyse (lesson slideshow)
-  From session 3: 2 students × ~15 min in-person defence each
+  From session 3: 2 students × ~15 min in-person defence each (D1)
          ↓
 [Masterclass]  professor ideas + images (Profield under contract)
          ↓
-[Lab · Portfolio]  exercises + debates  ← announced by geometrical slide first
+[Lab · Portfolio]  exercises + debates  ← geometrical opener
          ↓
-[Workshop · Deliverable]  work time on next deliverable  ← geometrical open + outro
+[Outro]  carry-forward — **no Workshop block**
 ```
 
-Indicative 120 minutes (adjust live; keep the order):
+**First-lesson law:** Do **not** invent Workshop slides, “studio piece this week,” or any side deliverable. First lessons end after Lab. Never invent graded work that is not on How to Pass.
 
-| Block | ≈ minutes | Surface |
-| ----- | --------- | ------- |
-| Analysis strip | 0–30 | Defences (from s3) or modelled analysis (s1–s2) |
-| Masterclass | 30–60 | Student deck · Profield images |
-| Lab (Portfolio) | 60–90 | Exercises → portfolio index |
-| Workshop (Deliverable) | 90–120 | Next deliverable work |
+### From session 4 (ordinary sessions with Workshop)
+
+```text
+[Analysis strip]  D1 defences continue as scheduled
+         ↓
+[Masterclass] → [Lab · Portfolio]
+         ↓
+[Workshop]  ≈ half **D2 Transposition** · ≈ half **D3 final event**  ← geometrical open + outro
+```
+
+Indicative 120 minutes:
+
+| Block | ≈ minutes | First lessons (s1–s3) | From session 4 |
+| ----- | --------- | --------------------- | -------------- |
+| Analysis strip | 0–30 | Modelled analysis (s1–s2) or D1 defences (from s3) | D1 defences |
+| Masterclass | 30–60 | Student deck · Profield images | Same |
+| Lab (Portfolio) | 60–90 / 60–120 | Exercises → portfolio; **session ends here** | Exercises → portfolio |
+| Workshop | — / 90–120 | **Absent** | ≈½ Transposition · ≈½ final event |
 
 ---
 
@@ -63,7 +79,7 @@ Indicative 120 minutes (adjust live; keep the order):
 | Masterclass idea / look / analyse / concept | Accepted **Profield** media (or course diagram) |
 | **Lab opener** — “Exercises now — they go into your portfolio” | **Geometrical only** (`fractal-pass-track`) |
 | Lab exercise slides | Profield or plain text on theme |
-| **Workshop opener** — “Deliverable work time” | **Geometrical only** |
+| **Workshop opener** — from session 4 only (“Transposition / final event”) | **Geometrical only** |
 | **Outro / carry-forward** | **Geometrical only** |
 | Masterclass diagram fallback (no pack image) | **Koch triangle** (`generate-koch-triangle.mjs`) — not Sierpinski |
 
@@ -145,8 +161,8 @@ Without the index, exercises do not count as assembled evidence.
 
 Student How-to-Pass decks and `/evaluation/` pages in **both** repos must name:
 
-1. Session arc (Masterclass → Lab → Workshop)  
-2. Lab ≠ Workshop  
+1. Session arc (Masterclass → Lab; Workshop only from session 4)  
+2. Lab ≠ Workshop; D1 never gets Workshop clock; first lessons omit Workshop  
 3. D1–D5 with course forks  
 4. Final event theme  
 5. Geometrical vs Profield background rule (one sentence)  

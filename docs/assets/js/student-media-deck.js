@@ -21,6 +21,7 @@
     title: 'Koch triangle',
     credit_line: 'Course-generated visual',
     licence: 'Original studio SVG · educational use',
+    svg_uuid: '5cc4358a9bdb',
   };
   const loadingBackground = `${geometricalBase}/ct-pass-01-structure.svg`;
 
@@ -142,11 +143,13 @@
           const file = geometricalCycle[geometricalIndex % geometricalCycle.length];
           geometricalIndex += 1;
           fileUrl = `${geometricalBase}/${file}`;
+          const uuidMatch = file.match(/-([a-f0-9]{8,})\.svg$/i);
           captionAsset = {
             title: file.replace(/\.svg$/, '').replace(/ct-pass-\d+-/, '').replace(/-/g, ' '),
             credit_line: 'Course geometrical background',
             licence: 'Original studio SVG · educational use',
             url: fileUrl,
+            svg_uuid: uuidMatch ? uuidMatch[1] : '',
           };
         } else if (directAsset?.asset_url) {
           fileUrl = stripUtm(directAsset.asset_url);

@@ -1,0 +1,56 @@
+{% comment %}
+  lesson-action-bar.html — lang switch + optional in-class deck as one button bar.
+  CT lessons are EN-only today; lang button appears when a twin path exists.
+{% endcomment %}
+{% assign other_lang = 'es' %}
+{% if page.lang == 'es' %}{% assign other_lang = 'en' %}{% endif %}
+
+{% assign switcher_url = nil %}
+{% comment %} Minimal chrome: S. / E. + Deck {% endcomment %}
+{% if other_lang == 'es' %}
+  {% assign switcher_label = 'S.' %}
+{% else %}
+  {% assign switcher_label = 'E.' %}
+{% endif %}
+
+{% if page.url contains '/lessons/' %}
+  {% if site.data.lessons %}
+    {% assign current_lesson = site.data.lessons | where: 'slug', page.slug | first %}
+    {% if current_lesson %}
+      {% if other_lang == 'en' and current_lesson.path.en %}
+        {% assign switcher_url = current_lesson.path.en %}
+      {% elsif other_lang == 'es' and current_lesson.path.es %}
+        {% assign switcher_url = current_lesson.path.es %}
+      {% endif %}
+    {% endif %}
+  {% endif %}
+{% endif %}
+
+{% if switcher_url %}
+  {% assign switcher_url = switcher_url | relative_url %}
+{% endif %}
+
+{% assign deck_href = nil %}
+{% if page.deck_url and page.deck_url != '' %}
+  {% assign deck_href = page.deck_url | relative_url %}
+{% endif %}
+
+{% if switcher_url or deck_href %}
+<nav class="lesson-action-bar" aria-label="{% if page.lang == 'es' %}Acciones de la lección{% else %}Lesson actions{% endif %}">
+  {% if switcher_url %}
+  <a
+    href="{{ switcher_url }}"
+    lang="{{ other_lang }}"
+    hreflang="{{ other_lang }}"
+    class="lesson-action-bar__btn lesson-action-bar__btn--lang"
+    aria-label="{% if page.lang == 'es' %}English version{% else %}Spanish version{% endif %}">
+    <span class="lesson-action-bar__kbd">{{ switcher_label }}</span>
+  </a>
+  {% endif %}
+  {% if deck_href %}
+  <a href="{{ deck_href }}" class="lesson-action-bar__btn lesson-action-bar__btn--deck" aria-label="{% if page.lang == 'es' %}Presentación en clase{% else %}In-class slideshow{% endif %}">
+    <span class="lesson-action-bar__kbd">Deck</span>
+  </a>
+  {% endif %}
+</nav>
+{% endif %}

@@ -10,6 +10,9 @@ description: 'Creativity is paced work under a brief — open options, then choo
 status: pilot
 tags: [creativity-techniques, foundations, diverge-converge, portfolio]
 deck_url: /tracks/ct/u-1-introduction-creativity/
+master_idea: 'Creativity is paced craft under a brief — open options, then choose what fits'
+practice_anchor: 'Pace open-then-close work; name fluency, flexibility, originality, elaboration; analyse with language / medium / support before calling something creative'
+frontier_signal: 'Buchanan, Schön, and Kimbell primary extracts remain open procurement — studio hypotheses, not page-verified yet'
 ---
 
 <!-- prettier-ignore-start -->
@@ -23,23 +26,26 @@ deck_url: /tracks/ct/u-1-introduction-creativity/
 
 ---
 
+<div class="lesson-opener" markdown="1">
+
 > *"Name your variables as if you were baptising stars."*
 > — Tao of Development
 {: .tao-development-quote }
 
----
+{% include lesson-semantic-graphic.html %}
 
-## Cover — what this unit is about
+</div>
 
-**Official CONTENIDOS:** *Unidad 1. Introducción a la creatividad y su importancia.*
-
-**In one line:** creativity is paced craft under a brief. You open many options, then you choose what fits. It is not a mysterious gift you either have or lack.
-
-**In-class deck:** [U1 student slideshow]({{ '/tracks/ct/u-1-introduction-creativity/' | relative_url }})
-
-**Every ordinary class:** Analysis → Masterclass → **Lab (Portfolio)** → **Workshop (Deliverable)**. Lab ≠ Workshop. See [How to Pass]({{ '/tracks/ct/how-to-pass-this-track/' | relative_url }}).
-
-**Grades this unit feeds:** presentation evidence (**40%** path) via Lab traces and D1 prep; knowledge tests (**60%**) via D5 later. Official weights stay as in the guía.
+{% comment %}
+cover-agentic:
+  unit: U1
+  contenidos: "Unidad 1. Introducción a la creatividad y su importancia."
+  one_line: "Creativity is paced craft under a brief. You open many options, then you choose what fits."
+  class_rhythm: "Analysis → Masterclass → Lab (Portfolio) → Workshop (Deliverable)"
+  evaluation_feed: "presentation evidence 40% path via Lab/D1; knowledge tests 60% via D5 later"
+  how_to_pass: "/tracks/ct/how-to-pass-this-track/"
+  enrichment: "creativity-techniques-pedagogy/forge/unit-enrichment/U1-introduccion-creatividad/"
+{% endcomment %}
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
@@ -50,8 +56,6 @@ session_contract: SESSION-RHYTHM-AND-DELIVERABLES.mdc
 critical_review_d2: DISCURSIVE-CIRCULATION-FORGE.mdc
 -->
 {% endif %}
-
----
 
 ## 🎯 Learning objectives
 
@@ -147,8 +151,6 @@ PROVENANCE_LINE: claim=U1.dt-critique; status=NONE; owed=Kimbell 2011–12 extra
 -->
 {% endif %}
 
-**What the sources support — and what they do not.** Craft and Chen support open-then-close work and the four-skill vocabulary; Chen also supports the warning against treating alternate-uses scores as talent in every domain. Csikszentmihalyi supports fluency, flexibility, and originality as divergent-thinking dimensions. None of these pages proves that *this* unit’s Lab sequence is the only valid classroom path.
-
 ---
 
 ## B2 · Lab (Portfolio)
@@ -220,6 +222,13 @@ This unit does not settle what creativity is; it hands you a habit and three sou
 MEDIA_RIGHTS_LINE: masterclass=diagram-fallback; geometrical=fractal-pass-track; profield_pack=assigned
 -->
 {% endif %}
+
+---
+
+## Editorial note. Work in progress. Teaching Innovation Practice
+{: .lesson-editorial-note }
+
+Craft and Chen support open-then-close work and the four-skill vocabulary; Chen also supports the warning against treating alternate-uses scores as talent in every domain. Csikszentmihalyi supports fluency, flexibility, and originality as divergent-thinking dimensions. None of these pages proves that *this* unit’s Lab sequence is the only valid classroom path. This note is part of an ongoing *Práctica de Innovación docente* — epistemic limits stay here, not between Masterclass paragraphs.
 
 ---
 

@@ -1,0 +1,43 @@
+{% comment %}
+  Opening framing (+ optional semantic graphic when lesson_covers exist).
+  Master idea = the unit's one pedagogical claim.
+  Practice anchor = durable studio operations students rehearse — not a tool UI.
+{% endcomment %}
+{% assign semantic_cover_key = page.slug | default: page.title | slugify %}
+{% assign semantic_cover = nil %}
+{% if site.data.lesson_covers %}
+  {% assign semantic_cover = site.data.lesson_covers[semantic_cover_key] %}
+{% endif %}
+
+{% assign semantic_idea = page.master_idea | default: semantic_cover.master_idea %}
+{% assign practice_text = page.practice_anchor | default: semantic_cover.field_lens %}
+{% assign frontier_text = page.frontier_signal %}
+
+{% if practice_text contains 'Emerging:' %}
+  {% assign practice_parts = practice_text | split: 'Emerging:' %}
+  {% assign practice_text = practice_parts[0] | strip %}
+  {% if frontier_text == nil or frontier_text == '' %}
+    {% assign frontier_text = practice_parts[1] | strip %}
+  {% endif %}
+{% endif %}
+{% assign practice_text = practice_text | replace: 'Established:', '' | replace: 'Practice anchor:', '' | strip %}
+
+{% if semantic_idea or practice_text %}
+<aside class="lesson-framing" aria-label="Master idea and practice anchor">
+{% if semantic_idea %}
+<p><strong>Master idea:</strong> {{ semantic_idea }}{% unless semantic_idea contains '.' %}.{% endunless %}</p>
+{% endif %}
+{% if practice_text and practice_text != '' %}
+<p><strong>Practice anchor:</strong> {{ practice_text }}{% unless practice_text contains '.' %}.{% endunless %}</p>
+{% endif %}
+{% if frontier_text and frontier_text != '' %}
+<p><strong>Frontier signal:</strong> {{ frontier_text }}{% unless frontier_text contains '.' %}.{% endunless %}</p>
+{% endif %}
+</aside>
+{% endif %}
+
+{% if semantic_cover %}
+<figure class="lesson-semantic lesson-semantic--{{ semantic_cover.family }}" data-semantic-mode="{{ semantic_cover.mode }}" markdown="0">
+<img src="{{ '/assets/images/lesson-covers/' | append: semantic_cover.asset | append: '-semantic.svg' | relative_url }}" width="1600" height="560" alt="{{ semantic_cover.semantic_alt_en | default: semantic_cover.alt_en | default: semantic_cover.master_idea | escape }}" />
+</figure>
+{% endif %}

@@ -311,8 +311,8 @@ body {
 	border-top: 1px solid rgb(var(--foreground) / 0.42);
 	border: 1px solid rgb(var(--foreground) / 0.2);
 	border-radius: var(--radius);
-	background: linear-gradient(135deg, rgb(var(--card) / 0.9), rgb(var(--background) / 0.78));
-	box-shadow: 0 0.8rem 2rem rgb(0 0 0 / 0.24);
+	background: linear-gradient(135deg, rgb(var(--card) / 0.12), rgb(var(--background) / 0.08));
+	box-shadow: none;
 	font-size: clamp(0.62rem, 1vw, 0.82rem);
 	line-height: 1.35;
 	letter-spacing: 0.015em;
@@ -320,7 +320,7 @@ body {
 	white-space: normal;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	backdrop-filter: blur(16px) saturate(135%);
+	backdrop-filter: blur(6px) saturate(120%);
 }
 
 .student-media-caption span,

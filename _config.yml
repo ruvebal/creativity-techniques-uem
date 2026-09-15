@@ -50,6 +50,7 @@ include:
   - directory
   - methods
   - lexicum
+  - tao
 
 exclude:
   - node_modules

@@ -386,7 +386,7 @@ layout: null
     {
       "slide_role": "masterclass",
       "background_kind": "profield",
-      "media_slot_id": "U1.still.profield-11",
+      "media_slot_id": "U1.still.profield-6",
       "heading": "4 · Name the problem first",
       "sentence": "Before you grab a creativity technique, say what is unclear in the brief — name the problem, then pick the tool.",
       "quote": "Before you pick a method, write the question the brief still refuses to answer.",
@@ -414,7 +414,7 @@ layout: null
     {
       "slide_role": "masterclass",
       "background_kind": "profield",
-      "media_slot_id": "U1.still.profield-12",
+      "media_slot_id": "U1.still.profield-7",
       "heading": "5 · Techniques are tools, not scripts",
       "sentence": "A method helps you talk with the situation. It does not replace your judgement or the brief.",
       "quote": "A technique is a lever, not a verdict — it moves the work; it does not replace your judgement.",
@@ -443,7 +443,7 @@ layout: null
     {
       "slide_role": "masterclass",
       "background_kind": "profield",
-      "media_slot_id": "U1.still.profield-6",
+      "media_slot_id": "U1.still.profield-8",
       "heading": "6 · “Design thinking” is debated",
       "sentence": "Use useful tools — and ask when buzzwords hide weak craft or skip the hard part.",
       "quote": "When the buzzword arrives, ask what craft it is hiding — slogans are often empty handles.",
@@ -502,7 +502,7 @@ layout: null
     {
       "slide_role": "lab_exercise",
       "background_kind": "profield",
-      "media_slot_id": "U1.still.profield-8",
+      "media_slot_id": "U1.still.profield-9",
       "heading": "Exercise 1 · Research Marcel Duchamp",
       "sentence": "Find three facts about Duchamp that connect to this unit: readymades, play with identity, or how meaning shifts when context changes.",
       "portfolio_bound": true,
@@ -533,7 +533,7 @@ layout: null
     {
       "slide_role": "lab_exercise",
       "background_kind": "profield",
-      "media_slot_id": "U1.still.profield-9",
+      "media_slot_id": "U1.still.profield-10",
       "heading": "Exercise 2 · Research the Dada movement",
       "sentence": "What did Dada question about art, authorship, and institutions? Link at least one Dada tactic to a creativity technique you might use in studio.",
       "portfolio_bound": true,
@@ -564,7 +564,7 @@ layout: null
     {
       "slide_role": "lab_exercise",
       "background_kind": "profield",
-      "media_slot_id": "U1.still.profield-10",
+      "media_slot_id": "U1.still.profield-11",
       "heading": "Exercise 3 · Explore the course directory",
       "sentence": "Browse the Directory. Pick two entries where you could see yourself after your studies — prize, studio, journal, figure, or organisation.",
       "portfolio_bound": true,
@@ -593,44 +593,10 @@ layout: null
       }
     },
     {
-      "slide_role": "workshop_opener",
-      "background_kind": "geometrical",
-      "heading": "Workshop · Deliverable",
-      "sentence": "Protected time on the next graded deliverable — not a second lecture."
-    },
-    {
-      "slide_role": "workshop_work",
-      "background_kind": "diagram",
-      "heading": "Reminder · From session 3 you start the session",
-      "sentence": "From session 3, two students open the class with a 15-minute analysis defence each. Use Workshop time now to outline that defence.",
-      "quote": "Outline the defence before polish — session three belongs to whoever can name language, medium, and support.",
-      "quote_origin": "tao_invented",
-      "semantic_tags": {
-        "themes": [
-          "defence",
-          "d1"
-        ],
-        "cidoc": [
-          "crm:E33_Linguistic_Object"
-        ],
-        "getty_aat": [
-          "aphorisms"
-        ],
-        "dcterms": [
-          "dcterms:type=Text",
-          "dcterms:subject=defence"
-        ]
-      },
-      "citation": {
-        "label": "(Tao of Creativity)",
-        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#tao-of-creativity"
-      }
-    },
-    {
       "slide_role": "outro",
       "background_kind": "geometrical",
       "heading": "Carry forward",
-      "sentence": "Portfolio index open. D1 outline started. Final event theme: What is creativity for you?",
+      "sentence": "No Workshop in first lessons — Lab ends the session. D1 Analysis is next and has no Workshop clock. From session 4: Workshop splits half Transposition, half final event.",
       "quote": "Carry one question into next week: what is creativity for you — and what would change your answer?",
       "quote_origin": "tao_invented",
       "semantic_tags": {

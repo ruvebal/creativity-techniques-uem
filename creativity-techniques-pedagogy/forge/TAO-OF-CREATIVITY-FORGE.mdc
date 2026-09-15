@@ -1,0 +1,82 @@
+---
+description: Forge The Tao of Creativity monograph — Profield tensions × consolidated ideas → haiku/koan/máxima/yoda → Thessia workload → evaluate → integrate → fine-tuning report
+globs: 'docs/tao/**,creativity-techniques-pedagogy/forge/TAO-OF-CREATIVITY/**,docs/tracks/**/content.json'
+alwaysApply: false
+---
+
+# TAO OF CREATIVITY FORGE — Creativity Techniques (UEM)
+
+> Sibling surface to Digital Creativity’s `/tao/` (HCD Tao).  
+> Cascade plan: [`TAO-OF-CREATIVITY/INDEX.md`](./TAO-OF-CREATIVITY/INDEX.md).  
+> Slideshow invent law: [`STUDENT-SLIDESHOW-FORGE.mdc`](./STUDENT-SLIDESHOW-FORGE.mdc) golden rule 3.
+
+## 0. Hard prerequisites (fail closed)
+
+1. Cascade INDEX + TECHNICAL-DIRECTOR read.  
+2. `grounding/COMBINE-RELATE-DISCUSS.md` §3 available.  
+3. Local Ollama for T3 (`thessia-scholar-v3`) — or skip T3 and human-draft only.  
+4. Publication firewall (`scripts/verify-publication-safety.mjs`).  
+5. English-only student surface.
+
+## 1. What this forger produces
+
+| Surface | Path |
+| ------- | ---- |
+| Public JSON (source of truth) | `docs/tao/data/quotes.json` → `/tao/data/quotes.json` |
+| Website endpoint | `docs/tao/index.html` → `/tao/` (JS hydrate) |
+| Include | `docs/_includes/tao-quote.html` — cite **The Tao of Creativity** |
+| Ledger | `forge/TAO-OF-CREATIVITY/ledger/{tensions,candidates}.yml` |
+| TTOD proposals | `~/src/ttod/proposals/<uuid>.json` via `cli.py proposal create` (T4b) |
+| Thessia records | `~/src/deviac/fine-tuning/thessia-tuning-memory/*-tao-ct-*` |
+| Team report | `…/registries/CT-TAO-*-REPORT.md` |
+
+## 2. Orchestrated loop (binding)
+
+```text
+profield tendencies  ×  consolidated ideas
+        → contradiction card
+        → delegate form: haiku | koan | máxima | yoda
+        → quote-valid candidate
+        → Thessia workload (optional but preferred for training signal)
+        → human evaluate
+        → integrate (/tao/ · slides · ttod-bridge)
+        → report to Thessia fine-tuning team
+```
+
+**May run ahead of lessons.** A chapter can ship before its unit’s B1 prose exists; unit forge then *consumes* Tao lines as invents, not the reverse.
+
+## 3. Voice
+
+- **Lao Tzu:** compress; name the way; cut toolkit worship.  
+- **Yoda:** inversion permitted when it teaches (`form="Yoda"` or máxima with inverted syntax).  
+- **Haiku:** concrete studio weather — boards, briefs, silence, winter light.  
+- **Koan:** dialogue; the slogan must fail.
+
+Never: managerial buzzwords, fake studies, brand-loyal technique ads.
+
+## 4. Quote hierarchy vs Tao
+
+1. Prefer page-verified vault extract on slides (`quote_origin: page_verified`).  
+2. Else invent Tao line (`quote_origin: tao_invented`) linking to `/tao/#<chapter>`.  
+3. Invents are studio aphorisms — **not** scholarly quotes.
+
+Student `content.json` must never contain the corpus product name; use `page_verified` | `tao_invented` only.
+
+## 5. Thessia BRIEF contract
+
+Use [`TAO-OF-CREATIVITY/templates/thessia-tao-brief.md`](./TAO-OF-CREATIVITY/templates/thessia-tao-brief.md).  
+One form per call. Ban Chicago. Ban cloud models.
+
+## 6. Integration checklist
+
+- [ ] Accepted lines in `docs/tao/data/quotes.json` with `lexicum` + `semantic_tags` + `field_discussions`  
+- [ ] `/tao/` loads JSON (areas · discussions · thesaurus chips visible)  
+- [ ] Slide invents point at `/tao/#…`  
+- [ ] T4b: `cli.py proposal create` for new invents → `~/src/ttod/proposals/`  
+- [ ] `ttod.yml` unchanged; never cite pending proposal ids  
+- [ ] `verify:publication` green  
+- [ ] Registry report if Thessia ran  
+
+## 7. Honest stop
+
+If COMBINE tensions are stale and no MAIN-IDEAS exist for the chapter’s unit, forge **only** the tension-backed lines you can defend — leave chapter stubs rather than decorative filler.

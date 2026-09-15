@@ -57,6 +57,7 @@ breadcrumbs = breadcrumbs | push: breadcrumb_item %} {% endif %} {% endfor %}
 		</button>
 
 		<article class="lesson-content">
+			<div class="lesson-sticky-chrome">
 			<!-- Breadcrumb Navigation -->
 			<nav class="breadcrumb" aria-label="Breadcrumb">
 				<ol class="breadcrumb-list">
@@ -99,6 +100,8 @@ breadcrumbs = breadcrumbs | push: breadcrumb_item %} {% endif %} {% endfor %}
 					</li>
 				</ol>
 			</nav>
+			{% include lesson-action-bar.html %}
+			</div>
 
 			<header class="lesson-header{% if site.data.archive_covers[page.url] %} hero-section hero-section--archive hero-section--hub{% endif %}">
 				{% assign cover_key = page.slug | default: page.title | slugify %}
@@ -162,7 +165,6 @@ breadcrumbs = breadcrumbs | push: breadcrumb_item %} {% endif %} {% endfor %}
 				</p>
 			</header>
 
-			{% include locale-switcher.html %}
 			<div class="lesson-body prose prose-lg prose-slate dark:prose-invert">{{ content }}</div>
 		</article>
 	</div>
