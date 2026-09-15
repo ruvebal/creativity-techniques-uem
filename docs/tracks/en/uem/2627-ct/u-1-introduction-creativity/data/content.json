@@ -215,15 +215,57 @@ layout: null
       "background_kind": "profield",
       "media_slot_id": "U1.still.profield-1",
       "heading": "U1 · Introduction to creativity",
-      "sentence": "Creativity is work you can pace: open many options, then choose what fits the brief.",
-      "prompt": "Not a talent myth — a studio craft"
+      "sentence": "Creativity is work you can pace: open many options, then choose what fits the brief — not a talent myth.",
+      "quote": "Open many doors on Monday; close most of them on Tuesday — that rhythm is the craft, not the mood.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "brief-craft",
+          "diverge-converge"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text",
+          "dcterms:subject=brief-craft"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#tao-of-creativity"
+      }
     },
     {
       "slide_role": "analysis_opener",
       "background_kind": "geometrical",
       "heading": "Analysis opens the class",
-      "sentence": "Sessions 1–2: the professor shows how to analyse. From session 3: two students start the session with a 15-minute defence each.",
-      "prompt": "Your D1 support = the defence slideshow"
+      "sentence": "Sessions 1–2: the professor shows how to analyse. From session 3: two students start with a 15-minute defence each.",
+      "quote": "The professor models first; from session three, you defend what the piece is made of.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "analysis",
+          "defence"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text",
+          "dcterms:subject=analysis"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#tao-of-creativity"
+      }
     },
     {
       "slide_role": "analysis_model",
@@ -231,18 +273,56 @@ layout: null
       "media_slot_id": "U1.still.profield-2",
       "heading": "How to analyse (model)",
       "sentence": "Say what the piece is made of first: language, medium, support. Then ask where meaning travels when someone else sees it.",
-      "prompt": "Judge creativity only after you name those three"
+      "quote": "Name language, medium, and support before you praise the idea — otherwise you are judging a shadow.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "analysis",
+          "materiality"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text",
+          "dcterms:subject=analysis"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#tao-of-creativity"
+      }
     },
     {
       "slide_role": "masterclass",
       "background_kind": "profield",
       "media_slot_id": "U1.still.profield-3",
       "heading": "1 · Open, then close",
-      "sentence": "First invent many possibilities. Then pick what fits the needs of the brief.",
+      "sentence": "First invent many possibilities. Then pick what fits the needs of the brief — one creative act can hold both moves.",
       "quote": "The same creative act may involve both divergent and convergent thinking.",
       "citation": {
         "label": "(Craft 2003, 43)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#ref-craft-2003"
+      },
+      "quote_origin": "ahmes",
+      "semantic_tags": {
+        "themes": [
+          "divergent-convergent",
+          "brief-craft"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "creativity (concept)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text",
+          "dcterms:subject=divergent-convergent"
+        ]
       }
     },
     {
@@ -250,11 +330,28 @@ layout: null
       "background_kind": "profield",
       "media_slot_id": "U1.still.profield-4",
       "heading": "2 · Four skills you can train",
-      "sentence": "Fluency (many ideas), flexibility (many angles), originality (unusual links), elaboration (work the details).",
+      "sentence": "Fluency (many ideas), flexibility (many angles), originality (unusual links), elaboration (work the details) — all trainable.",
       "quote": "Fluency - the ability to produce a large number of ideas or solutions to a problem rapidly.",
       "citation": {
         "label": "(Chen 2012, 41)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#ref-chen-2012"
+      },
+      "quote_origin": "ahmes",
+      "semantic_tags": {
+        "themes": [
+          "fluency",
+          "trainable-skills"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "creativity (concept)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text",
+          "dcterms:subject=fluency"
+        ]
       }
     },
     {
@@ -262,11 +359,28 @@ layout: null
       "background_kind": "profield",
       "media_slot_id": "U1.still.profield-5",
       "heading": "3 · Tests are not the whole story",
-      "sentence": "Scoring well on “uses of a brick” does not prove you are strong in another field.",
+      "sentence": "Scoring well on “uses of a brick” does not prove you are strong in another field — tests need context.",
       "quote": "After all, the ability of divergent thinking with a paper clip may tell us little about an individual's talent in music.",
       "citation": {
         "label": "(Chen 2012, 41)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#ref-chen-2012"
+      },
+      "quote_origin": "ahmes",
+      "semantic_tags": {
+        "themes": [
+          "testing-limits",
+          "context"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "creativity (concept)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text",
+          "dcterms:subject=testing-limits"
+        ]
       }
     },
     {
@@ -274,41 +388,116 @@ layout: null
       "background_kind": "profield",
       "media_slot_id": "U1.still.profield-11",
       "heading": "4 · Name the problem first",
-      "sentence": "Before you grab a creativity technique, say what is unclear in the brief.",
-      "prompt": "Studio stance — page cite still open"
+      "sentence": "Before you grab a creativity technique, say what is unclear in the brief — name the problem, then pick the tool.",
+      "quote": "Before you pick a method, write the question the brief still refuses to answer.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "problem-finding"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text",
+          "dcterms:subject=problem-finding"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#tao-of-creativity"
+      }
     },
     {
       "slide_role": "masterclass",
       "background_kind": "profield",
       "media_slot_id": "U1.still.profield-12",
       "heading": "5 · Techniques are tools, not scripts",
-      "sentence": "A method helps you talk with the situation. It does not replace your judgement.",
-      "prompt": "Studio stance — page cite still open"
+      "sentence": "A method helps you talk with the situation. It does not replace your judgement or the brief.",
+      "quote": "A technique is a lever, not a verdict — it moves the work; it does not replace your judgement.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "methods",
+          "judgement"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text",
+          "dcterms:subject=methods"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#tao-of-creativity"
+      }
     },
     {
       "slide_role": "masterclass",
       "background_kind": "profield",
       "media_slot_id": "U1.still.profield-6",
       "heading": "6 · “Design thinking” is debated",
-      "sentence": "Use useful tools — and ask when buzzwords hide weak craft.",
-      "prompt": "Open debate — page cite still open"
+      "sentence": "Use useful tools — and ask when buzzwords hide weak craft or skip the hard part.",
+      "quote": "When the buzzword arrives, ask what craft it is hiding — slogans are often empty handles.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "design-thinking",
+          "critique"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text",
+          "dcterms:subject=design-thinking"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#tao-of-creativity"
+      }
     },
     {
       "slide_role": "lab_opener",
       "background_kind": "geometrical",
       "heading": "Lab · Portfolio",
-      "sentence": "Exercises come next. Everything you make in Lab goes into your portfolio index.",
+      "sentence": "Exercises come next. Everything you make in Lab goes into your portfolio index — save the traces.",
       "portfolio_bound": true,
-      "portfolio_trace": "Open or update the portfolio index before you leave."
-    },
-    {
-      "slide_role": "lab_exercise",
-      "background_kind": "profield",
-      "media_slot_id": "U1.still.profield-7",
-      "heading": "Debate · Language, medium, support & circulation",
-      "sentence": "Pick one work (yours or from class). Name language, medium, and support. Then argue: if the same piece moved to another venue, where would meaning break — in making, in the channel, or in recognition?",
-      "portfolio_bound": true,
-      "portfolio_trace": "Save your triad notes plus one circulation sentence from the debate."
+      "portfolio_trace": "Open or update the portfolio index before you leave.",
+      "quote": "What you save in the portfolio index is proof you were here — not decoration.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "portfolio",
+          "lab"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text",
+          "dcterms:subject=portfolio"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#tao-of-creativity"
+      }
     },
     {
       "slide_role": "lab_exercise",
@@ -317,7 +506,29 @@ layout: null
       "heading": "Exercise 1 · Research Marcel Duchamp",
       "sentence": "Find three facts about Duchamp that connect to this unit: readymades, play with identity, or how meaning shifts when context changes.",
       "portfolio_bound": true,
-      "portfolio_trace": "Save three bullet points with sources in the portfolio index."
+      "portfolio_trace": "Save three bullet points with sources in the portfolio index.",
+      "quote": "A readymade is not laziness — it is a question dressed as an object.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "duchamp",
+          "readymade"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text",
+          "dcterms:subject=duchamp"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#tao-of-creativity"
+      }
     },
     {
       "slide_role": "lab_exercise",
@@ -326,17 +537,60 @@ layout: null
       "heading": "Exercise 2 · Research the Dada movement",
       "sentence": "What did Dada question about art, authorship, and institutions? Link at least one Dada tactic to a creativity technique you might use in studio.",
       "portfolio_bound": true,
-      "portfolio_trace": "Save a short paragraph plus one studio link in the portfolio index."
+      "portfolio_trace": "Save a short paragraph plus one studio link in the portfolio index.",
+      "quote": "Dada asked who gets to call something art — your answer is part of the exercise.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "dada",
+          "authorship"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text",
+          "dcterms:subject=dada"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#tao-of-creativity"
+      }
     },
     {
       "slide_role": "lab_exercise",
       "background_kind": "profield",
       "media_slot_id": "U1.still.profield-10",
       "heading": "Exercise 3 · Explore the course directory",
-      "sentence": "Browse the Directory. Pick two entries where you could see yourself after your studies — prize, studio, journal, figure, or organisation. Say why each fits you.",
-      "prompt": "Directory → /directory/en/",
+      "sentence": "Browse the Directory. Pick two entries where you could see yourself after your studies — prize, studio, journal, figure, or organisation.",
       "portfolio_bound": true,
-      "portfolio_trace": "Save two directory entries (with links) and two sentences on your path."
+      "portfolio_trace": "Save two directory entries (with links) and two sentences on your path.",
+      "quote": "Pick two doors in the directory that you could walk through after your studies — then say why.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "career",
+          "directory"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text",
+          "dcterms:subject=career"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#tao-of-creativity"
+      }
     },
     {
       "slide_role": "workshop_opener",
@@ -349,13 +603,55 @@ layout: null
       "background_kind": "diagram",
       "heading": "Reminder · From session 3 you start the session",
       "sentence": "From session 3, two students open the class with a 15-minute analysis defence each. Use Workshop time now to outline that defence.",
-      "prompt": "Rubric: presentation 70% · support slideshow 20% · peer debate 10%."
+      "quote": "Outline the defence before polish — session three belongs to whoever can name language, medium, and support.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "defence",
+          "d1"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text",
+          "dcterms:subject=defence"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#tao-of-creativity"
+      }
     },
     {
       "slide_role": "outro",
       "background_kind": "geometrical",
       "heading": "Carry forward",
-      "sentence": "Portfolio index open. D1 outline started. Final event theme: What is creativity for you?"
+      "sentence": "Portfolio index open. D1 outline started. Final event theme: What is creativity for you?",
+      "quote": "Carry one question into next week: what is creativity for you — and what would change your answer?",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "reflection"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text",
+          "dcterms:subject=reflection"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#tao-of-creativity"
+      }
     }
   ]
 }

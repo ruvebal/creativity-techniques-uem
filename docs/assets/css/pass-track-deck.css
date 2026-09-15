@@ -21,7 +21,10 @@ body {
 
 .reveal {
   color: rgb(var(--foreground));
-  font-size: clamp(18px, 2.15vw, 31px);
+  /* 2026-09-14: bumped ~15% from clamp(18px, 2.15vw, 31px) per teaching feedback
+     ("typography a little bigger overall"). Applies to base rem cascade for all
+     .student-media-slide* size clamps (sentence/quote/prompt use em relative to this). */
+  font-size: clamp(22px, 2.6vw, 38px);
 }
 
 .reveal .slides {
@@ -339,9 +342,10 @@ body {
   line-height: 1.08;
 }
 
-.reveal h1 { font-size: clamp(1.85rem, 5.8vw, 2.7rem); }
-.reveal h2 { font-size: clamp(1.4rem, 4.8vw, 2.1rem); }
-.reveal h3 { font-size: clamp(1.08rem, 3.8vw, 1.55rem); }
+/* 2026-09-14: proportional bump alongside .reveal base — teenager-legible from row 8. */
+.reveal h1 { font-size: clamp(2.15rem, 6.6vw, 3.15rem); }
+.reveal h2 { font-size: clamp(1.65rem, 5.5vw, 2.5rem); }
+.reveal h3 { font-size: clamp(1.25rem, 4.4vw, 1.85rem); }
 
 .reveal a { color: rgb(var(--accent)); }
 .reveal table {

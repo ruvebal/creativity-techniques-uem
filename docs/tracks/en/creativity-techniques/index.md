@@ -35,14 +35,14 @@ This page is the fork-ready track index. Unit lessons are scaffolded next; do no
 
 ## Status
 
-**Pilot unit forged:** [U1 · Introduction to creativity]({{ '/lessons/en/creativity-techniques/u-1-introduction-creativity/' | relative_url }}) · [slideshow]({{ '/tracks/ct/u-1-introduction-creativity/' | relative_url }}). Units U2–U6 remain pending. Page-level citations are still being completed — that is an honest gap, not a decorative lesson.
+**Pilot units forged:** [U1 · Introduction to creativity]({{ '/lessons/en/creativity-techniques/u-1-introduction-creativity/' | relative_url }}) · [deck]({{ '/tracks/ct/u-1-introduction-creativity/' | relative_url }}) (hand-forged 2026-09-13; retrofitted with the `lesson-scribe` harness 2026-09-14 — voice anchor for later units). [U2 · Idea generation and selection]({{ '/lessons/en/creativity-techniques/u-2-idea-generation-selection/' | relative_url }}) · [deck]({{ '/tracks/ct/u-2-idea-generation-selection/' | relative_url }}) (first live use of the `lesson-scribe` harness 2026-09-14; Idea 1 integrated, Ideas 2–6 pending). Units U3–U6 remain pending. Page-level citations are still being completed for U2 — that is an honest gap, not a decorative lesson.
 
 ## Units (official CONTENIDOS)
 
 | Unit | Title | Status |
 | --- | --- | --- |
 | U1 | Introduction to creativity and its importance | **pilot** — [lesson]({{ '/lessons/en/creativity-techniques/u-1-introduction-creativity/' | relative_url }}) · [deck]({{ '/tracks/ct/u-1-introduction-creativity/' | relative_url }}) |
-| U2 | Idea generation and selection techniques | pending forge |
+| U2 | Idea generation and selection techniques | **pilot** — [lesson]({{ '/lessons/en/creativity-techniques/u-2-idea-generation-selection/' | relative_url }}) · [deck]({{ '/tracks/ct/u-2-idea-generation-selection/' | relative_url }}) · Idea 1 integrated through `lesson-scribe`; Ideas 2–6 pending |
 | U3 | Development techniques and solutions | pending forge |
 | U4 | Applying creativity techniques in the workplace | pending forge |
 | U5 | Creativity and technology | pending forge |

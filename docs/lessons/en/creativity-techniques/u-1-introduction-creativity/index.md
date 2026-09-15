@@ -97,7 +97,7 @@ These six ideas are the Masterclass core. Short quotes are from the books we che
 You invent many options (**divergent**). Then you select what fits the needs of the brief (**convergent**). One creative job often needs both.
 
 > “The same creative act may involve both divergent and convergent thinking.”  
-> — (Craft 2003, 43)
+> — [(Craft 2003, 43)](#ref-craft-2003)
 
 #### 2 · Four skills you can train
 
@@ -109,19 +109,19 @@ Guilford’s four abilities (as summarised by Chen on the same page) give you a 
 - **Elaboration** — work the details and carry the idea through  
 
 > “Fluency - the ability to produce a large number of ideas or solutions to a problem rapidly.”  
-> — (Chen 2012, 41)
+> — [(Chen 2012, 41)](#ref-chen-2012)
 
 Csikszentmihalyi names a close triad for divergent work:
 
 > “It involves fluency, or the ability to generate a great quantity of ideas; flexibility, or the ability to switch from one perspective to another; and originality in picking unusual associations of ideas.”  
-> — (Csikszentmihalyi 2007, 8)
+> — [(Csikszentmihalyi 2007, 8)](#ref-csikszentmihalyi-2007)
 
 #### 3 · A test score is not the whole designer
 
 Scoring high on “how many uses for a brick / paper clip” is not the same as judgement inside a real brief or another art.
 
 > “After all, the ability of divergent thinking with a paper clip may tell us little about an individual's talent in music.”  
-> — (Chen 2012, 41)
+> — [(Chen 2012, 41)](#ref-chen-2012)
 
 #### 4 · Name the unclear problem first *(studio stance)*
 
@@ -201,6 +201,12 @@ Browse the [Directory]({{ '/directory/en/' | relative_url }}). Pick **two entrie
 
 ---
 
+## Conclusion
+
+This unit does not settle what creativity is; it hands you a habit and three sources. The four trainable skills come from cognitive-testing traditions that a whole other tradition — the reflective-practice line from Schön, the wicked-problems line from Buchanan, the design-thinking-as-discourse critique from Kimbell — argues *cannot* explain what actually happens in a studio; those primary extracts are still open procurement in this library, and reading one of them (start with a chapter, not a summary) is the next honest move after this class. What will you do with the gap between "I trained fluency this week" and "I made something that mattered"? The gap does not close here — that is the point; a lesson that resolves it too neatly would be teaching you the wrong thing about the field.
+
+---
+
 ## References
 
 - <span id="ref-chen-2012">Chen, Chaomei. 2012. *Turning Points: The Nature of Creativity*. Berlin: Springer. ISBN 9783642191602.</span>
@@ -212,5 +218,29 @@ Browse the [Directory]({{ '/directory/en/' | relative_url }}). Pick **two entrie
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
 MEDIA_RIGHTS_LINE: masterclass=diagram-fallback; geometrical=fractal-pass-track; profield_pack=assigned
+-->
+{% endif %}
+
+---
+
+## AI-assisted authorship
+
+Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) wrote this lesson in the
+crea-comm.net studio environment — a local agentic harness with MCP-backed
+retrieval, RAG context from the curriculum vault, and a scholar-voice model
+fine-tuned on his own writing. Forging consulted **3** vault sources; every
+public `(Author, Year)` was checked against that vault before acceptance.
+Prompts, model drafts, and human amendments are archived for later evaluation.
+Editorial judgment and responsibility for the final text remain with the author.
+
+*Forge date: 2026-09-14 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1*
+
+
+{% if site.publication.publish_internal_metadata %}
+<!-- lesson_uuid: 6a14de42-4848-49d0-9f12-85b8847133d5
+     vault_refs_consulted: 3
+     tuning_memory: ~/src/deviac/fine-tuning/thessia-tuning-memory/2026-09-14-6a14de42-ct-u1-retrofit/
+     forger_versions: ct-unit-forge=1.1, lesson-scribe=0.1 (retrofit), curriculum-forger=1.1, student-slideshow-forge=1.1 (2026-09-14 golden-rules amendment)
+     retrofit_note: U1 prose ideas 1–3 are page-verified against Craft 2003, Chen 2012, Csikszentmihalyi 2007. Ideas 4–6 are declared studio hypotheses pending primary extract (Buchanan, Schön, Kimbell). Slideshow "Debate" slide removed 2026-09-14 per operator instruction; lesson B2 Debate section preserved.
 -->
 {% endif %}

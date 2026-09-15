@@ -66,11 +66,35 @@ background_kind: profield | geometrical | diagram | none
 media_slot_id: U1.still.example   # when background_kind: profield
 portfolio_bound: true | false
 portfolio_trace: "Save … in the portfolio index."
-quote: "Optional brief verbatim quotation (≤ ~40 words) when page-verified."
+quote: "Optional brief quotation (≤ ~40 words) — Ahmes-verbatim or Tao invent (see golden rule 3)."
+quote_origin: ahmes | tao_invented   # required whenever quote is set
+semantic_tags: []   # DH metadata for the quote — see golden rule 3
 ```
 
 Student wording: prefer clear late-secondary / first-year voice. Prefer short verbs over managerial jargon. When a page-verified quote is brief and carries the main idea, put it on the slide *and* in the lesson.
-Public captions: title · credit · licence · source link. **Never** `resource_uuid`, `forger_version`, or review tags in square brackets.
+Public captions: title · credit · licence · source link. **Never** `resource_uuid`, `forger_version`, or review tags in square brackets. **Geometrical background slides** (`analysis_opener`, `lab_opener`, `workshop_opener`, `outro`) — their caption **must** include the SVG file UUID (the content-hash suffix visible in the filename, e.g. `ct-pass-01-structure.svg#a1b2c3`) so a forger pass can trace which specific fractal was shown. See §"Golden rules (2026-09-14)" below.
+
+**Image backgrounds (lab / workshop / analysis_model):** when the live deck shows a flat diagram or empty `none` where a fashion/design still should carry the idea, set `background_kind: profield` and a real `media_slot_id`. Do not leave `lab_exercise` or `workshop_work` on `none`/`diagram` if an accepted unit asset exists.
+
+## Golden rules (captured 2026-09-14 after live U1 teaching; quote rule revised 2026-09-15)
+
+Five rules override any conflicting habit above and bind every subsequent unit's slideshow:
+
+1. **Typography is a little bigger overall.** Base `.reveal` size is now `clamp(22px, 2.6vw, 38px)`; headings scale proportionally. Do **not** revert to the pre-2026-09-14 clamps just because a slide "looks empty." A row-8 teenager reading a projection must not squint — that is the acceptance test, not screenshot aesthetics.
+2. **Write every slide as if for a 17-year-old high-school teenager (golden rule).** Short sentences. Concrete verbs. One idea per slide. No managerial abstractions (`stakeholder alignment`, `strategic ideation`), no untethered jargon. If a sentence would not survive being read aloud to a curious teenager, rewrite it before it ships. Keep the register the same across all six units.
+3. **Quote hierarchy — Ahmes first; Tao invent when Ahmes has no brief match.** Every substantive slide (cover, analysis_model, masterclass, lab_exercise, workshop_work) should carry a brief, specific `quote:` that sharpens the sentence — not a paraphrase of the heading.
+   - **Prefer Ahmes.** Resolve via `semantic-quote` against a real `extraction.db` node with `evaluator_safe=yes`. Full provenance (coat, node_id, page_index, printed_page, verbatim) lives in a switch-gated Markdown comment in the **lesson** file. `content.json` carries the verbatim string + `quote_origin: ahmes` + `citation.label` (Chicago author-date) + `citation.href` (anchor into the lesson's References).
+   - **If no brief Ahmes match:** invent one line in the voice of **The Tao of Creativity** (CT/TC) and propose it into TTOD via `ttod-bridge` (never hand-edit `ttod.yml`). Set `quote_origin: tao_invented`, `citation.label: (Tao of Creativity)`, and `citation.href` to the course Tao / TTOD public surface when one exists. Invents are studio aphorisms, never disguised as scholarly quotation.
+   - **Semantic tags (required whenever `quote` is set).** Attach DH-aligned metadata on the slide object (not rendered to students by default):
+     - `semantic_tags.themes` — short controlled phrases (e.g. `idea-generation`, `lateral-thinking`, `authorship`)
+     - `semantic_tags.cidoc` — CIDOC-CRM classes when useful (e.g. `crm:E33_Linguistic_Object`, `crm:E73_Information_Object`)
+     - `semantic_tags.getty_aat` — Getty AAT-style labels when useful (e.g. `aphorisms`, `design (discipline)`)
+     - `semantic_tags.dcterms` — Dublin Core when useful (`dcterms:subject`, `dcterms:type=Text`)
+     - For Ahmes quotes also keep coat/node in the lesson's switch-gated comment (publication firewall).
+4. **`(Author, Year)` is always a link.** Every author-date citation on a slide **and** in the lesson body must be an anchor into that lesson's `## References` section (`href: #ref-<surname>-<year>` on the slide's `citation.href`, `<a href="#ref-...">(Author Year)</a>` in the lesson Markdown). A bare parenthetical `(Author 2003)` with no link is a defect — the same rule already binds U1's `(Craft 2003, 43)`, apply it forward. Tao invents use the Tao label + link instead of a fake scholarly author-date.
+5. **AI-declaration filiation** — authorship footer is Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) only. Never append `(ECSIT / UEM)` (see `ct-unit-forge` §4b).
+
+These rules are checked by cold review before a lesson's `status:` may move off `pilot`.
 
 ## Session arc (class time)
 

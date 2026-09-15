@@ -41,6 +41,15 @@ ideas:
     sentence: "Use useful tools — and ask when buzzwords hide weak craft."
     chicago: null
     stance: studio_hypothesis
+enrichment_pending_cites:
+  - source: "Castillo & Monteiro, *Ruined by Design* (2019) — coat 7e3296d5"
+    note: "Professor brief only until `--cite` resolves; supports design-ethics / buzzword critique without naming DevIAC in lessons."
+  - source: "Robin Williams, *The Non-Designer's Design Book* (2014) — coat 6d990cc9"
+    note: "Four basic principles as trainable visual fluency — pending Chicago metadata."
+  - source: "Austin Kleon, *Keep Going* (2019) — coat e0d11841"
+    note: "Routine-as-creative-practice counterpoint to talent myth; pending Chicago metadata."
+  - source: "Lidwell, *The Pocket Universal Principles of Design* (2015) — coat 2d1a2580"
+    note: "Constraint / principle vocabulary for buzzword critique; extracted + injected 2026-09-15; Chicago pending `--cite`."
 workshop_reminder:
   heading: Reminder · From session 3 you start the session
   sentence: "From session 3, two students open the class with a 15-minute analysis defence each. Use Workshop time now to outline that defence."

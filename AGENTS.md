@@ -19,4 +19,9 @@
 **Do:** open the matching PDF + guía JSON before forging; keep authority maps in pedagogy; author lessons under `docs/`.  
 **Don't:** invent hours beyond the official guía; invent competencies/contents; cite vector snippets; publish grounding; name UDIT or sibling institutions on student-facing surfaces.
 
-**Critical layer (C1–C3):** ideology; labour; GenAI authorship — lives in media vocab / pedagogy only; **not** fake CONTENIDOS rows.
+**Critical layer (C1–C3):** ideology; labour; GenAI authorship — lives in media
+vocab / pedagogy only; **not** fake CONTENIDOS rows. Together with deliverable
+**D2** (`DISCURSIVE-CIRCULATION-FORGE.mdc`: Steimberg transposition · Werhane
+moral imagination · Munari method/manifest), this is a **mandatory transversal
+CV critical layer** — every unit forge must hook at least one C1–C3 thread and
+name lenguaje/medio/soporte + one circulation moment.

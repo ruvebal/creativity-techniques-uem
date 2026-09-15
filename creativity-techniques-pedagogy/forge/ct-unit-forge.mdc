@@ -15,12 +15,12 @@ alwaysApply: false
 1. [`SESSION-RHYTHM-AND-DELIVERABLES.mdc`](./SESSION-RHYTHM-AND-DELIVERABLES.mdc) — Masterclass → Lab → Workshop; D1–D5; geometrical `lab_opener` / `workshop_opener` / `outro`.  
 2. [`UNIT-THEME-ENRICHMENT.mdc`](./UNIT-THEME-ENRICHMENT.mdc) pack for this unit is complete (`PROFESSOR.md` + `MAIN-IDEAS.yml`) — board: [`unit-enrichment/INDEX.md`](./unit-enrichment/INDEX.md).  
 3. Grounding synthesis read: [`../grounding/COMBINE-RELATE-DISCUSS.md`](../grounding/COMBINE-RELATE-DISCUSS.md) + [`../grounding/pass1.edited.md`](../grounding/pass1.edited.md) + unit row in [`../grounding/EVIDENCE-MATRIX.md`](../grounding/EVIDENCE-MATRIX.md).  
-4. [`DISCURSIVE-CIRCULATION-FORGE.mdc`](./DISCURSIVE-CIRCULATION-FORGE.mdc) — **critical review trans-unit** (D2); every unit names lenguaje/medio/soporte + one circulation moment.  
+4. [`DISCURSIVE-CIRCULATION-FORGE.mdc`](./DISCURSIVE-CIRCULATION-FORGE.mdc) — **critical review trans-unit** (D2) **and** the transversal CV critical layer (C1–C3). Every unit names lenguaje/medio/soporte + one circulation moment **and** at least one C1/C2/C3 hook in professor brief or Analysis method. Fail closed if missing — see that forge’s “Transversal critical layer” table. Priority D2 coats: Steimberg 2013 *Semióticas…transposición*; Werhane & Bevan 2026 *Moral Imagination*; Munari *The Circle* + manifesto anthology (quote after Ahmes).  
 5. [`STUDENT-SLIDESHOW-FORGE.mdc`](./STUDENT-SLIDESHOW-FORGE.mdc) spine respected (≤ 6 Masterclass ideas + mandatory Lab/Workshop frame slides).  
 6. Official contract: guía JSON — **150 h** presencial; contact-forgeable **80 h**; evaluation **60/40**.  
 7. Discover in vectors · **cite Ahmes nodes only** (or honest `chicago: null` for pilot).
 
-Do **not** invent CONTENIDOS. Critical layers C1–C3 are pedagogy-only. Student **Methods** stays practice-oriented.
+Do **not** invent CONTENIDOS. Critical layers **C1–C3** (ideology; labour; GenAI authorship) are pedagogy-only **and mandatory as a transversal CV layer** — they never become fake CONTENIDOS IDs, but a forged unit that omits them is incomplete. Student **Methods** stays practice-oriented.
 
 ## 1. Artefacts out
 
@@ -62,11 +62,131 @@ Map B1 → Masterclass · B2/Lab exercises → portfolio · B3/Workshop → next
 
 1. Enrichment pack (if missing)  
 2. Evidence matrix row  
-3. Lesson B1 prose from main ideas  
-4. B2 studio brief · B3 individual problem  
-5. Slideshow `content.json`  
-6. Publication gate  
+3. Slideshow `content.json` (spine + `MAIN-IDEAS.yml` sentences)  
+4. Lesson B1 prose from main ideas — **written by `lesson-scribe`** (§4a)  
+5. B2 studio brief · B3 individual problem  
+6. Publication gate + AI-usage declaration (§4b)  
+
+## 4a. Prose is written through `lesson-scribe`, not by the forger inline
+
+Every B1 paragraph of a CT lesson from U2 forward is drafted by the studio's
+[`lesson-scribe`](~/src/.cursor/skills/lesson-scribe/SKILL.md) skill —
+`ct-unit-forge` supplies structure, evidence, and cite rules; `lesson-scribe`
+orchestrates `thessia-scholar-v3` (local Ollama, per studio local-first
+covenant), records every prompt/response/amendment in
+`~/src/deviac/fine-tuning/thessia-tuning-memory/`, and returns integrated
+prose whose voice is checkable against previous units.
+
+The forger MUST hand `lesson-scribe` three grounded inputs per Masterclass
+idea (never a bare topic — the same discipline `tribune-forger` §4 already
+enforces):
+
+| Input | Source | What it contains |
+| ----- | ------ | ---------------- |
+| **(a) Thesis** | this unit's row in the course flow | one sentence naming which stream of the course this idea advances |
+| **(b) Grounded path** | `profield-creativity-techniques` + `unit-enrichment/U*/PROFESSOR.md` + `grounding/pass1.edited.md` | the reasonable path leading to this idea — which authors' consolidated positions, which trained abilities, which pass-1 findings |
+| **(c) Athanor findings** | `athanor search --project-slug profield-creativity-techniques` (+ cross-project neural search when a synergy is suspected) | synergies/sinastrias with related matches; explicit **gaps** kept for later, not smoothed away |
+
+Style contract (borrowed from `tribune-forger` §2c — Wilson axis, selective
+techniques): **be concrete, be precise, ask Thessia to be the author.** One
+main idea per paragraph (surprise). Secondary sentence: explanation + example.
+Tertiary sentence: explanation + open question. Closing sentence: discussion,
+counter-critics, paradoxical incapacity of closing — Thessia knows *antilism*;
+tell it to use, never to mention. Do not invent evidence; only cite what §6
+of `curriculum-forger` licenses.
+
+Length target per unit: **tribune-length lesson** (~1500–2200 words body,
+plus TOC + References) matching U1's shape. TOC via `{:toc}` after the H2.
+
+## 4a-bis. Every lesson ships a `## Conclusion` (pedagogical honesty section)
+
+Every forged lesson closes its body — **immediately before** `## References` —
+with a `## Conclusion` section that names the pedagogical bet: **identified
+gaps within related thematic fields can naturally emerge from a lesson like
+this, sparking learner motivation to explore and deepen their knowledge**.
+This is not a summary of what the lesson said; it is a short paragraph that
+tells the student what the lesson **did not close**, and why that is content,
+not embarrassment.
+
+Written in the operator's voice — teenager-legible, concrete, refused-close.
+Drafted through `lesson-scribe` under the same six-axis discipline as any
+Masterclass paragraph (its tuning-memory record slug is
+`<course>-u<N>-conclusion`).
+
+Boilerplate frame (fill per lesson — do not paste literally):
+
+```markdown
+## Conclusion
+
+<One paragraph, four sentences, tribune shape. Sentence 1 surprises with a
+concrete observation about what the unit *did not* settle. Sentence 2
+names one open thematic field the student could push into — with a real
+pointer (a book, a studio, a career path from the Directory), not a
+gesture. Sentence 3 asks the student what they will do with the gap.
+Sentence 4 closes without closing — the gap is the invitation.>
+```
+
+## 4b. Every lesson ships an AI-usage declaration + internal UUID/date
+
+Every forged lesson closes with an `## AI-assisted authorship` section that:
+
+1. States that **Rubén Vega Balbás, PhD** (`ruvebal@crea-comm.net`) **wrote**
+   the lesson — human authorship first, not a disclaimer afterthought.
+2. Names the crea-comm.net studio stack in plain roles (publication firewall —
+   no Ahmes/Athanor/DevIAC product names on the student surface): local
+   *agentic harness*, *MCP* retrieval, *RAG* over the curriculum vault, and a
+   *scholar-voice model* fine-tuned on the author's own writing; plus
+   page-verified extraction and a citation-fidelity gate.
+3. States how many vault sources were consulted for this forge
+   (`<vault_refs_n>` = count of `id="ref-…"` entries in `## References`,
+   including open BIBLIO-GAP rows that were still queried).
+4. **Never** appends `(ECSIT / UEM)` or other institutional parentheticals
+   in this footer.
+5. Carries an **internal UUID** (`lesson_uuid`) and **forge date** in a
+   switch-gated Markdown comment.
+
+Boilerplate (fill placeholders per lesson):
+
+```markdown
+## AI-assisted authorship
+
+Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) wrote this lesson in the
+crea-comm.net studio environment — a local agentic harness with MCP-backed
+retrieval, RAG context from the curriculum vault, and a scholar-voice model
+fine-tuned on his own writing. Forging consulted **<vault_refs_n>** vault
+sources; every public `(Author, Year)` was checked against that vault before
+acceptance. Prompts, model drafts, and human amendments are archived for
+later evaluation. Editorial judgment and responsibility for the final text
+remain with the author.
+
+*Forge date: <YYYY-MM-DD> · Studio: crea-comm.net · harness: `lesson-scribe` v0.1*
+
+{% if site.publication.publish_internal_metadata %}
+<!-- lesson_uuid: <UUIDv4>
+     vault_refs_consulted: <vault_refs_n>
+     tuning_memory: ~/src/deviac/fine-tuning/thessia-tuning-memory/<YYYY-MM-DD>-<uuid>-u<N>-<slug>/
+     forger_versions: ct-unit-forge=1.1, lesson-scribe=0.1, curriculum-forger=1.1
+-->
+{% endif %}
+```
 
 ## 5. Honest stop
 
-If enrichment is incomplete, **stop**. Do not forge a decorative lesson from vector snippets alone.
+If enrichment is incomplete, **stop**. Do not forge a decorative lesson from vector snippets alone. Same rule applies to `lesson-scribe`: if any of (a)/(b)/(c) above is empty or `chicago: null` beyond acceptable pilot status, the forger emits the lesson with an explicit **hypothesis** framing (as U1 already does for its "studio stance" ideas 4/5/6) rather than manufactured citations.
+
+## Cue enrichment corpus (2026-09-14)
+
+Batch stage: `~/src/profield/runs/creativity-techniques/20260914-cue-enrich/sources/`.
+Receipt: `~/src/deviac/fine-tuning/thessia-tuning-memory/registries/CT-U2-CUE-ENRICH-RECEIPT.md`.
+
+| Coat | Source | Notes for future units |
+| --- | --- | --- |
+| `574691eb` | Rubin 2023 *Creative Act* | Practice/listening/practice — practitioner, not peer-reviewed pedagogy |
+| `94897108` | Hüppauf & Wulf 2009 | Imagination ≠ creativity ≠ fantasy |
+| `9bdb76cd` | Lehrer 2012 *Imagine* | Popular science — name contradictions vs Craft/Csikszentmihalyi |
+| `12be32e4` | Smith 2013 turntablism | Collaboration / sampling / constraint |
+| `e77c3d8d` | Markman et al. 2009 handbook | Counterfactual / alternative thinking |
+| `178b47c2` | Avis 2013 | Creative imagination (theological/cultural) — light gap fill |
+| `591f5002` | de Bono Six Hats (Spanish Granica) | **BIBLIO-GAP** for English page cites; English 1981/1985 still owed |
+| `bb5aec96` | de Bono Lateral Thinking 1970 | Already in U2 — do not re-ingest |
+

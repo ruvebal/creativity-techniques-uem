@@ -1,0 +1,450 @@
+---
+layout: null
+---
+{
+  "unit_label": "Creativity Techniques · U2 Idea Generation and Selection",
+  "final_event_theme": "What is creativity for you?",
+  "media_selection": {
+    "unit_id": "U2",
+    "project_id": "tc",
+    "collection": "unit-accepted",
+    "strategy": "review-state-assigned",
+    "description": "Accepted/ranked Profield review-state assets assigned to tc/U2. Fill via `npm run media:rehydrate` once review-state.json ships U2 rows.",
+    "media_overrides": {}
+  },
+  "assets": [],
+  "slides": [
+    {
+      "slide_role": "unit_cover",
+      "background_kind": "diagram",
+      "heading": "U2 · Idea generation and selection techniques",
+      "sentence": "Creativity needs two rhythms: opening many doors, then closing most of them on purpose.",
+      "quote": "Lateral thinking is generative. Vertical thinking is selective.",
+      "quote_origin": "ahmes",
+      "semantic_tags": {
+        "themes": [
+          "generation-selection"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "creativity (concept)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text",
+          "dcterms:subject=generation-selection"
+        ]
+      },
+      "citation": {
+        "label": "(de Bono 1970, 9)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-debono-1970"
+      }
+    },
+    {
+      "slide_role": "analysis_opener",
+      "background_kind": "geometrical",
+      "heading": "Analysis opens the class",
+      "sentence": "From session 3: two students × 15 min defence each. Bring your D1 slideshow support.",
+      "quote": "From session three, the room belongs to whoever can defend what the piece is made of.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "analysis",
+          "defence"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text",
+          "dcterms:subject=analysis"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#tao-of-creativity"
+      }
+    },
+    {
+      "slide_role": "analysis_model",
+      "background_kind": "diagram",
+      "heading": "How to analyse (rolling model)",
+      "sentence": "Language · medium · support. Then ask where meaning travels — and how many options were closed to get here.",
+      "quote": "Name language, medium, and support — then ask how many ideas were considered before this one won.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "analysis",
+          "selection"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text",
+          "dcterms:subject=analysis"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#tao-of-creativity"
+      }
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "1 · Generate, then select",
+      "sentence": "Creativity needs both exploration and systematic evaluation — schedule both, never in the same minute.",
+      "quote": "In order to be able to use the provocative qualities of lateral thinking one must also be able to follow up with the selective qualities of vertical thinking.",
+      "quote_origin": "ahmes",
+      "semantic_tags": {
+        "themes": [
+          "generation-selection"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "creativity (concept)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text",
+          "dcterms:subject=generation-selection"
+        ]
+      },
+      "citation": {
+        "label": "(de Bono 1970, 12)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-debono-1970"
+      }
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "2 · Fluency with flexibility",
+      "sentence": "Many ideas only help if they differ — twenty suns is fluency thirty, flexibility one.",
+      "quote": "Lateral thinking is generative. Vertical thinking is selective.",
+      "quote_origin": "ahmes",
+      "semantic_tags": {
+        "themes": [
+          "fluency",
+          "flexibility"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "creativity (concept)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text",
+          "dcterms:subject=fluency"
+        ]
+      },
+      "citation": {
+        "label": "(de Bono 1970, 9)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-debono-1970"
+      }
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "3 · Block the obvious first",
+      "sentence": "Original responses need you to notice and refuse the first automatic answer — dig a different hole.",
+      "quote": "You cannot dig a hole in a different place by digging the same hole deeper.",
+      "quote_origin": "ahmes",
+      "semantic_tags": {
+        "themes": [
+          "lateral-thinking",
+          "obvious-answer"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "creativity (concept)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text",
+          "dcterms:subject=lateral-thinking"
+        ]
+      },
+      "citation": {
+        "label": "(de Bono 1970, 9)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-debono-1970"
+      }
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "4 · Role and constraint tools",
+      "sentence": "Hats and cards stage a cognitive move — provocation first, selective follow-up second. English Six Hats page cites still open.",
+      "quote": "With lateral thinking one uses information not for its own sake but provocatively in order to bring about repatterning.",
+      "quote_origin": "ahmes",
+      "semantic_tags": {
+        "themes": [
+          "provocation",
+          "six-hats"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "creativity (concept)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text",
+          "dcterms:subject=provocation"
+        ]
+      },
+      "citation": {
+        "label": "(de Bono 1970, 12)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-debono-1970"
+      }
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "5 · Name selection criteria",
+      "sentence": "Convergent choice needs explicit novelty and fitness-to-brief tests — name your criteria before you rank.",
+      "quote": "Editing is a demonstration of taste. It isn't expressed through pointing to items we like… Our taste is revealed in how our work is curated.",
+      "quote_origin": "ahmes",
+      "semantic_tags": {
+        "themes": [
+          "selection",
+          "criteria"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "creativity (concept)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text",
+          "dcterms:subject=selection"
+        ]
+      },
+      "citation": {
+        "label": "(Rubin 2023, 123)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-rubin-2023"
+      }
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "6 · Workshops are means, not genius",
+      "sentence": "Fluency training supports practice; landmark ideas are rare — workshops train the hand, not replace genius myths.",
+      "quote": "Artists are often portrayed in films and books as tortured geniuses. Starving, self-destructive, dancing on the brink of madness.",
+      "quote_origin": "ahmes",
+      "semantic_tags": {
+        "themes": [
+          "practice",
+          "genius-myth"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "creativity (concept)"
+        ],
+        "dcterms": [
+          "dcterms:type=Text",
+          "dcterms:subject=practice"
+        ]
+      },
+      "citation": {
+        "label": "(Rubin 2023, 103)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-rubin-2023"
+      }
+    },
+    {
+      "slide_role": "lab_opener",
+      "background_kind": "geometrical",
+      "heading": "Lab · Portfolio",
+      "sentence": "Exercises come next. Everything you make in Lab goes into your portfolio index.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Open or update the portfolio index before you leave.",
+      "quote": "What you save in the portfolio index is proof you were here — not decoration.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "portfolio",
+          "lab"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text",
+          "dcterms:subject=portfolio"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#tao-of-creativity"
+      }
+    },
+    {
+      "slide_role": "lab_exercise",
+      "background_kind": "none",
+      "heading": "Exercise 1 · Thirty circles, six minutes",
+      "sentence": "Thirty blank circles. Six minutes. Fill as many as you can with distinct, recognisable objects — do not repeat a type.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Save the sheet + a one-line fluency-vs-flexibility note in the portfolio index.",
+      "quote": "Thirty circles in six minutes teaches your hand faster than any lecture on originality.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "fluency",
+          "exercise"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text",
+          "dcterms:subject=fluency"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#tao-of-creativity"
+      }
+    },
+    {
+      "slide_role": "lab_exercise",
+      "background_kind": "none",
+      "heading": "Exercise 2 · Oblique Strategies, on your D1",
+      "sentence": "Draw one Oblique Strategies card. Apply the prompt to your D1 object for 10 minutes. What shifted, what did not?",
+      "portfolio_bound": true,
+      "portfolio_trace": "Save card + before/after paragraph + one sentence on when it did (or did not) help.",
+      "quote": "One card, ten minutes — let the constraint argue with your first idea.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "oblique-strategies",
+          "constraint"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text",
+          "dcterms:subject=oblique-strategies"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#tao-of-creativity"
+      }
+    },
+    {
+      "slide_role": "lab_exercise",
+      "background_kind": "none",
+      "heading": "Exercise 3 · Selection rubric on paper",
+      "sentence": "Score your best three ideas on novelty and fitness-to-brief (1–5). Rank them and defend the winner in one paragraph.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Save the scoring sheet + one paragraph of defence.",
+      "quote": "Selection is not rejection of imagination — it is imagination choosing what survives the brief.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "selection",
+          "rubric"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text",
+          "dcterms:subject=selection"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#tao-of-creativity"
+      }
+    },
+    {
+      "slide_role": "workshop_opener",
+      "background_kind": "geometrical",
+      "heading": "Workshop · Deliverable",
+      "sentence": "Protected time on your next D1 defence — apply today's tools to your own piece."
+    },
+    {
+      "slide_role": "workshop_work",
+      "background_kind": "diagram",
+      "heading": "Reminder · From session 3 you start the session",
+      "sentence": "Two 15-minute defences open the class. Use today's Workshop to add a generate/select frame to your analysis.",
+      "quote": "From session three, the room belongs to whoever can defend what the piece is made of.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "defence",
+          "d1"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text",
+          "dcterms:subject=defence"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#tao-of-creativity"
+      }
+    },
+    {
+      "slide_role": "outro",
+      "background_kind": "geometrical",
+      "heading": "Carry forward",
+      "sentence": "Portfolio index updated. Selection rubric drafted. Open question: whose criteria decide what counts as 'novel'?",
+      "quote": "Whose criteria decide what counts as novel — yours, the brief's, or the room's?",
+      "quote_origin": "tao_invented",
+      "semantic_tags": {
+        "themes": [
+          "selection",
+          "ethics"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms"
+        ],
+        "dcterms": [
+          "dcterms:type=Text",
+          "dcterms:subject=selection"
+        ]
+      },
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#tao-of-creativity"
+      }
+    }
+  ]
+}

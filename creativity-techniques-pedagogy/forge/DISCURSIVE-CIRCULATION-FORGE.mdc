@@ -22,6 +22,31 @@ teach **forms as they travel**.
 
 Canonical frame: **circulación discursiva** (discursive circulation) — Verón,
 Steimberg, Carlón — with Anglo-Saxon contact in Hall’s encoding/decoding.
+**Moral imagination** (Werhane & Bevan) grounds the *ethical* stake of
+transposition: individuals and organisations must imagine consequences across
+stakeholders before a technique is put into circulation. **Munari** (method
+manifestos + *The Circle*) grounds the *design-practice* stake: discovery by
+constraint, not originality theatre.
+
+## Transversal critical layer (binding · CV-wide · not CONTENIDOS)
+
+This forge **and** the soft-skill critical vocabulary **C1–C3** (ideology;
+labour; GenAI authorship — see `AGENTS.md`, `oficial-guia-framework.mdc`,
+`grounding/EVIDENCE-MATRIX.md`) are a **mandatory transversal CV critical
+layer**. They are **not** optional colour and **not** fake CONTENIDOS rows.
+
+| Layer | Owns | Student surface |
+| ----- | ---- | --------------- |
+| **D2 / this forge** | Meaning-in-circulation · lenguaje/medio/soporte · desajuste · palimpsest · moral imagination | Deliverable D2 + every unit’s Analysis triad note |
+| **C1 ideology** | Soft-skill theatre; technique-as-ideology; buzzword critique | Lesson framing / media tags — never a fake unit ID |
+| **C2 labour** | Creative labour; unpaid ideation; hustle culture | Especially U4 · also D2 when transposition exploits unpaid attention |
+| **C3 GenAI authorship** | Disclosure; assessment integrity; authorship ethics | Portfolio / AI declaration · D2 process trail |
+
+**Fail closed:** a unit forge that ships without (a) one triad location, (b) one
+circulation moment, and (c) an explicit C1–C3 *hook* (even one sentence in the
+professor brief or Analysis method) is incomplete. D2 without Steimberg-grade
+genre/style/transposition vocabulary **or** Werhane-grade moral imagination
+stake is incomplete.
 
 ## Pedagogical thesis (binding)
 
@@ -150,6 +175,20 @@ stay project/problem/critique/prototyping/process (see `/methods/en/`).
 
 ## Bibliographic spine (professor; resolve before student Chicago)
 
+**Priority coats for D2 (ingest 2026-09-15 · stage
+`~/src/profield/runs/creativity-techniques/20260915-critical-ground/`):**
+
+| Role | Work | Use |
+| ---- | ---- | --- |
+| Transposition / géneros · estilos | Steimberg, O. (2013). *Semióticas. Las semióticas de los géneros, de los estilos, de la transposición.* Eterna Cadencia. | Primary D2 theory for genre/style/transposition — prefer this edition over older Atuel mass-media title when citing transposition |
+| Moral imagination | Werhane, P. H., & Bevan, D. J. (2026). *Moral Imagination in the Twenty-first Century: Individuals and Organizations.* Cambridge University Press. DOI 10.1017/9781009565875 | Ethical stake of putting techniques into circulation; organisations + individuals |
+| Method / constraint | Munari, B. (2009). *The Circle: Discovery of the Circle.* Maurizio Corraini. | Design discovery by form-constraint — practice counterweight to originality theatre |
+| Manifests / quoting | Hausmann / Munari / McLuhan / et al. manifesto anthology (studio bibliography `munari_bruno/`) | Short manifesto quotes for Lab/Workshop prompts — treat as historical utterances; page-verify before Chicago |
+
+Ahmes resolve + `semantic-quote` before any student-facing verbatim. Until
+`evaluator_safe=yes`, keep claims as teaching questions and mark gaps only in
+gated provenance.
+
 ### Triad / multimodality
 
 - Chandler, D. (2017). *Semiotics: The Basics* (3rd ed.). Routledge.
@@ -162,9 +201,19 @@ stay project/problem/critique/prototyping/process (see `/methods/en/`).
 
 - Verón, E. (1987). *La semiosis social: Fragmentos de una teoría de la discursividad*. Gedisa.
 - Verón, E. (2013). *La semiosis social, 2: Ideas, momentos, interpretantes*. Paidós.
-- Steimberg, O. (1993/2013). *Semiótica de los medios masivos*. Atuel.
+- Steimberg, O. (2013). *Semióticas. Las semióticas de los géneros, de los estilos, de la transposición.* Eterna Cadencia. *(canonical D2 edition — see priority table)*
+- Steimberg, O. (1993/2013). *Semiótica de los medios masivos*. Atuel. *(mass-media companion; do not use as the sole transposition cite)*
 - Carlón, M., & Scolari, C. A. (Eds.). (2009). *El fin de los medios masivos*. La Crujía.
 - Hall, S. (1980). “Encoding/Decoding.” In *Culture, Media, Language*. Hutchinson.
+
+### Moral imagination / organisational ethics (D2 stake)
+
+- Werhane, P. H., & Bevan, D. J. (2026). *Moral Imagination in the Twenty-first Century.* Cambridge University Press.
+
+### Design method / manifesto (practice grounding)
+
+- Munari, B. (2009). *The Circle: Discovery of the Circle.* Maurizio Corraini.
+- Manifest anthology including Munari (bibliography `munari_bruno/` — quote only after Ahmes page-verify).
 
 ## Relation to other forges
 

@@ -27,3 +27,14 @@ ideas:
     heading: Workshops are means, not genius
     sentence: Fluency training supports practice; landmark ideas are rare and generative.
     chicago: null
+enrichment_pending_cites:
+  - source: "Castillo & Monteiro, *Ruined by Design* (2019) — coat 7e3296d5"
+    note: "Vectors ingested; semantic-quote OK; Ahmes `--cite` still BIBLIO-GAP — use for professor brief / future U4 ethics bridge, not student Chicago until force-meta."
+  - source: "Robin Williams, *The Non-Designer's Design Book* (2014) — coat 6d990cc9"
+    note: "Proximity/alignment/repetition/contrast chapter useful for generate/select framing; cite metadata pending."
+  - source: "Austin Kleon, *Keep Going* (2019) — coat e0d11841"
+    note: "Daily practice / routine stance for U6 personal-development synergy; cite metadata pending."
+  - source: "Lidwell, *The Pocket Universal Principles of Design* (2015) — coat 2d1a2580"
+    note: "Extracted + vector/Athanor injected 2026-09-15; pair with Williams CRAP for constraint-tool vocabulary. Chicago body cites pending Ahmes `--cite`."
+  - source: "de Bono, *Six Thinking Hats* (filename Little Brown 1985) — coat 7e7ba834"
+    note: "Extracted 1323 nodes but Docling text is Spanish/mangled — keep English BIBLIO-GAP; do not close with this coat."

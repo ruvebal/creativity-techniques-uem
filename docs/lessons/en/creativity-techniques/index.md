@@ -30,7 +30,8 @@ Full contract: [How to Pass]({{ '/tracks/ct/how-to-pass-this-track/' | relative_
 | Unit | Title | Lesson | Slideshow |
 | --- | --- | --- | --- |
 | U1 | Introduction to creativity and its importance | [Lesson]({{ '/lessons/en/creativity-techniques/u-1-introduction-creativity/' | relative_url }}) | [Deck]({{ '/tracks/ct/u-1-introduction-creativity/' | relative_url }}) |
-| U2–U6 | (pending forge) | — | — |
+| U2 | Idea generation and selection techniques | [Lesson]({{ '/lessons/en/creativity-techniques/u-2-idea-generation-selection/' | relative_url }}) | [Deck]({{ '/tracks/ct/u-2-idea-generation-selection/' | relative_url }}) |
+| U3–U6 | (pending forge) | — | — |
 
 ## Deliverables (course-wide)
 

@@ -20,6 +20,6 @@
 | U5 | Authorship / prompt documentation under GenAI | DC slug fashion/studio GenAI papers | candidate | — | Ladder: design general, not fashion-only claims |
 | U6 | Creative confidence mediates potential→action | Beghetto & Karwowski *Creative Agency Unbound* | candidate | — | Primary U6 scholarly spine |
 | U6 | Creative Confidence popularisation | Kelley & Kelley 2013 | candidate | — | Practitioner companion |
-| C1–C3 | Soft-skill / labour / GenAI ethics lenses | fieldlex critical_layer + Pass-1 | pedagogy | — | Never fake CONTENIDOS units |
+| C1–C3 + D2 | Soft-skill / labour / GenAI ethics **and** discursive transposition (Steimberg · Werhane moral imagination · Munari method/manifest) | fieldlex critical_layer + Pass-1 + `DISCURSIVE-CIRCULATION-FORGE.mdc` | pedagogy · D2 | Ahmes coats staged 2026-09-15 under `20260915-critical-ground/` | Never fake CONTENIDOS units; fail closed if unit forge omits triad + C1–C3 hook |
 
 **NONE / open blanks (Pass-1):** peer-reviewed HE technique-repertoire pedagogy; Ibero layer; systematic GenAI process-vs-product assessment beyond conference papers.
