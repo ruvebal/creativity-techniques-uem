@@ -78,7 +78,7 @@ Indicative 120 minutes:
 | ---------- | ---------- |
 | Masterclass idea / look / analyse / concept | Accepted **Profield** media (or course diagram) |
 | **Lab opener** — “Exercises now — they go into your portfolio” | **Geometrical only** (`fractal-pass-track`) |
-| Lab exercise slides | Profield or plain text on theme |
+| Lab exercise slides (**exactly two** per unit) | Profield or plain text on theme |
 | **Workshop opener** — from session 4 only (“Transposition / final event”) | **Geometrical only** |
 | **Outro / carry-forward** | **Geometrical only** |
 | Masterclass diagram fallback (no pack image) | **Koch triangle** (`generate-koch-triangle.mjs`) — not Sierpinski |
@@ -93,7 +93,7 @@ background_kind: profield | geometrical | diagram | none
 portfolio_bound: true | false
 ```
 
-`unit_cover` MUST open **Creativity Techniques** unit decks (title / stake); `analysis_opener` follows immediately. Digital Creativity may keep its existing cover slot naming. The student **lesson** (TC) MUST include Analysis method prose (not deck-only). `lab_opener` MUST appear **immediately before** the first `lab_exercise`.
+`unit_cover` MUST open **Creativity Techniques** unit decks (title / stake); `analysis_opener` follows immediately. Digital Creativity may keep its existing cover slot naming. The student **lesson** (TC) MUST include Analysis method prose (not deck-only). `lab_opener` MUST appear **immediately before** the first `lab_exercise`. Forge **exactly two** `lab_exercise` slides per ordinary unit (lesson B2 matches).
 
 ---
 

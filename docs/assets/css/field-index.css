@@ -111,14 +111,17 @@
 	z-index: 20;
 	margin: 0 0 2rem;
 	padding: 0.85rem 1rem;
-	background: color-mix(in oklab, var(--bg), var(--ct-flame-4) 12%);
-	border: 1px solid var(--border-light);
+	/* Opaque sticky bar — never transparent over scrolling cards */
+	background: #ffffff;
+	border: 1px solid rgb(226 232 240);
 	border-radius: 0;
+	box-shadow: 0 0.35rem 1rem rgb(15 23 42 / 0.08);
 }
 
 .dark .field-index__toc {
-	background: color-mix(in oklab, var(--background), var(--ct-flame-2) 18%);
-	border-color: color-mix(in oklab, var(--border-light), black 40%);
+	background: #0f172a;
+	border-color: rgb(51 65 85);
+	box-shadow: 0 0.35rem 1rem rgb(0 0 0 / 0.35);
 }
 
 .field-index__toc-label {

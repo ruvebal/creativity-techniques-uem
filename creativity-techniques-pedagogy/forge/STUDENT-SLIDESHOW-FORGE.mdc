@@ -36,11 +36,13 @@ A  analysis_opener                  background_kind: geometrical   ← REQUIRED
 A+ analysis_model (optional)        background_kind: profield
 1… Masterclass ideas (≤ 6)          background_kind: profield | diagram
 N  lab_opener                       background_kind: geometrical   ← REQUIRED
-N+ Lab exercises (portfolio_bound)  background_kind: profield | none
+N+1…N+2  Exactly two Lab exercises (portfolio_bound)  background_kind: profield | none
 M  workshop_opener                  background_kind: geometrical   ← from session 4 only
 M+ Workshop work prompt             background_kind: none | diagram | profield
 Z  outro / carry-forward            background_kind: geometrical   ← REQUIRED
 ```
+
+**Lab exercise count (binding):** **exactly two** `lab_exercise` slides per ordinary unit — concentrate meaning into those two; do not forge three or more. Lesson B2 must match.
 
 **First lessons (sessions 1–3):** omit `workshop_opener` / `workshop_work` entirely — session ends after Lab. Do not invent side deliverables. **D1 Analysis** never receives Workshop clock. **From session 4:** Workshop ≈½ **D2 Transposition** · ≈½ **D3 final event**.
 
@@ -48,7 +50,7 @@ Z  outro / carry-forward            background_kind: geometrical   ← REQUIRED
 
 `lab_opener` sentence (fixed intent, wording may vary slightly):
 
-> Exercises come next. Everything you produce in Lab goes into your **portfolio index**.
+> Two exercises come next. Everything you produce in Lab goes into your **portfolio index**.
 
 The student **lesson** must contain the Analysis method in prose (language / medium / support + when defences start). Do not leave analysis only on the deck.
 ## Background law
@@ -105,7 +107,7 @@ These rules are checked by cold review before a lesson's `status:` may move off 
 | ----- | ---- | ---------------- |
 | Analysis strip | Modelled analysis (s1–2) or 2×15 min defences (from s3) | D1 slideshow support |
 | Masterclass | Ideas + images | notes |
-| Lab | Exercises + debates | portfolio traces |
+| Lab | **Exactly two** exercises + debates | portfolio traces |
 | Workshop | **Absent** in first lessons; from **s4**: ≈½ Transposition · ≈½ final event | D2–D3 progress only |
 
 Critical review / transposition: [`DISCURSIVE-CIRCULATION-FORGE.mdc`](./DISCURSIVE-CIRCULATION-FORGE.mdc) → **D2**.

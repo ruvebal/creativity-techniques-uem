@@ -13,7 +13,7 @@ layout: default
         <h2 class="lesson-subtitle">{{ page.title_alt | escape }}</h2>
         {% endif %}
       </div>
-      {% if page.status %}
+      {% if site.publication.publish_internal_metadata and page.status %}
       {% assign status_lower = page.status | downcase %}
       <span class="lesson-status status-{{ page.status | downcase | replace: ' ', '-' }} flex-shrink-0">
         {% if status_lower == 'finished' or status_lower == 'terminado' %}
