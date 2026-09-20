@@ -36,11 +36,13 @@ Official weights come from the UEM guía (Design degree). Studio choreography an
 | **D2 Transposition** | Free format · discursive circulation / palimpsest (critical review) | Delivery / presentation |
 | **D3 Atrium** | Tech script + live defence · *What is creativity for you?* | Delivery / presentation |
 | **D4 Portfolio index** | Lab exercises + D1–D3 in one index | Both (process evidence) |
-| **D5 Exam** | Test/questionnaire + final self-review of portfolio process | Knowledge tests (+ process) |
+| **D5 Exam** | Critical demonstration of course understanding + final self-review of portfolio process | Knowledge tests (+ process) |
 
 ## D4 · Final Portfolio Notebook
 
 The [full assignment brief and rubric]({{ '/assignments/en/creativity-techniques-portfolio/' | relative_url }}) is published from the beginning of the semester. Start the notebook in the first Lab: it is the day-by-day bitácora of your transit across the subject, not a last-minute collection of finished pieces.
+
+The portfolio is the **basement of the final exam**. The exam is a critical demonstration of what you have understood and how you can analyse your own creative decisions. Strong daily Lab evidence gives you the material to make that demonstration precise.
 
 ### D1 intra-rubric
 

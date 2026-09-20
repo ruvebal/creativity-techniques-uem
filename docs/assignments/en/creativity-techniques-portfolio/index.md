@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: lesson
 title: 'Final Portfolio Notebook — Creativity Techniques'
 lang: en
+slug: creativity-techniques-portfolio
 permalink: /assignments/en/creativity-techniques-portfolio/
 description: 'The final process notebook for Creativity Techniques: a day-by-day record of making, thinking, testing, and choosing.'
 ---
@@ -23,6 +24,12 @@ Creativity Techniques leaves the format open. Your notebook may be a carefully e
 The official guide frames this subject around activating creativity in professional contexts, generating ideas from several perspectives, developing solutions, and adapting them to constraints. It also names critical, creative, and reflective thinking; initiative; time planning; innovation; communication; and autonomous problem solving as relevant outcomes.
 
 The notebook makes those outcomes visible. A finished artefact can show what you made; a process notebook can also show what you noticed, why you changed direction, what you rejected, how feedback affected you, and what you can now explain. Treat the portfolio as a conversation with your own practice: each entry should help a reader understand not only the result, but the next question it opened.
+
+## The portfolio is the basement of the final exam
+
+The final exam is a **critical demonstration of the understanding gained during the course**. It is not an unrelated performance that begins at the end of the semester. Your portfolio is its basement: the daily traces, decisions, experiments, feedback, and revisions give you the evidence from which you can build a precise critical response.
+
+The better your daily Lab work, the better prepared you will be for the final exam. Keep the notebook alive, because the exam will ask you to interpret your process, connect techniques to decisions, explain what changed, and defend your judgement — not merely remember vocabulary.
 
 ## What to submit at the end of the semester
 
