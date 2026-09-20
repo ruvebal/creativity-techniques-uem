@@ -6,7 +6,9 @@ ideas:
   - id: 1
     heading: Generate, then select
     sentence: Creativity needs both exploration and systematic evaluation — schedule both.
-    chicago: null
+    quote: "To solve an interesting problem, start by finding a problem that is interesting to you."
+    quote_origin: page_verified
+    chicago: "(Raymond 2001, 62)"
   - id: 2
     heading: Fluency with flexibility
     sentence: Many ideas only help if they differ; variants of one idea still count as one.
@@ -18,7 +20,9 @@ ideas:
   - id: 4
     heading: Role and constraint tools
     sentence: Hats and prompt cards change the social and cognitive frame of the session.
-    chicago: null
+    quote: "Any tool should be useful in the expected way, but a truly great tool lends itself to uses you never expected."
+    quote_origin: page_verified
+    chicago: "(Raymond 2001, 57)"
   - id: 5
     heading: Name selection criteria
     sentence: Convergent choice needs explicit novelty and fitness-to-brief tests.

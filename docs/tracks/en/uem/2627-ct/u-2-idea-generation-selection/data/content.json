@@ -193,8 +193,12 @@ layout: null
       "background_kind": "diagram",
       "heading": "1 · Generate, then select",
       "sentence": "Creativity needs both exploration and systematic evaluation — schedule both, never in the same minute.",
-      "quote": "In order to be able to use the provocative qualities of lateral thinking one must also be able to follow up with the selective qualities of vertical thinking.",
+      "quote": "To solve an interesting problem, start by finding a problem that is interesting to you.",
       "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Raymond 2001, 62)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-raymond-2001"
+      },
       "semantic_tags": {
         "themes": [
           "generation-selection"
@@ -276,8 +280,12 @@ layout: null
       "background_kind": "diagram",
       "heading": "4 · Role and constraint tools",
       "sentence": "Hats and cards stage a cognitive move — provocation first, selective follow-up second. English Six Hats page cites still open.",
-      "quote": "With lateral thinking one uses information not for its own sake but provocatively in order to bring about repatterning.",
+      "quote": "Any tool should be useful in the expected way, but a truly great tool lends itself to uses you never expected.",
       "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Raymond 2001, 57)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-raymond-2001"
+      },
       "semantic_tags": {
         "themes": [
           "provocation",
