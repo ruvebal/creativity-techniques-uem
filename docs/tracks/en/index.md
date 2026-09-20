@@ -21,6 +21,8 @@ permalink: /tracks/en/
     </li>
   </ul>
 
+  <p><a href="{{ '/assignments/en/creativity-techniques-portfolio/' | relative_url }}"><strong>Final Portfolio Notebook and rubric →</strong></a></p>
+
   <hr />
   <p><a href="{{ '/methodology/en/' | relative_url }}">Methodology →</a></p>
 </div>

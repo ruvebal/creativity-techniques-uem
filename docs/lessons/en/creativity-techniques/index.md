@@ -25,6 +25,8 @@ Geometrical backgrounds are reserved for Lab opener, Workshop opener, and outro.
 
 Full contract: [How to Pass]({{ '/tracks/ct/how-to-pass-this-track/' | relative_url }}) · [Evaluation]({{ '/evaluation/' | relative_url }}).
 
+Start the [Final Portfolio Notebook]({{ '/assignments/en/creativity-techniques-portfolio/' | relative_url }}) now. Every Lab trace will eventually belong there.
+
 ## Units
 
 | Unit | Title | Lesson | Slideshow |

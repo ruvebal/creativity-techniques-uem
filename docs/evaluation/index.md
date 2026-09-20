@@ -16,8 +16,8 @@ Official weights come from the UEM guía (Design degree). Studio choreography an
 
 | Instrument | Weight |
 | --- | ---: |
-| Knowledge tests (*Pruebas de conocimiento*) | **60%** |
-| Delivery and/or presentation of work | **40%** |
+| Knowledge tests (*Pruebas de conocimiento*) | **70%** |
+| Delivery and/or presentation of work | **30%** |
 
 ## Session rhythm (every ordinary class)
 
@@ -37,6 +37,10 @@ Official weights come from the UEM guía (Design degree). Studio choreography an
 | **D3 Atrium** | Tech script + live defence · *What is creativity for you?* | Delivery / presentation |
 | **D4 Portfolio index** | Lab exercises + D1–D3 in one index | Both (process evidence) |
 | **D5 Exam** | Test/questionnaire + final self-review of portfolio process | Knowledge tests (+ process) |
+
+## D4 · Final Portfolio Notebook
+
+The [full assignment brief and rubric]({{ '/assignments/en/creativity-techniques-portfolio/' | relative_url }}) is published from the beginning of the semester. Start the notebook in the first Lab: it is the day-by-day bitácora of your transit across the subject, not a last-minute collection of finished pieces.
 
 ### D1 intra-rubric
 
