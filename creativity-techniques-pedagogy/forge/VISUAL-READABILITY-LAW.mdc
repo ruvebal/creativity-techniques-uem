@@ -1,0 +1,9 @@
+# Visual readability law
+
+This rule applies to every forged lesson, assignment, and student-facing page.
+
+- Use one semantic graph per lesson surface; never repeat the same graph in hero, media, cards, or slideshow.
+- Keep page-art/friso assets archived, but exclude them from lesson HTML by default. Opt in only with an explicit page-level flag.
+- Text must never collide with nodes, controls, forms, captions, tables, or navigation. Reserve text-safe zones and move copy into a theme surface when needed.
+- Jekyll Markdown tables must fit their content without breaking words: use intrinsic table width with horizontal scrolling at the container edge, `word-break: normal`, `overflow-wrap: normal`, `hyphens: none`, and ordinary whitespace wrapping. Never use `break-all` or syllable-level wrapping as a table-layout repair.
+- Verify generated HTML after every forge: no duplicate graph, no page-art figure added by default, no quote decoration collision, and no broken table words.

@@ -632,7 +632,9 @@ html.dark,
 }
 .prose table {
 	display: block; /* intrinsic: allow horizontal scrolling if needed */
-	inline-size: 100%;
+	inline-size: max-content;
+	min-inline-size: 100%;
+	max-inline-size: none;
 	overflow-x: auto;
 	-webkit-overflow-scrolling: touch;
 	border: 1px solid var(--border-light);
@@ -652,7 +654,11 @@ html.dark,
 	text-align: left;
 	vertical-align: top;
 	border-bottom: 1px solid var(--border-light);
-	word-break: break-word;
+	/* Preserve whole words. Wide tables scroll; they do not force syllable-level wraps. */
+	word-break: normal;
+	overflow-wrap: normal;
+	hyphens: none;
+	white-space: normal;
 }
 .prose table th {
 	font-weight: 700;

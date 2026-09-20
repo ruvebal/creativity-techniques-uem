@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 560" role="img" aria-labelledby="portfolio-practice-research-title portfolio-practice-research-desc">
+  <title id="portfolio-practice-research-title">Practice–research loop</title>
+  <desc id="portfolio-practice-research-desc">A semantic diagram showing a portfolio as a practice–research loop: question, make, observe, revise, and situated knowledge.</desc>
+  <defs>
+    <linearGradient id="ct-ground" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#172033"/><stop offset="1" stop-color="#071018"/></linearGradient>
+    <marker id="ct-arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#A7F3D0"/></marker>
+  </defs>
+  <rect width="1600" height="560" fill="url(#ct-ground)"/>
+  <g fill="none" stroke="#A7F3D0" stroke-opacity=".22" stroke-width="2"><path d="M270 280 C350 90 570 70 690 180"/><path d="M780 165 C980 80 1210 130 1325 270"/><path d="M1320 330 C1190 495 975 505 850 390"/><path d="M690 390 C560 505 360 465 275 325"/></g>
+  <g fill="none" stroke="#A7F3D0" stroke-width="3" marker-end="url(#ct-arrow)"><path d="M315 225 C390 130 525 125 610 180"/><path d="M880 160 C1000 120 1140 160 1240 230"/><path d="M1270 355 C1165 430 1035 445 930 395"/><path d="M650 405 C525 455 395 415 330 340"/></g>
+  <g font-family="Inter, ui-sans-serif, system-ui, sans-serif" text-anchor="middle">
+    <g transform="translate(280 280)"><polygon points="0,-92 92,0 0,92 -92,0" fill="#34D399" fill-opacity=".20" stroke="#6EE7B7" stroke-width="2"/><text y="-10" fill="#ECFDF5" font-size="20" letter-spacing="2">QUESTION</text><text y="25" fill="#D1FAE5" font-size="16">frame a problem</text></g>
+    <g transform="translate(700 150)"><polygon points="0,-92 92,0 0,92 -92,0" fill="#FBBF24" fill-opacity=".20" stroke="#FCD34D" stroke-width="2"/><text y="-10" fill="#FFFBEB" font-size="20" letter-spacing="2">MAKE</text><text y="25" fill="#FEF3C7" font-size="16">test in action</text></g>
+    <g transform="translate(1320 280)"><polygon points="0,-92 92,0 0,92 -92,0" fill="#60A5FA" fill-opacity=".20" stroke="#93C5FD" stroke-width="2"/><text y="-10" fill="#EFF6FF" font-size="20" letter-spacing="2">OBSERVE</text><text y="25" fill="#DBEAFE" font-size="16">notice effects</text></g>
+    <g transform="translate(700 410)"><polygon points="0,-92 92,0 0,92 -92,0" fill="#F472B6" fill-opacity=".20" stroke="#F9A8D4" stroke-width="2"/><text y="-10" fill="#FDF2F8" font-size="20" letter-spacing="2">REVISE</text><text y="25" fill="#FCE7F3" font-size="16">change with reasons</text></g>
+    <g transform="translate(800 280)"><polygon points="0,-112 112,0 0,112 -112,0" fill="#F8FAFC" fill-opacity=".08" stroke="#F8FAFC" stroke-opacity=".8" stroke-width="2"/><text y="-18" fill="#F8FAFC" font-size="19" letter-spacing="2">PORTFOLIO</text><text y="17" fill="#D1FAE5" font-size="16">situated knowledge</text></g>
+  </g>
+</svg>
