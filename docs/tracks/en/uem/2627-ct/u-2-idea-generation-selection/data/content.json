@@ -404,15 +404,15 @@ layout: null
     {
       "slide_role": "lab_exercise",
       "background_kind": "profield",
-      "heading": "Exercise 1 · Thirty circles, six minutes",
-      "sentence": "Thirty blank circles. Six minutes. Fill as many as you can with distinct, recognisable objects — do not repeat a type.",
+      "heading": "Exercise 1 · Guided concentration",
+      "sentence": "Follow the guided meditation exactly as indicated. Attend to breath, bodily sensation, and the surrounding field without evaluating or producing ideas yet.",
       "portfolio_bound": true,
-      "portfolio_trace": "Save the sheet + a one-line fluency-vs-flexibility note in the portfolio index.",
-      "quote": "Thirty circles in six minutes teaches your hand faster than any lecture on originality.",
+      "portfolio_trace": "Record the instructions or sequence followed, the duration indicated in class, and two brief observations about changes in attention.",
+      "quote": "Concentration is not the absence of ideas; it is a deliberate change in the conditions under which ideas may appear.",
       "quote_origin": "tao_invented",
       "semantic_tags": {
         "themes": [
-          "fluency",
+          "concentration",
           "exercise"
         ],
         "cidoc": [
@@ -423,28 +423,28 @@ layout: null
         ],
         "dcterms": [
           "dcterms:type=Text",
-          "dcterms:subject=fluency"
+          "dcterms:subject=concentration"
         ]
       },
       "citation": {
         "label": "(Tao of Creativity)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#tao-of-creativity"
       },
-      "media_slot_id": "U2.still.profield-1"
+      "media_slot_id": "U2.still.profield-9"
     },
     {
       "slide_role": "lab_exercise",
       "background_kind": "profield",
-      "heading": "Exercise 2 · Oblique Strategies, on your D1",
-      "sentence": "Draw one Oblique Strategies card. Apply the prompt to your D1 object for 10 minutes. What shifted, what did not?",
+      "heading": "Exercise 2 · Automatic writing after concentration",
+      "sentence": "Immediately after the concentration period, write continuously for the interval indicated in class. Do not correct, censor, or organise the text while writing.",
       "portfolio_bound": true,
-      "portfolio_trace": "Save card + before/after paragraph + one sentence on when it did (or did not) help.",
-      "quote": "One card, ten minutes — let the constraint argue with your first idea.",
+      "portfolio_trace": "Preserve the unedited writing, identify the point at which attention shifted, and add a short reflection on what the exercise made perceptible or possible.",
+      "quote": "Automatic writing is a record of attention in motion, not a demand to mistake every association for a finished idea.",
       "quote_origin": "tao_invented",
       "semantic_tags": {
         "themes": [
-          "oblique-strategies",
-          "constraint"
+          "automatic-writing",
+          "attention"
         ],
         "cidoc": [
           "crm:E33_Linguistic_Object"
@@ -454,45 +454,14 @@ layout: null
         ],
         "dcterms": [
           "dcterms:type=Text",
-          "dcterms:subject=oblique-strategies"
+          "dcterms:subject=automatic-writing"
         ]
       },
       "citation": {
         "label": "(Tao of Creativity)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#tao-of-creativity"
       },
-      "media_slot_id": "U2.still.profield-2"
-    },
-    {
-      "slide_role": "lab_exercise",
-      "background_kind": "profield",
-      "heading": "Exercise 3 · Selection rubric on paper",
-      "sentence": "Score your best three ideas on novelty and fitness-to-brief (1–5). Rank them and defend the winner in one paragraph.",
-      "portfolio_bound": true,
-      "portfolio_trace": "Save the scoring sheet + one paragraph of defence.",
-      "quote": "Selection is not rejection of imagination — it is imagination choosing what survives the brief.",
-      "quote_origin": "tao_invented",
-      "semantic_tags": {
-        "themes": [
-          "selection",
-          "rubric"
-        ],
-        "cidoc": [
-          "crm:E33_Linguistic_Object"
-        ],
-        "getty_aat": [
-          "aphorisms"
-        ],
-        "dcterms": [
-          "dcterms:type=Text",
-          "dcterms:subject=selection"
-        ]
-      },
-      "citation": {
-        "label": "(Tao of Creativity)",
-        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#tao-of-creativity"
-      },
-      "media_slot_id": "U2.still.profield-3"
+      "media_slot_id": "U2.still.profield-10"
     },
     {
       "slide_role": "outro",

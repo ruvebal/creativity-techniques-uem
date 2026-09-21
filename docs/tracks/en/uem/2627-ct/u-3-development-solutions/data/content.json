@@ -203,19 +203,19 @@ layout: null
       "slide_role": "lab_exercise",
       "background_kind": "profield",
       "media_slot_id": "U3.still.profield-3",
-      "heading": "Exercise 1 · Three rough answers",
-      "sentence": "Make three small prototypes in 20 minutes. Change one variable each time.",
+      "heading": "Exercise 1 · Three rough answers to one problem",
+      "sentence": "Choose one concrete problem from your D1: what needs to be clarified, improved, or made possible? Make three small prototypes in 20 minutes, changing one variable each time.",
       "portfolio_bound": true,
-      "portfolio_trace": "Save the three versions and the changed variable."
+      "portfolio_trace": "Save the problem statement, the three versions, the changed variable, and one sentence explaining what each version makes possible."
     },
     {
       "slide_role": "lab_exercise",
       "background_kind": "profield",
       "media_slot_id": "U3.still.profield-4",
-      "heading": "Exercise 2 · Checkpoint and exit",
-      "sentence": "Write one testable question, revise once, and stop when the test is answered.",
+      "heading": "Exercise 2 · What can we do? Checkpoint and exit",
+      "sentence": "Select one prototype and state what it could do for the problem. Write one testable question, revise once, and stop when the test is answered.",
       "portfolio_bound": true,
-      "portfolio_trace": "Save before/after, checkpoint note, and exit decision."
+      "portfolio_trace": "Save before/after, the problem-to-action connection, the checkpoint note, and the exit decision."
     },
     {
       "slide_role": "outro",

@@ -81,17 +81,17 @@ Pause after each version and write three lines: what changed, what stayed, and w
 
 **Two exercises follow. Save both traces in your portfolio index.**
 
-### Exercise 1 — Three rough answers
+### Exercise 1 — Three rough answers to one problem
 
-Choose one D1 question. Make three small prototypes in 20 minutes. Change one variable each time: structure, material, sequence, or audience. Do not polish. Ask one classmate to name what each version makes possible.
+Choose one concrete problem from your D1: what needs to be clarified, improved, or made possible? Make three small prototypes in 20 minutes. Change one variable each time: structure, material, sequence, or audience. Do not polish. Ask one classmate to name what each version makes possible for the stated problem.
 
-**Portfolio trace:** three images or scans, the changed variable, and one sentence about the response each version invited.
+**Portfolio trace:** the problem statement, three images or scans, the changed variable, and one sentence about what each version makes possible.
 
-### Exercise 2 — Checkpoint and exit
+### Exercise 2 — What can we do? Checkpoint and exit
 
-Choose one prototype. Write one testable question, revise once, and compare the two versions. End when the test is answered. If a tool or generative system supplied a variation, record the prompt, the option you rejected, and the reason you chose the final form.
+Choose one prototype and state what it could do for the problem. Write one testable question, revise once, and compare the two versions. End when the test is answered. If a tool or generative system supplied a variation, record the prompt, the option you rejected, and the reason you chose the final form.
 
-**Portfolio trace:** before/after, test question, checkpoint note, and exit decision.
+**Portfolio trace:** before/after, the problem-to-action connection, the test question, checkpoint note, and exit decision.
 
 ## B3 · Workshop — advance D1
 
