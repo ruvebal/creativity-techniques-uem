@@ -9,8 +9,8 @@
 		"verify:publication": "node scripts/verify-publication-safety.mjs",
 		"postcss:build": "postcss docs/assets/css/tailwind.css -o docs/assets/css/tailwind-processed.css",
 		"postcss:watch": "postcss docs/assets/css/tailwind.css -o docs/assets/css/tailwind-processed.css --watch",
-		"predevelop": "bash scripts/kill-dev-ports.sh && npm run hydrate && npm run media:rehydrate",
-		"develop": "npm run postcss:build && bundle exec jekyll serve --source docs --livereload --livereload-port ${LIVERELOAD_PORT:-35731} --config _config.yml --port ${PORT:-4003}",
+		"predevelop": "bash scripts/kill-dev-ports.sh",
+		"develop": "npm run hydrate && npm run media:rehydrate && npm run postcss:build && bundle exec jekyll serve --source docs --livereload --livereload-port ${LIVERELOAD_PORT:-35731} --config _config.yml --port ${PORT:-4003}",
 		"prebuild": "npm run hydrate && npm run media:rehydrate",
 		"build": "npm run postcss:build && bundle exec jekyll build --source docs --destination _site --config _config.yml && npm run verify:publication",
 		"covers": "node scripts/fractal-architecture/generate-triangle-tile.mjs && node scripts/archive-covers/generate-archive-covers.mjs"
