@@ -1,0 +1,235 @@
+---
+layout: null
+---
+{
+  "unit_label": "Creativity Techniques · U3 Development Techniques and Solutions",
+  "ttod_index": [
+    {
+      "id": "C-U3-select-01",
+      "number": "IV",
+      "form": "Haiku",
+      "fields": [
+        "convergentSelection",
+        "divergentConvergentRhythm"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "media_slot_id": "U3.still.profield-1",
+      "asset_id": "wikimedia:File:Robert-fludd-1574-1637-granger.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/08d04994d23d4a62.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Robert-fludd-1574-1637-granger.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Robert-fludd-1574-1637-granger.jpg",
+      "alt_text": "Robert-fludd-1574-1637-granger.jpg",
+      "title": "Robert-fludd-1574-1637-granger.jpg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 10,
+      "selection_rank": 10,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U3.still.profield-2",
+      "asset_id": "nypl:3968cff0-63ad-0133-629c-00505686a51c",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/5027b1e390d07945.php",
+      "source_file_url": "https://images.nypl.org/index.php?id=5527557&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/3968cff0-63ad-0133-629c-00505686a51c",
+      "alt_text": "Genius with the Alphabet",
+      "title": "Genius with the Alphabet",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 4,
+      "selection_rank": 4,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U3.still.profield-3",
+      "asset_id": "wikimedia:File:Pianino - mechanizm wiedeński.svg",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/56699bc00967ab75.svg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Pianino_-_mechanizm_wiede%C5%84ski.svg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Pianino_-_mechanizm_wiede%C5%84ski.svg",
+      "alt_text": "Pianino - mechanizm wiedeński.svg",
+      "title": "Pianino - mechanizm wiedeński.svg",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 4,
+      "selection_rank": 4,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U3.still.profield-4",
+      "asset_id": "nypl:0aced7c0-b9cb-0136-3aa9-4d8648fad67d",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/93f14c94c0d08676.php",
+      "source_file_url": "https://images.nypl.org/index.php?id=58005729&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/0aced7c0-b9cb-0136-3aa9-4d8648fad67d",
+      "alt_text": "Surrealistic window display, Bergdorf Goodman, New York City",
+      "title": "Surrealistic window display, Bergdorf Goodman, New York City",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 3,
+      "selection_rank": 3,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U3.still.profield-5",
+      "asset_id": "nypl:3c067920-c623-012f-153c-58d385a7bc34",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/b1fcb242c69ec762.php",
+      "source_file_url": "https://images.nypl.org/index.php?id=ps_sibl_cd22_370&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/3c067920-c623-012f-153c-58d385a7bc34",
+      "alt_text": "A system of aeronautics, comprehending its earliest investigations, and modern practice and art",
+      "title": "A system of aeronautics, comprehending its earliest investigations, and modern practice and art",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 3,
+      "selection_rank": 3,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U3.still.profield-6",
+      "asset_id": "nypl:456db7c0-c5a8-012f-8338-58d385a7bc34",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/e39d9cdd29463974.php",
+      "source_file_url": "https://images.nypl.org/index.php?id=1947944&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/456db7c0-c5a8-012f-8338-58d385a7bc34",
+      "alt_text": "The music of the future",
+      "title": "The music of the future",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 3,
+      "selection_rank": 3,
+      "collection": "unit-accepted"
+    }
+  ],
+  "slides": [
+    {
+      "slide_role": "unit_cover",
+      "background_kind": "profield",
+      "media_slot_id": "U3.still.profield-1",
+      "heading": "U3 · Development techniques and solutions",
+      "sentence": "Make the idea visible. Learn from the change. Decide what to keep.",
+      "quote": "Many doors opened. One fits the brief. Close the rest on purpose. Spring.",
+      "quote_origin": "tao_invented",
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-3-development-solutions/#references"
+      }
+    },
+    {
+      "slide_role": "analysis_opener",
+      "background_kind": "geometrical",
+      "heading": "Analysis opens the class",
+      "sentence": "From session 3: two students defend a D1 piece for 15 minutes. Show what changed between versions."
+    },
+    {
+      "slide_role": "analysis_model",
+      "background_kind": "profield",
+      "media_slot_id": "U3.still.profield-2",
+      "heading": "Read the development",
+      "sentence": "Name language, medium, and support. Then ask what the next version was trying to learn."
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "profield",
+      "media_slot_id": "U3.still.profield-3",
+      "heading": "1 · Make it rough, make it early",
+      "sentence": "A rough prototype is a question in material form. Make the smallest version that can teach you something.",
+      "quote": "A rough thing can answer a question that a polished thing hides.",
+      "quote_origin": "tao_invented",
+      "citation": {
+        "label": "(Cross 2006, 17)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-3-development-solutions/#ref-cross-2006"
+      }
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "profield",
+      "media_slot_id": "U3.still.profield-4",
+      "heading": "2 · Defer judgement",
+      "sentence": "Protect a short space for variation before you decide what works. Then judge with a named criterion."
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "profield",
+      "media_slot_id": "U3.still.profield-5",
+      "heading": "3 · Iterate with an exit",
+      "sentence": "Write the test before the next version. Stop when the test is answered."
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "profield",
+      "media_slot_id": "U3.still.profield-6",
+      "heading": "4 · Sketch to think",
+      "sentence": "Three quick arrangements can show relationships that one polished drawing hides.",
+      "quote": "Sketching enables exploration of the problem space and the solution space to proceed together.",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Cross 2006, 46)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-3-development-solutions/#ref-cross-2006"
+      }
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "profield",
+      "media_slot_id": "U3.still.profield-1",
+      "heading": "5 · Open the solution space",
+      "sentence": "Reframe an unclear brief as two or three questions. Make one small response to each.",
+      "citation": {
+        "label": "(Beghetto and Karwowski 2025, 1)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-3-development-solutions/#ref-beghetto-karwowski-2025"
+      }
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "profield",
+      "media_slot_id": "U3.still.profield-2",
+      "heading": "6 · Reflect at checkpoints",
+      "sentence": "Write what changed, what stayed, and what the change taught you."
+    },
+    {
+      "slide_role": "lab_opener",
+      "background_kind": "geometrical",
+      "heading": "Lab · Portfolio",
+      "sentence": "Two exercises come next. Everything you make in Lab goes into your portfolio index.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Save both traces in the portfolio index."
+    },
+    {
+      "slide_role": "lab_exercise",
+      "background_kind": "profield",
+      "media_slot_id": "U3.still.profield-3",
+      "heading": "Exercise 1 · Three rough answers",
+      "sentence": "Make three small prototypes in 20 minutes. Change one variable each time.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Save the three versions and the changed variable."
+    },
+    {
+      "slide_role": "lab_exercise",
+      "background_kind": "profield",
+      "media_slot_id": "U3.still.profield-4",
+      "heading": "Exercise 2 · Checkpoint and exit",
+      "sentence": "Write one testable question, revise once, and stop when the test is answered.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Save before/after, checkpoint note, and exit decision."
+    },
+    {
+      "slide_role": "outro",
+      "background_kind": "geometrical",
+      "heading": "Carry forward",
+      "sentence": "Show one development loop in your D1 defence: question, versions, learning, decision."
+    }
+  ],
+  "media_selection": {
+    "unit_id": "U3",
+    "project_id": "tc",
+    "collection": "unit-accepted",
+    "strategy": "review-state-assigned",
+    "description": "Accepted/ranked Profield review-state assets for tc/U3.",
+    "media_overrides": {}
+  }
+}
