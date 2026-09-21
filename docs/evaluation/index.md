@@ -6,7 +6,7 @@ permalink: /evaluation/
 description: 'Assessment weights, five deliverables, and studio evidence bands for Creativity Techniques (UEM Creative Campus).'
 ---
 
-# Evaluation
+<div class="evaluation-page prose prose-lg prose-slate dark:prose-invert max-w-none">
 
 Official weights come from the UEM guía (Design degree). Studio choreography and intra-rubrics live in [How to Pass]({{ '/tracks/ct/how-to-pass-this-track/' | relative_url }}) and the parallel session contract. This page stays contract-honest: **weights unchanged**; deliverables map onto them.
 
@@ -70,3 +70,5 @@ AI declarations, critiques, and oral defences use the same bands. Polish alone i
 - [How to Pass Creativity Techniques]({{ '/tracks/ct/how-to-pass-this-track/' | relative_url }})
 - [Track]({{ '/tracks/en/creativity-techniques/' | relative_url }})
 - [Methodology]({{ '/methodology/en/' | relative_url }})
+
+</div>

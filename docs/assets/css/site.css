@@ -2426,6 +2426,24 @@ main#main {
 	margin: 0;
 }
 
+/* Default-layout evaluation pages need the same readable measure and responsive
+ * table treatment as lesson content without changing the global shell. */
+.evaluation-page {
+	width: min(100%, 1120px);
+	margin-inline: auto;
+	padding: clamp(1.5rem, 3vw, 3rem) clamp(1rem, 3vw, 2rem) 4rem;
+}
+
+.evaluation-page > :first-child {
+	margin-top: 0;
+}
+
+@media (max-width: 640px) {
+	.evaluation-page {
+		padding-inline: 1rem;
+	}
+}
+
 main#main .lesson-wrapper {
 	width: 100%;
 	margin: 0;
