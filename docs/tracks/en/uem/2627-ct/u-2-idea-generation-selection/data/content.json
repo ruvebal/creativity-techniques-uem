@@ -3,6 +3,35 @@ layout: null
 ---
 {
   "unit_label": "Creativity Techniques · U2 Idea Generation and Selection",
+  "ttod_index": [
+    {
+      "id": "C-U2-fluency-01",
+      "number": "III",
+      "form": "Haiku",
+      "fields": [
+        "fluencyFlexibilityOriginality",
+        "divergentThinking"
+      ]
+    },
+    {
+      "id": "C-U2-fluency-02",
+      "number": "III",
+      "form": "Máxima",
+      "fields": [
+        "fluencyFlexibilityOriginality",
+        "convergentSelection"
+      ]
+    },
+    {
+      "id": "C-U3-select-01",
+      "number": "IV",
+      "form": "Haiku",
+      "fields": [
+        "convergentSelection",
+        "divergentConvergentRhythm"
+      ]
+    }
+  ],
   "final_event_theme": "What is creativity for you?",
   "media_selection": {
     "unit_id": "U2",
@@ -15,6 +44,21 @@ layout: null
   "assets": [
     {
       "media_slot_id": "U2.still.profield-1",
+      "asset_id": "wikimedia:File:Practicing mindfulness promotes creativity.png",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/aa3aedcafa6a85ac.png",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Practicing_mindfulness_promotes_creativity.png",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Practicing_mindfulness_promotes_creativity.png",
+      "alt_text": "Practicing mindfulness promotes creativity.png",
+      "title": "Practicing mindfulness promotes creativity.png",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 9,
+      "selection_rank": 9,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U2.still.profield-2",
       "asset_id": "wikimedia:File:Un chien andalou- Un perro andaluz.jpg",
       "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/cc56afd75ebbfab4.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Un_chien_andalou-_Un_perro_andaluz.jpg",
@@ -29,7 +73,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "U2.still.profield-2",
+      "media_slot_id": "U2.still.profield-3",
       "asset_id": "nypl:08c74ef0-5530-0135-18ad-3fc83eb6687f",
       "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/290eb35b25f7662d.php",
       "source_file_url": "https://images.nypl.org/index.php?id=57332905&t=w",
@@ -44,7 +88,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "U2.still.profield-3",
+      "media_slot_id": "U2.still.profield-4",
       "asset_id": "wikimedia:File:Sprite Fright-concept art-Victoria 01.png",
       "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/5e5034d4db013da5.png",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Sprite_Fright-concept_art-Victoria_01.png",
@@ -59,7 +103,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "U2.still.profield-4",
+      "media_slot_id": "U2.still.profield-5",
       "asset_id": "nypl:02f7ad60-b9cb-0136-4a02-7f27c217b885",
       "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/42f6022e28528ba4.php",
       "source_file_url": "https://images.nypl.org/index.php?id=58005713&t=w",
@@ -74,7 +118,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "U2.still.profield-5",
+      "media_slot_id": "U2.still.profield-6",
       "asset_id": "nypl:141c6730-768a-0137-0916-0710db36541b",
       "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/691f91929e80d9e5.php",
       "source_file_url": "https://images.nypl.org/index.php?id=58053557&t=w",
@@ -89,13 +133,103 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "U2.still.profield-6",
+      "media_slot_id": "U2.still.profield-7",
+      "asset_id": "nypl:1d0d84c0-246d-0135-687f-0e1675a0e68d",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/7e53ce373af6d4f8.php",
+      "source_file_url": "https://images.nypl.org/index.php?id=57207638&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/1d0d84c0-246d-0135-687f-0e1675a0e68d",
+      "alt_text": "A newly invented machine",
+      "title": "A newly invented machine",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 4,
+      "selection_rank": 4,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U2.still.profield-8",
+      "asset_id": "nypl:22ec11a0-2fd1-0133-6d72-58d385a7b928",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/482926d54d9347a4.php",
+      "source_file_url": "https://images.nypl.org/index.php?id=5326481&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/22ec11a0-2fd1-0133-6d72-58d385a7b928",
+      "alt_text": "Creation of Eve",
+      "title": "Creation of Eve",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 4,
+      "selection_rank": 4,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U2.still.profield-9",
+      "asset_id": "wikimedia:File:Phenakistoscope 3g07690d.gif",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/8883a15cf70c69c9.gif",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Phenakistoscope_3g07690d.gif",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Phenakistoscope_3g07690d.gif",
+      "alt_text": "Phenakistoscope 3g07690d.gif",
+      "title": "Phenakistoscope 3g07690d.gif",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wikimedia Commons",
+      "licence": "",
+      "priority": 4,
+      "selection_rank": 4,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U2.still.profield-10",
       "asset_id": "nypl:125ccce0-5186-0132-9ead-58d385a7bbd0",
       "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/336e44a26fb8d6a8.php",
       "source_file_url": "https://images.nypl.org/index.php?id=5311858&t=w",
       "canonical_source_url": "http://digitalcollections.nypl.org/items/125ccce0-5186-0132-9ead-58d385a7bbd0",
       "alt_text": "Imagination is allowed full play at the American Laboratory Theatre",
       "title": "Imagination is allowed full play at the American Laboratory Theatre",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 3,
+      "selection_rank": 3,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U2.still.profield-11",
+      "asset_id": "nypl:188554b0-a53c-0135-41ce-25c4cc118556",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/52a5d11561e69832.php",
+      "source_file_url": "https://images.nypl.org/index.php?id=57378679&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/188554b0-a53c-0135-41ce-25c4cc118556",
+      "alt_text": "Bishamon dreaming",
+      "title": "Bishamon dreaming",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 3,
+      "selection_rank": 3,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U2.still.profield-12",
+      "asset_id": "nypl:3432d330-a629-0135-2798-05f9b175829f",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/0a359d9b946505e1.php",
+      "source_file_url": "https://images.nypl.org/index.php?id=57378963&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/3432d330-a629-0135-2798-05f9b175829f",
+      "alt_text": "Man dreaming",
+      "title": "Man dreaming",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 3,
+      "selection_rank": 3,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U2.still.profield-13",
+      "asset_id": "nypl:4678b550-c55d-012f-5575-58d385a7bc34",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/259aed079d802ff0.php",
+      "source_file_url": "https://images.nypl.org/index.php?id=836597&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/4678b550-c55d-012f-5575-58d385a7bc34",
+      "alt_text": "Hook and ladder in action",
+      "title": "Hook and ladder in action",
       "provider": "nypl",
       "credit_line": "nypl",
       "licence": "",
@@ -216,10 +350,6 @@ layout: null
           "dcterms:type=Text",
           "dcterms:subject=generation-selection"
         ]
-      },
-      "citation": {
-        "label": "(de Bono 1970, 12)",
-        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-debono-1970"
       }
     },
     {
@@ -285,7 +415,7 @@ layout: null
       "background_kind": "profield",
       "media_slot_id": "U2.still.profield-6",
       "heading": "4 · Role and constraint tools",
-      "sentence": "Hats and cards stage a cognitive move — provocation first, selective follow-up second. English Six Hats page cites still open.",
+      "sentence": "Hats and cards stage a cognitive move — map the kinds of thinking first, then choose a route.",
       "quote": "Any tool should be useful in the expected way, but a truly great tool lends itself to uses you never expected.",
       "quote_origin": "page_verified",
       "citation": {
@@ -307,16 +437,12 @@ layout: null
           "dcterms:type=Text",
           "dcterms:subject=provocation"
         ]
-      },
-      "citation": {
-        "label": "(de Bono 1970, 12)",
-        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-debono-1970"
       }
     },
     {
       "slide_role": "masterclass",
       "background_kind": "profield",
-      "media_slot_id": "U2.still.profield-1",
+      "media_slot_id": "U2.still.profield-7",
       "heading": "5 · Name selection criteria",
       "sentence": "Convergent choice needs explicit novelty and fitness-to-brief tests — name your criteria before you rank.",
       "quote": "Editing is a demonstration of taste. It isn't expressed through pointing to items we like… Our taste is revealed in how our work is curated.",
@@ -345,7 +471,7 @@ layout: null
     {
       "slide_role": "masterclass",
       "background_kind": "profield",
-      "media_slot_id": "U2.still.profield-2",
+      "media_slot_id": "U2.still.profield-8",
       "heading": "6 · Workshops are means, not genius",
       "sentence": "Fluency training supports practice; landmark ideas are rare — workshops train the hand, not replace genius myths.",
       "quote": "Artists are often portrayed in films and books as tortured geniuses. Starving, self-destructive, dancing on the brink of madness.",

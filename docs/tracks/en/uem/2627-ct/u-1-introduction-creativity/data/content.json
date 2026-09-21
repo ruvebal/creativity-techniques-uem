@@ -120,21 +120,6 @@ layout: null
     },
     {
       "media_slot_id": "U1.still.profield-8",
-      "asset_id": "nypl:4678b550-c55d-012f-5575-58d385a7bc34",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/259aed079d802ff0.php",
-      "source_file_url": "https://images.nypl.org/index.php?id=836597&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/4678b550-c55d-012f-5575-58d385a7bc34",
-      "alt_text": "Hook and ladder in action",
-      "title": "Hook and ladder in action",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 3,
-      "selection_rank": 3,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "U1.still.profield-9",
       "asset_id": "nypl:4cc1ab80-c6e7-012f-3e2c-58d385a7bc34",
       "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/ad7189f98c755794.php",
       "source_file_url": "https://images.nypl.org/index.php?id=1567396&t=w",
@@ -149,7 +134,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "U1.still.profield-10",
+      "media_slot_id": "U1.still.profield-9",
       "asset_id": "wikimedia:File:Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (68).JPG",
       "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/337b1324e6f226b2.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Art%2BFeminism_Wikipedia_Edit-A-Thon_2015%2C_The_Banff_Centre%2C_Banff%2C_Alberta_%2868%29.JPG",
@@ -164,7 +149,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "U1.still.profield-11",
+      "media_slot_id": "U1.still.profield-10",
       "asset_id": "wikimedia:File:Iterative Process Diagram.svg",
       "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/1b014b8e74a8b772.svg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Iterative_Process_Diagram.svg",
@@ -179,7 +164,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "U1.still.profield-12",
+      "media_slot_id": "U1.still.profield-11",
       "asset_id": "wikimedia:File:RotaryDemisphereMarcelDuchampManRay.jpg",
       "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/d4f5577b5191fd61.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/RotaryDemisphereMarcelDuchampManRay.jpg",
@@ -194,7 +179,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "U1.still.profield-13",
+      "media_slot_id": "U1.still.profield-12",
       "asset_id": "wikimedia:File:Rrose Sélavy (Marcel Duchamp), 1921 photograph by Man Ray.jpg",
       "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/184af2a70e55d004.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Rrose_S%C3%A9lavy_%28Marcel_Duchamp%29%2C_1921_photograph_by_Man_Ray.jpg",

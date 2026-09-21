@@ -101,6 +101,24 @@ counter-critics, paradoxical incapacity of closing — Thessia knows *antilism*;
 tell it to use, never to mention. Do not invent evidence; only cite what §6
 of `curriculum-forger` licenses.
 
+**Tribune readability pass:** after drafting, ask Thessia to return a chunked
+rewrite with one claim per paragraph, short concrete verbs, one example, and
+one open question. Keep the scholar's cadence and conceptual tension, but cut
+process labels, source-workflow language, nested qualifications, and sentences
+longer than two clauses where meaning is not gained. Review chunks side by side;
+accept only changes that preserve the grounded claim and the author's voice.
+Store rejected and accepted chunks in the tuning record so the next round can
+learn from the comparison.
+
+**Student-surface firewall:** editor addresses, forge instructions, harness
+names, retrieval metadata, IDs, coats, node paths, and unresolved procurement
+notes must not appear in the student lesson body or deck. If a limit must be
+recorded, put it in the final `Editorial note` only; provenance remains in a
+switch-gated `curriculum-internal` comment. The only student-facing exception
+is a demanded TTOD index: its quote `id`, number, form, and controlled fields
+must be explicit in the data contract, but must not be rendered as editorial
+workflow text.
+
 Length target per unit: **tribune-length lesson** (~1500–2200 words body,
 plus TOC + References) matching U1's shape. TOC via `{:toc}` after the H2.
 
@@ -232,4 +250,3 @@ Receipt: `~/src/deviac/fine-tuning/thessia-tuning-memory/registries/CT-U2-CUE-EN
 | `178b47c2` | Avis 2013 | Creative imagination (theological/cultural) — light gap fill |
 | `591f5002` | de Bono Six Hats (Spanish Granica) | **BIBLIO-GAP** for English page cites; English 1981/1985 still owed |
 | `bb5aec96` | de Bono Lateral Thinking 1970 | Already in U2 — do not re-ingest |
-

@@ -42,7 +42,7 @@ cover-agentic:
   contenidos: "Unidad 1. Introducción a la creatividad y su importancia."
   one_line: "Creativity is paced craft under a brief. You open many options, then you choose what fits."
   class_rhythm: "Analysis → Masterclass → Lab (Portfolio) → Workshop (Deliverable)"
-  evaluation_feed: "presentation evidence 40% path via Lab/D1; knowledge tests 60% via D5 later"
+  evaluation_feed: "presentation evidence 30% path via Lab/D1; knowledge tests 70% via D5 later"
   how_to_pass: "/tracks/ct/how-to-pass-this-track/"
   enrichment: "creativity-techniques-pedagogy/forge/unit-enrichment/U1-introduccion-creatividad/"
 {% endcomment %}

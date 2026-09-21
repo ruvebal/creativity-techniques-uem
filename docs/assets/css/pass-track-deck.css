@@ -301,12 +301,14 @@ body {
 
 .student-media-caption {
 	position: fixed;
-	left: 1rem;
-	right: 1rem;
-	bottom: clamp(4.2rem, 8vw, 5.4rem);
+	top: clamp(5rem, 11vh, 7.25rem);
+	right: clamp(0.9rem, 2.5vw, 2rem);
+	left: auto;
+	bottom: auto;
 	z-index: 35;
 	display: block;
-	max-width: min(58rem, calc(100% - 2rem));
+	width: min(22rem, 28vw);
+	max-width: calc(100% - 2rem);
 	padding: 0.7rem 0.9rem;
 	border-top: 1px solid rgb(var(--foreground) / 0.42);
 	border: 1px solid rgb(var(--foreground) / 0.2);
@@ -317,6 +319,7 @@ body {
 	line-height: 1.35;
 	letter-spacing: 0.015em;
 	text-transform: uppercase;
+	text-align: right;
 	white-space: normal;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -440,5 +443,12 @@ body {
     right: 0.7rem;
     bottom: 3.45rem;
     max-width: calc(100% - 1.4rem);
+  }
+
+  .student-media-caption {
+    top: 5.1rem;
+    right: 0.7rem;
+    bottom: auto;
+    width: min(18rem, calc(100% - 1.4rem));
   }
 }

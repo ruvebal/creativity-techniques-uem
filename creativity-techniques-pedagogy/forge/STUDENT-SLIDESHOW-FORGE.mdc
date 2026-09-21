@@ -42,7 +42,7 @@ M+ Workshop work prompt             background_kind: none | diagram | profield
 Z  outro / carry-forward            background_kind: geometrical   ← REQUIRED
 ```
 
-**Lab exercise count (binding):** **exactly two** `lab_exercise` slides per ordinary unit — concentrate meaning into those two; do not forge three or more. Lesson B2 must match.
+**Lab exercise count (binding):** **exactly two** `lab_exercise` slides per ordinary unit — concentrate meaning into those two; do not forge three or more. Lesson B2 must match. If a selection rubric is needed, make it a phase inside Exercise 2 rather than a third slide.
 
 **First lessons (sessions 1–3):** omit `workshop_opener` / `workshop_work` entirely — session ends after Lab. Do not invent side deliverables. **D1 Analysis** never receives Workshop clock. **From session 4:** Workshop ≈½ **D2 Transposition** · ≈½ **D3 final event**.
 
@@ -74,10 +74,19 @@ portfolio_trace: "Save … in the portfolio index."
 quote: "Optional brief quotation (≤ ~40 words) — Ahmes-verbatim or Tao invent (see golden rule 3)."
 quote_origin: page_verified | tao_invented   # required whenever quote is set; never put the corpus product name in student content.json
 semantic_tags: []   # DH metadata for the quote — see golden rule 3
+ttod_index:         # required for Tao invents; data-only, not rendered by default
+  id: C-U2-example-01
+  number: III
+  form: Haiku
+  fields: [fluencyFlexibilityOriginality, divergentThinking]
 ```
 
 Student wording: prefer clear late-secondary / first-year voice. Prefer short verbs over managerial jargon. When a page-verified quote is brief and carries the main idea, put it on the slide *and* in the lesson.
 Public captions: title · credit · licence · source link. **Never** `resource_uuid`, `forger_version`, or review tags in square brackets. **Geometrical background slides** (`analysis_opener`, `lab_opener`, `workshop_opener`, `outro`) — their caption **must** include the SVG file UUID (the content-hash suffix visible in the filename, e.g. `ct-pass-01-structure.svg#a1b2c3`) so a forger pass can trace which specific fractal was shown. See §"Golden rules (2026-09-14)" below.
+**TTOD index gate:** every Tao-origin quote must be traceable in the unit
+payload with its TTOD `id`, roman `number`, `form`, and lexicum `fields`.
+These fields are an index for the forge and evaluator; do not turn them into a
+student-facing editorial label or citation. A missing field fails cold review.
 
 **Image backgrounds (lab / workshop / analysis_model):** when the live deck shows a flat diagram or empty `none` where a fashion/design still should carry the idea, set `background_kind: profield` and a real `media_slot_id`. Do not leave `lab_exercise` or `workshop_work` on `none`/`diagram` if an accepted unit asset exists.
 
