@@ -107,7 +107,8 @@ layout: null
   "slides": [
     {
       "slide_role": "unit_cover",
-      "background_kind": "diagram",
+      "background_kind": "profield",
+      "media_slot_id": "U2.still.profield-1",
       "heading": "U2 · Idea generation and selection techniques",
       "sentence": "Creativity needs two rhythms: opening many doors, then closing most of them on purpose.",
       "quote": "Lateral thinking is generative. Vertical thinking is selective.",
@@ -162,7 +163,8 @@ layout: null
     },
     {
       "slide_role": "analysis_model",
-      "background_kind": "diagram",
+      "background_kind": "profield",
+      "media_slot_id": "U2.still.profield-2",
       "heading": "How to analyse (rolling model)",
       "sentence": "Language · medium · support. Then ask where meaning travels — and how many options were closed to get here.",
       "quote": "Name language, medium, and support — then ask how many ideas were considered before this one won.",
@@ -190,7 +192,8 @@ layout: null
     },
     {
       "slide_role": "masterclass",
-      "background_kind": "diagram",
+      "background_kind": "profield",
+      "media_slot_id": "U2.still.profield-3",
       "heading": "1 · Generate, then select",
       "sentence": "Creativity needs both exploration and systematic evaluation — schedule both, never in the same minute.",
       "quote": "To solve an interesting problem, start by finding a problem that is interesting to you.",
@@ -221,7 +224,8 @@ layout: null
     },
     {
       "slide_role": "masterclass",
-      "background_kind": "diagram",
+      "background_kind": "profield",
+      "media_slot_id": "U2.still.profield-4",
       "heading": "2 · Fluency with flexibility",
       "sentence": "Many ideas only help if they differ — twenty suns is fluency thirty, flexibility one.",
       "quote": "Lateral thinking is generative. Vertical thinking is selective.",
@@ -249,7 +253,8 @@ layout: null
     },
     {
       "slide_role": "masterclass",
-      "background_kind": "diagram",
+      "background_kind": "profield",
+      "media_slot_id": "U2.still.profield-5",
       "heading": "3 · Block the obvious first",
       "sentence": "Original responses need you to notice and refuse the first automatic answer — dig a different hole.",
       "quote": "You cannot dig a hole in a different place by digging the same hole deeper.",
@@ -277,7 +282,8 @@ layout: null
     },
     {
       "slide_role": "masterclass",
-      "background_kind": "diagram",
+      "background_kind": "profield",
+      "media_slot_id": "U2.still.profield-6",
       "heading": "4 · Role and constraint tools",
       "sentence": "Hats and cards stage a cognitive move — provocation first, selective follow-up second. English Six Hats page cites still open.",
       "quote": "Any tool should be useful in the expected way, but a truly great tool lends itself to uses you never expected.",
@@ -309,7 +315,8 @@ layout: null
     },
     {
       "slide_role": "masterclass",
-      "background_kind": "diagram",
+      "background_kind": "profield",
+      "media_slot_id": "U2.still.profield-1",
       "heading": "5 · Name selection criteria",
       "sentence": "Convergent choice needs explicit novelty and fitness-to-brief tests — name your criteria before you rank.",
       "quote": "Editing is a demonstration of taste. It isn't expressed through pointing to items we like… Our taste is revealed in how our work is curated.",
@@ -337,7 +344,8 @@ layout: null
     },
     {
       "slide_role": "masterclass",
-      "background_kind": "diagram",
+      "background_kind": "profield",
+      "media_slot_id": "U2.still.profield-2",
       "heading": "6 · Workshops are means, not genius",
       "sentence": "Fluency training supports practice; landmark ideas are rare — workshops train the hand, not replace genius myths.",
       "quote": "Artists are often portrayed in films and books as tortured geniuses. Starving, self-destructive, dancing on the brink of madness.",
