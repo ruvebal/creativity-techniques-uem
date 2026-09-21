@@ -37,7 +37,7 @@ This page is the fork-ready track index. Do not invent Campus Virtual dates here
 Track forge status (developers only — not student-facing):
 - U1 and U2 are pilot — each forged unit ships a student lesson and an in-class Reveal deck; both links appear in the Units table and again at the lesson head (In-class deck).
 - U1 is the voice anchor (lesson-scribe retrofit 2026-09-14). U2 is the first live lesson-scribe pass (Idea 1 integrated; Ideas 2–6 pending page cites).
-- U3–U6 remain pending forge — do not invent deck links for them. Page-level citations for U2 are still being completed (honest gap).
+- U4–U6 remain pending forge — do not invent deck links for them. U3 ships as a conservative pilot with pending primary extracts recorded in its Editorial note.
 - Publish gate: every forged row must expose both surfaces [lesson] · [deck]; pending rows stay text-only until a deck folder exists.
 Guía clone: creativity-techniques-pedagogy/cv/guides/guia-tecnicas-de-creatividad-diseno-2025-26.json
 Framework: creativity-techniques-pedagogy/cv/sources/oficial-guia-framework.mdc
@@ -52,7 +52,7 @@ Link gate: STUDENT-SLIDESHOW-FORGE.mdc §Publish gate — track + lesson links
 | --- | --- | --- |
 | U1 | Introduction to creativity and its importance | [lesson]({{ '/lessons/en/creativity-techniques/u-1-introduction-creativity/' | relative_url }}) · [deck]({{ '/tracks/ct/u-1-introduction-creativity/' | relative_url }}) |
 | U2 | Idea generation and selection techniques | [lesson]({{ '/lessons/en/creativity-techniques/u-2-idea-generation-selection/' | relative_url }}) · [deck]({{ '/tracks/ct/u-2-idea-generation-selection/' | relative_url }}) |
-| U3 | Development techniques and solutions | — |
+| U3 | Development techniques and solutions | [lesson]({{ '/lessons/en/creativity-techniques/u-3-development-solutions/' | relative_url }}) · [deck]({{ '/tracks/ct/u-3-development-solutions/' | relative_url }}) |
 | U4 | Applying creativity techniques in the workplace | — |
 | U5 | Creativity and technology | — |
 | U6 | Creativity and personal development | — |
@@ -67,7 +67,7 @@ Open the unit from the table above, then use **In-class deck** at the lesson hea
 
 ## Official contract
 
-Pedagogical binding source: official guía PDF family `9990002301` (Design degree clone). Evaluation weights: **60%** knowledge tests · **40%** delivery and/or presentation of work.
+Pedagogical binding source: official guía PDF family `9990002301` (Design degree clone). Evaluation weights: **70%** knowledge tests · **30%** delivery and/or presentation of work.
 
 ## Arc
 
