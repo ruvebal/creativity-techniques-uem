@@ -1965,11 +1965,7 @@ html.dark,
 	grid-template-rows: minmax(0, 1fr) auto;
 }
 
-.portfolio-practice-research__visual {
-	min-height: 0;
-}
-
-.portfolio-practice-research__visual img {
+.portfolio-practice-research img {
 	height: auto;
 	aspect-ratio: 20 / 7;
 	object-fit: cover;

@@ -27,12 +27,7 @@ The official guide frames this subject around activating creativity in professio
 
 The notebook makes those outcomes visible. A finished artefact can show what you made; a process notebook can also show what you noticed, why you changed direction, what you rejected, how feedback affected you, and what you can now explain. Treat the portfolio as a conversation with your own practice: each entry should help a reader understand not only the result, but the next question it opened.
 
-<figure class="lesson-semantic portfolio-practice-research" aria-labelledby="portfolio-practice-research-caption">
-<div class="portfolio-practice-research__visual">
-<img src="{{ '/assets/images/portfolio-practice-research.svg' | relative_url }}" width="1600" height="560" alt="Practice–research loop: question, make, observe, revise, and situated knowledge." loading="lazy" decoding="async" />
-</div>
-<figcaption id="portfolio-practice-research-caption">The portfolio records practice as inquiry: a question becomes a test, the test becomes an observation, and the observation informs the next revision.</figcaption>
-</figure>
+<figure class="lesson-semantic portfolio-practice-research" aria-labelledby="portfolio-practice-research-caption" markdown="0"><img src="{{ '/assets/images/portfolio-practice-research.svg' | relative_url }}" width="1600" height="560" alt="Practice–research loop: question, make, observe, revise, and situated knowledge." loading="lazy" decoding="async" /><figcaption id="portfolio-practice-research-caption">The portfolio records practice as inquiry: a question becomes a test, the test becomes an observation, and the observation informs the next revision.</figcaption></figure>
 
 ## The portfolio is the basement of the final exam
 
