@@ -1960,6 +1960,28 @@ html.dark,
 	object-fit: cover;
 }
 
+.portfolio-practice-research {
+	display: grid;
+	grid-template-rows: minmax(0, 1fr) auto;
+}
+
+.portfolio-practice-research__visual {
+	min-height: 0;
+}
+
+.portfolio-practice-research__visual img {
+	height: auto;
+	aspect-ratio: 20 / 7;
+	object-fit: cover;
+}
+
+.portfolio-practice-research figcaption {
+	padding: 0.6rem 0.9rem;
+	color: var(--text-secondary);
+	font-size: 0.88rem;
+	line-height: 1.35;
+}
+
 .lesson-outcome {
 	--outcome-corner: 3.25%;
 	margin: 2rem 0 2.5rem;
