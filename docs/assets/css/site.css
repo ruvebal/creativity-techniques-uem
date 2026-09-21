@@ -666,6 +666,46 @@ html.dark,
 .prose table tbody tr:nth-child(even) {
 	background: var(--bg-light);
 }
+
+/* The six-column portfolio rubric is a reading table, not a data strip. Keep
+ * it inside the page measure and let its prose wrap instead of widening the
+ * lesson viewport on small screens. */
+.prose table.portfolio-rubric {
+	display: table;
+	width: 100%;
+	min-width: 0;
+	max-width: 100%;
+	table-layout: fixed;
+	overflow: visible;
+}
+
+.prose table.portfolio-rubric th,
+.prose table.portfolio-rubric td {
+	word-break: normal;
+	overflow-wrap: break-word;
+	white-space: normal;
+}
+
+.prose table.portfolio-rubric th:nth-child(1),
+.prose table.portfolio-rubric td:nth-child(1) { width: 19%; }
+.prose table.portfolio-rubric th:nth-child(2),
+.prose table.portfolio-rubric td:nth-child(2) {
+	width: 9.5%;
+	white-space: nowrap;
+}
+.prose table.portfolio-rubric th:nth-child(n + 3),
+.prose table.portfolio-rubric td:nth-child(n + 3) { width: 17.875%; }
+
+@media (max-width: 700px) {
+	.prose table.portfolio-rubric {
+		font-size: 0.78rem;
+	}
+
+	.prose table.portfolio-rubric th,
+	.prose table.portfolio-rubric td {
+		padding: 0.4rem 0.45rem;
+	}
+}
 .muted {
 	color: var(--muted);
 }

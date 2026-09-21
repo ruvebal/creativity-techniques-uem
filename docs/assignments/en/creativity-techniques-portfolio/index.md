@@ -73,6 +73,7 @@ The rubric uses a 0–10 score for the assignment. The official presencial guide
 | **Critical analysis and judgement** | 20% | Tests assumptions, reads constraints and feedback intelligently, compares alternatives, and can defend refusals as well as choices. | Uses criteria to select and revise; critique is generally clear. | Names choices but gives limited criteria or analysis. | Accepts the first idea uncritically or cannot account for decisions. |
 | **Creative fluency, flexibility, and originality** | 20% | Shows energetic exploration, varied routes, productive risk, and an original response that adds value to the brief. | Shows more than one route and a recognisable, purposeful creative voice. | Shows some variation but relies heavily on a single route or familiar solution. | Little exploration, imitation without transformation, or no evidence of idea development. |
 | **Format, aesthetics, and communication** | 15% | The chosen format is authored, legible, accessible, visually coherent, and strengthens the story of the process. | Clear and coherent format with effective hierarchy and adequate craft. | Understandable but uneven, cluttered, or only partly suited to the evidence. | Format obstructs reading, lacks care, or substitutes decoration for communication. |
+{: .portfolio-rubric}
 
 The professor will evaluate the quality of thought, critical analysis, and creativity. The aesthetics and format of the portfolio are also assessed, but polish cannot compensate for absent process evidence.
 
