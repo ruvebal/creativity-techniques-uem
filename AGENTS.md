@@ -5,6 +5,7 @@
 **Emancipation model:** `hc-app-design` / `digital-creativity-uem` (standalone repo) — lean Jekyll site, not a nested multi-course monorepo stack.  
 **Visual grammar:** fractalised triangles (not hexes) — `scripts/archive-covers/` + `scripts/fractal-architecture/`.  
 **Research home:** `creativity-techniques-pedagogy/` (excluded from Pages).  
+**Exercise collection (internal):** `creativity-techniques-pedagogy/in-practice/INDEX.md`. From U4 onward, consult the in-practice cascade and reviewed source-grounded exercise candidates by thematic match before composing Lab work. Retain original verbatim evidence privately; keep classroom adaptations separate. If extraction/review is pending, report that gap rather than inventing a source exercise. JSON records, Markdown reading view; never publish `in-practice/runtime/`.
 **Official contract:** PDF at `creativity-techniques-pedagogy/cv/sources/9990002301.pdf` (Ahmes vault `9990002301_3cd91cef`) + JSON at `creativity-techniques-pedagogy/cv/guides/` + `oficial-guia-framework.mdc` — **mandatory** for hours (150 presencial), evaluation, competencies, CONTENIDOS.  
 **Lexicum:** fieldlex `creativity_techniques` (76 concepts) → `docs/_data/lexicum.json` (`lexfield-public/v1`, shared with digital-creativity-uem) · **web:** `/lexicum/en/` (hydrated; credit + conditional CIDOC-CRM/scope footers).  
 **Field directory + methods (repo root, data-as-code):** `directory/` · `methods/` → `npm run hydrate` → `/directory/en/` · `/methods/en/`. Priority funded trans method: `methods/musae-dfa.yml` (Horizon MUSAE DFA).  
