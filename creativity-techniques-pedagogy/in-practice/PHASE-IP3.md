@@ -1,6 +1,6 @@
 # IP3 — evidence, bibliography and review
 
-Status: BLOCKED on candidate collection. Generation: Codex, 2026-09-21.
+Status: IN_PROGRESS — mechanical verification passed for 6,516 records; membership audit identifies 6,499 active and 17 superseded records. Updated 2026-09-22. Pipeline and helper coder reviews are triaged in POST-EXTRACTION-TRIAGE.md. Subsequent helper safeguards pass regression tests but are not independently approved; bibliography, procedural completeness and recall are not approved. Next: bounded expanded-context priority-book sample, not another full scan.
 
 Prompt: verify every selected paragraph using semantic-quote and direct Ahmes context. Store every supporting row and the exact quote normalisation rule. Audit numbered-list refusals against source pages rather than silently bypassing the gate. Resolve Chicago citations and edition-specific locators; build REFERENCES.md and references.json from safe source records, preserve gaps. Use a fresh local reviewer to assess whether complete exercise instructions, inputs and endings are present. Hand off for cold review.
 

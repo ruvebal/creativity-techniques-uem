@@ -1,0 +1,44 @@
+# AI declaration law
+
+This rule applies to every forged lesson, assignment, and student-facing page.
+
+## AI declaration requirement
+
+Every student-facing lesson, assignment brief, and project description must include a clear reference to the AI usage declaration guidelines. The reference must:
+
+1. **Link to the AI declaration page:** include a direct link to `/ai-declaration/` in the relevant section (typically in assignment briefs or portfolio requirements)
+2. **Contextualise the requirement:** explain when and how students should apply the declaration (e.g., "for each portfolio entry," "for the final project," "for all submitted work")
+3. **Integrate with existing authorship requirements:** the AI declaration should complement, not duplicate, existing material and collaboration credit requirements
+
+## Implementation guidance
+
+### In lesson content
+- When mentioning tools or resources, include a note about AI tool transparency
+- If an exercise specifically permits or encourages AI use, reference the declaration page
+- If an exercise explicitly prohibits AI use, state this clearly and reference the declaration page for context
+
+### In assignment briefs
+- Include the AI declaration requirement in the "What to submit" or "Requirements" section
+- Provide specific guidance on what students should declare for that particular assignment
+- If the assignment has special AI policies (e.g., "no AI for the conceptual phase," "AI permitted for technical implementation only"), state these clearly
+
+### In portfolio requirements
+- The portfolio brief must require an AI declaration for each piece or for the portfolio as a whole
+- Reference the declaration page for examples and detailed guidance
+- Make clear that "No AI tools used" is a valid and complete declaration
+
+## What this law does not require
+
+- It does not require every lesson to use AI
+- It does not require approval for AI use
+- It does not replace academic integrity policies
+- It does not require technical details about AI model versions or parameters
+
+## Verification
+
+After every forge, verify that:
+
+1. The AI declaration page (`/ai-declaration/`) exists and is accessible
+2. The main navigation includes a link to "AI declaration"
+3. Assignment briefs reference the declaration where relevant
+4. The declaration requirement is integrated naturally into the workflow, not added as an afterthought
