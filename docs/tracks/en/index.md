@@ -21,6 +21,18 @@ permalink: /tracks/en/
     </li>
   </ul>
 
+  <h2>Master Lectures</h2>
+  <p class="hc-lead" style="margin-top:0">Transversal analysis methods — usable from any unit.</p>
+  <ul class="hc-track-list">
+    <li>
+      <a href="{{ '/lessons/en/master-lectures/creative-process-analysis/' | relative_url }}">
+        <strong>Creative process analysis</strong>
+        <span>Eight-step guide · <em>slideshow ready</em></span>
+      </a>
+    </li>
+  </ul>
+  <p><a href="{{ '/lessons/en/master-lectures/' | relative_url }}">All master lectures →</a></p>
+
   <p><a href="{{ '/assignments/en/creativity-techniques-portfolio/' | relative_url }}"><strong>Final Portfolio Notebook and rubric →</strong></a></p>
 
   <hr />

@@ -1,0 +1,158 @@
+---
+description: Special unit forge — creative-process analysis guide + Reveal slideshow for Creativity Techniques (UEM)
+globs: 'creativity-techniques-pedagogy/forge/**,docs/lessons/**,docs/tracks/**'
+alwaysApply: false
+---
+
+# CREATIVE PROCESS ANALYSIS FORGE — Special unit (Creativity Techniques)
+
+**Role:** special / transversal **analysis guide** unit — student steps for reading
+a **creative process** (technique trail, not only the final artefact), with Reveal
+slideshow. Not a fake CONTENIDOS ID.
+
+**Shared frame (binding):**  
+[`~/src/profield/runs/curriculum-analysis-guides/20260927-special-analysis/SHARED-ANALYSIS-FRAME.md`](../../../../../../src/profield/runs/curriculum-analysis-guides/20260927-special-analysis/SHARED-ANALYSIS-FRAME.md)
+
+**Pattern reference (user guide shape):**  
+[Web Analysis Guide](https://ruvebal.github.io/web-atelier-udit/lessons/en/web-analysis/) — numbered steps, short prompts, critical close.
+
+**Theory siblings (do not duplicate):**
+
+| Forge | Owns |
+| ----- | ---- |
+| `DISCURSIVE-CIRCULATION-FORGE.mdc` | Triad + Verónian circulation masterclass (D2 spine) |
+| `ct-unit-forge.mdc` | Ordinary U1–U6 lessons |
+| **This forge** | Step guide + deck for **analysing one creative process** |
+
+Sibling DC forge:  
+`digital-creativity-uem/.../FASHION-IMAGE-ANALYSIS-FORGE.mdc`  
+(same eight steps; object = fashion image).
+
+---
+
+## Pedagogical thesis (binding · simple)
+
+```text
+A process is something you can describe.
+Techniques leave traces: stages, tools, decisions, rejections.
+Forms of process come from methods and workplace habits.
+Making happens under conditions (brief, time, tools, power).
+Meaning of a process is a hypothesis — who it serves, what it hides.
+Reception of the outcome remakes the next process.
+```
+
+Students leave able to **walk eight steps** on one documented creative process
+and to **name Lens A (triad) and Lens B (circulation)**.
+
+Audience: ~19 — **basic enunciations**, guide format, one job per step.
+
+---
+
+## Professor focus (two lenses)
+
+1. **Language / medium / support** — where the *technique* acts (code vs channel vs carrier).  
+2. **Communicative circulation** — the process and its outcome move through production →
+   recognition → gap → next production (Verón); genre/style/transposition when the
+   method or outcome is remade (Steimberg).
+
+Reuse the **pre-analysis** method already in every CT lesson B1
+(*How to analyse*). This special unit **deepens** that method into a full guide;
+it does not replace it.
+
+Hook **C1–C3** (ideology / labour / GenAI authorship) at least once in the
+professor brief or in step 7 examples.
+
+---
+
+## Eight student steps (creative process)
+
+| # | Step | Student prompt (process) |
+| - | ---- | ------------------------ |
+| 1 | **Describe** | In plain words: what was the task, and what sequence of actions happened? |
+| 2 | **Inventory** | List stages, tools, people, and discarded options you can evidence. |
+| 3 | **Forms** | How was the process shaped? (rules, timeboxes, cards, software, critique rounds.) |
+| 4 | **Origin** | Where do these steps / techniques come from? (named method, workplace habit, platform template…) |
+| 5 | **Context of making** | Brief, deadline, budget, institution, who decides “good enough”? |
+| 6 | **Meaning (hypothesis)** | What does this process claim to value (speed, originality, care, compliance)? Evidence from 1–5. |
+| 7 | **Critical** | Whose labour is visible? Who is unpaid or erased? Does GenAI hide authorship? Soft-skill theatre? |
+| 8 | **Circulation** | Label **language / medium / support** for the technique *and* the outcome. Then: how did recognition change the next round of making? |
+
+**Critical step is mandatory.** A clean process diary without power questions fails.
+
+---
+
+## ≤ 6 Masterclass ideas (deck)
+
+1. Describe the process before you praise the result.  
+2. Language ≠ medium ≠ support (for techniques too).  
+3. Process forms come from methods and habits.  
+4. Making has conditions (brief, time, power).  
+5. Meaning is a hypothesis with evidence.  
+6. Reception remakes the next creative process.  
+
+Slideshow spine: follow `STUDENT-SLIDESHOW-FORGE.mdc` (CT).  
+`unit_cover` → `analysis_opener` → ≤ 6 ideas → `lab_opener` → **exactly two** lab exercises → `outro`  
+(Workshop slides only if this special unit is scheduled from session 4+; otherwise end after Lab.)
+
+Lab exercise 1: eight-step card on a shared classroom process (professor demo).  
+Lab exercise 2: eight-step card on the student’s own Lab trail (portfolio-bound → feeds D1).
+
+---
+
+## Grounding (discover → cite Ahmes)
+
+**Project slug:** `profield-creativity-techniques` (+ inject from this run); cross-search
+`profield-digital-creativity` for dramaturgy / intermedial / storytelling coats.
+
+**Corpus (run `20260927-special-analysis`):** Eckersall *New Media Dramaturgy* (process as staged event); Alexander *New Digital Storytelling* (process narrative); Bay-Cheng *Mapping Intermediality*; Chion *Audio-Vision* when sound is part of the process; Ricoeur metaphor (one careful idea); Steimberg (already ingested — priority for transposition); Shawcross/Barthes if the process outputs images.
+
+**Already useful:** Steimberg nodes on Verón and géneros; Munari / Werhane coats from critical-ground 2026-09-15; Hall contact only as bilingual bridge.
+
+Fail closed on citations: Ahmes `evaluator_safe=yes` or honest gap in gated provenance.
+
+---
+
+## Output contract
+
+| Artefact | Path (suggested) |
+| -------- | ---------------- |
+| Execute prompt | `forge/CREATIVE-PROCESS-ANALYSIS.execute.md` |
+| Professor brief | `forge/session-prompts/creative-process-analysis.md` |
+| Student guide lesson | `docs/lessons/en/creativity-techniques/special-creative-process-analysis/index.md` |
+| Reveal deck | `docs/tracks/en/uem/2627-ct/special-creative-process-analysis/` + `data/content.json` |
+| Lab card | 8 steps + triad + circulation (portfolio-bound) |
+| Enrichment stub | optional `forge/unit-enrichment/SU-process-analysis/` if MAIN-IDEAS.yml needed |
+
+Wire track Units table with lesson · deck. Set `deck_url:`.
+
+### Publication firewall (binding — mirror SU-FIA cold review)
+
+Do **not** put Ahmes / Athanor / DevIAC / `[BIBLIO-GAP]` / `evaluator_safe` / coat hash8 / node UUIDs on student lesson body, AI footer, or deck JSON `description`. Student AI footer = vault counts + Chicago authors only.
+
+---
+
+## 120-minute session sketch
+
+```text
+00–20  Reuse B1 triad on a tiny example; name Lens A vs Lens B
+20–50  Walk steps 1–5 on a shared process trail (board)
+50–75  Steps 6–8 + critical + circulation (one desajuste example)
+75–110 Lab: fill 8-step card on own or shared process
+110–120 One critical claim + one circulation claim; save to portfolio index
+```
+
+---
+
+## Execution sequence
+
+```text
+SHARED-ANALYSIS-FRAME + DISCURSIVE-CIRCULATION vocab
+→ Ahmes batch + meta + Athanor inject (this run)
+→ Athanor search (process / technique / circulation)
+→ MAIN-IDEAS.yml ≤ 6
+→ slideshow content.json
+→ student guide lesson (lesson-scribe for B1 if multi-paragraph)
+→ publication + citation gates
+```
+
+Paste-ready operator prompt: `CREATIVE-PROCESS-ANALYSIS.execute.md`.

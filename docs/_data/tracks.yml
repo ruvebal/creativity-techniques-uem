@@ -50,6 +50,12 @@
       title_en: 'Creativity and technology'
     - unit_id: U6
       title_en: 'Creativity and personal development'
+  master_lectures:
+    - unit_id: ML-CPA
+      title_en: 'Master Lecture · Creative process analysis'
+      lesson_en: /lessons/en/master-lectures/creative-process-analysis/
+      deck_en: /master-lectures/creative-process-analysis/
+      status: pilot
   sessions_list:
     - session_id: u1-pilot
       unit_id: U1

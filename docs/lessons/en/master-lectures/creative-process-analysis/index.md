@@ -1,0 +1,204 @@
+---
+layout: lesson
+title: 'Master Lecture · Creative process analysis'
+title_en: 'Master Lecture · Creative process analysis'
+slug: creative-process-analysis
+date: 2026-09-27
+author: 'Rubén Vega Balbás, PhD'
+lang: en
+permalink: /lessons/en/master-lectures/creative-process-analysis/
+description: 'Eight-step student guide to analyse a creative process trail — language / medium / support, meaning, critique, and circulation.'
+status: pilot
+tags: [master-lecture, analysis, process, guide, transversal]
+master_idea: 'Describe the process before you praise the result; name language, medium, and support; then ask who benefits when the outcome circulates.'
+practice_anchor: '8-step process card + Lens A + Lens B — portfolio-bound toward D1'
+deck_url: /master-lectures/creative-process-analysis/
+---
+
+<!-- prettier-ignore-start -->
+
+## 📋 Table of Contents
+{: .no_toc }
+- TOC
+{:toc}
+
+<!-- prettier-ignore-end -->
+
+{% if site.publication.publish_internal_metadata %}
+<!-- curriculum-internal:
+unit_id: ML-CPA
+former_ids: [SU-CPA]
+surface: master-lecture (EN canonical; not a track CONTENIDOS row)
+forge: creativity-techniques-pedagogy/forge/CREATIVE-PROCESS-ANALYSIS-FORGE.mdc
+sibling: digital-creativity-uem SU-FIA (fashion image) — shared 8-step frame
+cycle: 2
+forged: 2026-09-27
+cycle2: 2026-09-27
+project_slugs_searched: [profield-creativity-techniques, profield-digital-creativity]
+evaluator_safe_public: Craft 061d6093; Chen d048ab99 ×2; Csikszentmihalyi 35dcf3a7 (lesson); Eckersall 43fc4273 (slide+lesson)
+biblio_gap_gated: Steimberg d639c32d; Munari/Werhane; Ricoeur 8d4ca3ee conf=0.70; Bay-Cheng a3fe90ae conf=0.70
+PROVENANCE_LINE: claim=SU-CPA.open-close; status=VERIFIED; source={coat=061d6093; node=3ed2bb7b-55cd-5818-ab1c-84566cca76ac; page_index=42; printed=43}; public="(Craft 2003, 43)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=SU-CPA.divergent-hallmark; status=VERIFIED; source={coat=d048ab99; node=23900e79-ee32-59f1-8d2d-12b8c870b9c8; page_index=39; printed=40}; public="(Chen 2012, 40)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=SU-CPA.two-ways; status=VERIFIED; source={coat=35dcf3a7; node=5f7e3435-6955-5c3c-9128-42a578c201ef; page_index=7; printed=8}; public="(Csikszentmihalyi 2007, 8)"; evaluator_safe=yes; surface=lesson-body
+PROVENANCE_LINE: claim=SU-CPA.context-over-test; status=VERIFIED; source={coat=d048ab99; node=a849be72-786d-5d7d-8cbe-fa74d59f7de5; page_index=40; printed=41}; public="(Chen 2012, 41)"; evaluator_safe=yes
+PROVENANCE_LINE: claim=SU-CPA.process-material; status=VERIFIED; discovery={Athanor; project_slug=profield-digital-creativity; query="new media dramaturgy performance media materials composition"}; source={coat=43fc4273; node=7e314826-311a-56d8-90c5-910387af9243; page_index=218; printed=219}; public="(Eckersall 2017, 219)"; evaluator_safe=yes; surface=slide+lesson
+PROVENANCE_LINE: claim=SU-CPA.nmd-scenes; status=VERIFIED; source={coat=43fc4273; node=adb70902-380d-5f97-99a2-3202c0df593c; page_index=25; printed=26}; public="(Eckersall 2017, 26)"; evaluator_safe=yes; surface=lesson-body
+PROVENANCE_LINE: claim=SU-CPA.triad-steimberg; status=BIBLIO-GAP; source={coat=d639c32d; node=e78340b1-33e2-52c1-a4c6-4492d1d489b0}; use=course method only
+PROVENANCE_LINE: claim=SU-CPA.ricoeur-metaphor; status=BIBLIO-GAP; source={coat=8d4ca3ee; node=f2e204a6-202a-5304-a7dc-e7a966950e4c; page_index=302}; resolver=confidence_0.70; use=professor brief only
+-->
+{% endif %}
+
+<div class="lesson-opener" markdown="1">
+
+> **Describe the process before you praise the result. Name language, medium, and support. Then ask who benefits when the outcome circulates.**
+
+**In-class slideshow:** [open deck]({{ '/master-lectures/creative-process-analysis/' | relative_url }})
+
+This is a **Master Lecture** — a transversal analysis method for Creativity Techniques (and sister analysis guides). It is **not** an official CONTENIDOS unit ID.
+
+</div>
+
+## Learning outcomes
+
+By the end of this master lecture you can:
+
+1. Walk an **eight-step guide** on one documented creative process (not only the pretty final artefact).
+2. Keep **language / medium / support** as three different questions.
+3. Separate **conditions of production** from **conditions of recognition**, and say how reception can feed the next round of making.
+4. Write one **critical** sentence with evidence (labour, ideology, or GenAI authorship).
+
+## Why this guide
+
+Same method as the fashion-image **Master Lecture** in Digital Creativity — and the same spirit as the [Web Analysis Guide](https://ruvebal.github.io/web-atelier-udit/lessons/en/web-analysis/): numbered steps, one sitting, critical emphasis.
+
+This lecture **deepens** the Analysis method already in every CT lesson. It does not invent a CONTENIDOS ID.
+
+---
+
+## B1 · Analysis (in the lesson, not only on slides)
+
+### Two lenses (do not collapse)
+
+| Lens | Short ask | Typical mistake |
+| --- | --- | --- |
+| **A · Language / medium / support** | Code? Channel/genre? Material/file? | Calling the screen “the medium” when you mean the file |
+| **B · Circulation** | Who made it, who sees it, what changes next? | Assuming polish means “the message got through” |
+
+### Eight steps (in order)
+
+| # | Step | One-line prompt |
+| - | ---- | --------------- |
+| 1 | **Describe** | What was the task, and what sequence happened? |
+| 2 | **Inventory** | Stages, tools, people, discarded options you can evidence |
+| 3 | **Forms** | How was the process shaped (rules, timeboxes, software, critique rounds)? |
+| 4 | **Origin** | Where do these steps come from (named method, habit, platform template)? |
+| 5 | **Context of making** | Brief, deadline, budget, who decides “good enough”? |
+| 6 | **Meaning (hypothesis)** | What does this process claim to value? Evidence from 1–5 |
+| 7 | **Critical** | Whose labour is visible? Soft-skill theatre? GenAI hiding authorship? |
+| 8 | **Circulation** | Label language / medium / support; then production → recognition → next making |
+
+**Without step 7 the card fails.**
+
+### Open, then close
+
+A creative process often needs both inventing and selecting.
+
+> “The same creative act may involve both divergent and convergent thinking.”  
+> — [(Craft 2003, 43)](#ref-craft-2003)
+
+> “Divergent thinking has been widely regarded as a major hallmark of creativity.”  
+> — [(Chen 2012, 40)](#ref-chen-2012)
+
+Divergent thinking is a major hallmark — but it is not the whole job under a brief.
+
+People who bring acceptable novelty into a domain use both moves:
+
+> “people who bring about an acceptable novelty in a domain seem able to use well two opposite ways of thinking: the convergent and the divergent.”  
+> — [(Csikszentmihalyi 2007, 8)](#ref-csi-2007)
+
+### Process as material (composition)
+
+A process trail is also made of **materials and media** — not only of divergent/convergent moves on paper.
+
+> “This refers to the material properties and artistic processes of works that we document and analyse in the following chapters.”  
+> — [(Eckersall 2017, 26)](#ref-eckersall-2017)
+
+Dramaturgy here is compositional: it realises ideas *in* the medium.
+
+> “As a compositional device and an agent for realising ideas in performance, it, too, has become a material medium in many of our examples.”  
+> — [(Eckersall 2017, 219)](#ref-eckersall-2017)
+
+### Critical emphasis
+
+A test score is not the designer in context.
+
+> “the ability of divergent thinking with a paper clip may tell us little about an individual's talent in music.”  
+> — [(Chen 2012, 41)](#ref-chen-2012)
+
+Also ask C1–C3 hooks when they fit: ideology of “creativity”; unpaid ideation; GenAI authorship disclosure.
+
+### Circulation (Lens B · plain wording)
+
+Meaning is not finished when you stop making. Reception can become the next condition of production (another brief, another platform remake, another critique round). Keep secondary theorist names in the professor brief until their public Chicago entries are complete.
+
+---
+
+## Masterclass ideas (six)
+
+1. Describe the process before you praise the result.  
+2. Language ≠ medium ≠ support.  
+3. Open, then close [(Craft 2003, 43)](#ref-craft-2003).  
+4. Divergent is a hallmark — not the whole job [(Chen 2012, 40)](#ref-chen-2012).  
+5. Process is also material [(Eckersall 2017, 219)](#ref-eckersall-2017).  
+6. Critical: a score is not the designer [(Chen 2012, 41)](#ref-chen-2012).
+
+---
+
+## B2 · Lab (portfolio)
+
+### Exercise 1 — Shared process
+
+Fill the **8-step card** on the process the professor models. Include Lens A and Lens B.
+
+### Exercise 2 — Your Lab trail
+
+Same card on your own Lab sequence. Deliver: card + **one critical sentence** + **one circulation claim**. Feeds the D1 analysis path.
+
+---
+
+## Quick card (printable)
+
+```
+Process / piece ID: _______________________
+1 Describe:
+2 Inventory:
+3 Forms:
+4 Origin (method/habit):
+5 Context of making:
+6 Meaning (hypothesis + evidence):
+7 Critical:
+8 Circulation — Language: ____ Medium: ____ Support: ____
+   Production → recognition → what could it produce next?
+```
+
+---
+
+## References
+{:#references}
+
+- <span id="ref-chen-2012">Chen, Chaomei. 2012. *Turning Points: The Nature of Creativity*. Berlin: Springer.</span>
+- <span id="ref-craft-2003">Craft, Anna. 2003. *Creativity Across the Primary Curriculum: Framing and Developing Practice*. London: RoutledgeFalmer.</span>
+- <span id="ref-csi-2007">Csikszentmihalyi, Mihaly. 2007. *Creativity: Flow and the Psychology of Discovery and Invention*. New York: HarperPerennial.</span>
+- <span id="ref-eckersall-2017">Eckersall, Peter, Helena Grehan, and Edward Scheer. 2017. *New Media Dramaturgy: Performance, Media and New-Materialism*. London: Palgrave Macmillan. DOI <a href="https://doi.org/10.1057/978-1-137-55604-2" target="_blank" rel="noopener noreferrer">10.1057/978-1-137-55604-2</a>. ISBN 9781137556035.</span>
+
+---
+
+## Editorial note · Work in progress · Teaching Innovation Practice
+
+**Declared gap:** Steimberg (2013) on genre/style/transposition and Verónian circulation remain course-method vocabulary until public Chicago citations are ready. Ricoeur (1977) and Bay-Cheng et al. (2010) stay in the professor brief (bibliographic confidence below 0.85).  
+**Missing evidence:** Munari / Werhane bibliography still incomplete for student Chicago; Chion / Alexander when public bibliography is ready.  
+**Addressed-to-editor:** Cycle 2 adds Eckersall 2017 as a second public spine for material composition / circulation alongside Craft–Chen–Csikszentmihalyi process literacy.
+
+## AI-assisted authorship
+
+Vault counts this cycle: **4** public sources cited (Craft, Chen, Csikszentmihalyi, Eckersall) · date **2026-09-27** · guide prose author-edited. See site AI declaration when published.

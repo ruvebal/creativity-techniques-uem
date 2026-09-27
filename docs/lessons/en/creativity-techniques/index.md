@@ -35,9 +35,15 @@ Start the [Final Portfolio Notebook]({{ '/assignments/en/creativity-techniques-p
 | U2 | Idea generation and selection techniques | [Lesson]({{ '/lessons/en/creativity-techniques/u-2-idea-generation-selection/' | relative_url }}) | [Deck]({{ '/tracks/ct/u-2-idea-generation-selection/' | relative_url }}) |
 | U3–U6 | (pending forge) | — | — |
 
+## Master Lectures (transversal)
+
+| Master Lecture | Lesson | Slideshow |
+| --- | --- | --- |
+| **Creative process analysis** | [Lesson]({{ '/lessons/en/master-lectures/creative-process-analysis/' | relative_url }}) | [Deck]({{ '/master-lectures/creative-process-analysis/' | relative_url }}) |
+
 ## Deliverables (course-wide)
 
-1. **D1 Analysis** — 15 min defence · slideshow support  
+1. **D1 Analysis** — 15 min defence (talk + Q&A) · [assignment brief]({{ '/assignments/en/creative-process-analysis-presentation/' | relative_url }}) · slideshow support  
 2. **D2 Transposition** — free format · discursive circulation  
 3. **D3 Atrium** — tech script + live · *What is creativity for you?*  
 4. **D4 Portfolio index** — Lab exercises + D1–D3  

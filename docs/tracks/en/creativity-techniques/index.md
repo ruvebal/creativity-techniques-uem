@@ -57,7 +57,15 @@ Link gate: STUDENT-SLIDESHOW-FORGE.mdc §Publish gate — track + lesson links
 | U5 | Creativity and technology | — |
 | U6 | Creativity and personal development | — |
 
-Critical layers (ideology, labour, GenAI authorship) live in pedagogy/media vocab only — they are **not** fake CONTENIDOS rows.
+## Master Lectures (transversal)
+
+Shared analysis methods — **not** CONTENIDOS unit IDs. Use from any unit that needs the eight-step process critique (feeds D1).
+
+| Master Lecture | Lesson | Slideshow |
+| --- | --- | --- |
+| **Creative process analysis** | [Lesson]({{ '/lessons/en/master-lectures/creative-process-analysis/' | relative_url }}) | [Deck]({{ '/master-lectures/creative-process-analysis/' | relative_url }}) |
+
+Critical layers (ideology, labour, GenAI authorship) live in pedagogy/media vocab only — they are **not** fake CONTENIDOS rows. The Master Lecture is a transversal method guide (same eight steps as the Digital Creativity fashion-image master lecture).
 
 ## How to complete a unit
 

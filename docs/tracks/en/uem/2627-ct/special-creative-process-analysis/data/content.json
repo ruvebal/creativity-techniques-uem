@@ -1,0 +1,137 @@
+---
+layout: null
+---
+{
+  "unit_label": "Creativity Techniques · Special · Creative Process Analysis",
+  "final_event_theme": "Where did meaning fail — in making, in the channel, or in recognition?",
+  "media_selection": {
+    "unit_id": "SU-CPA",
+    "project_id": "ct",
+    "collection": "unit-accepted",
+    "strategy": "geometrical-first",
+    "description": "Special analysis unit: geometrical openers; Masterclass quotes from Craft, Chen, Csikszentmihalyi + Eckersall 2017 (cycle 2)."
+  },
+  "assets": [],
+  "slides": [
+    {
+      "slide_role": "unit_cover",
+      "background_kind": "diagram",
+      "heading": "Special · Analyse a creative process",
+      "sentence": "Eight steps. Two lenses. One process trail. Critical always.",
+      "prompt": "Sibling of the fashion-image guide — same method, different object.",
+      "quote": "Eight steps. Two lenses. One process trail. Critical always.",
+      "quote_origin": "tao_invented",
+      "semantic_tags": { "themes": ["creativity-techniques", "special-analysis", "process"] }
+    },
+    {
+      "slide_role": "analysis_opener",
+      "background_kind": "geometrical",
+      "background_url": "/assets/images/fractal-pass-track/ct-pass-01-structure.svg",
+      "heading": "Analysis · two lenses",
+      "sentence": "Lens A: language / medium / support. Lens B: production → recognition → next production.",
+      "caption": "Geometrical · ct-pass-01-structure.svg"
+    },
+    {
+      "slide_role": "analysis_model",
+      "background_kind": "diagram",
+      "heading": "Eight steps (guide)",
+      "sentence": "Describe → Inventory → Forms → Origin → Context → Meaning → Critical → Circulation.",
+      "prompt": "Step 7 (critical) is mandatory. A clean diary without power questions fails."
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "1 · Describe the process first",
+      "sentence": "Say what happened — task, sequence, tools — before you praise the result."
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "2 · Language ≠ medium ≠ support",
+      "sentence": "Where does the technique act: code, channel/genre, or material/file? Three questions.",
+      "prompt": "Example: constraint cards (language) in a workshop (medium) on paper or an app (support)."
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "3 · Open, then close",
+      "sentence": "A process often needs both: invent many options, then select what fits the brief.",
+      "quote": "The same creative act may involve both divergent and convergent thinking.",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Craft 2003, 43)",
+        "href": "/lessons/en/creativity-techniques/special-creative-process-analysis/#references"
+      }
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "4 · Divergent is a hallmark — not the whole job",
+      "sentence": "Opening many paths matters; so does closing under constraints.",
+      "quote": "Divergent thinking has been widely regarded as a major hallmark of creativity.",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Chen 2012, 40)",
+        "href": "/lessons/en/creativity-techniques/special-creative-process-analysis/#references"
+      }
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "5 · Process is also material",
+      "sentence": "Composition is not only steps on paper — media and materials shape how ideas get realised.",
+      "quote": "As a compositional device and an agent for realising ideas in performance, it, too, has become a material medium in many of our examples.",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Eckersall 2017, 219)",
+        "href": "/lessons/en/creativity-techniques/special-creative-process-analysis/#references"
+      },
+      "prompt": "Convergent/divergent still matters (lesson text); here ask what the medium does to the process."
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "diagram",
+      "heading": "6 · Critical: a score is not the designer",
+      "sentence": "A fluency score on a toy task does not prove judgement inside a real brief.",
+      "quote": "the ability of divergent thinking with a paper clip may tell us little about an individual's talent in music.",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Chen 2012, 41)",
+        "href": "/lessons/en/creativity-techniques/special-creative-process-analysis/#references"
+      },
+      "prompt": "Also ask: whose labour is visible? Does GenAI hide authorship? (C1–C3 hooks)"
+    },
+    {
+      "slide_role": "lab_opener",
+      "background_kind": "geometrical",
+      "background_url": "/assets/images/fractal-pass-track/ct-pass-04-practice.svg",
+      "heading": "Lab",
+      "sentence": "Two exercises next. Everything you produce goes into your portfolio index.",
+      "caption": "Geometrical · ct-pass-04-practice.svg"
+    },
+    {
+      "slide_role": "lab_exercise",
+      "background_kind": "none",
+      "heading": "Exercise 1 · Shared process",
+      "sentence": "Fill the 8-step card on the process trail the professor models (Lens A + Lens B).",
+      "portfolio_bound": true,
+      "portfolio_trace": "Save the card in the portfolio index."
+    },
+    {
+      "slide_role": "lab_exercise",
+      "background_kind": "none",
+      "heading": "Exercise 2 · Your Lab trail",
+      "sentence": "Apply the same card to your own Lab sequence. One critical sentence + one circulation claim.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Save card + traces — feeds D1 analysis path."
+    },
+    {
+      "slide_role": "outro",
+      "background_kind": "geometrical",
+      "background_url": "/assets/images/fractal-pass-track/ct-pass-06-coherence.svg",
+      "heading": "Carry forward",
+      "sentence": "Where did meaning fail — in making, in the channel, or in recognition?",
+      "caption": "Geometrical · ct-pass-06-coherence.svg"
+    }
+  ]
+}
