@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: lesson
 title: 'Master Lectures — Creativity Techniques'
 lang: en
+slug: master-lectures
 permalink: /lessons/en/master-lectures/
 description: 'Transversal analysis master lectures for Creativity Techniques.'
 ---
