@@ -22,3 +22,5 @@ Analyse one creative process with the Master Lecture method; present live (slide
 ## Final portfolio
 
 **[Final Portfolio Notebook and rubric →]({{ '/assignments/en/creativity-techniques-portfolio/' | relative_url }})**
+
+[Evaluation overview →]({{ '/evaluation/' | relative_url }})
