@@ -1,0 +1,169 @@
+---
+layout: null
+---
+{
+  "unit_label": "Creativity Techniques · U4 Applying Creativity Techniques in the Workplace",
+  "ttod_index": [
+    {
+      "id": "C-U4-workplace-01",
+      "number": "IV",
+      "form": "Máxima",
+      "fields": [
+        "workplaceApplication",
+        "ethicalDesignJudgment"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "media_slot_id": "U4.still.profield-1",
+      "asset_id": "nypl:3432d330-a629-0135-2798-05f9b175829f",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/0a359d9b946505e1.php",
+      "source_file_url": "https://images.nypl.org/index.php?id=57378963&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/3432d330-a629-0135-2798-05f9b175829f",
+      "alt_text": "Man dreaming",
+      "title": "Man dreaming",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 999,
+      "selection_rank": 999,
+      "collection": "unit-accepted"
+    }
+  ],
+  "slides": [
+    {
+      "slide_role": "unit_cover",
+      "background_kind": "profield",
+      "media_slot_id": "U4.still.profield-1",
+      "heading": "U4 · Creativity techniques at work",
+      "sentence": "Techniques meet briefs, deadlines, teams, and credit — or they stay classroom games.",
+      "quote": "A vote is not a visit. Preference is not proof.",
+      "quote_origin": "tao_invented",
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-4-workplace-application/#references"
+      }
+    },
+    {
+      "slide_role": "analysis_opener",
+      "background_kind": "geometrical",
+      "heading": "Analysis opens the class",
+      "sentence": "From session 3: two students defend a D1 piece for 15 minutes. Ask how the piece would survive a workplace brief."
+    },
+    {
+      "slide_role": "analysis_model",
+      "background_kind": "profield",
+      "media_slot_id": "U4.still.profield-1",
+      "heading": "Read the workplace transfer",
+      "sentence": "Name language, medium, and support. Then ask who owns the credit and whose need was never checked."
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "profield",
+      "media_slot_id": "U4.still.profield-1",
+      "heading": "1 · Conditions beat slogans",
+      "sentence": "Time, safety, and permission are design decisions. Overload pushes thinking toward convention.",
+      "citation": {
+        "label": "(Fisher 2012, 27)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-4-workplace-application/#ref-fisher-2012"
+      }
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "profield",
+      "media_slot_id": "U4.still.profield-1",
+      "heading": "2 · Watch passion rhetoric",
+      "sentence": "Enthusiasm is not consent to unlimited or uncredited work. Keep a contribution log."
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "profield",
+      "media_slot_id": "U4.still.profield-1",
+      "heading": "3 · Design the diverge window",
+      "sentence": "Protect generation before judging. The deadline stays; the window is scheduled.",
+      "citation": {
+        "label": "(Michalko 2010, 440)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-4-workplace-application/#ref-michalko-2010"
+      }
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "profield",
+      "media_slot_id": "U4.still.profield-1",
+      "heading": "4 · Techniques meet stakeholders",
+      "sentence": "A dot tally records group preference. It is not visitor proof.",
+      "citation": {
+        "label": "(Michalko 2010, 402)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-4-workplace-application/#ref-michalko-2010"
+      }
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "profield",
+      "media_slot_id": "U4.still.profield-1",
+      "heading": "5 · Pitch is convergent craft",
+      "sentence": "Present criteria, limits, and the next test. Keep one unresolved concern on the card."
+    },
+    {
+      "slide_role": "masterclass",
+      "background_kind": "profield",
+      "media_slot_id": "U4.still.profield-1",
+      "heading": "6 · Ethics inside the method",
+      "sentence": "Name harm, credit, and feasibility before a team calls an idea ready."
+    },
+    {
+      "slide_role": "lab_opener",
+      "background_kind": "geometrical",
+      "heading": "Lab · Portfolio",
+      "sentence": "Two exercises come next. Everything you make in Lab goes into your portfolio index.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Save both traces in the portfolio index."
+    },
+    {
+      "slide_role": "lab_exercise",
+      "background_kind": "profield",
+      "media_slot_id": "U4.still.profield-1",
+      "heading": "Exercise 1 · Ask a Crab — picture diverge",
+      "sentence": "Under the Accessible Atrium brief: brainstorm, use unrelated pictures, write and discuss. Defer final evaluate (Michalko 2010, 440).",
+      "portfolio_bound": true,
+      "portfolio_trace": "Save the brief, pictures used, idea list, and the note that evaluation was deferred."
+    },
+    {
+      "slide_role": "lab_exercise",
+      "background_kind": "profield",
+      "media_slot_id": "U4.still.profield-1",
+      "heading": "Exercise 2 · Wall of Ideas — cluster and prefer",
+      "sentence": "Silent notes, wall clusters, concern notes, ten dots each, then a decision card with one unresolved concern (Michalko 2010, 402).",
+      "portfolio_bound": true,
+      "portfolio_trace": "Save wall photo, tally, decision card, contribution log, and what the tally does not prove."
+    },
+    {
+      "slide_role": "workshop_opener",
+      "background_kind": "geometrical",
+      "heading": "Workshop · Deliverable",
+      "sentence": "Protected time on your next defence support. Pitch the decision without erasing the concern."
+    },
+    {
+      "slide_role": "workshop_work",
+      "background_kind": "profield",
+      "media_slot_id": "U4.still.profield-1",
+      "heading": "Pitch the decision card",
+      "sentence": "Criteria, limits, next test, unresolved concern. Show how the idea would circulate from wall to Atrium path."
+    },
+    {
+      "slide_role": "outro",
+      "background_kind": "geometrical",
+      "heading": "Carry forward",
+      "sentence": "A class vote is not a visitor test. Name the gap you will investigate next."
+    }
+  ],
+  "media_selection": {
+    "unit_id": "U4",
+    "project_id": "tc",
+    "collection": "unit-accepted",
+    "strategy": "review-state-assigned",
+    "description": "Accepted/ranked Profield review-state assets for tc/U4 (hydrate when unit media assigned).",
+    "media_overrides": {}
+  }
+}

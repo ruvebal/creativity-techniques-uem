@@ -14,7 +14,38 @@ layout: null
       ]
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "media_slot_id": "U3.still.profield-1",
+      "asset_id": "nypl:510d47dc-6052-a3d9-e040-e00a18064a99",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/34491d14c12721d7.php",
+      "source_file_url": "https://images.nypl.org/index.php?id=1401840&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/510d47dc-6052-a3d9-e040-e00a18064a99",
+      "alt_text": "Circus performers.",
+      "title": "Circus performers.",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 9,
+      "selection_rank": 9,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U3.still.profield-2",
+      "asset_id": "nypl:894fb0a0-abfc-013c-eb21-0242ac110003",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/02c1a057c9a71866.php",
+      "source_file_url": "https://images.nypl.org/index.php?id=58953729&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/894fb0a0-abfc-013c-eb21-0242ac110003",
+      "alt_text": "Diamaxion house, metal, adapted corn bin, built by Butler Brothers, Kansas City. Designed and promoted by R. Buckminster Fuller.",
+      "title": "Diamaxion house, metal, adapted corn bin, built by Butler Brothers, Kansas City. Designed and promoted by R. Buckminster Fuller.",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 8,
+      "selection_rank": 8,
+      "collection": "unit-accepted"
+    }
+  ],
   "slides": [
     {
       "slide_role": "unit_cover",
@@ -45,7 +76,7 @@ layout: null
     {
       "slide_role": "masterclass",
       "background_kind": "profield",
-      "media_slot_id": "U3.still.profield-3",
+      "media_slot_id": "U3.still.profield-1",
       "heading": "1 · Make it rough, make it early",
       "sentence": "A rough prototype is a question in material form. Make the smallest version that can teach you something.",
       "quote": "A rough thing can answer a question that a polished thing hides.",
@@ -58,21 +89,21 @@ layout: null
     {
       "slide_role": "masterclass",
       "background_kind": "profield",
-      "media_slot_id": "U3.still.profield-4",
+      "media_slot_id": "U3.still.profield-2",
       "heading": "2 · Defer judgement",
       "sentence": "Protect a short space for variation before you decide what works. Then judge with a named criterion."
     },
     {
       "slide_role": "masterclass",
       "background_kind": "profield",
-      "media_slot_id": "U3.still.profield-5",
+      "media_slot_id": "U3.still.profield-1",
       "heading": "3 · Iterate with an exit",
       "sentence": "Write the test before the next version. Stop when the test is answered."
     },
     {
       "slide_role": "masterclass",
       "background_kind": "profield",
-      "media_slot_id": "U3.still.profield-6",
+      "media_slot_id": "U3.still.profield-2",
       "heading": "4 · Sketch to think",
       "sentence": "Three quick arrangements can show relationships that one polished drawing hides.",
       "quote": "Sketching enables exploration of the problem space and the solution space to proceed together.",
@@ -111,7 +142,7 @@ layout: null
     {
       "slide_role": "lab_exercise",
       "background_kind": "profield",
-      "media_slot_id": "U3.still.profield-3",
+      "media_slot_id": "U3.still.profield-1",
       "heading": "Exercise 1 · Same problem, three entry points",
       "sentence": "Keep one D1 problem. Start each of three rough sketches from a different named entry point. Do not polish. Compare how the entry point steered the path (de Bono 1970, 27; Cross 2006, 93).",
       "portfolio_bound": true,
@@ -120,7 +151,7 @@ layout: null
     {
       "slide_role": "lab_exercise",
       "background_kind": "profield",
-      "media_slot_id": "U3.still.profield-4",
+      "media_slot_id": "U3.still.profield-2",
       "heading": "Exercise 2 · Delay judgement, then checkpoint and exit",
       "sentence": "Protect a short delay of judgement on one version (de Bono 1970, 30). Write one testable question, revise once, and stop when the test is answered.",
       "portfolio_bound": true,

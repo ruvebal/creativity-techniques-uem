@@ -54,3 +54,6 @@ creativity-techniques-pedagogy/grounding/media-samples/
 # --- Optional local media dumps ---
 docs/assets/images/profield-cache/.download-*
 *.part
+
+# --- cascade-harness lane marker (per-worktree, never committed) ---
+.cascade-lane

@@ -46,6 +46,9 @@
       title_en: 'Development techniques and solutions'
     - unit_id: U4
       title_en: 'Applying creativity techniques in the workplace'
+      lesson_en: /lessons/en/creativity-techniques/u-4-workplace-application/
+      deck_en: /tracks/ct/u-4-workplace-application/
+      status: pilot
     - unit_id: U5
       title_en: 'Creativity and technology'
     - unit_id: U6

@@ -1,0 +1,43 @@
+# PHASE-EX11: Closing audit against the EX0 baseline
+
+> **Track:** measurement only
+> **Status:** BLOCKED (EX10 DONE)
+> **Autopilot:** any human gate or STOP-for-the-professor step in this file is
+> replaced by the pre-registered rule in AUTOPILOT.md §2; log the decision in
+> DECISIONS-LOG.md and continue.
+
+## Goal
+
+Prove, with the same probe that measured the baseline, that the audit's
+findings are closed, and hand U4–U6 forging a clean platform.
+
+## Deliverables
+
+1. `evidence/final-EX11.json` — probe output at the merged HEAD
+2. `CLOSING-AUDIT.md` — table FINDINGS ID → closing phase → evidence (probe
+   key, test name or file) → status (closed | deferred with decision link)
+3. Amend `forge/ct-unit-forge.mdc` and `STUDENT-SLIDESHOW-FORGE.mdc` so U4–U6
+   inherit the new rules (slide-bound images, rights gate, exercise cards,
+   references.yml, retrieval slide), and add a pointer to this cascade in
+   `AGENTS.md`
+
+## Prompt (Implementation Agent)
+
+```text
+Implement PHASE-EX11 per creativity-techniques-pedagogy/excellence/PHASE-EX11.md.
+
+## Deliver
+1. Build _site; run the probe; save final-EX11.json; run `--targets`.
+2. Write CLOSING-AUDIT.md covering every FINDINGS ID (A1–E7).
+3. Amend the forge rules and AGENTS.md pointer.
+4. Run the exit gate; hand off for cold review — do NOT mark DONE.
+```
+
+## Acceptance
+
+- Exit gate passes: probe `--targets` exits 0 (no `.php`, orphan or
+  oversize files; no dangling slots; no rank dealing; no empty licences on
+  curated slides; two Labs per deck; no Tao line with an author-date; no
+  uncited references; zero leak terms; public weights equal the decision)
+- `CLOSING-AUDIT.md` lists every FINDINGS ID exactly once
+- Forge rules and AGENTS.md mention the new contracts

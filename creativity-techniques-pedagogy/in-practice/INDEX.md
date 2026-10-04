@@ -37,6 +37,33 @@ Private only — do not publish `runtime/` to Pages. Lab selection still follows
 
 ### Review recovery — 2026-09-28
 
+2026-10-04 evening: U4 lesson + deck pilot shipped (operator prose after
+Thessia audit). Lab = Ask a Crab diverge + Wall of Ideas select (hybrid
+adaptation disclosed). Receipt `forge/receipts/U4-LAB-IN-PRACTICE-2026-10-04.md`.
+Adjudication `runtime/review/u4-thinkertoys-adjudication.md`. No procedure
+approval; Michalko locators remain pdf_order; Lucas cite not evaluator-safe.
+
+2026-10-04 16:06 UTC: source-hash-bound U4 Thinkertoys packet assembled and
+local Qwen 32B context review started (PID 20692; verify actual process).
+See `runtime/u4-thinkertoys-review-20261004/process.json`. Full original PDF
+context and six live nodes supplied, including all five Ask a Crab steps.
+Await model/source adjudication; no approval, publication or ledger increment.
+
+2026-10-04 U4 candidate audit: Picture Prompting is only step 3 of the five-step
+Ask a Crab blueprint. Original PDF context and all five live nodes inspected;
+see `runtime/review/u4-discovery-20261004/SOURCE-CONTEXT-AUDIT.md`. Preserve
+the complete sequence before adapting or model-reviewing. Wall of Ideas context
+also checked; do not borrow adjacent exercises' timings. No procedure approval,
+new model run or U4 publication; source packet and locator verification next.
+
+2026-10-04 coverage reconciliation: eight accepted-format runs plus one separately
+recovered-format assessment now map all 14 Lateral Thinking shortlist nodes.
+See `runtime/review/section-review-ledger-20261004.json`. All prior packet,
+review, adjudication and record hashes revalidated. The remaining 48 of 62
+shortlist nodes are outside this bounded ledger, not necessarily unreviewed.
+EPUB locator conflicts and procedure/publication approval remain open. No
+extraction/model worker launched; U4 lesson/deck and Thessia audit still pending.
+
 2026-10-04 design review completed and adjudicated against full source context;
 see `runtime/review/design-adjudication.md`. Two targets retained with their
 distinct fidelity status. Coverage reconciliation with recovered Pictures is

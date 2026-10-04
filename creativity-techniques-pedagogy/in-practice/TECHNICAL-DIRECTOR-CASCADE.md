@@ -23,6 +23,39 @@ After collection review, implement the curriculum connector described in PHASE-I
 
 ## Resume states
 
+2026-10-04 evening: U4 lesson + deck forged as conservative pilot.
+Surfaces: `docs/lessons/en/creativity-techniques/u-4-workplace-application/`,
+`docs/tracks/en/uem/2627-ct/u-4-workplace-application/`, Lab receipt
+`forge/receipts/U4-LAB-IN-PRACTICE-2026-10-04.md`, adjudication
+`runtime/review/u4-thinkertoys-adjudication.md`. Thessia drafts audited and
+rejected for quotes/fabrications; operator prose shipped. Fisher (2012, 27)
+and Michalko pdf_order 402/440 cited; Lucas labour frame remains course-stance
+(evaluator_safe=no). Profield U4 media slots still unhydrated (empty assets,
+same as U3 pattern). Procedure approval still open. Next: publication verify,
+optional media hydrate, U5 forge prerequisites — not another Thinkertoys scan.
+
+
+2026-10-04 16:06 UTC: U4 Thinkertoys context reviewer started as PID 20692.
+Read `runtime/u4-thinkertoys-review-20261004/process.json` and verify actual
+PID before any local model call. Holds pipeline/review locks; source hash and
+record hashes bound to a private packet, original PDF context plus six ordered
+live nodes (Wall paragraph and five Ask a Crab steps). Live citations saved;
+printed pagination and quotation fidelity remain unapproved. Collect raw review
+and adjudicate source boundaries before U4 drafting. No ledger count changed.
+
+
+2026-10-04: derived coverage ledger reconciled at
+`runtime/review/section-review-ledger-20261004.json`: 14/62 shortlist nodes,
+eight accepted-format runs plus one recovered-format assessment (original
+Pictures failure retained). All 14 Lateral shortlist nodes mapped; no whole-book
+recall, bibliography closure or procedure approval. Prior bindings rehashed.
+Actual PIDs 48350/69476 absent; scoped process search found no competing worker.
+Next prioritize the user's U4 lesson/deck request: verify the two proposed
+Thinkertoys source contexts, finish forge prerequisites, then local Thessia
+paragraph drafts, six-axis audit and readability amendment before integration.
+Do not claim U4 or Thessia generation completed; only discovery exists so far.
+
+
 2026-10-04 design review completed and source-adjudicated: PID 69476 exited
 successfully 11:18:49 UTC. Read runtime/review/design-adjudication.md. Preserve
 drawing requirement, non-condemnation of cliché units and eventual objective
