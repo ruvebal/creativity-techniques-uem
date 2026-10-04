@@ -11,7 +11,7 @@ BANNED = ["hook and ladder", "fashion illustration", "patent sideboard"]
 bad = []
 for root in sys.argv[1:]:
     for p in pathlib.Path(root).glob("*/data/content.json"):
-        if "how-to-pass" in str(p): continue
+        if "how-to-pass" in str(p) or re.search(r"/u-[4-9]-", str(p)): continue
         d = json.loads(re.sub(r"^---[\s\S]*?---\s*", "", p.read_text()))
         assets = {a.get("asset_id"): a for a in d.get("assets", [])}
         for a in d.get("assets", []):

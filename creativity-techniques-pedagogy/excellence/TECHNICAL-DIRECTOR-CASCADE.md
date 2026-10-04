@@ -9,6 +9,26 @@ overrides every "Human gate" below with a pre-registered policy, and
 `excellence/integration`, never on `main`. The professor reviews once, via
 `FINAL-REVIEW.md`, and performs the only merge to `main`.
 
+## Amendment A1 (EX0, 2026-10-04) — scope and concurrent writers
+
+EX0 found that launch commit `a1da745` re-hydrated decks and added a U4
+lesson/deck, and that another process (in-practice / U4 forge) keeps editing
+U1, U2 and U4 on `main`. Therefore:
+
+- **Scope:** this cascade owns U1, U2, U3 and the master lecture. U4–U6 are
+  out of scope for every phase (no edits, no gate checks); EX11 reports their
+  state for the U4 forge to adopt. Gates select decks/lessons with `u-[123]-*`.
+- **Deck schema versioning:** EX3 marks migrated decks `"schema_version": 2`;
+  the validator is strict on v2 decks and only warns on legacy decks, so U4
+  stays buildable until its own forge migrates it.
+- **Sync:** `gitflow.sh start` first merges committed `main` into
+  integration (`gitflow.sh sync`); a conflict stops the run (stop rule).
+  Uncommitted edits in the main checkout are invisible to the cascade and are
+  listed in FINAL-REVIEW as a release risk.
+- **Baseline:** `evidence/baseline-EX0.json` measures the audited commit
+  `1af967d`; `evidence/head-EX0.json` measures launch HEAD `a1da745`. Targets
+  in EX11 are checked on the live tree.
+
 ## Programme (do not invert)
 
 | Step | Phase | Lane | Findings closed | Human gate |

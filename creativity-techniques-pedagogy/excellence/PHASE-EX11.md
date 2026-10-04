@@ -11,6 +11,10 @@
 Prove, with the same probe that measured the baseline, that the audit's
 findings are closed, and hand U4–U6 forging a clean platform.
 
+(Amendment A1: probe targets cover U1–U3 and the master lecture; U4–U6 are
+reported in CLOSING-AUDIT.md under "Out of scope — for the U4 forge", not
+counted as failures. Update the probe's `--targets` accordingly.)
+
 ## Deliverables
 
 1. `evidence/final-EX11.json` — probe output at the merged HEAD

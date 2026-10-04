@@ -46,7 +46,9 @@ publish it only if its rights are proven". Live failing cases:
    `sharp` (devDependency), EXIF stripped, ≤ 600 KB; deletes orphan cache files;
    cache moves from `docs/assets/images/profield-cache/` to
    `docs/assets/images/deck-media/` (the old name leaks into public URLs).
-4. **`scripts/validate-decks.mjs --strict`** (stdlib only): fails on dangling
+4. **`scripts/validate-decks.mjs --strict`** (stdlib only; Amendment A1: strict
+   rules apply to decks with `"schema_version": 2`, legacy decks such as U4 only
+   produce warnings): fails on dangling
    slots, curated slides without `image_brief`/`asset_id`, assets failing
    `rightsVerdict`, missing or > 600 KB files, non-whitelisted extensions,
    orphan cache files, duplicate asset use. Rights failures are errors under
@@ -56,7 +58,7 @@ publish it only if its rights are proven". Live failing cases:
    gates use `--strict --rights=flag`; `rightsVerdict` itself stays strict and tested.
 5. **Tests** `scripts/tests/media-rules.test.mjs` (`node --test`), one per
    live failing case above, each asserting the pre-fix behaviour is gone.
-6. **Migration** of committed decks U1–U3 and the master-lecture deck to the
+6. **Migration** (Amendment A1: set `"schema_version": 2`; U4 untouched) of committed decks U1–U3 and the master-lecture deck to the
    new schema. Existing bindings stay only where the image matches the slide
    (EX4 rebinds the rest); rights problems are flagged in the report. `image_brief` may be a TODO
    string here; EX4 writes the real ones.

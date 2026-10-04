@@ -7,7 +7,7 @@ REFS=docs/_data/references.yml
 check "manifest exists" test -f "$MAN"
 check "references.yml exists" test -f "$REFS"
 check "references include exists" test -f docs/_includes/references.html
-absent "no hand-written reference spans" 'id="ref-' "$LESSONS" docs/lessons/en/master-lectures
+absent "no hand-written reference spans" 'id="ref-' "${SCOPED_LESSONS[@]}"
 
 ruby - "$MAN" "$REFS" "$LESSONS" docs/lessons/en/master-lectures/creative-process-analysis/index.md <<'RB' && pass "manifest, refs and citations agree" || fail "manifest, refs and citations agree"
 require "yaml"
@@ -26,7 +26,7 @@ man.each do |w|
   bad << "#{w['key']}: bad status" unless %w[verified gap].include?(w["status"].to_s)
   bad << "#{w['key']}: verified but not in references.yml" if w["status"] == "verified" && !ref_keys.include?(w["key"].to_s)
 end
-files = Dir.glob(File.join(ARGV[2], "u-*", "index.md")) + [ARGV[3]]
+files = Dir.glob(File.join(ARGV[2], "u-[123]-*", "index.md")) + [ARGV[3]]
 files.each do |f|
   t = File.read(f)
   cited = t.scan(/#ref-([\w-]+)/).flatten.uniq

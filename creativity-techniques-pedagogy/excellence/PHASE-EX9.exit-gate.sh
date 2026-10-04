@@ -2,7 +2,7 @@
 # EX9 exit gate — lesson structure, exemplars, images.
 source "$(git rev-parse --show-toplevel)/creativity-techniques-pedagogy/excellence/gates/common.sh"
 
-absent "no meta-commentary" "the same page that|this library|open procurement|page cite still open|studio stance\)" "$LESSONS"
+absent "no meta-commentary" "the same page that|this library|open procurement|page cite still open|studio stance\)" "${SCOPED_LESSONS[@]}"
 
 python3 - "$LESSONS" <<'PY' && pass "lesson structure" || fail "lesson structure"
 import pathlib, re, sys

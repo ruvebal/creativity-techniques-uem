@@ -105,3 +105,14 @@ None for the gate. The **P0 for the final review** is that the weights are PROVI
 ## Resume point
 
 Run `cascade-harness.sh verify … PHASE-EX0.md <this worktree>`. Then the cold review should check the baseline-pinning decision first (DECISIONS-LOG, M1). If the reviewer rejects it, follow the undo steps in DECISIONS-LOG and re-run the gate. Under that path the gate's expectations need a "gate amendment" finding.
+
+## Orchestrator amendment A1 (cascade amended)
+
+Triggered by mismatch M1 and the U4 / concurrent-writer findings above.
+cascade amended: TECHNICAL-DIRECTOR-CASCADE.md (Amendment A1 section),
+PHASE-EX1.md (deliverable 1b), PHASE-EX3.md (schema_version 2, validator
+scope), PHASE-EX4.md (U3 starting state), PHASE-EX11.md (target scope),
+gates/common.sh (SCOPED_LESSONS, SCOPED_DECKS, scoped_site_html),
+PHASE-EX1/2/3/4/5/6/9/10 exit gates (U1–U3 scope), gitflow.sh (`sync`,
+called by `start`), tests/test-gitflow.sh (sync tests; safe temp-dir guard;
+14/14 pass). The baseline-commit choice (1af967d) is left to the cold reviewer.

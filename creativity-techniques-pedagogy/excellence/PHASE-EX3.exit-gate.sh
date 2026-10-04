@@ -33,10 +33,11 @@ import json, pathlib, re, sys
 bad = []
 for root in sys.argv[1:]:
     for p in pathlib.Path(root).glob("*/data/content.json"):
+        if re.search(r"/u-[4-9]-", str(p)): continue
         raw = re.sub(r"^---[\s\S]*?---\s*", "", p.read_text())
         if "profield" in raw.lower(): bad.append(f"{p}: contains 'profield'")
         d = json.loads(raw)
-        if "slides" not in d or "how-to-pass" in str(p): continue
+        if "slides" not in d or "how-to-pass" in str(p) or re.search(r"/u-[4-9]-", str(p)): continue
         for s in d["slides"]:
             if not s.get("slide_id"): bad.append(f"{p}: slide without slide_id: {s.get('heading')}")
             if s.get("background_kind") == "curated" and not (s.get("asset_id") and s.get("image_brief")):

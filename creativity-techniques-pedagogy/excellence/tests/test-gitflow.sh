@@ -10,7 +10,12 @@ set -uo pipefail
 SRC="$(git rev-parse --show-toplevel)"
 E=creativity-techniques-pedagogy/excellence
 H="${CASCADE_HARNESS:-$HOME/src/.cursor/skills/cascade-forge/scripts/cascade-harness.sh}"
-T="$(cd "$(mktemp -d)" && pwd -P)"; trap 'rm -rf "$T"' EXIT
+T0="$(mktemp -d -t excellence-gitflow)" || exit 1
+# Never let a failed mktemp turn the cleanup into "delete the current directory".
+case "$T0" in */excellence-gitflow*) ;; *) echo "unsafe temp dir: $T0" >&2; exit 1 ;; esac
+T="$(cd "$T0" && pwd -P)" || exit 1
+case "$T" in */excellence-gitflow*) ;; *) echo "unsafe temp dir: $T" >&2; exit 1 ;; esac
+trap 'rm -rf -- "$T"' EXIT
 FAILS=0
 export EXCELLENCE_PUSH=0   # never push to the real origin from this test
 ok() { echo "PASS: $*"; }
@@ -19,7 +24,9 @@ expect_refused() { local label="$1"; shift; if out="$("$@" 2>&1)"; then ko "$lab
 stub() { printf '#!/usr/bin/env bash\necho stub; exit %s\n' "$2" > "$1"; chmod +x "$1"; }
 commit() { git add -A && git -c user.name=t -c user.email=t@t commit -qm "$1"; }
 
-git clone -q "$SRC" "$T/repo" && cd "$T/repo"
+git clone -q "$SRC" "$T/repo" && cd "$T/repo" && git checkout -q -B main
+git for-each-ref --format="%(refname:short)" refs/heads | while read -r b; do [ "$b" = main ] || git branch -q -D "$b"; done
+git tag -l "excellence/*" | while read -r tg; do git tag -d "$tg" >/dev/null; done
 rm -rf "$E" && cp -R "$SRC/$E" "$E" && cp "$SRC/.gitignore" .gitignore
 stub "$E/PHASE-EX0.exit-gate.sh" 0; stub "$E/PHASE-EX1.exit-gate.sh" 0
 commit "pack under test"
@@ -60,5 +67,13 @@ bash "$E/gitflow.sh" land 1 >/dev/null 2>&1 && ok "6a land EX1" || ko "6a land E
 bash "$E/gitflow.sh" rollback 1 >/dev/null 2>&1
 [ "$(git rev-parse HEAD)" = "$(git rev-parse excellence/ex0^{commit})" ] && ok "6b rollback to excellence/ex0" || ko "6b rollback"
 git -C "$T/repo" rev-parse main | grep -q "$(git -C "$T/repo" rev-parse excellence/base^{commit})" && ok "main untouched" || ko "main moved"
+
+# 7 sync: committed main changes flow into integration; a conflict is refused
+(cd "$T/repo" && echo "teacher edit" > docs/teacher-note.md && commit "teacher edit on main")
+bash "$E/gitflow.sh" sync >/dev/null 2>&1 && [ -f docs/teacher-note.md ] && ok "7a sync merges main" || ko "7a sync merges main"
+(cd "$T/repo" && echo "conflicting" > "$E/work-0.txt" && commit "conflict on main")
+PRE="$(git rev-parse HEAD)"
+expect_refused "7b sync conflict refused" bash "$E/gitflow.sh" sync
+[ "$(git rev-parse HEAD)" = "$PRE" ] && [ -z "$(git status --porcelain)" ] && ok "7c integration clean after refused sync" || ko "7c integration not clean"
 
 echo "failures: $FAILS"; [ "$FAILS" -eq 0 ]
