@@ -2305,7 +2305,7 @@
     }
   ],
   "provenance": {
-    "note": "Public JSON is student-safe. Lexicum links are course thesaurus URIs (ct:…). Field discussion ids match the Tao forge ledger / COMBINE tension table. semantic_tags are vault-compatible DH descriptors for invents.",
+    "note": "Lexicum links are course thesaurus URIs (ct:…). Field discussion ids name tensions held open in the field map. semantic_tags are DH descriptors for invents.",
     "lexicum_cloned_at": "2026-09-14T08:35:15Z"
   },
   "schema": "ct-tao-quotes/v1",
@@ -2322,7 +2322,7 @@
       "getty_aat": "https://www.getty.edu/research/tools/vocabularies/aat/",
       "dcterms": "http://purl.org/dc/terms/"
     },
-    "note": "Concept links use uri_local (ct:…) from the course creativity thesaurus. semantic_tags follow the same DH shape used on student decks (CIDOC / AAT / DCTERMS) for vault-compatible invents — no corpus product names in this public file."
+    "note": "Concept links use uri_local (ct:…) from the course creativity thesaurus. semantic_tags follow the same DH shape used on student decks (CIDOC / AAT / DCTERMS)."
   },
   "field_discussions": [
     {

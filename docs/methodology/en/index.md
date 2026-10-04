@@ -21,11 +21,11 @@ tags: [methodology, creativity-techniques, design, ideation, critical-pedagogy]
 
 ## Why a methodology of its own
 
-**Creativity Techniques** (UEM Creative Campus) teaches **method literacy for design practice** — how to generate, select, develop, and defend ideas under real constraints (briefs, deadlines, competition). Tool craft for fashion-digital media lives in the sibling **Digital Creativity** stream; this course owns the *technique* and the *judgement* that decides what survives.
+**Creativity Techniques** (UEM Creative Campus) teaches **method literacy for design practice** — how to generate, select, develop, and defend ideas under real constraints (briefs, deadlines, competition). This course owns the *technique* and the *judgement* that decides what survives.
 
 Shared studio motto: **AI exists to amplify human intention, not to replace it.**
 
-The fork is ready when: units map to official CONTENIDOS, hours close to the guía, and every claim of “technique” can show process evidence.
+Each published unit maps to one of the official course contents, and every claim of “technique” must show process evidence.
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
@@ -48,7 +48,7 @@ Exploration → Reflection → Conceptualization → Production → Critique.
 
 ## Official methods (guía)
 
-From the Design-degree clone: **Magistral class**, **cooperative learning**, **experiential learning**. Do not invent a fourth institutional methodology label.
+From the official course guide (Design degree): **Magistral class**, **cooperative learning**, **experiential learning**.
 
 ## Visible authorship
 
@@ -65,6 +65,6 @@ Every substantial hand-in declares:
 - Pass rules: [How to Pass Creativity Techniques]({{ '/tracks/ct/how-to-pass-this-track/' | relative_url }})  
 - Degree page: [Bachelor's Degree in Design](https://creativecampus.universidadeuropea.com/en/degree-design-madrid/)
 
-## Fork readiness
+## Where to find the rest
 
-This methodology page is intentionally lean and **fork-ready**: unit forges should link back here rather than restate the cycle. Evaluation weights stay on the Evaluation page; bibliography stays on Bibliography. Do not deepen Spanish dual surfaces — this site is English-only.
+Each unit links back here rather than restating the cycle. Evaluation weights are on the Evaluation page; the bibliography is on the Bibliography page.

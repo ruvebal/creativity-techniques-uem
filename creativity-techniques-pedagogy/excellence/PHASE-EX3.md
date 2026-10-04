@@ -65,6 +65,8 @@ publish it only if its rights are proven". Live failing cases:
 
 (Amendment A2/F7: never delete or move a cache file referenced by any deck, including legacy U4; `profield-cache/` keeps exactly those files. Orphans = referenced by no deck.)
 
+(Amendment A4/F6: also remove the Profield comment in `docs/assets/js/student-media-deck.js` and extend the safety script's profield check to JS.)
+
 ## Scope
 
 **In:** the files above. **Out:** choosing images (EX4), renderer changes (EX5),

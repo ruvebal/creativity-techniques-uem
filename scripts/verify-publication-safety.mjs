@@ -35,7 +35,32 @@ const forbidden = [
 	[/\bUNIT-THEME-ENRICHMENT\.mdc\b/i, 'local forge rule'],
 	[/\bdiscovery-receipt\.json\b/i, 'internal discovery receipt'],
 	[/\bnotes_internal\b/i, 'internal directory field'],
+	// EX2 (FINDINGS E1–E3; Amendments A2/F5, A3/F9): authoring machinery and sibling surfaces.
+	[/\bForge date\b/i, 'internal authoring stamp'],
+	[/\bforg(?:e[ds]?|er|ers|ing)\b/i, 'internal authoring pipeline (forge)'],
+	// Narrowed (A4/F5): ordinary English such as "harness divergent thinking" stays allowed.
+	[/\b(?:agentic|local|studio)\s+harness(?:es)?\b|\bharness:/i, 'internal agent harness'],
+	[/\bagentic\b/i, 'internal agent architecture'],
+	[/\bscholar-voice\b/i, 'internal voice model'],
+	[/\benrichment pack\b/i, 'internal authoring pack'],
+	[/\bextraction order\b/i, 'internal extraction locator'],
+	[/\bsource adjudication\b/i, 'internal source review'],
+	[/\blesson-scribe\b/i, 'internal authoring agent'],
+	[/\bvaults?\b/i, 'internal source vault'],
+	[/\bThessia\b/i, 'internal voice model'],
+	[/\bcurriculum-internal\b/i, 'internal metadata block'],
+	[/\bopen procurement\b/i, 'internal bibliography status'],
+	[/\bgu[ií]a clone\b/i, 'internal guide-copy label'],
+	[/\bcontact-forgeable\b/i, 'internal hours label'],
+	[/\b9990002301\b/, 'internal guide identifier'],
+	[/\budit\b/i, 'sibling institution (UDIT)'],
+	[/\bweb-atelier\b/i, 'sibling course site'],
+	[/\bdigital-creativity-uem\b/i, 'sibling course site'],
+	[/\bDigital Creativity\b/, 'sibling course mention'],
 ];
+
+// Applied to built HTML only: deck JSON values still carry these until EX3 renames them.
+const forbiddenHtmlOnly = [[/\bprofield\b/i, 'internal media service (Profield)']];
 
 function filesUnder(directory, extensions) {
 	if (!statSync(directory, { throwIfNoEntry: false })?.isDirectory()) return [];
@@ -57,10 +82,13 @@ function leakAudit() {
 	const extensions = new Set(['.html', '.xml', '.json', '.js', '.css', '.svg', '.md', '.txt', '.yml', '.yaml']);
 	for (const file of filesUnder(publicRoot, extensions)) {
 		const content = readFileSync(file, 'utf8');
-		for (const [pattern, label] of forbidden) {
+		const patterns = extname(file) === '.html' ? [...forbidden, ...forbiddenHtmlOnly] : forbidden;
+		for (const [pattern, label] of patterns) {
 			if (pattern.test(content)) failures.push(`${relative(root, file)}: ${label}`);
 		}
 	}
+	// Raw site data must not be published (FINDINGS E2): Liquid reads site.data at build time.
+	if (statSync(join(publicRoot, '_data'), { throwIfNoEntry: false })) failures.push('_site/_data: raw site data published');
 	// Pedagogy tree must never ship
 	for (const banned of ['creativity-techniques-pedagogy', 'student-project-template', 'directory/musae-dfa', 'methods/musae-dfa']) {
 		const p = join(publicRoot, banned);

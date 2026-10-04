@@ -63,6 +63,23 @@ U1, U2 and U4 on `main`. Therefore:
   section with `id="tao-of-creativity"` to every U1–U3 lesson listing that
   unit's Tao lines, so the deck links resolve.
 
+## Amendment A4 (EX2 cold review, 2026-10-04)
+
+- **F1/F5 gate amendment (strengthening):** EX2 leak terms add scholar-voice,
+  enrichment pack, extraction order, source adjudication, agentic; bare
+  "harness" narrowed to architecture phrasings (agentic/local/studio harness,
+  "harness:") so ordinary English ("harness divergent thinking") is not blocked.
+- **F3 gate amendment:** built HTML must link `/ai-declaration/` under the
+  site baseurl.
+- **F2:** the forge rules that mandate the old footer (`forge/ct-unit-forge.mdc`
+  §4b, `forge/CREATIVE-PROCESS-ANALYSIS-FORGE.mdc` footer line) are amended in
+  EX2 to the one-sentence declaration footer, so U4–U6 forging and EX8–EX10
+  do not reintroduce it.
+- **F6 → EX3:** remove the Profield comment from `student-media-deck.js`; the
+  safety script's profield check covers JS.
+- **F7 → EX6:** add Verón 1988, Steimberg (reconcile 1993 vs 2013), Chion and
+  Alexander to `research-manifest.yml` as master-lecture works (verified or gap).
+
 ## Programme (do not invert)
 
 | Step | Phase | Lane | Findings closed | Human gate |

@@ -1,4 +1,4 @@
-/* ATELIER UDIT – minimal prose + layout */
+/* Creativity Techniques – minimal prose + layout */
 :root {
 	/* Layout scale */
 	--max: clamp(66ch, 2.5vw + 78ch, 104ch); /* Harmonic readable measure for prose (wider) */
@@ -204,7 +204,7 @@ img.footer-logo {
 	object-fit: contain;
 }
 
-.footer-institutional-logos .footer-logo--udit {
+.footer-institutional-logos .footer-logo--secondary {
 	max-width: min(100%, 18rem);
 }
 

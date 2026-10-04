@@ -54,7 +54,7 @@ PROVENANCE_LINE: claim=SU-CPA.ricoeur-metaphor; status=BIBLIO-GAP; source={coat=
 
 **In-class slideshow:** [open deck]({{ '/master-lectures/creative-process-analysis/' | relative_url }})
 
-This is a **Master Lecture** — a transversal analysis method for Creativity Techniques (and sister analysis guides). It is **not** an official CONTENIDOS unit ID.
+This is a **Master Lecture** — an analysis method shared by every unit of Creativity Techniques. It is **not** one of the official course units.
 
 </div>
 
@@ -69,9 +69,9 @@ By the end of this master lecture you can:
 
 ## Why this guide
 
-Same method as the fashion-image **Master Lecture** in Digital Creativity — and the same spirit as the [Web Analysis Guide](https://ruvebal.github.io/web-atelier-udit/lessons/en/web-analysis/): numbered steps, one sitting, critical emphasis.
+The guide uses numbered steps, one sitting, and a critical emphasis.
 
-This lecture **deepens** the Analysis method already in every CT lesson. It does not invent a CONTENIDOS ID.
+This lecture **deepens** the Analysis method already in every CT lesson.
 
 ---
 
@@ -139,7 +139,7 @@ Also ask C1–C3 hooks when they fit: ideology of “creativity”; unpaid ideat
 
 ### Circulation (Lens B · plain wording)
 
-Meaning is not finished when you stop making. Reception can become the next condition of production (another brief, another platform remake, another critique round). Keep secondary theorist names in the professor brief until their public Chicago entries are complete.
+Meaning is not finished when you stop making. Reception can become the next condition of production (another brief, another platform remake, another critique round).
 
 ---
 
@@ -195,10 +195,9 @@ Process / piece ID: _______________________
 
 ## Editorial note · Work in progress · Teaching Innovation Practice
 
-**Declared gap:** Steimberg (2013) on genre/style/transposition and Verónian circulation remain course-method vocabulary until public Chicago citations are ready. Ricoeur (1977) and Bay-Cheng et al. (2010) stay in the professor brief (bibliographic confidence below 0.85).  
-**Missing evidence:** Munari / Werhane bibliography still incomplete for student Chicago; Chion / Alexander when public bibliography is ready.  
-**Addressed-to-editor:** Cycle 2 adds Eckersall, Grehan, and Scheer 2017 as a second public spine for material composition / circulation alongside Craft–Chen–Csikszentmihalyi process literacy.
+**Declared gap:** the genre / style / transposition and circulation vocabulary used here is course-method vocabulary; this guide does not yet cite a source for it.  
+**Sources:** Eckersall, Grehan, and Scheer (2017) support material composition and circulation; Craft, Chen, and Csikszentmihalyi support process literacy.
 
 ## AI-assisted authorship
 
-Vault counts this cycle: **4** public sources cited (Craft, Chen, Csikszentmihalyi, Eckersall) · date **2026-09-27** · guide prose author-edited. See site AI declaration when published.
+Rubén Vega Balbás, PhD, wrote this guide with AI assistance and is responsible for the final text; when you use this method for D1 or a portfolio entry, declare your own AI use (or state “No AI tools used”) as set out in the [AI usage declaration]({{ '/ai-declaration/' | relative_url }}).

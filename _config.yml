@@ -40,7 +40,6 @@ permalink: /:categories/:path/
 include:
   - lessons
   - assets
-  - _data
   - _plugins
   - methodology
   - tracks

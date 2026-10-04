@@ -16,7 +16,7 @@ description: 'S1 · 6 ECTS · Year 3 · 2026–27 — idea generation, selection
 
 **[How to Pass Creativity Techniques]({{ '/tracks/ct/how-to-pass-this-track/' | relative_url }})**
 
-This page is the fork-ready track index. Do not invent Campus Virtual dates here.
+Dates and submission channels are published in Campus Virtual, not on this page.
 
 ## Programme frame
 
@@ -29,8 +29,8 @@ This page is the fork-ready track index. Do not invent Campus Virtual dates here
 | Semester | First semester (S1) |
 | ECTS | 6 |
 | Type | Compulsory |
-| Academic year | 2026–27 *(guía clone currently 2025–26 — reconcile when 2026–27 PDF lands)* |
-| Presencial load | **150 h** (contact-forgeable bucket **80 h**) |
+| Academic year | 2026–27 *(this site follows the 2025–26 official course guide until the 2026–27 guide is published)* |
+| Presencial load | **150 h** (**80 h** contact) |
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
@@ -46,7 +46,7 @@ Link gate: STUDENT-SLIDESHOW-FORGE.mdc §Publish gate — track + lesson links
 -->
 {% endif %}
 
-## Units (official CONTENIDOS)
+## Units (official course contents)
 
 | Unit | Title | Materials |
 | --- | --- | --- |
@@ -59,24 +59,24 @@ Link gate: STUDENT-SLIDESHOW-FORGE.mdc §Publish gate — track + lesson links
 
 ## Master Lectures (transversal)
 
-Shared analysis methods — **not** CONTENIDOS unit IDs. Use from any unit that needs the eight-step process critique (feeds D1).
+Shared analysis methods — **not** units of the official course contents. Use from any unit that needs the eight-step process critique (feeds D1).
 
 | Master Lecture | Lesson | Slideshow |
 | --- | --- | --- |
 | **Creative process analysis** | [Lesson]({{ '/lessons/en/master-lectures/creative-process-analysis/' | relative_url }}) | [Deck]({{ '/master-lectures/creative-process-analysis/' | relative_url }}) |
 
-Critical layers (ideology, labour, GenAI authorship) live in pedagogy/media vocab only — they are **not** fake CONTENIDOS rows. The Master Lecture is a transversal method guide (same eight steps as the Digital Creativity fashion-image master lecture).
+The Master Lecture is a method guide shared by all units.
 
 ## How to complete a unit
 
 Each lesson follows a B1 / B2 / B3 package: frame the concept, define the studio artefact and definition of done, then isolate an individual problem. Submit a piece ID, process folder, final artefact, and process note; keep source files and disclose any AI assistance. Institutional dates and submission channels remain in Campus Virtual.
 
-Open the unit from the table above, then use **In-class deck** at the lesson head for the Reveal surface used in class.
+Open the unit from the table above, then use **In-class deck** at the lesson head for the slides used in class.
 
 ## Official contract
 
-Pedagogical binding source: official guía PDF family `9990002301` (Design degree clone). Evaluation weights: **60%** knowledge tests · **40%** delivery and/or presentation of work. To pass you also need at least 5.0 in the final test and must hand in at least 50% of the course activities — see [Evaluation]({{ '/evaluation/' | relative_url }}).
+Binding source: the official course guide (*guía docente*) for the Bachelor's Degree in Design. Evaluation weights: **60%** knowledge tests · **40%** delivery and/or presentation of work. To pass you also need at least 5.0 in the final test and must hand in at least 50% of the course activities — see [Evaluation]({{ '/evaluation/' | relative_url }}).
 
 ## Arc
 
-Creativity Techniques trains **method literacy** under professional constraints (briefs, deadlines, competition). The sibling Digital Creativity stream trains fashion-digital craft; this track owns ideation technique, selection judgement, and workplace transfer — ready to fork units without inventing hours beyond the guía.
+Creativity Techniques trains **method literacy** under professional constraints (briefs, deadlines, competition): ideation technique, selection judgement, and workplace transfer.

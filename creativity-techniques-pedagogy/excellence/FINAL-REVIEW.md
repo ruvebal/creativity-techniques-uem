@@ -33,3 +33,23 @@ Built during the autopilot run; read this once at the end (AUTOPILOT.md §5).
 - **Pin-cite correction found:** de Bono 1985 map/route quote is printed p. **199** (was 211, a PDF index). Reviewer found Chen 2012 pins are also PDF indexes (EX6 re-verifies all, Amendment A3).
 - Local models: 1 Thessia voice pass — **discarded** (invented citations); ~20 Athanor searches. Thessia has fabricated in every unsourced test so far.
 - Full before/after table (39 rows): `PHASE-EX1-REPORT.md`. Roll back: `gitflow.sh rollback 1`.
+
+### EX2 — publication firewall
+
+- `_data` no longer published; the safety script gains 15 patterns, an HTML-only `profield` check and a `_site/_data` check. The new script fails on the pre-fix site (45 findings) and on a temporary `lesson-scribe` page; the old script passed the pre-fix site.
+- 38 student-facing sentences rewritten in plain English (track page, hub, U1–U3, master lecture, methodology, bibliography, AI declaration, D1 brief, Tao notes). AI footers are now one sentence + `/ai-declaration/` link. UDIT/web-atelier links and Digital Creativity comparisons removed. The old special deck data is retired (redirect kept).
+- Local model: 1 call, `qwen2.5:32b-instruct`, 848 tokens (wording ideas, partly used).
+- Before/after table: `PHASE-EX2-REPORT.md`. Roll back: `gitflow.sh rollback 2`.
+
+#### U4–U6 firewall-only edits
+
+| File | Line | Before | After |
+| --- | --- | --- | --- |
+| `docs/lessons/en/creativity-techniques/u-4-workplace-application/index.md` | 192 | `*Forge date: 2026-10-04 · Studio: crea-comm.net*` | `*Date: 2026-10-04 · Studio: crea-comm.net*` |
+
+| `docs/lessons/en/creativity-techniques/u-4-workplace-application/index.md` | 186 (round 2, F1) | "…at the locators used in this pilot (402 and 440 in the extraction order) — these are not independently verified printed pages." | "…; its page locators are not yet verified against the printed edition." |
+| `docs/lessons/en/creativity-techniques/u-4-workplace-application/index.md` | 190 (round 2, F1) | Authorship paragraph naming the local scholar-voice model, U4 enrichment pack and Thinkertoys source adjudication | Standard one-sentence footer + `{{ '/ai-declaration/' \| relative_url }}` link |
+
+U5 and U6 have no published pages, so they had no edits.
+
+**Warning for the U4 forge on `main` (A4/F2):** `forge/ct-unit-forge.mdc` §4b no longer allows the old footer (harness, vault count, Forge date, `lesson-scribe`). The safety script now fails the build on harness phrasings, `agentic`, `scholar-voice`, `enrichment pack`, `extraction order`, `source adjudication`, forge and vault. Expect a merge conflict on U4 lines 186, 190 and 192 if `main` edits them; per A2/F5 a sync conflict is a stop rule.
