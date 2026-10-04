@@ -7,6 +7,7 @@ Built during the autopilot run; read this once at the end (AUTOPILOT.md §5).
 | Phase | Status | Tag | Notes |
 | --- | --- | --- | --- |
 | EX0 | DONE | `excellence/ex0` | Probe + baseline + provisional weights; cold review PASS (11 findings, 0 blocking) |
+| EX1 | DONE | `excellence/ex1` | Contract + factual hotfix; cold review round 1 FAIL (F1 portfolio pass conditions), fixed; round 2 PASS |
 
 ## 2 · P0 decisions for you
 
@@ -24,3 +25,11 @@ Built during the autopilot run; read this once at the end (AUTOPILOT.md §5).
 - Gate: 7 PASS / 0 FAIL (runner log `PHASE-EX0-VERIFY-LOG.md`). Cold review: PASS; reviewer reproduced both JSONs independently.
 - Cascade amended: A1 (scope U1–U3, deck schema v2, `sync`), A2 (site-wide firewall, F2–F7 probe/EX3 fixes).
 - Roll back: `gitflow.sh rollback 0`.
+
+### EX1 — contract and factual hotfix
+
+- 60/40 + pass conditions (≥ 5.0 final test, ≥ 50% activities, extraordinary-session rule per guía §7.2) on evaluation, track, How to Pass, portfolio; U1/U2 front-matter weights fixed; wrong-degree guía JSON renamed.
+- U3 Cross misattribution relabelled Tao; U2: six hats complete (checked vs de Bono 1985 pp. 200–201), Osborn contradiction fixed, quotes replaced with page-verified ones, References 17 → 8 (Lehrer 2012 and "de Bono 1981" removed); U1: originality = rare answers (Chen), "trainable" qualified, two Lab exercises (Directory → autonomous work), no Workshop in sessions 1–3; Tao of Development openers replaced; Eckersall co-authors.
+- **Pin-cite correction found:** de Bono 1985 map/route quote is printed p. **199** (was 211, a PDF index). Reviewer found Chen 2012 pins are also PDF indexes (EX6 re-verifies all, Amendment A3).
+- Local models: 1 Thessia voice pass — **discarded** (invented citations); ~20 Athanor searches. Thessia has fabricated in every unsourced test so far.
+- Full before/after table (39 rows): `PHASE-EX1-REPORT.md`. Roll back: `gitflow.sh rollback 1`.

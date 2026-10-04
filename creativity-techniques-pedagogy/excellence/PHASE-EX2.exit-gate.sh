@@ -12,7 +12,8 @@ hits="$(grep -rliE --include='*.html' -- "$TERMS" _site | head -10)"
 if [ -z "$hits" ]; then pass "no internal terms in built HTML (whole site)"; else fail "internal terms in built HTML"; echo "$hits"; grep -rhoiE --include='*.html' -- "$TERMS" _site | sort | uniq -c | head; fi
 if scoped_site_html | xargs grep -qiE -- 'creativity-techniques-pedagogy|cv/guides' 2>/dev/null; then fail "internal guide path in built HTML"; else pass "no internal guide path in built HTML"; fi
 
-for p in harness lesson-scribe vault udit forge; do
+if grep -rqE --include='*.html' -- "9990002301" _site; then fail "internal guía id rendered (A3/F9)"; else pass "internal guía id not rendered (A3/F9)"; fi
+for p in harness lesson-scribe vault udit forge 9990002301; do
   present "safety script has pattern: $p" "$p" scripts/verify-publication-safety.mjs
 done
 

@@ -46,6 +46,23 @@ U1, U2 and U4 on `main`. Therefore:
   `public_weights`, missing `quote_origin`, renamed rank dealing, decks with no
   lab slides, asset reuse) before evaluating targets.
 
+## Amendment A3 (EX1 cold reviews, 2026-10-04)
+
+- **EX2 (F9):** the internal guía id `9990002301` is rendered on the track
+  page; add it to the leak patterns and remove it from student text.
+- **EX6 (F2, F3, F4):** re-verify every pin cite against the **printed** page
+  (Chen 2012 pins are PDF indexes: PDF p. 41 = printed p. 26); for EPUB sources
+  (Rubin, Csikszentmihalyi, de Bono 1970) record the edition's real page or
+  switch to chapter/section locators, never synthetic index+1; supply the
+  research citations for U2's "push past the obvious by producing more"
+  (Osborn 1953; Beaty and Silvia 2012; Ward 1994).
+- **EX9 (F5, F6, F7):** every unit lesson keeps a `## Workshop` section whose
+  first line states when Workshop runs ("From session 4: …"; U1: "No Workshop
+  in sessions 1–3"), consistent with the Evaluation and How to Pass rhythm;
+  label every intra-rubric percentage "of D1"; add a `## Tao of Creativity`
+  section with `id="tao-of-creativity"` to every U1–U3 lesson listing that
+  unit's Tao lines, so the deck links resolve.
+
 ## Programme (do not invert)
 
 | Step | Phase | Lane | Findings closed | Human gate |

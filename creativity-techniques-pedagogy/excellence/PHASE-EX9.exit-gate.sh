@@ -35,5 +35,17 @@ for slug in ["u-1-introduction-creativity", "u-2-idea-generation-selection", "u-
 print("\n".join(bad)); sys.exit(1 if bad else 0)
 PY
 
+# Amendment A3/F5–F7
+for slug in u-1-introduction-creativity u-2-idea-generation-selection u-3-development-solutions; do
+  f="$LESSONS/$slug/index.md"
+  present "$slug: tao-of-creativity anchor" 'id="tao-of-creativity"|\{#tao-of-creativity\}' "$f"
+  python3 - "$f" <<'GATEPY' && pass "$slug: Workshop timing stated" || fail "$slug: Workshop timing stated"
+import re, sys
+t = open(sys.argv[1]).read()
+m = re.search(r"^## [^\n]*Workshop[^\n]*\n+([^\n]+)", t, re.M)
+sys.exit(0 if m and re.search(r"session", m.group(1), re.I) else 1)
+GATEPY
+done
+
 build_site
 finish

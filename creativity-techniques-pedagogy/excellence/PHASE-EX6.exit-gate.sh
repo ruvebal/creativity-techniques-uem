@@ -46,5 +46,17 @@ puts bad.first(30)
 exit(bad.empty? ? 0 : 1)
 RB
 
+# Amendment A3/F2–F3: every verified provenance line declares how its page was read.
+python3 - "${SCOPED_LESSONS[@]}" <<'GATEPY' && pass "PROVENANCE_LINE page_basis declared" || fail "PROVENANCE_LINE page_basis declared"
+import pathlib, re, sys
+bad = []
+for f in [x for d in sys.argv[1:] for x in pathlib.Path(d).rglob("index.md")]:
+    for line in f.read_text().splitlines():
+        if "PROVENANCE_LINE" in line and "status=VERIFIED" in line and not re.search(r"page_basis=(printed|section)", line):
+            bad.append(f"{f}: {line[:90]}")
+print("\n".join(bad[:20])); sys.exit(1 if bad else 0)
+GATEPY
+absent "no Chen PDF-index pins left" "\(Chen 2012, 4[01]\)" "${SCOPED_LESSONS[@]}" "${SCOPED_DECKS[@]}"
+
 build_site
 finish
