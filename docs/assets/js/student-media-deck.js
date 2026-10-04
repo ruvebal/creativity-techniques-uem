@@ -1,6 +1,6 @@
 (() => {
   // Creativity Techniques student deck.
-  // Spine: unit_cover → analysis → masterclass (Profield) → geometrical lab_opener → lab
+  // Spine: unit_cover → analysis → masterclass (curated image or diagram) → geometrical lab_opener → lab
   // → geometrical workshop_opener → workshop → geometrical outro.
   // Remote backgrounds painted via CSS after Reveal.sync (comma / %2B safe).
   // Captions never expose Resource UUID / authoring-tool version strings.

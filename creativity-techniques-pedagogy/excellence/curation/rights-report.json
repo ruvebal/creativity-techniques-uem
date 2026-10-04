@@ -1,0 +1,83 @@
+{
+  "schema": "deck-rights-report/v1",
+  "mode": "flag",
+  "policy": "AUTOPILOT.md §0: rights recorded and flagged, not blocking; rightsVerdict stays strict. Professor reviews every flagged asset before release.",
+  "year": 2026,
+  "summary": {
+    "assets": 3,
+    "pass": 0,
+    "flagged": 3,
+    "v2_flagged": 2,
+    "legacy_flagged": 1
+  },
+  "assets": [
+    {
+      "deck": "docs/tracks/en/uem/2627-ct/u-2-idea-generation-selection/data/content.json",
+      "schema_version": 2,
+      "legacy": false,
+      "slide_id": "masterclass-1",
+      "heading": "1 · Generate, then select",
+      "media_slot_id": "U2.masterclass-1",
+      "asset_id": "wikimedia:File:Sprite Fright-concept art-Victoria 01.png",
+      "title": "Sprite Fright concept art: Victoria",
+      "author": "Julien Kaspar / Blender Foundation",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Sprite_Fright-concept_art-Victoria_01.png",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "Published 2020 by the Blender Foundation under CC BY 4.0 (Commons file page, read 2026-10-04); publication relies on the licence, not on an expired term.",
+      "rights_status": "flagged",
+      "verdict": "fail",
+      "reasons": [
+        "review tag in title: modern_rights_review_required"
+      ]
+    },
+    {
+      "deck": "docs/tracks/en/uem/2627-ct/u-4-workplace-application/data/content.json",
+      "schema_version": null,
+      "legacy": true,
+      "slide_id": null,
+      "heading": "Pitch the decision card",
+      "media_slot_id": "U4.still.profield-1",
+      "asset_id": "nypl:3432d330-a629-0135-2798-05f9b175829f",
+      "title": "Man dreaming",
+      "author": null,
+      "licence": null,
+      "licence_url": null,
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/3432d330-a629-0135-2798-05f9b175829f",
+      "author_death_year": null,
+      "eu_term_ok": false,
+      "eu_term_reason": null,
+      "rights_status": null,
+      "verdict": "fail",
+      "reasons": [
+        "licence not accepted: (empty)",
+        "author missing",
+        "EU term not verified"
+      ]
+    },
+    {
+      "deck": "docs/tracks/en/uem/2627-ml/creative-process-analysis/data/content.json",
+      "schema_version": 2,
+      "legacy": false,
+      "slide_id": "cover",
+      "heading": "Master Lecture · Creative process analysis",
+      "media_slot_id": "ML-CPA.cover",
+      "asset_id": "wikimedia:File:Iterative Process Diagram.svg",
+      "title": "Iterative Process Diagram",
+      "author": "Krupadeluxe",
+      "licence": "CC-BY-SA-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Iterative_Process_Diagram.svg",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "Own work by the uploader (2021) under CC BY-SA 4.0 (Commons file page, read 2026-10-04); publication relies on the licence, not on an expired term.",
+      "rights_status": "flagged",
+      "verdict": "fail",
+      "reasons": [
+        "review tag in title: modern_rights_review_required"
+      ]
+    }
+  ]
+}

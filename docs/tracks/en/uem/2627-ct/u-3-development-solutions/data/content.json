@@ -2,6 +2,7 @@
 layout: null
 ---
 {
+  "schema_version": 2,
   "unit_label": "Creativity Techniques · U3 Development Techniques and Solutions",
   "ttod_index": [
     {
@@ -14,43 +15,18 @@ layout: null
       ]
     }
   ],
-  "assets": [
-    {
-      "media_slot_id": "U3.still.profield-1",
-      "asset_id": "nypl:510d47dc-6052-a3d9-e040-e00a18064a99",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/34491d14c12721d7.php",
-      "source_file_url": "https://images.nypl.org/index.php?id=1401840&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/510d47dc-6052-a3d9-e040-e00a18064a99",
-      "alt_text": "Circus performers.",
-      "title": "Circus performers.",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 9,
-      "selection_rank": 9,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "U3.still.profield-2",
-      "asset_id": "nypl:894fb0a0-abfc-013c-eb21-0242ac110003",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/02c1a057c9a71866.php",
-      "source_file_url": "https://images.nypl.org/index.php?id=58953729&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/894fb0a0-abfc-013c-eb21-0242ac110003",
-      "alt_text": "Diamaxion house, metal, adapted corn bin, built by Butler Brothers, Kansas City. Designed and promoted by R. Buckminster Fuller.",
-      "title": "Diamaxion house, metal, adapted corn bin, built by Butler Brothers, Kansas City. Designed and promoted by R. Buckminster Fuller.",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 8,
-      "selection_rank": 8,
-      "collection": "unit-accepted"
-    }
-  ],
+  "media_selection": {
+    "unit_id": "U3",
+    "project_id": "tc",
+    "strategy": "slide-bound",
+    "description": "Each image is bound to one named slide by asset_id; slides without a cleared image use the course diagram."
+  },
+  "assets": [],
   "slides": [
     {
+      "slide_id": "cover",
       "slide_role": "unit_cover",
-      "background_kind": "profield",
-      "media_slot_id": "U3.still.profield-1",
+      "background_kind": "diagram",
       "heading": "U3 · Development techniques and solutions",
       "sentence": "Make the idea visible. Learn from the change. Decide what to keep.",
       "quote": "Many doors opened. One fits the brief. Close the rest on purpose. Spring.",
@@ -58,25 +34,28 @@ layout: null
       "citation": {
         "label": "(Tao of Creativity)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-3-development-solutions/#references"
-      }
+      },
+      "image_brief": "TODO: Show a rough early prototype beside a later version of the same object, to picture making the idea visible, learning from the change and deciding what to keep."
     },
     {
+      "slide_id": "analysis-opener",
       "slide_role": "analysis_opener",
       "background_kind": "geometrical",
       "heading": "Analysis opens the class",
       "sentence": "From session 3: two students defend a D1 piece for 15 minutes. Show what changed between versions."
     },
     {
+      "slide_id": "analysis-model",
       "slide_role": "analysis_model",
-      "background_kind": "profield",
-      "media_slot_id": "U3.still.profield-2",
+      "background_kind": "diagram",
       "heading": "Read the development",
-      "sentence": "Name language, medium, and support. Then ask what the next version was trying to learn."
+      "sentence": "Name language, medium, and support. Then ask what the next version was trying to learn.",
+      "image_brief": "TODO: Show successive versions of one design side by side, so students can ask what each next version was trying to learn."
     },
     {
+      "slide_id": "masterclass-1",
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "U3.still.profield-1",
+      "background_kind": "diagram",
       "heading": "1 · Make it rough, make it early",
       "sentence": "A rough prototype is a question in material form. Make the smallest version that can teach you something.",
       "quote": "A rough thing can answer a question that a polished thing hides.",
@@ -84,26 +63,29 @@ layout: null
       "citation": {
         "label": "(Tao of Creativity)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-3-development-solutions/#tao-of-creativity"
-      }
+      },
+      "image_brief": "TODO: Show a rough cardboard or paper prototype, to picture a prototype as a question in material form."
     },
     {
+      "slide_id": "masterclass-2",
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "U3.still.profield-2",
+      "background_kind": "diagram",
       "heading": "2 · Defer judgement",
-      "sentence": "Protect a short space for variation before you decide what works. Then judge with a named criterion."
+      "sentence": "Protect a short space for variation before you decide what works. Then judge with a named criterion.",
+      "image_brief": "TODO: Show a spread of unjudged variations pinned up together before any choice, to picture a protected space before deciding."
     },
     {
+      "slide_id": "masterclass-3",
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "U3.still.profield-1",
+      "background_kind": "diagram",
       "heading": "3 · Iterate with an exit",
-      "sentence": "Write the test before the next version. Stop when the test is answered."
+      "sentence": "Write the test before the next version. Stop when the test is answered.",
+      "image_brief": "TODO: Show a prototype being tested with its result written down, to picture iteration that stops when the test is answered."
     },
     {
+      "slide_id": "masterclass-4",
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "U3.still.profield-2",
+      "background_kind": "diagram",
       "heading": "4 · Sketch to think",
       "sentence": "Three quick arrangements can show relationships that one polished drawing hides.",
       "quote": "Sketching enables exploration of the problem space and the solution space to proceed together.",
@@ -111,27 +93,31 @@ layout: null
       "citation": {
         "label": "(Cross 2006, 46)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-3-development-solutions/#ref-cross-2006"
-      }
+      },
+      "image_brief": "TODO: Show a sketchbook page with several quick alternative arrangements of one layout, to picture sketching as a way of thinking."
     },
     {
+      "slide_id": "masterclass-5",
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "U3.still.profield-1",
+      "background_kind": "diagram",
       "heading": "5 · Open the solution space",
       "sentence": "Reframe an unclear brief as two or three questions. Make one small response to each.",
       "citation": {
         "label": "(Beghetto and Karwowski 2025, 1)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-3-development-solutions/#ref-beghetto-karwowski-2025"
-      }
+      },
+      "image_brief": "TODO: Show one brief reframed as two or three questions, each with a small response (for example a morphological box), to picture opening the solution space."
     },
     {
+      "slide_id": "masterclass-6",
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "U3.still.profield-2",
+      "background_kind": "diagram",
       "heading": "6 · Reflect at checkpoints",
-      "sentence": "Write what changed, what stayed, and what the change taught you."
+      "sentence": "Write what changed, what stayed, and what the change taught you.",
+      "image_brief": "TODO: Show a design journal or process log noting what changed and what stayed, to picture reflection at a checkpoint."
     },
     {
+      "slide_id": "lab-opener",
       "slide_role": "lab_opener",
       "background_kind": "geometrical",
       "heading": "Lab · Portfolio",
@@ -140,36 +126,31 @@ layout: null
       "portfolio_trace": "Save both traces in the portfolio index."
     },
     {
+      "slide_id": "lab-1",
       "slide_role": "lab_exercise",
-      "background_kind": "profield",
-      "media_slot_id": "U3.still.profield-1",
+      "background_kind": "diagram",
       "heading": "Exercise 1 · Same problem, three entry points",
       "sentence": "Keep one D1 problem. Start each of three rough sketches from a different named entry point. Do not polish. Compare how the entry point steered the path (de Bono 1970, 27; Cross 2006, 93).",
       "portfolio_bound": true,
-      "portfolio_trace": "Save the problem, three entry points, three scans, and one sentence on what each entry point made possible."
+      "portfolio_trace": "Save the problem, three entry points, three scans, and one sentence on what each entry point made possible.",
+      "image_brief": "TODO: Show three rough sketches of the same problem started from different points, to picture how the entry point steers the path."
     },
     {
+      "slide_id": "lab-2",
       "slide_role": "lab_exercise",
-      "background_kind": "profield",
-      "media_slot_id": "U3.still.profield-2",
+      "background_kind": "diagram",
       "heading": "Exercise 2 · Delay judgement, then checkpoint and exit",
       "sentence": "Protect a short delay of judgement on one version (de Bono 1970, 30). Write one testable question, revise once, and stop when the test is answered.",
       "portfolio_bound": true,
-      "portfolio_trace": "Save before/after, the deferred-judgement note, the test question, the checkpoint, and the exit decision."
+      "portfolio_trace": "Save before/after, the deferred-judgement note, the test question, the checkpoint, and the exit decision.",
+      "image_brief": "TODO: Show a revised prototype next to a written test question and its answer, to picture one revision that stops when the test is answered."
     },
     {
+      "slide_id": "outro",
       "slide_role": "outro",
       "background_kind": "geometrical",
       "heading": "Carry forward",
       "sentence": "Show one development loop in your D1 defence: question, versions, learning, decision."
     }
-  ],
-  "media_selection": {
-    "unit_id": "U3",
-    "project_id": "tc",
-    "collection": "unit-accepted",
-    "strategy": "review-state-assigned",
-    "description": "Accepted/ranked Profield review-state assets for tc/U3.",
-    "media_overrides": {}
-  }
+  ]
 }

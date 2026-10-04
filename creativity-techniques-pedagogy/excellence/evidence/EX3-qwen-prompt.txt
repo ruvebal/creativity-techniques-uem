@@ -1,0 +1,30 @@
+Write one ES module file `media-rules.mjs` for Node 20 with pure functions only (no I/O, no imports except none). Output only the JavaScript code.
+
+Exports:
+
+1. `extensionFor(contentType, url)` -> 'jpg'|'png'|'webp'|'gif'|'svg'|null.
+   Decide from the Content-Type header (case-insensitive, ignore parameters like "; charset=").
+   image/jpeg and image/pjpeg -> jpg; image/png -> png; image/webp -> webp; image/gif -> gif; image/svg+xml -> svg.
+   If the header is missing or is application/octet-stream, fall back to the URL path extension only if it is one of jpg/jpeg/png/webp/gif/svg (jpeg -> jpg). Any other content type (text/html, application/x-php, ...) -> null. Never return 'php'.
+   Example: extensionFor('image/jpeg', 'https://images.nypl.org/index.php?id=1634206&t=w') === 'jpg'.
+
+2. `ACCEPTED_LICENCES` = ['PD-old-70','PD-EU','CC0','PDM','CC-BY-4.0','CC-BY-SA-4.0','CC-BY-3.0','CC-BY-SA-3.0','NoC-US+EU-checked'].
+
+3. `rightsVerdict(asset, { year = new Date().getFullYear() } = {})` -> { ok: boolean, reasons: string[] }.
+   asset fields: licence, author, canonical_source_url (or source), eu_term_ok (boolean), author_death_year (number|null), eu_term_reason (string), raw_title (string), title.
+   Reasons (collect all): 'licence not accepted: <x>' unless licence in ACCEPTED_LICENCES; 'author missing' if author empty after trim; 'source URL missing' if no http(s) canonical_source_url/source;
+   'EU term not verified' unless eu_term_ok === true AND (author_death_year is a number with author_death_year + 70 < year, OR eu_term_reason is a non-empty string);
+   'review tag in title: <tag>' if raw_title or title contains a bracketed tag matching /\[([a-z0-9_]*review_required)\]/i.
+   ok = reasons.length === 0.
+
+4. `bindSlides(content, acceptedAssets, { unit })` -> { slides, assets, problems }.
+   content.slides is an array; each slide may have slide_id, slide_role, background_kind, asset_id.
+   acceptedAssets is an array of asset objects with asset_id.
+   Rules: only a slide's own `asset_id` binds an image (no rank, no cycling). Structural roles (analysis_opener, lab_opener, workshop_opener, outro) and background_kind 'geometrical' are left unchanged.
+   If slide.asset_id is set and found in acceptedAssets and not already used by an earlier slide in this deck: slide becomes background_kind 'curated', media_slot_id `${unit}.${slide.slide_id}`; the asset is emitted once in `assets` with media_slot_id set to the same slot.
+   If the asset_id is missing from acceptedAssets: slide becomes background_kind 'diagram', asset_id removed from the slide object? No: keep slide.asset_id out, set background_kind 'diagram', delete media_slot_id, and push problem {slide_id, kind:'unaccepted', asset_id}.
+   If the asset was already used: background_kind 'diagram', delete media_slot_id and asset_id, problem {kind:'duplicate'}.
+   Slides with background_kind 'curated' or 'diagram' and no asset_id: background_kind 'diagram', delete media_slot_id.
+   Return new objects; do not mutate inputs.
+
+5. `caption(asset)` -> { title, author, licence, licence_url, source_url, cropped } where title strips a leading 'File:' , a trailing file extension and any trailing bracketed tag; cropped is Boolean(asset.cropped).

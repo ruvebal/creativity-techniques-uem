@@ -1,0 +1,48 @@
+{
+  "schema": "autopilot-assets/v1",
+  "note": "Private rights registry and autopilot acceptance (AUTOPILOT.md §2). Read by scripts/rehydrate-student-media.mjs and scripts/validate-decks.mjs; never published. Rights fields are read from the Commons file page (API extmetadata), not from search snippets. raw_title is the title as indexed by the media prospector, review tag included: rightsVerdict rejects it until a human clears the tag, so these assets are published as rights_status \"flagged\" under the launch decision (AUTOPILOT.md §0).",
+  "assets": [
+    {
+      "asset_id": "wikimedia:File:Iterative Process Diagram.svg",
+      "assignments": [{ "project_id": "ml", "unit_id": "ML-CPA" }],
+      "title": "Iterative Process Diagram",
+      "raw_title": "File:Iterative Process Diagram.svg [modern_rights_review_required]",
+      "alt_text": "Diagram of an iterative cycle: planning, requirements, analysis and design, implementation, testing and evaluation, looping back before deployment.",
+      "author": "Krupadeluxe",
+      "author_death_year": null,
+      "licence": "CC-BY-SA-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Iterative_Process_Diagram.svg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Iterative_Process_Diagram.svg",
+      "provider": "wikimedia_commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "Own work by the uploader (2021) under CC BY-SA 4.0 (Commons file page, read 2026-10-04); publication relies on the licence, not on an expired term.",
+      "cropped": false,
+      "rights_checked_on": "2026-10-04",
+      "rights_source": "Commons API imageinfo extmetadata (Artist, LicenseShortName, LicenseUrl)",
+      "approved_by": "autopilot (final review pending)",
+      "origin": "EX3: existing master-lecture cover binding kept (image matches the slide); accepted in review-state for tc/U1 only, so the ml/ML-CPA assignment is recorded here"
+    },
+    {
+      "asset_id": "wikimedia:File:Sprite Fright-concept art-Victoria 01.png",
+      "assignments": [],
+      "title": "Sprite Fright concept art: Victoria",
+      "raw_title": "File:Sprite Fright-concept art-Victoria 01.png [modern_rights_review_required]",
+      "alt_text": "Concept-art sheet with about seventeen labelled variations of one cartoon character's head, from the Blender short film Sprite Fright.",
+      "author": "Julien Kaspar / Blender Foundation",
+      "author_death_year": null,
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Sprite_Fright-concept_art-Victoria_01.png",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Sprite_Fright-concept_art-Victoria_01.png",
+      "provider": "wikimedia_commons",
+      "eu_term_ok": true,
+      "eu_term_reason": "Published 2020 by the Blender Foundation under CC BY 4.0 (Commons file page, read 2026-10-04); publication relies on the licence, not on an expired term.",
+      "cropped": false,
+      "rights_checked_on": "2026-10-04",
+      "rights_source": "Commons API imageinfo extmetadata (Artist, LicenseShortName, LicenseUrl)",
+      "approved_by": "autopilot (final review pending)",
+      "origin": "EX3: existing U2 Masterclass 1 binding kept (variant sheet matches 'Generate, then select'); accepted in review-state for tc/U2"
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+[
+  {
+    "unit": "U1",
+    "slideId": "cover",
+    "heading": "U1 · Introduction to creativity",
+    "before": "Reflection.",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "U1",
+    "slideId": "analysis-opener",
+    "heading": "Analysis opens the class",
+    "before": "(geometrical)",
+    "after": "geometrical"
+  },
+  {
+    "unit": "U1",
+    "slideId": "analysis-model",
+    "heading": "How to analyse (model)",
+    "before": "Circus performers.",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "U1",
+    "slideId": "masterclass-1",
+    "heading": "1 · Open, then close",
+    "before": "Fashion illustration",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "U1",
+    "slideId": "masterclass-2",
+    "heading": "2 · Four skills tests measure",
+    "before": "An action off Spit-Head",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "U1",
+    "slideId": "masterclass-3",
+    "heading": "3 · Tests are not the whole story",
+    "before": "Creation of Adam",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "U1",
+    "slideId": "masterclass-4",
+    "heading": "4 · Name the problem first",
+    "before": "The artist's dream.",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "U1",
+    "slideId": "masterclass-5",
+    "heading": "5 · Techniques are tools, not scripts",
+    "before": "Five-Way Portrait of Marcel Duchamp, 21 June 1917, New York City.jpg",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "U1",
+    "slideId": "masterclass-6",
+    "heading": "6 · “Design thinking” is debated",
+    "before": "Dada siegt! : Wiedereröffnung der polizeilich geschlossenen Ausstellung, Schildergasse 37 ...",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "U1",
+    "slideId": "lab-opener",
+    "heading": "Lab · Portfolio",
+    "before": "(geometrical)",
+    "after": "geometrical"
+  },
+  {
+    "unit": "U1",
+    "slideId": "lab-1",
+    "heading": "Exercise 1 · Research Marcel Duchamp",
+    "before": "Festival Dada, mercredi 26 mai 1920 à 3 h. après-midi",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "U1",
+    "slideId": "lab-2",
+    "heading": "Exercise 2 · Research the Dada movement",
+    "before": "A patent sideboard.",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "U1",
+    "slideId": "outro",
+    "heading": "Carry forward",
+    "before": "(geometrical)",
+    "after": "geometrical"
+  },
+  {
+    "unit": "U2",
+    "slideId": "cover",
+    "heading": "U2 · Idea generation and selection techniques",
+    "before": "Un chien andalou- Un perro andaluz.jpg",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "U2",
+    "slideId": "analysis-opener",
+    "heading": "Analysis opens the class",
+    "before": "(geometrical)",
+    "after": "geometrical"
+  },
+  {
+    "unit": "U2",
+    "slideId": "analysis-model",
+    "heading": "How to analyse (rolling model)",
+    "before": "Leonardo da Vinci",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "U2",
+    "slideId": "masterclass-1",
+    "heading": "1 · Generate, then select",
+    "before": "Sprite Fright-concept art-Victoria 01.png",
+    "after": "kept: Sprite Fright-concept art-Victoria 01.png"
+  },
+  {
+    "unit": "U2",
+    "slideId": "masterclass-2",
+    "heading": "2 · Fluency with flexibility",
+    "before": "Surrealistic window display, Bergdorf Goodman, New York City",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "U2",
+    "slideId": "masterclass-3",
+    "heading": "3 · Get past the obvious",
+    "before": "Circus artists",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "U2",
+    "slideId": "masterclass-4",
+    "heading": "4 · Role and constraint tools",
+    "before": "Imagination is allowed full play at the American Laboratory Theatre",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "U2",
+    "slideId": "masterclass-5",
+    "heading": "5 · Name selection criteria",
+    "before": "Un chien andalou- Un perro andaluz.jpg",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "U2",
+    "slideId": "masterclass-6",
+    "heading": "6 · Workshops are means, not genius",
+    "before": "Leonardo da Vinci",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "U2",
+    "slideId": "lab-opener",
+    "heading": "Lab · Portfolio",
+    "before": "(geometrical)",
+    "after": "geometrical"
+  },
+  {
+    "unit": "U2",
+    "slideId": "lab-1",
+    "heading": "Exercise 1 · Guided concentration",
+    "before": "Sprite Fright-concept art-Victoria 01.png",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "U2",
+    "slideId": "lab-2",
+    "heading": "Exercise 2 · Automatic writing after concentration",
+    "before": "Surrealistic window display, Bergdorf Goodman, New York City",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "U2",
+    "slideId": "outro",
+    "heading": "Carry forward",
+    "before": "(geometrical)",
+    "after": "geometrical"
+  },
+  {
+    "unit": "U3",
+    "slideId": "cover",
+    "heading": "U3 · Development techniques and solutions",
+    "before": "Circus performers.",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "U3",
+    "slideId": "analysis-opener",
+    "heading": "Analysis opens the class",
+    "before": "(geometrical)",
+    "after": "geometrical"
+  },
+  {
+    "unit": "U3",
+    "slideId": "analysis-model",
+    "heading": "Read the development",
+    "before": "Diamaxion house, metal, adapted corn bin, built by Butler Brothers, Kansas City. Designed and promoted by R. Buckminster Fuller.",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "U3",
+    "slideId": "masterclass-1",
+    "heading": "1 · Make it rough, make it early",
+    "before": "Circus performers.",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "U3",
+    "slideId": "masterclass-2",
+    "heading": "2 · Defer judgement",
+    "before": "Diamaxion house, metal, adapted corn bin, built by Butler Brothers, Kansas City. Designed and promoted by R. Buckminster Fuller.",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "U3",
+    "slideId": "masterclass-3",
+    "heading": "3 · Iterate with an exit",
+    "before": "Circus performers.",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "U3",
+    "slideId": "masterclass-4",
+    "heading": "4 · Sketch to think",
+    "before": "Diamaxion house, metal, adapted corn bin, built by Butler Brothers, Kansas City. Designed and promoted by R. Buckminster Fuller.",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "U3",
+    "slideId": "masterclass-5",
+    "heading": "5 · Open the solution space",
+    "before": "Circus performers.",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "U3",
+    "slideId": "masterclass-6",
+    "heading": "6 · Reflect at checkpoints",
+    "before": "Diamaxion house, metal, adapted corn bin, built by Butler Brothers, Kansas City. Designed and promoted by R. Buckminster Fuller.",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "U3",
+    "slideId": "lab-opener",
+    "heading": "Lab · Portfolio",
+    "before": "(geometrical)",
+    "after": "geometrical"
+  },
+  {
+    "unit": "U3",
+    "slideId": "lab-1",
+    "heading": "Exercise 1 · Same problem, three entry points",
+    "before": "Circus performers.",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "U3",
+    "slideId": "lab-2",
+    "heading": "Exercise 2 · Delay judgement, then checkpoint and exit",
+    "before": "Diamaxion house, metal, adapted corn bin, built by Butler Brothers, Kansas City. Designed and promoted by R. Buckminster Fuller.",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "U3",
+    "slideId": "outro",
+    "heading": "Carry forward",
+    "before": "(geometrical)",
+    "after": "geometrical"
+  },
+  {
+    "unit": "ML-CPA",
+    "slideId": "cover",
+    "heading": "Master Lecture · Creative process analysis",
+    "before": "Fashion illustration (rendered; also in slot: Iterative Process Diagram)",
+    "after": "kept: Iterative Process Diagram"
+  },
+  {
+    "unit": "ML-CPA",
+    "slideId": "analysis-opener",
+    "heading": "Analysis · two lenses",
+    "before": "(geometrical)",
+    "after": "geometrical"
+  },
+  {
+    "unit": "ML-CPA",
+    "slideId": "analysis-model",
+    "heading": "Eight steps (guide)",
+    "before": "Fashion illustration (rendered; also in slot: Iterative Process Diagram)",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "ML-CPA",
+    "slideId": "masterclass-1",
+    "heading": "1 · Describe the process first",
+    "before": "Fashion illustration (rendered; also in slot: Iterative Process Diagram)",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "ML-CPA",
+    "slideId": "masterclass-2",
+    "heading": "2 · Language ≠ medium ≠ support",
+    "before": "Fashion illustration (rendered; also in slot: Iterative Process Diagram)",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "ML-CPA",
+    "slideId": "masterclass-3",
+    "heading": "3 · Open, then close",
+    "before": "Fashion illustration (rendered; also in slot: Iterative Process Diagram)",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "ML-CPA",
+    "slideId": "masterclass-4",
+    "heading": "4 · Divergent is a hallmark — not the whole job",
+    "before": "Fashion illustration (rendered; also in slot: Iterative Process Diagram)",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "ML-CPA",
+    "slideId": "masterclass-5",
+    "heading": "5 · Process is also material",
+    "before": "Fashion illustration (rendered; also in slot: Iterative Process Diagram)",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "ML-CPA",
+    "slideId": "masterclass-6",
+    "heading": "6 · Critical: a score is not the designer",
+    "before": "Fashion illustration (rendered; also in slot: Iterative Process Diagram)",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "ML-CPA",
+    "slideId": "lab-opener",
+    "heading": "Lab",
+    "before": "(geometrical)",
+    "after": "geometrical"
+  },
+  {
+    "unit": "ML-CPA",
+    "slideId": "lab-1",
+    "heading": "Exercise 1 · Shared process",
+    "before": "Fashion illustration (rendered; also in slot: Iterative Process Diagram)",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "ML-CPA",
+    "slideId": "lab-2",
+    "heading": "Exercise 2 · Your Lab trail",
+    "before": "Fashion illustration (rendered; also in slot: Iterative Process Diagram)",
+    "after": "diagram (unbound)"
+  },
+  {
+    "unit": "ML-CPA",
+    "slideId": "outro",
+    "heading": "Carry forward",
+    "before": "(geometrical)",
+    "after": "geometrical"
+  }
+]

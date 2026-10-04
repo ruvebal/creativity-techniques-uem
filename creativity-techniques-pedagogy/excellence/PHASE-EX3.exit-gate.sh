@@ -12,7 +12,9 @@ refs = "".join(p.read_text() for p in pathlib.Path(sys.argv[1]).glob("*/data/con
 bad = [f.name for f in old.iterdir() if f.is_file() and f.name not in refs]
 print(bad); sys.exit(1 if bad else 0)
 PY
-[ -d node_modules ] || npm ci --silent >/tmp/excellence-npm.log 2>&1
+# Orchestrator fix (EX3 landing): reinstall when the lockfile is newer than the installed tree,
+# so a worktree whose node_modules predates sharp does not fail the rendition tests.
+if [ ! -d node_modules ] || [ package-lock.json -nt node_modules/.package-lock.json ]; then npm ci --silent >/tmp/excellence-npm.log 2>&1; fi
 
 check "media-rules module exists" test -f scripts/lib/media-rules.mjs
 check "validator exists" test -f scripts/validate-decks.mjs

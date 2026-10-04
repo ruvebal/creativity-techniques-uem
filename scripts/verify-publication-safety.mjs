@@ -57,10 +57,18 @@ const forbidden = [
 	[/\bweb-atelier\b/i, 'sibling course site'],
 	[/\bdigital-creativity-uem\b/i, 'sibling course site'],
 	[/\bDigital Creativity\b/, 'sibling course mention'],
+	// EX3 (Amendment A5/F2): public "role vocabulary" of the external lesson-scribe skill.
+	[/\bcascade-harness\b/i, 'internal cascade harness'],
+	[/\blesson harness(?:es)?\b/i, 'internal lesson harness'],
+	[/\bstudio extraction layer\b/i, 'internal extraction layer'],
+	[/\bcite-grade discovery\b/i, 'internal discovery service'],
 ];
 
-// Applied to built HTML only: deck JSON values still carry these until EX3 renames them.
-const forbiddenHtmlOnly = [[/\bprofield\b/i, 'internal media service (Profield)']];
+// Applied to built HTML and JS (Amendment A4/F6). Not to JSON: legacy decks
+// (U4, schema_version 1) still carry the old slot/cache names until their own
+// forge migrates them; v2 deck JSON is kept free of it by scripts/validate-decks.mjs.
+const forbiddenHtmlJs = [[/\bprofield\b/i, 'internal media service (Profield)']];
+const htmlJsExtensions = new Set(['.html', '.js']);
 
 function filesUnder(directory, extensions) {
 	if (!statSync(directory, { throwIfNoEntry: false })?.isDirectory()) return [];
@@ -82,7 +90,7 @@ function leakAudit() {
 	const extensions = new Set(['.html', '.xml', '.json', '.js', '.css', '.svg', '.md', '.txt', '.yml', '.yaml']);
 	for (const file of filesUnder(publicRoot, extensions)) {
 		const content = readFileSync(file, 'utf8');
-		const patterns = extname(file) === '.html' ? [...forbidden, ...forbiddenHtmlOnly] : forbidden;
+		const patterns = htmlJsExtensions.has(extname(file)) ? [...forbidden, ...forbiddenHtmlJs] : forbidden;
 		for (const [pattern, label] of patterns) {
 			if (pattern.test(content)) failures.push(`${relative(root, file)}: ${label}`);
 		}
