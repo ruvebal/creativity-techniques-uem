@@ -35,8 +35,8 @@ Only the **first word** of the Gate cell is parsed by `cascade-harness.sh`.
 
 | Step | File | Deliverable | Gate |
 | ---- | ---- | ----------- | ---- |
-| 0 | [PHASE-EX0.md](PHASE-EX0.md) | Live probe + baseline + guía weights decision | READY (autopilot: weights per AUTOPILOT.md §2) |
-| 1 | [PHASE-EX1.md](PHASE-EX1.md) | Contract and factual hotfix (A1–A4, C1–C11) | BLOCKED (EX0 DONE) |
+| 0 | [PHASE-EX0.md](PHASE-EX0.md) | Live probe + baseline + guía weights decision | DONE (autopilot: weights per AUTOPILOT.md §2) |
+| 1 | [PHASE-EX1.md](PHASE-EX1.md) | Contract and factual hotfix (A1–A4, C1–C11) | READY (EX0 DONE) |
 | 2 | [PHASE-EX2.md](PHASE-EX2.md) | Publication firewall (E1–E3, jargon, footers) | BLOCKED (EX1 DONE) |
 | 3 | [PHASE-EX3.md](PHASE-EX3.md) | Image pipeline rules + tests + deck validator (B1–B15) | BLOCKED (EX2 DONE) |
 | 4 | [PHASE-EX4.md](PHASE-EX4.md) | Slide-bound image curation with rights checks | BLOCKED (EX3 DONE; autopilot curation per AUTOPILOT.md §2) |
