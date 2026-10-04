@@ -1,0 +1,30 @@
+Write a single Node.js ES module (file excellence-probe.mjs) using ONLY Node standard library (node:fs, node:path, node:process). No npm packages. Output only the code, no explanation.
+
+CLI:
+  node excellence-probe.mjs [--root DIR] [--site DIR] [--targets] [--from FILE] [--decision FILE]
+  - default root: repository root found by walking up from the script dir until a directory containing "_config.yml" and "docs" exists.
+  - default site: ROOT/_site
+  - without --from: measure the tree and print ONE JSON object (2-space indent) to stdout.
+  - --from FILE: read a stored JSON result instead of measuring.
+  - --targets: after measuring/reading, evaluate targets; print unmet targets to stderr; exit 1 if any unmet, else 0.
+
+Measurements (keys of the JSON object):
+1. public_weights: array of {file, line, knowledge, work}. Scan text files (.md .html .json .yml .yaml) under ROOT/docs recursively (skip dirs starting with "_site", "node_modules", "vendor"). For each line, find a knowledge-tests percentage using regexes /knowledge tests?\b[^%\n]{0,60}?(\d{1,3})\s*%/i or /(\d{1,3})\s*%\s*(?:\*\*)?\s*knowledge tests?/i. When found, look in the same line and up to 3 lines after for a work percentage: /(?:delivery|presentation)[^%\n]{0,60}?(\d{1,3})\s*%/i or /(\d{1,3})\s*%\s*(?:\*\*)?\s*(?:delivery|presentation)/i, skipping the knowledge number itself. file is relative to ROOT. knowledge and work are numbers (work null if not found).
+2. php_cache_files: integer count of files ending ".php" in ROOT/docs/assets/images/profield-cache.
+3. orphan_cache_files: sorted array of cache file names whose basename is not mentioned in any text file under ROOT/docs (excluding the cache dir itself).
+4. oversize_cache_files: array of {file, bytes} for cache files larger than 600*1024 bytes.
+5. Decks: each directory ROOT/docs/tracks/en/uem/2627-ct/<deck>/data/content.json. The file starts with Jekyll front matter "---\n...\n---\n" which must be stripped before JSON.parse. dangling_slots: {deck: [unique media_slot_id used by slides but absent from assets[].media_slot_id]} for every deck with slides.
+6. rank_dealing_present: boolean, true if ROOT/scripts/rehydrate-student-media.mjs contains "rankCursor".
+7. empty_licence_assets: array of {deck, media_slot_id, asset_id} for assets whose licence is missing or empty string.
+8. lab_exercise_counts: {deck: number of slides with slide_role "lab_exercise"} for decks that have at least one slide_role "lab_opener" or "lab_exercise".
+9. tao_with_author_citation: array of {deck, slide (index), heading, label} for slides with quote_origin "tao_invented" whose citation.label exists and is not "(Tao of Creativity)".
+10. uncited_references: for each ROOT/docs/lessons/en/creativity-techniques/<lesson>/index.md: find ids from /id="(ref-[^"]+)"/g; an id is cited if "#<id>" appears in the file text outside the "## References" section (text before the line starting with "## References"). Output {lesson: [uncited ids]} for every lesson that has reference ids.
+11. leak_terms: {term: [files relative to site]} over all text files (.html .json .xml .txt .js .css .yml .yaml .md) in SITE. Terms and regexes (case-insensitive): forge /\bforge(?!t)/, harness /\bharness/, vault /\bvault/, "lesson-scribe" /lesson-scribe/, profield /profield/, udit /\budit\b/, "open procurement" /open procurement/, "guía clone" /gu[ií]a clone/. If SITE does not exist, print an error to stderr and exit 2.
+
+Targets (for --targets), given a decision file default ROOT/creativity-techniques-pedagogy/excellence/DECISION-EX0-GUIA.md with lines "weights_knowledge_tests: N" and "weights_work: N":
+- every public_weights entry has knowledge == decision knowledge and work == decision work (or work null)
+- php_cache_files == 0; orphan_cache_files empty; oversize_cache_files empty
+- every dangling_slots list empty; rank_dealing_present false; empty_licence_assets empty
+- every lab_exercise_counts value == 2; tao_with_author_citation empty
+- every uncited_references list empty; every leak_terms list empty
+If the decision file is missing, the weights target is unmet.

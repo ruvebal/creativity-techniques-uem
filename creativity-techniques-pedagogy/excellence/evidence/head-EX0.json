@@ -1,0 +1,343 @@
+{
+  "_meta": {
+    "probe_version": 1,
+    "commit": "a1da745170f0845a7ebfc5cbd106bcb798ac01e2",
+    "generated_at": "2026-10-04T17:34:09.439Z",
+    "oversize_threshold_bytes": 614400
+  },
+  "public_weights": [
+    {
+      "file": "docs/assignments/en/creativity-techniques-portfolio/index.md",
+      "line": 67,
+      "knowledge": 70,
+      "work": 30
+    },
+    {
+      "file": "docs/assignments/en/creativity-techniques-portfolio/index.md",
+      "line": 92,
+      "knowledge": 70,
+      "work": 30
+    },
+    {
+      "file": "docs/evaluation/index.md",
+      "line": 19,
+      "knowledge": 70,
+      "work": 30
+    },
+    {
+      "file": "docs/index.html",
+      "line": 80,
+      "knowledge": 60,
+      "work": 40
+    },
+    {
+      "file": "docs/lessons/en/creativity-techniques/u-1-introduction-creativity/index.md",
+      "line": 45,
+      "knowledge": 70,
+      "work": 30
+    },
+    {
+      "file": "docs/lessons/en/creativity-techniques/u-2-idea-generation-selection/index.md",
+      "line": 45,
+      "knowledge": 70,
+      "work": 30
+    },
+    {
+      "file": "docs/lessons/en/creativity-techniques/u-4-workplace-application/index.md",
+      "line": 38,
+      "knowledge": 70,
+      "work": 30
+    },
+    {
+      "file": "docs/tracks/en/creativity-techniques/index.md",
+      "line": 78,
+      "knowledge": 70,
+      "work": 30
+    },
+    {
+      "file": "docs/tracks/en/uem/2627-ct/how-to-pass-this-track/data/content.json",
+      "line": 16,
+      "knowledge": 70,
+      "work": 30
+    }
+  ],
+  "php_cache_files": 24,
+  "orphan_cache_files": [
+    "08d04994d23d4a62.jpg",
+    "482926d54d9347a4.php",
+    "5027b1e390d07945.php",
+    "52a5d11561e69832.php",
+    "56699bc00967ab75.svg",
+    "61e2729fe4cc6419.jpg",
+    "7e53ce373af6d4f8.php",
+    "8883a15cf70c69c9.gif",
+    "93f14c94c0d08676.php",
+    "aa3aedcafa6a85ac.png",
+    "b1fcb242c69ec762.php",
+    "e39d9cdd29463974.php"
+  ],
+  "oversize_cache_files": [
+    {
+      "file": "0a359d9b946505e1.php",
+      "bytes": 806577
+    },
+    {
+      "file": "337b1324e6f226b2.jpg",
+      "bytes": 5332598
+    },
+    {
+      "file": "3ecc1a2343c3bc48.php",
+      "bytes": 750559
+    },
+    {
+      "file": "482926d54d9347a4.php",
+      "bytes": 679792
+    },
+    {
+      "file": "5e5034d4db013da5.png",
+      "bytes": 5120178
+    },
+    {
+      "file": "61e2729fe4cc6419.jpg",
+      "bytes": 4173401
+    },
+    {
+      "file": "691f91929e80d9e5.php",
+      "bytes": 665609
+    },
+    {
+      "file": "8883a15cf70c69c9.gif",
+      "bytes": 3054205
+    }
+  ],
+  "dangling_slots": {
+    "special-creative-process-analysis": [],
+    "u-1-introduction-creativity": [],
+    "u-2-idea-generation-selection": [],
+    "u-3-development-solutions": [],
+    "u-4-workplace-application": []
+  },
+  "rank_dealing_present": true,
+  "empty_licence_assets": [
+    {
+      "deck": "u-1-introduction-creativity",
+      "media_slot_id": "U1.still.profield-1",
+      "asset_id": "nypl:280b6a20-4180-0130-d5e6-58d385a7b928"
+    },
+    {
+      "deck": "u-1-introduction-creativity",
+      "media_slot_id": "U1.still.profield-2",
+      "asset_id": "nypl:510d47dc-6052-a3d9-e040-e00a18064a99"
+    },
+    {
+      "deck": "u-1-introduction-creativity",
+      "media_slot_id": "U1.still.profield-3",
+      "asset_id": "nypl:ecd58340-c606-012f-96ca-58d385a7bc34"
+    },
+    {
+      "deck": "u-1-introduction-creativity",
+      "media_slot_id": "U1.still.profield-4",
+      "asset_id": "nypl:7acb30b0-c624-012f-e5b5-58d385a7bc34"
+    },
+    {
+      "deck": "u-1-introduction-creativity",
+      "media_slot_id": "U1.still.profield-5",
+      "asset_id": "nypl:07ed5120-2f28-0133-a598-58d385a7b928"
+    },
+    {
+      "deck": "u-1-introduction-creativity",
+      "media_slot_id": "U1.still.profield-6",
+      "asset_id": "nypl:2e51cc60-c554-012f-49f2-58d385a7bc34"
+    },
+    {
+      "deck": "u-1-introduction-creativity",
+      "media_slot_id": "U1.still.profield-7",
+      "asset_id": "wikimedia:File:Five-Way Portrait of Marcel Duchamp, 21 June 1917, New York City.jpg"
+    },
+    {
+      "deck": "u-1-introduction-creativity",
+      "media_slot_id": "U1.still.profield-8",
+      "asset_id": "nypl:05574380-c575-012f-544f-58d385a7bc34"
+    },
+    {
+      "deck": "u-1-introduction-creativity",
+      "media_slot_id": "U1.still.profield-9",
+      "asset_id": "nypl:195d82a0-3acf-0133-9eb9-00505686d14e"
+    },
+    {
+      "deck": "u-1-introduction-creativity",
+      "media_slot_id": "U1.still.profield-10",
+      "asset_id": "nypl:1ff4e4e0-c62b-012f-8b5a-58d385a7bc34"
+    },
+    {
+      "deck": "u-1-introduction-creativity",
+      "media_slot_id": "U1.still.profield-11",
+      "asset_id": "nypl:4678b550-c55d-012f-5575-58d385a7bc34"
+    },
+    {
+      "deck": "u-1-introduction-creativity",
+      "media_slot_id": "U1.still.profield-12",
+      "asset_id": "nypl:4cc1ab80-c6e7-012f-3e2c-58d385a7bc34"
+    },
+    {
+      "deck": "u-1-introduction-creativity",
+      "media_slot_id": "U1.still.profield-13",
+      "asset_id": "wikimedia:File:Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (68).JPG"
+    },
+    {
+      "deck": "u-1-introduction-creativity",
+      "media_slot_id": "U1.still.profield-14",
+      "asset_id": "wikimedia:File:Iterative Process Diagram.svg"
+    },
+    {
+      "deck": "u-1-introduction-creativity",
+      "media_slot_id": "U1.still.profield-15",
+      "asset_id": "wikimedia:File:RotaryDemisphereMarcelDuchampManRay.jpg"
+    },
+    {
+      "deck": "u-1-introduction-creativity",
+      "media_slot_id": "U1.still.profield-16",
+      "asset_id": "wikimedia:File:Rrose Sélavy (Marcel Duchamp), 1921 photograph by Man Ray.jpg"
+    },
+    {
+      "deck": "u-1-introduction-creativity",
+      "media_slot_id": "U1.still.profield-17",
+      "asset_id": "nypl:3432d330-a629-0135-2798-05f9b175829f"
+    },
+    {
+      "deck": "u-2-idea-generation-selection",
+      "media_slot_id": "U2.still.profield-1",
+      "asset_id": "wikimedia:File:Un chien andalou- Un perro andaluz.jpg"
+    },
+    {
+      "deck": "u-2-idea-generation-selection",
+      "media_slot_id": "U2.still.profield-2",
+      "asset_id": "nypl:08c74ef0-5530-0135-18ad-3fc83eb6687f"
+    },
+    {
+      "deck": "u-2-idea-generation-selection",
+      "media_slot_id": "U2.still.profield-3",
+      "asset_id": "wikimedia:File:Sprite Fright-concept art-Victoria 01.png"
+    },
+    {
+      "deck": "u-2-idea-generation-selection",
+      "media_slot_id": "U2.still.profield-4",
+      "asset_id": "nypl:02f7ad60-b9cb-0136-4a02-7f27c217b885"
+    },
+    {
+      "deck": "u-2-idea-generation-selection",
+      "media_slot_id": "U2.still.profield-5",
+      "asset_id": "nypl:141c6730-768a-0137-0916-0710db36541b"
+    },
+    {
+      "deck": "u-2-idea-generation-selection",
+      "media_slot_id": "U2.still.profield-6",
+      "asset_id": "nypl:125ccce0-5186-0132-9ead-58d385a7bbd0"
+    },
+    {
+      "deck": "u-3-development-solutions",
+      "media_slot_id": "U3.still.profield-1",
+      "asset_id": "nypl:510d47dc-6052-a3d9-e040-e00a18064a99"
+    },
+    {
+      "deck": "u-3-development-solutions",
+      "media_slot_id": "U3.still.profield-2",
+      "asset_id": "nypl:894fb0a0-abfc-013c-eb21-0242ac110003"
+    },
+    {
+      "deck": "u-4-workplace-application",
+      "media_slot_id": "U4.still.profield-1",
+      "asset_id": "nypl:3432d330-a629-0135-2798-05f9b175829f"
+    }
+  ],
+  "lab_exercise_counts": {
+    "special-creative-process-analysis": 2,
+    "u-1-introduction-creativity": 3,
+    "u-2-idea-generation-selection": 2,
+    "u-3-development-solutions": 2,
+    "u-4-workplace-application": 2
+  },
+  "tao_with_author_citation": [
+    {
+      "deck": "u-3-development-solutions",
+      "slide": 3,
+      "heading": "1 · Make it rough, make it early",
+      "quote": "A rough thing can answer a question that a polished thing hides.",
+      "label": "(Cross 2006, 17)"
+    }
+  ],
+  "uncited_references": {
+    "u-1-introduction-creativity": [],
+    "u-2-idea-generation-selection": [
+      "ref-lehrer-2012",
+      "ref-smith-2013",
+      "ref-kelley-2013",
+      "ref-beghetto-karwowski-2025",
+      "ref-csikszentmihalyi-1996",
+      "ref-debono-1981",
+      "ref-eno-schmidt-1975",
+      "ref-kimbell-2011",
+      "ref-avis-2013"
+    ],
+    "u-3-development-solutions": [],
+    "u-4-workplace-application": [
+      "ref-lucas-knotts-2026"
+    ]
+  },
+  "leak_terms": {
+    "forge": [
+      "ai-declaration/index.html",
+      "assets/js/student-media-deck.js",
+      "assets/js/tao-quotes.js",
+      "lessons/en/creativity-techniques/index.html",
+      "lessons/en/creativity-techniques/u-1-introduction-creativity/index.html",
+      "lessons/en/creativity-techniques/u-2-idea-generation-selection/index.html",
+      "lessons/en/creativity-techniques/u-3-development-solutions/index.html",
+      "lessons/en/creativity-techniques/u-4-workplace-application/index.html",
+      "methodology/en/index.html",
+      "tao/data/quotes.json",
+      "tracks/en/creativity-techniques/index.html"
+    ],
+    "harness": [
+      "ai-declaration/index.html",
+      "lessons/en/creativity-techniques/u-1-introduction-creativity/index.html",
+      "lessons/en/creativity-techniques/u-2-idea-generation-selection/index.html",
+      "lessons/en/creativity-techniques/u-3-development-solutions/index.html"
+    ],
+    "vault": [
+      "ai-declaration/index.html",
+      "lessons/en/creativity-techniques/u-1-introduction-creativity/index.html",
+      "lessons/en/creativity-techniques/u-2-idea-generation-selection/index.html",
+      "lessons/en/master-lectures/creative-process-analysis/index.html",
+      "tao/data/quotes.json"
+    ],
+    "lesson-scribe": [
+      "ai-declaration/index.html",
+      "lessons/en/creativity-techniques/u-1-introduction-creativity/index.html",
+      "lessons/en/creativity-techniques/u-2-idea-generation-selection/index.html",
+      "lessons/en/creativity-techniques/u-3-development-solutions/index.html"
+    ],
+    "profield": [
+      "assets/js/student-media-deck.js",
+      "lessons/en/creativity-techniques/index.html",
+      "tracks/en/uem/2627-ct/u-1-introduction-creativity/data/content.json",
+      "tracks/en/uem/2627-ct/u-2-idea-generation-selection/data/content.json",
+      "tracks/en/uem/2627-ct/u-3-development-solutions/data/content.json",
+      "tracks/en/uem/2627-ct/u-4-workplace-application/data/content.json",
+      "tracks/en/uem/2627-ml/creative-process-analysis/data/content.json"
+    ],
+    "udit": [
+      "ai-declaration/index.html",
+      "assets/css/site.css",
+      "lessons/en/master-lectures/creative-process-analysis/index.html"
+    ],
+    "open procurement": [
+      "lessons/en/creativity-techniques/u-1-introduction-creativity/index.html"
+    ],
+    "guía clone": [
+      "_data/tracks.yml",
+      "bibliography/en/index.html",
+      "tracks/en/creativity-techniques/index.html"
+    ]
+  }
+}

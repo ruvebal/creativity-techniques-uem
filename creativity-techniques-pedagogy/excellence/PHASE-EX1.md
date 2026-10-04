@@ -21,6 +21,10 @@ C11 (U1 deck has 3 `lab_exercise` slides).
 1. Weights and pass conditions from `DECISION-EX0-GUIA.md` on: `docs/evaluation/index.md`,
    `docs/tracks/en/creativity-techniques/index.md`, How to Pass `content.json`,
    `docs/assignments/en/creativity-techniques-portfolio/index.md`
+1b. (Amendment A1) Also correct the weight in the `evaluation_feed` front-matter
+   lines of the U1 and U2 lessons and in the portfolio brief's internal
+   `[VERIFIED] Official guide …` line (EX2 removes that line from rendered
+   output). U4 is out of scope: list its 70/30 line in FINAL-REVIEW instead.
 2. Rename `cv/guides/9990002301-unicrawler-2026-27.json` →
    `guia-tecnicas-de-creatividad-videojuegos-2026-27.json` and fix every
    reference to it (AGENTS.md, portfolio brief internal block); if the

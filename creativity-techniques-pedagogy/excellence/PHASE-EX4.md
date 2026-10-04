@@ -14,6 +14,9 @@ publishable in Spain. Live failing cases: FINDINGS B3–B7, B10 (fire engine on
 the Duchamp slide; fashion leftovers; Duchamp images unused; U2 repeats; U3
 empty; three EU-term risks).
 
+(Amendment A1: at launch HEAD U3 has 2 assets cycling over 10 media slides,
+not 0; U4 is out of scope.)
+
 ## Deliverables
 
 1. `image_brief` on every image slide of U1–U3 and the master-lecture deck:
