@@ -23,6 +23,12 @@ After collection review, implement the curriculum connector described in PHASE-I
 
 ## Resume states
 
+2026-10-04 design review completed and source-adjudicated: PID 69476 exited
+successfully 11:18:49 UTC. Read runtime/review/design-adjudication.md. Preserve
+drawing requirement, non-condemnation of cliché units and eventual objective
+assessment despite model compression. Next reconcile two IDs plus recovered
+Pictures into qualified ledger; no approval or whole-corpus completeness claim.
+
 2026-10-04 11:17 UTC: design reviewer PID 69476 started; inspect actual PID and
 runtime/design-review-20261004/process.json before another model workload.
 Two targets use chapter022 Comparison and Practice, each retaining 49–98 text

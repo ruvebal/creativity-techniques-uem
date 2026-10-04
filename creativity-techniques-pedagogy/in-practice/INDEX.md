@@ -37,6 +37,11 @@ Private only — do not publish `runtime/` to Pages. Lab selection still follows
 
 ### Review recovery — 2026-09-28
 
+2026-10-04 design review completed and adjudicated against full source context;
+see `runtime/review/design-adjudication.md`. Two targets retained with their
+distinct fidelity status. Coverage reconciliation with recovered Pictures is
+next; no exercise/publication approval or corpus-completeness claim.
+
 2026-10-04: Pictures retry produced model output but failed the required JSON
 list contract. See `runtime/review/pictures-schema-failure-20261004.md`.
 Failure/raw result preserved; coverage remains seven accepted-format runs/11 IDs,
