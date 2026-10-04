@@ -79,19 +79,19 @@ Pause after each version and write three lines: what changed, what stayed, and w
 
 ## B2 · Lab (Portfolio)
 
-**Two exercises follow. Save both traces in your portfolio index.**
+**Announced by a geometrical slide first:** two exercises follow; everything you produce in Lab goes into your **portfolio index**. Both exercises are classroom adaptations of procedures from the course reading list — not invented studio games.
 
-### Exercise 1 — Three rough answers to one problem
+### Exercise 1 — Same problem, three entry points
 
-Choose one concrete problem from your D1: what needs to be clarified, improved, or made possible? Make three small prototypes in 20 minutes. Change one variable each time: structure, material, sequence, or audience. Do not polish. Ask one classmate to name what each version makes possible for the stated problem.
+Work from one concrete problem in your D1. The class keeps the **same problem**, but each of your three answers must start from a **different entry point** named in advance (for example: structure, material/support, or audience/circulation). Make three rough sketches or small prototypes in about 20 minutes. Do not polish. Use the sketch as a thinking tool: compare relationships, rhythm, and emphasis across the three starts [(Cross 2006, 93)](#ref-cross-2006). At the end, tell one classmate how each entry point steered the path — and watch the temptation to solve the problem the “obvious” way and only paste the entry point on afterwards [(de Bono 1970, 27)](#ref-debono-1970).
 
-**Portfolio trace:** the problem statement, three images or scans, the changed variable, and one sentence about what each version makes possible.
+**Portfolio trace:** the shared problem statement; the three named entry points; three images or scans; one sentence on what each entry point made possible (or blocked).
 
-### Exercise 2 — What can we do? Checkpoint and exit
+### Exercise 2 — Delay judgement, then checkpoint and exit
 
-Choose one prototype and state what it could do for the problem. Write one testable question, revise once, and compare the two versions. End when the test is answered. If a tool or generative system supplied a variation, record the prompt, the option you rejected, and the reason you chose the final form.
+Choose one of the three versions. Protect a short space where you **delay judgement**: keep developing without deciding yet whether the arrangement is “right” [(de Bono 1970, 30)](#ref-debono-1970). Then write **one testable question** the next version must answer (“Can a classmate find the main action?”). Revise once. Stop when the test is answered — even if another improvement is possible. If a tool or generative system supplied a variation, record the prompt, the option you rejected, and why you kept the final form.
 
-**Portfolio trace:** before/after, the problem-to-action connection, the test question, checkpoint note, and exit decision.
+**Portfolio trace:** before/after; the deferred-judgement note; the test question; the checkpoint (what changed / what stayed / what you learned); the exit decision.
 
 ## B3 · Workshop — advance D1
 
@@ -107,11 +107,55 @@ This unit does not settle the moment when persistence becomes delay. You can pus
 
 - <span id="ref-beghetto-karwowski-2025">Beghetto, Ronald A., and Maciej Karwowski. 2025. *Creative Agency Unbound*. Cambridge: Cambridge University Press.</span>
 - <span id="ref-cross-2006">Cross, Nigel. 2006. *Designerly Ways of Knowing*. Springer. ISBN 1-84628-301-9.</span>
+- <span id="ref-debono-1970">de Bono, Edward. 1970. *Lateral Thinking: A Textbook of Creativity*. London: Penguin Books. ISBN 9780141938318.</span>
+
+{% if site.publication.publish_internal_metadata %}
+<!-- curriculum-internal:
+LAB_EXERCISE_SELECTION:
+  unit: U3
+  policy: in-practice-first (mandatory for all units from 2026-09-28)
+  receipt: creativity-techniques-pedagogy/forge/receipts/U3-LAB-IN-PRACTICE-2026-09-28.md
+  exercise_1:
+    classroom_title: "Same problem, three entry points"
+    source_record: urn:in-practice:exercise:110b4bef0fe99bdcceced6f7
+    source_name: "Same Problem, Different Entry Points"
+    review_status: candidate
+    witness: de_bono_edward_lateral_thinking_a_textbook_of_creativity_1970_viking_penguin_books_bb5aec96
+    chicago: "(de Bono 1970, 27)"
+    node_id: c47a859b-76db-55fd-84fd-15d5e782a90e
+    document_coat: bb5aec96
+    evaluator_safe: yes
+    sketch_support_claim:
+      source_record: urn:in-practice:exercise:6ad1a9245f853f36da4662a8
+      source_name: "Sketching for Design Thinking"
+      review_status: needs-review
+      chicago: "(Cross 2006, 93)"
+      node_id: 017d4204-7d01-55bc-9ce8-f5cb24b7cb9a
+      document_coat: 4104b3ed
+      evaluator_safe: no
+      note: "Cross sketching grounds the medium/support of Ex1; not a second Lab title"
+    adaptation: "Professor maps de Bono group entry-point drill onto individual D1 problem with three named entry points (structure / material-support / audience-circulation); sketches/prototypes are the support."
+  exercise_2:
+    classroom_title: "Delay judgement, then checkpoint and exit"
+    source_record: urn:in-practice:exercise:3e08ef870723bc01b7c7bb81
+    source_name: "Delay Judgement"
+    review_status: candidate
+    witness: de_bono_edward_lateral_thinking_a_textbook_of_creativity_1970_viking_penguin_books_bb5aec96
+    chicago: "(de Bono 1970, 30)"
+    node_id: cf0ad9f8-3a36-544f-bd48-bdf38173feb5
+    document_coat: bb5aec96
+    evaluator_safe: yes
+    adaptation: "Professor adds one testable checkpoint question and a named exit after the deferred-judgement window; exit rule is course pedagogy, not claimed as de Bono wording."
+  rejected_alternatives:
+    - "Invented studio prompts (prior U3 Lab) — replaced; no source URN"
+    - "urn:in-practice:exercise:0049830bfe4b42534c105edd Solution Conjecture Practice — weaker classroom procedure than entry-point + delay pair"
+-->
+{% endif %}
 
 ## Editorial note. Work in progress. Teaching Innovation Practice
 {: .lesson-editorial-note }
 
-This pilot uses the U3 enrichment pack as a bounded teaching hypothesis. The cited passages support the lesson’s vocabulary for ill-defined problems, non-verbal modelling, and creative action under constraints; they do not prove that the exact Lab sequence will work for every student. The lesson therefore teaches a reversible development loop and asks students to record evidence rather than promising that prototypes always improve a solution.
+This pilot uses the U3 enrichment pack and two in-practice candidates from Cross and de Bono as a bounded teaching hypothesis. The cited passages support the lesson’s vocabulary for ill-defined problems, non-verbal modelling, delayed judgement, and creative action under constraints; they do not prove that the exact Lab sequence will work for every student. Classroom adaptations are professor framing, not claims that the original authors wrote these portfolio briefs. The lesson therefore teaches a reversible development loop and asks students to record evidence rather than promising that prototypes always improve a solution.
 
 ## AI-assisted authorship
 

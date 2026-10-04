@@ -112,19 +112,19 @@ layout: null
       "slide_role": "lab_exercise",
       "background_kind": "profield",
       "media_slot_id": "U3.still.profield-3",
-      "heading": "Exercise 1 · Three rough answers to one problem",
-      "sentence": "Choose one concrete problem from your D1: what needs to be clarified, improved, or made possible? Make three small prototypes in 20 minutes, changing one variable each time.",
+      "heading": "Exercise 1 · Same problem, three entry points",
+      "sentence": "Keep one D1 problem. Start each of three rough sketches from a different named entry point. Do not polish. Compare how the entry point steered the path (de Bono 1970, 27; Cross 2006, 93).",
       "portfolio_bound": true,
-      "portfolio_trace": "Save the problem statement, the three versions, the changed variable, and one sentence explaining what each version makes possible."
+      "portfolio_trace": "Save the problem, three entry points, three scans, and one sentence on what each entry point made possible."
     },
     {
       "slide_role": "lab_exercise",
       "background_kind": "profield",
       "media_slot_id": "U3.still.profield-4",
-      "heading": "Exercise 2 · What can we do? Checkpoint and exit",
-      "sentence": "Select one prototype and state what it could do for the problem. Write one testable question, revise once, and stop when the test is answered.",
+      "heading": "Exercise 2 · Delay judgement, then checkpoint and exit",
+      "sentence": "Protect a short delay of judgement on one version (de Bono 1970, 30). Write one testable question, revise once, and stop when the test is answered.",
       "portfolio_bound": true,
-      "portfolio_trace": "Save before/after, the problem-to-action connection, the checkpoint note, and the exit decision."
+      "portfolio_trace": "Save before/after, the deferred-judgement note, the test question, the checkpoint, and the exit decision."
     },
     {
       "slide_role": "outro",

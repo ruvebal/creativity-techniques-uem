@@ -9,6 +9,8 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--helpers', action='store_true')
 parser.add_argument('--source-order', action='store_true')
 parser.add_argument('--assembler', action='store_true')
+parser.add_argument('--structured-fidelity', action='store_true')
+parser.add_argument('--suitability', action='store_true')
 args = parser.parse_args()
 lock = (OUT/'review.lock').open('a')
 fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
@@ -17,6 +19,12 @@ if args.source_order:
     names = ['epub_order_canary.py','test_epub_order.py']
 if args.assembler:
     names = ['assemble_geometric_candidate.py','epub_order_canary.py','test_epub_order.py']
+if args.structured_fidelity:
+    names = ['structured_fidelity.py', 'test_structured_fidelity.py']
+if args.suitability:
+    names = ['teaching_suitability/application/score_batch.py',
+             'teaching_suitability/export_reports.py',
+             'teaching_suitability/tests/test_schema.py']
 code = '\n\n'.join('FILE: '+name+'\n'+(ROOT/name).read_text() for name in names)
 prompt = '''You are an independent code reviewer in a fresh context. Review the supplied
 Python worker against these acceptance criteria: resumable exact-source identity;
@@ -50,10 +58,35 @@ Return JSON {"findings":[{"id":"F1","severity":"P2","function":"name",
 "evidence":"specific demonstrated logic issue","fix":"recommendation"}],
 "verdict":"needs-amendment|no-blocking-findings"}. Do not claim to run code.
 CODE:\n''' + code
+if args.structured_fidelity:
+    prompt = '''Review the supplied private, single-section fidelity verifier and tests.
+Scope: exact witness binding, live node identity/text matching, source order,
+numbered branch preservation, rejection of stale or ambiguous input, and honest
+separation of fidelity from procedure/bibliographic/teaching approval.
+This is deliberately not a general parser. It must not approve procedures.
+The orchestrator ran 26 offline tests successfully; you have not executed tests.
+Look for concrete logic defects and missing negative tests. Return JSON with
+findings (id, severity, function, evidence, fix) and verdict
+(needs-amendment or no-blocking-findings). Do not invent execution evidence.
+Report at most five concrete findings; each evidence and fix field must be
+under 60 words. Do not reproduce source code or provide a replacement program.
+CODE:\n''' + code
 receipt = dict(pid=os.getpid(), started_at=now(), files=names, stage='running')
+if args.suitability:
+    prompt = '''Review this private advisory suitability scorer/exporter and tests.
+Focus on cache resume, missing-source visibility, export failure receipts,
+preserving human review edits, and false approval risks. The full scan has exited;
+6790 distinct verdict IDs match 6790 record filenames; 62 shortlist IDs appear
+in the Markdown; 38 offline tests passed. These are orchestrator observations,
+not tests you ran. Do not claim scholarly validity or full-procedure coverage.
+External context helpers are not included: flag uncertainties, not invented facts.
+Return JSON with findings (id,severity,function,evidence,fix), at most five,
+each evidence/fix under 60 words; verdict needs-amendment or no-blocking-findings.
+CODE:\n''' + code
 save(OUT/'review'/'process.json', receipt)
 try:
-    result = local_json(prompt, model='qwen2.5-coder:32b')
+    result = local_json(prompt, model='qwen2.5-coder:32b',
+                        num_predict=6000 if args.structured_fidelity or args.suitability else 2600)
     result['reviewed_code_sha256'] = digest(code.encode())
     result['reviewed_files'] = names
     prefix = 'helper-review-' if args.helpers else 'coder-review-'
@@ -61,6 +94,10 @@ try:
         prefix = 'source-order-review-'
     if args.assembler:
         prefix = 'assembler-review-'
+    if args.structured_fidelity:
+        prefix = 'structured-fidelity-review-'
+    if args.suitability:
+        prefix = 'suitability-review-'
     dest = OUT/'review'/(prefix+result['reviewed_code_sha256'][:16]+'.json')
     save(dest, result)
     receipt.update(stage='finished', finished_at=now(), result=str(dest))
@@ -70,3 +107,4 @@ except Exception as exc:
     raise
 finally:
     save(OUT/'review'/'process.json', receipt)
+    save(OUT/'review'/('attempt-'+str(receipt['pid'])+'-'+digest(receipt['started_at'].encode())[:12]+'.json'), receipt)

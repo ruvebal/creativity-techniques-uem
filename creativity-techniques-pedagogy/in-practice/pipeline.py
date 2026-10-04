@@ -191,9 +191,9 @@ def discover():
             save(dest, dict(query=q, project_slug=project, raw_output=raw, parsed=hits,
                             evidence_status='discovery-only', time=now()))
 
-def local_json(prompt, model=MODEL):
+def local_json(prompt, model=MODEL, num_predict=2600):
     body = dict(model=model, prompt=prompt, stream=False, format='json',
-                options=dict(temperature=0, seed=21, num_ctx=16384, num_predict=2600),
+                options=dict(temperature=0, seed=21, num_ctx=16384, num_predict=num_predict),
                 keep_alive='10m')
     request = urllib.request.Request('http://127.0.0.1:11434/api/generate',
         data=json.dumps(body).encode(), headers={'Content-Type':'application/json'})

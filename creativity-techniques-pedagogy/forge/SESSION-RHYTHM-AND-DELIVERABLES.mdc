@@ -78,7 +78,7 @@ Indicative 120 minutes:
 | ---------- | ---------- |
 | Masterclass idea / look / analyse / concept | Accepted **Profield** media (or course diagram) |
 | **Lab opener** — “Exercises now — they go into your portfolio” | **Geometrical only** (`fractal-pass-track`) |
-| Lab exercise slides (**exactly two** per unit) | Profield or plain text on theme |
+| Lab exercise slides (**exactly two** per unit) | Profield or plain text on theme — **each slide must adapt a named in-practice exercise** (`urn:in-practice:exercise:…`) selected for the unit objectives; see `ct-unit-forge.mdc` §0.8 |
 | **Workshop opener** — from session 4 only (“Transposition / final event”) | **Geometrical only** |
 | **Outro / carry-forward** | **Geometrical only** |
 | Masterclass diagram fallback (no pack image) | **Koch triangle** (`generate-koch-triangle.mjs`) — not Sierpinski |

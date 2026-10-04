@@ -60,6 +60,37 @@ records PID, input filenames, completion/failure and immutable result path.
 This is a reviewer lock, not a shared lease with the extraction worker: actual
 worker inspection remains required before any local model job.
 
+## Review transport recovery, 2026-09-28
+
+Structured-fidelity review failed after 150 seconds with truncated output.
+The shared model helper used the classifier's 2,600-token ceiling for reviews.
+Preserved the failure receipt; permitted an explicit response limit while
+retaining the classifier default. One review retry uses 6,000 tokens and at
+most five concise findings. Truncated results still fail closed. The reviewer
+now also saves per-attempt receipts so future failures survive process.json
+replacement. These transport changes are not scholarly approval.
+
+Studio feedback: distinguish model truncation from pending work; retain failed
+attempt identity and output-limit settings; give review stages their own bounded
+response policy; require a successful process check before claiming inactivity.
+
+Retry 75635 finished successfully; verdict needs-amendment. Five findings are
+test-coverage requests, not demonstrated production failures. Triage: stale
+prose-audit and changed source hash deserve main-path regression tests;
+invalid image-only records and unexpected labels deserve direct negative tests.
+The block-type finding overlaps the existing footnote rejection test but a
+table-block case can make the broader guard explicit. Existing guards are
+present; no procedure promotion follows. Address these bounded tests next.
+
+2026-09-28 09:01 UTC: all five requested regression cases are implemented.
+Tests cover changed source hashes and stale prose audits through main(), with
+assertions that no receipt is saved; invalid image-only elements, missing or
+unexpected step labels, and table blocks are rejected. All 31 offline tests
+pass; git diff --check passes. Production verifier behavior is unchanged.
+The fresh coder findings are addressed by executed tests, not an assertion of
+scholarly approval. Next focus is bibliography/source coverage and procedure
+review, rather than another unchanged-code review loop.
+
 Next heartbeat should prioritize the expanded-context priority-book sample,
 not another full extraction or an indefinite cycle of helper reviews. Source
 scope, bibliography, procedure grouping and recall are still unresolved.

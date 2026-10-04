@@ -41,6 +41,12 @@
     .replaceAll('>', '&gt;')
     .replaceAll('"', '&quot;');
 
+  const citationHref = (href) => {
+    const value = String(href || '');
+    if (!value || value.startsWith('#') || /^(?:https?:|mailto:|\/\/)/i.test(value)) return value;
+    return value.startsWith(`${base}/`) ? value : `${base}${value.startsWith('/') ? value : `/${value}`}`;
+  };
+
   const stripUtm = (url) => {
     if (!url) return '';
     try {
@@ -133,10 +139,20 @@
     })
     .then((data) => {
       const assets = new Map((data.assets || []).map((asset) => [asset.media_slot_id, asset]));
+      const promotedAssets = (data.promoted_assets || [])
+        .filter((asset) => asset && asset.asset_url)
+        .sort((a, b) => Number(b.selection_rank ?? b.priority ?? 0) - Number(a.selection_rank ?? a.priority ?? 0));
+      let promotedIndex = 0;
       let geometricalIndex = 0;
       slidesRoot.innerHTML = '';
       data.slides.forEach((slide) => {
         const directAsset = slide.media_slot_id ? assets.get(slide.media_slot_id) : null;
+        const canPromoteImage = data.media_selection?.promote_high_ranked
+          && ['unit_cover', 'analysis_model', 'masterclass', 'lab_exercise', 'workshop_work'].includes(slide.slide_role);
+        const promotedAsset = !directAsset && canPromoteImage && promotedAssets.length
+          ? promotedAssets[promotedIndex++ % promotedAssets.length]
+          : null;
+        const selectedAsset = directAsset || promotedAsset;
         let fileUrl;
         let captionAsset;
         if (isGeometrical(slide)) {
@@ -151,17 +167,26 @@
             url: fileUrl,
             svg_uuid: uuidMatch ? uuidMatch[1] : '',
           };
-        } else if (directAsset?.asset_url) {
-          fileUrl = stripUtm(directAsset.asset_url);
+        } else if (selectedAsset?.asset_url) {
+          fileUrl = stripUtm(selectedAsset.asset_url);
           captionAsset = {
-            ...directAsset,
+            ...selectedAsset,
             asset_url: fileUrl,
-            title: cleanTitle(directAsset.title || directAsset.alt_text),
-            credit_line: humanProvider(directAsset.credit_line || directAsset.provider),
+            title: cleanTitle(selectedAsset.title || selectedAsset.alt_text),
+            credit_line: humanProvider(selectedAsset.credit_line || selectedAsset.provider),
           };
         } else {
-          fileUrl = diagramFallback.url;
-          captionAsset = diagramFallback;
+          const file = geometricalCycle[geometricalIndex % geometricalCycle.length];
+          geometricalIndex += 1;
+          fileUrl = `${geometricalBase}/${file}`;
+          const uuidMatch = file.match(/-([a-f0-9]{8,})\.svg$/i);
+          captionAsset = {
+            title: file.replace(/\.svg$/, '').replace(/ct-pass-\d+-/, '').replace(/-/g, ' '),
+            credit_line: 'Course geometrical background',
+            licence: 'Original studio SVG · educational use',
+            url: fileUrl,
+            svg_uuid: uuidMatch ? uuidMatch[1] : '',
+          };
         }
 
         const section = document.createElement('section');
@@ -174,7 +199,7 @@
             <h1>${escapeHtml(slide.heading)}</h1>
             <p>${escapeHtml(slide.sentence)}</p>
             ${slide.quote ? `<blockquote class="student-media-slide__quote"><p>${escapeHtml(slide.quote)}</p></blockquote>` : ''}
-            ${slide.citation ? `<p class="student-media-slide__citation"><a href="${escapeHtml(slide.citation.href)}">${escapeHtml(slide.citation.label)}</a></p>` : ''}
+            ${slide.citation ? `<p class="student-media-slide__citation"><a href="${escapeHtml(citationHref(slide.citation.href))}">${escapeHtml(slide.citation.label)}</a></p>` : ''}
             ${slide.prompt ? `<p class="student-media-slide__prompt">${escapeHtml(slide.prompt)}</p>` : ''}
             ${slide.portfolio_trace ? `<p class="student-media-slide__prompt">${escapeHtml(slide.portfolio_trace)}</p>` : ''}
           </div>`;
