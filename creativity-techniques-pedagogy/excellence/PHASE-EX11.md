@@ -17,6 +17,8 @@ counted as failures. Update the probe's `--targets` accordingly.)
 
 (Amendment A2/F3–F4: before evaluating targets, harden the probe: include the master-lecture deck (`2627-ml`) and lesson; treat empty `public_weights` as unmet; flag author-date labels on quotes lacking `quote_origin`; detect rank dealing by behaviour (slide→asset assignment by index), not the `rankCursor` name; count decks with zero lab slides; measure asset reuse within a deck. Add a fixture test per case.)
 
+(Amendment A6/F5: add automated tests for validator block/flag modes and the orphan check; replace the always-true "rights report written" check with a freshness check against the decks.)
+
 ## Deliverables
 
 1. `evidence/final-EX11.json` — probe output at the merged HEAD

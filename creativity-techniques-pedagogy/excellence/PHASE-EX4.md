@@ -17,6 +17,8 @@ empty; three EU-term risks).
 (Amendment A1: at launch HEAD U3 has 2 assets cycling over 10 media slides,
 not 0; U4 is out of scope.)
 
+(Amendment A6/F1–F3, F6: first fix `rightsVerdict` so a death year that contradicts a PD/EU-term claim always fails, with a test; give every bound asset an `autopilot-assets.json` record with `raw_title`; correct the forge-doc sentence about rights fallback; rasterise or reject SVGs. Use local `llama3.2-vision` to check image–brief fit before binding; log each call.)
+
 ## Deliverables
 
 1. `image_brief` on every image slide of U1–U3 and the master-lecture deck:

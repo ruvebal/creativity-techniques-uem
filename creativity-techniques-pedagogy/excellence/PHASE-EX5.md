@@ -35,6 +35,8 @@ required hash because `ct-pass-0N-*.svg` names have none; the base path
    points, source page, debate prompt); professor reviews them.
 7. Lab timer (`data-timer="180"`) on exercise slides.
 
+(Amendment A6/F4: captions come from one tested function; the renderer shows `licence_url` as a link.)
+
 ## Scope
 
 **In:** renderer, CSS, deck pages, notes. **Out:** image choice (EX4), lesson text.

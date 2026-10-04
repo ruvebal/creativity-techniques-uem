@@ -95,6 +95,30 @@ U1, U2 and U4 on `main`. Therefore:
   from the page's own URL.
 - **F7 → release:** run `npm ci` before the release build (`postcss` lives in node_modules).
 
+## Amendment A6 (EX3 cold review + landing, 2026-10-04)
+
+- **Landing regression (orchestrator fix):** the EX3 gate reinstalls
+  `node_modules` when `package-lock.json` is newer (the integration worktree
+  had a pre-sharp install). Environmental; no check weakened.
+- **F1, F3 → EX4 (before any rights record is written):** `rightsVerdict` fails
+  an asset whose author death year contradicts its PD/EU-term claim, whatever
+  reason text is given (test with Duchamp d. 1968 + PD-old-70); every bound
+  asset — including review-state-only ones — gets an `autopilot-assets.json`
+  record carrying its `raw_title`, so review tags are always visible to the
+  validator. Under AUTOPILOT §0 such assets publish as `flagged`, never `ok`.
+- **F2 → EX4:** correct the STUDENT-SLIDESHOW-FORGE schema text: under
+  `--rights=flag` an asset without a clean rights record is published as
+  `flagged`, not dropped to diagram.
+- **F4 → EX5:** captions come from one tested function (wire `caption()` into
+  production or test `publicAsset()`); the renderer shows `licence_url` (CC
+  attribution needs the licence link).
+- **F5 → EX11:** automated tests for the validator's block/flag modes and the
+  orphan check; replace the always-true "rights report written" check with a
+  freshness check.
+- **F6 → EX4/EX5:** SVG assets are rasterised (or rejected) — never copied raw.
+- **F7 → release:** U4's public JSON still contains "profield" (slot name and
+  cache path); listed in FINAL-REVIEW as a release item for the U4 forge.
+
 ## Programme (do not invert)
 
 | Step | Phase | Lane | Findings closed | Human gate |

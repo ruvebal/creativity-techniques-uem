@@ -7,6 +7,7 @@ Built during the autopilot run; read this once at the end (AUTOPILOT.md §5).
 | Phase | Status | Tag | Notes |
 | --- | --- | --- | --- |
 | EX0 | DONE | `excellence/ex0` | Probe + baseline + provisional weights; cold review PASS (11 findings, 0 blocking) |
+| EX3 | DONE | `excellence/ex3` | Image pipeline rules + tests + validator; cold review PASS (7 P2); landing regression caught a stale node_modules — gate fixed, re-verified |
 | EX2 | DONE | `excellence/ex2` | Publication firewall; round 1 FAIL (U4 pipeline text, forge rules, dead declaration link), fixed; round 2 PASS |
 | EX1 | DONE | `excellence/ex1` | Contract + factual hotfix; cold review round 1 FAIL (F1 portfolio pass conditions), fixed; round 2 PASS |
 
@@ -104,3 +105,4 @@ U4 (legacy, out of scope) keeps *Man dreaming* (`profield-cache/0a359d9b946505e1
 - Run `npm ci` before the release build (`postcss` lives in node_modules).
 - Align the external skill `~/src/.cursor/skills/lesson-scribe/SKILL.md` §9 ("public role vocabulary": lesson harness, studio extraction layer, cite-grade discovery) with the new footer rule — the safety script now fails on that vocabulary.
 - U4 on `main` (concurrent writer): the safety script now fails on "Forge date", stack wording and pipeline jargon; the U4 forge must adopt the one-sentence footer or the release build will fail (fail-closed, by design).
+- U4's public deck JSON still contains "profield" (slot name and cache path `profield-cache/0a359d9b946505e1.php`, an 806 KB unlicensed file): the U4 forge must migrate it to schema v2 before release, or the firewall is breached on U4 (A6/F7).
