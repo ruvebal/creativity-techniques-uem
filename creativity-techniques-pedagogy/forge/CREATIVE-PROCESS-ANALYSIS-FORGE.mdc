@@ -127,7 +127,7 @@ Wire track Units table with lesson · deck. Set `deck_url:`.
 
 ### Publication firewall (binding — mirror SU-FIA cold review)
 
-Do **not** put Ahmes / Athanor / DevIAC / `[BIBLIO-GAP]` / `evaluator_safe` / coat hash8 / node UUIDs on student lesson body, AI footer, or deck JSON `description`. Student AI footer = vault counts + Chicago authors only.
+Do **not** put Ahmes / Athanor / DevIAC / `[BIBLIO-GAP]` / `evaluator_safe` / coat hash8 / node UUIDs on student lesson body, AI footer, or deck JSON `description`. Student AI footer = the one-sentence declaration footer of `ct-unit-forge.mdc` §4b (authorship + when to declare + `{{ '/ai-declaration/' | relative_url }}` link); vault counts, forge date and studio stack stay in a switch-gated comment (Amendment A4, EX2).
 
 ---
 

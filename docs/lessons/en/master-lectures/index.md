@@ -9,7 +9,7 @@ description: 'Transversal analysis master lectures for Creativity Techniques.'
 
 # Master Lectures
 
-Shared **analysis methods** used across the Creativity Techniques track. Not official CONTENIDOS unit IDs — method workshops with an in-class slideshow.
+Shared **analysis methods** used across the Creativity Techniques track. They are not units of the official course contents — they are method workshops with an in-class slideshow.
 
 | Master Lecture | Lesson | Slideshow |
 | --- | --- | --- |

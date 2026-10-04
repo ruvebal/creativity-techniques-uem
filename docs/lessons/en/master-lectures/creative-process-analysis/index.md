@@ -139,7 +139,7 @@ Also ask C1–C3 hooks when they fit: ideology of “creativity”; unpaid ideat
 
 ### Circulation (Lens B · plain wording)
 
-Meaning is not finished when you stop making. Reception can become the next condition of production (another brief, another platform remake, another critique round). Keep secondary theorist names in the professor brief until their public Chicago entries are complete.
+Meaning is not finished when you stop making. Reception can become the next condition of production (another brief, another platform remake, another critique round).
 
 ---
 

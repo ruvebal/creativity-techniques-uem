@@ -5,8 +5,8 @@
 | **status** | VERIFYING |
 | **started_at** | 2026-10-04T18:05Z (approx.) |
 | **finished_at** | 2026-10-04T18:40Z (approx.; implementation done, awaiting `cascade-harness.sh verify` and cold review) |
-| **cold_review** | PHASE-EX2-COLD-REVIEW.md (not yet filed) |
-| **cascade_amended** | none (residuals and downstream notes below are for the orchestrator and cold reviewer) |
+| **cold_review** | round 1: PHASE-EX2-COLD-REVIEW-round1.md (FAIL, F1–F3 blocking) · round 2: not yet filed |
+| **cascade_amended** | round 2: forge/ct-unit-forge.mdc (§4b), forge/CREATIVE-PROCESS-ANALYSIS-FORGE.mdc (firewall footer line); TECHNICAL-DIRECTOR-CASCADE.md Amendment A4 and the PHASE-EX2 gate were written by the orchestrator (commit 0e7c432) |
 | **branch / worktree** | `cascade/excellence-2` · `creativity-techniques-uem-integration-excellence-2` (`.cascade-lane` = `excellence`) |
 
 ## Summary
@@ -198,8 +198,68 @@ agent was run.
    from `_includes/lesson-semantic-graphic.html`); "C1–C3" in the D1 brief, which
    is explained in parentheses on the page.
 
+
+## Round 2 (cold review round 1 FAIL → fixes)
+
+Inputs: `PHASE-EX2-COLD-REVIEW-round1.md` and Amendment A4. The orchestrator
+amended the gate in `0e7c432`; I did not edit the gate.
+
+| Finding | Fix |
+| --- | --- |
+| F1 (blocking) | U4: two lines changed (the editorial-note locator clause and the authorship paragraph, now the standard one-sentence footer with a `relative_url` link to `/ai-declaration/`). This also closes residual 2: U4 now links the declaration. In the safety script, bare `harness` is narrowed to `(agentic\|local\|studio) harness` or `harness:`, and five patterns are added: `agentic`, `scholar-voice`, `enrichment pack`, `extraction order`, `source adjudication`. The `forge`/`Forge date`/`lesson-scribe` patterns are kept |
+| F2 (blocking) | `forge/ct-unit-forge.mdc` §4b: the rule and boilerplate now require the one-sentence footer with the link and forbid stack terms on the student surface; the studio stack, forge date and vault count move into the switch-gated comment. `forge/CREATIVE-PROCESS-ANALYSIS-FORGE.mdc` firewall line now points to §4b. No other forge file mandates the old footer (grep for "Forging consulted", "agentic harness" and "vault sources"). The `lesson-scribe` skill at `~/src/.cursor/skills/lesson-scribe/` is outside the repo and was not checked or edited |
+| F3 (blocking) | Portfolio brief l.47 now uses `{{ '/ai-declaration/' \| relative_url }}`. A grep of `docs/` for `](/…`, `href="/…` and `src="/…` without the baseurl, plus a built-HTML check, finds no other root-relative link (0 left in `_site`). Deck JSON hrefs already carry `/creativity-techniques-uem/` |
+| F4 | Master-lectures hub sentence rewritten; master-lecture editor instruction removed |
+| F8 | Methodology sentence limited to published units |
+| F9 | `_layouts/lesson.html`: the "Lessons" breadcrumb now links `/lessons/<lang>/creativity-techniques/` (it used to link the missing `/lessons/en/`). `_includes/head-hreflang.html`: the `hreflang="es"` alternate is emitted only when that page is built. Every remaining es alternate (5 pages without `/en/` in the URL) points to an existing page |
+
+Not done in round 2: F5 allowlist (not needed; the patterns are narrowed
+instead); F6 and F7 (routed by A4 to EX3 and EX6).
+
+### Round-2 before / after (student-facing)
+
+| # | File | Before | After |
+| --- | --- | --- | --- |
+| 39 | **U4 lesson, editorial note (firewall-only)** | Michalko (2010) anchors Wall of Ideas and Ask a Crab / Picture Prompting at the locators used in this pilot (402 and 440 in the extraction order) — these are not independently verified printed pages. | Michalko (2010) anchors Wall of Ideas and Ask a Crab / Picture Prompting; its page locators are not yet verified against the printed edition. |
+| 40 | **U4 lesson, AI-assisted authorship (firewall + AI-declaration law)** | Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) wrote and edited this lesson in the crea-comm.net studio environment. A local scholar-voice model supplied paragraph drafts … rebuilt against the U4 enrichment pack, Thinkertoys source adjudication, and page-checked citations. Editorial judgment … remain with the author. | Same sentence as row 5 (one sentence + `/ai-declaration/` link). The existing `*Date: 2026-10-04 · Studio: crea-comm.net*` line is unchanged |
+| 41 | Portfolio brief, l.47 | See the [AI usage declaration](/ai-declaration/) … (404 under the baseurl) | See the [AI usage declaration]({{ '/ai-declaration/' \| relative_url }}) … (text unchanged) |
+| 42 | Master-lectures hub | Not official CONTENIDOS unit IDs — method workshops with an in-class slideshow. | They are not units of the official course contents — they are method workshops with an in-class slideshow. |
+| 43 | Master lecture, Circulation | … another critique round). Keep secondary theorist names in the professor brief until their public Chicago entries are complete. | … another critique round). |
+| 44 | Methodology (replaces row 25's wording) | Every unit maps to the official course contents, and every claim of "technique" must show process evidence. | Each published unit maps to one of the official course contents, and every claim of "technique" must show process evidence. |
+| 45 | Lesson layout breadcrumb (all lesson pages) | "Lessons" → `/lessons/en/` (404) | "Lessons" → `/lessons/en/creativity-techniques/` |
+
+### Round-2 gate results (this worktree; the runner's log is the record)
+
+```text
+PHASE-EX2.exit-gate.sh (A4 amended): 32 PASS · failures: 0
+PHASE-EX0.exit-gate.sh: failures: 0
+PHASE-EX1.exit-gate.sh: failures: 0
+```
+
+### Round-2 leak test
+
+```text
+$ node scripts/verify-publication-safety.mjs   # leak-a (U4 wording) + leak-b (ordinary "harness")
+Publication safety failed (6 finding(s)):
+_site/leak-a/index.html: internal agent harness
+_site/leak-a/index.html: internal agent architecture
+_site/leak-a/index.html: internal voice model
+_site/leak-a/index.html: internal authoring pack
+_site/leak-a/index.html: internal extraction locator
+_site/leak-a/index.html: internal source review
+exit=1
+$ (pages removed, rebuilt) node scripts/verify-publication-safety.mjs
+Publication safety passed: no internal corpus or local-architecture metadata in _site.
+exit=0
+```
+
+`leak-b` ("Techniques help you harness divergent thinking.") produced no
+finding, so the narrowed pattern no longer blocks ordinary English.
+
+Local model calls in round 2: none.
+
 ## Resume point
 
-The implementation is committed on `cascade/excellence-2`. Next steps are the
-runner's `cascade-harness.sh verify … PHASE-EX2.md <worktree>` and then a fresh
-cold review.
+Round-2 fixes are committed on `cascade/excellence-2`. The code changed after
+the verify log, so the next steps are the runner's `cascade-harness.sh verify`
+and then the round-2 cold review.

@@ -25,7 +25,7 @@ tags: [methodology, creativity-techniques, design, ideation, critical-pedagogy]
 
 Shared studio motto: **AI exists to amplify human intention, not to replace it.**
 
-Every unit maps to the official course contents, and every claim of “technique” must show process evidence.
+Each published unit maps to one of the official course contents, and every claim of “technique” must show process evidence.
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:

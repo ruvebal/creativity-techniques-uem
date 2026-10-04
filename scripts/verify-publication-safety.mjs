@@ -38,7 +38,13 @@ const forbidden = [
 	// EX2 (FINDINGS E1–E3; Amendments A2/F5, A3/F9): authoring machinery and sibling surfaces.
 	[/\bForge date\b/i, 'internal authoring stamp'],
 	[/\bforg(?:e[ds]?|er|ers|ing)\b/i, 'internal authoring pipeline (forge)'],
-	[/\bharness(?:es)?\b/i, 'internal agent harness'],
+	// Narrowed (A4/F5): ordinary English such as "harness divergent thinking" stays allowed.
+	[/\b(?:agentic|local|studio)\s+harness(?:es)?\b|\bharness:/i, 'internal agent harness'],
+	[/\bagentic\b/i, 'internal agent architecture'],
+	[/\bscholar-voice\b/i, 'internal voice model'],
+	[/\benrichment pack\b/i, 'internal authoring pack'],
+	[/\bextraction order\b/i, 'internal extraction locator'],
+	[/\bsource adjudication\b/i, 'internal source review'],
 	[/\blesson-scribe\b/i, 'internal authoring agent'],
 	[/\bvaults?\b/i, 'internal source vault'],
 	[/\bThessia\b/i, 'internal voice model'],

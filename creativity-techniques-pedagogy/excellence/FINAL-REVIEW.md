@@ -47,4 +47,9 @@ Built during the autopilot run; read this once at the end (AUTOPILOT.md §5).
 | --- | --- | --- | --- |
 | `docs/lessons/en/creativity-techniques/u-4-workplace-application/index.md` | 192 | `*Forge date: 2026-10-04 · Studio: crea-comm.net*` | `*Date: 2026-10-04 · Studio: crea-comm.net*` |
 
-U5 and U6 have no published pages, so they had no edits. **Left for the U4 forge (rendered, not caught by any pattern):** the editorial note says "the locators used in this pilot (402 and 440 in the extraction order)"; the authorship footer says "rebuilt against the U4 enrichment pack, Thinkertoys source adjudication"; and U4 has no `/ai-declaration/` link.
+| `docs/lessons/en/creativity-techniques/u-4-workplace-application/index.md` | 186 (round 2, F1) | "…at the locators used in this pilot (402 and 440 in the extraction order) — these are not independently verified printed pages." | "…; its page locators are not yet verified against the printed edition." |
+| `docs/lessons/en/creativity-techniques/u-4-workplace-application/index.md` | 190 (round 2, F1) | Authorship paragraph naming the local scholar-voice model, U4 enrichment pack and Thinkertoys source adjudication | Standard one-sentence footer + `{{ '/ai-declaration/' \| relative_url }}` link |
+
+U5 and U6 have no published pages, so they had no edits.
+
+**Warning for the U4 forge on `main` (A4/F2):** `forge/ct-unit-forge.mdc` §4b no longer allows the old footer (harness, vault count, Forge date, `lesson-scribe`). The safety script now fails the build on harness phrasings, `agentic`, `scholar-voice`, `enrichment pack`, `extraction order`, `source adjudication`, forge and vault. Expect a merge conflict on U4 lines 186, 190 and 192 if `main` edits them; per A2/F5 a sync conflict is a stop rule.

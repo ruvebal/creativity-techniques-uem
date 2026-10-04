@@ -44,7 +44,7 @@ Submit one coherent portfolio notebook containing:
 - **D1 Analysis, D2 Transposition, and D3 Atrium:** include the final work and the process that led to it. If the work is presented elsewhere, link or cross-reference it clearly.
 - **A final synthesis:** 500–800 words or an equivalent designed form explaining how your view of creativity, technique, constraints, and your own working habits changed.
 - **A process inventory:** a final checklist showing that every Lab time has a selected exercise entry.
-- **A materials and authorship note:** identify collaborators, borrowed material, and any generative or assistive tools. See the [AI usage declaration](/ai-declaration/) for detailed guidance. “No AI tools used” is a valid declaration.
+- **A materials and authorship note:** identify collaborators, borrowed material, and any generative or assistive tools. See the [AI usage declaration]({{ '/ai-declaration/' | relative_url }}) for detailed guidance. “No AI tools used” is a valid declaration.
 
 The notebook may edit and sequence the evidence, but it must not erase the productive middle: failed attempts, abandoned routes, feedback, and revisions are part of the assessment.
 
