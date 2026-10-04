@@ -42,7 +42,7 @@ cover-agentic:
   contenidos: "Unidad 2. Técnicas de generación y selección de ideas."
   one_line: "Creativity is two rhythms, not one — open many doors on purpose, then close most of them on purpose."
   class_rhythm: "Analysis → Masterclass → Lab (Portfolio) → Workshop (Deliverable)"
-  evaluation_feed: "presentation evidence 30% path via Lab/D1; knowledge tests 70% via D5 later"
+  evaluation_feed: "work evidence 40% through the course evaluation; knowledge tests 60%"
   how_to_pass: "/tracks/ct/how-to-pass-this-track/"
 {% endcomment %}
 

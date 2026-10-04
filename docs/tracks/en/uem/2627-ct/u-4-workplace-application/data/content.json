@@ -29,6 +29,111 @@ layout: null
       "priority": 999,
       "selection_rank": 999,
       "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U4.still.profield-2",
+      "asset_id": "nypl:1ff4e4e0-c62b-012f-8b5a-58d385a7bc34",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/3431b3f642ee6a65.php",
+      "source_file_url": "https://images.nypl.org/index.php?id=1642709&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/1ff4e4e0-c62b-012f-8b5a-58d385a7bc34",
+      "alt_text": "A patent sideboard.",
+      "title": "A patent sideboard.",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 3,
+      "selection_rank": 3,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U4.still.profield-3",
+      "asset_id": "nypl:2afc3a50-4770-0138-609c-5b4d66922571",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/7d20d950889bbb4b.php",
+      "source_file_url": "https://images.nypl.org/index.php?id=58648191&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/2afc3a50-4770-0138-609c-5b4d66922571",
+      "alt_text": "Classroom at Greenbelt, Maryland, school",
+      "title": "Classroom at Greenbelt, Maryland, school",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 9,
+      "selection_rank": 9,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U4.still.profield-4",
+      "asset_id": "nypl:30e47f20-5a52-0133-dc8e-00505686a51c",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/45ae01614da4f3cc.php",
+      "source_file_url": "https://images.nypl.org/index.php?id=5377959&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/30e47f20-5a52-0133-dc8e-00505686a51c",
+      "alt_text": "Manifestation Dada",
+      "title": "Manifestation Dada",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 8,
+      "selection_rank": 8,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U4.still.profield-5",
+      "asset_id": "nypl:35535f50-0109-0135-f170-0dce48425fe1",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/cc5c334d35250d00.php",
+      "source_file_url": "https://images.nypl.org/index.php?id=57405662&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/35535f50-0109-0135-f170-0dce48425fe1",
+      "alt_text": "Decoration de la salle de spectacle",
+      "title": "Decoration de la salle de spectacle",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 10,
+      "selection_rank": 10,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U4.still.profield-6",
+      "asset_id": "nypl:4fde5b00-c5d6-012f-1c90-58d385a7bc34",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/34ca859e7a832527.php",
+      "source_file_url": "https://images.nypl.org/index.php?id=T000182&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/4fde5b00-c5d6-012f-1c90-58d385a7bc34",
+      "alt_text": "Circus performers.",
+      "title": "Circus performers.",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 9,
+      "selection_rank": 9,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U4.still.profield-7",
+      "asset_id": "nypl:510d47d9-83ad-a3d9-e040-e00a18064a99",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/55a22f1e8a0201ae.php",
+      "source_file_url": "https://images.nypl.org/index.php?id=1221640&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/510d47d9-83ad-a3d9-e040-e00a18064a99",
+      "alt_text": "An illustration of gates",
+      "title": "An illustration of gates",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 8,
+      "selection_rank": 8,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U4.still.profield-8",
+      "asset_id": "nypl:510d47d9-3f28-a3d9-e040-e00a18064a99",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/c142adfa3ec48f79.php",
+      "source_file_url": "https://images.nypl.org/index.php?id=74195&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/510d47d9-3f28-a3d9-e040-e00a18064a99",
+      "alt_text": "12\" gun in Action, Naval",
+      "title": "12\" gun in Action, Naval",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 8,
+      "selection_rank": 8,
+      "collection": "unit-accepted"
     }
   ],
   "slides": [
@@ -52,16 +157,9 @@ layout: null
       "sentence": "From session 3: two students defend a D1 piece for 15 minutes. Ask how the piece would survive a workplace brief."
     },
     {
-      "slide_role": "analysis_model",
-      "background_kind": "profield",
-      "media_slot_id": "U4.still.profield-1",
-      "heading": "Read the workplace transfer",
-      "sentence": "Name language, medium, and support. Then ask who owns the credit and whose need was never checked."
-    },
-    {
       "slide_role": "masterclass",
       "background_kind": "profield",
-      "media_slot_id": "U4.still.profield-1",
+      "media_slot_id": "U4.still.profield-3",
       "heading": "1 · Conditions beat slogans",
       "sentence": "Time, safety, and permission are design decisions. Overload pushes thinking toward convention.",
       "citation": {
@@ -72,14 +170,14 @@ layout: null
     {
       "slide_role": "masterclass",
       "background_kind": "profield",
-      "media_slot_id": "U4.still.profield-1",
+      "media_slot_id": "U4.still.profield-4",
       "heading": "2 · Watch passion rhetoric",
       "sentence": "Enthusiasm is not consent to unlimited or uncredited work. Keep a contribution log."
     },
     {
       "slide_role": "masterclass",
       "background_kind": "profield",
-      "media_slot_id": "U4.still.profield-1",
+      "media_slot_id": "U4.still.profield-5",
       "heading": "3 · Design the diverge window",
       "sentence": "Protect generation before judging. The deadline stays; the window is scheduled.",
       "citation": {
@@ -90,9 +188,9 @@ layout: null
     {
       "slide_role": "masterclass",
       "background_kind": "profield",
-      "media_slot_id": "U4.still.profield-1",
+      "media_slot_id": "U4.still.profield-6",
       "heading": "4 · Techniques meet stakeholders",
-      "sentence": "A dot tally records group preference. It is not visitor proof.",
+      "sentence": "Dots on the wall show the team’s favourite ideas. They do not show that a real visitor can use the design.",
       "citation": {
         "label": "(Michalko 2010, 402)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-4-workplace-application/#ref-michalko-2010"
@@ -101,16 +199,16 @@ layout: null
     {
       "slide_role": "masterclass",
       "background_kind": "profield",
-      "media_slot_id": "U4.still.profield-1",
+      "media_slot_id": "U4.still.profield-7",
       "heading": "5 · Pitch is convergent craft",
       "sentence": "Present criteria, limits, and the next test. Keep one unresolved concern on the card."
     },
     {
       "slide_role": "masterclass",
       "background_kind": "profield",
-      "media_slot_id": "U4.still.profield-1",
       "heading": "6 · Ethics inside the method",
-      "sentence": "Name harm, credit, and feasibility before a team calls an idea ready."
+      "sentence": "Name harm, credit, and feasibility before a team calls an idea ready.",
+      "media_slot_id": "U4.still.profield-8"
     },
     {
       "slide_role": "lab_opener",
@@ -122,34 +220,26 @@ layout: null
     },
     {
       "slide_role": "lab_exercise",
-      "background_kind": "profield",
-      "media_slot_id": "U4.still.profield-1",
+      "background_kind": "diagram",
       "heading": "Exercise 1 · Ask a Crab — picture diverge",
-      "sentence": "Under the Accessible Atrium brief: brainstorm, use unrelated pictures, write and discuss. Defer final evaluate (Michalko 2010, 440).",
+      "sentence": "Follow Michalko’s BLUEPRINT steps 1–4 under the Atrium brief. Defer step 5 evaluate (Michalko 2010, 439–440).",
       "portfolio_bound": true,
       "portfolio_trace": "Save the brief, pictures used, idea list, and the note that evaluation was deferred."
     },
     {
       "slide_role": "lab_exercise",
-      "background_kind": "profield",
-      "media_slot_id": "U4.still.profield-1",
+      "background_kind": "diagram",
       "heading": "Exercise 2 · Wall of Ideas — cluster and prefer",
-      "sentence": "Silent notes, wall clusters, concern notes, ten dots each, then a decision card with one unresolved concern (Michalko 2010, 402).",
+      "sentence": "Run Wall of ideas for clustering and dots, then a decision card with one unresolved concern (Michalko 2010, 402).",
       "portfolio_bound": true,
       "portfolio_trace": "Save wall photo, tally, decision card, contribution log, and what the tally does not prove."
     },
     {
-      "slide_role": "workshop_opener",
-      "background_kind": "geometrical",
-      "heading": "Workshop · Deliverable",
-      "sentence": "Protected time on your next defence support. Pitch the decision without erasing the concern."
-    },
-    {
       "slide_role": "workshop_work",
       "background_kind": "profield",
-      "media_slot_id": "U4.still.profield-1",
-      "heading": "Pitch the decision card",
-      "sentence": "Criteria, limits, next test, unresolved concern. Show how the idea would circulate from wall to Atrium path."
+      "heading": "Workshop · Pitch the decision",
+      "sentence": "Show the decision card: what you chose, why it fits the brief, what you will test next, and one concern still open.",
+      "media_slot_id": "U4.still.profield-2"
     },
     {
       "slide_role": "outro",
@@ -163,7 +253,16 @@ layout: null
     "project_id": "tc",
     "collection": "unit-accepted",
     "strategy": "review-state-assigned",
-    "description": "Accepted/ranked Profield review-state assets for tc/U4 (hydrate when unit media assigned).",
-    "media_overrides": {}
+    "description": "Cover dreamer; analysis_model removed; Classroom→Conditions then +1 through Ethics (naval); patent on Workshop pitch; Lab exercises without photos.",
+    "media_overrides": {
+      "U4.still.profield-1": "nypl:3432d330-a629-0135-2798-05f9b175829f",
+      "U4.still.profield-2": "nypl:1ff4e4e0-c62b-012f-8b5a-58d385a7bc34",
+      "U4.still.profield-3": "nypl:2afc3a50-4770-0138-609c-5b4d66922571",
+      "U4.still.profield-4": "nypl:30e47f20-5a52-0133-dc8e-00505686a51c",
+      "U4.still.profield-5": "nypl:35535f50-0109-0135-f170-0dce48425fe1",
+      "U4.still.profield-6": "nypl:4fde5b00-c5d6-012f-1c90-58d385a7bc34",
+      "U4.still.profield-7": "nypl:510d47d9-83ad-a3d9-e040-e00a18064a99",
+      "U4.still.profield-8": "nypl:510d47d9-3f28-a3d9-e040-e00a18064a99"
+    }
   }
 }

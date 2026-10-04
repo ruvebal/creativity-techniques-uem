@@ -75,8 +75,7 @@ layout: null
     },
     {
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "U3.still.profield-1",
+      "background_kind": "diagram",
       "heading": "1 · Make it rough, make it early",
       "sentence": "A rough prototype is a question in material form. Make the smallest version that can teach you something.",
       "quote": "A rough thing can answer a question that a polished thing hides.",
@@ -88,22 +87,19 @@ layout: null
     },
     {
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "U3.still.profield-2",
+      "background_kind": "diagram",
       "heading": "2 · Defer judgement",
       "sentence": "Protect a short space for variation before you decide what works. Then judge with a named criterion."
     },
     {
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "U3.still.profield-1",
+      "background_kind": "diagram",
       "heading": "3 · Iterate with an exit",
       "sentence": "Write the test before the next version. Stop when the test is answered."
     },
     {
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "U3.still.profield-2",
+      "background_kind": "diagram",
       "heading": "4 · Sketch to think",
       "sentence": "Three quick arrangements can show relationships that one polished drawing hides.",
       "quote": "Sketching enables exploration of the problem space and the solution space to proceed together.",
@@ -115,8 +111,7 @@ layout: null
     },
     {
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "U3.still.profield-1",
+      "background_kind": "diagram",
       "heading": "5 · Open the solution space",
       "sentence": "Reframe an unclear brief as two or three questions. Make one small response to each.",
       "citation": {
@@ -126,8 +121,7 @@ layout: null
     },
     {
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "U3.still.profield-2",
+      "background_kind": "diagram",
       "heading": "6 · Reflect at checkpoints",
       "sentence": "Write what changed, what stayed, and what the change taught you."
     },
@@ -141,8 +135,7 @@ layout: null
     },
     {
       "slide_role": "lab_exercise",
-      "background_kind": "profield",
-      "media_slot_id": "U3.still.profield-1",
+      "background_kind": "diagram",
       "heading": "Exercise 1 · Same problem, three entry points",
       "sentence": "Keep one D1 problem. Start each of three rough sketches from a different named entry point. Do not polish. Compare how the entry point steered the path (de Bono 1970, 27; Cross 2006, 93).",
       "portfolio_bound": true,
@@ -150,8 +143,7 @@ layout: null
     },
     {
       "slide_role": "lab_exercise",
-      "background_kind": "profield",
-      "media_slot_id": "U3.still.profield-2",
+      "background_kind": "diagram",
       "heading": "Exercise 2 · Delay judgement, then checkpoint and exit",
       "sentence": "Protect a short delay of judgement on one version (de Bono 1970, 30). Write one testable question, revise once, and stop when the test is answered.",
       "portfolio_bound": true,

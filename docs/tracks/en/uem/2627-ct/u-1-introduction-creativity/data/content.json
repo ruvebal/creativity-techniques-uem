@@ -60,6 +60,51 @@ layout: null
     },
     {
       "media_slot_id": "U1.still.profield-4",
+      "asset_id": "nypl:30e47f20-5a52-0133-dc8e-00505686a51c",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/45ae01614da4f3cc.php",
+      "source_file_url": "https://images.nypl.org/index.php?id=5377959&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/30e47f20-5a52-0133-dc8e-00505686a51c",
+      "alt_text": "Manifestation Dada",
+      "title": "Manifestation Dada",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 8,
+      "selection_rank": 8,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U1.still.profield-5",
+      "asset_id": "nypl:510d47d9-3f28-a3d9-e040-e00a18064a99",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/c142adfa3ec48f79.php",
+      "source_file_url": "https://images.nypl.org/index.php?id=74195&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/510d47d9-3f28-a3d9-e040-e00a18064a99",
+      "alt_text": "12\" gun in Action, Naval",
+      "title": "12\" gun in Action, Naval",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 8,
+      "selection_rank": 8,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U1.still.profield-6",
+      "asset_id": "nypl:510d47d9-83ad-a3d9-e040-e00a18064a99",
+      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/55a22f1e8a0201ae.php",
+      "source_file_url": "https://images.nypl.org/index.php?id=1221640&t=w",
+      "canonical_source_url": "http://digitalcollections.nypl.org/items/510d47d9-83ad-a3d9-e040-e00a18064a99",
+      "alt_text": "An illustration of gates",
+      "title": "An illustration of gates",
+      "provider": "nypl",
+      "credit_line": "nypl",
+      "licence": "",
+      "priority": 8,
+      "selection_rank": 8,
+      "collection": "unit-accepted"
+    },
+    {
+      "media_slot_id": "U1.still.profield-7",
       "asset_id": "nypl:7acb30b0-c624-012f-e5b5-58d385a7bc34",
       "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/001689d2c916fa00.php",
       "source_file_url": "https://images.nypl.org/index.php?id=ps_prn_cd20_296&t=w",
@@ -74,7 +119,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "U1.still.profield-5",
+      "media_slot_id": "U1.still.profield-8",
       "asset_id": "nypl:07ed5120-2f28-0133-a598-58d385a7b928",
       "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/3ecc1a2343c3bc48.php",
       "source_file_url": "https://images.nypl.org/index.php?id=5337564&t=w",
@@ -89,7 +134,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "U1.still.profield-6",
+      "media_slot_id": "U1.still.profield-9",
       "asset_id": "nypl:2e51cc60-c554-012f-49f2-58d385a7bc34",
       "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/37dc0f693437fddc.php",
       "source_file_url": "https://images.nypl.org/index.php?id=G91F111_019F&t=w",
@@ -104,7 +149,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "U1.still.profield-7",
+      "media_slot_id": "U1.still.profield-10",
       "asset_id": "wikimedia:File:Five-Way Portrait of Marcel Duchamp, 21 June 1917, New York City.jpg",
       "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/1e69510991fc9a37.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Five-Way_Portrait_of_Marcel_Duchamp%2C_21_June_1917%2C_New_York_City.jpg",
@@ -119,7 +164,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "U1.still.profield-8",
+      "media_slot_id": "U1.still.profield-11",
       "asset_id": "nypl:05574380-c575-012f-544f-58d385a7bc34",
       "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/a4477af5518f145f.php",
       "source_file_url": "https://images.nypl.org/index.php?id=1942274&t=w",
@@ -134,7 +179,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "U1.still.profield-9",
+      "media_slot_id": "U1.still.profield-12",
       "asset_id": "nypl:195d82a0-3acf-0133-9eb9-00505686d14e",
       "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/9093105dae3b42e3.php",
       "source_file_url": "https://images.nypl.org/index.php?id=5339748&t=w",
@@ -149,7 +194,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "U1.still.profield-10",
+      "media_slot_id": "U1.still.profield-13",
       "asset_id": "nypl:1ff4e4e0-c62b-012f-8b5a-58d385a7bc34",
       "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/3431b3f642ee6a65.php",
       "source_file_url": "https://images.nypl.org/index.php?id=1642709&t=w",
@@ -164,7 +209,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "U1.still.profield-11",
+      "media_slot_id": "U1.still.profield-14",
       "asset_id": "nypl:4678b550-c55d-012f-5575-58d385a7bc34",
       "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/259aed079d802ff0.php",
       "source_file_url": "https://images.nypl.org/index.php?id=836597&t=w",
@@ -179,7 +224,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "U1.still.profield-12",
+      "media_slot_id": "U1.still.profield-15",
       "asset_id": "nypl:4cc1ab80-c6e7-012f-3e2c-58d385a7bc34",
       "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/ad7189f98c755794.php",
       "source_file_url": "https://images.nypl.org/index.php?id=1567396&t=w",
@@ -194,7 +239,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "U1.still.profield-13",
+      "media_slot_id": "U1.still.profield-16",
       "asset_id": "wikimedia:File:Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (68).JPG",
       "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/337b1324e6f226b2.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Art%2BFeminism_Wikipedia_Edit-A-Thon_2015%2C_The_Banff_Centre%2C_Banff%2C_Alberta_%2868%29.JPG",
@@ -209,7 +254,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "U1.still.profield-14",
+      "media_slot_id": "U1.still.profield-17",
       "asset_id": "wikimedia:File:Iterative Process Diagram.svg",
       "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/1b014b8e74a8b772.svg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Iterative_Process_Diagram.svg",
@@ -224,7 +269,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "U1.still.profield-15",
+      "media_slot_id": "U1.still.profield-18",
       "asset_id": "wikimedia:File:RotaryDemisphereMarcelDuchampManRay.jpg",
       "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/d4f5577b5191fd61.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/RotaryDemisphereMarcelDuchampManRay.jpg",
@@ -239,7 +284,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "U1.still.profield-16",
+      "media_slot_id": "U1.still.profield-19",
       "asset_id": "wikimedia:File:Rrose Sélavy (Marcel Duchamp), 1921 photograph by Man Ray.jpg",
       "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/184af2a70e55d004.jpg",
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Rrose_S%C3%A9lavy_%28Marcel_Duchamp%29%2C_1921_photograph_by_Man_Ray.jpg",
@@ -254,7 +299,7 @@ layout: null
       "collection": "unit-accepted"
     },
     {
-      "media_slot_id": "U1.still.profield-17",
+      "media_slot_id": "U1.still.profield-20",
       "asset_id": "nypl:3432d330-a629-0135-2798-05f9b175829f",
       "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/0a359d9b946505e1.php",
       "source_file_url": "https://images.nypl.org/index.php?id=57378963&t=w",

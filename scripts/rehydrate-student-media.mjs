@@ -408,34 +408,70 @@ async function rehydrateDecks() {
 
     selected.sort((a, b) => selectionScore(b) - selectionScore(a) || String(a.asset_id).localeCompare(String(b.asset_id)));
 
+    // When the deck declares media_overrides, hydrate only those assets
+    // (plus any slide-referenced ids) so auto-ranked leftovers cannot collide
+    // with explicit slot names or steal backgrounds.
+    const overrideEntries = Object.entries(selection.media_overrides || {});
+    if (overrideEntries.length) {
+      const allowed = new Set(overrideEntries.map(([, id]) => id));
+      for (const slide of content.slides || []) {
+        const declared = (content.assets || []).find((a) => a.media_slot_id === slide.media_slot_id);
+        if (declared?.asset_id) allowed.add(declared.asset_id);
+      }
+      selected = selected.filter((asset) => allowed.has(asset.asset_id));
+      // Keep override order stable for missing ranks.
+      const order = new Map(overrideEntries.map(([slot, id], i) => [id, i]));
+      selected.sort((a, b) => (order.get(a.asset_id) ?? 999) - (order.get(b.asset_id) ?? 999));
+    }
+
     const assets = [];
+    const usedAssetSlots = new Set();
     for (const [index, asset] of selected.entries()) {
       const existing = (content.assets || []).find((candidate) =>
         candidate.asset_id === asset.asset_id
         || candidate.canonical_source_url === asset.canonical_source_url);
       const overrideSlot = Object.entries(selection.media_overrides || {}).find(([, id]) => id === asset.asset_id)?.[0];
-      const slot = overrideSlot || `${unit}.still.profield-${index + 1}`;
+      let slot = overrideSlot || `${unit}.still.profield-${index + 1}`;
+      if (usedAssetSlots.has(slot)) {
+        let n = index + 1;
+        while (usedAssetSlots.has(`${unit}.still.profield-${n}`)) n += 1;
+        slot = `${unit}.still.profield-${n}`;
+      }
+      usedAssetSlots.add(slot);
       const remote = stripUtm(asset.asset_url || asset.preview_url || existing?.source_file_url || '');
       const urls = await ensureLocalAsset(remote, asset.asset_id);
       assets.push(publicAsset(asset, slot, existing, urls));
     }
 
+    // Never recycle the same Profield asset across slides. Prefer a slide's
+    // already-declared media_slot_id when it resolves; otherwise assign the
+    // next unused slot. When unique assets run out, fall back to diagram.
     const rankedSlots = assets.map((a) => a.media_slot_id);
-    let rankCursor = 0;
-    const structuralRoles = new Set(['analysis_opener', 'lab_opener', 'workshop_opener', 'outro']);
+    const usedSlots = new Set();
     const slides = (content.slides || []).map((slide) => {
-      if (slide.background_kind === 'geometrical' || slide.background_kind === 'diagram') return slide;
-      if (structuralRoles.has(slide.slide_role)) return slide;
-      if (!assets.length) return slide;
-      const wantsMedia = slide.background_kind === 'profield'
-        || Boolean(slide.media_slot_id)
-        || slide.slide_role === 'masterclass'
-        || slide.slide_role === 'lab_exercise'
-        || slide.slide_role === 'analysis_model';
-      if (!wantsMedia) return slide;
-      const slot = rankedSlots[rankCursor % rankedSlots.length];
-      rankCursor += 1;
-      return { ...slide, media_slot_id: slot, background_kind: 'profield' };
+      // Honour explicit geometrical/diagram slides with no slot — never force a photo.
+      if ((slide.background_kind === 'geometrical' || slide.background_kind === 'diagram')
+        && !slide.media_slot_id) {
+        return slide;
+      }
+      // Prefer a slide's already-declared slot when it resolves uniquely.
+      if (slide.media_slot_id && rankedSlots.includes(slide.media_slot_id) && !usedSlots.has(slide.media_slot_id)) {
+        usedSlots.add(slide.media_slot_id);
+        return { ...slide, background_kind: 'profield' };
+      }
+      const wantsAuto = slide.background_kind === 'profield'
+        || slide.slide_role === 'unit_cover';
+      if (!wantsAuto) {
+        const { media_slot_id: _drop, ...rest } = slide;
+        return rest;
+      }
+      const next = rankedSlots.find((slot) => !usedSlots.has(slot));
+      if (!next) {
+        const { media_slot_id: _drop, ...rest } = slide;
+        return { ...rest, background_kind: 'diagram' };
+      }
+      usedSlots.add(next);
+      return { ...slide, media_slot_id: next, background_kind: 'profield' };
     });
 
     const next = {
