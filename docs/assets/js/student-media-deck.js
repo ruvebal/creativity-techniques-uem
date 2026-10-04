@@ -3,7 +3,7 @@
   // Spine: unit_cover → analysis → masterclass (Profield) → geometrical lab_opener → lab
   // → geometrical workshop_opener → workshop → geometrical outro.
   // Remote backgrounds painted via CSS after Reveal.sync (comma / %2B safe).
-  // Captions never expose Resource UUID / forger version strings.
+  // Captions never expose Resource UUID / authoring-tool version strings.
   const body = document.body;
   const slidesRoot = document.getElementById('slides');
   const base = '/creativity-techniques-uem';

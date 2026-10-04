@@ -189,4 +189,4 @@ Fisher (2012, 27) supports the claim that overload and external pressure push th
 
 Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) wrote and edited this lesson in the crea-comm.net studio environment. A local scholar-voice model supplied paragraph drafts that were rejected where they introduced quotation marks, fabricated Lab paths, or mis-attributed methods; the final text was rebuilt against the U4 enrichment pack, Thinkertoys source adjudication, and page-checked citations. Editorial judgment and responsibility for the final text remain with the author.
 
-*Forge date: 2026-10-04 · Studio: crea-comm.net*
+*Date: 2026-10-04 · Studio: crea-comm.net*

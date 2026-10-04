@@ -156,10 +156,8 @@ LAB_EXERCISE_SELECTION:
 ## Editorial note. Work in progress. Teaching Innovation Practice
 {: .lesson-editorial-note }
 
-This pilot uses the U3 enrichment pack and two in-practice candidates from Cross and de Bono as a bounded teaching hypothesis. The cited passages support the lesson’s vocabulary for ill-defined problems, non-verbal modelling, delayed judgement, and creative action under constraints; they do not prove that the exact Lab sequence will work for every student. Classroom adaptations are professor framing, not claims that the original authors wrote these portfolio briefs. The lesson therefore teaches a reversible development loop and asks students to record evidence rather than promising that prototypes always improve a solution.
+This unit adapts two Lab exercises from Cross and de Bono and treats them as a bounded teaching hypothesis. The cited passages support the lesson’s vocabulary for ill-defined problems, non-verbal modelling, delayed judgement, and creative action under constraints; they do not prove that the exact Lab sequence will work for every student. Classroom adaptations are professor framing, not claims that the original authors wrote these portfolio briefs. The lesson therefore teaches a reversible development loop and asks students to record evidence rather than promising that prototypes always improve a solution.
 
 ## AI-assisted authorship
 
-Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) wrote and edited this lesson in the crea-comm.net studio environment. A local scholar-voice model supplied a draft that was rejected where it introduced unsupported metadata or claims; the final text was rebuilt against the grounded U3 enrichment pack. Editorial judgment and responsibility for the final text remain with the author.
-
-*Forge date: 2026-09-19 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1*
+Rubén Vega Balbás, PhD, wrote this lesson with AI assistance and is responsible for the final text; when you submit a Lab entry or deliverable from this unit, declare your own AI use (or state “No AI tools used”) as set out in the [AI usage declaration]({{ '/ai-declaration/' | relative_url }}).

@@ -12,7 +12,7 @@ tags: [creativity-techniques, foundations, diverge-converge, portfolio]
 deck_url: /tracks/ct/u-1-introduction-creativity/
 master_idea: 'Creativity is paced craft under a brief — open options, then choose what fits'
 practice_anchor: 'Pace open-then-close work; name fluency, flexibility, originality, elaboration; analyse with language / medium / support before calling something creative'
-frontier_signal: 'Buchanan, Schön, and Kimbell primary extracts remain open procurement — studio hypotheses, not page-verified yet'
+frontier_signal: 'Buchanan, Schön, and Kimbell are further reading for this unit; it does not cite them yet'
 ---
 
 <!-- prettier-ignore-start -->
@@ -203,13 +203,13 @@ There is **no Workshop in sessions 1–3**: the session ends after Lab. Workshop
 - One sentence naming language / medium / support  
 - Portfolio index file created (even if thin)
 
-**Not this week:** D2 transposition, D3 Atrium tech script, D5 exam.
+**Not this week:** D2 transposition, D3 Atrium (technical script and live defence), D5 exam.
 
 ---
 
 ## Conclusion
 
-This unit does not settle what creativity is; it hands you a habit and three sources. The four skills come from cognitive-testing traditions that a whole other tradition — the reflective-practice line from Schön, the wicked-problems line from Buchanan, the design-thinking-as-discourse critique from Kimbell — argues *cannot* explain what actually happens in a studio; those primary extracts are still open procurement in this library, and reading one of them (start with a chapter, not a summary) is the next honest move after this class. What will you do with the gap between "I trained fluency this week" and "I made something that mattered"? The gap does not close here — that is the point; a lesson that resolves it too neatly would be teaching you the wrong thing about the field.
+This unit does not settle what creativity is; it hands you a habit and three sources. The four skills come from cognitive-testing traditions that a whole other tradition — the reflective-practice line from Schön, the wicked-problems line from Buchanan, the design-thinking-as-discourse critique from Kimbell — argues *cannot* explain what actually happens in a studio; this unit does not cite them yet, and reading one of them (start with a chapter, not a summary) is the next honest move after this class. What will you do with the gap between "I trained fluency this week" and "I made something that mattered"? The gap does not close here — that is the point; a lesson that resolves it too neatly would be teaching you the wrong thing about the field.
 
 ---
 
@@ -219,7 +219,7 @@ This unit does not settle what creativity is; it hands you a habit and three sou
 - <span id="ref-craft-2003">Craft, Anna. 2003. *Creativity Across the Primary Curriculum*. London: Taylor & Francis. ISBN 9780203457283.</span>
 - <span id="ref-csikszentmihalyi-2007">Csikszentmihalyi, Mihaly. 2007. *Creativity: Flow and the Psychology of Discovery and Invention*. New York: HarperCollins. ISBN 9780061844034.</span>
 
-**Open procurement (not cited in the body until extracts resolve):** Buchanan on wicked problems in design thinking; Schön on reflective practice; Kimbell on design-thinking discourse. Do not treat those titles as page-verified for this unit yet.
+**Further reading (not cited in this unit):** Buchanan on wicked problems in design thinking; Schön on reflective practice; Kimbell on design-thinking discourse.
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
@@ -238,15 +238,7 @@ Craft and Chen support open-then-close work and the four-skill vocabulary; Chen 
 
 ## AI-assisted authorship
 
-Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) wrote this lesson in the
-crea-comm.net studio environment — a local agentic harness with MCP-backed
-retrieval, RAG context from the curriculum vault, and a scholar-voice model
-fine-tuned on his own writing. Forging consulted **3** vault sources; every
-public `(Author, Year)` was checked against that vault before acceptance.
-Prompts, model drafts, and human amendments are archived for later evaluation.
-Editorial judgment and responsibility for the final text remain with the author.
-
-*Forge date: 2026-09-14 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1*
+Rubén Vega Balbás, PhD, wrote this lesson with AI assistance and is responsible for the final text; when you submit a Lab entry or deliverable from this unit, declare your own AI use (or state “No AI tools used”) as set out in the [AI usage declaration]({{ '/ai-declaration/' | relative_url }}).
 
 
 {% if site.publication.publish_internal_metadata %}

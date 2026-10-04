@@ -99,7 +99,4 @@ The EU AI Act (2024) provides a regulatory framework that aligns with these educ
 ## AI-assisted authorship
 
 Instructor transparency  
-Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) wrote this lesson in the crea-comm.net studio environment — a local agentic harness with MCP-backed retrieval, RAG context from the curriculum vault, and a scholar-voice model fine-tuned on his own writing. Forging consulted 3 vault sources; every public `(Author, Year)` was checked against that vault before acceptance. Prompts, model drafts, and human amendments are archived for later evaluation. Editorial judgment and responsibility for the final text remain with the author.  
-Forge date: 2026-09-14 · Studio: crea-comm.net · harness: `lesson-scribe` v0.1
-
-For the instructor's detailed AI-assisted development foundations, see [AI-Assisted Development Foundations](https://ruvebal.github.io/web-atelier-udit/methodology/en/ai-assisted-development-foundations/).
+Rubén Vega Balbás, PhD, wrote this page with AI assistance and is responsible for the final text; the declaration elements above apply to every piece you submit in this course (portfolio entry, exercise, project, or exam response).

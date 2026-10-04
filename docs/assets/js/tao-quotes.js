@@ -157,7 +157,7 @@ ${sections}
 ${renderAreasIndex(data.creativity_areas)}
 ${renderDiscussionsIndex(data.field_discussions)}
 <section id="nota-generativa" class="tao-section tao-nota">
-  <h2>Note on how this text is forged</h2>
+  <h2>Note on how this text is made</h2>
   <p>This page is hydrated from <code>quotes.json</code>. Each invent carries DH metadata (<code>semantic_tags</code>: CIDOC-CRM, Getty AAT, Dublin Core, SKOS) and links into the course creativity thesaurus (<code>ct:…</code>). Field discussion ids name tensions held open in the field map. Invents are studio aphorisms — never fake scholarship.</p>
 </section>
 <footer class="tao-footer">
