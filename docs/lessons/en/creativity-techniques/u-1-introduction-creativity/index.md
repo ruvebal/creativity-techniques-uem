@@ -28,8 +28,8 @@ frontier_signal: 'Buchanan, Schön, and Kimbell primary extracts remain open pro
 
 <div class="lesson-opener" markdown="1">
 
-> *"Name your variables as if you were baptising stars."*
-> — Tao of Development
+> *"Open many doors on Monday; close most of them on Tuesday — that rhythm is the craft, not the mood."*
+> — Tao of Creativity
 {: .tao-development-quote }
 
 {% include lesson-semantic-graphic.html %}
@@ -42,7 +42,7 @@ cover-agentic:
   contenidos: "Unidad 1. Introducción a la creatividad y su importancia."
   one_line: "Creativity is paced craft under a brief. You open many options, then you choose what fits."
   class_rhythm: "Analysis → Masterclass → Lab (Portfolio) → Workshop (Deliverable)"
-  evaluation_feed: "presentation evidence 30% path via Lab/D1; knowledge tests 70% via D5 later"
+  evaluation_feed: "presentation evidence 40% path via Lab/D1; knowledge tests 60% via D5 later (DECISION-EX0-GUIA, provisional)"
   how_to_pass: "/tracks/ct/how-to-pass-this-track/"
   enrichment: "creativity-techniques-pedagogy/forge/unit-enrichment/U1-introduccion-creatividad/"
 {% endcomment %}
@@ -62,7 +62,7 @@ critical_review_d2: DISCURSIVE-CIRCULATION-FORGE.mdc
 By the end of this unit, you should be able to:
 
 1. **Pace** work as open-then-close under a brief (not “wait for inspiration”).
-2. **Name** four trainable skills: fluency, flexibility, originality, elaboration.
+2. **Name** four skills that creativity tests measure — fluency, flexibility, originality, elaboration — and say what training can and cannot change.
 3. **Analyse** a piece with three labels — **language / medium / support** — then say where meaning travels when someone else sees it.
 4. **Start** your portfolio index with Lab traces that will later hold D1–D3.
 5. **Say clearly** what this unit does *not* prove: it does not claim one classroom technique is “best” from a finished comparative study.
@@ -103,17 +103,19 @@ You invent many options (**divergent**). Then you select what fits the needs of 
 > “The same creative act may involve both divergent and convergent thinking.”  
 > — [(Craft 2003, 43)](#ref-craft-2003)
 
-#### 2 · Four skills you can train
+#### 2 · Four skills that tests measure
 
 Guilford’s four abilities (as summarised by Chen on the same page) give you a shared vocabulary:
 
 - **Fluency** — produce many ideas quickly  
 - **Flexibility** — try several angles at once  
-- **Originality** — make links most people miss  
+- **Originality** — produce ideas that few other people produce (rare answers)  
 - **Elaboration** — work the details and carry the idea through  
 
 > “Fluency - the ability to produce a large number of ideas or solutions to a problem rapidly.”  
 > — [(Chen 2012, 41)](#ref-chen-2012)
+
+Training can raise scores on these skills. A higher score is not the same as a better idea in a real brief (see idea 3).
 
 Csikszentmihalyi names a close triad for divergent work:
 
@@ -155,7 +157,7 @@ PROVENANCE_LINE: claim=U1.dt-critique; status=NONE; owed=Kimbell 2011–12 extra
 
 ## B2 · Lab (Portfolio)
 
-**Announced by a geometrical slide first:** one debate and three exercises follow; everything you produce in Lab goes into your **portfolio index**.
+**Announced by a geometrical slide first:** one debate and two exercises follow; everything you produce in Lab goes into your **portfolio index**.
 
 ### Debate — language, medium, support & circulation
 
@@ -178,7 +180,9 @@ What did Dada question about art, authorship, and institutions? Link **one Dada 
 
 **Portfolio trace:** short paragraph + one studio link.
 
-### Exercise 3 — Explore the course directory
+---
+
+## Autonomous work (outside class) — explore the course directory
 
 Browse the [Directory]({{ '/directory/en/' | relative_url }}). Pick **two entries** where you could see yourself after your studies (prize, studio, journal, figure, organisation). Say why each fits you.
 
@@ -186,9 +190,9 @@ Browse the [Directory]({{ '/directory/en/' | relative_url }}). Pick **two entrie
 
 ---
 
-## B3 · Workshop (Deliverable) — start D1
+## B3 · No Workshop yet — start D1 on your own time
 
-**Workshop opener (geometrical):** protected time on the next graded deliverable.
+There is **no Workshop in sessions 1–3**: the session ends after Lab. Workshop time starts in session 4. This week, start D1 on your own time.
 
 **Reminder — from session 3 you start the session.** Two students open the class with a **15-minute** analysis defence each. Your support is a **slideshow**. Intra-rubric: presentation **70%** · deliverable support **20%** · peer debate **10%**.
 
@@ -205,7 +209,7 @@ Browse the [Directory]({{ '/directory/en/' | relative_url }}). Pick **two entrie
 
 ## Conclusion
 
-This unit does not settle what creativity is; it hands you a habit and three sources. The four trainable skills come from cognitive-testing traditions that a whole other tradition — the reflective-practice line from Schön, the wicked-problems line from Buchanan, the design-thinking-as-discourse critique from Kimbell — argues *cannot* explain what actually happens in a studio; those primary extracts are still open procurement in this library, and reading one of them (start with a chapter, not a summary) is the next honest move after this class. What will you do with the gap between "I trained fluency this week" and "I made something that mattered"? The gap does not close here — that is the point; a lesson that resolves it too neatly would be teaching you the wrong thing about the field.
+This unit does not settle what creativity is; it hands you a habit and three sources. The four skills come from cognitive-testing traditions that a whole other tradition — the reflective-practice line from Schön, the wicked-problems line from Buchanan, the design-thinking-as-discourse critique from Kimbell — argues *cannot* explain what actually happens in a studio; those primary extracts are still open procurement in this library, and reading one of them (start with a chapter, not a summary) is the next honest move after this class. What will you do with the gap between "I trained fluency this week" and "I made something that mattered"? The gap does not close here — that is the point; a lesson that resolves it too neatly would be teaching you the wrong thing about the field.
 
 ---
 

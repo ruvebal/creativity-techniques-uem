@@ -41,8 +41,8 @@ PROVENANCE_LINE: claim=SU-CPA.open-close; status=VERIFIED; source={coat=061d6093
 PROVENANCE_LINE: claim=SU-CPA.divergent-hallmark; status=VERIFIED; source={coat=d048ab99; node=23900e79-ee32-59f1-8d2d-12b8c870b9c8; page_index=39; printed=40}; public="(Chen 2012, 40)"; evaluator_safe=yes
 PROVENANCE_LINE: claim=SU-CPA.two-ways; status=VERIFIED; source={coat=35dcf3a7; node=5f7e3435-6955-5c3c-9128-42a578c201ef; page_index=7; printed=8}; public="(Csikszentmihalyi 2007, 8)"; evaluator_safe=yes; surface=lesson-body
 PROVENANCE_LINE: claim=SU-CPA.context-over-test; status=VERIFIED; source={coat=d048ab99; node=a849be72-786d-5d7d-8cbe-fa74d59f7de5; page_index=40; printed=41}; public="(Chen 2012, 41)"; evaluator_safe=yes
-PROVENANCE_LINE: claim=SU-CPA.process-material; status=VERIFIED; discovery={Athanor; project_slug=profield-digital-creativity; query="new media dramaturgy performance media materials composition"}; source={coat=43fc4273; node=7e314826-311a-56d8-90c5-910387af9243; page_index=218; printed=219}; public="(Eckersall 2017, 219)"; evaluator_safe=yes; surface=slide+lesson
-PROVENANCE_LINE: claim=SU-CPA.nmd-scenes; status=VERIFIED; source={coat=43fc4273; node=adb70902-380d-5f97-99a2-3202c0df593c; page_index=25; printed=26}; public="(Eckersall 2017, 26)"; evaluator_safe=yes; surface=lesson-body
+PROVENANCE_LINE: claim=SU-CPA.process-material; status=VERIFIED; discovery={Athanor; project_slug=profield-digital-creativity; query="new media dramaturgy performance media materials composition"}; source={coat=43fc4273; node=7e314826-311a-56d8-90c5-910387af9243; page_index=218; printed=219}; public="(Eckersall, Grehan, and Scheer 2017, 219)"; evaluator_safe=yes; surface=slide+lesson
+PROVENANCE_LINE: claim=SU-CPA.nmd-scenes; status=VERIFIED; source={coat=43fc4273; node=adb70902-380d-5f97-99a2-3202c0df593c; page_index=25; printed=26}; public="(Eckersall, Grehan, and Scheer 2017, 26)"; evaluator_safe=yes; surface=lesson-body
 PROVENANCE_LINE: claim=SU-CPA.triad-steimberg; status=BIBLIO-GAP; source={coat=d639c32d; node=e78340b1-33e2-52c1-a4c6-4492d1d489b0}; use=course method only
 PROVENANCE_LINE: claim=SU-CPA.ricoeur-metaphor; status=BIBLIO-GAP; source={coat=8d4ca3ee; node=f2e204a6-202a-5304-a7dc-e7a966950e4c; page_index=302}; resolver=confidence_0.70; use=professor brief only
 -->
@@ -121,12 +121,12 @@ People who bring acceptable novelty into a domain use both moves:
 A process trail is also made of **materials and media** — not only of divergent/convergent moves on paper.
 
 > “This refers to the material properties and artistic processes of works that we document and analyse in the following chapters.”  
-> — [(Eckersall 2017, 26)](#ref-eckersall-2017)
+> — [(Eckersall, Grehan, and Scheer 2017, 26)](#ref-eckersall-2017)
 
 Dramaturgy here is compositional: it realises ideas *in* the medium.
 
 > “As a compositional device and an agent for realising ideas in performance, it, too, has become a material medium in many of our examples.”  
-> — [(Eckersall 2017, 219)](#ref-eckersall-2017)
+> — [(Eckersall, Grehan, and Scheer 2017, 219)](#ref-eckersall-2017)
 
 ### Critical emphasis
 
@@ -149,7 +149,7 @@ Meaning is not finished when you stop making. Reception can become the next cond
 2. Language ≠ medium ≠ support.  
 3. Open, then close [(Craft 2003, 43)](#ref-craft-2003).  
 4. Divergent is a hallmark — not the whole job [(Chen 2012, 40)](#ref-chen-2012).  
-5. Process is also material [(Eckersall 2017, 219)](#ref-eckersall-2017).  
+5. Process is also material [(Eckersall, Grehan, and Scheer 2017, 219)](#ref-eckersall-2017).  
 6. Critical: a score is not the designer [(Chen 2012, 41)](#ref-chen-2012).
 
 ---
@@ -197,7 +197,7 @@ Process / piece ID: _______________________
 
 **Declared gap:** Steimberg (2013) on genre/style/transposition and Verónian circulation remain course-method vocabulary until public Chicago citations are ready. Ricoeur (1977) and Bay-Cheng et al. (2010) stay in the professor brief (bibliographic confidence below 0.85).  
 **Missing evidence:** Munari / Werhane bibliography still incomplete for student Chicago; Chion / Alexander when public bibliography is ready.  
-**Addressed-to-editor:** Cycle 2 adds Eckersall 2017 as a second public spine for material composition / circulation alongside Craft–Chen–Csikszentmihalyi process literacy.
+**Addressed-to-editor:** Cycle 2 adds Eckersall, Grehan, and Scheer 2017 as a second public spine for material composition / circulation alongside Craft–Chen–Csikszentmihalyi process literacy.
 
 ## AI-assisted authorship
 

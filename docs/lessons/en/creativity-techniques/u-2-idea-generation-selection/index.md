@@ -28,8 +28,8 @@ frontier_signal: 'Open question: do guided generation and selection improve ever
 
 <div class="lesson-opener" markdown="1">
 
-> *"Once you have the fluent hand, learn the criteria."*
-> — Tao of Development
+> *"Whose criteria decide what counts as novel — yours, the brief's, or the room's?"*
+> — Tao of Creativity
 {: .tao-development-quote }
 
 {% include lesson-semantic-graphic.html %}
@@ -42,7 +42,7 @@ cover-agentic:
   contenidos: "Unidad 2. Técnicas de generación y selección de ideas."
   one_line: "Creativity is two rhythms, not one — open many doors on purpose, then close most of them on purpose."
   class_rhythm: "Analysis → Masterclass → Lab (Portfolio) → Workshop (Deliverable)"
-  evaluation_feed: "presentation evidence 30% path via Lab/D1; knowledge tests 70% via D5 later"
+  evaluation_feed: "presentation evidence 40% path via Lab/D1; knowledge tests 60% via D5 later (DECISION-EX0-GUIA, provisional)"
   how_to_pass: "/tracks/ct/how-to-pass-this-track/"
 {% endcomment %}
 
@@ -51,7 +51,7 @@ cover-agentic:
 unit_id: U2
 enrichment: creativity-techniques-pedagogy/forge/unit-enrichment/U2-generacion-seleccion/
 main_ideas: creativity-techniques-pedagogy/forge/unit-enrichment/U2-generacion-seleccion/MAIN-IDEAS.yml
-evidence: pilot — Csikszentmihalyi 2007 + Craft 2003 (U1 reuse); de Bono 1970 (bb5aec96); Rubin 2023 (574691eb); Hüppauf/Wulf 2009; Lehrer 2012; Smith 2013; Markman et al. 2009; Kleon Keep Going + Ruined by Design + Williams Non-Designer + Lidwell Pocket Universal Principles + Norman DoET injected (Ahmes + DevIAC + Athanor; Chicago body cites pending force-meta where noted); Six Hats filename-1985 coat `7e7ba834` extracted (1323 nodes) but Spanish/mangled — English BIBLIO-GAP remains; Eno & Schmidt / Kelley / Beghetto still open
+evidence: pilot — Csikszentmihalyi 2007 + Craft 2003 (U1 reuse); de Bono 1970 (bb5aec96); Rubin 2023 (574691eb); Hüppauf/Wulf 2009; Markman et al. 2009; de Bono 1985 Six Thinking Hats (English Little Brown copy, source_hash c45df305; EX1 2026-10-04); [EX1 2026-10-04 pruned withdrawn, non-existent and uncited reference entries — list in creativity-techniques-pedagogy/excellence/DECISIONS-LOG.md]; Kleon Keep Going + Ruined by Design + Williams Non-Designer + Lidwell Pocket Universal Principles + Norman DoET injected (Ahmes + DevIAC + Athanor; Chicago body cites pending force-meta where noted); Six Hats filename-1985 coat `7e7ba834` extracted (1323 nodes) but Spanish/mangled — English BIBLIO-GAP remains; Eno & Schmidt / Kelley / Beghetto still open
 session_contract: SESSION-RHYTHM-AND-DELIVERABLES.mdc
 critical_review_d2: DISCURSIVE-CIRCULATION-FORGE.mdc
 slideshow_forge: STUDENT-SLIDESHOW-FORGE.mdc (2026-09-14 golden-rules amendment)
@@ -65,7 +65,7 @@ By the end of this unit, you should be able to:
 
 1. **Separate** generation and selection in time — schedule both, never conflate them.
 2. **Distinguish** fluency (many ideas) from flexibility (many *kinds* of ideas) in your own work.
-3. **Recognise and inhibit** the first automatic answer before treating it as an original one.
+3. **Recognise** the first obvious answers and keep generating past them before you judge.
 4. **Choose and defend** a selection criterion (novelty × fitness-to-brief) explicitly, in writing.
 5. **Use** a role/constraint tool (Hats, Oblique Strategies, or equivalent) as a session structure — not a magic trick.
 
@@ -85,37 +85,33 @@ These six ideas are the Masterclass core. Read them as six moves you can try, no
 
 Most designers who claim they had "no ideas" actually had one idea they refused to leave. Generation and selection are two different jobs, and doing them in the same minute makes both weaker — this is why the Lab begins by changing the conditions of attention before asking for material. The guided concentration and automatic-writing sequence gives the mind time to register associations before selection begins. Try the honest audit on your last piece: was it one first idea polished, or one of several considered on purpose? Some briefs really do need the first answer — when the constraint is time, "generate, then select" is a luxury — and the same page that gives us the theoretical warrant [(Craft 2003, 43)](#ref-craft-2003) does not tell us where the line falls; that is still open.
 
-> To solve an interesting problem, start by finding a problem that is interesting to you.
+> The first stage is to make the map. The second stage is to choose a route on the map.
 {: .unit-quote}
-<p class="unit-quote-citation"><a href="#ref-raymond-2001">(Raymond 2001, 62)</a></p>
+<p class="unit-quote-citation"><a href="#ref-debono-1985">(de Bono 1985, 199)</a></p>
 
 #### 2 · Fluency with flexibility
 
 Fluency and flexibility remain useful distinctions, but this Lab does not reduce them to a count. After concentration, automatic writing gives you material to inspect: which associations recur, which change direction, and which remain merely verbal? The category rule is still unavoidable — someone has to decide whether two passages constitute different possibilities or variations of one — and definitions of what even counts as creative [(Craft 2003, 43)](#ref-craft-2003) remain unstable enough that the person doing the counting is doing more work than they think. de Bono draws the same cut as a *method* distinction — generative lateral moves versus selective vertical ones [(de Bono 1970, 9)](#ref-debono-1970) — which is why selection must follow the period of production rather than interrupt it.
 
-#### 3 · Block the obvious first
+#### 3 · Get past the obvious
 
-The first automatic associations are not necessarily the most useful ones. That is why the Lab moves directly from concentration into automatic writing: write without correcting, then return as a selector. The unusual associations that Csikszentmihalyi separates from raw fluency [(Csikszentmihalyi 2007, 8)](#ref-csikszentmihalyi-2007) become material for later judgement. de Bono's lateral-thinking textbook puts the same habit in plain language — looking for alternatives instead of blindly accepting the most obvious approach [(de Bono 1970, 17)](#ref-debono-1970) — and his dig-a-different-hole line is the one page-verified quote this unit keeps:
+The first ideas that come to mind are usually the obvious ones — the ones most people in the room would also have. You do not get past them by censoring them. You get past them by producing more ideas without judging, so the less obvious ones have room to appear. That is why the Lab moves straight from concentration into automatic writing: write without correcting, then come back later as a selector. The unusual associations that Csikszentmihalyi separates from raw fluency [(Csikszentmihalyi 2007, 8)](#ref-csikszentmihalyi-2007) become material for later judgement. de Bono's lateral-thinking textbook names the same habit in plain language — looking for alternatives instead of blindly accepting the most obvious approach [(de Bono 1970, 17)](#ref-debono-1970) — and his dig-a-different-hole line puts it in one image:
 
 > You cannot dig a hole in a different place by digging the same hole deeper. Vertical thinking is used to dig the same hole deeper. Lateral thinking is used to dig a hole in a different place.
 {: .unit-quote}
 <p class="unit-quote-citation"><a href="#ref-debono-1970">(de Bono 1970, 9)</a></p>
 
-Count how many answers you had to refuse on your D1 before one felt neither derivative nor arbitrary — write the number down. Classical brainstorming's "defer judgement" rule says the opposite of this paragraph (do not censor first answers), which is not a settled question in the field — how much more original that idea might have been if you had blocked your obvious first thought is still open, and this class will not close it.
+On your D1, count how many ideas you wrote down before one felt neither obvious nor random, and write the number down. Classical brainstorming's rule to defer judgement points the same way: keep early answers coming instead of censoring them, and judge later. How many ideas are enough for a given brief is still an open question, and this class will not close it.
 
 #### 4 · Role and constraint tools
 
-The studio is never neutral — someone always speaks first, and that first voice can narrow the room. Role and constraint tools disturb that frame: a Six Hats round asks students to speak from one stance at a time (facts, feelings, risks, or benefits), while an Oblique Strategies card gives one short prompt for changing a D1 object. *Oblique Strategies* means a deck of brief creative prompts; it is not a theory or a guarantee of a better idea.
+The studio is never neutral — someone always speaks first, and that first voice can narrow the room. Role and constraint tools disturb that frame. In a Six Thinking Hats round, everyone thinks in one mode at a time, and each mode has a colour: white (facts and information), red (feelings and gut reactions), black (caution: risks and why something might not work), yellow (benefits and reasons for optimism), green (new ideas and alternatives), and blue (running the process: what to think about next). An Oblique Strategies card gives one short prompt for changing a D1 object. *Oblique Strategies* means a deck of brief creative prompts; it is not a theory or a guarantee of a better idea.
 
 > Any tool should be useful in the expected way, but a truly great tool lends itself to uses you never expected.
 {: .unit-quote}
 <p class="unit-quote-citation"><a href="#ref-raymond-2001">(Raymond 2001, 57)</a></p>
 
-> The first stage is to make the map. The second stage is to choose a route on the map.
-{: .unit-quote}
-<p class="unit-quote-citation"><a href="#ref-debono-1985">(de Bono 1985, 211)</a></p>
-
-His earlier book names a related move: use information to provoke a new pattern [(de Bono 1970, 12)](#ref-debono-1970), then test what the provocation changed. A psychology handbook treats “what if?” thinking as a way to generate alternatives [(Markman, Klein, and Suhr 2009, 192)](#ref-markman-2009).
+de Bono's lateral-thinking book names a related move: use information to provoke a new pattern [(de Bono 1970, 12)](#ref-debono-1970), then test what the provocation changed. A psychology handbook treats “what if?” thinking as a way to generate alternatives [(Markman, Klein, and Suhr 2009, 192)](#ref-markman-2009).
 
 #### 5 · Name selection criteria
 
@@ -123,7 +119,7 @@ The winner of any critique is usually the idea whose criteria you never wrote do
 
 #### 6 · Workshops are means, not genius
 
-Concentration and automatic writing reliably produce material a student did not have in view at the start — and then someone assumes the exercise *therefore* produced better ideas, which is a leap the exercise cannot make. The trainable dimensions Csikszentmihalyi separates on page 8 — fluency, flexibility, originality [(Csikszentmihalyi 2007, 8)](#ref-csikszentmihalyi-2007) — are exactly the ones a workshop can rehearse; landmark work, by contrast, is rare, system-dependent, and not producible on command in a two-hour block. A practitioner counterpoint insists that practice matters, but does not replace judgement [(Rubin 2023, 104)](#ref-rubin-2023). Read the unedited writing alongside your reflection and ask which passage could become evidence of a stronger idea in your D1 — and what criterion would justify that choice. The gap is the invitation.
+Concentration and automatic writing reliably produce material a student did not have in view at the start — and then someone assumes the exercise *therefore* produced better ideas, which is a leap the exercise cannot make. The dimensions Csikszentmihalyi lists on page 8 — fluency, flexibility, originality — are the ones most creativity tests measure and most workshops try to improve [(Csikszentmihalyi 2007, 8)](#ref-csikszentmihalyi-2007). Training can raise scores on them; landmark work, by contrast, is rare, system-dependent, and not producible on command in a two-hour block. A practitioner counterpoint insists that practice matters, but does not replace judgement [(Rubin 2023, 104)](#ref-rubin-2023). Read the unedited writing alongside your reflection and ask which passage could become evidence of a stronger idea in your D1 — and what criterion would justify that choice. The gap is the invitation.
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
@@ -138,7 +134,9 @@ PROVENANCE_LINE: claim=U2.counterfactual-alternatives; status=VERIFIED; source={
 PROVENANCE_LINE: claim=U2.selection-criteria; status=NONE; owed=Beghetto & Karwowski 2025 selection criteria extract
 PROVENANCE_LINE: claim=U2.workshops-not-genius; status=VERIFIED-PARTIAL; source={document_coat=574691eb; node_id=45853c03-31b7-5fc3-8262-c46deb956bc1; page_index=103; printed_page=104}; public_citation="(Rubin 2023, 104)"; evaluator_safe=yes; note=practitioner counterpoint to Csikszentmihalyi triad — contradiction retained; owed=Csikszentmihalyi 1996 fluency caveat
 PROVENANCE_LINE: claim=U2.selection-as-taste; status=VERIFIED; source={document_coat=574691eb; node_id=b9d0c0a0-7205-5571-aee0-10ec46a7d5c1; page_index=122; printed_page=123}; public_citation="(Rubin 2023, 123)"; evaluator_safe=yes; note=editing as curation — bridges Idea 5 selection criteria
-PROVENANCE_LINE: claim=U2.lehrer-pop-sci-caveat; status=VERIFIED; source={document_coat=9bdb76cd; node_id=2c6e35f7-8651-5312-a8f6-fa006af4d3e5; page_index=15; printed_page=16}; public_citation="(Lehrer 2012, 16)"; evaluator_safe=yes; note=contradict/hold against Craft+Csikszentmihalyi — popular science not pedagogy
+PROVENANCE_LINE: claim=U2.map-then-route; status=VERIFIED; discovery={Athanor; project_slug=profield-creativity-techniques; library=scholar; query="The first stage is to make the map. The second stage is to choose a route"}; source={document_id=db89dff4-a2d1-5e75-b9ee-6dc4166e887f; source_hash=c45df305; file="Edward De Bono-Six Thinking Hats (1985, Little Brown and Company).pdf"; node_id=af8ae4ed-5f05-59e5-beb7-cf72a8e949af; page_index=211; printed_page=199}; public_citation="(de Bono 1985, 199)"; evaluator_safe=yes; verbatim="The first stage is to make the map. The second stage is to choose a route on the map."; note=EX1 2026-10-04: printed folio 199 read from the PDF page (pdftotext); the former public cite "211" was the PDF page index, not the printed page
+PROVENANCE_LINE: claim=U2.genius-myth; status=VERIFIED; source={document_coat=574691eb; node_id=c01a0ed6-3e18-5939-a7f1-b15467388ae4; page_index=102; printed_page=103}; public_citation="(Rubin 2023, 103)"; evaluator_safe=yes; verbatim="Artists are often portrayed in films and books as tortured geniuses. Starving, self-destructive, dancing on the brink of madness."; note=EX1 2026-10-04 recorded for the existing deck slide 6 quote; printed_page follows the index+1 convention of the other Rubin lines (not re-read from print)
+PROVENANCE_LINE: claim=U2.six-hats-colours; status=VERIFIED; source={document_id=db89dff4-a2d1-5e75-b9ee-6dc4166e887f; source_hash=c45df305; page_index=43-44 (hat summaries), 207/220 (blue = control)}; public_citation=""; evaluator_safe=yes; note=EX1 2026-10-04: body names the six hats without a new pin cite (no new citations in EX1); EX6 may add a page cite
 PROVENANCE_LINE: claim=U2.smith-collaboration-sampling; status=VERIFIED; source={document_coat=12be32e4; node_id=2bd03a43-6c8e-5e3c-8c1b-96318d7c7052; page_index=41; printed_page=42}; public_citation="(Smith 2013, 42)"; evaluator_safe=yes
 PROVENANCE_LINE: claim=U2.huppauf-imagination-creativity-fantasy; status=VERIFIED; source={document_coat=94897108; node_id=edbc2759-0224-56a5-93fd-5bce9ac14b40; page_index=31; printed_page=32}; public_citation="(Hüppauf and Wulf 2009, 32)"; evaluator_safe=yes; note=public cite uses first editor; both editors in References
 -->
@@ -183,7 +181,7 @@ Immediately after the concentration period, write continuously for the interval 
 
 ## Conclusion
 
-This unit trains a rhythm, not a definition. It does not settle where a new kind ends and a dressed-up repeat begins, or whether Hats and prompt cards improve every brief. Rubin’s practice-and-taste account sits beside Csikszentmihalyi’s trainable dimensions without becoming one doctrine, and Hüppauf and Wulf remind us that imagination, fantasy, and creativity are not synonyms [(Hüppauf and Wulf 2009, 32)](#ref-huppauf-wulf-2009). Run the two Lab exercises twice, compare your notes, and decide which gap you want to investigate next.
+This unit trains a rhythm, not a definition. It does not settle where a new kind ends and a dressed-up repeat begins, or whether Hats and prompt cards improve every brief. Rubin’s practice-and-taste account sits beside Csikszentmihalyi’s test dimensions without becoming one doctrine, and Hüppauf and Wulf remind us that imagination, fantasy, and creativity are not synonyms [(Hüppauf and Wulf 2009, 32)](#ref-huppauf-wulf-2009). Run the two Lab exercises twice, compare your notes, and decide which gap you want to investigate next.
 
 ---
 
@@ -195,24 +193,15 @@ This unit trains a rhythm, not a definition. It does not settle where a new kind
 - <span id="ref-rubin-2023">Rubin, Rick. 2023. *The Creative Act: A Way of Being*. New York: Penguin Press. ISBN 9780593652886.</span>
 - <span id="ref-raymond-2001">Raymond, Eric S. 2001. *The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary*. Rev. ed. Sebastopol, CA: O’Reilly.</span>
 - <span id="ref-huppauf-wulf-2009">Hüppauf, Bernd, and Christoph Wulf, eds. 2009. *The Dynamics and Performativity of Imagination: The Image between the Visible and the Invisible*. New York: Routledge. ISBN 9780415990936.</span>
-- <span id="ref-lehrer-2012">Lehrer, Jonah. 2012. *Imagine: How Creativity Works*. Boston: Houghton Mifflin Harcourt. ISBN 9780547386072.</span>
-- <span id="ref-smith-2013">Smith, Sophy. 2013. *Hip-Hop Turntablism, Creativity and Collaboration*. Farnham: Ashgate. ISBN 9781409443377.</span>
 - <span id="ref-markman-2009">Markman, Keith D., William M. P. Klein, and Julie A. Suhr, eds. 2009. *Handbook of Imagination and Mental Simulation*. New York: Psychology Press. ISBN 9781841698878.</span>
-- <span id="ref-kelley-2013">Kelley, Tom, and David Kelley. 2013. *Creative Confidence: Unleashing the Creative Potential Within Us All*. New York: Crown Business.</span>
-- <span id="ref-beghetto-karwowski-2025">Beghetto, Ronald A., and Maciej Karwowski. 2025. *Creative Agency Unbound*. Cambridge: Cambridge University Press.</span>
-- <span id="ref-csikszentmihalyi-1996">Csikszentmihalyi, Mihaly. 1996. *Creativity: Flow and the Psychology of Discovery and Invention*. New York: HarperCollins.</span>
-- <span id="ref-debono-1981">de Bono, Edward. 1981. *Six Thinking Hats*. Markham, ON: Penguin Canada.</span>
 - <span id="ref-debono-1985">de Bono, Edward. 1985. *Six Thinking Hats*. 1st U.S. ed. Boston: Little, Brown. ISBN 0-316-17791-1.</span>
-- <span id="ref-eno-schmidt-1975">Eno, Brian, and Peter Schmidt. 1975. *Oblique Strategies*. London: Opal.</span>
-- <span id="ref-kimbell-2011">Kimbell, Lucy. 2011. “Rethinking Design Thinking: Part I.” *Design and Culture* 3 (3): 285–306.</span>
-- <span id="ref-avis-2013">Avis, Paul. 2013. *God and the Creative Imagination: Metaphor, Symbol and Myth in Religion and Theology*. London: Routledge. ISBN 9780203259412.</span>
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
 MEDIA_RIGHTS_LINE: masterclass=diagram-fallback (Koch triangle); geometrical=fractal-pass-track; profield_pack=unassigned-until-media-rehydrate
 QUOTE_PROVENANCE: de Bono 1970 dig-hole quote · coat bb5aec96 · node 9797a1fb-37a5-5aeb-99b6-d22d25e35ef5 · p.9
-REF_COATS: debono-1970=bb5aec96; rubin=574691eb; huppauf=94897108; lehrer=9bdb76cd; smith=12be32e4; markman=e77c3d8d; avis=178b47c2
-SIX_HATS: 1985 coat 7e7ba834 mangled/Spanish extract — not evaluator_safe EN; Granica 591f5002 retired 2026-09-15
+REF_COATS: debono-1970=bb5aec96; debono-1985=c45df305 (source_hash, English Little Brown copy); rubin=574691eb; huppauf=94897108; markman=e77c3d8d
+SIX_HATS: 1985 coat 7e7ba834 mangled/Spanish extract — not evaluator_safe EN; Granica 591f5002 retired 2026-09-15; EX1 2026-10-04: English Little Brown 1985 copy (source_hash c45df305, document_id db89dff4) is clean English and is the source for the hat list and the p. 199 quote
 -->
 {% endif %}
 
@@ -221,7 +210,7 @@ SIX_HATS: 1985 coat 7e7ba834 mangled/Spanish extract — not evaluator_safe EN; 
 ## Editorial note. Work in progress. Teaching Innovation Practice
 {: .lesson-editorial-note }
 
-Csikszentmihalyi (2007) supports the fluency/flexibility/originality triad reused from U1. de Bono (1970) page-verifies the generative/selective cut, the habit of delaying the obvious approach, and the provocative use of information. Rubin (2023) page-verifies a practitioner stance on consistent practice and editing-as-taste; it does **not** validate classroom hour schemes or replace peer-reviewed pedagogy. Lehrer (2012) is page-verified *as popular science* and should be named as a contradiction risk beside Craft/Csikszentmihalyi. Smith (2013) page-verifies collaborative sampling; Markman et al. (2009) page-verifies counterfactual alternative-thinking as a psychology bridge. Hüppauf and Wulf (2009) page-verify that imagination, fantasy, and creativity are related but not interchangeable terms. Kelley 2013 and Beghetto & Karwowski 2025 remain open for the broader generate-and-select claim. None of these pages prove that *this* unit’s two Lab exercises are the only valid path to trained selection. This note keeps those limits here, where editorial readers can see them, instead of making the student-facing lesson carry research workflow language.
+Csikszentmihalyi (2007) supports the fluency/flexibility/originality triad reused from U1. de Bono (1970) page-verifies the generative/selective cut, the habit of delaying the obvious approach, and the provocative use of information. de Bono (1985) page-verifies the map-then-route description of the Six Thinking Hats method. Rubin (2023) page-verifies a practitioner stance on consistent practice and editing-as-taste; it does **not** validate classroom hour schemes or replace peer-reviewed pedagogy. Markman et al. (2009) page-verifies counterfactual alternative-thinking as a psychology bridge. Hüppauf and Wulf (2009) page-verify that imagination, fantasy, and creativity are related but not interchangeable terms. Research evidence for the broader generate-and-select claim, and for the claim that later ideas tend to be less obvious than first ones, is not yet cited here. None of these pages prove that *this* unit’s two Lab exercises are the only valid path to trained selection. This note keeps those limits here, where editorial readers can see them, instead of making the student-facing lesson carry research workflow language.
 
 ---
 
