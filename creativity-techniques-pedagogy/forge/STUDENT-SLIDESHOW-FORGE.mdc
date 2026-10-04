@@ -31,14 +31,14 @@ Order is binding. Main Masterclass ideas stay **≤ 6**; Analysis / Lab / Worksh
 frame slides are structural and do **not** count against that six.
 
 ```text
-C  unit_cover                       background_kind: profield     ← REQUIRED FIRST
+C  unit_cover                       background_kind: curated | diagram   ← REQUIRED FIRST
 A  analysis_opener                  background_kind: geometrical   ← REQUIRED
-A+ analysis_model (optional)        background_kind: profield
-1… Masterclass ideas (≤ 6)          background_kind: profield | diagram
+A+ analysis_model (optional)        background_kind: curated | diagram
+1… Masterclass ideas (≤ 6)          background_kind: curated | diagram
 N  lab_opener                       background_kind: geometrical   ← REQUIRED
-N+1…N+2  Exactly two Lab exercises (portfolio_bound)  background_kind: profield | none
+N+1…N+2  Exactly two Lab exercises (portfolio_bound)  background_kind: curated | diagram | none
 M  workshop_opener                  background_kind: geometrical   ← from session 4 only
-M+ Workshop work prompt             background_kind: none | diagram | profield
+M+ Workshop work prompt             background_kind: curated | diagram | none
 Z  outro / carry-forward            background_kind: geometrical   ← REQUIRED
 ```
 
@@ -57,18 +57,58 @@ The student **lesson** must contain the Analysis method in prose (language / med
 
 | Role | Background |
 | ---- | ---------- |
-| Analysis model · Masterclass · Lab exercises | Accepted **Profield** media (public-safe fields only) |
+| Cover · Analysis model · Masterclass · Lab exercises | A **curated** image bound to that slide by `asset_id` (accepted in Profield or in `excellence/curation/autopilot-assets.json`; public-safe fields only), else the diagram |
 | Stance slides without a pack image | Course **diagram** — Koch triangle (`ct-koch-triangle-*.svg`), **not** Sierpinski |
 | `analysis_opener` · `lab_opener` · `workshop_opener` · `outro` | **Geometrical only** (`fractal-pass-track` SVGs) |
 | Never | Invented rights; Resource UUID / forger version in captions; Sierpinski as Masterclass fallback |
 | Never | Non-geometrical decorative fallbacks on transition slides; geometrical captions must include the SVG content-hash UUID |
 
+### Deck schema version 2 (PHASE-EX3, 2026-10-04)
+
+Deck `content.json` carries `"schema_version": 2`. The validator
+(`scripts/validate-decks.mjs --strict`) is strict on v2 decks and only warns on
+legacy decks (no `schema_version`, e.g. U4 until its forge migrates it).
+
+- **`slide_id`** on every slide: stable, unique in the deck (`cover`,
+  `analysis-opener`, `analysis-model`, `masterclass-1…6`, `lab-opener`,
+  `lab-1`, `lab-2`, `workshop-opener`, `workshop-1`, `outro`). Never renumber
+  an existing id.
+- **`background_kind`**: `curated` | `diagram` | `geometrical` | `none`. The
+  value `profield` is retired.
+- **`image_brief`** on every image slide (curated or diagram fallback): one
+  sentence — what the image must show and why it carries the slide's idea.
+  `TODO: …` is allowed only until EX4 writes the real brief.
+- **`asset_id`** on a `curated` slide: the one image the slide shows. It is the
+  **only** binding — no rank dealing, no cycling, no asset on two slides of a
+  deck. A slide whose asset is not accepted, not rights-recorded or not cached
+  falls back to `diagram` (the slide keeps its `asset_id` so the choice is not lost).
+- **`media_slot_id`** = `<unit>.<slide_id>` (e.g. `U2.masterclass-1`), only on
+  curated slides; the matching entry in `assets[]` has the same slot.
+- **`assets[]`** entries (written by `npm run media:rehydrate`): `media_slot_id`,
+  `asset_id`, `asset_url` (`/assets/images/deck-media/<hash>.webp|svg`),
+  `source_file_url`, `canonical_source_url`, `title`, `alt_text`, `author`,
+  `licence` (+ `licence_url`), `provider`, `credit_line`, `author_death_year`,
+  `eu_term_ok`, `eu_term_reason`, `rights_status: ok | flagged`, `cropped`.
+- **Rights:** `rightsVerdict` (`scripts/lib/media-rules.mjs`) accepts only
+  PD-old-70, PD-EU, CC0, PDM, CC-BY-4.0, CC-BY-SA-4.0, CC-BY-3.0, CC-BY-SA-3.0,
+  NoC-US+EU-checked, with author, source URL, `eu_term_ok: true` (death year + 70
+  < current year, or a stated reason) and no `*_review_required` tag in the raw
+  title. Under the launch decision (AUTOPILOT §0) failing assets publish as
+  `rights_status: flagged` and are listed in `excellence/curation/rights-report.json`.
+- **Files:** `docs/assets/images/deck-media/` only; ≤ 1920 px WebP (EXIF
+  stripped, ≤ 600 KB) or SVG; no file referenced by no deck. The old
+  `profield-cache/` keeps only files that legacy decks still reference.
+- **Public JSON values never contain "profield"** (publication firewall).
+
 Typed fields on each slide object:
 
 ```yaml
+slide_id: masterclass-1            # v2: required, stable
 slide_role: unit_cover | analysis_opener | analysis_model | masterclass | lab_opener | lab_exercise | workshop_opener | workshop_work | outro
-background_kind: profield | geometrical | diagram | none
-media_slot_id: U1.still.example   # when background_kind: profield
+background_kind: curated | diagram | geometrical | none
+image_brief: "One sentence: what the image shows and why."   # image slides
+asset_id: "wikimedia:File:Example.jpg"                        # curated slides
+media_slot_id: U1.masterclass-1   # curated slides: <unit>.<slide_id>
 portfolio_bound: true | false
 portfolio_trace: "Save … in the portfolio index."
 quote: "Optional brief quotation (≤ ~40 words) — Ahmes-verbatim or Tao invent (see golden rule 3)."
@@ -88,7 +128,7 @@ payload with its TTOD `id`, roman `number`, `form`, and lexicum `fields`.
 These fields are an index for the forge and evaluator; do not turn them into a
 student-facing editorial label or citation. A missing field fails cold review.
 
-**Image backgrounds (lab / workshop / analysis_model):** when the live deck shows a flat diagram or empty `none` where a fashion/design still should carry the idea, set `background_kind: profield` and a real `media_slot_id`. Do not leave `lab_exercise` or `workshop_work` on `none`/`diagram` if an accepted unit asset exists.
+**Image backgrounds (lab / workshop / analysis_model):** when the live deck shows a flat diagram or empty `none` where an image should carry the idea, write the slide's `image_brief`, bind an accepted asset that matches it with `asset_id`, and set `background_kind: curated`. A clean diagram is better than an image whose subject does not match the brief.
 
 ## Golden rules (captured 2026-09-14 after live U1 teaching; quote rule revised 2026-09-15)
 
@@ -152,7 +192,7 @@ These two student surfaces (track table + lesson-head deck link) are forge law �
 
 - Structural slides (`analysis_opener`, `lab_opener`, `workshop_opener`, `outro`) use `fractal-pass-track` SVGs only.
 - Masterclass diagram fallback: **Koch triangle** via `scripts/fractal-architecture/generate-koch-triangle.mjs` — do not use Sierpinski for deck Masterclass.
-- Profield images: **`npm run media:rehydrate`** reads `review-state.json` assignments (`project_id` + `unit_id`) as sole acceptance authority; URLs come from `media-index*.json`. Do not hard-code another unit’s sample images into a deck.
+- Images: **`npm run media:rehydrate`** (worktree only, never on `main`) binds each v2 slide's `asset_id` if it is accepted in Profield `review-state.json` (`project_id` + `unit_id`, read only) or in `excellence/curation/autopilot-assets.json`; URLs come from `media-index*.json`; renditions go to `deck-media/`; orphan cache files are deleted. Legacy decks are skipped. `npm run build` runs `validate-decks.mjs --strict --rights=flag`. Do not hard-code another unit’s sample images into a deck.
 - Public captions: title · credit · licence · source link. **Never** `resource_uuid`, `forger_version`, or review tags in square brackets.
 - Logo: transparent chrome — no card behind institutional logo.
 - Publication firewall: no studio infra names in rendered HTML.

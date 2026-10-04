@@ -1,36 +1,67 @@
 #!/usr/bin/env node
 /**
- * Rehydrate student-deck assets from Profield review-state + media index.
+ * Rehydrate student-deck images (PHASE-EX3: slide-bound, rights-checked).
  *
- * Authority order:
- *   1. review-state.json — status, rank, assignments (project_id + unit_id)
- *   2. media-index*.json — preview/source URLs and titles
- *   3. collections/*.json — optional named packs (not required for unit decks)
+ * A slide shows an image only if the slide itself names it (`asset_id`), the
+ * asset is accepted for the deck's project + unit, and its rendition can be
+ * cached locally. No rank dealing, no asset on two slides of a deck; any media
+ * slide without such an asset becomes `background_kind: diagram`
+ * (rules: scripts/lib/media-rules.mjs, tests: scripts/tests/).
  *
- * Only explicitly accepted records assigned to the deck's unit (and project)
- * are copied into public deck JSON. Captions stay public-safe (no UUIDs).
+ * Acceptance (read only, never written):
+ *   1. <media root>/review-state.json — status "accepted" + assignment {project_id, unit_id}
+ *   2. creativity-techniques-pedagogy/excellence/curation/autopilot-assets.json
+ *      (autopilot mode, AUTOPILOT.md §2) — same rights fields; also the rights
+ *      registry for every asset (licence, author, EU term, raw title)
+ * URLs come from the media indexes (<media root>/media-index*.json, collections, manifests).
+ *
+ * Only decks with "schema_version": 2 are rewritten. Legacy decks (e.g. U4)
+ * are never touched, and cache files they reference are never deleted or moved
+ * (Amendment A2/F7).
+ *
+ * Renditions: docs/assets/images/deck-media/<sha256(asset_id)[:16]>.webp
+ * (≤ 1920 px, WebP, EXIF stripped, ≤ 600 KB) or .svg for vector files.
+ * Cache files referenced by no deck are deleted (both cache folders).
+ *
+ * Usage: node scripts/rehydrate-student-media.mjs [--rights=block|flag]
+ *   --rights=block (default) drops assets that fail rightsVerdict;
+ *   --rights=flag keeps them with rights_status "flagged" (professor launch
+ *   decision, AUTOPILOT.md §0; the npm scripts pass it).
  *
  * Env:
- *   PROFIELD_MEDIA_ROOT   default ~/src/profield/runs/media-prospector
- *   PROFIELD_PROJECT      dc | tc   (default: dc)
- *   DECK_ROOT             override deck scan root
+ *   PROFIELD_MEDIA_ROOT   default <home>/src/profield/runs/media-prospector
+ *   DECK_ROOTS            comma-separated deck roots (default: 2627-ct, 2627-ml)
  */
 import { createHash } from 'node:crypto';
-import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readdirSync, readFileSync, statSync, unlinkSync, writeFileSync } from 'node:fs';
+import { homedir } from 'node:os';
 import { join, resolve } from 'node:path';
 
+import {
+  bindSlides,
+  cleanTitle,
+  DECK_SCHEMA_VERSION,
+  extensionFor,
+  MAX_RENDITION_BYTES,
+  rightsVerdict,
+} from './lib/media-rules.mjs';
+
 const root = process.cwd();
-const profieldRoot = process.env.PROFIELD_MEDIA_ROOT || '/Users/ruvebal/src/profield/runs/media-prospector';
-const projectId = (process.env.PROFIELD_PROJECT || 'dc').toLowerCase();
-const siteBase = projectId === 'tc' ? '/creativity-techniques-uem' : '/digital-creativity-uem';
-const cacheDir = join(root, 'docs/assets/images/profield-cache');
-const deckRoot = resolve(
-  root,
-  process.env.DECK_ROOT
-    || (projectId === 'tc'
-      ? 'docs/tracks/en/uem/2627-ct'
-      : 'docs/tracks/en/uem/2627-dci'),
-);
+const args = new Set(process.argv.slice(2));
+const rightsMode = args.has('--rights=flag') ? 'flag' : 'block';
+const mediaRoot = process.env.PROFIELD_MEDIA_ROOT || join(homedir(), 'src/profield/runs/media-prospector');
+const registryPath = join(root, 'creativity-techniques-pedagogy/excellence/curation/autopilot-assets.json');
+const cacheSegment = 'deck-media';
+const legacyCacheSegment = 'profield-cache';
+const cacheDir = join(root, 'docs/assets/images', cacheSegment);
+const legacyCacheDir = join(root, 'docs/assets/images', legacyCacheSegment);
+const deckRoots = (process.env.DECK_ROOTS || 'docs/tracks/en/uem/2627-ct,docs/tracks/en/uem/2627-ml')
+  .split(',').map((p) => p.trim()).filter(Boolean).map((p) => resolve(root, p));
+const siteBase = (readFileSync(join(root, '_config.yml'), 'utf8').match(/^baseurl:\s*['"]?([^'"\n]*)['"]?/m) || [])[1] ?? '';
+const FRONT_MATTER = '---\nlayout: null\n---\n';
+
+const readJson = (path) => JSON.parse(readFileSync(path, 'utf8'));
+const readDeck = (path) => JSON.parse(readFileSync(path, 'utf8').replace(/^---[\s\S]*?---\s*/, ''));
 
 function filesUnder(directory, predicate) {
   if (!existsSync(directory)) return [];
@@ -39,25 +70,6 @@ function filesUnder(directory, predicate) {
     if (entry.isDirectory()) return filesUnder(path, predicate);
     return predicate(entry.name, path) ? [path] : [];
   });
-}
-
-function priority(asset) {
-  const value = asset.review_rank ?? asset.rank ?? asset.review?.priority ?? asset.priority ?? 999;
-  const number = Number(value);
-  return Number.isFinite(number) ? number : 999;
-}
-
-function selectionScore(asset) {
-  // Higher review_rank wins; unranked accepted still usable (score 0).
-  const rank = asset.review_rank ?? asset.rank;
-  return rank != null ? Number(rank) : 0;
-}
-
-function stripReviewTag(title) {
-  return String(title || '')
-    .replace(/^File:/i, '')
-    .replace(/\s*\[[^\]]*\]\s*$/g, '')
-    .trim();
 }
 
 function stripUtm(url) {
@@ -72,401 +84,238 @@ function stripUtm(url) {
   }
 }
 
-function commonsPageFromAssetId(assetId) {
-  const match = String(assetId || '').match(/^wikimedia:File:(.+)$/i);
-  if (!match) return '';
-  const fileName = match[1].replace(/ /g, '_');
-  return `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(fileName).replace(/%2F/g, '/')}`;
-}
-
-function normalizeSourcePage(asset) {
-  const raw = asset.canonical_source_url || asset.source || '';
-  if (/commons\.wikimedia\.org\/wiki\/File:/i.test(raw) || /wikipedia\.org\/wiki\/File:/i.test(raw)) return raw;
-  return commonsPageFromAssetId(asset.asset_id) || raw;
-}
-
 function humanProvider(value) {
   const raw = String(value || '').trim();
-  if (!raw) return 'Wikimedia Commons';
+  if (!raw) return '';
   if (/^wikimedia(_commons)?$/i.test(raw)) return 'Wikimedia Commons';
   if (/^internet_archive$/i.test(raw)) return 'Internet Archive';
+  if (/^nypl$/i.test(raw)) return 'The New York Public Library';
   return raw.replace(/_/g, ' ');
 }
 
-function cacheKey(assetId, url) {
-  return createHash('sha256').update(String(assetId || url)).digest('hex').slice(0, 16);
-}
+const cacheKey = (assetId) => createHash('sha256').update(String(assetId)).digest('hex').slice(0, 16);
 
-function extensionFromUrl(url, contentType) {
-  const pathExt = (String(url).split('?')[0].match(/\.([a-z0-9]+)$/i) || [])[1];
-  if (pathExt && pathExt.length <= 5) return pathExt.toLowerCase();
-  if (/png/i.test(contentType || '')) return 'png';
-  if (/webp/i.test(contentType || '')) return 'webp';
-  if (/gif/i.test(contentType || '')) return 'gif';
-  return 'jpg';
-}
-
-/** Prefer a mid-size Commons thumb when the original path is a full-file upload URL. */
+/** Prefer a 1920 px Commons thumb when the URL is a full-size raster upload. */
 function preferredDownloadUrl(url) {
-  const match = String(url).match(
-    /^(https:\/\/upload\.wikimedia\.org\/wikipedia\/commons\/)([0-9a-f])\/([0-9a-f]{2})\/([^/?#]+)$/i,
-  );
-  if (!match) return url;
+  const match = String(url).match(/^(https:\/\/upload\.wikimedia\.org\/wikipedia\/commons\/)([0-9a-f])\/([0-9a-f]{2})\/([^/?#]+)$/i);
+  if (!match || /\.svg$/i.test(match[4])) return url;
   const [, prefix, a, b, file] = match;
-  return `${prefix}thumb/${a}/${b}/${file}/1600px-${file}`;
+  return `${prefix}thumb/${a}/${b}/${file}/1920px-${file}`;
 }
 
-/**
- * Mirror remote teaching images into docs/ so Reveal backgrounds are same-origin.
- * Hotlinked Commons/IA URLs often fail in-browser (encode traps, rate limits, blocked CSS loads).
- */
-async function ensureLocalAsset(remoteUrl, assetId) {
-  const sourceFileUrl = stripUtm(remoteUrl);
-  if (!sourceFileUrl || !/^https?:/i.test(sourceFileUrl)) {
-    return { displayUrl: sourceFileUrl, sourceFileUrl };
+// ---------------------------------------------------------------------------
+// Catalog (URLs) and acceptance — all read only
+// ---------------------------------------------------------------------------
+
+const catalog = new Map();
+function ingest(candidate) {
+  if (!candidate?.asset_id) return;
+  const previous = catalog.get(candidate.asset_id) || {};
+  catalog.set(candidate.asset_id, {
+    ...previous,
+    ...candidate,
+    raw_title: previous.raw_title || candidate.title,
+    asset_url: candidate.asset_url || candidate.preview_url || previous.asset_url,
+    canonical_source_url: candidate.canonical_source_url || candidate.source || previous.canonical_source_url,
+  });
+}
+
+const mediaRootPresent = existsSync(mediaRoot);
+if (mediaRootPresent) {
+  for (const name of readdirSync(mediaRoot).filter((n) => n.startsWith('media-index') && n.endsWith('.json'))) {
+    try {
+      for (const entry of readJson(join(mediaRoot, name)).queries || []) (entry.candidates || []).forEach(ingest);
+    } catch { /* skip broken index */ }
   }
+  for (const path of filesUnder(join(mediaRoot, 'collections'), (n) => n.endsWith('.json'))) {
+    try { (readJson(path).assets || []).forEach(ingest); } catch { /* skip */ }
+  }
+  for (const path of filesUnder(mediaRoot, (n) => n === 'manifest.json')) {
+    try { (readJson(path).assets || []).forEach(ingest); } catch { /* skip */ }
+  }
+}
+
+/** asset_id → rights record (autopilot registry; private, never published). */
+const registry = new Map();
+if (existsSync(registryPath)) {
+  for (const record of readJson(registryPath).assets || []) if (record?.asset_id) registry.set(record.asset_id, record);
+}
+
+/** "<project>/<unit>" → Set(asset_id) */
+const accepted = new Map();
+const accept = (project, unit, assetId) => {
+  const key = `${String(project).toLowerCase()}/${unit}`;
+  if (!accepted.has(key)) accepted.set(key, new Set());
+  accepted.get(key).add(assetId);
+};
+const reviewStatePath = join(mediaRoot, 'review-state.json');
+if (existsSync(reviewStatePath)) {
+  try {
+    for (const [assetId, row] of Object.entries(readJson(reviewStatePath).assets || {})) {
+      if (String(row.status || '').toLowerCase() !== 'accepted') continue;
+      for (const a of row.assignments || []) accept(a.project_id, a.unit_id, assetId);
+    }
+  } catch (error) {
+    console.error(`review-state.json unreadable: ${error.message}`);
+  }
+}
+for (const record of registry.values()) {
+  for (const a of record.assignments || []) accept(a.project_id, a.unit_id, record.asset_id);
+}
+
+// ---------------------------------------------------------------------------
+// Renditions
+// ---------------------------------------------------------------------------
+
+let toRendition = null;
+async function renditionFor(buffer) {
+  if (!toRendition) ({ toRendition } = await import('./lib/rendition.mjs'));
+  return toRendition(buffer);
+}
+
+/** Cache file name for an asset, downloading + normalising if needed; null on failure. */
+async function ensureRendition(asset) {
   mkdirSync(cacheDir, { recursive: true });
-  const key = cacheKey(assetId, sourceFileUrl);
+  const key = cacheKey(asset.asset_id);
   const existing = readdirSync(cacheDir).find((name) => name.startsWith(`${key}.`));
-  if (existing) {
-    return {
-      displayUrl: `${siteBase}/assets/images/profield-cache/${existing}`,
-      sourceFileUrl,
-    };
-  }
+  if (existing) return existing;
 
-  const candidates = [preferredDownloadUrl(sourceFileUrl), sourceFileUrl]
-    .filter((value, index, list) => list.indexOf(value) === index);
-
-  let lastError = null;
-  for (const candidate of candidates) {
+  const remote = stripUtm(asset.source_file_url || asset.asset_url || '');
+  if (!/^https?:/i.test(remote)) return null;
+  for (const candidate of [...new Set([preferredDownloadUrl(remote), remote])]) {
     try {
       const response = await fetch(candidate, {
-        headers: {
-          'User-Agent': 'UEM-teaching-deck-cache/1.0 (educational; contact ruvebal@crea-comm.net)',
-          Accept: 'image/*,*/*',
-        },
+        headers: { 'User-Agent': 'UEM-teaching-deck-cache/2.0 (educational; contact ruvebal@crea-comm.net)', Accept: 'image/*' },
         redirect: 'follow',
         signal: AbortSignal.timeout(90000),
       });
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const ext = extensionFor(response.headers.get('content-type'), candidate);
+      if (!ext) throw new Error(`not a whitelisted image (${response.headers.get('content-type')})`);
       const buffer = Buffer.from(await response.arrayBuffer());
       if (buffer.length < 256) throw new Error('response too small');
-      const ext = extensionFromUrl(sourceFileUrl, response.headers.get('content-type'));
-      const fileName = `${key}.${ext}`;
-      writeFileSync(join(cacheDir, fileName), buffer);
-      console.log(`  cached ${fileName} (${(buffer.length / 1e6).toFixed(2)} MB) from ${candidate.includes('/thumb/') ? 'thumb' : 'original'}`);
-      return {
-        displayUrl: `${siteBase}/assets/images/profield-cache/${fileName}`,
-        sourceFileUrl,
-      };
+      if (ext === 'svg') {
+        if (buffer.length > MAX_RENDITION_BYTES) throw new Error('SVG larger than 600 KB');
+        writeFileSync(join(cacheDir, `${key}.svg`), buffer);
+        return `${key}.svg`;
+      }
+      const rendition = await renditionFor(buffer);
+      writeFileSync(join(cacheDir, `${key}.${rendition.ext}`), rendition.buffer);
+      console.log(`  cached ${key}.${rendition.ext} (${rendition.width}x${rendition.height}, ${(rendition.buffer.length / 1024).toFixed(0)} KB, q${rendition.quality})`);
+      return `${key}.${rendition.ext}`;
     } catch (error) {
-      lastError = error;
+      console.warn(`  fetch ${candidate}: ${error.message}`);
     }
   }
-  console.warn(`  cache failed for ${assetId}: ${lastError?.message || lastError}`);
-  return { displayUrl: sourceFileUrl, sourceFileUrl };
-}
-
-function publicAsset(asset, slot, existing, urls) {
-  const sourcePage = normalizeSourcePage(asset) || existing?.canonical_source_url || '';
-  return {
-    media_slot_id: slot,
-    asset_id: asset.asset_id,
-    asset_url: urls.displayUrl,
-    source_file_url: urls.sourceFileUrl,
-    canonical_source_url: sourcePage,
-    alt_text: asset.accessibility?.alt_text || stripReviewTag(asset.title) || 'Teaching image',
-    title: stripReviewTag(asset.title || asset.name || existing?.title || asset.asset_id),
-    provider: humanProvider(asset.provider || asset.source_provider || existing?.provider),
-    credit_line: humanProvider(asset.rights?.credit_line || asset.credit_line || asset.provider || existing?.provider),
-    licence: asset.rights?.spdx || asset.rights?.class || asset.licence || '',
-    studio_semantics: asset.studio_semantics,
-    priority: priority(asset),
-    selection_rank: priority(asset),
-    collection: asset._collection || 'unit-accepted',
-  };
-}
-
-function unitFromDeckDirectory(name) {
-  // i-1-fashion-image → I.1 ; u-1-introduction-creativity → U1
-  const iMatch = name.match(/^i-(\d+)/i);
-  if (iMatch) return `I.${iMatch[1]}`;
-  const uMatch = name.match(/^u-(\d+)/i);
-  if (uMatch) return `U${uMatch[1]}`;
   return null;
 }
 
-function slotsFor(unit, content) {
-  const prefix = unit.startsWith('I.') ? `${unit}.` : `${unit}.`;
-  return content.slides
-    .map((slide) => slide.media_slot_id)
-    .filter((slot) => slot && String(slot).startsWith(prefix) && !String(slot).includes('.default.'));
-}
-
-/** Catalog of asset_id → public fields from media indexes / collections / manifests. */
-const catalog = new Map();
-
-function ingestCatalogAsset(candidate) {
-  if (!candidate?.asset_id) return;
-  const previous = catalog.get(candidate.asset_id) || {};
-  const assetUrl = candidate.asset_url || candidate.preview_url || previous.asset_url;
-  const sourceUrl = candidate.canonical_source_url || candidate.source || previous.canonical_source_url;
-  catalog.set(candidate.asset_id, {
-    ...previous,
-    ...candidate,
-    asset_url: assetUrl,
-    canonical_source_url: sourceUrl,
-    preview_url: candidate.preview_url || previous.preview_url,
-  });
-}
-
-const mediaRootPresent = existsSync(profieldRoot);
-
-if (mediaRootPresent) {
-  // 1) media-index*.json candidates
-  for (const name of readdirSync(profieldRoot).filter((n) => n.startsWith('media-index') && n.endsWith('.json'))) {
-    try {
-      const index = JSON.parse(readFileSync(join(profieldRoot, name), 'utf8'));
-      for (const entry of index.queries || []) {
-        for (const candidate of entry.candidates || []) ingestCatalogAsset(candidate);
-      }
-    } catch { /* skip broken index */ }
-  }
-
-  // 2) collections
-  const collectionDirectory = join(profieldRoot, 'collections');
-  if (existsSync(collectionDirectory)) {
-    for (const name of readdirSync(collectionDirectory).filter((n) => n.endsWith('.json'))) {
-      try {
-        const collection = JSON.parse(readFileSync(join(collectionDirectory, name), 'utf8'));
-        for (const asset of collection.assets || []) {
-          ingestCatalogAsset({ ...asset, _collection: collection.collection_id });
-        }
-      } catch { /* skip */ }
-    }
-  }
-
-  // 3) unit manifests
-  for (const path of filesUnder(profieldRoot, (name) => name === 'manifest.json')) {
-    try {
-      const manifest = JSON.parse(readFileSync(path, 'utf8'));
-      for (const asset of manifest.assets || []) ingestCatalogAsset(asset);
-    } catch { /* skip */ }
-  }
-} else {
-  console.warn(`Media root missing: ${profieldRoot} — will keep committed deck assets.`);
-}
-
-/** acceptedByUnit: Map<unitId, Asset[]> for this project only */
-const acceptedByUnit = new Map();
-let acceptedCount = 0;
-
-function addToUnit(unitId, asset) {
-  if (!unitId || !asset?.asset_id) return;
-  const list = acceptedByUnit.get(unitId) || [];
-  const existingIndex = list.findIndex((row) => row.asset_id === asset.asset_id);
-  if (existingIndex >= 0) {
-    if (selectionScore(asset) >= selectionScore(list[existingIndex])) list[existingIndex] = asset;
-  } else {
-    list.push(asset);
-    acceptedCount += 1;
-  }
-  acceptedByUnit.set(unitId, list);
-}
-
-function enrich(assetId, reviewFields = {}) {
-  const base = catalog.get(assetId) || { asset_id: assetId };
-  const merged = { ...base, ...reviewFields, asset_id: assetId };
-  const assetUrl = merged.asset_url || merged.preview_url;
-  const sourceUrl = merged.canonical_source_url || merged.source;
-  if (!assetUrl || !sourceUrl) return null;
+/** Public asset object: no review tags, no internal ids. */
+function publicAsset(record, fileName, verdict) {
+  const title = cleanTitle(record.title || record.raw_title || record.asset_id);
   return {
-    ...merged,
-    asset_url: assetUrl,
-    canonical_source_url: sourceUrl,
-    review_status: 'accepted',
-    review_rank: merged.review_rank ?? merged.rank ?? null,
+    media_slot_id: null, // set by bindSlides
+    asset_id: record.asset_id,
+    asset_url: `${siteBase}/assets/images/${cacheSegment}/${fileName}`,
+    source_file_url: stripUtm(record.source_file_url || record.asset_url || ''),
+    canonical_source_url: record.canonical_source_url || '',
+    title,
+    alt_text: record.alt_text || record.accessibility?.alt_text || title,
+    author: record.author || '',
+    licence: record.licence || '',
+    licence_url: record.licence_url || '',
+    provider: humanProvider(record.provider),
+    credit_line: [record.author, humanProvider(record.provider)].filter(Boolean).join(' · '),
+    author_death_year: record.author_death_year ?? null,
+    eu_term_ok: record.eu_term_ok === true,
+    eu_term_reason: record.eu_term_reason || '',
+    rights_status: verdict.ok ? 'ok' : 'flagged',
+    cropped: Boolean(record.cropped),
   };
 }
 
-// Authority: review-state.json assignments (sole acceptance source when present)
-const reviewStatePath = join(profieldRoot, 'review-state.json');
-let reviewStateLoaded = false;
-if (existsSync(reviewStatePath)) {
-  try {
-    const state = JSON.parse(readFileSync(reviewStatePath, 'utf8'));
-    reviewStateLoaded = true;
-    for (const [assetId, row] of Object.entries(state.assets || {})) {
-      if (String(row.status || '').toLowerCase() !== 'accepted') continue;
-      const assignments = row.assignments || [];
-      const projectAssignments = assignments.filter((a) => String(a.project_id || '').toLowerCase() === projectId);
-      if (!projectAssignments.length) continue;
-      const enriched = enrich(assetId, {
-        rank: row.rank,
-        review_rank: row.rank,
-        review_collections: row.collection_ids || [],
-        _collection: (row.collection_ids || [])[0] || 'unit-accepted',
-      });
-      if (!enriched) continue;
-      for (const assignment of projectAssignments) {
-        addToUnit(assignment.unit_id, {
-          ...enriched,
-          review_units: [assignment.unit_id],
-        });
-      }
-    }
-  } catch (error) {
-    console.error(`Failed to read review-state.json: ${error.message}`);
+// ---------------------------------------------------------------------------
+// Decks
+// ---------------------------------------------------------------------------
+
+const deckFiles = deckRoots.flatMap((dir) => filesUnder(dir, (name, path) => name === 'content.json' && /\/data\/content\.json$/.test(path)));
+
+async function rehydrateDeck(path) {
+  const content = readDeck(path);
+  const rel = path.replace(`${root}/`, '');
+  if (content.schema_version !== DECK_SCHEMA_VERSION) {
+    console.log(`skip legacy deck (schema_version ${content.schema_version ?? 'missing'}): ${rel}`);
+    return false;
   }
-}
-
-// Legacy fallback only when review-state is missing
-if (!reviewStateLoaded) {
-  for (const [assetId, candidate] of catalog.entries()) {
-    if (String(candidate.review_status || '').toLowerCase() !== 'accepted') continue;
-    const units = candidate.review_units || candidate.review_assignments?.map((a) => a.unit_id) || [];
-    const assignments = candidate.review_assignments || [];
-    const projectOk = !assignments.length
-      || assignments.some((a) => String(a.project_id || '').toLowerCase() === projectId);
-    if (!projectOk) continue;
-    const enriched = enrich(assetId, candidate);
-    if (!enriched) continue;
-    for (const unitId of units) addToUnit(unitId, enriched);
+  const unit = content.media_selection?.unit_id;
+  const project = String(content.media_selection?.project_id || '').toLowerCase();
+  if (!unit || !project) {
+    console.warn(`skip ${rel}: media_selection.unit_id/project_id missing`);
+    return false;
   }
-}
+  const acceptedIds = accepted.get(`${project}/${unit}`) || new Set();
+  const committed = new Map((content.assets || []).map((a) => [a.asset_id, a]));
 
-async function rehydrateDecks() {
-  let processed = 0;
-  let changed = 0;
-
-  if (!existsSync(deckRoot)) {
-    console.error(`Deck root missing: ${deckRoot}`);
-    process.exit(1);
-  }
-
-  const acceptedPool = [...acceptedByUnit.values()].reduce((n, list) => n + list.length, 0);
-  if (!reviewStateLoaded && catalog.size === 0) {
-    console.warn(
-      `Media rehydration (${projectId}): no Profield review-state/catalog at ${profieldRoot} — keeping committed deck assets (CI/local without studio media root).`,
-    );
-    return;
-  }
-  if (acceptedPool === 0) {
-    console.warn(
-      `Media rehydration (${projectId}): zero accepted/assigned assets — keeping committed deck assets.`,
-    );
-    return;
-  }
-
-  for (const unitDirectory of readdirSync(deckRoot, { withFileTypes: true }).filter((e) => e.isDirectory())) {
-    const unit = unitFromDeckDirectory(unitDirectory.name);
-    if (!unit) continue;
-    const contentPath = join(deckRoot, unitDirectory.name, 'data/content.json');
-    if (!existsSync(contentPath)) continue;
-    processed += 1;
-
-    let content;
-    try {
-      content = JSON.parse(readFileSync(contentPath, 'utf8').replace(/^---[\s\S]*?---\s*/m, ''));
-    } catch {
+  const pool = [];
+  for (const slide of content.slides || []) {
+    const assetId = slide.asset_id;
+    if (!assetId || pool.some((a) => a.asset_id === assetId)) continue;
+    if (!acceptedIds.has(assetId)) {
+      console.warn(`  ${unit}/${slide.slide_id}: ${assetId} not accepted for ${project}/${unit}`);
       continue;
     }
-
-    const slots = slotsFor(unit, content);
-    const selection = content.media_selection || {};
-    const wantCollection = selection.collection && selection.collection !== 'unit-accepted'
-      ? selection.collection
-      : null;
-
-    const deduped = new Map();
-    for (const asset of acceptedByUnit.get(unit) || []) {
-      const existing = deduped.get(asset.asset_id);
-      if (!existing || selectionScore(asset) > selectionScore(existing)) deduped.set(asset.asset_id, asset);
+    const record = { ...(committed.get(assetId) || {}), ...(catalog.get(assetId) || {}), ...(registry.get(assetId) || {}), asset_id: assetId };
+    const verdict = rightsVerdict(record);
+    if (!verdict.ok && rightsMode === 'block') {
+      console.warn(`  ${unit}/${slide.slide_id}: ${assetId} blocked (${verdict.reasons.join('; ')})`);
+      continue;
     }
-
-    for (const [slot, assetId] of Object.entries(selection.media_overrides || {})) {
-      const fromUnit = deduped.get(assetId) || (acceptedByUnit.get(unit) || []).find((a) => a.asset_id === assetId);
-      const enriched = fromUnit || enrich(assetId, { review_status: 'accepted' });
-      if (!enriched) continue;
-      const inPool = Boolean(fromUnit) || (acceptedByUnit.get(unit) || []).some((a) => a.asset_id === assetId);
-      if (!inPool) {
-        console.warn(`skip override ${slot}: ${assetId} not accepted/assigned to ${projectId}/${unit}`);
-        continue;
-      }
-      deduped.set(assetId, { ...enriched, media_slot_id: slot });
+    const fileName = await ensureRendition(record);
+    if (!fileName) {
+      console.warn(`  ${unit}/${slide.slide_id}: ${assetId} has no cached rendition`);
+      continue;
     }
-
-    let selected = [...deduped.values()];
-    if (wantCollection) {
-      const preferred = selected.filter((asset) =>
-        asset._collection === wantCollection
-        || (asset.review_collections || []).includes(wantCollection)
-        || (asset.collection_ids || []).includes(wantCollection));
-      if (preferred.length) selected = preferred;
-    }
-
-    selected.sort((a, b) => selectionScore(b) - selectionScore(a) || String(a.asset_id).localeCompare(String(b.asset_id)));
-
-    const assets = [];
-    for (const [index, asset] of selected.entries()) {
-      const existing = (content.assets || []).find((candidate) =>
-        candidate.asset_id === asset.asset_id
-        || candidate.canonical_source_url === asset.canonical_source_url);
-      const overrideSlot = Object.entries(selection.media_overrides || {}).find(([, id]) => id === asset.asset_id)?.[0];
-      const slot = overrideSlot || `${unit}.still.profield-${index + 1}`;
-      const remote = stripUtm(asset.asset_url || asset.preview_url || existing?.source_file_url || '');
-      const urls = await ensureLocalAsset(remote, asset.asset_id);
-      assets.push(publicAsset(asset, slot, existing, urls));
-    }
-
-    const rankedSlots = assets.map((a) => a.media_slot_id);
-    let rankCursor = 0;
-    const structuralRoles = new Set(['analysis_opener', 'lab_opener', 'workshop_opener', 'outro']);
-    const slides = (content.slides || []).map((slide) => {
-      if (slide.background_kind === 'geometrical' || slide.background_kind === 'diagram') return slide;
-      if (structuralRoles.has(slide.slide_role)) return slide;
-      if (!assets.length) return slide;
-      const wantsMedia = slide.background_kind === 'profield'
-        || Boolean(slide.media_slot_id)
-        || slide.slide_role === 'masterclass'
-        || slide.slide_role === 'lab_exercise'
-        || slide.slide_role === 'analysis_model';
-      if (!wantsMedia) return slide;
-      const slot = rankedSlots[rankCursor % rankedSlots.length];
-      rankCursor += 1;
-      return { ...slide, media_slot_id: slot, background_kind: 'profield' };
-    });
-
-    const next = {
-      ...content,
-      media_selection: {
-        unit_id: unit,
-        project_id: projectId,
-        collection: wantCollection || 'unit-accepted',
-        strategy: selection.strategy || 'review-state-assigned',
-        description: selection.description
-          || `Accepted/ranked Profield review-state assets for ${projectId}/${unit}.`,
-        media_overrides: selection.media_overrides || {},
-      },
-      assets,
-      slides,
-    };
-
-    const frontMatter = '---\nlayout: null\n---\n';
-    const output = `${frontMatter}${JSON.stringify(next, null, 2)}\n`;
-    if (output !== readFileSync(contentPath, 'utf8')) {
-      writeFileSync(contentPath, output, 'utf8');
-      changed += 1;
-    }
-
-    console.log(`${projectId}/${unit}: ${assets.length} accepted asset(s) → ${unitDirectory.name}`);
+    pool.push(publicAsset(record, fileName, verdict));
   }
 
-  console.log(
-    `Media rehydration (${projectId}): catalog ${catalog.size}, accepted-assigned ${acceptedCount}, `
-    + `processed ${processed} deck(s), changed ${changed}.`,
-  );
+  // Slides whose asset is not in the pool fall back to diagram (bindSlides reports them).
+  const { slides, assets, problems } = bindSlides(content, pool, { unit });
+  for (const p of problems) console.warn(`  ${unit}/${p.slide_id}: ${p.kind} ${p.asset_id} → diagram`);
+  const output = `${FRONT_MATTER}${JSON.stringify({ ...content, assets, slides }, null, 2)}\n`;
+  if (output === readFileSync(path, 'utf8')) return false;
+  writeFileSync(path, output, 'utf8');
+  console.log(`${project}/${unit}: ${assets.length} bound image(s) → ${rel}`);
+  return true;
 }
 
-await rehydrateDecks();
+/**
+ * Delete cache files no deck references (A2/F7: a referenced file is never
+ * deleted or moved). References are read from every deck under docs/tracks,
+ * not only DECK_ROOTS, so a narrowed run cannot delete another deck's file.
+ */
+function deleteOrphans() {
+  const allDecks = filesUnder(join(root, 'docs/tracks'), (name, path) => name === 'content.json' && /\/data\/content\.json$/.test(path));
+  const refs = allDecks.map((p) => readFileSync(p, 'utf8')).join('\n');
+  let removed = 0;
+  for (const [dir, segment] of [[cacheDir, cacheSegment], [legacyCacheDir, legacyCacheSegment]]) {
+    if (!existsSync(dir)) continue;
+    for (const name of readdirSync(dir)) {
+      const path = join(dir, name);
+      if (name.startsWith('.') || !statSync(path).isFile()) continue;
+      if (refs.includes(`/assets/images/${segment}/${name}`)) continue;
+      unlinkSync(path);
+      removed += 1;
+      console.log(`  removed orphan ${segment}/${name}`);
+    }
+  }
+  return removed;
+}
+
+if (!mediaRootPresent) {
+  console.warn(`Media root missing (${mediaRoot}): keeping committed deck assets.`);
+} else {
+  let changed = 0;
+  for (const path of deckFiles) if (await rehydrateDeck(path)) changed += 1;
+  const removed = deleteOrphans();
+  console.log(`Media rehydration (rights=${rightsMode}): ${deckFiles.length} deck file(s), changed ${changed}, orphans removed ${removed}.`);
+}

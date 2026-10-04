@@ -1,0 +1,127 @@
+```javascript
+export const ACCEPTED_LICENCES = ['PD-old-70', 'PD-EU', 'CC0', 'PDM', 'CC-BY-4.0', 'CC-BY-SA-4.0', 'CC-BY-3.0', 'CC-BY-SA-3.0', 'NoC-US+EU-checked'];
+
+export function extensionFor(contentType, url) {
+    if (contentType) {
+        const type = contentType.split(';')[0].trim().toLowerCase();
+        switch (type) {
+            case 'image/jpeg':
+            case 'image/pjpeg':
+                return 'jpg';
+            case 'image/png':
+                return 'png';
+            case 'image/webp':
+                return 'webp';
+            case 'image/gif':
+                return 'gif';
+            case 'image/svg+xml':
+                return 'svg';
+            case 'application/octet-stream':
+                break;
+            default:
+                return null;
+        }
+    }
+    const path = new URL(url).pathname;
+    const match = path.match(/\.([a-z]+)(?:$|\?)/);
+    if (match) {
+        const ext = match[1];
+        switch (ext) {
+            case 'jpeg':
+                return 'jpg';
+            case 'jpg':
+            case 'png':
+            case 'webp':
+            case 'gif':
+            case 'svg':
+                return ext;
+        }
+    }
+    return null;
+}
+
+export function rightsVerdict(asset, { year = new Date().getFullYear() } = {}) {
+    const reasons = [];
+    if (!ACCEPTED_LICENCES.includes(asset.licence)) {
+        reasons.push(`licence not accepted: ${asset.licence}`);
+    }
+    if (!asset.author.trim()) {
+        reasons.push('author missing');
+    }
+    const sourceUrl = asset.canonical_source_url || asset.source;
+    if (!sourceUrl || !/^https?:\/\//.test(sourceUrl)) {
+        reasons.push('source URL missing');
+    }
+    if (!(asset.eu_term_ok && ((typeof asset.author_death_year === 'number' && asset.author_death_year + 70 < year) || asset.eu_term_reason))) {
+        reasons.push('EU term not verified');
+    }
+    const title = asset.raw_title || asset.title;
+    const reviewTagMatch = title.match(/\[([a-z0-9_]*review_required)\]/i);
+    if (reviewTagMatch) {
+        reasons.push(`review tag in title: ${reviewTagMatch[1]}`);
+    }
+    return { ok: reasons.length === 0, reasons };
+}
+
+export function bindSlides(content, acceptedAssets, { unit }) {
+    const assetMap = new Map(acceptedAssets.map(asset => [asset.asset_id, asset]));
+    const usedAssets = new Set();
+    const slides = content.slides.map(slide => {
+        let newSlide = { ...slide };
+        if (['analysis_opener', 'lab_opener', 'workshop_opener', 'outro'].includes(slide.slide_role) || slide.background_kind === 'geometrical') {
+            return newSlide;
+        }
+        if (slide.asset_id) {
+            const asset = assetMap.get(slide.asset_id);
+            if (asset && !usedAssets.has(slide.asset_id)) {
+                usedAssets.add(slide.asset_id);
+                newSlide = {
+                    ...newSlide,
+                    background_kind: 'curated',
+                    media_slot_id: `${unit}.${slide.slide_id}`
+                };
+            } else {
+                newSlide = {
+                    ...newSlide,
+                    background_kind: 'diagram',
+                    media_slot_id: undefined,
+                    asset_id: undefined
+                };
+            }
+        } else if (slide.background_kind === 'curated' || slide.background_kind === 'diagram') {
+            newSlide = {
+                ...newSlide,
+                background_kind: 'diagram',
+                media_slot_id: undefined
+            };
+        }
+        return newSlide;
+    });
+    const assets = Array.from(usedAssets).map(asset_id => ({
+        ...assetMap.get(asset_id),
+        media_slot_id: `${unit}.${slides.find(slide => slide.asset_id === asset_id).slide_id}`
+    }));
+    const problems = [];
+    slides.forEach(slide => {
+        if (slide.background_kind === 'diagram' && !slide.asset_id) {
+            problems.push({ slide_id: slide.slide_id, kind: 'unaccepted', asset_id: slide.asset_id });
+        }
+        if (slide.background_kind === 'diagram' && usedAssets.has(slide.asset_id) && slides.filter(s => s.asset_id === slide.asset_id).length > 1) {
+            problems.push({ slide_id: slide.slide_id, kind: 'duplicate' });
+        }
+    });
+    return { slides, assets, problems };
+}
+
+export function caption(asset) {
+    const title = (asset.title || '').replace(/^File:/, '').replace(/\.[^.]*$/, '').replace(/\[([a-z0-9_]*review_required)\]$/i, '').trim();
+    return {
+        title,
+        author: asset.author,
+        licence: asset.licence,
+        licence_url: asset.licence_url,
+        source_url: asset.canonical_source_url || asset.source,
+        cropped: Boolean(asset.cropped)
+    };
+}
+```
