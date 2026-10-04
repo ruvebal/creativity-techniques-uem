@@ -23,6 +23,7 @@ frontier_signal: 'Open question: when does iteration deepen a solution, and when
 <div class="lesson-opener" markdown="1">
 
 > *"A rough thing can answer a question that a polished thing hides."*
+> — Tao of Creativity
 {: .tao-development-quote }
 
 {% include lesson-semantic-graphic.html %}

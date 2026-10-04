@@ -64,7 +64,7 @@ If a Lab session produces several exercises, make separate entries or clearly se
 
 ## Rubric
 
-The rubric uses a 0–10 score for the assignment. The official presencial guide remains the authority for the subject's institutional weighting (**70% knowledge tests; 30% delivery and/or presentation of work**); this rubric defines the quality of the portfolio evidence within that framework.
+The rubric uses a 0–10 score for the assignment. The official presencial guide remains the authority for the subject's institutional weighting (**60% knowledge tests; 40% delivery and/or presentation of work**); this rubric defines the quality of the portfolio evidence within that framework. To pass the subject you also need at least 5.0 in the final test and must hand in at least 50% of the course activities — see [Evaluation]({{ '/evaluation/' | relative_url }}).
 
 | Criterion                                          | Weight | 9–10 · Excellent                                                                                                                             | 7–8.9 · Competent                                                                                    | 5–6.9 · Minimum pass                                                                       | 0–4.9 · Insufficient                                                                      |
 | -------------------------------------------------- | -----: | -------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
@@ -89,7 +89,7 @@ The brief is anchored in the official subject guide's presentation, contents, co
 {% if site.publication.publish_internal_metadata %}
 
 <!-- curriculum-internal:
-[VERIFIED] Official guide: creativity-techniques-pedagogy/cv/guides/9990002301-unicrawler-2026-27.json; official PDF family 9990002301; presencial evaluation 70% knowledge tests / 30% delivery and/or presentation; 150 presencial hours in the official framework.
+[VERIFIED] Official guide: creativity-techniques-pedagogy/cv/sources/9990002301.pdf (Grado en Diseño, 2025/26) via excellence/DECISION-EX0-GUIA.md (PROVISIONAL, P0 final review); presencial evaluation 60% knowledge tests / 40% delivery and/or presentation; pass needs final test >= 5.0 and >= 50% of activities delivered; 150 presencial hours in the official framework. The former compare-only JSON (Videojuegos guía, 70/30) is now creativity-techniques-pedagogy/cv/guides/guia-tecnicas-de-creatividad-videojuegos-2026-27.json and is not the contract for this degree.
 [BIBLIO-GAP] Ahmes anchor: ahmes-library/scholar/documents/donald_a_schon_the_reflective_practitioner_how_professionals_think_in_action_1984_basic_books_4d215203/extract/extraction.db; node 9296db4c-dc4e-545a-9406-7ac90d6c67c4; page 19 (printed p. 20); evaluator_safe=no, confidence 0.70. Discovery: project_slug=profield-creativity-techniques; supports reflective research/practice as a design frame, not a measured learning outcome.
 [GRAPHIC] Practice–research loop commissioned through the course semantic-graphic/DevIAC graphic-forger grammar; the diagram translates question → making → observation → revision into a portfolio evidence cycle.
 -->

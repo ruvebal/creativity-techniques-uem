@@ -225,11 +225,11 @@ layout: null
       "media_slot_id": "U2.still.profield-3",
       "heading": "1 · Generate, then select",
       "sentence": "Creativity needs both exploration and systematic evaluation — schedule both, never in the same minute.",
-      "quote": "To solve an interesting problem, start by finding a problem that is interesting to you.",
+      "quote": "The first stage is to make the map. The second stage is to choose a route on the map.",
       "quote_origin": "page_verified",
       "citation": {
-        "label": "(Raymond 2001, 62)",
-        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-raymond-2001"
+        "label": "(de Bono 1985, 199)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-debono-1985"
       },
       "semantic_tags": {
         "themes": [
@@ -252,8 +252,8 @@ layout: null
       "background_kind": "profield",
       "media_slot_id": "U2.still.profield-4",
       "heading": "2 · Fluency with flexibility",
-      "sentence": "Many ideas only help if they differ — twenty suns is fluency thirty, flexibility one.",
-      "quote": "Lateral thinking is generative. Vertical thinking is selective.",
+      "sentence": "Many ideas only help if they differ. Thirty sketches of the same sun are many ideas, but only one kind.",
+      "quote": "It involves fluency, or the ability to generate a great quantity of ideas; flexibility, or the ability to switch from one perspective to another; and originality in picking unusual associations of ideas.",
       "quote_origin": "page_verified",
       "semantic_tags": {
         "themes": [
@@ -272,16 +272,16 @@ layout: null
         ]
       },
       "citation": {
-        "label": "(de Bono 1970, 9)",
-        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-debono-1970"
+        "label": "(Csikszentmihalyi 2007, 8)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-csikszentmihalyi-2007"
       }
     },
     {
       "slide_role": "masterclass",
       "background_kind": "profield",
       "media_slot_id": "U2.still.profield-5",
-      "heading": "3 · Block the obvious first",
-      "sentence": "Original responses need you to notice and refuse the first automatic answer — dig a different hole.",
+      "heading": "3 · Get past the obvious",
+      "sentence": "Your first ideas are usually the obvious ones. In this Lab, don't censor them — keep making more without judging, and dig in a different place.",
       "quote": "You cannot dig a hole in a different place by digging the same hole deeper.",
       "quote_origin": "page_verified",
       "semantic_tags": {

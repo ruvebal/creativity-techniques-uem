@@ -389,8 +389,8 @@ layout: null
       "slide_role": "masterclass",
       "background_kind": "profield",
       "media_slot_id": "U1.still.profield-4",
-      "heading": "2 · Four skills you can train",
-      "sentence": "Fluency (many ideas), flexibility (many angles), originality (unusual links), elaboration (work the details) — all trainable.",
+      "heading": "2 · Four skills tests measure",
+      "sentence": "Fluency (many ideas), flexibility (many angles), originality (ideas few other people have), elaboration (work the details). Training can raise these scores.",
       "quote": "Fluency - the ability to produce a large number of ideas or solutions to a problem rapidly.",
       "citation": {
         "label": "(Chen 2012, 41)",
@@ -622,41 +622,10 @@ layout: null
       }
     },
     {
-      "slide_role": "lab_exercise",
-      "background_kind": "profield",
-      "media_slot_id": "U1.still.profield-11",
-      "heading": "Exercise 3 · Explore the course directory",
-      "sentence": "Browse the Directory. Pick two entries where you could see yourself after your studies — prize, studio, journal, figure, or organisation.",
-      "portfolio_bound": true,
-      "portfolio_trace": "Save two directory entries (with links) and two sentences on your path.",
-      "quote": "Pick two doors in the directory that you could walk through after your studies — then say why.",
-      "quote_origin": "tao_invented",
-      "semantic_tags": {
-        "themes": [
-          "career",
-          "directory"
-        ],
-        "cidoc": [
-          "crm:E33_Linguistic_Object"
-        ],
-        "getty_aat": [
-          "aphorisms"
-        ],
-        "dcterms": [
-          "dcterms:type=Text",
-          "dcterms:subject=career"
-        ]
-      },
-      "citation": {
-        "label": "(Tao of Creativity)",
-        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#tao-of-creativity"
-      }
-    },
-    {
       "slide_role": "outro",
       "background_kind": "geometrical",
       "heading": "Carry forward",
-      "sentence": "No Workshop in first lessons — Lab ends the session. D1 Analysis is next and has no Workshop clock. From session 4: Workshop splits half Transposition, half final event.",
+      "sentence": "No Workshop in first lessons — Lab ends the session. On your own this week: explore the course Directory (see the lesson). D1 Analysis is next and has no Workshop clock. From session 4: Workshop splits half Transposition, half final event.",
       "quote": "Carry one question into next week: what is creativity for you — and what would change your answer?",
       "quote_origin": "tao_invented",
       "semantic_tags": {

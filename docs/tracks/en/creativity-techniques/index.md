@@ -75,7 +75,7 @@ Open the unit from the table above, then use **In-class deck** at the lesson hea
 
 ## Official contract
 
-Pedagogical binding source: official guía PDF family `9990002301` (Design degree clone). Evaluation weights: **70%** knowledge tests · **30%** delivery and/or presentation of work.
+Pedagogical binding source: official guía PDF family `9990002301` (Design degree clone). Evaluation weights: **60%** knowledge tests · **40%** delivery and/or presentation of work. To pass you also need at least 5.0 in the final test and must hand in at least 50% of the course activities — see [Evaluation]({{ '/evaluation/' | relative_url }}).
 
 ## Arc
 

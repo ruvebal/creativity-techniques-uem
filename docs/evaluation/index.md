@@ -8,7 +8,7 @@ description: 'Assessment weights, five deliverables, and studio evidence bands f
 
 <div class="evaluation-page prose prose-lg prose-slate dark:prose-invert max-w-none">
 
-Official weights come from the UEM guía (Design degree). Studio choreography and intra-rubrics live in [How to Pass]({{ '/tracks/ct/how-to-pass-this-track/' | relative_url }}) and the parallel session contract. This page stays contract-honest: **weights unchanged**; deliverables map onto them.
+Official weights and pass conditions come from the UEM subject guide (*guía docente*) for the Design degree. Studio choreography and intra-rubrics live in [How to Pass]({{ '/tracks/ct/how-to-pass-this-track/' | relative_url }}) and the parallel session contract. They do not change the official weights; the deliverables map onto them. If the guide published in Campus Virtual differs from this page, the guide wins.
 
 **Final event theme:** *What is creativity for you?*
 
@@ -16,8 +16,16 @@ Official weights come from the UEM guía (Design degree). Studio choreography an
 
 | Instrument | Weight |
 | --- | ---: |
-| Knowledge tests (*Pruebas de conocimiento*) | **70%** |
-| Delivery and/or presentation of work | **30%** |
+| Knowledge tests (*Pruebas de conocimiento*) | **60%** |
+| Delivery and/or presentation of work | **40%** |
+
+## How to pass (official conditions)
+
+- Your final mark (the weighted average above) must be **5.0 or higher** out of 10.
+- You need **at least 5.0** in the final test for it to count in the average.
+- You must hand in **at least 50%** of the course activities.
+
+In the extraordinary session (*convocatoria extraordinaria*) the same final mark and final-test minimums apply. You hand in the activities you failed (after the professor's corrections) or did not hand in; the minimum is 50% of the course activities, or else another equivalent activity proposed by the professor.
 
 ## Session rhythm (every ordinary class)
 

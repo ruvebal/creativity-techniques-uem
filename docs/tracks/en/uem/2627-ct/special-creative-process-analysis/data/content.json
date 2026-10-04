@@ -9,7 +9,7 @@ layout: null
     "project_id": "ct",
     "collection": "unit-accepted",
     "strategy": "geometrical-first",
-    "description": "Special analysis unit: geometrical openers; Masterclass quotes from Craft, Chen, Csikszentmihalyi + Eckersall 2017 (cycle 2)."
+    "description": "Special analysis unit: geometrical openers; Masterclass quotes from Craft, Chen, Csikszentmihalyi + Eckersall, Grehan, and Scheer 2017 (cycle 2)."
   },
   "assets": [],
   "slides": [
@@ -83,7 +83,7 @@ layout: null
       "quote": "As a compositional device and an agent for realising ideas in performance, it, too, has become a material medium in many of our examples.",
       "quote_origin": "page_verified",
       "citation": {
-        "label": "(Eckersall 2017, 219)",
+        "label": "(Eckersall, Grehan, and Scheer 2017, 219)",
         "href": "/lessons/en/creativity-techniques/special-creative-process-analysis/#references"
       },
       "prompt": "Convergent/divergent still matters (lesson text); here ask what the medium does to the process."
