@@ -88,6 +88,10 @@ Nothing under `scripts/`, `_config.yml`, images, U4–U6 lessons or decks was ch
 | 33 | U1 B3 | "B3 · Workshop (Deliverable) — start D1" / "**Workshop opener (geometrical):** protected time on the next graded deliverable." | "B3 · No Workshop yet — start D1 on your own time" / "There is **no Workshop in sessions 1–3**: the session ends after Lab. Workshop time starts in session 4. This week, start D1 on your own time." | C11 |
 | 34 | U1 Conclusion | "The four trainable skills come from…" | "The four skills come from…" | C7 |
 | 35 | Master lecture lesson (3 cites) + special deck + ML deck labels | "(Eckersall 2017, 26/219)" | "(Eckersall, Grehan, and Scheer 2017, 26/219)" | C8 |
+| 36 | Portfolio brief, Rubric (cold review F1) | — (pass conditions only in the unrendered internal line) | "To pass the subject you also need at least 5.0 in the final test and must hand in at least 50% of the course activities — see [Evaluation]." | A4 / F1 |
+| 37 | U2 Idea 3, para 1 (cold review F4) | "You do not get past them by censoring them. You get past them by producing more ideas without judging, so the less obvious ones have room to appear." | "In this Lab you get past them by producing more ideas without judging, rather than by censoring them, so the less obvious ones have room to appear." | C2 / F4 |
+| 38 | U2 deck, Masterclass 3 (cold review F4) | "Your first ideas are usually the obvious ones. Don't censor them — keep making more without judging, and dig in a different place." | "Your first ideas are usually the obvious ones. In this Lab, don't censor them — keep making more without judging, and dig in a different place." | C2 / F4 |
+| 39 | Evaluation, extraordinary session (cold review F8) | "The same final-test minimum and the same 50% minimum of activities apply in the extraordinary session (*convocatoria extraordinaria*)." | "In the extraordinary session (*convocatoria extraordinaria*) the same final mark and final-test minimums apply. You hand in the activities you failed (after the professor's corrections) or did not hand in; the minimum is 50% of the course activities, or else another equivalent activity proposed by the professor." (guía PDF §7.2, read with pdftotext) | A4 / F8 |
 
 Not rendered but changed (1b): `evaluation_feed` in U1 and U2 (`30%`/`70%` → `40%`/`60%`), and the portfolio
 `[VERIFIED]` internal line (now points at the PDF + decision record, 60/40, pass conditions; names the renamed Videojuegos JSON).
@@ -133,8 +137,9 @@ All of these are logged in DECISIONS-LOG.md: the map quote moves to Masterclass 
 
 ## Cold-review triage
 
-- Blocking findings: none yet (review not filed)
-- Deferred: none
+- Blocking findings: F1 (portfolio pass conditions) fixed — row 36; gate re-run 18 PASS, `failures: 0`
+- Non-blocking fixed at the coordinator's request: F4 (rows 37–38), F8 (row 39)
+- Other findings (F2, F5, F9 cascade amends): left to the orchestrator
 
 ## Blockers
 

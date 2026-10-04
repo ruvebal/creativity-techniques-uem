@@ -25,7 +25,7 @@ Official weights and pass conditions come from the UEM subject guide (*guía doc
 - You need **at least 5.0** in the final test for it to count in the average.
 - You must hand in **at least 50%** of the course activities.
 
-The same final-test minimum and the same 50% minimum of activities apply in the extraordinary session (*convocatoria extraordinaria*).
+In the extraordinary session (*convocatoria extraordinaria*) the same final mark and final-test minimums apply. You hand in the activities you failed (after the professor's corrections) or did not hand in; the minimum is 50% of the course activities, or else another equivalent activity proposed by the professor.
 
 ## Session rhythm (every ordinary class)
 
