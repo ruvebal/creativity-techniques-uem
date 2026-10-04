@@ -63,6 +63,8 @@ publish it only if its rights are proven". Live failing cases:
    (EX4 rebinds the rest); rights problems are flagged in the report. `image_brief` may be a TODO
    string here; EX4 writes the real ones.
 
+(Amendment A2/F7: never delete or move a cache file referenced by any deck, including legacy U4; `profield-cache/` keeps exactly those files. Orphans = referenced by no deck.)
+
 ## Scope
 
 **In:** the files above. **Out:** choosing images (EX4), renderer changes (EX5),

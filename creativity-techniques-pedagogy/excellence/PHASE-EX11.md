@@ -15,6 +15,8 @@ findings are closed, and hand U4–U6 forging a clean platform.
 reported in CLOSING-AUDIT.md under "Out of scope — for the U4 forge", not
 counted as failures. Update the probe's `--targets` accordingly.)
 
+(Amendment A2/F3–F4: before evaluating targets, harden the probe: include the master-lecture deck (`2627-ml`) and lesson; treat empty `public_weights` as unmet; flag author-date labels on quotes lacking `quote_origin`; detect rank dealing by behaviour (slide→asset assignment by index), not the `rankCursor` name; count decks with zero lab slides; measure asset reuse within a deck. Add a fixture test per case.)
+
 ## Deliverables
 
 1. `evidence/final-EX11.json` — probe output at the merged HEAD

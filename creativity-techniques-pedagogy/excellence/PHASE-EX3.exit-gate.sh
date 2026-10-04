@@ -3,7 +3,15 @@
 source "$(git rev-parse --show-toplevel)/creativity-techniques-pedagogy/excellence/gates/common.sh"
 
 CACHE=docs/assets/images/deck-media
-check "old profield-cache dir removed" test ! -e docs/assets/images/profield-cache
+# Amendment A2/F7: profield-cache may remain, holding only files legacy decks reference.
+python3 - "$DECKS" <<'PY' && pass "profield-cache holds only legacy-referenced files" || fail "profield-cache holds only legacy-referenced files"
+import pathlib, sys
+old = pathlib.Path("docs/assets/images/profield-cache")
+if not old.exists(): sys.exit(0)
+refs = "".join(p.read_text() for p in pathlib.Path(sys.argv[1]).glob("*/data/content.json"))
+bad = [f.name for f in old.iterdir() if f.is_file() and f.name not in refs]
+print(bad); sys.exit(1 if bad else 0)
+PY
 [ -d node_modules ] || npm ci --silent >/tmp/excellence-npm.log 2>&1
 
 check "media-rules module exists" test -f scripts/lib/media-rules.mjs

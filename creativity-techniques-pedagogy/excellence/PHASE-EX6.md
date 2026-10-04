@@ -45,6 +45,8 @@ verified entries the provenance line location. Minimum set:
    evidence and Osborn for deferred judgement; master lecture Lens B = Verón).
    Plain register, Chicago author-date links.
 
+(Amendment A2/F2: update `probe/excellence-probe.mjs` so `uncited_references` compares keys listed for a lesson in `references.yml`/front matter with keys it cites; add a probe test showing an uncited key is reported.)
+
 ## Prompt (Implementation Agent)
 
 ```text

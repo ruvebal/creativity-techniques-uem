@@ -29,6 +29,23 @@ U1, U2 and U4 on `main`. Therefore:
   `1af967d`; `evidence/head-EX0.json` measures launch HEAD `a1da745`. Targets
   in EX11 are checked on the live tree.
 
+## Amendment A2 (EX0 cold review, 2026-10-04)
+
+- **F5 — firewall stays site-wide.** The publication firewall is a hard
+  constraint and outranks A1's scope. EX2 may make **firewall-only edits** in
+  U4–U6 (remove internal terms from rendered text, nothing else) and its gate
+  scans the whole built site. A sync conflict on those files is a stop rule.
+- **F6 — scope by exclusion.** Gate scope = everything except `u-[4-9]-*`
+  (keeps the special-lesson stub, how-to-pass and special decks in scope).
+- **F7 — do not break legacy decks.** EX3 never deletes or moves a cache file
+  that any deck (including legacy U4) references; `profield-cache/` keeps
+  exactly those files until their deck migrates.
+- **F2 — EX6 updates the probe** so `uncited_references` reads the
+  `references.yml` mechanism, not hand-written spans.
+- **F3, F4 — EX11 hardens the probe** (master-lecture deck/lesson, empty
+  `public_weights`, missing `quote_origin`, renamed rank dealing, decks with no
+  lab slides, asset reuse) before evaluating targets.
+
 ## Programme (do not invert)
 
 | Step | Phase | Lane | Findings closed | Human gate |
