@@ -7,6 +7,7 @@ Built during the autopilot run; read this once at the end (AUTOPILOT.md §5).
 | Phase | Status | Tag | Notes |
 | --- | --- | --- | --- |
 | EX0 | DONE | `excellence/ex0` | Probe + baseline + provisional weights; cold review PASS (11 findings, 0 blocking) |
+| EX2 | DONE | `excellence/ex2` | Publication firewall; round 1 FAIL (U4 pipeline text, forge rules, dead declaration link), fixed; round 2 PASS |
 | EX1 | DONE | `excellence/ex1` | Contract + factual hotfix; cold review round 1 FAIL (F1 portfolio pass conditions), fixed; round 2 PASS |
 
 ## 2 · P0 decisions for you
@@ -53,3 +54,9 @@ Built during the autopilot run; read this once at the end (AUTOPILOT.md §5).
 U5 and U6 have no published pages, so they had no edits.
 
 **Warning for the U4 forge on `main` (A4/F2):** `forge/ct-unit-forge.mdc` §4b no longer allows the old footer (harness, vault count, Forge date, `lesson-scribe`). The safety script now fails the build on harness phrasings, `agentic`, `scholar-voice`, `enrichment pack`, `extraction order`, `source adjudication`, forge and vault. Expect a merge conflict on U4 lines 186, 190 and 192 if `main` edits them; per A2/F5 a sync conflict is a stop rule.
+
+### Release checklist additions (from EX2)
+
+- Run `npm ci` before the release build (`postcss` lives in node_modules).
+- Align the external skill `~/src/.cursor/skills/lesson-scribe/SKILL.md` §9 ("public role vocabulary": lesson harness, studio extraction layer, cite-grade discovery) with the new footer rule — the safety script now fails on that vocabulary.
+- U4 on `main` (concurrent writer): the safety script now fails on "Forge date", stack wording and pipeline jargon; the U4 forge must adopt the one-sentence footer or the release build will fail (fail-closed, by design).

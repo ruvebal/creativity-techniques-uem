@@ -6,7 +6,7 @@ build_site
 check "safety script passes" node scripts/verify-publication-safety.mjs
 check "_site/_data not published" test ! -e _site/_data
 
-TERMS='\b(forge[ds]?|(agentic|local|studio) harness|harness:|lesson-scribe|vault|thessia|curriculum-internal|open procurement|gu[ií]a clone|contact-forgeable|udit|web-atelier|scholar-voice|enrichment pack|extraction order|source adjudication|agentic)\b'
+TERMS='\b(forge[ds]?|(agentic|local|studio) harness|lesson-scribe|vault|thessia|curriculum-internal|open procurement|gu[ií]a clone|contact-forgeable|udit|web-atelier|scholar-voice|enrichment pack|extraction order|source adjudication|agentic)\b|harness:'
 # Amendment A2/F5: the firewall is site-wide (hard constraint), not scoped.
 hits="$(grep -rliE --include='*.html' -- "$TERMS" _site | head -10)"
 if [ -z "$hits" ]; then pass "no internal terms in built HTML (whole site)"; else fail "internal terms in built HTML"; echo "$hits"; grep -rhoiE --include='*.html' -- "$TERMS" _site | sort | uniq -c | head; fi

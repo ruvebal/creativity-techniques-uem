@@ -80,6 +80,21 @@ U1, U2 and U4 on `main`. Therefore:
 - **F7 → EX6:** add Verón 1988, Steimberg (reconcile 1993 vs 2013), Chion and
   Alexander to `research-manifest.yml` as master-lecture works (verified or gap).
 
+## Amendment A5 (EX2 round-2 cold review, 2026-10-04)
+
+- **F1 gate correction:** `harness:` moved outside the word-boundary group in
+  the EX2 gate (it could never match inside `\b(...)\b`).
+- **F2 → EX3:** the safety script adds patterns for cascade-harness, lesson
+  harness, studio extraction layer, cite-grade discovery (the public "role
+  vocabulary" of the external lesson-scribe skill); the EX3 gate checks them.
+  The external skill `~/src/.cursor/skills/lesson-scribe/SKILL.md` §9 is outside
+  the repo: listed in FINAL-REVIEW for the professor to align.
+- **F3, F4, F5 → EX9:** plain wording for U4-free lesson jargon such as
+  "page locators" / "page-backed Chicago claim" in U1–U3; remove the duplicate
+  "Lessons" breadcrumb; emit `hreflang="es"` only when the Spanish URL differs
+  from the page's own URL.
+- **F7 → release:** run `npm ci` before the release build (`postcss` lives in node_modules).
+
 ## Programme (do not invert)
 
 | Step | Phase | Lane | Findings closed | Human gate |

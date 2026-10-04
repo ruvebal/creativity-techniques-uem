@@ -53,5 +53,9 @@ for root in sys.argv[1:]:
 print("\n".join(bad[:20])); sys.exit(1 if bad else 0)
 PY
 
+for p in cascade-harness 'lesson harness' 'studio extraction layer' 'cite-grade discovery'; do
+  present "safety script has pattern: $p (A5/F2)" "$p" scripts/verify-publication-safety.mjs
+done
+
 build_site
 finish

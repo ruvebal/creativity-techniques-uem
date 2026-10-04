@@ -67,6 +67,8 @@ publish it only if its rights are proven". Live failing cases:
 
 (Amendment A4/F6: also remove the Profield comment in `docs/assets/js/student-media-deck.js` and extend the safety script's profield check to JS.)
 
+(Amendment A5/F2: the safety script also flags cascade-harness, lesson harness, studio extraction layer, cite-grade discovery.)
+
 ## Scope
 
 **In:** the files above. **Out:** choosing images (EX4), renderer changes (EX5),

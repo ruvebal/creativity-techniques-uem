@@ -35,6 +35,8 @@ shows a filled portfolio trace; lessons contain no images.
 
 (Amendment A3/F5–F7: the `## Workshop` section's first line states when Workshop runs — U1 "No Workshop in sessions 1–3", others "From session 4: …"; label intra-rubric percentages "of D1"; add `## Tao of Creativity` with `id="tao-of-creativity"` listing the unit's Tao lines so deck links resolve.)
 
+(Amendment A5/F3–F5: plain wording for residual jargon such as "page locators" and "page-backed Chicago claim" in U1–U3; remove the duplicate "Lessons" breadcrumb in `_layouts/lesson.html`; `head-hreflang.html` emits `hreflang="es"` only when the Spanish URL exists and differs from the page URL.)
+
 ## Prompt (Implementation Agent)
 
 ```text
