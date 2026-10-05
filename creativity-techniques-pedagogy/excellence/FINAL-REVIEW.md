@@ -20,7 +20,7 @@ Built during the autopilot run; read this once at the end (AUTOPILOT.md §5).
 
 - **Deck images (EX3):** U1–U3 and the master lecture are diagram-only except two kept images, both `rights_status: flagged` (Profield `modern_rights_review_required` tag not cleared). `curation/rights-report.json` lists every flag. EX4 must fill the rest before release (its gate needs ≥ 60% of core slides imaged).
 
-- **Deck images (EX4, autopilot picks — review every one before release):** 36 images bound (U1, U2, U3, ML-CPA: 9 of 10 image slides each; 7/8 core slides each). **8 are `rights_status: flagged`** (listed first below). Picks were made by the agent under AUTOPILOT §2 (`approved_by: autopilot (final review pending)`), each checked against its brief with a local vision model. Briefs, alt text and candidates: `curation/*-SHORTLIST.md`; full rights records: `curation/autopilot-assets.json`. To drop an image: remove the slide's `asset_id`, set `background_kind: diagram`, rerun `npm run media:rehydrate` in a worktree.
+- **Deck images (EX4, autopilot picks — review every one before release):** 33 images bound (U1 9/10 image slides, 7/8 core; U2 8/10 image slides, 6/8 core; U3 8/10 image slides, 6/8 core; ML-CPA 8/10 image slides, 6/8 core). **8 are `rights_status: flagged`** (listed first below). Picks were made by the agent under AUTOPILOT §2 (`approved_by: autopilot (final review pending)`), each checked against its brief with a local vision model (`qwen3.8:27b`, think:false) and, after the cold review, by eye. Briefs, alt text and candidates: `curation/*-SHORTLIST.md`; rights records: `curation/autopilot-assets.json`. To drop an image: remove the slide's `asset_id`, set `background_kind: diagram`, rerun `npm run media:rehydrate` in a worktree.
 
 | Deck | Slide | Title | Author | Licence | rights_status | Why flagged | Fit | Source |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -45,27 +45,29 @@ Built during the autopilot run; read this once at the end (AUTOPILOT.md §5).
 | U2 | `masterclass-4` | A Six Thinking Hats session board for the black hat ('doubts' | NMontoya (WMCO) | CC-BY-4.0 | **ok** |  | 5/5 | [file page](https://commons.wikimedia.org/wiki/File:Sombrero_negro_(Dudas).jpg) |
 | U2 | `masterclass-5` | A Pugh concept-selection matrix | Chattons2 | CC-BY-SA-3.0 | **ok** |  | 5/5 | [file page](https://commons.wikimedia.org/wiki/File:Pugh_Concept_Selection.png) |
 | U2 | `masterclass-6` | Vincent van Gogh, Self-Portrait with Bandaged Ear, 1889 | Vincent van Gogh | PD-old-70 | **ok** |  | 5/5 | [file page](https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Self-portrait_with_bandaged_ear_(1889,_Courtauld_Institute).jpg) |
-| U2 | `lab-2` | Trance writing produced by the medium 'Margery' (Mina Crandon) in 1927 and reproduced in 1930 | Stanley De Brath (publisher of the reproduction) | PD-old-70 | **ok** |  | 4/5 | [file page](https://commons.wikimedia.org/wiki/File:Mina_Crandon_automatic_writing.png) |
 | U3 | `cover` | The Wright brothers' 1902 glider in flight at Kitty Hawk | Wilbur and Orville Wright | PD-old-70 | **ok** |  | 5/5 | [file page](https://commons.wikimedia.org/wiki/File:Gliding_flight,_Wright_Glider,_Kitty_Hawk,_NC._1902.10459_A.S..jpg) |
 | U3 | `analysis-model` | Theo van Doesburg, a study for Composition (The Cow), c. 1917–18 | Theo van Doesburg | PD-old-70 | **ok** |  | 4/5 | [file page](https://commons.wikimedia.org/wiki/File:Cow_by_Theo_van_Doesburg_Museum_of_Modern_Art_25.1969.jpg) |
 | U3 | `masterclass-1` | Antoni Gaudí's hanging string-and-weight model for the Colonia Güell church, photographed c. 1908 | Unknown photographer (Gaudí workshop, c. 1908) | PD-EU | **ok** |  | 5/5 | [file page](https://commons.wikimedia.org/wiki/File:Maqueta_polifunicular.jpg) |
 | U3 | `masterclass-2` | Beethoven's sketchbook for the Seventh Symphony, 1812 | Ludwig van Beethoven (sketchbook); Daderot (photograph, public-domain dedication) | PD-old-70 | **ok** |  | 4/5 | [file page](https://commons.wikimedia.org/wiki/File:Sketches_for_the_second_movement_of_Symphony_no._7,_op._92,_Beethoven,_Petter_Sketchbook,_1812,_musical_autograph_-_Morgan_Library_%26_Museum_-_New_York_City_-_DSC06691.jpg) |
-| U3 | `masterclass-4` | Alexander Graham Bell's laboratory notebook, March 1876 | Alexander Graham Bell | PD-old-70 | **ok** |  | 5/5 | [file page](https://commons.wikimedia.org/wiki/File:AGBell_Notebook.jpg) |
 | U3 | `masterclass-5` | Paul Klee, a page of the Pedagogical Sketchbook (1925) | Paul Klee | PD-old-70 | **ok** |  | 4/5 | [file page](https://commons.wikimedia.org/wiki/File:Paul_Klee_P%C3%A4dagogisches_Skizzenbuch_10.jpg) |
 | U3 | `masterclass-6` | Orville Wright's diary entry for 17 December 1903 | Orville Wright | PD-old-70 | **ok** |  | 5/5 | [file page](https://commons.wikimedia.org/wiki/File:Wright_diary.jpg) |
 | U3 | `lab-1` | An early-19th-century design sheet with three chairs with curved backs | Anonymous designer (early 19th century); The Metropolitan Museum of Art (CC0) | CC0 | **ok** |  | 5/5 | [file page](https://commons.wikimedia.org/wiki/File:Design_for_Three_Chairs_with_Curved_Backs_(verso-_Sketch_for_a_Sideboard)_MET_DP807145.jpg) |
 | U3 | `lab-2` | The Wright brothers' 1900 glider flown unmanned as a kite | Wilbur and Orville Wright | PD-old-70 | **ok** |  | 4/5 | [file page](https://commons.wikimedia.org/wiki/File:Wright_Glider_being_flown_as_a_kite._-1900_10457_A.S..jpg) |
 | ML-CPA | `masterclass-2` | A Jacquard loom with its chain of punched cards (19th-century mechanism, National Museum of Scotland) | Stephen C. Dickson | CC-BY-SA-4.0 | **ok** |  | 4/5 | [file page](https://commons.wikimedia.org/wiki/File:A_Jacquard_loom_showing_information_punchcards,_National_Museum_of_Scotland.jpg) |
 | ML-CPA | `masterclass-4` | An early-19th-century design for six chairs with scarlet upholstery | Anonymous designer (early 19th century); The Metropolitan Museum of Art (CC0) | CC0 | **ok** |  | 4/5 | [file page](https://commons.wikimedia.org/wiki/File:Design_for_Six_Chairs_with_Scarlet_Upholstery_(verso-_Sketch_for_Sofa)_MET_DP807166.jpg) |
-| ML-CPA | `masterclass-5` | Loïe Fuller's Serpentine Dance, Folies-Bergère poster/photograph, 1890s | Unknown author (before 1900) | PD-EU | **ok** |  | 4/5 | [file page](https://commons.wikimedia.org/wiki/File:La_danse_serpentine,_Lo%C3%AFe_Fuller_et_ses_transformations.jpg) |
-| ML-CPA | `masterclass-6` | Alfred Binet's 1911 results table for the Binet–Simon scale | Alfred Binet | PD-old-70 | **ok** |  | 4/5 | [file page](https://commons.wikimedia.org/wiki/File:Tableau_de_r%C3%A9sultats_au_test_de_Binet-Simon.jpg) |
-| ML-CPA | `lab-2` | A page of Paul Klee's Bauhaus teaching notebook, 1922 | Paul Klee | PD-old-70 | **ok** |  | 4/5 | [file page](https://commons.wikimedia.org/wiki/File:Paul_Klee_Notebook_BF_149.jpg) |
+| ML-CPA | `masterclass-5` | Loïe Fuller's Serpentine Dance in a wood engraving of her 'transformations', before 1900 | Unknown author (before 1900) | PD-EU | **ok** |  | 4/5 | [file page](https://commons.wikimedia.org/wiki/File:La_danse_serpentine,_Lo%C3%AFe_Fuller_et_ses_transformations.jpg) |
+| ML-CPA | `masterclass-6` | Alfred Binet's 1911 table of Binet–Simon test results | Alfred Binet | PD-old-70 | **ok** |  | 4/5 | [file page](https://commons.wikimedia.org/wiki/File:Tableau_de_r%C3%A9sultats_au_test_de_Binet-Simon.jpg) |
 
-  Diagram fallback (no candidate scored ≥ 4 for its brief):
+  Diagram fallback (no candidate fits its brief at ≥ 4):
   - U1 `masterclass-2` — 2 · Four skills tests measure
   - U2 `masterclass-2` — 2 · Fluency with flexibility
+  - U2 `lab-2` — Exercise 2 · Automatic writing after concentration
   - U3 `masterclass-3` — 3 · Iterate with an exit
+  - U3 `masterclass-4` — 4 · Sketch to think
   - ML-CPA `masterclass-3` — 3 · Open, then close
+  - ML-CPA `lab-2` — Exercise 2 · Your Lab trail
+
+  Visual repetition to judge (cold review F9): the master lecture uses three Gilbreth 1921 process charts (analysis-model, masterclass-1, lab-1); U3 uses two Wright brothers images (cover, lab-2). The Klee "three cases" diagram is now only in U3 `masterclass-5` (the ML `lab-2` duplicate was unbound).
 
 ## 3 · Per phase
 
@@ -150,9 +152,11 @@ U4 (legacy, out of scope) keeps *Man dreaming* (`profield-cache/0a359d9b946505e1
 ### EX4 — slide-bound image curation (VERIFYING)
 
 - A6 fixes first (commit `46d3b01`): death-year contradiction always fails `rightsVerdict`; registry `raw_title` required for every bound asset; SVG rasterised, never copied raw; forge doc corrected. Tests 30/30.
-- 36 autopilot images bound, 9/10 image slides and 7/8 core slides per deck (U1, U2, U3, ML-CPA); 4 slides on diagram; 8 flagged (table in §2).
+- Round 1: 36 autopilot images bound (9/10 image slides, 7/8 core per deck); 8 flagged (table in §2, updated in round 2).
 - Fit checked locally with `qwen3.8:27b` vision (73 calls) because the installed Ollama cannot load `llama3.2-vision`.
 - Report: `PHASE-EX4-REPORT.md`; shortlists: `curation/*-SHORTLIST.md`; sign-off: `curation/CURATION-SIGNOFF.md`.
+- **Round 2 (cold review FAIL → fixed):** F1 U2 `lab-2` Margery "trance writing" unbound (diagram); F2 U3 `masterclass-4` Bell notebook unbound — the shortlisted Leonardo *Design for a Flying Machine* was checked by eye and not bound (one finished drawing, 508 px, not quick alternative sketches) → diagram; F9 ML `lab-2` Klee notebook unbound (same diagram as U3); F7 alt texts/briefs corrected (Dollond, Kleine Dada Soirée, Sprite Fright, Wright diary, Loïe Fuller, Binet); F4 shortlists now name `qwen3.8:27b` as the vision model. Result: 33 images; U1 7/8 core, U2 6/8, U3 6/8, ML 6/8.
+- **Profield picks to compare (cold review F8, read-only on `review-state.json`):** tc assets accepted in the review app on 2026-10-04 that were not in the EX4 shortlists. In the 21:00–21:29 UTC window: *An illustration of gates* (`nypl:510d47d9-83ad-a3d9-e040-e00a18064a99`, tc U1 + U4, 21:03Z) and *12" gun in Action, Naval* (`nypl:510d47d9-3f28-a3d9-e040-e00a18064a99`, tc U1 + U4, 21:04Z). Earlier the same day for tc U1–U3: *Reflection.* (U1, 12:30Z), *Four designs for chairs, two designs for tables, three designs for lamps* (U1, 16:00Z), *Circus performers.* (U1 + U3, 16:05Z), *Man dreaming* (U1, 16:41Z), *An action off Spit-Head* (U1, 16:46Z), *Diamaxion house …* (U3, 16:49Z), *A patent sideboard.* (U1, 20:55Z — banned by the EX4 gate), *Manifestation Dada* (U1 + U2, 20:57Z). None is bound; the EX4 picks came from open collections. If you prefer one of yours, set it as the slide's `asset_id` and rehydrate.
 - Rollback: `gitflow.sh rollback 4`, or per slide: remove `asset_id`, set `background_kind: diagram`, rerun `npm run media:rehydrate` in a worktree.
 
 ### Release checklist additions (from EX2)

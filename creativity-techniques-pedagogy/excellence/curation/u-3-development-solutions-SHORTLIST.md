@@ -2,7 +2,7 @@
 
 Private curation record (not published). Rights fields read from the Wikimedia Commons file page via the API (`imageinfo.extmetadata`: Artist, LicenseShortName, LicenseUrl, DateTimeOriginal), not from search snippets; author death years are standard biographical dates. EU term = author death year + 70 < 2026, or the holder's licence. Under AUTOPILOT §0 every source is usable; doubts set `rights_status: flagged`.
 Discovery: Wikimedia Commons search API (incl. Met Open Access, Rijksmuseum, NGA, NYPL, LoC/NASA mirrors) and the existing media-prospector indexes (read only).
-Fit score: llama3.2-vision description compared with the brief by the curator (1–5); bind only ≥ 4.
+Fit score: local vision description by qwen3.8:27b (think:false) — not llama3.2-vision, which the installed Ollama 0.34.1 cannot load — compared with the brief by the curator (1–5); bind only ≥ 4. Round 2 (cold review) rescored U2 lab-2, U3 masterclass-4 and ML lab-2.
 
 ## `cover`
 
@@ -56,8 +56,8 @@ Fit score: llama3.2-vision description compared with the brief by the curator (1
 
 | # | Candidate | Author (d.) | Licence | EU term | rights_status | Fit | Note |
 |---|---|---|---|---|---|---|---|
-| 1 | [AGBell Notebook.jpg](https://commons.wikimedia.org/wiki/File:AGBell_Notebook.jpg) · [thumb](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/AGBell_Notebook.jpg/960px-AGBell_Notebook.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail) | Alexander Graham Bell (1922) | PD-old-70 | ok | ok | 5 | BOUND. notebook spread with transmitter sketch |
-| 2 | [Design for a Flying Machine.jpg](https://commons.wikimedia.org/wiki/File:Design_for_a_Flying_Machine.jpg) · [thumb](https://upload.wikimedia.org/wikipedia/commons/d/d4/Design_for_a_Flying_Machine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled) | Leonardo da Vinci (1519) | PD-old-70 | ok | ok | 4 | technical sketch |
+| 1 | [AGBell Notebook.jpg](https://commons.wikimedia.org/wiki/File:AGBell_Notebook.jpg) · [thumb](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/AGBell_Notebook.jpg/960px-AGBell_Notebook.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail) | Alexander Graham Bell (1922) | PD-old-70 | ok | ok | 3 | round 2 (F2): records a device already built and tested, one record drawing — not sketching to think |
+| 2 | [Design for a Flying Machine.jpg](https://commons.wikimedia.org/wiki/File:Design_for_a_Flying_Machine.jpg) · [thumb](https://upload.wikimedia.org/wikipedia/commons/d/d4/Design_for_a_Flying_Machine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled) | Leonardo da Vinci (1519) | PD-old-70 | ok | ok | 3 | round 2, checked by eye: one fairly finished drawing with notes, 508 px; not several quick arrangements |
 
 ## `masterclass-5`
 

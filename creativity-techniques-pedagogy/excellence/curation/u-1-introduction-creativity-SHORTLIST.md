@@ -2,7 +2,7 @@
 
 Private curation record (not published). Rights fields read from the Wikimedia Commons file page via the API (`imageinfo.extmetadata`: Artist, LicenseShortName, LicenseUrl, DateTimeOriginal), not from search snippets; author death years are standard biographical dates. EU term = author death year + 70 < 2026, or the holder's licence. Under AUTOPILOT §0 every source is usable; doubts set `rights_status: flagged`.
 Discovery: Wikimedia Commons search API (incl. Met Open Access, Rijksmuseum, NGA, NYPL, LoC/NASA mirrors) and the existing media-prospector indexes (read only).
-Fit score: llama3.2-vision description compared with the brief by the curator (1–5); bind only ≥ 4.
+Fit score: local vision description by qwen3.8:27b (think:false) — not llama3.2-vision, which the installed Ollama 0.34.1 cannot load — compared with the brief by the curator (1–5); bind only ≥ 4. Round 2 (cold review) rescored U2 lab-2, U3 masterclass-4 and ML lab-2.
 
 ## `cover`
 

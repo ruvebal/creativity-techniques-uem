@@ -1,6 +1,6 @@
 {
   "schema": "autopilot-assets/v1",
-  "note": "Private rights registry and autopilot acceptance (AUTOPILOT.md §2). Read by scripts/rehydrate-student-media.mjs and scripts/validate-decks.mjs; never published. Rights fields are read from the Commons file page (API extmetadata), not from search snippets. Every bound asset has a record here with raw_title (A6/F3). rights_status here is the curator's verdict: 'flagged' always wins over rightsVerdict at rehydration. EX4 (2026-10-05): picks checked locally with a vision model and recorded in PHASE-EX4-REPORT.md.",
+  "note": "Private rights registry and autopilot acceptance (AUTOPILOT.md §2). Read by scripts/rehydrate-student-media.mjs and scripts/validate-decks.mjs; never published. Rights fields are read from the Commons file page (API extmetadata), not from search snippets. Every bound asset has a record here with raw_title (A6/F3). rights_status here is the curator's verdict: 'flagged' always wins over rightsVerdict at rehydration. EX4 (2026-10-05): picks checked locally with a vision model and recorded in PHASE-EX4-REPORT.md. Every bound asset has a record here with raw_title (A6/F3). rights_status here is the curator's verdict: 'flagged' always wins over rightsVerdict at rehydration. EX4 (2026-10-05): picks checked locally with a vision model and recorded in PHASE-EX4-REPORT.md.",
   "assets": [
     {
       "asset_id": "wikimedia:File:Leonardo da Vinci - 1860,0616.98, Two studies of the Virgin and Child with a cat and three studies of the Child with a cat.jpg",
@@ -187,7 +187,7 @@
       ],
       "title": "A pocket set of drawing instruments by Peter Dollond, London, c. 1755",
       "raw_title": "File:Pocket set of drawing instruments MET DP232308.jpg",
-      "alt_text": "An open 18th-century pocket case of drawing instruments: dividers, a scale and other brass and steel tools fitted into an open green patterned case.",
+      "alt_text": "An 18th-century pocket set of drawing instruments by Peter Dollond: a ruler, a scale and four brass and steel instruments laid out beside their open shagreen case.",
       "author": "Peter Dollond (instrument maker); The Metropolitan Museum of Art (photograph, CC0)",
       "author_death_year": 1820,
       "licence": "CC0",
@@ -292,7 +292,7 @@
       ],
       "title": "Theo van Doesburg and Kurt Schwitters, Kleine Dada Soirée poster, 1922",
       "raw_title": "File:Theo van Doesburg and Kurt Schwitters, Kleine Dada Soirée (Small Dada Evening), 1922, NGA 154076.jpg",
-      "alt_text": "The 1922 Kleine Dada Soirée poster: words in German and Dutch, in many sizes, typefaces and directions, jumbled over bold red diagonal stripes.",
+      "alt_text": "The 1922 Kleine Dada Soirée poster: words in German and Dutch, in many sizes, typefaces and directions, jumbled around giant red letters spelling 'DADA'.",
       "author": "Theo van Doesburg and Kurt Schwitters",
       "author_death_year": 1948,
       "licence": "CC0",
@@ -397,7 +397,7 @@
       ],
       "title": "Concept-art sheet for the Blender Studio short Sprite Fright (2021)",
       "raw_title": "File:Sprite Fright-concept art-Victoria 01.png [modern_rights_review_required]",
-      "alt_text": "Concept-art sheet from the short film Sprite Fright: sixteen versions of one red-haired character's face, each labelled with a different expression.",
+      "alt_text": "Concept-art sheet from the short film Sprite Fright: seventeen labelled versions of one red-haired character's head, each with a different expression.",
       "author": "Julien Kaspar / Blender Foundation",
       "author_death_year": null,
       "licence": "CC-BY-4.0",
@@ -416,7 +416,7 @@
       "rights_checked_on": "2026-10-05",
       "rights_source": "Commons API imageinfo extmetadata (Artist, LicenseShortName, LicenseUrl, DateTimeOriginal); death years: standard biographical dates",
       "approved_by": "autopilot (final review pending)",
-      "brief": "Concept-art sheet for the Blender Studio short Sprite Fright (2021): many variants of one character's head drawn side by side before one is chosen — generate first, then select.",
+      "brief": "Concept-art sheet for the Blender Studio short Sprite Fright (2021): many labelled variants of one character's head rendered side by side before one is chosen — generate first, then select.",
       "vision_fit_score": 5,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "This image is a digital character expression sheet, likely from a video game or animation production, displaying 16 different facial expressions of a stylized female character with voluminous orange hair, pink top, and pearl necklace. The expressions are labeled with handwritten-style text above each portrait (e.g., “Default,” “Amused,” “Smile,” “Frown,” “Shout,” “Disgust,” “Shocked,” “Pout,” “Uh,” “Uhhhh”), arranged in two rows against a plain gray background. No real person’s face is identifiable — the character is clearly a 3D-rendered or digitally illustrated fictional model.",
@@ -598,41 +598,6 @@
       "origin": "EX4 autopilot pick for U2 lab-1"
     },
     {
-      "asset_id": "wikimedia:File:Mina Crandon automatic writing.png",
-      "assignments": [
-        {
-          "project_id": "tc",
-          "unit_id": "U2"
-        }
-      ],
-      "title": "Trance writing produced by the medium 'Margery' (Mina Crandon) in 1927 and reproduced in 1930",
-      "raw_title": "File:Mina Crandon automatic writing.png",
-      "alt_text": "A book page reproducing a sample of trance writing by the medium 'Margery', dated 17 March 1927, with lines of brush-written characters under a printed caption.",
-      "author": "Stanley De Brath (publisher of the reproduction)",
-      "author_death_year": 1937,
-      "licence": "PD-old-70",
-      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Mina_Crandon_automatic_writing.png",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Mina_Crandon_automatic_writing.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "provider": "wikimedia_commons",
-      "eu_term_ok": true,
-      "eu_term_reason": "Author died 1937; 1937+70 < 2026: public domain in the EU.",
-      "rights_status": "ok",
-      "flag_reason": null,
-      "commons_licence": "Public domain",
-      "commons_artist": "Stanley De Brath",
-      "date": "1930",
-      "cropped": false,
-      "rights_checked_on": "2026-10-05",
-      "rights_source": "Commons API imageinfo extmetadata (Artist, LicenseShortName, LicenseUrl, DateTimeOriginal); death years: standard biographical dates",
-      "approved_by": "autopilot (final review pending)",
-      "brief": "Trance writing produced by the medium 'Margery' (Mina Crandon) in 1927 and reproduced in 1930: script written without stopping to correct, the practice the Surrealists later borrowed as automatic writing.",
-      "vision_fit_score": 4,
-      "vision_model": "qwen3.8:27b (think:false)",
-      "vision_description": "This is a black-and-white photograph of a document page, likely from a book or journal, featuring a sample of handwritten Chinese calligraphy. The page includes printed English text at the top reading \"Margery's Trance Writing in red light\" and \"MAR 17 1927\", as well as a caption at the bottom identifying it as \"FIG. 13. Chinese writing by 'Margery' in red light.\" No person's face is visible in the image.",
-      "origin": "EX4 autopilot pick for U2 lab-2"
-    },
-    {
       "asset_id": "wikimedia:File:Gliding flight, Wright Glider, Kitty Hawk, NC. 1902.10459 A.S..jpg",
       "assignments": [
         {
@@ -773,41 +738,6 @@
       "origin": "EX4 autopilot pick for U3 masterclass-2"
     },
     {
-      "asset_id": "wikimedia:File:AGBell Notebook.jpg",
-      "assignments": [
-        {
-          "project_id": "tc",
-          "unit_id": "U3"
-        }
-      ],
-      "title": "Alexander Graham Bell's laboratory notebook, March 1876",
-      "raw_title": "File:AGBell Notebook.jpg",
-      "alt_text": "Two pages of Alexander Graham Bell's March 1876 laboratory notebook: a simple line sketch of a transmitting and a receiving instrument, with handwritten notes on the experiment.",
-      "author": "Alexander Graham Bell",
-      "author_death_year": 1922,
-      "licence": "PD-old-70",
-      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:AGBell_Notebook.jpg",
-      "source_file_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/AGBell_Notebook.jpg/1920px-AGBell_Notebook.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "provider": "wikimedia_commons",
-      "eu_term_ok": true,
-      "eu_term_reason": "Author died 1922; 1922+70 < 2026: public domain in the EU.",
-      "rights_status": "ok",
-      "flag_reason": null,
-      "commons_licence": "Public domain",
-      "commons_artist": "Alexander Graham Bell",
-      "date": "1876-03",
-      "cropped": false,
-      "rights_checked_on": "2026-10-05",
-      "rights_source": "Commons API imageinfo extmetadata (Artist, LicenseShortName, LicenseUrl, DateTimeOriginal); death years: standard biographical dates",
-      "approved_by": "autopilot (final review pending)",
-      "brief": "Alexander Graham Bell's laboratory notebook, March 1876: a quick sketch of the telephone transmitter that thinks the device through on paper before it is built.",
-      "vision_fit_score": 5,
-      "vision_model": "qwen3.8:27b (think:false)",
-      "vision_description": "This image is a photograph of a two-page spread from a handwritten journal or notebook, dated March 16th, 1876. The left page features a simple line drawing labeled \"Fig. 1\" of a device with a \"Transmitting End\" and \"Receiving End,\" accompanied by handwritten notes describing the experiment. The right page contains more dense handwritten text detailing the results of the test, including a quote of the words spoken and heard. No person's face is visible in the image.",
-      "origin": "EX4 autopilot pick for U3 masterclass-4"
-    },
-    {
       "asset_id": "wikimedia:File:Paul Klee Pädagogisches Skizzenbuch 10.jpg",
       "assignments": [
         {
@@ -852,7 +782,7 @@
       ],
       "title": "Orville Wright's diary entry for 17 December 1903",
       "raw_title": "File:Wright diary.jpg",
-      "alt_text": "A page of Orville Wright's diary for 17 December 1903: dense handwriting on lined paper recording that day's series of flight tests.",
+      "alt_text": "A page of Orville Wright's diary for 17 December 1903: dense handwriting on squared notebook paper recording that day's series of flight tests.",
       "author": "Orville Wright",
       "author_death_year": 1948,
       "licence": "PD-old-70",
@@ -1130,9 +1060,9 @@
           "unit_id": "ML-CPA"
         }
       ],
-      "title": "Loïe Fuller's Serpentine Dance, Folies-Bergère poster/photograph, 1890s",
+      "title": "Loïe Fuller's Serpentine Dance in a wood engraving of her 'transformations', before 1900",
       "raw_title": "File:La danse serpentine, Loïe Fuller et ses transformations.jpg",
-      "alt_text": "A 19th-century print of Loïe Fuller's Serpentine Dance in eight panels: the dancer's swirling silk takes the shape of serpents, a basket, a propeller and butterflies.",
+      "alt_text": "A 19th-century wood engraving of Loïe Fuller's Serpentine Dance in eight panels: the dancer's swirling silk takes the shape of serpents, a basket, a propeller and butterflies.",
       "author": "Unknown author (before 1900)",
       "author_death_year": null,
       "licence": "PD-EU",
@@ -1151,7 +1081,7 @@
       "rights_checked_on": "2026-10-05",
       "rights_source": "Commons API imageinfo extmetadata (Artist, LicenseShortName, LicenseUrl, DateTimeOriginal); death years: standard biographical dates",
       "approved_by": "autopilot (final review pending)",
-      "brief": "Loïe Fuller's Serpentine Dance, Folies-Bergère poster/photograph, 1890s: silk, light and movement are the material in which the idea is composed.",
+      "brief": "Loïe Fuller's Serpentine Dance in a wood engraving of her 'transformations', before 1900: silk, light and movement are the material in which the idea is composed.",
       "vision_fit_score": 4,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "This is a black-and-white printed illustration, likely an engraving or lithograph, depicting a female dancer in eight different poses and costumes, arranged in a grid format. The image includes French text labels beneath each figure, such as \"Les serpents,\" \"La corbeille,\" \"L'Espagnole,\" \"Au repos,\" \"L'hélice,\" and \"Les papillons,\" with a main title at the bottom reading \"LA DANSE SERPENTINE. — Mlle Loïe Fuller et ses transformations.\" The dancer's face is visible in most of the illustrations but is not clearly identifiable as a specific individual due to the artistic style and historical context.",
@@ -1165,9 +1095,9 @@
           "unit_id": "ML-CPA"
         }
       ],
-      "title": "Alfred Binet's 1911 results table for the Binet–Simon scale",
+      "title": "Alfred Binet's 1911 table of Binet–Simon test results",
       "raw_title": "File:Tableau de résultats au test de Binet-Simon.jpg",
-      "alt_text": "A printed 1911 table of Binet–Simon test results from two Paris schools: rows of test tasks cross-referenced with the children's scores.",
+      "alt_text": "A printed 1911 table of Binet–Simon test results from two Paris schools: rows of test tasks cross-referenced with pass rates (out of 10) for each age group.",
       "author": "Alfred Binet",
       "author_death_year": 1911,
       "licence": "PD-old-70",
@@ -1186,7 +1116,7 @@
       "rights_checked_on": "2026-10-05",
       "rights_source": "Commons API imageinfo extmetadata (Artist, LicenseShortName, LicenseUrl, DateTimeOriginal); death years: standard biographical dates",
       "approved_by": "autopilot (final review pending)",
-      "brief": "Alfred Binet's 1911 results table for the Binet–Simon scale: children ranked by scores on short tasks, a reminder that a score is not the designer in context.",
+      "brief": "Alfred Binet's 1911 table of Binet–Simon test results: pass rates per age group on short tasks, a reminder that a score is not the designer in context.",
       "vision_fit_score": 4,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "This is a black-and-white printed document, likely a page from a historical educational report or textbook, featuring a detailed table. The table, titled \"ÉCOLES DE M. L. ET DE M. M. SITUÉES A PARIS RUE DES RÉCOLLETS ET RUE SAMBRE-ET-MEUSE,\" cross-references various cognitive and academic tasks (\"DIFFÉRENTES ÉPREUVES\") against the ages of children (7 to 12 years old), with numerical scores recorded in the corresponding cells. No people or faces are visible in the image.",
@@ -1226,41 +1156,6 @@
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "This image is a black-and-white diagram, specifically a vertical flowchart or process chart. It displays a sequence of numbered steps (1, 6, 11, 9, 11, 12) connected by lines, with descriptive text next to each step detailing a business process for creating a purchase order. The visible text includes the title \"FIG. 8 PROPOSED PROCESS CHART FOR FIRST ORDERS\" and step descriptions such as \"C.E. WRITES REQUISITION,\" \"BUYER HANDS TO STENOGRAPHER,\" and \"MAIL ROOM PLACES IN MAIL BAGS.\" No person's face is identifiable in the image.",
       "origin": "EX4 autopilot pick for ML-CPA lab-1"
-    },
-    {
-      "asset_id": "wikimedia:File:Paul Klee Notebook BF 149.jpg",
-      "assignments": [
-        {
-          "project_id": "ml",
-          "unit_id": "ML-CPA"
-        }
-      ],
-      "title": "A page of Paul Klee's Bauhaus teaching notebook, 1922",
-      "raw_title": "File:Paul Klee Notebook BF 149.jpg",
-      "alt_text": "A handwritten page of Paul Klee's 1922 Bauhaus teaching notebook: a diagram of two linked oval areas with arrows, surrounded by notes in German.",
-      "author": "Paul Klee",
-      "author_death_year": 1940,
-      "licence": "PD-old-70",
-      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Paul_Klee_Notebook_BF_149.jpg",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Paul_Klee_Notebook_BF_149.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "provider": "wikimedia_commons",
-      "eu_term_ok": true,
-      "eu_term_reason": "Author died 1940; 1940+70 < 2026: public domain in the EU.",
-      "rights_status": "ok",
-      "flag_reason": null,
-      "commons_licence": "Public domain",
-      "commons_artist": "Paul Klee",
-      "date": "1922",
-      "cropped": false,
-      "rights_checked_on": "2026-10-05",
-      "rights_source": "Commons API imageinfo extmetadata (Artist, LicenseShortName, LicenseUrl, DateTimeOriginal); death years: standard biographical dates",
-      "approved_by": "autopilot (final review pending)",
-      "brief": "A page of Paul Klee's Bauhaus teaching notebook, 1922: a maker's own trail of exercises and notes, the kind of record you analyse in your own Lab sequence.",
-      "vision_fit_score": 4,
-      "vision_model": "qwen3.8:27b (think:false)",
-      "vision_description": "This is a photograph of a handwritten document on lined paper, featuring a diagram and text in German. The page, numbered \"146\" in the top left, contains a central diagram with two oval shapes labeled \"L = Gebiet\" and \"F = Gebiet,\" connected by arrows and lines to a central point \"M,\" with annotations like \"linear activ,\" \"flächen passiv,\" and \"Gebiet der medialen Zone.\" Below the diagram is a table titled \"Anmerkung Sprachliche Analogie\" with columns for \"activ,\" \"medial,\" and \"passiv,\" containing example sentences, followed by a concluding paragraph about \"Kompositorische Versuche.\" No person's face is visible in the image.",
-      "origin": "EX4 autopilot pick for ML-CPA lab-2"
     }
   ]
 }

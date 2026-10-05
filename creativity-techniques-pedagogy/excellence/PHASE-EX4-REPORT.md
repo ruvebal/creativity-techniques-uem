@@ -5,12 +5,12 @@
 | **status** | VERIFYING |
 | **started_at** | 2026-10-04 (evening; interrupted once by an API rate limit, resumed 2026-10-05) |
 | **finished_at** | 2026-10-05 (implementation done; awaiting `cascade-harness.sh verify` and cold review) |
-| **cold_review** | not yet filed |
+| **cold_review** | round 1 FAIL (F1, F2 blocking) — fixed in round 2 (below); round-2 review pending |
 | **cascade_amended** | none |
 | **branch / worktree** | `cascade/excellence-4` · `creativity-techniques-uem-integration-excellence-4` (`.cascade-lane` = `excellence`) |
 | **mode** | AUTOPILOT (§0: all sources usable, rights flagged not blocking; §2 EX4 row) |
 
-## Outcome
+## Outcome (round 1 — superseded by the round-2 section at the end)
 
 | Deck | Image slides bound | Core (masterclass + lab) imaged | Flagged |
 | --- | --- | --- | --- |
@@ -307,3 +307,40 @@ $ bash …/PHASE-EX0..EX3.exit-gate.sh → failures: 0, 0, 0, 0
 ## Resume point
 
 Run `cascade-harness.sh verify <integration>/creativity-techniques-pedagogy/excellence PHASE-EX4.md <this worktree>`, then a fresh `cascade-cold-reviewer`. Do not open EX5 until EX4 is closed by the reviewer and professor.
+
+## Round 2 — fixes after cold review (2026-10-05)
+
+Status stays **VERIFYING**. The cold review file `PHASE-EX4-COLD-REVIEW.md` is untracked; the orchestrator archives it. I have not edited or committed it.
+
+| Finding | Fix |
+| --- | --- |
+| F1 (blocking) U2 `lab-2` Margery "trance writing" | Unbound → diagram. Rescored 2/5: a 1927 séance exhibit of neat Classical Chinese, not uncensored writing, and later than Surrealist automatic writing. Brief rewritten to the target image (a Surrealist automatic-writing page). Asset removed from the registry; rendition `2d3944251498bdc9.webp` deleted as an orphan |
+| F2 (blocking) U3 `masterclass-4` "Sketch to think" | Bell notebook unbound (rescored 3/5: it records a device already built and tested). I opened the shortlisted Leonardo *Design for a Flying Machine* and judged it 3/5 by eye: one fairly finished drawing with mirror-writing notes, only 508 px wide, not the several quick arrangements the slide describes. So the slide goes to **diagram** with an honest target brief. Rendition `666666fbfc6d691d.webp` deleted |
+| F4 | Shortlist headers now say fit came from `qwen3.8:27b` (think:false), not llama3.2-vision |
+| F7 | Alt texts and briefs corrected: Dollond tools laid out beside the shagreen case; giant red "DADA" letters; Sprite Fright has 17 rendered variants; Wright diary on squared paper; Loïe Fuller is a wood engraving; the Binet table gives pass rates per age group, not a ranking |
+| F9 | Klee "three cases" kept in U3 `masterclass-5` (stronger fit: several cases = opening the solution space); ML `lab-2` Klee notebook unbound → diagram (no other candidate). Rendition `5b9a1cdd450330e4.webp` deleted. The master lecture still uses three Gilbreth 1921 charts (analysis-model, masterclass-1, lab-1); this is acceptable per the coordinator and noted in FINAL-REVIEW §2 |
+| F8 | FINAL-REVIEW EX4 section lists the tc assets accepted in Profield on 2026-10-04. In the 21:00–21:29 UTC window these were *An illustration of gates* and *12" gun in Action, Naval* (both U1 + U4); earlier the same day, eight more. All are read-only facts; none is bound |
+| F3, F5, F6 | Not changed: F3 ruled acceptable; F5 (3 candidates on every slide) and F6 (validator does not see curator-only flags) are non-blocking and stay open for the reviewer/orchestrator |
+
+### Final state (round 2)
+
+| Deck | Image slides bound | Core imaged | Flagged |
+| --- | --- | --- | --- |
+| U1 | 9 / 10 | 7 / 8 (88%) | 2 |
+| U2 | 8 / 10 | 6 / 8 (75%) | 2 |
+| U3 | 8 / 10 | 6 / 8 (75%) | 0 |
+| ML-CPA | 8 / 10 | 6 / 8 (75%) | 4 |
+
+33 assets, no reuse. Diagram slides: U1 `masterclass-2`, U2 `masterclass-2`, U2 `lab-2`, U3 `masterclass-3`, U3 `masterclass-4`, ML `masterclass-3`, ML `lab-2`. The per-deck table above is round 1; the current bindings are in FINAL-REVIEW §2 (regenerated from the deck JSON) and `curation/autopilot-assets.json`.
+
+### Commands (round 2)
+
+```text
+$ node scripts/rehydrate-student-media.mjs --rights=flag
+  tc/U1: 9 · tc/U2: 8 · tc/U3: 8 · ml/ML-CPA: 8 bound; orphans removed 3
+$ node scripts/validate-decks.mjs --strict --rights=flag   → 0 error(s), 12 warning(s)
+$ node --test scripts/tests/index.js                         → pass 30, fail 0
+$ PHASE-EX4.exit-gate.sh → failures: 0 · EX0, EX1, EX2, EX3 → failures: 0 each
+```
+
+No new local model calls in round 2. The two rebinding checks were done by eye: the Leonardo sheet in the scratch thumbnail, and the reviewer's descriptions for the other changes.

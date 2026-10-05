@@ -2,7 +2,7 @@
 
 Private curation record (not published). Rights fields read from the Wikimedia Commons file page via the API (`imageinfo.extmetadata`: Artist, LicenseShortName, LicenseUrl, DateTimeOriginal), not from search snippets; author death years are standard biographical dates. EU term = author death year + 70 < 2026, or the holder's licence. Under AUTOPILOT §0 every source is usable; doubts set `rights_status: flagged`.
 Discovery: Wikimedia Commons search API (incl. Met Open Access, Rijksmuseum, NGA, NYPL, LoC/NASA mirrors) and the existing media-prospector indexes (read only).
-Fit score: llama3.2-vision description compared with the brief by the curator (1–5); bind only ≥ 4.
+Fit score: local vision description by qwen3.8:27b (think:false) — not llama3.2-vision, which the installed Ollama 0.34.1 cannot load — compared with the brief by the curator (1–5); bind only ≥ 4. Round 2 (cold review) rescored U2 lab-2, U3 masterclass-4 and ML lab-2.
 
 ## `cover`
 
@@ -90,7 +90,7 @@ Fit score: llama3.2-vision description compared with the brief by the curator (1
 
 | # | Candidate | Author (d.) | Licence | EU term | rights_status | Fit | Note |
 |---|---|---|---|---|---|---|---|
-| 1 | [Mina Crandon automatic writing.png](https://commons.wikimedia.org/wiki/File:Mina_Crandon_automatic_writing.png) · [thumb](https://upload.wikimedia.org/wikipedia/commons/4/4c/Mina_Crandon_automatic_writing.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled) | Stanley De Brath (publisher of the reproduction) (1937) | PD-old-70 | ok | ok | 4 | BOUND. trance-writing sample page with caption |
+| 1 | [Mina Crandon automatic writing.png](https://commons.wikimedia.org/wiki/File:Mina_Crandon_automatic_writing.png) · [thumb](https://upload.wikimedia.org/wikipedia/commons/4/4c/Mina_Crandon_automatic_writing.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled) | Stanley De Brath (publisher of the reproduction) (1937) | PD-old-70 | ok | ok | 2 | round 2 (cold review F1): neat columns of Classical Chinese shown as a séance exhibit; not uncensored continuous writing; chronology after Surrealism |
 | 2 | [HélèneSmith martien01.jpg](https://commons.wikimedia.org/wiki/File:H%C3%A9l%C3%A8neSmith_martien01.jpg) · [thumb](https://upload.wikimedia.org/wikipedia/commons/4/43/H%C3%A9l%C3%A8neSmith_martien01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled) | Hélène Smith (1929) | PD-old-70 | ok | ok | 3 | invented script; less legible as 'writing without correcting' |
 | 3 | [Francis Ward Monck psychograph 2.png](https://commons.wikimedia.org/wiki/File:Francis_Ward_Monck_psychograph_2.png) · [thumb](https://upload.wikimedia.org/wikipedia/commons/7/76/Francis_Ward_Monck_psychograph_2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled) | George Henslow (publisher) (1925) | PD-old-70 | ok | ok | 2 | drawing with spiral text |
 

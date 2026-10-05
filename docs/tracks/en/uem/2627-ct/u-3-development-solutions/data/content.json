@@ -99,25 +99,6 @@ layout: null
       "cropped": false
     },
     {
-      "media_slot_id": "U3.masterclass-4",
-      "asset_id": "wikimedia:File:AGBell Notebook.jpg",
-      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/666666fbfc6d691d.webp",
-      "source_file_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/AGBell_Notebook.jpg/1920px-AGBell_Notebook.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:AGBell_Notebook.jpg",
-      "title": "Alexander Graham Bell's laboratory notebook, March 1876",
-      "alt_text": "Two pages of Alexander Graham Bell's March 1876 laboratory notebook: a simple line sketch of a transmitting and a receiving instrument, with handwritten notes on the experiment.",
-      "author": "Alexander Graham Bell",
-      "licence": "PD-old-70",
-      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "provider": "Wikimedia Commons",
-      "credit_line": "Alexander Graham Bell · Wikimedia Commons",
-      "author_death_year": 1922,
-      "eu_term_ok": true,
-      "eu_term_reason": "Author died 1922; 1922+70 < 2026: public domain in the EU.",
-      "rights_status": "ok",
-      "cropped": false
-    },
-    {
       "media_slot_id": "U3.masterclass-5",
       "asset_id": "wikimedia:File:Paul Klee Pädagogisches Skizzenbuch 10.jpg",
       "asset_url": "/creativity-techniques-uem/assets/images/deck-media/2ef7976e52c1675b.webp",
@@ -143,7 +124,7 @@ layout: null
       "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Wright_diary.jpg",
       "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Wright_diary.jpg",
       "title": "Orville Wright's diary entry for 17 December 1903",
-      "alt_text": "A page of Orville Wright's diary for 17 December 1903: dense handwriting on lined paper recording that day's series of flight tests.",
+      "alt_text": "A page of Orville Wright's diary for 17 December 1903: dense handwriting on squared notebook paper recording that day's series of flight tests.",
       "author": "Orville Wright",
       "licence": "PD-old-70",
       "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
@@ -265,7 +246,7 @@ layout: null
     {
       "slide_id": "masterclass-4",
       "slide_role": "masterclass",
-      "background_kind": "curated",
+      "background_kind": "diagram",
       "heading": "4 · Sketch to think",
       "sentence": "Three quick arrangements can show relationships that one polished drawing hides.",
       "quote": "Sketching enables exploration of the problem space and the solution space to proceed together.",
@@ -274,9 +255,7 @@ layout: null
         "label": "(Cross 2006, 46)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-3-development-solutions/#ref-cross-2006"
       },
-      "image_brief": "Alexander Graham Bell's laboratory notebook, March 1876: a quick sketch of the telephone transmitter that thinks the device through on paper before it is built.",
-      "asset_id": "wikimedia:File:AGBell Notebook.jpg",
-      "media_slot_id": "U3.masterclass-4"
+      "image_brief": "A sheet of quick alternative sketches by a designer or artist — several arrangements of one idea side by side — showing sketching as a way of thinking before anything is built."
     },
     {
       "slide_id": "masterclass-5",

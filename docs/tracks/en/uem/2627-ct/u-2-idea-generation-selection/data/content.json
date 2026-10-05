@@ -86,7 +86,7 @@ layout: null
       "source_file_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Sprite_Fright-concept_art-Victoria_01.png/1920px-Sprite_Fright-concept_art-Victoria_01.png",
       "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Sprite_Fright-concept_art-Victoria_01.png",
       "title": "Concept-art sheet for the Blender Studio short Sprite Fright (2021)",
-      "alt_text": "Concept-art sheet from the short film Sprite Fright: sixteen versions of one red-haired character's face, each labelled with a different expression.",
+      "alt_text": "Concept-art sheet from the short film Sprite Fright: seventeen labelled versions of one red-haired character's head, each with a different expression.",
       "author": "Julien Kaspar / Blender Foundation",
       "licence": "CC-BY-4.0",
       "licence_url": "https://creativecommons.org/licenses/by/4.0/",
@@ -191,25 +191,6 @@ layout: null
       "eu_term_ok": true,
       "eu_term_reason": "anonymous photograph c. 1920; identifiable sitter (Kōdō Sawaki, public religious teacher, d. 1965)",
       "rights_status": "flagged",
-      "cropped": false
-    },
-    {
-      "media_slot_id": "U2.lab-2",
-      "asset_id": "wikimedia:File:Mina Crandon automatic writing.png",
-      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/2d3944251498bdc9.webp",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Mina_Crandon_automatic_writing.png",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Mina_Crandon_automatic_writing.png",
-      "title": "Trance writing produced by the medium 'Margery' (Mina Crandon) in 1927 and reproduced in 1930",
-      "alt_text": "A book page reproducing a sample of trance writing by the medium 'Margery', dated 17 March 1927, with lines of brush-written characters under a printed caption.",
-      "author": "Stanley De Brath (publisher of the reproduction)",
-      "licence": "PD-old-70",
-      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "provider": "Wikimedia Commons",
-      "credit_line": "Stanley De Brath (publisher of the reproduction) · Wikimedia Commons",
-      "author_death_year": 1937,
-      "eu_term_ok": true,
-      "eu_term_reason": "Author died 1937; 1937+70 < 2026: public domain in the EU.",
-      "rights_status": "ok",
       "cropped": false
     }
   ],
@@ -333,7 +314,7 @@ layout: null
           "dcterms:subject=generation-selection"
         ]
       },
-      "image_brief": "Concept-art sheet for the Blender Studio short Sprite Fright (2021): many variants of one character's head drawn side by side before one is chosen — generate first, then select.",
+      "image_brief": "Concept-art sheet for the Blender Studio short Sprite Fright (2021): many labelled variants of one character's head rendered side by side before one is chosen — generate first, then select.",
       "asset_id": "wikimedia:File:Sprite Fright-concept art-Victoria 01.png",
       "media_slot_id": "U2.masterclass-1"
     },
@@ -563,7 +544,7 @@ layout: null
     {
       "slide_id": "lab-2",
       "slide_role": "lab_exercise",
-      "background_kind": "curated",
+      "background_kind": "diagram",
       "heading": "Exercise 2 · Automatic writing after concentration",
       "sentence": "Immediately after the concentration period, write continuously for the interval indicated in class. Do not correct, censor, or organise the text while writing.",
       "portfolio_bound": true,
@@ -590,9 +571,7 @@ layout: null
         "label": "(Tao of Creativity)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#tao-of-creativity"
       },
-      "image_brief": "Trance writing produced by the medium 'Margery' (Mina Crandon) in 1927 and reproduced in 1930: script written without stopping to correct, the practice the Surrealists later borrowed as automatic writing.",
-      "asset_id": "wikimedia:File:Mina Crandon automatic writing.png",
-      "media_slot_id": "U2.lab-2"
+      "image_brief": "A page of Surrealist automatic writing, such as Breton and Soupault's manuscript of Les Champs magnétiques (1919): text written continuously without correcting, the practice this exercise borrows."
     },
     {
       "slide_id": "outro",

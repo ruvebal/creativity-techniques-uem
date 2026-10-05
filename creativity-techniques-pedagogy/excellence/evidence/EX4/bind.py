@@ -37,7 +37,7 @@ for unit,slides in plan.items():
                 brief=brief, vision_fit_score=scores[chosen][0], vision_model='qwen3.8:27b (think:false)',
                 vision_description=vis[f'{unit}|{sid}|{chosen}']['description'],
                 origin=f'EX4 autopilot pick for {unit} {sid}')
-            if prev.get('origin') and 'EX3' in prev['origin']: rec['origin']=prev['origin']+'; EX4: re-briefed and vision-checked'
+            if prev.get('origin'): rec['origin']=prev['origin'] if 'EX4' in prev['origin'] or 'EX3' not in prev['origin'] else prev['origin']+'; EX4: re-briefed and vision-checked'
             a={'project_id':PROJ[unit],'unit_id':unit}
             if a not in rec['assignments']: rec['assignments'].append(a)
             records[aid]=rec
