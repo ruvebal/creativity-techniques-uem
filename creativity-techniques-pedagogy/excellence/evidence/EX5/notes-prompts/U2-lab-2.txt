@@ -1,0 +1,28 @@
+You write speaker notes for a university teacher (Creativity Techniques, year-3 design students).
+Use ONLY the facts in the SLIDE and LESSON text below. Do not add names, dates, numbers, books, quotes or examples that are not in that text.
+Plain English, short sentences, the voice of a teacher talking to the class.
+
+Output exactly these lines and nothing else:
+TALK: <talking point 1>
+TALK: <talking point 2>
+TALK: <talking point 3, optional>
+SOURCE: <the citation exactly as written in the text, e.g. (Craft 2003, 43), or: none>
+DEBATE: <one question to ask the class>
+
+SLIDE:
+{
+ "heading": "Exercise 2 · Automatic writing after concentration",
+ "sentence": "Immediately after the concentration period, write continuously for the interval indicated in class. Do not correct, censor, or organise the text while writing.",
+ "quote": "Automatic writing is a record of attention in motion, not a demand to mistake every association for a finished idea.",
+ "portfolio_trace": "Preserve the unedited writing, identify the point at which attention shifted, and add a short reflection on what the exercise made perceptible or possible.",
+ "citation": "(Tao of Creativity)"
+}
+
+LESSON:
+### Exercise 2 — Automatic writing after concentration
+
+Immediately after the concentration period, write continuously for the interval indicated in class. Do not correct, censor, or organise the text while writing. Let the writing register associations, images, questions, and possible directions before selection begins.
+
+**Portfolio trace:** preserve the unedited writing, identify the point at which attention shifted, and add a short reflection on what the exercise made perceptible or possible.
+
+---

@@ -1,6 +1,6 @@
 import json, re, sys
 from rights import rights, LICURL
-from choices import S, BRIEF_EDITS
+from choices import S, BRIEF_EDITS, SOURCE_TITLES
 W='/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/creativity-techniques-uem-integration-excellence-4'
 DECK={'U1':'docs/tracks/en/uem/2627-ct/u-1-introduction-creativity','U2':'docs/tracks/en/uem/2627-ct/u-2-idea-generation-selection','U3':'docs/tracks/en/uem/2627-ct/u-3-development-solutions','ML-CPA':'docs/tracks/en/uem/2627-ml/creative-process-analysis'}
 PROJ={'U1':'tc','U2':'tc','U3':'tc','ML-CPA':'ml'}
@@ -22,7 +22,7 @@ for unit,slides in plan.items():
             m=meta[chosen]; r=rights(chosen,m)
             prev=old.get(aid,{})
             rec=records.get(aid) or dict(
-                asset_id=aid, assignments=[], title=brief.split(':')[0].strip(),
+                asset_id=aid, assignments=[], title=SOURCE_TITLES.get(aid) or brief.split(':')[0].strip(),  # EX5/A7: source title
                 raw_title=prev.get('raw_title') or chosen,
                 alt_text=alt, author=r['author'], author_death_year=r['author_death_year'],
                 licence=r['licence'], licence_url=LICURL.get(r['licence'], 'https://creativecommons.org/publicdomain/mark/1.0/'),

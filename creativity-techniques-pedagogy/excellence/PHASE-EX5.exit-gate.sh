@@ -38,4 +38,13 @@ for p in pathlib.Path(sys.argv[1]).glob("u-[123]-*/data/content.json"):
 print("\n".join(bad)); sys.exit(1 if bad else 0)
 PY
 
+# Orchestrator gate amendment (EX5 round 2, strengthening): real-browser layout check.
+# SKIP (exit 0) only when no Chrome is installed; on this machine Chrome is present.
+DL_LOG="$(mktemp -t excellence-deck-layout)"
+if node scripts/tests/browser/deck-layout.mjs > "$DL_LOG" 2>&1; then
+  if grep -q "SKIP" "$DL_LOG"; then fail "browser layout check skipped (no Chrome)"; else pass "browser layout check: $(tail -1 "$DL_LOG")"; fi
+else
+  fail "browser layout check"; tail -15 "$DL_LOG"
+fi
+
 finish

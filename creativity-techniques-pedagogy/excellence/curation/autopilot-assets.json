@@ -10,7 +10,7 @@
           "unit_id": "U1"
         }
       ],
-      "title": "Leonardo da Vinci, studies of the Virgin and Child with a cat, c. 1478–81",
+      "title": "Two studies of the Virgin and Child with a cat and three studies of the Child with a cat",
       "raw_title": "File:Leonardo da Vinci - 1860,0616.98, Two studies of the Virgin and Child with a cat and three studies of the Child with a cat.jpg",
       "alt_text": "Pen-and-ink sheet by Leonardo da Vinci with two studies of the Virgin holding the Christ Child and a cat, and three smaller studies of the Child with the cat, each pose tried differently.",
       "author": "Leonardo da Vinci",
@@ -35,7 +35,8 @@
       "vision_fit_score": 5,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "Based on the image provided, here is a literal description:\n\nThis is a photograph of a Renaissance-era drawing executed in brown ink and wash on paper, depicting several studies of figures, including a woman holding a child, a profile of a face, and various poses of infants. Visible text at the bottom of the mount includes the catalog numbers \"B.B. 1024\" and \"F.&F. 98,\" the name \"LEONARDO DA VINCI,\" and a ruler marked \"BRITISH MUSEUM.\" No person's face is clearly identifiable as a specific individual, as the figures are generic studies.",
-      "origin": "EX4 autopilot pick for U1 cover"
+      "origin": "EX4 autopilot pick for U1 cover",
+      "brief_title": "Leonardo da Vinci, studies of the Virgin and Child with a cat, c. 1478–81"
     },
     {
       "asset_id": "wikimedia:File:Beat the Whites with the Red Wedge.jpg",
@@ -45,7 +46,7 @@
           "unit_id": "U1"
         }
       ],
-      "title": "El Lissitzky, Beat the Whites with the Red Wedge, 1919–20",
+      "title": "Beat the Whites with the Red Wedge",
       "raw_title": "File:Beat the Whites with the Red Wedge.jpg",
       "alt_text": "El Lissitzky's 1919–20 poster: a sharp red triangle drives into a white circle on a black and white field, with Russian words placed along the shapes.",
       "author": "El Lissitzky",
@@ -70,7 +71,8 @@
       "vision_fit_score": 5,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "This is a graphic print or poster featuring bold, abstract geometric shapes in red, black, and white, including a large red triangle, a white circle, and various lines and rectangles. The image contains Cyrillic text: \"КЛИНОМ КРАСНЫМ\" (With a Red Wedge) on the left, \"БЕЙ БЕЛЫХ\" (Beat the Whites) on the right, and smaller text at the bottom reading \"N 19 ЛИТИЗАТ ПОЛИТУПРАВЛЕНИЯ ЗАПФРОНТА\" and \"УНОВИС\". No person's face is visible or identifiable in the image.",
-      "origin": "EX4 autopilot pick for U1 analysis-model"
+      "origin": "EX4 autopilot pick for U1 analysis-model",
+      "brief_title": "El Lissitzky, Beat the Whites with the Red Wedge, 1919–20"
     },
     {
       "asset_id": "wikimedia:File:Studies for the Libyan Sibyl (recto); Studies for the Libyan Sibyl and a small Sketch for a Seated Figure (verso) MET DP807402.jpg",
@@ -80,7 +82,7 @@
           "unit_id": "U1"
         }
       ],
-      "title": "Michelangelo, a sheet of studies connected with the Libyan Sibyl, c. 1510–11",
+      "title": "Studies for the Libyan Sibyl",
       "raw_title": "File:Studies for the Libyan Sibyl (recto); Studies for the Libyan Sibyl and a small Sketch for a Seated Figure (verso) MET DP807402.jpg",
       "alt_text": "Chalk drawing by Michelangelo: a large, carefully modelled study of a bent leg and torso, with two small quick sketches of a seated figure in the corners.",
       "author": "Michelangelo Buonarroti",
@@ -105,7 +107,8 @@
       "vision_fit_score": 4,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "This is a monochrome drawing, likely executed in charcoal or soft pencil on aged, textured paper. It depicts a study of a human figure's lower body and legs in a dynamic pose, with smaller, less detailed studies of figures in the upper right and lower right corners. Visible text includes the number \"56\" in the top right corner and \"n° 2\" near the bottom center. No person's face is clearly identifiable in any of the figures.",
-      "origin": "EX4 autopilot pick for U1 masterclass-1"
+      "origin": "EX4 autopilot pick for U1 masterclass-1",
+      "brief_title": "Michelangelo, a sheet of studies connected with the Libyan Sibyl, c. 1510–11"
     },
     {
       "asset_id": "wikimedia:File:GemPaperClipAdvertisementJan1893.png",
@@ -115,7 +118,7 @@
           "unit_id": "U1"
         }
       ],
-      "title": "The Gem paper clip (1890s)",
+      "title": "Gem paper clip advertisement, January 1893",
       "raw_title": "File:GemPaperClipAdvertisementJan1893.png",
       "alt_text": "An 1893 newspaper advertisement for the Gem paper clip: a large line drawing of the double-loop wire clip beside text praising it for holding papers together.",
       "author": "Unknown advertiser (1893)",
@@ -140,7 +143,8 @@
       "vision_fit_score": 4,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "This is a black-and-white printed advertisement, likely from a newspaper or catalog, featuring a large line drawing of a standard bidentate paper clip on the left. The text, set in a bold serif font, advertises the \"GEM PAPER CLIP\" as the \"Only satisfactory device for temporary attachment of all kinds of papers,\" noting it is \"Better than pins or clamps,\" causes \"No mutilation of papers,\" and can be \"Quickly applied and removed.\" The price is listed as \"25 cents a box,\" and the seller is identified as \"CUSHMAN & DENISON, 172 9th Avenue, N. Y.\" No person's face is visible in the image.",
-      "origin": "EX4 autopilot pick for U1 masterclass-3"
+      "origin": "EX4 autopilot pick for U1 masterclass-3",
+      "brief_title": "The Gem paper clip (1890s)"
     },
     {
       "asset_id": "wikimedia:File:Auguste Rodin - The Thinker - 1917.42 - Cleveland Museum of Art.tif",
@@ -150,7 +154,7 @@
           "unit_id": "U1"
         }
       ],
-      "title": "Auguste Rodin, The Thinker (modelled 1880–81)",
+      "title": "The Thinker",
       "raw_title": "File:Auguste Rodin - The Thinker - 1917.42 - Cleveland Museum of Art.tif",
       "alt_text": "Rodin's bronze The Thinker: a seated nude man leans forward, chin resting on his hand, absorbed in thought before acting.",
       "author": "Auguste Rodin (sculpture); Cleveland Museum of Art (photograph, CC0)",
@@ -175,7 +179,8 @@
       "vision_fit_score": 4,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "This is a photograph of a bronze sculpture depicting a nude male figure in a seated, contemplative pose, with his right elbow resting on his left knee and his chin supported by his hand. The figure’s muscular anatomy is highly detailed, and the base appears rough and abstract, contrasting with the smoothness of the body. There is no visible text, and while the face is clearly rendered, it is not identifiable as a specific real person.",
-      "origin": "EX4 autopilot pick for U1 masterclass-4"
+      "origin": "EX4 autopilot pick for U1 masterclass-4",
+      "brief_title": "Auguste Rodin, The Thinker (modelled 1880–81)"
     },
     {
       "asset_id": "wikimedia:File:Pocket set of drawing instruments MET DP232308.jpg",
@@ -185,7 +190,7 @@
           "unit_id": "U1"
         }
       ],
-      "title": "A pocket set of drawing instruments by Peter Dollond, London, c. 1755",
+      "title": "Pocket set of drawing instruments",
       "raw_title": "File:Pocket set of drawing instruments MET DP232308.jpg",
       "alt_text": "An 18th-century pocket set of drawing instruments by Peter Dollond: a ruler, a scale and four brass and steel instruments laid out beside their open shagreen case.",
       "author": "Peter Dollond (instrument maker); The Metropolitan Museum of Art (photograph, CC0)",
@@ -210,7 +215,8 @@
       "vision_fit_score": 5,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "This is a photograph of an antique drafting or surveying instrument set, including a brass ruler with markings, a white scale bar inscribed with \"Galland London,\" and several precision metal tools such as dividers and scribes. The set is housed in a decorative green tortoiseshell-patterned case with a hinged lid, which is open to reveal internal compartments. No person’s face is visible in the image.",
-      "origin": "EX4 autopilot pick for U1 masterclass-5"
+      "origin": "EX4 autopilot pick for U1 masterclass-5",
+      "brief_title": "A pocket set of drawing instruments by Peter Dollond, London, c. 1755"
     },
     {
       "asset_id": "wikimedia:File:Post-It Notes Wall at the Fast Company Innovation Festival (30772875917).jpg",
@@ -220,7 +226,7 @@
           "unit_id": "U1"
         }
       ],
-      "title": "A Post-it 'Teamwork Tools' display wall at a 2018 innovation festival",
+      "title": "Post-It Notes Wall at the Fast Company Innovation Festival",
       "raw_title": "File:Post-It Notes Wall at the Fast Company Innovation Festival (30772875917).jpg",
       "alt_text": "A promotional wall covered in coloured sticky notes in vertical stripes around a screen reading 'Post-it Teamwork Tools', with product baskets on the counter below.",
       "author": "Nan Palmero",
@@ -245,7 +251,8 @@
       "vision_fit_score": 4,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "This is a photograph of a retail or promotional display for Post-it products. The image shows a large wall covered in colorful sticky notes arranged in vertical stripes, with a central screen displaying the text \"Post-it TEAMWORK TOOLS @postit.\" Below the screen, there are baskets and containers filled with various Post-it products on a counter. No person's face is clearly identifiable in the image.",
-      "origin": "EX4 autopilot pick for U1 masterclass-6"
+      "origin": "EX4 autopilot pick for U1 masterclass-6",
+      "brief_title": "A Post-it 'Teamwork Tools' display wall at a 2018 innovation festival"
     },
     {
       "asset_id": "wikimedia:File:Marcel Duchamp, 1917, Fountain, photograph by Alfred Stieglitz.jpg",
@@ -255,7 +262,7 @@
           "unit_id": "U1"
         }
       ],
-      "title": "Marcel Duchamp, Fountain, 1917, in Alfred Stieglitz's photograph",
+      "title": "Fountain",
       "raw_title": "File:Marcel Duchamp, 1917, Fountain, photograph by Alfred Stieglitz.jpg",
       "alt_text": "Alfred Stieglitz's 1917 photograph of Duchamp's Fountain: a white porcelain urinal turned on its back on a plinth, signed 'R. Mutt 1917', with an entry tag hanging from it.",
       "author": "Alfred Stieglitz (photograph) / Marcel Duchamp (readymade)",
@@ -280,7 +287,8 @@
       "vision_fit_score": 5,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "This is a black-and-white photograph of a white ceramic urinal mounted on a pedestal, viewed from the front. The urinal has the text \"R. Mutt 1917\" handwritten in black ink on its left side. A paper tag with illegible text hangs from the left mounting bracket. No person's face is visible in the image.",
-      "origin": "EX4 autopilot pick for U1 lab-1"
+      "origin": "EX4 autopilot pick for U1 lab-1",
+      "brief_title": "Marcel Duchamp, Fountain, 1917, in Alfred Stieglitz's photograph"
     },
     {
       "asset_id": "wikimedia:File:Theo van Doesburg and Kurt Schwitters, Kleine Dada Soirée (Small Dada Evening), 1922, NGA 154076.jpg",
@@ -290,9 +298,9 @@
           "unit_id": "U1"
         }
       ],
-      "title": "Theo van Doesburg and Kurt Schwitters, Kleine Dada Soirée poster, 1922",
+      "title": "Kleine Dada Soirée (Small Dada Evening)",
       "raw_title": "File:Theo van Doesburg and Kurt Schwitters, Kleine Dada Soirée (Small Dada Evening), 1922, NGA 154076.jpg",
-      "alt_text": "The 1922 Kleine Dada Soirée poster: words in German and Dutch, in many sizes, typefaces and directions, jumbled around giant red letters spelling 'DADA'.",
+      "alt_text": "The 1922 Kleine Dada Soirée poster: words in German, Dutch and French, in many sizes, typefaces and directions, jumbled around giant red letters spelling 'DADA'.",
       "author": "Theo van Doesburg and Kurt Schwitters",
       "author_death_year": 1948,
       "licence": "CC0",
@@ -315,7 +323,8 @@
       "vision_fit_score": 5,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "This is a printed poster or broadside, likely from the early 20th century, featuring a chaotic collage of text in multiple languages (primarily German and Dutch) overlaid on a background of bold red diagonal stripes. The typography is highly experimental, with words of varying sizes, orientations, and fonts jumbled together to create a dynamic, fragmented composition. No person's face is visible; the image consists entirely of abstract graphic elements and typographic design.",
-      "origin": "EX4 autopilot pick for U1 lab-2"
+      "origin": "EX4 autopilot pick for U1 lab-2",
+      "brief_title": "Theo van Doesburg and Kurt Schwitters, Kleine Dada Soirée poster, 1922"
     },
     {
       "asset_id": "wikimedia:File:Darwin Tree 1837.png",
@@ -325,7 +334,7 @@
           "unit_id": "U2"
         }
       ],
-      "title": "Charles Darwin's 'I think' sketch in Notebook B, 1837",
+      "title": "Darwin Tree, 1837",
       "raw_title": "File:Darwin Tree 1837.png",
       "alt_text": "A page of Charles Darwin's 1837 notebook headed 'I think', with a small branching tree sketch whose lines split, some ending and some reaching the letters A, B, C and D.",
       "author": "Charles Darwin",
@@ -350,7 +359,8 @@
       "vision_fit_score": 5,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "This is a photograph of a historical handwritten document on aged, yellowed paper. It features a central, branching tree-like diagram with nodes labeled A, B, C, and D, surrounded by extensive cursive text in English, including phrases like \"I think\" and \"The first gradation.\" No person's face is visible in the image.",
-      "origin": "EX4 autopilot pick for U2 cover"
+      "origin": "EX4 autopilot pick for U2 cover",
+      "brief_title": "Charles Darwin's 'I think' sketch in Notebook B, 1837"
     },
     {
       "asset_id": "wikimedia:File:Study for \"A Sunday on La Grande Jatte\" MET DP259921.jpg",
@@ -360,7 +370,7 @@
           "unit_id": "U2"
         }
       ],
-      "title": "Georges Seurat, oil study for A Sunday on La Grande Jatte, 1884",
+      "title": "Study for \"A Sunday on La Grande Jatte\"",
       "raw_title": "File:Study for \"A Sunday on La Grande Jatte\" MET DP259921.jpg",
       "alt_text": "Seurat's 1884 oil study for A Sunday on La Grande Jatte: small strokes of colour build a grassy riverbank with strollers, trees and boats on the water.",
       "author": "Georges Seurat",
@@ -385,7 +395,8 @@
       "vision_fit_score": 4,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "This is a pointillist painting depicting a lively outdoor scene with numerous figures gathered on a grassy bank beside a body of water, where boats are visible in the distance. The artwork uses small, distinct dots of color to form the image, creating a textured and vibrant effect. No individual faces are clearly identifiable due to the style and distance of the figures.",
-      "origin": "EX4 autopilot pick for U2 analysis-model"
+      "origin": "EX4 autopilot pick for U2 analysis-model",
+      "brief_title": "Georges Seurat, oil study for A Sunday on La Grande Jatte, 1884"
     },
     {
       "asset_id": "wikimedia:File:Sprite Fright-concept art-Victoria 01.png",
@@ -395,7 +406,7 @@
           "unit_id": "U2"
         }
       ],
-      "title": "Concept-art sheet for the Blender Studio short Sprite Fright (2021)",
+      "title": "Sprite Fright concept art: Victoria",
       "raw_title": "File:Sprite Fright-concept art-Victoria 01.png [modern_rights_review_required]",
       "alt_text": "Concept-art sheet from the short film Sprite Fright: seventeen labelled versions of one red-haired character's head, each with a different expression.",
       "author": "Julien Kaspar / Blender Foundation",
@@ -420,7 +431,8 @@
       "vision_fit_score": 5,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "This image is a digital character expression sheet, likely from a video game or animation production, displaying 16 different facial expressions of a stylized female character with voluminous orange hair, pink top, and pearl necklace. The expressions are labeled with handwritten-style text above each portrait (e.g., “Default,” “Amused,” “Smile,” “Frown,” “Shout,” “Disgust,” “Shocked,” “Pout,” “Uh,” “Uhhhh”), arranged in two rows against a plain gray background. No real person’s face is identifiable — the character is clearly a 3D-rendered or digitally illustrated fictional model.",
-      "origin": "EX3: existing U2 Masterclass 1 binding kept (variant sheet matches 'Generate, then select'); accepted in review-state for tc/U2; EX4: re-briefed and vision-checked"
+      "origin": "EX3: existing U2 Masterclass 1 binding kept (variant sheet matches 'Generate, then select'); accepted in review-state for tc/U2; EX4: re-briefed and vision-checked",
+      "brief_title": "Concept-art sheet for the Blender Studio short Sprite Fright (2021)"
     },
     {
       "asset_id": "wikimedia:File:Stickies to brainstorm Edit.2014..jpg",
@@ -430,7 +442,7 @@
           "unit_id": "U2"
         }
       ],
-      "title": "A brainstorming wall of sticky notes (2014)",
+      "title": "Stickies to brainstorm",
       "raw_title": "File:Stickies to brainstorm Edit.2014..jpg",
       "alt_text": "A wall covered with columns of handwritten blue and orange sticky notes from a brainstorming session, each note a separate idea kept without judging.",
       "author": "Victor Grigas",
@@ -455,7 +467,8 @@
       "vision_fit_score": 4,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "**Type of Image:** This is a photograph.\n\n**Description:** The image shows a beige wall covered with numerous handwritten sticky notes, primarily in light blue and orange, arranged in several vertical columns. Visible text on the notes includes phrases like \"2014 New Agency,\" \"iPhone 6,\" \"Wearable Computers,\" \"Qing Dynasty,\" \"British lease of the New Territories of Hong Kong,\" \"ALS,\" \"Neurodegeneration (G.F.),\" and \"Immunotherapy.\"\n\n**People:** No people or faces are visible in the image.",
-      "origin": "EX4 autopilot pick for U2 masterclass-3"
+      "origin": "EX4 autopilot pick for U2 masterclass-3",
+      "brief_title": "A brainstorming wall of sticky notes (2014)"
     },
     {
       "asset_id": "wikimedia:File:Sombrero negro (Dudas).jpg",
@@ -465,7 +478,7 @@
           "unit_id": "U2"
         }
       ],
-      "title": "A Six Thinking Hats session board for the black hat ('doubts'",
+      "title": "Sombrero negro (Dudas)",
       "raw_title": "File:Sombrero negro (Dudas).jpg",
       "alt_text": "A workshop board headed 'Sombrero negro (Dudas)' — the black thinking hat — asking 'What are the doubts? What are the risks?', with coloured sticky-note answers below.",
       "author": "NMontoya (WMCO)",
@@ -490,7 +503,8 @@
       "vision_fit_score": 5,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "This is a photograph of a whiteboard or wall covered with handwritten notes and colorful sticky notes. The main heading at the top reads \"Sombreno Negro (Dudas)\" followed by questions like \"¿Cuáles son las dudas?\" and \"¿Cuáles son los riesgos?\". Below, there are multiple small sticky notes in blue, orange, pink, green, and red, each containing handwritten text in Spanish, likely brainstorming ideas or questions related to a project or discussion. No person's face is visible in the image.",
-      "origin": "EX4 autopilot pick for U2 masterclass-4"
+      "origin": "EX4 autopilot pick for U2 masterclass-4",
+      "brief_title": "A Six Thinking Hats session board for the black hat ('doubts'"
     },
     {
       "asset_id": "wikimedia:File:Pugh Concept Selection.png",
@@ -500,7 +514,7 @@
           "unit_id": "U2"
         }
       ],
-      "title": "A Pugh concept-selection matrix",
+      "title": "Pugh Concept Selection",
       "raw_title": "File:Pugh Concept Selection.png",
       "alt_text": "A Pugh concept-selection spreadsheet: criteria such as reliability and safety with weights in rows, four design concepts scored in columns, and totals at the bottom.",
       "author": "Chattons2",
@@ -525,7 +539,8 @@
       "vision_fit_score": 5,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "This is a screenshot of a spreadsheet document, likely from Microsoft Excel, displaying a \"Pugh Concept Selection\" analysis for a \"Launch and Recovery System.\" The sheet contains a table with criteria like \"reliability\" and \"Safety,\" their weights, and scores for four design concepts (A-D), along with a legend defining the score scale from 0 (Poor) to 4 (Excellent). No person's face is visible in the image.",
-      "origin": "EX4 autopilot pick for U2 masterclass-5"
+      "origin": "EX4 autopilot pick for U2 masterclass-5",
+      "brief_title": "A Pugh concept-selection matrix"
     },
     {
       "asset_id": "wikimedia:File:Vincent van Gogh - Self-portrait with bandaged ear (1889, Courtauld Institute).jpg",
@@ -535,7 +550,7 @@
           "unit_id": "U2"
         }
       ],
-      "title": "Vincent van Gogh, Self-Portrait with Bandaged Ear, 1889",
+      "title": "Self-portrait with bandaged ear",
       "raw_title": "File:Vincent van Gogh - Self-portrait with bandaged ear (1889, Courtauld Institute).jpg",
       "alt_text": "Van Gogh's 1889 self-portrait: the painter in a cap and green coat, a white bandage wrapped around his head, with a Japanese print on the wall behind him.",
       "author": "Vincent van Gogh",
@@ -560,7 +575,8 @@
       "vision_fit_score": 5,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "This is a painting depicting a man with dark hair, wearing a blue cap and a green coat, with a white bandage wrapped around his head and neck. The background features a light green wall with a colorful Japanese-style print or poster hanging on it, showing figures in traditional attire. There is no visible text in the image, and while the man’s face is clearly rendered, it is not identifiable as a specific known individual without external context.",
-      "origin": "EX4 autopilot pick for U2 masterclass-6"
+      "origin": "EX4 autopilot pick for U2 masterclass-6",
+      "brief_title": "Vincent van Gogh, Self-Portrait with Bandaged Ear, 1889"
     },
     {
       "asset_id": "wikimedia:File:Kodo Sawaki Zazen.jpg",
@@ -570,7 +586,7 @@
           "unit_id": "U2"
         }
       ],
-      "title": "Kōdō Sawaki seated in zazen, c. 1920",
+      "title": "Kodo Sawaki, zazen",
       "raw_title": "File:Kodo Sawaki Zazen.jpg",
       "alt_text": "Black-and-white photograph of the Zen teacher Kōdō Sawaki seated cross-legged in robes, upright and still, hands resting in his lap in meditation.",
       "author": "Unknown photographer (c. 1920)",
@@ -595,7 +611,8 @@
       "vision_fit_score": 4,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "This is a black-and-white photograph of an elderly, bald man seated in a formal, cross-legged posture. He wears traditional layered robes with visible stitching and texture, and his hands are clasped together in his lap. His face is clearly visible and identifiable as an individual, showing deep wrinkles and a solemn expression; there is no visible text in the image.",
-      "origin": "EX4 autopilot pick for U2 lab-1"
+      "origin": "EX4 autopilot pick for U2 lab-1",
+      "brief_title": "Kōdō Sawaki seated in zazen, c. 1920"
     },
     {
       "asset_id": "wikimedia:File:Gliding flight, Wright Glider, Kitty Hawk, NC. 1902.10459 A.S..jpg",
@@ -605,7 +622,7 @@
           "unit_id": "U3"
         }
       ],
-      "title": "The Wright brothers' 1902 glider in flight at Kitty Hawk",
+      "title": "Gliding flight, Wright Glider, Kitty Hawk, NC, 1902",
       "raw_title": "File:Gliding flight, Wright Glider, Kitty Hawk, NC. 1902.10459 A.S..jpg",
       "alt_text": "The Wright brothers' 1902 biplane glider in flight over the Kitty Hawk dunes, its pilot on the lower wing, under a cloudy sky.",
       "author": "Wilbur and Orville Wright",
@@ -630,7 +647,8 @@
       "vision_fit_score": 5,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "This is a black-and-white photograph showing an early biplane in flight against a cloudy sky. A pilot wearing a light-colored shirt and dark cap is visible seated in the open cockpit, leaning forward with hands on the controls. The aircraft features two sets of wings connected by struts and wires, with a tail assembly at the rear; no text is visible, and the pilot’s face is not clearly identifiable due to distance and image resolution.",
-      "origin": "EX4 autopilot pick for U3 cover"
+      "origin": "EX4 autopilot pick for U3 cover",
+      "brief_title": "The Wright brothers' 1902 glider in flight at Kitty Hawk"
     },
     {
       "asset_id": "wikimedia:File:Cow by Theo van Doesburg Museum of Modern Art 25.1969.jpg",
@@ -640,7 +658,7 @@
           "unit_id": "U3"
         }
       ],
-      "title": "Theo van Doesburg, a study for Composition (The Cow), c. 1917–18",
+      "title": "Cow",
       "raw_title": "File:Cow by Theo van Doesburg Museum of Modern Art 25.1969.jpg",
       "alt_text": "A pencil study by Theo van Doesburg of a cow with its head lowered, drawn in loose lines and blocky masses as the animal starts to become geometric.",
       "author": "Theo van Doesburg",
@@ -665,7 +683,8 @@
       "vision_fit_score": 4,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "Based on the visual evidence, here is a literal description of the image:\n\nThis is a monochromatic drawing, likely executed in charcoal or soft pencil on aged, off-white paper, depicting the abstracted, skeletal form of a quadruped animal, possibly a horse or cow, with its head lowered. The artwork consists of loose, expressive lines and shading that suggest the animal's musculature and structure rather than providing realistic detail. There is a small, handwritten numeral \"3\" visible in the lower-left quadrant of the paper, and no human faces are present in the image.",
-      "origin": "EX4 autopilot pick for U3 analysis-model"
+      "origin": "EX4 autopilot pick for U3 analysis-model",
+      "brief_title": "Theo van Doesburg, a study for Composition (The Cow), c. 1917–18"
     },
     {
       "asset_id": "wikimedia:File:Maqueta polifunicular.jpg",
@@ -675,7 +694,7 @@
           "unit_id": "U3"
         }
       ],
-      "title": "Antoni Gaudí's hanging string-and-weight model for the Colonia Güell church, photographed c. 1908",
+      "title": "Maqueta polifunicular",
       "raw_title": "File:Maqueta polifunicular.jpg",
       "alt_text": "Early-1900s photograph of Gaudí's hanging model for the Colonia Güell church: strings loaded with small sacks of weight hang from the ceiling, with paper draped over them to show the inverted form.",
       "author": "Unknown photographer (Gaudí workshop, c. 1908)",
@@ -700,7 +719,8 @@
       "vision_fit_score": 5,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "This is a black-and-white photograph showing a large, ornate ceremonial object or structure suspended from the ceiling of an indoor space, possibly a museum or exhibition hall. The object features layered fabric panels with numerous hanging tassels, beads, or small ornaments, creating a dense, textured appearance. A person’s face is not clearly identifiable in the image; only their lower body and part of their torso are visible on the right side, standing near the base of the structure. There is no visible text in the photograph.",
-      "origin": "EX4 autopilot pick for U3 masterclass-1"
+      "origin": "EX4 autopilot pick for U3 masterclass-1",
+      "brief_title": "Antoni Gaudí's hanging string-and-weight model for the Colonia Güell church, photographed c. 1908"
     },
     {
       "asset_id": "wikimedia:File:Sketches for the second movement of Symphony no. 7, op. 92, Beethoven, Petter Sketchbook, 1812, musical autograph - Morgan Library & Museum - New York City - DSC06691.jpg",
@@ -710,7 +730,7 @@
           "unit_id": "U3"
         }
       ],
-      "title": "Beethoven's sketchbook for the Seventh Symphony, 1812",
+      "title": "Sketches for the second movement of Symphony no. 7, op. 92 (Petter Sketchbook, 1812)",
       "raw_title": "File:Sketches for the second movement of Symphony no. 7, op. 92, Beethoven, Petter Sketchbook, 1812, musical autograph - Morgan Library & Museum - New York City - DSC06691.jpg",
       "alt_text": "A page from Beethoven's 1812 sketchbook: hurried ink notation across many staves as themes for the Seventh Symphony are tried out.",
       "author": "Ludwig van Beethoven (sketchbook); Daderot (photograph, public-domain dedication)",
@@ -735,7 +755,8 @@
       "vision_fit_score": 4,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "Based on the visual evidence, here is a literal description of the image:\n\nThis is a photograph of a historical musical manuscript, which is a document consisting of a single, aged sheet of paper with handwritten musical notation. The page features multiple staves with inked notes, clefs, and various markings, along with some illegible handwritten text and annotations scattered throughout the score. No person's face is visible in the image.",
-      "origin": "EX4 autopilot pick for U3 masterclass-2"
+      "origin": "EX4 autopilot pick for U3 masterclass-2",
+      "brief_title": "Beethoven's sketchbook for the Seventh Symphony, 1812"
     },
     {
       "asset_id": "wikimedia:File:Paul Klee Pädagogisches Skizzenbuch 10.jpg",
@@ -745,7 +766,7 @@
           "unit_id": "U3"
         }
       ],
-      "title": "Paul Klee, a page of the Pedagogical Sketchbook (1925)",
+      "title": "Pädagogisches Skizzenbuch",
       "raw_title": "File:Paul Klee Pädagogisches Skizzenbuch 10.jpg",
       "alt_text": "A spread from Paul Klee's 1925 Pedagogical Sketchbook: simple lines and shapes worked out as a 'first case', 'second case' and 'third case', each a different development.",
       "author": "Paul Klee",
@@ -770,7 +791,8 @@
       "vision_fit_score": 4,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "This is a photograph of a two-page spread from a printed document, likely a book or art publication, featuring black-and-white diagrams and German text. The left page (numbered 10) displays three sections labeled \"ERSTER FALL,\" \"ZWEITER FALL,\" and \"DRITTER FALL,\" each with simple geometric shapes (lines, squares, triangles, circles) and handwritten-style annotations, along with explanatory text about active/passive lines and surfaces. The right page (numbered 11) contains a large, complex diagram labeled \"Fig. 12\" showing an infinity-like symbol with arrows and handwritten German terms like \"gelet\" and \"Medial,\" accompanied by a section titled \"Sprachliche Erläuterung\" that defines the concepts of \"aktiv,\" \"medial,\" and \"passiv\" using examples related to felling a tree. No person's face is visible in the image.",
-      "origin": "EX4 autopilot pick for U3 masterclass-5"
+      "origin": "EX4 autopilot pick for U3 masterclass-5",
+      "brief_title": "Paul Klee, a page of the Pedagogical Sketchbook (1925)"
     },
     {
       "asset_id": "wikimedia:File:Wright diary.jpg",
@@ -780,9 +802,9 @@
           "unit_id": "U3"
         }
       ],
-      "title": "Orville Wright's diary entry for 17 December 1903",
+      "title": "Wright diary",
       "raw_title": "File:Wright diary.jpg",
-      "alt_text": "A page of Orville Wright's diary for 17 December 1903: dense handwriting on squared notebook paper recording that day's series of flight tests.",
+      "alt_text": "Two pages of Orville Wright's diary for 17 December 1903: dense handwriting on squared notebook paper recording that day's series of flight tests.",
       "author": "Orville Wright",
       "author_death_year": 1948,
       "licence": "PD-old-70",
@@ -805,7 +827,8 @@
       "vision_fit_score": 5,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "This is a photograph of a historical document, specifically a page from a handwritten journal or logbook. The page, numbered \"54\" in the top left corner, features dense cursive handwriting in dark ink on lined paper, describing what appears to be a series of flight tests with details about engine performance, altitude, and mechanical issues. No person's face is visible in the image.",
-      "origin": "EX4 autopilot pick for U3 masterclass-6"
+      "origin": "EX4 autopilot pick for U3 masterclass-6",
+      "brief_title": "Orville Wright's diary entry for 17 December 1903"
     },
     {
       "asset_id": "wikimedia:File:Design for Three Chairs with Curved Backs (verso- Sketch for a Sideboard) MET DP807145.jpg",
@@ -815,7 +838,7 @@
           "unit_id": "U3"
         }
       ],
-      "title": "An early-19th-century design sheet with three chairs with curved backs",
+      "title": "Design for Three Chairs with Curved Backs",
       "raw_title": "File:Design for Three Chairs with Curved Backs (verso- Sketch for a Sideboard) MET DP807145.jpg",
       "alt_text": "An early-19th-century watercolour design sheet showing three chairs side by side, each with a differently curved back and patterned seat.",
       "author": "Anonymous designer (early 19th century); The Metropolitan Museum of Art (CC0)",
@@ -840,7 +863,8 @@
       "vision_fit_score": 5,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "Based on the visual evidence, here is a literal description of the image:\n\nThis is a hand-drawn illustration, likely a watercolor and ink design sketch, depicting three variations of ornate, antique-style chairs arranged in a row. The chairs feature curved backrests, cabriole legs, and plaid-patterned upholstery, rendered in soft pastel colors on aged, off-white paper. There is no clearly identifiable person's face, and the only visible text is a faint, handwritten number \"9\" at the bottom center of the page.",
-      "origin": "EX4 autopilot pick for U3 lab-1"
+      "origin": "EX4 autopilot pick for U3 lab-1",
+      "brief_title": "An early-19th-century design sheet with three chairs with curved backs"
     },
     {
       "asset_id": "wikimedia:File:Wright Glider being flown as a kite. -1900 10457 A.S..jpg",
@@ -850,7 +874,7 @@
           "unit_id": "U3"
         }
       ],
-      "title": "The Wright brothers' 1900 glider flown unmanned as a kite",
+      "title": "Wright Glider being flown as a kite, 1900",
       "raw_title": "File:Wright Glider being flown as a kite. -1900 10457 A.S..jpg",
       "alt_text": "The Wright brothers' 1900 glider flying unmanned as a tethered kite against a cloudy sky, its two wings and struts clearly visible.",
       "author": "Wilbur and Orville Wright",
@@ -875,7 +899,8 @@
       "vision_fit_score": 4,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "This is a black-and-white photograph showing an early biplane in flight against a cloudy sky, with its two sets of wings, struts, and tail clearly visible. The image appears to be a historical print or reproduction, given its grainy texture and monochrome tone. There is no visible text, and no person’s face is identifiable in the frame.",
-      "origin": "EX4 autopilot pick for U3 lab-2"
+      "origin": "EX4 autopilot pick for U3 lab-2",
+      "brief_title": "The Wright brothers' 1900 glider flown unmanned as a kite"
     },
     {
       "asset_id": "wikimedia:File:Iterative Process Diagram.svg",
@@ -885,7 +910,7 @@
           "unit_id": "ML-CPA"
         }
       ],
-      "title": "A generic iterative-process diagram (plan, design, implement, test, evaluate, loop back)",
+      "title": "Iterative Process Diagram",
       "raw_title": "File:Iterative Process Diagram.svg [modern_rights_review_required]",
       "alt_text": "Diagram of an iterative cycle: planning, requirements, analysis and design, implementation, testing and evaluation, looping back before deployment.",
       "author": "Krupadeluxe",
@@ -910,7 +935,8 @@
       "vision_fit_score": 4,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "Based on the visual evidence, here is a literal description of the image:\n\nThis is a digital diagram illustrating a cyclical process with two main stages. It features two colored rectangular boxes containing the text \"Planning\" (in a yellow box) and \"Implementation\" (in a green box), connected by four curved arrows in teal, orange, yellow, and light green that indicate a continuous flow between the stages and back to the start. There are no people or faces visible in the image.",
-      "origin": "EX3: existing master-lecture cover binding kept (image matches the slide); accepted in review-state for tc/U1 only, so the ml/ML-CPA assignment is recorded here; EX4: re-briefed and vision-checked"
+      "origin": "EX3: existing master-lecture cover binding kept (image matches the slide); accepted in review-state for tc/U1 only, so the ml/ML-CPA assignment is recorded here; EX4: re-briefed and vision-checked",
+      "brief_title": "A generic iterative-process diagram (plan, design, implement, test, evaluate, loop back)"
     },
     {
       "asset_id": "wikimedia:File:Standard Symbols for Process Charts (1), 1921.jpg",
@@ -920,7 +946,7 @@
           "unit_id": "ML-CPA"
         }
       ],
-      "title": "Frank and Lillian Gilbreth's standard symbols for process charts, 1921",
+      "title": "Standard Symbols for Process Charts, 1921",
       "raw_title": "File:Standard Symbols for Process Charts (1), 1921.jpg",
       "alt_text": "A 1921 page of standard process-chart symbols by Frank and Lillian Gilbreth: a column of circles, squares and arrows, each labelled with the step it records.",
       "author": "Frank B. Gilbreth and Lillian M. Gilbreth",
@@ -945,7 +971,8 @@
       "vision_fit_score": 4,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "This image is a black-and-white document, specifically a page from a technical manual or textbook, displaying a list of standard symbols for process charts. It features a column of various geometric and abstract symbols on the left, each paired with a corresponding descriptive text label on the right, such as \"STORES REQUISITIONED\" and \"INSPECTION FOR QUALITY BY SMELLING.\" The visible text at the bottom identifies the content as \"Fig. 3 STANDARD SYMBOLS FOR PROCESS CHARTS (Continued on page 9).\" No person's face is visible in the image.",
-      "origin": "EX4 autopilot pick for ML-CPA analysis-model"
+      "origin": "EX4 autopilot pick for ML-CPA analysis-model",
+      "brief_title": "Frank and Lillian Gilbreth's standard symbols for process charts, 1921"
     },
     {
       "asset_id": "wikimedia:File:Process Chart for Ordering Blank Forms - Present Method, 1921.jpg",
@@ -955,7 +982,7 @@
           "unit_id": "ML-CPA"
         }
       ],
-      "title": "Gilbreth process chart of the 'present method' for ordering blank forms, 1921",
+      "title": "Process Chart for Ordering Blank Forms – Present Method, 1921",
       "raw_title": "File:Process Chart for Ordering Blank Forms - Present Method, 1921.jpg",
       "alt_text": "A 1921 Gilbreth process chart of the 'present method' for ordering printed forms: numbered circles and squares run down the page, each labelled with who does what.",
       "author": "Frank B. Gilbreth and Lillian M. Gilbreth",
@@ -980,7 +1007,8 @@
       "vision_fit_score": 5,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "This image is a black-and-white document, specifically a flowchart or process chart, illustrating a step-by-step procedure. It features a vertical timeline with numbered circles and squares connected by lines, with descriptive text next to each step detailing actions like \"STOREKEEPER WRITES PRINTING REQUISITION\" and \"BUYER TAKES IT UP WITH PURCHASING AGENT.\" The title at the bottom reads \"FIG. 7 PROCESS CHART FOR ORDERING BLANK FORMS — PRESENT METHOD.\" No people or faces are visible in the image.",
-      "origin": "EX4 autopilot pick for ML-CPA masterclass-1"
+      "origin": "EX4 autopilot pick for ML-CPA masterclass-1",
+      "brief_title": "Gilbreth process chart of the 'present method' for ordering blank forms, 1921"
     },
     {
       "asset_id": "wikimedia:File:A Jacquard loom showing information punchcards, National Museum of Scotland.jpg",
@@ -990,7 +1018,7 @@
           "unit_id": "ML-CPA"
         }
       ],
-      "title": "A Jacquard loom with its chain of punched cards (19th-century mechanism, National Museum of Scotland)",
+      "title": "A Jacquard loom showing information punchcards",
       "raw_title": "File:A Jacquard loom showing information punchcards, National Museum of Scotland.jpg",
       "alt_text": "A wooden Jacquard loom in a museum: warp threads stretched on one side and a long chain of punched cards hanging on the other, the cards carrying the woven pattern.",
       "author": "Stephen C. Dickson",
@@ -1015,7 +1043,8 @@
       "vision_fit_score": 4,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "This is a photograph showing a close-up view of a traditional wooden loom in operation, with numerous warp threads stretched vertically on the left and a stack of punched wooden heddle frames hanging on the right. The scene is illuminated by warm, directional lighting that casts strong shadows and highlights the texture of the wood and threads. There is no visible text, and no person's face is identifiable in the image.",
-      "origin": "EX4 autopilot pick for ML-CPA masterclass-2"
+      "origin": "EX4 autopilot pick for ML-CPA masterclass-2",
+      "brief_title": "A Jacquard loom with its chain of punched cards (19th-century mechanism, National Museum of Scotland)"
     },
     {
       "asset_id": "wikimedia:File:Design for Six Chairs with Scarlet Upholstery (verso- Sketch for Sofa) MET DP807166.jpg",
@@ -1025,7 +1054,7 @@
           "unit_id": "ML-CPA"
         }
       ],
-      "title": "An early-19th-century design for six chairs with scarlet upholstery",
+      "title": "Design for Six Chairs with Scarlet Upholstery",
       "raw_title": "File:Design for Six Chairs with Scarlet Upholstery (verso- Sketch for Sofa) MET DP807166.jpg",
       "alt_text": "An early-19th-century design sheet with six chairs in two rows, each a different frame and back, all sharing the same scarlet upholstery.",
       "author": "Anonymous designer (early 19th century); The Metropolitan Museum of Art (CC0)",
@@ -1050,7 +1079,8 @@
       "vision_fit_score": 4,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "Based on the visual evidence, here is a literal description of the image:\n\nThis is a watercolor and ink drawing on paper that depicts six different designs for chairs with pink upholstery and slender, light-colored legs. The chairs are arranged in two rows, with two in the top row and four in the bottom row, showcasing variations in the shape of the backrests. There is a small, handwritten number \"6\" in blue ink in the upper left corner, and no people or faces are visible in the image.",
-      "origin": "EX4 autopilot pick for ML-CPA masterclass-4"
+      "origin": "EX4 autopilot pick for ML-CPA masterclass-4",
+      "brief_title": "An early-19th-century design for six chairs with scarlet upholstery"
     },
     {
       "asset_id": "wikimedia:File:La danse serpentine, Loïe Fuller et ses transformations.jpg",
@@ -1060,7 +1090,7 @@
           "unit_id": "ML-CPA"
         }
       ],
-      "title": "Loïe Fuller's Serpentine Dance in a wood engraving of her 'transformations', before 1900",
+      "title": "La danse serpentine, Loïe Fuller et ses transformations",
       "raw_title": "File:La danse serpentine, Loïe Fuller et ses transformations.jpg",
       "alt_text": "A 19th-century wood engraving of Loïe Fuller's Serpentine Dance in eight panels: the dancer's swirling silk takes the shape of serpents, a basket, a propeller and butterflies.",
       "author": "Unknown author (before 1900)",
@@ -1085,7 +1115,8 @@
       "vision_fit_score": 4,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "This is a black-and-white printed illustration, likely an engraving or lithograph, depicting a female dancer in eight different poses and costumes, arranged in a grid format. The image includes French text labels beneath each figure, such as \"Les serpents,\" \"La corbeille,\" \"L'Espagnole,\" \"Au repos,\" \"L'hélice,\" and \"Les papillons,\" with a main title at the bottom reading \"LA DANSE SERPENTINE. — Mlle Loïe Fuller et ses transformations.\" The dancer's face is visible in most of the illustrations but is not clearly identifiable as a specific individual due to the artistic style and historical context.",
-      "origin": "EX4 autopilot pick for ML-CPA masterclass-5"
+      "origin": "EX4 autopilot pick for ML-CPA masterclass-5",
+      "brief_title": "Loïe Fuller's Serpentine Dance in a wood engraving of her 'transformations', before 1900"
     },
     {
       "asset_id": "wikimedia:File:Tableau de résultats au test de Binet-Simon.jpg",
@@ -1095,7 +1126,7 @@
           "unit_id": "ML-CPA"
         }
       ],
-      "title": "Alfred Binet's 1911 table of Binet–Simon test results",
+      "title": "Tableau de résultats au test de Binet-Simon",
       "raw_title": "File:Tableau de résultats au test de Binet-Simon.jpg",
       "alt_text": "A printed 1911 table of Binet–Simon test results from two Paris schools: rows of test tasks cross-referenced with pass rates (out of 10) for each age group.",
       "author": "Alfred Binet",
@@ -1120,7 +1151,8 @@
       "vision_fit_score": 4,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "This is a black-and-white printed document, likely a page from a historical educational report or textbook, featuring a detailed table. The table, titled \"ÉCOLES DE M. L. ET DE M. M. SITUÉES A PARIS RUE DES RÉCOLLETS ET RUE SAMBRE-ET-MEUSE,\" cross-references various cognitive and academic tasks (\"DIFFÉRENTES ÉPREUVES\") against the ages of children (7 to 12 years old), with numerical scores recorded in the corresponding cells. No people or faces are visible in the image.",
-      "origin": "EX4 autopilot pick for ML-CPA masterclass-6"
+      "origin": "EX4 autopilot pick for ML-CPA masterclass-6",
+      "brief_title": "Alfred Binet's 1911 table of Binet–Simon test results"
     },
     {
       "asset_id": "wikimedia:File:Proposed Process Chart for First Orders, 1921.jpg",
@@ -1130,7 +1162,7 @@
           "unit_id": "ML-CPA"
         }
       ],
-      "title": "Gilbreth's proposed process chart for first orders, 1921",
+      "title": "Proposed Process Chart for First Orders, 1921",
       "raw_title": "File:Proposed Process Chart for First Orders, 1921.jpg",
       "alt_text": "A 1921 Gilbreth 'proposed process chart' for first orders: a short vertical flow of numbered steps for preparing a purchase order, each with a line of description.",
       "author": "Frank B. Gilbreth and Lillian M. Gilbreth",
@@ -1155,7 +1187,8 @@
       "vision_fit_score": 4,
       "vision_model": "qwen3.8:27b (think:false)",
       "vision_description": "This image is a black-and-white diagram, specifically a vertical flowchart or process chart. It displays a sequence of numbered steps (1, 6, 11, 9, 11, 12) connected by lines, with descriptive text next to each step detailing a business process for creating a purchase order. The visible text includes the title \"FIG. 8 PROPOSED PROCESS CHART FOR FIRST ORDERS\" and step descriptions such as \"C.E. WRITES REQUISITION,\" \"BUYER HANDS TO STENOGRAPHER,\" and \"MAIL ROOM PLACES IN MAIL BAGS.\" No person's face is identifiable in the image.",
-      "origin": "EX4 autopilot pick for ML-CPA lab-1"
+      "origin": "EX4 autopilot pick for ML-CPA lab-1",
+      "brief_title": "Gilbreth's proposed process chart for first orders, 1921"
     }
   ]
 }

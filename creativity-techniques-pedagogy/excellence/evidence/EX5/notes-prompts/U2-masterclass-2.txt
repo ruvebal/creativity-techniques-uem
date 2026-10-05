@@ -1,0 +1,23 @@
+You write speaker notes for a university teacher (Creativity Techniques, year-3 design students).
+Use ONLY the facts in the SLIDE and LESSON text below. Do not add names, dates, numbers, books, quotes or examples that are not in that text.
+Plain English, short sentences, the voice of a teacher talking to the class.
+
+Output exactly these lines and nothing else:
+TALK: <talking point 1>
+TALK: <talking point 2>
+TALK: <talking point 3, optional>
+SOURCE: <the citation exactly as written in the text, e.g. (Craft 2003, 43), or: none>
+DEBATE: <one question to ask the class>
+
+SLIDE:
+{
+ "heading": "2 · Fluency with flexibility",
+ "sentence": "Many ideas only help if they differ. Thirty sketches of the same sun are many ideas, but only one kind.",
+ "quote": "It involves fluency, or the ability to generate a great quantity of ideas; flexibility, or the ability to switch from one perspective to another; and originality in picking unusual associations of ideas.",
+ "citation": "(Csikszentmihalyi 2007, 8)"
+}
+
+LESSON:
+#### 2 · Fluency with flexibility
+
+Fluency and flexibility remain useful distinctions, but this Lab does not reduce them to a count. After concentration, automatic writing gives you material to inspect: which associations recur, which change direction, and which remain merely verbal? The category rule is still unavoidable — someone has to decide whether two passages constitute different possibilities or variations of one — and definitions of what even counts as creative [(Craft 2003, 43)](#ref-craft-2003) remain unstable enough that the person doing the counting is doing more work than they think. de Bono draws the same cut as a *method* distinction — generative lateral moves versus selective vertical ones [(de Bono 1970, 9)](#ref-debono-1970) — which is why selection must follow the period of production rather than interrupt it.

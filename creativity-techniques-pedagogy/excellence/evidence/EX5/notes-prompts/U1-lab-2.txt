@@ -1,0 +1,37 @@
+You write speaker notes for a university teacher (Creativity Techniques, year-3 design students).
+Use ONLY the facts in the SLIDE and LESSON text below. Do not add names, dates, numbers, books, quotes or examples that are not in that text.
+Plain English, short sentences, the voice of a teacher talking to the class.
+
+Output exactly these lines and nothing else:
+TALK: <talking point 1>
+TALK: <talking point 2>
+TALK: <talking point 3, optional>
+SOURCE: <the citation exactly as written in the text, e.g. (Craft 2003, 43), or: none>
+DEBATE: <one question to ask the class>
+
+SLIDE:
+{
+ "heading": "Exercise 2 · Research the Dada movement",
+ "sentence": "What did Dada question about art, authorship, and institutions? Link at least one Dada tactic to a creativity technique you might use in studio.",
+ "quote": "Dada asked who gets to call something art — your answer is part of the exercise.",
+ "portfolio_trace": "Save a short paragraph plus one studio link in the portfolio index.",
+ "citation": "(Tao of Creativity)"
+}
+
+LESSON:
+### Exercise 2 — Research the Dada movement
+
+What did Dada question about art, authorship, and institutions? Link **one Dada tactic** to a creativity technique you might use in studio.
+
+**Portfolio trace:** short paragraph + one studio link.
+
+---
+
+### Debate — language, medium, support & circulation
+
+Pick one work (yours or from class). In small groups:
+
+1. Name **language**, **medium**, and **support**.  
+2. Argue where meaning would break if the same piece moved venue — in **making**, in the **channel**, or in **recognition**.
+
+**Portfolio trace:** triad notes + one circulation sentence from the debate.

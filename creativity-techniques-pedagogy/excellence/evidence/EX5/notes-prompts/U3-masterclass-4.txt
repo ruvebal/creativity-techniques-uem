@@ -1,0 +1,29 @@
+You write speaker notes for a university teacher (Creativity Techniques, year-3 design students).
+Use ONLY the facts in the SLIDE and LESSON text below. Do not add names, dates, numbers, books, quotes or examples that are not in that text.
+Plain English, short sentences, the voice of a teacher talking to the class.
+
+Output exactly these lines and nothing else:
+TALK: <talking point 1>
+TALK: <talking point 2>
+TALK: <talking point 3, optional>
+SOURCE: <the citation exactly as written in the text, e.g. (Craft 2003, 43), or: none>
+DEBATE: <one question to ask the class>
+
+SLIDE:
+{
+ "heading": "4 · Sketch to think",
+ "sentence": "Three quick arrangements can show relationships that one polished drawing hides.",
+ "quote": "Sketching enables exploration of the problem space and the solution space to proceed together.",
+ "citation": "(Cross 2006, 46)"
+}
+
+LESSON:
+### 4 · Sketch to think
+
+Sketching externalises a thought before language has made it neat. Draw three different arrangements, not one beautiful drawing. Compare their relationships, rhythm, and emphasis.
+
+> Sketching enables exploration of the problem space and the solution space to proceed together.
+{: .unit-quote}
+<p class="unit-quote-citation"><a href="#ref-cross-2006">(Cross 2006, 46)</a></p>
+
+A sketch is a temporary argument: it helps you see what your idea is doing.
