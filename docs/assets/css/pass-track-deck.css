@@ -491,7 +491,7 @@ body {
 .student-media-slide--split > h1 { grid-row: 2 / span 4; align-self: start; }
 
 /* exercise (Lab and Workshop slides): task first, portfolio trace boxed, timer. */
-/* Exercise type uses the forge sizes (no reductions: golden rule 1). Space
+/* Exercise type uses the course type sizes (no reductions: golden rule 1). Space
    comes from layout instead: the card uses the full width left of the caption
    (74% of the section; the caption holds the right 24%), and its height cap
    is the slide height minus the section padding (720 px − 1.25rem − 3.5rem), so

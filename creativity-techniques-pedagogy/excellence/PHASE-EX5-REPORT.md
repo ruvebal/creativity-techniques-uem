@@ -5,7 +5,7 @@
 | **status** | VERIFYING |
 | **started_at** | 2026-10-05 |
 | **finished_at** | 2026-10-05 (implementation done; waiting for `cascade-harness.sh verify` and cold review) |
-| **cold_review** | round 1 FAIL (F1, F2, F3 blocking) — fixed in round 2 (below); round-2 review pending |
+| **cold_review** | round 1 FAIL (F1–F3) → fixed in round 2; round 2 FAIL (R2-F1: exercise type below the forge clamp) → fixed in round 3 (below); round-3 review pending |
 | **cascade_amended** | none (forge rule `STUDENT-SLIDESHOW-FORGE.mdc` documents the new fields; no downstream phase assumption changed) |
 | **branch / worktree** | `cascade/excellence-5` · `creativity-techniques-uem-integration-excellence-5` (`.cascade-lane` = `excellence`) |
 | **mode** | AUTOPILOT (decisions in DECISIONS-LOG.md) |
@@ -119,7 +119,7 @@ m2/m3/m6 say that the lesson has no page cite.
 | Finding | Fix | Test that fails on the round-1 code |
 | --- | --- | --- |
 | F1 master-lecture citation links lost the base (404) | `withBase()` in `deck-render.mjs`: root-relative citation hrefs and asset URLs get `ctx.base`; `#…`, `http(s):`, `mailto:`, `//…` and already-prefixed values pass through. ML include re-rendered (4 hrefs now `/creativity-techniques-uem/lessons/…`) | unit test (`withBase` + `renderDeck` with a `/lessons/…` href); repo scan: no `href`/`src`/`data-background-image` in any include starts with `/` without the site base (round-1 include: 4 hits) |
-| F2 Lab timer cut or hidden (U2 lab-1/lab-2), card past the section (U1 labs) | timer moved out of the card into the section's bottom padding (absolute, bottom left); exercise card `max-height: 540px` (+ section padding ≤ 720 px), inner scroll for longer Lab text (EX8 headroom); exercise type slightly smaller, within the golden-rule clamp (h1 `clamp(1.8rem, 5.4vw, 2.6rem)`, sentence 0.9em) | browser check: card and timer inside section and viewport; timer ∩ card = ∅ |
+| F2 Lab timer cut or hidden (U2 lab-1/lab-2), card past the section (U1 labs) | timer moved out of the card into the section's bottom padding (absolute, bottom left); exercise card `max-height: 540px` (+ section padding ≤ 720 px), inner scroll for longer Lab text (EX8 headroom); ~~exercise type slightly smaller, within the golden-rule clamp~~ **Correction (round 3): this was false.** The round-2 exercise h1 `clamp(1.8rem, 5.4vw, 2.6rem)` was below the forge h1 clamp `clamp(2.15rem, 6.6vw, 3.15rem)` and below the pre-2026-09-14 clamp; sentence, quote, trace and timer were 8–11% smaller (R2-F1). All of it was reverted in round 3 | browser check: card and timer inside section and viewport; timer ∩ card = ∅ |
 | F3 caption under the card-toggle button (12 slides) | toggle moved to bottom right, left of Reveal's arrows (`right: 7.5rem`) | browser check: caption ∩ toggle, caption ∩ card, toggle ∩ card, timer ∩ toggle, toggle ∩ arrows, caption/toggle ∩ back link = ∅ |
 | F4 FINAL-REVIEW said "U4 untouched" | now: U4 data untouched, look changed (Koch on 2 diagram slides, shifted geometric cycle, in-slide captions, 3 timers) | — |
 | F7 U2 masterclass-6 Rubin page; slide-only phrases in notes | the slide quote (tortured geniuses) is the page-verified p. 103 passage, so 103 stays and the note now says which passage is 103 and which lesson point is 104. Removed phrases taken from the slide, not the lesson: U1 m3 "Tests need context", U1 m5 "or the brief", U1 m6 "or skip the hard part", U2 m2 "Thirty sketches of the same sun …" | — (text) |
@@ -136,7 +136,62 @@ m2/m3/m6 say that the lesson has no page cite.
 **Still open (non-blocking):**
 - F5: includes bake the base path at render time; `jekyll serve --baseurl ''` needs a re-render.
 - F6: `legacyCaption` stays until U4 migrates.
-- Print view: an exercise card longer than 540 px would clip in `?print-pdf`. Not the case today; EX8 should check its longer cards with `?print-pdf`.
+- ~~Print view clipping~~: superseded in round 3 (`.reveal-print` lifts the card cap; the browser check has a print pass).
+
+## Round 3: round-2 cold review fix (R2-F1), last allowed cycle (2026-10-05)
+
+**Type restored to the forge sizes.** All exercise overrides are removed: h1 `clamp(1.8rem, 5.4vw, 2.6rem)`, sentence 0.9em, quote 0.66em, trace 0.7em, timer 0.62em. Exercise slides now use the same sizes as every other slide.
+
+| Element (exercise slides, 1280×720) | Round 2 (reviewer's measurement) | Round 3 (measured by `deck-layout.mjs`) | Forge floor at 1280 |
+| --- | --- | --- | --- |
+| h1 | 41.6 px | **50.4 px** | 50.4 (`clamp(2.15rem, 6.6vw, 3.15rem)`) |
+| sentence | 29.95 px | **33.3 px** | 33.3 (`clamp(22px, 2.6vw, 38px)`) |
+| quote / trace / timer | 21.96 / 23.30 / 20.63 px | ≥ 23.96 / 25.29 / 23.30 px (0.72 / 0.76 / 0.7 × base, the round-1 values) | — |
+
+At 1920×1080: h1 50.4 px, sentence 38.0 px (the floors). At 1024×768: h1 50.4 px, sentence 26.6 px (the floors). Every slide of all 5 decks meets them.
+
+**Where the space came from (layout, not type):**
+- The exercise card is 74% of the section, border-box. It was capped at 48rem, so it now uses the full width left of the caption and wraps into fewer lines.
+- The card cap is the 720 px slide minus the exercise section padding (1.25rem top + 3.5rem bottom), i.e. `calc(720px − 4.75rem)`. It was a fixed 540 px.
+- The unit kicker line is hidden on exercise slides; the "Exercise N · …" heading carries the context.
+- Card padding is 1rem top and bottom, gaps 0.3rem, trace-box padding 0.25em/0.55em.
+- The timer sits 0.4rem above the section's bottom edge, outside the card.
+
+**Print:** `.reveal-print .student-media-slide--exercise { max-height: none; overflow: visible }`. The U2 labs printed from 1280 and 1920 windows are complete: `evidence/EX5/screens/round3/print-{1280,1920}-u2-{11,12}.jpg`.
+
+**Browser check, extended** (`scripts/tests/browser/deck-layout.mjs`, `npm run test:browser`):
+- (a) Type floors are read from STUDENT-SLIDESHOW-FORGE.mdc golden rule 1. The base clamp was already there; I added the h1 clamp, which `pass-track-deck.css` already uses, to that rule. Every slide must meet them: h1 ≥ h1 clamp, sentence ≥ base clamp, quote/prompt/timer ≥ 0.72/0.76/0.7 × base.
+- (b) A card whose overflow is larger than its bottom padding (text hidden) fails. It is no longer just a note.
+- (c) New checks: caption ∩ timer, and the caption inside the viewport.
+- (d) A missing card toggle fails, as does a missing caption on a slide with a background.
+- (e) Print pass: `?print-pdf` with print media, 1280 and 1920 windows. Each deck must give one PDF page per slide, with every card inside its page and no text hidden.
+- Each deck line also reports the h1/sentence range and the exercise headroom.
+
+**Results:**
+- Round-2 CSS (81e1e8a): `deck-layout: 325 slide view(s), 119 failure(s)`. Breakdown: h1 24, sentence 24, prompt/trace 24, quote 12, timer type 33, card hides text 2.
+- Round-3 CSS: `deck-layout: 325 slide view(s), 0 failure(s)`. That is 5 decks × 13 slides × 3 viewports on screen, plus 5 decks × 13 pages × 2 print windows.
+
+**Exercise headroom** (cap minus content height, tightest exercise card per deck):
+
+| Deck | 1920×1080 | 1280×720 | 1024×768 |
+| --- | --- | --- | --- |
+| U1 | 128 px | 164 px | 240 px |
+| U2 | −5 px | 81 px | 193 px |
+| U3 | 200 px | 228 px | 294 px |
+| ML | 359 px | 374 px | 395 px |
+
+- U2 lab-2 at 1080p overflows by 5 px into the card's own bottom padding. No text is hidden; the screenshot shows every line.
+- **EX8 cannot lengthen U2's Lab text at 1080p without restructuring** (e.g. two-column steps, or splitting a card).
+- The check runs in the EX5 gate (orchestrator amendment c0bde82), so EX8's gate should run it too. I'm reporting this; I have not amended EX8.
+
+**Other runs:**
+- `node --test scripts/tests/index.js`: 47/47.
+- `npm run build`: exit 0, "Publication safety passed". One interim failure was the word "forge" in a CSS comment; reworded.
+- EX0–EX5 gates: all `failures: 0`.
+
+**Screenshots:** `evidence/EX5/screens/round3/` has U2 lab-1 and lab-2 at 1920×1080 (`1920-u-2-…-lab-{1,2}.jpg`), every timer slide at 1280×720, and the printed U2 lab pages.
+
+**Corrections:** the round-2 claims "within the golden-rule clamp" in this report and in DECISIONS-LOG are marked false and corrected. The CSS comment now says what the code does.
 
 ## Resume point
 
