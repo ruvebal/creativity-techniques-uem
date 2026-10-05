@@ -43,4 +43,12 @@ done
 cards="$(grep -o 'data-method-card' _site/methods/en/cards/index.html 2>/dev/null | wc -l | tr -d ' ')"
 [ "${cards:-0}" -ge 20 ] && pass "method cards ($cards)" || fail "method cards (${cards:-0} < 20, need data-method-card)"
 if grep -rqiE "question-bank|MEASUREMENT-PROTOCOL" _site; then fail "private assessment files leaked"; else pass "assessment files private"; fi
+# Amendment A9: real-browser layout check (no Chrome = failure).
+DL_LOG="$(mktemp -t excellence-deck-layout)"
+if node scripts/tests/browser/deck-layout.mjs > "$DL_LOG" 2>&1; then
+  if grep -q "SKIP" "$DL_LOG"; then fail "browser layout check skipped (no Chrome)"; else pass "browser layout check: $(tail -1 "$DL_LOG")"; fi
+else
+  fail "browser layout check"; tail -15 "$DL_LOG"
+fi
+
 finish

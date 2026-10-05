@@ -150,6 +150,26 @@ syncs (the orchestrator applies it; `gitflow.sh sync` still stops on conflict):
    main); the EX3 gate checks this (sync-1 F4).
 4. Fresh cold review before landing; anything else → stop.
 
+## Amendment A9 (EX5 reviews + professor decision, 2026-10-05)
+
+- **Professor decision — 12 lessons:** the course will have 12 lessons, two
+  per official unit (U1.1, U1.2 … U6.2); the six official units/CONTENIDOS stay
+  unchanged. This cascade finishes first (EX6–EX11 on U1–U3 + master lecture);
+  a new autopilot cascade then forges the 12 lessons on this platform. EX9's
+  lesson template and EX11's handoff are designed for that structure.
+- **EX8 (R2-F2, R3-F2):** the real-browser check `scripts/tests/browser/deck-layout.mjs`
+  runs in the EX8 gate (no Chrome = failure); 0 failures at 1920×1080,
+  1280×720, 1024×768 and in print. U2 Lab cards have no spare height at
+  1080p — longer Lab text needs a restructured card (e.g. two-column steps).
+  Also fix the stale "72%" CSS comment (cards are 74%) (R3-F1).
+- **EX9 / EX10 / EX11:** any phase that edits a deck runs the browser check
+  in its gate (EX10's retrieval slide).
+- **EX11 (R3-F4):** document the quote/trace/timer floor ratios in the forge
+  rule (they are test constants today) and add type checks to the print pass.
+- **Ratify (P0, FINAL-REVIEW):** EX5 added one sentence to forge golden rule 1
+  stating the h1 clamp `clamp(2.15rem, 6.6vw, 3.15rem)` as a floor for every
+  layout (same value set 2026-09-14). The browser check reads it.
+
 ## Programme (do not invert)
 
 | Step | Phase | Lane | Findings closed | Human gate |

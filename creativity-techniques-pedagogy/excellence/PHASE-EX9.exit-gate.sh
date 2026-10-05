@@ -48,4 +48,12 @@ GATEPY
 done
 
 build_site
+# Amendment A9: real-browser layout check (no Chrome = failure).
+DL_LOG="$(mktemp -t excellence-deck-layout)"
+if node scripts/tests/browser/deck-layout.mjs > "$DL_LOG" 2>&1; then
+  if grep -q "SKIP" "$DL_LOG"; then fail "browser layout check skipped (no Chrome)"; else pass "browser layout check: $(tail -1 "$DL_LOG")"; fi
+else
+  fail "browser layout check"; tail -15 "$DL_LOG"
+fi
+
 finish

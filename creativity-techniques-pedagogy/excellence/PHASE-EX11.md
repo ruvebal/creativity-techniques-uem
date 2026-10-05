@@ -21,6 +21,8 @@ counted as failures. Update the probe's `--targets` accordingly.)
 
 (Amendment A7: add a validator check + test for curator-only `rights_status: flagged` so a hand edit to `ok` fails; the rights report must count all curator flags.)
 
+(Amendment A9: deliverable 4 — `NEXT-CASCADE-12-LESSONS.md`: a seed plan for the follow-on cascade forging 12 lessons (2 per unit), listing which U1–U3 content splits where, U4 adoption, U5–U6 sources, and the platform contracts to reuse; also document the quote/trace/timer floor ratios in the forge rule and add print type checks.)
+
 ## Deliverables
 
 1. `evidence/final-EX11.json` — probe output at the merged HEAD

@@ -26,6 +26,8 @@ for deferred judgement and omits Dow et al. 2010.
 
 The Directory task moves to autonomous work or to U6.
 
+(Amendment A9: the EX8 gate runs the real-browser check — 0 failures at three viewports and in print; U2 Lab cards have no spare height at 1080p, so longer Lab text needs a restructured card; fix the stale "72%" CSS comment.)
+
 ## Deliverables
 
 1. Deck: each `lab_exercise` slide gets `technique_id` (from

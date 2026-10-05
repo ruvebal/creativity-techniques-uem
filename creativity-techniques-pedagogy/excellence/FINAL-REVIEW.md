@@ -17,6 +17,8 @@ Built during the autopilot run; read this once at the end (AUTOPILOT.md §5).
 | Phase | Status | Tag | Notes |
 | --- | --- | --- | --- |
 | EX0 | DONE | `excellence/ex0` | Probe + baseline + provisional weights; cold review PASS (11 findings, 0 blocking) |
+| EX5 | DONE | `excellence/ex5` | Deck renderer (pre-render, alt, captions, notes, layouts, timers, browser check 325 views/0 failures); 3 review rounds (R1 links/timer/caption overlap; R2 type shrunk below forge clamp) |
+| SYNC-1 | DONE | `excellence/sync-1` | main `d00539d` merged; ratified by professor; A8 adopted |
 | EX4 | DONE | `excellence/ex4` | Slide-bound curation: 33 images (U1 7/8, U2 6/8, U3 6/8, ML 6/8 core slides), 8 flagged; round 1 FAIL (2 off-topic bindings) → diagram; round 2 PASS |
 | EX3 | DONE | `excellence/ex3` | Image pipeline rules + tests + validator; cold review PASS (7 P2); landing regression caught a stale node_modules — gate fixed, re-verified |
 | EX2 | DONE | `excellence/ex2` | Publication firewall; round 1 FAIL (U4 pipeline text, forge rules, dead declaration link), fixed; round 2 PASS |
@@ -194,3 +196,13 @@ U4 (legacy, out of scope) keeps *Man dreaming* (`profield-cache/0a359d9b946505e1
 - 13 of 40 slides had only one shortlisted candidate (round-1 F5); the round-2 report's "3 candidates on every slide" is wrong.
 - The private score table and shortlist briefs still show round-1 state for U2 lab-2, U3 masterclass-4 and ML lab-2 (all three are now diagram fallbacks).
 - Vision checks ran on local `qwen3.8:27b`; `llama3.2-vision` does not load on the installed Ollama (consider upgrading Ollama later).
+
+### Ratify (P0) — from EX5
+
+- Forge golden rule 1 gained one sentence: the h1 clamp `clamp(2.15rem, 6.6vw, 3.15rem)` is a floor for every layout, Lab slides included (same value you set on 2026-09-14). The browser check reads it; reverting it requires changing the check.
+- Speaker notes on 24 U1–U3 slides are public in the page source (`?show-notes`); please read them.
+- Some image titles are not in English (*Maqueta polifunicular*, *Sombrero negro (Dudas)*, *Pädagogisches Skizzenbuch*); you may prefer English glosses.
+
+### Decision recorded — 12 lessons
+
+You asked for 12 lessons, two per official unit. This cascade finishes the platform and U1–U3; EX11 writes `NEXT-CASCADE-12-LESSONS.md` to seed the follow-on cascade.

@@ -37,6 +37,8 @@ shows a filled portfolio trace; lessons contain no images.
 
 (Amendment A5/F3–F5: plain wording for residual jargon such as "page locators" and "page-backed Chicago claim" in U1–U3; remove the duplicate "Lessons" breadcrumb in `_layouts/lesson.html`; `head-hreflang.html` emits `hreflang="es"` only when the Spanish URL exists and differs from the page URL.)
 
+(Amendment A9: design the lesson template for the professor's 12-lesson structure — two lessons per official unit, e.g. `u-1-1-…`, `u-1-2-…` — documenting how a unit splits into lesson A/B while U1–U3 stay single pages in this cascade; the template must be reusable by the next cascade.)
+
 ## Prompt (Implementation Agent)
 
 ```text
