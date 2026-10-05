@@ -190,10 +190,10 @@ layout: null
       "slide_id": "analysis-opener",
       "slide_role": "analysis_opener",
       "background_kind": "geometrical",
-      "background_url": "/assets/images/fractal-pass-track/ct-pass-01-structure.svg",
+      "background_url": "/assets/images/fractal-pass-track/ct-pass-01-structure-980beb83.svg",
       "heading": "Analysis · two lenses",
       "sentence": "Lens A: language / medium / support. Lens B: production → recognition → next production.",
-      "caption": "Geometrical · ct-pass-01-structure.svg"
+      "caption": "Geometrical · ct-pass-01-structure-980beb83.svg"
     },
     {
       "slide_id": "analysis-model",
@@ -295,10 +295,10 @@ layout: null
       "slide_id": "lab-opener",
       "slide_role": "lab_opener",
       "background_kind": "geometrical",
-      "background_url": "/assets/images/fractal-pass-track/ct-pass-04-practice.svg",
+      "background_url": "/assets/images/fractal-pass-track/ct-pass-04-practice-6e0ce9bc.svg",
       "heading": "Lab",
       "sentence": "Two exercises next. Everything you produce goes into your portfolio index.",
-      "caption": "Geometrical · ct-pass-04-practice.svg"
+      "caption": "Geometrical · ct-pass-04-practice-6e0ce9bc.svg"
     },
     {
       "slide_id": "lab-1",
@@ -326,10 +326,10 @@ layout: null
       "slide_id": "outro",
       "slide_role": "outro",
       "background_kind": "geometrical",
-      "background_url": "/assets/images/fractal-pass-track/ct-pass-06-coherence.svg",
+      "background_url": "/assets/images/fractal-pass-track/ct-pass-06-coherence-bcb1f0e6.svg",
       "heading": "Carry forward",
       "sentence": "Where did meaning fail — in making, in the channel, or in recognition?",
-      "caption": "Geometrical · ct-pass-06-coherence.svg"
+      "caption": "Geometrical · ct-pass-06-coherence-bcb1f0e6.svg"
     }
   ]
 }

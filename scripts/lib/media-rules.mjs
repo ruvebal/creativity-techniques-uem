@@ -46,6 +46,8 @@ export const MEDIA_ROLES = Object.freeze(['unit_cover', 'analysis_model', 'maste
 export const MAX_RENDITION_BYTES = 600 * 1024;
 export const MAX_RENDITION_PX = 1920;
 export const RIGHTS_STATUSES = Object.freeze(['ok', 'flagged']);
+/** Slide layouts (PHASE-EX5); a slide without `layout` takes its role default. */
+export const LAYOUTS = Object.freeze(['image_argument', 'quote', 'split', 'exercise']);
 
 const CONTENT_TYPES = new Map([
   ['image/jpeg', 'jpg'],
@@ -259,6 +261,10 @@ export function deckProblems(content, ctx = {}) {
       else if (seenIds.has(slide.slide_id)) issue(`duplicate slide_id: ${slide.slide_id}`);
       seenIds.add(slide.slide_id);
       if (!BACKGROUND_KINDS.includes(slide.background_kind)) issue(`${label}: background_kind "${slide.background_kind}" not in ${BACKGROUND_KINDS.join('|')}`);
+      if (slide.layout !== undefined && !LAYOUTS.includes(slide.layout)) issue(`${label}: layout "${slide.layout}" not in ${LAYOUTS.join('|')}`);
+      if (slide.notes !== undefined && typeof slide.notes !== 'string' && !(Array.isArray(slide.notes) && slide.notes.every((n) => typeof n === 'string'))) {
+        issue(`${label}: notes must be a string or a list of strings`);
+      }
     }
     if (slide.background_kind === 'curated') {
       if (!String(slide.image_brief || '').trim()) issue(`${label}: curated slide without image_brief`);

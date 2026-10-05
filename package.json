@@ -6,14 +6,15 @@
 	"scripts": {
 		"hydrate": "node scripts/hydrate-field-site.mjs",
 		"media:rehydrate": "node scripts/rehydrate-student-media.mjs --rights=flag",
+		"render:decks": "node scripts/render-decks.mjs",
 		"validate:decks": "node scripts/validate-decks.mjs --strict --rights=flag",
 		"test": "node --test scripts/tests/",
 		"verify:publication": "node scripts/verify-publication-safety.mjs",
 		"postcss:build": "postcss docs/assets/css/tailwind.css -o docs/assets/css/tailwind-processed.css",
 		"postcss:watch": "postcss docs/assets/css/tailwind.css -o docs/assets/css/tailwind-processed.css --watch",
 		"predevelop": "bash scripts/kill-dev-ports.sh",
-		"develop": "npm run hydrate && npm run media:rehydrate && npm run postcss:build && bundle exec jekyll serve --source docs --livereload --livereload-port ${LIVERELOAD_PORT:-35731} --config _config.yml --port ${PORT:-4003}",
-		"prebuild": "npm run hydrate && npm run media:rehydrate",
+		"develop": "npm run hydrate && npm run media:rehydrate && npm run render:decks && npm run postcss:build && bundle exec jekyll serve --source docs --livereload --livereload-port ${LIVERELOAD_PORT:-35731} --config _config.yml --port ${PORT:-4003}",
+		"prebuild": "npm run hydrate && npm run media:rehydrate && npm run render:decks",
 		"build": "npm run postcss:build && npm run validate:decks && bundle exec jekyll build --source docs --destination _site --config _config.yml && npm run verify:publication",
 		"covers": "node scripts/fractal-architecture/generate-triangle-tile.mjs && node scripts/archive-covers/generate-archive-covers.mjs"
 	},

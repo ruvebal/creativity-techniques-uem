@@ -189,7 +189,7 @@ body {
   display: grid;
   align-content: start;
   min-height: min(62vh, 34rem);
-  max-width: min(46rem, 76%);
+  max-width: min(46rem, 72%);
   gap: 0.7rem;
   padding: clamp(1.1rem, 3vw, 2rem);
   border: 1px solid rgb(var(--foreground) / 0.18);
@@ -224,7 +224,8 @@ body {
   transform: scale(0.98);
 }
 
-.student-media-card-hidden .student-media-caption {
+.student-media-card-hidden .slide-caption,
+.student-media-card-hidden .slide-timer {
 	opacity: 0;
 	visibility: hidden;
 	pointer-events: none;
@@ -260,7 +261,7 @@ body {
 .student-media-slide__unit,
 .student-media-slide__credit,
 .student-media-slide__prompt,
-.student-media-caption {
+.slide-caption {
   color: rgb(var(--muted-foreground) / 0.95);
 }
 
@@ -299,42 +300,7 @@ body {
   font-style: italic;
 }
 
-.student-media-caption {
-	position: fixed;
-	top: clamp(5rem, 11vh, 7.25rem);
-	right: clamp(0.9rem, 2.5vw, 2rem);
-	left: auto;
-	bottom: auto;
-	z-index: 35;
-	display: block;
-	width: min(22rem, 28vw);
-	max-width: calc(100% - 2rem);
-	padding: 0.7rem 0.9rem;
-	border-top: 1px solid rgb(var(--foreground) / 0.42);
-	border: 1px solid rgb(var(--foreground) / 0.2);
-	border-radius: var(--radius);
-	background: linear-gradient(135deg, rgb(var(--card) / 0.12), rgb(var(--background) / 0.08));
-	box-shadow: none;
-	font-size: clamp(0.62rem, 1vw, 0.82rem);
-	line-height: 1.35;
-	letter-spacing: 0.015em;
-	text-transform: uppercase;
-	text-align: right;
-	white-space: normal;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	backdrop-filter: blur(6px) saturate(120%);
-}
 
-.student-media-caption span,
-.student-media-caption a {
-	min-width: 0;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: normal;
-}
-
-.student-media-caption a { color: rgb(var(--accent)); }
 
 .reveal h1,
 .reveal h2,
@@ -445,10 +411,155 @@ body {
     max-width: calc(100% - 1.4rem);
   }
 
-  .student-media-caption {
-    top: 5.1rem;
-    right: 0.7rem;
-    bottom: auto;
-    width: min(18rem, calc(100% - 1.4rem));
-  }
 }
+
+/* -------------------------------------------------------------------------
+   PHASE-EX5 — pre-rendered decks: alt text, in-slide caption, layouts,
+   Lab timer, reading view without JavaScript, print.
+   The base clamp on .reveal (golden rule 1) is unchanged; sizes below are em
+   relative to it. Caption and card never overlap (VISUAL-READABILITY-LAW):
+   the card stays within 72% of the slide width, the caption within the
+   right-hand 24%.
+   ------------------------------------------------------------------------- */
+
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+.student-media-deck .reveal .slides section .slide-caption {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  box-sizing: border-box;
+  width: 24%;
+  margin: 0;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid rgb(var(--foreground) / 0.2);
+  border-radius: var(--radius);
+  background: rgb(var(--background) / 0.62);
+  font-size: 0.42em;
+  line-height: 1.35;
+  letter-spacing: 0.015em;
+  text-align: right;
+  overflow-wrap: break-word;
+  word-break: normal;
+  hyphens: none;
+  backdrop-filter: blur(6px) saturate(120%);
+}
+
+.slide-caption a { color: rgb(var(--accent)); }
+.slide-caption__title { font-weight: 600; color: rgb(var(--foreground)); }
+.slide-caption__hash { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+
+.student-media-slide__sentence { margin: 0; }
+
+/* image_argument (default for cover, analysis model, masterclass): compact
+   card at the left, image visible to its right. */
+.student-media-slide--image_argument { max-width: min(42rem, 64%); }
+
+/* quote: the quotation carries the slide. */
+.student-media-slide--quote { max-width: min(48rem, 72%); }
+.student-media-slide--quote .student-media-slide__quote {
+  max-width: none;
+  font-size: 1em;
+  border-left-width: 5px;
+}
+.student-media-slide--quote .student-media-slide__sentence { font-size: 0.8em; }
+
+/* split (default for openers and outro): heading left, text right. */
+.student-media-slide--split {
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  column-gap: 1.4rem;
+  align-items: start;
+  max-width: min(52rem, 72%);
+  min-height: 0;
+}
+.student-media-slide--split > .student-media-slide__unit,
+.student-media-slide--split > h1 { grid-column: 1; }
+.student-media-slide--split > :not(h1):not(.student-media-slide__unit) { grid-column: 2; }
+.student-media-slide--split > h1 { grid-row: 2 / span 4; align-self: start; }
+
+/* exercise (Lab and Workshop slides): task first, portfolio trace boxed, timer. */
+.student-media-slide--exercise { max-width: min(48rem, 72%); }
+.student-media-slide--exercise .student-media-slide__trace {
+  padding: 0.4em 0.6em;
+  border: 1px dashed rgb(var(--accent) / 0.7);
+  border-radius: var(--radius);
+  font-style: normal;
+}
+
+.slide-timer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.3em;
+  font-size: 0.7em;
+}
+.slide-timer button {
+  border: 1px solid rgb(var(--foreground) / 0.3);
+  border-radius: 999px;
+  padding: 0.25em 0.8em;
+  background: rgb(var(--card) / 0.8);
+  color: rgb(var(--foreground));
+  font: inherit;
+  cursor: pointer;
+}
+.slide-timer button:focus-visible {
+  outline: 2px solid rgb(var(--accent) / 0.8);
+  outline-offset: 2px;
+}
+.slide-timer__time {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  min-width: 3.5em;
+}
+.slide-timer--done .slide-timer__time { color: rgb(var(--accent)); }
+
+/* Without JavaScript: the pre-rendered slides read as a plain page. */
+.no-js .reveal {
+  height: auto;
+  overflow: visible;
+}
+.no-js .reveal .slides {
+  position: static;
+  width: auto;
+  height: auto;
+  max-width: 1280px;
+  margin: 4rem auto 2rem;
+  transform: none;
+  pointer-events: auto;
+  inset: auto;
+}
+.no-js .reveal .slides > section {
+  display: block;
+  position: relative;
+  max-height: none;
+  min-height: 0;
+  margin: 0 1rem 2rem;
+  padding: 1rem;
+  border: 1px solid rgb(var(--border));
+  border-radius: var(--radius);
+  opacity: 1;
+  transform: none;
+  pointer-events: auto;
+}
+.no-js .reveal .slides > section .slide-caption {
+  position: static;
+  width: auto;
+  margin-top: 0.75rem;
+  text-align: left;
+}
+.no-js .student-media-slide { max-width: none; min-height: 0; }
+
+/* Speaker notes shown with ?show-notes (Reveal showNotes) stay readable. */
+.reveal .speaker-notes,
+.reveal aside.notes { color: #111; }

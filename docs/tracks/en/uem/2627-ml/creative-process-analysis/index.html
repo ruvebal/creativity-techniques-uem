@@ -4,7 +4,7 @@ permalink: /master-lectures/creative-process-analysis/
 sitemap: false
 ---
 <!doctype html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,10 +14,13 @@ sitemap: false
 </head>
 <body
   class="student-media-deck"
+  data-base-url="{{ site.baseurl }}"
   data-content-url="{{ '/tracks/en/uem/2627-ml/creative-process-analysis/data/content.json' | relative_url }}"
   data-lesson-url="{{ '/lessons/en/master-lectures/creative-process-analysis/' | relative_url }}">
   <a class="track-back" id="deck-back" href="{{ '/lessons/en/master-lectures/creative-process-analysis/' | relative_url }}" aria-label="Back to master lecture">← Back to master lecture</a>
-  <div class="reveal"><div class="slides" id="slides"></div></div>
+  <div class="reveal"><div class="slides" id="slides">
+{% include decks/creative-process-analysis.html %}
+  </div></div>
   <script src="{{ '/assets/js/reveal.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/student-media-deck.js' | relative_url }}"></script>
 </body>
