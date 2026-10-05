@@ -37,6 +37,8 @@ required hash because `ct-pass-0N-*.svg` names have none; the base path
 
 (Amendment A6/F4: captions come from one tested function; the renderer shows `licence_url` as a link.)
 
+(Amendment A7: fix two alt texts — Dada poster also carries French text; Wright diary image is a two-page spread — and keep captions short: titles from the source, not the brief.)
+
 ## Scope
 
 **In:** renderer, CSS, deck pages, notes. **Out:** image choice (EX4), lesson text.

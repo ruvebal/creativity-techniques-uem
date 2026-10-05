@@ -7,6 +7,7 @@ Built during the autopilot run; read this once at the end (AUTOPILOT.md §5).
 | Phase | Status | Tag | Notes |
 | --- | --- | --- | --- |
 | EX0 | DONE | `excellence/ex0` | Probe + baseline + provisional weights; cold review PASS (11 findings, 0 blocking) |
+| EX4 | DONE | `excellence/ex4` | Slide-bound curation: 33 images (U1 7/8, U2 6/8, U3 6/8, ML 6/8 core slides), 8 flagged; round 1 FAIL (2 off-topic bindings) → diagram; round 2 PASS |
 | EX3 | DONE | `excellence/ex3` | Image pipeline rules + tests + validator; cold review PASS (7 P2); landing regression caught a stale node_modules — gate fixed, re-verified |
 | EX2 | DONE | `excellence/ex2` | Publication firewall; round 1 FAIL (U4 pipeline text, forge rules, dead declaration link), fixed; round 2 PASS |
 | EX1 | DONE | `excellence/ex1` | Contract + factual hotfix; cold review round 1 FAIL (F1 portfolio pass conditions), fixed; round 2 PASS |
@@ -165,3 +166,10 @@ U4 (legacy, out of scope) keeps *Man dreaming* (`profield-cache/0a359d9b946505e1
 - Align the external skill `~/src/.cursor/skills/lesson-scribe/SKILL.md` §9 ("public role vocabulary": lesson harness, studio extraction layer, cite-grade discovery) with the new footer rule — the safety script now fails on that vocabulary.
 - U4 on `main` (concurrent writer): the safety script now fails on "Forge date", stack wording and pipeline jargon; the U4 forge must adopt the one-sentence footer or the release build will fail (fail-closed, by design).
 - U4's public deck JSON still contains "profield" (slot name and cache path `profield-cache/0a359d9b946505e1.php`, an 806 KB unlicensed file): the U4 forge must migrate it to schema v2 before release, or the firewall is breached on U4 (A6/F7).
+
+### EX4 record corrections (round-2 review, non-blocking)
+
+- U3 uses **three** Wright Brothers images (cover, masterclass-6 diary, lab-2), not two.
+- 13 of 40 slides had only one shortlisted candidate (round-1 F5); the round-2 report's "3 candidates on every slide" is wrong.
+- The private score table and shortlist briefs still show round-1 state for U2 lab-2, U3 masterclass-4 and ML lab-2 (all three are now diagram fallbacks).
+- Vision checks ran on local `qwen3.8:27b`; `llama3.2-vision` does not load on the installed Ollama (consider upgrading Ollama later).

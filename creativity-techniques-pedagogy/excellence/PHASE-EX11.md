@@ -19,6 +19,8 @@ counted as failures. Update the probe's `--targets` accordingly.)
 
 (Amendment A6/F5: add automated tests for validator block/flag modes and the orphan check; replace the always-true "rights report written" check with a freshness check against the decks.)
 
+(Amendment A7: add a validator check + test for curator-only `rights_status: flagged` so a hand edit to `ok` fails; the rights report must count all curator flags.)
+
 ## Deliverables
 
 1. `evidence/final-EX11.json` — probe output at the merged HEAD

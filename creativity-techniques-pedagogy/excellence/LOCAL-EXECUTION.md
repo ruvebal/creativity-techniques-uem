@@ -51,7 +51,7 @@ invented autobiographical claims about the professor's PhD. Thessia is a
 | EX1 hotfix | Athanor retrieval for replacement quotes; Thessia voice for rewritten sentences | apply edits; cold review |
 | EX2 firewall | Qwen drafts plain-English replacements | edits, safety-script patterns; cold review |
 | EX3 pipeline | Qwen-coder writes `media-rules.mjs` + tests (if local agent permitted) | otherwise implements; cold review always |
-| EX4 curation | collection API searches (scripts); Qwen writes image briefs; llama3.2-vision checks image–brief fit | binding decisions; cold review |
+| EX4 curation | collection API searches (scripts); Qwen writes image briefs; `qwen3.8:27b` (think:false) checks image–brief fit (`llama3.2-vision` does not load on the installed Ollama; A7) | binding decisions; cold review |
 | EX5 renderer | Qwen-coder (if permitted) | otherwise implements; cold review |
 | EX6 research | Ahmes ingest/enrich + Athanor retrieval (all local); Thessia voice paragraphs | integration; cold review |
 | EX7 catalogue | Qwen classifies 6,773 records into canonical techniques | YAML assembly checks; cold review |

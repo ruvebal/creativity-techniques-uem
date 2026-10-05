@@ -119,6 +119,20 @@ U1, U2 and U4 on `main`. Therefore:
 - **F7 → release:** U4's public JSON still contains "profield" (slot name and
   cache path); listed in FINAL-REVIEW as a release item for the U4 forge.
 
+## Amendment A7 (EX4 cold reviews, 2026-10-05)
+
+- **Vision model (EX4 round-1 F3, ruled acceptable):** image–brief checks run on
+  local `qwen3.8:27b` (think:false, plain text); `llama3.2-vision` does not load on
+  the installed Ollama (`unknown model architecture: 'mllama'`).
+- **EX5:** fix the two remaining alt texts (Dada poster also carries French text;
+  Wright diary image is a two-page spread); keep captions short (titles from the
+  source, not from the brief).
+- **EX11:** add a validator/test for curator-only `rights_status: flagged`
+  (EX4 round-1 F6: a hand edit to `ok` passes the validator today; the rights
+  report counts 7 of 8 flags); the probe measures per-slide candidate depth.
+- **Records:** EX4's private score table and shortlist briefs still show round-1
+  state for the three unbound slides; FINAL-REVIEW notes this (not student-facing).
+
 ## Programme (do not invert)
 
 | Step | Phase | Lane | Findings closed | Human gate |
