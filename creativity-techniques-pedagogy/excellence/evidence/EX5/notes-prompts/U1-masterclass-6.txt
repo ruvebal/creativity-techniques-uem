@@ -1,0 +1,27 @@
+You write speaker notes for a university teacher (Creativity Techniques, year-3 design students).
+Use ONLY the facts in the SLIDE and LESSON text below. Do not add names, dates, numbers, books, quotes or examples that are not in that text.
+Plain English, short sentences, the voice of a teacher talking to the class.
+
+Output exactly these lines and nothing else:
+TALK: <talking point 1>
+TALK: <talking point 2>
+TALK: <talking point 3, optional>
+SOURCE: <the citation exactly as written in the text, e.g. (Craft 2003, 43), or: none>
+DEBATE: <one question to ask the class>
+
+SLIDE:
+{
+ "heading": "6 · “Design thinking” is debated",
+ "sentence": "Use useful tools — and ask when buzzwords hide weak craft or skip the hard part.",
+ "quote": "When the buzzword arrives, ask what craft it is hiding — slogans are often empty handles.",
+ "citation": "(Tao of Creativity)"
+}
+
+LESSON:
+#### 6 · “Design thinking” talk is debated *(studio stance)*
+
+Use tools that help. Also ask when managerial buzzwords empty out craft. *(Primary page cite still open — for debate, not as settled fact.)*
+
+
+
+---

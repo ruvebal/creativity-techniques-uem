@@ -316,7 +316,8 @@ layout: null
       },
       "image_brief": "Concept-art sheet for the Blender Studio short Sprite Fright (2021): many labelled variants of one character's head rendered side by side before one is chosen — generate first, then select.",
       "asset_id": "wikimedia:File:Sprite Fright-concept art-Victoria 01.png",
-      "media_slot_id": "U2.masterclass-1"
+      "media_slot_id": "U2.masterclass-1",
+      "notes": "- Generation and selection are two different jobs. Doing them in the same minute makes both weaker.\n- That is why the Lab starts by changing the conditions of attention before asking for material.\n- Honest audit: was your last piece one first idea polished, or one of several considered on purpose?\n- Some briefs really do need the first answer. When time is the constraint, generate-then-select is a luxury.\nSource: (de Bono 1985, 199) for the quote; (Craft 2003, 43) for the warrant.\nAsk: Where does the line fall between \"take the first answer\" and \"generate more\"?"
     },
     {
       "slide_id": "masterclass-2",
@@ -346,7 +347,8 @@ layout: null
         "label": "(Csikszentmihalyi 2007, 8)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-csikszentmihalyi-2007"
       },
-      "image_brief": "Leonardo da Vinci, a Codex Atlanticus sheet of machine studies, c. 1490s: ideas that differ in kind, not thirty versions of one — fluency only counts when it comes with flexibility."
+      "image_brief": "Leonardo da Vinci, a Codex Atlanticus sheet of machine studies, c. 1490s: ideas that differ in kind, not thirty versions of one — fluency only counts when it comes with flexibility.",
+      "notes": "- Many ideas only help if they differ. Thirty sketches of the same sun are many ideas, but one kind.\n- After concentration, look at the automatic writing: which associations recur, which change direction, which stay merely verbal?\n- Someone has to decide whether two passages are different possibilities or variations of one.\n- Selection follows the period of production; it does not interrupt it.\nSource: (Csikszentmihalyi 2007, 8); (Craft 2003, 43); (de Bono 1970, 9).\nAsk: How do you decide if two ideas are different, or one idea twice?"
     },
     {
       "slide_id": "masterclass-3",
@@ -378,7 +380,8 @@ layout: null
       },
       "image_brief": "A brainstorming wall of sticky notes (2014): early ideas kept on the wall without judging, so that less obvious ones have room to appear.",
       "asset_id": "wikimedia:File:Stickies to brainstorm Edit.2014..jpg",
-      "media_slot_id": "U2.masterclass-3"
+      "media_slot_id": "U2.masterclass-3",
+      "notes": "- The first ideas are usually the obvious ones, the ones most people in the room would also have.\n- Get past them by producing more without judging, not by censoring.\n- Write without correcting, then come back later as a selector.\n- On your D1: count how many ideas you wrote before one felt neither obvious nor random. Write the number down.\nSource: (de Bono 1970, 9) for the quote; (de Bono 1970, 17); (Csikszentmihalyi 2007, 8).\nAsk: How many ideas are enough for a given brief? The lesson leaves this open."
     },
     {
       "slide_id": "masterclass-4",
@@ -410,7 +413,8 @@ layout: null
       },
       "image_brief": "A Six Thinking Hats session board for the black hat ('doubts': what are the risks?), Wikimedia Colombia workshop, 2025: a role tool that stages one mode of thinking at a time.",
       "asset_id": "wikimedia:File:Sombrero negro (Dudas).jpg",
-      "media_slot_id": "U2.masterclass-4"
+      "media_slot_id": "U2.masterclass-4",
+      "notes": "- The studio is never neutral: the first voice can narrow the room. Role and constraint tools disturb that frame.\n- Six Thinking Hats: one mode at a time. White facts, red feelings, black caution, yellow benefits, green new ideas, blue running the process.\n- An Oblique Strategies card gives one short prompt for changing a D1 object. It is a deck of prompts, not a theory or a guarantee.\nSource: (Raymond 2001, 57) for the quote; (de Bono 1970, 12); (Markman, Klein, and Suhr 2009, 192).\nAsk: Who speaks first in your group, and what does that close?"
     },
     {
       "slide_id": "masterclass-5",
@@ -442,7 +446,8 @@ layout: null
       },
       "image_brief": "A Pugh concept-selection matrix: options scored against named criteria, the convergent step made explicit before ranking.",
       "asset_id": "wikimedia:File:Pugh Concept Selection.png",
-      "media_slot_id": "U2.masterclass-5"
+      "media_slot_id": "U2.masterclass-5",
+      "notes": "- Unstated criteria favour whatever the room already leaned toward.\n- Name the criterion before you decide what to keep. The scoring is the design act, not the ranking.\n- Editing as taste revealed in curation is selection criteria by another name, not a substitute for writing them down.\nSource: (Rubin 2023, 123).\nAsk: Whose criteria decide what counts as \"novel\"?"
     },
     {
       "slide_id": "masterclass-6",
@@ -474,7 +479,8 @@ layout: null
       },
       "image_brief": "Vincent van Gogh, Self-Portrait with Bandaged Ear, 1889: the icon of the 'tortured genius' myth that this slide questions — workshops train practice, they do not manufacture genius.",
       "asset_id": "wikimedia:File:Vincent van Gogh - Self-portrait with bandaged ear (1889, Courtauld Institute).jpg",
-      "media_slot_id": "U2.masterclass-6"
+      "media_slot_id": "U2.masterclass-6",
+      "notes": "- Concentration and automatic writing produce material you did not have in view. That does not mean the exercise produced better ideas.\n- Fluency, flexibility and originality are what most tests measure and most workshops train. Training can raise the scores.\n- Landmark work is rare, depends on its system, and cannot be produced on command in a two-hour block.\n- Practice matters, but it does not replace judgement.\nSource: (Rubin 2023, 103) for the quote; (Csikszentmihalyi 2007, 8); (Rubin 2023, 104).\nAsk: Which passage of your unedited writing could become evidence for D1, and what criterion would justify that choice?"
     },
     {
       "slide_id": "lab-opener",
@@ -539,7 +545,8 @@ layout: null
       },
       "image_brief": "Kōdō Sawaki seated in zazen, c. 1920: still, upright meditation with attention on breath and body, the posture of the guided concentration that opens the Lab.",
       "asset_id": "wikimedia:File:Kodo Sawaki Zazen.jpg",
-      "media_slot_id": "U2.lab-1"
+      "media_slot_id": "U2.lab-1",
+      "notes": "- Follow the guided meditation exactly as indicated in class.\n- Attend to breath, bodily sensation and the surrounding field. Do not evaluate or produce ideas yet.\n- This is a concentration period, not a performance task.\n- Portfolio trace: the instructions or sequence followed, the duration, two brief observations about changes in attention.\nAsk: What changed in your attention during the period?"
     },
     {
       "slide_id": "lab-2",
@@ -571,7 +578,8 @@ layout: null
         "label": "(Tao of Creativity)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#tao-of-creativity"
       },
-      "image_brief": "A page of Surrealist automatic writing, such as Breton and Soupault's manuscript of Les Champs magnétiques (1919): text written continuously without correcting, the practice this exercise borrows."
+      "image_brief": "A page of Surrealist automatic writing, such as Breton and Soupault's manuscript of Les Champs magnétiques (1919): text written continuously without correcting, the practice this exercise borrows.",
+      "notes": "- Right after concentration, write continuously for the interval indicated in class.\n- Do not correct, censor or organise while writing. Let associations, images, questions and directions in before selection begins.\n- Portfolio trace: keep the unedited writing, mark where attention shifted, add a short reflection.\nAsk: What did the exercise make perceptible or possible?"
     },
     {
       "slide_id": "outro",

@@ -1,0 +1,21 @@
+You write speaker notes for a university teacher (Creativity Techniques, year-3 design students).
+Use ONLY the facts in the SLIDE and LESSON text below. Do not add names, dates, numbers, books, quotes or examples that are not in that text.
+Plain English, short sentences, the voice of a teacher talking to the class.
+
+Output exactly these lines and nothing else:
+TALK: <talking point 1>
+TALK: <talking point 2>
+TALK: <talking point 3, optional>
+SOURCE: <the citation exactly as written in the text, e.g. (Craft 2003, 43), or: none>
+DEBATE: <one question to ask the class>
+
+SLIDE:
+{
+ "heading": "3 · Iterate with an exit",
+ "sentence": "Write the test before the next version. Stop when the test is answered."
+}
+
+LESSON:
+### 3 · Iterate with an exit
+
+Revision becomes useful when you know what the next version must answer. Write one test before you change the work: “Can the viewer find the main action?” or “Does the form fit the brief?” Stop when the test is answered, even if another improvement is possible. Development needs direction as well as patience.

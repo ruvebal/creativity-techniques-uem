@@ -223,7 +223,8 @@ layout: null
       },
       "image_brief": "Antoni Gaudí's hanging string-and-weight model for the Colonia Güell church, photographed c. 1908: a rough model built early to ask a structural question in material form.",
       "asset_id": "wikimedia:File:Maqueta polifunicular.jpg",
-      "media_slot_id": "U3.masterclass-1"
+      "media_slot_id": "U3.masterclass-1",
+      "notes": "- A rough prototype is a question in material form.\n- It does not need to look finished. It needs to reveal one thing you do not know yet.\n- Build the smallest version that lets a classmate react.\nSource: (Cross 2006, 17) on resolving ill-defined problems.\nAsk: What can this rough object tell you that a description cannot?"
     },
     {
       "slide_id": "masterclass-2",
@@ -233,7 +234,8 @@ layout: null
       "sentence": "Protect a short space for variation before you decide what works. Then judge with a named criterion.",
       "image_brief": "Beethoven's sketchbook for the Seventh Symphony, 1812: themes tried in several versions before any is judged final — a protected space for variation before decision.",
       "asset_id": "wikimedia:File:Sketches for the second movement of Symphony no. 7, op. 92, Beethoven, Petter Sketchbook, 1812, musical autograph - Morgan Library & Museum - New York City - DSC06691.jpg",
-      "media_slot_id": "U3.masterclass-2"
+      "media_slot_id": "U3.masterclass-2",
+      "notes": "- Early critique can close a path before it shows what it might become.\n- Protect a short space for variation first. Then judge with a named criterion.\n- This is not permission to keep every idea. It stops you mistaking the first awkward version for the final limit.\nSource: no page cite in the lesson for this idea.\nAsk: Which idea did you drop too early this week?"
     },
     {
       "slide_id": "masterclass-3",
@@ -241,7 +243,8 @@ layout: null
       "background_kind": "diagram",
       "heading": "3 · Iterate with an exit",
       "sentence": "Write the test before the next version. Stop when the test is answered.",
-      "image_brief": "Replica of the Wright brothers' 1901 wind tunnel: wing shapes tested against one question before the next glider was built, and testing stopped when the data answered it."
+      "image_brief": "Replica of the Wright brothers' 1901 wind tunnel: wing shapes tested against one question before the next glider was built, and testing stopped when the data answered it.",
+      "notes": "- Revision helps when you know what the next version must answer.\n- Write one test before you change the work: \"Can the viewer find the main action?\" or \"Does the form fit the brief?\"\n- Stop when the test is answered, even if another improvement is possible.\nSource: no page cite in the lesson for this idea.\nAsk: What is the one test your next version must pass?"
     },
     {
       "slide_id": "masterclass-4",
@@ -255,7 +258,8 @@ layout: null
         "label": "(Cross 2006, 46)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-3-development-solutions/#ref-cross-2006"
       },
-      "image_brief": "A sheet of quick alternative sketches by a designer or artist — several arrangements of one idea side by side — showing sketching as a way of thinking before anything is built."
+      "image_brief": "A sheet of quick alternative sketches by a designer or artist — several arrangements of one idea side by side — showing sketching as a way of thinking before anything is built.",
+      "notes": "- Sketching puts a thought outside your head before language makes it neat.\n- Draw three different arrangements, not one beautiful drawing. Compare relationships, rhythm and emphasis.\n- A sketch is a temporary argument: it shows what your idea is doing.\nSource: (Cross 2006, 46).\nAsk: What did the second and third arrangement show that the first one hid?"
     },
     {
       "slide_id": "masterclass-5",
@@ -269,7 +273,8 @@ layout: null
       },
       "image_brief": "Paul Klee, a page of the Pedagogical Sketchbook (1925): one line or form opened into several possible developments, a bounded way to widen the solution space.",
       "asset_id": "wikimedia:File:Paul Klee Pädagogisches Skizzenbuch 10.jpg",
-      "media_slot_id": "U3.masterclass-5"
+      "media_slot_id": "U3.masterclass-5",
+      "notes": "- Some briefs are unclear because the problem itself is still moving. Do not force one path too soon.\n- Reframe the brief as two or three possible questions. Make one small response to each.\n- Creative agency: the capacity to envision and enact meaningful changes within constraints.\nSource: (Beghetto and Karwowski 2025, 1).\nAsk: Which of your questions surprised you most?"
     },
     {
       "slide_id": "masterclass-6",
@@ -279,7 +284,8 @@ layout: null
       "sentence": "Write what changed, what stayed, and what the change taught you.",
       "image_brief": "Orville Wright's diary entry for 17 December 1903: a written record of what was tried, what happened and what was learned — reflection at a checkpoint.",
       "asset_id": "wikimedia:File:Wright diary.jpg",
-      "media_slot_id": "U3.masterclass-6"
+      "media_slot_id": "U3.masterclass-6",
+      "notes": "- Pause after each version. Write three lines: what changed, what stayed, what the change taught you.\n- Schön's reflection-in-action and Cross's designerly knowing frame this pause.\n- The checkpoint turns attempts into evidence you can discuss. It is a teaching prompt, not a model of every studio decision.\nSource: no page cite in the lesson for this idea.\nAsk: What did your last checkpoint teach you?"
     },
     {
       "slide_id": "lab-opener",
@@ -300,7 +306,8 @@ layout: null
       "portfolio_trace": "Save the problem, three entry points, three scans, and one sentence on what each entry point made possible.",
       "image_brief": "An early-19th-century design sheet with three chairs with curved backs: one problem answered three ways side by side, the model for three rough entry points.",
       "asset_id": "wikimedia:File:Design for Three Chairs with Curved Backs (verso- Sketch for a Sideboard) MET DP807145.jpg",
-      "media_slot_id": "U3.lab-1"
+      "media_slot_id": "U3.lab-1",
+      "notes": "- One concrete D1 problem, the same for the whole class.\n- Three rough sketches or small prototypes in about 20 minutes, each from a different entry point named in advance: structure, material/support, or audience/circulation.\n- Do not polish. Compare relationships, rhythm and emphasis across the three starts.\n- Watch the temptation to solve it the obvious way and paste the entry point on afterwards.\nSource: (Cross 2006, 93); (de Bono 1970, 27).\nAsk (in pairs): How did each entry point steer the path?"
     },
     {
       "slide_id": "lab-2",
@@ -312,7 +319,8 @@ layout: null
       "portfolio_trace": "Save before/after, the deferred-judgement note, the test question, the checkpoint, and the exit decision.",
       "image_brief": "The Wright brothers' 1900 glider flown unmanned as a kite: one version tested against one question (does it lift?) before judging it and revising once.",
       "asset_id": "wikimedia:File:Wright Glider being flown as a kite. -1900 10457 A.S..jpg",
-      "media_slot_id": "U3.lab-2"
+      "media_slot_id": "U3.lab-2",
+      "notes": "- Choose one of the three versions. Keep developing without deciding yet if it is right.\n- Write one testable question the next version must answer. Revise once. Stop when the test is answered.\n- If a tool or generative system supplied a variation, record the prompt, the option you rejected, and why you kept the final form.\nSource: (de Bono 1970, 30).\nAsk: Where did you stop, and was it hard to stop?"
     },
     {
       "slide_id": "outro",

@@ -1,0 +1,23 @@
+You write speaker notes for a university teacher (Creativity Techniques, year-3 design students).
+Use ONLY the facts in the SLIDE and LESSON text below. Do not add names, dates, numbers, books, quotes or examples that are not in that text.
+Plain English, short sentences, the voice of a teacher talking to the class.
+
+Output exactly these lines and nothing else:
+TALK: <talking point 1>
+TALK: <talking point 2>
+TALK: <talking point 3, optional>
+SOURCE: <the citation exactly as written in the text, e.g. (Craft 2003, 43), or: none>
+DEBATE: <one question to ask the class>
+
+SLIDE:
+{
+ "heading": "5 · Techniques are tools, not scripts",
+ "sentence": "A method helps you talk with the situation. It does not replace your judgement or the brief.",
+ "quote": "A technique is a lever, not a verdict — it moves the work; it does not replace your judgement.",
+ "citation": "(Tao of Creativity)"
+}
+
+LESSON:
+#### 5 · Techniques are tools, not scripts *(studio stance)*
+
+A method helps you talk with the situation; it does not replace your judgement. *(Primary page cite still open.)*

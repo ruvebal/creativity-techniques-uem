@@ -1,0 +1,29 @@
+You write speaker notes for a university teacher (Creativity Techniques, year-3 design students).
+Use ONLY the facts in the SLIDE and LESSON text below. Do not add names, dates, numbers, books, quotes or examples that are not in that text.
+Plain English, short sentences, the voice of a teacher talking to the class.
+
+Output exactly these lines and nothing else:
+TALK: <talking point 1>
+TALK: <talking point 2>
+TALK: <talking point 3, optional>
+SOURCE: <the citation exactly as written in the text, e.g. (Craft 2003, 43), or: none>
+DEBATE: <one question to ask the class>
+
+SLIDE:
+{
+ "heading": "4 · Role and constraint tools",
+ "sentence": "Hats and cards stage a cognitive move — map the kinds of thinking first, then choose a route.",
+ "quote": "Any tool should be useful in the expected way, but a truly great tool lends itself to uses you never expected.",
+ "citation": "(Raymond 2001, 57)"
+}
+
+LESSON:
+#### 4 · Role and constraint tools
+
+The studio is never neutral — someone always speaks first, and that first voice can narrow the room. Role and constraint tools disturb that frame. In a Six Thinking Hats round, everyone thinks in one mode at a time, and each mode has a colour: white (facts and information), red (feelings and gut reactions), black (caution: risks and why something might not work), yellow (benefits and reasons for optimism), green (new ideas and alternatives), and blue (running the process: what to think about next). An Oblique Strategies card gives one short prompt for changing a D1 object. *Oblique Strategies* means a deck of brief creative prompts; it is not a theory or a guarantee of a better idea.
+
+> Any tool should be useful in the expected way, but a truly great tool lends itself to uses you never expected.
+{: .unit-quote}
+<p class="unit-quote-citation"><a href="#ref-raymond-2001">(Raymond 2001, 57)</a></p>
+
+de Bono's lateral-thinking book names a related move: use information to provoke a new pattern [(de Bono 1970, 12)](#ref-debono-1970), then test what the provocation changed. A psychology handbook treats “what if?” thinking as a way to generate alternatives [(Markman, Klein, and Suhr 2009, 192)](#ref-markman-2009).

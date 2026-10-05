@@ -1,0 +1,24 @@
+You write speaker notes for a university teacher (Creativity Techniques, year-3 design students).
+Use ONLY the facts in the SLIDE and LESSON text below. Do not add names, dates, numbers, books, quotes or examples that are not in that text.
+Plain English, short sentences, the voice of a teacher talking to the class.
+
+Output exactly these lines and nothing else:
+TALK: <talking point 1>
+TALK: <talking point 2>
+TALK: <talking point 3, optional>
+SOURCE: <the citation exactly as written in the text, e.g. (Craft 2003, 43), or: none>
+DEBATE: <one question to ask the class>
+
+SLIDE:
+{
+ "heading": "Exercise 1 · Same problem, three entry points",
+ "sentence": "Keep one D1 problem. Start each of three rough sketches from a different named entry point. Do not polish. Compare how the entry point steered the path (de Bono 1970, 27; Cross 2006, 93).",
+ "portfolio_trace": "Save the problem, three entry points, three scans, and one sentence on what each entry point made possible."
+}
+
+LESSON:
+### Exercise 1 — Same problem, three entry points
+
+Work from one concrete problem in your D1. The class keeps the **same problem**, but each of your three answers must start from a **different entry point** named in advance (for example: structure, material/support, or audience/circulation). Make three rough sketches or small prototypes in about 20 minutes. Do not polish. Use the sketch as a thinking tool: compare relationships, rhythm, and emphasis across the three starts [(Cross 2006, 93)](#ref-cross-2006). At the end, tell one classmate how each entry point steered the path — and watch the temptation to solve the problem the “obvious” way and only paste the entry point on afterwards [(de Bono 1970, 27)](#ref-debono-1970).
+
+**Portfolio trace:** the shared problem statement; the three named entry points; three images or scans; one sentence on what each entry point made possible (or blocked).

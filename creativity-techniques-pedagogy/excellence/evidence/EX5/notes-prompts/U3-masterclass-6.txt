@@ -1,0 +1,21 @@
+You write speaker notes for a university teacher (Creativity Techniques, year-3 design students).
+Use ONLY the facts in the SLIDE and LESSON text below. Do not add names, dates, numbers, books, quotes or examples that are not in that text.
+Plain English, short sentences, the voice of a teacher talking to the class.
+
+Output exactly these lines and nothing else:
+TALK: <talking point 1>
+TALK: <talking point 2>
+TALK: <talking point 3, optional>
+SOURCE: <the citation exactly as written in the text, e.g. (Craft 2003, 43), or: none>
+DEBATE: <one question to ask the class>
+
+SLIDE:
+{
+ "heading": "6 · Reflect at checkpoints",
+ "sentence": "Write what changed, what stayed, and what the change taught you."
+}
+
+LESSON:
+### 6 · Reflect at checkpoints
+
+Pause after each version and write three lines: what changed, what stayed, and what the change taught you. Schön’s reflection-in-action tradition gives this pause a useful frame, while Cross’s designerly knowing keeps attention on how the work is made and tested. The checkpoint turns a sequence of attempts into evidence you can discuss; it is a teaching prompt, not a claim that one model explains every studio decision.

@@ -1,0 +1,26 @@
+You write speaker notes for a university teacher (Creativity Techniques, year-3 design students).
+Use ONLY the facts in the SLIDE and LESSON text below. Do not add names, dates, numbers, books, quotes or examples that are not in that text.
+Plain English, short sentences, the voice of a teacher talking to the class.
+
+Output exactly these lines and nothing else:
+TALK: <talking point 1>
+TALK: <talking point 2>
+TALK: <talking point 3, optional>
+SOURCE: <the citation exactly as written in the text, e.g. (Craft 2003, 43), or: none>
+DEBATE: <one question to ask the class>
+
+SLIDE:
+{
+ "heading": "1 · Open, then close",
+ "sentence": "First invent many possibilities. Then pick what fits the needs of the brief — one creative act can hold both moves.",
+ "quote": "The same creative act may involve both divergent and convergent thinking.",
+ "citation": "(Craft 2003, 43)"
+}
+
+LESSON:
+#### 1 · Open, then close
+
+You invent many options (**divergent**). Then you select what fits the needs of the brief (**convergent**). One creative job often needs both.
+
+> “The same creative act may involve both divergent and convergent thinking.”  
+> — [(Craft 2003, 43)](#ref-craft-2003)

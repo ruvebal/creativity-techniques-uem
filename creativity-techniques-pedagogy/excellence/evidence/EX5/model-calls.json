@@ -1,0 +1,242 @@
+[
+ {
+  "unit": "U1",
+  "slide_id": "masterclass-1",
+  "model": "qwen2.5:32b-instruct",
+  "prompt_file": "creativity-techniques-pedagogy/excellence/evidence/EX5/notes-prompts/U1-masterclass-1.txt",
+  "prompt_tokens": 344,
+  "output_tokens": 86,
+  "seconds": 16.6,
+  "dropped_lines": 0
+ },
+ {
+  "unit": "U1",
+  "slide_id": "masterclass-2",
+  "model": "qwen2.5:32b-instruct",
+  "prompt_file": "creativity-techniques-pedagogy/excellence/evidence/EX5/notes-prompts/U1-masterclass-2.txt",
+  "prompt_tokens": 545,
+  "output_tokens": 120,
+  "seconds": 8.9,
+  "dropped_lines": 0
+ },
+ {
+  "unit": "U1",
+  "slide_id": "masterclass-3",
+  "model": "qwen2.5:32b-instruct",
+  "prompt_file": "creativity-techniques-pedagogy/excellence/evidence/EX5/notes-prompts/U1-masterclass-3.txt",
+  "prompt_tokens": 371,
+  "output_tokens": 104,
+  "seconds": 7.0,
+  "dropped_lines": 0
+ },
+ {
+  "unit": "U1",
+  "slide_id": "masterclass-4",
+  "model": "qwen2.5:32b-instruct",
+  "prompt_file": "creativity-techniques-pedagogy/excellence/evidence/EX5/notes-prompts/U1-masterclass-4.txt",
+  "prompt_tokens": 310,
+  "output_tokens": 92,
+  "seconds": 6.0,
+  "dropped_lines": 0
+ },
+ {
+  "unit": "U1",
+  "slide_id": "masterclass-5",
+  "model": "qwen2.5:32b-instruct",
+  "prompt_file": "creativity-techniques-pedagogy/excellence/evidence/EX5/notes-prompts/U1-masterclass-5.txt",
+  "prompt_tokens": 302,
+  "output_tokens": 125,
+  "seconds": 7.8,
+  "dropped_lines": 0
+ },
+ {
+  "unit": "U1",
+  "slide_id": "masterclass-6",
+  "model": "qwen2.5:32b-instruct",
+  "prompt_file": "creativity-techniques-pedagogy/excellence/evidence/EX5/notes-prompts/U1-masterclass-6.txt",
+  "prompt_tokens": 307,
+  "output_tokens": 122,
+  "seconds": 7.4,
+  "dropped_lines": 0
+ },
+ {
+  "unit": "U1",
+  "slide_id": "lab-1",
+  "model": "qwen2.5:32b-instruct",
+  "prompt_file": "creativity-techniques-pedagogy/excellence/evidence/EX5/notes-prompts/U1-lab-1.txt",
+  "prompt_tokens": 427,
+  "output_tokens": 142,
+  "seconds": 9.3,
+  "dropped_lines": 0
+ },
+ {
+  "unit": "U1",
+  "slide_id": "lab-2",
+  "model": "qwen2.5:32b-instruct",
+  "prompt_file": "creativity-techniques-pedagogy/excellence/evidence/EX5/notes-prompts/U1-lab-2.txt",
+  "prompt_tokens": 429,
+  "output_tokens": 147,
+  "seconds": 9.5,
+  "dropped_lines": 0
+ },
+ {
+  "unit": "U2",
+  "slide_id": "masterclass-1",
+  "model": "qwen2.5:32b-instruct",
+  "prompt_file": "creativity-techniques-pedagogy/excellence/evidence/EX5/notes-prompts/U2-masterclass-1.txt",
+  "prompt_tokens": 510,
+  "output_tokens": 123,
+  "seconds": 8.7,
+  "dropped_lines": 0
+ },
+ {
+  "unit": "U2",
+  "slide_id": "masterclass-2",
+  "model": "qwen2.5:32b-instruct",
+  "prompt_file": "creativity-techniques-pedagogy/excellence/evidence/EX5/notes-prompts/U2-masterclass-2.txt",
+  "prompt_tokens": 477,
+  "output_tokens": 139,
+  "seconds": 9.5,
+  "dropped_lines": 0
+ },
+ {
+  "unit": "U2",
+  "slide_id": "masterclass-3",
+  "model": "qwen2.5:32b-instruct",
+  "prompt_file": "creativity-techniques-pedagogy/excellence/evidence/EX5/notes-prompts/U2-masterclass-3.txt",
+  "prompt_tokens": 645,
+  "output_tokens": 93,
+  "seconds": 7.8,
+  "dropped_lines": 0
+ },
+ {
+  "unit": "U2",
+  "slide_id": "masterclass-4",
+  "model": "qwen2.5:32b-instruct",
+  "prompt_file": "creativity-techniques-pedagogy/excellence/evidence/EX5/notes-prompts/U2-masterclass-4.txt",
+  "prompt_tokens": 589,
+  "output_tokens": 102,
+  "seconds": 7.9,
+  "dropped_lines": 0
+ },
+ {
+  "unit": "U2",
+  "slide_id": "masterclass-5",
+  "model": "qwen2.5:32b-instruct",
+  "prompt_file": "creativity-techniques-pedagogy/excellence/evidence/EX5/notes-prompts/U2-masterclass-5.txt",
+  "prompt_tokens": 457,
+  "output_tokens": 125,
+  "seconds": 8.4,
+  "dropped_lines": 0
+ },
+ {
+  "unit": "U2",
+  "slide_id": "masterclass-6",
+  "model": "qwen2.5:32b-instruct",
+  "prompt_file": "creativity-techniques-pedagogy/excellence/evidence/EX5/notes-prompts/U2-masterclass-6.txt",
+  "prompt_tokens": 516,
+  "output_tokens": 126,
+  "seconds": 8.8,
+  "dropped_lines": 0
+ },
+ {
+  "unit": "U2",
+  "slide_id": "lab-1",
+  "model": "qwen2.5:32b-instruct",
+  "prompt_file": "creativity-techniques-pedagogy/excellence/evidence/EX5/notes-prompts/U2-lab-1.txt",
+  "prompt_tokens": 370,
+  "output_tokens": 108,
+  "seconds": 7.1,
+  "dropped_lines": 0
+ },
+ {
+  "unit": "U2",
+  "slide_id": "lab-2",
+  "model": "qwen2.5:32b-instruct",
+  "prompt_file": "creativity-techniques-pedagogy/excellence/evidence/EX5/notes-prompts/U2-lab-2.txt",
+  "prompt_tokens": 395,
+  "output_tokens": 93,
+  "seconds": 6.5,
+  "dropped_lines": 0
+ },
+ {
+  "unit": "U3",
+  "slide_id": "masterclass-1",
+  "model": "qwen2.5:32b-instruct",
+  "prompt_file": "creativity-techniques-pedagogy/excellence/evidence/EX5/notes-prompts/U3-masterclass-1.txt",
+  "prompt_tokens": 370,
+  "output_tokens": 110,
+  "seconds": 7.1,
+  "dropped_lines": 0
+ },
+ {
+  "unit": "U3",
+  "slide_id": "masterclass-2",
+  "model": "qwen2.5:32b-instruct",
+  "prompt_file": "creativity-techniques-pedagogy/excellence/evidence/EX5/notes-prompts/U3-masterclass-2.txt",
+  "prompt_tokens": 291,
+  "output_tokens": 94,
+  "seconds": 6.0,
+  "dropped_lines": 0
+ },
+ {
+  "unit": "U3",
+  "slide_id": "masterclass-3",
+  "model": "qwen2.5:32b-instruct",
+  "prompt_file": "creativity-techniques-pedagogy/excellence/evidence/EX5/notes-prompts/U3-masterclass-3.txt",
+  "prompt_tokens": 291,
+  "output_tokens": 85,
+  "seconds": 5.3,
+  "dropped_lines": 0
+ },
+ {
+  "unit": "U3",
+  "slide_id": "masterclass-4",
+  "model": "qwen2.5:32b-instruct",
+  "prompt_file": "creativity-techniques-pedagogy/excellence/evidence/EX5/notes-prompts/U3-masterclass-4.txt",
+  "prompt_tokens": 364,
+  "output_tokens": 86,
+  "seconds": 5.8,
+  "dropped_lines": 0
+ },
+ {
+  "unit": "U3",
+  "slide_id": "masterclass-5",
+  "model": "qwen2.5:32b-instruct",
+  "prompt_file": "creativity-techniques-pedagogy/excellence/evidence/EX5/notes-prompts/U3-masterclass-5.txt",
+  "prompt_tokens": 363,
+  "output_tokens": 115,
+  "seconds": 7.4,
+  "dropped_lines": 0
+ },
+ {
+  "unit": "U3",
+  "slide_id": "masterclass-6",
+  "model": "qwen2.5:32b-instruct",
+  "prompt_file": "creativity-techniques-pedagogy/excellence/evidence/EX5/notes-prompts/U3-masterclass-6.txt",
+  "prompt_tokens": 308,
+  "output_tokens": 73,
+  "seconds": 4.6,
+  "dropped_lines": 0
+ },
+ {
+  "unit": "U3",
+  "slide_id": "lab-1",
+  "model": "qwen2.5:32b-instruct",
+  "prompt_file": "creativity-techniques-pedagogy/excellence/evidence/EX5/notes-prompts/U3-lab-1.txt",
+  "prompt_tokens": 512,
+  "output_tokens": 140,
+  "seconds": 9.3,
+  "dropped_lines": 0
+ },
+ {
+  "unit": "U3",
+  "slide_id": "lab-2",
+  "model": "qwen2.5:32b-instruct",
+  "prompt_file": "creativity-techniques-pedagogy/excellence/evidence/EX5/notes-prompts/U3-lab-2.txt",
+  "prompt_tokens": 452,
+  "output_tokens": 138,
+  "seconds": 9.0,
+  "dropped_lines": 0
+ }
+]

@@ -1,0 +1,38 @@
+You write speaker notes for a university teacher (Creativity Techniques, year-3 design students).
+Use ONLY the facts in the SLIDE and LESSON text below. Do not add names, dates, numbers, books, quotes or examples that are not in that text.
+Plain English, short sentences, the voice of a teacher talking to the class.
+
+Output exactly these lines and nothing else:
+TALK: <talking point 1>
+TALK: <talking point 2>
+TALK: <talking point 3, optional>
+SOURCE: <the citation exactly as written in the text, e.g. (Craft 2003, 43), or: none>
+DEBATE: <one question to ask the class>
+
+SLIDE:
+{
+ "heading": "2 · Four skills tests measure",
+ "sentence": "Fluency (many ideas), flexibility (many angles), originality (ideas few other people have), elaboration (work the details). Training can raise these scores.",
+ "quote": "Fluency - the ability to produce a large number of ideas or solutions to a problem rapidly.",
+ "citation": "(Chen 2012, 41)"
+}
+
+LESSON:
+#### 2 · Four skills that tests measure
+
+Guilford’s four abilities (as summarised by Chen on the same page) give you a shared vocabulary:
+
+- **Fluency** — produce many ideas quickly  
+- **Flexibility** — try several angles at once  
+- **Originality** — produce ideas that few other people produce (rare answers)  
+- **Elaboration** — work the details and carry the idea through  
+
+> “Fluency - the ability to produce a large number of ideas or solutions to a problem rapidly.”  
+> — [(Chen 2012, 41)](#ref-chen-2012)
+
+Training can raise scores on these skills. A higher score is not the same as a better idea in a real brief (see idea 3).
+
+Csikszentmihalyi names a close triad for divergent work:
+
+> “It involves fluency, or the ability to generate a great quantity of ideas; flexibility, or the ability to switch from one perspective to another; and originality in picking unusual associations of ideas.”  
+> — [(Csikszentmihalyi 2007, 8)](#ref-csikszentmihalyi-2007)

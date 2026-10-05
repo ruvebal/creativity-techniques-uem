@@ -308,7 +308,8 @@ layout: null
       },
       "image_brief": "Michelangelo, a sheet of studies connected with the Libyan Sibyl, c. 1510–11: a large worked-up leg study beside two small trial sketches of a seated figure — options opened quickly, one carried through in detail.",
       "asset_id": "wikimedia:File:Studies for the Libyan Sibyl (recto); Studies for the Libyan Sibyl and a small Sketch for a Seated Figure (verso) MET DP807402.jpg",
-      "media_slot_id": "U1.masterclass-1"
+      "media_slot_id": "U1.masterclass-1",
+      "notes": "- First we open: invent many options. That is divergent thinking.\n- Then we close: pick what fits the needs of the brief. That is convergent thinking.\n- One creative job often needs both moves.\nSource: (Craft 2003, 43).\nAsk: Think of your last project. Where did you open, and where did you close?"
     },
     {
       "slide_id": "masterclass-2",
@@ -338,7 +339,8 @@ layout: null
           "dcterms:subject=fluency"
         ]
       },
-      "image_brief": "Katsushika Hokusai, a page of the Hokusai Manga sketchbooks (from 1814): many quick, varied figures on one page — fluency (many ideas), flexibility (many kinds) and elaboration made visible."
+      "image_brief": "Katsushika Hokusai, a page of the Hokusai Manga sketchbooks (from 1814): many quick, varied figures on one page — fluency (many ideas), flexibility (many kinds) and elaboration made visible.",
+      "notes": "- Guilford's four abilities, as summarised by Chen, give us shared words: fluency (many ideas quickly), flexibility (several angles), originality (ideas few other people produce), elaboration (work the details).\n- Training can raise scores on these skills.\n- A higher score is not the same as a better idea in a real brief. That is the next slide.\nSource: (Chen 2012, 41); the same triad in (Csikszentmihalyi 2007, 8).\nAsk: Which of the four skills do you use most? Which one do you avoid?"
     },
     {
       "slide_id": "masterclass-3",
@@ -370,7 +372,8 @@ layout: null
       },
       "image_brief": "The Gem paper clip (1890s): the everyday object of the 'unusual uses' test, a reminder that a high score on such a toy task says little about talent in another field.",
       "asset_id": "wikimedia:File:GemPaperClipAdvertisementJan1893.png",
-      "media_slot_id": "U1.masterclass-3"
+      "media_slot_id": "U1.masterclass-3",
+      "notes": "- Scoring high on \"how many uses for a brick or a paper clip\" is not the same as judgement inside a real brief.\n- A test in one field may tell us little about talent in another, such as music.\n- Tests need context.\nSource: (Chen 2012, 41).\nAsk: What would a test of design judgement need to include?"
     },
     {
       "slide_id": "masterclass-4",
@@ -401,7 +404,8 @@ layout: null
       },
       "image_brief": "Auguste Rodin, The Thinker (modelled 1880–81): a figure halted in thought before any tool is picked up, to picture framing the unclear problem before choosing a technique.",
       "asset_id": "wikimedia:File:Auguste Rodin - The Thinker - 1917.42 - Cleveland Museum of Art.tif",
-      "media_slot_id": "U1.masterclass-4"
+      "media_slot_id": "U1.masterclass-4",
+      "notes": "- Before you pick a creativity technique, say what is fuzzy in the brief.\n- Tools help after the problem is framed.\n- This is a studio stance. The lesson has no page source for it yet: treat it as a course hypothesis.\nSource: studio stance (Tao of Creativity line on the slide).\nAsk: What question does your current brief still refuse to answer?"
     },
     {
       "slide_id": "masterclass-5",
@@ -433,7 +437,8 @@ layout: null
       },
       "image_brief": "A pocket set of drawing instruments by Peter Dollond, London, c. 1755: tools that extend the hand but do not decide the line — a technique serves judgement, it does not replace it.",
       "asset_id": "wikimedia:File:Pocket set of drawing instruments MET DP232308.jpg",
-      "media_slot_id": "U1.masterclass-5"
+      "media_slot_id": "U1.masterclass-5",
+      "notes": "- A method helps you talk with the situation.\n- It does not replace your judgement or the brief.\n- Studio stance: the lesson has no page source for it yet.\nSource: studio stance (Tao of Creativity line on the slide).\nAsk: When did a method push you to a choice you would not defend?"
     },
     {
       "slide_id": "masterclass-6",
@@ -465,7 +470,8 @@ layout: null
       },
       "image_brief": "A Post-it 'Teamwork Tools' display wall at a 2018 innovation festival: the sticky-note wall sold as a method, shown so students ask what craft the look of 'design thinking' may hide.",
       "asset_id": "wikimedia:File:Post-It Notes Wall at the Fast Company Innovation Festival (30772875917).jpg",
-      "media_slot_id": "U1.masterclass-6"
+      "media_slot_id": "U1.masterclass-6",
+      "notes": "- Use tools that help.\n- Also ask when managerial buzzwords empty out craft, or skip the hard part.\n- Studio stance, offered for debate, not as settled fact.\nSource: studio stance (Tao of Creativity line on the slide).\nAsk: Name one design buzzword. What craft might it hide?"
     },
     {
       "slide_id": "lab-opener",
@@ -530,7 +536,8 @@ layout: null
       },
       "image_brief": "Marcel Duchamp, Fountain, 1917, in Alfred Stieglitz's photograph: a factory urinal signed 'R. Mutt' that changes meaning when it moves into an art exhibition — the readymade students research.",
       "asset_id": "wikimedia:File:Marcel Duchamp, 1917, Fountain, photograph by Alfred Stieglitz.jpg",
-      "media_slot_id": "U1.lab-1"
+      "media_slot_id": "U1.lab-1",
+      "notes": "- Task: find three facts about Duchamp linked to this unit: readymades, identity play, or context shifting meaning.\n- The deck images can be a starting point.\n- Portfolio trace: three bullet points with sources.\nDebate (B2): pick one work. Name its language, medium and support.\nAsk: Where would the meaning break if the same piece moved venue: in the making, in the channel, or in recognition?"
     },
     {
       "slide_id": "lab-2",
@@ -564,7 +571,8 @@ layout: null
       },
       "image_brief": "Theo van Doesburg and Kurt Schwitters, Kleine Dada Soirée poster, 1922: Dada typography that scrambles the rules of the poster, a Dada tactic students can link to a studio technique.",
       "asset_id": "wikimedia:File:Theo van Doesburg and Kurt Schwitters, Kleine Dada Soirée (Small Dada Evening), 1922, NGA 154076.jpg",
-      "media_slot_id": "U1.lab-2"
+      "media_slot_id": "U1.lab-2",
+      "notes": "- Task: what did Dada question about art, authorship and institutions?\n- Link one Dada tactic to a creativity technique you might use in studio.\n- Portfolio trace: a short paragraph and one studio link.\nDebate (B2): name language, medium and support of one Dada work; add one circulation sentence to the portfolio.\nAsk: Which Dada tactic would you dare to use in your own D1?"
     },
     {
       "slide_id": "outro",
