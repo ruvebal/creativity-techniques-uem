@@ -224,7 +224,7 @@ layout: null
       "image_brief": "Antoni Gaudí's hanging string-and-weight model for the Colonia Güell church, photographed c. 1908: a rough model built early to ask a structural question in material form.",
       "asset_id": "wikimedia:File:Maqueta polifunicular.jpg",
       "media_slot_id": "U3.masterclass-1",
-      "notes": "- A rough prototype is a question in material form.\n- It does not need to look finished. It needs to reveal one thing you do not know yet.\n- Build the smallest version that lets a classmate react.\nSource: (Cross 2006, 17) on resolving ill-defined problems.\nAsk: What can this rough object tell you that a description cannot?"
+      "notes": "- A rough prototype is a question in material form.\n- It does not need to look finished. It needs to reveal one thing you do not know yet.\n- Build the smallest version that lets a classmate react.\nSource: (Cross 2006, vi) on resolving ill-defined problems.\nAsk: What can this rough object tell you that a description cannot?"
     },
     {
       "slide_id": "masterclass-2",
@@ -255,11 +255,11 @@ layout: null
       "quote": "Sketching enables exploration of the problem space and the solution space to proceed together.",
       "quote_origin": "page_verified",
       "citation": {
-        "label": "(Cross 2006, 46)",
+        "label": "(Cross 2006, 37)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-3-development-solutions/#ref-cross-2006"
       },
       "image_brief": "A sheet of quick alternative sketches by a designer or artist — several arrangements of one idea side by side — showing sketching as a way of thinking before anything is built.",
-      "notes": "- Sketching puts a thought outside your head before language makes it neat.\n- Draw three different arrangements, not one beautiful drawing. Compare relationships, rhythm and emphasis.\n- A sketch is a temporary argument: it shows what your idea is doing.\nSource: (Cross 2006, 46).\nAsk: What did the second and third arrangement show that the first one hid?"
+      "notes": "- Sketching puts a thought outside your head before language makes it neat.\n- Draw three different arrangements, not one beautiful drawing. Compare relationships, rhythm and emphasis.\n- A sketch is a temporary argument: it shows what your idea is doing.\nSource: (Cross 2006, 37).\nAsk: What did the second and third arrangement show that the first one hid?"
     },
     {
       "slide_id": "masterclass-5",
@@ -268,13 +268,13 @@ layout: null
       "heading": "5 · Open the solution space",
       "sentence": "Reframe an unclear brief as two or three questions. Make one small response to each.",
       "citation": {
-        "label": "(Beghetto and Karwowski 2025, 1)",
+        "label": "(Beghetto and Karwowski 2025, 3)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-3-development-solutions/#ref-beghetto-karwowski-2025"
       },
       "image_brief": "Paul Klee, a page of the Pedagogical Sketchbook (1925): one line or form opened into several possible developments, a bounded way to widen the solution space.",
       "asset_id": "wikimedia:File:Paul Klee Pädagogisches Skizzenbuch 10.jpg",
       "media_slot_id": "U3.masterclass-5",
-      "notes": "- Some briefs are unclear because the problem itself is still moving. Do not force one path too soon.\n- Reframe the brief as two or three possible questions. Make one small response to each.\n- Creative agency: the capacity to envision and enact meaningful changes within constraints.\nSource: (Beghetto and Karwowski 2025, 1).\nAsk: Which of your questions surprised you most?"
+      "notes": "- Some briefs are unclear because the problem itself is still moving. Do not force one path too soon.\n- Reframe the brief as two or three possible questions. Make one small response to each.\n- Creative agency: the capacity to envision and enact meaningful changes within constraints.\nSource: (Beghetto and Karwowski 2025, 3).\nAsk: Which of your questions surprised you most?"
     },
     {
       "slide_id": "masterclass-6",
@@ -301,26 +301,26 @@ layout: null
       "slide_role": "lab_exercise",
       "background_kind": "curated",
       "heading": "Exercise 1 · Same problem, three entry points",
-      "sentence": "Keep one D1 problem. Start each of three rough sketches from a different named entry point. Do not polish. Compare how the entry point steered the path (de Bono 1970, 27; Cross 2006, 93).",
+      "sentence": "Keep one D1 problem. Start each of three rough sketches from a different named entry point. Do not polish. Compare how the entry point steered the path (de Bono 1970, chap. “Choice of Entry Point and Attention Area”; Cross 2006, 86).",
       "portfolio_bound": true,
       "portfolio_trace": "Save the problem, three entry points, three scans, and one sentence on what each entry point made possible.",
       "image_brief": "An early-19th-century design sheet with three chairs with curved backs: one problem answered three ways side by side, the model for three rough entry points.",
       "asset_id": "wikimedia:File:Design for Three Chairs with Curved Backs (verso- Sketch for a Sideboard) MET DP807145.jpg",
       "media_slot_id": "U3.lab-1",
-      "notes": "- One concrete D1 problem, the same for the whole class.\n- Three rough sketches or small prototypes in about 20 minutes, each from a different entry point named in advance: structure, material/support, or audience/circulation.\n- Do not polish. Compare relationships, rhythm and emphasis across the three starts.\n- Watch the temptation to solve it the obvious way and paste the entry point on afterwards.\nSource: (Cross 2006, 93); (de Bono 1970, 27).\nAsk (in pairs): How did each entry point steer the path?"
+      "notes": "- One concrete D1 problem, the same for the whole class.\n- Three rough sketches or small prototypes in about 20 minutes, each from a different entry point named in advance: structure, material/support, or audience/circulation.\n- Do not polish. Compare relationships, rhythm and emphasis across the three starts.\n- Watch the temptation to solve it the obvious way and paste the entry point on afterwards.\nSource: (Cross 2006, 86); (de Bono 1970, chap. “Choice of Entry Point and Attention Area”).\nAsk (in pairs): How did each entry point steer the path?"
     },
     {
       "slide_id": "lab-2",
       "slide_role": "lab_exercise",
       "background_kind": "curated",
       "heading": "Exercise 2 · Delay judgement, then checkpoint and exit",
-      "sentence": "Protect a short delay of judgement on one version (de Bono 1970, 30). Write one testable question, revise once, and stop when the test is answered.",
+      "sentence": "Protect a short delay of judgement on one version (de Bono 1970, chap. “The New Word PO”). Write one testable question, revise once, and stop when the test is answered.",
       "portfolio_bound": true,
       "portfolio_trace": "Save before/after, the deferred-judgement note, the test question, the checkpoint, and the exit decision.",
       "image_brief": "The Wright brothers' 1900 glider flown unmanned as a kite: one version tested against one question (does it lift?) before judging it and revising once.",
       "asset_id": "wikimedia:File:Wright Glider being flown as a kite. -1900 10457 A.S..jpg",
       "media_slot_id": "U3.lab-2",
-      "notes": "- Choose one of the three versions. Keep developing without deciding yet if it is right.\n- Write one testable question the next version must answer. Revise once. Stop when the test is answered.\n- If a tool or generative system supplied a variation, record the prompt, the option you rejected, and why you kept the final form.\nSource: (de Bono 1970, 30).\nAsk: Where did you stop, and was it hard to stop?"
+      "notes": "- Choose one of the three versions. Keep developing without deciding yet if it is right.\n- Write one testable question the next version must answer. Revise once. Stop when the test is answered.\n- If a tool or generative system supplied a variation, record the prompt, the option you rejected, and why you kept the final form.\nSource: (de Bono 1970, chap. “The New Word PO”).\nAsk: Where did you stop, and was it hard to stop?"
     },
     {
       "slide_id": "outro",

@@ -286,8 +286,8 @@ layout: null
       "sentence": "First invent many possibilities. Then pick what fits the needs of the brief — one creative act can hold both moves.",
       "quote": "The same creative act may involve both divergent and convergent thinking.",
       "citation": {
-        "label": "(Craft 2003, 43)",
-        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#ref-craft-2003"
+        "label": "(Craft 2000, 30)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#ref-craft-2000"
       },
       "quote_origin": "page_verified",
       "semantic_tags": {
@@ -309,7 +309,7 @@ layout: null
       "image_brief": "Michelangelo, a sheet of studies connected with the Libyan Sibyl, c. 1510–11: a large worked-up leg study beside two small trial sketches of a seated figure — options opened quickly, one carried through in detail.",
       "asset_id": "wikimedia:File:Studies for the Libyan Sibyl (recto); Studies for the Libyan Sibyl and a small Sketch for a Seated Figure (verso) MET DP807402.jpg",
       "media_slot_id": "U1.masterclass-1",
-      "notes": "- First we open: invent many options. That is divergent thinking.\n- Then we close: pick what fits the needs of the brief. That is convergent thinking.\n- One creative job often needs both moves.\nSource: (Craft 2003, 43).\nAsk: Think of your last project. Where did you open, and where did you close?"
+      "notes": "- First we open: invent many options. That is divergent thinking.\n- Then we close: pick what fits the needs of the brief. That is convergent thinking.\n- One creative job often needs both moves.\nSource: (Craft 2000, 30).\nAsk: Think of your last project. Where did you open, and where did you close?"
     },
     {
       "slide_id": "masterclass-2",
@@ -319,8 +319,8 @@ layout: null
       "sentence": "Fluency (many ideas), flexibility (many angles), originality (ideas few other people have), elaboration (work the details). Training can raise these scores.",
       "quote": "Fluency - the ability to produce a large number of ideas or solutions to a problem rapidly.",
       "citation": {
-        "label": "(Chen 2012, 41)",
-        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#ref-chen-2012"
+        "label": "(Chen 2011, 26)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#ref-chen-2011"
       },
       "quote_origin": "page_verified",
       "semantic_tags": {
@@ -340,7 +340,7 @@ layout: null
         ]
       },
       "image_brief": "Katsushika Hokusai, a page of the Hokusai Manga sketchbooks (from 1814): many quick, varied figures on one page — fluency (many ideas), flexibility (many kinds) and elaboration made visible.",
-      "notes": "- Guilford's four abilities, as summarised by Chen, give us shared words: fluency (many ideas quickly), flexibility (several angles), originality (ideas few other people produce), elaboration (work the details).\n- Training can raise scores on these skills.\n- A higher score is not the same as a better idea in a real brief. That is the next slide.\nSource: (Chen 2012, 41); the same triad in (Csikszentmihalyi 2007, 8).\nAsk: Which of the four skills do you use most? Which one do you avoid?"
+      "notes": "- Guilford's four abilities, as summarised by Chen, give us shared words: fluency (many ideas quickly), flexibility (several angles), originality (ideas few other people produce), elaboration (work the details).\n- Training can raise scores on these skills.\n- A higher score is not the same as a better idea in a real brief. That is the next slide.\nSource: (Chen 2011, 26); the same triad in (Csikszentmihalyi 1996, chap. 3).\nAsk: Which of the four skills do you use most? Which one do you avoid?"
     },
     {
       "slide_id": "masterclass-3",
@@ -350,8 +350,8 @@ layout: null
       "sentence": "Scoring well on “uses of a brick” does not prove you are strong in another field — tests need context.",
       "quote": "After all, the ability of divergent thinking with a paper clip may tell us little about an individual's talent in music.",
       "citation": {
-        "label": "(Chen 2012, 41)",
-        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#ref-chen-2012"
+        "label": "(Chen 2011, 26)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#ref-chen-2011"
       },
       "quote_origin": "page_verified",
       "semantic_tags": {
@@ -373,7 +373,7 @@ layout: null
       "image_brief": "The Gem paper clip (1890s): the everyday object of the 'unusual uses' test, a reminder that a high score on such a toy task says little about talent in another field.",
       "asset_id": "wikimedia:File:GemPaperClipAdvertisementJan1893.png",
       "media_slot_id": "U1.masterclass-3",
-      "notes": "- Scoring high on \"how many uses for a brick or a paper clip\" is not the same as judgement inside a real brief.\n- A test in one field may tell us little about talent in another, such as music.\nSource: (Chen 2012, 41).\nAsk: What would a test of design judgement need to include?"
+      "notes": "- Scoring high on \"how many uses for a brick or a paper clip\" is not the same as judgement inside a real brief.\n- A test in one field may tell us little about talent in another, such as music.\nSource: (Chen 2011, 26).\nAsk: What would a test of design judgement need to include?"
     },
     {
       "slide_id": "masterclass-4",
@@ -405,7 +405,7 @@ layout: null
       "image_brief": "Auguste Rodin, The Thinker (modelled 1880–81): a figure halted in thought before any tool is picked up, to picture framing the unclear problem before choosing a technique.",
       "asset_id": "wikimedia:File:Auguste Rodin - The Thinker - 1917.42 - Cleveland Museum of Art.tif",
       "media_slot_id": "U1.masterclass-4",
-      "notes": "- Before you pick a creativity technique, say what is fuzzy in the brief.\n- Tools help after the problem is framed.\n- This is a studio stance. The lesson has no page source for it yet: treat it as a course hypothesis.\nSource: studio stance (Tao of Creativity line on the slide).\nAsk: What question does your current brief still refuse to answer?"
+      "notes": "- Before you pick a creativity technique, say what is fuzzy in the brief.\n- Tools help after the problem is framed.\n- Problems are not given; they are built from an unclear situation, and how you state one already points to an answer.\nSource: the slide quote is a Tao of Creativity line; the lesson cites (Schön 1983, 40), (Buchanan 1992, 16) and (Csikszentmihalyi 1996, chap. 4).\nAsk: What question does your current brief still refuse to answer?"
     },
     {
       "slide_id": "masterclass-5",
@@ -438,7 +438,7 @@ layout: null
       "image_brief": "A pocket set of drawing instruments by Peter Dollond, London, c. 1755: tools that extend the hand but do not decide the line — a technique serves judgement, it does not replace it.",
       "asset_id": "wikimedia:File:Pocket set of drawing instruments MET DP232308.jpg",
       "media_slot_id": "U1.masterclass-5",
-      "notes": "- A method helps you talk with the situation.\n- It does not replace your judgement.\n- Studio stance: the lesson has no page source for it yet.\nSource: studio stance (Tao of Creativity line on the slide).\nAsk: When did a method push you to a choice you would not defend?"
+      "notes": "- A method helps you talk with the situation.\n- It does not replace your judgement.\n- Reflecting while you act means you are not bound by established technique.\nSource: the slide quote is a Tao of Creativity line; the lesson cites (Schön 1983, 68).\nAsk: When did a method push you to a choice you would not defend?"
     },
     {
       "slide_id": "masterclass-6",
@@ -471,7 +471,7 @@ layout: null
       "image_brief": "A Post-it 'Teamwork Tools' display wall at a 2018 innovation festival: the sticky-note wall sold as a method, shown so students ask what craft the look of 'design thinking' may hide.",
       "asset_id": "wikimedia:File:Post-It Notes Wall at the Fast Company Innovation Festival (30772875917).jpg",
       "media_slot_id": "U1.masterclass-6",
-      "notes": "- Use tools that help.\n- Also ask when managerial buzzwords empty out craft.\n- Studio stance, offered for debate, not as settled fact.\nSource: studio stance (Tao of Creativity line on the slide).\nAsk: Name one design buzzword. What craft might it hide?"
+      "notes": "- Use tools that help.\n- Also ask when managerial buzzwords empty out craft.\n- Offered for debate, not as settled fact: critics argue the claims for design thinking are overstated.\nSource: the slide quote is a Tao of Creativity line; the lesson cites (Kimbell 2011, 285).\nAsk: Name one design buzzword. What craft might it hide?"
     },
     {
       "slide_id": "lab-opener",
