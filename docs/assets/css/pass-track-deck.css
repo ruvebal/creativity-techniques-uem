@@ -563,3 +563,8 @@ body {
 /* Speaker notes shown with ?show-notes (Reveal showNotes) stay readable. */
 .reveal .speaker-notes,
 .reveal aside.notes { color: #111; }
+
+/* ?print-pdf: slides only — no timer controls, back link or card toggle. */
+.reveal-print .slide-timer,
+.reveal-print .track-back,
+.reveal-print .student-media-controls { display: none !important; }
