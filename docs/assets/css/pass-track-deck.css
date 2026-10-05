@@ -491,28 +491,34 @@ body {
 .student-media-slide--split > h1 { grid-row: 2 / span 4; align-self: start; }
 
 /* exercise (Lab and Workshop slides): task first, portfolio trace boxed, timer. */
-/* Fits the 1280×720 slide: card ≤ 540 px + section padding (2rem + 4.5rem)
-   ≤ 720 px. Longer Lab text (EX8) scrolls inside the card; the timer sits
-   outside the card. Type stays inside the golden-rule clamp (em of .reveal). */
+/* Exercise type uses the forge sizes (no reductions: golden rule 1). Space
+   comes from layout instead: the card uses the full width left of the caption
+   (74% of the section; the caption holds the right 24%), and its height cap
+   is the slide height minus the section padding (720 px − 1.25rem − 3.5rem), so
+   the section never exceeds the 720 px slide. The Lab timer sits in the
+   section's bottom padding, outside the card. If EX8 text ever exceeds the
+   cap, the card scrolls (the browser check fails when text is hidden). */
 .student-media-deck .reveal .slides section[data-layout="exercise"] {
   max-height: none;
   overflow: visible;
+  padding-top: 1.25rem;
+  padding-bottom: 3.5rem;
 }
+/* The unit name is on every other slide; on exercise slides the heading
+   ("Exercise N · …") carries the context, so the kicker line gives way. */
+.student-media-slide--exercise > .student-media-slide__unit { display: none; }
 .student-media-slide--exercise {
-  max-width: min(48rem, 72%);
+  box-sizing: border-box; /* 74% includes padding and border */
+  max-width: 74%;
   min-height: 0;
-  max-height: 540px;
+  max-height: calc(720px - 4.75rem);
   overflow-y: auto;
-  gap: 0.5rem;
-  padding-top: clamp(0.9rem, 2.4vw, 1.5rem);
-  padding-bottom: clamp(0.9rem, 2.4vw, 1.5rem);
+  gap: 0.3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
-.reveal .student-media-slide--exercise h1 { font-size: clamp(1.8rem, 5.4vw, 2.6rem); }
-.student-media-slide--exercise .student-media-slide__sentence { font-size: 0.9em; }
-.student-media-slide--exercise .student-media-slide__quote { font-size: 0.66em; }
-.student-media-slide--exercise .student-media-slide__trace { font-size: 0.7em; }
 .student-media-slide--exercise .student-media-slide__trace {
-  padding: 0.4em 0.6em;
+  padding: 0.25em 0.55em;
   border: 1px dashed rgb(var(--accent) / 0.7);
   border-radius: var(--radius);
   font-style: normal;
@@ -522,14 +528,14 @@ body {
 .student-media-deck .reveal .slides section > .slide-timer {
   position: absolute;
   left: clamp(1.15rem, 3.8vw, 2rem);
-  bottom: 0.6rem;
+  bottom: 0.4rem;
   z-index: 2;
 }
 .slide-timer {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  font-size: 0.62em;
+  font-size: 0.7em;
 }
 .slide-timer button {
   border: 1px solid rgb(var(--foreground) / 0.3);
@@ -595,3 +601,9 @@ body {
 .reveal-print .slide-timer,
 .reveal-print .track-back,
 .reveal-print .student-media-controls { display: none !important; }
+
+/* ?print-pdf: no height cap on Lab cards, so no exercise text is clipped in print. */
+.reveal-print .student-media-slide--exercise {
+  max-height: none;
+  overflow: visible;
+}

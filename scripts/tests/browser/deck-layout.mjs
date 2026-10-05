@@ -11,9 +11,18 @@
  *   - the card lies inside its section and inside the viewport (F2)
  *   - every Lab timer lies inside its section and the viewport, fully visible (F2)
  *   - caption ∩ card-toggle = ∅, caption ∩ card = ∅, toggle ∩ card = ∅,
- *     timer ∩ toggle = ∅, toggle ∩ Reveal arrows = ∅, caption/toggle ∩ back link = ∅ (F3)
- * A card that needs inner scrolling is reported as a note (allowed: the timer
- * stays outside the card), not a failure.
+ *     timer ∩ toggle = ∅, caption ∩ timer = ∅, toggle ∩ Reveal arrows = ∅,
+ *     caption/toggle ∩ back link = ∅, caption inside the viewport (F3)
+ *   - the card-toggle exists (a missing control is a failure, not a skip);
+ *     a caption exists on every slide with a background
+ *   - type sizes are not below the forge clamps evaluated at the viewport
+ *     (round-2 review R2-F1): read from STUDENT-SLIDESHOW-FORGE.mdc golden
+ *     rule 1 — base `.reveal` clamp (sentence ≥ base) and `h1` clamp; quote,
+ *     prompt/trace and timer keep their CSS ratios of the base (0.72, 0.76, 0.7)
+ *   - a card that scrolls so far that text is hidden (overflow beyond its
+ *     bottom padding) is a failure; padding-only overflow is allowed
+ * Print pass (`?print-pdf`, print media, 1280×720 and 1920×1080 windows):
+ * every card lies inside its PDF page and hides no text.
  *
  * Exit 0 = all pass; 1 = failures; 0 with "SKIP" when no Chrome is found
  * (set CHROME=/path/to/chrome to choose one).
@@ -30,6 +39,14 @@ const arg = (name, fallback) => (process.argv.find((a) => a.startsWith(`--${name
 const sizes = arg('sizes', '1280x720,1920x1080,1024x768').split(',').map((s) => s.split('x').map(Number));
 const shots = arg('shots', '');
 const base = (readFileSync(join(root, '_config.yml'), 'utf8').match(/^baseurl:\s*['"]?([^'"\n]*)['"]?/m) || [])[1] ?? '';
+const forge = readFileSync(join(root, 'creativity-techniques-pedagogy/forge/STUDENT-SLIDESHOW-FORGE.mdc'), 'utf8');
+const baseClamp = forge.match(/Base `\.reveal` size is now `clamp\(([\d.]+)px, ([\d.]+)vw, ([\d.]+)px\)`/);
+const h1Clamp = forge.match(/`h1` `clamp\(([\d.]+)rem, ([\d.]+)vw, ([\d.]+)rem\)`/);
+if (!baseClamp || !h1Clamp) { console.error('deck-layout: forge clamps not found in STUDENT-SLIDESHOW-FORGE.mdc golden rule 1'); process.exit(2); }
+const CLAMPS = JSON.stringify({
+  base: { min: Number(baseClamp[1]), vw: Number(baseClamp[2]), max: Number(baseClamp[3]), unit: 'px' },
+  h1: { min: Number(h1Clamp[1]), vw: Number(h1Clamp[2]), max: Number(h1Clamp[3]), unit: 'rem' },
+});
 const decks = [
   '/tracks/ct/u-1-introduction-creativity/',
   '/tracks/ct/u-2-idea-generation-selection/',
@@ -92,6 +109,7 @@ await send('Page.enable');
 
 // Runs in the page: walk every slide, measure, return findings.
 const PROBE = `(async () => {
+  const CLAMPS = ${CLAMPS};
   const wait = () => new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r)));
   for (let i = 0; i < 100 && !(window.Reveal && Reveal.isReady && Reveal.isReady()); i++) await new Promise((r) => setTimeout(r, 100));
   Reveal.configure({ transition: 'none', backgroundTransition: 'none' });
@@ -99,11 +117,17 @@ const PROBE = `(async () => {
   const hit = (a, b) => a && b && a.l < b.r - 0.5 && b.l < a.r - 0.5 && a.t < b.b - 0.5 && b.t < a.b - 0.5;
   const inside = (a, b) => a && b && a.l >= b.l - 1 && a.t >= b.t - 1 && a.r <= b.r + 1 && a.b <= b.b + 1;
   const vp = { l: 0, t: 0, r: innerWidth, b: innerHeight };
+  const rem = parseFloat(getComputedStyle(document.documentElement).fontSize);
+  const evalClamp = (c) => { const f = c.unit === 'rem' ? rem : 1; return Math.min(Math.max(c.min * f, c.vw * innerWidth / 100), c.max * f); };
+  const floorBase = evalClamp(CLAMPS.base);
+  const floorH1 = evalClamp(CLAMPS.h1);
+  const fs = (el) => (el ? parseFloat(getComputedStyle(el).fontSize) : null);
   const toggle = box(document.querySelector('.student-media-controls button'));
   const back = box(document.querySelector('.track-back'));
   const arrows = box(document.querySelector('.reveal .controls'));
   const sections = [...document.querySelectorAll('.reveal .slides > section')];
   const out = [];
+  const sizes = { h1: [], sentence: [] };
   for (let i = 0; i < sections.length; i++) {
     Reveal.slide(i); await wait(); await wait();
     const s = sections[i];
@@ -111,11 +135,15 @@ const PROBE = `(async () => {
     const sec = box(s);
     const cardEl = s.querySelector('.student-media-slide');
     const card = box(cardEl);
-    const cap = box(s.querySelector('.slide-caption'));
+    const capEl = s.querySelector('.slide-caption');
+    const cap = box(capEl);
     const timer = box(s.querySelector('.slide-timer'));
     const fail = [];
+    if (!toggle) fail.push('card toggle missing');
+    if (!capEl && s.dataset.backgroundKind !== 'none') fail.push('caption missing');
     if (card && !inside(card, sec)) fail.push('card outside section ' + JSON.stringify({ card, sec }));
     if (card && !inside(card, vp)) fail.push('card outside viewport');
+    if (cap && !inside(cap, vp)) fail.push('caption outside viewport');
     if (s.dataset.timer) {
       if (!timer) fail.push('timer missing');
       else {
@@ -123,6 +151,9 @@ const PROBE = `(async () => {
         if (!inside(timer, vp)) fail.push('timer outside viewport');
         if (hit(timer, card)) fail.push('timer overlaps card');
         if (hit(timer, toggle)) fail.push('timer overlaps toggle');
+        if (hit(timer, cap)) fail.push('timer overlaps caption');
+        const tf = fs(s.querySelector('.slide-timer'));
+        if (tf < 0.7 * floorBase - 0.25) fail.push('timer type ' + tf.toFixed(1) + 'px < ' + (0.7 * floorBase).toFixed(1));
       }
     }
     if (hit(cap, toggle)) fail.push('caption overlaps toggle');
@@ -131,11 +162,27 @@ const PROBE = `(async () => {
     if (hit(toggle, arrows)) fail.push('toggle overlaps Reveal arrows');
     if (hit(cap, back)) fail.push('caption overlaps back link');
     if (hit(toggle, back)) fail.push('toggle overlaps back link');
-    const scrolls = cardEl && cardEl.scrollHeight > cardEl.clientHeight + 1;
-    out.push({ i, id, fail, scrolls, timer: !!timer });
+    if (cardEl) {
+      const h1 = fs(cardEl.querySelector('h1'));
+      if (h1 !== null) { sizes.h1.push(h1); if (h1 < floorH1 - 0.25) fail.push('h1 ' + h1.toFixed(1) + 'px < forge ' + floorH1.toFixed(1)); }
+      const sentEl = cardEl.querySelector('.student-media-slide__sentence') || cardEl.querySelector(':scope > p:not([class])');
+      const sent = fs(sentEl);
+      if (sent !== null) { sizes.sentence.push(sent); if (sent < floorBase - 0.25) fail.push('sentence ' + sent.toFixed(1) + 'px < forge base ' + floorBase.toFixed(1)); }
+      const q = fs(cardEl.querySelector('.student-media-slide__quote'));
+      if (q !== null && q < 0.72 * floorBase - 0.25) fail.push('quote ' + q.toFixed(1) + 'px < ' + (0.72 * floorBase).toFixed(1));
+      for (const pr of cardEl.querySelectorAll('.student-media-slide__prompt')) {
+        const v = fs(pr);
+        if (v < 0.76 * floorBase - 0.25) { fail.push('prompt/trace ' + v.toFixed(1) + 'px < ' + (0.76 * floorBase).toFixed(1)); break; }
+      }
+      const hidden = cardEl.scrollHeight - cardEl.clientHeight - parseFloat(getComputedStyle(cardEl).paddingBottom);
+      if (hidden > 1) fail.push('card hides ' + Math.round(hidden) + 'px of text (scrolls)');
+      const cap = parseFloat(getComputedStyle(cardEl).maxHeight);
+      if (s.dataset.timer && Number.isFinite(cap)) sizes.slack = Math.min(sizes.slack ?? Infinity, cap - cardEl.scrollHeight);
+    }
+    out.push({ i, id, fail, timer: !!timer });
   }
   Reveal.slide(0);
-  return out;
+  return { out, floorBase, floorH1, sizes };
 })()`;
 
 let failures = 0;
@@ -145,29 +192,70 @@ for (const [w, h] of sizes) {
   for (const deck of decks) {
     await send('Page.navigate', { url: `${origin}${deck}` });
     await sleep(2500);
-    const results = await evaluate(PROBE);
+    const probe = await evaluate(PROBE);
+    const results = probe.out;
     const slug = deck.split('/').filter(Boolean).pop();
     for (const r of results) {
       checked += 1;
       if (r.fail.length) {
         failures += r.fail.length;
         console.log(`FAIL ${w}x${h} ${slug} ${r.id}: ${r.fail.join('; ')}`);
-      } else if (r.scrolls) {
-        console.log(`note ${w}x${h} ${slug} ${r.id}: card scrolls inside itself (timer stays visible)`);
       }
     }
     const timers = results.filter((r) => r.timer).length;
-    console.log(`${w}x${h} ${slug}: ${results.length} slides, ${timers} timer(s), ${results.filter((r) => r.fail.length).length} failing`);
-    if (shots && w === 1280) {
+    const range = (a) => (a.length ? `${Math.min(...a).toFixed(1)}–${Math.max(...a).toFixed(1)}` : '-');
+    console.log(`${w}x${h} ${slug}: ${results.length} slides, ${timers} timer(s), ${results.filter((r) => r.fail.length).length} failing; h1 ${range(probe.sizes.h1)}px (floor ${probe.floorH1.toFixed(1)}), sentence ${range(probe.sizes.sentence)}px (floor ${probe.floorBase.toFixed(1)})${probe.sizes.slack !== undefined ? `; exercise headroom ${Math.round(probe.sizes.slack)}px` : ''}`);
+    if (shots && (w === 1280 || (w === 1920 && slug.startsWith('u-2-')))) {
       mkdirSync(shots, { recursive: true });
       for (const r of results.filter((x) => x.timer)) {
         await evaluate(`(async () => { Reveal.slide(${r.i}); await new Promise((r) => setTimeout(r, 400)); })()`);
         const shot = await send('Page.captureScreenshot', { format: 'jpeg', quality: 70 });
-        writeFileSync(join(shots, `${slug}-${r.id}.jpg`), Buffer.from(shot.result.data, 'base64'));
+        writeFileSync(join(shots, `${w}-${slug}-${r.id}.jpg`), Buffer.from(shot.result.data, 'base64'));
       }
     }
   }
 }
+// Print pass: ?print-pdf with print media; every card inside its PDF page, no hidden text.
+const PRINT_PROBE = `(async () => {
+  const sections = document.querySelectorAll('.reveal .slides section').length;
+  for (let i = 0; i < 150 && document.querySelectorAll('.pdf-page').length < sections; i++) await new Promise((r) => setTimeout(r, 100));
+  const out = [];
+  document.querySelectorAll('.pdf-page').forEach((page, n) => {
+    const card = page.querySelector('.student-media-slide');
+    if (!card) return;
+    const pr = page.getBoundingClientRect();
+    const cr = card.getBoundingClientRect();
+    const fail = [];
+    const hidden = card.scrollHeight - card.clientHeight - parseFloat(getComputedStyle(card).paddingBottom);
+    if (hidden > 1) fail.push('card hides ' + Math.round(hidden) + 'px of text');
+    if (cr.bottom > pr.bottom + 1 || cr.top < pr.top - 1) fail.push('card outside PDF page');
+    const sec = page.querySelector('section');
+    out.push({ page: n + 1, id: (sec && sec.dataset.slideId) || '#' + (n + 1), fail });
+  });
+  return { pages: document.querySelectorAll('.pdf-page').length, sections, out };
+})()`;
+await send('Emulation.setEmulatedMedia', { media: 'print' });
+for (const [w, h] of [[1280, 720], [1920, 1080]]) {
+  await send('Emulation.setDeviceMetricsOverride', { width: w, height: h, deviceScaleFactor: 1, mobile: false });
+  for (const deck of decks) {
+    await send('Page.navigate', { url: `${origin}${deck}?print-pdf` });
+    await sleep(3000);
+    const res = await evaluate(PRINT_PROBE);
+    const slug = deck.split('/').filter(Boolean).pop();
+    if (res.pages !== res.sections) { failures += 1; console.log(`FAIL print ${w}x${h} ${slug}: ${res.pages} PDF pages for ${res.sections} slides`); }
+    for (const r of res.out) {
+      checked += 1;
+      if (r.fail.length) { failures += r.fail.length; console.log(`FAIL print ${w}x${h} ${slug} ${r.id}: ${r.fail.join('; ')}`); }
+    }
+    console.log(`print ${w}x${h} ${slug}: ${res.pages} page(s), ${res.out.filter((r) => r.fail.length).length} failing`);
+    if (shots && slug.startsWith('u-2-')) {
+      const pdf = await send('Page.printToPDF', { preferCSSPageSize: true, printBackground: true });
+      writeFileSync(join(shots, `print-${w}-${slug}.pdf`), Buffer.from(pdf.result.data, 'base64'));
+    }
+  }
+}
+await send('Emulation.setEmulatedMedia', { media: '' });
+
 ws.close();
 chrome.kill();
 server.close();
