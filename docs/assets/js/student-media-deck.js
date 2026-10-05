@@ -5,7 +5,7 @@
   // background, caption, alt text and speaker notes are already in the HTML.
   // This script only enhances them: Reveal, the card toggle and the Lab timer.
   //
-  // Legacy decks (no schema_version, e.g. U4 until its forge migrates it) ship
+  // Legacy decks (no schema_version, e.g. U4 until it is migrated) ship
   // an empty #slides; for them only, the slides are built from content.json at
   // runtime (legacyLoad below).
   //
