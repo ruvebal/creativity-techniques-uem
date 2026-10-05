@@ -5,7 +5,7 @@
 | **status** | VERIFYING |
 | **started_at** | 2026-10-05 |
 | **finished_at** | 2026-10-05 (implementation done; waiting for `cascade-harness.sh verify` and cold review) |
-| **cold_review** | pending |
+| **cold_review** | round 1 FAIL (F1, F2, F3 blocking) — fixed in round 2 (below); round-2 review pending |
 | **cascade_amended** | none (forge rule `STUDENT-SLIDESHOW-FORGE.mdc` documents the new fields; no downstream phase assumption changed) |
 | **branch / worktree** | `cascade/excellence-5` · `creativity-techniques-uem-integration-excellence-5` (`.cascade-lane` = `excellence`) |
 | **mode** | AUTOPILOT (decisions in DECISIONS-LOG.md) |
@@ -113,6 +113,30 @@ m2/m3/m6 say that the lesson has no page cite.
 - U4's runtime path keeps a small legacy caption builder in the JS (U4 only). In-scope decks
   get captions only from `captionHtml()`.
 - The legacy path still paints backgrounds through CSS (U4 cache files are `.php`-named).
+
+## Round 2 — cold review fixes (2026-10-05)
+
+| Finding | Fix | Test that fails on the round-1 code |
+| --- | --- | --- |
+| F1 master-lecture citation links lost the base (404) | `withBase()` in `deck-render.mjs`: root-relative citation hrefs and asset URLs get `ctx.base`; `#…`, `http(s):`, `mailto:`, `//…` and already-prefixed values pass through. ML include re-rendered (4 hrefs now `/creativity-techniques-uem/lessons/…`) | unit test (`withBase` + `renderDeck` with a `/lessons/…` href); repo scan: no `href`/`src`/`data-background-image` in any include starts with `/` without the site base (round-1 include: 4 hits) |
+| F2 Lab timer cut or hidden (U2 lab-1/lab-2), card past the section (U1 labs) | timer moved out of the card into the section's bottom padding (absolute, bottom left); exercise card `max-height: 540px` (+ section padding ≤ 720 px), inner scroll for longer Lab text (EX8 headroom); exercise type slightly smaller, within the golden-rule clamp (h1 `clamp(1.8rem, 5.4vw, 2.6rem)`, sentence 0.9em) | browser check: card and timer inside section and viewport; timer ∩ card = ∅ |
+| F3 caption under the card-toggle button (12 slides) | toggle moved to bottom right, left of Reveal's arrows (`right: 7.5rem`) | browser check: caption ∩ toggle, caption ∩ card, toggle ∩ card, timer ∩ toggle, toggle ∩ arrows, caption/toggle ∩ back link = ∅ |
+| F4 FINAL-REVIEW said "U4 untouched" | now: U4 data untouched, look changed (Koch on 2 diagram slides, shifted geometric cycle, in-slide captions, 3 timers) | — |
+| F7 U2 masterclass-6 Rubin page; slide-only phrases in notes | the slide quote (tortured geniuses) is the page-verified p. 103 passage, so 103 stays and the note now says which passage is 103 and which lesson point is 104. Removed phrases taken from the slide, not the lesson: U1 m3 "Tests need context", U1 m5 "or the brief", U1 m6 "or skip the hard part", U2 m2 "Thirty sketches of the same sun …" | — (text) |
+
+**Browser check** `scripts/tests/browser/deck-layout.mjs` (`npm run test:browser`; stdlib + local Chrome over CDP; serves `_site` under the baseurl; prints SKIP and exits 0 if no Chrome). It walks every slide of U1, U2, U3, U4 and the master lecture at 1280×720, 1920×1080 and 1024×768.
+- Round-1 code (1280×720 only): **30 failures**. These include the reviewer's 12 caption/toggle collisions and the cut/hidden timers on U2 lab-1/lab-2.
+- Fixed code: `deck-layout: 195 slide view(s), 0 failure(s)`. Two notes: at 1920×1080, U2 lab-1/lab-2 scroll inside the card, because the `vw`-based type is larger there. The timer stays visible.
+- The check is not in the exit gate (gates are not edited). Run it after a build.
+
+**Round-2 runs:** `node --test scripts/tests/index.js` 47/47; `npm run build` exit 0, "Publication safety passed" (one interim failure: the word "forge" in a CSS comment, reworded); EX0–EX5 gates all `failures: 0`.
+
+**Screenshots of the fixed slides:** `evidence/EX5/screens/round2/` — every timer slide of the 5 decks at 1280×720 (e.g. `u-2-idea-generation-selection-lab-2.jpg`: full card, timer under it, caption clear of the toggle).
+
+**Still open (non-blocking):**
+- F5: includes bake the base path at render time; `jekyll serve --baseurl ''` needs a re-render.
+- F6: `legacyCaption` stays until U4 migrates.
+- Print view: an exercise card longer than 540 px would clip in `?print-pdf`. Not the case today; EX8 should check its longer cards with `?print-pdf`.
 
 ## Resume point
 

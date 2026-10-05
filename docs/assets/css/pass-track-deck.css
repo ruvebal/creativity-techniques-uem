@@ -493,7 +493,7 @@ body {
 /* exercise (Lab and Workshop slides): task first, portfolio trace boxed, timer. */
 /* Fits the 1280×720 slide: card ≤ 540 px + section padding (2rem + 4.5rem)
    ≤ 720 px. Longer Lab text (EX8) scrolls inside the card; the timer sits
-   outside the card. Type stays inside the forge clamp (em of .reveal). */
+   outside the card. Type stays inside the golden-rule clamp (em of .reveal). */
 .student-media-deck .reveal .slides section[data-layout="exercise"] {
   max-height: none;
   overflow: visible;

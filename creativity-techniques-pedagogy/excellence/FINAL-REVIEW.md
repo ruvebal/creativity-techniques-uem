@@ -176,7 +176,8 @@ U4 (legacy, out of scope) keeps *Man dreaming* (`profield-cache/0a359d9b946505e1
 - Alt text on every curated slide (screen-reader only); captions read title · author · licence link · source link; geometric captions show the SVG content hash (files renamed `ct-pass-NN-<name>-<hash8>.svg`); diagram slides show the Koch triangle.
 - **Please review the speaker notes** (24 slides, `notes` in U1–U3 `content.json`; preview with `?show-notes`). They were drafted by a local model, then checked by hand against the lesson text. They add no new citations.
 - **Caption titles changed (A7):** titles now come from the source record, so some are not in English (*Maqueta polifunicular*, *Sombrero negro (Dudas)*, *Tableau de résultats au test de Binet-Simon*, *Pädagogisches Skizzenbuch*). Alt-text fixes: Dada poster (German, Dutch and French), Wright diary (two pages).
-- U4 untouched: it keeps the runtime path and still renders (checked in a browser).
+- **U4: data untouched, but its look changed.** No U4 file is edited, and U4 keeps the runtime path and still renders (checked in a browser). The shared deck JS now shows the Koch triangle on U4's 2 diagram slides (so the geometric cycle shifts: the outro gets `ct-pass-03`, not `ct-pass-05`), puts captions inside the slide, and adds Lab timers (3). The U4 forge should know this.
+- **Round 2 (cold review FAIL → fixed):** F1 master-lecture citation links had lost the base path (404) → renderer adds it; F2 Lab timer cut or hidden on U2's exercise slides → timer moved under the card, exercise card fits 720 px (longer Lab text scrolls inside the card); F3 caption hid under the card-toggle button on 12 slides → the button moved bottom right. New browser check `npm run test:browser` (needs Chrome and a build): 195 slide views (5 decks × 3 screen sizes), 0 failures.
 - Evidence: `evidence/EX5/screens/` (print view, no-JS view, timer, layouts). Report: `PHASE-EX5-REPORT.md`.
 - Rollback: `gitflow.sh rollback 5`.
 
