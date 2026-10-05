@@ -133,15 +133,15 @@ U1, U2 and U4 on `main`. Therefore:
 - **Records:** EX4's private score table and shortlist briefs still show round-1
   state for the three unbound slides; FINAL-REVIEW notes this (not student-facing).
 
-## Amendment A8 — PROPOSED, awaiting professor ratification (2026-10-05)
+## Amendment A8 — RATIFIED by the professor (2026-10-05)
 
 **Stop event:** `gitflow.sh sync` before EX5 conflicted with main commit
 `d00539d` (7 files). The orchestrator resolved it on
 `cascade/excellence-sync-1` instead of halting; the sync cold review
 (`SYNC-1-COLD-REVIEW.md`) found a regression (U4 deck referenced a cache file
 EX3 had deleted — fixed by restoring it from main) and ruled the deviation
-unsafe as executed. **The run is halted at `excellence/ex4` until the professor
-ratifies.** Proposed protocol for future syncs:
+unsafe as executed. The professor ratified this sync and adopted the protocol below for future
+syncs (the orchestrator applies it; `gitflow.sh sync` still stops on conflict):
 
 1. Classify every hunk from main. Genuine content in U1–U3 (non-empty
    overrides, briefs, lesson prose) → stop.

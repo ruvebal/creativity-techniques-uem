@@ -1,6 +1,6 @@
 # Final review — Excellence cascade
 
-> **RUN HALTED (2026-10-05) — your decision needed.** Syncing `main` (your commit
+> **Sync-1 RATIFIED by you (2026-10-05); A8 adopted; run resumed.** History: Syncing `main` (your commit
 > `d00539d`) into integration conflicted. I resolved it on `cascade/excellence-sync-1`
 > instead of halting; the cold review failed it (a U4 slide lost its image file — now
 > restored) and requires your ratification before it lands. Integration stays at
