@@ -2363,11 +2363,23 @@ html.dark,
 	scroll-margin-top: calc(var(--site-header-height) + 1rem);
 }
 
-/* Improve paragraph readability and prevent overflow in narrow viewports */
+/* Improve paragraph readability and prevent overflow in narrow viewports.
+   Never hyphenate domains/emails into crea-com-m.net — keep soft wraps only
+   at normal word boundaries, and protect known studio domains. */
 :where(.prose) p {
 	max-width: 75ch;
-	hyphens: auto;
-	overflow-wrap: anywhere;
+	hyphens: manual;
+	overflow-wrap: break-word;
+	word-break: normal;
+}
+
+:where(.prose) code,
+:where(.prose) .nowrap,
+:where(.prose) .domain {
+	hyphens: none;
+	overflow-wrap: normal;
+	word-break: keep-all;
+	white-space: nowrap;
 }
 
 /* Tighter vertical rhythm for lists */

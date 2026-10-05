@@ -12,7 +12,7 @@ tags: [creativity-techniques, workplace, labour, pitch, portfolio]
 deck_url: /tracks/ct/u-4-workplace-application/
 master_idea: 'Creativity techniques only work at work when time, safety, and credit are designed — not posted as slogans.'
 practice_anchor: 'Protect a diverge window; cluster and prefer with named criteria; keep a contribution log; pitch a decision with one unresolved concern.'
-frontier_signal: 'Open question: when does a team vote measure preference, and when does it only hide whose need was never checked?'
+frontier_signal: 'Dots on the wall show the team’s favourite ideas. They do not show that a real visitor can use the design.'
 ---
 
 ## 📋 Table of Contents
@@ -35,7 +35,7 @@ cover-agentic:
   contenidos: "Unidad 4. Aplicación de las técnicas de creatividad en el ámbito laboral."
   one_line: "Techniques meet briefs, deadlines, teams, and credit — or they stay classroom games."
   class_rhythm: "Analysis → Masterclass → Lab (Portfolio) → Workshop (Deliverable)"
-  evaluation_feed: "presentation evidence 30% path via Lab/D1–D2; knowledge tests 70% via D5 later"
+  evaluation_feed: "work evidence 40% through the course evaluation; knowledge tests 60%"
   how_to_pass: "/tracks/ct/how-to-pass-this-track/"
 {% endcomment %}
 
@@ -66,7 +66,7 @@ By the end of this unit, you should be able to:
 
 ## B1 · Analysis
 
-From session 3, two students open the class with a 15-minute defence of a D1 piece. Read the piece through **language / medium / support**, then ask how it would survive a workplace brief: who owns the credit, what deadline shaped the diverge window, and whose need was never checked.
+From session 3, two students open the class with a 15-minute defence of a D1 piece. Start with **language / medium / support**. Then add two workplace questions: who did the work, and who is this design supposed to help?
 
 **Circulation moment:** a sticky wall in the studio is not the same as a client meeting or an Atrium visitor path. Each move changes who can answer and what counts as evidence. If a generative tool suggested options, name the prompt, the rejected option, and the human decision — authorship does not disappear when the team is under pressure.
 
@@ -84,11 +84,11 @@ Enthusiasm is not consent to unlimited or uncredited labour. Course stance: crea
 
 ### 3 · Design the diverge window
 
-A deadline does not cancel generation; it forces you to schedule it. Protect a short period where unrelated pictures can open paths before discussion and ranking — the Lab adaptation of Michalko’s Ask a Crab / Picture Prompting sequence [(Michalko 2010, 440)](#ref-michalko-2010). No measured classroom benefit is claimed here; the point is rhythm. What would you cut from polish time to keep twenty minutes of protected generation?
+A deadline does not cancel generation; it forces you to schedule it. Protect a short period where unrelated pictures can open paths before discussion and ranking — the Lab adaptation of Michalko’s Ask a Crab / Picture Prompting sequence [(Michalko 2010, 439–440)](#ref-michalko-2010). No measured classroom benefit is claimed here; the point is rhythm. The approximately twenty-minute window is a proposed course timing, not a timing prescribed by Michalko. What would you cut from polish time to protect generation?
 
 ### 4 · Techniques meet stakeholders
 
-A popular idea on the wall is still only a group preference. Dot tallies from Wall of Ideas record what the team likes; they are not an accessibility test and not visitor testimony [(Michalko 2010, 402)](#ref-michalko-2010). Check the brief and the people affected before calling the tally a decision. Whose need could be missed even if every sticky note gets a vote?
+A popular idea on the wall is still only a group preference. Dot tallies from Wall of Ideas record what the team likes; they are not an accessibility test and not visitor testimony [(Michalko 2010, 402)](#ref-michalko-2010). Check the brief and the people affected before calling the tally a decision. Dots on the wall show the team’s favourite ideas — they do not show that a real visitor can use the design.
 
 ### 5 · Pitch is convergent craft
 
@@ -106,13 +106,43 @@ Harm, credit, and feasibility belong in the toolkit before a team says ready. Us
 
 ### Exercise 1 — Ask a Crab: picture diverge
 
-Work in a small team. Read the brief aloud and brainstorm solutions briefly. Give each member two or three pictures unrelated to the Atrium problem. Examine the pictures, write ideas, then read them aloud. Discuss and modify; record new ideas. Stop before a final evaluate — that step moves to Exercise 2. Timing target about 20 minutes [(Michalko 2010, 440)](#ref-michalko-2010).
+Work from Michalko’s **Ask a Crab** BLUEPRINT. Classroom adaptation: use the Accessible Atrium arrival brief; stop before step 5 and pass evaluation to Exercise 2. Proposed course timing about 20 minutes — the source does not prescribe that clock.
+
+> Applying your senses to your subject can get you thinking about a problem in different dimensions. Consider the sense of sight. Pictures, photographs, and illustrations are excellent sources of unrelated stimuli. The CEO of a Japanese perfume company asked his executives for ideas that would enable the company to survive poor economic times. Dis-appointed with their suggestions, he gave each of them a picture of a king crab and instructed them to study it and to look for ideas from the crab they could apply to their business. Some of their connections and ideas were:
+>
+> A crab is a scavenger. We need to allocate resources to see what other uses and markets we can find for our products.
+>
+> A crab has distinct features. We need to develop a distinctive package that differentiates our perfume more clearly.
+>
+> A crab moves slowly. We're moving too slowly. We cannot afford this. We must downsize so we can react more speedily to the market.
+>
+> A crab can see 360 degrees. We must improve our market intelligence.
+>
+> A crab can rejuvenate lost claws. We must develop backup product lines in case our primary line falters.
+{: .unit-quote}
+<p class="unit-quote-citation"><a href="#ref-michalko-2010">(Michalko 2010, 439)</a></p>
+
+> **BLUEPRINT**
+>
+> 1. Read aloud a problem statement and ask the group to verbally brainstorm solutions.
+> 2. Give each group member a folder containing two or three pictures that are not related to the problem area.
+> 3. Instruct the group members to examine each picture and write their ideas. After a designated period, ask the group members to read their ideas aloud.
+> 4. As each idea is read, ask the group members to discuss it and try to develop new ideas or modifications. Record all new ideas as they are suggested.
+> 5. Collect and evaluate.
+{: .unit-quote}
+<p class="unit-quote-citation"><a href="#ref-michalko-2010">(Michalko 2010, 440)</a></p>
+
+**In this Lab:** follow steps 1–4 under the Atrium brief. Leave step 5 for Exercise 2.
 
 **Portfolio trace:** the brief in one sentence; the pictures used (titles or photos); the idea list after discussion; note that evaluation was deferred on purpose.
 
 ### Exercise 2 — Wall of Ideas: cluster and prefer
 
-Take the idea set from Exercise 1. Silently write or re-copy ideas on sticky notes; place them on a wall; group themes and label topics; add concern or elaboration notes; give each person ten adhesive dots to distribute freely; discuss the highly rated clusters [(Michalko 2010, 402)](#ref-michalko-2010). Fill a **decision card**: top preference + one unresolved concern. Update the **contribution log**.
+Take the idea set from Exercise 1. Run Michalko’s **Wall of ideas** as the selection step (this classroom hybrid replaces Ask a Crab step 5 evaluate — it is not Michalko’s combined original sequence). Then fill a **decision card** (top preference + one unresolved concern) and update the **contribution log**.
+
+> Wall of ideas. Each participant silently writes ideas on sticky notes. While the group writes ideas, collect and paste them on a wall. When everyone is done, organize the ideas as a group. Ask the group to come to the wall and sort out the ideas in a meaningful way. Eventually, the ideas will be clustered into different themes and categories. Label each set of ideas with a topic card and paste it over the idea set. Do this for each set. Participants can elaborate or express concerns by writing their thoughts on additional sticky notes and pasting them next to the idea or set of ideas. Prioritize the ideas by giving each participant ten adhesive dots. The participants prioritize the ideas by placing a dot or dots on the ideas they like. They can place as many dots or as few as they wish on an idea. The group discusses the most highly rated ideas.
+{: .unit-quote}
+<p class="unit-quote-citation"><a href="#ref-michalko-2010">(Michalko 2010, 402)</a></p>
 
 **Portfolio trace:** photo of the wall; cluster labels; dot tally; decision card; contribution log; one sentence on what the tally does *not* prove about real visitors.
 
@@ -120,7 +150,7 @@ Take the idea set from Exercise 1. Silently write or re-copy ideas on sticky not
 
 **Workshop opener (geometrical):** protected time on D2 transposition / next defence support.
 
-Use the decision card in a short pitch: criteria, limits, next test, unresolved concern. Keep language / medium / support visible when you show how the idea would circulate from sticky wall to Atrium signage or path.
+Show the decision card in a short pitch: what you chose, why it fits the brief, what you will test next, and one concern still open. Keep language / medium / support visible when you show how the idea would circulate from sticky wall to Atrium signage or path.
 
 **Done enough:** diverge record, wall photo, decision card with concern, contribution log, and a pitch outline that does not erase the gap.
 
@@ -146,7 +176,7 @@ LAB_EXERCISE_SELECTION:
     source_name: "Picture Prompting"
     review_status: needs-review
     witness: michalko_michael_thinkertoys_a_handbook_of_creative_thinking_techniques_2010_ten_speed_press_2fa7eabe
-    chicago: "(Michalko 2010, 440)"
+    chicago: "(Michalko 2010; extraction-order locator 440 retained privately)"
     node_id: aa4b906e-9a2d-55e4-bd39-1dd0aad4c63d
     document_coat: 2fa7eabe
     evaluator_safe: yes
@@ -164,7 +194,7 @@ LAB_EXERCISE_SELECTION:
     source_name: "Wall of Ideas"
     review_status: needs-review
     witness: michalko_michael_thinkertoys_a_handbook_of_creative_thinking_techniques_2010_ten_speed_press_2fa7eabe
-    chicago: "(Michalko 2010, 402)"
+    chicago: "(Michalko 2010; extraction-order locator 402 retained privately)"
     node_id: 74d83242-f56f-5461-8c6f-63cb3ca3ea19
     document_coat: 2fa7eabe
     evaluator_safe: yes
@@ -183,7 +213,7 @@ CITE_ANCHORS:
 ## Editorial note. Work in progress. Teaching Innovation Practice
 {: .lesson-editorial-note }
 
-Fisher (2012, 27) supports the claim that overload and external pressure push thinking toward convention and that creative work needs time, space, and permission; it does not prove that this Lab’s wall-and-picture sequence improves workplace outcomes. Michalko (2010) anchors Wall of Ideas and Ask a Crab / Picture Prompting; its page locators are not yet verified against the printed edition. Lucas and Knotts (2026) inform the course stance on passion rhetoric and self-exploitation, but this pass does not ship a page-backed Chicago claim for that thread. Classroom timings, contribution logs, and decision cards are professor adaptations. Catalogue procedures remain teaching candidates, not approved workplace protocols.
+Fisher (2012, 27) supports the claim that overload and external pressure push thinking toward convention and that creative work needs time, space, and permission; it does not prove that this Lab’s wall-and-picture sequence improves workplace outcomes. Michalko (2010) passages for Wall of Ideas and Ask a Crab are quoted above; their page numbers are not yet verified against the printed edition. Lucas and Knotts (2026) inform the course stance on passion rhetoric and self-exploitation, but this pass does not ship a page-backed Chicago claim for that thread. Classroom timings, contribution logs, and decision cards are professor adaptations. Catalogue procedures remain teaching candidates, not approved workplace protocols.
 
 ## AI-assisted authorship
 
