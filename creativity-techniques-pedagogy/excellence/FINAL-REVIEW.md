@@ -170,6 +170,16 @@ U4 (legacy, out of scope) keeps *Man dreaming* (`profield-cache/0a359d9b946505e1
 - **Profield picks to compare (cold review F8, read-only on `review-state.json`):** tc assets accepted in the review app on 2026-10-04 that were not in the EX4 shortlists. In the 21:00–21:29 UTC window: *An illustration of gates* (`nypl:510d47d9-83ad-a3d9-e040-e00a18064a99`, tc U1 + U4, 21:03Z) and *12" gun in Action, Naval* (`nypl:510d47d9-3f28-a3d9-e040-e00a18064a99`, tc U1 + U4, 21:04Z). Earlier the same day for tc U1–U3: *Reflection.* (U1, 12:30Z), *Four designs for chairs, two designs for tables, three designs for lamps* (U1, 16:00Z), *Circus performers.* (U1 + U3, 16:05Z), *Man dreaming* (U1, 16:41Z), *An action off Spit-Head* (U1, 16:46Z), *Diamaxion house …* (U3, 16:49Z), *A patent sideboard.* (U1, 20:55Z — banned by the EX4 gate), *Manifestation Dada* (U1 + U2, 20:57Z). None is bound; the EX4 picks came from open collections. If you prefer one of yours, set it as the slide's `asset_id` and rehydrate.
 - Rollback: `gitflow.sh rollback 4`, or per slide: remove `asset_id`, set `background_kind: diagram`, rerun `npm run media:rehydrate` in a worktree.
 
+### EX5 — deck renderer (VERIFYING)
+
+- Decks U1–U3 and the master lecture are **pre-rendered** (`npm run render:decks`, wired into `prebuild`/`develop`): every slide is in the HTML, so a deck works offline, prints with `?print-pdf` (13 pages each) and reads without JavaScript. The JS only adds Reveal, the card toggle and a 3-minute Lab timer.
+- Alt text on every curated slide (screen-reader only); captions read title · author · licence link · source link; geometric captions show the SVG content hash (files renamed `ct-pass-NN-<name>-<hash8>.svg`); diagram slides show the Koch triangle.
+- **Please review the speaker notes** (24 slides, `notes` in U1–U3 `content.json`; preview with `?show-notes`). They were drafted by a local model, then checked by hand against the lesson text. They add no new citations.
+- **Caption titles changed (A7):** titles now come from the source record, so some are not in English (*Maqueta polifunicular*, *Sombrero negro (Dudas)*, *Tableau de résultats au test de Binet-Simon*, *Pädagogisches Skizzenbuch*). Alt-text fixes: Dada poster (German, Dutch and French), Wright diary (two pages).
+- U4 untouched: it keeps the runtime path and still renders (checked in a browser).
+- Evidence: `evidence/EX5/screens/` (print view, no-JS view, timer, layouts). Report: `PHASE-EX5-REPORT.md`.
+- Rollback: `gitflow.sh rollback 5`.
+
 ### Release checklist additions (from EX2)
 
 - Run `npm ci` before the release build (`postcss` lives in node_modules).

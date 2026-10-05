@@ -122,6 +122,9 @@ portfolio_trace: "Save … in the portfolio index."
 quote: "Optional brief quotation (≤ ~40 words) — Ahmes-verbatim or Tao invent (see golden rule 3)."
 quote_origin: page_verified | tao_invented   # required whenever quote is set; never put the corpus product name in student content.json
 semantic_tags: []   # DH metadata for the quote — see golden rule 3
+layout: image_argument | quote | split | exercise   # optional (EX5); default by role: cover/model/masterclass → image_argument, lab/workshop → exercise, openers/outro → split
+notes: "Speaker notes: '- ' lines are talking points, then Source: (the lesson's own cite) and Ask: (debate prompt)."   # EX5: required on every masterclass slide (gate); drafted for every lab slide
+timer_seconds: 180  # optional on exercise slides; the Lab timer defaults to 180
 ttod_index:         # required for Tao invents; data-only, not rendered by default
   id: C-U2-example-01
   number: III
@@ -130,7 +133,7 @@ ttod_index:         # required for Tao invents; data-only, not rendered by defau
 ```
 
 Student wording: prefer clear late-secondary / first-year voice. Prefer short verbs over managerial jargon. When a page-verified quote is brief and carries the main idea, put it on the slide *and* in the lesson.
-Public captions: title · credit · licence · source link. **Never** `resource_uuid`, `forger_version`, or review tags in square brackets. **Geometrical background slides** (`analysis_opener`, `lab_opener`, `workshop_opener`, `outro`) — their caption **must** include the SVG file UUID (the content-hash suffix visible in the filename, e.g. `ct-pass-01-structure.svg#a1b2c3`) so a forger pass can trace which specific fractal was shown. See §"Golden rules (2026-09-14)" below.
+Public captions: title · credit · licence · source link. **Never** `resource_uuid`, `forger_version`, or review tags in square brackets. **Geometrical background slides** (`analysis_opener`, `lab_opener`, `workshop_opener`, `outro`) — their caption **must** include the SVG content hash (the 8-hex SHA-256 suffix in the filename, e.g. `ct-pass-01-structure-980beb83.svg` → caption `#980beb83`; EX5) so a forger pass can trace which specific fractal was shown. See §"Golden rules (2026-09-14)" below.
 **TTOD index gate:** every Tao-origin quote must be traceable in the unit
 payload with its TTOD `id`, roman `number`, `form`, and lexicum `fields`.
 These fields are an index for the forge and evaluator; do not turn them into a
@@ -177,7 +180,8 @@ SESSION-RHYTHM-AND-DELIVERABLES
 → evidence matrix row
 → lesson Markdown
 → content.json (spine above)
-→ Reveal (student-media-deck.js)
+→ npm run render:decks (scripts/render-decks.mjs → docs/_includes/decks/<slug>.html, included by the deck page; slides exist without JavaScript)
+→ Reveal enhancement (student-media-deck.js: card toggle, Lab timer; legacy decks only: runtime build)
 → wire track Units table + lesson In-class deck (publish gate)
 ```
 
