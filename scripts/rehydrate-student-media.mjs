@@ -20,7 +20,8 @@
  * (Amendment A2/F7).
  *
  * Renditions: docs/assets/images/deck-media/<sha256(asset_id)[:16]>.webp
- * (≤ 1920 px, WebP, EXIF stripped, ≤ 600 KB) or .svg for vector files.
+ * (≤ 1920 px, WebP, EXIF stripped, ≤ 600 KB). SVG input is rasterised to WebP
+ * (Amendment A6/F6); raw SVG is never copied into deck-media.
  * Cache files referenced by no deck are deleted (both cache folders).
  *
  * Usage: node scripts/rehydrate-student-media.mjs [--rights=block|flag]
@@ -42,7 +43,6 @@ import {
   cleanTitle,
   DECK_SCHEMA_VERSION,
   extensionFor,
-  MAX_RENDITION_BYTES,
   rightsVerdict,
 } from './lib/media-rules.mjs';
 
@@ -177,8 +177,17 @@ async function renditionFor(buffer) {
 async function ensureRendition(asset) {
   mkdirSync(cacheDir, { recursive: true });
   const key = cacheKey(asset.asset_id);
-  const existing = readdirSync(cacheDir).find((name) => name.startsWith(`${key}.`));
+  const existing = readdirSync(cacheDir).find((name) => name.startsWith(`${key}.`) && !/\.svg$/i.test(name));
   if (existing) return existing;
+  // A raw SVG left by an earlier run is rasterised in place, then removed (A6/F6).
+  const rawSvg = readdirSync(cacheDir).find((name) => name === `${key}.svg`);
+  if (rawSvg) {
+    const rendition = await renditionFor(readFileSync(join(cacheDir, rawSvg)));
+    writeFileSync(join(cacheDir, `${key}.${rendition.ext}`), rendition.buffer);
+    unlinkSync(join(cacheDir, rawSvg));
+    console.log(`  rasterised ${rawSvg} → ${key}.${rendition.ext} (${rendition.width}x${rendition.height})`);
+    return `${key}.${rendition.ext}`;
+  }
 
   const remote = stripUtm(asset.source_file_url || asset.asset_url || '');
   if (!/^https?:/i.test(remote)) return null;
@@ -194,11 +203,7 @@ async function ensureRendition(asset) {
       if (!ext) throw new Error(`not a whitelisted image (${response.headers.get('content-type')})`);
       const buffer = Buffer.from(await response.arrayBuffer());
       if (buffer.length < 256) throw new Error('response too small');
-      if (ext === 'svg') {
-        if (buffer.length > MAX_RENDITION_BYTES) throw new Error('SVG larger than 600 KB');
-        writeFileSync(join(cacheDir, `${key}.svg`), buffer);
-        return `${key}.svg`;
-      }
+      // SVG is rasterised by toRendition (A6/F6): never copied raw into deck-media.
       const rendition = await renditionFor(buffer);
       writeFileSync(join(cacheDir, `${key}.${rendition.ext}`), rendition.buffer);
       console.log(`  cached ${key}.${rendition.ext} (${rendition.width}x${rendition.height}, ${(rendition.buffer.length / 1024).toFixed(0)} KB, q${rendition.quality})`);
@@ -266,6 +271,13 @@ async function rehydrateDeck(path) {
     }
     const record = { ...(committed.get(assetId) || {}), ...(catalog.get(assetId) || {}), ...(registry.get(assetId) || {}), asset_id: assetId };
     const verdict = rightsVerdict(record);
+    // A6/F3: an asset without a private registry record (raw_title included)
+    // is never published as "ok" — review tags must stay visible.
+    if (!registry.get(assetId)?.raw_title) {
+      verdict.ok = false;
+      verdict.reasons.push('no registry record with raw_title (A6/F3)');
+      console.warn(`  ${unit}/${slide.slide_id}: ${assetId} has no autopilot-assets.json record with raw_title`);
+    }
     if (!verdict.ok && rightsMode === 'block') {
       console.warn(`  ${unit}/${slide.slide_id}: ${assetId} blocked (${verdict.reasons.join('; ')})`);
       continue;

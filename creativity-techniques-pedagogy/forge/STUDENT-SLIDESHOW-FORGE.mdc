@@ -80,12 +80,16 @@ legacy decks (no `schema_version`, e.g. U4 until its forge migrates it).
   `TODO: …` is allowed only until EX4 writes the real brief.
 - **`asset_id`** on a `curated` slide: the one image the slide shows. It is the
   **only** binding — no rank dealing, no cycling, no asset on two slides of a
-  deck. A slide whose asset is not accepted, not rights-recorded or not cached
-  falls back to `diagram` (the slide keeps its `asset_id` so the choice is not lost).
+  deck. A slide whose asset is not accepted or not cached falls back to
+  `diagram` (the slide keeps its `asset_id` so the choice is not lost). Rights
+  depend on the mode: under `--rights=block` an asset that fails
+  `rightsVerdict` also falls back to `diagram`; under `--rights=flag` (the
+  launch decision, used by `npm run build` and the gates) it is **published**
+  with `rights_status: flagged`, not dropped, and listed for the professor.
 - **`media_slot_id`** = `<unit>.<slide_id>` (e.g. `U2.masterclass-1`), only on
   curated slides; the matching entry in `assets[]` has the same slot.
 - **`assets[]`** entries (written by `npm run media:rehydrate`): `media_slot_id`,
-  `asset_id`, `asset_url` (`/assets/images/deck-media/<hash>.webp|svg`),
+  `asset_id`, `asset_url` (`/assets/images/deck-media/<hash>.webp`),
   `source_file_url`, `canonical_source_url`, `title`, `alt_text`, `author`,
   `licence` (+ `licence_url`), `provider`, `credit_line`, `author_death_year`,
   `eu_term_ok`, `eu_term_reason`, `rights_status: ok | flagged`, `cropped`.
@@ -93,10 +97,14 @@ legacy decks (no `schema_version`, e.g. U4 until its forge migrates it).
   PD-old-70, PD-EU, CC0, PDM, CC-BY-4.0, CC-BY-SA-4.0, CC-BY-3.0, CC-BY-SA-3.0,
   NoC-US+EU-checked, with author, source URL, `eu_term_ok: true` (death year + 70
   < current year, or a stated reason) and no `*_review_required` tag in the raw
-  title. Under the launch decision (AUTOPILOT §0) failing assets publish as
+  title. A recorded death year that leaves the EU term running always fails a
+  public-domain claim, whatever the reason text says (A6/F1). Every bound asset
+  has a record in `excellence/curation/autopilot-assets.json` with its
+  `raw_title` (A6/F3); without one it can never be `ok`. Under the launch decision (AUTOPILOT §0) failing assets publish as
   `rights_status: flagged` and are listed in `excellence/curation/rights-report.json`.
 - **Files:** `docs/assets/images/deck-media/` only; ≤ 1920 px WebP (EXIF
-  stripped, ≤ 600 KB) or SVG; no file referenced by no deck. The old
+  stripped, ≤ 600 KB). SVG sources are rasterised to WebP, never copied raw
+  (A6/F6); no file referenced by no deck. The old
   `profield-cache/` keeps only files that legacy decks still reference.
 - **Public JSON values never contain "profield"** (publication firewall).
 
