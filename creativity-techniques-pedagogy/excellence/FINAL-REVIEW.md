@@ -1,5 +1,15 @@
 # Final review — Excellence cascade
 
+> **RUN HALTED (2026-10-05) — your decision needed.** Syncing `main` (your commit
+> `d00539d`) into integration conflicted. I resolved it on `cascade/excellence-sync-1`
+> instead of halting; the cold review failed it (a U4 slide lost its image file — now
+> restored) and requires your ratification before it lands. Integration stays at
+> `excellence/ex4`. See Amendment A8 (proposed) and `SYNC-1-COLD-REVIEW.md`.
+> Correction to my earlier claim: your commit did not re-introduce *Hook and ladder* /
+> *A patent sideboard* to U1 (already there), and your rehydrate edit was ~50
+> hand-written lines (honour overrides, no reuse, diagram fallback), superseded by EX3.
+
+
 Built during the autopilot run; read this once at the end (AUTOPILOT.md §5).
 
 ## 1 · Run outcome
@@ -164,7 +174,7 @@ U4 (legacy, out of scope) keeps *Man dreaming* (`profield-cache/0a359d9b946505e1
 
 - Run `npm ci` before the release build (`postcss` lives in node_modules).
 - Align the external skill `~/src/.cursor/skills/lesson-scribe/SKILL.md` §9 ("public role vocabulary": lesson harness, studio extraction layer, cite-grade discovery) with the new footer rule — the safety script now fails on that vocabulary.
-- U4 on `main` (concurrent writer): the safety script now fails on "Forge date", stack wording and pipeline jargon; the U4 forge must adopt the one-sentence footer or the release build will fail (fail-closed, by design).
+- U4 on `main` (concurrent writer): the safety script now fails on "Forge date", stack wording and pipeline jargon; the U4 forge must adopt the one-sentence footer or the release build will fail (fail-closed, by design). U4 should migrate to deck schema v2 rather than re-patch the old rehydrate script on main — integration's script does not rewrite legacy decks (sync-1 F6).
 - U4's public deck JSON still contains "profield" (slot name and cache path `profield-cache/0a359d9b946505e1.php`, an 806 KB unlicensed file): the U4 forge must migrate it to schema v2 before release, or the firewall is breached on U4 (A6/F7).
 
 ### EX4 record corrections (round-2 review, non-blocking)

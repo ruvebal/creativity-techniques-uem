@@ -59,5 +59,16 @@ for p in cascade-harness 'lesson harness' 'studio extraction layer' 'cite-grade 
   present "safety script has pattern: $p (A5/F2)" "$p" scripts/verify-publication-safety.mjs
 done
 
+# Sync-1 F4 (A8): every cache/media file referenced by any deck exists.
+python3 - <<'GATEPY' && pass "all deck-referenced media files exist (A8/F4)" || fail "all deck-referenced media files exist (A8/F4)"
+import pathlib, re, sys
+missing = []
+for p in pathlib.Path("docs/tracks").rglob("data/content.json"):
+    for ref in set(re.findall(r"assets/images/(?:profield-cache|deck-media)/[0-9A-Za-z._-]+", p.read_text())):
+        if not (pathlib.Path("docs") / ref).exists():
+            missing.append(f"{p.parent.parent.name}: {ref}")
+print(missing); sys.exit(1 if missing else 0)
+GATEPY
+
 build_site
 finish
