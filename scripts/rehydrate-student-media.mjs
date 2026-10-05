@@ -234,7 +234,9 @@ function publicAsset(record, fileName, verdict) {
     author_death_year: record.author_death_year ?? null,
     eu_term_ok: record.eu_term_ok === true,
     eu_term_reason: record.eu_term_reason || '',
-    rights_status: verdict.ok ? 'ok' : 'flagged',
+    // A curator flag in the private registry (e.g. identifiable people, doubtful
+    // depicted-work rights) always wins: such an asset is never published as ok.
+    rights_status: verdict.ok && record.rights_status !== 'flagged' ? 'ok' : 'flagged',
     cropped: Boolean(record.cropped),
   };
 }

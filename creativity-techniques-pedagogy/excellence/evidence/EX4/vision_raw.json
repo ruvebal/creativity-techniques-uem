@@ -1,0 +1,732 @@
+{
+ "U1|cover|File:Leonardo da Vinci - 1860,0616.98, Two studies of the Virgin and Child with a cat and three studies of the Child with a cat.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U1",
+  "slide": "cover",
+  "title": "File:Leonardo da Vinci - 1860,0616.98, Two studies of the Virgin and Child with a cat and three studies of the Child with a cat.jpg",
+  "description": "Based on the image provided, here is a literal description:\n\nThis is a photograph of a Renaissance-era drawing executed in brown ink and wash on paper, depicting several studies of figures, including a woman holding a child, a profile of a face, and various poses of infants. Visible text at the bottom of the mount includes the catalog numbers \"B.B. 1024\" and \"F.&F. 98,\" the name \"LEONARDO DA VINCI,\" and a ruler marked \"BRITISH MUSEUM.\" No person's face is clearly identifiable as a specific individual, as the figures are generic studies.",
+  "prompt_tokens": 1236,
+  "output_tokens": 131,
+  "wall_s": 16.7
+ },
+ "U1|cover|File:Leonardo da Vinci, Study for the Madonna of the Cat (verso).jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U1",
+  "slide": "cover",
+  "title": "File:Leonardo da Vinci, Study for the Madonna of the Cat (verso).jpg",
+  "description": "This is a photograph of a framed drawing, likely executed in brown ink and wash on paper. The artwork depicts a seated woman holding a young child who is clutching a small animal, possibly a lamb or goat, with a faint halo sketched above the figures. Visible text includes a monogram \"P.\" in the lower left corner, a crown symbol above \"BM\" and the date \"1553.6.24.1\", and a small circular stamp in the lower right; no person's face is clearly identifiable due to the sketchy, unfinished nature of the drawing.",
+  "prompt_tokens": 1266,
+  "output_tokens": 121,
+  "wall_s": 15.9
+ },
+ "U1|analysis-model|File:Beat the Whites with the Red Wedge.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U1",
+  "slide": "analysis-model",
+  "title": "File:Beat the Whites with the Red Wedge.jpg",
+  "description": "This is a graphic print or poster featuring bold, abstract geometric shapes in red, black, and white, including a large red triangle, a white circle, and various lines and rectangles. The image contains Cyrillic text: \"КЛИНОМ КРАСНЫМ\" (With a Red Wedge) on the left, \"БЕЙ БЕЛЫХ\" (Beat the Whites) on the right, and smaller text at the bottom reading \"N 19 ЛИТИЗАТ ПОЛИТУПРАВЛЕНИЯ ЗАПФРОНТА\" and \"УНОВИС\". No person's face is visible or identifiable in the image.",
+  "prompt_tokens": 816,
+  "output_tokens": 133,
+  "wall_s": 14.0
+ },
+ "U1|analysis-model|File:Klinom Krasnym Bej Belych.JPG": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U1",
+  "slide": "analysis-model",
+  "title": "File:Klinom Krasnym Bej Belych.JPG",
+  "description": "This is a graphic print or poster featuring bold, abstract geometric shapes in red, black, white, and gray against a light background. The composition includes a large red triangle, a prominent white circle, and various angular forms, with Cyrillic text such as \"КЛИНОМ\", \"КРАСНЫМ\", \"БЕЙ\", and \"БЕЛЫХ\" integrated into the design. There are no identifiable human faces or figures present.",
+  "prompt_tokens": 786,
+  "output_tokens": 92,
+  "wall_s": 11.4
+ },
+ "U1|masterclass-1|File:Studies for the Libyan Sibyl (recto); Studies for the Libyan Sibyl and a small Sketch for a Seated Figure (verso) MET DP807402.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U1",
+  "slide": "masterclass-1",
+  "title": "File:Studies for the Libyan Sibyl (recto); Studies for the Libyan Sibyl and a small Sketch for a Seated Figure (verso) MET DP807402.jpg",
+  "description": "This is a monochrome drawing, likely executed in charcoal or soft pencil on aged, textured paper. It depicts a study of a human figure's lower body and legs in a dynamic pose, with smaller, less detailed studies of figures in the upper right and lower right corners. Visible text includes the number \"56\" in the top right corner and \"n° 2\" near the bottom center. No person's face is clearly identifiable in any of the figures.",
+  "prompt_tokens": 1296,
+  "output_tokens": 95,
+  "wall_s": 13.8
+ },
+ "U1|masterclass-1|File:Album of Forty-five Figure Studies MET DP102546.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U1",
+  "slide": "masterclass-1",
+  "title": "File:Album of Forty-five Figure Studies MET DP102546.jpg",
+  "description": "Based on the visual evidence, here is a literal description of the image:\n\nThis is a photograph of an open sketchbook displaying two pages of graphite drawings. The right page features a detailed study of a seated nude female figure, while the left page contains a fainter, more abstract sketch of a figure's torso and shoulder. The only visible text consists of the page numbers \"1\" in the top left corner and \"2\" in the top right corner. While the face of the figure on the right is drawn, it is a stylized artistic rendering and not a photograph of a clearly identifiable real person.",
+  "prompt_tokens": 666,
+  "output_tokens": 124,
+  "wall_s": 11.8
+ },
+ "U1|masterclass-2|File:Schetsen van Hokusai - deel 2 Hokusai manga Katsushika iitsu iboku Hokusai manga nihen (titel op object), RP-P-2004-510.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U1",
+  "slide": "masterclass-2",
+  "title": "File:Schetsen van Hokusai - deel 2 Hokusai manga Katsushika iitsu iboku Hokusai manga nihen (titel op object), RP-P-2004-510.jpg",
+  "description": "This is a photograph of two traditional Japanese bound books, likely from the Edo or Meiji period, displayed side-by-side. The books have yellowish paper covers with vertical text in a rectangular frame on the left spine; the left book reads \"富嶽百景 三編\" (Fuji Hyakkei Sanpen) and the right book reads \"富嶽百景 二編\" (Fuji Hyakkei Nihen). No person's face is visible in the image.",
+  "prompt_tokens": 666,
+  "output_tokens": 105,
+  "wall_s": 11.3
+ },
+ "U1|masterclass-2|File:Hokusai Manga 04.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U1",
+  "slide": "masterclass-2",
+  "title": "File:Hokusai Manga 04.jpg",
+  "description": "This is a black-and-white ink drawing or print depicting a large, grotesque female figure with long hair and a wide, toothy grin looming over a smaller, bald man in traditional robes who appears to be cowering or recoiling. The scene includes sparse vegetation and a circular object resembling a mirror or shield on the ground. Vertical Japanese text is visible in the upper left and right corners, including the characters “怨霊” (onryō, meaning “vengeful spirit”) and “祐天和尚” (Yūten Wajō, meaning “Priest Yūten”), suggesting a narrative or mythological context. No person’s face is clearly identifiable as a real individual; both figures are stylized and symbolic rather than portrait-like.",
+  "prompt_tokens": 1255,
+  "output_tokens": 152,
+  "wall_s": 18.6
+ },
+ "U1|masterclass-2|File:Hokusai manga vol.8.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U1",
+  "slide": "masterclass-2",
+  "title": "File:Hokusai manga vol.8.jpg",
+  "description": "This image displays a two-page spread from a traditional Japanese woodblock print book, featuring a collection of six small, framed illustrations on the left page and a large title page on the right. The left page contains six distinct scenes depicting various figures in historical or mythological settings, with Japanese text labels above each panel (e.g., \"九 霍山南\", \"八 江草\"). The right page prominently features large, stylized Japanese characters for the title \"八編 北斎漫画\" (Hachihen Hokusai Manga), surrounded by decorative leaf and butterfly motifs. No person's face is clearly identifiable due to the small scale and artistic style of the figures.",
+  "prompt_tokens": 541,
+  "output_tokens": 138,
+  "wall_s": 13.8
+ },
+ "U1|masterclass-3|File:GemPaperClipAdvertisementJan1893.png": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U1",
+  "slide": "masterclass-3",
+  "title": "File:GemPaperClipAdvertisementJan1893.png",
+  "description": "This is a black-and-white printed advertisement, likely from a newspaper or catalog, featuring a large line drawing of a standard bidentate paper clip on the left. The text, set in a bold serif font, advertises the \"GEM PAPER CLIP\" as the \"Only satisfactory device for temporary attachment of all kinds of papers,\" noting it is \"Better than pins or clamps,\" causes \"No mutilation of papers,\" and can be \"Quickly applied and removed.\" The price is listed as \"25 cents a box,\" and the seller is identified as \"CUSHMAN & DENISON, 172 9th Avenue, N. Y.\" No person's face is visible in the image.",
+  "prompt_tokens": 636,
+  "output_tokens": 148,
+  "wall_s": 13.7
+ },
+ "U1|masterclass-3|File:Büroklammern -- 2021 -- 6481.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U1",
+  "slide": "masterclass-3",
+  "title": "File:Büroklammern -- 2021 -- 6481.jpg",
+  "description": "This is a photograph showing a dense, overlapping pile of colorful paper clips in various hues including red, blue, green, yellow, pink, and white. The image is a close-up shot with no visible text or identifiable person's face.",
+  "prompt_tokens": 666,
+  "output_tokens": 49,
+  "wall_s": 7.2
+ },
+ "U1|masterclass-3|File:Paperclip 1900.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U1",
+  "slide": "masterclass-3",
+  "title": "File:Paperclip 1900.jpg",
+  "description": "This is a black-and-white vintage print advertisement, likely from a newspaper or magazine, featuring a line drawing of two interlocking wire paper clips on the right side. The ad contains prominent text including the headline \"SEE THAT CLIP?\", a descriptive paragraph about the \"Niagara Clip,\" and the company name \"NIAGARA CLIP CO., 123 Liberty St., N.Y. City.\" at the bottom. There are no people or identifiable faces in the image.",
+  "prompt_tokens": 186,
+  "output_tokens": 97,
+  "wall_s": 7.8
+ },
+ "U1|masterclass-4|File:Auguste Rodin - The Thinker - 1917.42 - Cleveland Museum of Art.tif": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U1",
+  "slide": "masterclass-4",
+  "title": "File:Auguste Rodin - The Thinker - 1917.42 - Cleveland Museum of Art.tif",
+  "description": "This is a photograph of a bronze sculpture depicting a nude male figure in a seated, contemplative pose, with his right elbow resting on his left knee and his chin supported by his hand. The figure’s muscular anatomy is highly detailed, and the base appears rough and abstract, contrasting with the smoothness of the body. There is no visible text, and while the face is clearly rendered, it is not identifiable as a specific real person.",
+  "prompt_tokens": 1146,
+  "output_tokens": 89,
+  "wall_s": 12.6
+ },
+ "U1|masterclass-5|File:Pocket set of drawing instruments MET DP232308.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U1",
+  "slide": "masterclass-5",
+  "title": "File:Pocket set of drawing instruments MET DP232308.jpg",
+  "description": "This is a photograph of an antique drafting or surveying instrument set, including a brass ruler with markings, a white scale bar inscribed with \"Galland London,\" and several precision metal tools such as dividers and scribes. The set is housed in a decorative green tortoiseshell-patterned case with a hinged lid, which is open to reveal internal compartments. No person’s face is visible in the image.",
+  "prompt_tokens": 756,
+  "output_tokens": 87,
+  "wall_s": 11.8
+ },
+ "U1|masterclass-5|File:Draughtsman's instruments MET 125791.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U1",
+  "slide": "masterclass-5",
+  "title": "File:Draughtsman's instruments MET 125791.jpg",
+  "description": "Based on the visual evidence, here is a literal description of the image:\n\nThis is a black-and-white photograph showing an open, ornate case and a separate tray containing several antique drafting or measuring instruments, such as dividers and compasses. A small white label with the text \"41160 65.8\" is visible on the front of the tray. No people are present in the image.",
+  "prompt_tokens": 726,
+  "output_tokens": 87,
+  "wall_s": 10.6
+ },
+ "U1|masterclass-6|File:Post-It Notes Wall at the Fast Company Innovation Festival (30772875917).jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U1",
+  "slide": "masterclass-6",
+  "title": "File:Post-It Notes Wall at the Fast Company Innovation Festival (30772875917).jpg",
+  "description": "This is a photograph of a retail or promotional display for Post-it products. The image shows a large wall covered in colorful sticky notes arranged in vertical stripes, with a central screen displaying the text \"Post-it TEAMWORK TOOLS @postit.\" Below the screen, there are baskets and containers filled with various Post-it products on a counter. No person's face is clearly identifiable in the image.",
+  "prompt_tokens": 756,
+  "output_tokens": 80,
+  "wall_s": 9.4
+ },
+ "U1|masterclass-6|File:Stickies to brainstorm Edit.2014..jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U1",
+  "slide": "masterclass-6",
+  "title": "File:Stickies to brainstorm Edit.2014..jpg",
+  "description": "**Type of Image:** This is a photograph.\n\n**Description:** The image shows a beige wall covered with numerous handwritten sticky notes, mostly light blue and some orange, arranged in columns. Visible text on the notes includes phrases like \"Ice Bucket Challenge,\" \"ALS,\" \"Neurodegeneration (G.F.),\" \"Immunotherapy,\" \"Hong Kong,\" \"Qing Dynasty,\" \"Weirac Computers,\" and \"2014.\"\n\n**People:** No person's face is clearly identifiable in the image.",
+  "prompt_tokens": 756,
+  "output_tokens": 107,
+  "wall_s": 12.6
+ },
+ "U1|lab-1|File:Marcel Duchamp, 1917, Fountain, photograph by Alfred Stieglitz.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U1",
+  "slide": "lab-1",
+  "title": "File:Marcel Duchamp, 1917, Fountain, photograph by Alfred Stieglitz.jpg",
+  "description": "This is a black-and-white photograph of a white ceramic urinal mounted on a pedestal, viewed from the front. The urinal has the text \"R. Mutt 1917\" handwritten in black ink on its left side. A paper tag with illegible text hangs from the left mounting bracket. No person's face is visible in the image.",
+  "prompt_tokens": 1236,
+  "output_tokens": 74,
+  "wall_s": 11.8
+ },
+ "U1|lab-1|File:Duchamp Fountaine.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U1",
+  "slide": "lab-1",
+  "title": "File:Duchamp Fountaine.jpg",
+  "description": "This is a black-and-white photograph of a white ceramic urinal mounted on a wall, with a dark, patterned background. The image shows the signature \"R. Mutt\" and the date \"1917\" written in black ink on the left side of the urinal's rim. No person's face is visible or identifiable in the image.",
+  "prompt_tokens": 1026,
+  "output_tokens": 74,
+  "wall_s": 10.8
+ },
+ "U1|lab-2|File:Theo van Doesburg and Kurt Schwitters, Kleine Dada Soirée (Small Dada Evening), 1922, NGA 154076.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U1",
+  "slide": "lab-2",
+  "title": "File:Theo van Doesburg and Kurt Schwitters, Kleine Dada Soirée (Small Dada Evening), 1922, NGA 154076.jpg",
+  "description": "This is a printed poster or broadside, likely from the early 20th century, featuring a chaotic collage of text in multiple languages (primarily German and Dutch) overlaid on a background of bold red diagonal stripes. The typography is highly experimental, with words of varying sizes, orientations, and fonts jumbled together to create a dynamic, fragmented composition. No person's face is visible; the image consists entirely of abstract graphic elements and typographic design.",
+  "prompt_tokens": 966,
+  "output_tokens": 94,
+  "wall_s": 13.4
+ },
+ "U1|lab-2|File:1916 Marcel Słodki Cabaret-Voltaire.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U1",
+  "slide": "lab-2",
+  "title": "File:1916 Marcel Słodki Cabaret-Voltaire.jpg",
+  "description": "This is a black-and-white woodcut print or poster featuring a stylized illustration of three figures: a woman in the foreground with her arms crossed, and two men looming behind her, one wearing a hat. The image has a strong graphic quality with bold lines and high contrast, typical of early 20th-century expressionist or constructivist design. Below the illustration is German text advertising an event at “Künstlerkneipe Voltaire,” including details about music, recitals, opening date (Saturday, February 5), location (“Meierei” Spiegelgasse 1), and a coat check fee of 50 Cts.; the artist’s signature “M. S.” and name “M. Slodki” appear in the lower right corner of the image. No person’s face is clearly identifiable as a real individual — all are stylized representations.",
+  "prompt_tokens": 1506,
+  "output_tokens": 178,
+  "wall_s": 21.1
+ },
+ "U1|lab-2|File:Grand opening of the first Dada exhibition, Berlin, 5 June 1920.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U1",
+  "slide": "lab-2",
+  "title": "File:Grand opening of the first Dada exhibition, Berlin, 5 June 1920.jpg",
+  "description": "This is a black-and-white historical photograph, likely a print from a newspaper or magazine, depicting an indoor art exhibition with several people observing the works. The walls are covered with various artworks and posters, one of which has the word \"DADA\" visible, and a caption at the bottom reads \"Eröffnung der ersten großen Dada-Ausstellung in den Räumen der Kunsthandlung Dr. Burchard, Berlin, am 5. Juni 1920.\" No individual's face is clearly identifiable due to the image resolution and the angle of the subjects.",
+  "prompt_tokens": 816,
+  "output_tokens": 117,
+  "wall_s": 13.3
+ },
+ "U2|cover|File:Darwin Tree 1837.png": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U2",
+  "slide": "cover",
+  "title": "File:Darwin Tree 1837.png",
+  "description": "This is a photograph of a historical handwritten document on aged, yellowed paper. It features a central, branching tree-like diagram with nodes labeled A, B, C, and D, surrounded by extensive cursive text in English, including phrases like \"I think\" and \"The first gradation.\" No person's face is visible in the image.",
+  "prompt_tokens": 1536,
+  "output_tokens": 71,
+  "wall_s": 12.9
+ },
+ "U2|cover|File:Darwins first tree.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U2",
+  "slide": "cover",
+  "title": "File:Darwins first tree.jpg",
+  "description": "This is a black-and-white photograph of a handwritten document or sketch on paper. It features a central stick-figure-like diagram with branching lines labeled with the letters A, B, C, and D, alongside a large, cloud-shaped area filled with illegible cursive handwriting. In the top left corner, the phrase \"I think\" is written in print, and the number \"36\" appears in the top right corner. No person's face is visible in the image.",
+  "prompt_tokens": 484,
+  "output_tokens": 97,
+  "wall_s": 9.5
+ },
+ "U2|analysis-model|File:Study for \"A Sunday on La Grande Jatte\" MET DP259921.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U2",
+  "slide": "analysis-model",
+  "title": "File:Study for \"A Sunday on La Grande Jatte\" MET DP259921.jpg",
+  "description": "This is a pointillist painting depicting a lively outdoor scene with numerous figures gathered on a grassy bank beside a body of water, where boats are visible in the distance. The artwork uses small, distinct dots of color to form the image, creating a textured and vibrant effect. No individual faces are clearly identifiable due to the style and distance of the figures.",
+  "prompt_tokens": 666,
+  "output_tokens": 73,
+  "wall_s": 9.3
+ },
+ "U2|analysis-model|File:Georges Seurat - Étude pour \"La Grande Jatte\" (Study for \"La Grande Jatte\") - 1948-7 - Albright–Knox Art Gallery.tiff": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U2",
+  "slide": "analysis-model",
+  "title": "File:Georges Seurat - Étude pour \"La Grande Jatte\" (Study for \"La Grande Jatte\") - 1948-7 - Albright–Knox Art Gallery.tiff",
+  "description": "**Type of Image:** This is a painting, characterized by visible brushstrokes and an impressionistic style.\n\n**Literal Description:** The image depicts a pastoral scene with a body of water in the background, possibly a river or lake, with a small boat on it. In the foreground, a person is seated on the grass, while another figure stands further back near some trees.\n\n**Identifiable Faces/Text:** No person's face is clearly identifiable due to the artistic style and distance. There is no visible text in the image.",
+  "prompt_tokens": 636,
+  "output_tokens": 110,
+  "wall_s": 11.6
+ },
+ "U2|masterclass-1|File:Sprite Fright-concept art-Victoria 01.png": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U2",
+  "slide": "masterclass-1",
+  "title": "File:Sprite Fright-concept art-Victoria 01.png",
+  "description": "This image is a digital character expression sheet, likely from a video game or animation production, displaying 16 different facial expressions of a stylized female character with voluminous orange hair, pink top, and pearl necklace. The expressions are labeled with handwritten-style text above each portrait (e.g., “Default,” “Amused,” “Smile,” “Frown,” “Shout,” “Disgust,” “Shocked,” “Pout,” “Uh,” “Uhhhh”), arranged in two rows against a plain gray background. No real person’s face is identifiable — the character is clearly a 3D-rendered or digitally illustrated fictional model.",
+  "prompt_tokens": 396,
+  "output_tokens": 134,
+  "wall_s": 12.7
+ },
+ "U2|masterclass-2|File:Atlanticus Folio 132 133.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U2",
+  "slide": "masterclass-2",
+  "title": "File:Atlanticus Folio 132 133.jpg",
+  "description": "Based on the image provided, here is a literal description:\n\nThis image is a composite diagram or document displaying four black-and-white photographs of pages from a manuscript titled \"Codex Atlanticus.\" The visible text includes the main title, labels for \"Folio 132\" and \"Folio 133,\" and annotations on the right identifying the top row as \"recto (front side, mirrored for translucent view)\" and the bottom row as \"verso (back side).\" The pages themselves contain dense, illegible handwriting and various technical sketches, including a drawing of a human figure on the bottom right, but no person's face is clearly identifiable.",
+  "prompt_tokens": 1116,
+  "output_tokens": 135,
+  "wall_s": 16.0
+ },
+ "U2|masterclass-2|File:Hokusai Manga 04.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U2",
+  "slide": "masterclass-2",
+  "title": "File:Hokusai Manga 04.jpg",
+  "description": "This is a black-and-white ink drawing or print depicting a large, ghostly female figure with long hair and a wide, toothy grin looming over a seated, bald monk who appears to be in distress or prayer. The scene includes a small, round object resembling a mirror or bowl in the foreground, and sparse vegetation around the figures. Vertical Japanese text is visible on both the left and right sides of the image, but no person’s face is clearly identifiable as belonging to a known individual.",
+  "prompt_tokens": 1255,
+  "output_tokens": 100,
+  "wall_s": 7.8
+ },
+ "U2|masterclass-3|File:Stickies to brainstorm Edit.2014..jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U2",
+  "slide": "masterclass-3",
+  "title": "File:Stickies to brainstorm Edit.2014..jpg",
+  "description": "**Type of Image:** This is a photograph.\n\n**Description:** The image shows a beige wall covered with numerous handwritten sticky notes, primarily in light blue and orange, arranged in several vertical columns. Visible text on the notes includes phrases like \"2014 New Agency,\" \"iPhone 6,\" \"Wearable Computers,\" \"Qing Dynasty,\" \"British lease of the New Territories of Hong Kong,\" \"ALS,\" \"Neurodegeneration (G.F.),\" and \"Immunotherapy.\"\n\n**People:** No people or faces are visible in the image.",
+  "prompt_tokens": 756,
+  "output_tokens": 116,
+  "wall_s": 9.6
+ },
+ "U2|masterclass-3|File:Brainstorming Customer Feedback (1).jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U2",
+  "slide": "masterclass-3",
+  "title": "File:Brainstorming Customer Feedback (1).jpg",
+  "description": "This is a photograph of a tabletop scene showing hands arranging colorful sticky notes on a wooden surface, with a spiral notebook, pen, and wallet also visible. Visible text includes handwritten notes like “Open upload,” “Team calls to Team 5pm Standing,” and “St. James 15 min,” along with a printed logo reading “THE James.” No person’s face is visible in the image.",
+  "prompt_tokens": 756,
+  "output_tokens": 82,
+  "wall_s": 11.4
+ },
+ "U2|masterclass-4|File:Oblique Strategies deck, PO Box, The Barbican, London, UK.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U2",
+  "slide": "masterclass-4",
+  "title": "File:Oblique Strategies deck, PO Box, The Barbican, London, UK.jpg",
+  "description": "This is a photograph of a physical book or booklet titled \"OBLIQUE STRATEGIES\" by Brian Eno and Peter Schmidt, presented in a dark brown leather-bound box with the title embossed on the lid. The open box reveals a white card inside with printed text detailing it as the \"Sixth, again slightly revised edition, 2013,\" copyrighted © 1975, printed May 2013 in an edition of 500, and specifically numbered \"31.\" No person’s face is visible in the image.",
+  "prompt_tokens": 756,
+  "output_tokens": 116,
+  "wall_s": 13.4
+ },
+ "U2|masterclass-4|File:Sombrero negro (Dudas).jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U2",
+  "slide": "masterclass-4",
+  "title": "File:Sombrero negro (Dudas).jpg",
+  "description": "This is a photograph of a whiteboard or wall covered with handwritten notes and colorful sticky notes. The main heading at the top reads \"Sombreno Negro (Dudas)\" followed by questions like \"¿Cuáles son las dudas?\" and \"¿Cuáles son los riesgos?\". Below, there are multiple small sticky notes in blue, orange, pink, green, and red, each containing handwritten text in Spanish, likely brainstorming ideas or questions related to a project or discussion. No person's face is visible in the image.",
+  "prompt_tokens": 726,
+  "output_tokens": 105,
+  "wall_s": 11.3
+ },
+ "U2|masterclass-5|File:Pugh Concept Selection.png": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U2",
+  "slide": "masterclass-5",
+  "title": "File:Pugh Concept Selection.png",
+  "description": "This is a screenshot of a spreadsheet document, likely from Microsoft Excel, displaying a \"Pugh Concept Selection\" analysis for a \"Launch and Recovery System.\" The sheet contains a table with criteria like \"reliability\" and \"Safety,\" their weights, and scores for four design concepts (A-D), along with a legend defining the score scale from 0 (Poor) to 4 (Excellent). No person's face is visible in the image.",
+  "prompt_tokens": 396,
+  "output_tokens": 92,
+  "wall_s": 9.1
+ },
+ "U2|masterclass-5|File:Pugh Matrix Concepts.png": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U2",
+  "slide": "masterclass-5",
+  "title": "File:Pugh Matrix Concepts.png",
+  "description": "This image is a printed document featuring a table that compares seven different concepts (labeled A through G) across five criteria: Cost, Effectiveness, Speed, Portability, and Mani ability. Below the table, a legend defines each concept, such as \"A = Telescopic Net Catcher\" and \"B= Football with sensors.\" The table uses symbols (+, -, 0) to rate each concept against the criteria, with a \"Total Weight\" row at the bottom summarizing the scores for each concept. No person's face is visible in the image.",
+  "prompt_tokens": 313,
+  "output_tokens": 117,
+  "wall_s": 10.6
+ },
+ "U2|masterclass-6|File:Vincent van Gogh - Self-portrait with bandaged ear (1889, Courtauld Institute).jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U2",
+  "slide": "masterclass-6",
+  "title": "File:Vincent van Gogh - Self-portrait with bandaged ear (1889, Courtauld Institute).jpg",
+  "description": "This is a painting depicting a man with dark hair, wearing a blue cap and a green coat, with a white bandage wrapped around his head and neck. The background features a light green wall with a colorful Japanese-style print or poster hanging on it, showing figures in traditional attire. There is no visible text in the image, and while the man’s face is clearly rendered, it is not identifiable as a specific known individual without external context.",
+  "prompt_tokens": 1146,
+  "output_tokens": 90,
+  "wall_s": 13.0
+ },
+ "U2|masterclass-6|File:Vincent van Gogh - Self portrait with bandaged ear F529.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U2",
+  "slide": "masterclass-6",
+  "title": "File:Vincent van Gogh - Self portrait with bandaged ear F529.jpg",
+  "description": "This is a painting, not a photograph, drawing, print, diagram, or document. It depicts a man’s face and upper torso in profile, wearing a dark fur hat and green coat, with a pipe in his mouth emitting swirling smoke against a vibrant red-orange background. The man’s face is clearly visible and identifiable as an individual portrait, though no name or artist is labeled on the image itself.",
+  "prompt_tokens": 1086,
+  "output_tokens": 82,
+  "wall_s": 11.7
+ },
+ "U2|lab-1|File:Kodo Sawaki Zazen.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U2",
+  "slide": "lab-1",
+  "title": "File:Kodo Sawaki Zazen.jpg",
+  "description": "This is a black-and-white photograph of an elderly, bald man seated in a formal, cross-legged posture. He wears traditional layered robes with visible stitching and texture, and his hands are clasped together in his lap. His face is clearly visible and identifiable as an individual, showing deep wrinkles and a solemn expression; there is no visible text in the image.",
+  "prompt_tokens": 1356,
+  "output_tokens": 73,
+  "wall_s": 12.9
+ },
+ "U2|lab-1|File:Zazen dans le dojo.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U2",
+  "slide": "lab-1",
+  "title": "File:Zazen dans le dojo.jpg",
+  "description": "This is a photograph showing a group of people, mostly with shaved heads and wearing dark robes, seated in rows on low wooden benches or cushions inside a traditional Japanese-style room with tatami mats and wooden floors. The individuals are arranged facing forward, some with eyes closed, suggesting a meditative or ceremonial gathering. No visible text appears in the image, and while several faces are partially visible, none are clearly identifiable as specific public figures.",
+  "prompt_tokens": 666,
+  "output_tokens": 88,
+  "wall_s": 11.6
+ },
+ "U2|lab-2|File:Mina Crandon automatic writing.png": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U2",
+  "slide": "lab-2",
+  "title": "File:Mina Crandon automatic writing.png",
+  "description": "This is a black-and-white photograph of a document page, likely from a book or journal, featuring a sample of handwritten Chinese calligraphy. The page includes printed English text at the top reading \"Margery's Trance Writing in red light\" and \"MAR 17 1927\", as well as a caption at the bottom identifying it as \"FIG. 13. Chinese writing by 'Margery' in red light.\" No person's face is visible in the image.",
+  "prompt_tokens": 976,
+  "output_tokens": 101,
+  "wall_s": 12.3
+ },
+ "U2|lab-2|File:HélèneSmith martien01.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U2",
+  "slide": "lab-2",
+  "title": "File:HélèneSmith martien01.jpg",
+  "description": "This is a handwritten document featuring text written in the Bengali script, arranged in two separate blocks on a plain white background. The writing appears to be done with a black pen or marker, showing casual, uneven strokes typical of informal handwriting. No person's face or other illustrative elements are visible, only the textual content.",
+  "prompt_tokens": 406,
+  "output_tokens": 66,
+  "wall_s": 7.6
+ },
+ "U2|lab-2|File:Francis Ward Monck psychograph 2.png": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U2",
+  "slide": "lab-2",
+  "title": "File:Francis Ward Monck psychograph 2.png",
+  "description": "This is a black-and-white photograph of a hand-drawn ink illustration on paper, featuring a profile portrait of a bearded man with long hair and a radiant halo of lines around his head. The drawing is surrounded by dense, circular text in an unknown script that spirals outward from the central figure, with some words appearing to be in Latin or a similar language (e.g., “SAPIENTIA” is partially visible near the bottom). No person’s face is clearly identifiable as a known individual, and no artist’s signature or title is legible.",
+  "prompt_tokens": 654,
+  "output_tokens": 114,
+  "wall_s": 13.2
+ },
+ "U3|cover|File:Gliding flight, Wright Glider, Kitty Hawk, NC. 1902.10459 A.S..jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U3",
+  "slide": "cover",
+  "title": "File:Gliding flight, Wright Glider, Kitty Hawk, NC. 1902.10459 A.S..jpg",
+  "description": "This is a black-and-white photograph showing an early biplane in flight against a cloudy sky. A pilot wearing a light-colored shirt and dark cap is visible seated in the open cockpit, leaning forward with hands on the controls. The aircraft features two sets of wings connected by struts and wires, with a tail assembly at the rear; no text is visible, and the pilot’s face is not clearly identifiable due to distance and image resolution.",
+  "prompt_tokens": 552,
+  "output_tokens": 89,
+  "wall_s": 9.6
+ },
+ "U3|cover|File:1902 Wright Brothers' Glider Tests - GPN-2002-000125.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U3",
+  "slide": "cover",
+  "title": "File:1902 Wright Brothers' Glider Tests - GPN-2002-000125.jpg",
+  "description": "This is a black-and-white historical photograph showing three men on a sandy, open landscape supporting a large, early biplane-like glider with its wings held level above the ground. One man lies prone on the lower wing as if preparing to fly, while the other two stand at either end, holding the structure steady. No visible text appears in the image, and no person’s face is clearly identifiable due to distance, angle, or resolution.",
+  "prompt_tokens": 696,
+  "output_tokens": 90,
+  "wall_s": 11.1
+ },
+ "U3|analysis-model|File:Cow by Theo van Doesburg Museum of Modern Art 227.1948.6.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U3",
+  "slide": "analysis-model",
+  "title": "File:Cow by Theo van Doesburg Museum of Modern Art 227.1948.6.jpg",
+  "description": "Based on the visual evidence, here is a literal description of the image:\n\nThis is a monochromatic drawing, likely executed in charcoal or soft pencil on paper, depicting an abstract, geometric composition of intersecting lines, planes, and hatched shading that suggests a fragmented architectural structure or a study of light and shadow. The work is characterized by its sketchy, gestural quality, with visible construction lines and areas of dense cross-hatching creating a sense of depth and volume. There is no clearly legible text, and no human figures or faces are present in the image.",
+  "prompt_tokens": 726,
+  "output_tokens": 118,
+  "wall_s": 13.2
+ },
+ "U3|analysis-model|File:Cow by Theo van Doesburg Museum of Modern Art 25.1969.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U3",
+  "slide": "analysis-model",
+  "title": "File:Cow by Theo van Doesburg Museum of Modern Art 25.1969.jpg",
+  "description": "Based on the visual evidence, here is a literal description of the image:\n\nThis is a monochromatic drawing, likely executed in charcoal or soft pencil on aged, off-white paper, depicting the abstracted, skeletal form of a quadruped animal, possibly a horse or cow, with its head lowered. The artwork consists of loose, expressive lines and shading that suggest the animal's musculature and structure rather than providing realistic detail. There is a small, handwritten numeral \"3\" visible in the lower-left quadrant of the paper, and no human faces are present in the image.",
+  "prompt_tokens": 696,
+  "output_tokens": 119,
+  "wall_s": 12.4
+ },
+ "U3|masterclass-1|File:Maqueta polifunicular.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U3",
+  "slide": "masterclass-1",
+  "title": "File:Maqueta polifunicular.jpg",
+  "description": "This is a black-and-white photograph showing a large, ornate ceremonial object or structure suspended from the ceiling of an indoor space, possibly a museum or exhibition hall. The object features layered fabric panels with numerous hanging tassels, beads, or small ornaments, creating a dense, textured appearance. A person’s face is not clearly identifiable in the image; only their lower body and part of their torso are visible on the right side, standing near the base of the structure. There is no visible text in the photograph.",
+  "prompt_tokens": 1266,
+  "output_tokens": 104,
+  "wall_s": 14.0
+ },
+ "U3|masterclass-1|File:Maqueta funicular.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U3",
+  "slide": "masterclass-1",
+  "title": "File:Maqueta funicular.jpg",
+  "description": "This is a photograph of an art installation featuring numerous small, light-colored, bell-shaped or pod-like objects suspended from above by thin wires or strings. The objects are arranged in dense clusters that hang down towards a reflective floor surface, creating a sense of depth and volume. There is no visible text in the image, and while people can be seen in the background, their faces are not clearly identifiable due to distance and lighting.",
+  "prompt_tokens": 1266,
+  "output_tokens": 86,
+  "wall_s": 13.3
+ },
+ "U3|masterclass-1|File:Paper prototype of website user interface, 2015-04-16.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U3",
+  "slide": "masterclass-1",
+  "title": "File:Paper prototype of website user interface, 2015-04-16.jpg",
+  "description": "This is a photograph showing a close-up of a person's hands holding a pen over a handwritten document on a wooden table. The document appears to be a form or worksheet with printed headings and handwritten entries, though the specific text is mostly illegible due to angle and focus. No person's face is visible in the image.",
+  "prompt_tokens": 666,
+  "output_tokens": 66,
+  "wall_s": 8.2
+ },
+ "U3|masterclass-2|File:Sketches for the second movement of Symphony no. 7, op. 92, Beethoven, Petter Sketchbook, 1812, musical autograph - Morgan Library & Museum - New York City - DSC06691.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U3",
+  "slide": "masterclass-2",
+  "title": "File:Sketches for the second movement of Symphony no. 7, op. 92, Beethoven, Petter Sketchbook, 1812, musical autograph - Morgan Library & Museum - New York City - DSC06691.jpg",
+  "description": "Based on the visual evidence, here is a literal description of the image:\n\nThis is a photograph of a historical musical manuscript, which is a document consisting of a single, aged sheet of paper with handwritten musical notation. The page features multiple staves with inked notes, clefs, and various markings, along with some illegible handwritten text and annotations scattered throughout the score. No person's face is visible in the image.",
+  "prompt_tokens": 516,
+  "output_tokens": 87,
+  "wall_s": 9.4
+ },
+ "U3|masterclass-2|File:Sketches for the first movement of the Fifth Piano Concerto, op. 73, ('Emperor'), Beethoven, from the Grasnick 3 Sketchbook, 1808-1809, musical autograph - Morgan Library & Museum - New York City - DSC06698.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U3",
+  "slide": "masterclass-2",
+  "title": "File:Sketches for the first movement of the Fifth Piano Concerto, op. 73, ('Emperor'), Beethoven, from the Grasnick 3 Sketchbook, 1808-1809, musical autograph - Morgan Library & Museum - New York City - DSC06698.jpg",
+  "description": "Based on the visual evidence, here is a literal description of the image:\n\nThis is a photograph of a historical document, specifically a single sheet of aged, yellowed paper containing handwritten musical notation on staves. The page shows signs of wear, including stains and a red wax seal fragment in the upper left corner, but there is no legible text other than the musical symbols. No person's face is visible in the image.",
+  "prompt_tokens": 726,
+  "output_tokens": 88,
+  "wall_s": 10.0
+ },
+ "U3|masterclass-3|File:Wright Brothers Wind Tunnel Replica.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U3",
+  "slide": "masterclass-3",
+  "title": "File:Wright Brothers Wind Tunnel Replica.jpg",
+  "description": "This is a photograph of a historical mechanical device, likely an old printing press or similar apparatus, displayed in a museum setting behind glass. The machine features a large wooden frame with a metal cylinder and a vertical metal column with a crank handle on the left side. There is no visible text on the object itself, and no person's face is identifiable in the image.",
+  "prompt_tokens": 606,
+  "output_tokens": 74,
+  "wall_s": 8.7
+ },
+ "U3|masterclass-3|File:WB Wind Tunnel.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U3",
+  "slide": "masterclass-3",
+  "title": "File:WB Wind Tunnel.jpg",
+  "description": "This is a photograph of a life-sized white statue of a man with a mustache, dressed in early 20th-century attire, standing behind a large wooden desk. The desk has a prominent metal horn attached to its right side, and the scene appears to be set in a museum or exhibition space, with an aircraft visible in the background. There is no visible text in the image, and while the statue’s face is clearly depicted, it is not identifiable as a specific real person without additional context.",
+  "prompt_tokens": 756,
+  "output_tokens": 103,
+  "wall_s": 10.5
+ },
+ "U3|masterclass-4|File:AGBell Notebook.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U3",
+  "slide": "masterclass-4",
+  "title": "File:AGBell Notebook.jpg",
+  "description": "This image is a photograph of a two-page spread from a handwritten journal or notebook, dated March 16th, 1876. The left page features a simple line drawing labeled \"Fig. 1\" of a device with a \"Transmitting End\" and \"Receiving End,\" accompanied by handwritten notes describing the experiment. The right page contains more dense handwritten text detailing the results of the test, including a quote of the words spoken and heard. No person's face is visible in the image.",
+  "prompt_tokens": 606,
+  "output_tokens": 106,
+  "wall_s": 11.7
+ },
+ "U3|masterclass-4|File:Design for a Flying Machine.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U3",
+  "slide": "masterclass-4",
+  "title": "File:Design for a Flying Machine.jpg",
+  "description": "This is a hand-drawn technical sketch or diagram on aged, yellowed paper, rendered in dark ink or charcoal. It depicts a complex mechanical or structural assembly with multiple beams, joints, and labeled points (such as 'M', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L'), suggesting an engineering or architectural design. Below the drawing, there is handwritten text in mirror script (reversed left-to-right), likely annotations or explanations related to the diagram, though it is not clearly legible. No person’s face is visible in the image.",
+  "prompt_tokens": 290,
+  "output_tokens": 130,
+  "wall_s": 11.9
+ },
+ "U3|masterclass-5|File:Paul Klee Pädagogisches Skizzenbuch 10.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U3",
+  "slide": "masterclass-5",
+  "title": "File:Paul Klee Pädagogisches Skizzenbuch 10.jpg",
+  "description": "This is a photograph of a two-page spread from a printed document, likely a book or art publication, featuring black-and-white diagrams and German text. The left page (numbered 10) displays three sections labeled \"ERSTER FALL,\" \"ZWEITER FALL,\" and \"DRITTER FALL,\" each with simple geometric shapes (lines, squares, triangles, circles) and handwritten-style annotations, along with explanatory text about active/passive lines and surfaces. The right page (numbered 11) contains a large, complex diagram labeled \"Fig. 12\" showing an infinity-like symbol with arrows and handwritten German terms like \"gelet\" and \"Medial,\" accompanied by a section titled \"Sprachliche Erläuterung\" that defines the concepts of \"aktiv,\" \"medial,\" and \"passiv\" using examples related to felling a tree. No person's face is visible in the image.",
+  "prompt_tokens": 696,
+  "output_tokens": 188,
+  "wall_s": 18.1
+ },
+ "U3|masterclass-6|File:Wright diary.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U3",
+  "slide": "masterclass-6",
+  "title": "File:Wright diary.jpg",
+  "description": "This is a photograph of a historical document, specifically a page from a handwritten journal or logbook. The page, numbered \"54\" in the top left corner, features dense cursive handwriting in dark ink on lined paper, describing what appears to be a series of flight tests with details about engine performance, altitude, and mechanical issues. No person's face is visible in the image.",
+  "prompt_tokens": 996,
+  "output_tokens": 79,
+  "wall_s": 11.3
+ },
+ "U3|masterclass-6|File:Thomas Edison in the Chemistry Laboratory writing in his notebook about rubber experiments. (d1857f0fb1de47f0b31dd6ca657964f5).jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U3",
+  "slide": "masterclass-6",
+  "title": "File:Thomas Edison in the Chemistry Laboratory writing in his notebook about rubber experiments. (d1857f0fb1de47f0b31dd6ca657964f5).jpg",
+  "description": "This is a black-and-white photograph showing an elderly man with white hair, wearing a suit jacket and trousers, seated on a wooden chair while leaning over a notebook or papers he is writing in with a pen. The setting appears to be a laboratory or workshop, with glassware, tubes, and equipment visible on a counter behind him. No text is legible in the image, and while the man’s face is partially visible in profile, it is not clearly identifiable due to angle, lighting, and age-related features.",
+  "prompt_tokens": 1206,
+  "output_tokens": 105,
+  "wall_s": 12.6
+ },
+ "U3|lab-1|File:Design for Three Chairs with Curved Backs (verso- Sketch for a Sideboard) MET DP807145.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U3",
+  "slide": "lab-1",
+  "title": "File:Design for Three Chairs with Curved Backs (verso- Sketch for a Sideboard) MET DP807145.jpg",
+  "description": "Based on the visual evidence, here is a literal description of the image:\n\nThis is a hand-drawn illustration, likely a watercolor and ink design sketch, depicting three variations of ornate, antique-style chairs arranged in a row. The chairs feature curved backrests, cabriole legs, and plaid-patterned upholstery, rendered in soft pastel colors on aged, off-white paper. There is no clearly identifiable person's face, and the only visible text is a faint, handwritten number \"9\" at the bottom center of the page.",
+  "prompt_tokens": 756,
+  "output_tokens": 112,
+  "wall_s": 12.7
+ },
+ "U3|lab-2|File:Wright Glider being flown as a kite. -1900 10457 A.S..jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "U3",
+  "slide": "lab-2",
+  "title": "File:Wright Glider being flown as a kite. -1900 10457 A.S..jpg",
+  "description": "This is a black-and-white photograph showing an early biplane in flight against a cloudy sky, with its two sets of wings, struts, and tail clearly visible. The image appears to be a historical print or reproduction, given its grainy texture and monochrome tone. There is no visible text, and no person’s face is identifiable in the frame.",
+  "prompt_tokens": 552,
+  "output_tokens": 73,
+  "wall_s": 9.0
+ },
+ "ML-CPA|cover|File:Iterative Process Diagram.svg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "ML-CPA",
+  "slide": "cover",
+  "title": "File:Iterative Process Diagram.svg",
+  "description": "Based on the visual evidence, here is a literal description of the image:\n\nThis is a digital diagram illustrating a cyclical process with two main stages. It features two colored rectangular boxes containing the text \"Planning\" (in a yellow box) and \"Implementation\" (in a green box), connected by four curved arrows in teal, orange, yellow, and light green that indicate a continuous flow between the stages and back to the start. There are no people or faces visible in the image.",
+  "prompt_tokens": 576,
+  "output_tokens": 100,
+  "wall_s": 9.4
+ },
+ "ML-CPA|analysis-model|File:Standard Symbols for Process Charts (1), 1921.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "ML-CPA",
+  "slide": "analysis-model",
+  "title": "File:Standard Symbols for Process Charts (1), 1921.jpg",
+  "description": "This image is a black-and-white document, specifically a page from a technical manual or textbook, displaying a list of standard symbols for process charts. It features a column of various geometric and abstract symbols on the left, each paired with a corresponding descriptive text label on the right, such as \"STORES REQUISITIONED\" and \"INSPECTION FOR QUALITY BY SMELLING.\" The visible text at the bottom identifies the content as \"Fig. 3 STANDARD SYMBOLS FOR PROCESS CHARTS (Continued on page 9).\" No person's face is visible in the image.",
+  "prompt_tokens": 678,
+  "output_tokens": 120,
+  "wall_s": 11.7
+ },
+ "ML-CPA|masterclass-1|File:Process Chart for Ordering Blank Forms - Present Method, 1921.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "ML-CPA",
+  "slide": "masterclass-1",
+  "title": "File:Process Chart for Ordering Blank Forms - Present Method, 1921.jpg",
+  "description": "This image is a black-and-white document, specifically a flowchart or process chart, illustrating a step-by-step procedure. It features a vertical timeline with numbered circles and squares connected by lines, with descriptive text next to each step detailing actions like \"STOREKEEPER WRITES PRINTING REQUISITION\" and \"BUYER TAKES IT UP WITH PURCHASING AGENT.\" The title at the bottom reads \"FIG. 7 PROCESS CHART FOR ORDERING BLANK FORMS — PRESENT METHOD.\" No people or faces are visible in the image.",
+  "prompt_tokens": 738,
+  "output_tokens": 113,
+  "wall_s": 12.7
+ },
+ "ML-CPA|masterclass-2|File:A Jacquard loom showing information punchcards, National Museum of Scotland.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "ML-CPA",
+  "slide": "masterclass-2",
+  "title": "File:A Jacquard loom showing information punchcards, National Museum of Scotland.jpg",
+  "description": "This is a photograph showing a close-up view of a traditional wooden loom in operation, with numerous warp threads stretched vertically on the left and a stack of punched wooden heddle frames hanging on the right. The scene is illuminated by warm, directional lighting that casts strong shadows and highlights the texture of the wood and threads. There is no visible text, and no person's face is identifiable in the image.",
+  "prompt_tokens": 666,
+  "output_tokens": 83,
+  "wall_s": 9.9
+ },
+ "ML-CPA|masterclass-2|File:Punch cards industrial loom.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "ML-CPA",
+  "slide": "masterclass-2",
+  "title": "File:Punch cards industrial loom.jpg",
+  "description": "Based on a literal interpretation of the image:\n\nThis is a photograph of a large, industrial-looking machine or apparatus, likely a loom or a specialized printing press, viewed from a low angle looking up its length. The central feature is a long, curved surface made of many rectangular panels, each perforated with a grid of small holes, resembling a jacquard card or a similar control mechanism. The machine is constructed from metal and wood, set in a dimly lit room with a window visible in the background; there is no visible text, and no people are present in the frame.",
+  "prompt_tokens": 1416,
+  "output_tokens": 121,
+  "wall_s": 15.4
+ },
+ "ML-CPA|masterclass-3|File:Album of Forty-five Figure Studies MET DP102546.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "ML-CPA",
+  "slide": "masterclass-3",
+  "title": "File:Album of Forty-five Figure Studies MET DP102546.jpg",
+  "description": "Based on the visual evidence, here is a literal description of the image:\n\nThis is a photograph of an open sketchbook displaying two pages of graphite drawings. The right page features a detailed study of a seated nude female figure, while the left page contains a much fainter, less defined sketch of a figure. The only visible text consists of the page numbers \"1\" and \"2\" written in the top corners of the respective pages. While the face of the figure on the right is drawn, it is a stylized artistic rendering and not a photograph, so no real person's face is clearly identifiable.",
+  "prompt_tokens": 666,
+  "output_tokens": 124,
+  "wall_s": 12.4
+ },
+ "ML-CPA|masterclass-4|File:Design for Six Chairs with Scarlet Upholstery (verso- Sketch for Sofa) MET DP807166.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "ML-CPA",
+  "slide": "masterclass-4",
+  "title": "File:Design for Six Chairs with Scarlet Upholstery (verso- Sketch for Sofa) MET DP807166.jpg",
+  "description": "Based on the visual evidence, here is a literal description of the image:\n\nThis is a watercolor and ink drawing on paper that depicts six different designs for chairs with pink upholstery and slender, light-colored legs. The chairs are arranged in two rows, with two in the top row and four in the bottom row, showcasing variations in the shape of the backrests. There is a small, handwritten number \"6\" in blue ink in the upper left corner, and no people or faces are visible in the image.",
+  "prompt_tokens": 786,
+  "output_tokens": 106,
+  "wall_s": 13.0
+ },
+ "ML-CPA|masterclass-5|File:La danse serpentine, Loïe Fuller et ses transformations.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "ML-CPA",
+  "slide": "masterclass-5",
+  "title": "File:La danse serpentine, Loïe Fuller et ses transformations.jpg",
+  "description": "This is a black-and-white printed illustration, likely an engraving or lithograph, depicting a female dancer in eight different poses and costumes, arranged in a grid format. The image includes French text labels beneath each figure, such as \"Les serpents,\" \"La corbeille,\" \"L'Espagnole,\" \"Au repos,\" \"L'hélice,\" and \"Les papillons,\" with a main title at the bottom reading \"LA DANSE SERPENTINE. — Mlle Loïe Fuller et ses transformations.\" The dancer's face is visible in most of the illustrations but is not clearly identifiable as a specific individual due to the artistic style and historical context.",
+  "prompt_tokens": 1326,
+  "output_tokens": 138,
+  "wall_s": 17.2
+ },
+ "ML-CPA|masterclass-5|File:Folies-Bergère, La Loïe Fuller (NYPL b12156457-5226881).tiff": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "ML-CPA",
+  "slide": "masterclass-5",
+  "title": "File:Folies-Bergère, La Loïe Fuller (NYPL b12156457-5226881).tiff",
+  "description": "This is a photograph of a framed, vintage color lithograph poster. The poster features a stylized illustration of a woman in a flowing, multi-colored dress against a dark background, with the text \"FOLIES-BERGÈRE\" at the top and \"La Loïe Fuller\" at the bottom. A person's face is depicted in the illustration but is not clearly identifiable as a specific real individual.",
+  "prompt_tokens": 1356,
+  "output_tokens": 84,
+  "wall_s": 12.6
+ },
+ "ML-CPA|masterclass-6|File:Tableau de résultats au test de Binet-Simon.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "ML-CPA",
+  "slide": "masterclass-6",
+  "title": "File:Tableau de résultats au test de Binet-Simon.jpg",
+  "description": "This is a black-and-white printed document, likely a page from a historical educational report or textbook, featuring a detailed table. The table, titled \"ÉCOLES DE M. L. ET DE M. M. SITUÉES A PARIS RUE DES RÉCOLLETS ET RUE SAMBRE-ET-MEUSE,\" cross-references various cognitive and academic tasks (\"DIFFÉRENTES ÉPREUVES\") against the ages of children (7 to 12 years old), with numerical scores recorded in the corresponding cells. No people or faces are visible in the image.",
+  "prompt_tokens": 1446,
+  "output_tokens": 119,
+  "wall_s": 17.7
+ },
+ "ML-CPA|masterclass-6|File:Test du carré.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "ML-CPA",
+  "slide": "masterclass-6",
+  "title": "File:Test du carré.jpg",
+  "description": "Based on the visual evidence, here is a literal description of the image:\n\nThis is a photograph of a page from a book or document, featuring a hand-drawn diagram labeled \"Fig. 4.\" at the bottom. The diagram consists of six simple, rough line drawings of irregular quadrilateral and polygonal shapes, each numbered from 1 to 6. There are no people or faces visible in the image.",
+  "prompt_tokens": 636,
+  "output_tokens": 86,
+  "wall_s": 8.9
+ },
+ "ML-CPA|lab-1|File:Proposed Process Chart for First Orders, 1921.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "ML-CPA",
+  "slide": "lab-1",
+  "title": "File:Proposed Process Chart for First Orders, 1921.jpg",
+  "description": "This image is a black-and-white diagram, specifically a vertical flowchart or process chart. It displays a sequence of numbered steps (1, 6, 11, 9, 11, 12) connected by lines, with descriptive text next to each step detailing a business process for creating a purchase order. The visible text includes the title \"FIG. 8 PROPOSED PROCESS CHART FOR FIRST ORDERS\" and step descriptions such as \"C.E. WRITES REQUISITION,\" \"BUYER HANDS TO STENOGRAPHER,\" and \"MAIL ROOM PLACES IN MAIL BAGS.\" No person's face is identifiable in the image.",
+  "prompt_tokens": 370,
+  "output_tokens": 138,
+  "wall_s": 12.1
+ },
+ "ML-CPA|lab-2|File:Paul Klee Notebook BF 149.jpg": {
+  "model": "qwen3.8:27b (think:false)",
+  "unit": "ML-CPA",
+  "slide": "lab-2",
+  "title": "File:Paul Klee Notebook BF 149.jpg",
+  "description": "This is a photograph of a handwritten document on lined paper, featuring a diagram and text in German. The page, numbered \"146\" in the top left, contains a central diagram with two oval shapes labeled \"L = Gebiet\" and \"F = Gebiet,\" connected by arrows and lines to a central point \"M,\" with annotations like \"linear activ,\" \"flächen passiv,\" and \"Gebiet der medialen Zone.\" Below the diagram is a table titled \"Anmerkung Sprachliche Analogie\" with columns for \"activ,\" \"medial,\" and \"passiv,\" containing example sentences, followed by a concluding paragraph about \"Kompositorische Versuche.\" No person's face is visible in the image.",
+  "prompt_tokens": 1206,
+  "output_tokens": 146,
+  "wall_s": 18.0
+ }
+}
