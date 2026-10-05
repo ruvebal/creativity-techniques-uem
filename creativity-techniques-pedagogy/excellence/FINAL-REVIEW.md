@@ -183,6 +183,46 @@ U4 (legacy, out of scope) keeps *Man dreaming* (`profield-cache/0a359d9b946505e1
 - Evidence: `evidence/EX5/screens/` (print view, no-JS view, timer, layouts). Report: `PHASE-EX5-REPORT.md`.
 - Rollback: `gitflow.sh rollback 5`.
 
+### EX6 — research grounding and single bibliography (PARTIAL: books to procure)
+
+- **One bibliography.** `docs/_data/references.yml` holds 23 Chicago entries, one per work. Each records the original year and the edition used. Lessons list keys in front matter, and `{% include references.html %}` renders the list. Lessons no longer hand-write reference spans.
+- **Every pin was re-checked** against the printed page, or against a chapter where the copy has no page numbers. Notable corrections:
+  - Chen 2012, 41 → **Chen 2011, 26**
+  - Craft 2003, 43 → **Craft 2000, 30**
+  - Csikszentmihalyi 2007, 8 → **1996, chap. 3**
+  - Cross 17 / 46 / 93 → **vi / 37 / 86**
+  - Rubin 103 / 104 / 123 → **323 / 326 / 386**
+  - Raymond 57 → **44**
+  - Beghetto and Karwowski 1 → **3**
+  - Eckersall 26 / 219 → **15 / 211**
+  - "Markman, Klein, and Suhr 2009, 192" cited the editors; it is now **Wong, Galinsky, and Kray 2009, 161 and 168** (the chapter authors).
+  - Decks were updated to match, and the browser check is green.
+- **What students now read:**
+  - **U1** has a working definition (novelty plus value), the domain–field–person system, the stage model and its limits, problem finding, Schön, Buchanan and Kimbell. Ideas 4–6 are no longer "studio stance".
+  - **U2** has deferred judgement (Osborn 1942), the cost of expected evaluation (Amabile 1979), a meditation study behind the attention exercise (Colzato et al. 2012), fixation (Cross 2006, reporting Jansson and Smith) and the neglect of selection (Persaud 2007).
+  - **U3** has Dow et al. 2010 behind Lab Exercise 1, Knapp et al. on prototypes, and Schön's reflective conversation.
+  - Distinct works cited: U1 8, U2 14, U3 9, master lecture 4.
+- **Please check:**
+  - **Year changes:** Chen 2011, Craft 2000, Csikszentmihalyi 1996.
+  - **Chapter-style locators** for de Bono 1970, Osborn 1942, Knapp 2016 and Csikszentmihalyi 1996.
+  - **Dow et al. 2010** comes from the authors' lab page. I treated it as green open access.
+  - **U2 idea 3 was narrowed.** It no longer claims that later ideas are better, because that research is still to procure.
+- **Procurement list (gaps never shown to students; full table in `research-manifest.yml` and each `PROFESSOR.md` §8.1):**
+  1. **Free now:**
+     - OECD 2024 *PISA 2022 Results Vol. III* (doi:10.1787/765ee8c2-en). The site blocked the command-line download.
+     - Osborn 1953 *Applied Imagination*. The file in `bibliographies/creativity/` is 0 bytes, with an unfinished `.part` beside it.
+  2. **For "produce more to get past the obvious":** Beaty and Silvia 2012; Ward 1994.
+  3. **U1:** Runco and Jaeger 2012; Kaufman and Beghetto 2009; Benedek et al. 2021; Scott, Leritz and Mumford 2004; Rhodes 1961; Boden 2004; Getzels and Csikszentmihalyi 1976; Guilford 1950; Torrance 1966; Wallas 1926; Amabile 1983; Csikszentmihalyi 1988/1999.
+  4. **U2:** Diehl and Stroebe 1987; Mullen, Johnson and Salas 1991; Rietzschel, Nijstad and Stroebe 2006; Amabile 1982; Jansson and Smith 1991; Eberle 1971; Rohrbach 1969; Zwicky 1969; Gordon 1961; Koestler 1964; Puccio, Mance and Murdock 2011; Rodari 1973; Young 1965.
+  5. **U3:** Houde and Hill 1997; Dorst and Cross 2001; Goldschmidt 1991; Buxton 2007; Brown 2009.
+  6. **Master lecture:**
+     - Verón 1988 (Lens B) and Ericsson and Simon 1993.
+     - Steimberg: you hold the 2013 edition, not 1993. Choose a passage if you want it cited.
+     - Chion and Alexander are held but not cited.
+- **Probe:** `uncited_references` now reads the `references.yml` mechanism, with a test.
+- **Local work:** 3 Ahmes ingests, about 30 Ahmes queries and 4 Athanor searches. One Thessia pass was discarded because it broke the citations.
+- Report: `PHASE-EX6-REPORT.md`. Rollback: `gitflow.sh rollback 6`.
+
 ### Release checklist additions (from EX2)
 
 - Run `npm ci` before the release build (`postcss` lives in node_modules).
