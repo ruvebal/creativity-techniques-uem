@@ -64,6 +64,21 @@ Cross-read: [`grounding/COMBINE-RELATE-DISCUSS.md`](../../../grounding/COMBINE-R
 - Design sprint as productised method — critique alongside use (Kimbell adjacency).
 - Never paste vector snippets into student lessons.
 
+### 8.1 EX6 bibliography gaps (2026-10-05) — professor only, never in student text
+
+Source of truth: `creativity-techniques-pedagogy/excellence/research-manifest.yml`. Verified and cited in the U3 lesson: Cross 2006, de Bono 1970, Beghetto & Karwowski 2025, Schön 1983, Osborn 1942, Amabile 1979, Buchanan 1992, Knapp, Zeratsky & Kowitz 2016 (EPUB from bibliographies/web_design, ingested), Dow et al. 2010 (authors' copy, ingested — closes FINDINGS C12 for Exercise 1).
+
+| Work | Status | Why | What the lesson does instead |
+| --- | --- | --- | --- |
+| Houde & Hill 1997 | BIBLIO-GAP | not in library; only third-party mirrors found (not used) | "a prototype is a question" via Knapp et al. 2016, chap. 13 |
+| Buxton 2007 | BIBLIO-GAP | not in library | sketching via Cross 2006, 37 and 86 |
+| Goldschmidt 1991 | BIBLIO-GAP | not in library | "dialectics of sketching" reported by Cross 2006, 86 |
+| Dorst & Cross 2001 | BIBLIO-GAP | not in library | problem/solution together via Cross 2006, 37 and Buchanan 1992, 16 |
+| Brown 2009 | BIBLIO-GAP | not in library | — |
+| Osborn 1953 | BIBLIO-GAP | incomplete download on disk | Osborn 1942, chap. 4 |
+
+Procurement priority: Houde & Hill 1997 → Dorst & Cross 2001 → Goldschmidt 1991 → Buxton 2007 → Brown 2009.
+
 ## 9. Final cut → slideshow (≤ 6)
 
 Mirror `MAIN-IDEAS.yml`.

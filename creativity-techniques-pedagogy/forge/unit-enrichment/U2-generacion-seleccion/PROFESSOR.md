@@ -69,6 +69,27 @@ Cross-read: [`grounding/COMBINE-RELATE-DISCUSS.md`](../../../grounding/COMBINE-R
 - Never paste vector snippets into student lessons.
 - The requested fragment “There must be much more” was not found verbatim in the Ahmes extraction for Raymond; do not attribute or publish it until its wording and page are independently identified.
 
+### 8.1 EX6 bibliography gaps (2026-10-05) — professor only, never in student text
+
+Source of truth: `creativity-techniques-pedagogy/excellence/research-manifest.yml`. Verified and cited in the U2 lesson: Craft 2000, Csikszentmihalyi 1996, de Bono 1970, de Bono 1985, Raymond 2001, Wong, Galinsky & Kray 2009 (chapter in Markman et al.), Rubin 2023, Hüppauf & Wulf 2009, Osborn 1942, Amabile 1979, Colzato et al. 2012, Cross 2006, Norman 2013, Persaud 2007.
+
+| Work | Status | Why | What the lesson does instead |
+| --- | --- | --- | --- |
+| Osborn 1953 *Applied Imagination* | BIBLIO-GAP | on disk only as a 0-byte PDF + incomplete `.part` download | deferred judgement from Osborn 1942, chap. 4; "quantity breeds quality" NOT claimed |
+| Beaty & Silvia 2012 (serial-order effect) | BIBLIO-GAP | not in library | A3/F4 "producing more" claim narrowed: fixation evidence (Cross 2006, 81–82) + practice advice (Norman 2013, 226) |
+| Ward 1994 (structured imagination) | BIBLIO-GAP | not in library | as above |
+| Diehl & Stroebe 1987; Mullen, Johnson & Salas 1991 | BIBLIO-GAP | not in library | group-brainstorming productivity loss not taught as fact |
+| Rohrbach 1969 (6-3-5) | BIBLIO-GAP | not in library | — |
+| Eberle 1971 (SCAMPER) | BIBLIO-GAP | not in library (Eberle 1974 on creative dramatics is a different paper) | — |
+| Zwicky 1969; Gordon 1961; Koestler 1964 | BIBLIO-GAP | not in library | — |
+| Jansson & Smith 1991 (primary) | BIBLIO-GAP | not in library | study reported through Cross 2006, 81 |
+| Rietzschel, Nijstad & Stroebe 2006 | BIBLIO-GAP | not in library | selection neglect via Persaud 2007, 68 |
+| Amabile 1982 (consensual assessment) | BIBLIO-GAP | not in library | evaluation effect via Amabile 1979, 221 |
+| Puccio, Mance & Murdock 2011 | BIBLIO-GAP | not in library | — |
+| Rodari 1973; Young 1940/1965 | BIBLIO-GAP | not in library | — |
+
+EX6 corrections to existing pins: Markman, Klein & Suhr 2009, 192 was the editors + a PDF page — now Wong, Galinsky & Kray 2009, 161 and 168 (chapter authors, printed pages). Rubin pins now follow the hardcover page-list (323, 326, 386). Procurement priority: Osborn 1953 (complete the download from a legitimate copy) → Beaty & Silvia 2012 → Ward 1994 → Diehl & Stroebe 1987 → Rietzschel et al. 2006 → Amabile 1982.
+
 ## 9. Final cut → slideshow (≤ 6)
 
 Mirror `MAIN-IDEAS.yml`.

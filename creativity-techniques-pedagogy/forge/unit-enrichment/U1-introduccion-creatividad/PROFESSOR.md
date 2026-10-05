@@ -74,6 +74,28 @@ Cross-read: [`grounding/COMBINE-RELATE-DISCUSS.md`](../../../grounding/COMBINE-R
 - Do not collapse design-education research into MBA DT slides.
 - Never paste vector snippets into student lessons.
 
+### 8.1 EX6 bibliography gaps (2026-10-05) — professor only, never in student text
+
+Source of truth: `creativity-techniques-pedagogy/excellence/research-manifest.yml`. Verified and cited in the U1 lesson: Craft 2000, Chen 2011, Csikszentmihalyi 1996, Beghetto & Karwowski 2025, Fisher 2004, Buchanan 1992, Schön 1983, Kimbell 2011.
+
+| Work | Status | Why | What the lesson does instead |
+| --- | --- | --- | --- |
+| Runco & Jaeger 2012 (standard definition) | BIBLIO-GAP | not in library | definition via Beghetto & Karwowski 2025, 3 (which cites Runco & Jaeger) and NACCCE quoted in Fisher 2004, 19 |
+| Rhodes 1961 (4 Ps) | BIBLIO-GAP | not in library | not taught as a cited model |
+| Kaufman & Beghetto 2009 (Four C) | BIBLIO-GAP | not in library | not taught as a cited model |
+| Csikszentmihalyi 1988 / 1999 (systems model chapters) | BIBLIO-GAP | not in library | systems model cited from Csikszentmihalyi 1996, chap. 2 |
+| Amabile 1983 (componential model) | BIBLIO-GAP | not in library (Amabile 1979 held, used in U2/U3) | — |
+| Boden 2004 | BIBLIO-GAP | not in library | — |
+| Wallas 1926 | BIBLIO-GAP | not in library (public-domain scans not fetched) | stage description via Csikszentmihalyi 1996, chap. 4, Wallas not named |
+| Guilford 1950 | BIBLIO-GAP | not in library | four abilities "as summarised by Chen" (Chen 2011, 26) |
+| Torrance 1966 | BIBLIO-GAP | not in library | — |
+| Benedek et al. 2021 (creativity myths) | BIBLIO-GAP | not in library; OA status not confirmed | myth handled via Csikszentmihalyi 1996, chap. 2 |
+| Scott, Leritz & Mumford 2004 (training meta-analysis) | BIBLIO-GAP | not in library | "training can raise scores" stays unreferenced course wording |
+| OECD 2024, PISA 2022 Results Vol. III | BIBLIO-GAP | open access, but oecd.org refused the command-line download (HTTP 403) | importance via Beghetto & Karwowski 2025, 9 |
+| Getzels & Csikszentmihalyi 1976 (problem finding) | BIBLIO-GAP | not in library | presented vs discovered problems via Csikszentmihalyi 1996, chap. 4 |
+
+Procurement priority: OECD 2024 (free, browser download) → Runco & Jaeger 2012 → Kaufman & Beghetto 2009 → Benedek et al. 2021 → Scott et al. 2004 → Boden 2004 → Getzels & Csikszentmihalyi 1976.
+
 ## 9. Final cut → slideshow (≤ 6)
 
 Mirror `MAIN-IDEAS.yml`.

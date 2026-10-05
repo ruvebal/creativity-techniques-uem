@@ -15,17 +15,17 @@ ideas:
     heading: Open, then close
     sentence: "First invent many possibilities. Then pick what fits the needs of the brief."
     quote: "The same creative act may involve both divergent and convergent thinking."
-    chicago: "(Craft 2003, 43)"
+    chicago: "(Craft 2000, 30)"  # EX6: printed folio; was e-Library year + PDF page
   - id: 2
     heading: Four skills you can train
     sentence: "Fluency (many ideas), flexibility (many angles), originality (unusual links), elaboration (work the details)."
     quote: "Fluency - the ability to produce a large number of ideas or solutions to a problem rapidly."
-    chicago: "(Chen 2012, 41)"
+    chicago: "(Chen 2011, 26)"  # EX6: printed folio; was PDF index
   - id: 3
     heading: Tests are not the whole story
     sentence: "Scoring well on “uses of a brick” does not prove you are strong in another field."
     quote: "After all, the ability of divergent thinking with a paper clip may tell us little about an individual's talent in music."
-    chicago: "(Chen 2012, 41)"
+    chicago: "(Chen 2011, 26)"  # EX6: printed folio; was PDF index
   - id: 4
     heading: Name the problem first
     sentence: "Before you grab a creativity technique, say what is unclear in the brief."

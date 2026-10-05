@@ -68,6 +68,6 @@ Write an execution receipt next to this file when done.
 | Date | 2026-09-27 |
 | Lesson | `docs/lessons/en/creativity-techniques/special-creative-process-analysis/` |
 | Deck | `docs/tracks/ct/special-creative-process-analysis/` (files under `tracks/en/uem/2627-ct/…`) |
-| Public cites | Craft 2003 · Chen 2012 · Csikszentmihalyi 2007 |
+| Public cites | Craft 2000 · Chen 2011 · Csikszentmihalyi 1996 (EX6 canonical years; see docs/_data/references.yml) |
 | Cold review | PASS-WITH-AMENDS → Editorial jargon amended |
 | Gates | publication ☑ · citation ☑ |
