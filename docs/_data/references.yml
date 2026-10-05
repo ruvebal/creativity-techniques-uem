@@ -1,0 +1,202 @@
+# Single bibliography source for lessons (PHASE-EX6).
+#
+# One canonical Chicago author-date entry per work, keyed `surname-year`
+# (first author; existing two-author keys kept). `year` is the year the cited
+# text was first published (reprints and e-book reissues keep the original
+# year); `edition_used` names the copy whose pages or sections the lessons cite.
+# A revised edition is a new edition and keeps its own year (Raymond 2001,
+# Norman 2013).
+#
+# Lessons list the keys they cite in front matter (`references: [...]`) and
+# render the list with the references.html include; in-text
+# links are `#ref-<key>`. Only page- or section-verified works belong here;
+# unresolved works stay in the professor brief (research-manifest.yml).
+# Student-facing data: no internal store names, ids or paths in this file.
+
+amabile-1979:
+  sort: "Amabile 1979"
+  year: 1979
+  edition_used: "Journal article (publisher PDF)."
+  chicago: >-
+    Amabile, Teresa M. 1979. “Effects of External Evaluation on Artistic Creativity.”
+    *Journal of Personality and Social Psychology* 37 (2): 221–33.
+    [https://doi.org/10.1037/0022-3514.37.2.221](https://doi.org/10.1037/0022-3514.37.2.221).
+
+beghetto-karwowski-2025:
+  sort: "Beghetto Karwowski 2025"
+  year: 2025
+  edition_used: "Cambridge Elements PDF."
+  chicago: >-
+    Beghetto, Ronald A., and Maciej Karwowski. 2025. *Creative Agency Unbound*. Elements in
+    Creativity and Imagination. Cambridge: Cambridge University Press.
+    [https://doi.org/10.1017/9781009479417](https://doi.org/10.1017/9781009479417).
+
+buchanan-1992:
+  sort: "Buchanan 1992"
+  year: 1992
+  edition_used: "Journal article (JSTOR scan, printed pages 5–21)."
+  chicago: >-
+    Buchanan, Richard. 1992. “Wicked Problems in Design Thinking.” *Design Issues* 8 (2): 5–21.
+    [https://doi.org/10.2307/1511637](https://doi.org/10.2307/1511637).
+
+chen-2011:
+  sort: "Chen 2011"
+  year: 2011
+  edition_used: "Springer PDF (© 2011 Higher Education Press and Springer); lessons cite the printed folios, not PDF page numbers."
+  chicago: >-
+    Chen, Chaomei. 2011. *Turning Points: The Nature of Creativity*. Beijing: Higher Education Press;
+    Berlin: Springer.
+
+colzato-2012:
+  sort: "Colzato Ozturk Hommel 2012"
+  year: 2012
+  edition_used: "Open-access article PDF (CC BY-NC)."
+  chicago: >-
+    Colzato, Lorenza S., Ayca Ozturk, and Bernhard Hommel. 2012. “Meditate to Create: The Impact of
+    Focused-Attention and Open-Monitoring Training on Convergent and Divergent Thinking.”
+    *Frontiers in Psychology* 3:116.
+    [https://doi.org/10.3389/fpsyg.2012.00116](https://doi.org/10.3389/fpsyg.2012.00116).
+
+craft-2000:
+  sort: "Craft 2000"
+  year: 2000
+  edition_used: "Taylor & Francis e-Library edition, 2005 (print pagination)."
+  chicago: >-
+    Craft, Anna. 2000. *Creativity Across the Primary Curriculum: Framing and Developing Practice*.
+    London: Routledge.
+
+cross-2006:
+  sort: "Cross 2006"
+  year: 2006
+  edition_used: "Springer PDF (printed folios)."
+  chicago: >-
+    Cross, Nigel. 2006. *Designerly Ways of Knowing*. London: Springer.
+
+csikszentmihalyi-1996:
+  sort: "Csikszentmihalyi 1996"
+  year: 1996
+  edition_used: "HarperCollins e-book (EPUB), 2007; no print page numbers, so lessons cite chapters."
+  chicago: >-
+    Csikszentmihalyi, Mihaly. 1996. *Creativity: Flow and the Psychology of Discovery and Invention*.
+    New York: HarperCollins.
+
+debono-1970:
+  sort: "de Bono 1970"
+  year: 1970
+  edition_used: "Penguin e-book (EPUB); no print page numbers, so lessons cite chapters."
+  chicago: >-
+    de Bono, Edward. 1970. *Lateral Thinking: A Textbook of Creativity*. London: Ward Lock Educational.
+
+debono-1985:
+  sort: "de Bono 1985"
+  year: 1985
+  edition_used: "First US edition (printed folios)."
+  chicago: >-
+    de Bono, Edward. 1985. *Six Thinking Hats*. Boston: Little, Brown.
+
+dow-2010:
+  sort: "Dow 2010"
+  year: 2010
+  edition_used: "Authors’ copy of the journal version (article pages 18:1–18:24)."
+  chicago: >-
+    Dow, Steven P., Alana Glassco, Jonathan Kass, Melissa Schwarz, Daniel L. Schwartz, and Scott R.
+    Klemmer. 2010. “Parallel Prototyping Leads to Better Design Results, More Divergence, and
+    Increased Self-Efficacy.” *ACM Transactions on Computer-Human Interaction* 17 (4): article 18.
+    [https://doi.org/10.1145/1879831.1879836](https://doi.org/10.1145/1879831.1879836).
+
+eckersall-2017:
+  sort: "Eckersall Grehan Scheer 2017"
+  year: 2017
+  edition_used: "Palgrave Macmillan PDF (printed folios)."
+  chicago: >-
+    Eckersall, Peter, Helena Grehan, and Edward Scheer. 2017. *New Media Dramaturgy: Performance,
+    Media and New-Materialism*. London: Palgrave Macmillan.
+    [https://doi.org/10.1057/978-1-137-55604-2](https://doi.org/10.1057/978-1-137-55604-2).
+
+fisher-2004:
+  sort: "Fisher 2004"
+  year: 2004
+  edition_used: "David Fulton PDF (printed folios)."
+  chicago: >-
+    Fisher, Robert. 2004. “What Is Creativity?” In *Unlocking Creativity: A Teacher’s Guide to
+    Creativity across the Curriculum*, edited by Robert Fisher and Mary Williams, 6–20. London:
+    David Fulton.
+
+huppauf-wulf-2009:
+  sort: "Huppauf Wulf 2009"
+  year: 2009
+  edition_used: "Routledge PDF (printed folios)."
+  chicago: >-
+    Hüppauf, Bernd, and Christoph Wulf, eds. 2009. *The Dynamics and Performativity of Imagination:
+    The Image between the Visible and the Invisible*. New York: Routledge.
+
+kimbell-2011:
+  sort: "Kimbell 2011"
+  year: 2011
+  edition_used: "Journal article PDF (printed pages 285–306)."
+  chicago: >-
+    Kimbell, Lucy. 2011. “Rethinking Design Thinking: Part I.” *Design and Culture* 3 (3): 285–306.
+    [https://doi.org/10.2752/175470811X13071166525216](https://doi.org/10.2752/175470811X13071166525216).
+
+knapp-2016:
+  sort: "Knapp Zeratsky Kowitz 2016"
+  year: 2016
+  edition_used: "Simon & Schuster e-book (EPUB); no print page numbers, so lessons cite chapters."
+  chicago: >-
+    Knapp, Jake, John Zeratsky, and Braden Kowitz. 2016. *Sprint: How to Solve Big Problems and Test
+    New Ideas in Just Five Days*. New York: Simon & Schuster.
+
+norman-2013:
+  sort: "Norman 2013"
+  year: 2013
+  edition_used: "Revised and expanded edition (printed folios)."
+  chicago: >-
+    Norman, Don. 2013. *The Design of Everyday Things*. Rev. and expanded ed. New York: Basic Books.
+
+osborn-1942:
+  sort: "Osborn 1942"
+  year: 1942
+  edition_used: "First edition, fourth impression, reset as an e-text without page numbers; lessons cite chapters."
+  chicago: >-
+    Osborn, Alex F. 1942. *How to Think Up*. New York: McGraw-Hill.
+
+persaud-2007:
+  sort: "Persaud 2007"
+  year: 2007
+  edition_used: "Journal article PDF."
+  chicago: >-
+    Persaud, Raj. 2007. “Why Teaching Creativity Requires More than Just Producing More
+    ‘Creativity.’” *Thinking Skills and Creativity* 2 (1): 68–69.
+    [https://doi.org/10.1016/j.tsc.2006.11.001](https://doi.org/10.1016/j.tsc.2006.11.001).
+
+raymond-2001:
+  sort: "Raymond 2001"
+  year: 2001
+  edition_used: "Revised edition (printed folios)."
+  chicago: >-
+    Raymond, Eric S. 2001. *The Cathedral and the Bazaar: Musings on Linux and Open Source by an
+    Accidental Revolutionary*. Rev. ed. Sebastopol, CA: O’Reilly.
+
+rubin-2023:
+  sort: "Rubin 2023"
+  year: 2023
+  edition_used: "Penguin Press e-book (EPUB) with the hardcover’s page numbers."
+  chicago: >-
+    Rubin, Rick. 2023. *The Creative Act: A Way of Being*. New York: Penguin Press.
+
+schon-1983:
+  sort: "Schon 1983"
+  year: 1983
+  edition_used: "Basic Books e-book (EPUB) with the print edition’s page numbers."
+  chicago: >-
+    Schön, Donald A. 1983. *The Reflective Practitioner: How Professionals Think in Action*. New York:
+    Basic Books.
+
+wong-2009:
+  sort: "Wong Galinsky Kray 2009"
+  year: 2009
+  edition_used: "Psychology Press PDF (printed folios)."
+  chicago: >-
+    Wong, Elaine M., Adam D. Galinsky, and Laura J. Kray. 2009. “The Counterfactual Mind-Set: A
+    Decade of Research.” In *Handbook of Imagination and Mental Simulation*, edited by Keith D.
+    Markman, William M. P. Klein, and Julie A. Suhr, 161–74. New York: Psychology Press.
