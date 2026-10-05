@@ -42,13 +42,51 @@ layout: null
   },
   "assets": [
     {
+      "media_slot_id": "U2.cover",
+      "asset_id": "wikimedia:File:Darwin Tree 1837.png",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/2fc87d360433fcca.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Darwin_Tree_1837.png",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Darwin_Tree_1837.png",
+      "title": "Charles Darwin's 'I think' sketch in Notebook B, 1837",
+      "alt_text": "A page of Charles Darwin's 1837 notebook headed 'I think', with a small branching tree sketch whose lines split, some ending and some reaching the letters A, B, C and D.",
+      "author": "Charles Darwin",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Charles Darwin · Wikimedia Commons",
+      "author_death_year": 1882,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1882; 1882+70 < 2026: public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U2.analysis-model",
+      "asset_id": "wikimedia:File:Study for \"A Sunday on La Grande Jatte\" MET DP259921.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/212a6fbf95aab085.webp",
+      "source_file_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Study_for_%22A_Sunday_on_La_Grande_Jatte%22_MET_DP259921.jpg/1920px-Study_for_%22A_Sunday_on_La_Grande_Jatte%22_MET_DP259921.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Study_for_%22A_Sunday_on_La_Grande_Jatte%22_MET_DP259921.jpg",
+      "title": "Georges Seurat, oil study for A Sunday on La Grande Jatte, 1884",
+      "alt_text": "Seurat's 1884 oil study for A Sunday on La Grande Jatte: small strokes of colour build a grassy riverbank with strollers, trees and boats on the water.",
+      "author": "Georges Seurat",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Georges Seurat · Wikimedia Commons",
+      "author_death_year": 1891,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC0 dedication by the rights holder (file page). Underlying work: author died 1891.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
       "media_slot_id": "U2.masterclass-1",
       "asset_id": "wikimedia:File:Sprite Fright-concept art-Victoria 01.png",
       "asset_url": "/creativity-techniques-uem/assets/images/deck-media/5e5034d4db013da5.webp",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Sprite_Fright-concept_art-Victoria_01.png",
+      "source_file_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Sprite_Fright-concept_art-Victoria_01.png/1920px-Sprite_Fright-concept_art-Victoria_01.png",
       "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Sprite_Fright-concept_art-Victoria_01.png",
-      "title": "Sprite Fright concept art: Victoria",
-      "alt_text": "Concept-art sheet with about seventeen labelled variations of one cartoon character's head, from the Blender short film Sprite Fright.",
+      "title": "Concept-art sheet for the Blender Studio short Sprite Fright (2021)",
+      "alt_text": "Concept-art sheet from the short film Sprite Fright: seventeen labelled versions of one red-haired character's head, each with a different expression.",
       "author": "Julien Kaspar / Blender Foundation",
       "licence": "CC-BY-4.0",
       "licence_url": "https://creativecommons.org/licenses/by/4.0/",
@@ -56,7 +94,102 @@ layout: null
       "credit_line": "Julien Kaspar / Blender Foundation · Wikimedia Commons",
       "author_death_year": null,
       "eu_term_ok": true,
-      "eu_term_reason": "Published 2020 by the Blender Foundation under CC BY 4.0 (Commons file page, read 2026-10-04); publication relies on the licence, not on an expired term.",
+      "eu_term_reason": "CC BY 4.0 from the Blender Studio; prospector title carries modern_rights_review_required",
+      "rights_status": "flagged",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U2.masterclass-3",
+      "asset_id": "wikimedia:File:Stickies to brainstorm Edit.2014..jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/182376a162650045.webp",
+      "source_file_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Stickies_to_brainstorm_Edit.2014..jpg/1920px-Stickies_to_brainstorm_Edit.2014..jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Stickies_to_brainstorm_Edit.2014..jpg",
+      "title": "A brainstorming wall of sticky notes (2014)",
+      "alt_text": "A wall covered with columns of handwritten blue and orange sticky notes from a brainstorming session, each note a separate idea kept without judging.",
+      "author": "Victor Grigas",
+      "licence": "CC-BY-SA-3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Victor Grigas · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "Licensed by the rights holder under CC-BY-SA-3.0 (file page); publication relies on the licence, not on an expired term.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U2.masterclass-4",
+      "asset_id": "wikimedia:File:Sombrero negro (Dudas).jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/56194141c1329fd1.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Sombrero_negro_%28Dudas%29.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Sombrero_negro_(Dudas).jpg",
+      "title": "A Six Thinking Hats session board for the black hat ('doubts'",
+      "alt_text": "A workshop board headed 'Sombrero negro (Dudas)' — the black thinking hat — asking 'What are the doubts? What are the risks?', with coloured sticky-note answers below.",
+      "author": "NMontoya (WMCO)",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "NMontoya (WMCO) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "Licensed by the rights holder under CC-BY-4.0 (file page); publication relies on the licence, not on an expired term.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U2.masterclass-5",
+      "asset_id": "wikimedia:File:Pugh Concept Selection.png",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/d34fe8bf4ea9f618.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Pugh_Concept_Selection.png",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Pugh_Concept_Selection.png",
+      "title": "A Pugh concept-selection matrix",
+      "alt_text": "A Pugh concept-selection spreadsheet: criteria such as reliability and safety with weights in rows, four design concepts scored in columns, and totals at the bottom.",
+      "author": "Chattons2",
+      "licence": "CC-BY-SA-3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Chattons2 · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "Licensed by the rights holder under CC-BY-SA-3.0 (file page); publication relies on the licence, not on an expired term.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U2.masterclass-6",
+      "asset_id": "wikimedia:File:Vincent van Gogh - Self-portrait with bandaged ear (1889, Courtauld Institute).jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/c839dd8e96b50396.webp",
+      "source_file_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Vincent_van_Gogh_-_Self-portrait_with_bandaged_ear_%281889%2C_Courtauld_Institute%29.jpg/1920px-Vincent_van_Gogh_-_Self-portrait_with_bandaged_ear_%281889%2C_Courtauld_Institute%29.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Self-portrait_with_bandaged_ear_(1889,_Courtauld_Institute).jpg",
+      "title": "Vincent van Gogh, Self-Portrait with Bandaged Ear, 1889",
+      "alt_text": "Van Gogh's 1889 self-portrait: the painter in a cap and green coat, a white bandage wrapped around his head, with a Japanese print on the wall behind him.",
+      "author": "Vincent van Gogh",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Vincent van Gogh · Wikimedia Commons",
+      "author_death_year": 1890,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1890; 1890+70 < 2026: public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U2.lab-1",
+      "asset_id": "wikimedia:File:Kodo Sawaki Zazen.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/7be69b460d03f86a.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Kodo_Sawaki_Zazen.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Kodo_Sawaki_Zazen.jpg",
+      "title": "Kōdō Sawaki seated in zazen, c. 1920",
+      "alt_text": "Black-and-white photograph of the Zen teacher Kōdō Sawaki seated cross-legged in robes, upright and still, hands resting in his lap in meditation.",
+      "author": "Unknown photographer (c. 1920)",
+      "licence": "PD-EU",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Unknown photographer (c. 1920) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "anonymous photograph c. 1920; identifiable sitter (Kōdō Sawaki, public religious teacher, d. 1965)",
       "rights_status": "flagged",
       "cropped": false
     }
@@ -65,7 +198,7 @@ layout: null
     {
       "slide_id": "cover",
       "slide_role": "unit_cover",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "U2 · Idea generation and selection techniques",
       "sentence": "Creativity needs two rhythms: opening many doors, then closing most of them on purpose.",
       "quote": "Lateral thinking is generative. Vertical thinking is selective.",
@@ -89,7 +222,9 @@ layout: null
         "label": "(de Bono 1970, 9)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-debono-1970"
       },
-      "image_brief": "TODO: Show a sheet of many idea sketches with most crossed out and one circled, to picture opening many doors and then closing most of them on purpose."
+      "image_brief": "Charles Darwin's 'I think' sketch in Notebook B, 1837: a branching tree that opens many lines and lets most of them end — generation and selection in one drawing.",
+      "asset_id": "wikimedia:File:Darwin Tree 1837.png",
+      "media_slot_id": "U2.cover"
     },
     {
       "slide_id": "analysis-opener",
@@ -123,7 +258,7 @@ layout: null
     {
       "slide_id": "analysis-model",
       "slide_role": "analysis_model",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "How to analyse (rolling model)",
       "sentence": "Language · medium · support. Then ask where meaning travels — and how many options were closed to get here.",
       "quote": "Name language, medium, and support — then ask how many ideas were considered before this one won.",
@@ -148,7 +283,9 @@ layout: null
         "label": "(Tao of Creativity)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#tao-of-creativity"
       },
-      "image_brief": "TODO: Show one design piece next to its discarded alternatives, so students can ask how many options were closed to reach it."
+      "image_brief": "Georges Seurat, oil study for A Sunday on La Grande Jatte, 1884: one of dozens of studies made before the final painting, so we ask how many options were closed to reach it.",
+      "asset_id": "wikimedia:File:Study for \"A Sunday on La Grande Jatte\" MET DP259921.jpg",
+      "media_slot_id": "U2.analysis-model"
     },
     {
       "slide_id": "masterclass-1",
@@ -177,7 +314,7 @@ layout: null
           "dcterms:subject=generation-selection"
         ]
       },
-      "image_brief": "TODO: Show one character or object drawn in many variants on a single sheet, so generating options before selecting one is visible.",
+      "image_brief": "Concept-art sheet for the Blender Studio short Sprite Fright (2021): many labelled variants of one character's head rendered side by side before one is chosen — generate first, then select.",
       "asset_id": "wikimedia:File:Sprite Fright-concept art-Victoria 01.png",
       "media_slot_id": "U2.masterclass-1"
     },
@@ -209,12 +346,12 @@ layout: null
         "label": "(Csikszentmihalyi 2007, 8)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-csikszentmihalyi-2007"
       },
-      "image_brief": "TODO: Show many ideas that differ in kind rather than many versions of one idea, to contrast flexibility with plain fluency."
+      "image_brief": "Leonardo da Vinci, a Codex Atlanticus sheet of machine studies, c. 1490s: ideas that differ in kind, not thirty versions of one — fluency only counts when it comes with flexibility."
     },
     {
       "slide_id": "masterclass-3",
       "slide_role": "masterclass",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "3 · Get past the obvious",
       "sentence": "Your first ideas are usually the obvious ones. In this Lab, don't censor them — keep making more without judging, and dig in a different place.",
       "quote": "You cannot dig a hole in a different place by digging the same hole deeper.",
@@ -239,12 +376,14 @@ layout: null
         "label": "(de Bono 1970, 9)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-debono-1970"
       },
-      "image_brief": "TODO: Show a long list or wall of ideas whose later entries grow stranger, to picture pushing past the first, obvious answers."
+      "image_brief": "A brainstorming wall of sticky notes (2014): early ideas kept on the wall without judging, so that less obvious ones have room to appear.",
+      "asset_id": "wikimedia:File:Stickies to brainstorm Edit.2014..jpg",
+      "media_slot_id": "U2.masterclass-3"
     },
     {
       "slide_id": "masterclass-4",
       "slide_role": "masterclass",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "4 · Role and constraint tools",
       "sentence": "Hats and cards stage a cognitive move — map the kinds of thinking first, then choose a route.",
       "quote": "Any tool should be useful in the expected way, but a truly great tool lends itself to uses you never expected.",
@@ -269,12 +408,14 @@ layout: null
           "dcterms:subject=provocation"
         ]
       },
-      "image_brief": "TODO: Show de Bono's six thinking hats, a deck of prompt cards such as Oblique Strategies, or people in assigned roles, to picture a tool that stages one kind of thinking."
+      "image_brief": "A Six Thinking Hats session board for the black hat ('doubts': what are the risks?), Wikimedia Colombia workshop, 2025: a role tool that stages one mode of thinking at a time.",
+      "asset_id": "wikimedia:File:Sombrero negro (Dudas).jpg",
+      "media_slot_id": "U2.masterclass-4"
     },
     {
       "slide_id": "masterclass-5",
       "slide_role": "masterclass",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "5 · Name selection criteria",
       "sentence": "Convergent choice needs explicit novelty and fitness-to-brief tests — name your criteria before you rank.",
       "quote": "Editing is a demonstration of taste. It isn't expressed through pointing to items we like… Our taste is revealed in how our work is curated.",
@@ -299,12 +440,14 @@ layout: null
         "label": "(Rubin 2023, 123)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-rubin-2023"
       },
-      "image_brief": "TODO: Show a selection matrix or scored shortlist with named criteria such as novelty and fit to the brief, to picture deliberate convergent choice."
+      "image_brief": "A Pugh concept-selection matrix: options scored against named criteria, the convergent step made explicit before ranking.",
+      "asset_id": "wikimedia:File:Pugh Concept Selection.png",
+      "media_slot_id": "U2.masterclass-5"
     },
     {
       "slide_id": "masterclass-6",
       "slide_role": "masterclass",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "6 · Workshops are means, not genius",
       "sentence": "Fluency training supports practice; landmark ideas are rare — workshops train the hand, not replace genius myths.",
       "quote": "Artists are often portrayed in films and books as tortured geniuses. Starving, self-destructive, dancing on the brink of madness.",
@@ -329,7 +472,9 @@ layout: null
         "label": "(Rubin 2023, 103)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-rubin-2023"
       },
-      "image_brief": "TODO: Show a historical workshop or class exercise in progress, to present training as practice rather than a source of genius."
+      "image_brief": "Vincent van Gogh, Self-Portrait with Bandaged Ear, 1889: the icon of the 'tortured genius' myth that this slide questions — workshops train practice, they do not manufacture genius.",
+      "asset_id": "wikimedia:File:Vincent van Gogh - Self-portrait with bandaged ear (1889, Courtauld Institute).jpg",
+      "media_slot_id": "U2.masterclass-6"
     },
     {
       "slide_id": "lab-opener",
@@ -365,7 +510,7 @@ layout: null
     {
       "slide_id": "lab-1",
       "slide_role": "lab_exercise",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "Exercise 1 · Guided concentration",
       "sentence": "Follow the guided meditation exactly as indicated. Attend to breath, bodily sensation, and the surrounding field without evaluating or producing ideas yet.",
       "portfolio_bound": true,
@@ -392,7 +537,9 @@ layout: null
         "label": "(Tao of Creativity)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#tao-of-creativity"
       },
-      "image_brief": "TODO: Show a calm, low-detail scene of a person in focused stillness, to set the mood for the guided concentration exercise."
+      "image_brief": "Kōdō Sawaki seated in zazen, c. 1920: still, upright meditation with attention on breath and body, the posture of the guided concentration that opens the Lab.",
+      "asset_id": "wikimedia:File:Kodo Sawaki Zazen.jpg",
+      "media_slot_id": "U2.lab-1"
     },
     {
       "slide_id": "lab-2",
@@ -424,7 +571,7 @@ layout: null
         "label": "(Tao of Creativity)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#tao-of-creativity"
       },
-      "image_brief": "TODO: Show a page of surrealist automatic writing or a hand writing without pause, to picture writing that is not corrected or censored."
+      "image_brief": "A page of Surrealist automatic writing, such as Breton and Soupault's manuscript of Les Champs magnétiques (1919): text written continuously without correcting, the practice this exercise borrows."
     },
     {
       "slide_id": "outro",

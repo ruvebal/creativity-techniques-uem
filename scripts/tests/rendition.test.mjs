@@ -8,7 +8,7 @@ import { test } from 'node:test';
 
 import sharp from 'sharp';
 
-import { toRendition } from '../lib/rendition.mjs';
+import { looksLikeSvg, toRendition } from '../lib/rendition.mjs';
 
 async function noisyJpegWithExif(width, height) {
   const raw = Buffer.alloc(width * height * 3);
@@ -39,4 +39,16 @@ test('rendition: small images are not enlarged', async () => {
   const out = await toRendition(input);
   assert.equal(out.width, 640);
   assert.equal(out.height, 480);
+});
+
+test('A6/F6: SVG input is rasterised to WebP (never passed through raw)', async () => {
+  const svg = Buffer.from('<?xml version="1.0"?>\n<svg xmlns="http://www.w3.org/2000/svg" width="200" height="100" viewBox="0 0 200 100"><rect width="200" height="100" fill="#c33"/><circle cx="100" cy="50" r="40" fill="#fff"/></svg>');
+  assert.equal(looksLikeSvg(svg), true);
+  assert.equal(looksLikeSvg(Buffer.from([0xff, 0xd8, 0xff, 0xe0])), false);
+  const out = await toRendition(svg);
+  const meta = await sharp(out.buffer).metadata();
+  assert.equal(meta.format, 'webp');
+  assert.equal(out.ext, 'webp');
+  assert.equal(Math.max(meta.width, meta.height), 1920, `vector rendered at the full width: ${meta.width}x${meta.height}`);
+  assert.ok(!out.buffer.includes('<svg'), 'no SVG markup in the output');
 });

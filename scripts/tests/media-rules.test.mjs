@@ -185,6 +185,23 @@ test('rightsVerdict EU term (B10): death year + 70 must be before the current ye
   assert.equal(impl.rightsVerdict({ ...pd, author_death_year: null }, { year: 2026 }).ok, false, 'no death year, no reason');
 });
 
+test('A6/F1: a death year that contradicts a PD / EU-term claim fails, whatever the reason text', () => {
+  const duchamp = { ...cleanAsset, licence: 'PD-old-70', author: 'Marcel Duchamp', author_death_year: 1968, eu_term_ok: true };
+  for (const reason of ['public domain in the US', 'Published before 1929; PD in the United States', 'expired term', '']) {
+    const v = impl.rightsVerdict({ ...duchamp, eu_term_reason: reason }, { year: 2026 });
+    assert.equal(v.ok, false, `reason "${reason}" must not override d. 1968`);
+  }
+  for (const licence of ['PD-EU', 'PDM', 'NoC-US+EU-checked']) {
+    assert.equal(impl.rightsVerdict({ ...duchamp, licence, eu_term_reason: 'PD' }, { year: 2026 }).ok, false, licence);
+  }
+  // The gate's exact case: no eu_term_ok flag at all.
+  assert.equal(impl.rightsVerdict({ licence: 'PD-old-70', author: 'Marcel Duchamp', author_death_year: 1968,
+    eu_term_reason: 'public domain in the US', canonical_source_url: 'https://commons.wikimedia.org/x', title: 'x' }).ok, false);
+  // Controls: an expired term passes; a holder licence (CC BY) does not rest on the term.
+  assert.equal(impl.rightsVerdict({ ...duchamp, author: 'Alfred Stieglitz', author_death_year: 1946, eu_term_reason: '' }, { year: 2026 }).ok, true);
+  assert.equal(impl.rightsVerdict({ ...cleanAsset, author_death_year: 2020 }, { year: 2026 }).ok, true, 'CC BY by a recently deceased author');
+});
+
 // ---------------------------------------------------------------------------
 // B1 / B3 / B13 — slide asset_id is the only binding
 // ---------------------------------------------------------------------------

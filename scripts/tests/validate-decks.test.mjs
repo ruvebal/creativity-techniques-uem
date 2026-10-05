@@ -98,3 +98,19 @@ test('validator: the private registry overrides deck fields (raw title with revi
   assert.equal(r.rights[0].ok, false);
   assert.ok(r.rights[0].reasons.some((x) => /modern_rights_review_required/.test(x)));
 });
+
+test('A6/F3: with requireRegistry, a bound asset without a registry raw_title is an error', () => {
+  const r = deckProblems(v2(), ctx({ requireRegistry: true }));
+  assert.ok(r.errors.some((e) => /no registry record with raw_title/.test(e)), r.errors.join('\n'));
+  const reg = new Map([['a:1', { asset_id: 'a:1', raw_title: 'File:X.jpg' }]]);
+  assert.deepEqual(deckProblems(v2(), ctx({ requireRegistry: true, registry: reg })).errors, []);
+  const tagged = new Map([['a:1', { asset_id: 'a:1', raw_title: 'File:X.jpg [modern_rights_review_required]' }]]);
+  const r2 = deckProblems(v2(), ctx({ requireRegistry: true, registry: tagged }));
+  assert.ok(r2.errors.some((e) => /rights_status "ok" but rightsVerdict fails/.test(e)), 'review tag in registry raw_title cannot publish as ok');
+});
+
+test('A6/F6: a raw SVG in deck-media is an error on v2 decks', () => {
+  const deck = v2({ assets: [{ ...okAsset, asset_url: '/site/assets/images/deck-media/aaaa.svg' }] });
+  const r = deckProblems(deck, ctx({ cacheFiles: new Map([['aaaa.svg', 2000]]) }));
+  assert.ok(r.errors.some((e) => /raw \.svg/.test(e)), r.errors.join('\n'));
+});

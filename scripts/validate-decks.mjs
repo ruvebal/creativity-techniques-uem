@@ -7,8 +7,9 @@
  * Strict rules apply to decks with "schema_version": 2 (Amendment A1); legacy
  * decks (e.g. U4) only produce warnings. Errors: dangling slots, curated slides
  * without image_brief/asset_id, missing or > 600 KB files, non-whitelisted
- * extensions, orphan cache files, duplicate asset use, "profield" in public
- * JSON values. Assets failing rightsVerdict are errors under --rights=block
+ * extensions, raw SVG in deck-media (A6/F6), bound assets without a private
+ * registry record carrying raw_title (A6/F3), orphan cache files, duplicate
+ * asset use, "profield" in public JSON values. Assets failing rightsVerdict are errors under --rights=block
  * (default) and warnings under --rights=flag; --rights=flag also writes
  * creativity-techniques-pedagogy/excellence/curation/rights-report.json.
  * Per the professor's launch decision (AUTOPILOT.md §0) the build and the gates
@@ -84,7 +85,7 @@ for (const path of deckPaths) {
   }
   const legacy = content.schema_version !== DECK_SCHEMA_VERSION;
   const unit = content.media_selection?.unit_id || basename(dirname(dirname(path)));
-  const result = deckProblems(content, { unit, cacheFiles, cacheSegment, registry, year });
+  const result = deckProblems(content, { unit, cacheFiles, cacheSegment, registry, requireRegistry: !legacy, year });
   errors.push(...result.errors.map((m) => `${rel}: ${m}`));
   warnings.push(...result.warnings.map((m) => `${rel}: ${m}`));
 
@@ -138,7 +139,8 @@ for (const [files, segment] of [[cacheFiles, cacheSegment], [legacyFiles, legacy
   }
 }
 for (const name of cacheFiles.keys()) {
-  if (!/\.(jpg|png|webp|gif|svg)$/i.test(name)) errors.push(`${cacheSegment}/${name}: extension not whitelisted`);
+  if (/\.svg$/i.test(name)) errors.push(`${cacheSegment}/${name}: raw SVG in deck-media (rasterise it; A6/F6)`);
+  else if (!/\.(jpg|png|webp|gif)$/i.test(name)) errors.push(`${cacheSegment}/${name}: extension not whitelisted`);
 }
 
 if (rightsMode === 'flag') {

@@ -11,12 +11,184 @@ layout: null
     "strategy": "slide-bound",
     "description": "Each image is bound to one named slide by asset_id; slides without a cleared image use the course diagram."
   },
-  "assets": [],
+  "assets": [
+    {
+      "media_slot_id": "U1.cover",
+      "asset_id": "wikimedia:File:Leonardo da Vinci - 1860,0616.98, Two studies of the Virgin and Child with a cat and three studies of the Child with a cat.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/602b24d382784822.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Leonardo_da_Vinci_-_1860%2C0616.98%2C_Two_studies_of_the_Virgin_and_Child_with_a_cat_and_three_studies_of_the_Child_with_a_cat.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_1860,0616.98,_Two_studies_of_the_Virgin_and_Child_with_a_cat_and_three_studies_of_the_Child_with_a_cat.jpg",
+      "title": "Leonardo da Vinci, studies of the Virgin and Child with a cat, c. 1478–81",
+      "alt_text": "Pen-and-ink sheet by Leonardo da Vinci with two studies of the Virgin holding the Christ Child and a cat, and three smaller studies of the Child with the cat, each pose tried differently.",
+      "author": "Leonardo da Vinci",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Leonardo da Vinci · Wikimedia Commons",
+      "author_death_year": 1519,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1519; 1519+70 < 2026: public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U1.analysis-model",
+      "asset_id": "wikimedia:File:Beat the Whites with the Red Wedge.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/59f29872951bc0ae.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Beat_the_Whites_with_the_Red_Wedge.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Beat_the_Whites_with_the_Red_Wedge.jpg",
+      "title": "El Lissitzky, Beat the Whites with the Red Wedge, 1919–20",
+      "alt_text": "El Lissitzky's 1919–20 poster: a sharp red triangle drives into a white circle on a black and white field, with Russian words placed along the shapes.",
+      "author": "El Lissitzky",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "El Lissitzky · Wikimedia Commons",
+      "author_death_year": 1941,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1941; 1941+70 < 2026: public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U1.masterclass-1",
+      "asset_id": "wikimedia:File:Studies for the Libyan Sibyl (recto); Studies for the Libyan Sibyl and a small Sketch for a Seated Figure (verso) MET DP807402.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/1e199b72324443bc.webp",
+      "source_file_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Studies_for_the_Libyan_Sibyl_%28recto%29%3B_Studies_for_the_Libyan_Sibyl_and_a_small_Sketch_for_a_Seated_Figure_%28verso%29_MET_DP807402.jpg/1920px-Studies_for_the_Libyan_Sibyl_%28recto%29%3B_Studies_for_the_Libyan_Sibyl_and_a_small_Sketch_for_a_Seated_Figure_%28verso%29_MET_DP807402.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Studies_for_the_Libyan_Sibyl_(recto);_Studies_for_the_Libyan_Sibyl_and_a_small_Sketch_for_a_Seated_Figure_(verso)_MET_DP807402.jpg",
+      "title": "Michelangelo, a sheet of studies connected with the Libyan Sibyl, c. 1510–11",
+      "alt_text": "Chalk drawing by Michelangelo: a large, carefully modelled study of a bent leg and torso, with two small quick sketches of a seated figure in the corners.",
+      "author": "Michelangelo Buonarroti",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Michelangelo Buonarroti · Wikimedia Commons",
+      "author_death_year": 1564,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC0 dedication by the rights holder (file page). Underlying work: author died 1564.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U1.masterclass-3",
+      "asset_id": "wikimedia:File:GemPaperClipAdvertisementJan1893.png",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/48f50bbc89c22ae9.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/GemPaperClipAdvertisementJan1893.png",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:GemPaperClipAdvertisementJan1893.png",
+      "title": "The Gem paper clip (1890s)",
+      "alt_text": "An 1893 newspaper advertisement for the Gem paper clip: a large line drawing of the double-loop wire clip beside text praising it for holding papers together.",
+      "author": "Unknown advertiser (1893)",
+      "licence": "PD-EU",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Unknown advertiser (1893) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "anonymous work published 1893; EU term for anonymous works (70 years from publication) expired",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U1.masterclass-4",
+      "asset_id": "wikimedia:File:Auguste Rodin - The Thinker - 1917.42 - Cleveland Museum of Art.tif",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/6bf5e63d3bbb1b00.webp",
+      "source_file_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Auguste_Rodin_-_The_Thinker_-_1917.42_-_Cleveland_Museum_of_Art.tif/lossy-page1-1920px-Auguste_Rodin_-_The_Thinker_-_1917.42_-_Cleveland_Museum_of_Art.tif.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Auguste_Rodin_-_The_Thinker_-_1917.42_-_Cleveland_Museum_of_Art.tif",
+      "title": "Auguste Rodin, The Thinker (modelled 1880–81)",
+      "alt_text": "Rodin's bronze The Thinker: a seated nude man leans forward, chin resting on his hand, absorbed in thought before acting.",
+      "author": "Auguste Rodin (sculpture); Cleveland Museum of Art (photograph, CC0)",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Auguste Rodin (sculpture); Cleveland Museum of Art (photograph, CC0) · Wikimedia Commons",
+      "author_death_year": 1917,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC0 dedication by the rights holder (file page). Underlying work: author died 1917.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U1.masterclass-5",
+      "asset_id": "wikimedia:File:Pocket set of drawing instruments MET DP232308.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/764fabac001fcba4.webp",
+      "source_file_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Pocket_set_of_drawing_instruments_MET_DP232308.jpg/1920px-Pocket_set_of_drawing_instruments_MET_DP232308.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Pocket_set_of_drawing_instruments_MET_DP232308.jpg",
+      "title": "A pocket set of drawing instruments by Peter Dollond, London, c. 1755",
+      "alt_text": "An 18th-century pocket set of drawing instruments by Peter Dollond: a ruler, a scale and four brass and steel instruments laid out beside their open shagreen case.",
+      "author": "Peter Dollond (instrument maker); The Metropolitan Museum of Art (photograph, CC0)",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Peter Dollond (instrument maker); The Metropolitan Museum of Art (photograph, CC0) · Wikimedia Commons",
+      "author_death_year": 1820,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC0 dedication by the rights holder (file page). Underlying work: author died 1820.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U1.masterclass-6",
+      "asset_id": "wikimedia:File:Post-It Notes Wall at the Fast Company Innovation Festival (30772875917).jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/80bb26207763d002.webp",
+      "source_file_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Post-It_Notes_Wall_at_the_Fast_Company_Innovation_Festival_%2830772875917%29.jpg/1920px-Post-It_Notes_Wall_at_the_Fast_Company_Innovation_Festival_%2830772875917%29.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Post-It_Notes_Wall_at_the_Fast_Company_Innovation_Festival_(30772875917).jpg",
+      "title": "A Post-it 'Teamwork Tools' display wall at a 2018 innovation festival",
+      "alt_text": "A promotional wall covered in coloured sticky notes in vertical stripes around a screen reading 'Post-it Teamwork Tools', with product baskets on the counter below.",
+      "author": "Nan Palmero",
+      "licence": "CC-BY-2.0",
+      "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Nan Palmero · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "licence CC-BY-2.0 not on the accepted list; CC BY 2.0 is not on the accepted-licence list",
+      "rights_status": "flagged",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U1.lab-1",
+      "asset_id": "wikimedia:File:Marcel Duchamp, 1917, Fountain, photograph by Alfred Stieglitz.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/47983a023a08feec.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Marcel_Duchamp%2C_1917%2C_Fountain%2C_photograph_by_Alfred_Stieglitz.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Marcel_Duchamp,_1917,_Fountain,_photograph_by_Alfred_Stieglitz.jpg",
+      "title": "Marcel Duchamp, Fountain, 1917, in Alfred Stieglitz's photograph",
+      "alt_text": "Alfred Stieglitz's 1917 photograph of Duchamp's Fountain: a white porcelain urinal turned on its back on a plinth, signed 'R. Mutt 1917', with an entry tag hanging from it.",
+      "author": "Alfred Stieglitz (photograph) / Marcel Duchamp (readymade)",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Alfred Stieglitz (photograph) / Marcel Duchamp (readymade) · Wikimedia Commons",
+      "author_death_year": 1968,
+      "eu_term_ok": false,
+      "eu_term_reason": "author death year 1968: EU term runs through 2038; photograph: Stieglitz d. 1946 (EU term expired 2016); depicted readymade: Duchamp d. 1968 (EU term to 2038) — whether a mass-produced urinal carries Duchamp's copyright is doubtful, but the claim cannot be cleared here",
+      "rights_status": "flagged",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U1.lab-2",
+      "asset_id": "wikimedia:File:Theo van Doesburg and Kurt Schwitters, Kleine Dada Soirée (Small Dada Evening), 1922, NGA 154076.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/94083edd814d3e84.webp",
+      "source_file_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Theo_van_Doesburg_and_Kurt_Schwitters%2C_Kleine_Dada_Soir%C3%A9e_%28Small_Dada_Evening%29%2C_1922%2C_NGA_154076.jpg/1920px-Theo_van_Doesburg_and_Kurt_Schwitters%2C_Kleine_Dada_Soir%C3%A9e_%28Small_Dada_Evening%29%2C_1922%2C_NGA_154076.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Theo_van_Doesburg_and_Kurt_Schwitters,_Kleine_Dada_Soir%C3%A9e_(Small_Dada_Evening),_1922,_NGA_154076.jpg",
+      "title": "Theo van Doesburg and Kurt Schwitters, Kleine Dada Soirée poster, 1922",
+      "alt_text": "The 1922 Kleine Dada Soirée poster: words in German and Dutch, in many sizes, typefaces and directions, jumbled around giant red letters spelling 'DADA'.",
+      "author": "Theo van Doesburg and Kurt Schwitters",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Theo van Doesburg and Kurt Schwitters · Wikimedia Commons",
+      "author_death_year": 1948,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC0 dedication by the rights holder (file page). Underlying work: author died 1948.",
+      "rights_status": "ok",
+      "cropped": false
+    }
+  ],
   "slides": [
     {
       "slide_id": "cover",
       "slide_role": "unit_cover",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "U1 · Introduction to creativity",
       "sentence": "Creativity is work you can pace: open many options, then choose what fits the brief — not a talent myth.",
       "quote": "Open many doors on Monday; close most of them on Tuesday — that rhythm is the craft, not the mood.",
@@ -41,7 +213,9 @@ layout: null
         "label": "(Tao of Creativity)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#tao-of-creativity"
       },
-      "image_brief": "TODO: Show a designer or artist laying out many options before choosing one, so the cover states that creativity is paced work, not a talent myth."
+      "image_brief": "Leonardo da Vinci, studies of the Virgin and Child with a cat, c. 1478–81: one sheet holds many trial poses before one is chosen, so creativity reads as paced work, not a flash of talent.",
+      "asset_id": "wikimedia:File:Leonardo da Vinci - 1860,0616.98, Two studies of the Virgin and Child with a cat and three studies of the Child with a cat.jpg",
+      "media_slot_id": "U1.cover"
     },
     {
       "slide_id": "analysis-opener",
@@ -75,7 +249,7 @@ layout: null
     {
       "slide_id": "analysis-model",
       "slide_role": "analysis_model",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "How to analyse (model)",
       "sentence": "Say what the piece is made of first: language, medium, support. Then ask where meaning travels when someone else sees it.",
       "quote": "Name language, medium, and support before you praise the idea — otherwise you are judging a shadow.",
@@ -100,12 +274,14 @@ layout: null
         "label": "(Tao of Creativity)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#tao-of-creativity"
       },
-      "image_brief": "TODO: Show one finished design piece whose language, medium and support can be named at a glance, to model the three-part analysis."
+      "image_brief": "El Lissitzky, Beat the Whites with the Red Wedge, 1919–20: a poster whose language (geometric signs), medium (political poster) and support (printed sheet) can be named at a glance.",
+      "asset_id": "wikimedia:File:Beat the Whites with the Red Wedge.jpg",
+      "media_slot_id": "U1.analysis-model"
     },
     {
       "slide_id": "masterclass-1",
       "slide_role": "masterclass",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "1 · Open, then close",
       "sentence": "First invent many possibilities. Then pick what fits the needs of the brief — one creative act can hold both moves.",
       "quote": "The same creative act may involve both divergent and convergent thinking.",
@@ -130,7 +306,9 @@ layout: null
           "dcterms:subject=divergent-convergent"
         ]
       },
-      "image_brief": "TODO: Show a page or wall of many sketched options with a few marked as chosen, to picture opening and then closing within one creative act."
+      "image_brief": "Michelangelo, a sheet of studies connected with the Libyan Sibyl, c. 1510–11: a large worked-up leg study beside two small trial sketches of a seated figure — options opened quickly, one carried through in detail.",
+      "asset_id": "wikimedia:File:Studies for the Libyan Sibyl (recto); Studies for the Libyan Sibyl and a small Sketch for a Seated Figure (verso) MET DP807402.jpg",
+      "media_slot_id": "U1.masterclass-1"
     },
     {
       "slide_id": "masterclass-2",
@@ -160,12 +338,12 @@ layout: null
           "dcterms:subject=fluency"
         ]
       },
-      "image_brief": "TODO: Show a historical creativity test sheet (for example an alternate-uses task), to ground fluency, flexibility, originality and elaboration in a real instrument."
+      "image_brief": "Katsushika Hokusai, a page of the Hokusai Manga sketchbooks (from 1814): many quick, varied figures on one page — fluency (many ideas), flexibility (many kinds) and elaboration made visible."
     },
     {
       "slide_id": "masterclass-3",
       "slide_role": "masterclass",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "3 · Tests are not the whole story",
       "sentence": "Scoring well on “uses of a brick” does not prove you are strong in another field — tests need context.",
       "quote": "After all, the ability of divergent thinking with a paper clip may tell us little about an individual's talent in music.",
@@ -190,12 +368,14 @@ layout: null
           "dcterms:subject=testing-limits"
         ]
       },
-      "image_brief": "TODO: Show a test score or scoring form set against a real studio artefact, to say that a test result does not prove skill in another field."
+      "image_brief": "The Gem paper clip (1890s): the everyday object of the 'unusual uses' test, a reminder that a high score on such a toy task says little about talent in another field.",
+      "asset_id": "wikimedia:File:GemPaperClipAdvertisementJan1893.png",
+      "media_slot_id": "U1.masterclass-3"
     },
     {
       "slide_id": "masterclass-4",
       "slide_role": "masterclass",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "4 · Name the problem first",
       "sentence": "Before you grab a creativity technique, say what is unclear in the brief — name the problem, then pick the tool.",
       "quote": "Before you pick a method, write the question the brief still refuses to answer.",
@@ -219,12 +399,14 @@ layout: null
         "label": "(Tao of Creativity)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#tao-of-creativity"
       },
-      "image_brief": "TODO: Show a written design brief with its unclear part marked, to picture naming the problem before choosing a tool."
+      "image_brief": "Auguste Rodin, The Thinker (modelled 1880–81): a figure halted in thought before any tool is picked up, to picture framing the unclear problem before choosing a technique.",
+      "asset_id": "wikimedia:File:Auguste Rodin - The Thinker - 1917.42 - Cleveland Museum of Art.tif",
+      "media_slot_id": "U1.masterclass-4"
     },
     {
       "slide_id": "masterclass-5",
       "slide_role": "masterclass",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "5 · Techniques are tools, not scripts",
       "sentence": "A method helps you talk with the situation. It does not replace your judgement or the brief.",
       "quote": "A technique is a lever, not a verdict — it moves the work; it does not replace your judgement.",
@@ -249,12 +431,14 @@ layout: null
         "label": "(Tao of Creativity)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#tao-of-creativity"
       },
-      "image_brief": "TODO: Show a method card or hand tool in use beside the work it serves, to picture a technique as a tool that supports judgement."
+      "image_brief": "A pocket set of drawing instruments by Peter Dollond, London, c. 1755: tools that extend the hand but do not decide the line — a technique serves judgement, it does not replace it.",
+      "asset_id": "wikimedia:File:Pocket set of drawing instruments MET DP232308.jpg",
+      "media_slot_id": "U1.masterclass-5"
     },
     {
       "slide_id": "masterclass-6",
       "slide_role": "masterclass",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "6 · “Design thinking” is debated",
       "sentence": "Use useful tools — and ask when buzzwords hide weak craft or skip the hard part.",
       "quote": "When the buzzword arrives, ask what craft it is hiding — slogans are often empty handles.",
@@ -279,7 +463,9 @@ layout: null
         "label": "(Tao of Creativity)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#tao-of-creativity"
       },
-      "image_brief": "TODO: Show a design-thinking process diagram or sticky-note wall, to give students the object of the debate about buzzwords and craft."
+      "image_brief": "A Post-it 'Teamwork Tools' display wall at a 2018 innovation festival: the sticky-note wall sold as a method, shown so students ask what craft the look of 'design thinking' may hide.",
+      "asset_id": "wikimedia:File:Post-It Notes Wall at the Fast Company Innovation Festival (30772875917).jpg",
+      "media_slot_id": "U1.masterclass-6"
     },
     {
       "slide_id": "lab-opener",
@@ -315,7 +501,7 @@ layout: null
     {
       "slide_id": "lab-1",
       "slide_role": "lab_exercise",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "Exercise 1 · Research Marcel Duchamp",
       "sentence": "Find three facts about Duchamp that connect to this unit: readymades, play with identity, or how meaning shifts when context changes.",
       "portfolio_bound": true,
@@ -342,12 +528,14 @@ layout: null
         "label": "(Tao of Creativity)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#tao-of-creativity"
       },
-      "image_brief": "TODO: Show Marcel Duchamp or one of his readymades (for example the 1917 photograph of Fountain), so the slide names the artist the exercise researches."
+      "image_brief": "Marcel Duchamp, Fountain, 1917, in Alfred Stieglitz's photograph: a factory urinal signed 'R. Mutt' that changes meaning when it moves into an art exhibition — the readymade students research.",
+      "asset_id": "wikimedia:File:Marcel Duchamp, 1917, Fountain, photograph by Alfred Stieglitz.jpg",
+      "media_slot_id": "U1.lab-1"
     },
     {
       "slide_id": "lab-2",
       "slide_role": "lab_exercise",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "Exercise 2 · Research the Dada movement",
       "sentence": "What did Dada question about art, authorship, and institutions? Link at least one Dada tactic to a creativity technique you might use in studio.",
       "portfolio_bound": true,
@@ -374,7 +562,9 @@ layout: null
         "label": "(Tao of Creativity)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#tao-of-creativity"
       },
-      "image_brief": "TODO: Show a Dada poster, magazine or event photograph from 1916–1923, so the slide pictures the movement the exercise researches."
+      "image_brief": "Theo van Doesburg and Kurt Schwitters, Kleine Dada Soirée poster, 1922: Dada typography that scrambles the rules of the poster, a Dada tactic students can link to a studio technique.",
+      "asset_id": "wikimedia:File:Theo van Doesburg and Kurt Schwitters, Kleine Dada Soirée (Small Dada Evening), 1922, NGA 154076.jpg",
+      "media_slot_id": "U1.lab-2"
     },
     {
       "slide_id": "outro",

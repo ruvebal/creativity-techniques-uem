@@ -26,7 +26,20 @@ export const ACCEPTED_LICENCES = Object.freeze([
   'NoC-US+EU-checked',
 ]);
 
+/**
+ * Licences granted by a rights holder: their validity does not rest on an
+ * expired term. Every other value (PD-old-70, PD-EU, PDM, NoC-…, or anything
+ * unknown) is a public-domain / EU-term claim that a death year can contradict.
+ */
+export const HOLDER_LICENCES = Object.freeze(['CC0', 'CC-BY-4.0', 'CC-BY-SA-4.0', 'CC-BY-3.0', 'CC-BY-SA-3.0']);
+
+/**
+ * Downloaded input types. SVG is accepted as input but is always rasterised
+ * to WebP before it reaches deck-media (Amendment A6/F6).
+ */
 export const ALLOWED_EXTENSIONS = Object.freeze(['jpg', 'png', 'webp', 'gif', 'svg']);
+/** Files allowed in deck-media/ (renditions only: never raw SVG). */
+export const RENDITION_EXTENSIONS = Object.freeze(['webp', 'jpg', 'png', 'gif']);
 export const BACKGROUND_KINDS = Object.freeze(['curated', 'diagram', 'geometrical', 'none']);
 export const STRUCTURAL_ROLES = Object.freeze(['analysis_opener', 'lab_opener', 'workshop_opener', 'outro']);
 export const MEDIA_ROLES = Object.freeze(['unit_cover', 'analysis_model', 'masterclass', 'lab_exercise', 'workshop_work']);
@@ -86,7 +99,15 @@ export function rightsVerdict(asset, { year = new Date().getFullYear() } = {}) {
   const deathYear = Number.isInteger(a.author_death_year) ? a.author_death_year : null;
   const termByYear = deathYear !== null && deathYear + 70 < year;
   const termByReason = Boolean(String(a.eu_term_reason || '').trim());
-  if (a.eu_term_ok !== true || !(termByYear || termByReason)) reasons.push('EU term not verified');
+  // Amendment A6/F1: a recorded death year that leaves the EU term running
+  // contradicts any public-domain / expired-term claim, whatever reason text
+  // is given (e.g. "public domain in the US" for Duchamp, d. 1968).
+  const termClaim = !HOLDER_LICENCES.includes(licence);
+  if (deathYear !== null && !termByYear && termClaim) {
+    reasons.push(`author death year ${deathYear} contradicts the public-domain / EU-term claim (protected in the EU through ${deathYear + 70})`);
+  } else if (a.eu_term_ok !== true || !(termByYear || termByReason)) {
+    reasons.push('EU term not verified');
+  }
   for (const title of [a.raw_title, a.title]) {
     const tag = reviewTagIn(title);
     if (tag) {
@@ -207,6 +228,7 @@ export function cacheFileOf(url, cacheSegment) {
  *   cacheFiles: Map<name, size> // files in docs/assets/images/deck-media
  *   cacheSegment: 'deck-media',
  *   registry: Map<asset_id, rights record>  // curation/autopilot-assets.json
+ *   requireRegistry,            // A6/F3: bound asset without a registry raw_title is an issue
  *   year,
  * }
  * Returns { errors: string[], warnings: string[], rights: [{asset_id, slot, ok, reasons, rights_status}] }.
@@ -274,12 +296,19 @@ export function deckProblems(content, ctx = {}) {
     } else {
       const ext = (file.match(/\.([a-z0-9]+)$/i) || [])[1]?.toLowerCase();
       if (!ALLOWED_EXTENSIONS.includes(ext)) issue(`asset ${asset.asset_id}: extension .${ext} not allowed (${file})`);
+      else if (!RENDITION_EXTENSIONS.includes(ext)) issue(`asset ${asset.asset_id}: raw .${ext} in ${cacheSegment} (rasterise it; A6/F6)`);
       if (!cacheFiles.has(file)) issue(`asset ${asset.asset_id}: file missing ${cacheSegment}/${file}`);
       else if (cacheFiles.get(file) > MAX_RENDITION_BYTES) issue(`asset ${asset.asset_id}: ${file} is ${cacheFiles.get(file)} bytes (> ${MAX_RENDITION_BYTES})`);
     }
 
+    // Amendment A6/F3: every bound asset has a private registry record with its
+    // raw (indexed) title, so review tags are always visible to rightsVerdict.
+    const registered = registry.get(asset.asset_id);
+    if (ctx.requireRegistry && (!registered || !String(registered.raw_title || '').trim())) {
+      issue(`asset ${asset.asset_id}: no registry record with raw_title (A6/F3)`);
+    }
     // Rights: the private registry is the authority, deck fields fill the rest.
-    const record = { ...asset, ...(registry.get(asset.asset_id) || {}) };
+    const record = { ...asset, ...(registered || {}) };
     const verdict = rightsVerdict(record, { year: ctx.year });
     rights.push({ asset_id: asset.asset_id, slot, ok: verdict.ok, reasons: verdict.reasons, rights_status: asset.rights_status ?? null });
     if (strict) {
