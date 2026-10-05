@@ -66,7 +66,9 @@
       });
       reset.addEventListener('click', () => { stop(); left = total; draw(); });
       draw();
-      section.querySelector('.student-media-slide')?.append(box);
+      // In the section, below the card (not in the card flow): the card may scroll
+      // for long Lab text, the timer stays visible (EX5 cold review F2).
+      section.append(box);
     });
   };
 

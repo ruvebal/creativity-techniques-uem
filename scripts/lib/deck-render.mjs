@@ -56,6 +56,19 @@ export function licenceLabel(licence) {
   return value.replace(/_/g, ' ');
 }
 
+/**
+ * Site-internal URL with the base path: a root-relative value ("/lessons/…")
+ * gets `base` in front (once). Absolute (http:, https:, mailto:, //), fragment
+ * (#…), empty and already-prefixed values pass through unchanged.
+ */
+export function withBase(href, base) {
+  const value = String(href ?? '');
+  const b = String(base || '').replace(/\/$/, '');
+  if (!value || !value.startsWith('/') || value.startsWith('//')) return value;
+  if (b && (value === b || value.startsWith(`${b}/`) || value.startsWith(`${b}#`) || value.startsWith(`${b}?`))) return value;
+  return `${b}${value}`;
+}
+
 const isHttp = (url) => /^https?:\/\/\S+$/i.test(String(url || ''));
 const link = (href, text) => `<a href="${escapeHtml(href)}" target="_blank" rel="noopener">${escapeHtml(text)}</a>`;
 
@@ -159,14 +172,14 @@ export function backgroundFor(slide, assetsBySlot, ctx, state) {
   const asset = slide.background_kind === 'curated' && slide.media_slot_id ? assetsBySlot.get(slide.media_slot_id) : null;
   if (asset?.asset_url) {
     const c = caption(asset);
-    return { url: asset.asset_url, captionHtml: captionHtml(asset), alt: String(asset.alt_text || c.title || '').trim() };
+    return { url: withBase(asset.asset_url, base), captionHtml: captionHtml(asset), alt: String(asset.alt_text || c.title || '').trim() };
   }
   if (slide.background_kind === 'none') return { url: '', captionHtml: '', alt: '' };
   return { url: `${base}/assets/images/fractal-triangles/${ctx.koch}`, captionHtml: diagramCaptionHtml(ctx.koch), alt: '' };
 }
 
 /** One <section> for one slide. */
-export function renderSlide(slide, deck, background) {
+export function renderSlide(slide, deck, background, ctx = {}) {
   const layout = layoutFor(slide);
   const timer = timerFor(slide);
   const attrs = [
@@ -190,7 +203,7 @@ export function renderSlide(slide, deck, background) {
     slide.sentence ? `<p class="student-media-slide__sentence">${escapeHtml(slide.sentence)}</p>` : '',
     slide.quote ? `<blockquote class="student-media-slide__quote"><p>${escapeHtml(slide.quote)}</p></blockquote>` : '',
     slide.citation?.label
-      ? `<p class="student-media-slide__citation">${slide.citation.href ? `<a href="${escapeHtml(slide.citation.href)}">${escapeHtml(slide.citation.label)}</a>` : escapeHtml(slide.citation.label)}</p>`
+      ? `<p class="student-media-slide__citation">${slide.citation.href ? `<a href="${escapeHtml(withBase(slide.citation.href, ctx.base))}">${escapeHtml(slide.citation.label)}</a>` : escapeHtml(slide.citation.label)}</p>`
       : '',
     slide.prompt ? `<p class="student-media-slide__prompt">${escapeHtml(slide.prompt)}</p>` : '',
     slide.portfolio_trace ? `<p class="student-media-slide__prompt student-media-slide__trace">${escapeHtml(slide.portfolio_trace)}</p>` : '',
@@ -216,7 +229,7 @@ export function renderDeck(content, ctx) {
   const slides = Array.isArray(content?.slides) ? content.slides : [];
   const assetsBySlot = new Map((content?.assets || []).map((a) => [a.media_slot_id, a]));
   const state = { geometricIndex: 0 };
-  const sections = slides.map((slide) => renderSlide(slide, content, backgroundFor(slide, assetsBySlot, ctx, state)));
+  const sections = slides.map((slide) => renderSlide(slide, content, backgroundFor(slide, assetsBySlot, ctx, state), ctx));
   const header = '<!-- Pre-rendered from this deck\'s data/content.json (npm run render:decks). Do not edit by hand. -->';
   return `${header}\n${sections.join('\n')}\n`;
 }

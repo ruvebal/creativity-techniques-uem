@@ -28,6 +28,7 @@ import {
   parseHashedSvgName,
   renderDeck,
   timerFor,
+  withBase,
 } from '../lib/deck-render.mjs';
 import { deckProblems } from '../lib/media-rules.mjs';
 
@@ -152,6 +153,21 @@ test('validator: unknown layout and non-string notes are errors on v2 decks', ()
   assert.ok(errors.some((e) => /notes must be/.test(e)), errors.join('\n'));
 });
 
+test('EX5 cold review F1: root-relative citation hrefs get the base path; others pass through', () => {
+  assert.equal(withBase('/lessons/en/x/#references', '/site'), '/site/lessons/en/x/#references');
+  assert.equal(withBase('/site/lessons/en/x/', '/site'), '/site/lessons/en/x/', 'no double prefix');
+  assert.equal(withBase('#ref-craft-2003', '/site'), '#ref-craft-2003');
+  assert.equal(withBase('https://example.org/a', '/site'), 'https://example.org/a');
+  assert.equal(withBase('//cdn.example.org/a', '/site'), '//cdn.example.org/a');
+  assert.equal(withBase('mailto:a@b.c', '/site'), 'mailto:a@b.c');
+  assert.equal(withBase('/a', ''), '/a');
+  const html = renderDeck(deck([
+    { slide_id: 'masterclass-1', slide_role: 'masterclass', background_kind: 'diagram', heading: 'H', citation: { label: '(X 2000, 1)', href: '/lessons/en/master-lectures/cpa/#references' } },
+  ]), CTX);
+  assert.match(html, /<a href="\/site\/lessons\/en\/master-lectures\/cpa\/#references">/);
+  assert.doesNotMatch(html, /href="\/lessons\//);
+});
+
 // ---------------------------------------------------------------------------
 // Repository checks
 // ---------------------------------------------------------------------------
@@ -194,4 +210,18 @@ test('deck JS: no hard-coded base path, no timestamped fetch', () => {
 
 test('committed deck includes match the renderer (npm run render:decks)', () => {
   execFileSync(process.execPath, [join(root, 'scripts/render-decks.mjs'), '--check'], { cwd: root, stdio: 'pipe' });
+});
+
+test('EX5 cold review F1: no root-relative href/src/background in a rendered include lacks the site base', () => {
+  const base = (readFileSync(join(root, '_config.yml'), 'utf8').match(/^baseurl:\s*['"]?([^'"\n]*)['"]?/m) || [])[1] ?? '';
+  const dir = join(root, 'docs/_includes/decks');
+  const bad = [];
+  for (const name of readdirSync(dir).filter((n) => n.endsWith('.html'))) {
+    const html = readFileSync(join(dir, name), 'utf8');
+    for (const [, attr, url] of html.matchAll(/\b(href|src|data-background-image)="(\/[^"]*)"/g)) {
+      if (url.startsWith('//')) continue;
+      if (base && !url.startsWith(`${base}/`)) bad.push(`${name}: ${attr}="${url}"`);
+    }
+  }
+  assert.deepEqual(bad, []);
 });
