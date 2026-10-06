@@ -224,7 +224,7 @@ layout: null
       "image_brief": "Antoni Gaudí's hanging string-and-weight model for the Colonia Güell church, photographed c. 1908: a rough model built early to ask a structural question in material form.",
       "asset_id": "wikimedia:File:Maqueta polifunicular.jpg",
       "media_slot_id": "U3.masterclass-1",
-      "notes": "- A rough prototype is a question in material form.\n- It does not need to look finished. It needs to reveal one thing you do not know yet.\n- Build the smallest version that lets a classmate react.\nSource: (Cross 2006, vi) on resolving ill-defined problems.\nAsk: What can this rough object tell you that a description cannot?"
+      "notes": "- A rough prototype is a question in material form.\n- It does not need to look finished. It needs to reveal one thing you do not know yet.\n- Build the smallest version that lets a classmate react.\n- \"The prototype is meant to answer questions, so keep it focused.\"\nSource: (Cross 2006, vi) on resolving ill-defined problems; (Knapp, Zeratsky, and Kowitz 2016, chap. 13).\nAsk: What can this rough object tell you that a description cannot?"
     },
     {
       "slide_id": "masterclass-2",
@@ -235,7 +235,7 @@ layout: null
       "image_brief": "Beethoven's sketchbook for the Seventh Symphony, 1812: themes tried in several versions before any is judged final — a protected space for variation before decision.",
       "asset_id": "wikimedia:File:Sketches for the second movement of Symphony no. 7, op. 92, Beethoven, Petter Sketchbook, 1812, musical autograph - Morgan Library & Museum - New York City - DSC06691.jpg",
       "media_slot_id": "U3.masterclass-2",
-      "notes": "- Early critique can close a path before it shows what it might become.\n- Protect a short space for variation first. Then judge with a named criterion.\n- This is not permission to keep every idea. It stops you mistaking the first awkward version for the final limit.\nSource: no page cite in the lesson for this idea.\nAsk: Which idea did you drop too early this week?"
+      "notes": "- Early critique can close a path before it shows what it might become.\n- Protect a short space for variation first. Then judge with a named criterion.\n- This is not permission to keep every idea. It stops you mistaking the first awkward version for the final limit.\n- Osborn's first rule: criticism is withheld until all ideas are in. In an experiment, college students who expected their artworks to be evaluated produced work judged less creative.\nSource: (Osborn 1942, chap. 4); (Amabile 1979, 221).\nAsk: Which idea did you drop too early this week?"
     },
     {
       "slide_id": "masterclass-3",
@@ -244,7 +244,7 @@ layout: null
       "heading": "3 · Iterate with an exit",
       "sentence": "Write the test before the next version. Stop when the test is answered.",
       "image_brief": "Replica of the Wright brothers' 1901 wind tunnel: wing shapes tested against one question before the next glider was built, and testing stopped when the data answered it.",
-      "notes": "- Revision helps when you know what the next version must answer.\n- Write one test before you change the work: \"Can the viewer find the main action?\" or \"Does the form fit the brief?\"\n- Stop when the test is answered, even if another improvement is possible.\nSource: no page cite in the lesson for this idea.\nAsk: What is the one test your next version must pass?"
+      "notes": "- Revision helps when you know what the next version must answer.\n- Write one test before you change the work: \"Can the viewer find the main action?\" or \"Does the form fit the brief?\"\n- Stop when the test is answered, even if another improvement is possible.\n- Iteration can improve an idea, but it can also cause fixation: refining one option without considering others.\nSource: (Dow et al. 2010, 18:1).\nAsk: What is the one test your next version must pass?"
     },
     {
       "slide_id": "masterclass-4",
@@ -274,7 +274,7 @@ layout: null
       "image_brief": "Paul Klee, a page of the Pedagogical Sketchbook (1925): one line or form opened into several possible developments, a bounded way to widen the solution space.",
       "asset_id": "wikimedia:File:Paul Klee Pädagogisches Skizzenbuch 10.jpg",
       "media_slot_id": "U3.masterclass-5",
-      "notes": "- Some briefs are unclear because the problem itself is still moving. Do not force one path too soon.\n- Reframe the brief as two or three possible questions. Make one small response to each.\n- Creative agency: the capacity to envision and enact meaningful changes within constraints.\nSource: (Beghetto and Karwowski 2025, 3).\nAsk: Which of your questions surprised you most?"
+      "notes": "- Some briefs are unclear because the problem itself is still moving. Do not force one path too soon.\n- Reframe the brief as two or three possible questions. Make one small response to each.\n- Creative agency: the capacity to envision and enact meaningful changes within constraints.\n- Every way of stating a wicked problem already points to a solution.\nSource: (Buchanan 1992, 16); (Beghetto and Karwowski 2025, 3).\nAsk: Which of your questions surprised you most?"
     },
     {
       "slide_id": "masterclass-6",
@@ -285,7 +285,7 @@ layout: null
       "image_brief": "Orville Wright's diary entry for 17 December 1903: a written record of what was tried, what happened and what was learned — reflection at a checkpoint.",
       "asset_id": "wikimedia:File:Wright diary.jpg",
       "media_slot_id": "U3.masterclass-6",
-      "notes": "- Pause after each version. Write three lines: what changed, what stayed, what the change taught you.\n- Schön's reflection-in-action and Cross's designerly knowing frame this pause.\n- The checkpoint turns attempts into evidence you can discuss. It is a teaching prompt, not a model of every studio decision.\nSource: no page cite in the lesson for this idea.\nAsk: What did your last checkpoint teach you?"
+      "notes": "- Pause after each version. Write three lines: what changed, what stayed, what the change taught you.\n- Schön: the situation \"talks back\", and in good design this conversation with the situation is reflective.\n- The checkpoint turns attempts into evidence you can discuss. It is a teaching prompt, not a model of every studio decision.\nSource: (Schön 1983, 79).\nAsk: What did your last checkpoint teach you?"
     },
     {
       "slide_id": "lab-opener",
@@ -307,7 +307,7 @@ layout: null
       "image_brief": "An early-19th-century design sheet with three chairs with curved backs: one problem answered three ways side by side, the model for three rough entry points.",
       "asset_id": "wikimedia:File:Design for Three Chairs with Curved Backs (verso- Sketch for a Sideboard) MET DP807145.jpg",
       "media_slot_id": "U3.lab-1",
-      "notes": "- One concrete D1 problem, the same for the whole class.\n- Three rough sketches or small prototypes in about 20 minutes, each from a different entry point named in advance: structure, material/support, or audience/circulation.\n- Do not polish. Compare relationships, rhythm and emphasis across the three starts.\n- Watch the temptation to solve it the obvious way and paste the entry point on afterwards.\nSource: (Cross 2006, 86); (de Bono 1970, chap. “Choice of Entry Point and Attention Area”).\nAsk (in pairs): How did each entry point steer the path?"
+      "notes": "- One concrete D1 problem, the same for the whole class.\n- Three rough sketches or small prototypes in about 20 minutes, each from a different entry point named in advance: structure, material/support, or audience/circulation.\n- Do not polish. Compare relationships, rhythm and emphasis across the three starts.\n- Watch the temptation to solve it the obvious way and paste the entry point on afterwards.\n- Making several versions side by side before feedback: in a study, novice designers who prototyped in parallel got better, more varied results and more confidence than those critiqued after each single prototype.\nSource: (Cross 2006, 86); (de Bono 1970, chap. “Choice of Entry Point and Attention Area”); (Dow et al. 2010, 18:1).\nAsk (in pairs): How did each entry point steer the path?"
     },
     {
       "slide_id": "lab-2",

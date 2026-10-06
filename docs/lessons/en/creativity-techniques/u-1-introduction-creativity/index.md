@@ -124,7 +124,7 @@ Guilford’s four abilities (as summarised by Chen on the same page) give you a 
 > “Fluency - the ability to produce a large number of ideas or solutions to a problem rapidly.”  
 > — [(Chen 2011, 26)](#ref-chen-2011)
 
-Training can raise scores on these skills. A higher score is not the same as a better idea in a real brief (see idea 3).
+Many workshops try to raise these scores. A higher score is not the same as a better idea in a real brief (see idea 3).
 
 Csikszentmihalyi names a close triad for divergent work:
 
@@ -225,7 +225,7 @@ There is **no Workshop in sessions 1–3**: the session ends after Lab. Workshop
 
 ## Conclusion
 
-This unit does not settle what creativity is; it hands you a habit and a working definition. The four skills come from cognitive-testing traditions that another line of thought — Schön on reflective practice, Buchanan on wicked problems, Kimbell's critique of design-thinking talk — argues *cannot* explain what actually happens in a studio. Reading one of them (start with a chapter, not a summary) is the next honest move after this class. What will you do with the gap between "I trained fluency this week" and "I made something that mattered"? The gap does not close here — that is the point; a lesson that resolves it too neatly would be teaching you the wrong thing about the field.
+This unit does not settle what creativity is; it hands you a habit and a working definition. The four skills come from cognitive-testing traditions, and they sit uneasily beside the other authors in this unit: Schön argues that practitioners build their problems out of uncertain situations and reflect while they act; Buchanan argues that design problems are "wicked", with no definitive formulation; Kimbell argues that the claims made for "design thinking" are overstated. None of them is talking about creativity tests, which is exactly why reading one of them (start with a chapter, not a summary) is the next honest move after this class. What will you do with the gap between "I trained fluency this week" and "I made something that mattered"? The gap does not close here — that is the point; a lesson that resolves it too neatly would be teaching you the wrong thing about the field.
 
 ---
 
