@@ -236,6 +236,14 @@ EX9 also fixes the EX8 P2 findings (lessons + decks it restructures anyway):
   12-lesson split rule must say where debate-linked and shared ideas go;
   FINAL-REVIEW rights notes include U2 lab-1 (Sawaki).
 
+## Amendment A14 (EX10 cold review, 2026-10-06)
+
+- **Gate fix (orchestrator):** the A13 caption-honesty check now also scans
+  `_site/master-lectures/` (the master-lecture deck builds there); verified by the
+  EX10 reviewer's negative build that the old check missed 3 flagged ML assets.
+- **EX11:** AUT catalogue step "Pool the class lists" → shared board
+  (`in-practice/canonical/techniques.base.yml`), regenerate cards.
+
 ## Programme (do not invert)
 
 | Step | Phase | Lane | Findings closed | Human gate |

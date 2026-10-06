@@ -88,7 +88,7 @@ for p in decks:
     for a in d.get("assets", []):
         if a.get("rights_status") == "flagged":
             flagged.add(pathlib.Path(str(a.get("asset_url", ""))).name)
-pages = list(pathlib.Path("_site/tracks").rglob("index.html")) + list(pathlib.Path("_site/lessons").rglob("index.html"))
+pages = [h for d in ("_site/tracks", "_site/lessons", "_site/master-lectures") for h in pathlib.Path(d).rglob("index.html")]
 for h in pages:
     html = h.read_text(errors="ignore")
     for name in flagged:
