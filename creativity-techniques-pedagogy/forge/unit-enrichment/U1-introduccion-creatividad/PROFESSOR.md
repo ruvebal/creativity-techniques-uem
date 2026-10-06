@@ -59,13 +59,19 @@ Cross-read: [`grounding/COMBINE-RELATE-DISCUSS.md`](../../../grounding/COMBINE-R
 
 | Claim seed | Ahmes coat · node · page | Chicago | Status |
 | ---------- | ------------------------ | ------- | ------ |
-| Same act diverge + converge | `061d6093` · `3ed2bb7b-…` · p.43 | (Craft 2003, 43) | ✅ evaluator_safe |
-| Four abilities (Guilford via Chen) | `d048ab99` · `0a625a7b-…` (+ fluency/flex/orig/elab nodes) · p.41 | (Chen 2012, 41) | ✅ evaluator_safe |
-| Brick/paper-clip ≠ domain talent | `d048ab99` · `a849be72-…` · p.41 | (Chen 2012, 41) | ✅ evaluator_safe |
-| Fluency / flexibility / originality | `35dcf3a7` · `5f7e3435-…` · p.8 | (Csikszentmihalyi 2007, 8) | ✅ evaluator_safe |
-| Wicked problems in design | Buchanan 1992 primary extract owed (Fisher secondary BIBLIO-GAP) | — | gap |
-| Reflective practice | Schön 1983 coat owed | — | gap |
-| DT discourse critique | Kimbell 2011–12 coat owed | — | gap |
+| Same act diverge + converge | `061d6093` · `3ed2bb7b-…` · printed 30 | (Craft 2000, 30) | verified; resolver yes |
+| Four abilities (Guilford via Chen) | `d048ab99` · `90e85d4a-…` · printed 26 | (Chen 2011, 26) | verified; resolver yes |
+| Brick/paper-clip ≠ domain talent | `d048ab99` · `a849be72-…` · printed 26 | (Chen 2011, 26) | verified; resolver yes |
+| Fluency / flexibility / originality | `35dcf3a7` · `5f7e3435-…` · chap. 3 | (Csikszentmihalyi 1996, chap. 3) | verified (section); resolver yes |
+| Systems model; myth of special heads | `35dcf3a7` · `039dc163-…`, `5f0d22f6-…` · chap. 2 | (Csikszentmihalyi 1996, chap. 2) | verified (section); resolver yes |
+| Stage model + limits; presented vs discovered problems | `35dcf3a7` · `237de099-…`, `92daceef-…`, `bf57d7c1-…` · chap. 4 | (Csikszentmihalyi 1996, chap. 4) | verified (section); resolver yes |
+| Definition: novelty + meaning; importance | `09e171eb` · `10055dde-…` p. 3, `fb98d0b6-…` p. 9 | (Beghetto and Karwowski 2025, 3 / 9) | verified; resolver no |
+| NACCCE definition | `25b9cc1b` · `ab767997-…` · printed 19 | (NACCCE 1999, 29, quoted in Fisher 2004, 19) | verified; resolver yes |
+| Wicked problems in design | `b31bf6e2` · `57cba3a9-…` · printed 16 | (Buchanan 1992, 16) | verified; resolver no |
+| Problem setting; reflection-in-action | `4d215203` · `2e436542-…` p. 40, `a81b7ced-…` p. 68 | (Schön 1983, 40 / 68) | verified (EPUB print anchors); resolver no |
+| DT discourse critique | `15368c98` · `7bfa6176-…` · printed 285 | (Kimbell 2011, 285) | verified; resolver yes |
+
+*EX6 round 2 (2026-10-06): pins are printed folios or chapter locators; "resolver" = what `ahmes query --cite` returns (pdf_order metadata, not the page check); every row was verified by reading the page (`verified_by=manual-page-read`). Gaps: §8.1.*
 
 ## 8. Gaps and risks
 
@@ -73,6 +79,28 @@ Cross-read: [`grounding/COMBINE-RELATE-DISCUSS.md`](../../../grounding/COMBINE-R
 - HE empirical evidence for “teachable creativity” uneven (Pass-1).
 - Do not collapse design-education research into MBA DT slides.
 - Never paste vector snippets into student lessons.
+
+### 8.1 EX6 bibliography gaps (2026-10-05) — professor only, never in student text
+
+Source of truth: `creativity-techniques-pedagogy/excellence/research-manifest.yml`. Verified and cited in the U1 lesson: Craft 2000, Chen 2011, Csikszentmihalyi 1996, Beghetto & Karwowski 2025, Fisher 2004, Buchanan 1992, Schön 1983, Kimbell 2011.
+
+| Work | Status | Why | What the lesson does instead |
+| --- | --- | --- | --- |
+| Runco & Jaeger 2012 (standard definition) | BIBLIO-GAP | not in library | definition via Beghetto & Karwowski 2025, 3 (which cites Runco & Jaeger) and NACCCE quoted in Fisher 2004, 19 |
+| Rhodes 1961 (4 Ps) | BIBLIO-GAP | not in library | not taught as a cited model |
+| Kaufman & Beghetto 2009 (Four C) | BIBLIO-GAP | not in library | not taught as a cited model |
+| Csikszentmihalyi 1988 / 1999 (systems model chapters) | BIBLIO-GAP | not in library | systems model cited from Csikszentmihalyi 1996, chap. 2 |
+| Amabile 1983 (componential model) | BIBLIO-GAP | not in library (Amabile 1979 held, used in U2/U3) | — |
+| Boden 2004 | BIBLIO-GAP | not in library | — |
+| Wallas 1926 | BIBLIO-GAP | not in library (public-domain scans not fetched) | stage description via Csikszentmihalyi 1996, chap. 4, Wallas not named |
+| Guilford 1950 | BIBLIO-GAP | not in library | four abilities "as summarised by Chen" (Chen 2011, 26) |
+| Torrance 1966 | BIBLIO-GAP | not in library | — |
+| Benedek et al. 2021 (creativity myths) | BIBLIO-GAP | not in library; OA status not confirmed | myth handled via Csikszentmihalyi 1996, chap. 2 |
+| Scott, Leritz & Mumford 2004 (training meta-analysis) | BIBLIO-GAP | not in library | "training can raise scores" stays unreferenced course wording |
+| OECD 2024, PISA 2022 Results Vol. III | BIBLIO-GAP | open access, but oecd.org refused the command-line download (HTTP 403) | importance via Beghetto & Karwowski 2025, 9 |
+| Getzels & Csikszentmihalyi 1976 (problem finding) | BIBLIO-GAP | not in library | presented vs discovered problems via Csikszentmihalyi 1996, chap. 4 |
+
+Procurement priority: OECD 2024 (free, browser download) → Runco & Jaeger 2012 → Kaufman & Beghetto 2009 → Benedek et al. 2021 → Scott et al. 2004 → Boden 2004 → Getzels & Csikszentmihalyi 1976.
 
 ## 9. Final cut → slideshow (≤ 6)
 

@@ -1,0 +1,468 @@
+# PHASE-EX6 research manifest — Creativity Techniques, U1–U3 + master lecture.
+# Generated 2026-10-05 (autopilot; AUTOPILOT.md §2 EX6 rule: only works already
+# in the library or legitimately open access are ingested; everything else is a gap).
+#
+# status: verified = the claim is page- or section-verified against the copy in
+#           the library (Ahmes node ids in the lesson's PROVENANCE_LINE) and the
+#           work is cited in the listed unit(s) through docs/_data/references.yml.
+#         gap      = no verified claim in student text. Either the work is not in
+#           the library, or it is held but no page-verified claim was placed.
+#           Gaps appear only in the unit's professor brief (PROFESSOR.md §8).
+# unit:   units whose lesson cites the work (U1, U2, U3, ML = master lecture).
+# provenance: lesson file + PROVENANCE_LINE claim ids.
+# page_basis: printed (folio read from the page) | section (EPUB/e-text without
+#           print pages: chapter or section locator).
+# Internal file: not published (creativity-techniques-pedagogy/ is excluded from Pages).
+
+lessons:
+  U1: docs/lessons/en/creativity-techniques/u-1-introduction-creativity/index.md
+  U2: docs/lessons/en/creativity-techniques/u-2-idea-generation-selection/index.md
+  U3: docs/lessons/en/creativity-techniques/u-3-development-solutions/index.md
+  ML: docs/lessons/en/master-lectures/creative-process-analysis/index.md
+
+works:
+  # ------------------------------------------------------------------ U1 required
+  - key: runco-2012
+    work: "Runco, Mark A., and Garrett J. Jaeger. 2012. The Standard Definition of Creativity. Creativity Research Journal 24 (1)."
+    unit: U1
+    claim: "Standard definition: originality + effectiveness."
+    status: gap
+    gap_reason: "Not in the library; not open access."
+    note: "The definition claim in U1 is verified through Beghetto and Karwowski 2025, 3, which cites Runco and Jaeger; the lesson does not name Runco and Jaeger."
+  - key: rhodes-1961
+    work: "Rhodes, Mel. 1961. An Analysis of Creativity. Phi Delta Kappan 42 (7)."
+    unit: U1
+    claim: "Four Ps model (person, process, press, product)."
+    status: gap
+    gap_reason: "Not in the library."
+  - key: kaufman-2009
+    work: "Kaufman, James C., and Ronald A. Beghetto. 2009. Beyond Big and Little: The Four C Model of Creativity. Review of General Psychology 13 (1)."
+    unit: U1
+    claim: "Four C model (mini-c to Big-C)."
+    status: gap
+    gap_reason: "Not in the library."
+  - key: csikszentmihalyi-1999
+    work: "Csikszentmihalyi, Mihaly. 1999. Implications of a Systems Perspective for the Study of Creativity. In Handbook of Creativity, ed. Sternberg. (also 1988 chapter in The Nature of Creativity)"
+    unit: U1
+    claim: "Systems model (domain, field, person)."
+    status: gap
+    gap_reason: "Neither the 1988 nor the 1999 chapter is in the library."
+    note: "The systems-model claim is verified in Csikszentmihalyi 1996, chap. 2 (csikszentmihalyi-1996)."
+  - key: csikszentmihalyi-1996
+    work: "Csikszentmihalyi 1996, Creativity: Flow and the Psychology of Discovery and Invention (HarperCollins e-book 2007)."
+    unit: U1, U2, ML
+    claim: "Systems model (chap. 2); myth of creativity inside special heads (chap. 2); fluency/flexibility/originality (chap. 3); five-step stage description and its limits, presented vs discovered problems (chap. 4)."
+    status: verified
+    page_basis: section
+    provenance: "U1 U1.fluency-triad-csi, U1.myth-inside-heads, U1.stage-model, U1.problem-finding-presented-discovered; U2 U2.fluency-flexibility; ML SU-CPA.two-ways"
+    vault: "coat 35dcf3a7"
+  - key: amabile-1983
+    work: "Amabile, Teresa M. 1983. The Social Psychology of Creativity. New York: Springer."
+    unit: U1
+    claim: "Componential model; intrinsic motivation."
+    status: gap
+    gap_reason: "Not in the library (Amabile 1979 article is held; see amabile-1979)."
+  - key: boden-2004
+    work: "Boden, Margaret A. 2004. The Creative Mind: Myths and Mechanisms. 2nd ed. London: Routledge."
+    unit: U1
+    claim: "P- vs H-creativity; combinational/exploratory/transformational."
+    status: gap
+    gap_reason: "Not in the library."
+  - key: wallas-1926
+    work: "Wallas, Graham. 1926. The Art of Thought. London: Jonathan Cape."
+    unit: U1
+    claim: "Four-stage model (preparation, incubation, illumination, verification)."
+    status: gap
+    gap_reason: "Not in the library. Public-domain scans exist but were not fetched (conservative autopilot rule)."
+    note: "U1 cites the stage description from Csikszentmihalyi 1996, chap. 4, without naming Wallas."
+  - key: guilford-1950
+    work: "Guilford, J. P. 1950. Creativity. American Psychologist 5 (9): 444–54."
+    unit: U1
+    claim: "Divergent thinking; call for creativity research."
+    status: gap
+    gap_reason: "Not in the library."
+    note: "U1 keeps Guilford's four abilities 'as summarised by Chen' (Chen 2011, 26) — secondary report, cited to Chen."
+  - key: torrance-1966
+    work: "Torrance, E. Paul. 1966. Torrance Tests of Creative Thinking. Princeton, NJ: Personnel Press."
+    unit: U1
+    claim: "Fluency, flexibility, originality, elaboration as test scores."
+    status: gap
+    gap_reason: "Not in the library (test manual)."
+  - key: benedek-2021
+    work: "Benedek, Mathias, et al. 2021. Creativity Myths: Prevalence and Correlates of Misconceptions on Creativity. Personality and Individual Differences 182: 111068."
+    unit: U1
+    claim: "Prevalence of creativity myths."
+    status: gap
+    gap_reason: "Not in the library; publisher page could not be fetched as open access in this run."
+  - key: scott-2004
+    work: "Scott, Ginamarie, Lyle E. Leritz, and Michael D. Mumford. 2004. The Effectiveness of Creativity Training: A Quantitative Review. Creativity Research Journal 16 (4)."
+    unit: U1
+    claim: "Creativity training works (meta-analysis)."
+    status: gap
+    gap_reason: "Not in the library."
+  - key: oecd-2024
+    work: "OECD. 2024. PISA 2022 Results (Volume III): Creative Minds, Creative Schools. Paris: OECD Publishing. https://doi.org/10.1787/765ee8c2-en"
+    unit: U1
+    claim: "Importance of creative thinking in education; international results."
+    status: gap
+    gap_reason: "Open access, but oecd.org returned HTTP 403 (bot protection) to the command-line fetch on 2026-10-05; not ingested."
+    procurement: "Download the PDF in a browser from the DOI and ingest it."
+  - key: getzels-1976
+    work: "Getzels, Jacob W., and Mihaly Csikszentmihalyi. 1976. The Creative Vision: A Longitudinal Study of Problem Finding in Art. New York: Wiley."
+    unit: U1
+    claim: "Problem finding."
+    status: gap
+    gap_reason: "Not in the library."
+    note: "U1 cites the presented/discovered-problem distinction from Csikszentmihalyi 1996, chap. 4."
+  - key: buchanan-1992
+    work: "Buchanan 1992, Wicked Problems in Design Thinking, Design Issues 8 (2)."
+    unit: U1, U3
+    claim: "Wicked problems: every formulation of the problem corresponds to a formulation of a solution (p. 16)."
+    status: verified
+    page_basis: printed
+    provenance: "U1 U1.wicked-framing; U3 U3.wicked-reframe"
+    vault: "coat b31bf6e2"
+  - key: schon-1983
+    work: "Schön 1983, The Reflective Practitioner (Basic Books EPUB with print page anchors)."
+    unit: U1, U3
+    claim: "Problems are constructed from problematic situations (p. 40); reflection-in-action not bound by established technique (p. 68); design as reflective conversation with the situation (p. 79)."
+    status: verified
+    page_basis: printed
+    provenance: "U1 U1.problem-setting, U1.reflective-practice; U3 U3.reflective-conversation"
+    vault: "coat 4d215203"
+  - key: kimbell-2011
+    work: "Kimbell 2011, Rethinking Design Thinking: Part I, Design and Culture 3 (3)."
+    unit: U1
+    claim: "Several issues undermine the claims made for design thinking (p. 285)."
+    status: verified
+    page_basis: printed
+    provenance: "U1 U1.dt-critique"
+    vault: "coat 15368c98 (Part II 2012: d8c46e13, not cited)"
+  # ------------------------------------------------------------------ U1 additional verified
+  - key: craft-2000
+    work: "Craft 2000, Creativity Across the Primary Curriculum (T&F e-Library 2005)."
+    unit: U1, U2, ML
+    claim: "The same creative act may involve divergent and convergent thinking (p. 30)."
+    status: verified
+    page_basis: printed
+    provenance: "U1 U1.diverge-converge; U2 U2.diverge-then-converge; ML SU-CPA.open-close"
+    vault: "coat 061d6093"
+    migration: "was craft-2003 / (Craft 2003, 43): wrong year (e-Library) and PDF page"
+  - key: chen-2011
+    work: "Chen 2011, Turning Points: The Nature of Creativity."
+    unit: U1, ML
+    claim: "Guilford's four abilities; test scores do not transfer across domains (p. 26); divergent thinking as hallmark (p. 25)."
+    status: verified
+    page_basis: printed
+    provenance: "U1 U1.four-dimensions, U1.context-over-brick-test; ML SU-CPA.divergent-hallmark, SU-CPA.context-over-test"
+    vault: "coat d048ab99"
+    migration: "was chen-2012 / pins 40, 41 = PDF indexes; © 2011"
+  - key: beghetto-karwowski-2025
+    work: "Beghetto and Karwowski 2025, Creative Agency Unbound."
+    unit: U1, U3
+    claim: "Standard definitions: novelty and meaningfulness (p. 3); creative agency definition (p. 3); why it matters (p. 9)."
+    status: verified
+    page_basis: printed
+    provenance: "U1 U1.definition-novelty-meaning, U1.importance-agency; U3 U3.creative-agency-definition"
+    vault: "coat 09e171eb"
+  - key: fisher-2004
+    work: "Fisher 2004, What Is Creativity? In Fisher and Williams, eds., Unlocking Creativity."
+    unit: U1
+    claim: "NACCCE definition: imaginative activity ... both original and of value (quoted p. 19)."
+    status: verified
+    page_basis: printed
+    provenance: "U1 U1.definition-naccce"
+    vault: "coat 25b9cc1b"
+  # ------------------------------------------------------------------ U2 required
+  - key: osborn-1953
+    work: "Osborn, Alex F. 1953. Applied Imagination. New York: Scribner."
+    unit: U2, U3
+    claim: "Brainstorming rules; quantity breeds quality; deferred judgement."
+    status: gap
+    gap_reason: "On disk only as a 0-byte PDF plus an incomplete .part download in bibliographies/creativity/; not ingestible."
+    note: "Deferred judgement is verified from Osborn 1942 (osborn-1942). 'Quantity breeds quality' is NOT claimed in student text."
+  - key: osborn-1942
+    work: "Osborn 1942, How to Think Up (McGraw-Hill, first edition, fourth impression; e-text without folios)."
+    unit: U2, U3
+    claim: "Ground rule: judicial judgment ruled out; criticism withheld until all ideas are in (chap. 4)."
+    status: verified
+    page_basis: section
+    provenance: "U2 U2.defer-judgement-osborn; U3 U3.defer-judgement-osborn"
+    vault: "coat 96048e6a"
+  - key: diehl-1987
+    work: "Diehl, Michael, and Wolfgang Stroebe. 1987. Productivity Loss in Brainstorming Groups. JPSP 53 (3)."
+    unit: U2
+    claim: "Production blocking; nominal groups outperform interactive groups."
+    status: gap
+    gap_reason: "Not in the library."
+  - key: mullen-1991
+    work: "Mullen, Brian, Craig Johnson, and Eduardo Salas. 1991. Productivity Loss in Brainstorming Groups: A Meta-Analytic Integration. Basic and Applied Social Psychology 12 (1)."
+    unit: U2
+    claim: "Meta-analysis of brainstorming productivity loss."
+    status: gap
+    gap_reason: "Not in the library."
+  - key: rohrbach-1969
+    work: "Rohrbach, Bernd. 1969. Kreativ nach Regeln: Methode 635. Absatzwirtschaft 12 (19)."
+    unit: U2
+    claim: "Brainwriting 6-3-5."
+    status: gap
+    gap_reason: "Not in the library."
+  - key: eberle-1971
+    work: "Eberle, Bob. 1971. SCAMPER: Games for Imagination Development. Buffalo, NY: DOK."
+    unit: U2
+    claim: "SCAMPER checklist."
+    status: gap
+    gap_reason: "Not in the library. The library holds Eberle 1974 (creative dramatics, J. Creative Behavior, coat 620dedd0) — a different work, not used."
+  - key: zwicky-1969
+    work: "Zwicky, Fritz. 1969. Discovery, Invention, Research through the Morphological Approach. New York: Macmillan."
+    unit: U2
+    claim: "Morphological analysis."
+    status: gap
+    gap_reason: "Not in the library."
+  - key: gordon-1961
+    work: "Gordon, William J. J. 1961. Synectics. New York: Harper & Row."
+    unit: U2
+    claim: "Synectics; making the strange familiar."
+    status: gap
+    gap_reason: "Not in the library."
+  - key: koestler-1964
+    work: "Koestler, Arthur. 1964. The Act of Creation. London: Hutchinson."
+    unit: U2
+    claim: "Bisociation."
+    status: gap
+    gap_reason: "Not in the library."
+  - key: jansson-1991
+    work: "Jansson, David G., and Steven M. Smith. 1991. Design Fixation. Design Studies 12 (1)."
+    unit: U2
+    claim: "Design fixation on example features."
+    status: gap
+    gap_reason: "Primary article not in the library."
+    note: "U2 reports the study through Cross 2006, 81–82 (cross-2006, verified)."
+  - key: ward-1994
+    work: "Ward, Thomas B. 1994. Structured Imagination. Cognitive Psychology 27 (1)."
+    unit: U2
+    claim: "Path of least resistance; push past the obvious (A3/F4)."
+    status: gap
+    gap_reason: "Not in the library."
+  - key: beaty-2012
+    work: "Beaty, Roger E., and Paul J. Silvia. 2012. Why Do Ideas Get More Creative across Time? Psychology of Aesthetics, Creativity, and the Arts 6 (4)."
+    unit: U2
+    claim: "Serial-order effect: later ideas more original (A3/F4)."
+    status: gap
+    gap_reason: "Not in the library."
+    note: "U2 does not claim the serial-order effect; it cites fixation (Cross 2006) and practice advice (Norman 2013) instead."
+  - key: rietzschel-2006
+    work: "Rietzschel, Eric F., Bernard A. Nijstad, and Wolfgang Stroebe. 2006. Productivity Is Not Enough. JESP 42 (2)."
+    unit: U2
+    claim: "People do not reliably select their best ideas."
+    status: gap
+    gap_reason: "Not in the library."
+  - key: amabile-1982
+    work: "Amabile, Teresa M. 1982. Social Psychology of Creativity: A Consensual Assessment Technique. JPSP 43 (5)."
+    unit: U2
+    claim: "Consensual assessment of creativity (selection research)."
+    status: gap
+    gap_reason: "Not in the library."
+  - key: amabile-1979
+    work: "Amabile 1979, Effects of External Evaluation on Artistic Creativity, JPSP 37 (2)."
+    unit: U2, U3
+    claim: "Expecting evaluation lowered judged creativity of artworks (p. 221)."
+    status: verified
+    page_basis: printed
+    provenance: "U2 U2.expected-evaluation-cost; U3 U3.expected-evaluation-cost"
+    vault: "coat a82725bb"
+  - key: puccio-2011
+    work: "Puccio, Gerard J., Marie Mance, and Mary C. Murdock. 2011. Creative Leadership: Skills That Drive Change. 2nd ed. Thousand Oaks, CA: Sage."
+    unit: U2
+    claim: "Creative problem solving; convergent tools."
+    status: gap
+    gap_reason: "Not in the library."
+  - key: debono-1985
+    work: "de Bono 1985, Six Thinking Hats (Little, Brown)."
+    unit: U2
+    claim: "Map, then route (p. 199)."
+    status: verified
+    page_basis: printed
+    provenance: "U2 U2.map-then-route, U2.six-hats-colours"
+    vault: "source_hash c45df305"
+  - key: rodari-1973
+    work: "Rodari, Gianni. 1973. Grammatica della fantasia. Turin: Einaudi."
+    unit: U2
+    claim: "Fantastic binomial."
+    status: gap
+    gap_reason: "Not in the library."
+  - key: young-1965
+    work: "Young, James Webb. (1940) 1965. A Technique for Producing Ideas. Chicago: Crain."
+    unit: U2
+    claim: "Five-step idea production."
+    status: gap
+    gap_reason: "Not in the library."
+  - key: colzato-2012
+    work: "Colzato, Ozturk and Hommel 2012, Meditate to Create, Frontiers in Psychology 3:116 (open access)."
+    unit: U2
+    claim: "Open-monitoring meditation promoted divergent thinking; focused attention did not sustain convergent thinking (p. 1)."
+    status: verified
+    page_basis: printed
+    provenance: "U2 U2.attention-exercise-meditation"
+    vault: "coat a9393760 (ingested 2026-10-05 from the publisher's open-access PDF)"
+  # ------------------------------------------------------------------ U2 additional verified
+  - key: debono-1970
+    work: "de Bono 1970, Lateral Thinking (Penguin EPUB, no page-list)."
+    unit: U2, U3
+    claim: "Lateral vs vertical (introduction); alternatives (chap. The Generation of Alternatives); provocation (chap. Difference between Lateral and Vertical Thinking); entry points; delaying judgement (chap. The New Word PO)."
+    status: verified
+    page_basis: section
+    provenance: "U2 U2.block-obvious-first, U2.dig-hole-quote, U2.fluency-flexibility-debono, U2.role-constraint-tools; U3 U3.entry-point-ex1, U3.delay-judgement-ex2"
+    vault: "coat bb5aec96"
+    migration: "pins 9, 12, 17, 27, 30 were synthetic EPUB index+1"
+  - key: cross-2006
+    work: "Cross 2006, Designerly Ways of Knowing."
+    unit: U2, U3
+    claim: "Fixation (Jansson and Smith reported, pp. 81–82); design ability (p. vi); sketching (pp. 37, 86)."
+    status: verified
+    page_basis: printed
+    provenance: "U2 U2.fixation-cross; U3 U3.ill-defined-design-ability, U3.sketch-problem-solution, U3.sketch-dialectic-ex1"
+    vault: "coat 4104b3ed"
+  - key: norman-2013
+    work: "Norman 2013, The Design of Everyday Things, rev. ed."
+    unit: U2
+    claim: "Generate numerous ideas; avoid early fixation (p. 226)."
+    status: verified
+    page_basis: printed
+    provenance: "U2 U2.generate-numerous-norman"
+    vault: "coat f31e7737"
+  - key: persaud-2007
+    work: "Persaud 2007, Thinking Skills and Creativity 2 (1)."
+    unit: U2
+    claim: "Selection/evaluation is the neglected half of creativity (p. 68)."
+    status: verified
+    page_basis: printed
+    provenance: "U2 U2.selection-neglected"
+    vault: "coat c2d88ecc"
+  - key: wong-2009
+    work: "Wong, Galinsky and Kray 2009, The Counterfactual Mind-Set, in Markman, Klein and Suhr, eds., Handbook of Imagination and Mental Simulation."
+    unit: U2
+    claim: "What-if thinking makes people consider alternatives (p. 161) but can hurt novel generation (p. 168)."
+    status: verified
+    page_basis: printed
+    provenance: "U2 U2.counterfactual-alternatives"
+    vault: "coat e77c3d8d"
+    migration: "was markman-2009 / (Markman, Klein, and Suhr 2009, 192): editors cited for a chapter, PDF page"
+  - key: raymond-2001
+    work: "Raymond 2001, The Cathedral and the Bazaar, rev. ed."
+    unit: U2
+    claim: "Great tools lend themselves to unexpected uses (p. 44)."
+    status: verified
+    page_basis: printed
+    provenance: "U2 U2.tools-as-affordance"
+    vault: "coat 7792be4e"
+  - key: rubin-2023
+    work: "Rubin 2023, The Creative Act (EPUB with hardcover page-list)."
+    unit: U2
+    claim: "Editing as taste (p. 386); practice you keep doing (p. 326); tortured-genius myth (p. 323, deck)."
+    status: verified
+    page_basis: printed
+    provenance: "U2 U2.selection-as-taste, U2.workshops-not-genius, U2.genius-myth"
+    vault: "coat 574691eb"
+  - key: huppauf-wulf-2009
+    work: "Hüppauf and Wulf, eds., 2009, The Dynamics and Performativity of Imagination."
+    unit: U2
+    claim: "Imagination, fantasy and creativity as related terms (p. 21)."
+    status: verified
+    page_basis: printed
+    provenance: "U2 U2.huppauf-imagination-creativity-fantasy"
+    vault: "coat 94897108"
+  # ------------------------------------------------------------------ U3 required
+  - key: dow-2010
+    work: "Dow et al. 2010, Parallel Prototyping, ACM TOCHI 17 (4), article 18."
+    unit: U3
+    claim: "Parallel prototyping gave better, more diverse designs and more self-efficacy; iteration can cause fixation (18:1)."
+    status: verified
+    page_basis: printed
+    provenance: "U3 U3.iteration-fixation, U3.parallel-prototyping-ex1"
+    vault: "coat 4525b702 (ingested 2026-10-05 from the authors' copy on the Stanford HCI publications page)"
+  - key: houde-1997
+    work: "Houde, Stephanie, and Charles Hill. 1997. What Do Prototypes Prototype? In Handbook of Human-Computer Interaction, 2nd ed."
+    unit: U3
+    claim: "Prototypes as questions about role, look and feel, implementation."
+    status: gap
+    gap_reason: "Not in the library; no authors' copy identified (third-party mirrors not used)."
+  - key: buxton-2007
+    work: "Buxton, Bill. 2007. Sketching User Experiences. San Francisco: Morgan Kaufmann."
+    unit: U3
+    claim: "Sketch vs prototype; many sketches."
+    status: gap
+    gap_reason: "Not in the library."
+  - key: goldschmidt-1991
+    work: "Goldschmidt, Gabriela. 1991. The Dialectics of Sketching. Creativity Research Journal 4 (2)."
+    unit: U3
+    claim: "Seeing-as / seeing-that in sketching."
+    status: gap
+    gap_reason: "Not in the library."
+    note: "U3 cites the 'dialectics of sketching' summary from Cross 2006, 86."
+  - key: dorst-2001
+    work: "Dorst, Kees, and Nigel Cross. 2001. Creativity in the Design Process: Co-evolution of Problem–Solution. Design Studies 22 (5)."
+    unit: U3
+    claim: "Problem–solution co-evolution."
+    status: gap
+    gap_reason: "Not in the library."
+  - key: knapp-2016
+    work: "Knapp, Zeratsky and Kowitz 2016, Sprint (Simon & Schuster EPUB)."
+    unit: U3
+    claim: "The prototype is meant to answer questions; build just enough to learn (chap. 13)."
+    status: verified
+    page_basis: section
+    provenance: "U3 U3.prototype-answers-questions"
+    vault: "coat 98b7e339 (EPUB on disk in bibliographies/web_design/, ingested 2026-10-05)"
+  - key: brown-2009
+    work: "Brown, Tim. 2009. Change by Design. New York: HarperBusiness."
+    unit: U3
+    claim: "Design thinking; prototyping to think."
+    status: gap
+    gap_reason: "Not in the library."
+  # ------------------------------------------------------------------ master lecture
+  - key: veron-1988
+    work: "Verón, Eliseo. 1988. La semiosis social: Fragmentos de una teoría de la discursividad. Buenos Aires: Gedisa."
+    unit: ML
+    claim: "Lens B: conditions of production / recognition; circulation."
+    status: gap
+    gap_reason: "Not in the library. Steimberg 2013 discusses Verón (chap. on Masotta and Verón) but not the production/recognition model the lecture uses."
+  - key: steimberg-1993
+    work: "Steimberg, Oscar. 1993. Semióticas: Las semióticas de los géneros, de los estilos, de la transposición. Buenos Aires: Atuel."
+    unit: ML
+    claim: "Genre, style, transposition (D2 vocabulary)."
+    status: gap
+    gap_reason: "Edition reconciliation (A4/F7): the library holds the 2013 Eterna Cadencia edition (coat d639c32d; '1a ed.' for that publisher, © 2013, EPUB without page-list), not the 1993 Atuel edition. No page- or section-verified claim placed; the lecture keeps the vocabulary as course method."
+  - key: steimberg-2013
+    work: "Steimberg, Oscar. 2013. Semióticas: Las semióticas de los géneros, de los estilos, de la transposición. Buenos Aires: Eterna Cadencia."
+    unit: ML
+    claim: "Same as steimberg-1993 (edition actually held)."
+    status: gap
+    gap_reason: "Held (coat d639c32d) but no claim verified or placed in EX6; candidate for a section-locator cite (Spanish source, English paraphrase) once the professor confirms the passage."
+  - key: ericsson-1993
+    work: "Ericsson, K. Anders, and Herbert A. Simon. 1993. Protocol Analysis: Verbal Reports as Data. Rev. ed. Cambridge, MA: MIT Press."
+    unit: ML
+    claim: "Think-aloud / process tracing."
+    status: gap
+    gap_reason: "Not in the library."
+  - key: chion-2019
+    work: "Chion, Michel. (1990) 2019. Audio-Vision: Sound on Screen. 2nd English ed. Trans. Claudia Gorbman. New York: Columbia University Press."
+    unit: ML
+    claim: "Sound as part of a process trail (removed from student text in EX2)."
+    status: gap
+    gap_reason: "Held (coat b2e76714) but no page-verified claim placed; removed from student text in EX2."
+  - key: alexander-2011
+    work: "Alexander, Bryan. 2011. The New Digital Storytelling: Creating Narratives with New Media. Santa Barbara, CA: Praeger."
+    unit: ML
+    claim: "Process narrative (removed from student text in EX2)."
+    status: gap
+    gap_reason: "Held (coat 0ee67c07, 2011 first edition) but no page-verified claim placed; removed from student text in EX2."
+  - key: eckersall-2017
+    work: "Eckersall, Grehan and Scheer 2017, New Media Dramaturgy."
+    unit: ML
+    claim: "Process as material; dramaturgy as compositional medium (pp. 15, 211)."
+    status: verified
+    page_basis: printed
+    provenance: "ML SU-CPA.nmd-scenes, SU-CPA.process-material"
+    vault: "coat 43fc4273"
+    migration: "pins 26, 219 were PDF pages"

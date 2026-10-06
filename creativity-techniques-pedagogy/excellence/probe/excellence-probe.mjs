@@ -249,21 +249,55 @@ function deckMeasures(root) {
   return { dangling_slots, empty_licence_assets, lab_exercise_counts, tao_with_author_citation };
 }
 
+// Amendment A2/F2 (EX6): references come from docs/_data/references.yml. A
+// lesson lists the keys it shows in its front matter (`references: [k, ...]`,
+// rendered by the references.html include); legacy hand-written
+// <span id="ref-…"> entries still count as listed. A listed key that the lesson
+// body never links as #ref-<key> is uncited. Lessons scanned: every unit lesson
+// plus the master lectures. Output shape is unchanged: { lesson: ["ref-key"] }.
+const MASTER_LECTURES_REL = 'docs/lessons/en/master-lectures';
+
+function frontMatter(text) {
+  const m = text.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n/);
+  return m ? { yaml: m[1], body: text.slice(m[0].length) } : { yaml: '', body: text };
+}
+
+// Reads `references:` from front matter: inline list [a, b] or a block list.
+function listedReferenceKeys(yaml) {
+  const inline = yaml.match(/^references:\s*\[([^\]]*)\]\s*$/m);
+  if (inline) return inline[1].split(',').map((s) => s.trim().replace(/^['"]|['"]$/g, '')).filter(Boolean);
+  const block = yaml.match(/^references:\s*\r?\n((?:[ \t]+-[^\n]*\r?\n?)+)/m);
+  if (block) return [...block[1].matchAll(/-\s*['"]?([\w-]+)['"]?/g)].map((m) => m[1]);
+  return [];
+}
+
+function lessonFiles(root) {
+  const out = [];
+  for (const rel of [LESSONS_REL, MASTER_LECTURES_REL]) {
+    const dir = path.join(root, rel);
+    if (!fs.existsSync(dir)) continue;
+    for (const ent of fs.readdirSync(dir, { withFileTypes: true }).sort((a, b) => a.name.localeCompare(b.name))) {
+      const file = path.join(dir, ent.name, 'index.md');
+      if (ent.isDirectory() && fs.existsSync(file)) out.push([ent.name, file]);
+    }
+  }
+  return out;
+}
+
 function uncitedReferences(root) {
-  const dir = path.join(root, LESSONS_REL);
   const out = {};
-  if (!fs.existsSync(dir)) return out;
-  for (const ent of fs.readdirSync(dir, { withFileTypes: true }).sort((a, b) => a.name.localeCompare(b.name))) {
-    if (!ent.isDirectory()) continue;
-    const file = path.join(dir, ent.name, 'index.md');
-    if (!fs.existsSync(file)) continue;
+  for (const [name, file] of lessonFiles(root)) {
     const text = fs.readFileSync(file, 'utf8');
-    const ids = [...new Set([...text.matchAll(/id="(ref-[^"]+)"/g)].map((m) => m[1]))];
-    if (!ids.length) continue;
-    // Cited = linked as #ref-id in the lesson body (everything before "## References").
-    const refHead = text.search(/^##\s+References\b/m);
-    const body = refHead === -1 ? text : text.slice(0, refHead);
-    out[ent.name] = ids.filter((id) => !new RegExp(`#${id.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?![\\w-])`).test(body));
+    const { yaml, body } = frontMatter(text);
+    const legacy = [...text.matchAll(/id="ref-([^"]+)"/g)].map((m) => m[1]);
+    const listed = [...new Set([...listedReferenceKeys(yaml), ...legacy])];
+    if (!listed.length) continue;
+    // Cited = linked as #ref-key in the body before the References heading.
+    const refHead = body.search(/^##\s+References\b/m);
+    const cited = refHead === -1 ? body : body.slice(0, refHead);
+    out[name] = listed
+      .filter((k) => !new RegExp(`#ref-${k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?![\\w-])`).test(cited))
+      .map((k) => `ref-${k}`);
   }
   return out;
 }

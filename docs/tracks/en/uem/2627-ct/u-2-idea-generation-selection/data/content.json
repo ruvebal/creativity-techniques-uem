@@ -219,7 +219,7 @@ layout: null
         ]
       },
       "citation": {
-        "label": "(de Bono 1970, 9)",
+        "label": "(de Bono 1970, introduction)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-debono-1970"
       },
       "image_brief": "Charles Darwin's 'I think' sketch in Notebook B, 1837: a branching tree that opens many lines and lets most of them end — generation and selection in one drawing.",
@@ -317,7 +317,7 @@ layout: null
       "image_brief": "Concept-art sheet for the Blender Studio short Sprite Fright (2021): many labelled variants of one character's head rendered side by side before one is chosen — generate first, then select.",
       "asset_id": "wikimedia:File:Sprite Fright-concept art-Victoria 01.png",
       "media_slot_id": "U2.masterclass-1",
-      "notes": "- Generation and selection are two different jobs. Doing them in the same minute makes both weaker.\n- That is why the Lab starts by changing the conditions of attention before asking for material.\n- Honest audit: was your last piece one first idea polished, or one of several considered on purpose?\n- Some briefs really do need the first answer. When time is the constraint, generate-then-select is a luxury.\nSource: (de Bono 1985, 199) for the quote; (Craft 2003, 43) for the warrant.\nAsk: Where does the line fall between \"take the first answer\" and \"generate more\"?"
+      "notes": "- Generation and selection are two different jobs. Doing them in the same minute makes both weaker.\n- That is why the Lab starts by changing the conditions of attention before asking for material.\n- Honest audit: was your last piece one first idea polished, or one of several considered on purpose?\n- Some briefs really do need the first answer. When time is the constraint, generate-then-select is a luxury.\n- Judging too early has a cost: students who expected their artwork to be evaluated produced work judged less creative.\n- One small lab study: open-monitoring meditation helped a divergent-thinking task.\nSource: the map/route quote is (de Bono 1985, 199); one creative act holds both divergent and convergent thinking is (Craft 2000, 30); the evaluation result is (Amabile 1979, 221); the meditation study is (Colzato, Ozturk, and Hommel 2012, 1). Other bullets are course wording.\nAsk: Where does the line fall between \"take the first answer\" and \"generate more\"?"
     },
     {
       "slide_id": "masterclass-2",
@@ -344,18 +344,18 @@ layout: null
         ]
       },
       "citation": {
-        "label": "(Csikszentmihalyi 2007, 8)",
-        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-csikszentmihalyi-2007"
+        "label": "(Csikszentmihalyi 1996, chap. 3)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-csikszentmihalyi-1996"
       },
       "image_brief": "Leonardo da Vinci, a Codex Atlanticus sheet of machine studies, c. 1490s: ideas that differ in kind, not thirty versions of one — fluency only counts when it comes with flexibility.",
-      "notes": "- After concentration, look at the automatic writing: which associations recur, which change direction, which stay merely verbal?\n- Someone has to decide whether two passages are different possibilities or variations of one.\n- Selection follows the period of production; it does not interrupt it.\nSource: (Csikszentmihalyi 2007, 8); (Craft 2003, 43); (de Bono 1970, 9).\nAsk: How do you decide if two ideas are different, or one idea twice?"
+      "notes": "- After concentration, look at the automatic writing: which associations recur, which change direction, which stay merely verbal?\n- Someone has to decide whether two passages are different possibilities or variations of one.\n- Selection follows the period of production; it does not interrupt it.\nSource: the slide quote is (Csikszentmihalyi 1996, chap. 3); \"Lateral thinking is generative. Vertical thinking is selective.\" is (de Bono 1970, introduction). Other bullets are course wording.\nAsk: How do you decide if two ideas are different, or one idea twice?"
     },
     {
       "slide_id": "masterclass-3",
       "slide_role": "masterclass",
       "background_kind": "curated",
       "heading": "3 · Get past the obvious",
-      "sentence": "Your first ideas are usually the obvious ones. In this Lab, don't censor them — keep making more without judging, and dig in a different place.",
+      "sentence": "Your first ideas are often the obvious ones. In this Lab, don't censor them — keep making more without judging, and dig in a different place.",
       "quote": "You cannot dig a hole in a different place by digging the same hole deeper.",
       "quote_origin": "page_verified",
       "semantic_tags": {
@@ -375,13 +375,13 @@ layout: null
         ]
       },
       "citation": {
-        "label": "(de Bono 1970, 9)",
+        "label": "(de Bono 1970, introduction)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-debono-1970"
       },
       "image_brief": "A brainstorming wall of sticky notes (2014): early ideas kept on the wall without judging, so that less obvious ones have room to appear.",
       "asset_id": "wikimedia:File:Stickies to brainstorm Edit.2014..jpg",
       "media_slot_id": "U2.masterclass-3",
-      "notes": "- The first ideas are usually the obvious ones, the ones most people in the room would also have.\n- Get past them by producing more without judging, not by censoring.\n- Write without correcting, then come back later as a selector.\n- On your D1: count how many ideas you wrote before one felt neither obvious nor random. Write the number down.\nSource: (de Bono 1970, 9) for the quote; (de Bono 1970, 17); (Csikszentmihalyi 2007, 8).\nAsk: How many ideas are enough for a given brief? The lesson leaves this open."
+      "notes": "- First ideas are often the obvious ones, and they are sticky: designers tend to \"hang on to their principal solution concept\", and a fixation effect, suggested by Jansson and Smith, makes designers shown an example copy its features.\n- \"Generate numerous ideas. It is dangerous to become fixated upon one or two ideas too early in the process.\"\n- Osborn's first rule: \"Criticism must be withheld until all ideas are in.\"\n- In this Lab: produce more without judging instead of censoring; write without correcting, then come back later as a selector. On your D1, count how many ideas you wrote before one felt neither obvious nor random.\nSource: the dig-hole quote is (de Bono 1970, introduction); stickiness and fixation are (Cross 2006, 81–82); \"Generate numerous ideas…\" is (Norman 2013, 226); the rule is (Osborn 1942, chap. 4); looking for alternatives instead of accepting the most obvious approach is (de Bono 1970, chap. “The Generation of Alternatives”). The Lab bullet is course wording.\nAsk: How many ideas are enough for a given brief? The lesson leaves this open."
     },
     {
       "slide_id": "masterclass-4",
@@ -392,7 +392,7 @@ layout: null
       "quote": "Any tool should be useful in the expected way, but a truly great tool lends itself to uses you never expected.",
       "quote_origin": "page_verified",
       "citation": {
-        "label": "(Raymond 2001, 57)",
+        "label": "(Raymond 2001, 44)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-raymond-2001"
       },
       "semantic_tags": {
@@ -414,7 +414,7 @@ layout: null
       "image_brief": "A Six Thinking Hats session board for the black hat ('doubts': what are the risks?), Wikimedia Colombia workshop, 2025: a role tool that stages one mode of thinking at a time.",
       "asset_id": "wikimedia:File:Sombrero negro (Dudas).jpg",
       "media_slot_id": "U2.masterclass-4",
-      "notes": "- The studio is never neutral: the first voice can narrow the room. Role and constraint tools disturb that frame.\n- Six Thinking Hats: one mode at a time. White facts, red feelings, black caution, yellow benefits, green new ideas, blue running the process.\n- An Oblique Strategies card gives one short prompt for changing a D1 object. It is a deck of prompts, not a theory or a guarantee.\nSource: (Raymond 2001, 57) for the quote; (de Bono 1970, 12); (Markman, Klein, and Suhr 2009, 192).\nAsk: Who speaks first in your group, and what does that close?"
+      "notes": "- The studio is never neutral: the first voice can narrow the room. Role and constraint tools disturb that frame.\n- Six Thinking Hats: one mode at a time. White facts, red feelings, black caution, yellow benefits, green new ideas, blue running the process.\n- An Oblique Strategies card gives one short prompt for changing a D1 object. It is a deck of prompts, not a theory or a guarantee.\n- de Bono: lateral thinking is provocative, \"a way of bringing about repatterning\". What-if thinking widens the alternatives you consider, but it can hurt the generation of new ideas.\nSource: the tool quote is (Raymond 2001, 44); provocation and repatterning are (de Bono 1970, chap. “Difference between Lateral and Vertical Thinking”); what-if thinking is (Wong, Galinsky, and Kray 2009, 161, 168). The Hats and Oblique Strategies bullets are course wording (the lesson names the hats without a page cite).\nAsk: Who speaks first in your group, and what does that close?"
     },
     {
       "slide_id": "masterclass-5",
@@ -441,13 +441,13 @@ layout: null
         ]
       },
       "citation": {
-        "label": "(Rubin 2023, 123)",
+        "label": "(Rubin 2023, 386)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-rubin-2023"
       },
       "image_brief": "A Pugh concept-selection matrix: options scored against named criteria, the convergent step made explicit before ranking.",
       "asset_id": "wikimedia:File:Pugh Concept Selection.png",
       "media_slot_id": "U2.masterclass-5",
-      "notes": "- Unstated criteria favour whatever the room already leaned toward.\n- Name the criterion before you decide what to keep. The scoring is the design act, not the ranking.\n- Editing as taste revealed in curation is selection criteria by another name, not a substitute for writing them down.\nSource: (Rubin 2023, 123).\nAsk: Whose criteria decide what counts as \"novel\"?"
+      "notes": "- Unstated criteria favour whatever the room already leaned toward.\n- Name the criterion before you decide what to keep. The scoring is the design act, not the ranking.\n- Editing as taste revealed in curation is selection criteria by another name, not a substitute for writing them down.\n- Selection is the neglected half: creativity is usually defined by production, not by how ideas are evaluated and dismissed.\nSource: editing as \"a demonstration of taste\" revealed in curation is (Rubin 2023, 386); creativity \"usually defined in terms of the production end\" with evaluation and selection neglected is (Persaud 2007, 68). Other bullets are course wording.\nAsk: Whose criteria decide what counts as \"novel\"?"
     },
     {
       "slide_id": "masterclass-6",
@@ -474,13 +474,13 @@ layout: null
         ]
       },
       "citation": {
-        "label": "(Rubin 2023, 103)",
+        "label": "(Rubin 2023, 323)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-rubin-2023"
       },
       "image_brief": "Vincent van Gogh, Self-Portrait with Bandaged Ear, 1889: the icon of the 'tortured genius' myth that this slide questions — workshops train practice, they do not manufacture genius.",
       "asset_id": "wikimedia:File:Vincent van Gogh - Self-portrait with bandaged ear (1889, Courtauld Institute).jpg",
       "media_slot_id": "U2.masterclass-6",
-      "notes": "- Concentration and automatic writing produce material you did not have in view. That does not mean the exercise produced better ideas.\n- Fluency, flexibility and originality are what most tests measure and most workshops train. Training can raise the scores.\n- Landmark work is rare, depends on its system, and cannot be produced on command in a two-hour block.\n- Practice matters, but it does not replace judgement.\nSource: the slide quote on artists portrayed as tortured geniuses is (Rubin 2023, 103); the lesson's point that practice matters but does not replace judgement is (Rubin 2023, 104); the test dimensions are (Csikszentmihalyi 2007, 8).\nAsk: Which passage of your unedited writing could become evidence for D1, and what criterion would justify that choice?"
+      "notes": "- Concentration and automatic writing produce material you did not have in view. That does not mean the exercise produced better ideas.\n- Fluency, flexibility and originality are what most tests measure and most workshops train. Workshops try to raise those scores.\n- Landmark work is rare, depends on its system, and cannot be produced on command in a two-hour block.\n- The only practice that matters is the one you keep doing; test any method on yourself instead of copying it.\nSource: the slide quote on artists portrayed as tortured geniuses is (Rubin 2023, 323); the lesson's point on practice is (Rubin 2023, 326); the test dimensions and \"most workshops try to enhance\" are (Csikszentmihalyi 1996, chap. 3). Other bullets are course wording.\nAsk: Which passage of your unedited writing could become evidence for D1, and what criterion would justify that choice?"
     },
     {
       "slide_id": "lab-opener",
