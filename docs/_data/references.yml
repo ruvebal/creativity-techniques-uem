@@ -3,7 +3,8 @@
 # One canonical Chicago author-date entry per work, keyed `surname-year`
 # (first author; existing two-author keys kept). `year` is the year the cited
 # text was first published (reprints and e-book reissues keep the original
-# year); `edition_used` names the copy whose pages or sections the lessons cite.
+# year); `edition_note` (rendered) tells students which reprint or e-book was
+# consulted (Chicago 14.161); `edition_used` names the copy whose pages or sections the lessons cite.
 # A revised edition is a new edition and keeps its own year (Raymond 2001,
 # Norman 2013).
 #
@@ -58,6 +59,7 @@ colzato-2012:
     [https://doi.org/10.3389/fpsyg.2012.00116](https://doi.org/10.3389/fpsyg.2012.00116).
 
 craft-2000:
+  edition_note: "Taylor & Francis e-Library edition, 2005."
   sort: "Craft 2000"
   year: 2000
   edition_used: "Taylor & Francis e-Library edition, 2005 (print pagination)."
@@ -73,6 +75,7 @@ cross-2006:
     Cross, Nigel. 2006. *Designerly Ways of Knowing*. London: Springer.
 
 csikszentmihalyi-1996:
+  edition_note: "E-book edition, New York: HarperCollins e-books, 2007. EPUB."
   sort: "Csikszentmihalyi 1996"
   year: 1996
   edition_used: "HarperCollins e-book (EPUB), 2007; no print page numbers, so lessons cite chapters."
@@ -81,6 +84,7 @@ csikszentmihalyi-1996:
     New York: HarperCollins.
 
 debono-1970:
+  edition_note: "Reprint, London: Penguin Books. EPUB."
   sort: "de Bono 1970"
   year: 1970
   edition_used: "Penguin e-book (EPUB); no print page numbers, so lessons cite chapters."
@@ -139,6 +143,7 @@ kimbell-2011:
     [https://doi.org/10.2752/175470811X13071166525216](https://doi.org/10.2752/175470811X13071166525216).
 
 knapp-2016:
+  edition_note: "EPUB."
   sort: "Knapp Zeratsky Kowitz 2016"
   year: 2016
   edition_used: "Simon & Schuster e-book (EPUB); no print page numbers, so lessons cite chapters."
@@ -154,6 +159,7 @@ norman-2013:
     Norman, Don. 2013. *The Design of Everyday Things*. Rev. and expanded ed. New York: Basic Books.
 
 osborn-1942:
+  edition_note: "Reset e-text of the first edition (fourth impression), without page numbers."
   sort: "Osborn 1942"
   year: 1942
   edition_used: "First edition, fourth impression, reset as an e-text without page numbers; lessons cite chapters."
@@ -178,6 +184,7 @@ raymond-2001:
     Accidental Revolutionary*. Rev. ed. Sebastopol, CA: O’Reilly.
 
 rubin-2023:
+  edition_note: "EPUB."
   sort: "Rubin 2023"
   year: 2023
   edition_used: "Penguin Press e-book (EPUB) with the hardcover’s page numbers."
@@ -185,6 +192,7 @@ rubin-2023:
     Rubin, Rick. 2023. *The Creative Act: A Way of Being*. New York: Penguin Press.
 
 schon-1983:
+  edition_note: "E-book edition. EPUB."
   sort: "Schon 1983"
   year: 1983
   edition_used: "Basic Books e-book (EPUB) with the print edition’s page numbers."

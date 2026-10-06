@@ -56,11 +56,22 @@ Cross-read: [`grounding/COMBINE-RELATE-DISCUSS.md`](../../../grounding/COMBINE-R
 
 | Claim seed | Ahmes coat · node · page | Chicago | Status |
 | ---------- | ------------------------ | ------- | ------ |
-| Fluency and flexibility balance | Kelley coat · TBD | — | candidate |
-| Idea generation and selection both required | Beghetto coat · TBD | — | candidate |
-| Tools as affordance rather than script | Raymond coat `7792be4e` · `4f46a0ff-3333-5bdf-8c15-ec217ccd3276` · printed p. 57 | (Raymond 2001, 57) | verified; use for Idea 4 |
-| Interesting problems begin in situated interest | Raymond coat `7792be4e` · `e04c9bf0-b34f-5d91-9b4a-9d193ca136f5` · printed p. 62 | (Raymond 2001, 62) | verified; use for Idea 1 |
-| Six Thinking Hats / Oblique Strategies | — — Use as method gesture; Pass-1 | — | practitioner gap |
+| Generate then select (warrant) | `061d6093` · `3ed2bb7b-…` · printed 30 | (Craft 2000, 30) | verified; resolver yes |
+| Map, then route | `c45df305` · `af8ae4ed-…` · printed 199 | (de Bono 1985, 199) | verified; resolver BIBLIO-GAP |
+| Generative vs selective; dig-hole quote | `bb5aec96` · `9797a1fb-…`, `c9c41c9b-…` · introduction | (de Bono 1970, introduction) | verified (section); resolver yes |
+| Fixation (Jansson & Smith reported) | `4104b3ed` · `0579db22-…`, `44445d0e-…` · printed 81–82 | (Cross 2006, 81–82) | verified; resolver no |
+| Generate numerous ideas | `f31e7737` · `550af0b7-…` · printed 226 | (Norman 2013, 226) | verified; resolver yes |
+| Deferred judgement | `96048e6a` · `f9bd5077-…` · chap. 4 | (Osborn 1942, chap. 4) | verified (section); resolver yes |
+| Expected evaluation lowers judged creativity | `a82725bb` · `f5659140-…` · 221 | (Amabile 1979, 221) | verified; resolver yes |
+| Meditation and divergent thinking | `a9393760` · `2455fd0e-…` · 1 | (Colzato, Ozturk, and Hommel 2012, 1) | verified; resolver BIBLIO-GAP (new ingest, no RIS) |
+| Tools as affordance | `7792be4e` · `4f46a0ff-…` · printed 44 | (Raymond 2001, 44) | verified; resolver yes |
+| Interesting problems (not in student text) | `7792be4e` · `e04c9bf0-…` · printed 49 | (Raymond 2001, 49) | verified; unused |
+| What-if thinking: alternatives and limits | `e77c3d8d` · `82574166-…` 161, `19084e77-…` 168 | (Wong, Galinsky, and Kray 2009, 161 / 168) | verified; resolver yes |
+| Selection neglected | `c2d88ecc` · `3f7bcf30-…` · 68 | (Persaud 2007, 68) | verified; resolver no |
+| Editing as taste; practice; genius myth (deck) | `574691eb` · `b9d0c0a0-…` 386, `45853c03-…` 326, `c01a0ed6-…` 323 | (Rubin 2023, 386 / 326 / 323) | verified (EPUB page-list); resolver yes |
+| Imagination, fantasy, creativity related | `94897108` · `edbc2759-…` · printed 21 | (Hüppauf and Wulf 2009, 21) | verified; resolver yes |
+
+*EX6 round 2 (2026-10-06): pins are printed folios or chapter locators; "resolver" = what `ahmes query --cite` returns (pdf_order metadata, not the page check); every row was verified by reading the page (`verified_by=manual-page-read`). Gaps: §8.1.*
 
 ## 8. Gaps and risks
 

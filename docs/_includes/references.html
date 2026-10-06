@@ -23,7 +23,7 @@ the EX6 gate report them).
 {%- assign key = parts[1] | strip -%}
 {%- assign entry = site.data.references[key] -%}
 {%- if entry %}
-  <li id="ref-{{ key }}">{{ entry.chicago | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>
+  <li id="ref-{{ key }}">{{ entry.chicago | markdownify | remove: '<p>' | remove: '</p>' | strip }}{% if entry.edition_note %} {{ entry.edition_note }}{% endif %}</li>
 {%- endif -%}
 {%- endfor %}
 </ul>

@@ -59,13 +59,19 @@ Cross-read: [`grounding/COMBINE-RELATE-DISCUSS.md`](../../../grounding/COMBINE-R
 
 | Claim seed | Ahmes coat · node · page | Chicago | Status |
 | ---------- | ------------------------ | ------- | ------ |
-| Same act diverge + converge | `061d6093` · `3ed2bb7b-…` · p.43 | (Craft 2003, 43) | ✅ evaluator_safe |
-| Four abilities (Guilford via Chen) | `d048ab99` · `0a625a7b-…` (+ fluency/flex/orig/elab nodes) · p.41 | (Chen 2012, 41) | ✅ evaluator_safe |
-| Brick/paper-clip ≠ domain talent | `d048ab99` · `a849be72-…` · p.41 | (Chen 2012, 41) | ✅ evaluator_safe |
-| Fluency / flexibility / originality | `35dcf3a7` · `5f7e3435-…` · p.8 | (Csikszentmihalyi 2007, 8) | ✅ evaluator_safe |
-| Wicked problems in design | Buchanan 1992 primary extract owed (Fisher secondary BIBLIO-GAP) | — | gap |
-| Reflective practice | Schön 1983 coat owed | — | gap |
-| DT discourse critique | Kimbell 2011–12 coat owed | — | gap |
+| Same act diverge + converge | `061d6093` · `3ed2bb7b-…` · printed 30 | (Craft 2000, 30) | verified; resolver yes |
+| Four abilities (Guilford via Chen) | `d048ab99` · `90e85d4a-…` · printed 26 | (Chen 2011, 26) | verified; resolver yes |
+| Brick/paper-clip ≠ domain talent | `d048ab99` · `a849be72-…` · printed 26 | (Chen 2011, 26) | verified; resolver yes |
+| Fluency / flexibility / originality | `35dcf3a7` · `5f7e3435-…` · chap. 3 | (Csikszentmihalyi 1996, chap. 3) | verified (section); resolver yes |
+| Systems model; myth of special heads | `35dcf3a7` · `039dc163-…`, `5f0d22f6-…` · chap. 2 | (Csikszentmihalyi 1996, chap. 2) | verified (section); resolver yes |
+| Stage model + limits; presented vs discovered problems | `35dcf3a7` · `237de099-…`, `92daceef-…`, `bf57d7c1-…` · chap. 4 | (Csikszentmihalyi 1996, chap. 4) | verified (section); resolver yes |
+| Definition: novelty + meaning; importance | `09e171eb` · `10055dde-…` p. 3, `fb98d0b6-…` p. 9 | (Beghetto and Karwowski 2025, 3 / 9) | verified; resolver no |
+| NACCCE definition | `25b9cc1b` · `ab767997-…` · printed 19 | (NACCCE 1999, 29, quoted in Fisher 2004, 19) | verified; resolver yes |
+| Wicked problems in design | `b31bf6e2` · `57cba3a9-…` · printed 16 | (Buchanan 1992, 16) | verified; resolver no |
+| Problem setting; reflection-in-action | `4d215203` · `2e436542-…` p. 40, `a81b7ced-…` p. 68 | (Schön 1983, 40 / 68) | verified (EPUB print anchors); resolver no |
+| DT discourse critique | `15368c98` · `7bfa6176-…` · printed 285 | (Kimbell 2011, 285) | verified; resolver yes |
+
+*EX6 round 2 (2026-10-06): pins are printed folios or chapter locators; "resolver" = what `ahmes query --cite` returns (pdf_order metadata, not the page check); every row was verified by reading the page (`verified_by=manual-page-read`). Gaps: §8.1.*
 
 ## 8. Gaps and risks
 
