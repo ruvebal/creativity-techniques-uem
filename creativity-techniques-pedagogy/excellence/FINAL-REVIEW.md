@@ -225,6 +225,31 @@ U4 (legacy, out of scope) keeps *Man dreaming* (`profield-cache/0a359d9b946505e1
 - **Round 2 (cold review FAIL → fixed):** deck notes still carried a removed claim and stale "no page cite" lines (now synced, with a new deck-lesson sync test); U3 misdescribed Amabile's sample (college students, not art students); one Craft cite did not support its clause (dropped). Every carried-over claim was re-read against its new page (table in the report). "Training can raise scores" softened; U1 conclusion now says what Schön, Buchanan and Kimbell actually argue; References now show the reprint/e-book consulted. Internal provenance records the resolver's real status.
 - Report: `PHASE-EX6-REPORT.md`. Rollback: `gitflow.sh rollback 6`.
 
+### EX7 — canonical technique catalogue (VERIFYING)
+
+- **What changed:**
+  - `in-practice/CANONICAL-TECHNIQUES.yml` lists 66 techniques. All 30 required techniques are in it.
+  - Each entry has its family, its mode and between 3 and 8 classroom steps (my wording, not quotes). It also has time, group size, materials, units, a one-line evidence note and an accessibility or opt-out line.
+  - There is a generated reading view, `CANONICAL-TECHNIQUES.md`, and a units-sorted export, `CANONICAL-TECHNIQUES-BY-UNIT.yml`, for the 12-lesson cascade. Its lesson picks U1.1 to U6.2 are left empty.
+  - The pipeline is in `in-practice/canonical/`, and `INDEX.md` now points to the catalogue.
+  - Everything is private. The catalogue is not in `_site`.
+- **How the exercise records were sorted:**
+  - The exercise list has 6,785 records (FINDINGS said 6,773; the export was regenerated this morning).
+  - I dropped 1,141 as off-topic: ML engineering 840, cloud setup 130, medicine 68, theology 47, network security 23, IP law 19 and scientometrics 14.
+  - 2,157 records now point to 45 techniques. 2,112 of them were duplicates; for example, Six Thinking Hats now holds 714 records that were spread across 62 names.
+  - 3,487 on-topic records match no technique.
+  - 21 techniques, such as cut-up, Oblique Strategies, Crazy 8s, parallel prototyping and COCD, have no records. Their sources are not in the in-practice library.
+- **Where the sources stand:**
+  - **34 verified:** the source is in your bibliography and I checked the chapter in the library copy.
+  - **19 held:** the book is in the library but not in your bibliography (Michalko, Kelley and Kelley, von Oech, Kleon, Cameron, Edwards).
+  - **13 gap:** not in the library, and who devised the technique is unverified.
+  - New verified sources found during this phase: PMI is in de Bono's *Six Thinking Hats* (1985). Crazy 8s, dot voting, Note-and-Vote and storyboarding are in *Sprint*. Five Whys and the Double Diamond are in Norman. Rubin has a "Seeds" chapter and a "Temporary Rules" chapter.
+- **Local work:** 22 calls to `qwen2.5:32b-instruct` (43k prompt tokens, 2.8k output tokens, 5 minutes), made only for 549 ambiguous names. I reviewed all 99 model assignments and rejected 64 of them.
+- **Please check:**
+  - **Cards without a citable source:** for EX8's Labs, five Lab techniques do not have a verified source: cut-up, readymade, 6-3-5, COCD and nominal group. Their cards can run in class but cannot show a Source line until the books are procured. Your procurement list (EX6) already names Rohrbach, Diehl and Stroebe, and Amabile 1982. Tzara, Duchamp and COCD would be new additions.
+  - **PMI page:** the PMI locator is a PDF index. Confirm the printed page before citing it.
+- Gate pre-check: EX7 has 0 failures, and EX0–EX6 still pass. Report: `PHASE-EX7-REPORT.md`. Rollback: `gitflow.sh rollback 7`.
+
 ### Release checklist additions (from EX2)
 
 - Run `npm ci` before the release build (`postcss` lives in node_modules).
