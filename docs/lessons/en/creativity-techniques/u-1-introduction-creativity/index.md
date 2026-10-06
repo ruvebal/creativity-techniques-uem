@@ -70,9 +70,9 @@ By the end of this unit, you should be able to:
 
 ---
 
-## B1 · Analysis (this lives in the lesson, not only on slides)
+## Analysis
 
-Analysis opens the class. Read this section before you watch the deck.
+*Session block 1 · Analysis opens the class. Read this section before you watch the deck.*
 
 ### When it happens
 
@@ -91,64 +91,123 @@ Before you call something “creative,” answer these in order:
 
 Then ask **circulation:** when the piece moves to another place, what changes in how it is recognised?
 
+<figure class="lesson-figure" id="figure-analysis-model">
+<img src="{{ '/assets/images/deck-media/59f29872951bc0ae.webp' | relative_url }}" alt="El Lissitzky's 1919–20 poster: a sharp red triangle drives into a white circle on a black and white field, with Russian words placed along the shapes." loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="u-1-introduction-creativity" slide="analysis-model" %}</figcaption>
+</figure>
+
 **Debate prompt:** If the same sketch is praised in class and ignored in a client review, where did meaning fail — in making, in the channel, or in recognition? Name language, medium, and support before you answer.
 
-### Masterclass ideas (plain wording)
+---
 
-These six ideas are the Masterclass core. Short quotes are from the books we checked page by page; the rest of each bullet is the course paraphrase for studio use.
+## Masterclass
 
-**A working definition.** Most definitions of creativity ask for two things at once: something new, and something that matters. Beghetto and Karwowski note that the "creative" part of their own definition "addresses both novelty and meaningfulness, aligning with standard definitions of creativity" [(Beghetto and Karwowski 2025, 3)](#ref-beghetto-karwowski-2025). A UK national report on creative education put it as "imaginative activity fashioned so as to produce outcomes that are both original and of value" (NACCCE 1999, 29, quoted in [Fisher 2004, 19](#ref-fisher-2004)). Keep both halves in view: a new idea that does nothing for the brief is not yet creative work.
+*Session block 2 · six ideas. Each one gives a claim, the evidence for it, a design example, and the Lab exercise where you try it.*
+
+Start with a working definition. Most definitions of creativity ask for two things at once: something new, and something that matters. Beghetto and Karwowski note that the "creative" part of their own definition "addresses both novelty and meaningfulness, aligning with standard definitions of creativity" [(Beghetto and Karwowski 2025, 3)](#ref-beghetto-karwowski-2025). A UK national report on creative education put it as "imaginative activity fashioned so as to produce outcomes that are both original and of value" (NACCCE 1999, 29, quoted in [Fisher 2004, 19](#ref-fisher-2004)). Keep both halves in view: a new idea that does nothing for the brief is not yet creative work.
 
 **Why it matters here.** Beghetto and Karwowski argue that turning creative potential into action is "crucial at the individual and societal level" [(Beghetto and Karwowski 2025, 9)](#ref-beghetto-karwowski-2025). In this course that means one thing: you practise the move from possibility to a made thing, every week.
 
 **A myth to drop.** It is tempting to think creativity is "an insight that occurs inside the heads of some special people." Csikszentmihalyi calls that assumption misleading: for him, creativity can be observed only in a system of three parts — a **domain** (a set of rules and symbols, such as graphic design), a **field** (the people who decide what gets in: teachers, clients, curators, critics), and the **person** who brings something new [(Csikszentmihalyi 1996, chap. 2)](#ref-csikszentmihalyi-1996). Your work is judged inside that system, not inside your head alone.
 
-#### 1 · Open, then close
+### 1 · Open, then close
 
-You invent many options (**divergent**). Then you select what fits the needs of the brief (**convergent**). One creative job often needs both.
+**One creative job needs two moves: first open many options, then close on the ones that fit the brief.**
 
 > “The same creative act may involve both divergent and convergent thinking.”  
 > — [(Craft 2000, 30)](#ref-craft-2000)
 
-Stage models say the same thing over a longer time. Csikszentmihalyi notes that the creative process "has traditionally been described as taking five steps": preparation, incubation, insight, evaluation and elaboration. He also warns that this framework "gives a severely distorted picture of the creative process if it is taken too literally": in real work, insights, incubation and evaluation keep interrupting one another [(Csikszentmihalyi 1996, chap. 4)](#ref-csikszentmihalyi-1996).
+Opening is **divergent** thinking: you invent many possibilities. Closing is **convergent** thinking: you select what fits the needs of the brief. Stage models describe the same rhythm over a longer time. Csikszentmihalyi notes that the creative process "has traditionally been described as taking five steps": preparation, incubation, insight, evaluation and elaboration. He also warns that this framework "gives a severely distorted picture of the creative process if it is taken too literally": in real work, insights, incubation and evaluation keep interrupting one another [(Csikszentmihalyi 1996, chap. 4)](#ref-csikszentmihalyi-1996).
 
-#### 2 · Four skills that tests measure
+<figure class="lesson-figure" id="figure-masterclass-1">
+<img src="{{ '/assets/images/deck-media/1e199b72324443bc.webp' | relative_url }}" alt="Chalk drawing by Michelangelo: a large, carefully modelled study of a bent leg and torso, with two small quick sketches of a seated figure in the corners." loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="u-1-introduction-creativity" slide="masterclass-1" %}</figcaption>
+</figure>
 
-Guilford’s four abilities (as summarised by Chen on the same page) give you a shared vocabulary:
+**In practice:** for a poster brief, you might sketch twelve small layouts without judging any of them (open), then keep the two that can be read from across a corridor (close).
+
+**Try it:** [Lab · Exercise 2](#lab-exercise-2) asks you to mark every move you make as opening or closing.
+
+### 2 · Four skills that tests measure
+
+**Creativity tests measure four skills; naming them gives you a shared vocabulary for your own work.**
+
+Guilford’s four abilities, as Chen summarises them:
 
 - **Fluency** — produce many ideas quickly  
-- **Flexibility** — try several angles at once  
+- **Flexibility** — try several angles (different kinds of idea)  
 - **Originality** — produce ideas that few other people produce (rare answers)  
 - **Elaboration** — work the details and carry the idea through  
 
 > “Fluency - the ability to produce a large number of ideas or solutions to a problem rapidly.”  
 > — [(Chen 2011, 26)](#ref-chen-2011)
 
-Many workshops try to raise these scores. A higher score is not the same as a better idea in a real brief (see idea 3).
-
 Csikszentmihalyi names a close triad for divergent work:
 
 > “It involves fluency, or the ability to generate a great quantity of ideas; flexibility, or the ability to switch from one perspective to another; and originality in picking unusual associations of ideas.”  
 > — [(Csikszentmihalyi 1996, chap. 3)](#ref-csikszentmihalyi-1996)
 
-#### 3 · A test score is not the whole designer
+Many workshops try to raise these scores. A higher score is not the same as a better idea in a real brief (see idea 3).
 
-Scoring high on “how many uses for a brick / paper clip” is not the same as judgement inside a real brief or another art.
+**In practice:** after listing ideas for a shop sign, count them (fluency), then sort them into kinds — lettering only, picture, object — and count the kinds (flexibility).
+
+**Try it:** [Lab · Exercise 1](#lab-exercise-1) scores your own list on all four skills.
+
+### 3 · A test score is not the whole designer
+
+**Scoring high on “how many uses for a brick or a paper clip” is not the same as judgement inside a real brief or another art.**
 
 > “After all, the ability of divergent thinking with a paper clip may tell us little about an individual's talent in music.”  
 > — [(Chen 2011, 26)](#ref-chen-2011)
 
-#### 4 · Name the unclear problem first
+<figure class="lesson-figure" id="figure-masterclass-3">
+<img src="{{ '/assets/images/deck-media/48f50bbc89c22ae9.webp' | relative_url }}" alt="An 1893 newspaper advertisement for the Gem paper clip: a large line drawing of the double-loop wire clip beside text praising it for holding papers together." loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="u-1-introduction-creativity" slide="masterclass-3" %}</figcaption>
+</figure>
 
-Before you pick a creativity technique, say what is fuzzy in the brief. Tools help after the problem is framed. Schön puts it plainly: "In real-world practice, problems do not present themselves to the practitioner as givens"; they have to be built out of a situation that is "puzzling, troubling, and uncertain" [(Schön 1983, 40)](#ref-schon-1983). Design briefs are often of the kind Buchanan, following Rittel, calls *wicked*: "every formulation of a wicked problem corresponds to the formulation of a solution" [(Buchanan 1992, 16)](#ref-buchanan-1992). How you state the problem already points to an answer. Csikszentmihalyi draws the same line between problems that are handed to you and problems you have to discover; discovered problems take longer to prepare for and to solve [(Csikszentmihalyi 1996, chap. 4)](#ref-csikszentmihalyi-1996).
+**In practice:** a long list of uses for a paper clip does not yet tell a packaging client which single idea serves their product, or why.
 
-#### 5 · Techniques are tools, not scripts
+**Try it:** at the end of [Lab · Exercise 1](#lab-exercise-1), look at your least obvious use and ask whether it would survive a real brief.
 
-A method helps you talk with the situation; it does not replace your judgement. When a practitioner reflects while acting, Schön writes, "he becomes a researcher in the practice context. He is not dependent on the categories of established theory and technique, but constructs a new theory of the unique case" [(Schön 1983, 68)](#ref-schon-1983). Use the techniques in this course in that spirit.
+### 4 · Name the unclear problem first
 
-#### 6 · “Design thinking” talk is debated
+**Before you pick a creativity technique, say what is unclear in the brief; tools help after the problem is framed.**
 
-Use tools that help. Also ask when managerial buzzwords empty out craft. Kimbell reviews how "design thinking" moved from research on designers into management and consultancy, and argues that "there are several issues that undermine the claims made for design thinking" — for example, that it separates thinking from acting and ignores how different designers' practices are [(Kimbell 2011, 285)](#ref-kimbell-2011). Treat it as a debate, not a settled method.
+Schön puts it plainly: "In real-world practice, problems do not present themselves to the practitioner as givens"; they have to be built out of a situation that is "puzzling, troubling, and uncertain" [(Schön 1983, 40)](#ref-schon-1983). Design briefs are often of the kind Buchanan, following Rittel, calls *wicked*: "every formulation of a wicked problem corresponds to the formulation of a solution" [(Buchanan 1992, 16)](#ref-buchanan-1992). How you state the problem already points to an answer. Csikszentmihalyi draws the same line between problems that are handed to you and problems you have to discover; discovered problems take longer to prepare for and to solve [(Csikszentmihalyi 1996, chap. 4)](#ref-csikszentmihalyi-1996).
+
+<figure class="lesson-figure" id="figure-masterclass-4">
+<img src="{{ '/assets/images/deck-media/6bf5e63d3bbb1b00.webp' | relative_url }}" alt="Rodin's bronze The Thinker: a seated nude man leans forward, chin resting on his hand, absorbed in thought before acting." loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="u-1-introduction-creativity" slide="masterclass-4" %}</figcaption>
+</figure>
+
+**In practice:** “make our website feel younger” is not yet a problem; “first-year students cannot find the timetable” is one you can design for.
+
+**Try it:** [Lab · Exercise 2](#lab-exercise-2) starts from a real brief: when you underline a phrase, ask whether it names the problem or only an answer.
+
+### 5 · Techniques are tools, not scripts
+
+**A method helps you talk with the situation; it does not replace your judgement.**
+
+When a practitioner reflects while acting, Schön writes, "he becomes a researcher in the practice context. He is not dependent on the categories of established theory and technique, but constructs a new theory of the unique case" [(Schön 1983, 68)](#ref-schon-1983). Use the techniques in this course in that spirit.
+
+<figure class="lesson-figure" id="figure-masterclass-5">
+<img src="{{ '/assets/images/deck-media/764fabac001fcba4.webp' | relative_url }}" alt="An 18th-century pocket set of drawing instruments by Peter Dollond: a ruler, a scale and four brass and steel instruments laid out beside their open shagreen case." loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="u-1-introduction-creativity" slide="masterclass-5" %}</figcaption>
+</figure>
+
+**In practice:** if a cut-up hands you a phrase that clashes with the brief, the technique has done its job by surprising you; whether you keep the phrase is still your decision.
+
+**Try it:** step 6 of [Lab · Exercise 2](#lab-exercise-2) asks whether your change worked through the language, the medium or the support — that call is yours, not the technique’s.
+
+### 6 · “Design thinking” talk is debated
+
+**Use the tools that help, and ask when managerial buzzwords empty out the craft.**
+
+Kimbell reviews how "design thinking" moved from research on designers into management and consultancy, and argues that "there are several issues that undermine the claims made for design thinking" — for example, that it separates thinking from acting and ignores how different designers' practices are [(Kimbell 2011, 285)](#ref-kimbell-2011). Treat it as a debate, not a settled method.
+
+**In practice:** when a client asks for a “design thinking workshop”, ask which decision the workshop should help them make, and who will make it.
+
+**Try it:** take the question to the [Lab debate](#lab-debate): when a piece is presented as the output of a named method, does the label change how it is recognised?
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
@@ -171,11 +230,11 @@ PROVENANCE_LINE: claim=U1.dt-critique; status=VERIFIED; page_basis=printed; sour
 
 ---
 
-## B2 · Lab (Portfolio)
+## Lab (Portfolio)
 
-**Announced by a geometrical slide first:** one debate and two exercises follow; everything you produce in Lab goes into your **portfolio index**. Each exercise card says which Masterclass idea it practises, how long it takes, and how it is judged.
+*Session block 3 · A geometrical slide announces the Lab: one debate and two exercises follow. Everything you produce in Lab goes into your **portfolio index**. Each exercise card says which Masterclass idea it practises, how long it takes, and how it is judged.*
 
-### Debate — language, medium, support & circulation
+### Debate — language, medium, support & circulation {#lab-debate}
 
 Pick one work (yours or from class). In small groups:
 
@@ -184,34 +243,49 @@ Pick one work (yours or from class). In small groups:
 
 **Portfolio trace:** triad notes + one circulation sentence from the debate.
 
-### Exercise 1 — Alternative uses, scored on four skills
+### Exercise 1 — Alternative uses, scored on four skills {#lab-exercise-1}
 
 Practises Masterclass ideas **2** (four skills that tests measure) and **3** (a test score is not the whole designer).
 
-**Time:** 15 minutes (3 minutes of silent listing, then scoring and pooling).
+**Time:** 15 minutes (3 minutes of silent listing, then scoring and pooling on a shared board).
 
-**Group:** alone for the list; the whole class for the originality pool.
+**Group:** alone for the list; the shared board (or table groups of 5–6) for the originality pool.
 
-**Materials:** one everyday object or a photo of it (a brick, a paper clip, a shoe); paper or a laptop; the slide timer.
+**Materials:** one everyday object or a photo of it (a brick, a paper clip, a shoe); paper or a laptop; the slide timer; a shared board (wall, whiteboard or online board).
 
 **Steps:**
 
 1. Look at the object. When the timer starts, list as many different uses for it as you can, alone and in silence, for 3 minutes.
 2. **Fluency:** count your uses.
 3. **Flexibility:** group your uses into kinds (for example: building, tool, art, game) and count the kinds.
-4. **Originality:** read your list aloud in turns, or post it on the shared board. Mark each use that nobody else in the class wrote.
+4. **Originality:** post your list on the shared board, or compare lists within your table group of 5–6. Mark each use that nobody else wrote. (Reading every list aloud to the whole class does not fit the time.)
 5. **Elaboration:** pick one marked use and add three concrete details — who uses it, where, and how.
 6. Write one sentence: which jump between kinds gave you your least obvious use?
 
 **Portfolio trace:** your raw list; the four numbers (uses, kinds, rare uses, details); the elaborated use; your one-sentence note.
 
+**Example trace:** *Illustrative example (not student work)* — made by the professor to show the format.
+
+<div class="lesson-example-trace" markdown="1">
+- **Object:** a brick.
+- **Raw list (3 minutes):** doorstop · bookend · paperweight · garden edging · step to reach a shelf · weight for pressing flowers · hammer for tent pegs · plinth for a small sculpture · stamp for printing its texture · goal post marker · book press · heat store near a radiator.
+- **Numbers:** 12 uses · 4 kinds (holding down, building, tool, art) · 2 rare uses in my table group (stamp for printing, plinth) · 3 details.
+- **Elaborated use:** printing stamp — *who:* a student making a poster series; *where:* the print room; *how:* ink the rough face with a roller and press it to make a repeated texture.
+- **Note:** the jump from “holding things down” to “art” gave me my least obvious use: printing with the brick’s surface.
+</div>
+
 **Judged by:** [Portfolio rubric — creative fluency, flexibility, and originality]({{ '/assignments/en/creativity-techniques-portfolio/' | relative_url }}#rubric)
 
 **Source:** "Tests like Alternate Uses" ask people for as many ways of using a common object as possible, and the four abilities are as Chen reports them [(Chen 2011, 26)](#ref-chen-2011). The same page warns that such a score may say little about talent in a specific field — so treat your numbers as practice, not a verdict. The steps and the class-pool scoring are a classroom adaptation.
 
-### Exercise 2 — Cut-up and readymade: open, then close
+### Exercise 2 — Cut-up and readymade: open, then close {#lab-exercise-2}
 
 Practises Masterclass idea **1** (open, then close) and the **language / medium / support** method from Analysis.
+
+<figure class="lesson-figure" id="figure-lab-2">
+<img src="{{ '/assets/images/deck-media/94083edd814d3e84.webp' | relative_url }}" alt="The 1922 Kleine Dada Soirée poster: words in German, Dutch and French, in many sizes, typefaces and directions, jumbled around giant red letters spelling 'DADA'." loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="u-1-introduction-creativity" slide="lab-2" %}</figcaption>
+</figure>
 
 **Time:** 25 minutes (about 12 for the cut-up, 8 for the readymade, 5 for naming the moves).
 
@@ -231,6 +305,17 @@ Practises Masterclass idea **1** (open, then close) and the **language / medium 
 
 **Portfolio trace:** a photo of the cut-up page with your underlinings and ideas; the readymade's title and label; one sentence on which change did the most work; your list of opening and closing moves.
 
+**Example trace:** *Illustrative example (not student work)* — made by the professor to show the format.
+
+<div class="lesson-example-trace" markdown="1">
+- **Brief text cut up:** “Design a poster for the neighbourhood library’s late opening on Fridays.”
+- **Order drawn:** late · poster · Fridays · the neighbourhood · library’s · opening · design · for a.
+- **Underlined:** “late … library’s opening” → *idea:* the library shown as one lit window in a dark street.
+- **Readymade:** a desk lamp, unchanged. *New place:* on the classroom windowsill, switched on. *Title:* “Reading room, open late.” *Label:* “Light left on for whoever comes.” The other pair said they now saw a shop sign, not a lamp.
+- **Which change did the most work:** the title (language); the object and the windowsill alone did not say “library”.
+- **Moves:** opening — cutting, drawing, moving the lamp to the window; closing — underlining one phrase, choosing the title.
+</div>
+
 **Judged by:** [Portfolio rubric — critical analysis and judgement]({{ '/assignments/en/creativity-techniques-portfolio/' | relative_url }}#rubric)
 
 **Source:** Classroom adaptation.
@@ -244,19 +329,11 @@ LAB_LINE: exercise=2; technique_id=tzara-cut-up (+ readymade-recontextualisation
 
 ---
 
-## Autonomous work (outside class) — explore the course directory
+## Workshop
 
-Browse the [Directory]({{ '/directory/en/' | relative_url }}). Pick **two entries** where you could see yourself after your studies (prize, studio, journal, figure, organisation). Say why each fits you.
+No Workshop in sessions 1–3: the session ends after Lab, and Workshop time starts in session 4. This week, start D1 on your own time.
 
-**Portfolio trace:** two directory links + two sentences on your path.
-
----
-
-## B3 · No Workshop yet — start D1 on your own time
-
-There is **no Workshop in sessions 1–3**: the session ends after Lab. Workshop time starts in session 4. This week, start D1 on your own time.
-
-**Reminder — from session 3 you start the session.** Two students open the class with a **15-minute** analysis defence each. Your support is a **slideshow**. Intra-rubric: presentation **70%** · deliverable support **20%** · peer debate **10%**.
+**Reminder — from session 3 you start the session.** Two students open the class with a **15-minute** analysis defence each. Your support is a **slideshow**. Intra-rubric: presentation **70% of D1** · deliverable support **20% of D1** · peer debate **10% of D1**.
 
 **Done enough for this week if you have:**
 
@@ -267,11 +344,32 @@ There is **no Workshop in sessions 1–3**: the session ends after Lab. Workshop
 
 **Not this week:** D2 transposition, D3 Atrium (technical script and live defence), D5 exam.
 
+### Outside class — explore the course directory
+
+Browse the [Directory]({{ '/directory/en/' | relative_url }}). Pick **two entries** where you could see yourself after your studies (prize, studio, journal, figure, organisation). Say why each fits you.
+
+**Portfolio trace:** two directory links + two sentences on your path.
+
 ---
 
 ## Conclusion
 
-This unit does not settle what creativity is; it hands you a habit and a working definition. The four skills come from cognitive-testing traditions, and they sit uneasily beside the other authors in this unit: Schön argues that practitioners build their problems out of uncertain situations and reflect while they act; Buchanan argues that design problems are "wicked", with no definitive formulation; Kimbell argues that the claims made for "design thinking" are overstated. None of them is talking about creativity tests, which is exactly why reading one of them (start with a chapter, not a summary) is the next honest move after this class. What will you do with the gap between "I trained fluency this week" and "I made something that mattered"? The gap does not close here — that is the point; a lesson that resolves it too neatly would be teaching you the wrong thing about the field.
+This unit does not settle what creativity is; it hands you a habit and a working definition. The four skills come from cognitive-testing traditions, and they sit uneasily beside the other authors in this unit: Schön argues that practitioners build their problems out of uncertain situations and reflect while they act; Buchanan argues that design problems are "wicked", with no definitive formulation; Kimbell argues that the claims made for "design thinking" are overstated. None of them is talking about creativity tests, which is exactly why reading one of them (start with a chapter, not a summary) is the next honest move after this class. What will you do with the gap between "I trained fluency this week" and "I made something that mattered"? The gap does not close here — and a lesson that closed it too neatly would teach you the wrong thing about the field.
+
+---
+
+## Tao of Creativity {#tao-of-creativity}
+
+*Tao of Creativity* lines are short sayings written for this course. They are not quotations from the reading list, and they carry no author-date citation. The U1 deck uses these:
+
+- “Open many doors on Monday; close most of them on Tuesday — that rhythm is the craft, not the mood.”
+- “The professor models first; from session three, you defend what the piece is made of.”
+- “Name language, medium, and support before you praise the idea — otherwise you are judging a shadow.”
+- “Before you pick a method, write the question the brief still refuses to answer.”
+- “A technique is a lever, not a verdict — it moves the work; it does not replace your judgement.”
+- “When the buzzword arrives, ask what craft it is hiding — slogans are often empty handles.”
+- “What you save in the portfolio index is proof you were here — not decoration.”
+- “Carry one question into next week: what is creativity for you — and what would change your answer?”
 
 ---
 
@@ -290,7 +388,7 @@ MEDIA_RIGHTS_LINE: masterclass=diagram-fallback; geometrical=fractal-pass-track;
 ## Editorial note. Work in progress. Teaching Innovation Practice
 {: .lesson-editorial-note }
 
-Craft and Chen support open-then-close work and the four-skill vocabulary; Chen also supports the warning against treating alternate-uses scores as talent in every domain. Csikszentmihalyi supports fluency, flexibility, and originality as divergent-thinking dimensions, the domain–field–person system and the stage description. Beghetto and Karwowski and the report quoted by Fisher support the novelty-plus-value definition; Schön, Buchanan and Kimbell support ideas 4–6. Some classic studies behind these summaries are cited here through the books that report them, not from the original papers. None of these pages proves that *this* unit’s Lab sequence is the only valid classroom path. This note is part of an ongoing *Práctica de Innovación docente* — epistemic limits stay here, not between Masterclass paragraphs.
+Craft and Chen support open-then-close work and the four-skill vocabulary; Chen also supports the warning against treating alternate-uses scores as talent in every domain. Csikszentmihalyi supports fluency, flexibility, and originality as divergent-thinking dimensions, the domain–field–person system and the stage description. Beghetto and Karwowski and the report quoted by Fisher support the novelty-plus-value definition; Schön, Buchanan and Kimbell support ideas 4–6. Some classic studies behind these summaries are cited here through the books that report them, not from the original papers. The design examples and the example traces are written by the professor to illustrate the ideas; they are not research findings or student work. None of these pages proves that *this* unit’s Lab sequence is the only valid classroom path. This note is part of an ongoing *Práctica de Innovación docente* — epistemic limits stay here, not between Masterclass paragraphs.
 
 ---
 
