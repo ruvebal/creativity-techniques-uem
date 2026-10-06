@@ -54,4 +54,14 @@ else
   fail "browser layout check"; tail -15 "$DL_LOG"
 fi
 
+# Amendment A11: catalogue corrections from the EX7 cold review.
+ruby -ryaml -e '
+cat = YAML.load_file(ARGV[0]); cat = cat["techniques"] if cat.is_a?(Hash)
+rw = cat.find { |t| t["id"].to_s == "random-word" } or abort("random-word missing")
+abort("random-word still repeats words") if rw["steps"].join(" ") =~ /second word|another (random )?word/i
+pmi = cat.find { |t| t["id"].to_s =~ /pmi/ } or abort("pmi missing")
+abort("PMI locator not printed pages") if pmi.to_s =~ /PDF index/i
+' creativity-techniques-pedagogy/in-practice/CANONICAL-TECHNIQUES.yml && pass "catalogue A11 corrections (random-word, PMI)" || fail "catalogue A11 corrections (random-word, PMI)"
+absent "stale INDEX line removed (A11/F7)" "No YAML editing is required" creativity-techniques-pedagogy/in-practice/INDEX.md
+
 finish

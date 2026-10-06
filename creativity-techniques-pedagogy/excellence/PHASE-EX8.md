@@ -28,6 +28,8 @@ The Directory task moves to autonomous work or to U6.
 
 (Amendment A9: the EX8 gate runs the real-browser check — 0 failures at three viewports and in print; U2 Lab cards have no spare height at 1080p, so longer Lab text needs a restructured card; fix the stale "72%" CSS comment.)
 
+(Amendment A11: first correct the catalogue per A11 F1–F5, F7 — re-run mapping/build; cards show a Source line only for verified primary_source.)
+
 ## Deliverables
 
 1. Deck: each `lab_exercise` slide gets `technique_id` (from

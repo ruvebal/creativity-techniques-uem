@@ -17,6 +17,7 @@ Built during the autopilot run; read this once at the end (AUTOPILOT.md §5).
 | Phase | Status | Tag | Notes |
 | --- | --- | --- | --- |
 | EX0 | DONE | `excellence/ex0` | Probe + baseline + provisional weights; cold review PASS (11 findings, 0 blocking) |
+| EX7 | DONE | `excellence/ex7` | Canonical catalogue: 66 techniques (34 verified source, 19 held, 13 gap); 2,157 records mapped, 2,112 duplicates collapsed; cold review PASS (random-word step fix → EX8) |
 | EX6 | DONE (PARTIAL scope) | `excellence/ex6` | Research grounding: 23 verified works (U1 8, U2 14, U3 9, ML 4), 40 gaps → procurement list; all pin cites re-checked against print; single references.yml; 3 review rounds (R1 4 citation/deck-sync defects; R2 U3 lab-1 notes) |
 | EX5 | DONE | `excellence/ex5` | Deck renderer (pre-render, alt, captions, notes, layouts, timers, browser check 325 views/0 failures); 3 review rounds (R1 links/timer/caption overlap; R2 type shrunk below forge clamp) |
 | SYNC-1 | DONE | `excellence/sync-1` | main `d00539d` merged; ratified by professor; A8 adopted |

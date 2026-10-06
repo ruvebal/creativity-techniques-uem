@@ -184,6 +184,27 @@ syncs (the orchestrator applies it; `gitflow.sh sync` still stops on conflict):
 - **Record fix:** PHASE-EX6 round-2 F2 was a false positive (node 21f89015's
   sentence is in chapter 2); the report's chapter-4 note is unnecessary.
 
+## Amendment A11 (EX7 cold review, 2026-10-06)
+
+EX8 starts by correcting the catalogue (edit `in-practice/canonical/techniques.base.yml`,
+`map_records.py` rules/vetoes, re-run mapping + `build.py`), gated:
+- **F1 (P1):** `random-word` — one word per 3–5 minute slot; remove "draw a
+  second word and repeat" (de Bono 1970 ch. 18 forbids immediately looking for
+  another random word).
+- **F2:** re-map "Observation of Creative Environments" (not contextual
+  observation), "Cherry Split" (fractionation, fix held_note), "Challenge
+  Statements" (problem-statement wording, not Why); Michalko brainwriting
+  records are Geschka card brainwriting (one is solo writing) — correct the
+  6-3-5 count/claims.
+- **F3:** AUT evidence line keeps Chen p. 26 as a caution, not a finding;
+  open-monitoring line must not cite Colzato's 35-min sessions for a 3-min warm-up.
+- **F4:** PMI locator = debono-1985 printed pp. 12–13.
+- **F5:** never quote or derive steps from the machine back-translated Six Hats
+  copy (7e7ba834); report Six Hats support without it.
+- **F7:** fix the stale "No YAML editing is required" line in in-practice/INDEX.md.
+- **EX8 cards:** a student-facing Source line only for a verified
+  `primary_source`; techniques with `gap`/held sources run in class without one.
+
 ## Programme (do not invert)
 
 | Step | Phase | Lane | Findings closed | Human gate |
