@@ -98,8 +98,9 @@ RULES = {
     "creative-journal": [r"journal(ing)?\b(?!.*(journals_use|interdisciplinary))|morning pages|notebook practice|notebooks for reflection|reread your diary|keep a problem journal"],
     "reflection-in-action-log": [r"reflection-in-action|reflective conversation|on-the-spot reflection"],
     "process-trail": [r"process trail|creative process journals?"],
-    "open-monitoring-warm-up": [r"open[- ]monitoring|meditat|relaxed attention"],
+    "open-monitoring-warm-up": [r"open[- ]monitoring"],
     "bodystorming": [r"bodystorm"],
+    "constraint-writing": [r"oulipo|writing with constraints"],
     "thought-walk": [r"thought walk|walking for creativity|daydreaming walk|take leisurely walks|daily walks"],
     "improv-yes-and": [r"yes,? and|improvis"],
     "pure-contour-drawing": [r"contour drawing"],
@@ -115,6 +116,10 @@ COAT_GUARDS = {
 # The de Bono 1970 "Automatic Writing Practice" records are re-routed here.
 REROUTE = {("automatic-writing", "de_bono_edward_lateral_thinking"): "delay-judgement-checkpoint"}
 
+import yaml  # noqa: E402
+BASE_IDS = {t["id"] for t in yaml.safe_load(open(HERE / "techniques.base.yml"))["techniques"]}
+unknown_rule_ids = set(RULES) - BASE_IDS
+assert not unknown_rule_ids, unknown_rule_ids
 COMPILED = {k: [re.compile(r, re.I) for r in v] for k, v in RULES.items()}
 OFF = [(why, coat, re.compile(rx, re.I) if rx else None) for why, coat, rx in OFFTOPIC]
 
@@ -158,7 +163,7 @@ def main():
             best = max(hits, key=lambda t: max((m.end() - m.start()) for rx in COMPILED[t] for m in [rx.search(name)] if m))
             multi.append((name, hits, best)); hits = [best]
         tid, method = (hits[0], "rule") if hits else (None, None)
-        if tid is None and name in model and model[name] in RULES:
+        if tid is None and name in model and model[name] in BASE_IDS:
             tid, method = model[name], "model"
         if tid:
             for guard in COAT_GUARDS.get(tid, ()):

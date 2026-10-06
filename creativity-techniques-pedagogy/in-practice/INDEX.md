@@ -3,6 +3,8 @@
 Private, reusable catalogue of creativity exercises grounded in supplied monographs.
 JSON is the editable machine record; Markdown is a generated reading view. No YAML editing is required.
 
+**Canonical techniques (EX7, 2026-10-06):** Lab exercises are chosen from [`CANONICAL-TECHNIQUES.yml`](CANONICAL-TECHNIQUES.yml) (reading view [`CANONICAL-TECHNIQUES.md`](CANONICAL-TECHNIQUES.md); per-unit export [`CANONICAL-TECHNIQUES-BY-UNIT.yml`](CANONICAL-TECHNIQUES-BY-UNIT.yml); pipeline [`canonical/`](canonical/README.md)) — generated, private, never published.
+
 Generation disclosure: Codex authored this plan and runner on 2026-09-21. Source classification runs locally with `qwen2.5:32b-instruct`; code review defaults to `qwen2.5-coder:32b`. Quotations come mechanically from Ahmes through the semantic-quote skill. Ahmes currently uses its own hardcoded smaller Qwen model for built-in enrichment; that distinction must remain visible.
 
 ## Live evidence, 2026-09-21
