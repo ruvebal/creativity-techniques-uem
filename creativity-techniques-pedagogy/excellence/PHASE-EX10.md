@@ -38,6 +38,8 @@ adds retrieval practice, a pre/post study design and two classroom tools.
    `data-method-card` per card. Update the forge spine in
    `STUDENT-SLIDESHOW-FORGE.mdc` to allow `retrieval` after the Masterclass.
 
+(Amendment A13: fix U1 Flexibility wording to Chen 2011, 26; remove stale "class pool"; U2 idea 3 wayfinding line as an example, not a claim; lessons index Workshop wording.)
+
 ## Prompt (Implementation Agent)
 
 ```text

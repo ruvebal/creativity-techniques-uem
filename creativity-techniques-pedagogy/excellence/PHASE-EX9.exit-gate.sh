@@ -77,4 +77,27 @@ for p in pathlib.Path(sys.argv[1]).glob("u-[123]-*/data/content.json"):
 print(bad); sys.exit(1 if bad else 0)
 GATEPY
 
+# Amendment A13/F1: rendered captions — a flagged asset never shows "Public domain".
+python3 - <<'GATEPY' && pass "rendered captions: flagged assets never 'Public domain' (A13)" || fail "rendered captions: flagged assets never 'Public domain' (A13)"
+import json, pathlib, re, sys
+bad = []
+decks = list(pathlib.Path("docs/tracks/en/uem/2627-ct").glob("u-[123]-*/data/content.json")) + list(pathlib.Path("docs/tracks/en/uem/2627-ml").glob("*/data/content.json"))
+flagged = set()
+for p in decks:
+    d = json.loads(re.sub(r"^---[\s\S]*?---\s*", "", p.read_text()))
+    for a in d.get("assets", []):
+        if a.get("rights_status") == "flagged":
+            flagged.add(pathlib.Path(str(a.get("asset_url", ""))).name)
+pages = list(pathlib.Path("_site/tracks").rglob("index.html")) + list(pathlib.Path("_site/lessons").rglob("index.html"))
+for h in pages:
+    html = h.read_text(errors="ignore")
+    for name in flagged:
+        if not name: continue
+        for m in re.finditer(re.escape(name), html):
+            window = html[m.start(): m.start() + 1500]
+            if re.search(r"public domain", window, re.I) and not re.search(r"rights under review", window, re.I):
+                bad.append(f"{h}: {name}")
+print(sorted(set(bad))[:10]); sys.exit(1 if bad else 0)
+GATEPY
+
 finish

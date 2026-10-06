@@ -25,6 +25,8 @@ counted as failures. Update the probe's `--targets` accordingly.)
 
 (Amendment A10: structured `claims: [{text, cite}]` in deck notes + a test that each claim is attested on its cited page; include in the 12-lesson seed plan.)
 
+(Amendment A13: ct-unit-forge §4a-bis order Conclusion → Tao → References; 12-lesson split rule covers debate-linked and shared ideas; FINAL-REVIEW rights notes include U2 lab-1 Sawaki.)
+
 ## Deliverables
 
 1. `evidence/final-EX11.json` — probe output at the merged HEAD

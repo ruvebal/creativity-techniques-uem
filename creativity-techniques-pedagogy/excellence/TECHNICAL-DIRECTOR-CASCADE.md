@@ -221,6 +221,21 @@ EX9 also fixes the EX8 P2 findings (lessons + decks it restructures anyway):
 - **F9:** document `technique_id`, `technique_ids_also`, `practises` in the forge
   schema; the EX9 gate's Opt-out check covers `technique_ids_also`.
 
+## Amendment A13 (EX9 cold review, 2026-10-06)
+
+- **F1 gate fix (orchestrator, strengthening):** the EX9 caption-honesty check
+  read the raw `licence` field (never "public domain") and skipped the
+  master-lecture deck, so it could not fail. It now checks the rendered
+  caption text in the built decks and lessons, including `2627-ml`.
+- **EX10:** fix U1 Flexibility wording to Chen 2011, 26 ("consider a variety of
+  approaches … simultaneously"); remove the stale "class pool" (U1 Ex1 Source
+  line, U1 lab-1 note); U2 idea 3 wayfinding "In practice" line must read as
+  an example, not a general claim; lessons index Workshop wording ("D1 gets no
+  Workshop time").
+- **EX11:** `ct-unit-forge.mdc` §4a-bis Conclusion/Tao/References order; the
+  12-lesson split rule must say where debate-linked and shared ideas go;
+  FINAL-REVIEW rights notes include U2 lab-1 (Sawaki).
+
 ## Programme (do not invert)
 
 | Step | Phase | Lane | Findings closed | Human gate |
