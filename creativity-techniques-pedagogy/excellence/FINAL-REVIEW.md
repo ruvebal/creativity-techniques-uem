@@ -18,6 +18,7 @@ Built during the autopilot run; read this once at the end (AUTOPILOT.md §5).
 | --- | --- | --- | --- |
 | EX0 | DONE | `excellence/ex0` | Probe + baseline + provisional weights; cold review PASS (11 findings, 0 blocking) |
 | EX8 | VERIFYING | — | Lab redesign: six Lab cards U1–U3 (target Labs), catalogue corrected per A11 first; sign-off by autopilot, **your approval pending** (§3 EX8) |
+| EX10 | VERIFYING | — | Didactics layer: private 68-item question bank (41% higher order, guía RA codes), 3 public practice quizzes, one recall slide per U1–U3 deck, 40 printable method cards, peer rating sheet; protocol + ES/EN consent **drafts only — measurement not started** (§3 EX10) |
 | EX9 | VERIFYING | — | Lesson structure U1–U3 (+ ML headings): same 7 sections, ideas ≤ 220 words with Try it, 2 illustrative example traces per lesson, deck images with deck captions, Tao sections; A12 F1–F9, A10, A5, A9 template; citations/provenance unchanged (§3 EX9) |
 | EX9 | DONE | `excellence/ex9` | Lesson structure (claim → evidence → In practice → Try it), 7 illustrative traces, 22 lesson figures, Tao anchors, 12-lesson template; 0 citations lost; review PASS (10 P2) |
 | EX8 | DONE | `excellence/ex8` | Six Labs with exercise cards (U1 AUT + cut-up/readymade; U2 6-3-5 vs solo + hits→COCD→hats; U3 parallel prototyping + delay/checkpoint/exit); catalogue A11 fixes; review PASS (9 P2 → EX9) |
@@ -31,6 +32,8 @@ Built during the autopilot run; read this once at the end (AUTOPILOT.md §5).
 | EX1 | DONE | `excellence/ex1` | Contract + factual hotfix; cold review round 1 FAIL (F1 portfolio pass conditions), fixed; round 2 PASS |
 
 ## 2 · P0 decisions for you
+
+- **EX10 — approve before any use:** the knowledge-test question bank (`assessment/question-bank.yml`, 68 items), the measurement protocol (`assessment/MEASUREMENT-PROTOCOL.md`) and the consent forms (`consent/CONSENT-FORM-ES.md`, `-EN.md`) are autopilot drafts (`approved_by: autopilot (drafts — not for use before professor approval)`). The study has **not** started and must not start before your approval and the ethics route (protocol §8). The 15 public practice questions and 15 recall-slide questions come from the same unapproved bank. Two instrument sources are gaps: Amabile 1982 (CAT) and Karwowski 2012 (Short Scale of Creative Self).
 
 - **Lab sign-off (EX8):** the six U1–U3 Labs were signed off by autopilot (`curation/LAB-SIGNOFF.md`); approve or edit them before they are taught — table in §3 EX8.
 - **Weights 60/40 (provisional)** — from the Diseño PDF 2025/26; confirm against the 2026–27 guía before release. `DECISION-EX0-GUIA.md`.
@@ -288,6 +291,17 @@ U4 (legacy, out of scope) keeps *Man dreaming* (`profield-cache/0a359d9b946505e1
 - **Also:** A12 F1–F7 in lessons and deck notes; F9 schema documented; A10 notes reworded; breadcrumb duplicate removed; hreflang="es" only for a distinct existing Spanish page; 12-lesson template `forge/LESSON-TEMPLATE.md` + `forge/templates/lesson-template.md`.
 - **Local work:** one qwen call (design-example drafts, edited), one Thessia voice pass (discarded). `evidence/EX9/`.
 - Gate pre-check: EX9 0 failures; EX0–EX8 0 failures; `npm test` 55/55; deck–lesson sync green; `npm run build` exit 0 with publication safety (run by the orchestrator at a20b1f7). Report: `PHASE-EX9-REPORT.md`. Rollback: `gitflow.sh rollback 9`.
+
+### EX10 — didactics layer: question bank, practice quizzes, recall slides, method cards, measurement drafts (VERIFYING)
+
+- **P0 — approve the bank, the protocol and the consent forms before any use** (see §2). Measurement never started; no student data exist; nothing private is under `docs/` (gate: no "question-bank"/"MEASUREMENT-PROTOCOL" in `_site`).
+- **Question bank (private):** 68 items (U1 22, U2 24, U3 22; 30 mcq, 11 short, 27 case); 28 at apply/analyse/evaluate (41%); RA14 37, RA5 13, RA6 9, RA15 6, RA12 3 (thin — see report). Every answer comes from the unit lesson and the verified work its sentence cites (`ref` = a key in that lesson's reference list); uncited course method (language/medium/support, COCD box) is not examined.
+- **Public:** `/practice/en/u-1…`, `u-2…`, `u-3…` (5 questions each, answers on click, linked from each Conclusion); a "Recall check" slide closing each Masterclass (5 questions, answers in the speaker notes, 3-minute timer; browser check 340 views / 0 failures); `/methods/en/cards/` (40 printable cards: 6 practice methods + 34 techniques with a verified source; gap/held techniques not carded); `/practice/en/peer-rating-sheet/` (printable; optional round in U2 Lab Exercise 2, +5 minutes).
+- **Protocol (draft):** pre/post AUT (weeks 1 and 14, objects never used in class), originality by blinded peer consensual rating, SSCS if obtained; third-person consent handling; ethics approval before collection; one group, no causal claim.
+- **A13:** U1 Flexibility gloss now follows Chen 2011, 26 ("at once"); "class pool" removed; U2 wayfinding line is an example ("you might find"); lessons index Workshop row says D1 gets no Workshop time.
+- **Please check:** the U1–U3 lab-opener and outro now show the next geometric SVG in the cycle (the recall slide takes one); the AUT method card still says "Pool the class lists" (catalogue wording).
+- **Local work:** 3 `qwen2.5:32b-instruct` calls drafted 42 stems (26 bank items started from a draft, all rewritten and checked); 2 Athanor searches (no hit). `evidence/EX10/`.
+- Gate pre-check: EX10 0 failures; EX0–EX9 0 failures; tests 77/77; `npm run build` exit 0 with publication safety. Report: `PHASE-EX10-REPORT.md`. Rollback: `gitflow.sh rollback 10`.
 
 ### Release checklist additions (from EX2)
 

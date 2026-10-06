@@ -2988,6 +2988,7 @@ main#main:has(.lesson-wrapper) {
 
 .method-card ol {
 	padding-left: 1.3rem;
+	list-style: decimal;
 }
 
 .method-card__source {
@@ -3003,8 +3004,14 @@ main#main:has(.lesson-wrapper) {
 	page-break-inside: avoid;
 }
 
-.practice-quiz__question ol[type="A"] {
-	padding-left: 1.5rem;
+.practice-quiz__options {
+	margin: 0.4rem 0;
+	padding-left: 1.8rem;
+	list-style: upper-alpha;
+}
+
+.practice-quiz__stem {
+	margin: 0;
 }
 
 .practice-quiz__question details {
@@ -3044,4 +3051,16 @@ main#main:has(.lesson-wrapper) {
 		background: none;
 	}
 
+	/* Printable on white paper: dark text, no dark fills (EX10). */
+	.method-cards *,
+	.practice-quiz *,
+	.peer-rating-sheet * {
+		color: #111 !important;
+		background: transparent !important;
+	}
+
+	.peer-rating-sheet th,
+	.peer-rating-sheet td {
+		border-color: #555 !important;
+	}
 }

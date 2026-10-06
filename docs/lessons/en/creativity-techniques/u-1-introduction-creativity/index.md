@@ -135,7 +135,7 @@ Opening is **divergent** thinking: you invent many possibilities. Closing is **c
 Guilford’s four abilities, as Chen summarises them:
 
 - **Fluency** — produce many ideas quickly  
-- **Flexibility** — consider several different approaches to a problem at the same time (in the Lab you count them as kinds of idea)  
+- **Flexibility** — consider several approaches to a problem at once (in the Lab you count them as kinds of idea)  
 - **Originality** — produce ideas that few other people produce (rare answers)  
 - **Elaboration** — work the details and carry the idea through  
 
