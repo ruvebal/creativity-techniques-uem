@@ -221,6 +221,7 @@ U4 (legacy, out of scope) keeps *Man dreaming* (`profield-cache/0a359d9b946505e1
      - Chion and Alexander are held but not cited.
 - **Probe:** `uncited_references` now reads the `references.yml` mechanism, with a test.
 - **Local work:** 3 Ahmes ingests, about 30 Ahmes queries and 4 Athanor searches. One Thessia pass was discarded because it broke the citations.
+- **Round 2 (cold review FAIL → fixed):** deck notes still carried a removed claim and stale "no page cite" lines (now synced, with a new deck-lesson sync test); U3 misdescribed Amabile's sample (college students, not art students); one Craft cite did not support its clause (dropped). Every carried-over claim was re-read against its new page (table in the report). "Training can raise scores" softened; U1 conclusion now says what Schön, Buchanan and Kimbell actually argue; References now show the reprint/e-book consulted. Internal provenance records the resolver's real status.
 - Report: `PHASE-EX6-REPORT.md`. Rollback: `gitflow.sh rollback 6`.
 
 ### Release checklist additions (from EX2)

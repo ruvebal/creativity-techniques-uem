@@ -2,7 +2,7 @@
 
 | Field | Value |
 | --- | --- |
-| **status** | PARTIAL. The work is done and the exit gate has 0 failures. 40 of the required works are still `gap` and wait for procurement. Next: `cascade-harness.sh verify`, then cold review. |
+| **status** | PARTIAL (round 2 after cold review FAIL, F1–F4 fixed; F5–F10 done). The work is done and the exit gate has 0 failures. 40 of the required works are still `gap` and wait for procurement. Next: `cascade-harness.sh verify`, then cold review. |
 | **started_at / finished_at** | 2026-10-05 / 2026-10-05 |
 | **branch / worktree** | `cascade/excellence-6` · `creativity-techniques-uem-integration-excellence-6` (`.cascade-lane` = `excellence`) |
 | **mode** | AUTOPILOT. Under §2 EX6, only works already in the library or legitimately open access were ingested; everything else is a gap. |
@@ -169,7 +169,7 @@ I checked serialization first: `in-practice/runtime/process.json` names PID 4835
 
 ## Uncertain / for the cold reviewer
 
-- **Year changes.** Chen 2012 → 2011 (copyright page), Craft 2003 → 2000 (first edition; the e-Library edition keeps the print pages), Csikszentmihalyi 2007 → 1996 (the EPUB is a 2007 e-book of the 1996 text). These follow the "original year" rule and are logged in DECISIONS-LOG.
+- **Year changes.** Chen 2012 → 2011 (copyright page), Craft 2003 → 2000 (first edition; the e-Library edition keeps the print pages), Csikszentmihalyi 2007 → 1996 (the copy shows only © 2007; the 1996 year rests on outside evidence — see round 2, F7). These follow the "original year" rule and are logged in DECISIONS-LOG.
 - **Chapter locators.** de Bono 1970, Osborn 1942, Knapp 2016 and Csikszentmihalyi 1996 are cited by chapter title or number because their copies have no print pages. If the professor procures paginated copies, these become printed pins.
 - **Dow et al. 2010** was fetched from the authors' lab page. The PDF is the ACM-typeset version carrying ACM's personal/classroom-use notice. I judged this legitimate green open access and logged it. A stricter reading would make it a gap; U3 would still cite 8 works.
 - **Osborn 1942 stands in for Osborn 1953** on deferred judgement only. "Quantity breeds quality" is not claimed anywhere.
@@ -185,3 +185,58 @@ Next steps:
 3. Run the cold review: sample 5 new citations and check quote, page and claim. Good candidates: Schön 68, Buchanan 16, Wong et al. 168, Dow et al. 18:1, Beghetto and Karwowski 3.
 
 Do not open EX7 until EX6 is triaged. Under the resume rule, EX7 may follow a PARTIAL EX6.
+
+## Round 2 (cold review FAIL → fixes, 2026-10-06)
+
+| Finding | Fix | Where |
+| --- | --- | --- |
+| F1 (P1) U2 deck masterclass-3 notes kept the removed "first ideas … most people in the room" claim | Slide sentence "usually" → "often"; notes rewritten from lesson idea 3 (fixation, Cross 2006, 81–82; Norman 2013, 226; Osborn 1942, chap. 4); re-rendered | U2 `content.json`, `_includes/decks/u-2-*.html` |
+| F2 (P1) U3 notes said "no page cite in the lesson" for ideas 2, 3, 6; Lab 1 notes lacked Dow | Notes now carry the lesson's cites (Osborn/Amabile; Dow et al. 18:1; Schön 79; Dow in Lab 1); every deck's notes also synced (U2 m1 Amabile/Colzato, m4 Wong 168 limit, m5 Persaud; U3 m1 Knapp, m5 Buchanan) | U1–U3 `content.json`, decks re-rendered |
+| F2 follow-up | New check `tests/deck-lesson-sync.test.mjs`: every deck pin (sentence, label, notes) must appear with the same locator in the lesson's student text (or a lesson PROVENANCE_LINE with `surface=deck`); no "no page cite/source" notes. 8/8 pass | `excellence/tests/` |
+| F3 (P1) U3 "art students" | "in an experiment in which college students made artworks, those who expected to be evaluated produced work that was judged less creative" | U3 idea 2 |
+| F4 (P1) U2 Craft 30 on "definitions unstable" | Cite dropped; clause is course wording. Full claim re-check below | U2 idea 2 |
+| F5 | "Training can raise scores" → "Many workshops try to raise these scores" (U1 lesson + deck), "Workshops try to raise those scores" (U2 lesson + deck) | U1, U2 |
+| F6 | U1 conclusion now states what each author argues (Schön: problems built from uncertain situations, reflection while acting; Buchanan: wicked, no definitive formulation; Kimbell: claims for design thinking overstated) and says none is about creativity tests | U1 |
+| F7 | Csikszentmihalyi 1996: the held EPUB shows © 2007 only; 1996 rests on Persaud 2007's reference list (in the library) and the standard record of the 1996 HarperCollins first edition. Logged | DECISIONS-LOG |
+| F8 | U1–U3 `PROFESSOR.md` §7 tables rewritten to EX6 pins, nodes and resolver status | briefs |
+| F9 | Every VERIFIED PROVENANCE_LINE now records `resolver_evaluator_safe=` as `ahmes query --cite` returns it (36 yes, 13 no, 5 BIBLIO-GAP, 1 line has no node) plus `verified_by=manual-page-read`; the old `evaluator_safe=yes` claims are gone | 4 lessons |
+| F10 | `edition_note` rendered after the Chicago entry for reprints/e-books (7 works) | `references.yml`, `references.html` |
+
+### Claim re-check of every carried-over (pre-EX6) sentence on a re-pinned cite (A3/F2)
+
+| Lesson | Sentence (claim) | New pin | Page says | Result |
+| --- | --- | --- | --- | --- |
+| U1 idea 1, ML, U2 idea 1 | quote "The same creative act may involve both divergent and convergent thinking" / warrant for generate-then-select | Craft 2000, 30 | verbatim | holds |
+| U2 idea 2 | "definitions of what counts as creative remain unstable" | Craft 2000, 30 | not on page | **cite removed** (F4) |
+| U1 idea 2 | Guilford's four abilities "as summarised by Chen"; Fluency quote | Chen 2011, 26 | verbatim list | holds |
+| U1 idea 3, ML | paper-clip / music quote | Chen 2011, 26 | verbatim | holds |
+| ML | "Divergent thinking … major hallmark" | Chen 2011, 25 | verbatim | holds |
+| U1 idea 2, U2 ideas 3 and 6, ML | fluency/flexibility/originality triad; "two opposite ways"; "dimensions most tests measure and most workshops try to enhance" | Csikszentmihalyi 1996, chap. 3 | verbatim | holds; "training can raise scores" was not on the page → softened (F5) |
+| U2 idea 1 | map-then-route quote | de Bono 1985, 199 | verbatim | holds |
+| U2 idea 2 | lateral generative vs vertical selective | de Bono 1970, introduction | "Lateral thinking is generative. Vertical thinking is selective." | holds; now quoted |
+| U2 idea 3 | dig-hole quote | de Bono 1970, introduction | verbatim | holds |
+| U2 idea 3 | "looking for alternatives instead of blindly accepting the most obvious approach" | de Bono 1970, chap. "The Generation of Alternatives" | verbatim | holds |
+| U2 idea 4 | use information to provoke a new pattern | de Bono 1970, chap. "Difference between Lateral and Vertical Thinking" | "uses information … provocatively in order to bring about repatterning" | holds |
+| U2 idea 4 | Raymond tool quote | Raymond 2001, 44 | verbatim | holds |
+| U2 idea 4 | what-if thinking and alternatives | Wong, Galinsky, and Kray 2009, 161/168 | "if only"/"what if"; negative effect on novel generation | holds (rewritten in round 1) |
+| U2 idea 5 | editing as taste revealed in curation; what is included, what is not, how pieces sit together | Rubin 2023, 386 | "Our taste is revealed in how our work is curated. What's included, what's not, and how the pieces are put together." | holds |
+| U2 idea 6 | practice you keep doing; test methods on yourself | Rubin 2023, 326 | verbatim (rewritten in round 1) | holds |
+| U2 deck m6 | tortured-genius quote | Rubin 2023, 323 | verbatim | holds |
+| U2 conclusion | imagination, fantasy, creativity related terms | Hüppauf and Wulf 2009, 21 | "connections between … imagination, fantasy and creativity"; "field of related terms" | holds (narrowed in round 1) |
+| U3 idea 1 | "resolving ill-defined problems" + solution-focused | Cross 2006, vi | verbatim | holds |
+| U3 idea 4 | sketching problem/solution quote | Cross 2006, 37 | verbatim | holds |
+| U3 Lab 1 | "compare relationships, rhythm, and emphasis across the three starts" | Cross 2006, 86 | dialectics of sketching: "seeing that"/"seeing as" | **rewritten**: cite now carries only the seeing-that/seeing-as summary; the comparison is course wording |
+| U3 Lab 1 | "watch the temptation to solve the obvious way and paste the entry point on afterwards" | de Bono 1970, chap. "Choice of Entry Point…" | not on page; page says "a different entry point will usually mean a different train of ideas" | **rewritten**: cite moved to that quote; the warning is course wording |
+| U3 Lab 2 | delay judgement | de Bono 1970, chap. "The New Word PO" | "The usefulness of delaying judgement is one of the most basic principles of lateral thinking." | holds |
+| U3 idea 5 | creative agency definition | Beghetto and Karwowski 2025, 3 | verbatim (now quoted) | holds |
+| ML | Eckersall material properties quote; compositional device quote | Eckersall et al. 2017, 15 / 211 | verbatim | holds |
+
+### Round-2 results (real output)
+
+- `PHASE-EX0 … EX6.exit-gate.sh`: all exit 0, `failures: 0`.
+- `npm test`: 47 pass, 0 fail. `node --test …/probe-references.test.mjs …/deck-lesson-sync.test.mjs`: 12 pass, 0 fail.
+- `npm run test:browser`: 325 slide views, 0 failures (decks with longer notes still fit; notes are not on the slide face).
+- `npm run build` (prebuild, validate, jekyll, verify:publication): exit 0, "Publication safety passed"; rebuild left no tracked changes.
+- Built site: "most people in the room" and "no page cite" occur in no lesson or deck page; probe `uncited_references` empty for U1–U3 and ML (U4 `ref-lucas-knotts-2026` pre-existing, out of scope).
+
+Resume point unchanged: harness verify → fresh cold review of F1–F4 spots.
