@@ -36,7 +36,19 @@ OFFTOPIC = [
     ("ip-law", "ai_versus_ip", None),
     ("theology", None, r"\bgod\b|biblic|holy|\bchrist(?!mas)|theolog|liturg|sacrament|doctrin|revelat|faith|religio|scripture|incarnation|divine"),
     ("scientometrics", None, r"citation|citespace|co-citation|betweenness|bibliometric|science map"),
+    # Amendment A11/F5 (EX7 cold review): the library's second Six Thinking Hats
+    # copy (coat ...7e7ba834) is a machine back-translation with garbled text;
+    # its records are excluded from every count and never used for steps.
+    ("unreliable-copy (machine back-translation)", "edward_de_bono_six_thinking_hats_1985_little_brown_and_company_7e7ba834", None),
 ]
+
+# Record-level exclusions (Amendment A11/F2): records whose label names a
+# canonical technique but whose text describes something else. Left unmapped.
+EXCLUDE_URNS = {
+    # Michalko 2010, intuition chapter: "Brainwriting" there is solo intuitive
+    # free writing, not group brainwriting.
+    "urn:in-practice:exercise:a5cbef20829202b47f4ea5f3": "solo intuitive writing, not group brainwriting",
+}
 
 # ---------------------------------------------------------------- name rules
 # technique id -> list of regexes on the record name (case-insensitive).
@@ -45,9 +57,10 @@ RULES = {
     "random-word": [r"random word|random stimul|random magazine|formal random|random concept list|random object combination"],
     "po-provocation": [r"\bPO\b|provocat|movement (and|instead)"],
     "reversal-method": [r"revers(al|e) (method|thinking|practice|your viewpoint|perspective|approach)|reverse and opposite"],
-    "fractionation": [r"fractionat"],
+    # Michalko's "Cherry Split" is his name for fractionation (A11/F2).
+    "fractionation": [r"fractionat|cherry split"],
     "alternatives-quota": [r"generat\w* alternatives|search for alternatives|alternative (thinking|generation)|idea quota|balanced search for alternatives|alternative descriptions"],
-    "why-technique": [r"\bwhy (technique|questions)\b|challeng\w* assumption|reverse assumption|forget assumption|starting with .why|challenge (statements|labels)|rule-challenging|challenge obsolete rules"],
+    "why-technique": [r"\bwhy (technique|questions)\b|challeng\w* assumption|reverse assumption|forget assumption|starting with .why|challenge labels|rule-challenging|challenge obsolete rules"],
     "entry-point-attention-area": [r"entry point"],
     "dominant-idea": [r"dominant idea|crucial factor"],
     "analogy-transfer": [r"^analog(ies|y|ical)\b|analogies for problem|analogies practice|analogous situation|metaphors? for (a )?problem|conceptual blending through analog"],
@@ -80,7 +93,9 @@ RULES = {
     "empathy-map": [r"empathy map"],
     "mental-locks-audit": [r"mental locks?"],
     "double-diamond": [r"double[- ]diamond"],
-    "contextual-observation": [r"observation (of creative environments|for innovation|practice|in the field)|do observations in the field|user observation"],
+    # A11/F2: Csikszentmihalyi's "Observation of Creative Environments" (office
+    # layout at Bell Labs etc.) is not contextual user observation; removed.
+    "contextual-observation": [r"observation (for innovation|practice|in the field)|do observations in the field|user observation"],
     "hits-dot-voting": [r"dot vot|heat map|straw poll|supervote|sticky decision"],
     "note-and-vote": [r"note-and-vote|note and vote"],
     "cocd-box": [r"cocd"],
@@ -157,6 +172,8 @@ def main():
         why = offtopic(r)
         if why:
             out[urn] = {"drop": why}; drop_reasons[why] += 1; continue
+        if urn in EXCLUDE_URNS:
+            out[urn] = {"unmapped": name, "excluded": EXCLUDE_URNS[urn]}; stats["unmapped"] += 1; continue
         hits = rule_match(name)
         if len(hits) > 1:
             # Most specific wins: prefer the rule whose regex matched the longest span.

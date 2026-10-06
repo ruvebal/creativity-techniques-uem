@@ -77,7 +77,7 @@ units:
         source_status: verified
         time_min: 15
         embodied: false
-        catalogue_records: 72
+        catalogue_records: 61
       - id: wicked-reframe
         name: Problem–solution reframing (wicked problems)
         family: framing
@@ -104,7 +104,7 @@ units:
         source_status: verified
         time_min: 10
         embodied: false
-        catalogue_records: 76
+        catalogue_records: 58
       - id: pure-contour-drawing
         name: Pure contour drawing
         family: embodied
@@ -273,7 +273,7 @@ units:
         source_status: verified
         time_min: 10
         embodied: false
-        catalogue_records: 76
+        catalogue_records: 58
       - id: analogy-transfer
         name: Analogy transfer
         family: generation
@@ -309,7 +309,7 @@ units:
         source_status: verified
         time_min: 20
         embodied: false
-        catalogue_records: 23
+        catalogue_records: 39
       - id: po-provocation
         name: PO provocation
         family: generation
@@ -318,16 +318,16 @@ units:
         source_status: verified
         time_min: 15
         embodied: false
-        catalogue_records: 202
+        catalogue_records: 160
       - id: random-word
         name: Random word stimulation
         family: generation
         mode: divergent
         primary_source: debono-1970
         source_status: verified
-        time_min: 15
+        time_min: 10
         embodied: false
-        catalogue_records: 114
+        catalogue_records: 113
       - id: reversal-method
         name: Reversal method
         family: generation
@@ -372,7 +372,7 @@ units:
         source_status: verified
         time_min: 10
         embodied: false
-        catalogue_records: 9
+        catalogue_records: 8
       - id: six-thinking-hats
         name: Six Thinking Hats
         family: selection
@@ -381,7 +381,7 @@ units:
         source_status: verified
         time_min: 30
         embodied: false
-        catalogue_records: 714
+        catalogue_records: 366
       - id: attribute-listing
         name: Attribute listing
         family: generation
@@ -390,7 +390,7 @@ units:
         source_status: held
         time_min: 20
         embodied: false
-        catalogue_records: 32
+        catalogue_records: 16
       - id: automatic-writing
         name: Automatic writing
         family: generation
@@ -408,7 +408,7 @@ units:
         source_status: held
         time_min: 20
         embodied: false
-        catalogue_records: 6
+        catalogue_records: 5
       - id: circle-of-opportunity
         name: Circle of opportunity (random attribute pairing)
         family: generation
@@ -643,7 +643,7 @@ units:
         source_status: verified
         time_min: 30
         embodied: false
-        catalogue_records: 21
+        catalogue_records: 9
       - id: dominant-idea
         name: Dominant idea and crucial factor
         family: framing
@@ -697,7 +697,7 @@ units:
         source_status: verified
         time_min: 15
         embodied: false
-        catalogue_records: 72
+        catalogue_records: 61
       - id: wicked-reframe
         name: Problem–solution reframing (wicked problems)
         family: framing
@@ -733,7 +733,7 @@ units:
         source_status: verified
         time_min: 20
         embodied: false
-        catalogue_records: 23
+        catalogue_records: 39
       - id: lightning-demos
         name: Lightning demos
         family: generation
@@ -751,7 +751,7 @@ units:
         source_status: verified
         time_min: 15
         embodied: false
-        catalogue_records: 202
+        catalogue_records: 160
       - id: reflection-in-action-log
         name: Reflection-in-action log
         family: reflection
@@ -796,7 +796,7 @@ units:
         source_status: held
         time_min: 20
         embodied: false
-        catalogue_records: 32
+        catalogue_records: 16
       - id: morphological-box
         name: Morphological box (idea box)
         family: generation
@@ -905,7 +905,7 @@ units:
         source_status: verified
         time_min: 30
         embodied: false
-        catalogue_records: 21
+        catalogue_records: 9
       - id: dominant-idea
         name: Dominant idea and crucial factor
         family: framing
@@ -995,7 +995,7 @@ units:
         source_status: verified
         time_min: 10
         embodied: false
-        catalogue_records: 9
+        catalogue_records: 8
       - id: six-thinking-hats
         name: Six Thinking Hats
         family: selection
@@ -1004,7 +1004,7 @@ units:
         source_status: verified
         time_min: 30
         embodied: false
-        catalogue_records: 714
+        catalogue_records: 366
       - id: improv-yes-and
         name: Improvisation (yes, and)
         family: embodied
@@ -1049,7 +1049,7 @@ units:
         source_status: held
         time_min: 20
         embodied: false
-        catalogue_records: 6
+        catalogue_records: 5
       - id: mom-test-interview
         name: Mom Test interview
         family: development
@@ -1150,9 +1150,9 @@ units:
         mode: divergent
         primary_source: debono-1970
         source_status: verified
-        time_min: 15
+        time_min: 10
         embodied: false
-        catalogue_records: 114
+        catalogue_records: 113
       - id: morphological-box
         name: Morphological box (idea box)
         family: generation

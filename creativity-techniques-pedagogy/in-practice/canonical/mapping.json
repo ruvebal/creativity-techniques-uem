@@ -129,9 +129,7 @@
 "unmapped": "Creative Habits Framework"
 },
 "urn:in-practice:exercise:017d092841730f3d07d9eada": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:0199a42e5d90579415a59b8c": {
 "unmapped": "Morning Insight Time"
@@ -155,9 +153,7 @@
 "unmapped": "Moebius Strip Experiment"
 },
 "urn:in-practice:exercise:01cabf168a0fb070814c1143": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:01cf2bb6bda4419e76f10fb4": {
 "technique": "six-thinking-hats",
@@ -314,14 +310,10 @@
 "name": "Suspended Judgement"
 },
 "urn:in-practice:exercise:03700a79a8a61645a8d6263f": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:037c5dcbdea19ccb37ba8557": {
-"technique": "contextual-observation",
-"method": "rule",
-"name": "Observation of Creative Environments"
+"unmapped": "Observation of Creative Environments"
 },
 "urn:in-practice:exercise:037e58789dc7da6e1d16be22": {
 "unmapped": "Creative Aspirations or Pipe Dreams"
@@ -330,9 +322,7 @@
 "unmapped": "Reflective Teaching Practice"
 },
 "urn:in-practice:exercise:039313a3142e978bb72c10cc": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:039cab77b7b97fda9eca8451": {
 "technique": "brainstorming-osborn",
@@ -355,9 +345,7 @@
 "unmapped": "Reframe Obligations"
 },
 "urn:in-practice:exercise:03fad2eb4815da40cc7ced1b": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Speculative Yellow Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:040c1ac43f1fa791e481790f": {
 "unmapped": "Lateral Thinking vs Vertical Thinking"
@@ -430,9 +418,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:04e3ebe475c52911f3021baa": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:04e785b386ae9a0b39e9869a": {
 "technique": "six-thinking-hats",
@@ -553,9 +539,7 @@
 "name": "Attribute Combination"
 },
 "urn:in-practice:exercise:0690d0aed6b6e990b3c9cf2e": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:069abc428e8754fbebab4934": {
 "technique": "six-thinking-hats",
@@ -589,9 +573,7 @@
 "unmapped": "Blind Variation and Selective Retention"
 },
 "urn:in-practice:exercise:06f1f6e0eccb048b1a971025": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Yellow Hat Positive Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:06f6c5c759696b6fff27d4aa": {
 "unmapped": "Future Orientation Practice"
@@ -638,9 +620,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:0731c9950ea626826a6208ec": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:073883ba27109e6f7ef92433": {
 "unmapped": "Color Questioning"
@@ -677,9 +657,7 @@
 "unmapped": "Creative mathematics"
 },
 "urn:in-practice:exercise:07aad8d26b0d8ad8ec63dd15": {
-"technique": "alternatives-quota",
-"method": "rule",
-"name": "Alternative Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:07b9f9925311d9cad486df87": {
 "unmapped": "Cross Disciplinary Boundaries"
@@ -760,14 +738,10 @@
 "name": "Blue Hat Thinking"
 },
 "urn:in-practice:exercise:09000765e8a2c2b089e1329a": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:090aa5f373cddfde4394d07f": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Blue Hat Thought Control"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:0948c5cd9c50754a8de10172": {
 "unmapped": "Stepping Stone Technique"
@@ -785,8 +759,8 @@
 "unmapped": "Improving Approach"
 },
 "urn:in-practice:exercise:095d47864fc247d927d110b6": {
-"technique": "attribute-listing",
-"method": "model",
+"technique": "fractionation",
+"method": "rule",
 "name": "Cherry Split Technique"
 },
 "urn:in-practice:exercise:0966b47659306dcd653405a3": {
@@ -834,9 +808,7 @@
 "unmapped": "Creative Habits through Artistic Expression"
 },
 "urn:in-practice:exercise:09f76fc7f703e10c32f3db99": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:0a1167daedb29c6bc7d4c691": {
 "unmapped": "TRIP Model Application"
@@ -868,14 +840,10 @@
 "unmapped": "Experiment with Play"
 },
 "urn:in-practice:exercise:0a798f99bb23044ba137505c": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:0a824d3e57e2f890b3cbdd05": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Yellow Hat Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:0a94dee266f017798ca69316": {
 "drop": "ml-engineering"
@@ -992,9 +960,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:0c25713449b21aea9d107e94": {
-"technique": "alternatives-quota",
-"method": "rule",
-"name": "Alternative Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:0c320b75337692ff8a5202a3": {
 "unmapped": "Influential Peers"
@@ -1061,7 +1027,7 @@
 "unmapped": "Virtual World Experimentation"
 },
 "urn:in-practice:exercise:0cc4762ebf18f33113f25339": {
-"unmapped": "Act as if"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:0cca625b4a25005dc5d794d0": {
 "unmapped": "Sand Tray Technique"
@@ -1132,9 +1098,7 @@
 "unmapped": "Incubation Technique"
 },
 "urn:in-practice:exercise:0d97409042c2dbd78c063304": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Yellow Hat Positive Evaluation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:0d9812496fff11afd5d930f2": {
 "drop": "cloud-setup"
@@ -1151,14 +1115,10 @@
 "name": "Black Hat Thinking"
 },
 "urn:in-practice:exercise:0da8b2bc0d6ec3779f4752d9": {
-"technique": "why-technique",
-"method": "rule",
-"name": "Challenge Statements"
+"unmapped": "Challenge Statements"
 },
 "urn:in-practice:exercise:0daffd28270d44c95800af88": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:0db6c808a13ef8e406909c45": {
 "drop": "ml-engineering"
@@ -1173,9 +1133,7 @@
 "unmapped": "Reimagining Moral Values"
 },
 "urn:in-practice:exercise:0dea050a948eb9ad65bb765f": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:0df6fae1525924f295a811a7": {
 "unmapped": "Interpretive Analysis for Conceptual Creativity"
@@ -1274,9 +1232,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:0ed3e903943869956d7e2347": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:0ed8a32746ed782dab4d677f": {
 "unmapped": "Multiple-Perspective Analysis Procedure"
@@ -1302,9 +1258,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:0f17d44cd06db51f9e4c6f12": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Hats Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:0f1ba6d2c8085634234702f3": {
 "unmapped": "Variation and Selection"
@@ -1332,9 +1286,7 @@
 "name": "Automatic Writing Practice"
 },
 "urn:in-practice:exercise:0f359b9d3d5efb811a35b41b": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:0f3b0d8355a7c3e42b2684ff": {
 "unmapped": "Whole-Body Listening"
@@ -1428,9 +1380,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:1051a92d134db0dc58063b52": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Express Intuition with Red Hat"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:1052c23d37329b3cf3a744c1": {
 "technique": "six-thinking-hats",
@@ -1451,8 +1401,8 @@
 "name": "Modify Products"
 },
 "urn:in-practice:exercise:106ae68090ada63a8f8de871": {
-"technique": "attribute-listing",
-"method": "model",
+"technique": "fractionation",
+"method": "rule",
 "name": "Cherry Split Technique"
 },
 "urn:in-practice:exercise:106b911543e147a0907b5e8c": {
@@ -1481,9 +1431,7 @@
 "unmapped": "Set Constraints for Projects"
 },
 "urn:in-practice:exercise:10cead1ffe84369f04b8a2a0": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Blue Hat Control"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:10d3038b39299c39dffa1a26": {
 "unmapped": "Decision Tree Analysis"
@@ -1508,9 +1456,7 @@
 "unmapped": "Information Foraging Theory Application"
 },
 "urn:in-practice:exercise:1105d0c40d2d6e233d6173d6": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:1107913464c5c73714418d1e": {
 "drop": "ml-engineering"
@@ -1534,9 +1480,7 @@
 "unmapped": "Teach and Learn Simultaneously"
 },
 "urn:in-practice:exercise:1121903ed3334f53b44422bc": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:11241cf71f5eee83e8b68e11": {
 "unmapped": "Monica's Creative Leap"
@@ -1548,9 +1492,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:11651e5098bf41f4ee9b4a15": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:116a2dbe09b96a94dda6fc8c": {
 "unmapped": "Generative Metaphor Practice"
@@ -1594,9 +1536,7 @@
 "unmapped": "Essence-Based Design"
 },
 "urn:in-practice:exercise:11b99615267255316c8bb119": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:11c78800732a49b5a7660d95": {
 "drop": "ml-engineering"
@@ -1611,14 +1551,10 @@
 "unmapped": "Heart/Dollar Seesaw"
 },
 "urn:in-practice:exercise:11e9dcda0aabba37b8636016": {
-"technique": "why-technique",
-"method": "rule",
-"name": "Challenge Statements"
+"unmapped": "Challenge Statements"
 },
 "urn:in-practice:exercise:11eebeff3b370df1b59210bc": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:12078d20d9a33f0184bd15e5": {
 "technique": "analogy-transfer",
@@ -1643,9 +1579,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:126e6df95d381d640612b51a": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Emotional Expression"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:12748813693a746a3ce0817b": {
 "drop": "ml-engineering"
@@ -1754,9 +1688,7 @@
 "unmapped": "Collaborate with Detachment"
 },
 "urn:in-practice:exercise:13d1a0c13ffe8f761a18b673": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Speculative Yellow Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:13d2d9f064371730f4b239f4": {
 "technique": "po-provocation",
@@ -1891,19 +1823,13 @@
 "unmapped": "Improve Accessibility of Information"
 },
 "urn:in-practice:exercise:151aa91076eb4fd182bd889a": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:152da25ebe0d33e2c02685cb": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:15343ac40305937dc06c63d4": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:15375857cec89ebbb51991f2": {
 "unmapped": "Transformative Research Funding Mechanisms"
@@ -1941,9 +1867,7 @@
 "drop": "theology"
 },
 "urn:in-practice:exercise:159b686a24e036a512100498": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Emotional Expression"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:159bef5e1c2178d8c0f6daa2": {
 "unmapped": "I Like/I Wish"
@@ -1965,8 +1889,8 @@
 "name": "Analogical Reasoning for Problem Generation"
 },
 "urn:in-practice:exercise:15ad44a6bc9d7f69c55b5958": {
-"technique": "attribute-listing",
-"method": "model",
+"technique": "fractionation",
+"method": "rule",
 "name": "Cherry Split Technique"
 },
 "urn:in-practice:exercise:15b00db0f0092af3e2247f61": {
@@ -1995,9 +1919,7 @@
 "unmapped": "Intellectual Creativity in Practice"
 },
 "urn:in-practice:exercise:15ebdaaa4fc4ac8a607e615b": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:15ecf9da30532b7c8ac11580": {
 "technique": "brainstorming-osborn",
@@ -2077,9 +1999,7 @@
 "name": "PO as preface"
 },
 "urn:in-practice:exercise:16bbed3bb9e8535b0fdb3c02": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Provocation with 'op'"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:16d03713376f3e6fd69b45d1": {
 "technique": "scamper",
@@ -2132,9 +2052,7 @@
 "name": "Random Word Association"
 },
 "urn:in-practice:exercise:1788c92020a6e4afa0492f6b": {
-"technique": "alternatives-quota",
-"method": "rule",
-"name": "Alternative Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:178b05f8bb4d7611a375ed05": {
 "technique": "analogy-transfer",
@@ -2150,9 +2068,7 @@
 "name": "Thinking Hats"
 },
 "urn:in-practice:exercise:17ba3974de4c2d9299602199": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:17c51a3a87ca8cdf2e314299": {
 "technique": "why-technique",
@@ -2258,9 +2174,7 @@
 "name": "Black Hat Thinking"
 },
 "urn:in-practice:exercise:18e9f4e3c405a73a6da82a52": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:18eacea1c52fc3375ee6f976": {
 "technique": "six-thinking-hats",
@@ -2385,12 +2299,10 @@
 "name": "PO Technique"
 },
 "urn:in-practice:exercise:1a1cab0756b4b644f6e623bc": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:1a240920902dcf88c2657e81": {
-"unmapped": "Opportunity Exploration"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:1a262f67645c89b3e401f553": {
 "unmapped": "Expand Awareness"
@@ -2446,9 +2358,7 @@
 "name": "User Observation and Prototyping"
 },
 "urn:in-practice:exercise:1aac932b40f3aa51d62f96ec": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:1aad6ca722ffdf5b7eb0960d": {
 "drop": "network-security"
@@ -2598,8 +2508,8 @@
 "name": "SCAMPER Technique"
 },
 "urn:in-practice:exercise:1c0268c6a6e964c7499b8845": {
-"technique": "attribute-listing",
-"method": "model",
+"technique": "fractionation",
+"method": "rule",
 "name": "Cherry Split Technique"
 },
 "urn:in-practice:exercise:1c20d1649efadf325ac3fa1d": {
@@ -2662,9 +2572,7 @@
 "unmapped": "No Worry of Failure"
 },
 "urn:in-practice:exercise:1cc9bafba7fefe1780bbf9d7": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Green Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:1ce566995ba4e3148aa2023a": {
 "unmapped": "Lyric Interpretation"
@@ -2757,9 +2665,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:1e2cd7c3c81302cdd9c7a341": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Yellow Hat Proposal Generation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:1e3941792561fc5d3a18331d": {
 "technique": "six-thinking-hats",
@@ -2815,9 +2721,7 @@
 "unmapped": "Partner Role Play"
 },
 "urn:in-practice:exercise:1f022a1bb3fb9ce21036405a": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Green Hat Urgency"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:1f13a4c712250f1e5cdd6bf3": {
 "unmapped": "Soft and Hard Thinking"
@@ -2849,7 +2753,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:1f77b7e8ee37d9a052fc4e38": {
-"unmapped": "Act as if"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:1f7b95cf678069830b854d20": {
 "technique": "question-led-prototype",
@@ -2893,9 +2797,7 @@
 "name": "Brainstorming Bulletin Board"
 },
 "urn:in-practice:exercise:1fe80ba4cf6163acf0b21b67": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Yellow Hat Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:1ff14370f1a092bfc6680a55": {
 "technique": "scamper",
@@ -2939,9 +2841,7 @@
 "name": "Red Hat Thinking"
 },
 "urn:in-practice:exercise:209196650234de55c534aeb5": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Speculative Yellow Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:20954dba056b73b501620973": {
 "unmapped": "Patience"
@@ -2970,7 +2870,7 @@
 "unmapped": "You're Fired"
 },
 "urn:in-practice:exercise:20d91426fb817788b0ee9897": {
-"unmapped": "Devil's Advocate"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:20dbd246ac8f27d48020de3f": {
 "unmapped": "Change Context"
@@ -3002,9 +2902,7 @@
 "unmapped": "Conducting a Survey"
 },
 "urn:in-practice:exercise:2131227a48ac2ca2513124c8": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:213433617105adf4113e30ec": {
 "drop": "ml-engineering"
@@ -3044,9 +2942,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:21620c79cc65832e97102196": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:2166b5faaa3c126841e2ebc2": {
 "technique": "problem-finding",
@@ -3168,9 +3064,7 @@
 "unmapped": "Knowledge Domain Visualization"
 },
 "urn:in-practice:exercise:22b58920696772a46860f2d3": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:22be1df7bb5632b913a26a35": {
 "unmapped": "TRIP Model for Queer and Trans Inclusivity"
@@ -3231,8 +3125,8 @@
 "name": "Storyboarding a Service"
 },
 "urn:in-practice:exercise:2381521a2b3f07532b3bd74d": {
-"technique": "attribute-listing",
-"method": "model",
+"technique": "fractionation",
+"method": "rule",
 "name": "Cherry Split Technique"
 },
 "urn:in-practice:exercise:23a5a8a9bd0e0c26d5ae19e1": {
@@ -3265,9 +3159,7 @@
 "unmapped": "Develop Intuition"
 },
 "urn:in-practice:exercise:23e3aaee923aec6d167a87f9": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:23ea38aa4408c45506a7a4a5": {
 "unmapped": "Sustained Themes"
@@ -3325,9 +3217,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:248f8f915531c8ccf5100ced": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:24902a0b33fdb66797e20af4": {
 "technique": "why-technique",
@@ -3335,7 +3225,7 @@
 "name": "Reverse Assumptions"
 },
 "urn:in-practice:exercise:2499ea35be60c7fad0878ce8": {
-"unmapped": "Devil's Advocate"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:249bd9c7297ace0100f2476c": {
 "unmapped": "Collaborative Music Composition"
@@ -3368,9 +3258,7 @@
 "unmapped": "Generative Metaphor Practice"
 },
 "urn:in-practice:exercise:250814a62c72fec96f57be93": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:2508a0f214423d953623be42": {
 "technique": "creative-journal",
@@ -3412,9 +3300,7 @@
 "name": "Modify Idea"
 },
 "urn:in-practice:exercise:25790cd534fe5f53f5b7f02d": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:2586f8c9e332bd3dc3bb97f6": {
 "technique": "random-word",
@@ -3490,9 +3376,7 @@
 "unmapped": "Competing Hypotheses"
 },
 "urn:in-practice:exercise:26333eb5f5b8189d2996ba75": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:26357499962952bb86a76286": {
 "unmapped": "Distill to Essence"
@@ -3710,9 +3594,7 @@
 "unmapped": "Children's Block Balancing Experiment"
 },
 "urn:in-practice:exercise:28a2b838c46ee8e12d53dfe7": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:28a55cf53372ef896eaa336b": {
 "technique": "six-thinking-hats",
@@ -3751,12 +3633,10 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:28eb669d27792c70cc1b858d": {
-"unmapped": "Synthesize Group Thoughts"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:28fa71687fddb5c1250d0f23": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:291bac1cadf767d73c9ab5f5": {
 "technique": "six-thinking-hats",
@@ -3824,9 +3704,7 @@
 "unmapped": "Community Chalkboard"
 },
 "urn:in-practice:exercise:29a4697c2ed862160646cd9a": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:29ba6fbec51614fcf945d99e": {
 "unmapped": "Tick-Tock Exercise"
@@ -3860,9 +3738,7 @@
 "unmapped": "Puppet Play"
 },
 "urn:in-practice:exercise:2a1fe4c73af5275c324fb7f5": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:2a20ef3f57a17edee62e3187": {
 "technique": "reversal-method",
@@ -3873,9 +3749,7 @@
 "unmapped": "Exploring Sorting Hoops"
 },
 "urn:in-practice:exercise:2a2f771c82b524d6c4249464": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:2a44510b58274409f372126f": {
 "drop": "theology"
@@ -3934,9 +3808,7 @@
 "unmapped": "Decision Tree Analysis"
 },
 "urn:in-practice:exercise:2afa3140b2e8d61fc602064c": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Use Red Hat for Emotions"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:2afa9527c3a7a0da62778117": {
 "drop": "ml-engineering"
@@ -3956,14 +3828,10 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:2b4610cedfde353d4cd61342": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Use White Hat for Information"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:2b58a7314dd995658c716cf2": {
-"technique": "alternatives-quota",
-"method": "rule",
-"name": "Alternative Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:2b59ce8c91f30d3b975cd18d": {
 "unmapped": "Customer Journey Map"
@@ -4090,9 +3958,7 @@
 "unmapped": "Fifteen Seconds of Brilliance"
 },
 "urn:in-practice:exercise:2cb3dd2a9fd1d25bad895f2e": {
-"technique": "alternatives-quota",
-"method": "rule",
-"name": "Alternative Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:2cb5e13c93af786bb8eed5d4": {
 "technique": "seed-collection",
@@ -4119,9 +3985,7 @@
 "unmapped": "Problem Framing with Stability"
 },
 "urn:in-practice:exercise:2cdb4b6ea6236dcbe607c3da": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:2ce9046aabadf0cfc5222c6f": {
 "unmapped": "Remember Your Creative Self"
@@ -4186,9 +4050,7 @@
 "unmapped": "Design Practice"
 },
 "urn:in-practice:exercise:2dd0d1d56671631600864eb7": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:2de92609743307d69973a725": {
 "technique": "morphological-box",
@@ -4242,9 +4104,7 @@
 "drop": "cloud-setup"
 },
 "urn:in-practice:exercise:2e3b2b816585397b43130033": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:2e507bd19f6633e0a7d0ae9e": {
 "drop": "ip-law"
@@ -4379,9 +4239,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:2f587121fc86474d34a8dbc4": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Green Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:2f5a80f60b4e78e1d1e7d6e7": {
 "unmapped": "Problem Framing in Planning Meetings"
@@ -4444,17 +4302,13 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:306f758e876822dc7c0bf44a": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:3070036bfae589635cfc9384": {
 "unmapped": "Teabag Experiment"
 },
 "urn:in-practice:exercise:307e480320870689587aa86a": {
-"technique": "why-technique",
-"method": "rule",
-"name": "Challenge Statements"
+"unmapped": "Challenge Statements"
 },
 "urn:in-practice:exercise:3093ec7f4a36dc11b4d48810": {
 "drop": "ml-engineering"
@@ -4475,9 +4329,7 @@
 "unmapped": "Play the Fool"
 },
 "urn:in-practice:exercise:30af9dd0de22d79490a46d26": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:30afa511600648c3e2941e59": {
 "technique": "what-if-prompts",
@@ -4501,9 +4353,7 @@
 "name": "Six Thinking Hats Role-Playing"
 },
 "urn:in-practice:exercise:30ec90f959a48a8762fc496b": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:30f2ef82052574ec04af4efc": {
 "technique": "mind-map",
@@ -4528,9 +4378,7 @@
 "unmapped": "Janusian thinking"
 },
 "urn:in-practice:exercise:31420be278c41985ecfdc4e9": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Hats Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:3147f54d72cdb2e73f0c4c02": {
 "unmapped": "Drawing Challenge"
@@ -4556,9 +4404,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:318dab54e6fe38107b98ce76": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:3193f1cf8aed3a43f36d3ced": {
 "technique": "random-word",
@@ -4586,9 +4432,7 @@
 "unmapped": "Ocean's Influence on Creativity"
 },
 "urn:in-practice:exercise:31ee042166cd452c1c597781": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:31f4c2fd3e5e11392e3528c3": {
 "unmapped": "Artistic Performance"
@@ -4606,14 +4450,10 @@
 "unmapped": "Heuristic Generation for Creativity"
 },
 "urn:in-practice:exercise:3207fa4c7146b8e92127a8aa": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:320e0add4f3991f5999d58c5": {
-"technique": "why-technique",
-"method": "rule",
-"name": "Challenge Statements"
+"unmapped": "Challenge Statements"
 },
 "urn:in-practice:exercise:3212e9107df26e2f6c4d2d30": {
 "unmapped": "Seed Storage"
@@ -4636,9 +4476,7 @@
 "name": "What If Scenarios"
 },
 "urn:in-practice:exercise:322d6fbdf631a97ed122e20b": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:323d1892beac41f8244ee239": {
 "unmapped": "Mechanical Toy Design for Year 9"
@@ -4661,9 +4499,7 @@
 "unmapped": "Limit Your Palette"
 },
 "urn:in-practice:exercise:325a35ceaa143ebcd9efe2b9": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Hats Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:325ff5ff24ee4d359a8f54ee": {
 "drop": "ml-engineering"
@@ -4693,9 +4529,7 @@
 "unmapped": "Designing and Making Picture-Frames"
 },
 "urn:in-practice:exercise:32b9a9d15923355ef1966bbd": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:32df09d7267fc78504423997": {
 "unmapped": "Flexible Design Process"
@@ -4712,9 +4546,7 @@
 "name": "Create Your Own Oracle"
 },
 "urn:in-practice:exercise:3312ee7f90489c82e0617c39": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:331481bb82477dfa4a00ac17": {
 "technique": "po-provocation",
@@ -4737,9 +4569,7 @@
 "unmapped": "Current Challenges"
 },
 "urn:in-practice:exercise:334d4a75b428b3f7c11859ef": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:335f6c4bb3e82f78f36465b5": {
 "drop": "medicine/therapy"
@@ -4814,9 +4644,7 @@
 "unmapped": "Soft Thinking in Germinal Phase, Hard Thinking in Practical Phase"
 },
 "urn:in-practice:exercise:33fe9cc493ae45c18812111d": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:341a1153477fdcf90c26f459": {
 "drop": "medicine/therapy"
@@ -4859,9 +4687,7 @@
 "drop": "cloud-setup"
 },
 "urn:in-practice:exercise:3493dc5cfae18bdd44a9e678": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Emotional Expression"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:349c732d4ea804085387b19b": {
 "technique": "analogy-transfer",
@@ -4875,9 +4701,7 @@
 "unmapped": "Draw Inner Critic"
 },
 "urn:in-practice:exercise:34b7b7403aeb0c3b4916baad": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:34cd04a5a16447836b41a0f2": {
 "unmapped": "Professional Development Techniques"
@@ -4892,8 +4716,8 @@
 "unmapped": "Scenario Planning"
 },
 "urn:in-practice:exercise:35027fed17105aa1020ddfd4": {
-"technique": "attribute-listing",
-"method": "model",
+"technique": "fractionation",
+"method": "rule",
 "name": "Cherry Split Technique"
 },
 "urn:in-practice:exercise:3515035fef6258b8f761cbea": {
@@ -4944,14 +4768,10 @@
 "name": "Modify Idea"
 },
 "urn:in-practice:exercise:35c1b3d16344f32738d9b899": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Use White Hat for Information"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:35c514939b69301e2b6cd80f": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Yellow Hat Positive Evaluation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:35c70cd3d6b68703dabca609": {
 "unmapped": "Spiritual Awareness Practice"
@@ -5008,9 +4828,7 @@
 "name": "Notebook Practice"
 },
 "urn:in-practice:exercise:3655ca6e8c86ae1e0d321124": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:365ae592503639c6d32d5fde": {
 "technique": "storyboarding",
@@ -5037,9 +4855,7 @@
 "name": "Random Word Stimulation"
 },
 "urn:in-practice:exercise:3672651178c47d11dcafbec7": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:3673ae2898c187b0c0c2234b": {
 "drop": "ml-engineering"
@@ -5155,9 +4971,7 @@
 "unmapped": "Problem Framing in Planning Meetings"
 },
 "urn:in-practice:exercise:377fe42aad0fbdbce742dfa0": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:378277652a7c4d528d715b01": {
 "unmapped": "Generative Metaphor Practice"
@@ -5174,9 +4988,7 @@
 "unmapped": "Bible Metaphor Quiz"
 },
 "urn:in-practice:exercise:37abb93014b9b4aaf5f994fe": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Green Hat Creative Thought"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:37ba7379d5a14fd6437d2254": {
 "unmapped": "Problem Framing in Planning Meetings"
@@ -5199,17 +5011,13 @@
 "name": "Prototype Quickly and Cheaply"
 },
 "urn:in-practice:exercise:37dbc878c611c5a3a39e420a": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Yellow Hat Thought"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:37df39254d1e1d6199efa592": {
 "unmapped": "Evaluate Creative Ideas"
 },
 "urn:in-practice:exercise:37f4ba363019e285f824fa6c": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:37f6e3b43ec6401a6cf7b3bc": {
 "drop": "ml-engineering"
@@ -5297,9 +5105,7 @@
 "unmapped": "Color Questioning"
 },
 "urn:in-practice:exercise:38cd6779f431b561abb8fe61": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Blue Hat Thought Control"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:38d21ff1d48f6e0f8dbaac10": {
 "unmapped": "Possibility Thinking Exercise"
@@ -5566,9 +5372,7 @@
 "unmapped": "Moebius Strip Experiment"
 },
 "urn:in-practice:exercise:3bc44aadfcf9cf4de8647a76": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat in Negotiation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:3bcab3b20865c26cfee2960d": {
 "unmapped": "Metaphoric Questions"
@@ -5590,14 +5394,10 @@
 "name": "Brainwriting"
 },
 "urn:in-practice:exercise:3c0fca2fe0caa9d7a7a482e9": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:3c0fdb996773984f93dc73ab": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:3c16d4c92e12be4619457672": {
 "unmapped": "Predicate Tree Construction"
@@ -5656,9 +5456,7 @@
 "unmapped": "Pattern Language"
 },
 "urn:in-practice:exercise:3ca7a0c91edb1c21ff9f3873": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:3ca9000d9dfbd8eee5d2fd7c": {
 "technique": "po-provocation",
@@ -5701,9 +5499,7 @@
 "unmapped": "Interact with Visualizations"
 },
 "urn:in-practice:exercise:3d1df50f1772cf46159d3c2f": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:3d21212a8e8e428e14689d2d": {
 "drop": "cloud-setup"
@@ -5739,9 +5535,7 @@
 "name": "Idea Box"
 },
 "urn:in-practice:exercise:3d757e0ee88e91b92433691b": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Yellow Hat Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:3d8b433309a4032ecf01d2e3": {
 "unmapped": "Focus Setting"
@@ -5774,9 +5568,7 @@
 "unmapped": "Self-Fulfilling Prophecy"
 },
 "urn:in-practice:exercise:3dd7acd71d9f7421ced44e49": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Green Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:3dda9aa972f6a95b4cd646a8": {
 "unmapped": "Question Wording"
@@ -5851,9 +5643,7 @@
 "name": "White Hat Thinking Practice"
 },
 "urn:in-practice:exercise:3e82ad141759985792169157": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:3e86a259ede73e4aa6535848": {
 "technique": "thought-walk",
@@ -5902,17 +5692,13 @@
 "unmapped": "Koinonia Principles"
 },
 "urn:in-practice:exercise:3f050ede34bf79269a739e09": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:3f069e3f5312d8232da4789d": {
 "unmapped": "Shape Your Space"
 },
 "urn:in-practice:exercise:3f0a5ad4f16d5ed04e3b975c": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:3f109fab564f4c3e04ea0bae": {
 "drop": "ml-engineering"
@@ -5938,9 +5724,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:3f38cab5f39a2b6309928f7c": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:3f3af3628175eeda686f412a": {
 "technique": "six-thinking-hats",
@@ -6025,9 +5809,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:404abbc491662ed1f2ee56be": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:405ea71acbe6ed1bab1b2913": {
 "technique": "po-provocation",
@@ -6135,9 +5917,7 @@
 "unmapped": "Reflections"
 },
 "urn:in-practice:exercise:41923ce918dacd29bf5fda06": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:419255d2c362902de6e68d90": {
 "drop": "ml-engineering"
@@ -6180,9 +5960,7 @@
 "unmapped": "Reuse and Repurpose"
 },
 "urn:in-practice:exercise:42249efb20c07a74f2415da7": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:4224a740bccdbb8bcfacbf33": {
 "drop": "medicine/therapy"
@@ -6335,9 +6113,7 @@
 "unmapped": "Customer Journey Mapping"
 },
 "urn:in-practice:exercise:43b6858a7d17f0e9dc3c13d6": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:43b910b72a948e0388d89959": {
 "unmapped": "Stravinsky Effect"
@@ -6349,9 +6125,7 @@
 "unmapped": "Term Variation Study"
 },
 "urn:in-practice:exercise:43dde74b9455cf65935fe7a6": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Yellow Hat Positive Evaluation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:43e6873f3af6e2636bf7e7b3": {
 "drop": "cloud-setup"
@@ -6360,8 +6134,8 @@
 "unmapped": "Drawing Challenge"
 },
 "urn:in-practice:exercise:43f804539a788513eedb6af0": {
-"technique": "attribute-listing",
-"method": "model",
+"technique": "fractionation",
+"method": "rule",
 "name": "Cherry Split Technique"
 },
 "urn:in-practice:exercise:4413e66ce50825e708888051": {
@@ -6428,9 +6202,7 @@
 "unmapped": "Shift from Openness to Closure"
 },
 "urn:in-practice:exercise:44dc788de79496431193c39d": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Speculative Yellow Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:44e378096b20ed7edf4ba017": {
 "technique": "six-thinking-hats",
@@ -6505,9 +6277,7 @@
 "unmapped": "Looking at Somebody Else"
 },
 "urn:in-practice:exercise:45c42c3d48e97a93279d3f7d": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:45df5bee93a59c995d7a99aa": {
 "unmapped": "Identify Transformative Potential in Papers"
@@ -6568,9 +6338,7 @@
 "name": "Red Hat Thinking"
 },
 "urn:in-practice:exercise:469499ce2822ff9466467ca0": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Green Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:4696a445dc1ba74546a96f23": {
 "technique": "brainstorming-osborn",
@@ -6609,14 +6377,10 @@
 "unmapped": "Creating Still Images"
 },
 "urn:in-practice:exercise:46e34ac354853b7a3dcee6f6": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:46e9509c9665abc0929a45c0": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Hats Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:46ef9f995b27e07e55ceecb8": {
 "drop": "cloud-setup"
@@ -6706,9 +6470,7 @@
 "name": "SCAMPER Combine"
 },
 "urn:in-practice:exercise:478eb135ad4ca6572219dfc4": {
-"technique": "pmi",
-"method": "rule",
-"name": "PMI Technique"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:4791c61ce2704bdba5dd3378": {
 "unmapped": "Dog Salesman"
@@ -6782,9 +6544,7 @@
 "unmapped": "Designing and Making Simple Food Products"
 },
 "urn:in-practice:exercise:486b9830644eaac84aa22dfc": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:48787bb0e1b84b757ddc555f": {
 "unmapped": "Metaphoric Questions"
@@ -6818,9 +6578,7 @@
 "unmapped": "Moral Imaginativeness and Creativity"
 },
 "urn:in-practice:exercise:48d2dcf8e5f9c87832dfea34": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:48f67b6814bc2713b20fe72b": {
 "drop": "cloud-setup"
@@ -6849,9 +6607,7 @@
 "name": "Provocation Techniques"
 },
 "urn:in-practice:exercise:491c958bad4fa156527f8bf0": {
-"technique": "why-technique",
-"method": "rule",
-"name": "Challenge Statements"
+"unmapped": "Challenge Statements"
 },
 "urn:in-practice:exercise:4920d56c97240f0e4302da41": {
 "technique": "analogy-transfer",
@@ -6859,9 +6615,7 @@
 "name": "Analogies Practice"
 },
 "urn:in-practice:exercise:492ec3bf7b2637bc653fe423": {
-"technique": "alternatives-quota",
-"method": "rule",
-"name": "Alternative Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:493032c762312137a353744d": {
 "technique": "reversal-method",
@@ -6995,9 +6749,7 @@
 "name": "PO Practice 1"
 },
 "urn:in-practice:exercise:4a89f82b1343812e901234d8": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Yellow Hat Positive Evaluation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:4a926936396100a908dc1d54": {
 "drop": "ml-engineering"
@@ -7095,9 +6847,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:4bd6c66ca468ba380a1338c5": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:4bd747b988a3bc2f715b12ef": {
 "unmapped": "Labeling Self-Doubt"
@@ -7112,7 +6862,7 @@
 "unmapped": "Healthy Heart Food Design"
 },
 "urn:in-practice:exercise:4be652cb6a132d9722fbe435": {
-"unmapped": "Synthesize Group Thoughts"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:4bee8bfad3aea415ba3fe16c": {
 "unmapped": "Soft and Hard Thinking"
@@ -7147,9 +6897,7 @@
 "unmapped": "Experiment with New Roles"
 },
 "urn:in-practice:exercise:4c72d50c42a61d882ef354a6": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Hats Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:4c87082ce3bfb47642458845": {
 "technique": "scamper",
@@ -7206,9 +6954,7 @@
 "name": "Dominant Idea Identification"
 },
 "urn:in-practice:exercise:4d42190c7485ff93b69d8737": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Yellow Hat Positive Evaluation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:4d55b5a55a895440dd83a7e2": {
 "unmapped": "Use Collaborative Learning"
@@ -7274,9 +7020,7 @@
 "unmapped": "Dream Interpretation"
 },
 "urn:in-practice:exercise:4db459e5d5a475bd1b24b2f4": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:4db5d271bb5cfb47fef336a2": {
 "drop": "ml-engineering"
@@ -7303,9 +7047,7 @@
 "unmapped": "Critical Realism Exploration"
 },
 "urn:in-practice:exercise:4e32c85dd34e6a58f1113bd5": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:4e36029c6a69e66e037fbc43": {
 "unmapped": "Owning Your Own Shadow"
@@ -7314,9 +7056,7 @@
 "unmapped": "Analyzing Organizational Identity through Discourse"
 },
 "urn:in-practice:exercise:4e6656bd220d53b197efe0db": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:4e7da85e2fe7b6a38c0fae90": {
 "unmapped": "Design Practice"
@@ -7435,9 +7175,7 @@
 "unmapped": "Experimentation in Uncertainty"
 },
 "urn:in-practice:exercise:4f40c45e7530569c440666d6": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:4f41d80e10f8c5b3929f1ae9": {
 "unmapped": "Myth as Symbolic Story"
@@ -7482,9 +7220,7 @@
 "name": "Prototype Quickly and Cheaply"
 },
 "urn:in-practice:exercise:4f90e8ea8a5c2bc11b0a0867": {
-"technique": "why-technique",
-"method": "rule",
-"name": "Challenge Statements"
+"unmapped": "Challenge Statements"
 },
 "urn:in-practice:exercise:4fa28f41b531dcbc3dd525cd": {
 "drop": "ml-engineering"
@@ -7517,9 +7253,7 @@
 "name": "SCAMPER Technique"
 },
 "urn:in-practice:exercise:4feaf5d661e2c04496d51dc2": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:4ff088c66b6fcff85b048438": {
 "drop": "theology"
@@ -7556,9 +7290,7 @@
 "unmapped": "Practice for Practice's Sake"
 },
 "urn:in-practice:exercise:5026a4b6c5815bb53dc0b347": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:50282c71f7e4f22fe78874f3": {
 "technique": "brainstorming-osborn",
@@ -7605,9 +7337,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:50a03e80ead0c7c8c15a2d29": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Yellow Hat Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:50a198cf1560fdc38f04a550": {
 "technique": "six-thinking-hats",
@@ -7621,8 +7351,8 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:50ca4d4a053ce220518673a4": {
-"technique": "attribute-listing",
-"method": "model",
+"technique": "fractionation",
+"method": "rule",
 "name": "Cherry Split Technique"
 },
 "urn:in-practice:exercise:50da3d09da0469adf26155fc": {
@@ -7637,9 +7367,7 @@
 "name": "Blue Hat Summary and Report"
 },
 "urn:in-practice:exercise:50fff91357cc51206863b733": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Yellow Hat Suggestion"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:5103e929a04413096ab2568c": {
 "technique": "reflection-in-action-log",
@@ -7650,9 +7378,7 @@
 "unmapped": "Frame Analysis for Reflection"
 },
 "urn:in-practice:exercise:513003f2241a3d77aa8f6f9c": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:513cf49d8998871b9916644c": {
 "unmapped": "Challenging Dialogue"
@@ -7744,9 +7470,7 @@
 "name": "Analogical Thinking"
 },
 "urn:in-practice:exercise:521d570ee6330e8012909190": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:521f389a275da325aef28e14": {
 "technique": "analogy-transfer",
@@ -7786,9 +7510,7 @@
 "name": "Evaluation Session"
 },
 "urn:in-practice:exercise:524f229a7d8045f8170bd1e9": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:525290413eb0ca1cfa1529e1": {
 "technique": "thought-walk",
@@ -7864,7 +7586,7 @@
 "unmapped": "Survival Analysis for Proposal Evaluation"
 },
 "urn:in-practice:exercise:52faacb03362245419766e15": {
-"unmapped": "Television Op of Cheese"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:53079c5eb449bf154153ecc2": {
 "unmapped": "Seek Experiences for Inspiration"
@@ -7898,7 +7620,7 @@
 "unmapped": "Problem Framing in Planning Meetings"
 },
 "urn:in-practice:exercise:535882c520ea5710dfca46cc": {
-"unmapped": "Creative Pause"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:5359f9fc77d2957e2ac2d5fe": {
 "technique": "alternatives-quota",
@@ -7978,9 +7700,7 @@
 "unmapped": "Spiritual Awareness Practice"
 },
 "urn:in-practice:exercise:54527fdde99761b31c189518": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:545514384fabf6bcd08cab2a": {
 "unmapped": "Unorganized Gatherings"
@@ -8195,9 +7915,7 @@
 "name": "Observation for Innovation"
 },
 "urn:in-practice:exercise:56ac32495ac357d3e4addcd7": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:56aef8fb058c56776e8ee0be": {
 "unmapped": "Spiritual Awareness Practice"
@@ -8387,9 +8105,7 @@
 "unmapped": "Reflect on the Impact of Location on Creativity"
 },
 "urn:in-practice:exercise:5930786ad7129f8db1df8db8": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:5933287594b958cf095f2e0e": {
 "technique": "scamper",
@@ -8470,9 +8186,7 @@
 "name": "Provocation Techniques"
 },
 "urn:in-practice:exercise:5a0559b836684e0c1a5ae537": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Put the Hat"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:5a0861c1d96aa92687ca5d8d": {
 "technique": "alternatives-quota",
@@ -8506,9 +8220,7 @@
 "unmapped": "Writer's Outsider Technique"
 },
 "urn:in-practice:exercise:5a5a215e79d0d1acc8f5063c": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Emotional Expression"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:5a6bc74b39403deadb264182": {
 "unmapped": "Analyze Network Metrics"
@@ -8589,9 +8301,7 @@
 "unmapped": "Create a Personal Board of Directors"
 },
 "urn:in-practice:exercise:5b426a8d051bce5558854546": {
-"technique": "contextual-observation",
-"method": "rule",
-"name": "Observation of Creative Environments"
+"unmapped": "Observation of Creative Environments"
 },
 "urn:in-practice:exercise:5b441a9943dcc77f9bd34283": {
 "unmapped": "Creating New Symbolic Synthesis"
@@ -8618,7 +8328,7 @@
 "unmapped": "Aggressiveness in Innovation"
 },
 "urn:in-practice:exercise:5bb5bd5ce9b4dc717f189085": {
-"unmapped": "Devil's Advocate"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:5bd0a1b98450d67ffda4ea80": {
 "unmapped": "Study Lengthy Document"
@@ -8671,9 +8381,7 @@
 "unmapped": "Myth Analysis"
 },
 "urn:in-practice:exercise:5c4a52ab967d30b7c538d826": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Objective Information"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:5c4adc2deac647168467a90e": {
 "unmapped": "Conceptual Creativity in Philosophy and Logic"
@@ -8734,9 +8442,7 @@
 "unmapped": "Imaginative Indwelling"
 },
 "urn:in-practice:exercise:5cf5f898e6c404a06cfefd2e": {
-"technique": "contextual-observation",
-"method": "rule",
-"name": "Observation of Creative Environments"
+"unmapped": "Observation of Creative Environments"
 },
 "urn:in-practice:exercise:5d113cf160e0c7e4b740f195": {
 "technique": "reversal-method",
@@ -8752,9 +8458,7 @@
 "unmapped": "Picture Interpretation"
 },
 "urn:in-practice:exercise:5d44fbed5ce778bc97e4a1a7": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Yellow Hat Proposal Generation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:5d50bad1696b976edb64fb00": {
 "technique": "alternatives-quota",
@@ -8832,9 +8536,7 @@
 "unmapped": "Flexible Depth-Breadth Exploration"
 },
 "urn:in-practice:exercise:5e12d0fe2487963daabb56ab": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:5e16269a5a38857bc20be0a4": {
 "technique": "six-thinking-hats",
@@ -8909,9 +8611,7 @@
 "name": "What-If Questioning"
 },
 "urn:in-practice:exercise:5f1e3f585c1f0c533f90f92b": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Opinion Expression with Red Hat"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:5f1efa1d49fae6ac76d72d46": {
 "unmapped": "Generating and Developing Design Ideas"
@@ -8920,9 +8620,7 @@
 "unmapped": "Early Curiosity and Interest"
 },
 "urn:in-practice:exercise:5f248d138ce7d41c4059c818": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Yellow Hat Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:5f2859cf7ecbb0d282ca3262": {
 "technique": "six-thinking-hats",
@@ -8967,8 +8665,8 @@
 "unmapped": "Reflection and Theorising"
 },
 "urn:in-practice:exercise:5f7864ef624030b3897dbb67": {
-"technique": "attribute-listing",
-"method": "model",
+"technique": "fractionation",
+"method": "rule",
 "name": "Cherry Split Technique"
 },
 "urn:in-practice:exercise:5f8cf5575f6663dde3fa51e2": {
@@ -9015,9 +8713,7 @@
 "name": "SCAMPER Substitute"
 },
 "urn:in-practice:exercise:5fecfb7d0010ce6f6a7b0f31": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Use Red Hat for Emotions"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:5ff521ee3d56c4088c0a98ab": {
 "drop": "ml-engineering"
@@ -9071,9 +8767,7 @@
 "unmapped": "Shoe Exercise"
 },
 "urn:in-practice:exercise:605c01dcb446f623c97d6633": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Yellow Hat Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:6065a0bc825eec5aed146459": {
 "technique": "random-word",
@@ -9087,9 +8781,7 @@
 "unmapped": "Flexible Target Setting in Product Development"
 },
 "urn:in-practice:exercise:6074ea47962b95dced5238c5": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:6076c3ef559b68260640d45e": {
 "technique": "po-provocation",
@@ -9259,9 +8951,7 @@
 "unmapped": "on feedback"
 },
 "urn:in-practice:exercise:6264b9c520cf962ba6143a5e": {
-"technique": "why-technique",
-"method": "rule",
-"name": "Challenge Statements"
+"unmapped": "Challenge Statements"
 },
 "urn:in-practice:exercise:626cab1512c14d960ae00307": {
 "drop": "ml-engineering"
@@ -9281,9 +8971,7 @@
 "name": "Black Hat Thinking"
 },
 "urn:in-practice:exercise:62bc46e1f1df1b90c7b3bd72": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:62c82383582cc28c4dab2d3e": {
 "unmapped": "Reverse Turing Test Simulation"
@@ -9334,9 +9022,7 @@
 "unmapped": "Relationship to Inner Critic"
 },
 "urn:in-practice:exercise:635d6de0d83f54d100d64c35": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Green Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:636ca07fc6f777031c1d2e1e": {
 "unmapped": "The Drop"
@@ -9393,9 +9079,7 @@
 "unmapped": "Design Practice"
 },
 "urn:in-practice:exercise:63e618a2e5a7e644d85701ca": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:63fa280569ad8f685bc243ef": {
 "unmapped": "Conceptual Creativity in Philosophy and Logic"
@@ -9435,9 +9119,7 @@
 "name": "Create Your Own Oracle"
 },
 "urn:in-practice:exercise:644d06b8520019a51eff92b5": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:645146bd1eec6e2d344ca6de": {
 "unmapped": "Active Thinking"
@@ -9472,22 +9154,16 @@
 "name": "Brainstorming Techniques"
 },
 "urn:in-practice:exercise:649b59b33f3f35eac2f21c36": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:649c15e031523cf356905a96": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Emotional Expression"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:649f2523ad51140cd7ee2dfe": {
 "unmapped": "Genre Recognition Practice"
 },
 "urn:in-practice:exercise:64a6dcbe081f5ab48a2c7e4f": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Green Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:64b036e988374ac97655d454": {
 "drop": "ml-engineering"
@@ -9504,9 +9180,7 @@
 "name": "Automatic Writing Practice"
 },
 "urn:in-practice:exercise:64d729b7b1293c43c045eff5": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:64e575824860103ca0316c76": {
 "drop": "medicine/therapy"
@@ -9606,9 +9280,7 @@
 "unmapped": "Tone Adjustment for Audience Approval"
 },
 "urn:in-practice:exercise:659f3b69cb67d959d8c75e24": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:65a7dad6406b5b19511e156d": {
 "unmapped": "Mastering Time Management"
@@ -9631,9 +9303,7 @@
 "unmapped": "Open Innovation Platform"
 },
 "urn:in-practice:exercise:65cd161cb4feecfac214db78": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Use Red Hat for Emotions"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:65d6dd622a65d338ba5d14c3": {
 "unmapped": "Travel Junkie"
@@ -9648,9 +9318,7 @@
 "unmapped": "Creative Self-Regulation"
 },
 "urn:in-practice:exercise:66133edfc2e2b1ba1458e400": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:661e91aef6c422c4e2f8e98d": {
 "technique": "question-led-prototype",
@@ -9756,9 +9424,7 @@
 "name": "Phoenix Checklist"
 },
 "urn:in-practice:exercise:66df521c556e5ace67d06123": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Yellow Hat Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:66e21ea50162e09635ad7c45": {
 "technique": "improv-yes-and",
@@ -9775,9 +9441,7 @@
 "unmapped": "Infectious Action"
 },
 "urn:in-practice:exercise:672d8dc567c079517380b8cf": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Hats Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:6737d7582e5706c448d98c03": {
 "unmapped": "Creative Work Enjoyment"
@@ -9792,9 +9456,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:676cc1408f1d6a7bf0dea32d": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Green Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:676fd0309ace18c9d8316bc6": {
 "technique": "scamper",
@@ -9908,9 +9570,7 @@
 "name": "Black Hat Thinking Exercise"
 },
 "urn:in-practice:exercise:6836d28db6824be0f52f2e0e": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:683983b7721f3d8d77f4c19d": {
 "drop": "ml-engineering"
@@ -9940,9 +9600,7 @@
 "name": "Dominant Idea Identification"
 },
 "urn:in-practice:exercise:6869cdde66991169fe739c84": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:688a1e01fe57855d3e8e8494": {
 "unmapped": "Relaxed Attention"
@@ -10048,7 +9706,7 @@
 "name": "Automatic Writing"
 },
 "urn:in-practice:exercise:6a05183626be6f370640bc74": {
-"unmapped": "Alternative Strategies"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:6a162b3b50d4960034ce41d1": {
 "drop": "ml-engineering"
@@ -10106,9 +9764,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:6a89ecdf897f0002a895f284": {
-"technique": "contextual-observation",
-"method": "rule",
-"name": "Observation of Creative Environments"
+"unmapped": "Observation of Creative Environments"
 },
 "urn:in-practice:exercise:6a8d23d2ee638ecf785fb30c": {
 "technique": "brainstorming-osborn",
@@ -10121,9 +9777,7 @@
 "name": "Circle of Opportunity"
 },
 "urn:in-practice:exercise:6a962a215fbfa20f9d8e42dc": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:6a971311f98045d6c4eccf98": {
 "technique": "dominant-idea",
@@ -10137,14 +9791,10 @@
 "unmapped": "Metaphor Creation"
 },
 "urn:in-practice:exercise:6ac50add9c18edcce76c7f4e": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Assign Blue Hat Role"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:6ac57296f6dcc048072246f6": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:6ad135f0ddde79772d4195cf": {
 "unmapped": "Model Creative Identity"
@@ -10171,9 +9821,7 @@
 "name": "Left-Right Brainstorming"
 },
 "urn:in-practice:exercise:6af135b6b44499d51b73edbd": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Green Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:6af76a9124c076e87ebe507a": {
 "technique": "brainwriting-635",
@@ -10186,14 +9834,10 @@
 "name": "Create Your Own Oracle"
 },
 "urn:in-practice:exercise:6b047e25b677b261fa639d3f": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:6b0ecdfd0fc7bbe2ed42d62b": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:6b201e64b55c740006a9f405": {
 "technique": "thought-walk",
@@ -10207,9 +9851,7 @@
 "unmapped": "Visualisation Exercise"
 },
 "urn:in-practice:exercise:6b35415d8e989eccb4bb1dad": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:6b4330a2164b768223edaac1": {
 "unmapped": "Unplanned Encounters"
@@ -10229,9 +9871,7 @@
 "unmapped": "Aesthetic Enquiry with Christmas Cards"
 },
 "urn:in-practice:exercise:6b99e5f1ab8915fcb2e2d1ed": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:6bcd1b396d2582db736b3aba": {
 "unmapped": "Multiple-Perspective Clustering Labeling"
@@ -10242,9 +9882,7 @@
 "name": "Red Hat Thinking"
 },
 "urn:in-practice:exercise:6be152a052745a0bbcf1f18e": {
-"technique": "why-technique",
-"method": "rule",
-"name": "Challenge Statements"
+"unmapped": "Challenge Statements"
 },
 "urn:in-practice:exercise:6bf2b1c9b14679a2381c4eff": {
 "technique": "six-thinking-hats",
@@ -10304,9 +9942,7 @@
 "unmapped": "Inner Critic Introduction"
 },
 "urn:in-practice:exercise:6c8936470bc9a1d98a3d1073": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:6c9405ac7d90da70e7b1d87e": {
 "technique": "alternatives-quota",
@@ -10364,14 +10000,10 @@
 "unmapped": "Repertoire-building Research"
 },
 "urn:in-practice:exercise:6d15acde9ce5b74d92a1416f": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:6d199f4ece1241ebbeb71c33": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Negative Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:6d22ac92d1ca172164494690": {
 "drop": "ml-engineering"
@@ -10490,9 +10122,7 @@
 "unmapped": "Exaggeration Exploration"
 },
 "urn:in-practice:exercise:6e968063085673938fc51d59": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:6eaf703d11883158a162aa25": {
 "unmapped": "Exploring Design Solutions Through Play"
@@ -10575,9 +10205,7 @@
 "unmapped": "Self-Image Exercise"
 },
 "urn:in-practice:exercise:6faad5fb5eee97d5a44c4077": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:6fadd06e6491ca972189c210": {
 "unmapped": "Aesthetic Enquiry with Christmas Cards"
@@ -10673,8 +10301,8 @@
 "name": "White Hat Thinking Practice"
 },
 "urn:in-practice:exercise:70a375caffa690ab186512b3": {
-"technique": "attribute-listing",
-"method": "model",
+"technique": "fractionation",
+"method": "rule",
 "name": "Cherry Split Technique"
 },
 "urn:in-practice:exercise:70a9261c28e039c49ce7baa2": {
@@ -10686,9 +10314,7 @@
 "unmapped": "Re-reading for Nuance"
 },
 "urn:in-practice:exercise:70b612f29f25b167809d99b0": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Speculative Yellow Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:70be3d6ad6dd0602133827ab": {
 "technique": "po-provocation",
@@ -10759,9 +10385,7 @@
 "unmapped": "Flexibility of Thinking Problems"
 },
 "urn:in-practice:exercise:713b10b39d651e8f3e9755a1": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Yellow Hat Positive Evaluation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:713caf87ceac4821601c5f30": {
 "technique": "six-thinking-hats",
@@ -10806,9 +10430,7 @@
 "unmapped": "Self-Assessment and Learning Targets"
 },
 "urn:in-practice:exercise:7193fe469bdabc85e616eccc": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:719cd0f0b1a782e58534094d": {
 "unmapped": "Quantum Tunnelling Composite (QTC) Application"
@@ -10867,9 +10489,7 @@
 "name": "Black Hat Thinking"
 },
 "urn:in-practice:exercise:721d28a70c1f12ff717d777e": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Assign Blue Hat Role"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:721f57ca3a9b6213a4661fb2": {
 "unmapped": "Practice Lateral Thinking Techniques"
@@ -10964,9 +10584,7 @@
 "unmapped": "Encouraging Alternative Ways of Being and Doing"
 },
 "urn:in-practice:exercise:732eeb249712c013c82c60c1": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Blue Hat Thought Control"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:733a9a0babd0fc21b85dc7a0": {
 "unmapped": "Play the Fool"
@@ -10988,15 +10606,13 @@
 "name": "Yellow and Green Hat Problem Solving"
 },
 "urn:in-practice:exercise:7355598806ffe432f9ff08e3": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:735bbe6b1c56ea4099c9245c": {
 "unmapped": "Drama-Based Reflection Questions"
 },
 "urn:in-practice:exercise:735e9d8f1a3741228cf2e575": {
-"unmapped": "Act as if"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:7364596139104bb946f43930": {
 "drop": "medicine/therapy"
@@ -11019,17 +10635,13 @@
 "unmapped": "Novelty in Means"
 },
 "urn:in-practice:exercise:7396031efb6d7391daaa4791": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Green Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:739a738597b657ade79a2b06": {
 "unmapped": "Express Yourself"
 },
 "urn:in-practice:exercise:73a639d931e0552f82905151": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:73ad50963d23f26062d972d4": {
 "unmapped": "Create Opportunities for Creative Expression"
@@ -11046,9 +10658,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:73c1b50e7d3aa3d00b5af708": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Green Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:73da02537c3300fe279a58d8": {
 "technique": "phoenix-checklist",
@@ -11098,7 +10708,7 @@
 "unmapped": "Research-in-Practice"
 },
 "urn:in-practice:exercise:7465857cac6947a080a1c3c3": {
-"unmapped": "Intuition and Presentiments"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:74674dcc25728d13eb9d1fae": {
 "unmapped": "Completion"
@@ -11182,9 +10792,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:75087e6c94b87d311c1cb938": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Put the Hat"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:751368023fc1b668b3e3ea38": {
 "unmapped": "Design Review Process"
@@ -11396,9 +11004,7 @@
 "unmapped": "Challenge Creativity Stereotypes"
 },
 "urn:in-practice:exercise:7777829ed116715e7eaabbcb": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:7777a577d7f14f73ed15ef52": {
 "unmapped": "Seek Out More Than One View"
@@ -11536,9 +11142,7 @@
 "name": "Random Word Stimulation"
 },
 "urn:in-practice:exercise:7884e7aa8a79d2ed9166891c": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:788eb4c27ee04503599fd428": {
 "drop": "ml-engineering"
@@ -11567,14 +11171,10 @@
 "name": "Omit Unnecessary Elements"
 },
 "urn:in-practice:exercise:78c771ad7a4acdd7a8a7ccb4": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:78c78c08438c19ad77a8b199": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:78d8411621e0491384f5daca": {
 "unmapped": "Completion"
@@ -11629,9 +11229,7 @@
 "name": "PO Technique"
 },
 "urn:in-practice:exercise:795a16c688e7fc7bf8b77b8e": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:79610a6baf104aa472ca167c": {
 "technique": "problem-finding",
@@ -11645,9 +11243,7 @@
 "unmapped": "Museum Play Scenario"
 },
 "urn:in-practice:exercise:796b409c11cd571c4dd9a6c2": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:796b49f0b5f73f77f424db84": {
 "drop": "ml-engineering"
@@ -11741,9 +11337,7 @@
 "name": "Reflection-in-Action"
 },
 "urn:in-practice:exercise:7a414bad8fb5f0f6d4a228f6": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:7a491070bc4357847e685d28": {
 "unmapped": "Flow Experience"
@@ -11769,9 +11363,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:7a75cedd9d2c52c4885bfa84": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:7a771cc80dc0abb16ccf0fb3": {
 "technique": "reversal-method",
@@ -11779,9 +11371,7 @@
 "name": "Reversal Method"
 },
 "urn:in-practice:exercise:7a7b96bf6623307f1eabec94": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:7a7ff48073687079335863a8": {
 "unmapped": "Ruthless Edit"
@@ -11799,14 +11389,10 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:7a9a706b98ca63c26898da7e": {
-"technique": "alternatives-quota",
-"method": "rule",
-"name": "Alternative Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:7ab8e78a4ad4d58ab68750cc": {
-"technique": "alternatives-quota",
-"method": "rule",
-"name": "Alternative Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:7ac5b0f358ed9124ae263060": {
 "technique": "reflection-in-action-log",
@@ -11814,7 +11400,7 @@
 "name": "Reflection-in-Action"
 },
 "urn:in-practice:exercise:7acf85e1bfe244d4a948cc7c": {
-"unmapped": "Cigarette Op of Frog"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:7ae204ab7737a16c807035c6": {
 "unmapped": "Sales Incentive Plan"
@@ -11829,9 +11415,7 @@
 "unmapped": "design_phenomenology"
 },
 "urn:in-practice:exercise:7aed3e98f97e4f211a958d3e": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:7aee0f4e2c184dae93f2a3c1": {
 "unmapped": "Philosophical Fridge Words"
@@ -12032,9 +11616,7 @@
 "unmapped": "Mutation of Concepts"
 },
 "urn:in-practice:exercise:7d27aad10f51d2cb6ddb4c33": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:7d2fe4373276e3fdd28da6d9": {
 "unmapped": "Collective Creation of Instructional Toolkits"
@@ -12043,9 +11625,7 @@
 "unmapped": "Temporary Rules"
 },
 "urn:in-practice:exercise:7d4e65b1df50eeeb7c8493a9": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:7d7b65a1feab297fe52b0df4": {
 "technique": "seed-collection",
@@ -12080,9 +11660,7 @@
 "unmapped": "Play the Fool"
 },
 "urn:in-practice:exercise:7dc5e2a9d77caea967bbde54": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:7dc9484aae06ea59e0c935f7": {
 "technique": "question-led-prototype",
@@ -12158,9 +11736,7 @@
 "unmapped": "Reverse Clipping"
 },
 "urn:in-practice:exercise:7e7f8642d034ff282a026ee1": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:7e812964903a36b1c9d1ee05": {
 "unmapped": "Intimacy Coordination Training"
@@ -12204,9 +11780,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:7f250776206b706f2e74e6ab": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:7f3b329f90b7aa0ac6fc73e9": {
 "unmapped": "Distance from Inner Critic Thoughts"
@@ -12215,9 +11789,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:7f4bafddf014713e51a650a5": {
-"technique": "alternatives-quota",
-"method": "rule",
-"name": "Alternative Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:7f4ef7f89a3b28bef80a8f0e": {
 "unmapped": "Dot Problem"
@@ -12259,9 +11831,7 @@
 "unmapped": "Distractions Exclusion"
 },
 "urn:in-practice:exercise:7f9b99c9ee742190d84858ff": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:7fc23f7442527aa6a890fbba": {
 "unmapped": "Last Creative Idea"
@@ -12289,17 +11859,13 @@
 "name": "Prototype Quickly and Cheaply"
 },
 "urn:in-practice:exercise:7fff2476ae60fa0f5124f37b": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Assign Blue Hat Role"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:80079c2932ef829b824fba9b": {
 "unmapped": "Murder Board"
 },
 "urn:in-practice:exercise:8007b6bd005c36169e1f4143": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Yellow Hat Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:8024224c0854cb933b9a0941": {
 "unmapped": "Measure Structural Variation"
@@ -12394,9 +11960,7 @@
 "unmapped": "Flexibility of Thinking Problems"
 },
 "urn:in-practice:exercise:8134a5d2c0df604b1c1a4f83": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Yellow Hat Proposal Generation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:813b11316ba854d264575424": {
 "technique": "why-technique",
@@ -12407,9 +11971,7 @@
 "unmapped": "impact of personal experience on"
 },
 "urn:in-practice:exercise:813ca66c23241c4b27f9d4d1": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:8146653c1dd9d9ac0d22bb62": {
 "unmapped": "Tick-Tock Exercise"
@@ -12429,9 +11991,7 @@
 "unmapped": "Parody of Reasoning"
 },
 "urn:in-practice:exercise:81b62900dec8bc88a86bb872": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:81c20ca5400e17f7bf7699fb": {
 "technique": "wicked-reframe",
@@ -12444,9 +12004,7 @@
 "name": "Magnify Idea"
 },
 "urn:in-practice:exercise:8202af9ef0c1be78a2c5baca": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Green Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:8209605c4704d787beaf3555": {
 "technique": "six-thinking-hats",
@@ -12460,9 +12018,7 @@
 "drop": "theology"
 },
 "urn:in-practice:exercise:821456524051e3def3bfe0ad": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Yellow Hat Proposal Generation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:8223225c105a030b94aad080": {
 "unmapped": "Drawing for Attention"
@@ -12656,9 +12212,7 @@
 "unmapped": "Flow Engineering"
 },
 "urn:in-practice:exercise:83fa0a8337a52d82c8a0d654": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:84038300bc74846654c71c99": {
 "unmapped": "Self-Monitoring of Emotions"
@@ -12787,9 +12341,7 @@
 "unmapped": "Self-Organization"
 },
 "urn:in-practice:exercise:8561b8aadc1992d3673f1580": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:8585c6b0aff10e91d470bfa1": {
 "drop": "ml-engineering"
@@ -12875,9 +12427,7 @@
 "name": "Black Hat Thinking"
 },
 "urn:in-practice:exercise:8652b30cb2503b114a48e339": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:8657cfd3e05230a6d9246c3c": {
 "technique": "random-word",
@@ -12961,9 +12511,7 @@
 "drop": "medicine/therapy"
 },
 "urn:in-practice:exercise:8727c070ade7fe3eebe72907": {
-"technique": "alternatives-quota",
-"method": "rule",
-"name": "Alternative Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:87353a9c507d7e5ee5cdfad1": {
 "technique": "po-provocation",
@@ -12999,9 +12547,7 @@
 "unmapped": "Spiritual Grounding Retreat"
 },
 "urn:in-practice:exercise:876de12ff8804cb0a669e019": {
-"technique": "alternatives-quota",
-"method": "rule",
-"name": "Alternative Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:877787c9989b127c90ca5ef3": {
 "unmapped": "Divide Square into L Shape"
@@ -13124,9 +12670,7 @@
 "unmapped": "Identify Transformative Discoveries"
 },
 "urn:in-practice:exercise:88a029ab15537ebaeb8a4034": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:88a69d6e188585def11c3985": {
 "unmapped": "Predicate Tree Construction"
@@ -13174,14 +12718,10 @@
 "unmapped": "Engineering Design Process"
 },
 "urn:in-practice:exercise:8910fdc0588b00e2f6404dee": {
-"technique": "contextual-observation",
-"method": "rule",
-"name": "Observation of Creative Environments"
+"unmapped": "Observation of Creative Environments"
 },
 "urn:in-practice:exercise:891ad3fc715830eb32198616": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:891df3755aa77adccc0a69e4": {
 "technique": "six-thinking-hats",
@@ -13249,9 +12789,7 @@
 "unmapped": "SIL (Successive Integration of Problem Elements)"
 },
 "urn:in-practice:exercise:89ba868a93ad3aa6158fc3e3": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:89c9bb8fdefc13a359f200ba": {
 "unmapped": "Failure Resume"
@@ -13272,9 +12810,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:8a018c50f0e749446722f92f": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:8a0aca6c873c2a42b098779d": {
 "drop": "ml-engineering"
@@ -13288,9 +12824,7 @@
 "name": "Random Word Stimulation"
 },
 "urn:in-practice:exercise:8a344d9a0640f55651d386e9": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Yellow Hat Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:8a3ede484a509afc587a3fdf": {
 "drop": "ml-engineering"
@@ -13299,9 +12833,7 @@
 "unmapped": "Wordplay Games"
 },
 "urn:in-practice:exercise:8a4b725026931ffe1535df1d": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:8a500d2e90a65b0e22b1b879": {
 "technique": "reversal-method",
@@ -13372,9 +12904,7 @@
 "unmapped": "Last Creative Idea"
 },
 "urn:in-practice:exercise:8acf7e9a0bb2d809deaf5cdf": {
-"technique": "alternatives-quota",
-"method": "rule",
-"name": "Alternative Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:8ae16aff9056e09a3902056c": {
 "drop": "ml-engineering"
@@ -13441,9 +12971,7 @@
 "name": "Blue Hat Overview and Strategy"
 },
 "urn:in-practice:exercise:8b382ea3ec4c470e6bca9c0c": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:8b3ec027fb580b45185c9c3b": {
 "unmapped": "Visual Thinking Practice"
@@ -13462,9 +12990,7 @@
 "name": "SCAMPER Technique"
 },
 "urn:in-practice:exercise:8b5ddc7986fa5d54f5b1f8f7": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Provocation and Effect"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:8b60cce7f104ea8a6f9fa033": {
 "drop": "ml-engineering"
@@ -13538,14 +13064,10 @@
 "unmapped": "Playfulness in Early Literacy"
 },
 "urn:in-practice:exercise:8c4a4ff7efef44abd0d29443": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Negative Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:8c672927d497da763fa8dd96": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Yellow Hat Opportunity Definition"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:8c6ea675beaf0372ebf281f0": {
 "drop": "ml-engineering"
@@ -13559,9 +13081,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:8ca17c7d7945b0fe17f0594b": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Green Hat Creative Thought"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:8cb337a80619ab734468610e": {
 "technique": "delay-judgement-checkpoint",
@@ -13581,9 +13101,7 @@
 "drop": "medicine/therapy"
 },
 "urn:in-practice:exercise:8ce47d256849f8a67d840733": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:8cedd1865de6d2a23201fedd": {
 "unmapped": "Design Practice"
@@ -13618,9 +13136,7 @@
 "unmapped": "Ask for Mental Images"
 },
 "urn:in-practice:exercise:8d6cdfa9ed4ea4a14dcd9b9e": {
-"technique": "contextual-observation",
-"method": "rule",
-"name": "Observation of Creative Environments"
+"unmapped": "Observation of Creative Environments"
 },
 "urn:in-practice:exercise:8d86425b59d897bceae8abf0": {
 "unmapped": "Self-Efficacy and Advocacy"
@@ -13655,9 +13171,7 @@
 "name": "Random Word Stimulation"
 },
 "urn:in-practice:exercise:8dbafddfd669d2103b657c8f": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:8dcb065b985e3376b70f71da": {
 "unmapped": "Customer Journey Map"
@@ -13756,14 +13270,12 @@
 "name": "Alternative Descriptions of Geometric Figures"
 },
 "urn:in-practice:exercise:8ec5227de9fcb99bd73edd9d": {
-"technique": "attribute-listing",
-"method": "model",
+"technique": "fractionation",
+"method": "rule",
 "name": "Cherry Split Technique"
 },
 "urn:in-practice:exercise:8ed4fb495a2d4441499fb2a5": {
-"technique": "alternatives-quota",
-"method": "rule",
-"name": "Alternative Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:8ee04a31b1edeebbf07e3afc": {
 "unmapped": "Reflect on Personal Failures"
@@ -13856,9 +13368,7 @@
 "unmapped": "Observe Transference Dynamics"
 },
 "urn:in-practice:exercise:8fb6ad031ace1dd58e0cc999": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:8fc4625cd82764c9d93eb47f": {
 "drop": "ml-engineering"
@@ -13950,17 +13460,13 @@
 "unmapped": "Supporting Free-Flow Play"
 },
 "urn:in-practice:exercise:907e78d0095010219d7d1972": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:908f3a9b3bdcb2b9a0d341b8": {
 "unmapped": "on enhancing old age"
 },
 "urn:in-practice:exercise:9090f3fb84b3fd39955c08b3": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:90937feb1c2df564ed660c0b": {
 "unmapped": "Roman Numerals"
@@ -13969,17 +13475,13 @@
 "unmapped": "Drawing Challenge"
 },
 "urn:in-practice:exercise:90966ed22a9e3503eac97df7": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:90a9bd93e6251a32973e1328": {
 "unmapped": "Reflect on Learning and Application"
 },
 "urn:in-practice:exercise:90b277613c94b0254e397d82": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:90b4a93841fbe128f9724bb7": {
 "unmapped": "Sentiment Analysis Practice"
@@ -14013,9 +13515,7 @@
 "name": "Yellow Hat Thinking Exercise"
 },
 "urn:in-practice:exercise:90ef692cfd4a74d4233a42eb": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:90fee815802f708203c166b4": {
 "unmapped": "Beginner's Mind Practice"
@@ -14027,9 +13527,7 @@
 "drop": "cloud-setup"
 },
 "urn:in-practice:exercise:910f4559bfd93f04b140ddee": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:910fcd82585ff6db55587784": {
 "unmapped": "Creative Writing and Drawing"
@@ -14189,17 +13687,13 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:9313fe17f5dc71f58225878a": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:93173f6c0861187655945a72": {
 "unmapped": "Squeeze a Challenge"
 },
 "urn:in-practice:exercise:9318d7588dbde123b10111fb": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:931905de06291e7676ffa3d7": {
 "drop": "ml-engineering"
@@ -14250,9 +13744,7 @@
 "unmapped": "Creative No Technique"
 },
 "urn:in-practice:exercise:939803e2c7793ca8985966c3": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Emotional Expression"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:93c1bf92ebcbe8db51144224": {
 "unmapped": "Guided Reading Technique"
@@ -14298,9 +13790,7 @@
 "unmapped": "Inner Advocate and Critic Interaction"
 },
 "urn:in-practice:exercise:94112130e0afb9b013dca107": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:9413849775bc5f8d8c68f347": {
 "unmapped": "Children's Block Balancing Experiment"
@@ -14331,7 +13821,7 @@
 "unmapped": "Creative Confidence Assessment"
 },
 "urn:in-practice:exercise:9485d875e3f1da5c1c6b336a": {
-"unmapped": "Vision and Dreams"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:949709b0e236ddf4d2b9972a": {
 "unmapped": "Designing and Making Picture-Frames"
@@ -14388,9 +13878,7 @@
 "unmapped": "Thinking Ambiguously"
 },
 "urn:in-practice:exercise:951bc6d8ab750bb218b1d58d": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:951e2afcd0cbaf2286c82a86": {
 "technique": "reflection-in-action-log",
@@ -14470,9 +13958,7 @@
 "name": "Fractionation Practice"
 },
 "urn:in-practice:exercise:9665242a6e8c71e22d5d24c9": {
-"technique": "alternatives-quota",
-"method": "rule",
-"name": "Alternative Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:9667cae7e3313155e013692d": {
 "unmapped": "Translate Objects to Requirements"
@@ -14498,9 +13984,7 @@
 "unmapped": "Janusian Thinking"
 },
 "urn:in-practice:exercise:969a76c49e7785310591ea04": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:969e984a1d91614dc90d949e": {
 "unmapped": "Temporary Rules"
@@ -14536,9 +14020,7 @@
 "unmapped": "Design Practice"
 },
 "urn:in-practice:exercise:96f2cf3045b10762d5253017": {
-"technique": "why-technique",
-"method": "rule",
-"name": "Challenge Statements"
+"unmapped": "Challenge Statements"
 },
 "urn:in-practice:exercise:96f5122e31aa40fb39aa76c6": {
 "unmapped": "Metaphorical Collage Technique"
@@ -14558,9 +14040,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:97204c8bb99b8a6c16f30766": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:97273b5eea07836fdfc9e877": {
 "unmapped": "Unorganized Gatherings"
@@ -14586,9 +14066,7 @@
 "unmapped": "Create a Personal Board of Directors"
 },
 "urn:in-practice:exercise:974f1bbbef42c003a8024590": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:975870693e79ad51ecb7bce6": {
 "drop": "ml-engineering"
@@ -14602,9 +14080,7 @@
 "unmapped": "Team Building Principles"
 },
 "urn:in-practice:exercise:97a753a72ca4245605e2c06b": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:97aa52a0ebc4fcfb46fa8268": {
 "technique": "wicked-reframe",
@@ -14648,9 +14124,7 @@
 "name": "What-If Questioning"
 },
 "urn:in-practice:exercise:980c90d363b3bc295d4642d8": {
-"technique": "contextual-observation",
-"method": "rule",
-"name": "Observation of Creative Environments"
+"unmapped": "Observation of Creative Environments"
 },
 "urn:in-practice:exercise:9810ceb180ce4796ae99eccd": {
 "unmapped": "Record and Interpret Hypnogogic Imagery"
@@ -14728,9 +14202,7 @@
 "name": "Consult An Oracle"
 },
 "urn:in-practice:exercise:992f6956e57fd0ccd4282d14": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Yellow Hat Proposal Generation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:993101f2f7bb278f0b93fb79": {
 "technique": "six-thinking-hats",
@@ -14913,14 +14385,10 @@
 "unmapped": "Tom Hirschfield's Rules of Thumb"
 },
 "urn:in-practice:exercise:9b6b406464a56279199f0748": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:9b93831be29788cbbb6a1b71": {
-"technique": "contextual-observation",
-"method": "rule",
-"name": "Observation of Creative Environments"
+"unmapped": "Observation of Creative Environments"
 },
 "urn:in-practice:exercise:9b96d7fcbb1ef7d3759116d8": {
 "unmapped": "Creative Confidence Assessment"
@@ -14941,9 +14409,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:9bd988a3e695a8b976a70822": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:9bedb06aa85c610cc12ec88c": {
 "unmapped": "Describe Working Methods"
@@ -14989,8 +14455,8 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:9c4b15f92eadbf6140f231c4": {
-"technique": "attribute-listing",
-"method": "model",
+"technique": "fractionation",
+"method": "rule",
 "name": "Cherry Split Technique"
 },
 "urn:in-practice:exercise:9c555294fefe307e6fcb9055": {
@@ -15184,9 +14650,7 @@
 "unmapped": "Free-Association"
 },
 "urn:in-practice:exercise:9e1599c4eef2f828c6f5c811": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:9e1cb5844bca81da93825e3d": {
 "unmapped": "Metacognitive Awareness Through Dialogue"
@@ -15307,9 +14771,7 @@
 "unmapped": "Fantabuloso Creative Collaboration"
 },
 "urn:in-practice:exercise:9f3e28928a166c446304dd9d": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:9f465ac146d1a32b9516ae08": {
 "unmapped": "Complex Personality Traits"
@@ -15345,15 +14807,13 @@
 "name": "Yellow Hat Thinking Exercise"
 },
 "urn:in-practice:exercise:9face92f1e3a0f577398c1ae": {
-"unmapped": "Synthesize Group Thoughts"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:9fafb0df275d9ab845cf4c72": {
 "unmapped": "Designing and Making Picture-Frames"
 },
 "urn:in-practice:exercise:9fb83f8fcd85cc33376a5407": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Blue Hat Thought Control"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:9fc20fbf652b03b9e0b05d7d": {
 "drop": "ml-engineering"
@@ -15368,17 +14828,13 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:9ff384248b66057ddc731de4": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Yellow Hat Positive Evaluation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:9ff6bf020bae39bf8b69f2f4": {
 "unmapped": "Multidisciplinary Team Approach"
 },
 "urn:in-practice:exercise:9ffc49de7dd0e55fdb75f66c": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Blue Hat Control"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:a000956af5bfa6149b195518": {
 "unmapped": "Set Tight Deadlines"
@@ -15435,7 +14891,7 @@
 "name": "Evaluation Session"
 },
 "urn:in-practice:exercise:a093057163783818727cb406": {
-"unmapped": "Devil's Advocate"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:a094f1ec73a06631ffb88c47": {
 "unmapped": "TRIZ Techniques"
@@ -15470,9 +14926,7 @@
 "unmapped": "Develop Judgment Skills"
 },
 "urn:in-practice:exercise:a0eb6594f798db14ab04ad1a": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:a100ec763bc24351ee1b9353": {
 "drop": "cloud-setup"
@@ -15504,9 +14958,7 @@
 "unmapped": "Dukes of Habit"
 },
 "urn:in-practice:exercise:a156ac5c8d528c0856cb57a1": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:a1636e6f640fd9789db64da3": {
 "technique": "entry-point-attention-area",
@@ -15556,7 +15008,7 @@
 "name": "Red Hat Thinking"
 },
 "urn:in-practice:exercise:a1a940bd1966b7141eff4c17": {
-"unmapped": "Act as if"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:a1be4c42d4e712c924107eff": {
 "technique": "six-thinking-hats",
@@ -15606,9 +15058,7 @@
 "name": "Phoenix Checklist"
 },
 "urn:in-practice:exercise:a2043ac987a906a6ed9f45ec": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:a206b71d0c2bc603ff69d16e": {
 "technique": "fractionation",
@@ -15628,9 +15078,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:a21e5bfd704a49e62dafbccc": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:a21edcc2a46c8b0c7e3b4078": {
 "technique": "mental-locks-audit",
@@ -15649,14 +15097,10 @@
 "unmapped": "Mastery and Dissatisfaction"
 },
 "urn:in-practice:exercise:a245e922a13bff4882ac58b3": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Provocation with 'op'"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:a24b8733a02dba98e2372dde": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Hats Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:a2729b0917f9be6007df47d2": {
 "unmapped": "Play with Wording to Get Different Answers"
@@ -15786,9 +15230,7 @@
 "name": "Modify Idea"
 },
 "urn:in-practice:exercise:a3d4327baa5f479971b15449": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Green Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:a3df7d1227a5d1453440ea37": {
 "unmapped": "Supporting Creative Self-Regulation"
@@ -15805,9 +15247,7 @@
 "name": "Prototype Quickly and Cheaply"
 },
 "urn:in-practice:exercise:a3f8218b76eeccbd5e9f3f60": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Speculative Yellow Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:a4015290605184e3f346cca5": {
 "drop": "ml-engineering"
@@ -15845,9 +15285,7 @@
 "name": "Reflection-in-Action"
 },
 "urn:in-practice:exercise:a49654518a3d0e2a4c66ee20": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:a4be62dad3b2c0e4c415280e": {
 "drop": "ml-engineering"
@@ -15902,15 +15340,13 @@
 "unmapped": "Problem Framing in Planning Meetings"
 },
 "urn:in-practice:exercise:a55cb939d147d2bd865a2093": {
-"unmapped": "Intuition and Presentiments"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:a55cba369a007e2994b3ae15": {
 "unmapped": "Creative Collages"
 },
 "urn:in-practice:exercise:a55e1e13e60218da7af4c251": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Green Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:a56fa5b9f466d5fa71c53f26": {
 "unmapped": "Examine Hierarchical Structures Impact on Creativity"
@@ -15979,9 +15415,8 @@
 "unmapped": "Content Analysis"
 },
 "urn:in-practice:exercise:a5cbef20829202b47f4ea5f3": {
-"technique": "brainwriting-635",
-"method": "rule",
-"name": "Brainwriting"
+"unmapped": "Brainwriting",
+"excluded": "solo intuitive writing, not group brainwriting"
 },
 "urn:in-practice:exercise:a5e672cdf105ced8a2f2bb53": {
 "technique": "po-provocation",
@@ -16106,9 +15541,7 @@
 "unmapped": "Hall of Fame"
 },
 "urn:in-practice:exercise:a739cfc1a3a033e6fbbb2725": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Speculative Yellow Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:a73eb2b4d3c95a99fc88e13c": {
 "drop": "cloud-setup"
@@ -16139,7 +15572,7 @@
 "drop": "theology"
 },
 "urn:in-practice:exercise:a7a362e028147eec1431d0ec": {
-"unmapped": "Emotional Reframing"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:a7a57b64ae61107c8943f6a7": {
 "technique": "constraint-writing",
@@ -16259,14 +15692,10 @@
 "unmapped": "Creative Writing Process"
 },
 "urn:in-practice:exercise:a8dce7fb1bd47adb3509d169": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:a8e4a1fcdf355e8c47ede84b": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:a8ea2010111dacf06f1a3982": {
 "unmapped": "Product Safety and Regulatory Cooperation"
@@ -16280,9 +15709,7 @@
 "name": "Analogies for Problem Solving"
 },
 "urn:in-practice:exercise:a8f9d87167aa040c43ff2638": {
-"technique": "contextual-observation",
-"method": "rule",
-"name": "Observation of Creative Environments"
+"unmapped": "Observation of Creative Environments"
 },
 "urn:in-practice:exercise:a9011478fe73a9b446beeab3": {
 "drop": "ml-engineering"
@@ -16308,9 +15735,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:a939a27a0edce25d3374c421": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:a93aeaf2bb7b6371227ce14b": {
 "unmapped": "Restaurant with No Menu"
@@ -16347,9 +15772,7 @@
 "name": "Phoenix Checklist"
 },
 "urn:in-practice:exercise:a99f5f6fd13d505e240fed77": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:a9a2cf40d0dcff71db1bedaf": {
 "technique": "alternatives-quota",
@@ -16366,9 +15789,7 @@
 "unmapped": "Pattern Recognition Exercise"
 },
 "urn:in-practice:exercise:a9e6fc63ff0d5e1e5349fae3": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:a9ea7014b0124102456127a0": {
 "technique": "po-provocation",
@@ -16376,22 +15797,16 @@
 "name": "PO Technique"
 },
 "urn:in-practice:exercise:a9f66282fe8d47a29d2f2e53": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:a9fc615ce45f0fcafe9a8a32": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:aa03ed15f118b57a054d7fba": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Green Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:aa064acfbcf0bf686a858f14": {
-"unmapped": "Negotiation with Trust"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:aa0f067c7349c312536d49a8": {
 "technique": "empathy-map",
@@ -16477,9 +15892,7 @@
 "unmapped": "Myth Deconstruction"
 },
 "urn:in-practice:exercise:aac2c1ef6c37276991f2e021": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Blue Hat Thought Control"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:aac38862caa46455f8abcd6d": {
 "drop": "ml-engineering"
@@ -16495,9 +15908,7 @@
 "name": "Idea Box"
 },
 "urn:in-practice:exercise:aae5ae1020a6f5e1ec5e368b": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:aae9131b596816c1b7de2e48": {
 "drop": "ml-engineering"
@@ -16632,9 +16043,7 @@
 "unmapped": "Clarifying Roles and Communication in Agency and Studio Settings"
 },
 "urn:in-practice:exercise:ac55b8ad4c2823c7a5f05c5e": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Green Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:ac5b1bee09377401a1c103e5": {
 "technique": "six-thinking-hats",
@@ -16673,9 +16082,7 @@
 "unmapped": "Complex Personality Traits"
 },
 "urn:in-practice:exercise:acaf03ecd514043f657071e9": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:acb2817a4a34e320d0ed5491": {
 "unmapped": "Dog Salesman"
@@ -16750,7 +16157,7 @@
 "name": "Reversal Thinking"
 },
 "urn:in-practice:exercise:ad9abfefb56d4b7480b3108f": {
-"unmapped": "Devil's Advocate"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:ad9f97d987668ff056cbab7d": {
 "technique": "scamper",
@@ -16837,9 +16244,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:ae78bc4531ffb40ba5092528": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:ae7e15ce71754c7ece001204": {
 "unmapped": "Experimentation Phase"
@@ -16887,9 +16292,7 @@
 "unmapped": "Pattern Recognition Exercise"
 },
 "urn:in-practice:exercise:af0c5c89dd7bc28362f40da2": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Yellow Hat Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:af0c5f30a2cf0d14edee662f": {
 "unmapped": "Critical Realism Exploration"
@@ -16912,9 +16315,7 @@
 "name": "Phoenix Checklist"
 },
 "urn:in-practice:exercise:af27ed01d468675568210550": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:af283cb142ce56ad128cf32a": {
 "unmapped": "Multiple-Perspective Clustering Labeling"
@@ -16954,9 +16355,7 @@
 "name": "Analogies for Problem Solving"
 },
 "urn:in-practice:exercise:af6f9e9d9d1bf299e19d0f0d": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Yellow Hat Positive Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:af8f7e37c3a4331246d7e0a5": {
 "technique": "phoenix-checklist",
@@ -17012,9 +16411,7 @@
 "unmapped": "Random Conversations for Innovation"
 },
 "urn:in-practice:exercise:b02ec24303c07a46b6bb37e7": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Green Hat Creative Thought"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:b0323a2fc274fc18b67510a2": {
 "unmapped": "Function Hierarchy"
@@ -17046,9 +16443,7 @@
 "unmapped": "Explore Open Innovation Communities"
 },
 "urn:in-practice:exercise:b078ac06238a79a4bbbb0892": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Use White Hat for Information"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:b07992bc2fac7886b6c55db6": {
 "drop": "ml-engineering"
@@ -17331,9 +16726,7 @@
 "unmapped": "Inspiration Practices"
 },
 "urn:in-practice:exercise:b3148a5e9b9da772a0d62794": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:b31b84327d6cec4ae73399b2": {
 "technique": "pmi",
@@ -17355,9 +16748,7 @@
 "unmapped": "Consult the Fool"
 },
 "urn:in-practice:exercise:b355ba92dbe4aa0bdbe68c3a": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:b3572d01be6e22caef8cded0": {
 "technique": "fractionation",
@@ -17408,9 +16799,7 @@
 "unmapped": "Last Creative Idea"
 },
 "urn:in-practice:exercise:b3f938dead78257fad15f304": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:b3f9edca9bc2d4717f2a35ce": {
 "drop": "cloud-setup"
@@ -17421,9 +16810,7 @@
 "name": "Modify Idea"
 },
 "urn:in-practice:exercise:b4092f09e30a6ea59da3ab71": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Green Hat Creative Thought"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:b40bddb52d372fd52472c1bf": {
 "unmapped": "Nutrient Flow Model Experiment"
@@ -17437,9 +16824,7 @@
 "name": "What If Scenarios"
 },
 "urn:in-practice:exercise:b421260e36ee0de6903edb51": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:b4235ba161817ac8c542935c": {
 "unmapped": "Visual Thinking Practice"
@@ -17601,9 +16986,7 @@
 "unmapped": "Observation and Case Studies"
 },
 "urn:in-practice:exercise:b5ca5bb471f45fea9a4b37a8": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:b5db0fcc5971a9130d2fa81d": {
 "drop": "ml-engineering"
@@ -17713,9 +17096,7 @@
 "name": "Generate Alternatives"
 },
 "urn:in-practice:exercise:b6ffe0464424fe80dbdede60": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Investment Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:b700c44c4f47a47473912c73": {
 "unmapped": "Spreadsheet Modeling"
@@ -17731,9 +17112,7 @@
 "name": "Brainstorming in Notebooks"
 },
 "urn:in-practice:exercise:b70e6600de4bd164fbe28708": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:b716e2e76c9d627ec884e8e7": {
 "unmapped": "Hieroglyphic Analysis"
@@ -17795,9 +17174,7 @@
 "unmapped": "Listening Habits"
 },
 "urn:in-practice:exercise:b7875a9e9fa686801fe25fbd": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:b78b17f923dba8fea42321c1": {
 "technique": "brainstorming-osborn",
@@ -17831,9 +17208,7 @@
 "unmapped": "Playful Ideas"
 },
 "urn:in-practice:exercise:b840f46d5456840b75010596": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Green Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:b845b955a18ac434dff2178d": {
 "unmapped": "Reflective Teaching Practice"
@@ -17890,14 +17265,10 @@
 "name": "Red Hat Thinking"
 },
 "urn:in-practice:exercise:b8d0cf3a534ca35dbeac252c": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Emotional Expression"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:b8e2aa51671f967136831ba0": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:b8f523f33d08d054ae9fe618": {
 "unmapped": "Content Analysis"
@@ -17916,9 +17287,7 @@
 "name": "Random Word Stimulation"
 },
 "urn:in-practice:exercise:b92646f018809829c186f96a": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Yellow Hat Proposal Generation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:b926ef13adad7651f629abb0": {
 "unmapped": "Reflect on Influential Projects/Events"
@@ -18009,9 +17378,7 @@
 "unmapped": "Reframing Questions"
 },
 "urn:in-practice:exercise:ba15984636d56ae6674a66ac": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:ba2040d6c8388b0675f1079f": {
 "technique": "synectics-excursion",
@@ -18082,7 +17449,7 @@
 "unmapped": "Different Approaches to Problem Solving"
 },
 "urn:in-practice:exercise:bac72c766afd5a96ac2d5f74": {
-"unmapped": "Devil's Advocate"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:bac8ed151c69f8605f8a2ded": {
 "unmapped": "Fantabuloso Creative Collaboration"
@@ -18115,9 +17482,7 @@
 "name": "Red Hat Thinking"
 },
 "urn:in-practice:exercise:bb20b5fee2fba17c7f52ddd0": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:bb23307f9083bd8d7d0c79ac": {
 "drop": "ml-engineering"
@@ -18128,9 +17493,7 @@
 "name": "Disagree with Common Proverbs"
 },
 "urn:in-practice:exercise:bb2865a00d35b30004f8264f": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Use Red Hat for Emotions"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:bb3123bf9636a5f502fda866": {
 "unmapped": "Quick Design Challenges"
@@ -18144,9 +17507,7 @@
 "name": "Open Mental Locks"
 },
 "urn:in-practice:exercise:bb56a58dac0dd2ba0c0006f8": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:bb5f6462619112da802cba38": {
 "technique": "mind-map",
@@ -18242,9 +17603,7 @@
 "unmapped": "Truth Quest"
 },
 "urn:in-practice:exercise:bc8eae6db0a88d39fdc316fc": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:bc9c284bc2e7742e27aa6acd": {
 "drop": "ip-law"
@@ -18302,9 +17661,7 @@
 "name": "Classroom Brainstorming Exercise"
 },
 "urn:in-practice:exercise:bd1f1cb1b64818ed1d48bab2": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Green Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:bd2085284e229fc2388dc6eb": {
 "unmapped": "Change Perspective and Play with Knowledge"
@@ -18437,9 +17794,7 @@
 "unmapped": "Start Designing Your Life"
 },
 "urn:in-practice:exercise:be91aa02e1b7c1090066f664": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:bea4cbf3e27c869e369e8433": {
 "technique": "po-provocation",
@@ -18488,9 +17843,7 @@
 "name": "Metaphor for a Problem"
 },
 "urn:in-practice:exercise:bf087021bd4b01b0b74a9a26": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:bf0ac2815c1f0819af57afa7": {
 "unmapped": "Feely Bag Activity"
@@ -18532,9 +17885,7 @@
 "unmapped": "Remember Your Creative Self"
 },
 "urn:in-practice:exercise:bf768f66077f7312690ca982": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Speculative Yellow Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:bf789b49c97c3ce8aad02738": {
 "unmapped": "Reflect on the Impact of Location on Creativity"
@@ -18546,9 +17897,7 @@
 "unmapped": "Focused Attention Practice"
 },
 "urn:in-practice:exercise:bf85a6b670a5b8bf7b4e276c": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Hats Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:bfab4e2dd222635d7643c6de": {
 "unmapped": "Multiple-Perspective Analysis Procedure"
@@ -18580,17 +17929,13 @@
 "unmapped": "Reflect on Negative Experiences for Creativity"
 },
 "urn:in-practice:exercise:c0150bb37663830b41a010fe": {
-"technique": "alternatives-quota",
-"method": "rule",
-"name": "Alternative Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:c01adf0782f62cce2d66bc64": {
 "unmapped": "Change Number Systems"
 },
 "urn:in-practice:exercise:c024c31748c604e0fb771369": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:c0284e597a2cfd1e601a238d": {
 "drop": "medicine/therapy"
@@ -18602,9 +17947,7 @@
 "unmapped": "Metaphor Creation"
 },
 "urn:in-practice:exercise:c03e96aa27d7f805c143cb7a": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Blue Hat Control"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:c040a44c760510f31ab7c465": {
 "unmapped": "Try Everything"
@@ -18613,9 +17956,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:c04d2ec20999ba3e2bebed2d": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:c0552cb92d9dfd943ffad629": {
 "unmapped": "Impossible Hybrids"
@@ -18643,9 +17984,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:c0848c75d2ac09af8020eb43": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:c08d479a80792b49e823a9d8": {
 "technique": "reversal-method",
@@ -18734,9 +18073,7 @@
 "name": "Adaptation Questions"
 },
 "urn:in-practice:exercise:c1c0d184b9f30be4426981c7": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Yellow Hat Speculation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:c1ccdb7c751ebcc1af6f2a9f": {
 "technique": "po-provocation",
@@ -18767,7 +18104,7 @@
 "unmapped": "Cynicism Reflection Questions"
 },
 "urn:in-practice:exercise:c23aa03fa15b8639a61616d3": {
-"unmapped": "Perception Alteration"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:c23eaab906ae41baf51844e7": {
 "unmapped": "Norman's Action Cycle"
@@ -18791,9 +18128,7 @@
 "unmapped": "Develop Judgment Skills"
 },
 "urn:in-practice:exercise:c2707155ce3bcf7eeaeed72b": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:c2784dc99b599718cedb8610": {
 "drop": "theology"
@@ -18824,9 +18159,7 @@
 "unmapped": "Pattern Language"
 },
 "urn:in-practice:exercise:c2d14d1e6357a91e37b44963": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:c2e0c8601f4e47c28265b817": {
 "technique": "random-word",
@@ -19016,8 +18349,8 @@
 "drop": "cloud-setup"
 },
 "urn:in-practice:exercise:c4a545bd1f16d2405e68fdad": {
-"technique": "attribute-listing",
-"method": "model",
+"technique": "fractionation",
+"method": "rule",
 "name": "Cherry Split Technique"
 },
 "urn:in-practice:exercise:c4abf34e2283c373532bff99": {
@@ -19050,7 +18383,7 @@
 "unmapped": "Test All Ideas"
 },
 "urn:in-practice:exercise:c524265fb11be709ecc3db5f": {
-"unmapped": "Devil's Advocate"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:c5330c44d7d35b74e865ae34": {
 "unmapped": "Seek Mentorship"
@@ -19059,9 +18392,7 @@
 "unmapped": "Identifying Salient Nodes"
 },
 "urn:in-practice:exercise:c54610d34dd36c39b3e0b9b2": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:c54741ffd1081bf1d031b890": {
 "unmapped": "Creative Writing Across Genres"
@@ -19089,9 +18420,7 @@
 "name": "Reverse Assumptions"
 },
 "urn:in-practice:exercise:c570ad1b5cb6e6fa040fe134": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:c5726d3ec48ed383efc5666c": {
 "technique": "six-thinking-hats",
@@ -19161,9 +18490,7 @@
 "unmapped": "Metaphor Hunt"
 },
 "urn:in-practice:exercise:c60a4e58d392c24885617b7d": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:c60af351d323912456045357": {
 "unmapped": "Contrastive Stress"
@@ -19180,9 +18507,7 @@
 "unmapped": "Dog Salesman"
 },
 "urn:in-practice:exercise:c622ca33b75779b1daea1a38": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Use Red Hat for Emotions"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:c628b01d117fae126e10a701": {
 "unmapped": "Be a Fool"
@@ -19209,9 +18534,7 @@
 "unmapped": "Dream Interpretation"
 },
 "urn:in-practice:exercise:c67d525f7ca6a16104cee532": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:c687ae0ff4d66b1aafd0f792": {
 "drop": "ml-engineering"
@@ -19249,9 +18572,7 @@
 "unmapped": "Creative Thinking Time"
 },
 "urn:in-practice:exercise:c6df8614e766137adafcda30": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:c6e4b961ee9b808a808ff22f": {
 "unmapped": "Breaking the Sameness"
@@ -19310,9 +18631,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:c79c03f501db6a61ea4c3505": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:c7aa215138b9966e4e4247e2": {
 "drop": "ml-engineering"
@@ -19344,9 +18663,7 @@
 "name": "Random Object Combination"
 },
 "urn:in-practice:exercise:c7e9d1a8f183f4f9a56b93b2": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:c7f2c360aa9436288e2f5956": {
 "unmapped": "Listening Habits"
@@ -19557,9 +18874,7 @@
 "drop": "cloud-setup"
 },
 "urn:in-practice:exercise:ca4609829418dc334e15dc88": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:ca4737c97462b5ec7613bb84": {
 "technique": "six-thinking-hats",
@@ -19612,8 +18927,8 @@
 "name": "Random Word Stimulation"
 },
 "urn:in-practice:exercise:cabc1e4a2ba43cab1032ac84": {
-"technique": "attribute-listing",
-"method": "model",
+"technique": "fractionation",
+"method": "rule",
 "name": "Cherry Split Technique"
 },
 "urn:in-practice:exercise:cac11dccba0b0d3fe826a537": {
@@ -19678,9 +18993,7 @@
 "unmapped": "Creative Leadership"
 },
 "urn:in-practice:exercise:cb74df8051cfc87248695b97": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Hats Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:cb83432706ff2170c2aceaa4": {
 "drop": "ml-engineering"
@@ -19723,8 +19036,8 @@
 "unmapped": "Dream/Gripe Session"
 },
 "urn:in-practice:exercise:cbe3824c45d51c0b0b259680": {
-"technique": "attribute-listing",
-"method": "model",
+"technique": "fractionation",
+"method": "rule",
 "name": "Cherry Split Technique"
 },
 "urn:in-practice:exercise:cbe3de2fa96b537363723a00": {
@@ -19742,9 +19055,7 @@
 "unmapped": "Conceptual Creativity in Philosophy and Logic"
 },
 "urn:in-practice:exercise:cc4c3a1b4a1916fbf6dca0c4": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Investment Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:cc518d1211cda6ddd21ea98b": {
 "unmapped": "Challenge Reflection"
@@ -19873,9 +19184,7 @@
 "name": "Analogical Reasoning"
 },
 "urn:in-practice:exercise:ce26babb213e1f4bef447532": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:ce27f024b9417c3f6203d636": {
 "drop": "ml-engineering"
@@ -19912,9 +19221,7 @@
 "name": "Red Hat Thinking"
 },
 "urn:in-practice:exercise:ce65178bf11e8a55f4159b04": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:ce6f1b4f2ba79edc9cc809a1": {
 "unmapped": "Invent Mathematical Relationships"
@@ -19928,9 +19235,7 @@
 "unmapped": "Experimentation Phase"
 },
 "urn:in-practice:exercise:ce885da989724adeaa75da5d": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:ce8c1a57a32707a783e0367b": {
 "technique": "alternatives-quota",
@@ -19941,9 +19246,7 @@
 "unmapped": "Questioning Styles in Science"
 },
 "urn:in-practice:exercise:ceb1c2baf6408dc865fd139f": {
-"technique": "alternatives-quota",
-"method": "rule",
-"name": "Alternative Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:ceb823bbbb708b480740ea74": {
 "drop": "ml-engineering"
@@ -19975,9 +19278,7 @@
 "unmapped": "Revisiting and Reimagining"
 },
 "urn:in-practice:exercise:cefa1e7552427be85d9fa31f": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:cf028518ea1e82461ce8300b": {
 "unmapped": "Third Line Visualization"
@@ -20083,9 +19384,7 @@
 "name": "Exquisite Corpse Technique"
 },
 "urn:in-practice:exercise:d045c537e4783b501c9ec8d5": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Emotional Expression"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:d0568fa88d462121c7326068": {
 "technique": "reversal-method",
@@ -20194,17 +19493,13 @@
 "unmapped": "Explore Creative Roles"
 },
 "urn:in-practice:exercise:d18c3d0a5ef06bdda1886d3e": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:d19055d649b4edd156be8129": {
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:d192c9ad05d83d3a35baf9d8": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:d19762326c18592f6094e2b4": {
 "unmapped": "Manipulate Ideas"
@@ -20213,9 +19508,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:d1a73b099f2b037261bb5aba": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Blue Hat Control"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:d1c1e3e2e7e8bda790f59710": {
 "unmapped": "Flexibility of Thinking Problems"
@@ -20296,9 +19589,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:d29c7c003c83dc59302ce954": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:d2a5978dde6aa4f037ecd0b8": {
 "unmapped": "Analyzing Organizational Identity through Discourse"
@@ -20406,9 +19697,7 @@
 "unmapped": "Heuristic Techniques for Philosophical Creativity"
 },
 "urn:in-practice:exercise:d3ec923d5d465cefaa1c2180": {
-"technique": "random-word",
-"method": "rule",
-"name": "Random Word Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:d3f5cd8ab6507e32b98de551": {
 "technique": "attribute-listing",
@@ -20489,9 +19778,7 @@
 "unmapped": "Identifying Personal Nourishment"
 },
 "urn:in-practice:exercise:d4c1eed68ec8b70bf46d5f20": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:d4d04800bc93eb28522c0b3e": {
 "technique": "po-provocation",
@@ -20554,14 +19841,10 @@
 "name": "SCAMPER Adapt"
 },
 "urn:in-practice:exercise:d5401d38d22936d3b1ecd0a5": {
-"technique": "why-technique",
-"method": "rule",
-"name": "Challenge Statements"
+"unmapped": "Challenge Statements"
 },
 "urn:in-practice:exercise:d544ac02cee31148daf14455": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:d54b26164bc79f2be51f9573": {
 "drop": "ml-engineering"
@@ -20637,9 +19920,7 @@
 "unmapped": "Scenario Planning"
 },
 "urn:in-practice:exercise:d5c33ef6d2582357a33fd092": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Hats Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:d5c717f8405e74b84d3a4bf9": {
 "unmapped": "Motivation for Creativity"
@@ -20684,9 +19965,7 @@
 "unmapped": "Synthesizing Thinking and Practices"
 },
 "urn:in-practice:exercise:d64faf035a1c0cad684a73ab": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Blue Hat Thought Control"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:d65767e084939f7bf67671fd": {
 "unmapped": "Don't Wait Until You Know Who You Are to Get Started"
@@ -20752,9 +20031,7 @@
 "unmapped": "Bernie Roth's 'Do or Do Not' Exercise"
 },
 "urn:in-practice:exercise:d76a880edd373ea8483ba561": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Selective Criticism"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:d786822d51de4748a0d6d954": {
 "unmapped": "Collaborative Sweet Spot"
@@ -20768,9 +20045,7 @@
 "name": "PO as a Lateral Thinking Tool"
 },
 "urn:in-practice:exercise:d79cc24200001df0dce65776": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:d7a4c6a820f1bced363b6a4c": {
 "unmapped": "Fostering Creativity Through Play"
@@ -20883,9 +20158,7 @@
 "unmapped": "Impossible Hybrids"
 },
 "urn:in-practice:exercise:d928b9a910d83d0d5cd23657": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:d931315b72b4e8d656550d82": {
 "technique": "six-thinking-hats",
@@ -20907,9 +20180,7 @@
 "unmapped": "Janusian Thinking"
 },
 "urn:in-practice:exercise:d94b5047b937037ad7f25a2b": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:d94f660c84c6e1198b695f08": {
 "unmapped": "Challenging Dialogue"
@@ -20997,9 +20268,7 @@
 "unmapped": "Focus and Drive"
 },
 "urn:in-practice:exercise:da2e553f40b9f44720ac8f73": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Green Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:da311501f52831cf47f49aa0": {
 "unmapped": "Creative Dreaming"
@@ -21156,9 +20425,7 @@
 "unmapped": "Convert Negative Experiences"
 },
 "urn:in-practice:exercise:dba31e7aa2a2010959bde6fc": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Hats Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:dba363426767f490ee93ad8f": {
 "drop": "ml-engineering"
@@ -21240,9 +20507,7 @@
 "unmapped": "Creative Interpretation of Parables"
 },
 "urn:in-practice:exercise:dc857eaea1a52b2646d0b774": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:dcad8aba749a650ad102840e": {
 "drop": "cloud-setup"
@@ -21457,9 +20722,7 @@
 "name": "Reversal Method"
 },
 "urn:in-practice:exercise:dea1090e1b60a3212bdda9ce": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:dea5ef43905e3545db50328f": {
 "technique": "mental-locks-audit",
@@ -21668,17 +20931,13 @@
 "unmapped": "Model II Reflection"
 },
 "urn:in-practice:exercise:e0c937045937611e5b37cd18": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:e0ecaaeeaae721d9d47583e5": {
 "unmapped": "Rapid Mode Alternation"
 },
 "urn:in-practice:exercise:e0ef0a0cf3eb96746e49afe4": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:e1149d43e4de0dcdbac77ea4": {
 "drop": "ml-engineering"
@@ -21706,9 +20965,7 @@
 "unmapped": "Virtual World Experimentation"
 },
 "urn:in-practice:exercise:e154245b98d585815385ada0": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:e16def4308587d890462a059": {
 "technique": "reversal-method",
@@ -21813,9 +21070,7 @@
 "unmapped": "Imagination Questions"
 },
 "urn:in-practice:exercise:e27b6b05d6f49325f87274ac": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Green Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:e28a3a646c4da380c16e05a0": {
 "unmapped": "Psychosynthesis Dialogue"
@@ -21912,9 +21167,7 @@
 "unmapped": "Healthy Heart Food Design"
 },
 "urn:in-practice:exercise:e3bde725885409515dff5237": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:e3bf76f4be6e5fc29e2de860": {
 "drop": "ml-engineering"
@@ -21947,9 +21200,7 @@
 "unmapped": "on tempered enthusiasm with age"
 },
 "urn:in-practice:exercise:e42357776d9d893f52d12852": {
-"technique": "alternatives-quota",
-"method": "rule",
-"name": "Alternative Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:e4253c9f4b010e3b80093120": {
 "unmapped": "minimum spanning tree"
@@ -21967,7 +21218,7 @@
 "unmapped": "Solution Conjecture Practice"
 },
 "urn:in-practice:exercise:e44375d883ab11676a41740d": {
-"unmapped": "Intuition and Presentiments"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:e45536d0368d16b2ab6d8f51": {
 "unmapped": "Creative Writing Across Genres"
@@ -22010,9 +21261,7 @@
 "drop": "cloud-setup"
 },
 "urn:in-practice:exercise:e4b6140b065f95a1a853a491": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Yellow Hat Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:e4bfb7818625dff0412fb4b7": {
 "drop": "ml-engineering"
@@ -22130,9 +21379,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:e5eae7395c87e9b065eda05a": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Hats Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:e5f4064d58819ad7be3c344c": {
 "drop": "ml-engineering"
@@ -22147,8 +21394,8 @@
 "unmapped": "Ball Bearings"
 },
 "urn:in-practice:exercise:e6331aa8c1667245c82ffd2b": {
-"technique": "attribute-listing",
-"method": "model",
+"technique": "fractionation",
+"method": "rule",
 "name": "Cherry Split Technique"
 },
 "urn:in-practice:exercise:e635a57c829657f759dd96af": {
@@ -22157,7 +21404,7 @@
 "name": "Movement Instead of Judgement"
 },
 "urn:in-practice:exercise:e6363001d688c6078849276e": {
-"unmapped": "Control Imagining"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:e64a11b754405db448691e1d": {
 "unmapped": "Open Meeting"
@@ -22172,9 +21419,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:e66563299569beec9b95552b": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:e6762f57a57b21f5444340ad": {
 "unmapped": "Design Practice"
@@ -22208,9 +21453,7 @@
 "name": "Think Bubbles Mapping"
 },
 "urn:in-practice:exercise:e6b2e59bee37085df207244b": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:e6c46d0e95c9f54616bf31d8": {
 "drop": "network-security"
@@ -22222,9 +21465,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:e6cabcefa9cc51f0bac169f3": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:e6ddab3f4528b69b23e8c08a": {
 "drop": "ml-engineering"
@@ -22233,9 +21474,7 @@
 "unmapped": "Improving Mental Abilities with Experience"
 },
 "urn:in-practice:exercise:e6e3b50b3b5739f952d29d24": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:e6f28e9e59887a864738caf7": {
 "unmapped": "Play-Based Learning"
@@ -22258,9 +21497,7 @@
 "drop": "theology"
 },
 "urn:in-practice:exercise:e7595ac3cf093c3039296ef0": {
-"technique": "contextual-observation",
-"method": "rule",
-"name": "Observation of Creative Environments"
+"unmapped": "Observation of Creative Environments"
 },
 "urn:in-practice:exercise:e761cb165f696f5f90453111": {
 "technique": "six-thinking-hats",
@@ -22339,9 +21576,7 @@
 "drop": "medicine/therapy"
 },
 "urn:in-practice:exercise:e85c2d680ba5484ba26941b1": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:e87383d4ea4ea953ac75c15b": {
 "technique": "six-thinking-hats",
@@ -22419,9 +21654,7 @@
 "unmapped": "Creative Leap"
 },
 "urn:in-practice:exercise:e92de7728cd5d4facd3696d3": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:e9355c4c7864109d751daa92": {
 "drop": "ml-engineering"
@@ -22502,9 +21735,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:ea315c2c57f1ef313c11248d": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:ea4011e456945510903d28a0": {
 "unmapped": "Invent a Creature"
@@ -22551,9 +21782,7 @@
 "name": "Create Your Own Oracle"
 },
 "urn:in-practice:exercise:ea9ec7dede54f81ff354d4fa": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:eaae0c23263128ecd17116e7": {
 "technique": "random-word",
@@ -22567,9 +21796,7 @@
 "unmapped": "Ask Creative Questions"
 },
 "urn:in-practice:exercise:eae6c537b40229c1a93f7fb9": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:eaeb2f8914e1b8ce1942059a": {
 "drop": "ip-law"
@@ -22584,7 +21811,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:eb170a2ac7c02cf499620e7d": {
-"unmapped": "Positive Visioning"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:eb1bfc152f302cd8224577d5": {
 "technique": "six-thinking-hats",
@@ -22621,9 +21848,7 @@
 "name": "Journaling Prompts"
 },
 "urn:in-practice:exercise:eb91a7ccb2c1d83ed194d070": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Use Red Hat for Emotions"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:eb98c9ad31f856e877aa61c9": {
 "unmapped": "Pay Attention to Small Ideas"
@@ -22643,9 +21868,7 @@
 "name": "Red Hat Thinking"
 },
 "urn:in-practice:exercise:ebaf939b65be7db61b19cf86": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Yellow Hat Proposal Generation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:ebb8a88dae820bd759f61e54": {
 "technique": "how-might-we",
@@ -22653,14 +21876,10 @@
 "name": "How Might We?"
 },
 "urn:in-practice:exercise:ebc16be26e23cc4961b0a7f5": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:ebc9f0f33e90305b21a20de2": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Assign Blue Hat Role"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:ebd2b81dc48f3a0e31b056f7": {
 "unmapped": "Assessing Potential in Young Students"
@@ -22683,9 +21902,7 @@
 "unmapped": "Problem Framing in Planning Meetings"
 },
 "urn:in-practice:exercise:ec136957160ae46a01d90204": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:ec18866c99bd1e17e5b51b00": {
 "unmapped": "Minimize and Streamline"
@@ -22697,9 +21914,7 @@
 "unmapped": "Love Symbol Exercise"
 },
 "urn:in-practice:exercise:ec22c43f32705d89c197c4ff": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Blue Hat Thought Control"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:ec36c15a726b7a06c0511e39": {
 "drop": "cloud-setup"
@@ -22716,9 +21931,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:ec7c8ccc252dfaf6fada3c61": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Blue Hat Control"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:ec7e87feb20c32572455d06a": {
 "unmapped": "Question Reframing"
@@ -22766,17 +21979,13 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:ecbeb1861a75de8d4139cb98": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:ecbf69945fd39242425808cb": {
 "unmapped": "Maintaining Dialectic in Development Teams"
 },
 "urn:in-practice:exercise:ecc7689c05f5ec42847be20b": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:ecdc191845db5fb3d9177823": {
 "unmapped": "Nurture a Prepared Mind"
@@ -22832,9 +22041,7 @@
 "name": "Consult An Oracle"
 },
 "urn:in-practice:exercise:ed823ccb2d6bef4513a01c33": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:ed89f27a22eedde16853d9fe": {
 "unmapped": "Squeeze a Challenge"
@@ -22935,17 +22142,13 @@
 "unmapped": "Key Word Index"
 },
 "urn:in-practice:exercise:eed8a315967f5dca6b56bb4b": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:eee3a64422d004c3a714f18a": {
 "unmapped": "Influence of Human Environment"
 },
 "urn:in-practice:exercise:eeea9dd09edd009e503088a9": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:eeef84fe013ead2ec187aac5": {
 "unmapped": "Reflecting on Winning Habits"
@@ -22977,9 +22180,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:ef55572dff3682356190bc0a": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:ef64f8e9498f95ba4bca42f1": {
 "unmapped": "Early Conjecture and Testing"
@@ -23069,9 +22270,7 @@
 "unmapped": "Design Practice"
 },
 "urn:in-practice:exercise:f063181feb734d3cb42307a5": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:f0632f20e6a36245928599dd": {
 "unmapped": "WK12 Advertising School"
@@ -23104,9 +22303,7 @@
 "unmapped": "Stepping Stone Technique"
 },
 "urn:in-practice:exercise:f0a2a1f61311ce0a15629e4a": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:f0a678962ba47426fa0e610c": {
 "technique": "alternatives-quota",
@@ -23128,9 +22325,7 @@
 "unmapped": "Imagination and Originality"
 },
 "urn:in-practice:exercise:f0ec3d53f68ec5ff47fd6d3a": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:f0f7336f9c0be13280ce76e1": {
 "technique": "improv-yes-and",
@@ -23183,9 +22378,7 @@
 "unmapped": "Multifaceted Commitment Exercise"
 },
 "urn:in-practice:exercise:f16313f7d8937aa5a32be168": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:f1718eeb75515d0b0fb704c8": {
 "unmapped": "Process Requirement for Creativity"
@@ -23389,9 +22582,7 @@
 "name": "Random Word Association"
 },
 "urn:in-practice:exercise:f362a1ed318184caa20ec874": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Green Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:f36977691648856e20c7225b": {
 "unmapped": "Wallet Exercise"
@@ -23403,14 +22594,10 @@
 "unmapped": "Sensory Learning Experiences"
 },
 "urn:in-practice:exercise:f37e6cb90ed3fad1da7eaf1d": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Provocation with 'op'"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:f39437ede542233d1854b90e": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:f394abb352d42e5a240d42c9": {
 "unmapped": "Remove Excuses"
@@ -23482,9 +22669,7 @@
 "unmapped": "Content Analysis"
 },
 "urn:in-practice:exercise:f479ec48521ddd49377cdbe2": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:f47bdd6f20c94fcd1dd2dc16": {
 "unmapped": "String Theory Revolution Analysis"
@@ -23545,9 +22730,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:f50c7f3aa49512d086a30943": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:f513583cf1788a28706341a2": {
 "unmapped": "Breaking the Sameness"
@@ -23570,9 +22753,7 @@
 "unmapped": "Stravinsky Effect"
 },
 "urn:in-practice:exercise:f54f4908fa1a5fb4a166eaf2": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Green Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:f5500641abb0ec2f20c81f38": {
 "unmapped": "Collaborative Decision-Making Activity"
@@ -23584,9 +22765,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:f574e8ccdc60ffa427ad88b3": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Use Red Hat for Emotions"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:f587c18f532c63c30ba390c5": {
 "unmapped": "Practicing Wondering and Questioning"
@@ -23595,9 +22774,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:f5986cc65a6b6fb718517818": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Green Hat Creative Pause"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:f5a6bde65f452acde51bf492": {
 "unmapped": "Relaxation and Distraction"
@@ -23613,9 +22790,7 @@
 "name": "Six Thinking Hats Method"
 },
 "urn:in-practice:exercise:f5c22e71cdc1985782473d7c": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:f5c642e100161f245460e981": {
 "technique": "pmi",
@@ -23676,14 +22851,10 @@
 "unmapped": "Travel for Creativity"
 },
 "urn:in-practice:exercise:f65cdf535fb76cfa1626f1d5": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:f65e5158870db7edc18936a3": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:f65f9b45f265ef4983a42832": {
 "drop": "cloud-setup"
@@ -23720,9 +22891,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:f69dd2d057e34ba02073c9dc": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Yellow Hat Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:f6a69d34bad91cb2b222595d": {
 "technique": "morphological-box",
@@ -23796,9 +22965,7 @@
 "name": "Attribute Analysis"
 },
 "urn:in-practice:exercise:f7452c3f6bb4990994f241d3": {
-"technique": "po-provocation",
-"method": "rule",
-"name": "Movement and Provocation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:f75eecf0abf4370ac37790d7": {
 "technique": "random-word",
@@ -23837,9 +23004,7 @@
 "name": "Phoenix Checklist"
 },
 "urn:in-practice:exercise:f7c830e3ffb77c7d78ab75ac": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:f7d2a49a6f34777e66d58df3": {
 "drop": "ml-engineering"
@@ -23862,9 +23027,7 @@
 "unmapped": "Embrace Continuous Learning"
 },
 "urn:in-practice:exercise:f7e56bcd44f63372fc9e56c2": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Green Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:f7f47879c6d518e6bf6885bb": {
 "unmapped": "Tips for Quick Videos"
@@ -23894,9 +23057,7 @@
 "drop": "ml-engineering"
 },
 "urn:in-practice:exercise:f8365ff3eee1cc8c7466d5c2": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:f838f29098bc7ff77b9ed6eb": {
 "technique": "analogy-transfer",
@@ -24117,9 +23278,7 @@
 "name": "PO Technique"
 },
 "urn:in-practice:exercise:fa6d2a3544bcda058b0f1661": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:fa723b89d934f93e2b8fa118": {
 "unmapped": "Survival Analysis for Proposal Evaluation"
@@ -24153,9 +23312,7 @@
 "unmapped": "Meta-Ideas for Creative Cultures"
 },
 "urn:in-practice:exercise:fad6b75104852405fbb4f2bd": {
-"technique": "alternatives-quota",
-"method": "rule",
-"name": "Alternative Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:fae44dc7b8908e1246ff41ce": {
 "technique": "six-thinking-hats",
@@ -24177,9 +23334,7 @@
 "name": "Alternative Descriptions of Geometric Figures"
 },
 "urn:in-practice:exercise:fb0274387985b9c1aa9e2b90": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Green Hat Creative Idea Generation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:fb0f1d1147674fc407ebdb2e": {
 "unmapped": "Play the Fool"
@@ -24283,9 +23438,7 @@
 "name": "Identify and Challenge Obsolete Rules"
 },
 "urn:in-practice:exercise:fc985ebbd5303724cdae0460": {
-"technique": "contextual-observation",
-"method": "rule",
-"name": "Observation of Creative Environments"
+"unmapped": "Observation of Creative Environments"
 },
 "urn:in-practice:exercise:fc9eeb5741921faa539259ef": {
 "technique": "seeing-as-sketch-cycles",
@@ -24337,9 +23490,7 @@
 "unmapped": "Mentoring for Creativity"
 },
 "urn:in-practice:exercise:fd206074cbfcd18f61f670f8": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:fd2480a1d3e0b878586b53df": {
 "drop": "ml-engineering"
@@ -24397,9 +23548,7 @@
 "unmapped": "Alternate Uses Test"
 },
 "urn:in-practice:exercise:fdad02ae5459415fd2e4ff3e": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:fdb31b364fd448b4fe19bfc7": {
 "unmapped": "Exploring Mathematical Creativity"
@@ -24417,9 +23566,7 @@
 "drop": "cloud-setup"
 },
 "urn:in-practice:exercise:fde61ff21cd006e09067426b": {
-"technique": "contextual-observation",
-"method": "rule",
-"name": "Observation of Creative Environments"
+"unmapped": "Observation of Creative Environments"
 },
 "urn:in-practice:exercise:fdeaf0ca5e4493dc9ed8ddff": {
 "technique": "six-thinking-hats",
@@ -24480,9 +23627,7 @@
 "name": "Open Mental Locks"
 },
 "urn:in-practice:exercise:fe60828e7b41bebf771409c0": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Affirmation"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:fe667110c56df640795c193b": {
 "technique": "random-word",
@@ -24553,9 +23698,7 @@
 "name": "Create Your Own Oracle"
 },
 "urn:in-practice:exercise:fecdee5703a8c58112579940": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Yellow Hat Positive Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:fedc67991354ecb0df2f726c": {
 "technique": "reversal-method",
@@ -24571,7 +23714,7 @@
 "name": "Red Hat Thinking Practice"
 },
 "urn:in-practice:exercise:fef03bd4594116ff890eaa31": {
-"unmapped": "Devil's Advocate"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:fefcb57aa19b336034e516ff": {
 "technique": "six-thinking-hats",
@@ -24582,9 +23725,7 @@
 "unmapped": "FIRE — shoot freely then list"
 },
 "urn:in-practice:exercise:ff005012c7b5939959a9b059": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Six Thinking Hats Method"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:ff1d8e378bf048f1615ea4b8": {
 "unmapped": "Professional Development Techniques"
@@ -24599,9 +23740,7 @@
 "unmapped": "Multiple Intelligences"
 },
 "urn:in-practice:exercise:ff5bf68ae51b2c52af134ca5": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Red Hat Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:ff6c412dfad548ccbd07b97e": {
 "drop": "ml-engineering"
@@ -24629,9 +23768,7 @@
 "name": "Implicit Assumption Check"
 },
 "urn:in-practice:exercise:ffb230b85cb4c4ab6908b6c7": {
-"technique": "why-technique",
-"method": "rule",
-"name": "Challenge Statements"
+"unmapped": "Challenge Statements"
 },
 "urn:in-practice:exercise:ffb24a5637eea19b9410e881": {
 "unmapped": "Interdisciplinary Collaboration"
@@ -24640,17 +23777,13 @@
 "unmapped": "Audience and Creativity"
 },
 "urn:in-practice:exercise:ffb5a05ecfff052728bfa8ed": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "Black Hat Negative Thinking"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:ffc247ecbd90f1dd7c39888f": {
 "unmapped": "Organizing Proposals"
 },
 "urn:in-practice:exercise:ffc4fbdc67790759009e675c": {
-"technique": "six-thinking-hats",
-"method": "rule",
-"name": "White Hat Thinking Practice"
+"drop": "unreliable-copy (machine back-translation)"
 },
 "urn:in-practice:exercise:ffc5bb20dd6ae05d4c04d1f4": {
 "unmapped": "Maintaining Dialectic in Development Teams"
@@ -24667,7 +23800,7 @@
 "unmapped": "Creative Persistence"
 },
 "urn:in-practice:exercise:fffd3283078d7b8fc0ceba59": {
-"unmapped": "Synthesize Group Thoughts"
+"drop": "unreliable-copy (machine back-translation)"
 }
 }
 }

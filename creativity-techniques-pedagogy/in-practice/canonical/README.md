@@ -12,7 +12,8 @@ Private. Builds `../CANONICAL-TECHNIQUES.yml`, `../CANONICAL-TECHNIQUES.md` and
 | 5 | `build.py` | `techniques.base.yml` + mapping + `docs/_data/references.yml` | the three catalogue files |
 
 Edit only `techniques.base.yml` (content), the rule table in `map_records.py`
-and `model-vetoes.json`, then rerun steps 4–5. Steps 1 and 3 need the runtime
+(name rules, off-topic/unreliable-copy exclusions, `EXCLUDE_URNS` record-level
+exclusions; EX8 / Amendment A11) and `model-vetoes.json`, then rerun steps 4–5. Steps 1 and 3 need the runtime
 export and an idle machine (check `runtime/process.json`, `ps`, and
 `curl localhost:11434/api/ps` first). `source-snapshot.json` records which export
 the mapping was computed from.
