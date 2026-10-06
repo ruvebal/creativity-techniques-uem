@@ -83,17 +83,63 @@ Pause after each version and write three lines: what changed, what stayed, and w
 
 **Announced by a geometrical slide first:** two exercises follow; everything you produce in Lab goes into your **portfolio index**. Both exercises are classroom adaptations of procedures from the course reading list — not invented studio games.
 
-### Exercise 1 — Same problem, three entry points
+### Exercise 1 — Same problem, three entry points, in parallel
 
-Work from one concrete problem in your D1. The class keeps the **same problem**, but each of your three answers must start from a **different entry point** named in advance (for example: structure, material/support, or audience/circulation). Make three rough sketches or small prototypes in about 20 minutes. Do not polish. Use the sketch as a thinking tool — Cross summarises sketching research as a dialogue between "seeing that" and "seeing as" [(Cross 2006, 86)](#ref-cross-2006) — and compare relationships, rhythm, and emphasis across the three starts. At the end, tell one classmate how each entry point steered the path. de Bono's reason for the exercise: "a different entry point will usually mean a different train of ideas" [(de Bono 1970, chap. "Choice of Entry Point and Attention Area")](#ref-debono-1970). Watch the temptation to solve the problem the “obvious” way and only paste the entry point on afterwards. Making several versions side by side before asking for feedback is not only a classroom habit: in a study with novice designers, those who made several prototypes in parallel before receiving critique produced better-performing and more varied designs, and gained more confidence, than those who received critique after each single prototype [(Dow et al. 2010, 18:1)](#ref-dow-2010).
+Practises Masterclass ideas **1** (make it rough, make it early), **3** (iterate with an exit — and avoid fixation) and **4** (sketch to think).
 
-**Portfolio trace:** the shared problem statement; the three named entry points; three images or scans; one sentence on what each entry point made possible (or blocked).
+**Time:** 20 minutes (about 15 making, 5 for side-by-side feedback).
+
+**Group:** alone to make; pairs for feedback.
+
+**Materials:** one concrete D1 problem shared by the whole class; paper, card and tape, or a digital mock-up tool.
+
+**Steps:**
+
+1. Write the shared problem at the top of the page.
+2. Before you start, name three different entry points (for example: structure, material/support, or audience/circulation).
+3. Make three rough sketches or small prototypes, one from each entry point. Do not polish.
+4. Ask for feedback only when all three exist: show them side by side to a classmate.
+5. Note what each version taught you and which one the feedback favoured.
+6. Tell your partner how each entry point steered the path, and mark any idea you would combine into the next version. Watch the temptation to solve the problem the obvious way and paste the entry point on afterwards.
+
+**Portfolio trace:** the shared problem statement; the three named entry points; three images or scans; one sentence per version on what it taught you (or blocked).
+
+**Judged by:** [Portfolio rubric — creative fluency, flexibility, and originality]({{ '/assignments/en/creativity-techniques-portfolio/' | relative_url }}#rubric)
+
+**Source:** making several versions before any feedback is called parallel prototyping. In a study with novice designers, those who made several prototypes in parallel before receiving critique produced better-performing and more varied designs, and reported a larger increase in task-specific self-confidence, than those who received critique after each single prototype [(Dow et al. 2010, 18:1)](#ref-dow-2010). Starting from different entry points follows de Bono: "a different entry point will usually mean a different train of ideas" [(de Bono 1970, chap. "Choice of Entry Point and Attention Area")](#ref-debono-1970). The steps are a classroom adaptation.
 
 ### Exercise 2 — Delay judgement, then checkpoint and exit
 
-Choose one of the three versions. Protect a short space where you **delay judgement**: keep developing without deciding yet whether the arrangement is “right” [(de Bono 1970, chap. "The New Word PO")](#ref-debono-1970). Then write **one testable question** the next version must answer (“Can a classmate find the main action?”). Revise once. Stop when the test is answered — even if another improvement is possible. If a tool or generative system supplied a variation, record the prompt, the option you rejected, and why you kept the final form.
+Practises Masterclass ideas **2** (defer judgement), **3** (iterate with an exit) and **6** (reflect at checkpoints).
 
-**Portfolio trace:** before/after; the deferred-judgement note; the test question; the checkpoint (what changed / what stayed / what you learned); the exit decision.
+**Time:** 20 minutes (about 5 delay, 5 question, 7 revise and test, 3 checkpoint).
+
+**Group:** alone; one classmate tries your revised version.
+
+**Materials:** your three versions from Exercise 1; the slide timer; a card for your test question.
+
+**Steps:**
+
+1. Choose one of your three versions.
+2. **Delay judgement** (5 minutes): keep developing it without deciding whether it is "right". No criticism yet — including your own.
+3. Ask what this version tests: its **role** (what it does for the person), its **look and feel**, or **how it would actually work**. Pick one.
+4. Write **one testable question** about that choice ("Can a classmate find the main action?").
+5. Revise once to answer it, then let a classmate try the new version.
+6. **Checkpoint:** write three lines — what changed, what stayed, what you learned.
+7. **Exit:** stop when the question is answered, even if another improvement is possible. If a tool or generative system supplied a variation, record the prompt, the option you rejected and why you kept the final form.
+
+**Portfolio trace:** before/after; the deferred-judgement note; the role, look-and-feel or how-it-works choice and the test question; the three checkpoint lines; the exit decision.
+
+**Judged by:** [Portfolio rubric — critical analysis and judgement]({{ '/assignments/en/creativity-techniques-portfolio/' | relative_url }}#rubric)
+
+**Source:** holding back criticism comes from Osborn's first rule for idea sessions: "Criticism must be withheld until all ideas are in" [(Osborn 1942, chap. 4)](#ref-osborn-1942). The role / look and feel / how-it-works question is course wording. The steps are a classroom adaptation.
+
+{% if site.publication.publish_internal_metadata %}
+<!-- curriculum-internal:
+LAB_LINE: exercise=1; technique_id=parallel-prototyping (+ entry-point-attention-area); practises=masterclass-1,3,4; source=dow-2010 18:1 abstract (re-read EX8) + debono-1970 chap. "Choice of Entry Point and Attention Area"; Cross 2006, 86 no longer cited in the Lab (provenance U3.sketch-dialectic-ex1 kept)
+LAB_LINE: exercise=2; technique_id=delay-judgement-checkpoint; practises=masterclass-2,3,6; source=osborn-1942 chap. 4 (replaces de Bono 1970 chap. "The New Word PO" for deferred judgement, FINDINGS D3); Houde and Hill 1997 (role / look and feel / implementation) is a BIBLIO-GAP (research-manifest houde-1997) — the question runs as course wording without the citation
+-->
+{% endif %}
 
 ## B3 · Workshop — advance D1
 
@@ -161,6 +207,7 @@ LAB_EXERCISE_SELECTION:
     review_status: candidate
     witness: de_bono_edward_lateral_thinking_a_textbook_of_creativity_1970_viking_penguin_books_bb5aec96
     chicago: "(de Bono 1970, chap. \"The New Word PO\")"
+    ex8: "2026-10-06 — student-facing cite replaced by (Osborn 1942, chap. 4) for deferred judgement (FINDINGS D3); the PO record stays as the in-practice witness only"
     node_id: cf0ad9f8-3a36-544f-bd48-bdf38173feb5
     document_coat: bb5aec96
     evaluator_safe: yes
@@ -174,7 +221,7 @@ LAB_EXERCISE_SELECTION:
 ## Editorial note. Work in progress. Teaching Innovation Practice
 {: .lesson-editorial-note }
 
-This unit adapts two Lab exercises from Cross and de Bono, with the parallel-prototyping study of Dow and colleagues behind Exercise 1, and treats them as a bounded teaching hypothesis. The cited passages support the lesson’s vocabulary for ill-defined problems, non-verbal modelling, delayed judgement, and creative action under constraints; they do not prove that the exact Lab sequence will work for every student. Classroom adaptations are professor framing, not claims that the original authors wrote these portfolio briefs. The lesson therefore teaches a reversible development loop and asks students to record evidence rather than promising that prototypes always improve a solution.
+This unit adapts two Lab exercises: parallel prototyping from three de Bono entry points (Exercise 1, with the study of Dow and colleagues behind it) and Osborn's deferred judgement with a checkpoint and exit (Exercise 2), and treats them as a bounded teaching hypothesis. The cited passages support the lesson’s vocabulary for ill-defined problems, non-verbal modelling, delayed judgement, and creative action under constraints; they do not prove that the exact Lab sequence will work for every student. Classroom adaptations are professor framing, not claims that the original authors wrote these portfolio briefs. The lesson therefore teaches a reversible development loop and asks students to record evidence rather than promising that prototypes always improve a solution.
 
 ## AI-assisted authorship
 

@@ -1,7 +1,7 @@
 # In-practice
 
 Private, reusable catalogue of creativity exercises grounded in supplied monographs.
-JSON is the editable machine record; Markdown is a generated reading view. No YAML editing is required.
+JSON is the editable machine record; Markdown is a generated reading view. Exception: the canonical technique catalogue (below) is edited in `canonical/techniques.base.yml` and rebuilt with `canonical/build.py` (never hand-edit its generated YAML).
 
 **Canonical techniques (EX7, 2026-10-06):** Lab exercises are chosen from [`CANONICAL-TECHNIQUES.yml`](CANONICAL-TECHNIQUES.yml) (reading view [`CANONICAL-TECHNIQUES.md`](CANONICAL-TECHNIQUES.md); per-unit export [`CANONICAL-TECHNIQUES-BY-UNIT.yml`](CANONICAL-TECHNIQUES-BY-UNIT.yml); pipeline [`canonical/`](canonical/README.md)) — generated, private, never published.
 

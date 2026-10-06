@@ -5,7 +5,7 @@
 > Only `verified` sources may be cited to students; `held` = in the library but not yet in
 > `docs/_data/references.yml`; `gap` = not in the library, attribution unverified.
 
-Records: 6785 in `runtime/exercises-active.json`; 1141 dropped as off-topic; 2157 mapped to 45 of 66 techniques (2112 duplicate records collapsed); 3487 on-topic records left unmapped (not a canonical technique, or too vague).
+Records: 6785 in `runtime/exercises-active.json`; 1581 dropped as off-topic; 1723 mapped to 45 of 66 techniques (1678 duplicate records collapsed); 3481 on-topic records left unmapped (not a canonical technique, or too vague).
 
 ## Summary
 
@@ -13,21 +13,21 @@ Records: 6785 in `runtime/exercises-active.json`; 1141 dropped as off-topic; 215
 | --- | --- | --- | --- | --- | --- | ---: | --- |
 | `alternative-uses-task` | Alternative Uses Task (AUT) | generation | divergent | chen-2011 | verified | 0 | U1, U2 |
 | `brainstorming-osborn` | Brainstorming (Osborn ground rules) | generation | divergent | osborn-1942 | verified | 59 | U2, U4 |
-| `brainwriting-635` | 6-3-5 brainwriting | generation | divergent | gap | held | 6 | U2, U4 |
+| `brainwriting-635` | 6-3-5 brainwriting | generation | divergent | gap | held | 5 | U2, U4 |
 | `nominal-group` | Nominal group (solo ideas, then pool) | generation | both | gap | gap | 0 | U2, U4 |
 | `scamper` | SCAMPER | generation | divergent | gap | held | 127 | U2, U3 |
 | `phoenix-checklist` | Phoenix checklist (problem questions) | framing | both | gap | held | 26 | U3, U4 |
 | `morphological-box` | Morphological box (idea box) | generation | divergent | gap | held | 39 | U2, U3, U5 |
 | `synectics-excursion` | Synectics excursion (direct, personal and fantasy analogy) | generation | divergent | gap | held | 10 | U2 |
 | `analogy-transfer` | Analogy transfer | generation | divergent | debono-1970 | verified | 40 | U2, U3 |
-| `random-word` | Random word stimulation | generation | divergent | debono-1970 | verified | 114 | U2, U5 |
-| `po-provocation` | PO provocation | generation | divergent | debono-1970 | verified | 202 | U2, U3 |
+| `random-word` | Random word stimulation | generation | divergent | debono-1970 | verified | 113 | U2, U5 |
+| `po-provocation` | PO provocation | generation | divergent | debono-1970 | verified | 160 | U2, U3 |
 | `reversal-method` | Reversal method | generation | divergent | debono-1970 | verified | 72 | U2 |
-| `alternatives-quota` | Quota of alternatives | generation | divergent | debono-1970 | verified | 76 | U1, U2 |
-| `fractionation` | Fractionation | generation | divergent | debono-1970 | verified | 23 | U2, U3 |
+| `alternatives-quota` | Quota of alternatives | generation | divergent | debono-1970 | verified | 58 | U1, U2 |
+| `fractionation` | Fractionation | generation | divergent | debono-1970 | verified | 39 | U2, U3 |
 | `oblique-strategies` | Oblique Strategies cards | generation | divergent | gap | gap | 0 | U2, U5 |
 | `mind-map` | Mind map | generation | divergent | gap | held | 18 | U1, U2 |
-| `attribute-listing` | Attribute listing | generation | divergent | gap | held | 32 | U2, U3 |
+| `attribute-listing` | Attribute listing | generation | divergent | gap | held | 16 | U2, U3 |
 | `tzara-cut-up` | Tzara cut-up | generation | divergent | gap | gap | 0 | U1, U5 |
 | `exquisite-corpse` | Exquisite corpse | generation | divergent | gap | held | 5 | U1, U2 |
 | `readymade-recontextualisation` | Readymade recontextualisation | generation | both | gap | gap | 0 | U1, U5 |
@@ -42,7 +42,7 @@ Records: 6785 in `runtime/exercises-active.json`; 1141 dropped as off-topic; 215
 | `lightning-demos` | Lightning demos | generation | divergent | knapp-2016 | verified | 0 | U3, U4, U5 |
 | `swipe-file` | Swipe file (collect and credit influences) | reflection | divergent | gap | held | 1 | U5, U6 |
 | `how-might-we` | How Might We notes | framing | both | knapp-2016 | verified | 1 | U1, U3, U4 |
-| `why-technique` | Challenging assumptions (Why technique) | framing | divergent | debono-1970 | verified | 72 | U1, U3 |
+| `why-technique` | Challenging assumptions (Why technique) | framing | divergent | debono-1970 | verified | 61 | U1, U3 |
 | `entry-point-attention-area` | Entry point and attention area | framing | divergent | debono-1970 | verified | 9 | U3 |
 | `dominant-idea` | Dominant idea and crucial factor | framing | convergent | debono-1970 | verified | 19 | U3, U4 |
 | `five-whys` | Five whys | framing | convergent | norman-2013 | verified | 0 | U3, U4 |
@@ -52,15 +52,15 @@ Records: 6785 in `runtime/exercises-active.json`; 1141 dropped as off-topic; 215
 | `empathy-map` | Empathy map | framing | both | gap | held | 14 | U3, U4 |
 | `mental-locks-audit` | Mental locks audit | reflection | convergent | gap | held | 50 | U1, U6 |
 | `double-diamond` | Double-diamond plan | framing | both | norman-2013 | verified | 0 | U3, U4 |
-| `contextual-observation` | Contextual observation | framing | divergent | norman-2013 | verified | 21 | U3, U4 |
+| `contextual-observation` | Contextual observation | framing | divergent | norman-2013 | verified | 9 | U3, U4 |
 | `hits-dot-voting` | Hits and dot voting | selection | convergent | knapp-2016 | verified | 0 | U2, U4 |
 | `note-and-vote` | Note-and-vote | selection | convergent | knapp-2016 | verified | 0 | U3, U4 |
 | `cocd-box` | COCD box | selection | convergent | gap | gap | 0 | U2 |
-| `pmi` | PMI (Plus, Minus, Interesting) | selection | convergent | debono-1985 | verified | 9 | U2, U4 |
+| `pmi` | PMI (Plus, Minus, Interesting) | selection | convergent | debono-1985 | verified | 8 | U2, U4 |
 | `alu` | ALU (Advantages, Limitations, Unique qualities) | selection | convergent | gap | gap | 0 | U2, U3 |
 | `weighted-decision-matrix` | Weighted decision matrix | selection | convergent | gap | gap | 0 | U3, U4 |
 | `peer-cat` | Consensual assessment (peer CAT) | selection | convergent | gap | gap | 0 | U1, U2 |
-| `six-thinking-hats` | Six Thinking Hats | selection | both | debono-1985 | verified | 714 | U2, U4 |
+| `six-thinking-hats` | Six Thinking Hats | selection | both | debono-1985 | verified | 366 | U2, U4 |
 | `delay-judgement-checkpoint` | Delay-judgement checkpoint | development | both | osborn-1942 | verified | 19 | U3 |
 | `parallel-prototyping` | Parallel prototyping | development | both | dow-2010 | verified | 0 | U3, U5 |
 | `storyboarding` | Storyboarding | development | convergent | knapp-2016 | verified | 16 | U3, U4 |
@@ -112,7 +112,7 @@ Each lesson (U1.1 … U6.2) picks two Lab techniques from its unit, recommended 
 - `crazy-8s` Crazy 8s — generation, divergent, verified (knapp-2016), 10 min
 - `fractionation` Fractionation — generation, divergent, verified (debono-1970), 20 min
 - `po-provocation` PO provocation — generation, divergent, verified (debono-1970), 15 min
-- `random-word` Random word stimulation — generation, divergent, verified (debono-1970), 15 min
+- `random-word` Random word stimulation — generation, divergent, verified (debono-1970), 10 min
 - `reversal-method` Reversal method — generation, divergent, verified (debono-1970), 15 min
 - `seed-collection` Seed collection — generation, divergent, verified (rubin-2023), 30 min
 - `what-if-prompts` What-if (counterfactual) prompts — generation, divergent, verified (wong-2009), 15 min
@@ -201,7 +201,7 @@ Each lesson (U1.1 … U6.2) picks two Lab techniques from its unit, recommended 
 - `question-led-prototype` Question-led rough prototype — development, convergent, verified (knapp-2016), 45 min
 - `constraint-writing` Temporary rules (constraint-based making) — generation, divergent, verified (rubin-2023), 25 min
 - `lightning-demos` Lightning demos — generation, divergent, verified (knapp-2016), 30 min
-- `random-word` Random word stimulation — generation, divergent, verified (debono-1970), 15 min
+- `random-word` Random word stimulation — generation, divergent, verified (debono-1970), 10 min
 - `morphological-box` Morphological box (idea box) — generation, divergent, held (gap), 25 min
 - `swipe-file` Swipe file (collect and credit influences) — reflection, divergent, held (gap), 20 min
 - `oblique-strategies` Oblique Strategies cards — generation, divergent, gap (gap), 15 min
@@ -233,7 +233,7 @@ Each lesson (U1.1 … U6.2) picks two Lab techniques from its unit, recommended 
 
 - **Source:** chen-2011 — p. 26 (unusual-uses / brick test reported with Guilford's abilities) (verified)
 - **Time:** 15 min · **Group:** individual, class pooling · **Materials:** object or image, paper, timer
-- **Evidence:** Chen 2011, 26: divergent-thinking scores did not carry over across domains; use AUT as practice and self-diagnosis, not as a talent measure.
+- **Evidence:** Chen 2011, 26 cautions that AUT scores may say little about talent in a specific domain; use as practice, not a talent measure.
 - **Accessibility:** Oral or typed lists accepted; image prompt can replace a physical object.
 - **Catalogue records:** 0 (none: finding for the IP cascade)
 
@@ -270,11 +270,11 @@ Steps (classroom adaptation):
 `brainwriting-635` · generation · divergent · units U2, U4
 
 - **Source:** gap — gap work: Rohrbach 1969 (attribution unverified; manifest key rohrbach-1969) (held)
-- **Library note:** Brainwriting records from Michalko 2010 (Thinkertoys), not in references.yml.
+- **Library note:** Michalko 2010 (Thinkertoys), not in references.yml, describes Geschka's card brainwriting (Battelle), a silent written method of the same family but not 6-3-5; no library record describes 6-3-5 itself (A11/F2).
 - **Time:** 20 min · **Group:** 6 (3–6 works) · **Materials:** one 3-column grid sheet per person, pens, timer
 - **Evidence:** gap: Rohrbach 1969; gap: Diehl and Stroebe 1987 (production blocking in talking groups).
 - **Accessibility:** Typed shared document can replace paper; allow extra time per round where needed.
-- **Catalogue records:** 6 — labels: Brainwriting ×6 · methods: rule 6
+- **Catalogue records:** 5 — labels: Brainwriting ×5 · methods: rule 5
 
 Steps (classroom adaptation):
 
@@ -402,10 +402,10 @@ Steps (classroom adaptation):
 `random-word` · generation · divergent · units U2, U5
 
 - **Source:** debono-1970 — chap. Random stimulation (section Random word stimulation) (verified)
-- **Time:** 15 min · **Group:** 1–4 · **Materials:** random word list or dictionary, paper
+- **Time:** 10 min · **Group:** 1–4 · **Materials:** random word list or dictionary, paper
 - **Evidence:** untested
 - **Accessibility:** Word can be given aloud or as an image.
-- **Catalogue records:** 114 — labels: Random Word Stimulation ×63; Random Word Association ×14; Create Your Own Oracle ×11; Random Object Combination ×8; Consult An Oracle ×4 · methods: rule 99, model 15
+- **Catalogue records:** 113 — labels: Random Word Stimulation ×63; Random Word Association ×14; Create Your Own Oracle ×11; Random Object Combination ×8; Consult An Oracle ×4 · methods: rule 98, model 15
 
 Steps (classroom adaptation):
 
@@ -413,7 +413,8 @@ Steps (classroom adaptation):
 2. Draw a random noun (dictionary page, word list or card deck).
 3. List features and associations of the word, without looking at the problem.
 4. Connect each association back to the problem and write the idea it triggers.
-5. Draw a second word and repeat; compare the two sets of ideas.
+5. Stay with this one word for a single fixed slot of 3 to 5 minutes; do not switch words when it feels stuck.
+6. Use a different word on another day; in class, compare ideas with classmates who drew other words.
 
 ### PO provocation
 
@@ -423,7 +424,7 @@ Steps (classroom adaptation):
 - **Time:** 15 min · **Group:** 1–5 · **Materials:** paper or board
 - **Evidence:** untested
 - **Accessibility:** Works orally or in writing.
-- **Catalogue records:** 202 — labels: PO as a Lateral Thinking Tool ×43; PO Technique ×42; Movement and Provocation ×36; Movement Instead of Judgement ×23; PO Practice 2 ×18 · methods: rule 202
+- **Catalogue records:** 160 — labels: PO as a Lateral Thinking Tool ×43; PO Technique ×42; Movement Instead of Judgement ×23; PO Practice 2 ×18; Provocation Techniques ×17 · methods: rule 160
 
 Steps (classroom adaptation):
 
@@ -459,7 +460,7 @@ Steps (classroom adaptation):
 - **Time:** 10 min · **Group:** 1–4 · **Materials:** image or brief, paper
 - **Evidence:** untested
 - **Accessibility:** Image can be replaced by a verbal description.
-- **Catalogue records:** 76 — labels: Search for Alternatives ×22; Alternative Thinking ×18; Generate Alternatives ×13; Alternative Descriptions of Geometric Figures ×9; Dividing a Square into Four Equal Pieces ×5 · methods: rule 66, model 10
+- **Catalogue records:** 58 — labels: Search for Alternatives ×22; Generate Alternatives ×13; Alternative Descriptions of Geometric Figures ×9; Dividing a Square into Four Equal Pieces ×5; Second Right Answer ×5 · methods: rule 48, model 10
 
 Steps (classroom adaptation):
 
@@ -476,7 +477,7 @@ Steps (classroom adaptation):
 - **Time:** 20 min · **Group:** 1–3 · **Materials:** paper, sticky notes
 - **Evidence:** untested
 - **Accessibility:** Sticky notes can be replaced by a typed list.
-- **Catalogue records:** 23 — labels: Fractionation Practice ×23 · methods: rule 23
+- **Catalogue records:** 39 — labels: Fractionation Practice ×23; Cherry Split Technique ×16 · methods: rule 39
 
 Steps (classroom adaptation):
 
@@ -527,11 +528,11 @@ Steps (classroom adaptation):
 `attribute-listing` · generation · divergent · units U2, U3
 
 - **Source:** gap — gap work: origin attribution unverified (held)
-- **Library note:** Attribute listing / Cherry Split records from Michalko 2010 (Thinkertoys), not in references.yml.
+- **Library note:** Attribute listing records from Michalko 2010 (Thinkertoys), not in references.yml. (Michalko's Cherry Split is fractionation, not attribute listing; A11/F2.)
 - **Time:** 20 min · **Group:** 1–4 · **Materials:** paper or table template
 - **Evidence:** untested
 - **Accessibility:** Table template usable with a screen reader.
-- **Catalogue records:** 32 — labels: Cherry Split Technique ×16; Attribute Analysis ×10; Attribute Listing for Creative Breakthroughs ×4; Attribute Combination ×2 · methods: rule 14, model 18
+- **Catalogue records:** 16 — labels: Attribute Analysis ×10; Attribute Listing for Creative Breakthroughs ×4; Attribute Combination ×2 · methods: rule 14, model 2
 
 Steps (classroom adaptation):
 
@@ -803,7 +804,7 @@ Steps (classroom adaptation):
 - **Time:** 15 min · **Group:** 2–4 · **Materials:** paper
 - **Evidence:** untested
 - **Accessibility:** No physical requirements.
-- **Catalogue records:** 72 — labels: Challenge Statements ×11; Why Questions ×10; Challenge Labels ×10; Rule-Challenging Exercise ×9; Identify and Challenge Obsolete Rules ×9 · methods: rule 71, model 1
+- **Catalogue records:** 61 — labels: Why Questions ×10; Challenge Labels ×10; Rule-Challenging Exercise ×9; Identify and Challenge Obsolete Rules ×9; Challenging Assumptions ×5 · methods: rule 60, model 1
 
 Steps (classroom adaptation):
 
@@ -981,7 +982,7 @@ Steps (classroom adaptation):
 - **Time:** 30 min · **Group:** 1–3 · **Materials:** notebook, consent script if people are identifiable
 - **Evidence:** untested
 - **Accessibility:** Video observation allowed; no photographs of people without consent.
-- **Catalogue records:** 21 — labels: Observation of Creative Environments ×12; Observation for Innovation ×4; Observation Practice ×3; User Observation and Prototyping ×1; Do Observations in the Field ×1 · methods: rule 21
+- **Catalogue records:** 9 — labels: Observation for Innovation ×4; Observation Practice ×3; User Observation and Prototyping ×1; Do Observations in the Field ×1 · methods: rule 9
 
 Steps (classroom adaptation):
 
@@ -1047,11 +1048,11 @@ Steps (classroom adaptation):
 
 `pmi` · selection · convergent · units U2, U4
 
-- **Source:** debono-1985 — PMI passage (CoRT first lesson), PDF index 24; printed page to confirm before citing (verified)
+- **Source:** debono-1985 — pp. 12–13 (CoRT PMI passage) (verified)
 - **Time:** 10 min · **Group:** 1–4 · **Materials:** three-column sheet
 - **Evidence:** untested (de Bono 1985 reports anecdotes, not a study)
 - **Accessibility:** Oral version possible.
-- **Catalogue records:** 9 — labels: PMI (Plus, Minus, Interesting) Technique ×6; PMI Technique ×2; PMI Exercise ×1 · methods: rule 9
+- **Catalogue records:** 8 — labels: PMI (Plus, Minus, Interesting) Technique ×6; PMI Exercise ×1; PMI Technique ×1 · methods: rule 8
 
 Steps (classroom adaptation):
 
@@ -1123,7 +1124,7 @@ Steps (classroom adaptation):
 - **Time:** 30 min · **Group:** 3–8 · **Materials:** hat cards or coloured paper, board
 - **Evidence:** untested
 - **Accessibility:** Coloured cards also carry the hat name in text (colour-blind safe).
-- **Catalogue records:** 714 — labels: Red Hat Thinking ×108; Black Hat Thinking ×94; Yellow Hat Thinking Exercise ×80; White Hat Thinking Practice ×75; Six Thinking Hats Method ×63 · methods: rule 713, model 1
+- **Catalogue records:** 366 — labels: Red Hat Thinking ×84; Yellow Hat Thinking Exercise ×80; Black Hat Thinking ×60; White Hat Thinking Practice ×24; Black Hat Thinking Exercise ×20 · methods: rule 365, model 1
 
 Steps (classroom adaptation):
 
@@ -1333,7 +1334,7 @@ Steps (classroom adaptation):
 
 - **Source:** colzato-2012 — p. 1 (verified)
 - **Time:** 3 min · **Group:** whole class · **Materials:** timer
-- **Evidence:** Colzato, Ozturk and Hommel 2012, 1: open-monitoring meditation promoted divergent thinking.
+- **Evidence:** Colzato, Ozturk and Hommel 2012, 1: open-monitoring meditation promoted divergent thinking (35-min sessions; a 3-min warm-up is untested).
 - **Accessibility:** Opt-out - students may sit quietly or start the task early; no instruction about posture or breathing is required.
 - **Catalogue records:** 0 (none: finding for the IP cascade)
 

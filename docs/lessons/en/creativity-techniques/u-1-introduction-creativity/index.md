@@ -173,7 +173,7 @@ PROVENANCE_LINE: claim=U1.dt-critique; status=VERIFIED; page_basis=printed; sour
 
 ## B2 · Lab (Portfolio)
 
-**Announced by a geometrical slide first:** one debate and two exercises follow; everything you produce in Lab goes into your **portfolio index**.
+**Announced by a geometrical slide first:** one debate and two exercises follow; everything you produce in Lab goes into your **portfolio index**. Each exercise card says which Masterclass idea it practises, how long it takes, and how it is judged.
 
 ### Debate — language, medium, support & circulation
 
@@ -184,17 +184,63 @@ Pick one work (yours or from class). In small groups:
 
 **Portfolio trace:** triad notes + one circulation sentence from the debate.
 
-### Exercise 1 — Research Marcel Duchamp
+### Exercise 1 — Alternative uses, scored on four skills
 
-Find **three facts** about Duchamp linked to this unit (readymades, identity play, context shifting meaning). Use the [student deck]({{ '/tracks/ct/u-1-introduction-creativity/' | relative_url }}) images as a starting point if helpful.
+Practises Masterclass ideas **2** (four skills that tests measure) and **3** (a test score is not the whole designer).
 
-**Portfolio trace:** three bullet points with sources.
+**Time:** 15 minutes (3 minutes of silent listing, then scoring and pooling).
 
-### Exercise 2 — Research the Dada movement
+**Group:** alone for the list; the whole class for the originality pool.
 
-What did Dada question about art, authorship, and institutions? Link **one Dada tactic** to a creativity technique you might use in studio.
+**Materials:** one everyday object or a photo of it (a brick, a paper clip, a shoe); paper or a laptop; the slide timer.
 
-**Portfolio trace:** short paragraph + one studio link.
+**Steps:**
+
+1. Look at the object. When the timer starts, list as many different uses for it as you can, alone and in silence, for 3 minutes.
+2. **Fluency:** count your uses.
+3. **Flexibility:** group your uses into kinds (for example: building, tool, art, game) and count the kinds.
+4. **Originality:** read your list aloud in turns, or post it on the shared board. Mark each use that nobody else in the class wrote.
+5. **Elaboration:** pick one marked use and add three concrete details — who uses it, where, and how.
+6. Write one sentence: which jump between kinds gave you your least obvious use?
+
+**Portfolio trace:** your raw list; the four numbers (uses, kinds, rare uses, details); the elaborated use; your one-sentence note.
+
+**Judged by:** [Portfolio rubric — creative fluency, flexibility, and originality]({{ '/assignments/en/creativity-techniques-portfolio/' | relative_url }}#rubric)
+
+**Source:** "Tests like Alternate Uses" ask people for as many ways of using a common object as possible, and the four abilities are as Chen reports them [(Chen 2011, 26)](#ref-chen-2011). The same page warns that such a score may say little about talent in a specific field — so treat your numbers as practice, not a verdict. The steps and the class-pool scoring are a classroom adaptation.
+
+### Exercise 2 — Cut-up and readymade: open, then close
+
+Practises Masterclass idea **1** (open, then close) and the **language / medium / support** method from Analysis.
+
+**Time:** 25 minutes (about 12 for the cut-up, 8 for the readymade, 5 for naming the moves).
+
+**Group:** pairs.
+
+**Materials:** a printed text from a real brief (your D1 brief, a product description or a news item); scissors and an envelope (a digital word shuffle works too); one ordinary manufactured object or a photo of one; label cards.
+
+**Steps:**
+
+1. **Cut-up:** cut the brief text into single words or short phrases and put them in the envelope.
+2. Draw the pieces one at a time and copy them down in the order you draw them.
+3. Underline any phrase that suggests an idea for the brief, and write the idea next to it.
+4. **Readymade:** take the ordinary object. Do not change the object; change only its title, its place or its position.
+5. Write a title and a one-line label for the new context. Show it to another pair and ask what they now see.
+6. **Analysis:** did your change work through the language (title, label), the medium (where it is shown) or the support (the object itself)?
+7. **Name the moves:** mark each step as opening (divergent: cutting, drawing, re-placing) or closing (convergent: underlining, choosing a title).
+
+**Portfolio trace:** a photo of the cut-up page with your underlinings and ideas; the readymade's title and label; one sentence on which change did the most work; your list of opening and closing moves.
+
+**Judged by:** [Portfolio rubric — critical analysis and judgement]({{ '/assignments/en/creativity-techniques-portfolio/' | relative_url }}#rubric)
+
+**Source:** Classroom adaptation.
+
+{% if site.publication.publish_internal_metadata %}
+<!-- curriculum-internal:
+LAB_LINE: exercise=1; technique_id=alternative-uses-task; practises=masterclass-2,masterclass-3; source=chen-2011 p. 26 (verified, pdftotext re-read in EX8: "Tests like Alternate Uses ask individuals to come up with as many different ways of using a common object as possible"; four abilities; caution sentence); steps=classroom adaptation
+LAB_LINE: exercise=2; technique_id=tzara-cut-up (+ readymade-recontextualisation); practises=masterclass-1 + analysis triad; source=gap (Tzara 1920 and Duchamp readymade attributions unverified; research-manifest) — card shows "Classroom adaptation" and names neither Tzara nor Dada as a source claim
+-->
+{% endif %}
 
 ---
 

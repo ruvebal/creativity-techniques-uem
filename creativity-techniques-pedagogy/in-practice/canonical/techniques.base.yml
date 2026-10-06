@@ -45,7 +45,7 @@ techniques:
   group_size: "individual, class pooling"
   materials: [object or image, paper, timer]
   units: [U1, U2]
-  evidence: "Chen 2011, 26: divergent-thinking scores did not carry over across domains; use AUT as practice and self-diagnosis, not as a talent measure."
+  evidence: "Chen 2011, 26 cautions that AUT scores may say little about talent in a specific domain; use as practice, not a talent measure."
   accessibility: "Oral or typed lists accepted; image prompt can replace a physical object."
 
 - id: brainstorming-osborn
@@ -76,7 +76,7 @@ techniques:
   primary_source: gap
   gap_work: "Rohrbach 1969 (attribution unverified; manifest key rohrbach-1969)"
   source_status: held
-  held_note: "Brainwriting records from Michalko 2010 (Thinkertoys), not in references.yml."
+  held_note: "Michalko 2010 (Thinkertoys), not in references.yml, describes Geschka's card brainwriting (Battelle), a silent written method of the same family but not 6-3-5; no library record describes 6-3-5 itself (A11/F2)."
   steps:
     - Groups of six sit in a circle; each has a sheet with a three-column grid.
     - Each person writes three ideas in the first row (one per column).
@@ -227,8 +227,9 @@ techniques:
     - Draw a random noun (dictionary page, word list or card deck).
     - List features and associations of the word, without looking at the problem.
     - Connect each association back to the problem and write the idea it triggers.
-    - Draw a second word and repeat; compare the two sets of ideas.
-  time_min: 15
+    - "Stay with this one word for a single fixed slot of 3 to 5 minutes; do not switch words when it feels stuck."
+    - Use a different word on another day; in class, compare ideas with classmates who drew other words.
+  time_min: 10
   group_size: "1–4"
   materials: [random word list or dictionary, paper]
   units: [U2, U5]
@@ -361,7 +362,7 @@ techniques:
   primary_source: gap
   gap_work: "origin attribution unverified"
   source_status: held
-  held_note: "Attribute listing / Cherry Split records from Michalko 2010 (Thinkertoys), not in references.yml."
+  held_note: "Attribute listing records from Michalko 2010 (Thinkertoys), not in references.yml. (Michalko's Cherry Split is fractionation, not attribute listing; A11/F2.)"
   steps:
     - Choose a product or artefact.
     - List its attributes (material, shape, function, user, cost, context).
@@ -940,7 +941,7 @@ techniques:
   family: selection
   mode: convergent
   primary_source: debono-1985
-  source_locator: "PMI passage (CoRT first lesson), PDF index 24; printed page to confirm before citing"
+  source_locator: "pp. 12–13 (CoRT PMI passage)"
   source_status: verified
   steps:
     - Take one idea at a time.
@@ -1270,7 +1271,7 @@ techniques:
   group_size: "whole class"
   materials: [timer]
   units: [U2, U6]
-  evidence: "Colzato, Ozturk and Hommel 2012, 1: open-monitoring meditation promoted divergent thinking."
+  evidence: "Colzato, Ozturk and Hommel 2012, 1: open-monitoring meditation promoted divergent thinking (35-min sessions; a 3-min warm-up is untested)."
   accessibility: "Opt-out - students may sit quietly or start the task early; no instruction about posture or breathing is required."
 
 - id: bodystorming
