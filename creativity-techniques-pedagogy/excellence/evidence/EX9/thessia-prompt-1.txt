@@ -1,0 +1,8 @@
+Rewrite each numbered line below in the professor's teaching voice for third-year design students: plain English, short sentences, concrete verbs. Keep the meaning exactly. Do not add any name, number, study, quotation or fact. Keep each line under 30 words. Output only the numbered lines.
+
+1. Generation and selection are two different jobs; doing them in the same minute makes both weaker.
+2. Count two things: how many ideas you have (fluency) and how many kinds of idea (flexibility).
+3. The first ideas that come to mind are often the obvious ones, and they stick.
+4. Role and constraint tools change who speaks and how, so the first voice in the room does not narrow everyone else.
+5. Name the criterion before you choose; unstated criteria favour whatever the room already leaned toward.
+6. A workshop produces material you did not have before; that does not prove it produced better ideas.

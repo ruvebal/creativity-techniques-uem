@@ -18,6 +18,7 @@ Built during the autopilot run; read this once at the end (AUTOPILOT.md §5).
 | --- | --- | --- | --- |
 | EX0 | DONE | `excellence/ex0` | Probe + baseline + provisional weights; cold review PASS (11 findings, 0 blocking) |
 | EX8 | VERIFYING | — | Lab redesign: six Lab cards U1–U3 (target Labs), catalogue corrected per A11 first; sign-off by autopilot, **your approval pending** (§3 EX8) |
+| EX9 | VERIFYING | — | Lesson structure U1–U3 (+ ML headings): same 7 sections, ideas ≤ 220 words with Try it, 2 illustrative example traces per lesson, deck images with deck captions, Tao sections; A12 F1–F9, A10, A5, A9 template; citations/provenance unchanged (§3 EX9) |
 | EX8 | DONE | `excellence/ex8` | Six Labs with exercise cards (U1 AUT + cut-up/readymade; U2 6-3-5 vs solo + hits→COCD→hats; U3 parallel prototyping + delay/checkpoint/exit); catalogue A11 fixes; review PASS (9 P2 → EX9) |
 | EX7 | DONE | `excellence/ex7` | Canonical catalogue: 66 techniques (34 verified source, 19 held, 13 gap); 2,157 records mapped, 2,112 duplicates collapsed; cold review PASS (random-word step fix → EX8) |
 | EX6 | DONE (PARTIAL scope) | `excellence/ex6` | Research grounding: 23 verified works (U1 8, U2 14, U3 9, ML 4), 40 gaps → procurement list; all pin cites re-checked against print; single references.yml; 3 review rounds (R1 4 citation/deck-sync defects; R2 U3 lab-1 notes) |
@@ -275,6 +276,17 @@ U4 (legacy, out of scope) keeps *Man dreaming* (`profield-cache/0a359d9b946505e1
 - **Layout:** browser check 325 views, 0 failures at 1920×1080, 1280×720, 1024×768 and print; U2 exercise headroom at 1080p is now 137 px (was −5 px) at the forge type floors, because steps live in the lesson card and notes, not on the slide. Stale "72%" CSS comment fixed.
 - **Local work:** one `qwen2.5:32b-instruct` call (380/152 tokens, 20 s) to tighten six slide sentences; I kept my grounded drafts where its output was telegraphic.
 - Gate pre-check: EX8 0 failures; EX0–EX7 0 failures; `npm test` 47/47; deck–lesson sync 8/8; `npm run build` + publication safety pass. Report: `PHASE-EX8-REPORT.md`. Rollback: `gitflow.sh rollback 8`.
+
+### EX9 — lesson structure, exemplars, lesson images (VERIFYING)
+
+- **Structure:** U1–U3 now read Learning objectives · Analysis · Masterclass · Lab (Portfolio) · Workshop · Conclusion · Tao of Creativity · References (B1/B2/B3 only as subtitles); each Masterclass idea is claim → evidence → "In practice" example → **Try it:** link (114–207 words). The master lecture got the same heading names, 4 figures and one example trace.
+- **Citations unchanged:** PROVENANCE_LINE U1 14, U2 24, U3 14, ML 9 before and after; `#ref-` links 15/23/12/10 before and after. Two citations were shortened to a shorter verbatim span (Osborn, de Bono dig-hole) and moved, not dropped.
+- **P0 — please approve or replace:** the 7 example traces (professor-made, labelled "Illustrative example (not student work)") and the "In practice" design examples (hypothetical, no facts).
+- **P0 — rights:** *Fountain* (U1 lab-1) and three Gilbreth charts (ML) are flagged; their captions now read "Rights under review", never "Public domain" (A12/F8; validator + test). *Fountain* was not moved to lab-2 (DECISIONS-LOG). Lessons show only `ok` images; flagged ones stay on the decks.
+- **Workshop timing:** U1 "No Workshop in sessions 1–3"; U2/U3 "From session 4: half D2 Transposition, half final event"; U2's "Not this week: D2" line removed — check against your session plan.
+- **Also:** A12 F1–F7 in lessons and deck notes; F9 schema documented; A10 notes reworded; breadcrumb duplicate removed; hreflang="es" only for a distinct existing Spanish page; 12-lesson template `forge/LESSON-TEMPLATE.md` + `forge/templates/lesson-template.md`.
+- **Local work:** one qwen call (design-example drafts, edited), one Thessia voice pass (discarded). `evidence/EX9/`.
+- Gate pre-check: EX9 0 failures; EX0–EX8 0 failures; `npm test` 55/55; deck–lesson sync green; `npm run build` exit 0 with publication safety (run by the orchestrator at a20b1f7). Report: `PHASE-EX9-REPORT.md`. Rollback: `gitflow.sh rollback 9`.
 
 ### Release checklist additions (from EX2)
 
