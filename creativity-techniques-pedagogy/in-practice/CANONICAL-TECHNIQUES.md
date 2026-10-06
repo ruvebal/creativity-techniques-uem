@@ -27,9 +27,9 @@ Records: 6785 in `runtime/exercises-active.json`; 1141 dropped as off-topic; 215
 | `fractionation` | Fractionation | generation | divergent | debono-1970 | verified | 23 | U2, U3 |
 | `oblique-strategies` | Oblique Strategies cards | generation | divergent | gap | gap | 0 | U2, U5 |
 | `mind-map` | Mind map | generation | divergent | gap | held | 18 | U1, U2 |
-| `attribute-listing` | Attribute listing | generation | divergent | gap | gap | 32 | U2, U3 |
+| `attribute-listing` | Attribute listing | generation | divergent | gap | held | 32 | U2, U3 |
 | `tzara-cut-up` | Tzara cut-up | generation | divergent | gap | gap | 0 | U1, U5 |
-| `exquisite-corpse` | Exquisite corpse | generation | divergent | gap | gap | 5 | U1, U2 |
+| `exquisite-corpse` | Exquisite corpse | generation | divergent | gap | held | 5 | U1, U2 |
 | `readymade-recontextualisation` | Readymade recontextualisation | generation | both | gap | gap | 0 | U1, U5 |
 | `automatic-writing` | Automatic writing | generation | divergent | gap | held | 5 | U1, U2, U6 |
 | `fantastic-binomial` | Fantastic binomial | generation | divergent | gap | gap | 0 | U2 |
@@ -38,7 +38,7 @@ Records: 6785 in `runtime/exercises-active.json`; 1141 dropped as off-topic; 215
 | `thirty-circles` | Thirty Circles | generation | divergent | gap | held | 5 | U1, U2 |
 | `circle-of-opportunity` | Circle of opportunity (random attribute pairing) | generation | divergent | gap | held | 14 | U2 |
 | `seed-collection` | Seed collection | generation | divergent | rubin-2023 | verified | 24 | U2, U6 |
-| `constraint-writing` | Constraint-based making (Oulipo-style rules) | generation | divergent | gap | gap | 13 | U5, U6 |
+| `constraint-writing` | Temporary rules (constraint-based making) | generation | divergent | rubin-2023 | verified | 13 | U5, U6 |
 | `lightning-demos` | Lightning demos | generation | divergent | knapp-2016 | verified | 0 | U3, U4, U5 |
 | `swipe-file` | Swipe file (collect and credit influences) | reflection | divergent | gap | held | 1 | U5, U6 |
 | `how-might-we` | How Might We notes | framing | both | knapp-2016 | verified | 1 | U1, U3, U4 |
@@ -56,7 +56,7 @@ Records: 6785 in `runtime/exercises-active.json`; 1141 dropped as off-topic; 215
 | `hits-dot-voting` | Hits and dot voting | selection | convergent | knapp-2016 | verified | 0 | U2, U4 |
 | `note-and-vote` | Note-and-vote | selection | convergent | knapp-2016 | verified | 0 | U3, U4 |
 | `cocd-box` | COCD box | selection | convergent | gap | gap | 0 | U2 |
-| `pmi` | PMI (Plus, Minus, Interesting) | selection | convergent | gap | gap | 9 | U2, U4 |
+| `pmi` | PMI (Plus, Minus, Interesting) | selection | convergent | debono-1985 | verified | 9 | U2, U4 |
 | `alu` | ALU (Advantages, Limitations, Unique qualities) | selection | convergent | gap | gap | 0 | U2, U3 |
 | `weighted-decision-matrix` | Weighted decision matrix | selection | convergent | gap | gap | 0 | U3, U4 |
 | `peer-cat` | Consensual assessment (peer CAT) | selection | convergent | gap | gap | 0 | U1, U2 |
@@ -75,7 +75,7 @@ Records: 6785 in `runtime/exercises-active.json`; 1141 dropped as off-topic; 215
 | `open-monitoring-warm-up` | Open-monitoring warm-up | embodied | divergent | colzato-2012 | verified | 0 | U2, U6 |
 | `bodystorming` | Bodystorming | embodied | divergent | gap | gap | 0 | U3, U4 |
 | `thought-walk` | Thought walk | embodied | divergent | gap | held | 14 | U6 |
-| `improv-yes-and` | Improvisation (yes, and) | embodied | divergent | gap | gap | 14 | U4, U6 |
+| `improv-yes-and` | Improvisation (yes, and) | embodied | divergent | gap | held | 14 | U4, U6 |
 | `pure-contour-drawing` | Pure contour drawing | embodied | divergent | gap | held | 2 | U1, U6 |
 
 ## By unit (for the 12-lesson cascade)
@@ -92,11 +92,11 @@ Each lesson (U1.1 … U6.2) picks two Lab techniques from its unit, recommended 
 - `alternatives-quota` Quota of alternatives — generation, divergent, verified (debono-1970), 10 min
 - `pure-contour-drawing` Pure contour drawing — embodied, divergent, held (gap), 10 min
 - `automatic-writing` Automatic writing — generation, divergent, held (gap), 12 min
+- `exquisite-corpse` Exquisite corpse — generation, divergent, held (gap), 15 min
 - `mind-map` Mind map — generation, divergent, held (gap), 15 min
 - `thirty-circles` Thirty Circles — generation, divergent, held (gap), 10 min
 - `creative-journal` Creative journal — reflection, both, held (gap), 10 min
 - `mental-locks-audit` Mental locks audit — reflection, convergent, held (gap), 15 min
-- `exquisite-corpse` Exquisite corpse — generation, divergent, gap (gap), 15 min
 - `readymade-recontextualisation` Readymade recontextualisation — generation, both, gap (gap), 20 min
 - `tzara-cut-up` Tzara cut-up — generation, divergent, gap (gap), 20 min
 - `process-trail` Process trail — reflection, both, gap (gap), 20 min
@@ -117,25 +117,25 @@ Each lesson (U1.1 … U6.2) picks two Lab techniques from its unit, recommended 
 - `seed-collection` Seed collection — generation, divergent, verified (rubin-2023), 30 min
 - `what-if-prompts` What-if (counterfactual) prompts — generation, divergent, verified (wong-2009), 15 min
 - `hits-dot-voting` Hits and dot voting — selection, convergent, verified (knapp-2016), 15 min
+- `pmi` PMI (Plus, Minus, Interesting) — selection, convergent, verified (debono-1985), 10 min
 - `six-thinking-hats` Six Thinking Hats — selection, both, verified (debono-1985), 30 min
+- `attribute-listing` Attribute listing — generation, divergent, held (gap), 20 min
 - `automatic-writing` Automatic writing — generation, divergent, held (gap), 12 min
 - `brainwriting-635` 6-3-5 brainwriting — generation, divergent, held (gap), 20 min
 - `circle-of-opportunity` Circle of opportunity (random attribute pairing) — generation, divergent, held (gap), 20 min
+- `exquisite-corpse` Exquisite corpse — generation, divergent, held (gap), 15 min
 - `mind-map` Mind map — generation, divergent, held (gap), 15 min
 - `morphological-box` Morphological box (idea box) — generation, divergent, held (gap), 25 min
 - `scamper` SCAMPER — generation, divergent, held (gap), 25 min
 - `synectics-excursion` Synectics excursion (direct, personal and fantasy analogy) — generation, divergent, held (gap), 30 min
 - `thirty-circles` Thirty Circles — generation, divergent, held (gap), 10 min
 - `young-five-steps` Young's five steps — development, both, gap (gap), 60 min
-- `attribute-listing` Attribute listing — generation, divergent, gap (gap), 20 min
-- `exquisite-corpse` Exquisite corpse — generation, divergent, gap (gap), 15 min
 - `fantastic-binomial` Fantastic binomial — generation, divergent, gap (gap), 15 min
 - `nominal-group` Nominal group (solo ideas, then pool) — generation, both, gap (gap), 15 min
 - `oblique-strategies` Oblique Strategies cards — generation, divergent, gap (gap), 15 min
 - `alu` ALU (Advantages, Limitations, Unique qualities) — selection, convergent, gap (gap), 15 min
 - `cocd-box` COCD box — selection, convergent, gap (gap), 15 min
 - `peer-cat` Consensual assessment (peer CAT) — selection, convergent, gap (gap), 20 min
-- `pmi` PMI (Plus, Minus, Interesting) — selection, convergent, gap (gap), 10 min
 
 ### U3 — Development and solution techniques
 
@@ -162,10 +162,10 @@ Each lesson (U1.1 … U6.2) picks two Lab techniques from its unit, recommended 
 - `note-and-vote` Note-and-vote — selection, convergent, verified (knapp-2016), 15 min
 - `empathy-map` Empathy map — framing, both, held (gap), 25 min
 - `phoenix-checklist` Phoenix checklist (problem questions) — framing, both, held (gap), 20 min
+- `attribute-listing` Attribute listing — generation, divergent, held (gap), 20 min
 - `morphological-box` Morphological box (idea box) — generation, divergent, held (gap), 25 min
 - `scamper` SCAMPER — generation, divergent, held (gap), 25 min
 - `bodystorming` Bodystorming — embodied, divergent, gap (gap), 30 min
-- `attribute-listing` Attribute listing — generation, divergent, gap (gap), 20 min
 - `alu` ALU (Advantages, Limitations, Unique qualities) — selection, convergent, gap (gap), 15 min
 - `weighted-decision-matrix` Weighted decision matrix — selection, convergent, gap (gap), 20 min
 
@@ -183,27 +183,27 @@ Each lesson (U1.1 … U6.2) picks two Lab techniques from its unit, recommended 
 - `what-if-prompts` What-if (counterfactual) prompts — generation, divergent, verified (wong-2009), 15 min
 - `hits-dot-voting` Hits and dot voting — selection, convergent, verified (knapp-2016), 15 min
 - `note-and-vote` Note-and-vote — selection, convergent, verified (knapp-2016), 15 min
+- `pmi` PMI (Plus, Minus, Interesting) — selection, convergent, verified (debono-1985), 10 min
 - `six-thinking-hats` Six Thinking Hats — selection, both, verified (debono-1985), 30 min
+- `improv-yes-and` Improvisation (yes, and) — embodied, divergent, held (gap), 10 min
 - `empathy-map` Empathy map — framing, both, held (gap), 25 min
 - `force-field-analysis` Force-field (tug-of-war) analysis — framing, convergent, held (gap), 20 min
 - `phoenix-checklist` Phoenix checklist (problem questions) — framing, both, held (gap), 20 min
 - `brainwriting-635` 6-3-5 brainwriting — generation, divergent, held (gap), 20 min
 - `mom-test-interview` Mom Test interview — development, convergent, gap (gap), 30 min
 - `bodystorming` Bodystorming — embodied, divergent, gap (gap), 30 min
-- `improv-yes-and` Improvisation (yes, and) — embodied, divergent, gap (gap), 10 min
 - `nominal-group` Nominal group (solo ideas, then pool) — generation, both, gap (gap), 15 min
-- `pmi` PMI (Plus, Minus, Interesting) — selection, convergent, gap (gap), 10 min
 - `weighted-decision-matrix` Weighted decision matrix — selection, convergent, gap (gap), 20 min
 
 ### U5 — Creativity and technology
 
 - `parallel-prototyping` Parallel prototyping — development, both, verified (dow-2010), 45 min
 - `question-led-prototype` Question-led rough prototype — development, convergent, verified (knapp-2016), 45 min
+- `constraint-writing` Temporary rules (constraint-based making) — generation, divergent, verified (rubin-2023), 25 min
 - `lightning-demos` Lightning demos — generation, divergent, verified (knapp-2016), 30 min
 - `random-word` Random word stimulation — generation, divergent, verified (debono-1970), 15 min
 - `morphological-box` Morphological box (idea box) — generation, divergent, held (gap), 25 min
 - `swipe-file` Swipe file (collect and credit influences) — reflection, divergent, held (gap), 20 min
-- `constraint-writing` Constraint-based making (Oulipo-style rules) — generation, divergent, gap (gap), 25 min
 - `oblique-strategies` Oblique Strategies cards — generation, divergent, gap (gap), 15 min
 - `readymade-recontextualisation` Readymade recontextualisation — generation, both, gap (gap), 20 min
 - `tzara-cut-up` Tzara cut-up — generation, divergent, gap (gap), 20 min
@@ -213,8 +213,10 @@ Each lesson (U1.1 … U6.2) picks two Lab techniques from its unit, recommended 
 
 - `open-monitoring-warm-up` Open-monitoring warm-up — embodied, divergent, verified (colzato-2012), 3 min
 - `problem-finding` Problem finding (presented vs discovered problems) — framing, divergent, verified (csikszentmihalyi-1996), 25 min
+- `constraint-writing` Temporary rules (constraint-based making) — generation, divergent, verified (rubin-2023), 25 min
 - `seed-collection` Seed collection — generation, divergent, verified (rubin-2023), 30 min
 - `reflection-in-action-log` Reflection-in-action log — reflection, both, verified (schon-1983), 10 min
+- `improv-yes-and` Improvisation (yes, and) — embodied, divergent, held (gap), 10 min
 - `pure-contour-drawing` Pure contour drawing — embodied, divergent, held (gap), 10 min
 - `thought-walk` Thought walk — embodied, divergent, held (gap), 25 min
 - `automatic-writing` Automatic writing — generation, divergent, held (gap), 12 min
@@ -222,8 +224,6 @@ Each lesson (U1.1 … U6.2) picks two Lab techniques from its unit, recommended 
 - `mental-locks-audit` Mental locks audit — reflection, convergent, held (gap), 15 min
 - `swipe-file` Swipe file (collect and credit influences) — reflection, divergent, held (gap), 20 min
 - `young-five-steps` Young's five steps — development, both, gap (gap), 60 min
-- `improv-yes-and` Improvisation (yes, and) — embodied, divergent, gap (gap), 10 min
-- `constraint-writing` Constraint-based making (Oulipo-style rules) — generation, divergent, gap (gap), 25 min
 
 ## Techniques
 
@@ -526,7 +526,8 @@ Steps (classroom adaptation):
 
 `attribute-listing` · generation · divergent · units U2, U3
 
-- **Source:** gap — gap work: origin attribution unverified (gap)
+- **Source:** gap — gap work: origin attribution unverified (held)
+- **Library note:** Attribute listing / Cherry Split records from Michalko 2010 (Thinkertoys), not in references.yml.
 - **Time:** 20 min · **Group:** 1–4 · **Materials:** paper or table template
 - **Evidence:** untested
 - **Accessibility:** Table template usable with a screen reader.
@@ -563,7 +564,8 @@ Steps (classroom adaptation):
 
 `exquisite-corpse` · generation · divergent · units U1, U2
 
-- **Source:** gap — gap work: Surrealist group practice (attribution unverified) (gap)
+- **Source:** gap — gap work: Surrealist group practice (attribution unverified) (held)
+- **Library note:** Exquisite corpse records from Michalko 2010 (Thinkertoys), not in references.yml.
 - **Time:** 15 min · **Group:** 3–5 · **Materials:** paper, pens
 - **Evidence:** untested
 - **Accessibility:** Text-only version for students who prefer not to draw.
@@ -722,11 +724,11 @@ Steps (classroom adaptation):
 4. Develop each in a different direction for ten minutes.
 5. Keep the seed that grew most; note why.
 
-### Constraint-based making (Oulipo-style rules)
+### Temporary rules (constraint-based making)
 
 `constraint-writing` · generation · divergent · units U5, U6
 
-- **Source:** gap — gap work: Oulipo (attribution unverified) (gap)
+- **Source:** rubin-2023 — chap. Temporary Rules (Dogme 95 rule list as example) (verified)
 - **Time:** 25 min · **Group:** 1–2 · **Materials:** rule cards, making materials
 - **Evidence:** untested
 - **Accessibility:** Rules can be chosen to fit the student's medium.
@@ -1045,9 +1047,9 @@ Steps (classroom adaptation):
 
 `pmi` · selection · convergent · units U2, U4
 
-- **Source:** gap — gap work: attribution unverified (gap)
+- **Source:** debono-1985 — PMI passage (CoRT first lesson), PDF index 24; printed page to confirm before citing (verified)
 - **Time:** 10 min · **Group:** 1–4 · **Materials:** three-column sheet
-- **Evidence:** untested
+- **Evidence:** untested (de Bono 1985 reports anecdotes, not a study)
 - **Accessibility:** Oral version possible.
 - **Catalogue records:** 9 — labels: PMI (Plus, Minus, Interesting) Technique ×6; PMI Technique ×2; PMI Exercise ×1 · methods: rule 9
 
@@ -1381,7 +1383,8 @@ Steps (classroom adaptation):
 
 `improv-yes-and` · embodied · divergent · units U4, U6
 
-- **Source:** gap — gap work: attribution unverified (gap)
+- **Source:** gap — gap work: attribution unverified (held)
+- **Library note:** Improvisation records from Kelley and Kelley 2013, Lehrer 2012, Fisher and Williams 2004 and others; none is a primary source.
 - **Time:** 10 min · **Group:** pairs · **Materials:** none
 - **Evidence:** untested
 - **Accessibility:** Opt-out - written chat version, or observer role.

@@ -360,7 +360,8 @@ techniques:
   mode: divergent
   primary_source: gap
   gap_work: "origin attribution unverified"
-  source_status: gap
+  source_status: held
+  held_note: "Attribute listing / Cherry Split records from Michalko 2010 (Thinkertoys), not in references.yml."
   steps:
     - Choose a product or artefact.
     - List its attributes (material, shape, function, user, cost, context).
@@ -401,7 +402,8 @@ techniques:
   mode: divergent
   primary_source: gap
   gap_work: "Surrealist group practice (attribution unverified)"
-  source_status: gap
+  source_status: held
+  held_note: "Exquisite corpse records from Michalko 2010 (Thinkertoys), not in references.yml."
   steps:
     - Fold a sheet into as many sections as there are players.
     - The first player draws or writes in the first section, leaving a small hint across the fold.
@@ -577,12 +579,12 @@ techniques:
   accessibility: "Voice notes, photos or text all count as seeds."
 
 - id: constraint-writing
-  name: Constraint-based making (Oulipo-style rules)
+  name: Temporary rules (constraint-based making)
   family: generation
   mode: divergent
-  primary_source: gap
-  gap_work: "Oulipo (attribution unverified)"
-  source_status: gap
+  primary_source: rubin-2023
+  source_locator: "chap. Temporary Rules (Dogme 95 rule list as example)"
+  source_status: verified
   steps:
     - Choose a short piece to make (a text, a layout, a sound loop).
     - Draw or set one strict formal rule (no letter e, only five shapes, one colour).
@@ -937,9 +939,9 @@ techniques:
   name: PMI (Plus, Minus, Interesting)
   family: selection
   mode: convergent
-  primary_source: gap
-  gap_work: "attribution unverified"
-  source_status: gap
+  primary_source: debono-1985
+  source_locator: "PMI passage (CoRT first lesson), PDF index 24; printed page to confirm before citing"
+  source_status: verified
   steps:
     - Take one idea at a time.
     - List its plus points for two minutes.
@@ -950,7 +952,7 @@ techniques:
   group_size: "1–4"
   materials: [three-column sheet]
   units: [U2, U4]
-  evidence: "untested"
+  evidence: "untested (de Bono 1985 reports anecdotes, not a study)"
   accessibility: "Oral version possible."
 
 - id: alu
@@ -1316,7 +1318,8 @@ techniques:
   mode: divergent
   primary_source: gap
   gap_work: "attribution unverified"
-  source_status: gap
+  source_status: held
+  held_note: "Improvisation records from Kelley and Kelley 2013, Lehrer 2012, Fisher and Williams 2004 and others; none is a primary source."
   steps:
     - Pairs build an idea one sentence at a time.
     - Each sentence starts by accepting the last one ("yes, and ...").

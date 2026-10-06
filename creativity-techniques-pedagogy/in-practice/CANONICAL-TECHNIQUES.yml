@@ -1249,7 +1249,8 @@ techniques:
     mode: divergent
     primary_source: gap
     gap_work: origin attribution unverified
-    source_status: gap
+    source_status: held
+    held_note: Attribute listing / Cherry Split records from Michalko 2010 (Thinkertoys), not in references.yml.
     catalogue_records:
       - urn:in-practice:exercise:01ab86f4db09010b62c7a160
       - urn:in-practice:exercise:068a1f9cbc84817277de4b15
@@ -1332,7 +1333,8 @@ techniques:
     mode: divergent
     primary_source: gap
     gap_work: Surrealist group practice (attribution unverified)
-    source_status: gap
+    source_status: held
+    held_note: Exquisite corpse records from Michalko 2010 (Thinkertoys), not in references.yml.
     catalogue_records:
       - urn:in-practice:exercise:40805622973cde22bba91079
       - urn:in-practice:exercise:8c1349c3578a20be7da9f63b
@@ -1661,12 +1663,12 @@ techniques:
     evidence: untested
     accessibility: Voice notes, photos or text all count as seeds.
   - id: constraint-writing
-    name: Constraint-based making (Oulipo-style rules)
+    name: Temporary rules (constraint-based making)
     family: generation
     mode: divergent
-    primary_source: gap
-    gap_work: Oulipo (attribution unverified)
-    source_status: gap
+    primary_source: rubin-2023
+    source_locator: chap. Temporary Rules (Dogme 95 rule list as example)
+    source_status: verified
     catalogue_records:
       - urn:in-practice:exercise:054709d8e574bff192593a5c
       - urn:in-practice:exercise:192b061952f29008d4f8b5ca
@@ -2370,9 +2372,9 @@ techniques:
     name: PMI (Plus, Minus, Interesting)
     family: selection
     mode: convergent
-    primary_source: gap
-    gap_work: attribution unverified
-    source_status: gap
+    primary_source: debono-1985
+    source_locator: PMI passage (CoRT first lesson), PDF index 24; printed page to confirm before citing
+    source_status: verified
     catalogue_records:
       - urn:in-practice:exercise:478eb135ad4ca6572219dfc4
       - urn:in-practice:exercise:4d70bfd2aadb0bc15cb5109a
@@ -2397,7 +2399,7 @@ techniques:
     units:
       - U2
       - U4
-    evidence: untested
+    evidence: untested (de Bono 1985 reports anecdotes, not a study)
     accessibility: Oral version possible.
   - id: alu
     name: ALU (Advantages, Limitations, Unique qualities)
@@ -3762,7 +3764,9 @@ techniques:
     mode: divergent
     primary_source: gap
     gap_work: attribution unverified
-    source_status: gap
+    source_status: held
+    held_note: Improvisation records from Kelley and Kelley 2013, Lehrer 2012, Fisher and Williams 2004 and others;
+      none is a primary source.
     catalogue_records:
       - urn:in-practice:exercise:131d4ef10d6750a43617169b
       - urn:in-practice:exercise:19c0ba3e25d3ef80d18cec77

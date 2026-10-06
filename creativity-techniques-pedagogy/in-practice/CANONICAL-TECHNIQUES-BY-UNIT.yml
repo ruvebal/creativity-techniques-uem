@@ -35,10 +35,10 @@ units:
       - alternatives-quota
       - pure-contour-drawing
       - automatic-writing
+      - exquisite-corpse
       - mind-map
       - thirty-circles
       - creative-journal
-      - exquisite-corpse
       - readymade-recontextualisation
       - tzara-cut-up
       - process-trail
@@ -123,6 +123,15 @@ units:
         time_min: 12
         embodied: false
         catalogue_records: 5
+      - id: exquisite-corpse
+        name: Exquisite corpse
+        family: generation
+        mode: divergent
+        primary_source: gap
+        source_status: held
+        time_min: 15
+        embodied: false
+        catalogue_records: 5
       - id: mind-map
         name: Mind map
         family: generation
@@ -159,15 +168,6 @@ units:
         time_min: 15
         embodied: false
         catalogue_records: 50
-      - id: exquisite-corpse
-        name: Exquisite corpse
-        family: generation
-        mode: divergent
-        primary_source: gap
-        source_status: gap
-        time_min: 15
-        embodied: false
-        catalogue_records: 5
       - id: readymade-recontextualisation
         name: Readymade recontextualisation
         family: generation
@@ -223,29 +223,29 @@ units:
       - seed-collection
       - what-if-prompts
       - six-thinking-hats
+      - attribute-listing
       - automatic-writing
       - brainwriting-635
       - circle-of-opportunity
+      - exquisite-corpse
       - mind-map
       - morphological-box
       - scamper
       - synectics-excursion
       - thirty-circles
       - young-five-steps
-      - attribute-listing
-      - exquisite-corpse
       - fantastic-binomial
       - nominal-group
       - oblique-strategies
     convergent_or_both:
       - hits-dot-voting
+      - pmi
       - six-thinking-hats
       - young-five-steps
       - nominal-group
       - alu
       - cocd-box
       - peer-cat
-      - pmi
     candidates:
       - id: open-monitoring-warm-up
         name: Open-monitoring warm-up
@@ -364,6 +364,15 @@ units:
         time_min: 15
         embodied: false
         catalogue_records: 0
+      - id: pmi
+        name: PMI (Plus, Minus, Interesting)
+        family: selection
+        mode: convergent
+        primary_source: debono-1985
+        source_status: verified
+        time_min: 10
+        embodied: false
+        catalogue_records: 9
       - id: six-thinking-hats
         name: Six Thinking Hats
         family: selection
@@ -373,6 +382,15 @@ units:
         time_min: 30
         embodied: false
         catalogue_records: 714
+      - id: attribute-listing
+        name: Attribute listing
+        family: generation
+        mode: divergent
+        primary_source: gap
+        source_status: held
+        time_min: 20
+        embodied: false
+        catalogue_records: 32
       - id: automatic-writing
         name: Automatic writing
         family: generation
@@ -400,6 +418,15 @@ units:
         time_min: 20
         embodied: false
         catalogue_records: 14
+      - id: exquisite-corpse
+        name: Exquisite corpse
+        family: generation
+        mode: divergent
+        primary_source: gap
+        source_status: held
+        time_min: 15
+        embodied: false
+        catalogue_records: 5
       - id: mind-map
         name: Mind map
         family: generation
@@ -454,24 +481,6 @@ units:
         time_min: 60
         embodied: false
         catalogue_records: 0
-      - id: attribute-listing
-        name: Attribute listing
-        family: generation
-        mode: divergent
-        primary_source: gap
-        source_status: gap
-        time_min: 20
-        embodied: false
-        catalogue_records: 32
-      - id: exquisite-corpse
-        name: Exquisite corpse
-        family: generation
-        mode: divergent
-        primary_source: gap
-        source_status: gap
-        time_min: 15
-        embodied: false
-        catalogue_records: 5
       - id: fantastic-binomial
         name: Fantastic binomial
         family: generation
@@ -526,15 +535,6 @@ units:
         time_min: 20
         embodied: false
         catalogue_records: 0
-      - id: pmi
-        name: PMI (Plus, Minus, Interesting)
-        family: selection
-        mode: convergent
-        primary_source: gap
-        source_status: gap
-        time_min: 10
-        embodied: false
-        catalogue_records: 9
   U3:
     title: Development and solution techniques
     lessons:
@@ -558,10 +558,10 @@ units:
       - reflection-in-action-log
       - empathy-map
       - phoenix-checklist
+      - attribute-listing
       - morphological-box
       - scamper
       - bodystorming
-      - attribute-listing
     convergent_or_both:
       - delay-judgement-checkpoint
       - five-user-interviews
@@ -788,6 +788,15 @@ units:
         time_min: 20
         embodied: false
         catalogue_records: 26
+      - id: attribute-listing
+        name: Attribute listing
+        family: generation
+        mode: divergent
+        primary_source: gap
+        source_status: held
+        time_min: 20
+        embodied: false
+        catalogue_records: 32
       - id: morphological-box
         name: Morphological box (idea box)
         family: generation
@@ -815,15 +824,6 @@ units:
         time_min: 30
         embodied: true
         catalogue_records: 0
-      - id: attribute-listing
-        name: Attribute listing
-        family: generation
-        mode: divergent
-        primary_source: gap
-        source_status: gap
-        time_min: 20
-        embodied: false
-        catalogue_records: 32
       - id: alu
         name: ALU (Advantages, Limitations, Unique qualities)
         family: selection
@@ -855,11 +855,11 @@ units:
       - lightning-demos
       - what-if-prompts
       - six-thinking-hats
+      - improv-yes-and
       - empathy-map
       - phoenix-checklist
       - brainwriting-635
       - bodystorming
-      - improv-yes-and
       - nominal-group
     convergent_or_both:
       - five-user-interviews
@@ -870,13 +870,13 @@ units:
       - how-might-we
       - hits-dot-voting
       - note-and-vote
+      - pmi
       - six-thinking-hats
       - empathy-map
       - force-field-analysis
       - phoenix-checklist
       - mom-test-interview
       - nominal-group
-      - pmi
       - weighted-decision-matrix
     candidates:
       - id: five-user-interviews
@@ -987,6 +987,15 @@ units:
         time_min: 15
         embodied: false
         catalogue_records: 0
+      - id: pmi
+        name: PMI (Plus, Minus, Interesting)
+        family: selection
+        mode: convergent
+        primary_source: debono-1985
+        source_status: verified
+        time_min: 10
+        embodied: false
+        catalogue_records: 9
       - id: six-thinking-hats
         name: Six Thinking Hats
         family: selection
@@ -996,6 +1005,15 @@ units:
         time_min: 30
         embodied: false
         catalogue_records: 714
+      - id: improv-yes-and
+        name: Improvisation (yes, and)
+        family: embodied
+        mode: divergent
+        primary_source: gap
+        source_status: held
+        time_min: 10
+        embodied: true
+        catalogue_records: 14
       - id: empathy-map
         name: Empathy map
         family: framing
@@ -1050,15 +1068,6 @@ units:
         time_min: 30
         embodied: true
         catalogue_records: 0
-      - id: improv-yes-and
-        name: Improvisation (yes, and)
-        family: embodied
-        mode: divergent
-        primary_source: gap
-        source_status: gap
-        time_min: 10
-        embodied: true
-        catalogue_records: 14
       - id: nominal-group
         name: Nominal group (solo ideas, then pool)
         family: generation
@@ -1068,15 +1077,6 @@ units:
         time_min: 15
         embodied: false
         catalogue_records: 0
-      - id: pmi
-        name: PMI (Plus, Minus, Interesting)
-        family: selection
-        mode: convergent
-        primary_source: gap
-        source_status: gap
-        time_min: 10
-        embodied: false
-        catalogue_records: 9
       - id: weighted-decision-matrix
         name: Weighted decision matrix
         family: selection
@@ -1093,11 +1093,11 @@ units:
       - U5.2
     divergent_or_both:
       - parallel-prototyping
+      - constraint-writing
       - lightning-demos
       - random-word
       - morphological-box
       - swipe-file
-      - constraint-writing
       - oblique-strategies
       - readymade-recontextualisation
       - tzara-cut-up
@@ -1126,6 +1126,15 @@ units:
         time_min: 45
         embodied: false
         catalogue_records: 38
+      - id: constraint-writing
+        name: Temporary rules (constraint-based making)
+        family: generation
+        mode: divergent
+        primary_source: rubin-2023
+        source_status: verified
+        time_min: 25
+        embodied: false
+        catalogue_records: 13
       - id: lightning-demos
         name: Lightning demos
         family: generation
@@ -1162,15 +1171,6 @@ units:
         time_min: 20
         embodied: false
         catalogue_records: 1
-      - id: constraint-writing
-        name: Constraint-based making (Oulipo-style rules)
-        family: generation
-        mode: divergent
-        primary_source: gap
-        source_status: gap
-        time_min: 25
-        embodied: false
-        catalogue_records: 13
       - id: oblique-strategies
         name: Oblique Strategies cards
         family: generation
@@ -1215,16 +1215,16 @@ units:
     divergent_or_both:
       - open-monitoring-warm-up
       - problem-finding
+      - constraint-writing
       - seed-collection
       - reflection-in-action-log
+      - improv-yes-and
       - pure-contour-drawing
       - thought-walk
       - automatic-writing
       - creative-journal
       - swipe-file
       - young-five-steps
-      - improv-yes-and
-      - constraint-writing
     convergent_or_both:
       - reflection-in-action-log
       - creative-journal
@@ -1249,6 +1249,15 @@ units:
         time_min: 25
         embodied: false
         catalogue_records: 17
+      - id: constraint-writing
+        name: Temporary rules (constraint-based making)
+        family: generation
+        mode: divergent
+        primary_source: rubin-2023
+        source_status: verified
+        time_min: 25
+        embodied: false
+        catalogue_records: 13
       - id: seed-collection
         name: Seed collection
         family: generation
@@ -1267,6 +1276,15 @@ units:
         time_min: 10
         embodied: false
         catalogue_records: 65
+      - id: improv-yes-and
+        name: Improvisation (yes, and)
+        family: embodied
+        mode: divergent
+        primary_source: gap
+        source_status: held
+        time_min: 10
+        embodied: true
+        catalogue_records: 14
       - id: pure-contour-drawing
         name: Pure contour drawing
         family: embodied
@@ -1330,21 +1348,3 @@ units:
         time_min: 60
         embodied: false
         catalogue_records: 0
-      - id: improv-yes-and
-        name: Improvisation (yes, and)
-        family: embodied
-        mode: divergent
-        primary_source: gap
-        source_status: gap
-        time_min: 10
-        embodied: true
-        catalogue_records: 14
-      - id: constraint-writing
-        name: Constraint-based making (Oulipo-style rules)
-        family: generation
-        mode: divergent
-        primary_source: gap
-        source_status: gap
-        time_min: 25
-        embodied: false
-        catalogue_records: 13
