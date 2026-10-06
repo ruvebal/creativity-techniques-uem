@@ -2,7 +2,7 @@
 
 | Field | Value |
 | --- | --- |
-| **status** | PARTIAL (round 2 after cold review FAIL, F1–F4 fixed; F5–F10 done). The work is done and the exit gate has 0 failures. 40 of the required works are still `gap` and wait for procurement. Next: `cascade-harness.sh verify`, then cold review. |
+| **status** | PARTIAL (round 3 after round-2 cold review FAIL; round-2 F1, F2, F4 fixed; earlier rounds: F1–F10). The work is done and the exit gate has 0 failures. 40 of the required works are still `gap` and wait for procurement. Next: `cascade-harness.sh verify`, then cold review. |
 | **started_at / finished_at** | 2026-10-05 / 2026-10-05 |
 | **branch / worktree** | `cascade/excellence-6` · `creativity-techniques-uem-integration-excellence-6` (`.cascade-lane` = `excellence`) |
 | **mode** | AUTOPILOT. Under §2 EX6, only works already in the library or legitimately open access were ingested; everything else is a gap. |
@@ -216,7 +216,7 @@ Do not open EX7 until EX6 is triaged. Under the resume rule, EX7 may follow a PA
 | U2 idea 2 | lateral generative vs vertical selective | de Bono 1970, introduction | "Lateral thinking is generative. Vertical thinking is selective." | holds; now quoted |
 | U2 idea 3 | dig-hole quote | de Bono 1970, introduction | verbatim | holds |
 | U2 idea 3 | "looking for alternatives instead of blindly accepting the most obvious approach" | de Bono 1970, chap. "The Generation of Alternatives" | verbatim | holds |
-| U2 idea 4 | use information to provoke a new pattern | de Bono 1970, chap. "Difference between Lateral and Vertical Thinking" | "uses information … provocatively in order to bring about repatterning" | holds |
+| U2 idea 4 | use information to provoke a new pattern | de Bono 1970, chap. "Difference between Lateral and Vertical Thinking" | chapter 2: "Vertical thinking is analytical, lateral thinking is provocative"; "a way of bringing about repatterning" (nodes 56c5f218, 90e25139). *Round 3 correction:* the phrase "uses information … provocatively" quoted in round 2 is the wording of chapter 4 ("Lateral thinking uses information provocatively"); the round-1 node 21f89015 sentence also appears in the EPUB's chapter 2 and introduction files | holds on chapter 2 |
 | U2 idea 4 | Raymond tool quote | Raymond 2001, 44 | verbatim | holds |
 | U2 idea 4 | what-if thinking and alternatives | Wong, Galinsky, and Kray 2009, 161/168 | "if only"/"what if"; negative effect on novel generation | holds (rewritten in round 1) |
 | U2 idea 5 | editing as taste revealed in curation; what is included, what is not, how pieces sit together | Rubin 2023, 386 | "Our taste is revealed in how our work is curated. What's included, what's not, and how the pieces are put together." | holds |
@@ -240,3 +240,61 @@ Do not open EX7 until EX6 is triaged. Under the resume rule, EX7 may follow a PA
 - Built site: "most people in the room" and "no page cite" occur in no lesson or deck page; probe `uncited_references` empty for U1–U3 and ML (U4 `ref-lucas-knotts-2026` pre-existing, out of scope).
 
 Resume point unchanged: harness verify → fresh cold review of F1–F4 spots.
+
+## Round 3 (round-2 cold review FAIL → fixes, 2026-10-06)
+
+- **F1 (blocking).** U3 deck `lab-1`: notes now give the supported statements: de Bono, "a different entry point will usually mean a different train of ideas"; Cross, sketching as a dialogue between "seeing that" (reflective criticism) and "seeing as" (reinterpretation) (p. 86); Dow et al. 18:1. The "compare relationships, rhythm and emphasis" and "paste the entry point on afterwards" lines are labelled "Course wording (not from the sources)". The slide sentence is re-pinned to de Bono only, matching the lesson.
+- **F4.** U2: "a 'fixation' effect suggested by Jansson and Smith, as Cross notes" (Cross 81 says "suggested by").
+- **F2.** Claim re-check row U2 idea 4 corrected above (chapter 2 wording; "uses information provocatively" is chapter 4).
+
+### Notes sweep: every attributed clause in all deck notes (U1 8, U2 8, U3 8 slides with notes; ML deck has no notes)
+
+Every `Source:` line now attributes per claim, and ends with "Other bullets are course wording" where unattributed bullets exist.
+
+| Deck · slide | Attributed clause | Source | On the page? | Action |
+| --- | --- | --- | --- | --- |
+| U1 m1 | quote; divergent / convergent (= possibilities that fit a set of needs) | Craft 2000, 30 | yes ("finding possibilities which fit a set of needs") | per-claim source |
+| U1 m2 | four abilities; Fluency quote | Chen 2011, 26 | yes | — |
+| U1 m2 | triad; "most workshops try to enhance" | Csikszentmihalyi 1996, chap. 3 | yes | bullet worded to match |
+| U1 m3 | paper-clip / music | Chen 2011, 26 | yes | — |
+| U1 m4 | problems built from uncertain situations; wicked formulation ↔ solution; presented vs discovered | Schön 40; Buchanan 16; Csikszentmihalyi chap. 4 | yes | per-claim source |
+| U1 m5 | not bound by established technique | Schön 1983, 68 | yes | quoted |
+| U1 m6 | claims for design thinking overstated | Kimbell 2011, 285 | yes ("issues that undermine the claims") | quoted |
+| U2 m1 | map/route quote | de Bono 1985, 199 | yes | — |
+| U2 m1 | one act holds divergent + convergent | Craft 2000, 30 | yes | "warrant" made explicit |
+| U2 m1 | expected evaluation → judged less creative | Amabile 1979, 221 | yes | — |
+| U2 m1 | open-monitoring meditation helped divergent task | Colzato et al. 2012, 1 | yes | — |
+| U2 m1 | "same minute makes both weaker"; honest audit; first answer | — | not sourced | marked course wording |
+| U2 m2 | slide quote (triad) | Csikszentmihalyi 1996, chap. 3 | yes | **added** (Source line lacked it) |
+| U2 m2 | "Lateral thinking is generative. Vertical thinking is selective." | de Bono 1970, introduction | yes | — |
+| U2 m3 | dig-hole quote | de Bono 1970, introduction | yes | — |
+| U2 m3 | "hang on to their principal solution concept"; fixation suggested by Jansson and Smith | Cross 2006, 81–82 | yes | quoted; "suggested by" |
+| U2 m3 | "Generate numerous ideas…" | Norman 2013, 226 | yes | full sentence |
+| U2 m3 | "Criticism must be withheld until all ideas are in." | Osborn 1942, chap. 4 | yes | quoted |
+| U2 m3 | alternatives vs most obvious approach | de Bono 1970, chap. "The Generation of Alternatives" | yes | — |
+| U2 m3 | produce more without judging; count your ideas | — | not sourced | **marked course wording** (was under the Source line) |
+| U2 m4 | tool quote | Raymond 2001, 44 | yes | — |
+| U2 m4 | provocative; "a way of bringing about repatterning" | de Bono 1970, chap. 2 | yes | **added bullet** (the cite had no clause in the notes) |
+| U2 m4 | what-if widens alternatives; can hurt new generation | Wong et al. 2009, 161, 168 | yes | — |
+| U2 m4 | Six Hats colours; Oblique Strategies | — | colours on de Bono 1985, 31–32 but not cited in the lesson | **marked course wording** |
+| U2 m5 | editing as taste in curation | Rubin 2023, 386 | yes | quoted |
+| U2 m5 | creativity defined by production; selection neglected | Persaud 2007, 68 | yes | quoted |
+| U2 m6 | tortured-genius quote | Rubin 2023, 323 | yes | — |
+| U2 m6 | practice you keep doing; test methods on yourself | Rubin 2023, 326 | yes | — |
+| U2 m6 | dimensions tests measure; workshops try to enhance | Csikszentmihalyi 1996, chap. 3 | yes | — |
+| U2 m6 | "landmark work is rare…"; "not better ideas" | — | not sourced | marked course wording |
+| U3 m1 | "The prototype is meant to answer questions…" | Knapp et al. 2016, chap. 13 | yes | — |
+| U3 m1 | ill-defined problems | Cross 2006, vi | yes | stated as "the lesson also cites" (no bullet claims it) |
+| U3 m2 | Osborn rule; Amabile college students | Osborn chap. 4; Amabile 221 | yes | — |
+| U3 m3 | iteration can cause fixation | Dow et al. 2010, 18:1 | yes | — |
+| U3 m4 | problem and solution space together | Cross 2006, 37 | yes | **quoted**; "sketching puts a thought outside your head…", "rhythm and emphasis" now **marked course wording** (were under the Cross 37 Source) |
+| U3 m5 | wicked formulation ↔ solution | Buchanan 1992, 16 | yes | — |
+| U3 m5 | creative agency definition | Beghetto and Karwowski 2025, 3 | yes | **now verbatim** (was a paraphrase from the abstract) |
+| U3 m6 | situation "talks back"; reflective conversation | Schön 1983, 79 | yes | — |
+| U3 lab-1 | entry point → different train of ideas | de Bono 1970, chap. "Choice of Entry Point…" | yes | **added** (F1) |
+| U3 lab-1 | seeing that / seeing as | Cross 2006, 86 | yes | **added** (F1) |
+| U3 lab-1 | parallel prototyping result | Dow et al. 2010, 18:1 | yes | — |
+| U3 lab-1 | rhythm/emphasis; paste the entry point on | — | not on the pages | **labelled course wording** (F1) |
+| U3 lab-2 | delaying judgement | de Bono 1970, chap. "The New Word PO" | yes | — |
+
+**Limitation for EX11:** `tests/deck-lesson-sync.test.mjs` checks author-date pins and locators only (and stale "no page cite" notes). It cannot tell whether a clause next to a cite is on that page; that needs a human page check (this sweep) or a structured `claims: [{text, cite}]` field in the deck schema that a test could compare with the lesson's PROVENANCE_LINE verbatims.
