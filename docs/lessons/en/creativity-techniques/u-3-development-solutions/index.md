@@ -255,6 +255,8 @@ From session 4: Workshop time goes half to D2 Transposition and half to the fina
 
 This unit does not settle the moment when persistence becomes delay. You can push that question through reflective practice, designerly knowing, or a real studio deadline. Which checkpoint will you keep when the next version feels harder than the last? The gap is not a failure of the method; it is where judgement begins.
 
+**Practice quiz:** five questions on this unit, with answers you open on click — [U3 practice quiz]({{ '/practice/en/u-3-development-solutions/' | relative_url }}). Answer from memory first, then check. It is practice only and nothing is recorded.
+
 ---
 
 ## Tao of Creativity {#tao-of-creativity}

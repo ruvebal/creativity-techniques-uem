@@ -135,7 +135,7 @@ Opening is **divergent** thinking: you invent many possibilities. Closing is **c
 Guilford’s four abilities, as Chen summarises them:
 
 - **Fluency** — produce many ideas quickly  
-- **Flexibility** — try several angles (different kinds of idea)  
+- **Flexibility** — consider several different approaches to a problem at the same time (in the Lab you count them as kinds of idea)  
 - **Originality** — produce ideas that few other people produce (rare answers)  
 - **Elaboration** — work the details and carry the idea through  
 
@@ -276,7 +276,7 @@ Practises Masterclass ideas **2** (four skills that tests measure) and **3** (a 
 
 **Judged by:** [Portfolio rubric — creative fluency, flexibility, and originality]({{ '/assignments/en/creativity-techniques-portfolio/' | relative_url }}#rubric)
 
-**Source:** "Tests like Alternate Uses" ask people for as many ways of using a common object as possible, and the four abilities are as Chen reports them [(Chen 2011, 26)](#ref-chen-2011). The same page warns that such a score may say little about talent in a specific field — so treat your numbers as practice, not a verdict. The steps and the class-pool scoring are a classroom adaptation.
+**Source:** "Tests like Alternate Uses" ask people for as many ways of using a common object as possible, and the four abilities are as Chen reports them [(Chen 2011, 26)](#ref-chen-2011). The same page warns that such a score may say little about talent in a specific field — so treat your numbers as practice, not a verdict. The steps and the shared-board scoring are a classroom adaptation.
 
 ### Exercise 2 — Cut-up and readymade: open, then close {#lab-exercise-2}
 
@@ -355,6 +355,8 @@ Browse the [Directory]({{ '/directory/en/' | relative_url }}). Pick **two entrie
 ## Conclusion
 
 This unit does not settle what creativity is; it hands you a habit and a working definition. The four skills come from cognitive-testing traditions, and they sit uneasily beside the other authors in this unit: Schön argues that practitioners build their problems out of uncertain situations and reflect while they act; Buchanan argues that design problems are "wicked", with no definitive formulation; Kimbell argues that the claims made for "design thinking" are overstated. None of them is talking about creativity tests, which is exactly why reading one of them (start with a chapter, not a summary) is the next honest move after this class. What will you do with the gap between "I trained fluency this week" and "I made something that mattered"? The gap does not close here — and a lesson that closed it too neatly would teach you the wrong thing about the field.
+
+**Practice quiz:** five questions on this unit, with answers you open on click — [U1 practice quiz]({{ '/practice/en/u-1-introduction-creativity/' | relative_url }}). Answer from memory first, then check. It is practice only and nothing is recorded.
 
 ---
 

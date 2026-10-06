@@ -288,6 +288,21 @@ layout: null
       "notes": "- Pause after each version. Write three lines: what changed, what stayed, what the change taught you.\n- Schön: the situation \"talks back\", and in good design this conversation with the situation is reflective.\n- The checkpoint turns attempts into evidence you can discuss. It is a teaching prompt, not a model of every studio decision.\nSource: the Schön bullet is (Schön 1983, 79). Other bullets are course wording.\nAsk: What did your last checkpoint teach you?"
     },
     {
+      "slide_id": "retrieval",
+      "slide_role": "retrieval",
+      "background_kind": "geometrical",
+      "heading": "Recall check",
+      "sentence": "Alone, from memory, 3 minutes. Then compare with a partner.",
+      "questions": [
+        "What is a prototype for, says the sprint handbook?",
+        "What risk of iteration do Dow and colleagues name?",
+        "Sketching explores which two spaces together (Cross)?",
+        "Why reframe an unclear brief as two or three questions?",
+        "For Schön, what does the situation do as you design?"
+      ],
+      "notes": "- Timer: 3 minutes. Students answer alone, from memory, on paper; no notes, no slides.\n- Then 2 minutes in pairs: compare answers, then check the lesson.\n- Practice only: nothing is collected or graded. Five more questions with answers are on the unit's practice quiz page.\nAnswers:\n- 1. Answer questions, so keep it focused (Knapp, Zeratsky, and Kowitz 2016, chap. 13).\n- 2. Fixation: continuously refining one option without considering others (Dow et al. 2010, 18:1).\n- 3. The problem space and the solution space (Cross 2006, 37).\n- 4. Every formulation of a wicked problem corresponds to the formulation of a solution, so each framing points to a different answer (Buchanan 1992, 16).\n- 5. It talks back, and you respond; in a good design process that conversation is reflective (Schön 1983, 79).\nAsk: Which answer could you not recall? Re-read that idea before the Lab."
+    },
+    {
       "slide_id": "lab-opener",
       "slide_role": "lab_opener",
       "background_kind": "geometrical",

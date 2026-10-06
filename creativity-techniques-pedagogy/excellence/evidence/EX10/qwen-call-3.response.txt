@@ -1,0 +1,109 @@
+---
+TYPE: mcq
+BLOOM: understand
+STEM: What is the purpose of a rough prototype according to the lesson?
+ANSWER: A rough prototype is meant to answer questions.
+DISTRACTORS: It is meant to be a final product | It is meant to be aesthetically pleasing | It is meant to be expensive
+EVIDENCE: A sprint handbook puts the same rule for prototypes bluntly: "The prototype is meant to answer questions, so keep it focused" — build just enough to learn, and no more [(Knapp, Zeratsky, and Kowitz 2016, chap. 13)].
+
+---
+TYPE: short
+BLOOM: apply
+STEM: Describe a situation where you would use a rough prototype to reveal an unknown aspect of a design.
+ANSWER: For a packaging brief, you might fold a quick card model to feel the box in your hand before you draw any graphics.
+EVIDENCE: For a packaging brief, you might fold a quick card model to feel the box in your hand before you draw any graphics.
+
+---
+TYPE: case
+BLOOM: analyse
+STEM: A designer is working on a logo and is considering stopping after the first awkward version. Based on the lesson, what advice would you give to the designer?
+ANSWER: Protect a short space for variation, then judge with a named criterion.
+EVIDENCE: Early critique can close a path before it shows what it might become: protect a short space for variation, then judge with a named criterion.
+
+---
+TYPE: mcq
+BLOOM: remember
+STEM: What is the purpose of writing a test question before revising a design according to the lesson?
+ANSWER: To stop revising once the question is answered.
+DISTRACTORS: To continue revising indefinitely | To make the design more complex | To ensure the design is aesthetically pleasing
+EVIDENCE: Before you change the work, write the one test the next version must pass; stop when it passes, even if another improvement is possible.
+
+---
+TYPE: short
+BLOOM: evaluate
+STEM: Evaluate the effectiveness of the checkpoint process described in the lesson.
+ANSWER: The checkpoint process helps reflect on changes, what stayed the same, and what was learned, which can improve the design process.
+EVIDENCE: The checkpoint turns a sequence of attempts into evidence you can discuss; it is a teaching prompt, not a claim that one model explains every studio decision.
+
+---
+TYPE: case
+BLOOM: apply
+STEM: You are designing a corridor sign and need to ensure it is readable from a distance. What test question would you write to ensure this?
+ANSWER: Can a classmate read the room number from the far end?
+EVIDENCE: For a corridor sign, the test might be “Can a classmate read the room number from the far end?”
+
+---
+TYPE: mcq
+BLOOM: understand
+STEM: What is the role of sketching in the design process according to the lesson?
+ANSWER: Sketching enables exploration of the problem and solution space together.
+DISTRACTORS: Sketching is only for final designs | Sketching is for making beautiful drawings | Sketching is for decoration
+EVIDENCE: Sketching enables exploration of the problem space and the solution space to proceed together.
+
+---
+TYPE: short
+BLOOM: analyse
+STEM: Analyse how the checkpoint process can help in the design process.
+ANSWER: The checkpoint process helps in reflecting on changes, what stayed the same, and what was learned, which can improve the design process.
+EVIDENCE: The checkpoint turns a sequence of attempts into evidence you can discuss; it is a teaching prompt, not a claim that one model explains every studio decision.
+
+---
+TYPE: case
+BLOOM: evaluate
+STEM: You are given a brief to "promote the festival." How would you open the solution space and what would be your small responses?
+ANSWER: Reframe the brief into questions like "how do we show its theme?" and "how do we show who is playing?" and make one small poster sketch for each.
+EVIDENCE: “promote the festival” could become “how do we show its theme?” and “how do we show who is playing?” — one small poster sketch for each.
+
+---
+TYPE: mcq
+BLOOM: remember
+STEM: What is the purpose of the checkpoint in the design process?
+ANSWER: To write three lines: what changed, what stayed, and what the change taught you.
+DISTRACTORS: To finalize the design | To make the design more complex | To ensure the design is aesthetically pleasing
+EVIDENCE: Pause after each version and write three lines: what changed, what stayed, and what the change taught you.
+
+---
+TYPE: short
+BLOOM: apply
+STEM: Apply the concept of parallel prototyping to a design problem of your choice.
+ANSWER: For a packaging brief, you might fold a quick card model to feel the box in your hand before you draw any graphics.
+EVIDENCE: For a packaging brief, you might fold a quick card model to feel the box in your hand before you draw any graphics.
+
+---
+TYPE: case
+BLOOM: analyse
+STEM: Analyse the effectiveness of the "defer judgement" process in the design of a logo.
+ANSWER: Deferring judgement allows for variation and prevents closing a path before it shows what it might become.
+EVIDENCE: Early critique can close a path before it shows what it might become: protect a short space for variation, then judge with a named criterion.
+
+---
+TYPE: mcq
+BLOOM: understand
+STEM: What does the lesson suggest about the role of sketching in the design process?
+ANSWER: Sketching helps you see what your idea is doing.
+DISTRACTORS: Sketching is only for final designs | Sketching is for making beautiful drawings | Sketching is for decoration
+EVIDENCE: A sketch is a temporary argument: it helps you see what your idea is doing.
+
+---
+TYPE: short
+BLOOM: apply
+STEM: Apply the concept of "iterate with an exit" to a design problem of your choice.
+ANSWER: For a corridor sign, the test might be “Can a classmate read the room number from the far end?” Once they can, you stop revising.
+EVIDENCE: For a corridor sign, the test might be “Can a classmate read the room number from the far end?”
+
+---
+TYPE: case
+BLOOM: evaluate
+STEM: Evaluate the effectiveness of the "make it rough, make it early" approach in the design of a packaging brief.
+ANSWER: Making a rough prototype early helps reveal one thing you do not yet know, which can improve the design process.
+EVIDENCE: A rough prototype is a question in material form: build the smallest version that lets someone react.

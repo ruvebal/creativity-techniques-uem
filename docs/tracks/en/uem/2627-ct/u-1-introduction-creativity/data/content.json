@@ -340,7 +340,7 @@ layout: null
         ]
       },
       "image_brief": "Katsushika Hokusai, a page of the Hokusai Manga sketchbooks (from 1814): many quick, varied figures on one page — fluency (many ideas), flexibility (many kinds) and elaboration made visible.",
-      "notes": "- Guilford's four abilities, as summarised by Chen, give us shared words: fluency (many ideas quickly), flexibility (several angles), originality (ideas few other people produce), elaboration (work the details).\n- Many workshops try to raise these scores.\n- A higher score is not the same as a better idea in a real brief. That is the next slide.\nSource: the four abilities and the Fluency quote are (Chen 2011, 26); fluency, flexibility, originality as what \"most workshops try to enhance\" is (Csikszentmihalyi 1996, chap. 3). Other bullets are course wording.\nAsk: Which of the four skills do you use most? Which one do you avoid?"
+      "notes": "- Guilford's four abilities, as summarised by Chen, give us shared words: fluency (many ideas quickly), flexibility (several different approaches at the same time), originality (ideas few other people produce), elaboration (work the details).\n- Many workshops try to raise these scores.\n- A higher score is not the same as a better idea in a real brief. That is the next slide.\nSource: the four abilities and the Fluency quote are (Chen 2011, 26); fluency, flexibility, originality as what \"most workshops try to enhance\" is (Csikszentmihalyi 1996, chap. 3). Other bullets are course wording.\nAsk: Which of the four skills do you use most? Which one do you avoid?"
     },
     {
       "slide_id": "masterclass-3",
@@ -474,6 +474,21 @@ layout: null
       "notes": "- Use tools that help.\n- Also ask when managerial buzzwords empty out craft.\n- Offered for debate, not as settled fact: critics argue the claims for design thinking are overstated.\nSource: the slide quote is a Tao of Creativity line; the third bullet is (Kimbell 2011, 285): \"several issues that undermine the claims made for design thinking\". Other bullets are course wording.\nAsk: Name one design buzzword. What craft might it hide?"
     },
     {
+      "slide_id": "retrieval",
+      "slide_role": "retrieval",
+      "background_kind": "geometrical",
+      "heading": "Recall check",
+      "sentence": "Alone, from memory, 3 minutes. Then compare with a partner.",
+      "questions": [
+        "Most definitions of creativity ask for which two things?",
+        "Name the three parts of Csikszentmihalyi's system.",
+        "Name the four skills that creativity tests measure.",
+        "What does Chen warn about a high alternative-uses score?",
+        "For Schön, where do problems in practice come from?"
+      ],
+      "notes": "- Timer: 3 minutes. Students answer alone, from memory, on paper; no notes, no slides.\n- Then 2 minutes in pairs: compare answers, then check the lesson.\n- Practice only: nothing is collected or graded. Five more questions with answers are on the unit's practice quiz page.\nAnswers:\n- 1. Something new and something that matters: novelty plus value or meaningfulness (Beghetto and Karwowski 2025, 3).\n- 2. Domain, field and person (Csikszentmihalyi 1996, chap. 2).\n- 3. Fluency, flexibility, originality, elaboration (Chen 2011, 26).\n- 4. Divergent thinking with a paper clip may tell us little about talent in another field, such as music (Chen 2011, 26).\n- 5. Not as givens: they are constructed from situations that are puzzling, troubling and uncertain (Schön 1983, 40).\nAsk: Which answer could you not recall? Re-read that idea before the Lab."
+    },
+    {
       "slide_id": "lab-opener",
       "slide_role": "lab_opener",
       "background_kind": "geometrical",
@@ -522,7 +537,7 @@ layout: null
       "image_brief": "Marcel Duchamp, Fountain, 1917, in Alfred Stieglitz's photograph: a factory-made everyday object given a use nobody expected for it — the jump the alternative-uses list asks you to make.",
       "asset_id": "wikimedia:File:Marcel Duchamp, 1917, Fountain, photograph by Alfred Stieglitz.jpg",
       "media_slot_id": "U1.lab-1",
-      "notes": "- Timer: 3 minutes of silent listing (the slide timer). Whole exercise about 15 minutes.\n- Show one everyday object or a photo (a brick, a paper clip, a shoe). Everyone lists uses alone and in silence.\n- Fluency: count the uses. Flexibility: group them into kinds and count the kinds.\n- Originality: post every list on a shared board, or compare lists within table groups of 5–6; mark each use nobody else wrote. Reading every list aloud does not fit the time.\n- Elaboration: pick one marked use and add three concrete details.\n- Close: which shift between kinds gave your least obvious use? Treat the numbers as practice, not a talent verdict.\nSource: tests like Alternate Uses ask for as many uses of a common object as possible, and the four abilities (fluency, flexibility, originality, elaboration) are as reported in (Chen 2011, 26); the caution that such scores may say little about talent in a specific field is the same page. The steps and scoring by class pool are course wording.\nAsk: Was your rarest use also your best one?"
+      "notes": "- Timer: 3 minutes of silent listing (the slide timer). Whole exercise about 15 minutes.\n- Show one everyday object or a photo (a brick, a paper clip, a shoe). Everyone lists uses alone and in silence.\n- Fluency: count the uses. Flexibility: group them into kinds and count the kinds.\n- Originality: post every list on a shared board, or compare lists within table groups of 5–6; mark each use nobody else wrote. Reading every list aloud does not fit the time.\n- Elaboration: pick one marked use and add three concrete details.\n- Close: which shift between kinds gave your least obvious use? Treat the numbers as practice, not a talent verdict.\nSource: tests like Alternate Uses ask for as many uses of a common object as possible, and the four abilities (fluency, flexibility, originality, elaboration) are as reported in (Chen 2011, 26); the caution that such scores may say little about talent in a specific field is the same page. The steps and the shared-board scoring are course wording.\nAsk: Was your rarest use also your best one?"
     },
     {
       "slide_id": "lab-2",

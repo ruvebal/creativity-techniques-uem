@@ -260,7 +260,7 @@ works:
   - key: amabile-1982
     work: "Amabile, Teresa M. 1982. Social Psychology of Creativity: A Consensual Assessment Technique. JPSP 43 (5)."
     unit: U2
-    claim: "Consensual assessment of creativity (selection research)."
+    claim: "Consensual assessment of creativity (selection research). EX10: also the intended source for the peer CAT procedure in assessment/MEASUREMENT-PROTOCOL.md §4, described there procedurally and marked source pending."
     status: gap
     gap_reason: "Not in the library."
   - key: amabile-1979
@@ -466,3 +466,10 @@ works:
     provenance: "ML SU-CPA.nmd-scenes, SU-CPA.process-material"
     vault: "coat 43fc4273"
     migration: "pins 26, 219 were PDF pages"
+  # ------------------------------------------------------------------ EX10 measurement protocol (assessment/, private)
+  - key: karwowski-2012
+    work: "Karwowski, Maciej. 2012. Short Scale of Creative Self (creative self-efficacy and creative personal identity)."
+    unit: assessment (EX10 measurement protocol)
+    claim: "Instrument for creative self-beliefs in the pre/post protocol (MEASUREMENT-PROTOCOL.md §3.2)."
+    status: gap
+    gap_reason: "Not in the library. EX10 Athanor search (2026-10-06, project profield-creativity-techniques, library scholar) found only a reference-list entry to Karwowski, Lebuda and Wiśniewska 2018 inside Beghetto and Karwowski 2025 (coat 09e171eb, page index 85); that does not verify the 2012 scale. Items, scale and scoring are not reproduced until the original is procured and page-checked."

@@ -96,10 +96,10 @@ function write(path, contents) {
 	writeFileSync(path, contents, 'utf8');
 }
 
-function wipeChildrenExceptIndex(dir) {
+function wipeChildrenExceptIndex(dir, keep = []) {
 	if (!existsSync(dir)) return;
 	for (const name of readdirSync(dir)) {
-		if (name === 'index.md') continue;
+		if (name === 'index.md' || keep.includes(name)) continue;
 		rmSync(join(dir, name), { recursive: true, force: true });
 	}
 }
@@ -275,7 +275,8 @@ function hydrateMethods() {
 
 	const base = join(docs, 'methods/en');
 	mkdirSync(base, { recursive: true });
-	wipeChildrenExceptIndex(base);
+	// cards/ is written by scripts/build-method-cards.mjs (PHASE-EX10), which runs after hydrate.
+	wipeChildrenExceptIndex(base, ['cards']);
 
 	const toc = tocNav(methods.map((m) => ({ id: m.id, label: m.title })));
 	const sections = methods
@@ -311,7 +312,7 @@ ${steps ? `<ol class="field-card__steps">${steps}</ol>` : ''}
 ${toc}
 ${sections}
 <footer class="field-index__related">
-<p>Also see <a href="{{ '/directory/en/' | relative_url }}">Directory</a> · <a href="{{ '/lexicum/en/' | relative_url }}">Lexicum</a></p>
+<p>Printable <a href="{{ '/methods/en/cards/' | relative_url }}">method cards</a> for every technique and method used in class · Also see <a href="{{ '/directory/en/' | relative_url }}">Directory</a> · <a href="{{ '/lexicum/en/' | relative_url }}">Lexicum</a></p>
 </footer>
 </div>
 `,

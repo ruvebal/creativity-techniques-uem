@@ -1,0 +1,936 @@
+# Knowledge-test question bank — Creativity Techniques, U1–U3 (PHASE-EX10). PRIVATE: never publish.
+#
+# STATUS: DRAFT under AUTOPILOT §2 (EX10 row) — approved_by: autopilot (drafts — not for use
+# before professor approval). See APPROVAL.md. Not for any exam or graded use until the
+# professor approves the bank.
+#
+# Rules (PHASE-EX10, executor brief):
+# - Every answer is derivable from the student-visible lesson text of its unit (Masterclass,
+#   Lab or Conclusion) and the verified cite that sentence carries. `ref` is the
+#   docs/_data/references.yml key whose page supports the answer; a course-method question
+#   uses the verified key cited by the lesson sentence it rests on. No question asks for a
+#   page number. Uncited course wording (e.g. the language / medium / support method, the
+#   COCD box, the role / look-and-feel / how-it-works question) is not examined here.
+# - `ra`: learning outcome code from the Grado en Diseño guía
+#   (cv/guides/guia-tecnicas-de-creatividad-diseno-2025-26.json): RA5 solve problems from
+#   premises; RA6 pose new problems and solve them autonomously; RA12 understand others'
+#   perspectives; RA14 critical, creative and reflective thinking; RA15 group dynamics.
+# - `bloom`: remember | understand | apply | analyse | evaluate | create.
+# - `where`: the lesson block that holds the answer; `anchor`: its id on the lesson page.
+# - `public_quiz: true`: one of the five questions on the public practice page
+#   (docs/practice/en/<unit slug>/, built by scripts/build-practice-quizzes.mjs).
+# - `retrieval`: the short recall form shown on the deck's retrieval slide (answer in the
+#   slide notes); five per unit. The test retrieval-sync.test.mjs keeps slides and bank equal.
+# - `drafted`: `local-qwen-edited` = stem started from a local qwen2.5:32b-instruct draft
+#   (evidence/EX10/qwen-call-N.response.txt) and was rewritten and checked by hand;
+#   `hand` = written by the executor. Every answer was checked against the lesson text and
+#   its cited page as recorded in the lesson PROVENANCE_LINE.
+schema: ct-question-bank/v1
+phase: EX10
+status: draft
+units:
+  U1: { slug: u-1-introduction-creativity, lesson: /lessons/en/creativity-techniques/u-1-introduction-creativity/ }
+  U2: { slug: u-2-idea-generation-selection, lesson: /lessons/en/creativity-techniques/u-2-idea-generation-selection/ }
+  U3: { slug: u-3-development-solutions, lesson: /lessons/en/creativity-techniques/u-3-development-solutions/ }
+questions:
+  # ---------------------------------------------------------------- U1
+  - id: U1-01
+    unit: U1
+    ra: RA14
+    type: mcq
+    bloom: understand
+    stem: Most definitions of creativity ask for two things at once. Which two?
+    answer: Something new (novelty) and something that matters (value, meaningfulness).
+    distractors:
+      - Speed and a large quantity of ideas.
+      - Natural talent and sudden inspiration.
+      - Technical polish and a famous author.
+    ref: beghetto-karwowski-2025
+    where: Masterclass, opening definition
+    anchor: masterclass
+    drafted: local-qwen-edited
+    retrieval: Most definitions of creativity ask for which two things?
+  - id: U1-02
+    unit: U1
+    ra: RA14
+    type: short
+    bloom: remember
+    stem: In the UK national report quoted by Fisher, creative outcomes must be both ___ and ___. Fill the gaps.
+    answer: Original and of value.
+    ref: fisher-2004
+    where: Masterclass, opening definition
+    anchor: masterclass
+    drafted: hand
+  - id: U1-03
+    unit: U1
+    ra: RA14
+    type: case
+    bloom: evaluate
+    stem: A student presents a striking new logo that ignores the client's brief. Using the unit's working definition, is this creative work yet? Explain.
+    answer: Not yet. It has novelty, but the working definition also asks for value or meaning; a new idea that does nothing for the brief is not yet creative work.
+    ref: beghetto-karwowski-2025
+    where: Masterclass, opening definition
+    anchor: masterclass
+    drafted: hand
+  - id: U1-04
+    unit: U1
+    ra: RA12
+    type: mcq
+    bloom: understand
+    stem: In Csikszentmihalyi's system of three parts, what is the "field"?
+    answer: The people who decide what gets in, such as teachers, clients, curators and critics.
+    distractors:
+      - A set of rules and symbols, such as graphic design.
+      - The person who brings something new.
+      - The material or file that holds the signs.
+    ref: csikszentmihalyi-1996
+    where: Masterclass, "A myth to drop"
+    anchor: masterclass
+    drafted: local-qwen-edited
+    public_quiz: true
+  - id: U1-05
+    unit: U1
+    ra: RA14
+    type: short
+    bloom: remember
+    stem: Name the three parts of the system in which, for Csikszentmihalyi, creativity can be observed.
+    answer: Domain, field and person.
+    ref: csikszentmihalyi-1996
+    where: Masterclass, "A myth to drop"
+    anchor: masterclass
+    drafted: local-qwen-edited
+    retrieval: Name the three parts of Csikszentmihalyi's system.
+  - id: U1-06
+    unit: U1
+    ra: RA14
+    type: mcq
+    bloom: understand
+    stem: Which statement matches Craft's point about divergent and convergent thinking?
+    answer: The same creative act may involve both divergent and convergent thinking.
+    distractors:
+      - Divergent and convergent thinking can never occur in the same act.
+      - Only convergent thinking counts as creative.
+      - Divergent thinking is a talent; convergent thinking is a skill.
+    ref: craft-2000
+    where: Masterclass idea 1 (Open, then close)
+    anchor: masterclass
+    drafted: hand
+  - id: U1-07
+    unit: U1
+    ra: RA5
+    type: case
+    bloom: apply
+    stem: For a poster brief you sketch twelve small layouts without judging any of them, then keep the two that can be read from across a corridor. Which move is opening and which is closing?
+    answer: Sketching twelve layouts without judging is opening (divergent thinking); keeping the two that are readable from across a corridor is closing (convergent thinking, selecting what fits the brief).
+    ref: craft-2000
+    where: Masterclass idea 1 (Open, then close)
+    anchor: masterclass
+    drafted: local-qwen-edited
+    public_quiz: true
+  - id: U1-08
+    unit: U1
+    ra: RA14
+    type: mcq
+    bloom: understand
+    stem: Csikszentmihalyi reports that the creative process has traditionally been described in five steps. What does he warn about this framework?
+    answer: Taken too literally it gives a severely distorted picture; in real work insight, incubation and evaluation keep interrupting one another.
+    distractors:
+      - The five steps must always be followed in strict order.
+      - Only the insight step matters.
+      - The steps describe scientists, not designers.
+    ref: csikszentmihalyi-1996
+    where: Masterclass idea 1 (Open, then close)
+    anchor: masterclass
+    drafted: hand
+  - id: U1-09
+    unit: U1
+    ra: RA14
+    type: short
+    bloom: remember
+    stem: Name the four abilities (Guilford's, as Chen summarises them) that creativity tests measure.
+    answer: Fluency, flexibility, originality and elaboration.
+    ref: chen-2011
+    where: Masterclass idea 2 (Four skills that tests measure)
+    anchor: masterclass
+    drafted: local-qwen-edited
+    retrieval: Name the four skills that creativity tests measure.
+  - id: U1-10
+    unit: U1
+    ra: RA14
+    type: mcq
+    bloom: understand
+    stem: Which of the four abilities is the ability to produce a large number of ideas or solutions to a problem rapidly?
+    answer: Fluency.
+    distractors:
+      - Flexibility.
+      - Originality.
+      - Elaboration.
+    ref: chen-2011
+    where: Masterclass idea 2 (Four skills that tests measure)
+    anchor: masterclass
+    drafted: hand
+    public_quiz: true
+  - id: U1-11
+    unit: U1
+    ra: RA14
+    type: case
+    bloom: apply
+    stem: In the alternative-uses Lab, a student lists 15 uses for a shoe; 12 are kinds of container and 3 are kinds of weapon. Score fluency and flexibility as the Lab counts them.
+    answer: Fluency is 15 (the number of uses); flexibility is 2 (the number of kinds of use).
+    ref: chen-2011
+    where: Lab Exercise 1 (Alternative uses, scored on four skills)
+    anchor: lab-exercise-1
+    drafted: hand
+  - id: U1-12
+    unit: U1
+    ra: RA14
+    type: case
+    bloom: analyse
+    stem: Student A lists 30 uses for a brick, all of them ways to build walls. Student B lists 12 uses across 6 kinds. Who shows more flexibility, and why?
+    answer: Student B. Flexibility counts different kinds of idea (different approaches), not the number of uses; A has high fluency but only one kind.
+    ref: chen-2011
+    where: Masterclass idea 2 and Lab Exercise 1
+    anchor: masterclass
+    drafted: hand
+  - id: U1-13
+    unit: U1
+    ra: RA14
+    type: mcq
+    bloom: understand
+    stem: What does Chen's remark about the paper clip warn about?
+    answer: Divergent thinking with a paper clip may tell us little about a person's talent in another field, such as music.
+    distractors:
+      - A paper clip is the wrong object for an alternative-uses test.
+      - Divergent thinking cannot be trained.
+      - Talent in music predicts talent in design.
+    ref: chen-2011
+    where: Masterclass idea 3 (A test score is not the whole designer)
+    anchor: masterclass
+    drafted: hand
+    retrieval: What does Chen warn about a high alternative-uses score?
+  - id: U1-14
+    unit: U1
+    ra: RA5
+    type: case
+    bloom: evaluate
+    stem: A student listed the most uses in the alternative-uses Lab and concludes that they are the most talented designer in the class. Evaluate this conclusion.
+    answer: It does not follow. A score like this may say little about talent in a specific field; the lesson asks you to treat the numbers as practice, not a verdict, and a long list does not show which idea serves a real brief.
+    ref: chen-2011
+    where: Masterclass idea 3 and the Lab Exercise 1 Source line
+    anchor: masterclass
+    drafted: local-qwen-edited
+    public_quiz: true
+  - id: U1-15
+    unit: U1
+    ra: RA6
+    type: mcq
+    bloom: understand
+    stem: According to Schön, how do problems appear in real-world practice?
+    answer: They do not present themselves as givens; they must be constructed from situations that are puzzling, troubling and uncertain.
+    distractors:
+      - As clear givens handed over by the client.
+      - As puzzles with one correct answer.
+      - Only after a technique has been chosen.
+    ref: schon-1983
+    where: Masterclass idea 4 (Name the unclear problem first)
+    anchor: masterclass
+    drafted: local-qwen-edited
+    retrieval: For Schön, where do problems in practice come from?
+  - id: U1-16
+    unit: U1
+    ra: RA6
+    type: case
+    bloom: apply
+    stem: 'A client says: "Make our website feel younger." Following idea 4, what do you do before you pick a creativity technique?'
+    answer: 'Say what is unclear and frame a problem you can design for — for example, "first-year students cannot find the timetable" — because problems are built out of the situation, not handed over.'
+    ref: schon-1983
+    where: Masterclass idea 4 (Name the unclear problem first)
+    anchor: masterclass
+    drafted: local-qwen-edited
+  - id: U1-17
+    unit: U1
+    ra: RA6
+    type: mcq
+    bloom: understand
+    stem: Buchanan, following Rittel, says something about every formulation of a wicked problem. What?
+    answer: It corresponds to the formulation of a solution — how you state the problem already points to an answer.
+    distractors:
+      - It has one definitive formulation.
+      - It can be solved by testing alone.
+      - It should be left until a solution exists.
+    ref: buchanan-1992
+    where: Masterclass idea 4 (Name the unclear problem first)
+    anchor: masterclass
+    drafted: hand
+    public_quiz: true
+  - id: U1-18
+    unit: U1
+    ra: RA6
+    type: short
+    bloom: understand
+    stem: According to Csikszentmihalyi, how do problems that are handed to you (presented problems) differ from problems you have to discover?
+    answer: Discovered problems take longer to prepare for and to solve.
+    ref: csikszentmihalyi-1996
+    where: Masterclass idea 4 (Name the unclear problem first)
+    anchor: masterclass
+    drafted: hand
+  - id: U1-19
+    unit: U1
+    ra: RA14
+    type: mcq
+    bloom: understand
+    stem: When a practitioner reflects while acting, what does Schön say they become?
+    answer: A researcher in the practice context, who constructs a new theory of the unique case.
+    distractors:
+      - A follower of the categories of established technique.
+      - A neutral observer who does not act.
+      - A manager of other people's ideas.
+    ref: schon-1983
+    where: Masterclass idea 5 (Techniques are tools, not scripts)
+    anchor: masterclass
+    drafted: hand
+  - id: U1-20
+    unit: U1
+    ra: RA14
+    type: case
+    bloom: analyse
+    stem: A cut-up hands you a phrase that clashes with your brief. Using idea 5, what has the technique done, and who decides whether you keep the phrase?
+    answer: The technique has done its job by surprising you; keeping the phrase is your decision. A method helps you talk with the situation; it does not replace your judgement.
+    ref: schon-1983
+    where: Masterclass idea 5 (Techniques are tools, not scripts)
+    anchor: masterclass
+    drafted: local-qwen-edited
+  - id: U1-21
+    unit: U1
+    ra: RA14
+    type: mcq
+    bloom: understand
+    stem: Which issue does Kimbell raise about the claims made for "design thinking"?
+    answer: It separates thinking from acting and ignores how different designers' practices are.
+    distractors:
+      - It was never studied in research on designers.
+      - It proves that one method is best for every brief.
+      - It is too slow for clients.
+    ref: kimbell-2011
+    where: Masterclass idea 6 ("Design thinking" talk is debated)
+    anchor: masterclass
+    drafted: local-qwen-edited
+  - id: U1-22
+    unit: U1
+    ra: RA12
+    type: case
+    bloom: evaluate
+    stem: A client asks you to run a "design thinking workshop". Using idea 6, how do you treat the request, and what do you ask first?
+    answer: Treat "design thinking" as a debated label rather than a settled method, and ask which decision the workshop should help the client make, and who will make it.
+    ref: kimbell-2011
+    where: Masterclass idea 6 ("Design thinking" talk is debated)
+    anchor: masterclass
+    drafted: local-qwen-edited
+  # ---------------------------------------------------------------- U2
+  - id: U2-01
+    unit: U2
+    ra: RA14
+    type: short
+    bloom: understand
+    stem: In de Bono's description of the Six Thinking Hats method, what are the two stages of "make the map, then choose a route"?
+    answer: First make the map (generate and lay out the options); second, choose a route on the map (select).
+    ref: debono-1985
+    where: Masterclass idea 1 (Generate, then select)
+    anchor: masterclass
+    drafted: local-qwen-edited
+    retrieval: In de Bono's map image, what are the two stages, in order?
+  - id: U2-02
+    unit: U2
+    ra: RA14
+    type: mcq
+    bloom: understand
+    stem: In Amabile's classic experiment, what happened to students who expected their artwork to be evaluated?
+    answer: Their artworks were judged significantly lower in creativity than those of students who did not expect evaluation.
+    distractors:
+      - Their artworks were judged more creative.
+      - They produced more artworks.
+      - There was no difference between the groups.
+    ref: amabile-1979
+    where: Masterclass idea 1 (Generate, then select)
+    anchor: masterclass
+    drafted: hand
+    retrieval: What happened when students expected evaluation (Amabile)?
+  - id: U2-03
+    unit: U2
+    ra: RA5
+    type: case
+    bloom: apply
+    stem: Your team plans to criticise each poster idea the moment it is spoken, in one ten-minute session. Using idea 1, what change do you propose and why?
+    answer: Separate the two jobs — generate first without judging, then select — because doing both in the same minute weakens both, and expecting evaluation lowered judged creativity in Amabile's experiment.
+    ref: amabile-1979
+    where: Masterclass idea 1 (Generate, then select)
+    anchor: masterclass
+    drafted: local-qwen-edited
+  - id: U2-04
+    unit: U2
+    ra: RA14
+    type: mcq
+    bloom: understand
+    stem: In the small laboratory study cited in idea 1, which kind of meditation helped people on a divergent-thinking task?
+    answer: Open-monitoring meditation (noticing whatever comes, without fixing on one thing).
+    distractors:
+      - Focused-attention meditation.
+      - Walking meditation.
+      - No meditation at all.
+    ref: colzato-2012
+    where: Masterclass idea 1 (Generate, then select)
+    anchor: masterclass
+    drafted: hand
+    public_quiz: true
+  - id: U2-05
+    unit: U2
+    ra: RA14
+    type: short
+    bloom: evaluate
+    stem: The optional U2 warm-up lasts 3 minutes. Why does the lesson call this version untested?
+    answer: The study behind it used sessions of about 35 minutes, so a 3-minute version has not been tested.
+    ref: colzato-2012
+    where: Lab Exercise 1, Source line
+    anchor: lab-exercise-1
+    drafted: hand
+  - id: U2-06
+    unit: U2
+    ra: RA14
+    type: mcq
+    bloom: remember
+    stem: 'Complete de Bono''s distinction: "Lateral thinking is generative. Vertical thinking is …"'
+    answer: Selective.
+    distractors:
+      - Logical.
+      - Creative.
+      - Lateral.
+    ref: debono-1970
+    where: Masterclass idea 2 (Fluency with flexibility)
+    anchor: masterclass
+    drafted: hand
+  - id: U2-07
+    unit: U2
+    ra: RA5
+    type: case
+    bloom: apply
+    stem: For a packaging brief you have twenty bottle shapes. Describe their fluency and flexibility, and say how you could add kinds.
+    answer: High fluency but only one kind (low flexibility). Add different kinds of idea, for example a refill pouch, a label-free bottle or a deposit scheme.
+    ref: csikszentmihalyi-1996
+    where: Masterclass idea 2 (Fluency with flexibility)
+    anchor: masterclass
+    drafted: local-qwen-edited
+    public_quiz: true
+  - id: U2-08
+    unit: U2
+    ra: RA14
+    type: mcq
+    bloom: understand
+    stem: What "fixation" effect does Cross report, following Jansson and Smith?
+    answer: Showing people an example solution makes their own designs copy its features.
+    distractors:
+      - Designers drop their first concept as soon as problems appear.
+      - Seeing an example always makes designs more original.
+      - Fixation affects only beginners.
+    ref: cross-2006
+    where: Masterclass idea 3 (Get past the obvious)
+    anchor: masterclass
+    drafted: local-qwen-edited
+    public_quiz: true
+  - id: U2-09
+    unit: U2
+    ra: RA14
+    type: short
+    bloom: understand
+    stem: According to the studies of designers that Cross reports, what do designers tend to do with their principal solution concept when problems appear?
+    answer: They hang on to it.
+    ref: cross-2006
+    where: Masterclass idea 3 (Get past the obvious)
+    anchor: masterclass
+    drafted: hand
+  - id: U2-10
+    unit: U2
+    ra: RA15
+    type: mcq
+    bloom: remember
+    stem: What is Osborn's first ground rule for an idea session?
+    answer: Criticism must be withheld until all ideas are in.
+    distractors:
+      - Wild ideas are removed first.
+      - Each person speaks only once.
+      - The leader judges each idea as it comes.
+    ref: osborn-1942
+    where: Masterclass idea 3 (Get past the obvious)
+    anchor: masterclass
+    drafted: hand
+    retrieval: What is Osborn's first ground rule for an idea session?
+  - id: U2-11
+    unit: U2
+    ra: RA14
+    type: short
+    bloom: understand
+    stem: What danger does Norman name for designers early in the process?
+    answer: Becoming fixated on one or two ideas too early; his advice is to generate numerous ideas.
+    ref: norman-2013
+    where: Masterclass idea 3 (Get past the obvious)
+    anchor: masterclass
+    drafted: hand
+    retrieval: What does Norman warn about one or two early ideas?
+  - id: U2-12
+    unit: U2
+    ra: RA5
+    type: case
+    bloom: apply
+    stem: You are designing wayfinding signs and your first ideas are arrows and room numbers. Following idea 3, what do you do next?
+    answer: Keep generating past the obvious before you judge — for example until colour, sound or floor marks appear — instead of fixing on the first one or two ideas.
+    ref: norman-2013
+    where: Masterclass idea 3 (Get past the obvious)
+    anchor: masterclass
+    drafted: hand
+  - id: U2-13
+    unit: U2
+    ra: RA14
+    type: mcq
+    bloom: understand
+    stem: What does de Bono's line "You cannot dig a hole in a different place by digging the same hole deeper" argue for?
+    answer: Looking for alternatives instead of accepting, and pushing harder on, the most obvious approach.
+    distractors:
+      - Working harder on the first idea until it succeeds.
+      - Dropping the brief when it gets difficult.
+      - Judging ideas as early as possible.
+    ref: debono-1970
+    where: Masterclass idea 3 (Get past the obvious)
+    anchor: masterclass
+    drafted: hand
+  - id: U2-14
+    unit: U2
+    ra: RA15
+    type: mcq
+    bloom: remember
+    stem: In de Bono's Six Thinking Hats, what does the black hat cover?
+    answer: The negative aspects — why it cannot be done (caution).
+    distractors:
+      - Feelings.
+      - New ideas.
+      - Running the process.
+    ref: debono-1985
+    where: Lab Exercise 2, Source line (and Masterclass idea 4)
+    anchor: lab-exercise-2
+    drafted: hand
+    retrieval: In Six Thinking Hats, what does the black hat cover?
+  - id: U2-15
+    unit: U2
+    ra: RA15
+    type: case
+    bloom: apply
+    stem: In a team critique of an app screen, one member keeps raising risks while the others pitch ideas. How could a hats round restructure the session?
+    answer: Everyone thinks in one mode at a time — for example a few minutes of yellow hat (why each idea could work) for everyone, then a few minutes of black hat (why each could fail) for everyone — so caution arrives from all sides at once and the first voice does not narrow the rest.
+    ref: debono-1985
+    where: Masterclass idea 4 and Lab Exercise 2
+    anchor: masterclass
+    drafted: local-qwen-edited
+  - id: U2-16
+    unit: U2
+    ra: RA14
+    type: mcq
+    bloom: understand
+    stem: What did one line of studies find about "what if?" (counterfactual) thinking?
+    answer: It helped people link given ideas but hurt the generation of new ones.
+    distractors:
+      - It always improved the generation of new ideas.
+      - It had no effect on creative tasks.
+      - It hurt linking ideas but helped generating new ones.
+    ref: wong-2009
+    where: Masterclass idea 4 (Role and constraint tools)
+    anchor: masterclass
+    drafted: hand
+    public_quiz: true
+  - id: U2-17
+    unit: U2
+    ra: RA5
+    type: case
+    bloom: analyse
+    stem: Your team must produce brand-new poster concepts from a blank page. Would you lead with "what if?" prompts? Analyse, using idea 4.
+    answer: Use them with care. "What if?" thinking makes people consider alternatives, but in one line of studies it helped link given ideas and hurt the generation of new ones, so it suits combining existing ideas better than starting from nothing.
+    ref: wong-2009
+    where: Masterclass idea 4 (Role and constraint tools)
+    anchor: masterclass
+    drafted: hand
+  - id: U2-18
+    unit: U2
+    ra: RA14
+    type: short
+    bloom: understand
+    stem: According to Raymond, what makes a truly great tool, beyond being useful in the expected way?
+    answer: It lends itself to uses you never expected.
+    ref: raymond-2001
+    where: Masterclass idea 4 (Role and constraint tools)
+    anchor: masterclass
+    drafted: hand
+  - id: U2-19
+    unit: U2
+    ra: RA14
+    type: mcq
+    bloom: understand
+    stem: What does Persaud say gets far less attention than the production of ideas?
+    answer: The process by which ideas are critically evaluated, selected, altered or dismissed.
+    distractors:
+      - The number of ideas produced.
+      - The speed of production.
+      - The talent of the person who produces them.
+    ref: persaud-2007
+    where: Masterclass idea 5 (Name selection criteria)
+    anchor: masterclass
+    drafted: hand
+  - id: U2-20
+    unit: U2
+    ra: RA5
+    type: case
+    bloom: apply
+    stem: You must choose among chair sketches for a small café. Following idea 5, what do you write down first, and why?
+    answer: 'The selection criterion — for example "sits 20 people in a small café, stacks in one corner" — then compare every sketch against it; unstated criteria favour whatever the room already leaned toward.'
+    ref: rubin-2023
+    where: Masterclass idea 5 (Name selection criteria)
+    anchor: masterclass
+    drafted: hand
+  - id: U2-21
+    unit: U2
+    ra: RA15
+    type: case
+    bloom: evaluate
+    stem: After a workshop your wall holds forty sticky notes, and a teammate says the workshop clearly produced better ideas. Evaluate the claim.
+    answer: Not shown. A workshop produces material you did not have before; whether it is better must be judged against the brief. Workshops target the dimensions most creativity tests measure (fluency, flexibility, originality), which is not the same as better ideas.
+    ref: csikszentmihalyi-1996
+    where: Masterclass idea 6 (Workshops are means, not genius)
+    anchor: masterclass
+    drafted: local-qwen-edited
+    public_quiz: true
+  - id: U2-22
+    unit: U2
+    ra: RA15
+    type: mcq
+    bloom: understand
+    stem: In the U2 selection Lab, what do the silent dot stickers (the "heat map") mark?
+    answer: The interesting parts of ideas; voting is a separate, later step.
+    distractors:
+      - The single idea the team will build.
+      - Ideas that should be dropped.
+      - Who wrote each idea.
+    ref: knapp-2016
+    where: Lab Exercise 2, Source line
+    anchor: lab-exercise-2
+    drafted: hand
+  - id: U2-23
+    unit: U2
+    ra: RA14
+    type: mcq
+    bloom: understand
+    stem: What does the practitioner counterpoint in idea 6 say about any method?
+    answer: The only practice that matters is the one you keep doing; test a method on yourself rather than copying it.
+    distractors:
+      - Copy the method of a famous artist exactly.
+      - A good workshop produces landmark work on command.
+      - Practice matters less than talent.
+    ref: rubin-2023
+    where: Masterclass idea 6 (Workshops are means, not genius)
+    anchor: masterclass
+    drafted: hand
+  - id: U2-24
+    unit: U2
+    ra: RA14
+    type: case
+    bloom: evaluate
+    stem: In a D1 defence a classmate uses "imagination", "fantasy" and "creativity" as one and the same word. What does the U2 Conclusion suggest you ask?
+    answer: Ask them to tell the terms apart. Hüppauf and Wulf treat imagination, fantasy and creativity as related terms that still need to be told apart.
+    ref: huppauf-wulf-2009
+    where: Conclusion
+    anchor: conclusion
+    drafted: hand
+  # ---------------------------------------------------------------- U3
+  - id: U3-01
+    unit: U3
+    ra: RA14
+    type: mcq
+    bloom: understand
+    stem: According to the sprint handbook cited in U3, what is a prototype meant to do?
+    answer: Answer questions — so keep it focused and build just enough to learn.
+    distractors:
+      - Impress the client with a finished look.
+      - Replace testing with real people.
+      - Show every feature at once.
+    ref: knapp-2016
+    where: Masterclass idea 1 (Make it rough, make it early)
+    anchor: masterclass
+    drafted: local-qwen-edited
+    retrieval: What is a prototype for, says the sprint handbook?
+  - id: U3-02
+    unit: U3
+    ra: RA5
+    type: case
+    bloom: apply
+    stem: For a packaging brief, what rough prototype could you make first, and what should it do for you?
+    answer: For example, fold a quick card model to feel the box in your hand before drawing any graphics; it should reveal one thing you do not yet know (a question in material form), not look finished.
+    ref: knapp-2016
+    where: Masterclass idea 1 (Make it rough, make it early)
+    anchor: masterclass
+    drafted: local-qwen-edited
+  - id: U3-03
+    unit: U3
+    ra: RA6
+    type: short
+    bloom: understand
+    stem: In Cross's summary of design ability, what kind of problems do designers resolve, and with what kind of strategies?
+    answer: Ill-defined problems, using solution-focused strategies.
+    ref: cross-2006
+    where: Masterclass idea 1 (Make it rough, make it early)
+    anchor: masterclass
+    drafted: hand
+  - id: U3-04
+    unit: U3
+    ra: RA5
+    type: case
+    bloom: apply
+    stem: Your first logo mark looks awkward and you want to bin it. Following idea 2, what do you do before anyone calls it wrong?
+    answer: Protect a short space for variation — for example five more minutes of development — with no criticism, including your own; then judge it with a named criterion.
+    ref: osborn-1942
+    where: Masterclass idea 2 (Defer judgement so ideas can evolve)
+    anchor: masterclass
+    drafted: local-qwen-edited
+  - id: U3-05
+    unit: U3
+    ra: RA14
+    type: mcq
+    bloom: understand
+    stem: In the experiment cited in U3 idea 2, college students made artworks. Whose work was judged less creative?
+    answer: The work of those who expected to be evaluated.
+    distractors:
+      - The work of those who did not expect evaluation.
+      - The work of those who worked in groups.
+      - The work of those who had more time.
+    ref: amabile-1979
+    where: Masterclass idea 2 (Defer judgement so ideas can evolve)
+    anchor: masterclass
+    drafted: hand
+  - id: U3-06
+    unit: U3
+    ra: RA14
+    type: mcq
+    bloom: understand
+    stem: Dow and colleagues name a risk of iteration. Which one?
+    answer: Fixation — continuously refining one option without considering others.
+    distractors:
+      - Iteration always wastes time.
+      - Iteration stops ideas from improving.
+      - Iteration makes ideas too varied to compare.
+    ref: dow-2010
+    where: Masterclass idea 3 (Iterate with an exit)
+    anchor: masterclass
+    drafted: local-qwen-edited
+    retrieval: What risk of iteration do Dow and colleagues name?
+  - id: U3-07
+    unit: U3
+    ra: RA5
+    type: case
+    bloom: apply
+    stem: You are revising a corridor sign. Write a test question that gives the iteration an exit, and say when you stop.
+    answer: For example, "Can a classmate read the room number from the far end?" — stop revising once they can, even if another improvement is possible.
+    ref: dow-2010
+    where: Masterclass idea 3 (Iterate with an exit)
+    anchor: masterclass
+    drafted: local-qwen-edited
+  - id: U3-08
+    unit: U3
+    ra: RA14
+    type: mcq
+    bloom: understand
+    stem: In the study by Dow and colleagues, novice designers made several prototypes in parallel before critique, compared with critique after each single prototype. What did the parallel group do?
+    answer: They produced better-performing and more varied designs, and reported a larger gain in confidence at this kind of task.
+    distractors:
+      - They produced fewer but more polished designs.
+      - They performed the same as the other group.
+      - They lost confidence because of the extra work.
+    ref: dow-2010
+    where: Lab Exercise 1, Source line
+    anchor: lab-exercise-1
+    drafted: hand
+    public_quiz: true
+  - id: U3-09
+    unit: U3
+    ra: RA5
+    type: case
+    bloom: analyse
+    stem: Student A makes one prototype, gets feedback, revises, and repeats three times. Student B makes three different prototypes and gets feedback on all three at once. Which one is parallel prototyping, and what did the study find?
+    answer: Student B. In the study, the parallel group produced better-performing and more varied designs (and reported a larger gain in confidence) than the group that got critique after each single prototype.
+    ref: dow-2010
+    where: Lab Exercise 1, Source line
+    anchor: lab-exercise-1
+    drafted: local-qwen-edited
+    public_quiz: true
+  - id: U3-10
+    unit: U3
+    ra: RA14
+    type: mcq
+    bloom: remember
+    stem: 'Complete Cross: "Sketching enables exploration of the problem space and the solution space to …"'
+    answer: Proceed together.
+    distractors:
+      - Remain separate.
+      - Be skipped.
+      - Be replaced by words.
+    ref: cross-2006
+    where: Masterclass idea 4 (Sketch to think)
+    anchor: masterclass
+    drafted: hand
+    retrieval: Sketching explores which two spaces together (Cross)?
+  - id: U3-11
+    unit: U3
+    ra: RA5
+    type: case
+    bloom: apply
+    stem: For an app screen, how does idea 4 ask you to sketch, and what do you compare?
+    answer: Sketch three different arrangements of the same content (for example a list, a grid and a map) rather than one beautiful drawing, then compare what each one puts first.
+    ref: cross-2006
+    where: Masterclass idea 4 (Sketch to think)
+    anchor: masterclass
+    drafted: hand
+  - id: U3-12
+    unit: U3
+    ra: RA6
+    type: mcq
+    bloom: understand
+    stem: Why does U3 idea 5 suggest reframing an unclear brief as two or three questions?
+    answer: Every formulation of a wicked problem corresponds to the formulation of a solution, so each framing points to a different answer.
+    distractors:
+      - More questions mean less work later.
+      - The client will pick the best question.
+      - A wicked problem has one correct formulation.
+    ref: buchanan-1992
+    where: Masterclass idea 5 (Open the solution space)
+    anchor: masterclass
+    drafted: hand
+    retrieval: Why reframe an unclear brief as two or three questions?
+  - id: U3-13
+    unit: U3
+    ra: RA6
+    type: case
+    bloom: apply
+    stem: Reframe the brief "promote the festival" as two questions, and say what you would make for each.
+    answer: For example, "How do we show its theme?" and "How do we show who is playing?" — one small poster sketch for each.
+    ref: buchanan-1992
+    where: Masterclass idea 5 (Open the solution space)
+    anchor: masterclass
+    drafted: local-qwen-edited
+    public_quiz: true
+  - id: U3-14
+    unit: U3
+    ra: RA6
+    type: short
+    bloom: understand
+    stem: How do Beghetto and Karwowski define creative agency?
+    answer: The capacity to envision and enact new and meaningful actions within the existing constraints of a particular context.
+    ref: beghetto-karwowski-2025
+    where: Masterclass idea 5 (Open the solution space)
+    anchor: masterclass
+    drafted: hand
+  - id: U3-15
+    unit: U3
+    ra: RA14
+    type: mcq
+    bloom: understand
+    stem: In Schön's account of design as a conversation, what does the situation do?
+    answer: It "talks back", and the designer responds; in a good process of design this conversation is reflective.
+    distractors:
+      - It stays fixed while the designer acts.
+      - It chooses the solution for the designer.
+      - It is set aside until the end of the project.
+    ref: schon-1983
+    where: Masterclass idea 6 (Reflect at checkpoints)
+    anchor: masterclass
+    drafted: hand
+    retrieval: For Schön, what does the situation do as you design?
+  - id: U3-16
+    unit: U3
+    ra: RA14
+    type: case
+    bloom: apply
+    stem: You have just made the second version of a chair model. Write the three checkpoint lines that idea 6 asks for.
+    answer: 'What changed, what stayed, and what the change taught you — for example: "seat lowered; legs unchanged; lower felt friendlier but tipped back."'
+    ref: schon-1983
+    where: Masterclass idea 6 (Reflect at checkpoints)
+    anchor: masterclass
+    drafted: local-qwen-edited
+  - id: U3-17
+    unit: U3
+    ra: RA14
+    type: mcq
+    bloom: understand
+    stem: Why does U3 Exercise 1 start the same problem from three different entry points?
+    answer: Because a different entry point will usually mean a different train of ideas.
+    distractors:
+      - To split the work among teammates.
+      - To save time on the problem.
+      - Because the brief asks for three products.
+    ref: debono-1970
+    where: Lab Exercise 1, Source line
+    anchor: lab-exercise-1
+    drafted: hand
+    public_quiz: true
+  - id: U3-18
+    unit: U3
+    ra: RA12
+    type: case
+    bloom: analyse
+    stem: In U3 Exercise 1 you ask a classmate for feedback only when all three versions exist. Analyse why the exercise orders it this way.
+    answer: It is parallel prototyping — critique on several prototypes at once rather than after each one; in the study by Dow and colleagues this led to better-performing and more varied designs.
+    ref: dow-2010
+    where: Lab Exercise 1 (steps 4–5 and Source line)
+    anchor: lab-exercise-1
+    drafted: hand
+  - id: U3-19
+    unit: U3
+    ra: RA5
+    type: case
+    bloom: evaluate
+    stem: Your revised version passes its test question, but you can see one more improvement. Following idea 3, do you keep revising? Justify.
+    answer: No — exit when the test passes, even if another improvement is possible; continuing risks fixation, refining one option without considering others.
+    ref: dow-2010
+    where: Masterclass idea 3 and Lab Exercise 2 step 7
+    anchor: masterclass
+    drafted: local-qwen-edited
+    public_quiz: true
+  - id: U3-20
+    unit: U3
+    ra: RA6
+    type: case
+    bloom: analyse
+    stem: Idea 5 calls reframing "a bounded way to move from creative potential to creative action". Using the definition of creative agency, explain why the constraints of the context matter.
+    answer: Creative agency means envisioning and enacting new and meaningful actions within the existing constraints of a particular context; the constraints are part of the definition, so reframed questions must stay inside the brief's real limits.
+    ref: beghetto-karwowski-2025
+    where: Masterclass idea 5 (Open the solution space)
+    anchor: masterclass
+    drafted: hand
+  - id: U3-21
+    unit: U3
+    ra: RA15
+    type: case
+    bloom: evaluate
+    stem: In a team critique, a teammate shoots down every first sketch at once. Evaluate the habit using U3 idea 2.
+    answer: It risks closing paths before they show what they might become. Osborn's rule withholds criticism until all ideas are in, and in Amabile's experiment expected evaluation lowered judged creativity; protect a short space for variation, then judge with a named criterion.
+    ref: osborn-1942
+    where: Masterclass idea 2 (Defer judgement so ideas can evolve)
+    anchor: masterclass
+    drafted: hand
+  - id: U3-22
+    unit: U3
+    ra: RA14
+    type: mcq
+    bloom: remember
+    stem: 'Complete the sprint handbook''s rule for prototypes: "The prototype is meant to answer questions, so …"'
+    answer: Keep it focused.
+    distractors:
+      - Make it beautiful.
+      - Test it only once.
+      - Show it only to experts.
+    ref: knapp-2016
+    where: Masterclass idea 1 (Make it rough, make it early)
+    anchor: masterclass
+    drafted: hand
