@@ -41,8 +41,8 @@ Only the **first word** of the Gate cell is parsed by `cascade-harness.sh`.
 | 3 | [PHASE-EX3.md](PHASE-EX3.md) | Image pipeline rules + tests + deck validator (B1–B15) | DONE (EX2 DONE) |
 | 4 | [PHASE-EX4.md](PHASE-EX4.md) | Slide-bound image curation with rights checks | DONE (EX3 DONE; autopilot curation per AUTOPILOT.md §2) |
 | 5 | [PHASE-EX5.md](PHASE-EX5.md) | Deck renderer: pre-render, alt, captions, notes, layouts | DONE (EX4 DONE) |
-| 6 | [PHASE-EX6.md](PHASE-EX6.md) | Research grounding + single bibliography source | READY (EX5 DONE; procurement may leave PARTIAL) |
-| 7 | [PHASE-EX7.md](PHASE-EX7.md) | Canonical technique catalogue (~60) | BLOCKED (EX6 DONE; serialize with in-practice workloads) |
+| 6 | [PHASE-EX6.md](PHASE-EX6.md) | Research grounding + single bibliography source | DONE (EX5 DONE; procurement may leave PARTIAL) |
+| 7 | [PHASE-EX7.md](PHASE-EX7.md) | Canonical technique catalogue (~60) | READY (EX6 DONE; serialize with in-practice workloads) |
 | 8 | [PHASE-EX8.md](PHASE-EX8.md) | Lab redesign U1–U3 + exercise cards | BLOCKED (EX7 DONE; autopilot sign-off, final review) |
 | 9 | [PHASE-EX9.md](PHASE-EX9.md) | Lesson structure, exemplars, lesson images | BLOCKED (EX8 DONE) |
 | 10 | [PHASE-EX10.md](PHASE-EX10.md) | Knowledge-test prep, measurement, peer CAT, method cards | BLOCKED (EX9 DONE) |
