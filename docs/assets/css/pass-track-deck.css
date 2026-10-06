@@ -420,8 +420,8 @@ body {
    Lab timer, reading view without JavaScript, print.
    The base clamp on .reveal (golden rule 1) is unchanged; sizes below are em
    relative to it. Caption and card never overlap (VISUAL-READABILITY-LAW):
-   the card stays within 72% of the slide width, the caption within the
-   right-hand 24%.
+   the caption holds the right-hand 24%; cards stay left of it (image_argument
+   64%, quote and split 72%, exercise 74% of the slide width).
    ------------------------------------------------------------------------- */
 
 .sr-only {

@@ -508,71 +508,43 @@ layout: null
       "slide_id": "lab-1",
       "slide_role": "lab_exercise",
       "background_kind": "curated",
-      "heading": "Exercise 1 · Research Marcel Duchamp",
-      "sentence": "Find three facts about Duchamp that connect to this unit: readymades, play with identity, or how meaning shifts when context changes.",
+      "heading": "Exercise 1 · Alternative uses, scored on four skills",
+      "sentence": "List as many uses for one everyday object as you can in 3 minutes, alone and in silence. Then score your list: how many uses, how many kinds, rare uses, detail.",
+      "prompt": "Practises Masterclass 2–3: the four skills, and why a score is not the whole designer.",
       "portfolio_bound": true,
-      "portfolio_trace": "Save three bullet points with sources in the portfolio index.",
-      "quote": "A readymade is not laziness — it is a question dressed as an object.",
-      "quote_origin": "tao_invented",
-      "semantic_tags": {
-        "themes": [
-          "duchamp",
-          "readymade"
-        ],
-        "cidoc": [
-          "crm:E33_Linguistic_Object"
-        ],
-        "getty_aat": [
-          "aphorisms"
-        ],
-        "dcterms": [
-          "dcterms:type=Text",
-          "dcterms:subject=duchamp"
-        ]
-      },
-      "citation": {
-        "label": "(Tao of Creativity)",
-        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#tao-of-creativity"
-      },
-      "image_brief": "Marcel Duchamp, Fountain, 1917, in Alfred Stieglitz's photograph: a factory urinal signed 'R. Mutt' that changes meaning when it moves into an art exhibition — the readymade students research.",
+      "portfolio_trace": "Save your list, the four scores and one sentence on your least obvious use.",
+      "technique_id": "alternative-uses-task",
+      "practises": [
+        "masterclass-2",
+        "masterclass-3"
+      ],
+      "timer_seconds": 180,
+      "image_brief": "Marcel Duchamp, Fountain, 1917, in Alfred Stieglitz's photograph: a factory-made everyday object given a use nobody expected for it — the jump the alternative-uses list asks you to make.",
       "asset_id": "wikimedia:File:Marcel Duchamp, 1917, Fountain, photograph by Alfred Stieglitz.jpg",
       "media_slot_id": "U1.lab-1",
-      "notes": "- Task: find three facts about Duchamp linked to this unit: readymades, identity play, or context shifting meaning.\n- The deck images can be a starting point.\n- Portfolio trace: three bullet points with sources.\nDebate (B2): pick one work. Name its language, medium and support.\nAsk: Where would the meaning break if the same piece moved venue: in the making, in the channel, or in recognition?"
+      "notes": "- Timer: 3 minutes of silent listing (the slide timer). Whole exercise about 15 minutes.\n- Show one everyday object or a photo (a brick, a paper clip, a shoe). Everyone lists uses alone and in silence.\n- Fluency: count the uses. Flexibility: group them into kinds and count the kinds.\n- Originality: read lists aloud in turns or post them on a shared board; mark each use nobody else wrote.\n- Elaboration: pick one marked use and add three concrete details.\n- Close: which shift between kinds gave your least obvious use? Treat the numbers as practice, not a talent verdict.\nSource: tests like Alternate Uses ask for as many uses of a common object as possible, and the four abilities (fluency, flexibility, originality, elaboration) are as reported in (Chen 2011, 26); the caution that such scores may say little about talent in a specific field is the same page. The steps and scoring by class pool are course wording.\nAsk: Your count went up with practice. Did your best idea get better too?"
     },
     {
       "slide_id": "lab-2",
       "slide_role": "lab_exercise",
       "background_kind": "curated",
-      "heading": "Exercise 2 · Research the Dada movement",
-      "sentence": "What did Dada question about art, authorship, and institutions? Link at least one Dada tactic to a creativity technique you might use in studio.",
+      "heading": "Exercise 2 · Cut-up and readymade: open, then close",
+      "sentence": "Cut a real brief into words and draw them from an envelope. Then give an ordinary object a new title or place without changing it. Mark which moves opened options and which closed them.",
+      "prompt": "Practises Masterclass 1 (open, then close) and the language / medium / support analysis.",
       "portfolio_bound": true,
-      "portfolio_trace": "Save a short paragraph plus one studio link in the portfolio index.",
-      "quote": "Dada asked who gets to call something art — your answer is part of the exercise.",
-      "quote_origin": "tao_invented",
-      "semantic_tags": {
-        "themes": [
-          "dada",
-          "authorship"
-        ],
-        "cidoc": [
-          "crm:E33_Linguistic_Object"
-        ],
-        "getty_aat": [
-          "aphorisms"
-        ],
-        "dcterms": [
-          "dcterms:type=Text",
-          "dcterms:subject=dada"
-        ]
-      },
-      "citation": {
-        "label": "(Tao of Creativity)",
-        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#tao-of-creativity"
-      },
-      "image_brief": "Theo van Doesburg and Kurt Schwitters, Kleine Dada Soirée poster, 1922: Dada typography that scrambles the rules of the poster, a Dada tactic students can link to a studio technique.",
+      "portfolio_trace": "Save the cut-up page, the readymade title and label, and your list of opening and closing moves.",
+      "technique_id": "tzara-cut-up",
+      "technique_ids_also": [
+        "readymade-recontextualisation"
+      ],
+      "practises": [
+        "masterclass-1"
+      ],
+      "timer_seconds": 1500,
+      "image_brief": "Theo van Doesburg and Kurt Schwitters, Kleine Dada Soirée poster, 1922: printed words and letters scrambled and re-placed on the page, the kind of chance arrangement the cut-up step produces from a brief.",
       "asset_id": "wikimedia:File:Theo van Doesburg and Kurt Schwitters, Kleine Dada Soirée (Small Dada Evening), 1922, NGA 154076.jpg",
       "media_slot_id": "U1.lab-2",
-      "notes": "- Task: what did Dada question about art, authorship and institutions?\n- Link one Dada tactic to a creativity technique you might use in studio.\n- Portfolio trace: a short paragraph and one studio link.\nDebate (B2): name language, medium and support of one Dada work; add one circulation sentence to the portfolio.\nAsk: Which Dada tactic would you dare to use in your own D1?"
+      "notes": "- Timer: 25 minutes — about 12 for the cut-up, 8 for the readymade, 5 for naming the moves. Pairs.\n- Cut-up: cut the brief text into single words or short phrases; draw them one at a time; copy them in the order drawn; underline any phrase that suggests an idea and write the idea.\n- Readymade: do not change the object; change only its title, place or position. Write a title and a one-line label; show it to another pair and ask what they now see.\n- Analysis: did the change work through the language (title, label), the medium (where it is shown) or the support (the object)?\n- Name the moves: opening (cutting, drawing, re-placing) or closing (underlining, choosing a title).\n- A digital word shuffle can replace scissors.\nSource: classroom adaptation in course wording; no reading-list source is cited for these two procedures yet.\nAsk: Which single change did the most work, and was it an opening or a closing move?"
     },
     {
       "slide_id": "outro",

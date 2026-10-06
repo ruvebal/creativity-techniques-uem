@@ -13,7 +13,7 @@ deck_url: /tracks/ct/u-2-idea-generation-selection/
 master_idea: 'Creativity needs two rhythms — open many doors, then close most of them on purpose'
 practice_anchor: 'Generate many options first, then select with named criteria; keep fluency distinct from flexibility; treat selection as trained taste under a brief'
 frontier_signal: 'Open question: do guided generation and selection improve every brief, or only some? This lesson gives you a practice sequence; it does not claim that sequence is the only effective one.'
-references: [amabile-1979, colzato-2012, craft-2000, cross-2006, csikszentmihalyi-1996, debono-1970, debono-1985, huppauf-wulf-2009, norman-2013, osborn-1942, persaud-2007, raymond-2001, rubin-2023, wong-2009]
+references: [amabile-1979, colzato-2012, craft-2000, cross-2006, csikszentmihalyi-1996, debono-1970, debono-1985, huppauf-wulf-2009, knapp-2016, norman-2013, osborn-1942, persaud-2007, raymond-2001, rubin-2023, wong-2009]
 ---
 
 <!-- prettier-ignore-start -->
@@ -85,7 +85,7 @@ These six ideas are the Masterclass core. Read them as six moves you can try, no
 
 #### 1 · Generate, then select
 
-Most designers who claim they had "no ideas" actually had one idea they refused to leave. Generation and selection are two different jobs, and doing them in the same minute makes both weaker — this is why the Lab begins by changing the conditions of attention before asking for material. The guided concentration and automatic-writing sequence gives the mind time to register associations before selection begins. One small laboratory study points in the same direction: after "open-monitoring" meditation (noticing whatever comes, without fixing on one thing), people did better on a divergent-thinking task, while "focused-attention" meditation did not help a convergent task [(Colzato, Ozturk, and Hommel 2012, 1)](#ref-colzato-2012). Judging too early has a cost, too: in a classic experiment, students who expected their artwork to be evaluated "produced artworks significantly lower on judged creativity" than students who did not [(Amabile 1979, 221)](#ref-amabile-1979). Try the honest audit on your last piece: was it one first idea polished, or one of several considered on purpose? Some briefs really do need the first answer — when the constraint is time, "generate, then select" is a luxury — and the same page that gives us the theoretical warrant [(Craft 2000, 30)](#ref-craft-2000) does not tell us where the line falls; that is still open.
+Most designers who claim they had "no ideas" actually had one idea they refused to leave. Generation and selection are two different jobs, and doing them in the same minute makes both weaker — this is why the Lab runs them as two separate exercises: silent brainwriting first, selection second. One small laboratory study points in the same direction: after "open-monitoring" meditation (noticing whatever comes, without fixing on one thing), people did better on a divergent-thinking task, while "focused-attention" meditation did not help a convergent task [(Colzato, Ozturk, and Hommel 2012, 1)](#ref-colzato-2012). Judging too early has a cost, too: in a classic experiment, students who expected their artwork to be evaluated "produced artworks significantly lower on judged creativity" than students who did not [(Amabile 1979, 221)](#ref-amabile-1979). Try the honest audit on your last piece: was it one first idea polished, or one of several considered on purpose? Some briefs really do need the first answer — when the constraint is time, "generate, then select" is a luxury — and the same page that gives us the theoretical warrant [(Craft 2000, 30)](#ref-craft-2000) does not tell us where the line falls; that is still open.
 
 > The first stage is to make the map. The second stage is to choose a route on the map.
 {: .unit-quote}
@@ -93,11 +93,11 @@ Most designers who claim they had "no ideas" actually had one idea they refused 
 
 #### 2 · Fluency with flexibility
 
-Fluency and flexibility remain useful distinctions, but this Lab does not reduce them to a count. After concentration, automatic writing gives you material to inspect: which associations recur, which change direction, and which remain merely verbal? The category rule is still unavoidable — someone has to decide whether two passages constitute different possibilities or variations of one — and the person doing the counting is doing more judging than they think. de Bono draws the same cut as a *method* distinction — "Lateral thinking is generative. Vertical thinking is selective" [(de Bono 1970, introduction)](#ref-debono-1970) — which is why selection must follow the period of production rather than interrupt it.
+Fluency and flexibility remain useful distinctions, and in this Lab you count both: how many ideas, and how many kinds. The category rule is still unavoidable — someone has to decide whether two ideas are different possibilities or variations of one — and the person doing the counting is doing more judging than they think. de Bono draws the same cut as a *method* distinction — "Lateral thinking is generative. Vertical thinking is selective" [(de Bono 1970, introduction)](#ref-debono-1970) — which is why selection must follow the period of production rather than interrupt it.
 
 #### 3 · Get past the obvious
 
-The first ideas that come to mind are often the obvious ones. They are also sticky: studies of designers find that they tend to "hang on to their principal solution concept" even when problems appear, and that showing people an example solution makes their own designs copy its features — a "fixation" effect suggested by Jansson and Smith, as Cross notes [(Cross 2006, 81–82)](#ref-cross-2006). In this Lab you get past first ideas by producing more ideas without judging, rather than by censoring them, so the less obvious ones have room to appear. Norman gives the same advice to designers: "Generate numerous ideas. It is dangerous to become fixated upon one or two ideas too early in the process" [(Norman 2013, 226)](#ref-norman-2013). That is why the Lab moves straight from concentration into automatic writing: write without correcting, then come back later as a selector. The unusual associations that Csikszentmihalyi separates from raw fluency [(Csikszentmihalyi 1996, chap. 3)](#ref-csikszentmihalyi-1996) become material for later judgement. de Bono's lateral-thinking textbook names the same habit in plain language — looking for alternatives instead of blindly accepting the most obvious approach [(de Bono 1970, chap. "The Generation of Alternatives")](#ref-debono-1970) — and his dig-a-different-hole line puts it in one image:
+The first ideas that come to mind are often the obvious ones. They are also sticky: studies of designers find that they tend to "hang on to their principal solution concept" even when problems appear, and that showing people an example solution makes their own designs copy its features — a "fixation" effect suggested by Jansson and Smith, as Cross notes [(Cross 2006, 81–82)](#ref-cross-2006). In this Lab you get past first ideas by producing more ideas without judging, rather than by censoring them, so the less obvious ones have room to appear. Norman gives the same advice to designers: "Generate numerous ideas. It is dangerous to become fixated upon one or two ideas too early in the process" [(Norman 2013, 226)](#ref-norman-2013). That is why Exercise 1 is silent brainwriting: write without judging, then come back in Exercise 2 as a selector. The unusual associations that Csikszentmihalyi separates from raw fluency [(Csikszentmihalyi 1996, chap. 3)](#ref-csikszentmihalyi-1996) become material for later judgement. de Bono's lateral-thinking textbook names the same habit in plain language — looking for alternatives instead of blindly accepting the most obvious approach [(de Bono 1970, chap. "The Generation of Alternatives")](#ref-debono-1970) — and his dig-a-different-hole line puts it in one image:
 
 > You cannot dig a hole in a different place by digging the same hole deeper. Vertical thinking is used to dig the same hole deeper. Lateral thinking is used to dig a hole in a different place.
 {: .unit-quote}
@@ -117,11 +117,11 @@ de Bono's lateral-thinking book names a related move: use information to provoke
 
 #### 5 · Name selection criteria
 
-The winner of any critique is usually the idea whose criteria you never wrote down — because unstated criteria always favour whatever the room was already leaning toward. The automatic-writing trace gives you material to select, not a finished answer: name the criterion before you decide what to retain. The scoring is the design act, not the ranking. A practitioner line calls editing a demonstration of taste revealed in curation — what is included, what is not, how the pieces sit together [(Rubin 2023, 386)](#ref-rubin-2023) — which is selection criteria by another name, not a substitute for writing them down in class. Research and teaching tend to neglect this half of the job: Persaud points out that creativity "is usually defined in terms of the production end of ideas or products," while the process by which ideas are "critically evaluated, selected, altered or dismissed" gets far less attention [(Persaud 2007, 68)](#ref-persaud-2007). Some briefs really do reward the obvious fit and would score novelty at 1 without shame; the open question is whose criteria decide what counts as "novel".
+The winner of any critique is usually the idea whose criteria you never wrote down — because unstated criteria always favour whatever the room was already leaning toward. The brainwriting sheets give you material to select, not a finished answer: name the criterion before you decide what to retain. The scoring is the design act, not the ranking. A practitioner line calls editing a demonstration of taste revealed in curation — what is included, what is not, how the pieces sit together [(Rubin 2023, 386)](#ref-rubin-2023) — which is selection criteria by another name, not a substitute for writing them down in class. Research and teaching tend to neglect this half of the job: Persaud points out that creativity "is usually defined in terms of the production end of ideas or products," while the process by which ideas are "critically evaluated, selected, altered or dismissed" gets far less attention [(Persaud 2007, 68)](#ref-persaud-2007). Some briefs really do reward the obvious fit and would score novelty at 1 without shame; the open question is whose criteria decide what counts as "novel".
 
 #### 6 · Workshops are means, not genius
 
-Concentration and automatic writing reliably produce material a student did not have in view at the start — and then someone assumes the exercise *therefore* produced better ideas, which is a leap the exercise cannot make. The dimensions Csikszentmihalyi lists in his chapter on the creative personality — fluency, flexibility, originality — are the ones most creativity tests measure and most workshops try to improve [(Csikszentmihalyi 1996, chap. 3)](#ref-csikszentmihalyi-1996). Workshops try to raise those scores; landmark work, by contrast, is rare, system-dependent, and not producible on command in a two-hour block. A practitioner counterpoint insists that the only practice that matters is the one you keep doing, and that any method should be tested on yourself rather than copied [(Rubin 2023, 326)](#ref-rubin-2023). Read the unedited writing alongside your reflection and ask which passage could become evidence of a stronger idea in your D1 — and what criterion would justify that choice. The gap is the invitation.
+Brainwriting reliably produces material a student did not have in view at the start — and then someone assumes the exercise *therefore* produced better ideas, which is a leap the exercise cannot make. The dimensions Csikszentmihalyi lists in his chapter on the creative personality — fluency, flexibility, originality — are the ones most creativity tests measure and most workshops try to improve [(Csikszentmihalyi 1996, chap. 3)](#ref-csikszentmihalyi-1996). Workshops try to raise those scores; landmark work, by contrast, is rare, system-dependent, and not producible on command in a two-hour block. A practitioner counterpoint insists that the only practice that matters is the one you keep doing, and that any method should be tested on yourself rather than copied [(Rubin 2023, 326)](#ref-rubin-2023). Read your brainwriting sheets alongside your reflection and ask which idea could become evidence of a stronger idea in your D1 — and what criterion would justify that choice. The gap is the invitation.
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
@@ -154,19 +154,70 @@ PROVENANCE_LINE: claim=U2.huppauf-imagination-creativity-fantasy; status=VERIFIE
 
 ## B2 · Lab (Portfolio)
 
-**Announced by a geometrical slide first:** two exercises follow; everything you produce in Lab goes into your **portfolio index**.
+**Announced by a geometrical slide first:** two exercises follow; everything you produce in Lab goes into your **portfolio index**. Exercise 1 generates; Exercise 2 selects from what Exercise 1 produced — the two jobs of this unit, in order.
 
-### Exercise 1 — Guided concentration
+### Exercise 1 — 6-3-5 brainwriting against solo writers
 
-Follow the guided meditation exactly as indicated in class. Attend to breath, bodily sensation, and the surrounding field without evaluating or producing ideas yet. This is a concentration period, not a performance task.
+Practises Masterclass ideas **1** (generate, then select), **2** (fluency with flexibility) and **3** (get past the obvious).
 
-**Portfolio trace:** record the instructions or sequence followed, the duration indicated in class, and two brief observations about changes in attention.
+**Time:** 20 minutes (an optional 3-minute warm-up, 3 rounds of 4 minutes, 5 minutes to compare). **Shortened:** in a team of six, passing every sheet to everyone takes six rounds (about 30 minutes); this Lab runs **3 rounds**.
 
-### Exercise 2 — Automatic writing after concentration
+**Group:** the class splits into teams of six (3–6 works). Half the teams brainwrite. The other half are **solo teams**: the same number of people, each writing alone in silence; their lists are pooled only at the end.
 
-Immediately after the concentration period, write continuously for the interval indicated in class. Do not correct, censor, or organise the text while writing. Let the writing register associations, images, questions, and possible directions before selection begins.
+**Materials:** one brief for the whole class; for each brainwriter, a sheet with three columns and three rows; pens; the slide timer.
 
-**Portfolio trace:** preserve the unedited writing, identify the point at which attention shifted, and add a short reflection on what the exercise made perceptible or possible.
+**Steps:**
+
+1. *(Optional warm-up, 3 minutes.)* Sit comfortably and notice whatever thoughts, sounds or sensations come, without holding on to any. Then start straight away.
+2. **Brainwriting teams:** write three ideas for the brief in the first row of your sheet, one per column.
+3. When the round ends, pass your sheet to the left. Read what is there, then write three new ideas in the next row — new, or built on the ones above. Nobody talks.
+4. Run **3 rounds** in total.
+5. **Solo teams:** each person writes ideas alone for the same 12 minutes. No sheets are passed.
+6. Each team pools its ideas, removes repeats and counts two numbers: different ideas (fluency) and different kinds of idea (flexibility).
+7. Put every team's two numbers on the board and compare. Which kind of team had more ideas, and more kinds? Keep all sheets for Exercise 2.
+
+**Portfolio trace:** your sheet or solo list; your team's two numbers; the class comparison; one sentence on what passing sheets (or working alone) did to your ideas.
+
+**Judged by:** [Portfolio rubric — creative fluency, flexibility, and originality]({{ '/assignments/en/creativity-techniques-portfolio/' | relative_url }}#rubric)
+
+**Source:** 6-3-5 brainwriting and the solo-team comparison: classroom adaptation. The warm-up rests on one small laboratory study in which open-monitoring meditation helped a divergent-thinking task [(Colzato, Ozturk, and Hommel 2012, 1)](#ref-colzato-2012); that study used sessions of about 35 minutes, so our 3-minute version is untested.
+
+**Opt-out:** the warm-up is optional. You may sit quietly, read the brief, or start writing early instead. Nobody gives instructions about posture or breathing.
+
+### Exercise 2 — Select: hits, COCD box, then yellow and black hats
+
+Practises Masterclass ideas **4** (role and constraint tools) and **5** (name selection criteria).
+
+**Time:** 20 minutes (about 5 for hits, 7 for the grid, 8 for the hats).
+
+**Group:** the same teams as Exercise 1.
+
+**Materials:** all idea sheets from Exercise 1 on a wall or table; small dot stickers (or marker dots); a two-by-two grid on the board or on paper; sticky notes.
+
+**Steps:**
+
+1. **Hits:** put all your team's ideas up. In silence, each person puts small dots next to the ideas, or parts of ideas, that look strong. No discussion yet.
+2. Take the ideas with the most dots (around ten) to the grid.
+3. **COCD box:** draw a two-by-two grid — how new the idea is (low / high) against how feasible it is (low / high). Place each idea after a short discussion.
+4. Name the corners: **now** (feasible, ordinary), **wow** (feasible and original), **how** (original, not yet feasible); the fourth corner is dropped. Keep the wow ideas and choose a top three.
+5. **Yellow hat** (3 minutes): everyone thinks only about why each of the top three could work.
+6. **Black hat** (3 minutes): everyone thinks only about why each could fail or cannot be done.
+7. Choose one idea and write the criterion that decided it. Then compare: is your pick also the idea your team placed as most original in the grid? If not, say why in one sentence.
+
+**Portfolio trace:** a photo of the dots and the grid; the top three with their yellow and black notes; the chosen idea, its criterion and your one-sentence comparison.
+
+**Judged by:** [Portfolio rubric — critical analysis and judgement]({{ '/assignments/en/creativity-techniques-portfolio/' | relative_url }}#rubric)
+
+**Source:** silent dot voting on the strongest parts of each idea (a "heat map") comes from a design-sprint handbook [(Knapp, Zeratsky, and Kowitz 2016, chap. 10)](#ref-knapp-2016). In de Bono's Six Thinking Hats, the yellow hat "covers hope and positive thinking" and the black hat covers "the negative aspects - why it cannot be done" [(de Bono 1985, 32)](#ref-debono-1985). The COCD box, the order of the steps and the comparison question are a classroom adaptation.
+
+{% if site.publication.publish_internal_metadata %}
+<!-- curriculum-internal:
+LAB_LINE: exercise=1; technique_id=brainwriting-635 (+ open-monitoring-warm-up, embodied → Opt-out); practises=masterclass-1,2,3; source=brainwriting gap/held (Rohrbach 1969 gap; Michalko 2010 describes Geschka card brainwriting, not 6-3-5; Diehl and Stroebe 1987 gap — no claim about which team wins); warm-up=colzato-2012 p. 1 verified (abstract; Method: FA 35 min inside 45-min sessions, pdftotext re-read EX8); shortened to 3 rounds (PHASE-EX8 risk)
+LAB_LINE: exercise=2; technique_id=hits-dot-voting (+ cocd-box gap, six-thinking-hats); practises=masterclass-4,5; source=knapp-2016 chap. 10 "Decide" (The sticky decision: "Heat map: Look at all the solutions in silence, and use dot stickers to mark interesting parts", EPUB re-read EX8); debono-1985 printed p. 32 (c45df305 English copy, PDF p. 45: "The black hat covers the negative aspects - why it cannot be done." / "The yellow hat is optimistic and covers hope and positive thinking."); never the back-translated copy 7e7ba834; Rietzschel, Nijstad and Stroebe 2006 (people do not reliably select their best ideas) is a BIBLIO-GAP — step 7 asks the comparison question without the claim
+PROVENANCE_LINE: claim=U2.six-hats-yellow-black-lab; status=VERIFIED; page_basis=printed; source={source_hash=c45df305; document_id=db89dff4-a2d1-5e75-b9ee-6dc4166e887f; pdf_page=45; printed_page=32}; public_citation="(de Bono 1985, 32)"; verified_by=manual-page-read (pdftotext, EX8 2026-10-06); verbatim="The black hat covers the negative aspects - why it cannot be done." + "The yellow hat is optimistic and covers hope and positive thinking."
+PROVENANCE_LINE: claim=U2.heat-map-lab; status=VERIFIED; page_basis=section; source={document_coat=98b7e339; epub_file=text/part0033_split_001; section="chap. 10, Decide — The sticky decision"}; public_citation="(Knapp, Zeratsky, and Kowitz 2016, chap. 10)"; verified_by=manual-page-read (EX8 2026-10-06); verbatim="Heat map: Look at all the solutions in silence, and use dot stickers to mark interesting parts."
+-->
+{% endif %}
 
 ---
 
@@ -211,7 +262,7 @@ SIX_HATS: 1985 coat 7e7ba834 mangled/Spanish extract — not evaluator_safe EN; 
 ## Editorial note. Work in progress. Teaching Innovation Practice
 {: .lesson-editorial-note }
 
-Csikszentmihalyi (1996) supports the fluency/flexibility/originality triad reused from U1. de Bono (1970) supports the generative/selective cut, the habit of delaying the obvious approach, and the provocative use of information. de Bono (1985) page-verifies the map-then-route description of the Six Thinking Hats method. Rubin (2023) page-verifies a practitioner stance on consistent practice and editing-as-taste; it does **not** validate classroom hour schemes or replace peer-reviewed pedagogy. Wong, Galinsky and Kray (2009) support counterfactual alternative-thinking as a psychology bridge, with its limits. Osborn (1942), Amabile (1979), Colzato and colleagues (2012), Cross (2006), Norman (2013) and Persaud (2007) support deferred judgement, the cost of expected evaluation, the attention exercise, fixation and the neglect of selection. Hüppauf and Wulf (2009) page-verify that imagination, fantasy, and creativity are related but not interchangeable terms. Experimental evidence on group brainstorming, and on whether later ideas are more original than first ones, is not yet cited here; the lesson does not make those claims. None of these pages prove that *this* unit’s two Lab exercises are the only valid path to trained selection. This note keeps those limits here, where editorial readers can see them, instead of making the student-facing lesson carry research workflow language.
+Csikszentmihalyi (1996) supports the fluency/flexibility/originality triad reused from U1. de Bono (1970) supports the generative/selective cut, the habit of delaying the obvious approach, and the provocative use of information. de Bono (1985) page-verifies the map-then-route description of the Six Thinking Hats method and the yellow- and black-hat definitions used in the Lab. Knapp, Zeratsky and Kowitz (2016) support the silent dot-voting step; 6-3-5 brainwriting and the COCD box run as classroom adaptations until their sources are verified. Rubin (2023) page-verifies a practitioner stance on consistent practice and editing-as-taste; it does **not** validate classroom hour schemes or replace peer-reviewed pedagogy. Wong, Galinsky and Kray (2009) support counterfactual alternative-thinking as a psychology bridge, with its limits. Osborn (1942), Amabile (1979), Colzato and colleagues (2012), Cross (2006), Norman (2013) and Persaud (2007) support deferred judgement, the cost of expected evaluation, the attention exercise, fixation and the neglect of selection. Hüppauf and Wulf (2009) page-verify that imagination, fantasy, and creativity are related but not interchangeable terms. Experimental evidence on group brainstorming, and on whether later ideas are more original than first ones, is not yet cited here; the lesson does not make those claims. None of these pages prove that *this* unit’s two Lab exercises are the only valid path to trained selection. This note keeps those limits here, where editorial readers can see them, instead of making the student-facing lesson carry research workflow language.
 
 ---
 
