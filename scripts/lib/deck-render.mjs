@@ -45,11 +45,15 @@ export function escapeHtml(value) {
     .replaceAll('}', '&#125;');
 }
 
+export const PUBLIC_DOMAIN = 'Public domain';
+/** Caption label of a flagged asset whose licence claims the public domain (A12/F8). */
+export const RIGHTS_UNDER_REVIEW = 'Rights under review';
+
 /** Public licence label: "PD-old-70" → "Public domain", "CC-BY-SA-4.0" → "CC BY-SA 4.0". */
 export function licenceLabel(licence) {
   const value = String(licence || '').trim();
   if (!value) return '';
-  if (/^(PD-|PDM$|NoC-)/i.test(value)) return 'Public domain';
+  if (/^(PD-|PDM$|NoC-)/i.test(value)) return PUBLIC_DOMAIN;
   if (/^CC0$/i.test(value)) return 'CC0 1.0';
   const cc = value.match(/^CC-([A-Z-]+?)-(\d(?:\.\d)?)$/i);
   if (cc) return `CC ${cc[1].toUpperCase()} ${cc[2]}`;
@@ -83,7 +87,11 @@ export function captionHtml(asset) {
   if (c.title) parts.push(`<span class="slide-caption__title">${escapeHtml(c.title)}</span>`);
   if (c.author) parts.push(`<span class="slide-caption__author">${escapeHtml(c.author)}</span>`);
   const label = licenceLabel(c.licence);
-  if (label) parts.push(isHttp(c.licence_url) ? link(c.licence_url, label) : `<span>${escapeHtml(label)}</span>`);
+  if (label && c.rights_status === 'flagged' && label === PUBLIC_DOMAIN) {
+    // A12/F8: a flagged public-domain claim (e.g. an author who died less than 70 years
+    // ago) is shown as under review, never as "Public domain", and not linked to the PD mark.
+    parts.push(`<span class="slide-caption__rights">${escapeHtml(RIGHTS_UNDER_REVIEW)}</span>`);
+  } else if (label) parts.push(isHttp(c.licence_url) ? link(c.licence_url, label) : `<span>${escapeHtml(label)}</span>`);
   if (isHttp(c.source_url)) parts.push(link(c.source_url, 'Source'));
   if (c.cropped) parts.push('<span>cropped</span>');
   return parts.join(' · ');
@@ -232,4 +240,28 @@ export function renderDeck(content, ctx) {
   const sections = slides.map((slide) => renderSlide(slide, content, backgroundFor(slide, assetsBySlot, ctx, state), ctx));
   const header = '<!-- Pre-rendered from this deck\'s data/content.json (npm run render:decks). Do not edit by hand. -->';
   return `${header}\n${sections.join('\n')}\n`;
+}
+
+/**
+ * Lesson figures (PHASE-EX9): every curated slide image of a deck, keyed by slide_id,
+ * with the same caption HTML as the deck (captionHtml) so lessons reuse the deck asset
+ * and its caption fields through docs/_includes/lesson-figure.html.
+ * `src` is the root-relative asset path without the site base (lessons add it with relative_url).
+ */
+export function lessonFigures(content, { base = '' } = {}) {
+  const b = String(base || '').replace(/\/$/, '');
+  const assetsBySlot = new Map((content?.assets || []).map((a) => [a.media_slot_id, a]));
+  const out = {};
+  for (const slide of content?.slides || []) {
+    const asset = slide.background_kind === 'curated' && slide.media_slot_id ? assetsBySlot.get(slide.media_slot_id) : null;
+    if (!asset?.asset_url) continue;
+    const url = String(asset.asset_url);
+    out[slide.slide_id] = {
+      src: b && url.startsWith(`${b}/`) ? url.slice(b.length) : url,
+      alt: String(asset.alt_text || caption(asset).title || '').trim(),
+      caption_html: captionHtml(asset),
+      rights_status: String(asset.rights_status || ''),
+    };
+  }
+  return out;
 }
