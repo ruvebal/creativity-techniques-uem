@@ -125,6 +125,9 @@ semantic_tags: []   # DH metadata for the quote — see golden rule 3
 layout: image_argument | quote | split | exercise   # optional (EX5); default by role: cover/model/masterclass → image_argument, lab/workshop → exercise, openers/outro → split
 notes: "Speaker notes: '- ' lines are talking points, then Source: (the lesson's own cite) and Ask: (debate prompt)."   # EX5: required on every masterclass slide (gate); drafted for every lab slide
 timer_seconds: 180  # optional on exercise slides; the Lab timer defaults to 180
+technique_id: brainwriting-635          # lab_exercise (EX8): required; the primary technique, an id in in-practice/CANONICAL-TECHNIQUES.yml
+technique_ids_also: [open-monitoring-warm-up]   # lab_exercise: optional; further catalogue ids the exercise also runs (warm-ups, a second step's technique). Treated like technique_id for every catalogue rule: an `embodied` id here also requires an **Opt-out:** line on the lesson card (EX9 gate, A12/F9)
+practises: [masterclass-1, masterclass-2]       # lab_exercise: required; slide_ids of the Masterclass ideas the exercise practises; the lesson idea's **Try it:** links back to this exercise
 ttod_index:         # required for Tao invents; data-only, not rendered by default
   id: C-U2-example-01
   number: III

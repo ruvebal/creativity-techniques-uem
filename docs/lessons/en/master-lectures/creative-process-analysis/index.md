@@ -61,7 +61,7 @@ This is a **Master Lecture** — an analysis method shared by every unit of Crea
 
 </div>
 
-## Learning outcomes
+## Learning objectives
 
 By the end of this master lecture you can:
 
@@ -78,9 +78,16 @@ This lecture **deepens** the Analysis method already in every CT lesson.
 
 ---
 
-## B1 · Analysis (in the lesson, not only on slides)
+## Analysis
+
+*Block 1 · the method, in the lesson as well as on the slides.*
 
 ### Two lenses (do not collapse)
+
+<figure class="lesson-figure" id="figure-masterclass-2">
+<img src="{{ '/assets/images/deck-media/a4122f03534da849.webp' | relative_url }}" alt="A wooden Jacquard loom in a museum: warp threads stretched on one side and a long chain of punched cards hanging on the other, the cards carrying the woven pattern." loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="creative-process-analysis" slide="masterclass-2" %}</figcaption>
+</figure>
 
 | Lens | Short ask | Typical mistake |
 | --- | --- | --- |
@@ -104,6 +111,11 @@ This lecture **deepens** the Analysis method already in every CT lesson.
 
 ### Open, then close
 
+<figure class="lesson-figure" id="figure-masterclass-4">
+<img src="{{ '/assets/images/deck-media/8b4874486cda623c.webp' | relative_url }}" alt="An early-19th-century design sheet with six chairs in two rows, each a different frame and back, all sharing the same scarlet upholstery." loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="creative-process-analysis" slide="masterclass-4" %}</figcaption>
+</figure>
+
 A creative process often needs both inventing and selecting.
 
 > “The same creative act may involve both divergent and convergent thinking.”  
@@ -121,6 +133,11 @@ People who bring acceptable novelty into a domain use both moves:
 
 ### Process as material (composition)
 
+<figure class="lesson-figure" id="figure-masterclass-5">
+<img src="{{ '/assets/images/deck-media/004ceab4c9862728.webp' | relative_url }}" alt="A 19th-century wood engraving of Loïe Fuller's Serpentine Dance in eight panels: the dancer's swirling silk takes the shape of serpents, a basket, a propeller and butterflies." loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="creative-process-analysis" slide="masterclass-5" %}</figcaption>
+</figure>
+
 A process trail is also made of **materials and media** — not only of divergent/convergent moves on paper.
 
 > “This refers to the material properties and artistic processes of works that we document and analyse in the following chapters.”  
@@ -132,6 +149,11 @@ Dramaturgy here is compositional: it realises ideas *in* the medium.
 > — [(Eckersall, Grehan, and Scheer 2017, 211)](#ref-eckersall-2017)
 
 ### Critical emphasis
+
+<figure class="lesson-figure" id="figure-masterclass-6">
+<img src="{{ '/assets/images/deck-media/1ab95a4cc1ab40a2.webp' | relative_url }}" alt="A printed 1911 table of Binet–Simon test results from two Paris schools: rows of test tasks cross-referenced with pass rates (out of 10) for each age group." loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="creative-process-analysis" slide="masterclass-6" %}</figcaption>
+</figure>
 
 A test score is not the designer in context.
 
@@ -146,7 +168,9 @@ Meaning is not finished when you stop making. Reception can become the next cond
 
 ---
 
-## Masterclass ideas (six)
+## Masterclass
+
+*Block 2 · six ideas; the evidence for each is in Analysis above.*
 
 1. Describe the process before you praise the result.  
 2. Language ≠ medium ≠ support.  
@@ -157,7 +181,9 @@ Meaning is not finished when you stop making. Reception can become the next cond
 
 ---
 
-## B2 · Lab (portfolio)
+## Lab (Portfolio)
+
+*Block 3 · both exercises go into your portfolio index.*
 
 ### Exercise 1 — Shared process
 
@@ -166,6 +192,19 @@ Fill the **8-step card** on the process the professor models. Include Lens A and
 ### Exercise 2 — Your Lab trail
 
 Same card on your own Lab sequence. Deliver: card + **one critical sentence** + **one circulation claim**. Feeds the D1 analysis path.
+
+**Example trace:** *Illustrative example (not student work)* — made by the professor to show the format, on the U1 alternative-uses exercise.
+
+<div class="lesson-example-trace" markdown="1">
+1. **Describe:** list uses for a brick for 3 minutes, alone and in silence, then score the list.
+2. **Inventory:** the timer, paper, the shared board, my table group; 12 uses written, none crossed out.
+3. **Forms:** a timebox, silence, then four counts in a fixed order.
+4. **Origin (method/habit):** a classroom adaptation of a uses test.
+5. **Context of making:** a first session, no brief, no client; the professor decides when time is up.
+6. **Meaning (hypothesis + evidence):** the process values quantity first (steps 2–3: counting before judging).
+7. **Critical:** the score rewards speed; a slow, careful thinker looks weak here, which says little about their design work.
+8. **Circulation — Language:** a written list · **Medium:** a classroom exercise · **Support:** paper and the shared board. *Production → recognition:* my rare uses only counted as rare once the board showed everyone’s lists; that comparison shaped what I tried next.
+</div>
 
 ---
 

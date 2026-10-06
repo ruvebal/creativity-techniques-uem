@@ -2928,7 +2928,8 @@ main#main:has(.lesson-wrapper) {
 	margin-top: 0.45rem;
 	font-size: 0.85rem;
 	line-height: 1.4;
-	color: rgb(71 85 105);
+	color: inherit;
+	opacity: 0.8;
 }
 
 .lesson-figure figcaption a {
@@ -2939,5 +2940,10 @@ main#main:has(.lesson-wrapper) {
 	margin: 0.75rem 0 1.25rem;
 	padding: 0.75rem 1rem;
 	border-left: 3px solid rgb(148 163 184 / 0.8);
-	background: rgb(248 250 252 / 0.7);
+	background: rgb(148 163 184 / 0.1);
+}
+
+.lesson-figure p,
+.lesson-figure figcaption p {
+	margin: 0;
 }
