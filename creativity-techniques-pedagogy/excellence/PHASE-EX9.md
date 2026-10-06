@@ -39,6 +39,8 @@ shows a filled portfolio trace; lessons contain no images.
 
 (Amendment A9: design the lesson template for the professor's 12-lesson structure — two lessons per official unit, e.g. `u-1-1-…`, `u-1-2-…` — documenting how a unit splits into lesson A/B while U1–U3 stay single pages in this cascade; the template must be reusable by the next cascade.)
 
+(Amendment A10: reword the two compressed deck notes — Dow "larger increase in task-specific self-confidence"; U2 masterclass-6 "most workshops try to enhance"; keep claim-by-claim Source lines.)
+
 ## Prompt (Implementation Agent)
 
 ```text

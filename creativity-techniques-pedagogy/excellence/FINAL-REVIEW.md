@@ -17,6 +17,7 @@ Built during the autopilot run; read this once at the end (AUTOPILOT.md §5).
 | Phase | Status | Tag | Notes |
 | --- | --- | --- | --- |
 | EX0 | DONE | `excellence/ex0` | Probe + baseline + provisional weights; cold review PASS (11 findings, 0 blocking) |
+| EX6 | DONE (PARTIAL scope) | `excellence/ex6` | Research grounding: 23 verified works (U1 8, U2 14, U3 9, ML 4), 40 gaps → procurement list; all pin cites re-checked against print; single references.yml; 3 review rounds (R1 4 citation/deck-sync defects; R2 U3 lab-1 notes) |
 | EX5 | DONE | `excellence/ex5` | Deck renderer (pre-render, alt, captions, notes, layouts, timers, browser check 325 views/0 failures); 3 review rounds (R1 links/timer/caption overlap; R2 type shrunk below forge clamp) |
 | SYNC-1 | DONE | `excellence/sync-1` | main `d00539d` merged; ratified by professor; A8 adopted |
 | EX4 | DONE | `excellence/ex4` | Slide-bound curation: 33 images (U1 7/8, U2 6/8, U3 6/8, ML 6/8 core slides), 8 flagged; round 1 FAIL (2 off-topic bindings) → diagram; round 2 PASS |

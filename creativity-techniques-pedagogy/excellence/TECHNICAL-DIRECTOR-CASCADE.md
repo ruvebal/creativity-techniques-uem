@@ -170,6 +170,20 @@ syncs (the orchestrator applies it; `gitflow.sh sync` still stops on conflict):
   stating the h1 clamp `clamp(2.15rem, 6.6vw, 3.15rem)` as a floor for every
   layout (same value set 2026-09-14). The browser check reads it.
 
+## Amendment A10 (EX6 reviews, 2026-10-06)
+
+- **EX6 landed PARTIAL** (23 verified works, 40 gaps — procurement list in
+  FINAL-REVIEW); the INDEX cell reads DONE because the phase met its Acceptance
+  under AUTOPILOT §2 (PARTIAL allowed).
+- **EX9:** reword two compressed notes — Dow bullet ("larger increase in
+  task-specific self-confidence"), U2 masterclass-6 ("most workshops try to
+  enhance"); keep claim-by-claim Source lines and "course wording" labels.
+- **EX11:** the deck–lesson sync test checks locators, not claims; add a
+  structured `claims: [{text, cite}]` field to deck notes and test that each
+  claim's text is attested on the cited page (record in the 12-lesson seed plan).
+- **Record fix:** PHASE-EX6 round-2 F2 was a false positive (node 21f89015's
+  sentence is in chapter 2); the report's chapter-4 note is unnecessary.
+
 ## Programme (do not invert)
 
 | Step | Phase | Lane | Findings closed | Human gate |
