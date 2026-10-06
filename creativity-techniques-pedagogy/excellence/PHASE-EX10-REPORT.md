@@ -2,7 +2,7 @@
 
 | Field | Value |
 | --- | --- |
-| **status** | VERIFYING. Deliverables 1–5 and amendment note A13 (EX10 items) done. Gate pre-check 0 failures; next: `cascade-harness.sh verify`, then cold review. |
+| **status** | VERIFYING (round 2, after round-1 cold review FAIL). F1–F5 fixed; F7 public MCQs balanced; F8, F10, F11 fixed. F6/A14 already recorded. F9 stays on EX11 (A14). Next: `cascade-harness.sh verify`, then a fresh cold review. Do not mark DONE. |
 | **branch / worktree** | `cascade/excellence-10` · `creativity-techniques-uem-integration-excellence-10` (`.cascade-lane` = `excellence`) |
 | **mode** | AUTOPILOT §2 EX10 row: drafts only, `approved_by: autopilot (drafts — not for use before professor approval)`; measurement **not started**; no student data. Judgment calls: `DECISIONS-LOG.md` (11 EX10 lines) |
 | **cascade_amended** | No orchestrator, phase or gate file changed. The forge rule `STUDENT-SLIDESHOW-FORGE.mdc` gained the retrieval slide (Deliverable 5 asks for it). |
@@ -103,6 +103,15 @@ Before the calls: `ollama ps` empty; in-practice `runtime/process.json` PID 4835
 | `npm test` + excellence tests | 77 / 77 pass (65 `scripts/tests` + 12 sync/probe) |
 | `npm run build` | exit 0; "Publication safety passed"; no tracked file changed by prebuild |
 | `node scripts/render-decks.mjs --check`, `build-method-cards.mjs --check`, `build-practice-quizzes.mjs --check` | up to date |
+
+## Round 2 (cold review F1–F5, plus F7–F8 and F10–F11)
+
+- U2 retrieval notes: question 4 is Norman (fixation), question 5 is the black hat. Each retrieval item has `retrieval_answer`; the test compares notes line *i* to that field.
+- Fifteen higher-order items no longer repeat the lesson's "In practice" object. U2-05 and U2-24 are labelled understand.
+- Consent and protocol: the whole class does the AUT; only sheets with a matching consent form are kept; the rest are destroyed unread.
+- Method cards: what-if prompts and parallel prototyping have source-faithful "When to use" lines.
+- U2 Lab, deck notes and the peer sheet: teams swap top threes.
+- Public quiz: U3-08 off the page, U3-05 on it; public MCQ option lengths balanced.
 
 ## Open issues
 

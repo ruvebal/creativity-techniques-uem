@@ -67,9 +67,43 @@ test('retrieval slides: one per U1–U3 deck, last Masterclass slide, questions 
     const i = idx[0];
     assert.equal(slides[i - 1].slide_role, 'masterclass', `${unit}: after the Masterclass`);
     assert.equal(slides[i + 1].slide_role, 'lab_opener', `${unit}: before lab_opener`);
-    const expected = bank.questions.filter((q) => q.unit === unit && q.retrieval).map((q) => q.retrieval);
-    assert.deepEqual(slides[i].questions, expected);
+    const items = bank.questions.filter((q) => q.unit === unit && q.retrieval);
+    assert.deepEqual(slides[i].questions, items.map((q) => q.retrieval));
     assert.match(slides[i].notes, /Answers:/);
-    assert.equal((slides[i].notes.match(/^- [1-5]\. /gm) || []).length, 5, `${unit}: five answers in notes`);
+    const lines = slides[i].notes.match(/^- [1-5]\. (.+)$/gm) || [];
+    assert.equal(lines.length, 5, `${unit}: five answers in notes`);
+    items.forEach((q, n) => {
+      assert.equal(lines[n], `- ${n + 1}. ${q.retrieval_answer}`, `${q.id}: notes answer ${n + 1} matches retrieval_answer`);
+    });
+  }
+});
+
+test('public mcq options are not cued by length', () => {
+  for (const q of bank.questions.filter((item) => item.public_quiz && item.type === 'mcq')) {
+    const longest = Math.max(...q.distractors.map((d) => d.length));
+    assert.ok(q.answer.length <= longest + 8, `${q.id}: answer ${q.answer.length} vs longest distractor ${longest}`);
+  }
+});
+
+test('higher-order stems do not copy the lesson worked example', () => {
+  const copied = [
+    'twelve small layouts',
+    'twenty bottle shapes',
+    'arrows and room numbers',
+    'forty sticky notes',
+    'sits 20 people',
+    'design thinking workshop',
+    'feel younger',
+    'cut-up hands you',
+    'quick card model',
+    'first logo mark',
+    'corridor sign',
+    'promote the festival',
+    'seat lowered',
+    'a list, a grid and a map',
+  ];
+  for (const q of bank.questions.filter((item) => HIGHER.includes(item.bloom))) {
+    const hay = `${q.stem} ${q.answer}`.toLowerCase();
+    for (const phrase of copied) assert.equal(hay.includes(phrase), false, `${q.id} copies “${phrase}”`);
   }
 });

@@ -35,9 +35,11 @@ in this course. They cannot show that the course *caused* any change.
 
 No. Taking part is voluntary. Saying no, or stopping at any time, has **no
 effect on any mark** in this or any other course. The tasks are never graded.
-If you do not take part, you do an ordinary class task during those 20 minutes.
-The lecturer does not know who took part until final marks are published: this
-form is collected by [third person], not by the lecturer.
+Everyone in the class does the same timed task. If you do not consent, your
+sheet is destroyed unread by [third person] and is not part of the study.
+The lecturer cannot tell who took part by watching the class, and does not
+know who took part until final marks are published: this form is collected
+by [third person], not by the lecturer.
 
 ## How is my information protected?
 

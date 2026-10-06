@@ -48,6 +48,11 @@ test('buildCards: only verified techniques get a source; gap/held techniques are
   assert.deepEqual(refKeys, ['osborn-1942']);
   assert.doesNotMatch(JSON.stringify(cards), /PRIVATE|urn:in-practice/);
   assert.match(whenToUse({ family: 'selection', mode: 'convergent', units: ['U2', 'U4'] }), /^When you must choose.*closing.*Course units: U2, U4\.$/);
+  assert.match(whenToUse({ id: 'what-if-prompts', family: 'generation', mode: 'divergent', units: ['U2'] }), /link or combine ideas you already have/);
+  assert.match(whenToUse({ id: 'what-if-prompts', family: 'generation', mode: 'divergent', units: ['U2'] }), /hurt the generation of new ideas/);
+  assert.doesNotMatch(whenToUse({ id: 'what-if-prompts', family: 'generation', mode: 'divergent' }), /many options/);
+  assert.match(whenToUse({ id: 'parallel-prototyping', family: 'development', mode: 'both', units: ['U3'] }), /several directions before critique/);
+  assert.doesNotMatch(whenToUse({ id: 'parallel-prototyping', family: 'development', mode: 'both' }), /one chosen idea/);
 });
 
 test('committed cards page: up to date, ≥ 20 cards, public fields only, no quotations', () => {

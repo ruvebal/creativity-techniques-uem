@@ -279,7 +279,7 @@ Practises Masterclass ideas **4** (role and constraint tools) and **5** (name se
 6. **Black hat** (3 minutes): everyone thinks only about why each could fail or cannot be done.
 7. Before you pick, write the criterion you will use; then choose one idea. Compare: is your pick also the idea your team placed as most original in the grid? If not, say why in one sentence.
 
-**Optional peer rating (about 5 extra minutes):** before step 7, each person rates the top three alone and in silence on the printable [peer rating sheet]({{ '/practice/en/peer-rating-sheet/' | relative_url }}); then compare the averages with your grid.
+**Optional peer rating (about 5 extra minutes):** before step 7, swap your top three with a neighbouring team (no names on the list). Each person rates the other team's three items alone and in silence on the printable [peer rating sheet]({{ '/practice/en/peer-rating-sheet/' | relative_url }}), then returns the sheet. Compare the averages you receive with your own grid.
 
 **Portfolio trace:** a photo of the dots and the grid; the top three with their yellow and black notes; your criterion, the chosen idea and your one-sentence comparison.
 

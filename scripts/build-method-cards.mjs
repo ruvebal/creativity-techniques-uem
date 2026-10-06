@@ -44,6 +44,11 @@ const MODE_USE = Object.freeze({
   convergent: 'closing (convergent)',
   both: 'opening and closing',
 });
+/** Lesson-faithful lines where the family default would contradict the source (EX10 F4). */
+const WHEN_OVERRIDE = Object.freeze({
+  'what-if-prompts': 'When you want to link or combine ideas you already have; use with care, because this kind of prompt can hurt the generation of new ideas',
+  'parallel-prototyping': 'When you want to explore several directions before critique, by making more than one prototype from different starting points',
+});
 
 export function escapeHtml(value) {
   return String(value ?? '')
@@ -88,10 +93,12 @@ export function locator(raw) {
 }
 
 export function whenToUse(t) {
+  const units = (t.units || []).filter((u) => /^U[1-6]$/.test(u));
+  const tail = units.length ? ` Course units: ${units.join(', ')}.` : '';
+  if (WHEN_OVERRIDE[t.id]) return `${WHEN_OVERRIDE[t.id]}.${tail}`;
   const use = FAMILY_USE[t.family] || 'when the brief calls for it';
   const mode = MODE_USE[t.mode];
-  const units = (t.units || []).filter((u) => /^U[1-6]$/.test(u));
-  return `${use[0].toUpperCase()}${use.slice(1)}${mode ? `; ${mode}` : ''}.${units.length ? ` Course units: ${units.join(', ')}.` : ''}`;
+  return `${use[0].toUpperCase()}${use.slice(1)}${mode ? `; ${mode}` : ''}.${tail}`;
 }
 
 /** Public card objects from the catalogue + practice methods. Pure. */

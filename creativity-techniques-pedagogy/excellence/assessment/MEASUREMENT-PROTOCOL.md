@@ -47,12 +47,14 @@ by peers rather than counted (§4). The report must state this threat.
   Participation is voluntary.
 - Not taking part, or withdrawing, has **no effect on any mark**. The tasks are
   never graded and are not part of D1–D5 or the knowledge tests.
-- The professor is also the person who grades the course. To reduce pressure:
+- The professor is also the person who grades the course. To reduce pressure,
   consent forms are handed out and collected by a third person (a colleague or
-  the coordinator, to be named), in a sealed box; the professor does not learn
-  who took part until final marks are published.
-- Students who do not take part spend the same 20 minutes on an ordinary class
-  task (for example, reading the U1 lesson Analysis section).
+  the coordinator, to be named), in a sealed box. The lecturer does not see
+  the forms and does not learn who took part until final marks are published.
+- Everyone in the room does the same Alternative Uses Task as an ordinary
+  class activity, so watching the session does not show who has consented.
+  After the session the third person keeps only the sheets whose code matches
+  a signed consent form. Sheets with no matching consent are destroyed unread.
 
 ## 3 · Instruments
 
@@ -63,9 +65,11 @@ by peers rather than counted (§4). The report must state this threat.
   - Form A: a tin can · a sock
   - Form B: a cardboard box · an umbrella
 - None of these objects is used in class (the U1 Lab uses a brick, a paper clip
-  or a shoe). Form order is counterbalanced: half the participants (assigned by
-  the last digit of their participant code, §6) take A at pre and B at post; the
-  other half the reverse.
+  or a shoe). Form order is counterbalanced: half the class (assigned by
+  the last digit of the code everyone writes, §6) takes A at pre and B at post;
+  the other half the reverse. Everyone does this, including students whose
+  sheets will be destroyed. The kept set may not split evenly; the form-order
+  check in §7 still applies.
 - Instruction (read aloud, identical both times): "List as many different uses
   for this object as you can. Write one use per line. You have three minutes.
   There are no wrong answers."
@@ -130,8 +134,8 @@ responses before unblinding.
 | When | What | Time |
 | --- | --- | --- |
 | Before week 1 | Consent information handed out; questions answered by the third person; sealed consent box | — |
-| Week 1, session 1, **before** the U1 Lab | Pre: AUT form A or B (2 × 3 min) + SSCS (if obtained) | about 20 min including instructions |
-| Week 14, last ordinary session | Post: the other AUT form (2 × 3 min) + SSCS | about 20 min |
+| Week 1, session 1, **before** the U1 Lab | Whole class does the AUT (form A or B, 2 × 3 min) + SSCS if obtained. Third person keeps only sheets whose code matches a consent form; the rest are destroyed unread | about 20 min including instructions |
+| Week 14, last ordinary session | Whole class does the other AUT form (2 × 3 min) + SSCS if obtained. Same rule: only consented sheets are kept | about 20 min |
 | After week 14 and after final marks | Peer CAT rating (§4), coding, analysis | outside class time |
 
 ## 6 · Anonymisation and data handling
@@ -142,8 +146,10 @@ responses before unblinding.
   codes to names is ever made.
 - No names, student numbers, e-mails or photographs are collected. Free-text
   answers are checked for self-identifying details, which are removed.
-- Paper sheets are kept locked by the third person, transcribed, checked, and
-  destroyed after transcription is verified.
+- Paper sheets are kept locked by the third person. Only sheets whose code
+  matches a signed consent form are transcribed. Sheets with no matching
+  consent are destroyed unread. Consented sheets are transcribed, checked,
+  and destroyed after transcription is verified.
 - The dataset lives only in university-approved storage named in the ethics
   application — **never in this repository, never in the course site, never in
   a cloud AI service, never processed by a local model**.

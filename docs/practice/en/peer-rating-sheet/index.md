@@ -10,7 +10,7 @@ description: 'A printable sheet for rating a set of ideas alone and in silence, 
 
 # Peer rating sheet
 
-Use this sheet when a group wants to know how creative a set of ideas looks to several people, not only to the person who made them. In the [U2 selection Lab]({{ '/lessons/en/creativity-techniques/u-2-idea-generation-selection/' | relative_url }}#lab-exercise-2) it is an optional round before you choose one idea.
+Use this sheet when a group wants to know how creative a set of ideas looks to several people, not only to the person who made them. In the [U2 selection Lab]({{ '/lessons/en/creativity-techniques/u-2-idea-generation-selection/' | relative_url }}#lab-exercise-2) it is an optional round: neighbouring teams swap their top three, and you rate the other team's items before anyone chooses.
 
 This is a classroom tool. Your ratings are not marks, nobody collects them, and you do not write your name.
 
@@ -22,12 +22,12 @@ This is a classroom tool. Your ratings are not marks, nobody collects them, and 
 4. **Use your own sense of "creative".** There is no hidden right answer to find.
 5. **Use the whole scale.** 1 = among the least creative in this set; 5 = among the most creative in this set.
 6. **Rate the fit to the brief separately.** An idea can be very new and still not fit the brief, or fit well and be ordinary.
-7. **Skip your own team's items.** Write "own" in their row.
+7. **Rate another team's items, not your own.** If you recognise one of your team's ideas, write "own" in that row and do not score it.
 
 ## After rating
 
 1. Add up each item's scores and divide by the number of raters (the average).
-2. Put the averages next to your team's own choice (for example, your selection grid).
+2. Return the sheet to the team that made the items. They put the averages next to their own grid.
 3. Where raters disagree by two points or more on the same item, each says in one sentence why. That conversation is the useful part.
 4. Save a photo of the sheet and the averages in your portfolio index.
 

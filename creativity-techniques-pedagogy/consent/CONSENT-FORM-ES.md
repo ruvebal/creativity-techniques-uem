@@ -37,9 +37,11 @@ innovación docente de esta asignatura. No pueden demostrar que la asignatura
 
 No. La participación es voluntaria. Decir que no, o dejarlo en cualquier
 momento, **no afecta a ninguna nota** de esta ni de otras asignaturas. Las
-tareas nunca se califican. Si no participas, durante esos 20 minutos haces una
-tarea ordinaria de clase. El profesor no sabe quién ha participado hasta que se
-publican las notas finales: este formulario lo recoge [tercera persona], no el profesor.
+tareas nunca se califican. Todo el grupo hace la misma tarea cronometrada.
+Si no das tu consentimiento, [tercera persona] destruye tu hoja sin leerla y
+no entra en el estudio. El profesor no puede saber quién participa solo con
+mirar la clase, y no lo sabe hasta que se publican las notas finales: este
+formulario lo recoge [tercera persona], no el profesor.
 
 ## ¿Cómo se protegen mis datos?
 
