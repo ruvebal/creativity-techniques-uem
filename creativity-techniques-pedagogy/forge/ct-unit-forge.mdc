@@ -123,6 +123,21 @@ workflow text.
 Length target per unit: **tribune-length lesson** (~1500–2200 words body,
 plus TOC + References) matching U1's shape. TOC via `{:toc}` after the H2.
 
+## 4a-quater. Lesson section spine and template (PHASE-EX9, 2026-10-06)
+
+Every unit lesson uses the spine in [`LESSON-TEMPLATE.md`](LESSON-TEMPLATE.md):
+`## Learning objectives` · `## Analysis` · `## Masterclass` · `## Lab (Portfolio)` ·
+`## Workshop` · `## Conclusion` · `## Tao of Creativity {#tao-of-creativity}` ·
+`## References` · Editorial note · AI-assisted authorship. B1/B2/B3 labels are
+not headings (italic subtitles at most). Each Masterclass idea is a `###` of
+≤ 220 words: claim → evidence → design example → `**Try it:**` link to its Lab
+exercise; every Lab exercise carries an `**Example trace:**` labelled
+"Illustrative example (not student work)"; at least half the ideas show their deck
+image through `_includes/lesson-figure.html`. The `## Workshop` first line states
+when Workshop runs; D1 intra-rubric percentages read "of D1". The 12-lesson split
+(two lessons per official unit) is specified in LESSON-TEMPLATE.md §5; the
+copy-ready skeleton is [`templates/lesson-template.md`](templates/lesson-template.md).
+
 ## 4a-bis. Every lesson ships a `## Conclusion` (pedagogical honesty section)
 
 Every forged lesson closes its body — **immediately before** `## References` —

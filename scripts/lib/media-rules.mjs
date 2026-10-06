@@ -182,7 +182,7 @@ export function cleanTitle(title) {
     .trim();
 }
 
-/** Public caption fields: title, author, licence (+ URL), source URL, cropped flag. */
+/** Public caption fields: title, author, licence (+ URL), source URL, cropped flag, rights_status. */
 export function caption(asset) {
   const a = asset || {};
   return {
@@ -192,6 +192,8 @@ export function caption(asset) {
     licence_url: String(a.licence_url || '').trim(),
     source_url: String(a.canonical_source_url || a.source || '').trim(),
     cropped: Boolean(a.cropped),
+    // EX9 (A12/F8): captions read the rights flag so a flagged asset is never labelled "Public domain".
+    rights_status: String(a.rights_status || '').trim(),
   };
 }
 

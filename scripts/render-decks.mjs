@@ -17,14 +17,18 @@
  * where <hash8> is the first 8 hex of the file's SHA-256 (checked here).
  * Diagram fallback: the Koch triangle named in fractal-triangles/current.json.
  *
- * --check: exit 1 if any include is missing or out of date (no writes).
+ * Also writes docs/_data/lesson_figures.json (PHASE-EX9): each deck's curated slide
+ * images with the deck's own caption HTML, read by docs/_includes/lesson-figure.html
+ * so lesson figures reuse the deck asset and caption fields.
+ *
+ * --check: exit 1 if any include (or lesson_figures.json) is missing or out of date (no writes).
  */
 import { createHash } from 'node:crypto';
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join, relative } from 'node:path';
 
 import { DECK_SCHEMA_VERSION } from './lib/media-rules.mjs';
-import { parseHashedSvgName, renderDeck } from './lib/deck-render.mjs';
+import { lessonFigures, parseHashedSvgName, renderDeck } from './lib/deck-render.mjs';
 
 const root = process.cwd();
 const checkOnly = process.argv.includes('--check');
@@ -60,6 +64,7 @@ mkdirSync(outDir, { recursive: true });
 let written = 0;
 let stale = 0;
 let rendered = 0;
+const figures = {};
 for (const { slug, path } of decks) {
   const content = JSON.parse(readFileSync(path, 'utf8').replace(/^---[\s\S]*?---\s*/, ''));
   if (content.schema_version !== DECK_SCHEMA_VERSION) {
@@ -68,6 +73,7 @@ for (const { slug, path } of decks) {
     }
     continue;
   }
+  figures[slug] = lessonFigures(content, { base });
   const html = renderDeck(content, { base, geometric, koch, source: relative(root, path) });
   const out = join(outDir, `${slug}.html`);
   rendered += 1;
@@ -81,6 +87,19 @@ for (const { slug, path } of decks) {
   writeFileSync(out, html, 'utf8');
   written += 1;
   console.log(`rendered ${content.slides.length} slide(s) → ${relative(root, out)}`);
+}
+const figuresPath = join(root, 'docs/_data/lesson_figures.json');
+const figuresJson = `${JSON.stringify(Object.fromEntries(Object.keys(figures).sort().map((k) => [k, figures[k]])), null, 2)}\n`;
+const figuresCurrent = existsSync(figuresPath) ? readFileSync(figuresPath, 'utf8') : null;
+if (figuresCurrent !== figuresJson) {
+  if (checkOnly) {
+    stale += 1;
+    console.error(`stale: ${relative(root, figuresPath)}`);
+  } else {
+    writeFileSync(figuresPath, figuresJson, 'utf8');
+    written += 1;
+    console.log(`lesson figures → ${relative(root, figuresPath)}`);
+  }
 }
 console.log(`render-decks: ${rendered} deck(s), ${checkOnly ? `${stale} stale` : `${written} written`}.`);
 process.exit(checkOnly && stale ? 1 : 0);

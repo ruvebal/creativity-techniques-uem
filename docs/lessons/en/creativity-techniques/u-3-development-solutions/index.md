@@ -41,51 +41,123 @@ By the end of this unit, you should be able to:
 4. Explain what changed at a checkpoint and why.
 5. Keep language, medium, support, and circulation visible while a solution develops.
 
-## B1 · Analysis
+---
 
-From session 3, two students begin each class with a 15-minute defence of a D1 piece. Read the piece through **language / medium / support**: what signs does it use, what material or channel carries them, and what support lets someone encounter them? Then add a development question: which version came before this one, and what did the maker learn by changing it?
+## Analysis
+
+*Session block 1 · Analysis opens the class.* From session 3, two students begin each class with a 15-minute defence of a D1 piece. Read the piece through **language / medium / support**: what signs does it use, what material or channel carries them, and what support lets someone encounter them? Then add a development question: which version came before this one, and what did the maker learn by changing it?
+
+<figure class="lesson-figure" id="figure-analysis-model">
+<img src="{{ '/assets/images/deck-media/01ca4277a985054c.webp' | relative_url }}" alt="A pencil study by Theo van Doesburg of a cow with its head lowered, drawn in loose lines and blocky masses as the animal starts to become geometric." loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="u-3-development-solutions" slide="analysis-model" %}</figcaption>
+</figure>
 
 The circulation moment matters. A sketch can move from notebook to critique wall to screen. Each move changes who can read it and what kind of response it invites. A designer’s labour is visible here: testing is not magic, and iteration is not free. If a generative system contributes a variation, name the instruction, the selection decision, and the human responsibility for the final form.
 
-## B1 · Masterclass
+---
+
+## Masterclass
+
+*Session block 2 · six ideas. Each one gives a claim, the evidence for it, a design example, and the Lab exercise where you try it.*
 
 ### 1 · Make it rough, make it early
 
-A rough prototype is a question in material form. It does not need to look finished; it needs to reveal one thing you do not yet know. Build the smallest version that lets a classmate react. Cross describes design ability as including “resolving ill-defined problems” and using solution-focused strategies [(Cross 2006, vi)](#ref-cross-2006). A sprint handbook puts the same rule for prototypes bluntly: "The prototype is meant to answer questions, so keep it focused" — build just enough to learn, and no more [(Knapp, Zeratsky, and Kowitz 2016, chap. 13)](#ref-knapp-2016). The open question is simple: what can this rough object tell you that a description cannot?
+**A rough prototype is a question in material form: build the smallest version that lets someone react.**
+
+It does not need to look finished; it needs to reveal one thing you do not yet know. Cross describes design ability as including “resolving ill-defined problems” and using solution-focused strategies [(Cross 2006, vi)](#ref-cross-2006). A sprint handbook puts the same rule for prototypes bluntly: "The prototype is meant to answer questions, so keep it focused" — build just enough to learn, and no more [(Knapp, Zeratsky, and Kowitz 2016, chap. 13)](#ref-knapp-2016).
+
+<figure class="lesson-figure" id="figure-masterclass-1">
+<img src="{{ '/assets/images/deck-media/db042aadda24d26b.webp' | relative_url }}" alt="Early-1900s photograph of Gaudí's hanging model for the Colonia Güell church: strings loaded with small sacks of weight hang from the ceiling, with paper draped over them to show the inverted form." loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="u-3-development-solutions" slide="masterclass-1" %}</figcaption>
+</figure>
+
+**In practice:** for a packaging brief, you might fold a quick card model to feel the box in your hand before you draw any graphics. Ask what this rough object can tell you that a description cannot.
+
+**Try it:** [Lab · Exercise 1](#lab-exercise-1) asks for three rough versions, with no polishing.
 
 ### 2 · Defer judgement so ideas can evolve
 
-Early critique can close a path before it has shown what it might become. Protect a short space for variation first. Then judge with a named criterion. Osborn's first rule for idea sessions was that "Criticism must be withheld until all ideas are in" [(Osborn 1942, chap. 4)](#ref-osborn-1942), and in an experiment in which college students made artworks, those who expected to be evaluated produced work that was judged less creative [(Amabile 1979, 221)](#ref-amabile-1979). This is not permission to keep every idea; it is a way to avoid mistaking the first awkward version for the final limit.
+**Early critique can close a path before it shows what it might become: protect a short space for variation, then judge with a named criterion.**
+
+Osborn's first rule for idea sessions was that "Criticism must be withheld until all ideas are in" [(Osborn 1942, chap. 4)](#ref-osborn-1942), and in an experiment in which college students made artworks, those who expected to be evaluated produced work that was judged less creative [(Amabile 1979, 221)](#ref-amabile-1979). This is not permission to keep every idea; it is a way to avoid mistaking the first awkward version for the final limit.
+
+<figure class="lesson-figure" id="figure-masterclass-2">
+<img src="{{ '/assets/images/deck-media/8df17843a71ab0dd.webp' | relative_url }}" alt="A page from Beethoven's 1812 sketchbook: hurried ink notation across many staves as themes for the Seventh Symphony are tried out." loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="u-3-development-solutions" slide="masterclass-2" %}</figcaption>
+</figure>
+
+**In practice:** for a logo, you might give an awkward first mark five more minutes of development before anyone — you included — calls it wrong.
+
+**Try it:** step 2 of [Lab · Exercise 2](#lab-exercise-2) holds back judgement for five minutes.
 
 ### 3 · Iterate with an exit
 
-Revision becomes useful when you know what the next version must answer. Write one test before you change the work: “Can the viewer find the main action?” or “Does the form fit the brief?” Stop when the test is answered, even if another improvement is possible. Development needs direction as well as patience. Iteration has a known trap: as Dow and colleagues put it, it "can help people improve ideas. It can also give rise to fixation, continuously refining one option without considering others" [(Dow et al. 2010, 18:1)](#ref-dow-2010).
+**Before you change the work, write the one test the next version must pass; stop when it passes, even if another improvement is possible.**
+
+Development needs direction as well as patience. Iteration has a known trap: as Dow and colleagues put it, it "can help people improve ideas. It can also give rise to fixation, continuously refining one option without considering others" [(Dow et al. 2010, 18:1)](#ref-dow-2010).
+
+**In practice:** for a corridor sign, the test might be “Can a classmate read the room number from the far end?” Once they can, you stop revising.
+
+**Try it:** steps 4–7 of [Lab · Exercise 2](#lab-exercise-2) write one test question, revise once and exit.
 
 ### 4 · Sketch to think
 
-Sketching externalises a thought before language has made it neat. Draw three different arrangements, not one beautiful drawing. Compare their relationships, rhythm, and emphasis.
+**Sketching makes a thought visible before language has made it neat: draw three different arrangements, not one beautiful drawing.**
 
 > Sketching enables exploration of the problem space and the solution space to proceed together.
 {: .unit-quote}
 <p class="unit-quote-citation"><a href="#ref-cross-2006">(Cross 2006, 37)</a></p>
 
-A sketch is a temporary argument: it helps you see what your idea is doing.
+A sketch is a temporary argument: it helps you see what your idea is doing. Compare the sketches’ relationships, rhythm, and emphasis.
+
+**In practice:** for an app screen, sketch a list, a grid and a map version of the same content, then compare what each one puts first.
+
+**Try it:** step 3 of [Lab · Exercise 1](#lab-exercise-1) asks for three rough sketches or small prototypes.
 
 ### 5 · Open the solution space
 
-Some briefs are unclear because the problem itself is still moving. Do not force one path too soon. Reframe the brief as two or three possible questions, then make one small response to each. Each framing already points to a different answer: in Buchanan's account of wicked problems, "every formulation of a wicked problem corresponds to the formulation of a solution" [(Buchanan 1992, 16)](#ref-buchanan-1992). This is a bounded way to move from creative potential to creative action: Beghetto and Karwowski define creative agency as the capacity "to envision and enact new and meaningful actions within the existing constraints of a particular context" [(Beghetto and Karwowski 2025, 3)](#ref-beghetto-karwowski-2025).
+**When a brief is unclear because the problem itself is still moving, reframe it as two or three questions and make one small response to each.**
+
+Each framing already points to a different answer: in Buchanan's account of wicked problems, "every formulation of a wicked problem corresponds to the formulation of a solution" [(Buchanan 1992, 16)](#ref-buchanan-1992). This is a bounded way to move from creative potential to creative action: Beghetto and Karwowski define creative agency as the capacity "to envision and enact new and meaningful actions within the existing constraints of a particular context" [(Beghetto and Karwowski 2025, 3)](#ref-beghetto-karwowski-2025).
+
+<figure class="lesson-figure" id="figure-masterclass-5">
+<img src="{{ '/assets/images/deck-media/2ef7976e52c1675b.webp' | relative_url }}" alt="A spread from Paul Klee's 1925 Pedagogical Sketchbook: simple lines and shapes worked out as a 'first case', 'second case' and 'third case', each a different development." loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="u-3-development-solutions" slide="masterclass-5" %}</figcaption>
+</figure>
+
+**In practice:** “promote the festival” could become “how do we show its theme?” and “how do we show who is playing?” — one small poster sketch for each.
+
+**Try it:** step 2 of [Lab · Exercise 1](#lab-exercise-1) names three entry points before you start.
 
 ### 6 · Reflect at checkpoints
 
-Pause after each version and write three lines: what changed, what stayed, and what the change taught you. Schön describes design as a conversation in which the designer shapes the situation, the situation "talks back", and "in a good process of design, this conversation with the situation is reflective" [(Schön 1983, 79)](#ref-schon-1983). Cross’s designerly knowing keeps attention on how the work is made and tested. The checkpoint turns a sequence of attempts into evidence you can discuss; it is a teaching prompt, not a claim that one model explains every studio decision.
+**Pause after each version and write three lines: what changed, what stayed, and what the change taught you.**
 
-## B2 · Lab (Portfolio)
+Schön describes design as a conversation in which the designer shapes the situation, the situation "talks back", and "in a good process of design, this conversation with the situation is reflective" [(Schön 1983, 79)](#ref-schon-1983). Cross’s designerly knowing keeps attention on how the work is made and tested. The checkpoint turns a sequence of attempts into evidence you can discuss; it is a teaching prompt, not a claim that one model explains every studio decision.
 
-**Announced by a geometrical slide first:** two exercises follow; everything you produce in Lab goes into your **portfolio index**. Both exercises are classroom adaptations of procedures from the course reading list — not invented studio games.
+<figure class="lesson-figure" id="figure-masterclass-6">
+<img src="{{ '/assets/images/deck-media/d935477187be848c.webp' | relative_url }}" alt="Two pages of Orville Wright's diary for 17 December 1903: dense handwriting on squared notebook paper recording that day's series of flight tests." loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="u-3-development-solutions" slide="masterclass-6" %}</figcaption>
+</figure>
 
-### Exercise 1 — Same problem, three entry points, in parallel
+**In practice:** after the second version of a chair model, you might note: “seat lowered; legs unchanged; lower felt friendlier but tipped back.”
+
+**Try it:** step 6 of [Lab · Exercise 2](#lab-exercise-2) is the checkpoint.
+
+---
+
+## Lab (Portfolio)
+
+*Session block 3 · A geometrical slide announces the Lab: two exercises follow, and everything you produce goes into your **portfolio index**. Both exercises are classroom adaptations of procedures from the course reading list — not invented studio games.*
+
+### Exercise 1 — Same problem, three entry points, in parallel {#lab-exercise-1}
 
 Practises Masterclass ideas **1** (make it rough, make it early), **3** (iterate with an exit — and avoid fixation) and **4** (sketch to think).
+
+<figure class="lesson-figure" id="figure-lab-1">
+<img src="{{ '/assets/images/deck-media/32b9a38346ca2656.webp' | relative_url }}" alt="An early-19th-century watercolour design sheet showing three chairs side by side, each with a differently curved back and patterned seat." loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="u-3-development-solutions" slide="lab-1" %}</figcaption>
+</figure>
 
 **Time:** 20 minutes (about 15 making, 5 for side-by-side feedback).
 
@@ -104,13 +176,28 @@ Practises Masterclass ideas **1** (make it rough, make it early), **3** (iterate
 
 **Portfolio trace:** the shared problem statement; the three named entry points; three images or scans; one sentence per version on what it taught you (or blocked).
 
+**Example trace:** *Illustrative example (not student work)* — made by the professor to show the format.
+
+<div class="lesson-example-trace" markdown="1">
+- **Shared problem:** visitors to the open day cannot find the room change from the main hall to the workshop room.
+- **Entry points:** structure (a sequence of signs) · material/support (a tape line on the floor) · audience/circulation (a message sent when visitors register at the door).
+- **Versions:** three pencil sketches on one A3 sheet, photographed.
+- **What each taught me:** signs — every turn needs one, so the sequence gets long; tape line — needs no reading, but breaks at the lift; door message — reaches people early, but only those who registered.
+- **Feedback favoured:** the tape line. **To combine:** tape line plus one sign at the lift.
+</div>
+
 **Judged by:** [Portfolio rubric — creative fluency, flexibility, and originality]({{ '/assignments/en/creativity-techniques-portfolio/' | relative_url }}#rubric)
 
-**Source:** making several versions before any feedback is called parallel prototyping. In a study with novice designers, those who made several prototypes in parallel before receiving critique produced better-performing and more varied designs, and reported a larger increase in task-specific self-confidence, than those who received critique after each single prototype [(Dow et al. 2010, 18:1)](#ref-dow-2010). Starting from different entry points follows de Bono: "a different entry point will usually mean a different train of ideas" [(de Bono 1970, chap. "Choice of Entry Point and Attention Area")](#ref-debono-1970). The steps are a classroom adaptation.
+**Source:** making several versions before any feedback is called parallel prototyping. In a study with novice designers, those who made several prototypes in parallel before receiving critique produced better-performing and more varied designs than those who received critique after each single prototype, and they reported a larger gain in their confidence at this kind of task [(Dow et al. 2010, 18:1)](#ref-dow-2010). Starting from different entry points follows de Bono: "a different entry point will usually mean a different train of ideas" [(de Bono 1970, chap. "Choice of Entry Point and Attention Area")](#ref-debono-1970). The steps are a classroom adaptation.
 
-### Exercise 2 — Delay judgement, then checkpoint and exit
+### Exercise 2 — Delay judgement, then checkpoint and exit {#lab-exercise-2}
 
 Practises Masterclass ideas **2** (defer judgement), **3** (iterate with an exit) and **6** (reflect at checkpoints).
+
+<figure class="lesson-figure" id="figure-lab-2">
+<img src="{{ '/assets/images/deck-media/fd8903c0e7a3c0c4.webp' | relative_url }}" alt="The Wright brothers' 1900 glider flying unmanned as a tethered kite against a cloudy sky, its two wings and struts clearly visible." loading="lazy" decoding="async">
+<figcaption>{% include lesson-figure.html deck="u-3-development-solutions" slide="lab-2" %}</figcaption>
+</figure>
 
 **Time:** 20 minutes (about 5 delay, 5 question, 7 revise and test, 3 checkpoint).
 
@@ -130,9 +217,20 @@ Practises Masterclass ideas **2** (defer judgement), **3** (iterate with an exit
 
 **Portfolio trace:** before/after; the deferred-judgement note; the role, look-and-feel or how-it-works choice and the test question; the three checkpoint lines; the exit decision.
 
+**Example trace:** *Illustrative example (not student work)* — made by the professor to show the format, continuing the open-day problem above.
+
+<div class="lesson-example-trace" markdown="1">
+- **Version chosen:** the tape line.
+- **Deferred-judgement note (5 minutes):** added arrows into the line, tried two colours, drew the line splitting at the stairs — kept all three without deciding.
+- **What it tests:** how it would actually work. **Question:** “Can a classmate get from the hall door to the workshop room without asking anyone?”
+- **Revision:** one colour only, an arrow every few metres, a small sign where the line meets the lift.
+- **Checkpoint:** *changed* — one colour, arrows, the lift sign; *stayed* — the line itself; *learned* — the line breaks wherever people must wait.
+- **Exit:** the classmate reached the room without asking, so I stopped, even though the stair split could still be clearer. No generative tool was used.
+</div>
+
 **Judged by:** [Portfolio rubric — critical analysis and judgement]({{ '/assignments/en/creativity-techniques-portfolio/' | relative_url }}#rubric)
 
-**Source:** holding back criticism comes from Osborn's first rule for idea sessions: "Criticism must be withheld until all ideas are in" [(Osborn 1942, chap. 4)](#ref-osborn-1942). The role / look and feel / how-it-works question is course wording. The steps are a classroom adaptation.
+**Source:** holding back criticism comes from Osborn's first rule for idea sessions: "Criticism must be withheld until all ideas are in" [(Osborn 1942, chap. 4)](#ref-osborn-1942). The role / look and feel / how-it-works question is an adapted prototyping question (source pending). The steps are a classroom adaptation.
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
@@ -141,15 +239,32 @@ LAB_LINE: exercise=2; technique_id=delay-judgement-checkpoint; practises=masterc
 -->
 {% endif %}
 
-## B3 · Workshop — advance D1
+---
 
-Use the next D1 defence to show one development loop. Your slideshow should name the initial question, show two versions, and explain the decision that ended the loop. A strong defence does not hide the discarded version; it makes the learning legible.
+## Workshop
+
+From session 4: Workshop time goes half to D2 Transposition and half to the final event (D3 Atrium). D1 Analysis gets no Workshop time, so prepare your D1 defence on your own.
+
+**For your next D1 defence:** show one development loop. Your slideshow should name the initial question, show two versions, and explain the decision that ended the loop. A strong defence does not hide the discarded version; it makes the learning legible.
 
 **Done enough:** one rough prototype, one revision, one checkpoint note, and one clear exit condition in the portfolio index.
+
+---
 
 ## Conclusion
 
 This unit does not settle the moment when persistence becomes delay. You can push that question through reflective practice, designerly knowing, or a real studio deadline. Which checkpoint will you keep when the next version feels harder than the last? The gap is not a failure of the method; it is where judgement begins.
+
+---
+
+## Tao of Creativity {#tao-of-creativity}
+
+*Tao of Creativity* lines are short sayings written for this course. They are not quotations from the reading list, and they carry no author-date citation. The U3 deck uses these:
+
+- “Many doors opened. One fits the brief. Close the rest on purpose. Spring.”
+- “A rough thing can answer a question that a polished thing hides.”
+
+---
 
 ## References
 
@@ -218,10 +333,14 @@ LAB_EXERCISE_SELECTION:
 -->
 {% endif %}
 
+---
+
 ## Editorial note. Work in progress. Teaching Innovation Practice
 {: .lesson-editorial-note }
 
-This unit adapts two Lab exercises: parallel prototyping from three de Bono entry points (Exercise 1, with the study of Dow and colleagues behind it) and Osborn's deferred judgement with a checkpoint and exit (Exercise 2), and treats them as a bounded teaching hypothesis. The cited passages support the lesson’s vocabulary for ill-defined problems, non-verbal modelling, delayed judgement, and creative action under constraints; they do not prove that the exact Lab sequence will work for every student. Classroom adaptations are professor framing, not claims that the original authors wrote these portfolio briefs. The lesson therefore teaches a reversible development loop and asks students to record evidence rather than promising that prototypes always improve a solution.
+This unit adapts two Lab exercises: parallel prototyping from three de Bono entry points (Exercise 1, with the study of Dow and colleagues behind it) and Osborn's deferred judgement with a checkpoint and exit (Exercise 2), and treats them as a bounded teaching hypothesis. The cited passages support the lesson’s vocabulary for ill-defined problems, non-verbal modelling, delayed judgement, and creative action under constraints; they do not prove that the exact Lab sequence will work for every student. Classroom adaptations are professor framing, not claims that the original authors wrote these portfolio briefs; the role / look and feel / how-it-works question adapts a published prototyping model whose source is not yet cited here. The design examples and the example traces are written by the professor to illustrate the ideas; they are not research findings or student work. The lesson therefore teaches a reversible development loop and asks students to record evidence rather than promising that prototypes always improve a solution.
+
+---
 
 ## AI-assisted authorship
 

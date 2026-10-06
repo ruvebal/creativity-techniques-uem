@@ -9,7 +9,7 @@
  * without image_brief/asset_id, missing or > 600 KB files, non-whitelisted
  * extensions, raw SVG in deck-media (A6/F6), bound assets without a private
  * registry record carrying raw_title (A6/F3), orphan cache files, duplicate
- * asset use, "profield" in public JSON values. Assets failing rightsVerdict are errors under --rights=block
+ * asset use, "profield" in public JSON values, a flagged asset captioned "Public domain" (A12/F8). Assets failing rightsVerdict are errors under --rights=block
  * (default) and warnings under --rights=flag; --rights=flag also writes
  * creativity-techniques-pedagogy/excellence/curation/rights-report.json.
  * Per the professor's launch decision (AUTOPILOT.md §0) the build and the gates
@@ -20,6 +20,7 @@
 import { existsSync, mkdirSync, readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
 import { basename, dirname, join, relative } from 'node:path';
 
+import { captionHtml } from './lib/deck-render.mjs';
 import { cacheFileOf, deckProblems, DECK_SCHEMA_VERSION, rightsVerdict } from './lib/media-rules.mjs';
 
 const root = process.cwd();
@@ -97,6 +98,13 @@ for (const path of deckPaths) {
       if (!legacyFiles.has(file)) warnings.push(`${rel}: legacy asset file missing ${legacyCacheSegment}/${file}`);
       else if (legacyFiles.get(file) > 600 * 1024) warnings.push(`${rel}: legacy asset ${file} > 600 KB`);
       if (/\.php$/i.test(file)) warnings.push(`${rel}: legacy asset ${file} has a .php extension`);
+    }
+  }
+
+  // A12/F8 (EX9): the public caption of a flagged asset never says "Public domain".
+  for (const asset of content.assets || []) {
+    if (asset.rights_status === 'flagged' && /public domain/i.test(captionHtml(asset).replace(/<[^>]+>/g, ' '))) {
+      errors.push(`${rel}: ${asset.media_slot_id}: flagged asset captioned "Public domain" (A12/F8)`);
     }
   }
 

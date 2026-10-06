@@ -1,0 +1,19 @@
+{% comment %}
+  Lesson figure caption (PHASE-EX9). One include for every lesson image that reuses a deck asset.
+
+  Usage, inside a lesson (the <img> and <figcaption> stay literal so the alt text and the
+  caption are visible in the lesson source):
+
+    <figure class="lesson-figure" id="figure-masterclass-1">
+    <img src="[relative_url of /assets/images/deck-media/HASH.webp]" alt="[deck alt_text]" loading="lazy" decoding="async">
+    <figcaption>[include lesson-figure.html deck="u-1-introduction-creativity" slide="masterclass-1"]</figcaption>
+    </figure>
+
+  (Square brackets stand for the Liquid output and include tags; see any U1–U3 lesson.)
+
+  The caption HTML comes from docs/_data/lesson_figures.json, written by `npm run render:decks`
+  from the deck's data/content.json with the same captionHtml() the deck uses:
+  title · author · licence (linked) · Source (linked); a flagged public-domain claim reads
+  "Rights under review" (A12/F8). scripts/tests/lesson-figures.test.mjs checks that every
+  lesson <img> uses the deck's asset path and alt text.
+{% endcomment %}{% assign lesson_figure = site.data.lesson_figures[include.deck][include.slide] %}{% if lesson_figure %}{{ lesson_figure.caption_html }}{% else %}<span class="lesson-figure__missing">Image caption missing: {{ include.deck }} / {{ include.slide }}</span>{% endif %}

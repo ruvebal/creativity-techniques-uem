@@ -66,14 +66,8 @@ breadcrumbs = breadcrumbs | push: breadcrumb_item %} {% endif %} {% endfor %}
 							{% if page.lang == 'es' %}Inicio{% else %}Home{% endif %}
 						</a>
 					</li>
-					{% if page.url contains '/lessons/' %}
-					<li class="breadcrumb-item">
-						<span class="breadcrumb-separator" aria-hidden="true">/</span>
-						<a href="{{ site.baseurl }}/lessons/{{ page.lang }}/creativity-techniques/" class="breadcrumb-link">
-							{% if page.lang == 'es' %}Lecciones{% else %}Lessons{% endif %}
-						</a>
-					</li>
-					{% endif %} {% assign path_segments = page.url | split: '/' %} {% assign accumulated_path = '' %} {% assign
+					{% comment %} EX9 (A5/F4): the course lesson index is the 'creativity-techniques' segment, labelled Lessons once (no duplicate crumb). {% endcomment %}
+					{% assign path_segments = page.url | split: '/' %} {% assign accumulated_path = '' %} {% assign
 					show_current_segment = false %} {% assign base_segment_path = '/lessons/' | append: page.lang | append: '/' |
 					append: page.slug | append: '/' %} {% if page.url == base_segment_path %} {% assign show_current_segment = true %}
 					{% endif %} {% for segment in path_segments %} {% if segment == '' %} {% continue %} {% endif %} {% assign
@@ -83,15 +77,9 @@ breadcrumbs = breadcrumbs | push: breadcrumb_item %} {% endif %} {% endfor %}
 					false %} {% continue %} {% endif %}
 					<li class="breadcrumb-item">
 						<span class="breadcrumb-separator" aria-hidden="true">/</span>
-						{% if is_current_segment %}
 						<a href="{{ site.baseurl }}{{ accumulated_path }}/" class="breadcrumb-link">
-							{{ segment | replace: '-', ' ' | capitalize }}
+							{% if segment == 'creativity-techniques' %}{% if page.lang == 'es' %}Lecciones{% else %}Lessons{% endif %}{% else %}{{ segment | replace: '-', ' ' | capitalize }}{% endif %}
 						</a>
-						{% else %}
-						<a href="{{ site.baseurl }}{{ accumulated_path }}/" class="breadcrumb-link">
-							{{ segment | replace: '-', ' ' | capitalize }}
-						</a>
-						{% endif %}
 					</li>
 					{% endfor %}
 					<li class="breadcrumb-item breadcrumb-current" aria-current="page">
