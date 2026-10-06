@@ -17,6 +17,7 @@ Built during the autopilot run; read this once at the end (AUTOPILOT.md §5).
 | Phase | Status | Tag | Notes |
 | --- | --- | --- | --- |
 | EX0 | DONE | `excellence/ex0` | Probe + baseline + provisional weights; cold review PASS (11 findings, 0 blocking) |
+| EX8 | VERIFYING | — | Lab redesign: six Lab cards U1–U3 (target Labs), catalogue corrected per A11 first; sign-off by autopilot, **your approval pending** (§3 EX8) |
 | EX7 | DONE | `excellence/ex7` | Canonical catalogue: 66 techniques (34 verified source, 19 held, 13 gap); 2,157 records mapped, 2,112 duplicates collapsed; cold review PASS (random-word step fix → EX8) |
 | EX6 | DONE (PARTIAL scope) | `excellence/ex6` | Research grounding: 23 verified works (U1 8, U2 14, U3 9, ML 4), 40 gaps → procurement list; all pin cites re-checked against print; single references.yml; 3 review rounds (R1 4 citation/deck-sync defects; R2 U3 lab-1 notes) |
 | EX5 | DONE | `excellence/ex5` | Deck renderer (pre-render, alt, captions, notes, layouts, timers, browser check 325 views/0 failures); 3 review rounds (R1 links/timer/caption overlap; R2 type shrunk below forge clamp) |
@@ -28,6 +29,7 @@ Built during the autopilot run; read this once at the end (AUTOPILOT.md §5).
 
 ## 2 · P0 decisions for you
 
+- **Lab sign-off (EX8):** the six U1–U3 Labs were signed off by autopilot (`curation/LAB-SIGNOFF.md`); approve or edit them before they are taught — table in §3 EX8.
 - **Weights 60/40 (provisional)** — from the Diseño PDF 2025/26; confirm against the 2026–27 guía before release. `DECISION-EX0-GUIA.md`.
 - **Release risk — concurrent writer on `main`:** at launch, uncommitted edits existed in the main checkout (U1, U2, U4 lessons; U4 deck). Committed changes are merged into integration before each phase (`gitflow.sh sync`); uncommitted ones are not.
 - **Process note:** launch commit `a1da745` re-hydrated decks on `main` (3 more `.php` cache files; U3 now cycles 2 images over 10 slides) — the "no prebuild on main" rule was broken outside the cascade.
@@ -250,6 +252,28 @@ U4 (legacy, out of scope) keeps *Man dreaming* (`profield-cache/0a359d9b946505e1
   - **Cards without a citable source:** for EX8's Labs, five Lab techniques do not have a verified source: cut-up, readymade, 6-3-5, COCD and nominal group. Their cards can run in class but cannot show a Source line until the books are procured. Your procurement list (EX6) already names Rohrbach, Diehl and Stroebe, and Amabile 1982. Tzara, Duchamp and COCD would be new additions.
   - **PMI page:** the PMI locator is a PDF index. Confirm the printed page before citing it.
 - Gate pre-check: EX7 has 0 failures, and EX0–EX6 still pass. Report: `PHASE-EX7-REPORT.md`. Rollback: `gitflow.sh rollback 7`.
+
+### EX8 — Lab redesign U1–U3 with exercise cards (VERIFYING)
+
+- **Catalogue corrected first (A11):** random-word now keeps one word per 3–5 minute slot; three mis-mapped record groups removed or re-routed (Observation of Creative Environments, Challenge Statements unmapped; Cherry Split → fractionation); Michalko's solo "Brainwriting" record excluded; the 6-3-5 note now says Michalko describes Geschka's card brainwriting, not 6-3-5; the machine back-translated *Six Thinking Hats* copy is excluded from all counts (Six Hats support 714 → 366 records); the AUT and open-monitoring evidence lines no longer overstate; PMI is cited at pp. 12–13; the stale INDEX line is fixed. 1,723 records now map to 45 techniques.
+- **The six Labs for you to approve** (`curation/LAB-SIGNOFF.md`, `approved_by: autopilot (final review pending)`). Each card in lesson B2 has Time, Group, Materials, numbered Steps, Portfolio trace, Judged by (portfolio rubric link), Source, and Opt-out where needed; each deck slide has `technique_id`, `practises`, a student-voice sentence, a "Practises Masterclass …" line, the trace, a timer and a facilitation script in the notes.
+
+| Unit | Lab | Practises | Source shown to students |
+| --- | --- | --- | --- |
+| U1 | 1 · Alternative uses, scored on four skills (3-min silent list; fluency, flexibility, originality by class pool, elaboration) | Masterclass 2–3 | Chen 2011, 26 |
+| U1 | 2 · Cut-up and readymade: open, then close (cut a real brief; re-title an ordinary object; name divergent and convergent moves; language/medium/support) | Masterclass 1 + analysis triad | Classroom adaptation |
+| U2 | 1 · 6-3-5 brainwriting against solo writers (3 rounds, shortened from six — said on the card; optional 3-min open-monitoring warm-up with opt-out) | Masterclass 1–3 | Classroom adaptation; warm-up Colzato, Ozturk, and Hommel 2012, 1 (35-min sessions; 3-min version untested) |
+| U2 | 2 · Select: hits → COCD box → yellow and black hats on the top three; compare your pick with the idea you rated most original | Masterclass 4–5 | Knapp, Zeratsky, and Kowitz 2016, chap. 10; de Bono 1985, 32; COCD classroom adaptation |
+| U3 | 1 · Same problem, three entry points, in parallel (no feedback until all three exist) | Masterclass 1, 3, 4 | Dow et al. 2010, 18:1; de Bono 1970, chap. "Choice of Entry Point and Attention Area" |
+| U3 | 2 · Delay judgement, then checkpoint and exit (+ "does this version test its role, its look and feel, or how it works?") | Masterclass 2, 3, 6 | Osborn 1942, chap. 4 (replaces de Bono's PO chapter) |
+
+- **Please decide:**
+  - **Attribution withheld (gaps):** U1 Lab 2 does not name Tzara or Dada as its source; U2 Lab 2 asks the Rietzschel-style comparison without citing Rietzschel, Nijstad and Stroebe 2006; U3 Lab 2 uses the Houde and Hill question as course wording. Procure `tzara-1920`, `rietzschel-2006`, `houde-1997` (and Rohrbach 1969 for 6-3-5) to cite them.
+  - **Images re-briefed, not re-curated:** U1 lab-1 keeps Duchamp's *Fountain* (now briefed as "an everyday object given an unexpected use" for the AUT) and U1 lab-2 the Dada poster (cut-up); U2 lab-1 keeps the zazen photograph for the optional warm-up. Swap or unbind them if you prefer (EX4 listing above shows the old exercise names; U2 `lab-2` is still a diagram).
+  - **No quotes on Lab slides:** the old Tao lines belonged to the removed exercises; add new Tao lines through the TTOD bridge if you want them.
+- **Layout:** browser check 325 views, 0 failures at 1920×1080, 1280×720, 1024×768 and print; U2 exercise headroom at 1080p is now 137 px (was −5 px) at the forge type floors, because steps live in the lesson card and notes, not on the slide. Stale "72%" CSS comment fixed.
+- **Local work:** one `qwen2.5:32b-instruct` call (380/152 tokens, 20 s) to tighten six slide sentences; I kept my grounded drafts where its output was telegraphic.
+- Gate pre-check: EX8 0 failures; EX0–EX7 0 failures; `npm test` 47/47; deck–lesson sync 8/8; `npm run build` + publication safety pass. Report: `PHASE-EX8-REPORT.md`. Rollback: `gitflow.sh rollback 8`.
 
 ### Release checklist additions (from EX2)
 
