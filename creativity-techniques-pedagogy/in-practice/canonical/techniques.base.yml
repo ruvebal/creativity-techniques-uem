@@ -1,0 +1,1350 @@
+# EX7 hand-authored base for CANONICAL-TECHNIQUES.yml (private, never published).
+#
+# Edit THIS file, then run `python3 canonical/build.py` (from in-practice/) to
+# regenerate CANONICAL-TECHNIQUES.yml (adds catalogue_records from the record
+# mapping), CANONICAL-TECHNIQUES.md and CANONICAL-TECHNIQUES-BY-UNIT.yml.
+#
+# Field rules (PHASE-EX7):
+# - primary_source: a key of docs/_data/references.yml (page/section-verified work)
+#   or `gap`. `source_locator` gives the chapter/page in that work where the
+#   technique is described (chapter titles checked in the library copy on
+#   2026-10-06; EPUB/e-text sources use chapter locators, never synthetic pages).
+# - source_status: verified (primary_source is a references.yml key)
+#   | held (not in references.yml, but the library holds a book whose catalogue
+#     records describe the technique; add it to references.yml before citing)
+#   | gap (no library copy; any attribution in `gap_work` is UNVERIFIED and must
+#     not appear in student text until procured and page-checked).
+# - steps: classroom adaptation in course wording (never quoted text, never a
+#   claim about what the source prescribes). time_min / group_size are course
+#   estimates.
+# - evidence: one line. Research is cited only if verified in references.yml;
+#   otherwise "untested" or "gap: <work>".
+# - accessibility: required for embodied techniques; given for all entries.
+# - units: official guía units U1–U6 (U1 Introducción; U2 Generación y
+#   selección; U3 Desarrollo y soluciones; U4 Ámbito laboral; U5 Creatividad y
+#   tecnología; U6 Desarrollo personal).
+
+techniques:
+
+# ------------------------------------------------------------------ generation
+- id: alternative-uses-task
+  name: Alternative Uses Task (AUT)
+  family: generation
+  mode: divergent
+  primary_source: chen-2011
+  source_locator: "p. 26 (unusual-uses / brick test reported with Guilford's abilities)"
+  source_status: verified
+  steps:
+    - Show one everyday object (brick, paperclip, shoe) and start a visible timer.
+    - Each student lists as many different uses as they can, alone and in silence.
+    - Stop; each student counts ideas (fluency) and use categories (flexibility).
+    - Pool the class lists; a use that appears on only one list counts as original.
+    - Each student picks one use and adds detail to it (elaboration).
+    - Discuss which category shifts produced the less obvious uses.
+  time_min: 15
+  group_size: "individual, class pooling"
+  materials: [object or image, paper, timer]
+  units: [U1, U2]
+  evidence: "Chen 2011, 26: divergent-thinking scores did not carry over across domains; use AUT as practice and self-diagnosis, not as a talent measure."
+  accessibility: "Oral or typed lists accepted; image prompt can replace a physical object."
+
+- id: brainstorming-osborn
+  name: Brainstorming (Osborn ground rules)
+  family: generation
+  mode: divergent
+  primary_source: osborn-1942
+  source_locator: "chap. 4 (ground rules for a think-up conference: judicial judgment ruled out until all ideas are in)"
+  source_status: verified
+  steps:
+    - State one problem as a question everyone can read.
+    - "Agree the ground rule: no criticism until the idea round ends."
+    - A scribe records every idea, numbered, in the speakers' words.
+    - Invite combinations and improvements of ideas already on the board.
+    - Stop at the time limit, not when ideas slow down.
+    - Only then move to a separate selection technique.
+  time_min: 20
+  group_size: "4–8"
+  materials: [board or flipchart, markers, timer]
+  units: [U2, U4]
+  evidence: "Amabile 1979, 221: expecting evaluation lowered the judged creativity of artworks, which supports a judgement-free round; group productivity: gap: Diehl and Stroebe 1987."
+  accessibility: "Allow written contributions on cards for students who do not want to speak aloud."
+
+- id: brainwriting-635
+  name: 6-3-5 brainwriting
+  family: generation
+  mode: divergent
+  primary_source: gap
+  gap_work: "Rohrbach 1969 (attribution unverified; manifest key rohrbach-1969)"
+  source_status: held
+  held_note: "Brainwriting records from Michalko 2010 (Thinkertoys), not in references.yml."
+  steps:
+    - Groups of six sit in a circle; each has a sheet with a three-column grid.
+    - Each person writes three ideas in the first row (one per column).
+    - Pass the sheet to the left; read what is there and write three new or built-on ideas.
+    - Repeat for each round; nobody talks during the rounds.
+    - After the last round, each person stars the two ideas they would develop.
+    - "Classroom note: six rounds need about 30 minutes; three rounds fit a Lab (say so on the card)."
+  time_min: 20
+  group_size: "6 (3–6 works)"
+  materials: [one 3-column grid sheet per person, pens, timer]
+  units: [U2, U4]
+  evidence: "gap: Rohrbach 1969; gap: Diehl and Stroebe 1987 (production blocking in talking groups)."
+  accessibility: "Typed shared document can replace paper; allow extra time per round where needed."
+
+- id: nominal-group
+  name: Nominal group (solo ideas, then pool)
+  family: generation
+  mode: both
+  primary_source: gap
+  gap_work: "Diehl and Stroebe 1987 (manifest key diehl-1987)"
+  source_status: gap
+  steps:
+    - Give the same brief and time limit used by a comparison group.
+    - Each student generates ideas alone, in silence.
+    - Pool all lists and remove exact duplicates.
+    - Count unique ideas and compare with the interacting group's count.
+    - Discuss what talking added or blocked.
+  time_min: 15
+  group_size: "3–6 working alone, then pooled"
+  materials: [paper or sticky notes, timer]
+  units: [U2, U4]
+  evidence: "gap: Diehl and Stroebe 1987; gap: Mullen, Johnson and Salas 1991."
+  accessibility: "Fully silent format; suitable for students who prefer not to speak."
+
+- id: scamper
+  name: SCAMPER
+  family: generation
+  mode: divergent
+  primary_source: gap
+  gap_work: "Eberle 1971 (attribution unverified; manifest key eberle-1971)"
+  source_status: held
+  held_note: "SCAMPER records from Michalko 2010 (Thinkertoys), not in references.yml."
+  steps:
+    - Pick one existing product, service or artefact.
+    - Work through the prompt letters one at a time - substitute, combine, adapt, modify, put to another use, eliminate, rearrange or reverse.
+    - Write at least one change for every prompt, even a weak one.
+    - Mark the three changes that most alter how the thing is used.
+    - Sketch one of them.
+  time_min: 25
+  group_size: "1–4"
+  materials: [prompt card, object or image, paper]
+  units: [U2, U3]
+  evidence: "gap: Eberle 1971."
+  accessibility: "Prompt card in large print; image or description can replace a physical object."
+
+- id: phoenix-checklist
+  name: Phoenix checklist (problem questions)
+  family: framing
+  mode: both
+  primary_source: gap
+  gap_work: "origin unverified"
+  source_status: held
+  held_note: "Records from Michalko 2010 (Thinkertoys), not in references.yml."
+  steps:
+    - Write the problem in one sentence.
+    - Answer a set of questions about the problem (what is unknown, what is given, what is similar) in writing.
+    - Then answer questions about the plan (which parts can be solved first, what would a partial solution look like).
+    - Rewrite the problem statement using what the questions revealed.
+    - Compare the first and last statements.
+  time_min: 20
+  group_size: "1–3"
+  materials: [question sheet, paper]
+  units: [U3, U4]
+  evidence: "untested"
+  accessibility: "Questions can be read aloud and answered orally."
+
+- id: morphological-box
+  name: Morphological box (idea box)
+  family: generation
+  mode: divergent
+  primary_source: gap
+  gap_work: "Zwicky 1969 (attribution unverified; manifest key zwicky-1969)"
+  source_status: held
+  held_note: "Idea Box records from Michalko 2010 (Thinkertoys), not in references.yml."
+  steps:
+    - List four to six parameters of the problem as column headings.
+    - Under each, list several options.
+    - Pick one option per column at random or by choice to form a combination.
+    - Repeat for at least five combinations, including one that looks absurd.
+    - Develop the most promising combination into a short description or sketch.
+  time_min: 25
+  group_size: "1–4"
+  materials: [grid sheet or spreadsheet, dice (optional)]
+  units: [U2, U3, U5]
+  evidence: "gap: Zwicky 1969."
+  accessibility: "Spreadsheet version for screen readers; dice can be replaced by a random-number app."
+
+- id: synectics-excursion
+  name: Synectics excursion (direct, personal and fantasy analogy)
+  family: generation
+  mode: divergent
+  primary_source: gap
+  gap_work: "Gordon 1961 (manifest key gordon-1961)"
+  source_status: held
+  held_note: "Direct/personal/fantasy analogy records from Michalko 2010, not in references.yml."
+  steps:
+    - State the problem, then step away from it.
+    - Find a direct analogy in another field (nature, machines, sport) and list its features.
+    - Take a personal analogy - imagine being the object - and note what that feels like.
+    - Allow one fantasy solution with no physical limits.
+    - Force-fit each analogy back to the problem; write one idea per analogy.
+  time_min: 30
+  group_size: "3–6"
+  materials: [paper, board]
+  units: [U2]
+  evidence: "gap: Gordon 1961."
+  accessibility: "Personal analogy can be done in writing instead of role-play."
+
+- id: analogy-transfer
+  name: Analogy transfer
+  family: generation
+  mode: divergent
+  primary_source: debono-1970
+  source_locator: "chap. Analogies"
+  source_status: verified
+  steps:
+    - Describe the problem in one plain sentence.
+    - Choose an analogy that has its own clear line of development (a process, a story, a system).
+    - Develop the analogy on its own terms for a few minutes.
+    - Carry each development back to the problem and note what it suggests.
+    - Keep the suggestions that change how the problem looks.
+  time_min: 20
+  group_size: "1–4"
+  materials: [paper]
+  units: [U2, U3]
+  evidence: "untested"
+  accessibility: "No physical requirements; works orally or in writing."
+
+- id: random-word
+  name: Random word stimulation
+  family: generation
+  mode: divergent
+  primary_source: debono-1970
+  source_locator: "chap. Random stimulation (section Random word stimulation)"
+  source_status: verified
+  steps:
+    - Write the problem at the top of the page.
+    - Draw a random noun (dictionary page, word list or card deck).
+    - List features and associations of the word, without looking at the problem.
+    - Connect each association back to the problem and write the idea it triggers.
+    - Draw a second word and repeat; compare the two sets of ideas.
+  time_min: 15
+  group_size: "1–4"
+  materials: [random word list or dictionary, paper]
+  units: [U2, U5]
+  evidence: "untested"
+  accessibility: "Word can be given aloud or as an image."
+
+- id: po-provocation
+  name: PO provocation
+  family: generation
+  mode: divergent
+  primary_source: debono-1970
+  source_locator: "chap. The new word PO (sections Provocation; The generation of alternatives)"
+  source_status: verified
+  steps:
+    - State the usual assumption about the situation.
+    - Write a deliberately impossible or reversed statement and mark it PO.
+    - Do not judge the statement; ask what it would lead to (movement).
+    - Note every practical idea that the movement produced.
+    - Drop the provocation and keep the ideas.
+  time_min: 15
+  group_size: "1–5"
+  materials: [paper or board]
+  units: [U2, U3]
+  evidence: "untested"
+  accessibility: "Works orally or in writing."
+
+- id: reversal-method
+  name: Reversal method
+  family: generation
+  mode: divergent
+  primary_source: debono-1970
+  source_locator: "chap. The reversal method"
+  source_status: verified
+  steps:
+    - Write the situation as it is normally described.
+    - Reverse the direction, roles or relationship (who serves whom, what moves what).
+    - Describe the reversed situation in a few lines.
+    - Note any arrangement the reversal makes visible.
+    - Turn one of them into a usable idea.
+  time_min: 15
+  group_size: "1–4"
+  materials: [paper]
+  units: [U2]
+  evidence: "untested"
+  accessibility: "No physical requirements."
+
+- id: alternatives-quota
+  name: Quota of alternatives
+  family: generation
+  mode: divergent
+  primary_source: debono-1970
+  source_locator: "chap. The generation of alternatives (section Quota)"
+  source_status: verified
+  steps:
+    - Choose a situation, image or design that already has an obvious reading.
+    - Set a fixed number of alternative readings or approaches (for example five).
+    - Keep going until the quota is met, even when the first answer seems right.
+    - Compare the first and the last alternatives.
+  time_min: 10
+  group_size: "1–4"
+  materials: [image or brief, paper]
+  units: [U1, U2]
+  evidence: "untested"
+  accessibility: "Image can be replaced by a verbal description."
+
+- id: fractionation
+  name: Fractionation
+  family: generation
+  mode: divergent
+  primary_source: debono-1970
+  source_locator: "chap. Fractionation"
+  source_status: verified
+  steps:
+    - Split the problem into two or three parts in the usual way.
+    - Split it again in a different way, ignoring the first split.
+    - Keep splitting until the parts are small and unusual.
+    - Recombine parts across the different splits into new arrangements.
+    - Keep one arrangement that suggests a new approach.
+  time_min: 20
+  group_size: "1–3"
+  materials: [paper, sticky notes]
+  units: [U2, U3]
+  evidence: "untested"
+  accessibility: "Sticky notes can be replaced by a typed list."
+
+- id: oblique-strategies
+  name: Oblique Strategies cards
+  family: generation
+  mode: divergent
+  primary_source: gap
+  gap_work: "Eno and Schmidt 1975 (attribution unverified)"
+  source_status: gap
+  steps:
+    - Work on a piece until you feel stuck.
+    - Draw one card with a short, indirect instruction (a course-made deck is fine).
+    - Apply the instruction literally to the next step of the work for a fixed time.
+    - Record what changed and whether you keep it.
+  time_min: 15
+  group_size: "1–3"
+  materials: [instruction card deck (course-made), work in progress]
+  units: [U2, U5]
+  evidence: "gap: no verified study in references.yml."
+  accessibility: "Cards in large print or read aloud."
+
+- id: mind-map
+  name: Mind map
+  family: generation
+  mode: divergent
+  primary_source: gap
+  gap_work: "origin attribution unverified"
+  source_status: held
+  held_note: "Mind-map records from Kelley and Kelley 2013 (Creative Confidence), not in references.yml."
+  steps:
+    - Write the central topic in the middle of a large sheet.
+    - Draw main branches for the first associations.
+    - Add sub-branches quickly; one word or image per branch.
+    - Link distant branches where you see a connection.
+    - Circle two links that you did not expect at the start.
+  time_min: 15
+  group_size: "1–3"
+  materials: [A3 paper, coloured pens]
+  units: [U1, U2]
+  evidence: "untested"
+  accessibility: "Digital mind-map tool for students who cannot draw by hand."
+
+- id: attribute-listing
+  name: Attribute listing
+  family: generation
+  mode: divergent
+  primary_source: gap
+  gap_work: "origin attribution unverified"
+  source_status: gap
+  steps:
+    - Choose a product or artefact.
+    - List its attributes (material, shape, function, user, cost, context).
+    - For each attribute, write two other values it could take.
+    - Combine changed attributes into new versions.
+    - Pick one version and describe who it would serve.
+  time_min: 20
+  group_size: "1–4"
+  materials: [paper or table template]
+  units: [U2, U3]
+  evidence: "untested"
+  accessibility: "Table template usable with a screen reader."
+
+- id: tzara-cut-up
+  name: Tzara cut-up
+  family: generation
+  mode: divergent
+  primary_source: gap
+  gap_work: "Tzara 1920 (attribution unverified)"
+  source_status: gap
+  steps:
+    - Take a text tied to a real brief (a product description, a news item).
+    - Cut it into single words or short phrases.
+    - Mix the pieces in a bag and draw them one at a time.
+    - Write them down in the order drawn.
+    - Underline any phrase that suggests an idea for the brief and write the idea.
+    - Name which moves were divergent (cutting, drawing) and which convergent (choosing).
+  time_min: 20
+  group_size: "1–3"
+  materials: [printed text, scissors, bag or envelope]
+  units: [U1, U5]
+  evidence: "untested"
+  accessibility: "Digital shuffle of words replaces scissors for students with limited hand use."
+
+- id: exquisite-corpse
+  name: Exquisite corpse
+  family: generation
+  mode: divergent
+  primary_source: gap
+  gap_work: "Surrealist group practice (attribution unverified)"
+  source_status: gap
+  steps:
+    - Fold a sheet into as many sections as there are players.
+    - The first player draws or writes in the first section, leaving a small hint across the fold.
+    - Fold to hide the section and pass it on.
+    - Each player continues from the hint only.
+    - Unfold and discuss which joins produced something new.
+  time_min: 15
+  group_size: "3–5"
+  materials: [paper, pens]
+  units: [U1, U2]
+  evidence: "untested"
+  accessibility: "Text-only version for students who prefer not to draw."
+
+- id: readymade-recontextualisation
+  name: Readymade recontextualisation
+  family: generation
+  mode: both
+  primary_source: gap
+  gap_work: "Duchamp readymades (attribution and dates unverified here)"
+  source_status: gap
+  steps:
+    - Choose an ordinary manufactured object.
+    - Change only its context, title or orientation - not the object.
+    - Write a title and a one-line label for the new context.
+    - Present it to a peer and ask what they now see.
+    - Note which change (place, title, position) did the most work.
+  time_min: 20
+  group_size: "1–3"
+  materials: [everyday object or photo, label cards]
+  units: [U1, U5]
+  evidence: "untested"
+  accessibility: "A photograph can replace handling a physical object."
+
+- id: automatic-writing
+  name: Automatic writing
+  family: generation
+  mode: divergent
+  primary_source: gap
+  gap_work: "Breton 1924 / Surrealist practice (attribution unverified)"
+  source_status: held
+  held_note: "Records from Rubin 2023, Csikszentmihalyi 1996 and Gaut and Kieran describe related unfiltered writing; none is the primary source."
+  steps:
+    - Set a timer for five to ten minutes.
+    - Write without stopping, correcting or rereading.
+    - If stuck, repeat the last word until something new comes.
+    - Stop at the timer; read once and underline surprising phrases.
+    - Use one underlined phrase as a starting point for the brief.
+  time_min: 12
+  group_size: individual
+  materials: [paper or text editor, timer]
+  units: [U1, U2, U6]
+  evidence: "untested"
+  accessibility: "Typing, dictation or drawing allowed; students choose whether to share any text."
+
+- id: fantastic-binomial
+  name: Fantastic binomial
+  family: generation
+  mode: divergent
+  primary_source: gap
+  gap_work: "Rodari 1973 (manifest key rodari-1973)"
+  source_status: gap
+  steps:
+    - Draw two unrelated nouns from separate lists.
+    - Join them with different prepositions (the dog with the wardrobe, the wardrobe of the dog).
+    - Pick the pairing that suggests a scene or object.
+    - Write a short story, product or image from that pairing.
+  time_min: 15
+  group_size: "1–3"
+  materials: [two noun lists, paper]
+  units: [U2]
+  evidence: "gap: Rodari 1973."
+  accessibility: "Can be done orally."
+
+- id: crazy-8s
+  name: Crazy 8s
+  family: generation
+  mode: divergent
+  primary_source: knapp-2016
+  source_locator: "chap. 9 Sketch (four-step sketch, step 3)"
+  source_status: verified
+  steps:
+    - Take your strongest idea so far.
+    - Fold a sheet into eight panels.
+    - Sketch one variation per panel, one minute each, against a timer.
+    - Keep sketches rough; words are allowed.
+    - Circle the variation you would develop and say why.
+  time_min: 10
+  group_size: individual
+  materials: [A4 sheet, marker, timer]
+  units: [U2, U3]
+  evidence: "untested"
+  accessibility: "Panels can be written instead of drawn; longer panel time allowed."
+
+- id: what-if-prompts
+  name: What-if (counterfactual) prompts
+  family: generation
+  mode: divergent
+  primary_source: wong-2009
+  source_locator: "pp. 161, 168"
+  source_status: verified
+  steps:
+    - Describe the current situation or design in two lines.
+    - Write five "what if ... had been different?" questions about it.
+    - Answer each with one consequence.
+    - Turn the most useful consequence into an alternative idea.
+  time_min: 15
+  group_size: "1–4"
+  materials: [paper]
+  units: [U2, U4]
+  evidence: "Wong, Galinsky and Kray 2009, 161, 168: what-if thinking makes people consider alternatives but can hurt novel generation; pair it with a free generation round."
+  accessibility: "No physical requirements."
+
+- id: thirty-circles
+  name: Thirty Circles
+  family: generation
+  mode: divergent
+  primary_source: gap
+  gap_work: "Kelley and Kelley 2013 (held, not in references.yml)"
+  source_status: held
+  held_note: "Records from Kelley and Kelley 2013 (Creative Confidence)."
+  steps:
+    - Hand out a sheet with thirty empty circles.
+    - Turn as many circles as possible into recognisable things in three minutes.
+    - Count circles filled (fluency) and look for variety (flexibility).
+    - Compare sheets - who combined circles or broke the rules?
+    - Discuss what stopped you from filling more.
+  time_min: 10
+  group_size: "individual, class discussion"
+  materials: [thirty-circle sheet, pens, timer]
+  units: [U1, U2]
+  evidence: "untested"
+  accessibility: "Larger circles or fewer circles for students with fine-motor limits; verbal descriptions accepted."
+
+- id: circle-of-opportunity
+  name: Circle of opportunity (random attribute pairing)
+  family: generation
+  mode: divergent
+  primary_source: gap
+  gap_work: "origin unverified"
+  source_status: held
+  held_note: "Records from Michalko 2010 (Thinkertoys), not in references.yml."
+  steps:
+    - Draw a circle with twelve numbered positions.
+    - Write one attribute of the topic at each position.
+    - Roll two dice (or pick two numbers) to choose a pair of attributes.
+    - Write ideas that combine the pair.
+    - Roll again for a third attribute if the pair is too easy.
+  time_min: 20
+  group_size: "1–3"
+  materials: [circle template, two dice]
+  units: [U2]
+  evidence: "untested"
+  accessibility: "A random-number app replaces dice."
+
+- id: seed-collection
+  name: Seed collection
+  family: generation
+  mode: divergent
+  primary_source: rubin-2023
+  source_locator: "chap. Seeds"
+  source_status: verified
+  steps:
+    - For one week, note small starting points (a phrase, a sound, an image) in one place.
+    - Do not compare or rank them while collecting.
+    - At the end of the week, pick three seeds that still interest you.
+    - Develop each in a different direction for ten minutes.
+    - Keep the seed that grew most; note why.
+  time_min: 30
+  group_size: individual
+  materials: [notebook or phone notes]
+  units: [U2, U6]
+  evidence: "untested"
+  accessibility: "Voice notes, photos or text all count as seeds."
+
+- id: constraint-writing
+  name: Constraint-based making (Oulipo-style rules)
+  family: generation
+  mode: divergent
+  primary_source: gap
+  gap_work: "Oulipo (attribution unverified)"
+  source_status: gap
+  steps:
+    - Choose a short piece to make (a text, a layout, a sound loop).
+    - Draw or set one strict formal rule (no letter e, only five shapes, one colour).
+    - Make the piece under the rule within the time limit.
+    - Make a second version without the rule.
+    - Compare which version is more surprising and why.
+  time_min: 25
+  group_size: "1–2"
+  materials: [rule cards, making materials]
+  units: [U5, U6]
+  evidence: "untested"
+  accessibility: "Rules can be chosen to fit the student's medium."
+
+- id: lightning-demos
+  name: Lightning demos
+  family: generation
+  mode: divergent
+  primary_source: knapp-2016
+  source_locator: "chap. 8 Remix and Improve (Lightning Demos)"
+  source_status: verified
+  steps:
+    - Each student brings two or three existing solutions from other fields or products.
+    - Each gives a three-minute tour of what is good about one example.
+    - A scribe draws a quick sketch and headline of each big idea on the board.
+    - The group looks for ideas to borrow and remix, not to copy.
+  time_min: 30
+  group_size: "4–8"
+  materials: [devices or printouts, board, markers]
+  units: [U3, U4, U5]
+  evidence: "untested"
+  accessibility: "Examples can be shown on screen with captions; scribe role optional."
+
+- id: swipe-file
+  name: Swipe file (collect and credit influences)
+  family: reflection
+  mode: divergent
+  primary_source: gap
+  gap_work: "Kleon 2012 (held, not in references.yml)"
+  source_status: held
+  held_note: "Records from Kleon (Steal Like an Artist; Keep Going), not in references.yml."
+  steps:
+    - Keep a folder of work you admire, each item with its creator and source.
+    - For each item, write what exactly you would borrow (a move, not the whole work).
+    - Combine two borrowed moves in a small piece of your own.
+    - Credit every influence in the piece's notes.
+  time_min: 20
+  group_size: individual
+  materials: [physical or digital folder]
+  units: [U5, U6]
+  evidence: "untested"
+  accessibility: "Any medium; screen-reader friendly digital folder."
+
+# ------------------------------------------------------------------ framing
+- id: how-might-we
+  name: How Might We notes
+  family: framing
+  mode: both
+  primary_source: knapp-2016
+  source_locator: "chap. 6 Ask the Experts (How Might We notes)"
+  source_status: verified
+  steps:
+    - Listen to a short briefing or interview about the problem.
+    - Each student writes one "How might we ...?" question per sticky note.
+    - Put all notes on a wall and group similar ones.
+    - Each student votes for the questions worth working on.
+    - Choose one question as the brief for the next technique.
+  time_min: 25
+  group_size: "3–8"
+  materials: [sticky notes, markers, dot stickers]
+  units: [U1, U3, U4]
+  evidence: "untested"
+  accessibility: "Digital whiteboard version; questions can be dictated."
+
+- id: why-technique
+  name: Challenging assumptions (Why technique)
+  family: framing
+  mode: divergent
+  primary_source: debono-1970
+  source_locator: "chap. Challenging assumptions (section The Why technique)"
+  source_status: verified
+  steps:
+    - List what everyone assumes about the situation.
+    - Ask "why is it done this way?" about each assumption.
+    - Keep asking why about each answer, two or three times.
+    - Mark answers that rest on habit rather than need.
+    - Rewrite the brief without one habit-based assumption.
+  time_min: 15
+  group_size: "2–4"
+  materials: [paper]
+  units: [U1, U3]
+  evidence: "untested"
+  accessibility: "No physical requirements."
+
+- id: entry-point-attention-area
+  name: Entry point and attention area
+  family: framing
+  mode: divergent
+  primary_source: debono-1970
+  source_locator: "chap. Choice of entry point and attention area"
+  source_status: verified
+  steps:
+    - Write the problem and list its parts.
+    - Note where you would normally start.
+    - Start instead from a different part (the end, the user, the material).
+    - Shift attention to a part you would usually ignore.
+    - Compare the paths each entry point opened.
+  time_min: 20
+  group_size: "1–4"
+  materials: [paper]
+  units: [U3]
+  evidence: "untested"
+  accessibility: "No physical requirements."
+
+- id: dominant-idea
+  name: Dominant idea and crucial factor
+  family: framing
+  mode: convergent
+  primary_source: debono-1970
+  source_locator: "chap. Dominant ideas and crucial factors"
+  source_status: verified
+  steps:
+    - Read a brief or an existing design.
+    - Write the idea that dominates how everyone is approaching it.
+    - Name the factor treated as crucial (the one nobody would drop).
+    - Ask what happens if that factor is relaxed.
+    - Record one approach that escapes the dominant idea.
+  time_min: 15
+  group_size: "1–4"
+  materials: [brief, paper]
+  units: [U3, U4]
+  evidence: "untested"
+  accessibility: "No physical requirements."
+
+- id: five-whys
+  name: Five whys
+  family: framing
+  mode: convergent
+  primary_source: norman-2013
+  source_locator: "chap. 5 Human Error? No, Bad Design (section The Five Whys)"
+  source_status: verified
+  steps:
+    - State the observed problem or failure.
+    - Ask why it happened; write the answer.
+    - Ask why again of that answer, up to five times.
+    - Stop when an answer points to something you can change in the design.
+    - Check that the chain does not end at blaming a person.
+  time_min: 15
+  group_size: "2–4"
+  materials: [paper or board]
+  units: [U3, U4]
+  evidence: "untested"
+  accessibility: "No physical requirements."
+
+- id: problem-finding
+  name: Problem finding (presented vs discovered problems)
+  family: framing
+  mode: divergent
+  primary_source: csikszentmihalyi-1996
+  source_locator: "chap. 4 The Work of Creativity"
+  source_status: verified
+  steps:
+    - Take the brief as given and write it down.
+    - Observe the situation for ten minutes and list problems the brief does not mention.
+    - Rewrite one discovered problem as a new brief.
+    - Compare the given and the discovered brief with a peer.
+  time_min: 25
+  group_size: "1–3"
+  materials: [notebook, access to a real setting or case]
+  units: [U1, U6]
+  evidence: "untested"
+  accessibility: "Observation can use video or case material instead of a site visit."
+
+- id: wicked-reframe
+  name: Problem–solution reframing (wicked problems)
+  family: framing
+  mode: both
+  primary_source: buchanan-1992
+  source_locator: "p. 16"
+  source_status: verified
+  steps:
+    - Write three different formulations of the same problem.
+    - For each formulation, sketch the solution it implies.
+    - Note how each solution changes the problem you see.
+    - Choose the formulation you will work with and say what it excludes.
+  time_min: 20
+  group_size: "2–4"
+  materials: [paper]
+  units: [U1, U3]
+  evidence: "untested"
+  accessibility: "Sketches may be written descriptions."
+
+- id: force-field-analysis
+  name: Force-field (tug-of-war) analysis
+  family: framing
+  mode: convergent
+  primary_source: gap
+  gap_work: "origin attribution unverified"
+  source_status: held
+  held_note: "Tug-of-War records from Michalko 2010 (Thinkertoys), not in references.yml."
+  steps:
+    - Write the goal state on one side and the current state on the other.
+    - List forces pushing toward the goal and forces holding it back.
+    - Rate each force from 1 to 5.
+    - Pick one restraining force to weaken and one driving force to strengthen.
+    - Turn both into actions.
+  time_min: 20
+  group_size: "2–5"
+  materials: [two-column template]
+  units: [U4]
+  evidence: "untested"
+  accessibility: "Template usable as a table."
+
+- id: empathy-map
+  name: Empathy map
+  family: framing
+  mode: both
+  primary_source: gap
+  gap_work: "Kelley and Kelley 2013 (held, not in references.yml)"
+  source_status: held
+  held_note: "Empathy-map records from Kelley and Kelley 2013 (Creative Confidence)."
+  steps:
+    - Draw four quadrants - says, does, thinks, feels.
+    - Fill them from interview or observation notes about one user.
+    - Mark contradictions between quadrants.
+    - Write one need the contradictions suggest.
+  time_min: 25
+  group_size: "2–4"
+  materials: [large paper or whiteboard, sticky notes, interview notes]
+  units: [U3, U4]
+  evidence: "untested"
+  accessibility: "Digital template; works from transcripts as well as live observation."
+
+- id: mental-locks-audit
+  name: Mental locks audit
+  family: reflection
+  mode: convergent
+  primary_source: gap
+  gap_work: "von Oech (held, not in references.yml)"
+  source_status: held
+  held_note: "Open Mental Locks records from von Oech 1990 and 2008 (A Whack on the Side of the Head)."
+  steps:
+    - Recall a recent moment when you dropped an idea early.
+    - Write the belief that made you drop it (for example "that is not logical").
+    - Ask when that belief helps and when it blocks.
+    - Revisit the dropped idea with the belief set aside for five minutes.
+  time_min: 15
+  group_size: individual
+  materials: [paper]
+  units: [U1, U6]
+  evidence: "untested"
+  accessibility: "Private writing; nothing has to be shared."
+
+- id: double-diamond
+  name: Double-diamond plan
+  family: framing
+  mode: both
+  primary_source: norman-2013
+  source_locator: "chap. 6 Design Thinking (The Double-Diamond Model of Design)"
+  source_status: verified
+  steps:
+    - Draw two diamonds side by side - problem space, then solution space.
+    - Plan an opening (diverge) and a closing (converge) move for each diamond.
+    - Assign one technique from this catalogue to each of the four moves.
+    - Mark where the team will check whether it is solving the right problem.
+  time_min: 20
+  group_size: "3–6"
+  materials: [template, catalogue list]
+  units: [U3, U4]
+  evidence: "untested"
+  accessibility: "Template usable as a table."
+
+- id: contextual-observation
+  name: Contextual observation
+  family: framing
+  mode: divergent
+  primary_source: norman-2013
+  source_locator: "chap. 6 Design Thinking (The Human-Centered Design Process, Observation)"
+  source_status: verified
+  steps:
+    - Choose a place where people do the activity you are designing for.
+    - Watch for twenty minutes; note what people do, not what you think they want.
+    - Mark workarounds and moments of hesitation.
+    - Write three questions the observation raised.
+  time_min: 30
+  group_size: "1–3"
+  materials: [notebook, consent script if people are identifiable]
+  units: [U3, U4]
+  evidence: "untested"
+  accessibility: "Video observation allowed; no photographs of people without consent."
+
+# ------------------------------------------------------------------ selection
+- id: hits-dot-voting
+  name: Hits and dot voting
+  family: selection
+  mode: convergent
+  primary_source: knapp-2016
+  source_locator: "chap. 10 Decide (Heat map; Straw poll)"
+  source_status: verified
+  steps:
+    - Put all ideas on the wall, one per note or sheet.
+    - Read in silence; each student places small dots on parts that look strong (hits).
+    - Each student then gets one larger vote for one idea.
+    - Cluster the dots and read out the top three.
+    - The decider (or the group) chooses, and records why.
+  time_min: 15
+  group_size: "3–10"
+  materials: [dot stickers, wall or board]
+  units: [U2, U4]
+  evidence: "untested"
+  accessibility: "Digital whiteboard voting; allow seated access to the wall."
+
+- id: note-and-vote
+  name: Note-and-vote
+  family: selection
+  mode: convergent
+  primary_source: knapp-2016
+  source_locator: "chap. 11 Rumble (Note-and-Vote)"
+  source_status: verified
+  steps:
+    - Each student writes their best ideas on paper, in silence.
+    - Each picks their single favourite.
+    - Go round the group; each reads out the favourite and it is written on the board.
+    - Everyone votes once, in silence.
+    - The decider makes the final call.
+  time_min: 15
+  group_size: "3–8"
+  materials: [paper, board]
+  units: [U3, U4]
+  evidence: "untested"
+  accessibility: "Votes can be written or typed."
+
+- id: cocd-box
+  name: COCD box
+  family: selection
+  mode: convergent
+  primary_source: gap
+  gap_work: "origin attribution unverified"
+  source_status: gap
+  steps:
+    - Draw a two-by-two grid - originality (low/high) by feasibility (low/high).
+    - Place each idea in a quadrant after a short discussion.
+    - Name the quadrants - now (feasible, ordinary), wow (feasible, original), how (original, not yet feasible), and discard.
+    - Keep wow ideas for development and how ideas for later.
+  time_min: 15
+  group_size: "3–6"
+  materials: [grid on board or paper, sticky notes]
+  units: [U2]
+  evidence: "gap: no verified study in references.yml."
+  accessibility: "Table version for screen readers."
+
+- id: pmi
+  name: PMI (Plus, Minus, Interesting)
+  family: selection
+  mode: convergent
+  primary_source: gap
+  gap_work: "attribution unverified"
+  source_status: gap
+  steps:
+    - Take one idea at a time.
+    - List its plus points for two minutes.
+    - List its minus points for two minutes.
+    - List what is interesting about it, whatever the verdict.
+    - Decide - keep, change or drop - and note the reason.
+  time_min: 10
+  group_size: "1–4"
+  materials: [three-column sheet]
+  units: [U2, U4]
+  evidence: "untested"
+  accessibility: "Oral version possible."
+
+- id: alu
+  name: ALU (Advantages, Limitations, Unique qualities)
+  family: selection
+  mode: convergent
+  primary_source: gap
+  gap_work: "Puccio, Mance and Murdock 2011 (manifest key puccio-2011)"
+  source_status: gap
+  steps:
+    - Choose one promising idea.
+    - List its advantages.
+    - List its limitations, each phrased as "how to ...?" so it can be worked on.
+    - List what is unique about it.
+    - Address the most serious limitation with one change.
+  time_min: 15
+  group_size: "1–4"
+  materials: [three-column sheet]
+  units: [U2, U3]
+  evidence: "gap: Puccio, Mance and Murdock 2011."
+  accessibility: "Oral version possible."
+
+- id: weighted-decision-matrix
+  name: Weighted decision matrix
+  family: selection
+  mode: convergent
+  primary_source: gap
+  gap_work: "attribution unverified"
+  source_status: gap
+  steps:
+    - List the options as rows.
+    - Agree three to five criteria and give each a weight.
+    - Score each option against each criterion (1–5).
+    - Multiply by weights and total.
+    - Check the winner against intuition; discuss any disagreement before deciding.
+  time_min: 20
+  group_size: "2–5"
+  materials: [matrix template or spreadsheet]
+  units: [U3, U4]
+  evidence: "untested"
+  accessibility: "Spreadsheet version usable with a screen reader."
+
+- id: peer-cat
+  name: Consensual assessment (peer CAT)
+  family: selection
+  mode: convergent
+  primary_source: gap
+  gap_work: "Amabile 1982 (manifest key amabile-1982)"
+  source_status: gap
+  steps:
+    - Collect anonymous outputs from the same task.
+    - Each peer judge rates every output on creativity with their own understanding of the word, on a 1–5 scale.
+    - Judges work independently and do not discuss.
+    - Average the ratings per output and check how far judges agreed.
+    - Discuss outputs with high disagreement.
+  time_min: 20
+  group_size: "3–5 judges"
+  materials: [anonymised outputs, rating sheet]
+  units: [U1, U2]
+  evidence: "gap: Amabile 1982."
+  accessibility: "Outputs presented in accessible formats; rating sheet digital or paper."
+
+- id: six-thinking-hats
+  name: Six Thinking Hats
+  family: selection
+  mode: both
+  primary_source: debono-1985
+  source_locator: "whole book; hat colours and map-then-route as cited in U2 (p. 199)"
+  source_status: verified
+  steps:
+    - Name the decision or idea to examine.
+    - Agree a sequence of hats for the session (for example white, green, yellow, black, red, blue).
+    - Everyone thinks in the same hat at the same time for a fixed slot.
+    - Record contributions under the current hat only.
+    - Close with the blue hat - summary and next step.
+  time_min: 30
+  group_size: "3–8"
+  materials: [hat cards or coloured paper, board]
+  units: [U2, U4]
+  evidence: "untested"
+  accessibility: "Coloured cards also carry the hat name in text (colour-blind safe)."
+
+# ------------------------------------------------------------------ development
+- id: delay-judgement-checkpoint
+  name: Delay-judgement checkpoint
+  family: development
+  mode: both
+  primary_source: osborn-1942
+  source_locator: "chap. 4 (criticism withheld until all ideas are in); see also debono-1970 chap. Suspended judgement"
+  source_status: verified
+  steps:
+    - Agree a generation phase with no evaluation.
+    - Set a checkpoint time when evaluation opens.
+    - At the checkpoint, apply one stated criterion only.
+    - Agree an exit rule - what result ends the iteration.
+  time_min: 20
+  group_size: "2–5"
+  materials: [timer, criteria card]
+  units: [U3]
+  evidence: "Amabile 1979, 221: expecting evaluation lowered judged creativity, which supports separating generation from evaluation."
+  accessibility: "No physical requirements."
+
+- id: parallel-prototyping
+  name: Parallel prototyping
+  family: development
+  mode: both
+  primary_source: dow-2010
+  source_locator: "article 18, p. 18:1"
+  source_status: verified
+  steps:
+    - Make three different quick prototypes of the same brief before getting feedback.
+    - Get feedback on all three at once.
+    - Note what each prototype taught you.
+    - Combine the strongest elements into the next version.
+    - Compare with what one prototype at a time would have shown.
+  time_min: 45
+  group_size: "1–3"
+  materials: [paper, card, tape or digital mock-up tool]
+  units: [U3, U5]
+  evidence: "Dow et al. 2010, 18:1: parallel prototyping gave better and more varied designs and more self-efficacy than serial iteration."
+  accessibility: "Prototypes in any medium (paper, digital, verbal scenario)."
+
+- id: storyboarding
+  name: Storyboarding
+  family: development
+  mode: convergent
+  primary_source: knapp-2016
+  source_locator: "chap. 12 Storyboard"
+  source_status: verified
+  steps:
+    - Draw a grid of eight to fifteen frames.
+    - Choose an opening scene - where the user first meets the idea.
+    - Fill the frames step by step with rough sketches and short captions.
+    - Use the strongest parts of earlier sketches rather than new ideas.
+    - Walk a peer through the storyboard and note where they hesitate.
+  time_min: 40
+  group_size: "1–5"
+  materials: [large paper or whiteboard, sticky notes, markers]
+  units: [U3, U4]
+  evidence: "untested"
+  accessibility: "Frames may be written descriptions or photos."
+
+- id: question-led-prototype
+  name: Question-led rough prototype
+  family: development
+  mode: convergent
+  primary_source: knapp-2016
+  source_locator: "chap. 13 Fake It"
+  source_status: verified
+  steps:
+    - Write the one question this prototype must answer.
+    - Decide whether it tests role, look and feel, or how it works (course wording).
+    - Build only the surface needed to answer it.
+    - Test with one person and record the answer to the question.
+  time_min: 45
+  group_size: "1–4"
+  materials: [paper, card, digital mock-up tool]
+  units: [U3, U5]
+  evidence: "untested"
+  accessibility: "Any medium allowed."
+
+- id: seeing-as-sketch-cycles
+  name: Seeing-as sketch cycles
+  family: development
+  mode: both
+  primary_source: cross-2006
+  source_locator: "p. 86"
+  source_status: verified
+  steps:
+    - Sketch a first idea quickly.
+    - Look at the sketch and write what it could also be (seeing as).
+    - Sketch again from that new reading.
+    - Note what you now know about the problem (seeing that).
+    - Repeat for three cycles.
+  time_min: 25
+  group_size: individual
+  materials: [paper, pens]
+  units: [U3]
+  evidence: "untested"
+  accessibility: "Diagrams or written variants accepted."
+
+- id: five-user-interviews
+  name: Five-user test interviews
+  family: development
+  mode: convergent
+  primary_source: knapp-2016
+  source_locator: "chap. 15 Small Data"
+  source_status: verified
+  steps:
+    - Recruit five people close to the intended users.
+    - Each tests the prototype one at a time while the team watches.
+    - The interviewer asks open questions and lets the person think aloud.
+    - Observers note reactions on a shared grid.
+    - Look for patterns seen with three or more people.
+  time_min: 60
+  group_size: "3–5 plus five testers"
+  materials: [prototype, interview guide, observation grid]
+  units: [U3, U4]
+  evidence: "untested"
+  accessibility: "Testers recruited with access needs in mind; consent script required."
+
+- id: mom-test-interview
+  name: Mom Test interview
+  family: development
+  mode: convergent
+  primary_source: gap
+  gap_work: "Fitzpatrick 2013 (attribution unverified)"
+  source_status: gap
+  steps:
+    - Write questions about the person's past behaviour, not about your idea.
+    - Ask about the last time they had the problem and what they did.
+    - Avoid asking whether they would like or buy your idea.
+    - Record facts and commitments, not compliments.
+    - Summarise what the answers say about the problem.
+  time_min: 30
+  group_size: "2 (interviewer and note-taker)"
+  materials: [question list, notes]
+  units: [U4]
+  evidence: "untested"
+  accessibility: "Remote or text interviews allowed."
+
+- id: young-five-steps
+  name: Young's five steps
+  family: development
+  mode: both
+  primary_source: gap
+  gap_work: "Young 1965 (manifest key young-1965)"
+  source_status: gap
+  steps:
+    - Gather material - specific to the problem and general.
+    - Work over the material, trying combinations.
+    - Put the problem aside and do something else.
+    - Write down the idea when it appears.
+    - Shape and test the idea with others.
+  time_min: 60
+  group_size: individual
+  materials: [notebook]
+  units: [U2, U6]
+  evidence: "gap: Young 1965."
+  accessibility: "Spread over a week; no single session required."
+
+# ------------------------------------------------------------------ reflection
+- id: creative-journal
+  name: Creative journal
+  family: reflection
+  mode: both
+  primary_source: gap
+  gap_work: "Cameron 1992 (held, not in references.yml)"
+  source_status: held
+  held_note: "Journal records from Cameron (Artist's Way), Michalko (problem journal), Kelley and Kelley (daily journaling), Rubin (dream journal)."
+  steps:
+    - Keep one notebook or file for the whole course.
+    - Write a short entry after each session - what you tried, what surprised you.
+    - Once a week, reread and mark one pattern.
+    - Use the marked pattern to choose a technique for the next brief.
+  time_min: 10
+  group_size: individual
+  materials: [notebook or document]
+  units: [U1, U6]
+  evidence: "untested"
+  accessibility: "Text, voice, sketch or photo entries; entries stay private unless the student chooses to share."
+
+- id: reflection-in-action-log
+  name: Reflection-in-action log
+  family: reflection
+  mode: both
+  primary_source: schon-1983
+  source_locator: "pp. 68, 79"
+  source_status: verified
+  steps:
+    - While working, stop when something surprises you.
+    - Note what you expected and what happened.
+    - Write the new move you will try because of it.
+    - After the session, link the moves into a short account of the conversation with the material.
+  time_min: 10
+  group_size: individual
+  materials: [log template]
+  units: [U3, U6]
+  evidence: "untested"
+  accessibility: "Voice notes allowed."
+
+- id: process-trail
+  name: Process trail
+  family: reflection
+  mode: both
+  primary_source: gap
+  gap_work: "course practice (no single source); related verified idea in eckersall-2017, 15"
+  source_status: gap
+  steps:
+    - Save every version, sketch and discarded idea with a date.
+    - Arrange them in order on one page or board.
+    - Mark the divergent and convergent moves.
+    - Write one paragraph on the turning point.
+  time_min: 20
+  group_size: individual
+  materials: [folder, board or slide]
+  units: [U1, U5]
+  evidence: "untested"
+  accessibility: "Digital trail accepted."
+
+# ------------------------------------------------------------------ embodied
+- id: open-monitoring-warm-up
+  name: Open-monitoring warm-up
+  family: embodied
+  mode: divergent
+  primary_source: colzato-2012
+  source_locator: "p. 1"
+  source_status: verified
+  steps:
+    - Sit comfortably; eyes open or closed as preferred.
+    - For three minutes, notice whatever thoughts, sounds or sensations come, without holding on to any.
+    - Gently return to open noticing when you get caught in one thought.
+    - Move straight into a divergent task.
+  time_min: 3
+  group_size: "whole class"
+  materials: [timer]
+  units: [U2, U6]
+  evidence: "Colzato, Ozturk and Hommel 2012, 1: open-monitoring meditation promoted divergent thinking."
+  accessibility: "Opt-out - students may sit quietly or start the task early; no instruction about posture or breathing is required."
+
+- id: bodystorming
+  name: Bodystorming
+  family: embodied
+  mode: divergent
+  primary_source: gap
+  gap_work: "attribution unverified"
+  source_status: gap
+  steps:
+    - Set up a rough version of the place where the idea would be used.
+    - Act out the user's steps with simple props.
+    - Pause when something feels awkward and note it.
+    - Change one thing and act it out again.
+  time_min: 30
+  group_size: "3–6"
+  materials: [simple props, space]
+  units: [U3, U4]
+  evidence: "untested"
+  accessibility: "Opt-out - students may direct, observe or narrate instead of acting; seated version allowed."
+
+- id: thought-walk
+  name: Thought walk
+  family: embodied
+  mode: divergent
+  primary_source: gap
+  gap_work: "attribution unverified"
+  source_status: held
+  held_note: "Thought Walk records from Michalko 2010; walking records from Kleon (Keep Going)."
+  steps:
+    - Take the problem on a twenty-minute walk.
+    - Note things you see and connect each to the problem.
+    - Record ideas as voice notes or quick sketches.
+    - Back in class, pick two ideas to develop.
+  time_min: 25
+  group_size: "individual or pairs"
+  materials: [phone or notebook]
+  units: [U6]
+  evidence: "untested"
+  accessibility: "Opt-out - a seated observation of a window, image or video replaces walking."
+
+- id: improv-yes-and
+  name: Improvisation (yes, and)
+  family: embodied
+  mode: divergent
+  primary_source: gap
+  gap_work: "attribution unverified"
+  source_status: gap
+  steps:
+    - Pairs build an idea one sentence at a time.
+    - Each sentence starts by accepting the last one ("yes, and ...").
+    - Switch to "yes, but ..." for one round and compare.
+    - Note which round produced more usable ideas.
+  time_min: 10
+  group_size: pairs
+  materials: [none]
+  units: [U4, U6]
+  evidence: "untested"
+  accessibility: "Opt-out - written chat version, or observer role."
+
+- id: pure-contour-drawing
+  name: Pure contour drawing
+  family: embodied
+  mode: divergent
+  primary_source: gap
+  gap_work: "Edwards (held, not in references.yml)"
+  source_status: held
+  held_note: "Pure contour records from Edwards (The New Drawing on the Right Side of the Brain)."
+  steps:
+    - Choose an object with detail (a hand, a crumpled paper).
+    - Look only at the object, not the paper, for five minutes.
+    - Let the pen follow the edges your eyes follow, slowly.
+    - Look at the result and note what you saw that you usually miss.
+  time_min: 10
+  group_size: individual
+  materials: [paper, pen, object]
+  units: [U1, U6]
+  evidence: "untested"
+  accessibility: "Opt-out - written description of edges, or tracing on a tablet; no drawing skill assumed."
