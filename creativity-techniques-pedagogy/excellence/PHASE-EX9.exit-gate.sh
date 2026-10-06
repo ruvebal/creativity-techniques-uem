@@ -56,4 +56,25 @@ else
   fail "browser layout check"; tail -15 "$DL_LOG"
 fi
 
+# Amendment A12/F8: no "Public domain" caption on a flagged asset; F9: Opt-out covers technique_ids_also.
+python3 - "$DECKS" creativity-techniques-pedagogy/in-practice/CANONICAL-TECHNIQUES.yml "$LESSONS" <<'GATEPY' && pass "A12 caption honesty + opt-out coverage" || fail "A12 caption honesty + opt-out coverage"
+import json, pathlib, re, sys, subprocess
+bad = []
+cat = json.loads(subprocess.run(["ruby","-ryaml","-rjson","-e","c=YAML.load_file(ARGV[0]); c=c['techniques'] if c.is_a?(Hash); puts JSON.dump(c)",sys.argv[2]],capture_output=True,text=True).stdout)
+emb = {t["id"] for t in cat if t.get("family") == "embodied"}
+for p in pathlib.Path(sys.argv[1]).glob("u-[123]-*/data/content.json"):
+    d = json.loads(re.sub(r"^---[\s\S]*?---\s*", "", p.read_text()))
+    assets = {a.get("asset_id"): a for a in d.get("assets", [])}
+    for s in d["slides"]:
+        a = assets.get(s.get("asset_id"))
+        if a and a.get("rights_status") == "flagged" and re.search(r"public domain", str(a.get("licence","")) + str(a.get("credit_line","")), re.I):
+            bad.append(f"{p.parent.parent.name}:{s.get('slide_id')} flagged asset captioned public domain")
+        if s.get("slide_role") == "lab_exercise":
+            ids = [s.get("technique_id")] + list(s.get("technique_ids_also") or [])
+            if any(i in emb for i in ids):
+                lesson = (pathlib.Path(sys.argv[3]) / p.parent.parent.name / "index.md").read_text()
+                if "**Opt-out:**" not in lesson: bad.append(f"{p.parent.parent.name}: embodied technique without Opt-out")
+print(bad); sys.exit(1 if bad else 0)
+GATEPY
+
 finish

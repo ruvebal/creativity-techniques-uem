@@ -41,6 +41,8 @@ shows a filled portfolio trace; lessons contain no images.
 
 (Amendment A10: reword the two compressed deck notes — Dow "larger increase in task-specific self-confidence"; U2 masterclass-6 "most workshops try to enhance"; keep claim-by-claim Source lines.)
 
+(Amendment A12: also fix EX8 F1–F9 — criterion before choice; Sprint wording; 6-3-5 vs solo note; timings; Houde & Hill relabel; U1 Ask line; stale image_brief; caption never "Public domain" on a flagged asset (move Fountain to the readymade step if better); document technique_id / technique_ids_also / practises.)
+
 ## Prompt (Implementation Agent)
 
 ```text

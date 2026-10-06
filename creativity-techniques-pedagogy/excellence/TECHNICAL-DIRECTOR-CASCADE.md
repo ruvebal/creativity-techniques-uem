@@ -205,6 +205,22 @@ EX8 starts by correcting the catalogue (edit `in-practice/canonical/techniques.b
 - **EX8 cards:** a student-facing Source line only for a verified
   `primary_source`; techniques with `gap`/held sources run in class without one.
 
+## Amendment A12 (EX8 cold review, 2026-10-06)
+
+EX9 also fixes the EX8 P2 findings (lessons + decks it restructures anyway):
+- **F1:** U2 Ex2 — write the selection criterion *before* choosing (matches Masterclass 5).
+- **F2:** Sprint paraphrase — heat map marks "interesting parts"; voting is the straw poll.
+- **F3:** U2 Ex1 — facilitation note: 6-3-5 caps ideas per round, solo does not; compare kinds (flexibility), not raw counts.
+- **F4:** realistic timings (U1 Ex1 read-aloud; U2 Ex1 pooling of up to 54 ideas).
+- **F5:** Houde & Hill question → "adapted question (source pending)", not "course wording".
+- **F6:** U1 Lab 1 Ask line fits one listing round.
+- **F7:** U2 lab-2 stale `image_brief`.
+- **F8 (rights honesty):** a caption must never say "Public domain" for an asset whose
+  rights_status is `flagged`; move the *Fountain* image to the readymade step (U1 lab-2)
+  if it fits better, and show the flag-consistent licence text. Validator check.
+- **F9:** document `technique_id`, `technique_ids_also`, `practises` in the forge
+  schema; the EX9 gate's Opt-out check covers `technique_ids_also`.
+
 ## Programme (do not invert)
 
 | Step | Phase | Lane | Findings closed | Human gate |
