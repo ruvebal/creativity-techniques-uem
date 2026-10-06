@@ -298,3 +298,11 @@ Every `Source:` line now attributes per claim, and ends with "Other bullets are 
 | U3 lab-2 | delaying judgement | de Bono 1970, chap. "The New Word PO" | yes | — |
 
 **Limitation for EX11:** `tests/deck-lesson-sync.test.mjs` checks author-date pins and locators only (and stale "no page cite" notes). It cannot tell whether a clause next to a cite is on that page; that needs a human page check (this sweep) or a structured `claims: [{text, cite}]` field in the deck schema that a test could compare with the lesson's PROVENANCE_LINE verbatims.
+
+### Round-3 results (real output)
+
+- `npm run build` (prebuild, validate, jekyll, verify:publication): exit 0, "Publication safety passed"; rebuild left no tracked changes.
+- `PHASE-EX0 … EX6.exit-gate.sh`: all exit 0, `failures: 0`.
+- `npm test`: 47 pass. Probe and deck-lesson sync tests: 12 pass, 0 fail.
+- `npm run test:browser`: 325 slide views, 0 failures.
+- Built U3 deck: "paste the entry point on afterwards" now appears once, inside the line labelled "Course wording (not from the sources)".
