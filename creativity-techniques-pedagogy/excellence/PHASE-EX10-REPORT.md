@@ -2,7 +2,7 @@
 
 | Field | Value |
 | --- | --- |
-| **status** | VERIFYING (round 2, after round-1 cold review FAIL). F1–F5 fixed; F7 public MCQs balanced; F8, F10, F11 fixed. F6/A14 already recorded. F9 stays on EX11 (A14). Next: `cascade-harness.sh verify`, then a fresh cold review. Do not mark DONE. |
+| **status** | COLD_REVIEW PASS (round 2). Round-1 F1–F5 closed; one P2 (AUT card "class pool") deferred to EX11. Verify tip `7282f50`. Ready for `gitflow.sh land 10`. Implementer does not mark DONE. |
 | **branch / worktree** | `cascade/excellence-10` · `creativity-techniques-uem-integration-excellence-10` (`.cascade-lane` = `excellence`) |
 | **mode** | AUTOPILOT §2 EX10 row: drafts only, `approved_by: autopilot (drafts — not for use before professor approval)`; measurement **not started**; no student data. Judgment calls: `DECISIONS-LOG.md` (11 EX10 lines) |
 | **cascade_amended** | No orchestrator, phase or gate file changed. The forge rule `STUDENT-SLIDESHOW-FORGE.mdc` gained the retrieval slide (Deliverable 5 asks for it). |

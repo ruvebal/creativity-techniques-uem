@@ -292,16 +292,16 @@ U4 (legacy, out of scope) keeps *Man dreaming* (`profield-cache/0a359d9b946505e1
 - **Local work:** one qwen call (design-example drafts, edited), one Thessia voice pass (discarded). `evidence/EX9/`.
 - Gate pre-check: EX9 0 failures; EX0–EX8 0 failures; `npm test` 55/55; deck–lesson sync green; `npm run build` exit 0 with publication safety (run by the orchestrator at a20b1f7). Report: `PHASE-EX9-REPORT.md`. Rollback: `gitflow.sh rollback 9`.
 
-### EX10 — didactics layer: question bank, practice quizzes, recall slides, method cards, measurement drafts (VERIFYING)
+### EX10 — didactics layer: question bank, practice quizzes, recall slides, method cards, measurement drafts (PASS)
 
-- **P0 — approve the bank, the protocol and the consent forms before any use** (see §2). Measurement never started; no student data exist; nothing private is under `docs/` (gate: no "question-bank"/"MEASUREMENT-PROTOCOL" in `_site`).
-- **Question bank (private):** 68 items (U1 22, U2 24, U3 22; 30 mcq, 11 short, 27 case); 28 at apply/analyse/evaluate (41%); RA14 37, RA5 13, RA6 9, RA15 6, RA12 3 (thin — see report). Every answer comes from the unit lesson and the verified work its sentence cites (`ref` = a key in that lesson's reference list); uncited course method (language/medium/support, COCD box) is not examined.
-- **Public:** `/practice/en/u-1…`, `u-2…`, `u-3…` (5 questions each, answers on click, linked from each Conclusion); a "Recall check" slide closing each Masterclass (5 questions, answers in the speaker notes, 3-minute timer; browser check 340 views / 0 failures); `/methods/en/cards/` (40 printable cards: 6 practice methods + 34 techniques with a verified source; gap/held techniques not carded); `/practice/en/peer-rating-sheet/` (printable; optional round in U2 Lab Exercise 2, +5 minutes).
-- **Protocol (draft):** pre/post AUT (weeks 1 and 14, objects never used in class), originality by blinded peer consensual rating, SSCS if obtained; third-person consent handling; ethics approval before collection; one group, no causal claim.
-- **A13:** U1 Flexibility gloss now follows Chen 2011, 26 ("at once"); "class pool" removed; U2 wayfinding line is an example ("you might find"); lessons index Workshop row says D1 gets no Workshop time.
-- **Please check:** the U1–U3 lab-opener and outro now show the next geometric SVG in the cycle (the recall slide takes one); the AUT method card still says "Pool the class lists" (catalogue wording).
-- **Local work:** 3 `qwen2.5:32b-instruct` calls drafted 42 stems (26 bank items started from a draft, all rewritten and checked); 2 Athanor searches (no hit). `evidence/EX10/`.
-- Gate pre-check: EX10 0 failures; EX0–EX9 0 failures; tests 77/77; `npm run build` exit 0 with publication safety. Report: `PHASE-EX10-REPORT.md`. Rollback: `gitflow.sh rollback 10`.
+- **Cold review:** round 1 FAIL (F1–F5); round 2 **PASS** (`PHASE-EX10-COLD-REVIEW.md`, 1 P2 carryover). Verify tip `7282f50`.
+- **P0 — approve the bank, the protocol and the consent forms before any use** (see §2). Measurement never started; no student data; nothing private under `docs/`.
+- **Question bank (private):** 68 items; honest higher-order share **27/68 (39.7%)** after round-2 rewrites (new objects, not lesson "In practice" copies). Public quizzes 5/unit; U3-05 replaces U3-08 on the public page so it no longer gives away U3-09.
+- **Round-2 procedure fixes:** whole class does the AUT; third person keeps only consented sheets (EN/ES consent match protocol §2/§5/§6). U2 Lab + peer sheet: neighbouring teams swap top threes. Method-card When-to-use overrides for what-if prompts and parallel prototyping.
+- **Public:** practice quizzes, Masterclass recall slides (answers aligned in notes), `/methods/en/cards/` (40), peer rating sheet.
+- **Please check:** AUT method card still says "Pool the class lists" (EX11 / A14 catalogue fix). Lab-opener/outro geometric cycle shifted by the recall slide.
+- **Local work:** 3 qwen draft calls + 2 Athanor searches (round 1); round 2 was hand edits. `evidence/EX10/`.
+- Gate: EX10 0 failures (runner); `npm test` 67/67. Report: `PHASE-EX10-REPORT.md`. Rollback: `gitflow.sh rollback 10`.
 
 ### Release checklist additions (from EX2)
 
