@@ -26,6 +26,7 @@ import {
   licenceLabel,
   notesHtml,
   parseHashedSvgName,
+  questionsHtml,
   renderDeck,
   timerFor,
   withBase,
@@ -151,6 +152,32 @@ test('validator: unknown layout and non-string notes are errors on v2 decks', ()
   ]), { unit: 'U9' });
   assert.ok(errors.some((e) => /layout "bogus"/.test(e)), errors.join('\n'));
   assert.ok(errors.some((e) => /notes must be/.test(e)), errors.join('\n'));
+});
+
+test('EX10: retrieval slide renders five questions as a list, answers only in notes, with a timer', () => {
+  assert.equal(questionsHtml(['A <b>?', ' ', 'B?']), '<ol class="student-media-slide__questions"><li>A &lt;b&gt;?</li><li>B?</li></ol>');
+  assert.equal(questionsHtml(undefined), '');
+  assert.equal(layoutFor({ slide_role: 'retrieval' }), 'exercise');
+  const qs = ['Q1?', 'Q2?', 'Q3?', 'Q4?', 'Q5?'];
+  const html = renderDeck(deck([
+    { slide_id: 'retrieval', slide_role: 'retrieval', background_kind: 'geometrical', heading: 'R', questions: qs, notes: 'Answers:\n- 1. secret' },
+  ]), CTX);
+  const card = html.split('<aside')[0];
+  assert.equal((card.match(/<li>/g) || []).length, 5);
+  assert.doesNotMatch(card, /secret/, 'answers are not on the slide card');
+  assert.match(html, /<aside class="notes">.*secret/);
+  assert.match(html, /data-slide-role="retrieval"[^>]*data-timer="180"/);
+  assert.match(html, /fractal-pass-track\//, 'geometrical background');
+});
+
+test('EX10 validator: retrieval slide needs five short questions, answers in notes, geometrical background', () => {
+  const ok = { slide_id: 'retrieval', slide_role: 'retrieval', background_kind: 'geometrical', heading: 'R', questions: ['a?', 'b?', 'c?', 'd?', 'e?'], notes: 'Answers: …' };
+  assert.deepEqual(deckProblems(deck([ok]), { unit: 'U9' }).errors, []);
+  const errs = (s) => deckProblems(deck([{ ...ok, ...s }]), { unit: 'U9' }).errors.join('\n');
+  assert.match(errs({ questions: ['a?'] }), /exactly 5 question/);
+  assert.match(errs({ questions: ['a?', 'b?', 'c?', 'd?', 'x'.repeat(81)] }), /longer than 80/);
+  assert.match(errs({ notes: 'Talk.' }), /must carry the answers/);
+  assert.match(errs({ background_kind: 'diagram' }), /must be geometrical/);
 });
 
 test('EX5 cold review F1: root-relative citation hrefs get the base path; others pass through', () => {

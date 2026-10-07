@@ -129,7 +129,7 @@ Studies of designers find that they tend to "hang on to their principal solution
 <figcaption>{% include lesson-figure.html deck="u-2-idea-generation-selection" slide="masterclass-3" %}</figcaption>
 </figure>
 
-**In practice:** for wayfinding signs, arrows and room numbers come first; keep writing until colour, sound or floor marks appear.
+**In practice:** for wayfinding signs, you might find that arrows and room numbers come first; if so, keep writing until colour, sound or floor marks appear.
 
 **Try it:** the silent rounds of [Lab · Exercise 1](#lab-exercise-1) keep ideas coming without judging them.
 
@@ -279,6 +279,8 @@ Practises Masterclass ideas **4** (role and constraint tools) and **5** (name se
 6. **Black hat** (3 minutes): everyone thinks only about why each could fail or cannot be done.
 7. Before you pick, write the criterion you will use; then choose one idea. Compare: is your pick also the idea your team placed as most original in the grid? If not, say why in one sentence.
 
+**Optional peer rating (about 5 extra minutes):** before step 7, swap your top three with a neighbouring team (no names on the list). Each person rates the other team's three items alone and in silence on the printable [peer rating sheet]({{ '/practice/en/peer-rating-sheet/' | relative_url }}), then returns the sheet. Compare the averages you receive with your own grid.
+
 **Portfolio trace:** a photo of the dots and the grid; the top three with their yellow and black notes; your criterion, the chosen idea and your one-sentence comparison.
 
 **Example trace:** *Illustrative example (not student work)* — made by the professor to show the format, continuing the cup brief above.
@@ -327,6 +329,8 @@ From session 4: Workshop time goes half to D2 Transposition and half to the fina
 ## Conclusion
 
 This unit trains a rhythm, not a definition. It does not settle where a new kind ends and a dressed-up repeat begins, how many ideas are enough for a given brief, or whether Hats and prompt cards improve every brief. Rubin’s practice-and-taste account sits beside Csikszentmihalyi’s test dimensions without becoming one doctrine, and Hüppauf and Wulf treat imagination, fantasy, and creativity as related terms that still need to be told apart [(Hüppauf and Wulf 2009, 21)](#ref-huppauf-wulf-2009). Brainwriting reliably produces material you did not have in view at the start; whether that material is better is for your criteria to decide. Run the two Lab exercises twice, compare your notes, and decide which gap you want to investigate next.
+
+**Practice quiz:** five questions on this unit, with answers you open on click — [U2 practice quiz]({{ '/practice/en/u-2-idea-generation-selection/' | relative_url }}). Answer from memory first, then check. It is practice only and nothing is recorded.
 
 ---
 

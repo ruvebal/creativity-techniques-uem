@@ -41,7 +41,14 @@ export const ALLOWED_EXTENSIONS = Object.freeze(['jpg', 'png', 'webp', 'gif', 's
 /** Files allowed in deck-media/ (renditions only: never raw SVG). */
 export const RENDITION_EXTENSIONS = Object.freeze(['webp', 'jpg', 'png', 'gif']);
 export const BACKGROUND_KINDS = Object.freeze(['curated', 'diagram', 'geometrical', 'none']);
-export const STRUCTURAL_ROLES = Object.freeze(['analysis_opener', 'lab_opener', 'workshop_opener', 'outro']);
+export const STRUCTURAL_ROLES = Object.freeze(['analysis_opener', 'lab_opener', 'workshop_opener', 'outro', 'retrieval']);
+/**
+ * Retrieval slide (EX10): five recall questions after the Masterclass. 80 characters keeps
+ * five questions inside the Lab-card height at 1920×1080 (browser check: five stems of
+ * 66–73 characters wrapped to two lines each and overflowed by 7 px).
+ */
+export const RETRIEVAL_QUESTIONS = 5;
+export const RETRIEVAL_MAX_CHARS = 80;
 export const MEDIA_ROLES = Object.freeze(['unit_cover', 'analysis_model', 'masterclass', 'lab_exercise', 'workshop_work']);
 export const MAX_RENDITION_BYTES = 600 * 1024;
 export const MAX_RENDITION_PX = 1920;
@@ -279,6 +286,19 @@ export function deckProblems(content, ctx = {}) {
       if (strict && slide.media_slot_id) issue(`${label}: media_slot_id on a ${slide.background_kind} slide`);
       if (slide.asset_id) warnings.push(`${label}: asset_id ${slide.asset_id} named but not bound (not accepted or no rendition)`);
     }
+    // EX10: a retrieval slide carries exactly five short recall questions; the answers live in its notes.
+    if (strict && slide.slide_role === 'retrieval') {
+      const qs = Array.isArray(slide.questions) ? slide.questions : [];
+      if (qs.length !== RETRIEVAL_QUESTIONS || !qs.every((q) => typeof q === 'string' && q.trim())) {
+        issue(`${label}: retrieval slide needs exactly ${RETRIEVAL_QUESTIONS} question strings`);
+      }
+      const long = qs.filter((q) => String(q).length > RETRIEVAL_MAX_CHARS);
+      if (long.length) issue(`${label}: retrieval question longer than ${RETRIEVAL_MAX_CHARS} characters`);
+      if (!/answers?/i.test(Array.isArray(slide.notes) ? slide.notes.join('\n') : String(slide.notes || ''))) {
+        issue(`${label}: retrieval slide notes must carry the answers`);
+      }
+      if (slide.background_kind !== 'geometrical') issue(`${label}: retrieval slide background_kind must be geometrical`);
+    }
     if (slide.media_slot_id) slotUse.set(slide.media_slot_id, (slotUse.get(slide.media_slot_id) || 0) + 1);
     if (slide.asset_id && slide.background_kind === 'curated') assetUse.set(slide.asset_id, (assetUse.get(slide.asset_id) || 0) + 1);
   }
@@ -346,6 +366,7 @@ export function stableSlideIds(slides) {
     analysis_opener: 'analysis-opener',
     analysis_model: 'analysis-model',
     masterclass: 'masterclass',
+    retrieval: 'retrieval',
     lab_opener: 'lab-opener',
     lab_exercise: 'lab',
     workshop_opener: 'workshop-opener',

@@ -35,12 +35,15 @@ C  unit_cover                       background_kind: curated | diagram   ← REQ
 A  analysis_opener                  background_kind: geometrical   ← REQUIRED
 A+ analysis_model (optional)        background_kind: curated | diagram
 1… Masterclass ideas (≤ 6)          background_kind: curated | diagram
+R  retrieval (recall check)         background_kind: geometrical   ← REQUIRED in U1–U3 (EX10): last slide of the Masterclass
 N  lab_opener                       background_kind: geometrical   ← REQUIRED
 N+1…N+2  Exactly two Lab exercises (portfolio_bound)  background_kind: curated | diagram | none
 M  workshop_opener                  background_kind: geometrical   ← from session 4 only
 M+ Workshop work prompt             background_kind: curated | diagram | none
 Z  outro / carry-forward            background_kind: geometrical   ← REQUIRED
 ```
+
+**Retrieval slide (binding from EX10, 2026-10-06):** exactly **one** `slide_role: retrieval` slide per unit deck, after the last Masterclass idea and before `lab_opener`. It carries `questions:` — exactly **five** short recall questions (≤ 80 characters each: the EX10 browser check showed five two-line questions overflow the card at 1920×1080) taken from the private knowledge-test bank (`excellence/assessment/`, the `retrieval` form of a bank item) — and its `notes` hold the answers, each with the lesson's own pin cite. Answers never appear on the slide. Layout defaults to `exercise` (3-minute timer); background is geometrical. The validator enforces count, length, answers in notes and background; `scripts/tests/practice-quizzes.test.mjs` keeps slide questions and note answers equal to the bank, in order. Not a Masterclass idea: it does not count against the six.
 
 **Lab exercise count (binding):** **exactly two** `lab_exercise` slides per ordinary unit — concentrate meaning into those two; do not forge three or more. Lesson B2 must match. If a selection rubric is needed, make it a phase inside Exercise 2 rather than a third slide.
 
@@ -59,7 +62,7 @@ The student **lesson** must contain the Analysis method in prose (language / med
 | ---- | ---------- |
 | Cover · Analysis model · Masterclass · Lab exercises | A **curated** image bound to that slide by `asset_id` (accepted in Profield or in `excellence/curation/autopilot-assets.json`; public-safe fields only), else the diagram |
 | Stance slides without a pack image | Course **diagram** — Koch triangle (`ct-koch-triangle-*.svg`), **not** Sierpinski |
-| `analysis_opener` · `lab_opener` · `workshop_opener` · `outro` | **Geometrical only** (`fractal-pass-track` SVGs) |
+| `analysis_opener` · `retrieval` · `lab_opener` · `workshop_opener` · `outro` | **Geometrical only** (`fractal-pass-track` SVGs) |
 | Never | Invented rights; Resource UUID / forger version in captions; Sierpinski as Masterclass fallback |
 | Never | Non-geometrical decorative fallbacks on transition slides; geometrical captions must include the SVG content-hash UUID |
 
@@ -112,7 +115,8 @@ Typed fields on each slide object:
 
 ```yaml
 slide_id: masterclass-1            # v2: required, stable
-slide_role: unit_cover | analysis_opener | analysis_model | masterclass | lab_opener | lab_exercise | workshop_opener | workshop_work | outro
+slide_role: unit_cover | analysis_opener | analysis_model | masterclass | retrieval | lab_opener | lab_exercise | workshop_opener | workshop_work | outro
+questions: ["Short recall question?", …]   # retrieval only (EX10): exactly five, ≤ 80 characters; answers in notes
 background_kind: curated | diagram | geometrical | none
 image_brief: "One sentence: what the image shows and why."   # image slides
 asset_id: "wikimedia:File:Example.jpg"                        # curated slides
@@ -122,7 +126,7 @@ portfolio_trace: "Save … in the portfolio index."
 quote: "Optional brief quotation (≤ ~40 words) — Ahmes-verbatim or Tao invent (see golden rule 3)."
 quote_origin: page_verified | tao_invented   # required whenever quote is set; never put the corpus product name in student content.json
 semantic_tags: []   # DH metadata for the quote — see golden rule 3
-layout: image_argument | quote | split | exercise   # optional (EX5); default by role: cover/model/masterclass → image_argument, lab/workshop → exercise, openers/outro → split
+layout: image_argument | quote | split | exercise   # optional (EX5); default by role: cover/model/masterclass → image_argument, lab/workshop/retrieval → exercise, openers/outro → split
 notes: "Speaker notes: '- ' lines are talking points, then Source: (the lesson's own cite) and Ask: (debate prompt)."   # EX5: required on every masterclass slide (gate); drafted for every lab slide
 timer_seconds: 180  # optional on exercise slides; the Lab timer defaults to 180
 technique_id: brainwriting-635          # lab_exercise (EX8): required; the primary technique, an id in in-practice/CANONICAL-TECHNIQUES.yml
@@ -170,7 +174,7 @@ These rules are checked by cold review before a lesson's `status:` may move off 
 | Block | Name | Student evidence |
 | ----- | ---- | ---------------- |
 | Analysis strip | Modelled analysis (s1–2) or 2×15 min defences (from s3) | D1 slideshow support |
-| Masterclass | Ideas + images | notes |
+| Masterclass | Ideas + images; ends with the five-question recall check | notes |
 | Lab | **Exactly two** exercises + debates | portfolio traces |
 | Workshop | **Absent** in first lessons; from **s4**: ≈½ Transposition · ≈½ final event | D2–D3 progress only |
 

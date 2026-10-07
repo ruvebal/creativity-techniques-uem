@@ -5,6 +5,7 @@
  *   built on media-rules caption() (Amendment A6/F4)
  * - geometricCaptionHtml / diagramCaptionHtml: course SVG captions with the content hash
  * - layoutFor: slide layout by `layout` field, else by role
+ * - questionsHtml: the retrieval slide's recall questions (EX10; answers only in notes)
  * - renderSlide / renderDeck: one <section> per slide, readable without JavaScript
  * - parseHashedSvgName: `ct-pass-01-structure-<hash8>.svg` → parts
  *
@@ -22,6 +23,7 @@ const DEFAULT_LAYOUT_BY_ROLE = Object.freeze({
   masterclass: 'image_argument',
   lab_exercise: 'exercise',
   workshop_work: 'exercise',
+  retrieval: 'exercise',
   analysis_opener: 'split',
   lab_opener: 'split',
   workshop_opener: 'split',
@@ -133,7 +135,7 @@ export function layoutFor(slide) {
 /** Timer seconds for exercise slides (`timer_seconds` overrides 180), else null. */
 export function timerFor(slide) {
   const s = slide || {};
-  if (!EXERCISE_ROLES.includes(s.slide_role) && s.layout !== 'exercise') return null;
+  if (!EXERCISE_ROLES.includes(s.slide_role) && layoutFor(s) !== 'exercise') return null;
   const n = Number(s.timer_seconds);
   return Number.isInteger(n) && n > 0 ? n : DEFAULT_TIMER_SECONDS;
 }
@@ -155,6 +157,16 @@ export function notesHtml(notes) {
   }
   flush();
   return out.join('');
+}
+
+/**
+ * Retrieval questions (PHASE-EX10, `slide_role: retrieval`): a numbered list of
+ * short recall questions. Answers stay in the speaker notes, never on the slide.
+ */
+export function questionsHtml(questions) {
+  const items = (Array.isArray(questions) ? questions : []).map((q) => String(q ?? '').trim()).filter(Boolean);
+  if (!items.length) return '';
+  return `<ol class="student-media-slide__questions">${items.map((q) => `<li>${escapeHtml(q)}</li>`).join('')}</ol>`;
 }
 
 const isStructural = (slide) => slide.background_kind === 'geometrical' || STRUCTURAL_ROLES.includes(slide.slide_role);
@@ -209,6 +221,7 @@ export function renderSlide(slide, deck, background, ctx = {}) {
     `<p class="student-media-slide__unit">${escapeHtml(deck.unit_label)}</p>`,
     `<h1>${escapeHtml(slide.heading)}</h1>`,
     slide.sentence ? `<p class="student-media-slide__sentence">${escapeHtml(slide.sentence)}</p>` : '',
+    questionsHtml(slide.questions),
     slide.quote ? `<blockquote class="student-media-slide__quote"><p>${escapeHtml(slide.quote)}</p></blockquote>` : '',
     slide.citation?.label
       ? `<p class="student-media-slide__citation">${slide.citation.href ? `<a href="${escapeHtml(withBase(slide.citation.href, ctx.base))}">${escapeHtml(slide.citation.label)}</a>` : escapeHtml(slide.citation.label)}</p>`

@@ -1,0 +1,171 @@
+You draft knowledge-test questions for a university design course unit (U3). Use ONLY the lesson text between the markers. Do not add any fact, name, date, number or quotation that is not in the lesson text. Do not ask about page numbers.
+
+Write 14 questions. Mix types: 6 multiple choice (mcq), 5 short answer (short), 3 case questions (case: a short design situation the student must analyse or apply the lesson to). At least 6 questions must require applying, analysing or evaluating, not just recalling.
+
+Output plain text only, one block per question, exactly this format, blocks separated by a line with ---
+TYPE: mcq|short|case
+BLOOM: remember|understand|apply|analyse|evaluate
+STEM: <question>
+ANSWER: <correct answer, one sentence>
+DISTRACTORS: <three wrong options separated by | ; mcq only, else leave empty>
+EVIDENCE: <the exact lesson sentence that supports the answer>
+
+<<<LESSON
+## Analysis
+
+*Session block 1 · Analysis opens the class.* From session 3, two students begin each class with a 15-minute defence of a D1 piece. Read the piece through **language / medium / support**: what signs does it use, what material or channel carries them, and what support lets someone encounter them? Then add a development question: which version came before this one, and what did the maker learn by changing it?
+
+The circulation moment matters. A sketch can move from notebook to critique wall to screen. Each move changes who can read it and what kind of response it invites. A designer’s labour is visible here: testing is not magic, and iteration is not free. If a generative system contributes a variation, name the instruction, the selection decision, and the human responsibility for the final form.
+
+---
+
+## Masterclass
+
+*Session block 2 · six ideas. Each one gives a claim, the evidence for it, a design example, and the Lab exercise where you try it.*
+
+### 1 · Make it rough, make it early
+
+**A rough prototype is a question in material form: build the smallest version that lets someone react.**
+
+It does not need to look finished; it needs to reveal one thing you do not yet know. Cross describes design ability as including “resolving ill-defined problems” and using solution-focused strategies [(Cross 2006, vi)]. A sprint handbook puts the same rule for prototypes bluntly: "The prototype is meant to answer questions, so keep it focused" — build just enough to learn, and no more [(Knapp, Zeratsky, and Kowitz 2016, chap. 13)].
+
+**In practice:** for a packaging brief, you might fold a quick card model to feel the box in your hand before you draw any graphics. Ask what this rough object can tell you that a description cannot.
+
+**Try it:** [Lab · Exercise 1] asks for three rough versions, with no polishing.
+
+### 2 · Defer judgement so ideas can evolve
+
+**Early critique can close a path before it shows what it might become: protect a short space for variation, then judge with a named criterion.**
+
+Osborn's first rule for idea sessions was that "Criticism must be withheld until all ideas are in" [(Osborn 1942, chap. 4)], and in an experiment in which college students made artworks, those who expected to be evaluated produced work that was judged less creative [(Amabile 1979, 221)]. This is not permission to keep every idea; it is a way to avoid mistaking the first awkward version for the final limit.
+
+**In practice:** for a logo, you might give an awkward first mark five more minutes of development before anyone — you included — calls it wrong.
+
+**Try it:** step 2 of [Lab · Exercise 2] holds back judgement for five minutes.
+
+### 3 · Iterate with an exit
+
+**Before you change the work, write the one test the next version must pass; stop when it passes, even if another improvement is possible.**
+
+Development needs direction as well as patience. Iteration has a known trap: as Dow and colleagues put it, it "can help people improve ideas. It can also give rise to fixation, continuously refining one option without considering others" [(Dow et al. 2010, 18:1)].
+
+**In practice:** for a corridor sign, the test might be “Can a classmate read the room number from the far end?” Once they can, you stop revising.
+
+**Try it:** steps 4–7 of [Lab · Exercise 2] write one test question, revise once and exit.
+
+### 4 · Sketch to think
+
+**Sketching makes a thought visible before language has made it neat: draw three different arrangements, not one beautiful drawing.**
+
+> Sketching enables exploration of the problem space and the solution space to proceed together.
+{: .unit-quote}
+<p class="unit-quote-citation"><a href="#ref-cross-2006">(Cross 2006, 37)</a></p>
+
+A sketch is a temporary argument: it helps you see what your idea is doing. Compare the sketches’ relationships, rhythm, and emphasis.
+
+**In practice:** for an app screen, sketch a list, a grid and a map version of the same content, then compare what each one puts first.
+
+**Try it:** step 3 of [Lab · Exercise 1] asks for three rough sketches or small prototypes.
+
+### 5 · Open the solution space
+
+**When a brief is unclear because the problem itself is still moving, reframe it as two or three questions and make one small response to each.**
+
+Each framing already points to a different answer: in Buchanan's account of wicked problems, "every formulation of a wicked problem corresponds to the formulation of a solution" [(Buchanan 1992, 16)]. This is a bounded way to move from creative potential to creative action: Beghetto and Karwowski define creative agency as the capacity "to envision and enact new and meaningful actions within the existing constraints of a particular context" [(Beghetto and Karwowski 2025, 3)].
+
+**In practice:** “promote the festival” could become “how do we show its theme?” and “how do we show who is playing?” — one small poster sketch for each.
+
+**Try it:** step 2 of [Lab · Exercise 1] names three entry points before you start.
+
+### 6 · Reflect at checkpoints
+
+**Pause after each version and write three lines: what changed, what stayed, and what the change taught you.**
+
+Schön describes design as a conversation in which the designer shapes the situation, the situation "talks back", and "in a good process of design, this conversation with the situation is reflective" [(Schön 1983, 79)]. Cross’s designerly knowing keeps attention on how the work is made and tested. The checkpoint turns a sequence of attempts into evidence you can discuss; it is a teaching prompt, not a claim that one model explains every studio decision.
+
+**In practice:** after the second version of a chair model, you might note: “seat lowered; legs unchanged; lower felt friendlier but tipped back.”
+
+**Try it:** step 6 of [Lab · Exercise 2] is the checkpoint.
+
+---
+
+## Lab (Portfolio)
+
+*Session block 3 · A geometrical slide announces the Lab: two exercises follow, and everything you produce goes into your **portfolio index**. Both exercises are classroom adaptations of procedures from the course reading list — not invented studio games.*
+
+### Exercise 1 — Same problem, three entry points, in parallel {#lab-exercise-1}
+
+Practises Masterclass ideas **1** (make it rough, make it early), **3** (iterate with an exit — and avoid fixation) and **4** (sketch to think).
+
+**Time:** 20 minutes (about 15 making, 5 for side-by-side feedback).
+
+**Group:** alone to make; pairs for feedback.
+
+**Materials:** one concrete D1 problem shared by the whole class; paper, card and tape, or a digital mock-up tool.
+
+**Steps:**
+
+1. Write the shared problem at the top of the page.
+2. Before you start, name three different entry points (for example: structure, material/support, or audience/circulation).
+3. Make three rough sketches or small prototypes, one from each entry point. Do not polish.
+4. Ask for feedback only when all three exist: show them side by side to a classmate.
+5. Note what each version taught you and which one the feedback favoured.
+6. Tell your partner how each entry point steered the path, and mark any idea you would combine into the next version. Watch the temptation to solve the problem the obvious way and paste the entry point on afterwards.
+
+**Portfolio trace:** the shared problem statement; the three named entry points; three images or scans; one sentence per version on what it taught you (or blocked).
+
+**Example trace:** *Illustrative example (not student work)* — made by the professor to show the format.
+
+<div class="lesson-example-trace" markdown="1">
+- **Shared problem:** visitors to the open day cannot find the room change from the main hall to the workshop room.
+- **Entry points:** structure (a sequence of signs) · material/support (a tape line on the floor) · audience/circulation (a message sent when visitors register at the door).
+- **Versions:** three pencil sketches on one A3 sheet, photographed.
+- **What each taught me:** signs — every turn needs one, so the sequence gets long; tape line — needs no reading, but breaks at the lift; door message — reaches people early, but only those who registered.
+- **Feedback favoured:** the tape line. **To combine:** tape line plus one sign at the lift.
+</div>
+
+**Judged by:** [Portfolio rubric — creative fluency, flexibility, and originality]
+
+**Source:** making several versions before any feedback is called parallel prototyping. In a study with novice designers, those who made several prototypes in parallel before receiving critique produced better-performing and more varied designs than those who received critique after each single prototype, and they reported a larger gain in their confidence at this kind of task [(Dow et al. 2010, 18:1)]. Starting from different entry points follows de Bono: "a different entry point will usually mean a different train of ideas" [(de Bono 1970, chap. "Choice of Entry Point and Attention Area")]. The steps are a classroom adaptation.
+
+### Exercise 2 — Delay judgement, then checkpoint and exit {#lab-exercise-2}
+
+Practises Masterclass ideas **2** (defer judgement), **3** (iterate with an exit) and **6** (reflect at checkpoints).
+
+**Time:** 20 minutes (about 5 delay, 5 question, 7 revise and test, 3 checkpoint).
+
+**Group:** alone; one classmate tries your revised version.
+
+**Materials:** your three versions from Exercise 1; the slide timer; a card for your test question.
+
+**Steps:**
+
+1. Choose one of your three versions.
+2. **Delay judgement** (5 minutes): keep developing it without deciding whether it is "right". No criticism yet — including your own.
+3. Ask what this version tests: its **role** (what it does for the person), its **look and feel**, or **how it would actually work**. Pick one.
+4. Write **one testable question** about that choice ("Can a classmate find the main action?").
+5. Revise once to answer it, then let a classmate try the new version.
+6. **Checkpoint:** write three lines — what changed, what stayed, what you learned.
+7. **Exit:** stop when the question is answered, even if another improvement is possible. If a tool or generative system supplied a variation, record the prompt, the option you rejected and why you kept the final form.
+
+**Portfolio trace:** before/after; the deferred-judgement note; the role, look-and-feel or how-it-works choice and the test question; the three checkpoint lines; the exit decision.
+
+**Example trace:** *Illustrative example (not student work)* — made by the professor to show the format, continuing the open-day problem above.
+
+<div class="lesson-example-trace" markdown="1">
+- **Version chosen:** the tape line.
+- **Deferred-judgement note (5 minutes):** added arrows into the line, tried two colours, drew the line splitting at the stairs — kept all three without deciding.
+- **What it tests:** how it would actually work. **Question:** “Can a classmate get from the hall door to the workshop room without asking anyone?”
+- **Revision:** one colour only, an arrow every few metres, a small sign where the line meets the lift.
+- **Checkpoint:** *changed* — one colour, arrows, the lift sign; *stayed* — the line itself; *learned* — the line breaks wherever people must wait.
+- **Exit:** the classmate reached the room without asking, so I stopped, even though the stair split could still be clearer. No generative tool was used.
+</div>
+
+**Judged by:** [Portfolio rubric — critical analysis and judgement]
+
+**Source:** holding back criticism comes from Osborn's first rule for idea sessions: "Criticism must be withheld until all ideas are in" [(Osborn 1942, chap. 4)]. The role / look and feel / how-it-works question is an adapted prototyping question (source pending). The steps are a classroom adaptation.
+
+---
+
+
+LESSON>>>

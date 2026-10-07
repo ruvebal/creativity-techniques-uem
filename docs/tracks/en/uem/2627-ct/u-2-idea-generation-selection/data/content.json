@@ -483,6 +483,21 @@ layout: null
       "notes": "- Brainwriting produces material you did not have in view. That does not mean the exercise produced better ideas.\n- Fluency, flexibility and originality are what most tests measure and most workshops train. Workshops try to raise those scores.\n- Landmark work is rare, depends on its system, and cannot be produced on command in a two-hour block.\n- The only practice that matters is the one you keep doing; test any method on yourself instead of copying it.\nSource: the slide quote on artists portrayed as tortured geniuses is (Rubin 2023, 323); the lesson's point on practice is (Rubin 2023, 326); fluency, flexibility and originality as the dimensions that most creativity tests measure and most workshops try to improve are from (Csikszentmihalyi 1996, chap. 3). Other bullets are course wording.\nAsk: Which idea on your brainwriting sheets could become evidence for D1, and what criterion would justify that choice?"
     },
     {
+      "slide_id": "retrieval",
+      "slide_role": "retrieval",
+      "background_kind": "geometrical",
+      "heading": "Recall check",
+      "sentence": "Alone, from memory, 3 minutes. Then compare with a partner.",
+      "questions": [
+        "In de Bono's map image, what are the two stages, in order?",
+        "What happened when students expected evaluation (Amabile)?",
+        "What is Osborn's first ground rule for an idea session?",
+        "What does Norman warn about one or two early ideas?",
+        "In Six Thinking Hats, what does the black hat cover?"
+      ],
+      "notes": "- Timer: 3 minutes. Students answer alone, from memory, on paper; no notes, no slides.\n- Then 2 minutes in pairs: compare answers, then check the lesson.\n- Practice only: nothing is collected or graded. Five more questions with answers are on the unit's practice quiz page.\nAnswers:\n- 1. First make the map, then choose a route on the map: generate, then select (de Bono 1985, 199).\n- 2. Their artworks were judged significantly lower in creativity (Amabile 1979, 221).\n- 3. Criticism must be withheld until all ideas are in (Osborn 1942, chap. 4).\n- 4. Becoming fixated on one or two ideas too early; generate numerous ideas (Norman 2013, 226).\n- 5. The negative aspects: why it cannot be done (de Bono 1985, 32).\nAsk: Which answer could you not recall? Re-read that idea before the Lab."
+    },
+    {
       "slide_id": "lab-opener",
       "slide_role": "lab_opener",
       "background_kind": "geometrical",
@@ -557,7 +572,7 @@ layout: null
       ],
       "timer_seconds": 1200,
       "image_brief": "Course diagram: selection grid (no image). This slide uses the course diagram.",
-      "notes": "- Timer: 20 minutes — about 5 for hits, 7 for the grid, 8 for the hats. Same teams as Exercise 1.\n- Hits: all sheets up. In silence, each person puts dots on the parts of ideas that look interesting. No discussion yet.\n- Take the ideas with the most dots (around ten) to a 2×2 grid: how new (low/high) against how feasible (low/high).\n- Name the corners: now (feasible, ordinary), wow (feasible and original), how (original, not yet feasible); drop the fourth. Keep the wow ideas; pick a top three.\n- Yellow hat, 3 minutes: everyone thinks only about why each idea could work. Black hat, 3 minutes: only about why it could fail.\n- Decide: before you pick, write the criterion you will use; then choose one idea. Compare: is your pick also the idea the team rated most original? If not, why?\nSource: silent dot stickers marking the interesting parts of each idea (a heat map) are (Knapp, Zeratsky, and Kowitz 2016, chap. 10); in that handbook, voting is a separate later step; the yellow hat covering hope and positive thinking and the black hat covering why it cannot be done are (de Bono 1985, 32). The COCD box, the step order and the comparison question are course wording.\nAsk: Did the criterion you wrote down match the reason you actually chose?"
+      "notes": "- Timer: 20 minutes — about 5 for hits, 7 for the grid, 8 for the hats. Same teams as Exercise 1.\n- Hits: all sheets up. In silence, each person puts dots on the parts of ideas that look interesting. No discussion yet.\n- Take the ideas with the most dots (around ten) to a 2×2 grid: how new (low/high) against how feasible (low/high).\n- Name the corners: now (feasible, ordinary), wow (feasible and original), how (original, not yet feasible); drop the fourth. Keep the wow ideas; pick a top three.\n- Yellow hat, 3 minutes: everyone thinks only about why each idea could work. Black hat, 3 minutes: only about why it could fail.\n- Decide: before you pick, write the criterion you will use; then choose one idea. Compare: is your pick also the idea the team rated most original? If not, why?\n- Optional (about 5 extra minutes): before choosing, swap the top three with a neighbouring team (no names). Each person rates the other team's three items alone on the printable peer rating sheet, then returns the sheet. Compare the averages you receive with your grid.\nSource: silent dot stickers marking the interesting parts of each idea (a heat map) are (Knapp, Zeratsky, and Kowitz 2016, chap. 10); in that handbook, voting is a separate later step; the yellow hat covering hope and positive thinking and the black hat covering why it cannot be done are (de Bono 1985, 32). The COCD box, the step order and the comparison question are course wording.\nAsk: Did the criterion you wrote down match the reason you actually chose?"
     },
     {
       "slide_id": "outro",

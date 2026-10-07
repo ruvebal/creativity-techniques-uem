@@ -27,6 +27,8 @@ counted as failures. Update the probe's `--targets` accordingly.)
 
 (Amendment A13: ct-unit-forge §4a-bis order Conclusion → Tao → References; 12-lesson split rule covers debate-linked and shared ideas; FINAL-REVIEW rights notes include U2 lab-1 Sawaki.)
 
+(Amendment A14: fix AUT catalogue step "Pool the class lists" → shared board in techniques.base.yml; regenerate method cards.)
+
 ## Deliverables
 
 1. `evidence/final-EX11.json` — probe output at the merged HEAD

@@ -1,0 +1,125 @@
+---
+TYPE: mcq
+BLOOM: remember
+STEM: What does the first stage of the "generate, then select" method involve?
+ANSWER: Making the map.
+DISTRACTORS: Choosing a route on the map | Evaluating the feasibility of ideas | Selecting the best idea
+EVIDENCE: The first stage is to make the map. The second stage is to choose a route on the map.
+---
+
+---
+TYPE: short
+BLOOM: understand
+STEM: Explain the difference between fluency and flexibility in the context of generating ideas.
+ANSWER: Fluency refers to the number of ideas generated, while flexibility refers to the variety of kinds of ideas.
+DISTRACTORS: 
+EVIDENCE: Count two things: how many ideas you have (fluency) and how many kinds of idea (flexibility).
+---
+
+---
+TYPE: case
+BLOOM: apply
+STEM: You are designing a poster for a music festival. Using the "generate, then select" method, how would you start the design process?
+ANSWER: You would fill a page with rough directions for ten minutes without crossing any out, and only then circle the three worth developing.
+DISTRACTORS: 
+EVIDENCE: for a festival poster, you might fill a page with rough directions for ten minutes without crossing any out, and only then circle the three worth developing.
+---
+
+---
+TYPE: mcq
+BLOOM: understand
+STEM: According to the lesson, what is the effect of showing people an example solution on their own designs?
+ANSWER: It makes their own designs copy its features.
+DISTRACTORS: It increases their creativity | It decreases their creativity | It has no effect
+EVIDENCE: showing people an example solution makes their own designs copy its features — a "fixation" effect suggested by Jansson and Smith, as Cross notes
+---
+
+---
+TYPE: short
+BLOOM: apply
+STEM: How can you ensure that the first voice in the room does not narrow everyone else's ideas during a design critique?
+ANSWER: Use role and constraint tools, such as Six Thinking Hats, to change who speaks and how.
+DISTRACTORS: 
+EVIDENCE: Role and constraint tools change who speaks and how, so the first voice in the room does not narrow everyone else.
+---
+
+---
+TYPE: case
+BLOOM: analyse
+STEM: You are part of a design team that needs to select the best idea from a set of generated options. What steps should you take to ensure a fair and effective selection process?
+ANSWER: Name the selection criteria before choosing, use a COCD box to evaluate feasibility and originality, and conduct yellow and black hat rounds to consider both benefits and drawbacks.
+DISTRACTORS: 
+EVIDENCE: Name the criterion before you choose; unstated criteria favour whatever the room already leaned toward.
+---
+
+---
+TYPE: mcq
+BLOOM: remember
+STEM: What is the purpose of the warm-up in Exercise 1?
+ANSWER: To help with divergent thinking.
+DISTRACTORS: To improve convergent thinking | To evaluate ideas | To select the best idea
+EVIDENCE: the warm-up rests on one small laboratory study in which open-monitoring meditation helped a divergent-thinking task
+---
+
+---
+TYPE: short
+BLOOM: analyse
+STEM: How does the "generate, then select" method improve the creative process?
+ANSWER: It separates the generation of ideas from the selection process, preventing early judgement and allowing for a wider range of ideas to be considered.
+DISTRACTORS: 
+EVIDENCE: Generation and selection are two different jobs; doing them in the same minute makes both weaker.
+---
+
+---
+TYPE: case
+BLOOM: evaluate
+STEM: You are designing a new product and have generated a list of ideas. How would you evaluate the creativity of your process?
+ANSWER: By considering how many other options you considered and how you chose the final idea, using the criteria of fluency, flexibility, and selection criteria.
+DISTRACTORS: 
+EVIDENCE: before you judge whether a piece is creative, ask how many other pieces the maker considered and how they chose this one.
+---
+
+---
+TYPE: mcq
+BLOOM: understand
+STEM: What is the purpose of the COCD box in Exercise 2?
+ANSWER: To evaluate the feasibility and originality of ideas.
+DISTRACTORS: To generate new ideas | To select the best idea | To evaluate the creativity of the team
+EVIDENCE: how new the idea is (low / high) against how feasible it is (low / high)
+---
+
+---
+TYPE: short
+BLOOM: apply
+STEM: In the context of the "generate, then select" method, what is the benefit of separating the generation and selection processes?
+ANSWER: It prevents early judgement and allows for a wider range of ideas to be considered.
+DISTRACTORS: 
+EVIDENCE: Generation and selection are two different jobs; doing them in the same minute makes both weaker.
+---
+
+---
+TYPE: case
+BLOOM: evaluate
+STEM: You are part of a design team that has generated a large number of ideas for a new product. How would you ensure that the selection process is fair and considers both the feasibility and originality of the ideas?
+ANSWER: Use a COCD box to evaluate the feasibility and originality of ideas, conduct yellow and black hat rounds to consider both benefits and drawbacks, and name the selection criteria before choosing.
+DISTRACTORS: 
+EVIDENCE: Name the criterion before you choose; unstated criteria favour whatever the room already leaned toward.
+---
+
+---
+TYPE: mcq
+BLOOM: remember
+STEM: What is the purpose of the silent rounds in Exercise 1?
+ANSWER: To keep ideas coming without judging them.
+DISTRACTORS: To evaluate the feasibility of ideas | To select the best idea | To generate new ideas
+EVIDENCE: the silent rounds of [Lab · Exercise 1] keep ideas coming without judging them.
+---
+
+---
+TYPE: short
+BLOOM: analyse
+STEM: How does the "generate, then select" method contribute to the creative process?
+ANSWER: By separating the generation of ideas from the selection process, it prevents early judgement and allows for a wider range of ideas to be considered.
+DISTRACTORS: 
+EVIDENCE: Generation and selection are two different jobs; doing them in the same minute makes both weaker.
+---
