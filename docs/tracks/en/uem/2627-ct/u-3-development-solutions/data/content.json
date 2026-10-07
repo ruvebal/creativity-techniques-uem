@@ -224,7 +224,17 @@ layout: null
       "image_brief": "Antoni Gaudí's hanging string-and-weight model for the Colonia Güell church, photographed c. 1908: a rough model built early to ask a structural question in material form.",
       "asset_id": "wikimedia:File:Maqueta polifunicular.jpg",
       "media_slot_id": "U3.masterclass-1",
-      "notes": "- A rough prototype is a question in material form.\n- It does not need to look finished. It needs to reveal one thing you do not know yet.\n- Build the smallest version that lets a classmate react.\n- \"The prototype is meant to answer questions, so keep it focused.\"\nSource: the prototype quote is (Knapp, Zeratsky, and Kowitz 2016, chap. 13); the lesson also cites (Cross 2006, vi) for design ability as resolving ill-defined problems. Other bullets and the slide's Tao line are course wording.\nAsk: What can this rough object tell you that a description cannot?"
+      "notes": "- A rough prototype is a question in material form.\n- It does not need to look finished. It needs to reveal one thing you do not know yet.\n- Build the smallest version that lets a classmate react.\n- \"The prototype is meant to answer questions, so keep it focused.\"\nSource: the prototype quote is (Knapp, Zeratsky, and Kowitz 2016, chap. 13); the lesson also cites (Cross 2006, vi) for design ability as resolving ill-defined problems. Other bullets and the slide's Tao line are course wording.\nAsk: What can this rough object tell you that a description cannot?",
+      "claims": [
+        {
+          "text": "The prototype is meant to answer questions, so keep it focused.",
+          "cite": "Knapp, Zeratsky, and Kowitz 2016, chap. 13"
+        },
+        {
+          "text": "I summarised design ability as comprising abilities of resolving ill-defined problems, adopting solution-focused cognitive strategies",
+          "cite": "Cross 2006, vi"
+        }
+      ]
     },
     {
       "slide_id": "masterclass-2",
@@ -235,7 +245,17 @@ layout: null
       "image_brief": "Beethoven's sketchbook for the Seventh Symphony, 1812: themes tried in several versions before any is judged final — a protected space for variation before decision.",
       "asset_id": "wikimedia:File:Sketches for the second movement of Symphony no. 7, op. 92, Beethoven, Petter Sketchbook, 1812, musical autograph - Morgan Library & Museum - New York City - DSC06691.jpg",
       "media_slot_id": "U3.masterclass-2",
-      "notes": "- Early critique can close a path before it shows what it might become.\n- Protect a short space for variation first. Then judge with a named criterion.\n- This is not permission to keep every idea. It stops you mistaking the first awkward version for the final limit.\n- Osborn's first rule: criticism is withheld until all ideas are in. In an experiment, college students who expected their artworks to be evaluated produced work judged less creative.\nSource: the rule is (Osborn 1942, chap. 4); the evaluation result is (Amabile 1979, 221). Other bullets are course wording.\nAsk: Which idea did you drop too early this week?"
+      "notes": "- Early critique can close a path before it shows what it might become.\n- Protect a short space for variation first. Then judge with a named criterion.\n- This is not permission to keep every idea. It stops you mistaking the first awkward version for the final limit.\n- Osborn's first rule: criticism is withheld until all ideas are in. In an experiment, college students who expected their artworks to be evaluated produced work judged less creative.\nSource: the rule is (Osborn 1942, chap. 4); the evaluation result is (Amabile 1979, 221). Other bullets are course wording.\nAsk: Which idea did you drop too early this week?",
+      "claims": [
+        {
+          "text": "Judicial judgment is ruled out. Criticism must be withheld until all ideas are in.",
+          "cite": "Osborn 1942, chap. 4"
+        },
+        {
+          "text": "subjects in the evaluation groups produced artworks significantly lower on judged creativity than did subjects in the nonevaluation control groups",
+          "cite": "Amabile 1979, 221"
+        }
+      ]
     },
     {
       "slide_id": "masterclass-3",
@@ -244,7 +264,17 @@ layout: null
       "heading": "3 · Iterate with an exit",
       "sentence": "Write the test before the next version. Stop when the test is answered.",
       "image_brief": "Replica of the Wright brothers' 1901 wind tunnel: wing shapes tested against one question before the next glider was built, and testing stopped when the data answered it.",
-      "notes": "- Revision helps when you know what the next version must answer.\n- Write one test before you change the work: \"Can the viewer find the main action?\" or \"Does the form fit the brief?\"\n- Stop when the test is answered, even if another improvement is possible.\n- Iteration can improve an idea, but it can also cause fixation: refining one option without considering others.\nSource: the iteration/fixation bullet is (Dow et al. 2010, 18:1). Other bullets are course wording.\nAsk: What is the one test your next version must pass?"
+      "notes": "- Revision helps when you know what the next version must answer.\n- Write one test before you change the work: \"Can the viewer find the main action?\" or \"Does the form fit the brief?\"\n- Stop when the test is answered, even if another improvement is possible.\n- Iteration can improve an idea, but it can also cause fixation: refining one option without considering others.\nSource: the iteration/fixation bullet is (Dow et al. 2010, 18:1). Other bullets are course wording.\nAsk: What is the one test your next version must pass?",
+      "claims": [
+        {
+          "text": "Iteration can help people improve ideas. It can also give rise to fixation, continuously refining one option without considering others.",
+          "cite": "Dow et al. 2010, 18:1"
+        },
+        {
+          "text": "ads created in the Parallel condition significantly outperformed those from the Serial condition. Moreover, independent raters found Parallel prototypes to be more diverse. Parallel participants also reported a larger increase in task-specific self-confidence.",
+          "cite": "Dow et al. 2010, 18:1"
+        }
+      ]
     },
     {
       "slide_id": "masterclass-4",
@@ -259,7 +289,13 @@ layout: null
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-3-development-solutions/#ref-cross-2006"
       },
       "image_brief": "A sheet of quick alternative sketches by a designer or artist — several arrangements of one idea side by side — showing sketching as a way of thinking before anything is built.",
-      "notes": "- Draw three different arrangements, not one beautiful drawing.\n- Cross: \"Sketching enables exploration of the problem space and the solution space to proceed together.\"\n- Compare relationships, rhythm and emphasis. A sketch is a temporary argument: it shows what your idea is doing.\nSource: the quote is (Cross 2006, 37). The first and third bullets are course wording.\nAsk: What did the second and third arrangement show that the first one hid?"
+      "notes": "- Draw three different arrangements, not one beautiful drawing.\n- Cross: \"Sketching enables exploration of the problem space and the solution space to proceed together.\"\n- Compare relationships, rhythm and emphasis. A sketch is a temporary argument: it shows what your idea is doing.\nSource: the quote is (Cross 2006, 37). The first and third bullets are course wording.\nAsk: What did the second and third arrangement show that the first one hid?",
+      "claims": [
+        {
+          "text": "Sketching enables exploration of the problem space and the solution space to proceed together",
+          "cite": "Cross 2006, 37"
+        }
+      ]
     },
     {
       "slide_id": "masterclass-5",
@@ -274,7 +310,17 @@ layout: null
       "image_brief": "Paul Klee, a page of the Pedagogical Sketchbook (1925): one line or form opened into several possible developments, a bounded way to widen the solution space.",
       "asset_id": "wikimedia:File:Paul Klee Pädagogisches Skizzenbuch 10.jpg",
       "media_slot_id": "U3.masterclass-5",
-      "notes": "- Some briefs are unclear because the problem itself is still moving. Do not force one path too soon.\n- Reframe the brief as two or three possible questions. Make one small response to each.\n- Creative agency: \"the intentional and self-directed capacity to envision and enact new and meaningful actions within the existing constraints of a particular context\".\n- Every way of stating a wicked problem already points to a solution.\nSource: the wicked-problem bullet is (Buchanan 1992, 16); the creative-agency definition is (Beghetto and Karwowski 2025, 3). Other bullets are course wording.\nAsk: Which of your questions surprised you most?"
+      "notes": "- Some briefs are unclear because the problem itself is still moving. Do not force one path too soon.\n- Reframe the brief as two or three possible questions. Make one small response to each.\n- Creative agency: \"the intentional and self-directed capacity to envision and enact new and meaningful actions within the existing constraints of a particular context\".\n- Every way of stating a wicked problem already points to a solution.\nSource: the wicked-problem bullet is (Buchanan 1992, 16); the creative-agency definition is (Beghetto and Karwowski 2025, 3). Other bullets are course wording.\nAsk: Which of your questions surprised you most?",
+      "claims": [
+        {
+          "text": "every formulation of a wicked problem corresponds to the formulation of a solution",
+          "cite": "Buchanan 1992, 16"
+        },
+        {
+          "text": "The intentional and self-directed capacity to envision and enact new and meaningful actions within the existing constraints of a particular context",
+          "cite": "Beghetto and Karwowski 2025, 3"
+        }
+      ]
     },
     {
       "slide_id": "masterclass-6",
@@ -285,7 +331,13 @@ layout: null
       "image_brief": "Orville Wright's diary entry for 17 December 1903: a written record of what was tried, what happened and what was learned — reflection at a checkpoint.",
       "asset_id": "wikimedia:File:Wright diary.jpg",
       "media_slot_id": "U3.masterclass-6",
-      "notes": "- Pause after each version. Write three lines: what changed, what stayed, what the change taught you.\n- Schön: the situation \"talks back\", and in good design this conversation with the situation is reflective.\n- The checkpoint turns attempts into evidence you can discuss. It is a teaching prompt, not a model of every studio decision.\nSource: the Schön bullet is (Schön 1983, 79). Other bullets are course wording.\nAsk: What did your last checkpoint teach you?"
+      "notes": "- Pause after each version. Write three lines: what changed, what stayed, what the change taught you.\n- Schön: the situation \"talks back\", and in good design this conversation with the situation is reflective.\n- The checkpoint turns attempts into evidence you can discuss. It is a teaching prompt, not a model of every studio decision.\nSource: the Schön bullet is (Schön 1983, 79). Other bullets are course wording.\nAsk: What did your last checkpoint teach you?",
+      "claims": [
+        {
+          "text": "the situation 'talks back,' and he responds to the situation's back-talk. In a good process of design, this conversation with the situation is reflective.",
+          "cite": "Schön 1983, 79"
+        }
+      ]
     },
     {
       "slide_id": "retrieval",
@@ -300,7 +352,33 @@ layout: null
         "Why reframe an unclear brief as two or three questions?",
         "For Schön, what does the situation do as you design?"
       ],
-      "notes": "- Timer: 3 minutes. Students answer alone, from memory, on paper; no notes, no slides.\n- Then 2 minutes in pairs: compare answers, then check the lesson.\n- Practice only: nothing is collected or graded. Five more questions with answers are on the unit's practice quiz page.\nAnswers:\n- 1. Answer questions, so keep it focused (Knapp, Zeratsky, and Kowitz 2016, chap. 13).\n- 2. Fixation: continuously refining one option without considering others (Dow et al. 2010, 18:1).\n- 3. The problem space and the solution space (Cross 2006, 37).\n- 4. Every formulation of a wicked problem corresponds to the formulation of a solution, so each framing points to a different answer (Buchanan 1992, 16).\n- 5. It talks back, and you respond; in a good design process that conversation is reflective (Schön 1983, 79).\nAsk: Which answer could you not recall? Re-read that idea before the Lab."
+      "notes": "- Timer: 3 minutes. Students answer alone, from memory, on paper; no notes, no slides.\n- Then 2 minutes in pairs: compare answers, then check the lesson.\n- Practice only: nothing is collected or graded. Five more questions with answers are on the unit's practice quiz page.\nAnswers:\n- 1. Answer questions, so keep it focused (Knapp, Zeratsky, and Kowitz 2016, chap. 13).\n- 2. Fixation: continuously refining one option without considering others (Dow et al. 2010, 18:1).\n- 3. The problem space and the solution space (Cross 2006, 37).\n- 4. Every formulation of a wicked problem corresponds to the formulation of a solution, so each framing points to a different answer (Buchanan 1992, 16).\n- 5. It talks back, and you respond; in a good design process that conversation is reflective (Schön 1983, 79).\nAsk: Which answer could you not recall? Re-read that idea before the Lab.",
+      "claims": [
+        {
+          "text": "The prototype is meant to answer questions, so keep it focused.",
+          "cite": "Knapp, Zeratsky, and Kowitz 2016, chap. 13"
+        },
+        {
+          "text": "Iteration can help people improve ideas. It can also give rise to fixation, continuously refining one option without considering others.",
+          "cite": "Dow et al. 2010, 18:1"
+        },
+        {
+          "text": "ads created in the Parallel condition significantly outperformed those from the Serial condition. Moreover, independent raters found Parallel prototypes to be more diverse. Parallel participants also reported a larger increase in task-specific self-confidence.",
+          "cite": "Dow et al. 2010, 18:1"
+        },
+        {
+          "text": "Sketching enables exploration of the problem space and the solution space to proceed together",
+          "cite": "Cross 2006, 37"
+        },
+        {
+          "text": "every formulation of a wicked problem corresponds to the formulation of a solution",
+          "cite": "Buchanan 1992, 16"
+        },
+        {
+          "text": "the situation 'talks back,' and he responds to the situation's back-talk. In a good process of design, this conversation with the situation is reflective.",
+          "cite": "Schön 1983, 79"
+        }
+      ]
     },
     {
       "slide_id": "lab-opener",
@@ -333,7 +411,17 @@ layout: null
       "image_brief": "An early-19th-century design sheet with three chairs with curved backs: one problem answered three ways side by side, the model for three rough entry points.",
       "asset_id": "wikimedia:File:Design for Three Chairs with Curved Backs (verso- Sketch for a Sideboard) MET DP807145.jpg",
       "media_slot_id": "U3.lab-1",
-      "notes": "- Timer: 20 minutes — about 15 making, 5 for side-by-side feedback in pairs.\n- One concrete D1 problem, the same for the whole class. Name three entry points before starting: structure, material/support, or audience/circulation.\n- Three rough sketches or small prototypes, one per entry point. Do not polish. No feedback until all three exist.\n- Show the three side by side; note what each taught you and which one the feedback favoured; mark ideas to combine.\n- Watch the temptation to solve it the obvious way and paste the entry point on afterwards.\nSource: novice designers who made several prototypes before any feedback (parallel) produced better-performing and more varied designs than those who got critique after each single prototype, and they reported a larger gain in their confidence at this kind of task (Dow et al. 2010, 18:1); \"a different entry point will usually mean a different train of ideas\" is (de Bono 1970, chap. “Choice of Entry Point and Attention Area”). The steps and the watch-out are course wording.\nAsk (in pairs): How did each entry point steer the path?"
+      "notes": "- Timer: 20 minutes — about 15 making, 5 for side-by-side feedback in pairs.\n- One concrete D1 problem, the same for the whole class. Name three entry points before starting: structure, material/support, or audience/circulation.\n- Three rough sketches or small prototypes, one per entry point. Do not polish. No feedback until all three exist.\n- Show the three side by side; note what each taught you and which one the feedback favoured; mark ideas to combine.\n- Watch the temptation to solve it the obvious way and paste the entry point on afterwards.\nSource: novice designers who made several prototypes before any feedback (parallel) produced better-performing and more varied designs than those who got critique after each single prototype, and they reported a larger gain in their confidence at this kind of task (Dow et al. 2010, 18:1); \"a different entry point will usually mean a different train of ideas\" is (de Bono 1970, chap. “Choice of Entry Point and Attention Area”). The steps and the watch-out are course wording.\nAsk (in pairs): How did each entry point steer the path?",
+      "claims": [
+        {
+          "text": "Iteration can help people improve ideas. It can also give rise to fixation, continuously refining one option without considering others.",
+          "cite": "Dow et al. 2010, 18:1"
+        },
+        {
+          "text": "ads created in the Parallel condition significantly outperformed those from the Serial condition. Moreover, independent raters found Parallel prototypes to be more diverse. Parallel participants also reported a larger increase in task-specific self-confidence.",
+          "cite": "Dow et al. 2010, 18:1"
+        }
+      ]
     },
     {
       "slide_id": "lab-2",
@@ -354,7 +442,13 @@ layout: null
       "image_brief": "The Wright brothers' 1900 glider flown unmanned as a kite: one version tested against one question (does it lift?) before judging it and revising once.",
       "asset_id": "wikimedia:File:Wright Glider being flown as a kite. -1900 10457 A.S..jpg",
       "media_slot_id": "U3.lab-2",
-      "notes": "- Timer: 20 minutes — about 5 delay, 5 question, 7 revise and test, 3 checkpoint.\n- Choose one of the three versions. For 5 minutes keep developing it without deciding whether it is right: no criticism, including your own.\n- Ask what this version tests: its role (what it does for the person), its look and feel, or how it would actually work. Pick one.\n- Write one testable question about that choice. Revise once; let a classmate try it.\n- Checkpoint: three lines — what changed, what stayed, what you learned. Exit when the question is answered, even if another improvement is possible.\n- If a tool or generative system supplied a variation, record the prompt, the option you rejected and why you kept the final form.\nSource: withholding criticism \"until all ideas are in\" is Osborn's first ground rule (Osborn 1942, chap. 4). The role / look and feel / implementation question is an adapted prototyping question (source pending); the other bullets are course wording.\nAsk: Where did you stop, and was it hard to stop?"
+      "notes": "- Timer: 20 minutes — about 5 delay, 5 question, 7 revise and test, 3 checkpoint.\n- Choose one of the three versions. For 5 minutes keep developing it without deciding whether it is right: no criticism, including your own.\n- Ask what this version tests: its role (what it does for the person), its look and feel, or how it would actually work. Pick one.\n- Write one testable question about that choice. Revise once; let a classmate try it.\n- Checkpoint: three lines — what changed, what stayed, what you learned. Exit when the question is answered, even if another improvement is possible.\n- If a tool or generative system supplied a variation, record the prompt, the option you rejected and why you kept the final form.\nSource: withholding criticism \"until all ideas are in\" is Osborn's first ground rule (Osborn 1942, chap. 4). The role / look and feel / implementation question is an adapted prototyping question (source pending); the other bullets are course wording.\nAsk: Where did you stop, and was it hard to stop?",
+      "claims": [
+        {
+          "text": "Judicial judgment is ruled out. Criticism must be withheld until all ideas are in.",
+          "cite": "Osborn 1942, chap. 4"
+        }
+      ]
     },
     {
       "slide_id": "outro",

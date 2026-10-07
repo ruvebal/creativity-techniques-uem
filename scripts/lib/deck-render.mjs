@@ -140,9 +140,14 @@ export function timerFor(slide) {
   return Number.isInteger(n) && n > 0 ? n : DEFAULT_TIMER_SECONDS;
 }
 
-/** Notes text → paragraphs / list HTML. Lines starting with "- " become list items. */
+/** Notes text → paragraphs / list HTML. Lines starting with "- " become list items.
+ *  Accepts a string, a string[], or `{ text|body|notes, claims? }` (EX11 / A10). */
 export function notesHtml(notes) {
-  const text = Array.isArray(notes) ? notes.join('\n') : String(notes || '');
+  let raw = notes;
+  if (notes && typeof notes === 'object' && !Array.isArray(notes)) {
+    raw = notes.text ?? notes.body ?? notes.notes ?? '';
+  }
+  const text = Array.isArray(raw) ? raw.join('\n') : String(raw || '');
   const lines = text.split('\n').map((l) => l.trim()).filter(Boolean);
   if (!lines.length) return '';
   const out = [];

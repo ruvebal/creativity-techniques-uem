@@ -110,11 +110,22 @@ Split procedure (deterministic, so two forgers produce the same split):
 2. Each Masterclass idea goes to the lesson whose exercise practises it; an idea
    practised by both goes to lesson A; an idea practised by neither goes to the
    lesson whose exercise its **Try it:** names.
-3. Every PROVENANCE_LINE moves with the sentence it backs; count PROVENANCE_LINE
-   and `#ref-` links before (unit page) and after (A + B): the sums must match.
-4. Tao lines go with the slide that shows them; the deck `citation.href` points at
+3. **Debate-linked ideas** (Analysis debate prompts, Lab `{#lab-debate}`, or a
+   Masterclass idea whose **Try it:** is only a debate) stay with the lesson that
+   hosts that debate block — usually lesson A for the unit's Analysis debate, and
+   the Lab lesson that owns the exercise debate. Do not duplicate the same debate
+   prompt on A and B.
+4. **Shared ideas** (framing paragraphs, the language/medium/support method recall,
+   or an idea practised by neither exercise and not tied to a debate) go to lesson A
+   in full; lesson B keeps a one-paragraph recall plus a link to A. Shared
+   PROVENANCE_LINE rows stay on A; B may cite the same `#ref-` keys without
+   duplicating the provenance block.
+5. Every PROVENANCE_LINE moves with the sentence it backs; count PROVENANCE_LINE
+   and `#ref-` links before (unit page) and after (A + B): the sums must match
+   (shared lines counted once on A).
+6. Tao lines go with the slide that shows them; the deck `citation.href` points at
    the lesson that holds the line.
-5. The old single unit page stays as a short unit hub (objectives, links to A and B,
+7. The old single unit page stays as a short unit hub (objectives, links to A and B,
    CONTENIDOS) so existing deck and directory links keep resolving.
 
 Open items for the next cascade (not decided here): whether each of the 12 lessons

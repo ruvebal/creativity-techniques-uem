@@ -216,7 +216,29 @@ for (const [w, h] of sizes) {
   }
 }
 // Print pass: ?print-pdf with print media; every card inside its PDF page, no hidden text.
-const PRINT_PROBE = `(async () => {
+// A9 type floors apply only to schema-v2 decks in this cascade's scope (U1–U3 + master
+// lecture). Legacy U4 is out of scope (A1) until the U4 forge migrates it — do not fail
+// the EX5 browser gate on U4 print type sizes.
+const PRINT_TYPE_FLOOR_SLUGS = new Set([
+  'u-1-introduction-creativity',
+  'u-2-idea-generation-selection',
+  'u-3-development-solutions',
+  'creative-process-analysis',
+]);
+function printProbe(enforceTypeFloors) {
+  return `(async () => {
+  const enforceTypeFloors = ${enforceTypeFloors ? 'true' : 'false'};
+  const clamps = ${CLAMPS};
+  const evalClampPx = (c) => {
+    const rootFs = parseFloat(getComputedStyle(document.documentElement).fontSize) || 16;
+    const min = c.unit === 'rem' ? c.min * rootFs : c.min;
+    const max = c.unit === 'rem' ? c.max * rootFs : c.max;
+    const preferred = (c.vw / 100) * window.innerWidth;
+    return Math.min(max, Math.max(min, preferred));
+  };
+  const floorBase = evalClampPx(clamps.base);
+  const floorH1 = evalClampPx(clamps.h1);
+  const fs = (el) => el ? parseFloat(getComputedStyle(el).fontSize) : null;
   const sections = document.querySelectorAll('.reveal .slides section').length;
   for (let i = 0; i < 150 && document.querySelectorAll('.pdf-page').length < sections; i++) await new Promise((r) => setTimeout(r, 100));
   const out = [];
@@ -230,18 +252,31 @@ const PRINT_PROBE = `(async () => {
     if (hidden > 1) fail.push('card hides ' + Math.round(hidden) + 'px of text');
     if (cr.bottom > pr.bottom + 1 || cr.top < pr.top - 1) fail.push('card outside PDF page');
     const sec = page.querySelector('section');
+    if (enforceTypeFloors) {
+      const h1 = fs(card.querySelector('h1'));
+      const sent = fs(card.querySelector('.student-media-slide__sentence') || card.querySelector('p'));
+      const quote = fs(card.querySelector('blockquote, .student-media-slide__quote'));
+      const trace = fs(card.querySelector('.student-media-slide__prompt, .student-media-slide__trace, .slide-trace'));
+      const timer = fs(page.querySelector('.slide-timer'));
+      if (h1 !== null && h1 < floorH1 - 0.25) fail.push('print h1 ' + h1.toFixed(1) + 'px < forge ' + floorH1.toFixed(1));
+      if (sent !== null && sent < floorBase - 0.25) fail.push('print sentence ' + sent.toFixed(1) + 'px < forge base ' + floorBase.toFixed(1));
+      if (quote !== null && quote < 0.72 * floorBase - 0.25) fail.push('print quote ' + quote.toFixed(1) + 'px < ' + (0.72 * floorBase).toFixed(1));
+      if (trace !== null && trace < 0.76 * floorBase - 0.25) fail.push('print prompt/trace ' + trace.toFixed(1) + 'px < ' + (0.76 * floorBase).toFixed(1));
+      if (timer !== null && timer < 0.7 * floorBase - 0.25) fail.push('print timer ' + timer.toFixed(1) + 'px < ' + (0.7 * floorBase).toFixed(1));
+    }
     out.push({ page: n + 1, id: (sec && sec.dataset.slideId) || '#' + (n + 1), fail });
   });
   return { pages: document.querySelectorAll('.pdf-page').length, sections, out };
 })()`;
+}
 await send('Emulation.setEmulatedMedia', { media: 'print' });
 for (const [w, h] of [[1280, 720], [1920, 1080]]) {
   await send('Emulation.setDeviceMetricsOverride', { width: w, height: h, deviceScaleFactor: 1, mobile: false });
   for (const deck of decks) {
     await send('Page.navigate', { url: `${origin}${deck}?print-pdf` });
     await sleep(3000);
-    const res = await evaluate(PRINT_PROBE);
     const slug = deck.split('/').filter(Boolean).pop();
+    const res = await evaluate(printProbe(PRINT_TYPE_FLOOR_SLUGS.has(slug)));
     if (res.pages !== res.sections) { failures += 1; console.log(`FAIL print ${w}x${h} ${slug}: ${res.pages} PDF pages for ${res.sections} slides`); }
     for (const r of res.out) {
       checked += 1;

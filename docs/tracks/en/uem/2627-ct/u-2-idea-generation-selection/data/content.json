@@ -224,7 +224,17 @@ layout: null
       },
       "image_brief": "Charles Darwin's 'I think' sketch in Notebook B, 1837: a branching tree that opens many lines and lets most of them end — generation and selection in one drawing.",
       "asset_id": "wikimedia:File:Darwin Tree 1837.png",
-      "media_slot_id": "U2.cover"
+      "media_slot_id": "U2.cover",
+      "claims": [
+        {
+          "text": "You cannot dig a hole in a different place by digging the same hole deeper.",
+          "cite": "de Bono 1970, introduction"
+        },
+        {
+          "text": "Lateral thinking is not a substitute for vertical thinking. Both are required They are complementary.",
+          "cite": "de Bono 1970, introduction"
+        }
+      ]
     },
     {
       "slide_id": "analysis-opener",
@@ -317,7 +327,21 @@ layout: null
       "image_brief": "Concept-art sheet for the Blender Studio short Sprite Fright (2021): many labelled variants of one character's head rendered side by side before one is chosen — generate first, then select.",
       "asset_id": "wikimedia:File:Sprite Fright-concept art-Victoria 01.png",
       "media_slot_id": "U2.masterclass-1",
-      "notes": "- Generation and selection are two different jobs. Doing them in the same minute makes both weaker.\n- That is why the Lab runs them as two exercises: silent brainwriting first, selection second.\n- Honest audit: was your last piece one first idea polished, or one of several considered on purpose?\n- Some briefs really do need the first answer. When time is the constraint, generate-then-select is a luxury.\n- Judging too early has a cost: students who expected their artwork to be evaluated produced work judged less creative.\n- One small lab study: open-monitoring meditation helped a divergent-thinking task.\nSource: the map/route quote is (de Bono 1985, 199); one creative act holds both divergent and convergent thinking is (Craft 2000, 30); the evaluation result is (Amabile 1979, 221); the meditation study is (Colzato, Ozturk, and Hommel 2012, 1). Other bullets are course wording.\nAsk: Where does the line fall between \"take the first answer\" and \"generate more\"?"
+      "notes": "- Generation and selection are two different jobs. Doing them in the same minute makes both weaker.\n- That is why the Lab runs them as two exercises: silent brainwriting first, selection second.\n- Honest audit: was your last piece one first idea polished, or one of several considered on purpose?\n- Some briefs really do need the first answer. When time is the constraint, generate-then-select is a luxury.\n- Judging too early has a cost: students who expected their artwork to be evaluated produced work judged less creative.\n- One small lab study: open-monitoring meditation helped a divergent-thinking task.\nSource: the map/route quote is (de Bono 1985, 199); one creative act holds both divergent and convergent thinking is (Craft 2000, 30); the evaluation result is (Amabile 1979, 221); the meditation study is (Colzato, Ozturk, and Hommel 2012, 1). Other bullets are course wording.\nAsk: Where does the line fall between \"take the first answer\" and \"generate more\"?",
+      "claims": [
+        {
+          "text": "The first stage is to make the map. The second stage is to choose a route on the map.",
+          "cite": "de Bono 1985, 199"
+        },
+        {
+          "text": "subjects in the evaluation groups produced artworks significantly lower on judged creativity than did subjects in the nonevaluation control groups",
+          "cite": "Amabile 1979, 221"
+        },
+        {
+          "text": "OM meditation induces a control state that promotes divergent thinking ... FA meditation does not sustain convergent thinking",
+          "cite": "Colzato, Ozturk, and Hommel 2012, 1"
+        }
+      ]
     },
     {
       "slide_id": "masterclass-2",
@@ -348,7 +372,13 @@ layout: null
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-csikszentmihalyi-1996"
       },
       "image_brief": "Leonardo da Vinci, a Codex Atlanticus sheet of machine studies, c. 1490s: ideas that differ in kind, not thirty versions of one — fluency only counts when it comes with flexibility.",
-      "notes": "- In the Lab you count both: how many ideas (fluency) and how many kinds (flexibility).\n- Someone has to decide whether two passages are different possibilities or variations of one.\n- Selection follows the period of production; it does not interrupt it.\nSource: the slide quote is (Csikszentmihalyi 1996, chap. 3); \"Lateral thinking is generative. Vertical thinking is selective.\" is (de Bono 1970, introduction). Other bullets are course wording.\nAsk: How do you decide if two ideas are different, or one idea twice?"
+      "notes": "- In the Lab you count both: how many ideas (fluency) and how many kinds (flexibility).\n- Someone has to decide whether two passages are different possibilities or variations of one.\n- Selection follows the period of production; it does not interrupt it.\nSource: the slide quote is (Csikszentmihalyi 1996, chap. 3); \"Lateral thinking is generative. Vertical thinking is selective.\" is (de Bono 1970, introduction). Other bullets are course wording.\nAsk: How do you decide if two ideas are different, or one idea twice?",
+      "claims": [
+        {
+          "text": "It involves fluency, or the ability to generate a great quantity of ideas; flexibility, or the ability to switch from one perspective to another; and originality in picking unusual associations of ideas.",
+          "cite": "Csikszentmihalyi 1996, chap. 3"
+        }
+      ]
     },
     {
       "slide_id": "masterclass-3",
@@ -381,7 +411,29 @@ layout: null
       "image_brief": "A brainstorming wall of sticky notes (2014): early ideas kept on the wall without judging, so that less obvious ones have room to appear.",
       "asset_id": "wikimedia:File:Stickies to brainstorm Edit.2014..jpg",
       "media_slot_id": "U2.masterclass-3",
-      "notes": "- First ideas are often the obvious ones, and they are sticky: designers tend to \"hang on to their principal solution concept\", and a fixation effect, suggested by Jansson and Smith, makes designers shown an example copy its features.\n- \"Generate numerous ideas. It is dangerous to become fixated upon one or two ideas too early in the process.\"\n- Osborn's first rule: \"Criticism must be withheld until all ideas are in.\"\n- In this Lab: produce more without judging instead of censoring; brainwrite in silence, then come back in Exercise 2 as a selector. On your D1, count how many ideas you wrote before one felt neither obvious nor random.\nSource: the dig-hole quote is (de Bono 1970, introduction); stickiness and fixation are (Cross 2006, 81–82); \"Generate numerous ideas…\" is (Norman 2013, 226); the rule is (Osborn 1942, chap. 4); looking for alternatives instead of accepting the most obvious approach is (de Bono 1970, chap. “The Generation of Alternatives”). The Lab bullet is course wording.\nAsk: How many ideas are enough for a given brief? The lesson leaves this open."
+      "notes": "- First ideas are often the obvious ones, and they are sticky: designers tend to \"hang on to their principal solution concept\", and a fixation effect, suggested by Jansson and Smith, makes designers shown an example copy its features.\n- \"Generate numerous ideas. It is dangerous to become fixated upon one or two ideas too early in the process.\"\n- Osborn's first rule: \"Criticism must be withheld until all ideas are in.\"\n- In this Lab: produce more without judging instead of censoring; brainwrite in silence, then come back in Exercise 2 as a selector. On your D1, count how many ideas you wrote before one felt neither obvious nor random.\nSource: the dig-hole quote is (de Bono 1970, introduction); stickiness and fixation are (Cross 2006, 81–82); \"Generate numerous ideas…\" is (Norman 2013, 226); the rule is (Osborn 1942, chap. 4); looking for alternatives instead of accepting the most obvious approach is (de Bono 1970, chap. “The Generation of Alternatives”). The Lab bullet is course wording.\nAsk: How many ideas are enough for a given brief? The lesson leaves this open.",
+      "claims": [
+        {
+          "text": "You cannot dig a hole in a different place by digging the same hole deeper.",
+          "cite": "de Bono 1970, introduction"
+        },
+        {
+          "text": "Lateral thinking is not a substitute for vertical thinking. Both are required They are complementary.",
+          "cite": "de Bono 1970, introduction"
+        },
+        {
+          "text": "they appear to hang on to their principal solution concept",
+          "cite": "Cross 2006, 81–82"
+        },
+        {
+          "text": "Generate numerous ideas. It is dangerous to become fixated upon one or two ideas too early in the process.",
+          "cite": "Norman 2013, 226"
+        },
+        {
+          "text": "Judicial judgment is ruled out. Criticism must be withheld until all ideas are in.",
+          "cite": "Osborn 1942, chap. 4"
+        }
+      ]
     },
     {
       "slide_id": "masterclass-4",
@@ -414,7 +466,13 @@ layout: null
       "image_brief": "A Six Thinking Hats session board for the black hat ('doubts': what are the risks?), Wikimedia Colombia workshop, 2025: a role tool that stages one mode of thinking at a time.",
       "asset_id": "wikimedia:File:Sombrero negro (Dudas).jpg",
       "media_slot_id": "U2.masterclass-4",
-      "notes": "- The studio is never neutral: the first voice can narrow the room. Role and constraint tools disturb that frame.\n- Six Thinking Hats: one mode at a time. White facts, red feelings, black caution, yellow benefits, green new ideas, blue running the process.\n- An Oblique Strategies card gives one short prompt for changing a D1 object. It is a deck of prompts, not a theory or a guarantee.\n- de Bono: lateral thinking is provocative, \"a way of bringing about repatterning\". What-if thinking widens the alternatives you consider, but it can hurt the generation of new ideas.\nSource: the tool quote is (Raymond 2001, 44); provocation and repatterning are (de Bono 1970, chap. “Difference between Lateral and Vertical Thinking”); what-if thinking is (Wong, Galinsky, and Kray 2009, 161, 168). The Hats and Oblique Strategies bullets are course wording (the lesson names the hats without a page cite).\nAsk: Who speaks first in your group, and what does that close?"
+      "notes": "- The studio is never neutral: the first voice can narrow the room. Role and constraint tools disturb that frame.\n- Six Thinking Hats: one mode at a time. White facts, red feelings, black caution, yellow benefits, green new ideas, blue running the process.\n- An Oblique Strategies card gives one short prompt for changing a D1 object. It is a deck of prompts, not a theory or a guarantee.\n- de Bono: lateral thinking is provocative, \"a way of bringing about repatterning\". What-if thinking widens the alternatives you consider, but it can hurt the generation of new ideas.\nSource: the tool quote is (Raymond 2001, 44); provocation and repatterning are (de Bono 1970, chap. “Difference between Lateral and Vertical Thinking”); what-if thinking is (Wong, Galinsky, and Kray 2009, 161, 168). The Hats and Oblique Strategies bullets are course wording (the lesson names the hats without a page cite).\nAsk: Who speaks first in your group, and what does that close?",
+      "claims": [
+        {
+          "text": "Any tool should be useful in the expected way, but a truly great tool lends itself to uses you never expected.",
+          "cite": "Raymond 2001, 44"
+        }
+      ]
     },
     {
       "slide_id": "masterclass-5",
@@ -447,7 +505,17 @@ layout: null
       "image_brief": "A Pugh concept-selection matrix: options scored against named criteria, the convergent step made explicit before ranking.",
       "asset_id": "wikimedia:File:Pugh Concept Selection.png",
       "media_slot_id": "U2.masterclass-5",
-      "notes": "- Unstated criteria favour whatever the room already leaned toward.\n- Name the criterion before you decide what to keep. The scoring is the design act, not the ranking.\n- Editing as taste revealed in curation is selection criteria by another name, not a substitute for writing them down.\n- Selection is the neglected half: creativity is usually defined by production, not by how ideas are evaluated and dismissed.\nSource: editing as \"a demonstration of taste\" revealed in curation is (Rubin 2023, 386); creativity \"usually defined in terms of the production end\" with evaluation and selection neglected is (Persaud 2007, 68). Other bullets are course wording.\nAsk: Whose criteria decide what counts as \"novel\"?"
+      "notes": "- Unstated criteria favour whatever the room already leaned toward.\n- Name the criterion before you decide what to keep. The scoring is the design act, not the ranking.\n- Editing as taste revealed in curation is selection criteria by another name, not a substitute for writing them down.\n- Selection is the neglected half: creativity is usually defined by production, not by how ideas are evaluated and dismissed.\nSource: editing as \"a demonstration of taste\" revealed in curation is (Rubin 2023, 386); creativity \"usually defined in terms of the production end\" with evaluation and selection neglected is (Persaud 2007, 68). Other bullets are course wording.\nAsk: Whose criteria decide what counts as \"novel\"?",
+      "claims": [
+        {
+          "text": "Editing is a demonstration of taste.",
+          "cite": "Rubin 2023, 386"
+        },
+        {
+          "text": "Creativity is usually defined in terms of the production end of ideas or products, yet a neglected aspect of creativity, though no less vital, is the process by which creative products are critically evaluated, selected, altered or dismissed by the creator.",
+          "cite": "Persaud 2007, 68"
+        }
+      ]
     },
     {
       "slide_id": "masterclass-6",
@@ -480,7 +548,17 @@ layout: null
       "image_brief": "Vincent van Gogh, Self-Portrait with Bandaged Ear, 1889: the icon of the 'tortured genius' myth that this slide questions — workshops train practice, they do not manufacture genius.",
       "asset_id": "wikimedia:File:Vincent van Gogh - Self-portrait with bandaged ear (1889, Courtauld Institute).jpg",
       "media_slot_id": "U2.masterclass-6",
-      "notes": "- Brainwriting produces material you did not have in view. That does not mean the exercise produced better ideas.\n- Fluency, flexibility and originality are what most tests measure and most workshops train. Workshops try to raise those scores.\n- Landmark work is rare, depends on its system, and cannot be produced on command in a two-hour block.\n- The only practice that matters is the one you keep doing; test any method on yourself instead of copying it.\nSource: the slide quote on artists portrayed as tortured geniuses is (Rubin 2023, 323); the lesson's point on practice is (Rubin 2023, 326); fluency, flexibility and originality as the dimensions that most creativity tests measure and most workshops try to improve are from (Csikszentmihalyi 1996, chap. 3). Other bullets are course wording.\nAsk: Which idea on your brainwriting sheets could become evidence for D1, and what criterion would justify that choice?"
+      "notes": "- Brainwriting produces material you did not have in view. That does not mean the exercise produced better ideas.\n- Fluency, flexibility and originality are what most tests measure and most workshops train. Workshops try to raise those scores.\n- Landmark work is rare, depends on its system, and cannot be produced on command in a two-hour block.\n- The only practice that matters is the one you keep doing; test any method on yourself instead of copying it.\nSource: the slide quote on artists portrayed as tortured geniuses is (Rubin 2023, 323); the lesson's point on practice is (Rubin 2023, 326); fluency, flexibility and originality as the dimensions that most creativity tests measure and most workshops try to improve are from (Csikszentmihalyi 1996, chap. 3). Other bullets are course wording.\nAsk: Which idea on your brainwriting sheets could become evidence for D1, and what criterion would justify that choice?",
+      "claims": [
+        {
+          "text": "Artists are often portrayed in films and books as tortured geniuses. Starving, self-destructive, dancing on the brink of madness.",
+          "cite": "Rubin 2023, 323"
+        },
+        {
+          "text": "The only practice that matters is the one you consistently do, not the practice of any other artist.",
+          "cite": "Rubin 2023, 326"
+        }
+      ]
     },
     {
       "slide_id": "retrieval",
@@ -495,7 +573,21 @@ layout: null
         "What does Norman warn about one or two early ideas?",
         "In Six Thinking Hats, what does the black hat cover?"
       ],
-      "notes": "- Timer: 3 minutes. Students answer alone, from memory, on paper; no notes, no slides.\n- Then 2 minutes in pairs: compare answers, then check the lesson.\n- Practice only: nothing is collected or graded. Five more questions with answers are on the unit's practice quiz page.\nAnswers:\n- 1. First make the map, then choose a route on the map: generate, then select (de Bono 1985, 199).\n- 2. Their artworks were judged significantly lower in creativity (Amabile 1979, 221).\n- 3. Criticism must be withheld until all ideas are in (Osborn 1942, chap. 4).\n- 4. Becoming fixated on one or two ideas too early; generate numerous ideas (Norman 2013, 226).\n- 5. The negative aspects: why it cannot be done (de Bono 1985, 32).\nAsk: Which answer could you not recall? Re-read that idea before the Lab."
+      "notes": "- Timer: 3 minutes. Students answer alone, from memory, on paper; no notes, no slides.\n- Then 2 minutes in pairs: compare answers, then check the lesson.\n- Practice only: nothing is collected or graded. Five more questions with answers are on the unit's practice quiz page.\nAnswers:\n- 1. First make the map, then choose a route on the map: generate, then select (de Bono 1985, 199).\n- 2. Their artworks were judged significantly lower in creativity (Amabile 1979, 221).\n- 3. Criticism must be withheld until all ideas are in (Osborn 1942, chap. 4).\n- 4. Becoming fixated on one or two ideas too early; generate numerous ideas (Norman 2013, 226).\n- 5. The negative aspects: why it cannot be done (de Bono 1985, 32).\nAsk: Which answer could you not recall? Re-read that idea before the Lab.",
+      "claims": [
+        {
+          "text": "subjects in the evaluation groups produced artworks significantly lower on judged creativity than did subjects in the nonevaluation control groups",
+          "cite": "Amabile 1979, 221"
+        },
+        {
+          "text": "Judicial judgment is ruled out. Criticism must be withheld until all ideas are in.",
+          "cite": "Osborn 1942, chap. 4"
+        },
+        {
+          "text": "Generate numerous ideas. It is dangerous to become fixated upon one or two ideas too early in the process.",
+          "cite": "Norman 2013, 226"
+        }
+      ]
     },
     {
       "slide_id": "lab-opener",
@@ -550,7 +642,13 @@ layout: null
       "image_brief": "Kōdō Sawaki seated in zazen, c. 1920: still, seated attention — the posture of the optional three-minute warm-up before the silent brainwriting rounds.",
       "asset_id": "wikimedia:File:Kodo Sawaki Zazen.jpg",
       "media_slot_id": "U2.lab-1",
-      "notes": "- Timer: one 4-minute round (restart it for each round). Whole exercise about 25 minutes.\n- Optional warm-up, 3 minutes: sit comfortably and notice thoughts, sounds or sensations without holding on to any. Anyone may opt out: sit quietly, read the brief, or start early. No posture or breathing instructions.\n- Split the class: brainwriting teams of six (3–6 works) and solo teams of the same size, all on the same brief.\n- Brainwriting: three ideas per row, one per column; pass left; read, then write three new or built-on ideas. Silent.\n- Shortened: a team of six needs six rounds (about 30 minutes) to pass every sheet to everyone; we run 3 rounds and say so.\n- Solo teams: each person writes alone for the same 12 minutes; lists are pooled only at the end.\n- Each team removes repeats and counts different ideas (fluency) and different kinds (flexibility); allow 8–10 minutes for pooling and counting. Compare on the board. Keep the sheets for Exercise 2.\n- Say it aloud: 6-3-5 caps each writer at three ideas per round and solo writing has no cap, so compare kinds of idea (flexibility) and ideas built on others, not raw counts.\nSource: the warm-up rests on one small lab study in which open-monitoring meditation helped a divergent-thinking task (Colzato, Ozturk, and Hommel 2012, 1); that study used sessions of about 35 minutes, so the 3-minute version is untested. 6-3-5 and the solo comparison are a classroom adaptation in course wording.\nAsk: Which kind of team found more kinds of idea? What did passing sheets do to yours?"
+      "notes": "- Timer: one 4-minute round (restart it for each round). Whole exercise about 25 minutes.\n- Optional warm-up, 3 minutes: sit comfortably and notice thoughts, sounds or sensations without holding on to any. Anyone may opt out: sit quietly, read the brief, or start early. No posture or breathing instructions.\n- Split the class: brainwriting teams of six (3–6 works) and solo teams of the same size, all on the same brief.\n- Brainwriting: three ideas per row, one per column; pass left; read, then write three new or built-on ideas. Silent.\n- Shortened: a team of six needs six rounds (about 30 minutes) to pass every sheet to everyone; we run 3 rounds and say so.\n- Solo teams: each person writes alone for the same 12 minutes; lists are pooled only at the end.\n- Each team removes repeats and counts different ideas (fluency) and different kinds (flexibility); allow 8–10 minutes for pooling and counting. Compare on the board. Keep the sheets for Exercise 2.\n- Say it aloud: 6-3-5 caps each writer at three ideas per round and solo writing has no cap, so compare kinds of idea (flexibility) and ideas built on others, not raw counts.\nSource: the warm-up rests on one small lab study in which open-monitoring meditation helped a divergent-thinking task (Colzato, Ozturk, and Hommel 2012, 1); that study used sessions of about 35 minutes, so the 3-minute version is untested. 6-3-5 and the solo comparison are a classroom adaptation in course wording.\nAsk: Which kind of team found more kinds of idea? What did passing sheets do to yours?",
+      "claims": [
+        {
+          "text": "OM meditation induces a control state that promotes divergent thinking ... FA meditation does not sustain convergent thinking",
+          "cite": "Colzato, Ozturk, and Hommel 2012, 1"
+        }
+      ]
     },
     {
       "slide_id": "lab-2",
@@ -572,7 +670,13 @@ layout: null
       ],
       "timer_seconds": 1200,
       "image_brief": "Course diagram: selection grid (no image). This slide uses the course diagram.",
-      "notes": "- Timer: 20 minutes — about 5 for hits, 7 for the grid, 8 for the hats. Same teams as Exercise 1.\n- Hits: all sheets up. In silence, each person puts dots on the parts of ideas that look interesting. No discussion yet.\n- Take the ideas with the most dots (around ten) to a 2×2 grid: how new (low/high) against how feasible (low/high).\n- Name the corners: now (feasible, ordinary), wow (feasible and original), how (original, not yet feasible); drop the fourth. Keep the wow ideas; pick a top three.\n- Yellow hat, 3 minutes: everyone thinks only about why each idea could work. Black hat, 3 minutes: only about why it could fail.\n- Decide: before you pick, write the criterion you will use; then choose one idea. Compare: is your pick also the idea the team rated most original? If not, why?\n- Optional (about 5 extra minutes): before choosing, swap the top three with a neighbouring team (no names). Each person rates the other team's three items alone on the printable peer rating sheet, then returns the sheet. Compare the averages you receive with your grid.\nSource: silent dot stickers marking the interesting parts of each idea (a heat map) are (Knapp, Zeratsky, and Kowitz 2016, chap. 10); in that handbook, voting is a separate later step; the yellow hat covering hope and positive thinking and the black hat covering why it cannot be done are (de Bono 1985, 32). The COCD box, the step order and the comparison question are course wording.\nAsk: Did the criterion you wrote down match the reason you actually chose?"
+      "notes": "- Timer: 20 minutes — about 5 for hits, 7 for the grid, 8 for the hats. Same teams as Exercise 1.\n- Hits: all sheets up. In silence, each person puts dots on the parts of ideas that look interesting. No discussion yet.\n- Take the ideas with the most dots (around ten) to a 2×2 grid: how new (low/high) against how feasible (low/high).\n- Name the corners: now (feasible, ordinary), wow (feasible and original), how (original, not yet feasible); drop the fourth. Keep the wow ideas; pick a top three.\n- Yellow hat, 3 minutes: everyone thinks only about why each idea could work. Black hat, 3 minutes: only about why it could fail.\n- Decide: before you pick, write the criterion you will use; then choose one idea. Compare: is your pick also the idea the team rated most original? If not, why?\n- Optional (about 5 extra minutes): before choosing, swap the top three with a neighbouring team (no names). Each person rates the other team's three items alone on the printable peer rating sheet, then returns the sheet. Compare the averages you receive with your grid.\nSource: silent dot stickers marking the interesting parts of each idea (a heat map) are (Knapp, Zeratsky, and Kowitz 2016, chap. 10); in that handbook, voting is a separate later step; the yellow hat covering hope and positive thinking and the black hat covering why it cannot be done are (de Bono 1985, 32). The COCD box, the step order and the comparison question are course wording.\nAsk: Did the criterion you wrote down match the reason you actually chose?",
+      "claims": [
+        {
+          "text": "Heat map: Look at all the solutions in silence, and use dot stickers to mark interesting parts.",
+          "cite": "Knapp, Zeratsky, and Kowitz 2016, chap. 10"
+        }
+      ]
     },
     {
       "slide_id": "outro",

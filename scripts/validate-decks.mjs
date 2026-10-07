@@ -153,23 +153,30 @@ for (const name of cacheFiles.keys()) {
 
 if (rightsMode === 'flag') {
   const failing = report.filter((r) => r.verdict === 'fail');
+  // A7: count every curator / public rights_status flagged row, not only verdict fails
+  // (Sawaki-class curator-only flags pass rightsVerdict but must appear in the tally).
+  const curatorFlagged = report.filter((r) => r.rights_status === 'flagged');
   const payload = {
     schema: 'deck-rights-report/v1',
     mode: 'flag',
     policy: 'AUTOPILOT.md §0: rights recorded and flagged, not blocking; rightsVerdict stays strict. Professor reviews every flagged asset before release.',
     year,
+    generated_at: new Date().toISOString(),
     summary: {
       assets: report.length,
       pass: report.length - failing.length,
       flagged: failing.length,
+      curator_flagged: curatorFlagged.length,
       v2_flagged: failing.filter((r) => !r.legacy).length,
       legacy_flagged: failing.filter((r) => r.legacy).length,
+      v2_curator_flagged: curatorFlagged.filter((r) => !r.legacy).length,
     },
     assets: report,
   };
   mkdirSync(dirname(reportPath), { recursive: true });
   const next = `${JSON.stringify(payload, null, 2)}\n`;
-  if (!existsSync(reportPath) || readFileSync(reportPath, 'utf8') !== next) writeFileSync(reportPath, next);
+  // A6: always rewrite so the report is fresh against the decks just scanned.
+  writeFileSync(reportPath, next);
 }
 
 for (const w of warnings) console.warn(`WARN  ${w}`);

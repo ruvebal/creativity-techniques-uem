@@ -342,6 +342,10 @@ export function deckProblems(content, ctx = {}) {
     if (strict) {
       if (!RIGHTS_STATUSES.includes(asset.rights_status)) issue(`asset ${asset.asset_id}: rights_status must be ok|flagged`);
       else if (asset.rights_status === 'ok' && !verdict.ok) issue(`asset ${asset.asset_id}: rights_status "ok" but rightsVerdict fails (${verdict.reasons.join('; ')})`);
+      // A7: curator-only flag in the private registry cannot be hand-edited to ok on the deck.
+      else if (asset.rights_status === 'ok' && registered && registered.rights_status === 'flagged') {
+        issue(`asset ${asset.asset_id}: rights_status "ok" but curator registry is flagged (A7)`);
+      }
     }
   }
 

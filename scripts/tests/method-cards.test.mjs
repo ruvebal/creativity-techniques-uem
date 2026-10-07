@@ -66,3 +66,11 @@ test('committed cards page: up to date, ≥ 20 cards, public fields only, no quo
   const keys = (html.match(/^references: \[(.*)\]$/m) || [])[1].split(', ');
   for (const k of html.matchAll(/href="#ref-([a-z0-9-]+)"/g)) assert.ok(keys.includes(k[1]), k[1]);
 });
+
+test('A14: AUT card uses shared board, not class pooling', () => {
+  const html = readFileSync(OUT, 'utf8');
+  const m = html.match(/data-method-card="technique-alternative-uses-task"[\s\S]*?<\/article>/);
+  assert.ok(m, 'AUT card present');
+  assert.match(m[0], /shared board/);
+  assert.doesNotMatch(m[0], /class pooling|Pool the class lists/i);
+});

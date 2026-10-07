@@ -299,9 +299,18 @@ U4 (legacy, out of scope) keeps *Man dreaming* (`profield-cache/0a359d9b946505e1
 - **Question bank (private):** 68 items; honest higher-order share **27/68 (39.7%)** after round-2 rewrites (new objects, not lesson "In practice" copies). Public quizzes 5/unit; U3-05 replaces U3-08 on the public page so it no longer gives away U3-09.
 - **Round-2 procedure fixes:** whole class does the AUT; third person keeps only consented sheets (EN/ES consent match protocol §2/§5/§6). U2 Lab + peer sheet: neighbouring teams swap top threes. Method-card When-to-use overrides for what-if prompts and parallel prototyping.
 - **Public:** practice quizzes, Masterclass recall slides (answers aligned in notes), `/methods/en/cards/` (40), peer rating sheet.
-- **Please check:** AUT method card still says "Pool the class lists" (EX11 / A14 catalogue fix). Lab-opener/outro geometric cycle shifted by the recall slide.
+- **Please check:** AUT method card "Pool the class lists" → fixed in EX11 (A14) to shared-board wording. Lab-opener/outro geometric cycle shifted by the recall slide.
 - **Local work:** 3 qwen draft calls + 2 Athanor searches (round 1); round 2 was hand edits. `evidence/EX10/`.
 - Gate: EX10 0 failures (runner); `npm test` 67/67. Report: `PHASE-EX10-REPORT.md`. Rollback: `gitflow.sh rollback 10`.
+
+### EX11 — closing audit (PASS)
+
+- **Cold review:** round 1 FAIL (A14 group_size); round 2 **PASS** (`PHASE-EX11-COLD-REVIEW.md`, 1 P2 — browser print check not in exit gate).
+- **Probe:** `evidence/final-EX11.json`; `--targets` green (U4 legacy excluded per A1).
+- **CLOSING-AUDIT.md:** every FINDINGS ID once.
+- **A14:** AUT card Group + step use shared board / table groups; no "class pooling".
+- **Handoff:** forge rules + `AGENTS.md` + `NEXT-CASCADE-12-LESSONS.md` for the 12-lesson cascade.
+- Gate: EX11 0 failures (runner). Report: `PHASE-EX11-REPORT.md`. Rollback: `gitflow.sh rollback 11`.
 
 ### Release checklist additions (from EX2)
 

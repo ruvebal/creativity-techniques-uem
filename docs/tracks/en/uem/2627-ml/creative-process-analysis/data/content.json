@@ -239,7 +239,13 @@ layout: null
         "label": "(Craft 2000, 30)",
         "href": "/lessons/en/master-lectures/creative-process-analysis/#references"
       },
-      "image_brief": "Edgar Degas, album of forty-five figure studies, c. 1882: many poses opened quickly, a few later kept — divergent and convergent work inside one process."
+      "image_brief": "Edgar Degas, album of forty-five figure studies, c. 1882: many poses opened quickly, a few later kept — divergent and convergent work inside one process.",
+      "claims": [
+        {
+          "text": "The same creative act may involve both divergent and convergent thinking.",
+          "cite": "Craft 2000, 30"
+        }
+      ]
     },
     {
       "slide_id": "masterclass-4",
@@ -255,7 +261,13 @@ layout: null
       },
       "image_brief": "An early-19th-century design for six chairs with scarlet upholstery: many variants opened, but all inside one commission's constraints — divergence is a hallmark, closing under constraint finishes the job.",
       "asset_id": "wikimedia:File:Design for Six Chairs with Scarlet Upholstery (verso- Sketch for Sofa) MET DP807166.jpg",
-      "media_slot_id": "ML-CPA.masterclass-4"
+      "media_slot_id": "ML-CPA.masterclass-4",
+      "claims": [
+        {
+          "text": "Divergent thinking has been widely regarded as a major hallmark of creativity.",
+          "cite": "Chen 2011, 25"
+        }
+      ]
     },
     {
       "slide_id": "masterclass-5",
@@ -272,7 +284,13 @@ layout: null
       "prompt": "Convergent/divergent still matters (lesson text); here ask what the medium does to the process.",
       "image_brief": "Loïe Fuller's Serpentine Dance in a wood engraving of her 'transformations', before 1900: silk, light and movement are the material in which the idea is composed.",
       "asset_id": "wikimedia:File:La danse serpentine, Loïe Fuller et ses transformations.jpg",
-      "media_slot_id": "ML-CPA.masterclass-5"
+      "media_slot_id": "ML-CPA.masterclass-5",
+      "claims": [
+        {
+          "text": "As a compositional device and an agent for realising ideas in performance, it, too, has become a material medium in many of our examples.",
+          "cite": "Eckersall, Grehan, and Scheer 2017, 211"
+        }
+      ]
     },
     {
       "slide_id": "masterclass-6",
@@ -289,7 +307,13 @@ layout: null
       "prompt": "Also ask: whose labour is visible? Does GenAI hide authorship? (C1–C3 hooks)",
       "image_brief": "Alfred Binet's 1911 table of Binet–Simon test results: pass rates per age group on short tasks, a reminder that a score is not the designer in context.",
       "asset_id": "wikimedia:File:Tableau de résultats au test de Binet-Simon.jpg",
-      "media_slot_id": "ML-CPA.masterclass-6"
+      "media_slot_id": "ML-CPA.masterclass-6",
+      "claims": [
+        {
+          "text": "the ability of divergent thinking with a paper clip may tell us little about an individual's talent in music.",
+          "cite": "Chen 2011, 26"
+        }
+      ]
     },
     {
       "slide_id": "lab-opener",
