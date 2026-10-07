@@ -305,12 +305,10 @@ U4 (legacy, out of scope) keeps *Man dreaming* (`profield-cache/0a359d9b946505e1
 
 ### EX11 — closing audit (PASS)
 
-- **Cold review:** round 1 FAIL (A14 group_size); round 2 **PASS** (`PHASE-EX11-COLD-REVIEW.md`, 1 P2 — browser print check not in exit gate).
-- **Probe:** `evidence/final-EX11.json`; `--targets` green (U4 legacy excluded per A1).
-- **CLOSING-AUDIT.md:** every FINDINGS ID once.
-- **A14:** AUT card Group + step use shared board / table groups; no "class pooling".
-- **Handoff:** forge rules + `AGENTS.md` + `NEXT-CASCADE-12-LESSONS.md` for the 12-lesson cascade.
-- Gate: EX11 0 failures (runner). Report: `PHASE-EX11-REPORT.md`. Rollback: `gitflow.sh rollback 11`.
+- **Cold review:** round 1 FAIL (A14); round 2 PASS then land reset on EX5/U4 print floors; round 3 **PASS** with **gate amendment** A15 (`PHASE-EX11-COLD-REVIEW.md`, 1 P2).
+- **A15:** print type floors only on U1–U3 + master lecture; legacy U4 still gets card-in-page print checks (A1 scope).
+- **Probe / CLOSING-AUDIT / A14 / handoff:** as in round 2; AUT card has no "class pooling".
+- Gate: EX11 0 failures; EX5 browser preflight 0 failures after A15. Report: `PHASE-EX11-REPORT.md`. Rollback: `gitflow.sh rollback 11`.
 
 ### Release checklist additions (from EX2)
 
