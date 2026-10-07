@@ -303,16 +303,14 @@ U4 (legacy, out of scope) keeps *Man dreaming* (`profield-cache/0a359d9b946505e1
 - **Local work:** 3 qwen draft calls + 2 Athanor searches (round 1); round 2 was hand edits. `evidence/EX10/`.
 - Gate: EX10 0 failures (runner); `npm test` 67/67. Report: `PHASE-EX10-REPORT.md`. Rollback: `gitflow.sh rollback 10`.
 
-### EX11 — closing audit + platform handoff (VERIFYING)
+### EX11 — closing audit (PASS)
 
-- **Probe:** `evidence/final-EX11.json` at HEAD; `--targets` green. Scoped keys ignore U4-only `.php` / oversize / `profield` leaks (A1); full counts remain in the JSON for the U4 forge.
-- **CLOSING-AUDIT.md:** every FINDINGS ID A1–E7 exactly once → closed or deferred with pointer.
-- **Platform for U4–U6 / 12 lessons:** forge tables + `NEXT-CASCADE-12-LESSONS.md`; `AGENTS.md` points at `excellence/`.
-- **A14:** AUT catalogue step uses shared board; method cards regenerated (40).
-- **A9/A10:** quote/trace/timer floor ratios in slideshow forge; print type checks in `deck-layout.mjs`; structured `claims` on U1–U3 + ML decks + `deck-claims.test.mjs`.
-- **A13:** Conclusion → Tao → References order in `ct-unit-forge` §4a-bis; debate-linked/shared split rules in LESSON-TEMPLATE §5; U2 lab-1 Sawaki already in the rights table above (flagged, PD-EU / identifiable sitter).
-- **A6/A7:** validator block/flag + orphan tests; rights report `curator_flagged: 8` (includes Sawaki); curator flag cannot be hand-edited to `ok`.
-- Gate pre-check (executor): PHASE-EX11.exit-gate.sh **0 failures**. Report: `PHASE-EX11-REPORT.md` (VERIFYING). Rollback: `gitflow.sh rollback 11` after landing.
+- **Cold review:** round 1 FAIL (A14 group_size); round 2 **PASS** (`PHASE-EX11-COLD-REVIEW.md`, 1 P2 — browser print check not in exit gate).
+- **Probe:** `evidence/final-EX11.json`; `--targets` green (U4 legacy excluded per A1).
+- **CLOSING-AUDIT.md:** every FINDINGS ID once.
+- **A14:** AUT card Group + step use shared board / table groups; no "class pooling".
+- **Handoff:** forge rules + `AGENTS.md` + `NEXT-CASCADE-12-LESSONS.md` for the 12-lesson cascade.
+- Gate: EX11 0 failures (runner). Report: `PHASE-EX11-REPORT.md`. Rollback: `gitflow.sh rollback 11`.
 
 ### Release checklist additions (from EX2)
 

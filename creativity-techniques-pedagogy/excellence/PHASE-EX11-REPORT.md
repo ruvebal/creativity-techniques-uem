@@ -1,6 +1,6 @@
 # PHASE-EX11 REPORT — Closing audit against the EX0 baseline
 
-**Status:** VERIFYING (round 2 — A14 `group_size` fixed after round-1 cold review FAIL)  
+**Status:** COLD_REVIEW PASS (round 2). Ready for `gitflow.sh land 11`. Implementer does not mark DONE.  
 
 **Branch:** `cascade/excellence-11`  
 **Worktree:** `creativity-techniques-uem-integration-excellence-11` (`.cascade-lane` = excellence)  
