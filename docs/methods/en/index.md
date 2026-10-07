@@ -77,6 +77,6 @@ field_index: true
 </article>
 </section>
 <footer class="field-index__related">
-<p>Also see <a href="{{ '/directory/en/' | relative_url }}">Directory</a> · <a href="{{ '/lexicum/en/' | relative_url }}">Lexicum</a></p>
+<p>Printable <a href="{{ '/methods/en/cards/' | relative_url }}">method cards</a> for every technique and method used in class · Also see <a href="{{ '/directory/en/' | relative_url }}">Directory</a> · <a href="{{ '/lexicum/en/' | relative_url }}">Lexicum</a></p>
 </footer>
 </div>

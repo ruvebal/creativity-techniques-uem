@@ -45,6 +45,12 @@ verified entries the provenance line location. Minimum set:
    evidence and Osborn for deferred judgement; master lecture Lens B = Verón).
    Plain register, Chicago author-date links.
 
+(Amendment A2/F2: update `probe/excellence-probe.mjs` so `uncited_references` compares keys listed for a lesson in `references.yml`/front matter with keys it cites; add a probe test showing an uncited key is reported.)
+
+(Amendment A3/F2–F4: re-verify every existing pin cite against the printed page — Chen 2012 pins are PDF indexes (PDF 41 = printed 26); EPUB sources (Rubin, Csikszentmihalyi, de Bono 1970) get the edition's real page or a chapter/section locator, never synthetic index+1; add citations for U2's "push past the obvious by producing more": Osborn 1953, Beaty and Silvia 2012, Ward 1994. Every verified PROVENANCE_LINE declares `page_basis=printed` or `page_basis=section`.)
+
+(Amendment A4/F7: the master-lecture works Verón 1988, Steimberg (reconcile 1993 vs 2013), Chion and Alexander go into `research-manifest.yml` as verified or gap.)
+
 ## Prompt (Implementation Agent)
 
 ```text

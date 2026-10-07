@@ -1,0 +1,27 @@
+You write speaker notes for a university teacher (Creativity Techniques, year-3 design students).
+Use ONLY the facts in the SLIDE and LESSON text below. Do not add names, dates, numbers, books, quotes or examples that are not in that text.
+Plain English, short sentences, the voice of a teacher talking to the class.
+
+Output exactly these lines and nothing else:
+TALK: <talking point 1>
+TALK: <talking point 2>
+TALK: <talking point 3, optional>
+SOURCE: <the citation exactly as written in the text, e.g. (Craft 2003, 43), or: none>
+DEBATE: <one question to ask the class>
+
+SLIDE:
+{
+ "heading": "6 · Workshops are means, not genius",
+ "sentence": "Fluency training supports practice; landmark ideas are rare — workshops train the hand, not replace genius myths.",
+ "quote": "Artists are often portrayed in films and books as tortured geniuses. Starving, self-destructive, dancing on the brink of madness.",
+ "citation": "(Rubin 2023, 103)"
+}
+
+LESSON:
+#### 6 · Workshops are means, not genius
+
+Concentration and automatic writing reliably produce material a student did not have in view at the start — and then someone assumes the exercise *therefore* produced better ideas, which is a leap the exercise cannot make. The dimensions Csikszentmihalyi lists on page 8 — fluency, flexibility, originality — are the ones most creativity tests measure and most workshops try to improve [(Csikszentmihalyi 2007, 8)](#ref-csikszentmihalyi-2007). Training can raise scores on them; landmark work, by contrast, is rare, system-dependent, and not producible on command in a two-hour block. A practitioner counterpoint insists that practice matters, but does not replace judgement [(Rubin 2023, 104)](#ref-rubin-2023). Read the unedited writing alongside your reflection and ask which passage could become evidence of a stronger idea in your D1 — and what criterion would justify that choice. The gap is the invitation.
+
+
+
+---

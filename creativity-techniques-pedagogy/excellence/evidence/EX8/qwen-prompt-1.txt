@@ -1,0 +1,12 @@
+You rewrite classroom exercise instructions for first-year university students (write as if for a curious 17-year-old). Rules:
+- Rewrite each numbered DRAFT into ONE or TWO short sentences, second person ("you"), concrete verbs, at most 32 words.
+- Do NOT add any fact, name, number, author, date, study or claim that is not in the draft. Keep every number that is in the draft.
+- Output exactly six lines, each starting with its number and a period, nothing else.
+
+DRAFTS
+1. List as many different uses for one everyday object as you can in 3 minutes, alone and in silence. Then score your list on four skills: how many uses, how many kinds, rare uses, and detail.
+2. Cut a real brief into words and draw them out of an envelope; then give an ordinary object a new title or place without changing it. Mark which moves opened options and which closed them.
+3. Write three ideas, pass your sheet to the left, build on what you read. Three silent rounds (shortened from six). Half the teams work alone instead; then compare the counts.
+4. Choose from your sheets in three steps: dot the strongest ideas, sort them in a now / wow / how grid, then test your top three with the yellow hat and then the black hat.
+5. Keep one D1 problem. Make three rough versions, each from a different starting point, before you ask anyone for feedback. Then show all three side by side.
+6. Pick one version. Hold back judgement for five minutes, decide what it tests (role, look and feel, or how it works), revise once, and stop when your question is answered.

@@ -2,6 +2,7 @@
 layout: null
 ---
 {
+  "schema_version": 2,
   "unit_label": "Creativity Techniques · U2 Idea Generation and Selection",
   "ttod_index": [
     {
@@ -36,123 +37,168 @@ layout: null
   "media_selection": {
     "unit_id": "U2",
     "project_id": "tc",
-    "collection": "unit-accepted",
-    "strategy": "review-state-assigned",
-    "description": "Accepted/ranked Profield review-state assets assigned to tc/U2. Fill via `npm run media:rehydrate` once review-state.json ships U2 rows.",
-    "media_overrides": {}
+    "strategy": "slide-bound",
+    "description": "Each image is bound to one named slide by asset_id; slides without a cleared image use the course diagram."
   },
   "assets": [
     {
-      "media_slot_id": "U2.still.profield-1",
-      "asset_id": "nypl:30e47f20-5a52-0133-dc8e-00505686a51c",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/45ae01614da4f3cc.php",
-      "source_file_url": "https://images.nypl.org/index.php?id=5377959&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/30e47f20-5a52-0133-dc8e-00505686a51c",
-      "alt_text": "Manifestation Dada",
-      "title": "Manifestation Dada",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 8,
-      "selection_rank": 8,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "U2.still.profield-2",
-      "asset_id": "wikimedia:File:Un chien andalou- Un perro andaluz.jpg",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/cc56afd75ebbfab4.jpg",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Un_chien_andalou-_Un_perro_andaluz.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Un_chien_andalou-_Un_perro_andaluz.jpg",
-      "alt_text": "Un chien andalou- Un perro andaluz.jpg",
-      "title": "Un chien andalou- Un perro andaluz.jpg",
+      "media_slot_id": "U2.cover",
+      "asset_id": "wikimedia:File:Darwin Tree 1837.png",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/2fc87d360433fcca.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Darwin_Tree_1837.png",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Darwin_Tree_1837.png",
+      "title": "Darwin Tree, 1837",
+      "alt_text": "A page of Charles Darwin's 1837 notebook headed 'I think', with a small branching tree sketch whose lines split, some ending and some reaching the letters A, B, C and D.",
+      "author": "Charles Darwin",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 8,
-      "selection_rank": 8,
-      "collection": "unit-accepted"
+      "credit_line": "Charles Darwin · Wikimedia Commons",
+      "author_death_year": 1882,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1882; 1882+70 < 2026: public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
     },
     {
-      "media_slot_id": "U2.still.profield-3",
-      "asset_id": "nypl:08c74ef0-5530-0135-18ad-3fc83eb6687f",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/290eb35b25f7662d.php",
-      "source_file_url": "https://images.nypl.org/index.php?id=57332905&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/08c74ef0-5530-0135-18ad-3fc83eb6687f",
-      "alt_text": "Leonardo da Vinci",
-      "title": "Leonardo da Vinci",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 7,
-      "selection_rank": 7,
-      "collection": "unit-accepted"
+      "media_slot_id": "U2.analysis-model",
+      "asset_id": "wikimedia:File:Study for \"A Sunday on La Grande Jatte\" MET DP259921.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/212a6fbf95aab085.webp",
+      "source_file_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Study_for_%22A_Sunday_on_La_Grande_Jatte%22_MET_DP259921.jpg/1920px-Study_for_%22A_Sunday_on_La_Grande_Jatte%22_MET_DP259921.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Study_for_%22A_Sunday_on_La_Grande_Jatte%22_MET_DP259921.jpg",
+      "title": "Study for \"A Sunday on La Grande Jatte\"",
+      "alt_text": "Seurat's 1884 oil study for A Sunday on La Grande Jatte: small strokes of colour build a grassy riverbank with strollers, trees and boats on the water.",
+      "author": "Georges Seurat",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Georges Seurat · Wikimedia Commons",
+      "author_death_year": 1891,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC0 dedication by the rights holder (file page). Underlying work: author died 1891.",
+      "rights_status": "ok",
+      "cropped": false
     },
     {
-      "media_slot_id": "U2.still.profield-4",
+      "media_slot_id": "U2.masterclass-1",
       "asset_id": "wikimedia:File:Sprite Fright-concept art-Victoria 01.png",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/5e5034d4db013da5.png",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Sprite_Fright-concept_art-Victoria_01.png",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/5e5034d4db013da5.webp",
+      "source_file_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Sprite_Fright-concept_art-Victoria_01.png/1920px-Sprite_Fright-concept_art-Victoria_01.png",
       "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Sprite_Fright-concept_art-Victoria_01.png",
-      "alt_text": "Sprite Fright-concept art-Victoria 01.png",
-      "title": "Sprite Fright-concept art-Victoria 01.png",
+      "title": "Sprite Fright concept art: Victoria",
+      "alt_text": "Concept-art sheet from the short film Sprite Fright: seventeen labelled versions of one red-haired character's head, each with a different expression.",
+      "author": "Julien Kaspar / Blender Foundation",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
       "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 7,
-      "selection_rank": 7,
-      "collection": "unit-accepted"
+      "credit_line": "Julien Kaspar / Blender Foundation · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC BY 4.0 from the Blender Studio; prospector title carries modern_rights_review_required",
+      "rights_status": "flagged",
+      "cropped": false
     },
     {
-      "media_slot_id": "U2.still.profield-5",
-      "asset_id": "nypl:02f7ad60-b9cb-0136-4a02-7f27c217b885",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/42f6022e28528ba4.php",
-      "source_file_url": "https://images.nypl.org/index.php?id=58005713&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/02f7ad60-b9cb-0136-4a02-7f27c217b885",
-      "alt_text": "Surrealistic window display, Bergdorf Goodman, New York City",
-      "title": "Surrealistic window display, Bergdorf Goodman, New York City",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 4,
-      "selection_rank": 4,
-      "collection": "unit-accepted"
+      "media_slot_id": "U2.masterclass-3",
+      "asset_id": "wikimedia:File:Stickies to brainstorm Edit.2014..jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/182376a162650045.webp",
+      "source_file_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Stickies_to_brainstorm_Edit.2014..jpg/1920px-Stickies_to_brainstorm_Edit.2014..jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Stickies_to_brainstorm_Edit.2014..jpg",
+      "title": "Stickies to brainstorm",
+      "alt_text": "A wall covered with columns of handwritten blue and orange sticky notes from a brainstorming session, each note a separate idea kept without judging.",
+      "author": "Victor Grigas",
+      "licence": "CC-BY-SA-3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Victor Grigas · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "Licensed by the rights holder under CC-BY-SA-3.0 (file page); publication relies on the licence, not on an expired term.",
+      "rights_status": "ok",
+      "cropped": false
     },
     {
-      "media_slot_id": "U2.still.profield-6",
-      "asset_id": "nypl:141c6730-768a-0137-0916-0710db36541b",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/691f91929e80d9e5.php",
-      "source_file_url": "https://images.nypl.org/index.php?id=58053557&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/141c6730-768a-0137-0916-0710db36541b",
-      "alt_text": "Circus artists",
-      "title": "Circus artists",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 4,
-      "selection_rank": 4,
-      "collection": "unit-accepted"
+      "media_slot_id": "U2.masterclass-4",
+      "asset_id": "wikimedia:File:Sombrero negro (Dudas).jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/56194141c1329fd1.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Sombrero_negro_%28Dudas%29.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Sombrero_negro_(Dudas).jpg",
+      "title": "Sombrero negro (Dudas)",
+      "alt_text": "A workshop board headed 'Sombrero negro (Dudas)' — the black thinking hat — asking 'What are the doubts? What are the risks?', with coloured sticky-note answers below.",
+      "author": "NMontoya (WMCO)",
+      "licence": "CC-BY-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "NMontoya (WMCO) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "Licensed by the rights holder under CC-BY-4.0 (file page); publication relies on the licence, not on an expired term.",
+      "rights_status": "ok",
+      "cropped": false
     },
     {
-      "media_slot_id": "U2.still.profield-7",
-      "asset_id": "nypl:125ccce0-5186-0132-9ead-58d385a7bbd0",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/336e44a26fb8d6a8.php",
-      "source_file_url": "https://images.nypl.org/index.php?id=5311858&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/125ccce0-5186-0132-9ead-58d385a7bbd0",
-      "alt_text": "Imagination is allowed full play at the American Laboratory Theatre",
-      "title": "Imagination is allowed full play at the American Laboratory Theatre",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 3,
-      "selection_rank": 3,
-      "collection": "unit-accepted"
+      "media_slot_id": "U2.masterclass-5",
+      "asset_id": "wikimedia:File:Pugh Concept Selection.png",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/d34fe8bf4ea9f618.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Pugh_Concept_Selection.png",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Pugh_Concept_Selection.png",
+      "title": "Pugh Concept Selection",
+      "alt_text": "A Pugh concept-selection spreadsheet: criteria such as reliability and safety with weights in rows, four design concepts scored in columns, and totals at the bottom.",
+      "author": "Chattons2",
+      "licence": "CC-BY-SA-3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Chattons2 · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "Licensed by the rights holder under CC-BY-SA-3.0 (file page); publication relies on the licence, not on an expired term.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U2.masterclass-6",
+      "asset_id": "wikimedia:File:Vincent van Gogh - Self-portrait with bandaged ear (1889, Courtauld Institute).jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/c839dd8e96b50396.webp",
+      "source_file_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Vincent_van_Gogh_-_Self-portrait_with_bandaged_ear_%281889%2C_Courtauld_Institute%29.jpg/1920px-Vincent_van_Gogh_-_Self-portrait_with_bandaged_ear_%281889%2C_Courtauld_Institute%29.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Self-portrait_with_bandaged_ear_(1889,_Courtauld_Institute).jpg",
+      "title": "Self-portrait with bandaged ear",
+      "alt_text": "Van Gogh's 1889 self-portrait: the painter in a cap and green coat, a white bandage wrapped around his head, with a Japanese print on the wall behind him.",
+      "author": "Vincent van Gogh",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Vincent van Gogh · Wikimedia Commons",
+      "author_death_year": 1890,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1890; 1890+70 < 2026: public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U2.lab-1",
+      "asset_id": "wikimedia:File:Kodo Sawaki Zazen.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/7be69b460d03f86a.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Kodo_Sawaki_Zazen.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Kodo_Sawaki_Zazen.jpg",
+      "title": "Kodo Sawaki, zazen",
+      "alt_text": "Black-and-white photograph of the Zen teacher Kōdō Sawaki seated cross-legged in robes, upright and still, hands resting in his lap in meditation.",
+      "author": "Unknown photographer (c. 1920)",
+      "licence": "PD-EU",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Unknown photographer (c. 1920) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "anonymous photograph c. 1920; identifiable sitter (Kōdō Sawaki, public religious teacher, d. 1965)",
+      "rights_status": "flagged",
+      "cropped": false
     }
   ],
   "slides": [
     {
+      "slide_id": "cover",
       "slide_role": "unit_cover",
-      "background_kind": "profield",
-      "media_slot_id": "U2.still.profield-1",
+      "background_kind": "curated",
       "heading": "U2 · Idea generation and selection techniques",
       "sentence": "Creativity needs two rhythms: opening many doors, then closing most of them on purpose.",
       "quote": "Lateral thinking is generative. Vertical thinking is selective.",
@@ -173,11 +219,25 @@ layout: null
         ]
       },
       "citation": {
-        "label": "(de Bono 1970, 9)",
+        "label": "(de Bono 1970, introduction)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-debono-1970"
-      }
+      },
+      "image_brief": "Charles Darwin's 'I think' sketch in Notebook B, 1837: a branching tree that opens many lines and lets most of them end — generation and selection in one drawing.",
+      "asset_id": "wikimedia:File:Darwin Tree 1837.png",
+      "media_slot_id": "U2.cover",
+      "claims": [
+        {
+          "text": "You cannot dig a hole in a different place by digging the same hole deeper.",
+          "cite": "de Bono 1970, introduction"
+        },
+        {
+          "text": "Lateral thinking is not a substitute for vertical thinking. Both are required They are complementary.",
+          "cite": "de Bono 1970, introduction"
+        }
+      ]
     },
     {
+      "slide_id": "analysis-opener",
       "slide_role": "analysis_opener",
       "background_kind": "geometrical",
       "heading": "Analysis opens the class",
@@ -206,9 +266,9 @@ layout: null
       }
     },
     {
+      "slide_id": "analysis-model",
       "slide_role": "analysis_model",
-      "background_kind": "profield",
-      "media_slot_id": "U2.still.profield-2",
+      "background_kind": "curated",
       "heading": "How to analyse (rolling model)",
       "sentence": "Language · medium · support. Then ask where meaning travels — and how many options were closed to get here.",
       "quote": "Name language, medium, and support — then ask how many ideas were considered before this one won.",
@@ -232,19 +292,22 @@ layout: null
       "citation": {
         "label": "(Tao of Creativity)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#tao-of-creativity"
-      }
+      },
+      "image_brief": "Georges Seurat, oil study for A Sunday on La Grande Jatte, 1884: one of dozens of studies made before the final painting, so we ask how many options were closed to reach it.",
+      "asset_id": "wikimedia:File:Study for \"A Sunday on La Grande Jatte\" MET DP259921.jpg",
+      "media_slot_id": "U2.analysis-model"
     },
     {
+      "slide_id": "masterclass-1",
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "U2.still.profield-3",
+      "background_kind": "curated",
       "heading": "1 · Generate, then select",
       "sentence": "Creativity needs both exploration and systematic evaluation — schedule both, never in the same minute.",
-      "quote": "To solve an interesting problem, start by finding a problem that is interesting to you.",
+      "quote": "The first stage is to make the map. The second stage is to choose a route on the map.",
       "quote_origin": "page_verified",
       "citation": {
-        "label": "(Raymond 2001, 62)",
-        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-raymond-2001"
+        "label": "(de Bono 1985, 199)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-debono-1985"
       },
       "semantic_tags": {
         "themes": [
@@ -260,15 +323,33 @@ layout: null
           "dcterms:type=Text",
           "dcterms:subject=generation-selection"
         ]
-      }
+      },
+      "image_brief": "Concept-art sheet for the Blender Studio short Sprite Fright (2021): many labelled variants of one character's head rendered side by side before one is chosen — generate first, then select.",
+      "asset_id": "wikimedia:File:Sprite Fright-concept art-Victoria 01.png",
+      "media_slot_id": "U2.masterclass-1",
+      "notes": "- Generation and selection are two different jobs. Doing them in the same minute makes both weaker.\n- That is why the Lab runs them as two exercises: silent brainwriting first, selection second.\n- Honest audit: was your last piece one first idea polished, or one of several considered on purpose?\n- Some briefs really do need the first answer. When time is the constraint, generate-then-select is a luxury.\n- Judging too early has a cost: students who expected their artwork to be evaluated produced work judged less creative.\n- One small lab study: open-monitoring meditation helped a divergent-thinking task.\nSource: the map/route quote is (de Bono 1985, 199); one creative act holds both divergent and convergent thinking is (Craft 2000, 30); the evaluation result is (Amabile 1979, 221); the meditation study is (Colzato, Ozturk, and Hommel 2012, 1). Other bullets are course wording.\nAsk: Where does the line fall between \"take the first answer\" and \"generate more\"?",
+      "claims": [
+        {
+          "text": "The first stage is to make the map. The second stage is to choose a route on the map.",
+          "cite": "de Bono 1985, 199"
+        },
+        {
+          "text": "subjects in the evaluation groups produced artworks significantly lower on judged creativity than did subjects in the nonevaluation control groups",
+          "cite": "Amabile 1979, 221"
+        },
+        {
+          "text": "OM meditation induces a control state that promotes divergent thinking ... FA meditation does not sustain convergent thinking",
+          "cite": "Colzato, Ozturk, and Hommel 2012, 1"
+        }
+      ]
     },
     {
+      "slide_id": "masterclass-2",
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "U2.still.profield-4",
+      "background_kind": "diagram",
       "heading": "2 · Fluency with flexibility",
-      "sentence": "Many ideas only help if they differ — twenty suns is fluency thirty, flexibility one.",
-      "quote": "Lateral thinking is generative. Vertical thinking is selective.",
+      "sentence": "Many ideas only help if they differ. Thirty sketches of the same sun are many ideas, but only one kind.",
+      "quote": "It involves fluency, or the ability to generate a great quantity of ideas; flexibility, or the ability to switch from one perspective to another; and originality in picking unusual associations of ideas.",
       "quote_origin": "page_verified",
       "semantic_tags": {
         "themes": [
@@ -287,16 +368,24 @@ layout: null
         ]
       },
       "citation": {
-        "label": "(de Bono 1970, 9)",
-        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-debono-1970"
-      }
+        "label": "(Csikszentmihalyi 1996, chap. 3)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-csikszentmihalyi-1996"
+      },
+      "image_brief": "Leonardo da Vinci, a Codex Atlanticus sheet of machine studies, c. 1490s: ideas that differ in kind, not thirty versions of one — fluency only counts when it comes with flexibility.",
+      "notes": "- In the Lab you count both: how many ideas (fluency) and how many kinds (flexibility).\n- Someone has to decide whether two passages are different possibilities or variations of one.\n- Selection follows the period of production; it does not interrupt it.\nSource: the slide quote is (Csikszentmihalyi 1996, chap. 3); \"Lateral thinking is generative. Vertical thinking is selective.\" is (de Bono 1970, introduction). Other bullets are course wording.\nAsk: How do you decide if two ideas are different, or one idea twice?",
+      "claims": [
+        {
+          "text": "It involves fluency, or the ability to generate a great quantity of ideas; flexibility, or the ability to switch from one perspective to another; and originality in picking unusual associations of ideas.",
+          "cite": "Csikszentmihalyi 1996, chap. 3"
+        }
+      ]
     },
     {
+      "slide_id": "masterclass-3",
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "U2.still.profield-5",
-      "heading": "3 · Block the obvious first",
-      "sentence": "Original responses need you to notice and refuse the first automatic answer — dig a different hole.",
+      "background_kind": "curated",
+      "heading": "3 · Get past the obvious",
+      "sentence": "Your first ideas are often the obvious ones. In this Lab, don't censor them — keep making more without judging, and dig in a different place.",
       "quote": "You cannot dig a hole in a different place by digging the same hole deeper.",
       "quote_origin": "page_verified",
       "semantic_tags": {
@@ -316,20 +405,46 @@ layout: null
         ]
       },
       "citation": {
-        "label": "(de Bono 1970, 9)",
+        "label": "(de Bono 1970, introduction)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-debono-1970"
-      }
+      },
+      "image_brief": "A brainstorming wall of sticky notes (2014): early ideas kept on the wall without judging, so that less obvious ones have room to appear.",
+      "asset_id": "wikimedia:File:Stickies to brainstorm Edit.2014..jpg",
+      "media_slot_id": "U2.masterclass-3",
+      "notes": "- First ideas are often the obvious ones, and they are sticky: designers tend to \"hang on to their principal solution concept\", and a fixation effect, suggested by Jansson and Smith, makes designers shown an example copy its features.\n- \"Generate numerous ideas. It is dangerous to become fixated upon one or two ideas too early in the process.\"\n- Osborn's first rule: \"Criticism must be withheld until all ideas are in.\"\n- In this Lab: produce more without judging instead of censoring; brainwrite in silence, then come back in Exercise 2 as a selector. On your D1, count how many ideas you wrote before one felt neither obvious nor random.\nSource: the dig-hole quote is (de Bono 1970, introduction); stickiness and fixation are (Cross 2006, 81–82); \"Generate numerous ideas…\" is (Norman 2013, 226); the rule is (Osborn 1942, chap. 4); looking for alternatives instead of accepting the most obvious approach is (de Bono 1970, chap. “The Generation of Alternatives”). The Lab bullet is course wording.\nAsk: How many ideas are enough for a given brief? The lesson leaves this open.",
+      "claims": [
+        {
+          "text": "You cannot dig a hole in a different place by digging the same hole deeper.",
+          "cite": "de Bono 1970, introduction"
+        },
+        {
+          "text": "Lateral thinking is not a substitute for vertical thinking. Both are required They are complementary.",
+          "cite": "de Bono 1970, introduction"
+        },
+        {
+          "text": "they appear to hang on to their principal solution concept",
+          "cite": "Cross 2006, 81–82"
+        },
+        {
+          "text": "Generate numerous ideas. It is dangerous to become fixated upon one or two ideas too early in the process.",
+          "cite": "Norman 2013, 226"
+        },
+        {
+          "text": "Judicial judgment is ruled out. Criticism must be withheld until all ideas are in.",
+          "cite": "Osborn 1942, chap. 4"
+        }
+      ]
     },
     {
+      "slide_id": "masterclass-4",
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "U2.still.profield-6",
+      "background_kind": "curated",
       "heading": "4 · Role and constraint tools",
       "sentence": "Hats and cards stage a cognitive move — map the kinds of thinking first, then choose a route.",
       "quote": "Any tool should be useful in the expected way, but a truly great tool lends itself to uses you never expected.",
       "quote_origin": "page_verified",
       "citation": {
-        "label": "(Raymond 2001, 57)",
+        "label": "(Raymond 2001, 44)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-raymond-2001"
       },
       "semantic_tags": {
@@ -347,11 +462,22 @@ layout: null
           "dcterms:type=Text",
           "dcterms:subject=provocation"
         ]
-      }
+      },
+      "image_brief": "A Six Thinking Hats session board for the black hat ('doubts': what are the risks?), Wikimedia Colombia workshop, 2025: a role tool that stages one mode of thinking at a time.",
+      "asset_id": "wikimedia:File:Sombrero negro (Dudas).jpg",
+      "media_slot_id": "U2.masterclass-4",
+      "notes": "- The studio is never neutral: the first voice can narrow the room. Role and constraint tools disturb that frame.\n- Six Thinking Hats: one mode at a time. White facts, red feelings, black caution, yellow benefits, green new ideas, blue running the process.\n- An Oblique Strategies card gives one short prompt for changing a D1 object. It is a deck of prompts, not a theory or a guarantee.\n- de Bono: lateral thinking is provocative, \"a way of bringing about repatterning\". What-if thinking widens the alternatives you consider, but it can hurt the generation of new ideas.\nSource: the tool quote is (Raymond 2001, 44); provocation and repatterning are (de Bono 1970, chap. “Difference between Lateral and Vertical Thinking”); what-if thinking is (Wong, Galinsky, and Kray 2009, 161, 168). The Hats and Oblique Strategies bullets are course wording (the lesson names the hats without a page cite).\nAsk: Who speaks first in your group, and what does that close?",
+      "claims": [
+        {
+          "text": "Any tool should be useful in the expected way, but a truly great tool lends itself to uses you never expected.",
+          "cite": "Raymond 2001, 44"
+        }
+      ]
     },
     {
+      "slide_id": "masterclass-5",
       "slide_role": "masterclass",
-      "background_kind": "profield",
+      "background_kind": "curated",
       "heading": "5 · Name selection criteria",
       "sentence": "Convergent choice needs explicit novelty and fitness-to-brief tests — name your criteria before you rank.",
       "quote": "Editing is a demonstration of taste. It isn't expressed through pointing to items we like… Our taste is revealed in how our work is curated.",
@@ -373,14 +499,28 @@ layout: null
         ]
       },
       "citation": {
-        "label": "(Rubin 2023, 123)",
+        "label": "(Rubin 2023, 386)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-rubin-2023"
       },
-      "media_slot_id": "U2.still.profield-7"
+      "image_brief": "A Pugh concept-selection matrix: options scored against named criteria, the convergent step made explicit before ranking.",
+      "asset_id": "wikimedia:File:Pugh Concept Selection.png",
+      "media_slot_id": "U2.masterclass-5",
+      "notes": "- Unstated criteria favour whatever the room already leaned toward.\n- Name the criterion before you decide what to keep. The scoring is the design act, not the ranking.\n- Editing as taste revealed in curation is selection criteria by another name, not a substitute for writing them down.\n- Selection is the neglected half: creativity is usually defined by production, not by how ideas are evaluated and dismissed.\nSource: editing as \"a demonstration of taste\" revealed in curation is (Rubin 2023, 386); creativity \"usually defined in terms of the production end\" with evaluation and selection neglected is (Persaud 2007, 68). Other bullets are course wording.\nAsk: Whose criteria decide what counts as \"novel\"?",
+      "claims": [
+        {
+          "text": "Editing is a demonstration of taste.",
+          "cite": "Rubin 2023, 386"
+        },
+        {
+          "text": "Creativity is usually defined in terms of the production end of ideas or products, yet a neglected aspect of creativity, though no less vital, is the process by which creative products are critically evaluated, selected, altered or dismissed by the creator.",
+          "cite": "Persaud 2007, 68"
+        }
+      ]
     },
     {
+      "slide_id": "masterclass-6",
       "slide_role": "masterclass",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "6 · Workshops are means, not genius",
       "sentence": "Fluency training supports practice; landmark ideas are rare — workshops train the hand, not replace genius myths.",
       "quote": "Artists are often portrayed in films and books as tortured geniuses. Starving, self-destructive, dancing on the brink of madness.",
@@ -402,11 +542,55 @@ layout: null
         ]
       },
       "citation": {
-        "label": "(Rubin 2023, 103)",
+        "label": "(Rubin 2023, 323)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-rubin-2023"
-      }
+      },
+      "image_brief": "Vincent van Gogh, Self-Portrait with Bandaged Ear, 1889: the icon of the 'tortured genius' myth that this slide questions — workshops train practice, they do not manufacture genius.",
+      "asset_id": "wikimedia:File:Vincent van Gogh - Self-portrait with bandaged ear (1889, Courtauld Institute).jpg",
+      "media_slot_id": "U2.masterclass-6",
+      "notes": "- Brainwriting produces material you did not have in view. That does not mean the exercise produced better ideas.\n- Fluency, flexibility and originality are what most tests measure and most workshops train. Workshops try to raise those scores.\n- Landmark work is rare, depends on its system, and cannot be produced on command in a two-hour block.\n- The only practice that matters is the one you keep doing; test any method on yourself instead of copying it.\nSource: the slide quote on artists portrayed as tortured geniuses is (Rubin 2023, 323); the lesson's point on practice is (Rubin 2023, 326); fluency, flexibility and originality as the dimensions that most creativity tests measure and most workshops try to improve are from (Csikszentmihalyi 1996, chap. 3). Other bullets are course wording.\nAsk: Which idea on your brainwriting sheets could become evidence for D1, and what criterion would justify that choice?",
+      "claims": [
+        {
+          "text": "Artists are often portrayed in films and books as tortured geniuses. Starving, self-destructive, dancing on the brink of madness.",
+          "cite": "Rubin 2023, 323"
+        },
+        {
+          "text": "The only practice that matters is the one you consistently do, not the practice of any other artist.",
+          "cite": "Rubin 2023, 326"
+        }
+      ]
     },
     {
+      "slide_id": "retrieval",
+      "slide_role": "retrieval",
+      "background_kind": "geometrical",
+      "heading": "Recall check",
+      "sentence": "Alone, from memory, 3 minutes. Then compare with a partner.",
+      "questions": [
+        "In de Bono's map image, what are the two stages, in order?",
+        "What happened when students expected evaluation (Amabile)?",
+        "What is Osborn's first ground rule for an idea session?",
+        "What does Norman warn about one or two early ideas?",
+        "In Six Thinking Hats, what does the black hat cover?"
+      ],
+      "notes": "- Timer: 3 minutes. Students answer alone, from memory, on paper; no notes, no slides.\n- Then 2 minutes in pairs: compare answers, then check the lesson.\n- Practice only: nothing is collected or graded. Five more questions with answers are on the unit's practice quiz page.\nAnswers:\n- 1. First make the map, then choose a route on the map: generate, then select (de Bono 1985, 199).\n- 2. Their artworks were judged significantly lower in creativity (Amabile 1979, 221).\n- 3. Criticism must be withheld until all ideas are in (Osborn 1942, chap. 4).\n- 4. Becoming fixated on one or two ideas too early; generate numerous ideas (Norman 2013, 226).\n- 5. The negative aspects: why it cannot be done (de Bono 1985, 32).\nAsk: Which answer could you not recall? Re-read that idea before the Lab.",
+      "claims": [
+        {
+          "text": "subjects in the evaluation groups produced artworks significantly lower on judged creativity than did subjects in the nonevaluation control groups",
+          "cite": "Amabile 1979, 221"
+        },
+        {
+          "text": "Judicial judgment is ruled out. Criticism must be withheld until all ideas are in.",
+          "cite": "Osborn 1942, chap. 4"
+        },
+        {
+          "text": "Generate numerous ideas. It is dangerous to become fixated upon one or two ideas too early in the process.",
+          "cite": "Norman 2013, 226"
+        }
+      ]
+    },
+    {
+      "slide_id": "lab-opener",
       "slide_role": "lab_opener",
       "background_kind": "geometrical",
       "heading": "Lab · Portfolio",
@@ -437,66 +621,65 @@ layout: null
       }
     },
     {
+      "slide_id": "lab-1",
       "slide_role": "lab_exercise",
-      "background_kind": "diagram",
-      "heading": "Exercise 1 · Guided concentration",
-      "sentence": "Follow the guided meditation exactly as indicated. Attend to breath, bodily sensation, and the surrounding field without evaluating or producing ideas yet.",
+      "background_kind": "curated",
+      "heading": "Exercise 1 · 6-3-5 brainwriting against solo writers",
+      "sentence": "Write three ideas, pass your sheet to the left, and build on what you read. Three silent rounds, shortened from six. Some teams work alone instead — then compare the counts.",
+      "prompt": "Practises Masterclass 1–3: generate first, count kinds as well as ideas, get past the obvious.",
       "portfolio_bound": true,
-      "portfolio_trace": "Record the instructions or sequence followed, the duration indicated in class, and two brief observations about changes in attention.",
-      "quote": "Concentration is not the absence of ideas; it is a deliberate change in the conditions under which ideas may appear.",
-      "quote_origin": "tao_invented",
-      "semantic_tags": {
-        "themes": [
-          "concentration",
-          "exercise"
-        ],
-        "cidoc": [
-          "crm:E33_Linguistic_Object"
-        ],
-        "getty_aat": [
-          "aphorisms"
-        ],
-        "dcterms": [
-          "dcterms:type=Text",
-          "dcterms:subject=concentration"
-        ]
-      },
-      "citation": {
-        "label": "(Tao of Creativity)",
-        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#tao-of-creativity"
-      }
+      "portfolio_trace": "Save your sheet or solo list, your team’s two counts and the class comparison.",
+      "technique_id": "brainwriting-635",
+      "technique_ids_also": [
+        "open-monitoring-warm-up"
+      ],
+      "practises": [
+        "masterclass-1",
+        "masterclass-2",
+        "masterclass-3"
+      ],
+      "timer_seconds": 240,
+      "image_brief": "Kōdō Sawaki seated in zazen, c. 1920: still, seated attention — the posture of the optional three-minute warm-up before the silent brainwriting rounds.",
+      "asset_id": "wikimedia:File:Kodo Sawaki Zazen.jpg",
+      "media_slot_id": "U2.lab-1",
+      "notes": "- Timer: one 4-minute round (restart it for each round). Whole exercise about 25 minutes.\n- Optional warm-up, 3 minutes: sit comfortably and notice thoughts, sounds or sensations without holding on to any. Anyone may opt out: sit quietly, read the brief, or start early. No posture or breathing instructions.\n- Split the class: brainwriting teams of six (3–6 works) and solo teams of the same size, all on the same brief.\n- Brainwriting: three ideas per row, one per column; pass left; read, then write three new or built-on ideas. Silent.\n- Shortened: a team of six needs six rounds (about 30 minutes) to pass every sheet to everyone; we run 3 rounds and say so.\n- Solo teams: each person writes alone for the same 12 minutes; lists are pooled only at the end.\n- Each team removes repeats and counts different ideas (fluency) and different kinds (flexibility); allow 8–10 minutes for pooling and counting. Compare on the board. Keep the sheets for Exercise 2.\n- Say it aloud: 6-3-5 caps each writer at three ideas per round and solo writing has no cap, so compare kinds of idea (flexibility) and ideas built on others, not raw counts.\nSource: the warm-up rests on one small lab study in which open-monitoring meditation helped a divergent-thinking task (Colzato, Ozturk, and Hommel 2012, 1); that study used sessions of about 35 minutes, so the 3-minute version is untested. 6-3-5 and the solo comparison are a classroom adaptation in course wording.\nAsk: Which kind of team found more kinds of idea? What did passing sheets do to yours?",
+      "claims": [
+        {
+          "text": "OM meditation induces a control state that promotes divergent thinking ... FA meditation does not sustain convergent thinking",
+          "cite": "Colzato, Ozturk, and Hommel 2012, 1"
+        }
+      ]
     },
     {
+      "slide_id": "lab-2",
       "slide_role": "lab_exercise",
       "background_kind": "diagram",
-      "heading": "Exercise 2 · Automatic writing after concentration",
-      "sentence": "Immediately after the concentration period, write continuously for the interval indicated in class. Do not correct, censor, or organise the text while writing.",
+      "heading": "Exercise 2 · Select: hits, COCD box, yellow and black hats",
+      "sentence": "Choose in three steps: dot the interesting parts, sort them in a now / wow / how grid, then test your top three with the yellow hat, then the black hat.",
+      "prompt": "Practises Masterclass 4–5: role tools, and naming your selection criteria.",
       "portfolio_bound": true,
-      "portfolio_trace": "Preserve the unedited writing, identify the point at which attention shifted, and add a short reflection on what the exercise made perceptible or possible.",
-      "quote": "Automatic writing is a record of attention in motion, not a demand to mistake every association for a finished idea.",
-      "quote_origin": "tao_invented",
-      "semantic_tags": {
-        "themes": [
-          "automatic-writing",
-          "attention"
-        ],
-        "cidoc": [
-          "crm:E33_Linguistic_Object"
-        ],
-        "getty_aat": [
-          "aphorisms"
-        ],
-        "dcterms": [
-          "dcterms:type=Text",
-          "dcterms:subject=automatic-writing"
-        ]
-      },
-      "citation": {
-        "label": "(Tao of Creativity)",
-        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#tao-of-creativity"
-      }
+      "portfolio_trace": "Save the dots, the grid, the yellow and black notes, and the criterion behind your pick.",
+      "technique_id": "hits-dot-voting",
+      "technique_ids_also": [
+        "cocd-box",
+        "six-thinking-hats"
+      ],
+      "practises": [
+        "masterclass-4",
+        "masterclass-5"
+      ],
+      "timer_seconds": 1200,
+      "image_brief": "Course diagram: selection grid (no image). This slide uses the course diagram.",
+      "notes": "- Timer: 20 minutes — about 5 for hits, 7 for the grid, 8 for the hats. Same teams as Exercise 1.\n- Hits: all sheets up. In silence, each person puts dots on the parts of ideas that look interesting. No discussion yet.\n- Take the ideas with the most dots (around ten) to a 2×2 grid: how new (low/high) against how feasible (low/high).\n- Name the corners: now (feasible, ordinary), wow (feasible and original), how (original, not yet feasible); drop the fourth. Keep the wow ideas; pick a top three.\n- Yellow hat, 3 minutes: everyone thinks only about why each idea could work. Black hat, 3 minutes: only about why it could fail.\n- Decide: before you pick, write the criterion you will use; then choose one idea. Compare: is your pick also the idea the team rated most original? If not, why?\n- Optional (about 5 extra minutes): before choosing, swap the top three with a neighbouring team (no names). Each person rates the other team's three items alone on the printable peer rating sheet, then returns the sheet. Compare the averages you receive with your grid.\nSource: silent dot stickers marking the interesting parts of each idea (a heat map) are (Knapp, Zeratsky, and Kowitz 2016, chap. 10); in that handbook, voting is a separate later step; the yellow hat covering hope and positive thinking and the black hat covering why it cannot be done are (de Bono 1985, 32). The COCD box, the step order and the comparison question are course wording.\nAsk: Did the criterion you wrote down match the reason you actually chose?",
+      "claims": [
+        {
+          "text": "Heat map: Look at all the solutions in silence, and use dot stickers to mark interesting parts.",
+          "cite": "Knapp, Zeratsky, and Kowitz 2016, chap. 10"
+        }
+      ]
     },
     {
+      "slide_id": "outro",
       "slide_role": "outro",
       "background_kind": "geometrical",
       "heading": "Carry forward",

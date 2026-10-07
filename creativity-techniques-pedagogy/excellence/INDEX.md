@@ -6,9 +6,11 @@ Author: Rubén Vega Balbás, PhD · 2026-10-04
 
 # Creativity Techniques — Excellence cascade (EX0–EX11)
 
-**Status:** ACTIVE cascade (EX0–EX11). This is **not** the `in-practice/`
-exercise-collection cascade (IP0–IP5) and does **not** forge U4–U6; it builds
-the contract, image, research, Lab and didactic layers those units will reuse.
+**Status:** COMPLETE (EX0–EX11 landed on `excellence/integration`; tag
+`excellence/ex11`). Awaiting professor final review and release merge to
+`main`. This is **not** the `in-practice/` exercise-collection cascade
+(IP0–IP5) and does **not** forge U4–U6; it builds the contract, image,
+research, Lab and didactic layers those units will reuse.
 **Author:** Rubén Vega Balbás, PhD · 2026-10-04
 **Readers:** the professor (gates and sign-offs); implementing and
 cold-review agents (orchestrator, then one phase file at a time).
@@ -35,18 +37,18 @@ Only the **first word** of the Gate cell is parsed by `cascade-harness.sh`.
 
 | Step | File | Deliverable | Gate |
 | ---- | ---- | ----------- | ---- |
-| 0 | [PHASE-EX0.md](PHASE-EX0.md) | Live probe + baseline + guía weights decision | READY (autopilot: weights per AUTOPILOT.md §2) |
-| 1 | [PHASE-EX1.md](PHASE-EX1.md) | Contract and factual hotfix (A1–A4, C1–C11) | BLOCKED (EX0 DONE) |
-| 2 | [PHASE-EX2.md](PHASE-EX2.md) | Publication firewall (E1–E3, jargon, footers) | BLOCKED (EX1 DONE) |
-| 3 | [PHASE-EX3.md](PHASE-EX3.md) | Image pipeline rules + tests + deck validator (B1–B15) | BLOCKED (EX2 DONE) |
-| 4 | [PHASE-EX4.md](PHASE-EX4.md) | Slide-bound image curation with rights checks | BLOCKED (EX3 DONE; autopilot curation per AUTOPILOT.md §2) |
-| 5 | [PHASE-EX5.md](PHASE-EX5.md) | Deck renderer: pre-render, alt, captions, notes, layouts | BLOCKED (EX4 DONE) |
-| 6 | [PHASE-EX6.md](PHASE-EX6.md) | Research grounding + single bibliography source | BLOCKED (EX5 DONE; procurement may leave PARTIAL) |
-| 7 | [PHASE-EX7.md](PHASE-EX7.md) | Canonical technique catalogue (~60) | BLOCKED (EX6 DONE; serialize with in-practice workloads) |
-| 8 | [PHASE-EX8.md](PHASE-EX8.md) | Lab redesign U1–U3 + exercise cards | BLOCKED (EX7 DONE; autopilot sign-off, final review) |
-| 9 | [PHASE-EX9.md](PHASE-EX9.md) | Lesson structure, exemplars, lesson images | BLOCKED (EX8 DONE) |
-| 10 | [PHASE-EX10.md](PHASE-EX10.md) | Knowledge-test prep, measurement, peer CAT, method cards | BLOCKED (EX9 DONE) |
-| 11 | [PHASE-EX11.md](PHASE-EX11.md) | Closing audit against the EX0 baseline | BLOCKED (EX10 DONE) |
+| 0 | [PHASE-EX0.md](PHASE-EX0.md) | Live probe + baseline + guía weights decision | DONE (autopilot: weights per AUTOPILOT.md §2) |
+| 1 | [PHASE-EX1.md](PHASE-EX1.md) | Contract and factual hotfix (A1–A4, C1–C11) | DONE (EX0 DONE) |
+| 2 | [PHASE-EX2.md](PHASE-EX2.md) | Publication firewall (E1–E3, jargon, footers) | DONE (EX1 DONE) |
+| 3 | [PHASE-EX3.md](PHASE-EX3.md) | Image pipeline rules + tests + deck validator (B1–B15) | DONE (EX2 DONE) |
+| 4 | [PHASE-EX4.md](PHASE-EX4.md) | Slide-bound image curation with rights checks | DONE (EX3 DONE; autopilot curation per AUTOPILOT.md §2) |
+| 5 | [PHASE-EX5.md](PHASE-EX5.md) | Deck renderer: pre-render, alt, captions, notes, layouts | DONE (EX4 DONE) |
+| 6 | [PHASE-EX6.md](PHASE-EX6.md) | Research grounding + single bibliography source | DONE (EX5 DONE; procurement may leave PARTIAL) |
+| 7 | [PHASE-EX7.md](PHASE-EX7.md) | Canonical technique catalogue (~60) | DONE (EX6 DONE; serialize with in-practice workloads) |
+| 8 | [PHASE-EX8.md](PHASE-EX8.md) | Lab redesign U1–U3 + exercise cards | DONE (EX7 DONE; autopilot sign-off, final review) |
+| 9 | [PHASE-EX9.md](PHASE-EX9.md) | Lesson structure, exemplars, lesson images | DONE (EX8 DONE) |
+| 10 | [PHASE-EX10.md](PHASE-EX10.md) | Knowledge-test prep, measurement, peer CAT, method cards | DONE (EX9 DONE) |
+| 11 | [PHASE-EX11.md](PHASE-EX11.md) | Closing audit against the EX0 baseline | DONE (EX10 DONE) |
 
 ## Live snapshot (2026-10-04)
 

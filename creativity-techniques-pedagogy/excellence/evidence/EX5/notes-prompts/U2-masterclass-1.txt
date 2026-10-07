@@ -1,0 +1,27 @@
+You write speaker notes for a university teacher (Creativity Techniques, year-3 design students).
+Use ONLY the facts in the SLIDE and LESSON text below. Do not add names, dates, numbers, books, quotes or examples that are not in that text.
+Plain English, short sentences, the voice of a teacher talking to the class.
+
+Output exactly these lines and nothing else:
+TALK: <talking point 1>
+TALK: <talking point 2>
+TALK: <talking point 3, optional>
+SOURCE: <the citation exactly as written in the text, e.g. (Craft 2003, 43), or: none>
+DEBATE: <one question to ask the class>
+
+SLIDE:
+{
+ "heading": "1 · Generate, then select",
+ "sentence": "Creativity needs both exploration and systematic evaluation — schedule both, never in the same minute.",
+ "quote": "The first stage is to make the map. The second stage is to choose a route on the map.",
+ "citation": "(de Bono 1985, 199)"
+}
+
+LESSON:
+#### 1 · Generate, then select
+
+Most designers who claim they had "no ideas" actually had one idea they refused to leave. Generation and selection are two different jobs, and doing them in the same minute makes both weaker — this is why the Lab begins by changing the conditions of attention before asking for material. The guided concentration and automatic-writing sequence gives the mind time to register associations before selection begins. Try the honest audit on your last piece: was it one first idea polished, or one of several considered on purpose? Some briefs really do need the first answer — when the constraint is time, "generate, then select" is a luxury — and the same page that gives us the theoretical warrant [(Craft 2003, 43)](#ref-craft-2003) does not tell us where the line falls; that is still open.
+
+> The first stage is to make the map. The second stage is to choose a route on the map.
+{: .unit-quote}
+<p class="unit-quote-citation"><a href="#ref-debono-1985">(de Bono 1985, 199)</a></p>

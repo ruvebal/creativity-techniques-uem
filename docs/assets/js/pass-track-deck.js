@@ -40,12 +40,12 @@
   };
 
   const defaultBackgrounds = [
-    'ct-pass-01-structure.svg',
-    'ct-pass-02-threshold.svg',
-    'ct-pass-03-branching.svg',
-    'ct-pass-04-practice.svg',
-    'ct-pass-05-feedback.svg',
-    'ct-pass-06-coherence.svg',
+    'ct-pass-01-structure-980beb83.svg',
+    'ct-pass-02-threshold-7a624a21.svg',
+    'ct-pass-03-branching-e18a0dc7.svg',
+    'ct-pass-04-practice-6e0ce9bc.svg',
+    'ct-pass-05-feedback-86525d56.svg',
+    'ct-pass-06-coherence-bcb1f0e6.svg',
   ];
 
   const requests = [fetch(body.dataset.contentUrl)];

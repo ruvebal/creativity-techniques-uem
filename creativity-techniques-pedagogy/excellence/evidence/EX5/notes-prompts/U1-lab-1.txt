@@ -1,0 +1,35 @@
+You write speaker notes for a university teacher (Creativity Techniques, year-3 design students).
+Use ONLY the facts in the SLIDE and LESSON text below. Do not add names, dates, numbers, books, quotes or examples that are not in that text.
+Plain English, short sentences, the voice of a teacher talking to the class.
+
+Output exactly these lines and nothing else:
+TALK: <talking point 1>
+TALK: <talking point 2>
+TALK: <talking point 3, optional>
+SOURCE: <the citation exactly as written in the text, e.g. (Craft 2003, 43), or: none>
+DEBATE: <one question to ask the class>
+
+SLIDE:
+{
+ "heading": "Exercise 1 · Research Marcel Duchamp",
+ "sentence": "Find three facts about Duchamp that connect to this unit: readymades, play with identity, or how meaning shifts when context changes.",
+ "quote": "A readymade is not laziness — it is a question dressed as an object.",
+ "portfolio_trace": "Save three bullet points with sources in the portfolio index.",
+ "citation": "(Tao of Creativity)"
+}
+
+LESSON:
+### Exercise 1 — Research Marcel Duchamp
+
+Find **three facts** about Duchamp linked to this unit (readymades, identity play, context shifting meaning). Use the [student deck]() images as a starting point if helpful.
+
+**Portfolio trace:** three bullet points with sources.
+
+### Debate — language, medium, support & circulation
+
+Pick one work (yours or from class). In small groups:
+
+1. Name **language**, **medium**, and **support**.  
+2. Argue where meaning would break if the same piece moved venue — in **making**, in the **channel**, or in **recognition**.
+
+**Portfolio trace:** triad notes + one circulation sentence from the debate.

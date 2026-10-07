@@ -1,0 +1,12 @@
+You rewrite sentences from a university course website for third-year design students (taught in English). Each sentence below contains internal production jargon (words like forge, fork-ready, clone, pilot, open procurement, enrichment pack, in-practice candidates, contact-forgeable, CONTENIDOS, Reveal surface). Rewrite each into plain student-facing English. Rules: keep every fact that matters to a student; drop internal process detail; do NOT add any new fact, name, number, date, or claim; keep author names exactly as given; one line per item; output format exactly "N. <rewrite>" and nothing else.
+
+1. This page is the fork-ready track index. Do not invent Campus Virtual dates here.
+2. Academic year: 2026–27 (guía clone currently 2025–26 — reconcile when 2026–27 PDF lands)
+3. Shared analysis methods — not CONTENIDOS unit IDs. Use from any unit that needs the eight-step process critique (feeds D1).
+4. Open the unit from the table above, then use In-class deck at the lesson head for the Reveal surface used in class.
+5. Creativity Techniques trains method literacy under professional constraints (briefs, deadlines, competition). The sibling Digital Creativity stream trains fashion-digital craft; this track owns ideation technique, selection judgement, and workplace transfer — ready to fork units without inventing hours beyond the guía.
+6. Buchanan, Schön, and Kimbell primary extracts remain open procurement — studio hypotheses, not page-verified yet
+7. Open procurement (not cited in the body until extracts resolve): Buchanan on wicked problems in design thinking; Schön on reflective practice; Kimbell on design-thinking discourse. Do not treat those titles as page-verified for this unit yet.
+8. This pilot uses the U3 enrichment pack and two in-practice candidates from Cross and de Bono as a bounded teaching hypothesis.
+9. This is a Master Lecture — a transversal analysis method for Creativity Techniques (and sister analysis guides). It is not an official CONTENIDOS unit ID.
+10. This methodology page is intentionally lean and fork-ready: unit forges should link back here rather than restate the cycle. Evaluation weights stay on the Evaluation page; bibliography stays on Bibliography. Do not deepen Spanish dual surfaces — this site is English-only.

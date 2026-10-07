@@ -2,7 +2,7 @@
 # EX9 exit gate — lesson structure, exemplars, images.
 source "$(git rev-parse --show-toplevel)/creativity-techniques-pedagogy/excellence/gates/common.sh"
 
-absent "no meta-commentary" "the same page that|this library|open procurement|page cite still open|studio stance\)" "$LESSONS"
+absent "no meta-commentary" "the same page that|this library|open procurement|page cite still open|studio stance\)" "${SCOPED_LESSONS[@]}"
 
 python3 - "$LESSONS" <<'PY' && pass "lesson structure" || fail "lesson structure"
 import pathlib, re, sys
@@ -35,5 +35,69 @@ for slug in ["u-1-introduction-creativity", "u-2-idea-generation-selection", "u-
 print("\n".join(bad)); sys.exit(1 if bad else 0)
 PY
 
+# Amendment A3/F5–F7
+for slug in u-1-introduction-creativity u-2-idea-generation-selection u-3-development-solutions; do
+  f="$LESSONS/$slug/index.md"
+  present "$slug: tao-of-creativity anchor" 'id="tao-of-creativity"|\{#tao-of-creativity\}' "$f"
+  python3 - "$f" <<'GATEPY' && pass "$slug: Workshop timing stated" || fail "$slug: Workshop timing stated"
+import re, sys
+t = open(sys.argv[1]).read()
+m = re.search(r"^## [^\n]*Workshop[^\n]*\n+([^\n]+)", t, re.M)
+sys.exit(0 if m and re.search(r"session", m.group(1), re.I) else 1)
+GATEPY
+done
+
 build_site
+# Amendment A9: real-browser layout check (no Chrome = failure).
+DL_LOG="$(mktemp -t excellence-deck-layout)"
+if node scripts/tests/browser/deck-layout.mjs > "$DL_LOG" 2>&1; then
+  if grep -q "SKIP" "$DL_LOG"; then fail "browser layout check skipped (no Chrome)"; else pass "browser layout check: $(tail -1 "$DL_LOG")"; fi
+else
+  fail "browser layout check"; tail -15 "$DL_LOG"
+fi
+
+# Amendment A12/F8: no "Public domain" caption on a flagged asset; F9: Opt-out covers technique_ids_also.
+python3 - "$DECKS" creativity-techniques-pedagogy/in-practice/CANONICAL-TECHNIQUES.yml "$LESSONS" <<'GATEPY' && pass "A12 caption honesty + opt-out coverage" || fail "A12 caption honesty + opt-out coverage"
+import json, pathlib, re, sys, subprocess
+bad = []
+cat = json.loads(subprocess.run(["ruby","-ryaml","-rjson","-e","c=YAML.load_file(ARGV[0]); c=c['techniques'] if c.is_a?(Hash); puts JSON.dump(c)",sys.argv[2]],capture_output=True,text=True).stdout)
+emb = {t["id"] for t in cat if t.get("family") == "embodied"}
+for p in pathlib.Path(sys.argv[1]).glob("u-[123]-*/data/content.json"):
+    d = json.loads(re.sub(r"^---[\s\S]*?---\s*", "", p.read_text()))
+    assets = {a.get("asset_id"): a for a in d.get("assets", [])}
+    for s in d["slides"]:
+        a = assets.get(s.get("asset_id"))
+        if a and a.get("rights_status") == "flagged" and re.search(r"public domain", str(a.get("licence","")) + str(a.get("credit_line","")), re.I):
+            bad.append(f"{p.parent.parent.name}:{s.get('slide_id')} flagged asset captioned public domain")
+        if s.get("slide_role") == "lab_exercise":
+            ids = [s.get("technique_id")] + list(s.get("technique_ids_also") or [])
+            if any(i in emb for i in ids):
+                lesson = (pathlib.Path(sys.argv[3]) / p.parent.parent.name / "index.md").read_text()
+                if "**Opt-out:**" not in lesson: bad.append(f"{p.parent.parent.name}: embodied technique without Opt-out")
+print(bad); sys.exit(1 if bad else 0)
+GATEPY
+
+# Amendment A13/F1: rendered captions — a flagged asset never shows "Public domain".
+python3 - <<'GATEPY' && pass "rendered captions: flagged assets never 'Public domain' (A13)" || fail "rendered captions: flagged assets never 'Public domain' (A13)"
+import json, pathlib, re, sys
+bad = []
+decks = list(pathlib.Path("docs/tracks/en/uem/2627-ct").glob("u-[123]-*/data/content.json")) + list(pathlib.Path("docs/tracks/en/uem/2627-ml").glob("*/data/content.json"))
+flagged = set()
+for p in decks:
+    d = json.loads(re.sub(r"^---[\s\S]*?---\s*", "", p.read_text()))
+    for a in d.get("assets", []):
+        if a.get("rights_status") == "flagged":
+            flagged.add(pathlib.Path(str(a.get("asset_url", ""))).name)
+pages = [h for d in ("_site/tracks", "_site/lessons", "_site/master-lectures") for h in pathlib.Path(d).rglob("index.html")]
+for h in pages:
+    html = h.read_text(errors="ignore")
+    for name in flagged:
+        if not name: continue
+        for m in re.finditer(re.escape(name), html):
+            window = html[m.start(): m.start() + 1500]
+            if re.search(r"public domain", window, re.I) and not re.search(r"rights under review", window, re.I):
+                bad.append(f"{h}: {name}")
+print(sorted(set(bad))[:10]); sys.exit(1 if bad else 0)
+GATEPY
+
 finish

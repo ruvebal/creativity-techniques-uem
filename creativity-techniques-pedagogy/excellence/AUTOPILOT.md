@@ -1,6 +1,6 @@
 # Autopilot mode — Excellence cascade
 
-**Status:** ACTIVE. The cascade runs EX0 → EX11 without per-phase human
+**Status:** COMPLETE (EX0–EX11 landed). The cascade ran EX0 → EX11 without per-phase human
 sign-off. The professor reviews **once**, at the end, before anything reaches
 `main` (the live student site). This file overrides the "Human gate" lines in
 `TECHNICAL-DIRECTOR-CASCADE.md` and the phase files: those gates are replaced

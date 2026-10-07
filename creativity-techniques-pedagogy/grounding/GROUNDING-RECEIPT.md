@@ -16,7 +16,7 @@
 | `document_id` | `936c6463-d112-5950-b1a5-e1c400da9ddc` |
 | `extraction.db` | `…/9990002301_3cd91cef/extract/extraction.db` |
 | JSON contract (2025/26 Design) | `cv/guides/guia-tecnicas-de-creatividad-diseno-2025-26.json` (**working**) |
-| Unicrawler 26/27 scrape | `cv/guides/9990002301-unicrawler-2026-27.json` — **Videojuegos · 4 units**; compare only |
+| Unicrawler 26/27 scrape | `cv/guides/guia-tecnicas-de-creatividad-videojuegos-2026-27.json` — **Videojuegos · 4 units**; compare only |
 
 Ingest log: `cv/sources/9990002301.ahmes-ingest.log`  
 Note: institutional guía PDFs often lack DOI/ISBN — expect `[BIBLIO-GAP]` on cite resolver until meta coats are enriched for teaching use. Contениdos authority remains the PDF + JSON clone, not vector snippets.

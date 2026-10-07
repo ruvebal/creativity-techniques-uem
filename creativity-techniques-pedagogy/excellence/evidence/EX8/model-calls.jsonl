@@ -1,0 +1,1 @@
+{"call": 1, "model": "qwen2.5:32b-instruct", "prompt_file": "qwen-prompt-1.txt", "prompt_eval_count": 380, "eval_count": 152, "seconds": 19.6, "purpose": "student-voice lab slide sentences (6)"}

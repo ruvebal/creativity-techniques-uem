@@ -1,0 +1,156 @@
+"""EX5: final speaker notes for U1-U3 masterclass and lab slides.
+
+Edited by hand from notes-draft.json (local qwen2.5:32b-instruct drafts), checked
+line by line against the public lesson text: talking points restate the lesson,
+"Source" repeats cites already in the lesson (no new citations), "Ask" is the
+debate prompt. Model lines that added claims not in the lesson were dropped
+(see PHASE-EX5-REPORT.md). Writes a `notes` field into each deck content.json.
+
+Usage (worktree root): python3 creativity-techniques-pedagogy/excellence/evidence/EX5/notes_final.py
+"""
+import json, pathlib, re
+
+NOTES = {
+ "U1": {
+  "masterclass-1": ["- First we open: invent many options. That is divergent thinking.",
+                    "- Then we close: pick what fits the needs of the brief. That is convergent thinking.",
+                    "- One creative job often needs both moves.",
+                    "Source: (Craft 2003, 43).",
+                    "Ask: Think of your last project. Where did you open, and where did you close?"],
+  "masterclass-2": ["- Guilford's four abilities, as summarised by Chen, give us shared words: fluency (many ideas quickly), flexibility (several angles), originality (ideas few other people produce), elaboration (work the details).",
+                    "- Training can raise scores on these skills.",
+                    "- A higher score is not the same as a better idea in a real brief. That is the next slide.",
+                    "Source: (Chen 2012, 41); the same triad in (Csikszentmihalyi 2007, 8).",
+                    "Ask: Which of the four skills do you use most? Which one do you avoid?"],
+  "masterclass-3": ["- Scoring high on \"how many uses for a brick or a paper clip\" is not the same as judgement inside a real brief.",
+                    "- A test in one field may tell us little about talent in another, such as music.",
+                    "Source: (Chen 2012, 41).",
+                    "Ask: What would a test of design judgement need to include?"],
+  "masterclass-4": ["- Before you pick a creativity technique, say what is fuzzy in the brief.",
+                    "- Tools help after the problem is framed.",
+                    "- This is a studio stance. The lesson has no page source for it yet: treat it as a course hypothesis.",
+                    "Source: studio stance (Tao of Creativity line on the slide).",
+                    "Ask: What question does your current brief still refuse to answer?"],
+  "masterclass-5": ["- A method helps you talk with the situation.",
+                    "- It does not replace your judgement.",
+                    "- Studio stance: the lesson has no page source for it yet.",
+                    "Source: studio stance (Tao of Creativity line on the slide).",
+                    "Ask: When did a method push you to a choice you would not defend?"],
+  "masterclass-6": ["- Use tools that help.",
+                    "- Also ask when managerial buzzwords empty out craft.",
+                    "- Studio stance, offered for debate, not as settled fact.",
+                    "Source: studio stance (Tao of Creativity line on the slide).",
+                    "Ask: Name one design buzzword. What craft might it hide?"],
+  "lab-1": ["- Task: find three facts about Duchamp linked to this unit: readymades, identity play, or context shifting meaning.",
+            "- The deck images can be a starting point.",
+            "- Portfolio trace: three bullet points with sources.",
+            "Debate (B2): pick one work. Name its language, medium and support.",
+            "Ask: Where would the meaning break if the same piece moved venue: in the making, in the channel, or in recognition?"],
+  "lab-2": ["- Task: what did Dada question about art, authorship and institutions?",
+            "- Link one Dada tactic to a creativity technique you might use in studio.",
+            "- Portfolio trace: a short paragraph and one studio link.",
+            "Debate (B2): name language, medium and support of one Dada work; add one circulation sentence to the portfolio.",
+            "Ask: Which Dada tactic would you dare to use in your own D1?"],
+ },
+ "U2": {
+  "masterclass-1": ["- Generation and selection are two different jobs. Doing them in the same minute makes both weaker.",
+                    "- That is why the Lab starts by changing the conditions of attention before asking for material.",
+                    "- Honest audit: was your last piece one first idea polished, or one of several considered on purpose?",
+                    "- Some briefs really do need the first answer. When time is the constraint, generate-then-select is a luxury.",
+                    "Source: (de Bono 1985, 199) for the quote; (Craft 2003, 43) for the warrant.",
+                    "Ask: Where does the line fall between \"take the first answer\" and \"generate more\"?"],
+  "masterclass-2": ["- After concentration, look at the automatic writing: which associations recur, which change direction, which stay merely verbal?",
+                    "- Someone has to decide whether two passages are different possibilities or variations of one.",
+                    "- Selection follows the period of production; it does not interrupt it.",
+                    "Source: (Csikszentmihalyi 2007, 8); (Craft 2003, 43); (de Bono 1970, 9).",
+                    "Ask: How do you decide if two ideas are different, or one idea twice?"],
+  "masterclass-3": ["- The first ideas are usually the obvious ones, the ones most people in the room would also have.",
+                    "- Get past them by producing more without judging, not by censoring.",
+                    "- Write without correcting, then come back later as a selector.",
+                    "- On your D1: count how many ideas you wrote before one felt neither obvious nor random. Write the number down.",
+                    "Source: (de Bono 1970, 9) for the quote; (de Bono 1970, 17); (Csikszentmihalyi 2007, 8).",
+                    "Ask: How many ideas are enough for a given brief? The lesson leaves this open."],
+  "masterclass-4": ["- The studio is never neutral: the first voice can narrow the room. Role and constraint tools disturb that frame.",
+                    "- Six Thinking Hats: one mode at a time. White facts, red feelings, black caution, yellow benefits, green new ideas, blue running the process.",
+                    "- An Oblique Strategies card gives one short prompt for changing a D1 object. It is a deck of prompts, not a theory or a guarantee.",
+                    "Source: (Raymond 2001, 57) for the quote; (de Bono 1970, 12); (Markman, Klein, and Suhr 2009, 192).",
+                    "Ask: Who speaks first in your group, and what does that close?"],
+  "masterclass-5": ["- Unstated criteria favour whatever the room already leaned toward.",
+                    "- Name the criterion before you decide what to keep. The scoring is the design act, not the ranking.",
+                    "- Editing as taste revealed in curation is selection criteria by another name, not a substitute for writing them down.",
+                    "Source: (Rubin 2023, 123).",
+                    "Ask: Whose criteria decide what counts as \"novel\"?"],
+  "masterclass-6": ["- Concentration and automatic writing produce material you did not have in view. That does not mean the exercise produced better ideas.",
+                    "- Fluency, flexibility and originality are what most tests measure and most workshops train. Training can raise the scores.",
+                    "- Landmark work is rare, depends on its system, and cannot be produced on command in a two-hour block.",
+                    "- Practice matters, but it does not replace judgement.",
+                    "Source: the slide quote on artists portrayed as tortured geniuses is (Rubin 2023, 103); the lesson's point that practice matters but does not replace judgement is (Rubin 2023, 104); the test dimensions are (Csikszentmihalyi 2007, 8).",
+                    "Ask: Which passage of your unedited writing could become evidence for D1, and what criterion would justify that choice?"],
+  "lab-1": ["- Follow the guided meditation exactly as indicated in class.",
+            "- Attend to breath, bodily sensation and the surrounding field. Do not evaluate or produce ideas yet.",
+            "- This is a concentration period, not a performance task.",
+            "- Portfolio trace: the instructions or sequence followed, the duration, two brief observations about changes in attention.",
+            "Ask: What changed in your attention during the period?"],
+  "lab-2": ["- Right after concentration, write continuously for the interval indicated in class.",
+            "- Do not correct, censor or organise while writing. Let associations, images, questions and directions in before selection begins.",
+            "- Portfolio trace: keep the unedited writing, mark where attention shifted, add a short reflection.",
+            "Ask: What did the exercise make perceptible or possible?"],
+ },
+ "U3": {
+  "masterclass-1": ["- A rough prototype is a question in material form.",
+                    "- It does not need to look finished. It needs to reveal one thing you do not know yet.",
+                    "- Build the smallest version that lets a classmate react.",
+                    "Source: (Cross 2006, 17) on resolving ill-defined problems.",
+                    "Ask: What can this rough object tell you that a description cannot?"],
+  "masterclass-2": ["- Early critique can close a path before it shows what it might become.",
+                    "- Protect a short space for variation first. Then judge with a named criterion.",
+                    "- This is not permission to keep every idea. It stops you mistaking the first awkward version for the final limit.",
+                    "Source: no page cite in the lesson for this idea.",
+                    "Ask: Which idea did you drop too early this week?"],
+  "masterclass-3": ["- Revision helps when you know what the next version must answer.",
+                    "- Write one test before you change the work: \"Can the viewer find the main action?\" or \"Does the form fit the brief?\"",
+                    "- Stop when the test is answered, even if another improvement is possible.",
+                    "Source: no page cite in the lesson for this idea.",
+                    "Ask: What is the one test your next version must pass?"],
+  "masterclass-4": ["- Sketching puts a thought outside your head before language makes it neat.",
+                    "- Draw three different arrangements, not one beautiful drawing. Compare relationships, rhythm and emphasis.",
+                    "- A sketch is a temporary argument: it shows what your idea is doing.",
+                    "Source: (Cross 2006, 46).",
+                    "Ask: What did the second and third arrangement show that the first one hid?"],
+  "masterclass-5": ["- Some briefs are unclear because the problem itself is still moving. Do not force one path too soon.",
+                    "- Reframe the brief as two or three possible questions. Make one small response to each.",
+                    "- Creative agency: the capacity to envision and enact meaningful changes within constraints.",
+                    "Source: (Beghetto and Karwowski 2025, 1).",
+                    "Ask: Which of your questions surprised you most?"],
+  "masterclass-6": ["- Pause after each version. Write three lines: what changed, what stayed, what the change taught you.",
+                    "- Schön's reflection-in-action and Cross's designerly knowing frame this pause.",
+                    "- The checkpoint turns attempts into evidence you can discuss. It is a teaching prompt, not a model of every studio decision.",
+                    "Source: no page cite in the lesson for this idea.",
+                    "Ask: What did your last checkpoint teach you?"],
+  "lab-1": ["- One concrete D1 problem, the same for the whole class.",
+            "- Three rough sketches or small prototypes in about 20 minutes, each from a different entry point named in advance: structure, material/support, or audience/circulation.",
+            "- Do not polish. Compare relationships, rhythm and emphasis across the three starts.",
+            "- Watch the temptation to solve it the obvious way and paste the entry point on afterwards.",
+            "Source: (Cross 2006, 93); (de Bono 1970, 27).",
+            "Ask (in pairs): How did each entry point steer the path?"],
+  "lab-2": ["- Choose one of the three versions. Keep developing without deciding yet if it is right.",
+            "- Write one testable question the next version must answer. Revise once. Stop when the test is answered.",
+            "- If a tool or generative system supplied a variation, record the prompt, the option you rejected, and why you kept the final form.",
+            "Source: (de Bono 1970, 30).",
+            "Ask: Where did you stop, and was it hard to stop?"],
+ },
+}
+
+ROOT = pathlib.Path.cwd()
+DECKS = {"U1": "u-1-introduction-creativity", "U2": "u-2-idea-generation-selection", "U3": "u-3-development-solutions"}
+for unit, slug in DECKS.items():
+    path = ROOT / f"docs/tracks/en/uem/2627-ct/{slug}/data/content.json"
+    raw = path.read_text()
+    front = re.match(r"^---[\s\S]*?---\s*", raw).group(0)
+    deck = json.loads(raw[len(front):])
+    for slide in deck["slides"]:
+        sid = slide["slide_id"]
+        if slide["slide_role"] in ("masterclass", "lab_exercise"):
+            slide["notes"] = "\n".join(NOTES[unit][sid])
+    path.write_text("---\nlayout: null\n---\n" + json.dumps(deck, indent=2, ensure_ascii=False) + "\n")
+    print(unit, sum(1 for s in deck["slides"] if s.get("notes")), "notes")

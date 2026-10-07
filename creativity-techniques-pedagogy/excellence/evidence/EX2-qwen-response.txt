@@ -1,0 +1,15 @@
+model: qwen2.5:32b-instruct
+prompt_eval_count: 523
+eval_count: 325
+total_duration_s: 26.3
+
+1. This page lists the course tracks. Do not add any dates here.
+2. Academic year: 2026–27 (current guide is 2025–26 — update when the new PDF is available)
+3. Use shared analysis methods from any unit that requires the eight-step process critique (feeds D1).
+4. Open the unit from the table above, then use the In-class deck at the lesson head for the Reveal surface used in class.
+5. Creativity Techniques teaches method literacy under professional constraints (briefs, deadlines, competition). The Digital Creativity stream focuses on fashion-digital skills; this track covers ideation techniques, selection judgement, and workplace application.
+6. Primary extracts from Buchanan, Schön, and Kimbell are still being reviewed — studio hypotheses, not yet confirmed.
+7. These sources are still being reviewed (not cited in the body until extracts are finalized): Buchanan on wicked problems in design thinking; Schön on reflective practice; Kimbell on design-thinking discourse. Do not treat these titles as confirmed for this unit yet.
+8. This course uses the U3 enrichment pack and two practical examples from Cross and de Bono as a teaching hypothesis.
+9. This is a Master Lecture — a cross-unit analysis method for Creativity Techniques (and related guides). It is not an official unit.
+10. This methodology page is intentionally concise: units should link back here rather than restate the cycle. Evaluation weights are on the Evaluation page; bibliography is on the Bibliography page. Do not add Spanish content — this site is English-only.

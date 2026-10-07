@@ -1,0 +1,125 @@
+---
+TYPE: mcq
+BLOOM: remember
+STEM: In the first two sessions, what does the professor do?
+ANSWER: The professor models analysis on a shared piece.
+DISTRACTORS: The professor assigns homework on analysis | The professor observes students analyzing a piece | The professor lectures on the history of design
+EVIDENCE: The professor models analysis on a shared piece (live, with the deck).
+---
+
+---
+TYPE: short
+BLOOM: understand
+STEM: What are the three questions to answer before calling something "creative"?
+ANSWER: Language, Medium, and Support.
+DISTRACTORS: 
+EVIDENCE: Before you call something “creative,” answer these in order: 1. Language — which code or system makes meaning here? (visual grammar, verbal pitch, pattern language, UI conventions…) 2. Medium — which channel or genre carries it? (campaign, lookbook, classroom critique, exhibition, feed…) 3. Support — what material or file holds the signs? (print, garment, screen file, installation…)
+---
+
+---
+TYPE: case
+BLOOM: apply
+STEM: A designer creates a poster that is praised in class but ignored by a client. Analyze where meaning might have failed.
+ANSWER: Meaning might have failed in the channel or in recognition.
+DISTRACTORS: 
+EVIDENCE: Debate prompt: If the same sketch is praised in class and ignored in a client review, where did meaning fail — in making, in the channel, or in recognition? Name language, medium, and support before you answer.
+---
+
+---
+TYPE: mcq
+BLOOM: remember
+STEM: What does the "creative" part of Beghetto and Karwowski's definition address?
+ANSWER: Both novelty and meaningfulness.
+DISTRACTORS: Only novelty | Only meaningfulness | Neither novelty nor meaningfulness
+EVIDENCE: Beghetto and Karwowski note that the "creative" part of their own definition "addresses both novelty and meaningfulness, aligning with standard definitions of creativity" [(Beghetto and Karwowski 2025, 3)].
+---
+
+---
+TYPE: short
+BLOOM: understand
+STEM: What is the system of three parts that Csikszentmihalyi describes for creativity?
+ANSWER: Domain, Field, and Person.
+DISTRACTORS: 
+EVIDENCE: Csikszentmihalyi calls that assumption misleading: for him, creativity can be observed only in a system of three parts — a domain (a set of rules and symbols, such as graphic design), a field (the people who decide what gets in: teachers, clients, curators, critics), and the person who brings something new [(Csikszentmihalyi 1996, chap. 2)].
+---
+
+---
+TYPE: case
+BLOOM: analyse
+STEM: A designer is working on a poster brief. They sketch twelve small layouts without judging any of them, then keep the two that can be read from across a corridor. Analyze this process.
+ANSWER: This process involves divergent thinking (opening) followed by convergent thinking (closing).
+DISTRACTORS: 
+EVIDENCE: Opening is divergent thinking: you invent many possibilities. Closing is convergent thinking: you select what fits the needs of the brief.
+---
+
+---
+TYPE: mcq
+BLOOM: understand
+STEM: What are the four skills that creativity tests measure?
+ANSWER: Fluency, Flexibility, Originality, and Elaboration.
+DISTRACTORS: Creativity, Imagination, Innovation, and Originality | Fluency, Flexibility, Originality, and Imagination | Creativity, Flexibility, Originality, and Elaboration
+EVIDENCE: Guilford’s four abilities, as Chen summarises them: - Fluency — produce many ideas quickly - Flexibility — try several angles (different kinds of idea) - Originality — produce ideas that few other people produce (rare answers) - Elaboration — work the details and carry the idea through
+---
+
+---
+TYPE: short
+BLOOM: apply
+STEM: Explain why a long list of uses for a paper clip does not guarantee a successful idea for a packaging client.
+ANSWER: A long list does not necessarily tell the client which idea serves their product or why.
+DISTRACTORS: 
+EVIDENCE: a long list of uses for a paper clip does not yet tell a packaging client which single idea serves their product, or why.
+---
+
+---
+TYPE: case
+BLOOM: evaluate
+STEM: A designer is given a brief to "make our website feel younger." Evaluate this as a problem statement.
+ANSWER: The statement is not yet a problem; it needs to be framed more clearly to identify a specific issue.
+DISTRACTORS: 
+EVIDENCE: “make our website feel younger” is not yet a problem; “first-year students cannot find the timetable” is one you can design for.
+---
+
+---
+TYPE: mcq
+BLOOM: understand
+STEM: What does Schön suggest about problems in real-world practice?
+ANSWER: Problems do not present themselves as givens and have to be built out of a situation.
+DISTRACTORS: Problems are always clear and well-defined | Problems are solved with creativity alone | Problems are handed to the practitioner as givens
+EVIDENCE: "In real-world practice, problems do not present themselves to the practitioner as givens"; they have to be built out of a situation that is "puzzling, troubling, and uncertain" [(Schön 1983, 40)].
+---
+
+---
+TYPE: short
+BLOOM: apply
+STEM: How should a designer use creativity techniques according to Schön?
+ANSWER: A designer should use techniques to talk with the situation, not replace their judgement.
+DISTRACTORS: 
+EVIDENCE: Use the techniques in this course in that spirit.
+---
+
+---
+TYPE: case
+BLOOM: analyse
+STEM: A client asks for a “design thinking workshop.” Analyze how you should respond.
+ANSWER: Ask which decision the workshop should help them make and who will make it.
+DISTRACTORS: 
+EVIDENCE: when a client asks for a “design thinking workshop”, ask which decision the workshop should help them make, and who will make it.
+---
+
+---
+TYPE: mcq
+BLOOM: understand
+STEM: What does the debate prompt in the Analysis section suggest about the same sketch being praised in class and ignored in a client review?
+ANSWER: It suggests that meaning might fail in making, in the channel, or in recognition.
+DISTRACTORS: It suggests that the sketch is not creative | It suggests that the sketch is only for class use | It suggests that the sketch is not original
+EVIDENCE: Debate prompt: If the same sketch is praised in class and ignored in a client review, where did meaning fail — in making, in the channel, or in recognition?
+---
+
+---
+TYPE: short
+BLOOM: evaluate
+STEM: Evaluate the statement "Design thinking separates thinking from acting and ignores how different designers' practices are."
+ANSWER: The statement highlights issues that undermine the claims made for design thinking.
+DISTRACTORS: 
+EVIDENCE: "there are several issues that undermine the claims made for design thinking" — for example, that it separates thinking from acting and ignores how different designers' practices are [(Kimbell 2011, 285)].
+---

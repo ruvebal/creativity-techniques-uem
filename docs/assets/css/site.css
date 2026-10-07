@@ -1,4 +1,4 @@
-/* ATELIER UDIT – minimal prose + layout */
+/* Creativity Techniques – minimal prose + layout */
 :root {
 	/* Layout scale */
 	--max: clamp(66ch, 2.5vw + 78ch, 104ch); /* Harmonic readable measure for prose (wider) */
@@ -204,7 +204,7 @@ img.footer-logo {
 	object-fit: contain;
 }
 
-.footer-institutional-logos .footer-logo--udit {
+.footer-institutional-logos .footer-logo--secondary {
 	max-width: min(100%, 18rem);
 }
 
@@ -2907,4 +2907,160 @@ main#main:has(.lesson-wrapper) {
 .dark .locale-link:focus {
 	background: #34d399;
 	color: #1a1a1a;
+}
+
+/* Lesson figures (PHASE-EX9): deck images reused in lessons, caption from the deck. */
+.lesson-figure {
+	margin: 1.25rem 0 1.5rem;
+	max-width: 46rem;
+}
+
+.lesson-figure img {
+	display: block;
+	width: 100%;
+	max-height: 26rem;
+	object-fit: contain;
+	background: rgb(15 23 42 / 0.04);
+	border-radius: 0.5rem;
+}
+
+.lesson-figure figcaption {
+	margin-top: 0.45rem;
+	font-size: 0.85rem;
+	line-height: 1.4;
+	color: inherit;
+	opacity: 0.8;
+}
+
+.lesson-figure figcaption a {
+	text-decoration: underline;
+}
+
+.lesson-example-trace {
+	margin: 0.75rem 0 1.25rem;
+	padding: 0.75rem 1rem;
+	border-left: 3px solid rgb(148 163 184 / 0.8);
+	background: rgb(148 163 184 / 0.1);
+}
+
+.lesson-figure p,
+.lesson-figure figcaption p {
+	margin: 0;
+}
+
+/* ---------- PHASE-EX10: method cards, practice quizzes, peer rating sheet ---------- */
+
+.method-cards__grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+	gap: 1rem;
+	margin: 1.5rem 0;
+}
+
+.method-card {
+	padding: 1rem 1.1rem;
+	border: 1px solid rgb(148 163 184 / 0.6);
+	border-radius: 0.5rem;
+	background: rgb(148 163 184 / 0.06);
+	break-inside: avoid;
+	page-break-inside: avoid;
+}
+
+.method-card__kind {
+	margin: 0;
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	opacity: 0.75;
+}
+
+.method-card__name {
+	margin: 0.2rem 0 0.5rem;
+	font-size: 1.2rem;
+}
+
+.method-card p,
+.method-card ol {
+	margin: 0.35rem 0;
+	font-size: 0.95rem;
+	line-height: 1.4;
+}
+
+.method-card ol {
+	padding-left: 1.3rem;
+	list-style: decimal;
+}
+
+.method-card__source {
+	opacity: 0.85;
+}
+
+.practice-quiz__question {
+	margin: 1rem 0;
+	padding: 0.9rem 1.1rem;
+	border: 1px solid rgb(148 163 184 / 0.6);
+	border-radius: 0.5rem;
+	break-inside: avoid;
+	page-break-inside: avoid;
+}
+
+.practice-quiz__options {
+	margin: 0.4rem 0;
+	padding-left: 1.8rem;
+	list-style: upper-alpha;
+}
+
+.practice-quiz__stem {
+	margin: 0;
+}
+
+.practice-quiz__question details {
+	margin-top: 0.6rem;
+}
+
+.practice-quiz__question summary {
+	cursor: pointer;
+	font-weight: 600;
+}
+
+.peer-rating-sheet table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.peer-rating-sheet th,
+.peer-rating-sheet td {
+	padding: 0.5rem;
+	border: 1px solid rgb(148 163 184 / 0.8);
+	text-align: left;
+	vertical-align: top;
+}
+
+.peer-rating-sheet td.peer-rating-sheet__blank {
+	height: 2.2rem;
+}
+
+@media print {
+	.method-cards__grid {
+		display: block;
+	}
+
+	.method-card {
+		margin: 0 0 0.6rem;
+		border-color: #555;
+		background: none;
+	}
+
+	/* Printable on white paper: dark text, no dark fills (EX10). */
+	.method-cards *,
+	.practice-quiz *,
+	.peer-rating-sheet * {
+		color: #111 !important;
+		background: transparent !important;
+	}
+
+	.peer-rating-sheet th,
+	.peer-rating-sheet td {
+		border-color: #555 !important;
+	}
 }

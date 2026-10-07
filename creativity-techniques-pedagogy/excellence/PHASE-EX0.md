@@ -21,7 +21,8 @@ a Videojuegos guía, while `cv/sources/9990002301.pdf` (Diseño 2025/26) says
   stdlib only; prints one JSON object (keys below); `--targets` exits non-zero
   if any EX11 target is unmet; `--from <json>` evaluates the targets on a stored
   result instead of the live tree
-- `creativity-techniques-pedagogy/excellence/evidence/baseline-EX0.json` — probe output at HEAD
+- `creativity-techniques-pedagogy/excellence/evidence/baseline-EX0.json` — probe output at the audited
+  commit `1af967d` (Amendment A2/F1; `evidence/head-EX0.json` measures launch HEAD `a1da745`)
 - `creativity-techniques-pedagogy/excellence/DECISION-EX0-GUIA.md` — professor-confirmed weights
 - `PHASE-EX0-COLD-REVIEW.md`, `PHASE-EX0-REPORT.md`
 

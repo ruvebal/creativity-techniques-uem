@@ -1,0 +1,209 @@
+{
+  "records_total": 6785,
+  "dropped_offtopic": 1581,
+  "dropped_by_reason": {
+    "ml-engineering": 840,
+    "unreliable-copy (machine back-translation)": 440,
+    "cloud-setup": 130,
+    "medicine/therapy": 68,
+    "theology": 47,
+    "network-security": 23,
+    "ip-law": 19,
+    "scientometrics": 14
+  },
+  "on_topic": 5204,
+  "mapped_records": 1723,
+  "mapped_by_method": {
+    "rule": 1614,
+    "model": 104,
+    "rule+coat-guard": 5
+  },
+  "unmapped_on_topic": 3481,
+  "distinct_names_mapped": 264,
+  "duplicates_collapsed": 1678,
+  "techniques_with_records": 45,
+  "per_technique": {
+    "alternatives-quota": {
+      "records": 58,
+      "distinct_names": 8
+    },
+    "analogy-transfer": {
+      "records": 40,
+      "distinct_names": 13
+    },
+    "attribute-listing": {
+      "records": 16,
+      "distinct_names": 3
+    },
+    "automatic-writing": {
+      "records": 5,
+      "distinct_names": 3
+    },
+    "brainstorming-osborn": {
+      "records": 59,
+      "distinct_names": 14
+    },
+    "brainwriting-635": {
+      "records": 5,
+      "distinct_names": 1
+    },
+    "circle-of-opportunity": {
+      "records": 14,
+      "distinct_names": 1
+    },
+    "constraint-writing": {
+      "records": 13,
+      "distinct_names": 4
+    },
+    "contextual-observation": {
+      "records": 9,
+      "distinct_names": 4
+    },
+    "creative-journal": {
+      "records": 26,
+      "distinct_names": 11
+    },
+    "delay-judgement-checkpoint": {
+      "records": 19,
+      "distinct_names": 3
+    },
+    "dominant-idea": {
+      "records": 19,
+      "distinct_names": 2
+    },
+    "empathy-map": {
+      "records": 14,
+      "distinct_names": 6
+    },
+    "entry-point-attention-area": {
+      "records": 9,
+      "distinct_names": 3
+    },
+    "exquisite-corpse": {
+      "records": 5,
+      "distinct_names": 2
+    },
+    "five-user-interviews": {
+      "records": 1,
+      "distinct_names": 1
+    },
+    "force-field-analysis": {
+      "records": 26,
+      "distinct_names": 2
+    },
+    "fractionation": {
+      "records": 39,
+      "distinct_names": 2
+    },
+    "how-might-we": {
+      "records": 1,
+      "distinct_names": 1
+    },
+    "improv-yes-and": {
+      "records": 14,
+      "distinct_names": 12
+    },
+    "mental-locks-audit": {
+      "records": 50,
+      "distinct_names": 1
+    },
+    "mind-map": {
+      "records": 18,
+      "distinct_names": 4
+    },
+    "morphological-box": {
+      "records": 39,
+      "distinct_names": 3
+    },
+    "phoenix-checklist": {
+      "records": 26,
+      "distinct_names": 2
+    },
+    "pmi": {
+      "records": 8,
+      "distinct_names": 3
+    },
+    "po-provocation": {
+      "records": 160,
+      "distinct_names": 14
+    },
+    "problem-finding": {
+      "records": 17,
+      "distinct_names": 7
+    },
+    "process-trail": {
+      "records": 1,
+      "distinct_names": 1
+    },
+    "pure-contour-drawing": {
+      "records": 2,
+      "distinct_names": 2
+    },
+    "question-led-prototype": {
+      "records": 38,
+      "distinct_names": 3
+    },
+    "random-word": {
+      "records": 113,
+      "distinct_names": 12
+    },
+    "reflection-in-action-log": {
+      "records": 65,
+      "distinct_names": 8
+    },
+    "reversal-method": {
+      "records": 72,
+      "distinct_names": 10
+    },
+    "scamper": {
+      "records": 127,
+      "distinct_names": 12
+    },
+    "seed-collection": {
+      "records": 24,
+      "distinct_names": 2
+    },
+    "seeing-as-sketch-cycles": {
+      "records": 22,
+      "distinct_names": 7
+    },
+    "six-thinking-hats": {
+      "records": 366,
+      "distinct_names": 33
+    },
+    "storyboarding": {
+      "records": 16,
+      "distinct_names": 3
+    },
+    "swipe-file": {
+      "records": 1,
+      "distinct_names": 1
+    },
+    "synectics-excursion": {
+      "records": 10,
+      "distinct_names": 4
+    },
+    "thirty-circles": {
+      "records": 5,
+      "distinct_names": 1
+    },
+    "thought-walk": {
+      "records": 14,
+      "distinct_names": 5
+    },
+    "what-if-prompts": {
+      "records": 54,
+      "distinct_names": 9
+    },
+    "why-technique": {
+      "records": 61,
+      "distinct_names": 12
+    },
+    "wicked-reframe": {
+      "records": 22,
+      "distinct_names": 9
+    }
+  },
+  "model_vetoed_names": 65,
+  "multi_rule_hits": []
+}

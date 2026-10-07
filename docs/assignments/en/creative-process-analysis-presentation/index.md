@@ -49,7 +49,7 @@ Submit **one** navigable slideshow package through Campus Virtual (format and da
 - **Lens A** named at least once (where the technique acts: language / medium / support).
 - **Lens B** named at least once (who recognised the work; what it could produce next).
 - **One critical sentence** you will defend under questions.
-- **Authorship / AI declaration** (tools, collaborators, “no AI” valid).
+- **Authorship / AI declaration** (tools, collaborators, “no AI” valid) for this presentation, following the [AI usage declaration]({{ '/ai-declaration/' | relative_url }}).
 - **Speaker-ready file**: opens reliably; media linked; fonts safe.
 
 Optional handout ≠ replacement for the live deck.

@@ -2,149 +2,358 @@
 layout: null
 ---
 {
+  "schema_version": 2,
   "unit_label": "Master Lecture · Creative process analysis",
   "final_event_theme": "Where did meaning fail — in making, in the channel, or in recognition?",
   "media_selection": {
     "unit_id": "ML-CPA",
     "project_id": "ml",
-    "collection": "unit-accepted",
-    "strategy": "image-backed-content-with-geometrical-transitions",
-    "description": "Special analysis unit: captioned course-image backgrounds for the cover, analysis, masterclass, and Lab work; geometrical backgrounds mark the section transitions."
+    "strategy": "slide-bound",
+    "description": "Each image is bound to one named slide by asset_id; slides without a cleared image use the course diagram."
   },
   "assets": [
-    {"media_slot_id":"ML-CPA.cover","asset_id":"wikimedia:File:Iterative Process Diagram.svg","asset_url":"/creativity-techniques-uem/assets/images/profield-cache/1b014b8e74a8b772.svg","source_file_url":"https://upload.wikimedia.org/wikipedia/commons/8/8d/Iterative_Process_Diagram.svg","canonical_source_url":"https://commons.wikimedia.org/wiki/File:Iterative_Process_Diagram.svg","title":"Iterative Process Diagram","alt_text":"A diagram showing an iterative creative process","provider":"Wikimedia Commons","credit_line":"Wikimedia Commons","licence":"","selection_rank":3},
-    {"media_slot_id":"ML-CPA.cover","asset_id":"nypl:ecd58340-c606-012f-96ca-58d385a7bc34","asset_url":"/creativity-techniques-uem/assets/images/profield-cache/67e8367fb0719e25.php","source_file_url":"https://images.nypl.org/index.php?id=1634206&t=w","canonical_source_url":"http://digitalcollections.nypl.org/items/ecd58340-c606-012f-96ca-58d385a7bc34","title":"Fashion illustration","alt_text":"A fashion illustration used as a creative-process study","provider":"NYPL","credit_line":"NYPL","licence":"","selection_rank":9}
+    {
+      "media_slot_id": "ML-CPA.cover",
+      "asset_id": "wikimedia:File:Iterative Process Diagram.svg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/1b014b8e74a8b772.webp",
+      "source_file_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Iterative_Process_Diagram.svg/1920px-Iterative_Process_Diagram.svg.png",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Iterative_Process_Diagram.svg",
+      "title": "Iterative Process Diagram",
+      "alt_text": "Diagram of an iterative cycle: planning, requirements, analysis and design, implementation, testing and evaluation, looping back before deployment.",
+      "author": "Krupadeluxe",
+      "licence": "CC-BY-SA-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Krupadeluxe · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "own CC BY-SA 4.0; prospector title carries modern_rights_review_required",
+      "rights_status": "flagged",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-CPA.analysis-model",
+      "asset_id": "wikimedia:File:Standard Symbols for Process Charts (1), 1921.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/206324d9cdf778ac.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Standard_Symbols_for_Process_Charts_%281%29%2C_1921.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Standard_Symbols_for_Process_Charts_(1),_1921.jpg",
+      "title": "Standard Symbols for Process Charts, 1921",
+      "alt_text": "A 1921 page of standard process-chart symbols by Frank and Lillian Gilbreth: a column of circles, squares and arrows, each labelled with the step it records.",
+      "author": "Frank B. Gilbreth and Lillian M. Gilbreth",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Frank B. Gilbreth and Lillian M. Gilbreth · Wikimedia Commons",
+      "author_death_year": 1972,
+      "eu_term_ok": false,
+      "eu_term_reason": "author death year 1972: EU term runs through 2042 — Lillian Gilbreth d. 1972: EU term runs to 2042; PD in the US only (pre-1929)",
+      "rights_status": "flagged",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-CPA.masterclass-1",
+      "asset_id": "wikimedia:File:Process Chart for Ordering Blank Forms - Present Method, 1921.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/8a77d4b4393cc371.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Process_Chart_for_Ordering_Blank_Forms_-_Present_Method%2C_1921.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Process_Chart_for_Ordering_Blank_Forms_-_Present_Method,_1921.jpg",
+      "title": "Process Chart for Ordering Blank Forms – Present Method, 1921",
+      "alt_text": "A 1921 Gilbreth process chart of the 'present method' for ordering printed forms: numbered circles and squares run down the page, each labelled with who does what.",
+      "author": "Frank B. Gilbreth and Lillian M. Gilbreth",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Frank B. Gilbreth and Lillian M. Gilbreth · Wikimedia Commons",
+      "author_death_year": 1972,
+      "eu_term_ok": false,
+      "eu_term_reason": "author death year 1972: EU term runs through 2042 — Lillian Gilbreth d. 1972: EU term runs to 2042; PD in the US only",
+      "rights_status": "flagged",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-CPA.masterclass-2",
+      "asset_id": "wikimedia:File:A Jacquard loom showing information punchcards, National Museum of Scotland.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/a4122f03534da849.webp",
+      "source_file_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/A_Jacquard_loom_showing_information_punchcards%2C_National_Museum_of_Scotland.jpg/1920px-A_Jacquard_loom_showing_information_punchcards%2C_National_Museum_of_Scotland.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:A_Jacquard_loom_showing_information_punchcards,_National_Museum_of_Scotland.jpg",
+      "title": "A Jacquard loom showing information punchcards",
+      "alt_text": "A wooden Jacquard loom in a museum: warp threads stretched on one side and a long chain of punched cards hanging on the other, the cards carrying the woven pattern.",
+      "author": "Stephen C. Dickson",
+      "licence": "CC-BY-SA-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Stephen C. Dickson · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "Licensed by the rights holder under CC-BY-SA-4.0 (file page); publication relies on the licence, not on an expired term.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-CPA.masterclass-4",
+      "asset_id": "wikimedia:File:Design for Six Chairs with Scarlet Upholstery (verso- Sketch for Sofa) MET DP807166.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/8b4874486cda623c.webp",
+      "source_file_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Design_for_Six_Chairs_with_Scarlet_Upholstery_%28verso-_Sketch_for_Sofa%29_MET_DP807166.jpg/1920px-Design_for_Six_Chairs_with_Scarlet_Upholstery_%28verso-_Sketch_for_Sofa%29_MET_DP807166.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Design_for_Six_Chairs_with_Scarlet_Upholstery_(verso-_Sketch_for_Sofa)_MET_DP807166.jpg",
+      "title": "Design for Six Chairs with Scarlet Upholstery",
+      "alt_text": "An early-19th-century design sheet with six chairs in two rows, each a different frame and back, all sharing the same scarlet upholstery.",
+      "author": "Anonymous designer (early 19th century); The Metropolitan Museum of Art (CC0)",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Anonymous designer (early 19th century); The Metropolitan Museum of Art (CC0) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC0 dedication by the rights holder (file page). anonymous 19th-century drawing; Met Open Access CC0",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-CPA.masterclass-5",
+      "asset_id": "wikimedia:File:La danse serpentine, Loïe Fuller et ses transformations.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/004ceab4c9862728.webp",
+      "source_file_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/La_danse_serpentine%2C_Lo%C3%AFe_Fuller_et_ses_transformations.jpg/1920px-La_danse_serpentine%2C_Lo%C3%AFe_Fuller_et_ses_transformations.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:La_danse_serpentine,_Lo%C3%AFe_Fuller_et_ses_transformations.jpg",
+      "title": "La danse serpentine, Loïe Fuller et ses transformations",
+      "alt_text": "A 19th-century wood engraving of Loïe Fuller's Serpentine Dance in eight panels: the dancer's swirling silk takes the shape of serpents, a basket, a propeller and butterflies.",
+      "author": "Unknown author (before 1900)",
+      "licence": "PD-EU",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Unknown author (before 1900) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "anonymous image before 1900",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-CPA.masterclass-6",
+      "asset_id": "wikimedia:File:Tableau de résultats au test de Binet-Simon.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/1ab95a4cc1ab40a2.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Tableau_de_r%C3%A9sultats_au_test_de_Binet-Simon.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Tableau_de_r%C3%A9sultats_au_test_de_Binet-Simon.jpg",
+      "title": "Tableau de résultats au test de Binet-Simon",
+      "alt_text": "A printed 1911 table of Binet–Simon test results from two Paris schools: rows of test tasks cross-referenced with pass rates (out of 10) for each age group.",
+      "author": "Alfred Binet",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Alfred Binet · Wikimedia Commons",
+      "author_death_year": 1911,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1911; 1911+70 < 2026: public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-CPA.lab-1",
+      "asset_id": "wikimedia:File:Proposed Process Chart for First Orders, 1921.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/49671848d45566b1.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Proposed_Process_Chart_for_First_Orders%2C_1921.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Proposed_Process_Chart_for_First_Orders,_1921.jpg",
+      "title": "Proposed Process Chart for First Orders, 1921",
+      "alt_text": "A 1921 Gilbreth 'proposed process chart' for first orders: a short vertical flow of numbered steps for preparing a purchase order, each with a line of description.",
+      "author": "Frank B. Gilbreth and Lillian M. Gilbreth",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Frank B. Gilbreth and Lillian M. Gilbreth · Wikimedia Commons",
+      "author_death_year": 1972,
+      "eu_term_ok": false,
+      "eu_term_reason": "author death year 1972: EU term runs through 2042 — Lillian Gilbreth d. 1972: EU term runs to 2042; PD in the US only",
+      "rights_status": "flagged",
+      "cropped": false
+    }
   ],
   "slides": [
     {
+      "slide_id": "cover",
       "slide_role": "unit_cover",
-      "background_kind": "profield",
-      "media_slot_id": "ML-CPA.cover",
+      "background_kind": "curated",
       "heading": "Master Lecture · Creative process analysis",
       "sentence": "Eight steps. Two lenses. One process trail. Critical always.",
       "prompt": "Transversal analysis guide · language / medium / support + circulation",
       "quote": "Eight steps. Two lenses. One process trail. Critical always.",
       "quote_origin": "tao_invented",
-      "semantic_tags": { "themes": ["creativity-techniques", "special-analysis", "process"] }
+      "semantic_tags": {
+        "themes": [
+          "creativity-techniques",
+          "special-analysis",
+          "process"
+        ]
+      },
+      "image_brief": "A generic iterative-process diagram (plan, design, implement, test, evaluate, loop back): a process trail drawn as a cycle, the object this lecture teaches you to analyse.",
+      "asset_id": "wikimedia:File:Iterative Process Diagram.svg",
+      "media_slot_id": "ML-CPA.cover"
     },
     {
+      "slide_id": "analysis-opener",
       "slide_role": "analysis_opener",
       "background_kind": "geometrical",
-      "background_url": "/assets/images/fractal-pass-track/ct-pass-01-structure.svg",
+      "background_url": "/assets/images/fractal-pass-track/ct-pass-01-structure-980beb83.svg",
       "heading": "Analysis · two lenses",
       "sentence": "Lens A: language / medium / support. Lens B: production → recognition → next production.",
-      "caption": "Geometrical · ct-pass-01-structure.svg"
+      "caption": "Geometrical · ct-pass-01-structure-980beb83.svg"
     },
     {
+      "slide_id": "analysis-model",
       "slide_role": "analysis_model",
-      "background_kind": "profield",
-      "media_slot_id": "ML-CPA.cover",
+      "background_kind": "curated",
       "heading": "Eight steps (guide)",
       "sentence": "Describe → Inventory → Forms → Origin → Context → Meaning → Critical → Circulation.",
-      "prompt": "Step 7 (critical) is mandatory. A clean diary without power questions fails."
+      "prompt": "Step 7 (critical) is mandatory. A clean diary without power questions fails.",
+      "image_brief": "Frank and Lillian Gilbreth's standard symbols for process charts, 1921: a notation for recording every step of a process in order, before anyone judges it.",
+      "asset_id": "wikimedia:File:Standard Symbols for Process Charts (1), 1921.jpg",
+      "media_slot_id": "ML-CPA.analysis-model"
     },
     {
+      "slide_id": "masterclass-1",
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "ML-CPA.cover",
+      "background_kind": "curated",
       "heading": "1 · Describe the process first",
-      "sentence": "Say what happened — task, sequence, tools — before you praise the result."
+      "sentence": "Say what happened — task, sequence, tools — before you praise the result.",
+      "image_brief": "Gilbreth process chart of the 'present method' for ordering blank forms, 1921: the task and its sequence written down step by step before a better method is proposed.",
+      "asset_id": "wikimedia:File:Process Chart for Ordering Blank Forms - Present Method, 1921.jpg",
+      "media_slot_id": "ML-CPA.masterclass-1"
     },
     {
+      "slide_id": "masterclass-2",
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "ML-CPA.cover",
+      "background_kind": "curated",
       "heading": "2 · Language ≠ medium ≠ support",
       "sentence": "Where does the technique act: code, channel/genre, or material/file? Three questions.",
-      "prompt": "Example: constraint cards (language) in a workshop (medium) on paper or an app (support)."
+      "prompt": "Example: constraint cards (language) in a workshop (medium) on paper or an app (support).",
+      "image_brief": "A Jacquard loom with its chain of punched cards (19th-century mechanism, National Museum of Scotland): the pattern code (language), weaving (medium) and card and cloth (support) are three different things.",
+      "asset_id": "wikimedia:File:A Jacquard loom showing information punchcards, National Museum of Scotland.jpg",
+      "media_slot_id": "ML-CPA.masterclass-2"
     },
     {
+      "slide_id": "masterclass-3",
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "ML-CPA.cover",
+      "background_kind": "diagram",
       "heading": "3 · Open, then close",
       "sentence": "A process often needs both: invent many options, then select what fits the brief.",
       "quote": "The same creative act may involve both divergent and convergent thinking.",
       "quote_origin": "page_verified",
       "citation": {
-        "label": "(Craft 2003, 43)",
+        "label": "(Craft 2000, 30)",
         "href": "/lessons/en/master-lectures/creative-process-analysis/#references"
-      }
+      },
+      "image_brief": "Edgar Degas, album of forty-five figure studies, c. 1882: many poses opened quickly, a few later kept — divergent and convergent work inside one process.",
+      "claims": [
+        {
+          "text": "The same creative act may involve both divergent and convergent thinking.",
+          "cite": "Craft 2000, 30"
+        }
+      ]
     },
     {
+      "slide_id": "masterclass-4",
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "ML-CPA.cover",
+      "background_kind": "curated",
       "heading": "4 · Divergent is a hallmark — not the whole job",
       "sentence": "Opening many paths matters; so does closing under constraints.",
       "quote": "Divergent thinking has been widely regarded as a major hallmark of creativity.",
       "quote_origin": "page_verified",
       "citation": {
-        "label": "(Chen 2012, 40)",
+        "label": "(Chen 2011, 25)",
         "href": "/lessons/en/master-lectures/creative-process-analysis/#references"
-      }
+      },
+      "image_brief": "An early-19th-century design for six chairs with scarlet upholstery: many variants opened, but all inside one commission's constraints — divergence is a hallmark, closing under constraint finishes the job.",
+      "asset_id": "wikimedia:File:Design for Six Chairs with Scarlet Upholstery (verso- Sketch for Sofa) MET DP807166.jpg",
+      "media_slot_id": "ML-CPA.masterclass-4",
+      "claims": [
+        {
+          "text": "Divergent thinking has been widely regarded as a major hallmark of creativity.",
+          "cite": "Chen 2011, 25"
+        }
+      ]
     },
     {
+      "slide_id": "masterclass-5",
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "ML-CPA.cover",
+      "background_kind": "curated",
       "heading": "5 · Process is also material",
       "sentence": "Composition is not only steps on paper — media and materials shape how ideas get realised.",
       "quote": "As a compositional device and an agent for realising ideas in performance, it, too, has become a material medium in many of our examples.",
       "quote_origin": "page_verified",
       "citation": {
-        "label": "(Eckersall 2017, 219)",
+        "label": "(Eckersall, Grehan, and Scheer 2017, 211)",
         "href": "/lessons/en/master-lectures/creative-process-analysis/#references"
       },
-      "prompt": "Convergent/divergent still matters (lesson text); here ask what the medium does to the process."
+      "prompt": "Convergent/divergent still matters (lesson text); here ask what the medium does to the process.",
+      "image_brief": "Loïe Fuller's Serpentine Dance in a wood engraving of her 'transformations', before 1900: silk, light and movement are the material in which the idea is composed.",
+      "asset_id": "wikimedia:File:La danse serpentine, Loïe Fuller et ses transformations.jpg",
+      "media_slot_id": "ML-CPA.masterclass-5",
+      "claims": [
+        {
+          "text": "As a compositional device and an agent for realising ideas in performance, it, too, has become a material medium in many of our examples.",
+          "cite": "Eckersall, Grehan, and Scheer 2017, 211"
+        }
+      ]
     },
     {
+      "slide_id": "masterclass-6",
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "ML-CPA.cover",
+      "background_kind": "curated",
       "heading": "6 · Critical: a score is not the designer",
       "sentence": "A fluency score on a toy task does not prove judgement inside a real brief.",
       "quote": "the ability of divergent thinking with a paper clip may tell us little about an individual's talent in music.",
       "quote_origin": "page_verified",
       "citation": {
-        "label": "(Chen 2012, 41)",
+        "label": "(Chen 2011, 26)",
         "href": "/lessons/en/master-lectures/creative-process-analysis/#references"
       },
-      "prompt": "Also ask: whose labour is visible? Does GenAI hide authorship? (C1–C3 hooks)"
+      "prompt": "Also ask: whose labour is visible? Does GenAI hide authorship? (C1–C3 hooks)",
+      "image_brief": "Alfred Binet's 1911 table of Binet–Simon test results: pass rates per age group on short tasks, a reminder that a score is not the designer in context.",
+      "asset_id": "wikimedia:File:Tableau de résultats au test de Binet-Simon.jpg",
+      "media_slot_id": "ML-CPA.masterclass-6",
+      "claims": [
+        {
+          "text": "the ability of divergent thinking with a paper clip may tell us little about an individual's talent in music.",
+          "cite": "Chen 2011, 26"
+        }
+      ]
     },
     {
+      "slide_id": "lab-opener",
       "slide_role": "lab_opener",
       "background_kind": "geometrical",
-      "background_url": "/assets/images/fractal-pass-track/ct-pass-04-practice.svg",
+      "background_url": "/assets/images/fractal-pass-track/ct-pass-04-practice-6e0ce9bc.svg",
       "heading": "Lab",
       "sentence": "Two exercises next. Everything you produce goes into your portfolio index.",
-      "caption": "Geometrical · ct-pass-04-practice.svg"
+      "caption": "Geometrical · ct-pass-04-practice-6e0ce9bc.svg"
     },
     {
+      "slide_id": "lab-1",
       "slide_role": "lab_exercise",
-      "background_kind": "profield",
-      "media_slot_id": "ML-CPA.cover",
+      "background_kind": "curated",
       "heading": "Exercise 1 · Shared process",
       "sentence": "Fill the 8-step card on the process trail the professor models (Lens A + Lens B).",
       "portfolio_bound": true,
-      "portfolio_trace": "Save the card in the portfolio index."
+      "portfolio_trace": "Save the card in the portfolio index.",
+      "image_brief": "Gilbreth's proposed process chart for first orders, 1921: a shared process laid out step by step on one card, the model for filling the 8-step card together.",
+      "asset_id": "wikimedia:File:Proposed Process Chart for First Orders, 1921.jpg",
+      "media_slot_id": "ML-CPA.lab-1"
     },
     {
+      "slide_id": "lab-2",
       "slide_role": "lab_exercise",
-      "background_kind": "profield",
-      "media_slot_id": "ML-CPA.cover",
+      "background_kind": "diagram",
       "heading": "Exercise 2 · Your Lab trail",
       "sentence": "Apply the same card to your own Lab sequence. One critical sentence + one circulation claim.",
       "portfolio_bound": true,
-      "portfolio_trace": "Save card + traces — feeds D1 analysis path."
+      "portfolio_trace": "Save card + traces — feeds D1 analysis path.",
+      "image_brief": "A maker's own working notebook page, with notes and diagrams recording a sequence of exercises, to model the record you analyse in your own Lab trail."
     },
     {
+      "slide_id": "outro",
       "slide_role": "outro",
       "background_kind": "geometrical",
-      "background_url": "/assets/images/fractal-pass-track/ct-pass-06-coherence.svg",
+      "background_url": "/assets/images/fractal-pass-track/ct-pass-06-coherence-bcb1f0e6.svg",
       "heading": "Carry forward",
       "sentence": "Where did meaning fail — in making, in the channel, or in recognition?",
-      "caption": "Geometrical · ct-pass-06-coherence.svg"
+      "caption": "Geometrical · ct-pass-06-coherence-bcb1f0e6.svg"
     }
   ]
 }

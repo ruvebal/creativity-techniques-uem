@@ -213,10 +213,10 @@ CITE_ANCHORS:
 ## Editorial note. Work in progress. Teaching Innovation Practice
 {: .lesson-editorial-note }
 
-Fisher (2012, 27) supports the claim that overload and external pressure push thinking toward convention and that creative work needs time, space, and permission; it does not prove that this Lab’s wall-and-picture sequence improves workplace outcomes. Michalko (2010) passages for Wall of Ideas and Ask a Crab are quoted above at locators 402, 439, and 440 (extraction order) — not independently verified printed pages. Lucas and Knotts (2026) inform the course stance on passion rhetoric and self-exploitation, but this pass does not ship a page-backed Chicago claim for that thread. Classroom timings, contribution logs, and decision cards are professor adaptations. Catalogue procedures remain teaching candidates, not approved workplace protocols.
+Fisher (2012, 27) supports the claim that overload and external pressure push thinking toward convention and that creative work needs time, space, and permission; it does not prove that this Lab’s wall-and-picture sequence improves workplace outcomes. Michalko (2010) passages for Wall of Ideas and Ask a Crab are quoted above; their page numbers are not yet verified against the printed edition. Lucas and Knotts (2026) inform the course stance on passion rhetoric and self-exploitation, but this pass does not ship a page-backed Chicago claim for that thread. Classroom timings, contribution logs, and decision cards are professor adaptations. Catalogue procedures remain teaching candidates, not approved workplace protocols.
 
 ## AI-assisted authorship
 
-Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) wrote and edited this lesson in the <span class="domain">crea-comm.net</span> studio environment. A local scholar-voice model supplied paragraph drafts that were rejected where they introduced quotation marks, fabricated Lab paths, or mis-attributed methods; the final text was rebuilt against the U4 enrichment pack, Thinkertoys source adjudication, and page-checked citations. Editorial judgment and responsibility for the final text remain with the author.
+Rubén Vega Balbás, PhD, wrote this lesson with AI assistance and is responsible for the final text; when you submit a Lab entry or deliverable from this unit, declare your own AI use (or state “No AI tools used”) as set out in the [AI usage declaration]({{ '/ai-declaration/' | relative_url }}).
 
-*Forge date: 2026-10-04 · Studio: <span class="domain">crea-comm.net</span>*
+*Date: 2026-10-04 · Studio: crea-comm.net*

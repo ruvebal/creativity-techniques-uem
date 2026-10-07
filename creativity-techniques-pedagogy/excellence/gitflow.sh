@@ -16,7 +16,8 @@
 #
 # Usage (from anywhere inside the repo):
 #   gitflow.sh init                 tag base, create integration branch + worktree
-#   gitflow.sh start                open the next READY phase (delegates to cascade-harness.sh)
+#   gitflow.sh sync                 merge committed main into integration (conflict = stop)
+#   gitflow.sh start                sync, then open the next READY phase (delegates to cascade-harness.sh)
 #   gitflow.sh land <n>             verify evidence, merge phase n, run regression, tag, flip INDEX
 #   gitflow.sh rollback <n>         reset integration to the state before phase n landed
 #   gitflow.sh status               tags, branches, worktrees
@@ -67,9 +68,23 @@ case "${1:-}" in
     echo "integration worktree: $INT_WT (branch $INT_BRANCH, base tag excellence/base)"
     ;;
 
+  sync)
+    [ -d "$INT_WT" ] || die "run init first"
+    [ -z "$(g status --porcelain)" ] || die "integration worktree dirty"
+    if g merge-base --is-ancestor main HEAD; then echo "sync: integration already contains main"; exit 0; fi
+    PRE="$(g rev-parse HEAD)"
+    if ! g merge --no-ff -m "Sync committed main into integration" main >/tmp/excellence-sync.log 2>&1; then
+      g merge --abort 2>/dev/null || g reset --hard "$PRE"
+      die "sync conflict between main and integration (stop rule; see /tmp/excellence-sync.log)"
+    fi
+    backup_push "$INT_BRANCH"
+    echo "sync: merged main $(git -C "$MAIN_WT" rev-parse --short main) into integration"
+    ;;
+
   start)
     [ -d "$INT_WT" ] || die "run init first"
     [ -z "$(g status --porcelain)" ] || die "integration worktree dirty"
+    bash "$0" sync
     bash "$HARNESS" start "$INT_WT/$REL"
     ;;
 

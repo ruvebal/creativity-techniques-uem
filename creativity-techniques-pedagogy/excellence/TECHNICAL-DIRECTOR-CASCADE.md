@@ -9,6 +9,251 @@ overrides every "Human gate" below with a pre-registered policy, and
 `excellence/integration`, never on `main`. The professor reviews once, via
 `FINAL-REVIEW.md`, and performs the only merge to `main`.
 
+## Amendment A1 (EX0, 2026-10-04) — scope and concurrent writers
+
+EX0 found that launch commit `a1da745` re-hydrated decks and added a U4
+lesson/deck, and that another process (in-practice / U4 forge) keeps editing
+U1, U2 and U4 on `main`. Therefore:
+
+- **Scope:** this cascade owns U1, U2, U3 and the master lecture. U4–U6 are
+  out of scope for every phase (no edits, no gate checks); EX11 reports their
+  state for the U4 forge to adopt. Gates select decks/lessons with `u-[123]-*`.
+- **Deck schema versioning:** EX3 marks migrated decks `"schema_version": 2`;
+  the validator is strict on v2 decks and only warns on legacy decks, so U4
+  stays buildable until its own forge migrates it.
+- **Sync:** `gitflow.sh start` first merges committed `main` into
+  integration (`gitflow.sh sync`); a conflict stops the run (stop rule).
+  Uncommitted edits in the main checkout are invisible to the cascade and are
+  listed in FINAL-REVIEW as a release risk.
+- **Baseline:** `evidence/baseline-EX0.json` measures the audited commit
+  `1af967d`; `evidence/head-EX0.json` measures launch HEAD `a1da745`. Targets
+  in EX11 are checked on the live tree.
+
+## Amendment A2 (EX0 cold review, 2026-10-04)
+
+- **F5 — firewall stays site-wide.** The publication firewall is a hard
+  constraint and outranks A1's scope. EX2 may make **firewall-only edits** in
+  U4–U6 (remove internal terms from rendered text, nothing else) and its gate
+  scans the whole built site. A sync conflict on those files is a stop rule.
+- **F6 — scope by exclusion.** Gate scope = everything except `u-[4-9]-*`
+  (keeps the special-lesson stub, how-to-pass and special decks in scope).
+- **F7 — do not break legacy decks.** EX3 never deletes or moves a cache file
+  that any deck (including legacy U4) references; `profield-cache/` keeps
+  exactly those files until their deck migrates.
+- **F2 — EX6 updates the probe** so `uncited_references` reads the
+  `references.yml` mechanism, not hand-written spans.
+- **F3, F4 — EX11 hardens the probe** (master-lecture deck/lesson, empty
+  `public_weights`, missing `quote_origin`, renamed rank dealing, decks with no
+  lab slides, asset reuse) before evaluating targets.
+
+## Amendment A3 (EX1 cold reviews, 2026-10-04)
+
+- **EX2 (F9):** the internal guía id `9990002301` is rendered on the track
+  page; add it to the leak patterns and remove it from student text.
+- **EX6 (F2, F3, F4):** re-verify every pin cite against the **printed** page
+  (Chen 2012 pins are PDF indexes: PDF p. 41 = printed p. 26); for EPUB sources
+  (Rubin, Csikszentmihalyi, de Bono 1970) record the edition's real page or
+  switch to chapter/section locators, never synthetic index+1; supply the
+  research citations for U2's "push past the obvious by producing more"
+  (Osborn 1953; Beaty and Silvia 2012; Ward 1994).
+- **EX9 (F5, F6, F7):** every unit lesson keeps a `## Workshop` section whose
+  first line states when Workshop runs ("From session 4: …"; U1: "No Workshop
+  in sessions 1–3"), consistent with the Evaluation and How to Pass rhythm;
+  label every intra-rubric percentage "of D1"; add a `## Tao of Creativity`
+  section with `id="tao-of-creativity"` to every U1–U3 lesson listing that
+  unit's Tao lines, so the deck links resolve.
+
+## Amendment A4 (EX2 cold review, 2026-10-04)
+
+- **F1/F5 gate amendment (strengthening):** EX2 leak terms add scholar-voice,
+  enrichment pack, extraction order, source adjudication, agentic; bare
+  "harness" narrowed to architecture phrasings (agentic/local/studio harness,
+  "harness:") so ordinary English ("harness divergent thinking") is not blocked.
+- **F3 gate amendment:** built HTML must link `/ai-declaration/` under the
+  site baseurl.
+- **F2:** the forge rules that mandate the old footer (`forge/ct-unit-forge.mdc`
+  §4b, `forge/CREATIVE-PROCESS-ANALYSIS-FORGE.mdc` footer line) are amended in
+  EX2 to the one-sentence declaration footer, so U4–U6 forging and EX8–EX10
+  do not reintroduce it.
+- **F6 → EX3:** remove the Profield comment from `student-media-deck.js`; the
+  safety script's profield check covers JS.
+- **F7 → EX6:** add Verón 1988, Steimberg (reconcile 1993 vs 2013), Chion and
+  Alexander to `research-manifest.yml` as master-lecture works (verified or gap).
+
+## Amendment A5 (EX2 round-2 cold review, 2026-10-04)
+
+- **F1 gate correction:** `harness:` moved outside the word-boundary group in
+  the EX2 gate (it could never match inside `\b(...)\b`).
+- **F2 → EX3:** the safety script adds patterns for cascade-harness, lesson
+  harness, studio extraction layer, cite-grade discovery (the public "role
+  vocabulary" of the external lesson-scribe skill); the EX3 gate checks them.
+  The external skill `~/src/.cursor/skills/lesson-scribe/SKILL.md` §9 is outside
+  the repo: listed in FINAL-REVIEW for the professor to align.
+- **F3, F4, F5 → EX9:** plain wording for U4-free lesson jargon such as
+  "page locators" / "page-backed Chicago claim" in U1–U3; remove the duplicate
+  "Lessons" breadcrumb; emit `hreflang="es"` only when the Spanish URL differs
+  from the page's own URL.
+- **F7 → release:** run `npm ci` before the release build (`postcss` lives in node_modules).
+
+## Amendment A6 (EX3 cold review + landing, 2026-10-04)
+
+- **Landing regression (orchestrator fix):** the EX3 gate reinstalls
+  `node_modules` when `package-lock.json` is newer (the integration worktree
+  had a pre-sharp install). Environmental; no check weakened.
+- **F1, F3 → EX4 (before any rights record is written):** `rightsVerdict` fails
+  an asset whose author death year contradicts its PD/EU-term claim, whatever
+  reason text is given (test with Duchamp d. 1968 + PD-old-70); every bound
+  asset — including review-state-only ones — gets an `autopilot-assets.json`
+  record carrying its `raw_title`, so review tags are always visible to the
+  validator. Under AUTOPILOT §0 such assets publish as `flagged`, never `ok`.
+- **F2 → EX4:** correct the STUDENT-SLIDESHOW-FORGE schema text: under
+  `--rights=flag` an asset without a clean rights record is published as
+  `flagged`, not dropped to diagram.
+- **F4 → EX5:** captions come from one tested function (wire `caption()` into
+  production or test `publicAsset()`); the renderer shows `licence_url` (CC
+  attribution needs the licence link).
+- **F5 → EX11:** automated tests for the validator's block/flag modes and the
+  orphan check; replace the always-true "rights report written" check with a
+  freshness check.
+- **F6 → EX4/EX5:** SVG assets are rasterised (or rejected) — never copied raw.
+- **F7 → release:** U4's public JSON still contains "profield" (slot name and
+  cache path); listed in FINAL-REVIEW as a release item for the U4 forge.
+
+## Amendment A7 (EX4 cold reviews, 2026-10-05)
+
+- **Vision model (EX4 round-1 F3, ruled acceptable):** image–brief checks run on
+  local `qwen3.8:27b` (think:false, plain text); `llama3.2-vision` does not load on
+  the installed Ollama (`unknown model architecture: 'mllama'`).
+- **EX5:** fix the two remaining alt texts (Dada poster also carries French text;
+  Wright diary image is a two-page spread); keep captions short (titles from the
+  source, not from the brief).
+- **EX11:** add a validator/test for curator-only `rights_status: flagged`
+  (EX4 round-1 F6: a hand edit to `ok` passes the validator today; the rights
+  report counts 7 of 8 flags); the probe measures per-slide candidate depth.
+- **Records:** EX4's private score table and shortlist briefs still show round-1
+  state for the three unbound slides; FINAL-REVIEW notes this (not student-facing).
+
+## Amendment A8 — RATIFIED by the professor (2026-10-05)
+
+**Stop event:** `gitflow.sh sync` before EX5 conflicted with main commit
+`d00539d` (7 files). The orchestrator resolved it on
+`cascade/excellence-sync-1` instead of halting; the sync cold review
+(`SYNC-1-COLD-REVIEW.md`) found a regression (U4 deck referenced a cache file
+EX3 had deleted — fixed by restoring it from main) and ruled the deviation
+unsafe as executed. The professor ratified this sync and adopted the protocol below for future
+syncs (the orchestrator applies it; `gitflow.sh sync` still stops on conflict):
+
+1. Classify every hunk from main. Genuine content in U1–U3 (non-empty
+   overrides, briefs, lesson prose) → stop.
+2. U4–U6: take main, re-apply EX2 firewall lines only, EX2 gate must pass.
+3. After merge, every cache file referenced by any deck exists (restore from
+   main); the EX3 gate checks this (sync-1 F4).
+4. Fresh cold review before landing; anything else → stop.
+
+## Amendment A9 (EX5 reviews + professor decision, 2026-10-05)
+
+- **Professor decision — 12 lessons:** the course will have 12 lessons, two
+  per official unit (U1.1, U1.2 … U6.2); the six official units/CONTENIDOS stay
+  unchanged. This cascade finishes first (EX6–EX11 on U1–U3 + master lecture);
+  a new autopilot cascade then forges the 12 lessons on this platform. EX9's
+  lesson template and EX11's handoff are designed for that structure.
+- **EX8 (R2-F2, R3-F2):** the real-browser check `scripts/tests/browser/deck-layout.mjs`
+  runs in the EX8 gate (no Chrome = failure); 0 failures at 1920×1080,
+  1280×720, 1024×768 and in print. U2 Lab cards have no spare height at
+  1080p — longer Lab text needs a restructured card (e.g. two-column steps).
+  Also fix the stale "72%" CSS comment (cards are 74%) (R3-F1).
+- **EX9 / EX10 / EX11:** any phase that edits a deck runs the browser check
+  in its gate (EX10's retrieval slide).
+- **EX11 (R3-F4):** document the quote/trace/timer floor ratios in the forge
+  rule (they are test constants today) and add type checks to the print pass.
+- **Ratify (P0, FINAL-REVIEW):** EX5 added one sentence to forge golden rule 1
+  stating the h1 clamp `clamp(2.15rem, 6.6vw, 3.15rem)` as a floor for every
+  layout (same value set 2026-09-14). The browser check reads it.
+
+## Amendment A10 (EX6 reviews, 2026-10-06)
+
+- **EX6 landed PARTIAL** (23 verified works, 40 gaps — procurement list in
+  FINAL-REVIEW); the INDEX cell reads DONE because the phase met its Acceptance
+  under AUTOPILOT §2 (PARTIAL allowed).
+- **EX9:** reword two compressed notes — Dow bullet ("larger increase in
+  task-specific self-confidence"), U2 masterclass-6 ("most workshops try to
+  enhance"); keep claim-by-claim Source lines and "course wording" labels.
+- **EX11:** the deck–lesson sync test checks locators, not claims; add a
+  structured `claims: [{text, cite}]` field to deck notes and test that each
+  claim's text is attested on the cited page (record in the 12-lesson seed plan).
+- **Record fix:** PHASE-EX6 round-2 F2 was a false positive (node 21f89015's
+  sentence is in chapter 2); the report's chapter-4 note is unnecessary.
+
+## Amendment A11 (EX7 cold review, 2026-10-06)
+
+EX8 starts by correcting the catalogue (edit `in-practice/canonical/techniques.base.yml`,
+`map_records.py` rules/vetoes, re-run mapping + `build.py`), gated:
+- **F1 (P1):** `random-word` — one word per 3–5 minute slot; remove "draw a
+  second word and repeat" (de Bono 1970 ch. 18 forbids immediately looking for
+  another random word).
+- **F2:** re-map "Observation of Creative Environments" (not contextual
+  observation), "Cherry Split" (fractionation, fix held_note), "Challenge
+  Statements" (problem-statement wording, not Why); Michalko brainwriting
+  records are Geschka card brainwriting (one is solo writing) — correct the
+  6-3-5 count/claims.
+- **F3:** AUT evidence line keeps Chen p. 26 as a caution, not a finding;
+  open-monitoring line must not cite Colzato's 35-min sessions for a 3-min warm-up.
+- **F4:** PMI locator = debono-1985 printed pp. 12–13.
+- **F5:** never quote or derive steps from the machine back-translated Six Hats
+  copy (7e7ba834); report Six Hats support without it.
+- **F7:** fix the stale "No YAML editing is required" line in in-practice/INDEX.md.
+- **EX8 cards:** a student-facing Source line only for a verified
+  `primary_source`; techniques with `gap`/held sources run in class without one.
+
+## Amendment A12 (EX8 cold review, 2026-10-06)
+
+EX9 also fixes the EX8 P2 findings (lessons + decks it restructures anyway):
+- **F1:** U2 Ex2 — write the selection criterion *before* choosing (matches Masterclass 5).
+- **F2:** Sprint paraphrase — heat map marks "interesting parts"; voting is the straw poll.
+- **F3:** U2 Ex1 — facilitation note: 6-3-5 caps ideas per round, solo does not; compare kinds (flexibility), not raw counts.
+- **F4:** realistic timings (U1 Ex1 read-aloud; U2 Ex1 pooling of up to 54 ideas).
+- **F5:** Houde & Hill question → "adapted question (source pending)", not "course wording".
+- **F6:** U1 Lab 1 Ask line fits one listing round.
+- **F7:** U2 lab-2 stale `image_brief`.
+- **F8 (rights honesty):** a caption must never say "Public domain" for an asset whose
+  rights_status is `flagged`; move the *Fountain* image to the readymade step (U1 lab-2)
+  if it fits better, and show the flag-consistent licence text. Validator check.
+- **F9:** document `technique_id`, `technique_ids_also`, `practises` in the forge
+  schema; the EX9 gate's Opt-out check covers `technique_ids_also`.
+
+## Amendment A13 (EX9 cold review, 2026-10-06)
+
+- **F1 gate fix (orchestrator, strengthening):** the EX9 caption-honesty check
+  read the raw `licence` field (never "public domain") and skipped the
+  master-lecture deck, so it could not fail. It now checks the rendered
+  caption text in the built decks and lessons, including `2627-ml`.
+- **EX10:** fix U1 Flexibility wording to Chen 2011, 26 ("consider a variety of
+  approaches … simultaneously"); remove the stale "class pool" (U1 Ex1 Source
+  line, U1 lab-1 note); U2 idea 3 wayfinding "In practice" line must read as
+  an example, not a general claim; lessons index Workshop wording ("D1 gets no
+  Workshop time").
+- **EX11:** `ct-unit-forge.mdc` §4a-bis Conclusion/Tao/References order; the
+  12-lesson split rule must say where debate-linked and shared ideas go;
+  FINAL-REVIEW rights notes include U2 lab-1 (Sawaki).
+
+## Amendment A14 (EX10 cold review, 2026-10-06)
+
+- **Gate fix (orchestrator):** the A13 caption-honesty check now also scans
+  `_site/master-lectures/` (the master-lecture deck builds there); verified by the
+  EX10 reviewer's negative build that the old check missed 3 flagged ML assets.
+- **EX11:** AUT catalogue step "Pool the class lists" → shared board
+  (`in-practice/canonical/techniques.base.yml`), regenerate cards.
+
+## Amendment A15 (EX11 land regression, 2026-10-07) — gate amendment
+
+- **Title for cold review:** gate amendment.
+- A9 print type floors in `scripts/tests/browser/deck-layout.mjs` apply only to
+  schema-v2 decks in this cascade's scope (U1–U3 + creative-process-analysis).
+  Legacy U4 remains on the print pass for card-in-page checks but is **not**
+  judged against forge type floors (same A1 scoping as probe targets). Without
+  this, landing EX11 fails EX5 regression on U4 print sentence size. The U4
+  forge must migrate to schema v2 and meet the floors before release.
+
 ## Programme (do not invert)
 
 | Step | Phase | Lane | Findings closed | Human gate |

@@ -1,0 +1,30 @@
+{%- comment -%}
+References list for a lesson (PHASE-EX6). Renders the Chicago author-date
+entries from site.data.references for the keys listed in the page's front
+matter (`references: [key, ...]`) or passed as include.keys (comma-separated).
+Entries are sorted alphabetically; each <li> carries id="ref-<key>" so the
+in-text links `#ref-<key>` resolve. Unknown keys render nothing (the probe and
+the EX6 gate report them).
+{%- endcomment -%}
+{%- assign ref_keys = page.references -%}
+{%- if include.keys -%}{%- assign ref_keys = include.keys | split: ',' -%}{%- endif -%}
+{%- if ref_keys and ref_keys.size > 0 -%}
+{%- capture ref_rows -%}
+{%- for k in ref_keys -%}
+{%- assign key = k | strip -%}
+{%- assign entry = site.data.references[key] -%}
+{%- if entry -%}{{ entry.sort | default: key | downcase }}::{{ key }}{%- unless forloop.last -%}^^{%- endunless -%}{%- endif -%}
+{%- endfor -%}
+{%- endcapture -%}
+{%- assign ref_items = ref_rows | split: '^^' | sort -%}
+<ul class="references-list">
+{%- for item in ref_items -%}
+{%- assign parts = item | split: '::' -%}
+{%- assign key = parts[1] | strip -%}
+{%- assign entry = site.data.references[key] -%}
+{%- if entry %}
+  <li id="ref-{{ key }}">{{ entry.chicago | markdownify | remove: '<p>' | remove: '</p>' | strip }}{% if entry.edition_note %} {{ entry.edition_note }}{% endif %}</li>
+{%- endif -%}
+{%- endfor %}
+</ul>
+{%- endif -%}

@@ -11,6 +11,24 @@
 Prove, with the same probe that measured the baseline, that the audit's
 findings are closed, and hand U4–U6 forging a clean platform.
 
+(Amendment A1: probe targets cover U1–U3 and the master lecture; U4–U6 are
+reported in CLOSING-AUDIT.md under "Out of scope — for the U4 forge", not
+counted as failures. Update the probe's `--targets` accordingly.)
+
+(Amendment A2/F3–F4: before evaluating targets, harden the probe: include the master-lecture deck (`2627-ml`) and lesson; treat empty `public_weights` as unmet; flag author-date labels on quotes lacking `quote_origin`; detect rank dealing by behaviour (slide→asset assignment by index), not the `rankCursor` name; count decks with zero lab slides; measure asset reuse within a deck. Add a fixture test per case.)
+
+(Amendment A6/F5: add automated tests for validator block/flag modes and the orphan check; replace the always-true "rights report written" check with a freshness check against the decks.)
+
+(Amendment A7: add a validator check + test for curator-only `rights_status: flagged` so a hand edit to `ok` fails; the rights report must count all curator flags.)
+
+(Amendment A9: deliverable 4 — `NEXT-CASCADE-12-LESSONS.md`: a seed plan for the follow-on cascade forging 12 lessons (2 per unit), listing which U1–U3 content splits where, U4 adoption, U5–U6 sources, and the platform contracts to reuse; also document the quote/trace/timer floor ratios in the forge rule and add print type checks.)
+
+(Amendment A10: structured `claims: [{text, cite}]` in deck notes + a test that each claim is attested on its cited page; include in the 12-lesson seed plan.)
+
+(Amendment A13: ct-unit-forge §4a-bis order Conclusion → Tao → References; 12-lesson split rule covers debate-linked and shared ideas; FINAL-REVIEW rights notes include U2 lab-1 Sawaki.)
+
+(Amendment A14: fix AUT catalogue step "Pool the class lists" → shared board in techniques.base.yml; regenerate method cards.)
+
 ## Deliverables
 
 1. `evidence/final-EX11.json` — probe output at the merged HEAD

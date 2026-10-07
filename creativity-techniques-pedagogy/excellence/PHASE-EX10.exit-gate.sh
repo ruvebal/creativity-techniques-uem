@@ -28,7 +28,7 @@ RB
 python3 - "$DECKS" <<'PY' && pass "one retrieval slide per deck" || fail "one retrieval slide per deck"
 import json, pathlib, re, sys
 bad = []
-for p in pathlib.Path(sys.argv[1]).glob("u-*/data/content.json"):
+for p in pathlib.Path(sys.argv[1]).glob("u-[123]-*/data/content.json"):
     d = json.loads(re.sub(r"^---[\s\S]*?---\s*", "", p.read_text()))
     n = sum(1 for s in d["slides"] if s.get("slide_role") == "retrieval")
     if n != 1: bad.append(f"{p}: {n} retrieval slides")
@@ -43,4 +43,12 @@ done
 cards="$(grep -o 'data-method-card' _site/methods/en/cards/index.html 2>/dev/null | wc -l | tr -d ' ')"
 [ "${cards:-0}" -ge 20 ] && pass "method cards ($cards)" || fail "method cards (${cards:-0} < 20, need data-method-card)"
 if grep -rqiE "question-bank|MEASUREMENT-PROTOCOL" _site; then fail "private assessment files leaked"; else pass "assessment files private"; fi
+# Amendment A9: real-browser layout check (no Chrome = failure).
+DL_LOG="$(mktemp -t excellence-deck-layout)"
+if node scripts/tests/browser/deck-layout.mjs > "$DL_LOG" 2>&1; then
+  if grep -q "SKIP" "$DL_LOG"; then fail "browser layout check skipped (no Chrome)"; else pass "browser layout check: $(tail -1 "$DL_LOG")"; fi
+else
+  fail "browser layout check"; tail -15 "$DL_LOG"
+fi
+
 finish

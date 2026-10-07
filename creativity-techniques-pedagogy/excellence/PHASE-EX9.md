@@ -33,6 +33,16 @@ shows a filled portfolio trace; lessons contain no images.
 5. Remove meta-commentary about sources, procurement and "this library";
    keep epistemic limits in the Editorial note.
 
+(Amendment A3/F5–F7: the `## Workshop` section's first line states when Workshop runs — U1 "No Workshop in sessions 1–3", others "From session 4: …"; label intra-rubric percentages "of D1"; add `## Tao of Creativity` with `id="tao-of-creativity"` listing the unit's Tao lines so deck links resolve.)
+
+(Amendment A5/F3–F5: plain wording for residual jargon such as "page locators" and "page-backed Chicago claim" in U1–U3; remove the duplicate "Lessons" breadcrumb in `_layouts/lesson.html`; `head-hreflang.html` emits `hreflang="es"` only when the Spanish URL exists and differs from the page URL.)
+
+(Amendment A9: design the lesson template for the professor's 12-lesson structure — two lessons per official unit, e.g. `u-1-1-…`, `u-1-2-…` — documenting how a unit splits into lesson A/B while U1–U3 stay single pages in this cascade; the template must be reusable by the next cascade.)
+
+(Amendment A10: reword the two compressed deck notes — Dow "larger increase in task-specific self-confidence"; U2 masterclass-6 "most workshops try to enhance"; keep claim-by-claim Source lines.)
+
+(Amendment A12: also fix EX8 F1–F9 — criterion before choice; Sprint wording; 6-3-5 vs solo note; timings; Houde & Hill relabel; U1 Ask line; stale image_brief; caption never "Public domain" on a flagged asset (move Fountain to the readymade step if better); document technique_id / technique_ids_also / practises.)
+
 ## Prompt (Implementation Agent)
 
 ```text

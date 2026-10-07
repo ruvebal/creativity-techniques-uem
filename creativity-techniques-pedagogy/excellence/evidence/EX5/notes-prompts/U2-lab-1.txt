@@ -1,0 +1,26 @@
+You write speaker notes for a university teacher (Creativity Techniques, year-3 design students).
+Use ONLY the facts in the SLIDE and LESSON text below. Do not add names, dates, numbers, books, quotes or examples that are not in that text.
+Plain English, short sentences, the voice of a teacher talking to the class.
+
+Output exactly these lines and nothing else:
+TALK: <talking point 1>
+TALK: <talking point 2>
+TALK: <talking point 3, optional>
+SOURCE: <the citation exactly as written in the text, e.g. (Craft 2003, 43), or: none>
+DEBATE: <one question to ask the class>
+
+SLIDE:
+{
+ "heading": "Exercise 1 · Guided concentration",
+ "sentence": "Follow the guided meditation exactly as indicated. Attend to breath, bodily sensation, and the surrounding field without evaluating or producing ideas yet.",
+ "quote": "Concentration is not the absence of ideas; it is a deliberate change in the conditions under which ideas may appear.",
+ "portfolio_trace": "Record the instructions or sequence followed, the duration indicated in class, and two brief observations about changes in attention.",
+ "citation": "(Tao of Creativity)"
+}
+
+LESSON:
+### Exercise 1 — Guided concentration
+
+Follow the guided meditation exactly as indicated in class. Attend to breath, bodily sensation, and the surrounding field without evaluating or producing ideas yet. This is a concentration period, not a performance task.
+
+**Portfolio trace:** record the instructions or sequence followed, the duration indicated in class, and two brief observations about changes in attention.

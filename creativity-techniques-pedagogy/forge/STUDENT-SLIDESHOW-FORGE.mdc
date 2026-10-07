@@ -17,6 +17,21 @@ and with the sibling Digital Creativity student decks
 The slideshow is **not** the lesson text, not the professor research brief, and
 not a research ledger. It is the in-class conceptual surface.
 
+## U4–U6 inherit the Excellence platform (EX11)
+
+When forging U4–U6 (or splitting any unit into the 12-lesson structure), reuse
+these contracts without re-litigating them — see
+`creativity-techniques-pedagogy/excellence/` and `NEXT-CASCADE-12-LESSONS.md`:
+
+| Contract | Rule |
+| --- | --- |
+| **Slide-bound images** | Every curated slide names `image_brief` + `asset_id`; no rank dealing; schema_version 2 |
+| **Rights gate** | `validate-decks.mjs --strict --rights=flag`; curator `rights_status: flagged` cannot be hand-edited to `ok`; captions never say "Public domain" for flagged assets |
+| **Exercise cards** | Exactly two `lab_exercise` slides; `technique_id` / `practises` from the in-practice catalogue; lesson cards match EX8 field order |
+| **references.yml** | Lesson References from `docs/_data/references.yml` keys only |
+| **Retrieval slide** | One `slide_role: retrieval` after Masterclass, before `lab_opener` (five recall questions ≤ 80 chars; answers in notes) |
+| **Claims** | Page-backed notes carry `claims: [{text, cite}]` attested on the cited page (`deck-claims.test.mjs`) |
+
 ## Two surfaces per unit (do not collapse)
 
 | Surface | Audience | Path pattern | Content |
@@ -31,16 +46,19 @@ Order is binding. Main Masterclass ideas stay **≤ 6**; Analysis / Lab / Worksh
 frame slides are structural and do **not** count against that six.
 
 ```text
-C  unit_cover                       background_kind: profield     ← REQUIRED FIRST
+C  unit_cover                       background_kind: curated | diagram   ← REQUIRED FIRST
 A  analysis_opener                  background_kind: geometrical   ← REQUIRED
-A+ analysis_model (optional)        background_kind: profield
-1… Masterclass ideas (≤ 6)          background_kind: profield | diagram
+A+ analysis_model (optional)        background_kind: curated | diagram
+1… Masterclass ideas (≤ 6)          background_kind: curated | diagram
+R  retrieval (recall check)         background_kind: geometrical   ← REQUIRED in U1–U3 (EX10): last slide of the Masterclass
 N  lab_opener                       background_kind: geometrical   ← REQUIRED
-N+1…N+2  Exactly two Lab exercises (portfolio_bound)  background_kind: profield | none
+N+1…N+2  Exactly two Lab exercises (portfolio_bound)  background_kind: curated | diagram | none
 M  workshop_opener                  background_kind: geometrical   ← from session 4 only
-M+ Workshop work prompt             background_kind: none | diagram | profield
+M+ Workshop work prompt             background_kind: curated | diagram | none
 Z  outro / carry-forward            background_kind: geometrical   ← REQUIRED
 ```
+
+**Retrieval slide (binding from EX10, 2026-10-06):** exactly **one** `slide_role: retrieval` slide per unit deck, after the last Masterclass idea and before `lab_opener`. It carries `questions:` — exactly **five** short recall questions (≤ 80 characters each: the EX10 browser check showed five two-line questions overflow the card at 1920×1080) taken from the private knowledge-test bank (`excellence/assessment/`, the `retrieval` form of a bank item) — and its `notes` hold the answers, each with the lesson's own pin cite. Answers never appear on the slide. Layout defaults to `exercise` (3-minute timer); background is geometrical. The validator enforces count, length, answers in notes and background; `scripts/tests/practice-quizzes.test.mjs` keeps slide questions and note answers equal to the bank, in order. Not a Masterclass idea: it does not count against the six.
 
 **Lab exercise count (binding):** **exactly two** `lab_exercise` slides per ordinary unit — concentrate meaning into those two; do not forge three or more. Lesson B2 must match. If a selection rubric is needed, make it a phase inside Exercise 2 rather than a third slide.
 
@@ -57,23 +75,79 @@ The student **lesson** must contain the Analysis method in prose (language / med
 
 | Role | Background |
 | ---- | ---------- |
-| Analysis model · Masterclass · Lab exercises | Accepted **Profield** media (public-safe fields only) |
+| Cover · Analysis model · Masterclass · Lab exercises | A **curated** image bound to that slide by `asset_id` (accepted in Profield or in `excellence/curation/autopilot-assets.json`; public-safe fields only), else the diagram |
 | Stance slides without a pack image | Course **diagram** — Koch triangle (`ct-koch-triangle-*.svg`), **not** Sierpinski |
-| `analysis_opener` · `lab_opener` · `workshop_opener` · `outro` | **Geometrical only** (`fractal-pass-track` SVGs) |
+| `analysis_opener` · `retrieval` · `lab_opener` · `workshop_opener` · `outro` | **Geometrical only** (`fractal-pass-track` SVGs) |
 | Never | Invented rights; Resource UUID / forger version in captions; Sierpinski as Masterclass fallback |
 | Never | Non-geometrical decorative fallbacks on transition slides; geometrical captions must include the SVG content-hash UUID |
+
+### Deck schema version 2 (PHASE-EX3, 2026-10-04)
+
+Deck `content.json` carries `"schema_version": 2`. The validator
+(`scripts/validate-decks.mjs --strict`) is strict on v2 decks and only warns on
+legacy decks (no `schema_version`, e.g. U4 until its forge migrates it).
+
+- **`slide_id`** on every slide: stable, unique in the deck (`cover`,
+  `analysis-opener`, `analysis-model`, `masterclass-1…6`, `lab-opener`,
+  `lab-1`, `lab-2`, `workshop-opener`, `workshop-1`, `outro`). Never renumber
+  an existing id.
+- **`background_kind`**: `curated` | `diagram` | `geometrical` | `none`. The
+  value `profield` is retired.
+- **`image_brief`** on every image slide (curated or diagram fallback): one
+  sentence — what the image must show and why it carries the slide's idea.
+  `TODO: …` is allowed only until EX4 writes the real brief.
+- **`asset_id`** on a `curated` slide: the one image the slide shows. It is the
+  **only** binding — no rank dealing, no cycling, no asset on two slides of a
+  deck. A slide whose asset is not accepted or not cached falls back to
+  `diagram` (the slide keeps its `asset_id` so the choice is not lost). Rights
+  depend on the mode: under `--rights=block` an asset that fails
+  `rightsVerdict` also falls back to `diagram`; under `--rights=flag` (the
+  launch decision, used by `npm run build` and the gates) it is **published**
+  with `rights_status: flagged`, not dropped, and listed for the professor.
+- **`media_slot_id`** = `<unit>.<slide_id>` (e.g. `U2.masterclass-1`), only on
+  curated slides; the matching entry in `assets[]` has the same slot.
+- **`assets[]`** entries (written by `npm run media:rehydrate`): `media_slot_id`,
+  `asset_id`, `asset_url` (`/assets/images/deck-media/<hash>.webp`),
+  `source_file_url`, `canonical_source_url`, `title`, `alt_text`, `author`,
+  `licence` (+ `licence_url`), `provider`, `credit_line`, `author_death_year`,
+  `eu_term_ok`, `eu_term_reason`, `rights_status: ok | flagged`, `cropped`.
+- **Rights:** `rightsVerdict` (`scripts/lib/media-rules.mjs`) accepts only
+  PD-old-70, PD-EU, CC0, PDM, CC-BY-4.0, CC-BY-SA-4.0, CC-BY-3.0, CC-BY-SA-3.0,
+  NoC-US+EU-checked, with author, source URL, `eu_term_ok: true` (death year + 70
+  < current year, or a stated reason) and no `*_review_required` tag in the raw
+  title. A recorded death year that leaves the EU term running always fails a
+  public-domain claim, whatever the reason text says (A6/F1). Every bound asset
+  has a record in `excellence/curation/autopilot-assets.json` with its
+  `raw_title` (A6/F3); without one it can never be `ok`. Under the launch decision (AUTOPILOT §0) failing assets publish as
+  `rights_status: flagged` and are listed in `excellence/curation/rights-report.json`.
+- **Files:** `docs/assets/images/deck-media/` only; ≤ 1920 px WebP (EXIF
+  stripped, ≤ 600 KB). SVG sources are rasterised to WebP, never copied raw
+  (A6/F6); no file referenced by no deck. The old
+  `profield-cache/` keeps only files that legacy decks still reference.
+- **Public JSON values never contain "profield"** (publication firewall).
 
 Typed fields on each slide object:
 
 ```yaml
-slide_role: unit_cover | analysis_opener | analysis_model | masterclass | lab_opener | lab_exercise | workshop_opener | workshop_work | outro
-background_kind: profield | geometrical | diagram | none
-media_slot_id: U1.still.example   # when background_kind: profield
+slide_id: masterclass-1            # v2: required, stable
+slide_role: unit_cover | analysis_opener | analysis_model | masterclass | retrieval | lab_opener | lab_exercise | workshop_opener | workshop_work | outro
+questions: ["Short recall question?", …]   # retrieval only (EX10): exactly five, ≤ 80 characters; answers in notes
+background_kind: curated | diagram | geometrical | none
+image_brief: "One sentence: what the image shows and why."   # image slides
+asset_id: "wikimedia:File:Example.jpg"                        # curated slides
+media_slot_id: U1.masterclass-1   # curated slides: <unit>.<slide_id>
 portfolio_bound: true | false
 portfolio_trace: "Save … in the portfolio index."
 quote: "Optional brief quotation (≤ ~40 words) — Ahmes-verbatim or Tao invent (see golden rule 3)."
 quote_origin: page_verified | tao_invented   # required whenever quote is set; never put the corpus product name in student content.json
 semantic_tags: []   # DH metadata for the quote — see golden rule 3
+layout: image_argument | quote | split | exercise   # optional (EX5); default by role: cover/model/masterclass → image_argument, lab/workshop/retrieval → exercise, openers/outro → split
+notes: "Speaker notes: '- ' lines are talking points, then Source: (the lesson's own cite) and Ask: (debate prompt)."   # EX5: required on every masterclass slide (gate); drafted for every lab slide. May be a string or `{ text, claims? }`.
+claims: [{ text: "Page-attested span or claim clause.", cite: "Author Year, page" }]   # EX11 / A10: structured claims beside notes; each text must match a VERIFIED PROVENANCE_LINE verbatim (or the slide quote when the provenance line has no verbatim=). Test: `scripts/tests/deck-claims.test.mjs`. Required on masterclass slides that carry page-backed Source lines; omit for course-wording-only slides.
+timer_seconds: 180  # optional on exercise slides; the Lab timer defaults to 180
+technique_id: brainwriting-635          # lab_exercise (EX8): required; the primary technique, an id in in-practice/CANONICAL-TECHNIQUES.yml
+technique_ids_also: [open-monitoring-warm-up]   # lab_exercise: optional; further catalogue ids the exercise also runs (warm-ups, a second step's technique). Treated like technique_id for every catalogue rule: an `embodied` id here also requires an **Opt-out:** line on the lesson card (EX9 gate, A12/F9)
+practises: [masterclass-1, masterclass-2]       # lab_exercise: required; slide_ids of the Masterclass ideas the exercise practises; the lesson idea's **Try it:** links back to this exercise
 ttod_index:         # required for Tao invents; data-only, not rendered by default
   id: C-U2-example-01
   number: III
@@ -82,19 +156,19 @@ ttod_index:         # required for Tao invents; data-only, not rendered by defau
 ```
 
 Student wording: prefer clear late-secondary / first-year voice. Prefer short verbs over managerial jargon. When a page-verified quote is brief and carries the main idea, put it on the slide *and* in the lesson.
-Public captions: title · credit · licence · source link. **Never** `resource_uuid`, `forger_version`, or review tags in square brackets. **Geometrical background slides** (`analysis_opener`, `lab_opener`, `workshop_opener`, `outro`) — their caption **must** include the SVG file UUID (the content-hash suffix visible in the filename, e.g. `ct-pass-01-structure.svg#a1b2c3`) so a forger pass can trace which specific fractal was shown. See §"Golden rules (2026-09-14)" below.
+Public captions: title · credit · licence · source link. **Never** `resource_uuid`, `forger_version`, or review tags in square brackets. **Geometrical background slides** (`analysis_opener`, `lab_opener`, `workshop_opener`, `outro`) — their caption **must** include the SVG content hash (the 8-hex SHA-256 suffix in the filename, e.g. `ct-pass-01-structure-980beb83.svg` → caption `#980beb83`; EX5) so a forger pass can trace which specific fractal was shown. See §"Golden rules (2026-09-14)" below.
 **TTOD index gate:** every Tao-origin quote must be traceable in the unit
 payload with its TTOD `id`, roman `number`, `form`, and lexicum `fields`.
 These fields are an index for the forge and evaluator; do not turn them into a
 student-facing editorial label or citation. A missing field fails cold review.
 
-**Image backgrounds (lab / workshop / analysis_model):** when the live deck shows a flat diagram or empty `none` where a fashion/design still should carry the idea, set `background_kind: profield` and a real `media_slot_id`. Do not leave `lab_exercise` or `workshop_work` on `none`/`diagram` if an accepted unit asset exists.
+**Image backgrounds (lab / workshop / analysis_model):** when the live deck shows a flat diagram or empty `none` where an image should carry the idea, write the slide's `image_brief`, bind an accepted asset that matches it with `asset_id`, and set `background_kind: curated`. A clean diagram is better than an image whose subject does not match the brief.
 
 ## Golden rules (captured 2026-09-14 after live U1 teaching; quote rule revised 2026-09-15)
 
 Five rules override any conflicting habit above and bind every subsequent unit's slideshow:
 
-1. **Typography is a little bigger overall.** Base `.reveal` size is now `clamp(22px, 2.6vw, 38px)`; headings scale proportionally. Do **not** revert to the pre-2026-09-14 clamps just because a slide "looks empty." A row-8 teenager reading a projection must not squint — that is the acceptance test, not screenshot aesthetics.
+1. **Typography is a little bigger overall.** Base `.reveal` size is now `clamp(22px, 2.6vw, 38px)`; headings scale proportionally (`h1` `clamp(2.15rem, 6.6vw, 3.15rem)`, as in `pass-track-deck.css`). These are floors for every slide layout, Lab exercise slides included; `npm run test:browser` checks them **on screen and in the print pass** (EX11 / A9). Secondary type keeps these **ratios of the base floor** (documented here so tests do not invent constants): quote **0.72×**, prompt/trace **0.76×**, Lab timer **0.70×**. Do **not** revert to the pre-2026-09-14 clamps just because a slide "looks empty." A row-8 teenager reading a projection must not squint — that is the acceptance test, not screenshot aesthetics.
 2. **Write every slide as if for a 17-year-old high-school teenager (golden rule).** Short sentences. Concrete verbs. One idea per slide. No managerial abstractions (`stakeholder alignment`, `strategic ideation`), no untethered jargon. If a sentence would not survive being read aloud to a curious teenager, rewrite it before it ships. Keep the register the same across all six units.
 3. **Quote hierarchy — Ahmes first; Tao invent when Ahmes has no brief match.** Every substantive slide (cover, analysis_model, masterclass, lab_exercise, workshop_work) should carry a brief, specific `quote:` that sharpens the sentence — not a paraphrase of the heading.
    - **Prefer page-verified vault extracts.** Resolve via `semantic-quote` against a real extraction database node with evaluator-safe status. Full provenance (coat, node_id, page_index, printed_page, verbatim) lives in a switch-gated Markdown comment in the **lesson** file. Student `content.json` carries the verbatim string + `quote_origin: page_verified` + `citation.label` (Chicago author-date) + `citation.href` (anchor into the lesson's References). **Never** write the corpus product name into `content.json` or public lesson HTML.
@@ -106,6 +180,7 @@ Five rules override any conflicting habit above and bind every subsequent unit's
      - `semantic_tags.dcterms` — Dublin Core when useful (`dcterms:subject`, `dcterms:type=Text`)
      - For Ahmes quotes also keep coat/node in the lesson's switch-gated comment (publication firewall).
 4. **`(Author, Year)` is always a link.** Every author-date citation on a slide **and** in the lesson body must be an anchor into that lesson's `## References` section (`href: #ref-<surname>-<year>` on the slide's `citation.href`, `<a href="#ref-...">(Author Year)</a>` in the lesson Markdown). A bare parenthetical `(Author 2003)` with no link is a defect — the same rule already binds U1's `(Craft 2003, 43)`, apply it forward. Tao invents use the Tao label + link instead of a fake scholarly author-date.
+   *(EX6, 2026-10-05)* The lesson's References list is not hand-written: each work has one canonical Chicago entry in `docs/_data/references.yml` (key `surname-year`, original year, edition used); the lesson lists its keys in front matter (`references: [key, …]`) and renders them with `{% include references.html %}`, which emits the `id="ref-<key>"` anchors. Pin cites use the **printed** page (never the PDF index); EPUBs without a page-list use a chapter/section locator. A work not yet page-verified stays a BIBLIO-GAP in the professor brief and `excellence/research-manifest.yml`.
 5. **AI-declaration filiation** — authorship footer is Rubén Vega Balbás, PhD (`ruvebal@crea-comm.net`) only. Never append `(ECSIT / UEM)` (see `ct-unit-forge` §4b).
 
 These rules are checked by cold review before a lesson's `status:` may move off `pilot`.
@@ -115,7 +190,7 @@ These rules are checked by cold review before a lesson's `status:` may move off 
 | Block | Name | Student evidence |
 | ----- | ---- | ---------------- |
 | Analysis strip | Modelled analysis (s1–2) or 2×15 min defences (from s3) | D1 slideshow support |
-| Masterclass | Ideas + images | notes |
+| Masterclass | Ideas + images; ends with the five-question recall check | notes |
 | Lab | **Exactly two** exercises + debates | portfolio traces |
 | Workshop | **Absent** in first lessons; from **s4**: ≈½ Transposition · ≈½ final event | D2–D3 progress only |
 
@@ -129,7 +204,8 @@ SESSION-RHYTHM-AND-DELIVERABLES
 → evidence matrix row
 → lesson Markdown
 → content.json (spine above)
-→ Reveal (student-media-deck.js)
+→ npm run render:decks (scripts/render-decks.mjs → docs/_includes/decks/<slug>.html, included by the deck page; slides exist without JavaScript)
+→ Reveal enhancement (student-media-deck.js: card toggle, Lab timer; legacy decks only: runtime build)
 → wire track Units table + lesson In-class deck (publish gate)
 ```
 
@@ -152,7 +228,7 @@ These two student surfaces (track table + lesson-head deck link) are forge law �
 
 - Structural slides (`analysis_opener`, `lab_opener`, `workshop_opener`, `outro`) use `fractal-pass-track` SVGs only.
 - Masterclass diagram fallback: **Koch triangle** via `scripts/fractal-architecture/generate-koch-triangle.mjs` — do not use Sierpinski for deck Masterclass.
-- Profield images: **`npm run media:rehydrate`** reads `review-state.json` assignments (`project_id` + `unit_id`) as sole acceptance authority; URLs come from `media-index*.json`. Do not hard-code another unit’s sample images into a deck.
+- Images: **`npm run media:rehydrate`** (worktree only, never on `main`) binds each v2 slide's `asset_id` if it is accepted in Profield `review-state.json` (`project_id` + `unit_id`, read only) or in `excellence/curation/autopilot-assets.json`; URLs come from `media-index*.json`; renditions go to `deck-media/`; orphan cache files are deleted. Legacy decks are skipped. `npm run build` runs `validate-decks.mjs --strict --rights=flag`. Do not hard-code another unit’s sample images into a deck.
 - Public captions: title · credit · licence · source link. **Never** `resource_uuid`, `forger_version`, or review tags in square brackets.
 - Logo: transparent chrome — no card behind institutional logo.
 - Publication firewall: no studio infra names in rendered HTML.

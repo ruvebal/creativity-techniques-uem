@@ -1,0 +1,23 @@
+You are helping a design professor write plain-English lesson text for third-year design students (English, B2 level, short sentences, no jargon).
+
+For each idea below, write ONE "In practice" design example of 25-40 words: a concrete, hypothetical studio situation (poster, packaging, signage, app screen, product, exhibition) that shows the claim in action.
+Strict rules:
+- No names of people, no studies, no numbers presented as research results, no quotes, no claims about what research shows.
+- Hypothetical only ("for a ... brief, you might ...").
+- Do not repeat the claim; show it.
+Output format: one line per idea, "N: text". Nothing else.
+
+U2 ideas:
+1: Generation and selection are two different jobs; do them in order, not in the same minute.
+2: Count both how many ideas (fluency) and how many kinds of idea (flexibility); deciding what counts as a different kind is already a judgement.
+3: The first ideas are often the obvious ones and they stick; get past them by producing more without judging.
+4: Role and constraint tools (thinking hats, prompt cards) change who speaks and how, so the room is not narrowed by the first voice.
+5: Name the selection criterion before you choose; unstated criteria favour what the room already leaned toward.
+6: A workshop produces material you did not have before, but that does not prove it produced better ideas.
+U3 ideas:
+1: A rough prototype is a question in material form; build the smallest version that lets someone react.
+2: Hold back criticism for a short time so an awkward early version can show what it might become; then judge with a named criterion.
+3: Before each revision, write the one test the next version must pass; stop when it passes.
+4: Sketch three different arrangements to think, rather than one beautiful drawing.
+5: Reframe an unclear brief as two or three different questions and make one small response to each.
+6: After each version, write what changed, what stayed and what you learned.

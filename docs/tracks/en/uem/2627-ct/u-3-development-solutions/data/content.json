@@ -2,6 +2,7 @@
 layout: null
 ---
 {
+  "schema_version": 2,
   "unit_label": "Creativity Techniques · U3 Development Techniques and Solutions",
   "ttod_index": [
     {
@@ -14,90 +15,269 @@ layout: null
       ]
     }
   ],
+  "media_selection": {
+    "unit_id": "U3",
+    "project_id": "tc",
+    "strategy": "slide-bound",
+    "description": "Each image is bound to one named slide by asset_id; slides without a cleared image use the course diagram."
+  },
   "assets": [
     {
-      "media_slot_id": "U3.still.profield-1",
-      "asset_id": "nypl:510d47dc-6052-a3d9-e040-e00a18064a99",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/34491d14c12721d7.php",
-      "source_file_url": "https://images.nypl.org/index.php?id=1401840&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/510d47dc-6052-a3d9-e040-e00a18064a99",
-      "alt_text": "Circus performers.",
-      "title": "Circus performers.",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 9,
-      "selection_rank": 9,
-      "collection": "unit-accepted"
+      "media_slot_id": "U3.cover",
+      "asset_id": "wikimedia:File:Gliding flight, Wright Glider, Kitty Hawk, NC. 1902.10459 A.S..jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/576028393db589ca.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Gliding_flight%2C_Wright_Glider%2C_Kitty_Hawk%2C_NC._1902.10459_A.S..jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Gliding_flight,_Wright_Glider,_Kitty_Hawk,_NC._1902.10459_A.S..jpg",
+      "title": "Gliding flight, Wright Glider, Kitty Hawk, NC, 1902",
+      "alt_text": "The Wright brothers' 1902 biplane glider in flight over the Kitty Hawk dunes, its pilot on the lower wing, under a cloudy sky.",
+      "author": "Wilbur and Orville Wright",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wilbur and Orville Wright · Wikimedia Commons",
+      "author_death_year": 1948,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1948; 1948+70 < 2026: public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
     },
     {
-      "media_slot_id": "U3.still.profield-2",
-      "asset_id": "nypl:894fb0a0-abfc-013c-eb21-0242ac110003",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/02c1a057c9a71866.php",
-      "source_file_url": "https://images.nypl.org/index.php?id=58953729&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/894fb0a0-abfc-013c-eb21-0242ac110003",
-      "alt_text": "Diamaxion house, metal, adapted corn bin, built by Butler Brothers, Kansas City. Designed and promoted by R. Buckminster Fuller.",
-      "title": "Diamaxion house, metal, adapted corn bin, built by Butler Brothers, Kansas City. Designed and promoted by R. Buckminster Fuller.",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 8,
-      "selection_rank": 8,
-      "collection": "unit-accepted"
+      "media_slot_id": "U3.analysis-model",
+      "asset_id": "wikimedia:File:Cow by Theo van Doesburg Museum of Modern Art 25.1969.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/01ca4277a985054c.webp",
+      "source_file_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Cow_by_Theo_van_Doesburg_Museum_of_Modern_Art_25.1969.jpg/1920px-Cow_by_Theo_van_Doesburg_Museum_of_Modern_Art_25.1969.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Cow_by_Theo_van_Doesburg_Museum_of_Modern_Art_25.1969.jpg",
+      "title": "Cow",
+      "alt_text": "A pencil study by Theo van Doesburg of a cow with its head lowered, drawn in loose lines and blocky masses as the animal starts to become geometric.",
+      "author": "Theo van Doesburg",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Theo van Doesburg · Wikimedia Commons",
+      "author_death_year": 1931,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1931; 1931+70 < 2026: public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U3.masterclass-1",
+      "asset_id": "wikimedia:File:Maqueta polifunicular.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/db042aadda24d26b.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Maqueta_polifunicular.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Maqueta_polifunicular.jpg",
+      "title": "Maqueta polifunicular",
+      "alt_text": "Early-1900s photograph of Gaudí's hanging model for the Colonia Güell church: strings loaded with small sacks of weight hang from the ceiling, with paper draped over them to show the inverted form.",
+      "author": "Unknown photographer (Gaudí workshop, c. 1908)",
+      "licence": "PD-EU",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Unknown photographer (Gaudí workshop, c. 1908) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "anonymous photograph c. 1898–1908; model by Antoni Gaudí (d. 1926)",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U3.masterclass-2",
+      "asset_id": "wikimedia:File:Sketches for the second movement of Symphony no. 7, op. 92, Beethoven, Petter Sketchbook, 1812, musical autograph - Morgan Library & Museum - New York City - DSC06691.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/8df17843a71ab0dd.webp",
+      "source_file_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Sketches_for_the_second_movement_of_Symphony_no._7%2C_op._92%2C_Beethoven%2C_Petter_Sketchbook%2C_1812%2C_musical_autograph_-_Morgan_Library_%26_Museum_-_New_York_City_-_DSC06691.jpg/1920px-thumbnail.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Sketches_for_the_second_movement_of_Symphony_no._7,_op._92,_Beethoven,_Petter_Sketchbook,_1812,_musical_autograph_-_Morgan_Library_%26_Museum_-_New_York_City_-_DSC06691.jpg",
+      "title": "Sketches for the second movement of Symphony no. 7, op. 92 (Petter Sketchbook, 1812)",
+      "alt_text": "A page from Beethoven's 1812 sketchbook: hurried ink notation across many staves as themes for the Seventh Symphony are tried out.",
+      "author": "Ludwig van Beethoven (sketchbook); Daderot (photograph, public-domain dedication)",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Ludwig van Beethoven (sketchbook); Daderot (photograph, public-domain dedication) · Wikimedia Commons",
+      "author_death_year": 1827,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1827; 1827+70 < 2026: public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U3.masterclass-5",
+      "asset_id": "wikimedia:File:Paul Klee Pädagogisches Skizzenbuch 10.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/2ef7976e52c1675b.webp",
+      "source_file_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Paul_Klee_P%C3%A4dagogisches_Skizzenbuch_10.jpg/1920px-Paul_Klee_P%C3%A4dagogisches_Skizzenbuch_10.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Paul_Klee_P%C3%A4dagogisches_Skizzenbuch_10.jpg",
+      "title": "Pädagogisches Skizzenbuch",
+      "alt_text": "A spread from Paul Klee's 1925 Pedagogical Sketchbook: simple lines and shapes worked out as a 'first case', 'second case' and 'third case', each a different development.",
+      "author": "Paul Klee",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Paul Klee · Wikimedia Commons",
+      "author_death_year": 1940,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1940; 1940+70 < 2026: public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U3.masterclass-6",
+      "asset_id": "wikimedia:File:Wright diary.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/d935477187be848c.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Wright_diary.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Wright_diary.jpg",
+      "title": "Wright diary",
+      "alt_text": "Two pages of Orville Wright's diary for 17 December 1903: dense handwriting on squared notebook paper recording that day's series of flight tests.",
+      "author": "Orville Wright",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Orville Wright · Wikimedia Commons",
+      "author_death_year": 1948,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1948; 1948+70 < 2026: public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U3.lab-1",
+      "asset_id": "wikimedia:File:Design for Three Chairs with Curved Backs (verso- Sketch for a Sideboard) MET DP807145.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/32b9a38346ca2656.webp",
+      "source_file_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Design_for_Three_Chairs_with_Curved_Backs_%28verso-_Sketch_for_a_Sideboard%29_MET_DP807145.jpg/1920px-Design_for_Three_Chairs_with_Curved_Backs_%28verso-_Sketch_for_a_Sideboard%29_MET_DP807145.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Design_for_Three_Chairs_with_Curved_Backs_(verso-_Sketch_for_a_Sideboard)_MET_DP807145.jpg",
+      "title": "Design for Three Chairs with Curved Backs",
+      "alt_text": "An early-19th-century watercolour design sheet showing three chairs side by side, each with a differently curved back and patterned seat.",
+      "author": "Anonymous designer (early 19th century); The Metropolitan Museum of Art (CC0)",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Anonymous designer (early 19th century); The Metropolitan Museum of Art (CC0) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC0 dedication by the rights holder (file page). anonymous 19th-century drawing; Met Open Access CC0",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U3.lab-2",
+      "asset_id": "wikimedia:File:Wright Glider being flown as a kite. -1900 10457 A.S..jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/fd8903c0e7a3c0c4.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Wright_Glider_being_flown_as_a_kite._-1900_10457_A.S..jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Wright_Glider_being_flown_as_a_kite._-1900_10457_A.S..jpg",
+      "title": "Wright Glider being flown as a kite, 1900",
+      "alt_text": "The Wright brothers' 1900 glider flying unmanned as a tethered kite against a cloudy sky, its two wings and struts clearly visible.",
+      "author": "Wilbur and Orville Wright",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Wilbur and Orville Wright · Wikimedia Commons",
+      "author_death_year": 1948,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1948; 1948+70 < 2026: public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
     }
   ],
   "slides": [
     {
+      "slide_id": "cover",
       "slide_role": "unit_cover",
-      "background_kind": "profield",
-      "media_slot_id": "U3.still.profield-1",
+      "background_kind": "curated",
       "heading": "U3 · Development techniques and solutions",
       "sentence": "Make the idea visible. Learn from the change. Decide what to keep.",
       "quote": "Many doors opened. One fits the brief. Close the rest on purpose. Spring.",
       "quote_origin": "tao_invented",
       "citation": {
         "label": "(Tao of Creativity)",
-        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-3-development-solutions/#references"
-      }
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-3-development-solutions/#tao-of-creativity"
+      },
+      "image_brief": "The Wright brothers' 1902 glider in flight at Kitty Hawk: an idea made visible in material, learned from, and changed from the year before.",
+      "asset_id": "wikimedia:File:Gliding flight, Wright Glider, Kitty Hawk, NC. 1902.10459 A.S..jpg",
+      "media_slot_id": "U3.cover"
     },
     {
+      "slide_id": "analysis-opener",
       "slide_role": "analysis_opener",
       "background_kind": "geometrical",
       "heading": "Analysis opens the class",
       "sentence": "From session 3: two students defend a D1 piece for 15 minutes. Show what changed between versions."
     },
     {
+      "slide_id": "analysis-model",
       "slide_role": "analysis_model",
-      "background_kind": "profield",
-      "media_slot_id": "U3.still.profield-2",
+      "background_kind": "curated",
       "heading": "Read the development",
-      "sentence": "Name language, medium, and support. Then ask what the next version was trying to learn."
+      "sentence": "Name language, medium, and support. Then ask what the next version was trying to learn.",
+      "image_brief": "Theo van Doesburg, a study for Composition (The Cow), c. 1917–18: an intermediate version in which the cow is already reduced to lines and masses — one step of a development whose next version tried to learn something new.",
+      "asset_id": "wikimedia:File:Cow by Theo van Doesburg Museum of Modern Art 25.1969.jpg",
+      "media_slot_id": "U3.analysis-model"
     },
     {
+      "slide_id": "masterclass-1",
       "slide_role": "masterclass",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "1 · Make it rough, make it early",
       "sentence": "A rough prototype is a question in material form. Make the smallest version that can teach you something.",
       "quote": "A rough thing can answer a question that a polished thing hides.",
       "quote_origin": "tao_invented",
       "citation": {
-        "label": "(Cross 2006, 17)",
-        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-3-development-solutions/#ref-cross-2006"
-      }
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-3-development-solutions/#tao-of-creativity"
+      },
+      "image_brief": "Antoni Gaudí's hanging string-and-weight model for the Colonia Güell church, photographed c. 1908: a rough model built early to ask a structural question in material form.",
+      "asset_id": "wikimedia:File:Maqueta polifunicular.jpg",
+      "media_slot_id": "U3.masterclass-1",
+      "notes": "- A rough prototype is a question in material form.\n- It does not need to look finished. It needs to reveal one thing you do not know yet.\n- Build the smallest version that lets a classmate react.\n- \"The prototype is meant to answer questions, so keep it focused.\"\nSource: the prototype quote is (Knapp, Zeratsky, and Kowitz 2016, chap. 13); the lesson also cites (Cross 2006, vi) for design ability as resolving ill-defined problems. Other bullets and the slide's Tao line are course wording.\nAsk: What can this rough object tell you that a description cannot?",
+      "claims": [
+        {
+          "text": "The prototype is meant to answer questions, so keep it focused.",
+          "cite": "Knapp, Zeratsky, and Kowitz 2016, chap. 13"
+        },
+        {
+          "text": "I summarised design ability as comprising abilities of resolving ill-defined problems, adopting solution-focused cognitive strategies",
+          "cite": "Cross 2006, vi"
+        }
+      ]
     },
     {
+      "slide_id": "masterclass-2",
       "slide_role": "masterclass",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "2 · Defer judgement",
-      "sentence": "Protect a short space for variation before you decide what works. Then judge with a named criterion."
+      "sentence": "Protect a short space for variation before you decide what works. Then judge with a named criterion.",
+      "image_brief": "Beethoven's sketchbook for the Seventh Symphony, 1812: themes tried in several versions before any is judged final — a protected space for variation before decision.",
+      "asset_id": "wikimedia:File:Sketches for the second movement of Symphony no. 7, op. 92, Beethoven, Petter Sketchbook, 1812, musical autograph - Morgan Library & Museum - New York City - DSC06691.jpg",
+      "media_slot_id": "U3.masterclass-2",
+      "notes": "- Early critique can close a path before it shows what it might become.\n- Protect a short space for variation first. Then judge with a named criterion.\n- This is not permission to keep every idea. It stops you mistaking the first awkward version for the final limit.\n- Osborn's first rule: criticism is withheld until all ideas are in. In an experiment, college students who expected their artworks to be evaluated produced work judged less creative.\nSource: the rule is (Osborn 1942, chap. 4); the evaluation result is (Amabile 1979, 221). Other bullets are course wording.\nAsk: Which idea did you drop too early this week?",
+      "claims": [
+        {
+          "text": "Judicial judgment is ruled out. Criticism must be withheld until all ideas are in.",
+          "cite": "Osborn 1942, chap. 4"
+        },
+        {
+          "text": "subjects in the evaluation groups produced artworks significantly lower on judged creativity than did subjects in the nonevaluation control groups",
+          "cite": "Amabile 1979, 221"
+        }
+      ]
     },
     {
+      "slide_id": "masterclass-3",
       "slide_role": "masterclass",
       "background_kind": "diagram",
       "heading": "3 · Iterate with an exit",
-      "sentence": "Write the test before the next version. Stop when the test is answered."
+      "sentence": "Write the test before the next version. Stop when the test is answered.",
+      "image_brief": "Replica of the Wright brothers' 1901 wind tunnel: wing shapes tested against one question before the next glider was built, and testing stopped when the data answered it.",
+      "notes": "- Revision helps when you know what the next version must answer.\n- Write one test before you change the work: \"Can the viewer find the main action?\" or \"Does the form fit the brief?\"\n- Stop when the test is answered, even if another improvement is possible.\n- Iteration can improve an idea, but it can also cause fixation: refining one option without considering others.\nSource: the iteration/fixation bullet is (Dow et al. 2010, 18:1). Other bullets are course wording.\nAsk: What is the one test your next version must pass?",
+      "claims": [
+        {
+          "text": "Iteration can help people improve ideas. It can also give rise to fixation, continuously refining one option without considering others.",
+          "cite": "Dow et al. 2010, 18:1"
+        },
+        {
+          "text": "ads created in the Parallel condition significantly outperformed those from the Serial condition. Moreover, independent raters found Parallel prototypes to be more diverse. Parallel participants also reported a larger increase in task-specific self-confidence.",
+          "cite": "Dow et al. 2010, 18:1"
+        }
+      ]
     },
     {
+      "slide_id": "masterclass-4",
       "slide_role": "masterclass",
       "background_kind": "diagram",
       "heading": "4 · Sketch to think",
@@ -105,27 +285,103 @@ layout: null
       "quote": "Sketching enables exploration of the problem space and the solution space to proceed together.",
       "quote_origin": "page_verified",
       "citation": {
-        "label": "(Cross 2006, 46)",
+        "label": "(Cross 2006, 37)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-3-development-solutions/#ref-cross-2006"
-      }
+      },
+      "image_brief": "A sheet of quick alternative sketches by a designer or artist — several arrangements of one idea side by side — showing sketching as a way of thinking before anything is built.",
+      "notes": "- Draw three different arrangements, not one beautiful drawing.\n- Cross: \"Sketching enables exploration of the problem space and the solution space to proceed together.\"\n- Compare relationships, rhythm and emphasis. A sketch is a temporary argument: it shows what your idea is doing.\nSource: the quote is (Cross 2006, 37). The first and third bullets are course wording.\nAsk: What did the second and third arrangement show that the first one hid?",
+      "claims": [
+        {
+          "text": "Sketching enables exploration of the problem space and the solution space to proceed together",
+          "cite": "Cross 2006, 37"
+        }
+      ]
     },
     {
+      "slide_id": "masterclass-5",
       "slide_role": "masterclass",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "5 · Open the solution space",
       "sentence": "Reframe an unclear brief as two or three questions. Make one small response to each.",
       "citation": {
-        "label": "(Beghetto and Karwowski 2025, 1)",
+        "label": "(Beghetto and Karwowski 2025, 3)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-3-development-solutions/#ref-beghetto-karwowski-2025"
-      }
+      },
+      "image_brief": "Paul Klee, a page of the Pedagogical Sketchbook (1925): one line or form opened into several possible developments, a bounded way to widen the solution space.",
+      "asset_id": "wikimedia:File:Paul Klee Pädagogisches Skizzenbuch 10.jpg",
+      "media_slot_id": "U3.masterclass-5",
+      "notes": "- Some briefs are unclear because the problem itself is still moving. Do not force one path too soon.\n- Reframe the brief as two or three possible questions. Make one small response to each.\n- Creative agency: \"the intentional and self-directed capacity to envision and enact new and meaningful actions within the existing constraints of a particular context\".\n- Every way of stating a wicked problem already points to a solution.\nSource: the wicked-problem bullet is (Buchanan 1992, 16); the creative-agency definition is (Beghetto and Karwowski 2025, 3). Other bullets are course wording.\nAsk: Which of your questions surprised you most?",
+      "claims": [
+        {
+          "text": "every formulation of a wicked problem corresponds to the formulation of a solution",
+          "cite": "Buchanan 1992, 16"
+        },
+        {
+          "text": "The intentional and self-directed capacity to envision and enact new and meaningful actions within the existing constraints of a particular context",
+          "cite": "Beghetto and Karwowski 2025, 3"
+        }
+      ]
     },
     {
+      "slide_id": "masterclass-6",
       "slide_role": "masterclass",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "6 · Reflect at checkpoints",
-      "sentence": "Write what changed, what stayed, and what the change taught you."
+      "sentence": "Write what changed, what stayed, and what the change taught you.",
+      "image_brief": "Orville Wright's diary entry for 17 December 1903: a written record of what was tried, what happened and what was learned — reflection at a checkpoint.",
+      "asset_id": "wikimedia:File:Wright diary.jpg",
+      "media_slot_id": "U3.masterclass-6",
+      "notes": "- Pause after each version. Write three lines: what changed, what stayed, what the change taught you.\n- Schön: the situation \"talks back\", and in good design this conversation with the situation is reflective.\n- The checkpoint turns attempts into evidence you can discuss. It is a teaching prompt, not a model of every studio decision.\nSource: the Schön bullet is (Schön 1983, 79). Other bullets are course wording.\nAsk: What did your last checkpoint teach you?",
+      "claims": [
+        {
+          "text": "the situation 'talks back,' and he responds to the situation's back-talk. In a good process of design, this conversation with the situation is reflective.",
+          "cite": "Schön 1983, 79"
+        }
+      ]
     },
     {
+      "slide_id": "retrieval",
+      "slide_role": "retrieval",
+      "background_kind": "geometrical",
+      "heading": "Recall check",
+      "sentence": "Alone, from memory, 3 minutes. Then compare with a partner.",
+      "questions": [
+        "What is a prototype for, says the sprint handbook?",
+        "What risk of iteration do Dow and colleagues name?",
+        "Sketching explores which two spaces together (Cross)?",
+        "Why reframe an unclear brief as two or three questions?",
+        "For Schön, what does the situation do as you design?"
+      ],
+      "notes": "- Timer: 3 minutes. Students answer alone, from memory, on paper; no notes, no slides.\n- Then 2 minutes in pairs: compare answers, then check the lesson.\n- Practice only: nothing is collected or graded. Five more questions with answers are on the unit's practice quiz page.\nAnswers:\n- 1. Answer questions, so keep it focused (Knapp, Zeratsky, and Kowitz 2016, chap. 13).\n- 2. Fixation: continuously refining one option without considering others (Dow et al. 2010, 18:1).\n- 3. The problem space and the solution space (Cross 2006, 37).\n- 4. Every formulation of a wicked problem corresponds to the formulation of a solution, so each framing points to a different answer (Buchanan 1992, 16).\n- 5. It talks back, and you respond; in a good design process that conversation is reflective (Schön 1983, 79).\nAsk: Which answer could you not recall? Re-read that idea before the Lab.",
+      "claims": [
+        {
+          "text": "The prototype is meant to answer questions, so keep it focused.",
+          "cite": "Knapp, Zeratsky, and Kowitz 2016, chap. 13"
+        },
+        {
+          "text": "Iteration can help people improve ideas. It can also give rise to fixation, continuously refining one option without considering others.",
+          "cite": "Dow et al. 2010, 18:1"
+        },
+        {
+          "text": "ads created in the Parallel condition significantly outperformed those from the Serial condition. Moreover, independent raters found Parallel prototypes to be more diverse. Parallel participants also reported a larger increase in task-specific self-confidence.",
+          "cite": "Dow et al. 2010, 18:1"
+        },
+        {
+          "text": "Sketching enables exploration of the problem space and the solution space to proceed together",
+          "cite": "Cross 2006, 37"
+        },
+        {
+          "text": "every formulation of a wicked problem corresponds to the formulation of a solution",
+          "cite": "Buchanan 1992, 16"
+        },
+        {
+          "text": "the situation 'talks back,' and he responds to the situation's back-talk. In a good process of design, this conversation with the situation is reflective.",
+          "cite": "Schön 1983, 79"
+        }
+      ]
+    },
+    {
+      "slide_id": "lab-opener",
       "slide_role": "lab_opener",
       "background_kind": "geometrical",
       "heading": "Lab · Portfolio",
@@ -134,34 +390,72 @@ layout: null
       "portfolio_trace": "Save both traces in the portfolio index."
     },
     {
+      "slide_id": "lab-1",
       "slide_role": "lab_exercise",
-      "background_kind": "diagram",
-      "heading": "Exercise 1 · Same problem, three entry points",
-      "sentence": "Keep one D1 problem. Start each of three rough sketches from a different named entry point. Do not polish. Compare how the entry point steered the path (de Bono 1970, 27; Cross 2006, 93).",
+      "background_kind": "curated",
+      "heading": "Exercise 1 · Same problem, three entry points, in parallel",
+      "sentence": "Keep one D1 problem. Make three rough versions, each from a different starting point, before anyone gives feedback. Then show all three side by side.",
+      "prompt": "Practises Masterclass 1, 3 and 4: rough and early, avoid fixation, sketch to think.",
       "portfolio_bound": true,
-      "portfolio_trace": "Save the problem, three entry points, three scans, and one sentence on what each entry point made possible."
+      "portfolio_trace": "Save the problem, the three entry points, three scans and one sentence per version on what it taught you.",
+      "technique_id": "parallel-prototyping",
+      "technique_ids_also": [
+        "entry-point-attention-area"
+      ],
+      "practises": [
+        "masterclass-1",
+        "masterclass-3",
+        "masterclass-4"
+      ],
+      "timer_seconds": 1200,
+      "image_brief": "An early-19th-century design sheet with three chairs with curved backs: one problem answered three ways side by side, the model for three rough entry points.",
+      "asset_id": "wikimedia:File:Design for Three Chairs with Curved Backs (verso- Sketch for a Sideboard) MET DP807145.jpg",
+      "media_slot_id": "U3.lab-1",
+      "notes": "- Timer: 20 minutes — about 15 making, 5 for side-by-side feedback in pairs.\n- One concrete D1 problem, the same for the whole class. Name three entry points before starting: structure, material/support, or audience/circulation.\n- Three rough sketches or small prototypes, one per entry point. Do not polish. No feedback until all three exist.\n- Show the three side by side; note what each taught you and which one the feedback favoured; mark ideas to combine.\n- Watch the temptation to solve it the obvious way and paste the entry point on afterwards.\nSource: novice designers who made several prototypes before any feedback (parallel) produced better-performing and more varied designs than those who got critique after each single prototype, and they reported a larger gain in their confidence at this kind of task (Dow et al. 2010, 18:1); \"a different entry point will usually mean a different train of ideas\" is (de Bono 1970, chap. “Choice of Entry Point and Attention Area”). The steps and the watch-out are course wording.\nAsk (in pairs): How did each entry point steer the path?",
+      "claims": [
+        {
+          "text": "Iteration can help people improve ideas. It can also give rise to fixation, continuously refining one option without considering others.",
+          "cite": "Dow et al. 2010, 18:1"
+        },
+        {
+          "text": "ads created in the Parallel condition significantly outperformed those from the Serial condition. Moreover, independent raters found Parallel prototypes to be more diverse. Parallel participants also reported a larger increase in task-specific self-confidence.",
+          "cite": "Dow et al. 2010, 18:1"
+        }
+      ]
     },
     {
+      "slide_id": "lab-2",
       "slide_role": "lab_exercise",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "Exercise 2 · Delay judgement, then checkpoint and exit",
-      "sentence": "Protect a short delay of judgement on one version (de Bono 1970, 30). Write one testable question, revise once, and stop when the test is answered.",
+      "sentence": "Pick one version. Hold back judgement for five minutes, decide what it tests — role, look and feel, or how it works — revise once, and stop when your question is answered.",
+      "prompt": "Practises Masterclass 2, 3 and 6: defer judgement, iterate with an exit, reflect at checkpoints.",
       "portfolio_bound": true,
-      "portfolio_trace": "Save before/after, the deferred-judgement note, the test question, the checkpoint, and the exit decision."
+      "portfolio_trace": "Save before/after, the test question, the checkpoint lines and the exit decision.",
+      "technique_id": "delay-judgement-checkpoint",
+      "practises": [
+        "masterclass-2",
+        "masterclass-3",
+        "masterclass-6"
+      ],
+      "timer_seconds": 1200,
+      "image_brief": "The Wright brothers' 1900 glider flown unmanned as a kite: one version tested against one question (does it lift?) before judging it and revising once.",
+      "asset_id": "wikimedia:File:Wright Glider being flown as a kite. -1900 10457 A.S..jpg",
+      "media_slot_id": "U3.lab-2",
+      "notes": "- Timer: 20 minutes — about 5 delay, 5 question, 7 revise and test, 3 checkpoint.\n- Choose one of the three versions. For 5 minutes keep developing it without deciding whether it is right: no criticism, including your own.\n- Ask what this version tests: its role (what it does for the person), its look and feel, or how it would actually work. Pick one.\n- Write one testable question about that choice. Revise once; let a classmate try it.\n- Checkpoint: three lines — what changed, what stayed, what you learned. Exit when the question is answered, even if another improvement is possible.\n- If a tool or generative system supplied a variation, record the prompt, the option you rejected and why you kept the final form.\nSource: withholding criticism \"until all ideas are in\" is Osborn's first ground rule (Osborn 1942, chap. 4). The role / look and feel / implementation question is an adapted prototyping question (source pending); the other bullets are course wording.\nAsk: Where did you stop, and was it hard to stop?",
+      "claims": [
+        {
+          "text": "Judicial judgment is ruled out. Criticism must be withheld until all ideas are in.",
+          "cite": "Osborn 1942, chap. 4"
+        }
+      ]
     },
     {
+      "slide_id": "outro",
       "slide_role": "outro",
       "background_kind": "geometrical",
       "heading": "Carry forward",
       "sentence": "Show one development loop in your D1 defence: question, versions, learning, decision."
     }
-  ],
-  "media_selection": {
-    "unit_id": "U3",
-    "project_id": "tc",
-    "collection": "unit-accepted",
-    "strategy": "review-state-assigned",
-    "description": "Accepted/ranked Profield review-state assets for tc/U3.",
-    "media_overrides": {}
-  }
+  ]
 }

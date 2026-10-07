@@ -3,8 +3,18 @@
 source "$(git rev-parse --show-toplevel)/creativity-techniques-pedagogy/excellence/gates/common.sh"
 
 CACHE=docs/assets/images/deck-media
-check "old profield-cache dir removed" test ! -e docs/assets/images/profield-cache
-[ -d node_modules ] || npm ci --silent >/tmp/excellence-npm.log 2>&1
+# Amendment A2/F7: profield-cache may remain, holding only files legacy decks reference.
+python3 - "$DECKS" <<'PY' && pass "profield-cache holds only legacy-referenced files" || fail "profield-cache holds only legacy-referenced files"
+import pathlib, sys
+old = pathlib.Path("docs/assets/images/profield-cache")
+if not old.exists(): sys.exit(0)
+refs = "".join(p.read_text() for p in pathlib.Path(sys.argv[1]).glob("*/data/content.json"))
+bad = [f.name for f in old.iterdir() if f.is_file() and f.name not in refs]
+print(bad); sys.exit(1 if bad else 0)
+PY
+# Orchestrator fix (EX3 landing): reinstall when the lockfile is newer than the installed tree,
+# so a worktree whose node_modules predates sharp does not fail the rendition tests.
+if [ ! -d node_modules ] || [ package-lock.json -nt node_modules/.package-lock.json ]; then npm ci --silent >/tmp/excellence-npm.log 2>&1; fi
 
 check "media-rules module exists" test -f scripts/lib/media-rules.mjs
 check "validator exists" test -f scripts/validate-decks.mjs
@@ -33,16 +43,32 @@ import json, pathlib, re, sys
 bad = []
 for root in sys.argv[1:]:
     for p in pathlib.Path(root).glob("*/data/content.json"):
+        if re.search(r"/u-[4-9]-", str(p)): continue
         raw = re.sub(r"^---[\s\S]*?---\s*", "", p.read_text())
         if "profield" in raw.lower(): bad.append(f"{p}: contains 'profield'")
         d = json.loads(raw)
-        if "slides" not in d or "how-to-pass" in str(p): continue
+        if "slides" not in d or "how-to-pass" in str(p) or re.search(r"/u-[4-9]-", str(p)): continue
         for s in d["slides"]:
             if not s.get("slide_id"): bad.append(f"{p}: slide without slide_id: {s.get('heading')}")
             if s.get("background_kind") == "curated" and not (s.get("asset_id") and s.get("image_brief")):
                 bad.append(f"{p}: curated slide missing asset_id/image_brief: {s.get('slide_id')}")
 print("\n".join(bad[:20])); sys.exit(1 if bad else 0)
 PY
+
+for p in cascade-harness 'lesson harness' 'studio extraction layer' 'cite-grade discovery'; do
+  present "safety script has pattern: $p (A5/F2)" "$p" scripts/verify-publication-safety.mjs
+done
+
+# Sync-1 F4 (A8): every cache/media file referenced by any deck exists.
+python3 - <<'GATEPY' && pass "all deck-referenced media files exist (A8/F4)" || fail "all deck-referenced media files exist (A8/F4)"
+import pathlib, re, sys
+missing = []
+for p in pathlib.Path("docs/tracks").rglob("data/content.json"):
+    for ref in set(re.findall(r"assets/images/(?:profield-cache|deck-media)/[0-9A-Za-z._-]+", p.read_text())):
+        if not (pathlib.Path("docs") / ref).exists():
+            missing.append(f"{p.parent.parent.name}: {ref}")
+print(missing); sys.exit(1 if missing else 0)
+GATEPY
 
 build_site
 finish

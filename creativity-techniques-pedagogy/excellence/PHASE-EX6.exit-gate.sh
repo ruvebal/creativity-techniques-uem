@@ -7,7 +7,7 @@ REFS=docs/_data/references.yml
 check "manifest exists" test -f "$MAN"
 check "references.yml exists" test -f "$REFS"
 check "references include exists" test -f docs/_includes/references.html
-absent "no hand-written reference spans" 'id="ref-' "$LESSONS" docs/lessons/en/master-lectures
+absent "no hand-written reference spans" 'id="ref-' "${SCOPED_LESSONS[@]}"
 
 ruby - "$MAN" "$REFS" "$LESSONS" docs/lessons/en/master-lectures/creative-process-analysis/index.md <<'RB' && pass "manifest, refs and citations agree" || fail "manifest, refs and citations agree"
 require "yaml"
@@ -26,7 +26,7 @@ man.each do |w|
   bad << "#{w['key']}: bad status" unless %w[verified gap].include?(w["status"].to_s)
   bad << "#{w['key']}: verified but not in references.yml" if w["status"] == "verified" && !ref_keys.include?(w["key"].to_s)
 end
-files = Dir.glob(File.join(ARGV[2], "u-*", "index.md")) + [ARGV[3]]
+files = Dir.glob(File.join(ARGV[2], "u-[123]-*", "index.md")) + [ARGV[3]]
 files.each do |f|
   t = File.read(f)
   cited = t.scan(/#ref-([\w-]+)/).flatten.uniq
@@ -45,6 +45,18 @@ end
 puts bad.first(30)
 exit(bad.empty? ? 0 : 1)
 RB
+
+# Amendment A3/F2–F3: every verified provenance line declares how its page was read.
+python3 - "${SCOPED_LESSONS[@]}" <<'GATEPY' && pass "PROVENANCE_LINE page_basis declared" || fail "PROVENANCE_LINE page_basis declared"
+import pathlib, re, sys
+bad = []
+for f in [x for d in sys.argv[1:] for x in pathlib.Path(d).rglob("index.md")]:
+    for line in f.read_text().splitlines():
+        if "PROVENANCE_LINE" in line and "status=VERIFIED" in line and not re.search(r"page_basis=(printed|section)", line):
+            bad.append(f"{f}: {line[:90]}")
+print("\n".join(bad[:20])); sys.exit(1 if bad else 0)
+GATEPY
+absent "no Chen PDF-index pins left" "\(Chen 2012, 4[01]\)" "${SCOPED_LESSONS[@]}" "${SCOPED_DECKS[@]}"
 
 build_site
 finish

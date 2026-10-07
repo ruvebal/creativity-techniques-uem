@@ -2,323 +2,193 @@
 layout: null
 ---
 {
+  "schema_version": 2,
   "unit_label": "Creativity Techniques · U1 Introduction",
   "final_event_theme": "What is creativity for you?",
   "media_selection": {
     "unit_id": "U1",
     "project_id": "tc",
-    "collection": "unit-accepted",
-    "strategy": "review-state-assigned",
-    "description": "Accepted/ranked Profield review-state assets assigned to tc/U1.",
-    "media_overrides": {}
+    "strategy": "slide-bound",
+    "description": "Each image is bound to one named slide by asset_id; slides without a cleared image use the course diagram."
   },
   "assets": [
     {
-      "media_slot_id": "U1.still.profield-1",
-      "asset_id": "nypl:280b6a20-4180-0130-d5e6-58d385a7b928",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/d42ecff10bbdd06b.php",
-      "source_file_url": "https://images.nypl.org/index.php?id=5023595&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/280b6a20-4180-0130-d5e6-58d385a7b928",
-      "alt_text": "Reflection.",
-      "title": "Reflection.",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 10,
-      "selection_rank": 10,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "U1.still.profield-2",
-      "asset_id": "nypl:510d47dc-6052-a3d9-e040-e00a18064a99",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/34491d14c12721d7.php",
-      "source_file_url": "https://images.nypl.org/index.php?id=1401840&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/510d47dc-6052-a3d9-e040-e00a18064a99",
-      "alt_text": "Circus performers.",
-      "title": "Circus performers.",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 9,
-      "selection_rank": 9,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "U1.still.profield-3",
-      "asset_id": "nypl:ecd58340-c606-012f-96ca-58d385a7bc34",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/67e8367fb0719e25.php",
-      "source_file_url": "https://images.nypl.org/index.php?id=1634206&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/ecd58340-c606-012f-96ca-58d385a7bc34",
-      "alt_text": "Fashion illustration",
-      "title": "Fashion illustration",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 9,
-      "selection_rank": 9,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "U1.still.profield-4",
-      "asset_id": "nypl:30e47f20-5a52-0133-dc8e-00505686a51c",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/45ae01614da4f3cc.php",
-      "source_file_url": "https://images.nypl.org/index.php?id=5377959&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/30e47f20-5a52-0133-dc8e-00505686a51c",
-      "alt_text": "Manifestation Dada",
-      "title": "Manifestation Dada",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 8,
-      "selection_rank": 8,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "U1.still.profield-5",
-      "asset_id": "nypl:510d47d9-3f28-a3d9-e040-e00a18064a99",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/c142adfa3ec48f79.php",
-      "source_file_url": "https://images.nypl.org/index.php?id=74195&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/510d47d9-3f28-a3d9-e040-e00a18064a99",
-      "alt_text": "12\" gun in Action, Naval",
-      "title": "12\" gun in Action, Naval",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 8,
-      "selection_rank": 8,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "U1.still.profield-6",
-      "asset_id": "nypl:510d47d9-83ad-a3d9-e040-e00a18064a99",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/55a22f1e8a0201ae.php",
-      "source_file_url": "https://images.nypl.org/index.php?id=1221640&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/510d47d9-83ad-a3d9-e040-e00a18064a99",
-      "alt_text": "An illustration of gates",
-      "title": "An illustration of gates",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 8,
-      "selection_rank": 8,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "U1.still.profield-7",
-      "asset_id": "nypl:7acb30b0-c624-012f-e5b5-58d385a7bc34",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/001689d2c916fa00.php",
-      "source_file_url": "https://images.nypl.org/index.php?id=ps_prn_cd20_296&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/7acb30b0-c624-012f-e5b5-58d385a7bc34",
-      "alt_text": "An action off Spit-Head",
-      "title": "An action off Spit-Head",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 8,
-      "selection_rank": 8,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "U1.still.profield-8",
-      "asset_id": "nypl:07ed5120-2f28-0133-a598-58d385a7b928",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/3ecc1a2343c3bc48.php",
-      "source_file_url": "https://images.nypl.org/index.php?id=5337564&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/07ed5120-2f28-0133-a598-58d385a7b928",
-      "alt_text": "Creation of Adam",
-      "title": "Creation of Adam",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 4,
-      "selection_rank": 4,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "U1.still.profield-9",
-      "asset_id": "nypl:2e51cc60-c554-012f-49f2-58d385a7bc34",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/37dc0f693437fddc.php",
-      "source_file_url": "https://images.nypl.org/index.php?id=G91F111_019F&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/2e51cc60-c554-012f-49f2-58d385a7bc34",
-      "alt_text": "The artist's dream.",
-      "title": "The artist's dream.",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 4,
-      "selection_rank": 4,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "U1.still.profield-10",
-      "asset_id": "wikimedia:File:Five-Way Portrait of Marcel Duchamp, 21 June 1917, New York City.jpg",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/1e69510991fc9a37.jpg",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Five-Way_Portrait_of_Marcel_Duchamp%2C_21_June_1917%2C_New_York_City.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Five-Way_Portrait_of_Marcel_Duchamp,_21_June_1917,_New_York_City.jpg",
-      "alt_text": "Five-Way Portrait of Marcel Duchamp, 21 June 1917, New York City.jpg",
-      "title": "Five-Way Portrait of Marcel Duchamp, 21 June 1917, New York City.jpg",
+      "media_slot_id": "U1.cover",
+      "asset_id": "wikimedia:File:Leonardo da Vinci - 1860,0616.98, Two studies of the Virgin and Child with a cat and three studies of the Child with a cat.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/602b24d382784822.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Leonardo_da_Vinci_-_1860%2C0616.98%2C_Two_studies_of_the_Virgin_and_Child_with_a_cat_and_three_studies_of_the_Child_with_a_cat.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_1860,0616.98,_Two_studies_of_the_Virgin_and_Child_with_a_cat_and_three_studies_of_the_Child_with_a_cat.jpg",
+      "title": "Two studies of the Virgin and Child with a cat and three studies of the Child with a cat",
+      "alt_text": "Pen-and-ink sheet by Leonardo da Vinci with two studies of the Virgin holding the Christ Child and a cat, and three smaller studies of the Child with the cat, each pose tried differently.",
+      "author": "Leonardo da Vinci",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 4,
-      "selection_rank": 4,
-      "collection": "unit-accepted"
+      "credit_line": "Leonardo da Vinci · Wikimedia Commons",
+      "author_death_year": 1519,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1519; 1519+70 < 2026: public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
     },
     {
-      "media_slot_id": "U1.still.profield-11",
-      "asset_id": "nypl:05574380-c575-012f-544f-58d385a7bc34",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/a4477af5518f145f.php",
-      "source_file_url": "https://images.nypl.org/index.php?id=1942274&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/05574380-c575-012f-544f-58d385a7bc34",
-      "alt_text": "Dada siegt! : Wiedereröffnung der polizeilich geschlossenen Ausstellung, Schildergasse 37 ...",
-      "title": "Dada siegt! : Wiedereröffnung der polizeilich geschlossenen Ausstellung, Schildergasse 37 ...",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 3,
-      "selection_rank": 3,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "U1.still.profield-12",
-      "asset_id": "nypl:195d82a0-3acf-0133-9eb9-00505686d14e",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/9093105dae3b42e3.php",
-      "source_file_url": "https://images.nypl.org/index.php?id=5339748&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/195d82a0-3acf-0133-9eb9-00505686d14e",
-      "alt_text": "Festival Dada, mercredi 26 mai 1920 à 3 h. après-midi",
-      "title": "Festival Dada, mercredi 26 mai 1920 à 3 h. après-midi",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 3,
-      "selection_rank": 3,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "U1.still.profield-13",
-      "asset_id": "nypl:1ff4e4e0-c62b-012f-8b5a-58d385a7bc34",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/3431b3f642ee6a65.php",
-      "source_file_url": "https://images.nypl.org/index.php?id=1642709&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/1ff4e4e0-c62b-012f-8b5a-58d385a7bc34",
-      "alt_text": "A patent sideboard.",
-      "title": "A patent sideboard.",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 3,
-      "selection_rank": 3,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "U1.still.profield-14",
-      "asset_id": "nypl:4678b550-c55d-012f-5575-58d385a7bc34",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/259aed079d802ff0.php",
-      "source_file_url": "https://images.nypl.org/index.php?id=836597&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/4678b550-c55d-012f-5575-58d385a7bc34",
-      "alt_text": "Hook and ladder in action",
-      "title": "Hook and ladder in action",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 3,
-      "selection_rank": 3,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "U1.still.profield-15",
-      "asset_id": "nypl:4cc1ab80-c6e7-012f-3e2c-58d385a7bc34",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/ad7189f98c755794.php",
-      "source_file_url": "https://images.nypl.org/index.php?id=1567396&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/4cc1ab80-c6e7-012f-3e2c-58d385a7bc34",
-      "alt_text": "Four designs for chairs, two designs for tables, three designs for lamps",
-      "title": "Four designs for chairs, two designs for tables, three designs for lamps",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 3,
-      "selection_rank": 3,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "U1.still.profield-16",
-      "asset_id": "wikimedia:File:Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (68).JPG",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/337b1324e6f226b2.jpg",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Art%2BFeminism_Wikipedia_Edit-A-Thon_2015%2C_The_Banff_Centre%2C_Banff%2C_Alberta_%2868%29.JPG",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Art%2BFeminism_Wikipedia_Edit-A-Thon_2015,_The_Banff_Centre,_Banff,_Alberta_(68).JPG",
-      "alt_text": "Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (68).JPG",
-      "title": "Art+Feminism Wikipedia Edit-A-Thon 2015, The Banff Centre, Banff, Alberta (68).JPG",
+      "media_slot_id": "U1.analysis-model",
+      "asset_id": "wikimedia:File:Beat the Whites with the Red Wedge.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/59f29872951bc0ae.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Beat_the_Whites_with_the_Red_Wedge.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Beat_the_Whites_with_the_Red_Wedge.jpg",
+      "title": "Beat the Whites with the Red Wedge",
+      "alt_text": "El Lissitzky's 1919–20 poster: a sharp red triangle drives into a white circle on a black and white field, with Russian words placed along the shapes.",
+      "author": "El Lissitzky",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 3,
-      "selection_rank": 3,
-      "collection": "unit-accepted"
+      "credit_line": "El Lissitzky · Wikimedia Commons",
+      "author_death_year": 1941,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1941; 1941+70 < 2026: public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
     },
     {
-      "media_slot_id": "U1.still.profield-17",
-      "asset_id": "wikimedia:File:Iterative Process Diagram.svg",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/1b014b8e74a8b772.svg",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Iterative_Process_Diagram.svg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Iterative_Process_Diagram.svg",
-      "alt_text": "Iterative Process Diagram.svg",
-      "title": "Iterative Process Diagram.svg",
+      "media_slot_id": "U1.masterclass-1",
+      "asset_id": "wikimedia:File:Studies for the Libyan Sibyl (recto); Studies for the Libyan Sibyl and a small Sketch for a Seated Figure (verso) MET DP807402.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/1e199b72324443bc.webp",
+      "source_file_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Studies_for_the_Libyan_Sibyl_%28recto%29%3B_Studies_for_the_Libyan_Sibyl_and_a_small_Sketch_for_a_Seated_Figure_%28verso%29_MET_DP807402.jpg/1920px-Studies_for_the_Libyan_Sibyl_%28recto%29%3B_Studies_for_the_Libyan_Sibyl_and_a_small_Sketch_for_a_Seated_Figure_%28verso%29_MET_DP807402.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Studies_for_the_Libyan_Sibyl_(recto);_Studies_for_the_Libyan_Sibyl_and_a_small_Sketch_for_a_Seated_Figure_(verso)_MET_DP807402.jpg",
+      "title": "Studies for the Libyan Sibyl",
+      "alt_text": "Chalk drawing by Michelangelo: a large, carefully modelled study of a bent leg and torso, with two small quick sketches of a seated figure in the corners.",
+      "author": "Michelangelo Buonarroti",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 3,
-      "selection_rank": 3,
-      "collection": "unit-accepted"
+      "credit_line": "Michelangelo Buonarroti · Wikimedia Commons",
+      "author_death_year": 1564,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC0 dedication by the rights holder (file page). Underlying work: author died 1564.",
+      "rights_status": "ok",
+      "cropped": false
     },
     {
-      "media_slot_id": "U1.still.profield-18",
-      "asset_id": "wikimedia:File:RotaryDemisphereMarcelDuchampManRay.jpg",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/d4f5577b5191fd61.jpg",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/RotaryDemisphereMarcelDuchampManRay.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:RotaryDemisphereMarcelDuchampManRay.jpg",
-      "alt_text": "RotaryDemisphereMarcelDuchampManRay.jpg",
-      "title": "RotaryDemisphereMarcelDuchampManRay.jpg",
+      "media_slot_id": "U1.masterclass-3",
+      "asset_id": "wikimedia:File:GemPaperClipAdvertisementJan1893.png",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/48f50bbc89c22ae9.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/GemPaperClipAdvertisementJan1893.png",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:GemPaperClipAdvertisementJan1893.png",
+      "title": "Gem paper clip advertisement, January 1893",
+      "alt_text": "An 1893 newspaper advertisement for the Gem paper clip: a large line drawing of the double-loop wire clip beside text praising it for holding papers together.",
+      "author": "Unknown advertiser (1893)",
+      "licence": "PD-EU",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 3,
-      "selection_rank": 3,
-      "collection": "unit-accepted"
+      "credit_line": "Unknown advertiser (1893) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "anonymous work published 1893; EU term for anonymous works (70 years from publication) expired",
+      "rights_status": "ok",
+      "cropped": false
     },
     {
-      "media_slot_id": "U1.still.profield-19",
-      "asset_id": "wikimedia:File:Rrose Sélavy (Marcel Duchamp), 1921 photograph by Man Ray.jpg",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/184af2a70e55d004.jpg",
-      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Rrose_S%C3%A9lavy_%28Marcel_Duchamp%29%2C_1921_photograph_by_Man_Ray.jpg",
-      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Rrose_S%C3%A9lavy_(Marcel_Duchamp),_1921_photograph_by_Man_Ray.jpg",
-      "alt_text": "Rrose Sélavy (Marcel Duchamp), 1921 photograph by Man Ray.jpg",
-      "title": "Rrose Sélavy (Marcel Duchamp), 1921 photograph by Man Ray.jpg",
+      "media_slot_id": "U1.masterclass-4",
+      "asset_id": "wikimedia:File:Auguste Rodin - The Thinker - 1917.42 - Cleveland Museum of Art.tif",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/6bf5e63d3bbb1b00.webp",
+      "source_file_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Auguste_Rodin_-_The_Thinker_-_1917.42_-_Cleveland_Museum_of_Art.tif/lossy-page1-1920px-Auguste_Rodin_-_The_Thinker_-_1917.42_-_Cleveland_Museum_of_Art.tif.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Auguste_Rodin_-_The_Thinker_-_1917.42_-_Cleveland_Museum_of_Art.tif",
+      "title": "The Thinker",
+      "alt_text": "Rodin's bronze The Thinker: a seated nude man leans forward, chin resting on his hand, absorbed in thought before acting.",
+      "author": "Auguste Rodin (sculpture); Cleveland Museum of Art (photograph, CC0)",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "provider": "Wikimedia Commons",
-      "credit_line": "Wikimedia Commons",
-      "licence": "",
-      "priority": 3,
-      "selection_rank": 3,
-      "collection": "unit-accepted"
+      "credit_line": "Auguste Rodin (sculpture); Cleveland Museum of Art (photograph, CC0) · Wikimedia Commons",
+      "author_death_year": 1917,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC0 dedication by the rights holder (file page). Underlying work: author died 1917.",
+      "rights_status": "ok",
+      "cropped": false
     },
     {
-      "media_slot_id": "U1.still.profield-20",
-      "asset_id": "nypl:3432d330-a629-0135-2798-05f9b175829f",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/0a359d9b946505e1.php",
-      "source_file_url": "https://images.nypl.org/index.php?id=57378963&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/3432d330-a629-0135-2798-05f9b175829f",
-      "alt_text": "Man dreaming",
-      "title": "Man dreaming",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 999,
-      "selection_rank": 999,
-      "collection": "unit-accepted"
+      "media_slot_id": "U1.masterclass-5",
+      "asset_id": "wikimedia:File:Pocket set of drawing instruments MET DP232308.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/764fabac001fcba4.webp",
+      "source_file_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Pocket_set_of_drawing_instruments_MET_DP232308.jpg/1920px-Pocket_set_of_drawing_instruments_MET_DP232308.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Pocket_set_of_drawing_instruments_MET_DP232308.jpg",
+      "title": "Pocket set of drawing instruments",
+      "alt_text": "An 18th-century pocket set of drawing instruments by Peter Dollond: a ruler, a scale and four brass and steel instruments laid out beside their open shagreen case.",
+      "author": "Peter Dollond (instrument maker); The Metropolitan Museum of Art (photograph, CC0)",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Peter Dollond (instrument maker); The Metropolitan Museum of Art (photograph, CC0) · Wikimedia Commons",
+      "author_death_year": 1820,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC0 dedication by the rights holder (file page). Underlying work: author died 1820.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U1.masterclass-6",
+      "asset_id": "wikimedia:File:Post-It Notes Wall at the Fast Company Innovation Festival (30772875917).jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/80bb26207763d002.webp",
+      "source_file_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Post-It_Notes_Wall_at_the_Fast_Company_Innovation_Festival_%2830772875917%29.jpg/1920px-Post-It_Notes_Wall_at_the_Fast_Company_Innovation_Festival_%2830772875917%29.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Post-It_Notes_Wall_at_the_Fast_Company_Innovation_Festival_(30772875917).jpg",
+      "title": "Post-It Notes Wall at the Fast Company Innovation Festival",
+      "alt_text": "A promotional wall covered in coloured sticky notes in vertical stripes around a screen reading 'Post-it Teamwork Tools', with product baskets on the counter below.",
+      "author": "Nan Palmero",
+      "licence": "CC-BY-2.0",
+      "licence_url": "https://creativecommons.org/licenses/by/2.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Nan Palmero · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "licence CC-BY-2.0 not on the accepted list; CC BY 2.0 is not on the accepted-licence list",
+      "rights_status": "flagged",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U1.lab-1",
+      "asset_id": "wikimedia:File:Marcel Duchamp, 1917, Fountain, photograph by Alfred Stieglitz.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/47983a023a08feec.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Marcel_Duchamp%2C_1917%2C_Fountain%2C_photograph_by_Alfred_Stieglitz.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Marcel_Duchamp,_1917,_Fountain,_photograph_by_Alfred_Stieglitz.jpg",
+      "title": "Fountain",
+      "alt_text": "Alfred Stieglitz's 1917 photograph of Duchamp's Fountain: a white porcelain urinal turned on its back on a plinth, signed 'R. Mutt 1917', with an entry tag hanging from it.",
+      "author": "Alfred Stieglitz (photograph) / Marcel Duchamp (readymade)",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Alfred Stieglitz (photograph) / Marcel Duchamp (readymade) · Wikimedia Commons",
+      "author_death_year": 1968,
+      "eu_term_ok": false,
+      "eu_term_reason": "author death year 1968: EU term runs through 2038; photograph: Stieglitz d. 1946 (EU term expired 2016); depicted readymade: Duchamp d. 1968 (EU term to 2038) — whether a mass-produced urinal carries Duchamp's copyright is doubtful, but the claim cannot be cleared here",
+      "rights_status": "flagged",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U1.lab-2",
+      "asset_id": "wikimedia:File:Theo van Doesburg and Kurt Schwitters, Kleine Dada Soirée (Small Dada Evening), 1922, NGA 154076.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/94083edd814d3e84.webp",
+      "source_file_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Theo_van_Doesburg_and_Kurt_Schwitters%2C_Kleine_Dada_Soir%C3%A9e_%28Small_Dada_Evening%29%2C_1922%2C_NGA_154076.jpg/1920px-Theo_van_Doesburg_and_Kurt_Schwitters%2C_Kleine_Dada_Soir%C3%A9e_%28Small_Dada_Evening%29%2C_1922%2C_NGA_154076.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Theo_van_Doesburg_and_Kurt_Schwitters,_Kleine_Dada_Soir%C3%A9e_(Small_Dada_Evening),_1922,_NGA_154076.jpg",
+      "title": "Kleine Dada Soirée (Small Dada Evening)",
+      "alt_text": "The 1922 Kleine Dada Soirée poster: words in German, Dutch and French, in many sizes, typefaces and directions, jumbled around giant red letters spelling 'DADA'.",
+      "author": "Theo van Doesburg and Kurt Schwitters",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Theo van Doesburg and Kurt Schwitters · Wikimedia Commons",
+      "author_death_year": 1948,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC0 dedication by the rights holder (file page). Underlying work: author died 1948.",
+      "rights_status": "ok",
+      "cropped": false
     }
   ],
   "slides": [
     {
+      "slide_id": "cover",
       "slide_role": "unit_cover",
-      "background_kind": "profield",
-      "media_slot_id": "U1.still.profield-1",
+      "background_kind": "curated",
       "heading": "U1 · Introduction to creativity",
       "sentence": "Creativity is work you can pace: open many options, then choose what fits the brief — not a talent myth.",
       "quote": "Open many doors on Monday; close most of them on Tuesday — that rhythm is the craft, not the mood.",
@@ -342,9 +212,13 @@ layout: null
       "citation": {
         "label": "(Tao of Creativity)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#tao-of-creativity"
-      }
+      },
+      "image_brief": "Leonardo da Vinci, studies of the Virgin and Child with a cat, c. 1478–81: one sheet holds many trial poses before one is chosen, so creativity reads as paced work, not a flash of talent.",
+      "asset_id": "wikimedia:File:Leonardo da Vinci - 1860,0616.98, Two studies of the Virgin and Child with a cat and three studies of the Child with a cat.jpg",
+      "media_slot_id": "U1.cover"
     },
     {
+      "slide_id": "analysis-opener",
       "slide_role": "analysis_opener",
       "background_kind": "geometrical",
       "heading": "Analysis opens the class",
@@ -373,9 +247,9 @@ layout: null
       }
     },
     {
+      "slide_id": "analysis-model",
       "slide_role": "analysis_model",
-      "background_kind": "profield",
-      "media_slot_id": "U1.still.profield-2",
+      "background_kind": "curated",
       "heading": "How to analyse (model)",
       "sentence": "Say what the piece is made of first: language, medium, support. Then ask where meaning travels when someone else sees it.",
       "quote": "Name language, medium, and support before you praise the idea — otherwise you are judging a shadow.",
@@ -399,18 +273,21 @@ layout: null
       "citation": {
         "label": "(Tao of Creativity)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#tao-of-creativity"
-      }
+      },
+      "image_brief": "El Lissitzky, Beat the Whites with the Red Wedge, 1919–20: a poster whose language (geometric signs), medium (political poster) and support (printed sheet) can be named at a glance.",
+      "asset_id": "wikimedia:File:Beat the Whites with the Red Wedge.jpg",
+      "media_slot_id": "U1.analysis-model"
     },
     {
+      "slide_id": "masterclass-1",
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "U1.still.profield-3",
+      "background_kind": "curated",
       "heading": "1 · Open, then close",
       "sentence": "First invent many possibilities. Then pick what fits the needs of the brief — one creative act can hold both moves.",
       "quote": "The same creative act may involve both divergent and convergent thinking.",
       "citation": {
-        "label": "(Craft 2003, 43)",
-        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#ref-craft-2003"
+        "label": "(Craft 2000, 30)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#ref-craft-2000"
       },
       "quote_origin": "page_verified",
       "semantic_tags": {
@@ -428,18 +305,28 @@ layout: null
           "dcterms:type=Text",
           "dcterms:subject=divergent-convergent"
         ]
-      }
+      },
+      "image_brief": "Michelangelo, a sheet of studies connected with the Libyan Sibyl, c. 1510–11: a large worked-up leg study beside two small trial sketches of a seated figure — options opened quickly, one carried through in detail.",
+      "asset_id": "wikimedia:File:Studies for the Libyan Sibyl (recto); Studies for the Libyan Sibyl and a small Sketch for a Seated Figure (verso) MET DP807402.jpg",
+      "media_slot_id": "U1.masterclass-1",
+      "notes": "- First we open: invent many options. That is divergent thinking.\n- Then we close: pick what fits the needs of the brief. That is convergent thinking.\n- One creative job often needs both moves.\nSource: the quote and the open/close distinction (divergent; convergent = possibilities that fit a set of needs) are (Craft 2000, 30). Other bullets are course wording.\nAsk: Think of your last project. Where did you open, and where did you close?",
+      "claims": [
+        {
+          "text": "The same creative act may involve both divergent and convergent thinking.",
+          "cite": "Craft 2000, 30"
+        }
+      ]
     },
     {
+      "slide_id": "masterclass-2",
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "U1.still.profield-4",
-      "heading": "2 · Four skills you can train",
-      "sentence": "Fluency (many ideas), flexibility (many angles), originality (unusual links), elaboration (work the details) — all trainable.",
+      "background_kind": "diagram",
+      "heading": "2 · Four skills tests measure",
+      "sentence": "Fluency (many ideas), flexibility (many angles), originality (ideas few other people have), elaboration (work the details). Many workshops try to raise these scores.",
       "quote": "Fluency - the ability to produce a large number of ideas or solutions to a problem rapidly.",
       "citation": {
-        "label": "(Chen 2012, 41)",
-        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#ref-chen-2012"
+        "label": "(Chen 2011, 26)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#ref-chen-2011"
       },
       "quote_origin": "page_verified",
       "semantic_tags": {
@@ -457,18 +344,26 @@ layout: null
           "dcterms:type=Text",
           "dcterms:subject=fluency"
         ]
-      }
+      },
+      "image_brief": "Katsushika Hokusai, a page of the Hokusai Manga sketchbooks (from 1814): many quick, varied figures on one page — fluency (many ideas), flexibility (many kinds) and elaboration made visible.",
+      "notes": "- Guilford's four abilities, as summarised by Chen, give us shared words: fluency (many ideas quickly), flexibility (several approaches to a problem at once), originality (ideas few other people produce), elaboration (work the details).\n- Many workshops try to raise these scores.\n- A higher score is not the same as a better idea in a real brief. That is the next slide.\nSource: the four abilities and the Fluency quote are (Chen 2011, 26); fluency, flexibility, originality as what \"most workshops try to enhance\" is (Csikszentmihalyi 1996, chap. 3). Other bullets are course wording.\nAsk: Which of the four skills do you use most? Which one do you avoid?",
+      "claims": [
+        {
+          "text": "the ability of divergent thinking with a paper clip may tell us little about an individual's talent in music.",
+          "cite": "Chen 2011, 26"
+        }
+      ]
     },
     {
+      "slide_id": "masterclass-3",
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "U1.still.profield-5",
+      "background_kind": "curated",
       "heading": "3 · Tests are not the whole story",
       "sentence": "Scoring well on “uses of a brick” does not prove you are strong in another field — tests need context.",
       "quote": "After all, the ability of divergent thinking with a paper clip may tell us little about an individual's talent in music.",
       "citation": {
-        "label": "(Chen 2012, 41)",
-        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#ref-chen-2012"
+        "label": "(Chen 2011, 26)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#ref-chen-2011"
       },
       "quote_origin": "page_verified",
       "semantic_tags": {
@@ -486,12 +381,22 @@ layout: null
           "dcterms:type=Text",
           "dcterms:subject=testing-limits"
         ]
-      }
+      },
+      "image_brief": "The Gem paper clip (1890s): the everyday object of the 'unusual uses' test, a reminder that a high score on such a toy task says little about talent in another field.",
+      "asset_id": "wikimedia:File:GemPaperClipAdvertisementJan1893.png",
+      "media_slot_id": "U1.masterclass-3",
+      "notes": "- Scoring high on \"how many uses for a brick or a paper clip\" is not the same as judgement inside a real brief.\n- A test in one field may tell us little about talent in another, such as music.\nSource: the paper-clip/music quote is (Chen 2011, 26). Other bullets are course wording.\nAsk: What would a test of design judgement need to include?",
+      "claims": [
+        {
+          "text": "the ability of divergent thinking with a paper clip may tell us little about an individual's talent in music.",
+          "cite": "Chen 2011, 26"
+        }
+      ]
     },
     {
+      "slide_id": "masterclass-4",
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "U1.still.profield-6",
+      "background_kind": "curated",
       "heading": "4 · Name the problem first",
       "sentence": "Before you grab a creativity technique, say what is unclear in the brief — name the problem, then pick the tool.",
       "quote": "Before you pick a method, write the question the brief still refuses to answer.",
@@ -514,12 +419,34 @@ layout: null
       "citation": {
         "label": "(Tao of Creativity)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#tao-of-creativity"
-      }
+      },
+      "image_brief": "Auguste Rodin, The Thinker (modelled 1880–81): a figure halted in thought before any tool is picked up, to picture framing the unclear problem before choosing a technique.",
+      "asset_id": "wikimedia:File:Auguste Rodin - The Thinker - 1917.42 - Cleveland Museum of Art.tif",
+      "media_slot_id": "U1.masterclass-4",
+      "notes": "- Before you pick a creativity technique, say what is fuzzy in the brief.\n- Tools help after the problem is framed.\n- Problems are not given; they are built from an unclear situation, and how you state one already points to an answer.\nSource: the slide quote is a Tao of Creativity line; the lesson cites (Schön 1983, 40), (Buchanan 1992, 16) and (Csikszentmihalyi 1996, chap. 4) for the third bullet: problems are constructed from uncertain situations (Schön), every formulation of a wicked problem corresponds to a formulation of a solution (Buchanan), presented vs discovered problems (Csikszentmihalyi). Other bullets are course wording.\nAsk: What question does your current brief still refuse to answer?",
+      "claims": [
+        {
+          "text": "In real-world practice, problems do not present themselves to the practitioner as givens. They must be constructed from the materials of problematic situations which are puzzling, troubling, and uncertain.",
+          "cite": "Schön 1983, 40"
+        },
+        {
+          "text": "Wicked problems have no definitive formulation, but every formulation of a wicked problem corresponds to the formulation of a solution.",
+          "cite": "Buchanan 1992, 16"
+        },
+        {
+          "text": "The creative process has traditionally been described as taking five steps.",
+          "cite": "Csikszentmihalyi 1996, chap. 4"
+        },
+        {
+          "text": "Presented problems usually take a much shorter time to prepare for and to solve than discovered problems.",
+          "cite": "Csikszentmihalyi 1996, chap. 4"
+        }
+      ]
     },
     {
+      "slide_id": "masterclass-5",
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "U1.still.profield-7",
+      "background_kind": "curated",
       "heading": "5 · Techniques are tools, not scripts",
       "sentence": "A method helps you talk with the situation. It does not replace your judgement or the brief.",
       "quote": "A technique is a lever, not a verdict — it moves the work; it does not replace your judgement.",
@@ -543,12 +470,22 @@ layout: null
       "citation": {
         "label": "(Tao of Creativity)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#tao-of-creativity"
-      }
+      },
+      "image_brief": "A pocket set of drawing instruments by Peter Dollond, London, c. 1755: tools that extend the hand but do not decide the line — a technique serves judgement, it does not replace it.",
+      "asset_id": "wikimedia:File:Pocket set of drawing instruments MET DP232308.jpg",
+      "media_slot_id": "U1.masterclass-5",
+      "notes": "- A method helps you talk with the situation.\n- It does not replace your judgement.\n- Reflecting while you act means you are not bound by established technique.\nSource: the slide quote is a Tao of Creativity line; the third bullet is (Schön 1983, 68): in reflection-in-action the practitioner \"is not dependent on the categories of established theory and technique\". Other bullets are course wording.\nAsk: When did a method push you to a choice you would not defend?",
+      "claims": [
+        {
+          "text": "When someone reflects-in-action, he becomes a researcher in the practice context. He is not dependent on the categories of established theory and technique, but constructs a new theory of the unique case.",
+          "cite": "Schön 1983, 68"
+        }
+      ]
     },
     {
+      "slide_id": "masterclass-6",
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "U1.still.profield-8",
+      "background_kind": "curated",
       "heading": "6 · “Design thinking” is debated",
       "sentence": "Use useful tools — and ask when buzzwords hide weak craft or skip the hard part.",
       "quote": "When the buzzword arrives, ask what craft it is hiding — slogans are often empty handles.",
@@ -572,9 +509,53 @@ layout: null
       "citation": {
         "label": "(Tao of Creativity)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#tao-of-creativity"
-      }
+      },
+      "image_brief": "A Post-it 'Teamwork Tools' display wall at a 2018 innovation festival: the sticky-note wall sold as a method, shown so students ask what craft the look of 'design thinking' may hide.",
+      "asset_id": "wikimedia:File:Post-It Notes Wall at the Fast Company Innovation Festival (30772875917).jpg",
+      "media_slot_id": "U1.masterclass-6",
+      "notes": "- Use tools that help.\n- Also ask when managerial buzzwords empty out craft.\n- Offered for debate, not as settled fact: critics argue the claims for design thinking are overstated.\nSource: the slide quote is a Tao of Creativity line; the third bullet is (Kimbell 2011, 285): \"several issues that undermine the claims made for design thinking\". Other bullets are course wording.\nAsk: Name one design buzzword. What craft might it hide?",
+      "claims": [
+        {
+          "text": "The paper argues there are several issues that undermine the claims made for design thinking.",
+          "cite": "Kimbell 2011, 285"
+        }
+      ]
     },
     {
+      "slide_id": "retrieval",
+      "slide_role": "retrieval",
+      "background_kind": "geometrical",
+      "heading": "Recall check",
+      "sentence": "Alone, from memory, 3 minutes. Then compare with a partner.",
+      "questions": [
+        "Most definitions of creativity ask for which two things?",
+        "Name the three parts of Csikszentmihalyi's system.",
+        "Name the four skills that creativity tests measure.",
+        "What does Chen warn about a high alternative-uses score?",
+        "For Schön, where do problems in practice come from?"
+      ],
+      "notes": "- Timer: 3 minutes. Students answer alone, from memory, on paper; no notes, no slides.\n- Then 2 minutes in pairs: compare answers, then check the lesson.\n- Practice only: nothing is collected or graded. Five more questions with answers are on the unit's practice quiz page.\nAnswers:\n- 1. Something new and something that matters: novelty plus value or meaningfulness (Beghetto and Karwowski 2025, 3).\n- 2. Domain, field and person (Csikszentmihalyi 1996, chap. 2).\n- 3. Fluency, flexibility, originality, elaboration (Chen 2011, 26).\n- 4. Divergent thinking with a paper clip may tell us little about talent in another field, such as music (Chen 2011, 26).\n- 5. Not as givens: they are constructed from situations that are puzzling, troubling and uncertain (Schön 1983, 40).\nAsk: Which answer could you not recall? Re-read that idea before the Lab.",
+      "claims": [
+        {
+          "text": "the 'creative' aspect addresses both novelty and meaningfulness, aligning with standard definitions of creativity (Plucker et al., 2004; Runco & Jaeger, 2012)",
+          "cite": "Beghetto and Karwowski 2025, 3"
+        },
+        {
+          "text": "an insight that occurs inside the heads of some special people. But this short assumption is misleading.",
+          "cite": "Csikszentmihalyi 1996, chap. 2"
+        },
+        {
+          "text": "the ability of divergent thinking with a paper clip may tell us little about an individual's talent in music.",
+          "cite": "Chen 2011, 26"
+        },
+        {
+          "text": "In real-world practice, problems do not present themselves to the practitioner as givens. They must be constructed from the materials of problematic situations which are puzzling, troubling, and uncertain.",
+          "cite": "Schön 1983, 40"
+        }
+      ]
+    },
+    {
+      "slide_id": "lab-opener",
       "slide_role": "lab_opener",
       "background_kind": "geometrical",
       "heading": "Lab · Portfolio",
@@ -605,103 +586,59 @@ layout: null
       }
     },
     {
+      "slide_id": "lab-1",
       "slide_role": "lab_exercise",
-      "background_kind": "profield",
-      "media_slot_id": "U1.still.profield-9",
-      "heading": "Exercise 1 · Research Marcel Duchamp",
-      "sentence": "Find three facts about Duchamp that connect to this unit: readymades, play with identity, or how meaning shifts when context changes.",
+      "background_kind": "curated",
+      "heading": "Exercise 1 · Alternative uses, scored on four skills",
+      "sentence": "List as many uses for one everyday object as you can in 3 minutes, alone and in silence. Then score your list: how many uses, how many kinds, rare uses, detail.",
+      "prompt": "Practises Masterclass 2–3: the four skills, and why a score is not the whole designer.",
       "portfolio_bound": true,
-      "portfolio_trace": "Save three bullet points with sources in the portfolio index.",
-      "quote": "A readymade is not laziness — it is a question dressed as an object.",
-      "quote_origin": "tao_invented",
-      "semantic_tags": {
-        "themes": [
-          "duchamp",
-          "readymade"
-        ],
-        "cidoc": [
-          "crm:E33_Linguistic_Object"
-        ],
-        "getty_aat": [
-          "aphorisms"
-        ],
-        "dcterms": [
-          "dcterms:type=Text",
-          "dcterms:subject=duchamp"
-        ]
-      },
-      "citation": {
-        "label": "(Tao of Creativity)",
-        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#tao-of-creativity"
-      }
+      "portfolio_trace": "Save your list, the four scores and one sentence on your least obvious use.",
+      "technique_id": "alternative-uses-task",
+      "practises": [
+        "masterclass-2",
+        "masterclass-3"
+      ],
+      "timer_seconds": 180,
+      "image_brief": "Marcel Duchamp, Fountain, 1917, in Alfred Stieglitz's photograph: a factory-made everyday object given a use nobody expected for it — the jump the alternative-uses list asks you to make.",
+      "asset_id": "wikimedia:File:Marcel Duchamp, 1917, Fountain, photograph by Alfred Stieglitz.jpg",
+      "media_slot_id": "U1.lab-1",
+      "notes": "- Timer: 3 minutes of silent listing (the slide timer). Whole exercise about 15 minutes.\n- Show one everyday object or a photo (a brick, a paper clip, a shoe). Everyone lists uses alone and in silence.\n- Fluency: count the uses. Flexibility: group them into kinds and count the kinds.\n- Originality: post every list on a shared board, or compare lists within table groups of 5–6; mark each use nobody else wrote. Reading every list aloud does not fit the time.\n- Elaboration: pick one marked use and add three concrete details.\n- Close: which shift between kinds gave your least obvious use? Treat the numbers as practice, not a talent verdict.\nSource: tests like Alternate Uses ask for as many uses of a common object as possible, and the four abilities (fluency, flexibility, originality, elaboration) are as reported in (Chen 2011, 26); the caution that such scores may say little about talent in a specific field is the same page. The steps and the shared-board scoring are course wording.\nAsk: Was your rarest use also your best one?",
+      "claims": [
+        {
+          "text": "the ability of divergent thinking with a paper clip may tell us little about an individual's talent in music.",
+          "cite": "Chen 2011, 26"
+        }
+      ]
     },
     {
+      "slide_id": "lab-2",
       "slide_role": "lab_exercise",
-      "background_kind": "profield",
-      "media_slot_id": "U1.still.profield-10",
-      "heading": "Exercise 2 · Research the Dada movement",
-      "sentence": "What did Dada question about art, authorship, and institutions? Link at least one Dada tactic to a creativity technique you might use in studio.",
+      "background_kind": "curated",
+      "heading": "Exercise 2 · Cut-up and readymade: open, then close",
+      "sentence": "Cut a real brief into words and draw them from an envelope. Then give an ordinary object a new title or place without changing it. Mark which moves opened options and which closed them.",
+      "prompt": "Practises Masterclass 1 (open, then close) and the language / medium / support analysis.",
       "portfolio_bound": true,
-      "portfolio_trace": "Save a short paragraph plus one studio link in the portfolio index.",
-      "quote": "Dada asked who gets to call something art — your answer is part of the exercise.",
-      "quote_origin": "tao_invented",
-      "semantic_tags": {
-        "themes": [
-          "dada",
-          "authorship"
-        ],
-        "cidoc": [
-          "crm:E33_Linguistic_Object"
-        ],
-        "getty_aat": [
-          "aphorisms"
-        ],
-        "dcterms": [
-          "dcterms:type=Text",
-          "dcterms:subject=dada"
-        ]
-      },
-      "citation": {
-        "label": "(Tao of Creativity)",
-        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#tao-of-creativity"
-      }
+      "portfolio_trace": "Save the cut-up page, the readymade title and label, and your list of opening and closing moves.",
+      "technique_id": "tzara-cut-up",
+      "technique_ids_also": [
+        "readymade-recontextualisation"
+      ],
+      "practises": [
+        "masterclass-1"
+      ],
+      "timer_seconds": 1500,
+      "image_brief": "Theo van Doesburg and Kurt Schwitters, Kleine Dada Soirée poster, 1922: printed words and letters scrambled and re-placed on the page, the kind of chance arrangement the cut-up step produces from a brief.",
+      "asset_id": "wikimedia:File:Theo van Doesburg and Kurt Schwitters, Kleine Dada Soirée (Small Dada Evening), 1922, NGA 154076.jpg",
+      "media_slot_id": "U1.lab-2",
+      "notes": "- Timer: 25 minutes — about 12 for the cut-up, 8 for the readymade, 5 for naming the moves. Pairs.\n- Cut-up: cut the brief text into single words or short phrases; draw them one at a time; copy them in the order drawn; underline any phrase that suggests an idea and write the idea.\n- Readymade: do not change the object; change only its title, place or position. Write a title and a one-line label; show it to another pair and ask what they now see.\n- Analysis: did the change work through the language (title, label), the medium (where it is shown) or the support (the object)?\n- Name the moves: opening (cutting, drawing, re-placing) or closing (underlining, choosing a title).\n- A digital word shuffle can replace scissors.\nSource: classroom adaptation in course wording; no reading-list source is cited for these two procedures yet.\nAsk: Which single change did the most work, and was it an opening or a closing move?"
     },
     {
-      "slide_role": "lab_exercise",
-      "background_kind": "profield",
-      "media_slot_id": "U1.still.profield-11",
-      "heading": "Exercise 3 · Explore the course directory",
-      "sentence": "Browse the Directory. Pick two entries where you could see yourself after your studies — prize, studio, journal, figure, or organisation.",
-      "portfolio_bound": true,
-      "portfolio_trace": "Save two directory entries (with links) and two sentences on your path.",
-      "quote": "Pick two doors in the directory that you could walk through after your studies — then say why.",
-      "quote_origin": "tao_invented",
-      "semantic_tags": {
-        "themes": [
-          "career",
-          "directory"
-        ],
-        "cidoc": [
-          "crm:E33_Linguistic_Object"
-        ],
-        "getty_aat": [
-          "aphorisms"
-        ],
-        "dcterms": [
-          "dcterms:type=Text",
-          "dcterms:subject=career"
-        ]
-      },
-      "citation": {
-        "label": "(Tao of Creativity)",
-        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#tao-of-creativity"
-      }
-    },
-    {
+      "slide_id": "outro",
       "slide_role": "outro",
       "background_kind": "geometrical",
       "heading": "Carry forward",
-      "sentence": "No Workshop in first lessons — Lab ends the session. D1 Analysis is next and has no Workshop clock. From session 4: Workshop splits half Transposition, half final event.",
+      "sentence": "No Workshop in first lessons — Lab ends the session. On your own this week: explore the course Directory (see the lesson). D1 Analysis is next and has no Workshop clock. From session 4: Workshop splits half Transposition, half final event.",
       "quote": "Carry one question into next week: what is creativity for you — and what would change your answer?",
       "quote_origin": "tao_invented",
       "semantic_tags": {

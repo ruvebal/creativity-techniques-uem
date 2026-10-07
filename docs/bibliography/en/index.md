@@ -8,7 +8,7 @@ description: 'Core and recommended references for Creativity Techniques (Chicago
 
 # Bibliography
 
-References for **Creativity Techniques** (Bachelor's Degree in Design · Year 3). Student-facing cites use Chicago author-date. Lists below follow the official guía clone; English titles are preferred when a standard English edition exists.
+References for **Creativity Techniques** (Bachelor's Degree in Design · Year 3). Student-facing cites use Chicago author-date. Lists below follow the official course guide; English titles are preferred when a standard English edition exists.
 
 ## Core
 

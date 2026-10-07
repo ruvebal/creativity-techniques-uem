@@ -35,6 +35,10 @@ to `ruvebal.github.io/web-atelier-udit/…`, and the raw `/_data/` folder;
    master lecture): delete it or replace with a redirect; unify `project_id`
    to `tc` in remaining decks
 
+(Amendment A2/F5: firewall-only edits are allowed in U4–U6 rendered text; the gate scans the whole site; add `forge` and `Forge date` patterns to the safety script.)
+
+(Amendment A3/F9: also remove the internal guía id `9990002301` from rendered student pages and add it to the safety-script patterns.)
+
 ## Scope
 
 **In:** the files above. **Out:** content corrections (EX1), images (EX3–EX4).

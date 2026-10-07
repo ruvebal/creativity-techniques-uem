@@ -23,7 +23,7 @@ absent "no reference to old guía JSON name" "9990002301-unicrawler-2026-27" AGE
 python3 - "$DECKS" <<'PY' && pass "decks: tao labels + lab counts" || fail "decks: tao labels + lab counts"
 import json, pathlib, re, sys
 bad = []
-for p in pathlib.Path(sys.argv[1]).glob("u-*/data/content.json"):
+for p in pathlib.Path(sys.argv[1]).glob("u-[123]-*/data/content.json"):
     d = json.loads(re.sub(r"^---[\s\S]*?---\s*", "", p.read_text()))
     labs = [s for s in d["slides"] if s.get("slide_role") == "lab_exercise"]
     if len(labs) != 2: bad.append(f"{p}: {len(labs)} lab_exercise")
@@ -34,18 +34,18 @@ for p in pathlib.Path(sys.argv[1]).glob("u-*/data/content.json"):
 print("\n".join(bad)); sys.exit(1 if bad else 0)
 PY
 
-absent "Lehrer removed" "Lehrer" "$LESSONS"
-absent "de Bono 1981 removed" "de Bono, Edward\. 1981|debono-1981" "$LESSONS"
-absent "twenty suns fixed" "fluency thirty" "$DECKS"
-absent "Tao of Development openers removed" "Tao of Development" docs/lessons
+absent "Lehrer removed" "Lehrer" "${SCOPED_LESSONS[@]}"
+absent "de Bono 1981 removed" "de Bono, Edward\. 1981|debono-1981" "${SCOPED_LESSONS[@]}"
+absent "twenty suns fixed" "fluency thirty" "${SCOPED_DECKS[@]}"
+absent "Tao of Development openers removed" "Tao of Development" "${SCOPED_LESSONS[@]}"
 present "Six Hats names green hat" "green" "$LESSONS/u-2-idea-generation-selection/index.md"
 present "Six Hats names blue hat" "blue" "$LESSONS/u-2-idea-generation-selection/index.md"
 present "Eckersall co-authors" "Grehan, and Scheer" docs/lessons/en/master-lectures/creative-process-analysis/index.md
 
-python3 - docs/lessons <<'PY' && pass "every listed reference is cited" || fail "every listed reference is cited"
+python3 - "${SCOPED_LESSONS[@]}" <<'PY' && pass "every listed reference is cited" || fail "every listed reference is cited"
 import pathlib, re, sys
 bad = []
-for p in pathlib.Path(sys.argv[1]).rglob("index.md"):
+for p in [f for d in sys.argv[1:] for f in pathlib.Path(d).rglob("index.md")]:
     t = p.read_text()
     for rid in set(re.findall(r'id="(ref-[\w-]+)"', t)):
         if t.count(f"#{rid}") == 0: bad.append(f"{p}: {rid}")

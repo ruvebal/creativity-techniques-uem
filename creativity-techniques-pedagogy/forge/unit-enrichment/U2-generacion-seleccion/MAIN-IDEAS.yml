@@ -22,7 +22,7 @@ ideas:
     sentence: Hats and prompt cards change the social and cognitive frame of the session.
     quote: "Any tool should be useful in the expected way, but a truly great tool lends itself to uses you never expected."
     quote_origin: page_verified
-    chicago: "(Raymond 2001, 57)"
+    chicago: "(Raymond 2001, 44)"  # EX6: printed folio; was PDF page
   - id: 5
     heading: Name selection criteria
     sentence: Convergent choice needs explicit novelty and fitness-to-brief tests.

@@ -13,7 +13,7 @@ alwaysApply: false
 | Course | Path | Upstream | PDF (authority) |
 | ------ | ---- | -------- | --- |
 | **Técnicas de Creatividad** | [`cv/guides/guia-tecnicas-de-creatividad-diseno-2025-26.json`](./cv/guides/guia-tecnicas-de-creatividad-diseno-2025-26.json) | profield field clone (Grado en **Diseño**, 2025-26) | `26-27/guias_docentes/9990002301.pdf` *(to be ingested)* |
-| **Comparison scrape** | [`cv/guides/9990002301-unicrawler.json`](./cv/guides/9990002301-unicrawler.json) | unicrawler 2026-27 | same PDF family — **may be Videojuegos variant**; do not treat as Diseño contract without reconcile |
+| **Comparison scrape** | [`cv/guides/guia-tecnicas-de-creatividad-videojuegos-2026-27.json`](../guides/guia-tecnicas-de-creatividad-videojuegos-2026-27.json) | unicrawler 2026-27 | **Videojuegos** guía (PDF `9822001301`, 70/30) — a different degree; never the Diseño contract |
 
 **Re-sync:** after PDF ingest, patch JSON and update this framework. Prefer PDF if JSON and PDF disagree.
 

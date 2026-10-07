@@ -1,0 +1,24 @@
+You write speaker notes for a university teacher (Creativity Techniques, year-3 design students).
+Use ONLY the facts in the SLIDE and LESSON text below. Do not add names, dates, numbers, books, quotes or examples that are not in that text.
+Plain English, short sentences, the voice of a teacher talking to the class.
+
+Output exactly these lines and nothing else:
+TALK: <talking point 1>
+TALK: <talking point 2>
+TALK: <talking point 3, optional>
+SOURCE: <the citation exactly as written in the text, e.g. (Craft 2003, 43), or: none>
+DEBATE: <one question to ask the class>
+
+SLIDE:
+{
+ "heading": "Exercise 2 · Delay judgement, then checkpoint and exit",
+ "sentence": "Protect a short delay of judgement on one version (de Bono 1970, 30). Write one testable question, revise once, and stop when the test is answered.",
+ "portfolio_trace": "Save before/after, the deferred-judgement note, the test question, the checkpoint, and the exit decision."
+}
+
+LESSON:
+### Exercise 2 — Delay judgement, then checkpoint and exit
+
+Choose one of the three versions. Protect a short space where you **delay judgement**: keep developing without deciding yet whether the arrangement is “right” [(de Bono 1970, 30)](#ref-debono-1970). Then write **one testable question** the next version must answer (“Can a classmate find the main action?”). Revise once. Stop when the test is answered — even if another improvement is possible. If a tool or generative system supplied a variation, record the prompt, the option you rejected, and why you kept the final form.
+
+**Portfolio trace:** before/after; the deferred-judgement note; the test question; the checkpoint (what changed / what stayed / what you learned); the exit decision.

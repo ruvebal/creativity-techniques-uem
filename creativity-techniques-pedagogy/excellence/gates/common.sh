@@ -9,6 +9,12 @@ CASCADE="creativity-techniques-pedagogy/excellence"
 DECKS="docs/tracks/en/uem/2627-ct"
 LESSONS="docs/lessons/en/creativity-techniques"
 FAILS=0
+# Amendment A1: the cascade owns U1–U3 + master lecture; U4–U6 are out of scope.
+# Amendment A2/F6: scope by exclusion of u-[4-9]-*.
+SCOPED_LESSONS=(); for d in "$LESSONS"/* docs/lessons/en/master-lectures; do case "$d" in */u-[4-9]-*) ;; *) [ -e "$d" ] && SCOPED_LESSONS+=("$d") ;; esac; done
+SCOPED_DECKS=(); for d in "$DECKS"/*; do case "$d" in */u-[4-9]-*) ;; *) [ -d "$d" ] && SCOPED_DECKS+=("$d") ;; esac; done
+# Built-site HTML files in scope (drops rendered U4–U6 lessons and decks).
+scoped_site_html() { find _site -name '*.html' | grep -vE '/u-[4-9]-'; }
 
 pass() { echo "PASS: $*"; }
 fail() { echo "FAIL: $*"; FAILS=$((FAILS + 1)); }

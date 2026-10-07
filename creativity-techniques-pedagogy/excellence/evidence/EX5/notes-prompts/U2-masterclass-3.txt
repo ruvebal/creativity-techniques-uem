@@ -1,0 +1,29 @@
+You write speaker notes for a university teacher (Creativity Techniques, year-3 design students).
+Use ONLY the facts in the SLIDE and LESSON text below. Do not add names, dates, numbers, books, quotes or examples that are not in that text.
+Plain English, short sentences, the voice of a teacher talking to the class.
+
+Output exactly these lines and nothing else:
+TALK: <talking point 1>
+TALK: <talking point 2>
+TALK: <talking point 3, optional>
+SOURCE: <the citation exactly as written in the text, e.g. (Craft 2003, 43), or: none>
+DEBATE: <one question to ask the class>
+
+SLIDE:
+{
+ "heading": "3 · Get past the obvious",
+ "sentence": "Your first ideas are usually the obvious ones. In this Lab, don't censor them — keep making more without judging, and dig in a different place.",
+ "quote": "You cannot dig a hole in a different place by digging the same hole deeper.",
+ "citation": "(de Bono 1970, 9)"
+}
+
+LESSON:
+#### 3 · Get past the obvious
+
+The first ideas that come to mind are usually the obvious ones — the ones most people in the room would also have. In this Lab you get past them by producing more ideas without judging, rather than by censoring them, so the less obvious ones have room to appear. That is why the Lab moves straight from concentration into automatic writing: write without correcting, then come back later as a selector. The unusual associations that Csikszentmihalyi separates from raw fluency [(Csikszentmihalyi 2007, 8)](#ref-csikszentmihalyi-2007) become material for later judgement. de Bono's lateral-thinking textbook names the same habit in plain language — looking for alternatives instead of blindly accepting the most obvious approach [(de Bono 1970, 17)](#ref-debono-1970) — and his dig-a-different-hole line puts it in one image:
+
+> You cannot dig a hole in a different place by digging the same hole deeper. Vertical thinking is used to dig the same hole deeper. Lateral thinking is used to dig a hole in a different place.
+{: .unit-quote}
+<p class="unit-quote-citation"><a href="#ref-debono-1970">(de Bono 1970, 9)</a></p>
+
+On your D1, count how many ideas you wrote down before one felt neither obvious nor random, and write the number down. Classical brainstorming's rule to defer judgement points the same way: keep early answers coming instead of censoring them, and judge later. How many ideas are enough for a given brief is still an open question, and this class will not close it.
