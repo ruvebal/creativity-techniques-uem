@@ -1,8 +1,8 @@
 {
   "_meta": {
     "probe_version": 2,
-    "commit": "4c3acdb528dd15974daf614d688a9d79f24c6f2b",
-    "generated_at": "2026-10-07T04:52:17.113Z",
+    "commit": "04d2203cfb7dfcd2d25529ae3cd9d79e4d3f9dbd",
+    "generated_at": "2026-10-07T04:58:07.015Z",
     "oversize_threshold_bytes": 614400
   },
   "public_weights": [

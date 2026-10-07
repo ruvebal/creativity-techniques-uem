@@ -1,6 +1,7 @@
 # PHASE-EX11 REPORT — Closing audit against the EX0 baseline
 
-**Status:** VERIFYING  
+**Status:** VERIFYING (round 2 — A14 `group_size` fixed after round-1 cold review FAIL)  
+
 **Branch:** `cascade/excellence-11`  
 **Worktree:** `creativity-techniques-uem-integration-excellence-11` (`.cascade-lane` = excellence)  
 **Date:** 2026-10-07  

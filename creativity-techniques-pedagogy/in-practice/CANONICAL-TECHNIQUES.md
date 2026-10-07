@@ -232,7 +232,7 @@ Each lesson (U1.1 … U6.2) picks two Lab techniques from its unit, recommended 
 `alternative-uses-task` · generation · divergent · units U1, U2
 
 - **Source:** chen-2011 — p. 26 (unusual-uses / brick test reported with Guilford's abilities) (verified)
-- **Time:** 15 min · **Group:** individual, class pooling · **Materials:** object or image, paper, timer
+- **Time:** 15 min · **Group:** individual, then shared board or table groups of 5–6 · **Materials:** object or image, paper, timer
 - **Evidence:** Chen 2011, 26 cautions that AUT scores may say little about talent in a specific domain; use as practice, not a talent measure.
 - **Accessibility:** Oral or typed lists accepted; image prompt can replace a physical object.
 - **Catalogue records:** 0 (none: finding for the IP cascade)
