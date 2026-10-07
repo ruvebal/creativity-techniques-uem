@@ -9,7 +9,7 @@
 | **round-2 fix commit** | `f94d88f` (`git diff 5206c85..f94d88f` — 18 files, bank/protocol/consent/decks/quizzes/cards/tests) |
 | **prior review** | `PHASE-EX10-COLD-REVIEW-round1.md` (FAIL, blocking F1–F5) |
 | **implementer claim** | Round 2 closes F1–F5; exit gate 0 failures; tests green |
-| **verdict** | **PASS** |
+| **verdict** | PASS |
 
 Round-1 blockers F1–F5 are closed with runnable evidence. One non-blocking carryover (AUT method card “class pool” wording, round-1 F9) remains for EX11.
 
