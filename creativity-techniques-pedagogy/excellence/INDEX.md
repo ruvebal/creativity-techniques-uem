@@ -6,9 +6,11 @@ Author: Rubén Vega Balbás, PhD · 2026-10-04
 
 # Creativity Techniques — Excellence cascade (EX0–EX11)
 
-**Status:** ACTIVE cascade (EX0–EX11). This is **not** the `in-practice/`
-exercise-collection cascade (IP0–IP5) and does **not** forge U4–U6; it builds
-the contract, image, research, Lab and didactic layers those units will reuse.
+**Status:** COMPLETE (EX0–EX11 landed on `excellence/integration`; tag
+`excellence/ex11`). Awaiting professor final review and release merge to
+`main`. This is **not** the `in-practice/` exercise-collection cascade
+(IP0–IP5) and does **not** forge U4–U6; it builds the contract, image,
+research, Lab and didactic layers those units will reuse.
 **Author:** Rubén Vega Balbás, PhD · 2026-10-04
 **Readers:** the professor (gates and sign-offs); implementing and
 cold-review agents (orchestrator, then one phase file at a time).

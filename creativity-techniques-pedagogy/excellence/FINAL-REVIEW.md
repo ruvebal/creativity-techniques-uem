@@ -14,22 +14,23 @@ Built during the autopilot run; read this once at the end (AUTOPILOT.md §5).
 
 ## 1 · Run outcome
 
+Cascade **COMPLETE** on `excellence/integration` tip `567a2f2` (tag `excellence/ex11`). `main` untouched until you release.
+
 | Phase | Status | Tag | Notes |
 | --- | --- | --- | --- |
 | EX0 | DONE | `excellence/ex0` | Probe + baseline + provisional weights; cold review PASS (11 findings, 0 blocking) |
-| EX8 | VERIFYING | — | Lab redesign: six Lab cards U1–U3 (target Labs), catalogue corrected per A11 first; sign-off by autopilot, **your approval pending** (§3 EX8) |
-| EX10 | VERIFYING | — | Didactics layer: private 68-item question bank (41% higher order, guía RA codes), 3 public practice quizzes, one recall slide per U1–U3 deck, 40 printable method cards, peer rating sheet; protocol + ES/EN consent **drafts only — measurement not started** (§3 EX10) |
-| EX9 | VERIFYING | — | Lesson structure U1–U3 (+ ML headings): same 7 sections, ideas ≤ 220 words with Try it, 2 illustrative example traces per lesson, deck images with deck captions, Tao sections; A12 F1–F9, A10, A5, A9 template; citations/provenance unchanged (§3 EX9) |
-| EX9 | DONE | `excellence/ex9` | Lesson structure (claim → evidence → In practice → Try it), 7 illustrative traces, 22 lesson figures, Tao anchors, 12-lesson template; 0 citations lost; review PASS (10 P2) |
-| EX8 | DONE | `excellence/ex8` | Six Labs with exercise cards (U1 AUT + cut-up/readymade; U2 6-3-5 vs solo + hits→COCD→hats; U3 parallel prototyping + delay/checkpoint/exit); catalogue A11 fixes; review PASS (9 P2 → EX9) |
-| EX7 | DONE | `excellence/ex7` | Canonical catalogue: 66 techniques (34 verified source, 19 held, 13 gap); 2,157 records mapped, 2,112 duplicates collapsed; cold review PASS (random-word step fix → EX8) |
-| EX6 | DONE (PARTIAL scope) | `excellence/ex6` | Research grounding: 23 verified works (U1 8, U2 14, U3 9, ML 4), 40 gaps → procurement list; all pin cites re-checked against print; single references.yml; 3 review rounds (R1 4 citation/deck-sync defects; R2 U3 lab-1 notes) |
-| EX5 | DONE | `excellence/ex5` | Deck renderer (pre-render, alt, captions, notes, layouts, timers, browser check 325 views/0 failures); 3 review rounds (R1 links/timer/caption overlap; R2 type shrunk below forge clamp) |
+| EX1 | DONE | `excellence/ex1` | Contract + factual hotfix; round 1 FAIL (F1 portfolio pass conditions) → round 2 PASS |
+| EX2 | DONE | `excellence/ex2` | Publication firewall; round 1 FAIL → round 2 PASS |
+| EX3 | DONE | `excellence/ex3` | Image pipeline rules + tests + validator; cold review PASS (7 P2) |
+| EX4 | DONE | `excellence/ex4` | Slide-bound curation: 33 images, 8 flagged; round 1 FAIL → round 2 PASS |
 | SYNC-1 | DONE | `excellence/sync-1` | main `d00539d` merged; ratified by professor; A8 adopted |
-| EX4 | DONE | `excellence/ex4` | Slide-bound curation: 33 images (U1 7/8, U2 6/8, U3 6/8, ML 6/8 core slides), 8 flagged; round 1 FAIL (2 off-topic bindings) → diagram; round 2 PASS |
-| EX3 | DONE | `excellence/ex3` | Image pipeline rules + tests + validator; cold review PASS (7 P2); landing regression caught a stale node_modules — gate fixed, re-verified |
-| EX2 | DONE | `excellence/ex2` | Publication firewall; round 1 FAIL (U4 pipeline text, forge rules, dead declaration link), fixed; round 2 PASS |
-| EX1 | DONE | `excellence/ex1` | Contract + factual hotfix; cold review round 1 FAIL (F1 portfolio pass conditions), fixed; round 2 PASS |
+| EX5 | DONE | `excellence/ex5` | Deck renderer; browser check 325 views/0 failures; 3 review rounds |
+| EX6 | DONE (PARTIAL) | `excellence/ex6` | Research grounding: 23 verified works, 40 gaps → procurement; 3 review rounds |
+| EX7 | DONE | `excellence/ex7` | Canonical catalogue: 66 techniques; cold review PASS |
+| EX8 | DONE | `excellence/ex8` | Six Labs + exercise cards; autopilot sign-off — **your approval pending** (§2) |
+| EX9 | DONE | `excellence/ex9` | Lesson structure, traces, figures, Tao; review PASS (10 P2) |
+| EX10 | DONE | `excellence/ex10` | Question bank + practice quizzes + recall + method cards + consent **drafts**; measurement not started |
+| EX11 | DONE | `excellence/ex11` | Closing audit; A14 AUT shared-board; A15 print type-floor scope; cold review round 3 PASS |
 
 ## 2 · P0 decisions for you
 
@@ -333,3 +334,46 @@ U4 (legacy, out of scope) keeps *Man dreaming* (`profield-cache/0a359d9b946505e1
 ### Decision recorded — 12 lessons
 
 You asked for 12 lessons, two per official unit. This cascade finishes the platform and U1–U3; EX11 writes `NEXT-CASCADE-12-LESSONS.md` to seed the follow-on cascade.
+
+## 4 · Closing audit (EX11)
+
+Full table: [`CLOSING-AUDIT.md`](CLOSING-AUDIT.md). Probe artefact: `evidence/final-EX11.json`.
+
+| Check | Result |
+| --- | --- |
+| FINDINGS IDs A1–E7 | Each listed once; all **closed** in-cascade |
+| Probe `--targets` | `targets_met: true`, `unmet_count: 0` |
+| Scoped leaks / PHP / dangling / rank dealing | Empty / 0 / clear / false |
+| Deferred (not probe failures) | U4–U6 forge; U4 legacy `profield` cache; measurement study; your §2 ratifications |
+| Gate amendment A15 | Print **type** floors = U1–U3 + master lecture only; U4 still on print card-in-page checks |
+
+Suggested read order for the audit: FINDINGS table → Out of scope → probe targets block.
+
+## 5 · How to preview
+
+```bash
+cd "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/creativity-techniques-uem-integration"
+bundle exec jekyll serve --source docs --config _config.yml --port 4013
+# then read this file; spot-check U1–U3 decks and lessons
+```
+
+Or: `bash creativity-techniques-pedagogy/excellence/gitflow.sh release-notes`
+
+## 6 · Release or roll back
+
+**Release** (one merge, on `main` — only when you are ready):
+
+```bash
+cd "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/creativity-techniques-uem"
+git tag -a excellence/pre-release -m "main before Excellence release" main
+git merge --no-ff excellence/integration -m "Release Excellence cascade" && git push origin main --follow-tags
+```
+
+**Roll back after release** (no force-push):
+
+```bash
+git revert -m 1 <release-merge-sha> && git push origin main
+# or one phase: git revert -m 1 <that phase's "Land EXn" merge sha>
+```
+
+**Roll back before release** (integration only): `gitflow.sh rollback N` resets to `excellence/ex$((N-1))` (or `excellence/base` for N=0).
