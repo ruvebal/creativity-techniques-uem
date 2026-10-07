@@ -6,7 +6,7 @@ permalink: /bibliography/en/
 description: 'Core and recommended references for Creativity Techniques (Chicago author-date).'
 ---
 
-# Bibliography
+<div class="evaluation-page prose prose-lg prose-slate dark:prose-invert max-w-none">
 
 References for **Creativity Techniques** (Bachelor's Degree in Design · Year 3). Student-facing cites use Chicago author-date. Lists below follow the official course guide; English titles are preferred when a standard English edition exists.
 
@@ -38,3 +38,8 @@ References for **Creativity Techniques** (Bachelor's Degree in Design · Year 3)
 - [Methodology]({{ '/methodology/en/' | relative_url }})
 - [Track]({{ '/tracks/en/creativity-techniques/' | relative_url }})
 - [Evaluation]({{ '/evaluation/' | relative_url }})
+- [Directory]({{ '/directory/en/' | relative_url }})
+- [Lexicum]({{ '/lexicum/en/' | relative_url }})
+- [Methods]({{ '/methods/en/' | relative_url }})
+
+</div>
