@@ -114,3 +114,21 @@ test('A6/F6: a raw SVG in deck-media is an error on v2 decks', () => {
   const r = deckProblems(deck, ctx({ cacheFiles: new Map([['aaaa.svg', 2000]]) }));
   assert.ok(r.errors.some((e) => /raw \.svg/.test(e)), r.errors.join('\n'));
 });
+
+test('A7: curator-only rights_status flagged cannot be hand-edited to ok', () => {
+  const registry = new Map([['a:1', {
+    asset_id: 'a:1',
+    raw_title: 'File:X.jpg',
+    rights_status: 'flagged',
+    flag_reason: 'identifiable sitter',
+    author: 'Unknown',
+    licence: 'PD-EU',
+    canonical_source_url: 'https://example.org/x',
+    eu_term_ok: true,
+  }]]);
+  const lying = v2({ assets: [{ ...okAsset, rights_status: 'ok', licence: 'PD-EU', eu_term_ok: true }] });
+  const r = deckProblems(lying, ctx({ registry, requireRegistry: true }));
+  assert.ok(r.errors.some((e) => /curator registry is flagged/.test(e)), r.errors.join('\n'));
+  const honest = v2({ assets: [{ ...okAsset, rights_status: 'flagged', licence: 'PD-EU', eu_term_ok: true }] });
+  assert.deepEqual(deckProblems(honest, ctx({ registry, requireRegistry: true })).errors, []);
+});

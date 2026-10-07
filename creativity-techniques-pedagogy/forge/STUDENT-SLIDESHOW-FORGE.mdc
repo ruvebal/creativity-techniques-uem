@@ -17,6 +17,21 @@ and with the sibling Digital Creativity student decks
 The slideshow is **not** the lesson text, not the professor research brief, and
 not a research ledger. It is the in-class conceptual surface.
 
+## U4–U6 inherit the Excellence platform (EX11)
+
+When forging U4–U6 (or splitting any unit into the 12-lesson structure), reuse
+these contracts without re-litigating them — see
+`creativity-techniques-pedagogy/excellence/` and `NEXT-CASCADE-12-LESSONS.md`:
+
+| Contract | Rule |
+| --- | --- |
+| **Slide-bound images** | Every curated slide names `image_brief` + `asset_id`; no rank dealing; schema_version 2 |
+| **Rights gate** | `validate-decks.mjs --strict --rights=flag`; curator `rights_status: flagged` cannot be hand-edited to `ok`; captions never say "Public domain" for flagged assets |
+| **Exercise cards** | Exactly two `lab_exercise` slides; `technique_id` / `practises` from the in-practice catalogue; lesson cards match EX8 field order |
+| **references.yml** | Lesson References from `docs/_data/references.yml` keys only |
+| **Retrieval slide** | One `slide_role: retrieval` after Masterclass, before `lab_opener` (five recall questions ≤ 80 chars; answers in notes) |
+| **Claims** | Page-backed notes carry `claims: [{text, cite}]` attested on the cited page (`deck-claims.test.mjs`) |
+
 ## Two surfaces per unit (do not collapse)
 
 | Surface | Audience | Path pattern | Content |
@@ -127,7 +142,8 @@ quote: "Optional brief quotation (≤ ~40 words) — Ahmes-verbatim or Tao inven
 quote_origin: page_verified | tao_invented   # required whenever quote is set; never put the corpus product name in student content.json
 semantic_tags: []   # DH metadata for the quote — see golden rule 3
 layout: image_argument | quote | split | exercise   # optional (EX5); default by role: cover/model/masterclass → image_argument, lab/workshop/retrieval → exercise, openers/outro → split
-notes: "Speaker notes: '- ' lines are talking points, then Source: (the lesson's own cite) and Ask: (debate prompt)."   # EX5: required on every masterclass slide (gate); drafted for every lab slide
+notes: "Speaker notes: '- ' lines are talking points, then Source: (the lesson's own cite) and Ask: (debate prompt)."   # EX5: required on every masterclass slide (gate); drafted for every lab slide. May be a string or `{ text, claims? }`.
+claims: [{ text: "Page-attested span or claim clause.", cite: "Author Year, page" }]   # EX11 / A10: structured claims beside notes; each text must match a VERIFIED PROVENANCE_LINE verbatim (or the slide quote when the provenance line has no verbatim=). Test: `scripts/tests/deck-claims.test.mjs`. Required on masterclass slides that carry page-backed Source lines; omit for course-wording-only slides.
 timer_seconds: 180  # optional on exercise slides; the Lab timer defaults to 180
 technique_id: brainwriting-635          # lab_exercise (EX8): required; the primary technique, an id in in-practice/CANONICAL-TECHNIQUES.yml
 technique_ids_also: [open-monitoring-warm-up]   # lab_exercise: optional; further catalogue ids the exercise also runs (warm-ups, a second step's technique). Treated like technique_id for every catalogue rule: an `embodied` id here also requires an **Opt-out:** line on the lesson card (EX9 gate, A12/F9)
@@ -152,7 +168,7 @@ student-facing editorial label or citation. A missing field fails cold review.
 
 Five rules override any conflicting habit above and bind every subsequent unit's slideshow:
 
-1. **Typography is a little bigger overall.** Base `.reveal` size is now `clamp(22px, 2.6vw, 38px)`; headings scale proportionally (`h1` `clamp(2.15rem, 6.6vw, 3.15rem)`, as in `pass-track-deck.css`). These are floors for every slide layout, Lab exercise slides included; `npm run test:browser` checks them. Do **not** revert to the pre-2026-09-14 clamps just because a slide "looks empty." A row-8 teenager reading a projection must not squint — that is the acceptance test, not screenshot aesthetics.
+1. **Typography is a little bigger overall.** Base `.reveal` size is now `clamp(22px, 2.6vw, 38px)`; headings scale proportionally (`h1` `clamp(2.15rem, 6.6vw, 3.15rem)`, as in `pass-track-deck.css`). These are floors for every slide layout, Lab exercise slides included; `npm run test:browser` checks them **on screen and in the print pass** (EX11 / A9). Secondary type keeps these **ratios of the base floor** (documented here so tests do not invent constants): quote **0.72×**, prompt/trace **0.76×**, Lab timer **0.70×**. Do **not** revert to the pre-2026-09-14 clamps just because a slide "looks empty." A row-8 teenager reading a projection must not squint — that is the acceptance test, not screenshot aesthetics.
 2. **Write every slide as if for a 17-year-old high-school teenager (golden rule).** Short sentences. Concrete verbs. One idea per slide. No managerial abstractions (`stakeholder alignment`, `strategic ideation`), no untethered jargon. If a sentence would not survive being read aloud to a curious teenager, rewrite it before it ships. Keep the register the same across all six units.
 3. **Quote hierarchy — Ahmes first; Tao invent when Ahmes has no brief match.** Every substantive slide (cover, analysis_model, masterclass, lab_exercise, workshop_work) should carry a brief, specific `quote:` that sharpens the sentence — not a paraphrase of the heading.
    - **Prefer page-verified vault extracts.** Resolve via `semantic-quote` against a real extraction database node with evaluator-safe status. Full provenance (coat, node_id, page_index, printed_page, verbatim) lives in a switch-gated Markdown comment in the **lesson** file. Student `content.json` carries the verbatim string + `quote_origin: page_verified` + `citation.label` (Chicago author-date) + `citation.href` (anchor into the lesson's References). **Never** write the corpus product name into `content.json` or public lesson HTML.

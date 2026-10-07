@@ -242,7 +242,7 @@ Steps (classroom adaptation):
 1. Show one everyday object (brick, paperclip, shoe) and start a visible timer.
 2. Each student lists as many different uses as they can, alone and in silence.
 3. Stop; each student counts ideas (fluency) and use categories (flexibility).
-4. Pool the class lists; a use that appears on only one list counts as original.
+4. Post every list on a shared board (or compare within table groups of 5–6); a use that appears on only one list counts as original.
 5. Each student picks one use and adds detail to it (elaboration).
 6. Discuss which category shifts produced the less obvious uses.
 

@@ -309,7 +309,13 @@ layout: null
       "image_brief": "Michelangelo, a sheet of studies connected with the Libyan Sibyl, c. 1510–11: a large worked-up leg study beside two small trial sketches of a seated figure — options opened quickly, one carried through in detail.",
       "asset_id": "wikimedia:File:Studies for the Libyan Sibyl (recto); Studies for the Libyan Sibyl and a small Sketch for a Seated Figure (verso) MET DP807402.jpg",
       "media_slot_id": "U1.masterclass-1",
-      "notes": "- First we open: invent many options. That is divergent thinking.\n- Then we close: pick what fits the needs of the brief. That is convergent thinking.\n- One creative job often needs both moves.\nSource: the quote and the open/close distinction (divergent; convergent = possibilities that fit a set of needs) are (Craft 2000, 30). Other bullets are course wording.\nAsk: Think of your last project. Where did you open, and where did you close?"
+      "notes": "- First we open: invent many options. That is divergent thinking.\n- Then we close: pick what fits the needs of the brief. That is convergent thinking.\n- One creative job often needs both moves.\nSource: the quote and the open/close distinction (divergent; convergent = possibilities that fit a set of needs) are (Craft 2000, 30). Other bullets are course wording.\nAsk: Think of your last project. Where did you open, and where did you close?",
+      "claims": [
+        {
+          "text": "The same creative act may involve both divergent and convergent thinking.",
+          "cite": "Craft 2000, 30"
+        }
+      ]
     },
     {
       "slide_id": "masterclass-2",
@@ -340,7 +346,13 @@ layout: null
         ]
       },
       "image_brief": "Katsushika Hokusai, a page of the Hokusai Manga sketchbooks (from 1814): many quick, varied figures on one page — fluency (many ideas), flexibility (many kinds) and elaboration made visible.",
-      "notes": "- Guilford's four abilities, as summarised by Chen, give us shared words: fluency (many ideas quickly), flexibility (several approaches to a problem at once), originality (ideas few other people produce), elaboration (work the details).\n- Many workshops try to raise these scores.\n- A higher score is not the same as a better idea in a real brief. That is the next slide.\nSource: the four abilities and the Fluency quote are (Chen 2011, 26); fluency, flexibility, originality as what \"most workshops try to enhance\" is (Csikszentmihalyi 1996, chap. 3). Other bullets are course wording.\nAsk: Which of the four skills do you use most? Which one do you avoid?"
+      "notes": "- Guilford's four abilities, as summarised by Chen, give us shared words: fluency (many ideas quickly), flexibility (several approaches to a problem at once), originality (ideas few other people produce), elaboration (work the details).\n- Many workshops try to raise these scores.\n- A higher score is not the same as a better idea in a real brief. That is the next slide.\nSource: the four abilities and the Fluency quote are (Chen 2011, 26); fluency, flexibility, originality as what \"most workshops try to enhance\" is (Csikszentmihalyi 1996, chap. 3). Other bullets are course wording.\nAsk: Which of the four skills do you use most? Which one do you avoid?",
+      "claims": [
+        {
+          "text": "the ability of divergent thinking with a paper clip may tell us little about an individual's talent in music.",
+          "cite": "Chen 2011, 26"
+        }
+      ]
     },
     {
       "slide_id": "masterclass-3",
@@ -373,7 +385,13 @@ layout: null
       "image_brief": "The Gem paper clip (1890s): the everyday object of the 'unusual uses' test, a reminder that a high score on such a toy task says little about talent in another field.",
       "asset_id": "wikimedia:File:GemPaperClipAdvertisementJan1893.png",
       "media_slot_id": "U1.masterclass-3",
-      "notes": "- Scoring high on \"how many uses for a brick or a paper clip\" is not the same as judgement inside a real brief.\n- A test in one field may tell us little about talent in another, such as music.\nSource: the paper-clip/music quote is (Chen 2011, 26). Other bullets are course wording.\nAsk: What would a test of design judgement need to include?"
+      "notes": "- Scoring high on \"how many uses for a brick or a paper clip\" is not the same as judgement inside a real brief.\n- A test in one field may tell us little about talent in another, such as music.\nSource: the paper-clip/music quote is (Chen 2011, 26). Other bullets are course wording.\nAsk: What would a test of design judgement need to include?",
+      "claims": [
+        {
+          "text": "the ability of divergent thinking with a paper clip may tell us little about an individual's talent in music.",
+          "cite": "Chen 2011, 26"
+        }
+      ]
     },
     {
       "slide_id": "masterclass-4",
@@ -405,7 +423,25 @@ layout: null
       "image_brief": "Auguste Rodin, The Thinker (modelled 1880–81): a figure halted in thought before any tool is picked up, to picture framing the unclear problem before choosing a technique.",
       "asset_id": "wikimedia:File:Auguste Rodin - The Thinker - 1917.42 - Cleveland Museum of Art.tif",
       "media_slot_id": "U1.masterclass-4",
-      "notes": "- Before you pick a creativity technique, say what is fuzzy in the brief.\n- Tools help after the problem is framed.\n- Problems are not given; they are built from an unclear situation, and how you state one already points to an answer.\nSource: the slide quote is a Tao of Creativity line; the lesson cites (Schön 1983, 40), (Buchanan 1992, 16) and (Csikszentmihalyi 1996, chap. 4) for the third bullet: problems are constructed from uncertain situations (Schön), every formulation of a wicked problem corresponds to a formulation of a solution (Buchanan), presented vs discovered problems (Csikszentmihalyi). Other bullets are course wording.\nAsk: What question does your current brief still refuse to answer?"
+      "notes": "- Before you pick a creativity technique, say what is fuzzy in the brief.\n- Tools help after the problem is framed.\n- Problems are not given; they are built from an unclear situation, and how you state one already points to an answer.\nSource: the slide quote is a Tao of Creativity line; the lesson cites (Schön 1983, 40), (Buchanan 1992, 16) and (Csikszentmihalyi 1996, chap. 4) for the third bullet: problems are constructed from uncertain situations (Schön), every formulation of a wicked problem corresponds to a formulation of a solution (Buchanan), presented vs discovered problems (Csikszentmihalyi). Other bullets are course wording.\nAsk: What question does your current brief still refuse to answer?",
+      "claims": [
+        {
+          "text": "In real-world practice, problems do not present themselves to the practitioner as givens. They must be constructed from the materials of problematic situations which are puzzling, troubling, and uncertain.",
+          "cite": "Schön 1983, 40"
+        },
+        {
+          "text": "Wicked problems have no definitive formulation, but every formulation of a wicked problem corresponds to the formulation of a solution.",
+          "cite": "Buchanan 1992, 16"
+        },
+        {
+          "text": "The creative process has traditionally been described as taking five steps.",
+          "cite": "Csikszentmihalyi 1996, chap. 4"
+        },
+        {
+          "text": "Presented problems usually take a much shorter time to prepare for and to solve than discovered problems.",
+          "cite": "Csikszentmihalyi 1996, chap. 4"
+        }
+      ]
     },
     {
       "slide_id": "masterclass-5",
@@ -438,7 +474,13 @@ layout: null
       "image_brief": "A pocket set of drawing instruments by Peter Dollond, London, c. 1755: tools that extend the hand but do not decide the line — a technique serves judgement, it does not replace it.",
       "asset_id": "wikimedia:File:Pocket set of drawing instruments MET DP232308.jpg",
       "media_slot_id": "U1.masterclass-5",
-      "notes": "- A method helps you talk with the situation.\n- It does not replace your judgement.\n- Reflecting while you act means you are not bound by established technique.\nSource: the slide quote is a Tao of Creativity line; the third bullet is (Schön 1983, 68): in reflection-in-action the practitioner \"is not dependent on the categories of established theory and technique\". Other bullets are course wording.\nAsk: When did a method push you to a choice you would not defend?"
+      "notes": "- A method helps you talk with the situation.\n- It does not replace your judgement.\n- Reflecting while you act means you are not bound by established technique.\nSource: the slide quote is a Tao of Creativity line; the third bullet is (Schön 1983, 68): in reflection-in-action the practitioner \"is not dependent on the categories of established theory and technique\". Other bullets are course wording.\nAsk: When did a method push you to a choice you would not defend?",
+      "claims": [
+        {
+          "text": "When someone reflects-in-action, he becomes a researcher in the practice context. He is not dependent on the categories of established theory and technique, but constructs a new theory of the unique case.",
+          "cite": "Schön 1983, 68"
+        }
+      ]
     },
     {
       "slide_id": "masterclass-6",
@@ -471,7 +513,13 @@ layout: null
       "image_brief": "A Post-it 'Teamwork Tools' display wall at a 2018 innovation festival: the sticky-note wall sold as a method, shown so students ask what craft the look of 'design thinking' may hide.",
       "asset_id": "wikimedia:File:Post-It Notes Wall at the Fast Company Innovation Festival (30772875917).jpg",
       "media_slot_id": "U1.masterclass-6",
-      "notes": "- Use tools that help.\n- Also ask when managerial buzzwords empty out craft.\n- Offered for debate, not as settled fact: critics argue the claims for design thinking are overstated.\nSource: the slide quote is a Tao of Creativity line; the third bullet is (Kimbell 2011, 285): \"several issues that undermine the claims made for design thinking\". Other bullets are course wording.\nAsk: Name one design buzzword. What craft might it hide?"
+      "notes": "- Use tools that help.\n- Also ask when managerial buzzwords empty out craft.\n- Offered for debate, not as settled fact: critics argue the claims for design thinking are overstated.\nSource: the slide quote is a Tao of Creativity line; the third bullet is (Kimbell 2011, 285): \"several issues that undermine the claims made for design thinking\". Other bullets are course wording.\nAsk: Name one design buzzword. What craft might it hide?",
+      "claims": [
+        {
+          "text": "The paper argues there are several issues that undermine the claims made for design thinking.",
+          "cite": "Kimbell 2011, 285"
+        }
+      ]
     },
     {
       "slide_id": "retrieval",
@@ -486,7 +534,25 @@ layout: null
         "What does Chen warn about a high alternative-uses score?",
         "For Schön, where do problems in practice come from?"
       ],
-      "notes": "- Timer: 3 minutes. Students answer alone, from memory, on paper; no notes, no slides.\n- Then 2 minutes in pairs: compare answers, then check the lesson.\n- Practice only: nothing is collected or graded. Five more questions with answers are on the unit's practice quiz page.\nAnswers:\n- 1. Something new and something that matters: novelty plus value or meaningfulness (Beghetto and Karwowski 2025, 3).\n- 2. Domain, field and person (Csikszentmihalyi 1996, chap. 2).\n- 3. Fluency, flexibility, originality, elaboration (Chen 2011, 26).\n- 4. Divergent thinking with a paper clip may tell us little about talent in another field, such as music (Chen 2011, 26).\n- 5. Not as givens: they are constructed from situations that are puzzling, troubling and uncertain (Schön 1983, 40).\nAsk: Which answer could you not recall? Re-read that idea before the Lab."
+      "notes": "- Timer: 3 minutes. Students answer alone, from memory, on paper; no notes, no slides.\n- Then 2 minutes in pairs: compare answers, then check the lesson.\n- Practice only: nothing is collected or graded. Five more questions with answers are on the unit's practice quiz page.\nAnswers:\n- 1. Something new and something that matters: novelty plus value or meaningfulness (Beghetto and Karwowski 2025, 3).\n- 2. Domain, field and person (Csikszentmihalyi 1996, chap. 2).\n- 3. Fluency, flexibility, originality, elaboration (Chen 2011, 26).\n- 4. Divergent thinking with a paper clip may tell us little about talent in another field, such as music (Chen 2011, 26).\n- 5. Not as givens: they are constructed from situations that are puzzling, troubling and uncertain (Schön 1983, 40).\nAsk: Which answer could you not recall? Re-read that idea before the Lab.",
+      "claims": [
+        {
+          "text": "the 'creative' aspect addresses both novelty and meaningfulness, aligning with standard definitions of creativity (Plucker et al., 2004; Runco & Jaeger, 2012)",
+          "cite": "Beghetto and Karwowski 2025, 3"
+        },
+        {
+          "text": "an insight that occurs inside the heads of some special people. But this short assumption is misleading.",
+          "cite": "Csikszentmihalyi 1996, chap. 2"
+        },
+        {
+          "text": "the ability of divergent thinking with a paper clip may tell us little about an individual's talent in music.",
+          "cite": "Chen 2011, 26"
+        },
+        {
+          "text": "In real-world practice, problems do not present themselves to the practitioner as givens. They must be constructed from the materials of problematic situations which are puzzling, troubling, and uncertain.",
+          "cite": "Schön 1983, 40"
+        }
+      ]
     },
     {
       "slide_id": "lab-opener",
@@ -537,7 +603,13 @@ layout: null
       "image_brief": "Marcel Duchamp, Fountain, 1917, in Alfred Stieglitz's photograph: a factory-made everyday object given a use nobody expected for it — the jump the alternative-uses list asks you to make.",
       "asset_id": "wikimedia:File:Marcel Duchamp, 1917, Fountain, photograph by Alfred Stieglitz.jpg",
       "media_slot_id": "U1.lab-1",
-      "notes": "- Timer: 3 minutes of silent listing (the slide timer). Whole exercise about 15 minutes.\n- Show one everyday object or a photo (a brick, a paper clip, a shoe). Everyone lists uses alone and in silence.\n- Fluency: count the uses. Flexibility: group them into kinds and count the kinds.\n- Originality: post every list on a shared board, or compare lists within table groups of 5–6; mark each use nobody else wrote. Reading every list aloud does not fit the time.\n- Elaboration: pick one marked use and add three concrete details.\n- Close: which shift between kinds gave your least obvious use? Treat the numbers as practice, not a talent verdict.\nSource: tests like Alternate Uses ask for as many uses of a common object as possible, and the four abilities (fluency, flexibility, originality, elaboration) are as reported in (Chen 2011, 26); the caution that such scores may say little about talent in a specific field is the same page. The steps and the shared-board scoring are course wording.\nAsk: Was your rarest use also your best one?"
+      "notes": "- Timer: 3 minutes of silent listing (the slide timer). Whole exercise about 15 minutes.\n- Show one everyday object or a photo (a brick, a paper clip, a shoe). Everyone lists uses alone and in silence.\n- Fluency: count the uses. Flexibility: group them into kinds and count the kinds.\n- Originality: post every list on a shared board, or compare lists within table groups of 5–6; mark each use nobody else wrote. Reading every list aloud does not fit the time.\n- Elaboration: pick one marked use and add three concrete details.\n- Close: which shift between kinds gave your least obvious use? Treat the numbers as practice, not a talent verdict.\nSource: tests like Alternate Uses ask for as many uses of a common object as possible, and the four abilities (fluency, flexibility, originality, elaboration) are as reported in (Chen 2011, 26); the caution that such scores may say little about talent in a specific field is the same page. The steps and the shared-board scoring are course wording.\nAsk: Was your rarest use also your best one?",
+      "claims": [
+        {
+          "text": "the ability of divergent thinking with a paper clip may tell us little about an individual's talent in music.",
+          "cite": "Chen 2011, 26"
+        }
+      ]
     },
     {
       "slide_id": "lab-2",

@@ -40,10 +40,17 @@ function deckTexts(file) {
   const fm = t.match(/^---\r?\n[\s\S]*?\r?\n---\r?\n/);
   if (fm) t = t.slice(fm[0].length);
   const deck = JSON.parse(t);
-  return deck.slides.map((s) => ({
-    id: s.slide_id,
-    text: [s.sentence, s.notes, s.citation && typeof s.citation === 'object' ? s.citation.label : s.citation].filter(Boolean).join('\n'),
-  }));
+  return deck.slides.map((s) => {
+    let notes = s.notes;
+    if (notes && typeof notes === 'object' && !Array.isArray(notes)) {
+      notes = notes.text ?? notes.body ?? notes.notes ?? '';
+    }
+    const claimText = Array.isArray(s.claims) ? s.claims.map((c) => `${c.text} (${c.cite})`).join('\n') : '';
+    return {
+      id: s.slide_id,
+      text: [s.sentence, notes, claimText, s.citation && typeof s.citation === 'object' ? s.citation.label : s.citation].filter(Boolean).join('\n'),
+    };
+  });
 }
 
 for (const [deckFile, lessonFile] of PAIRS) {

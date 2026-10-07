@@ -215,8 +215,20 @@ for (const [w, h] of sizes) {
     }
   }
 }
-// Print pass: ?print-pdf with print media; every card inside its PDF page, no hidden text.
+// Print pass: ?print-pdf with print media; every card inside its PDF page, no hidden text,
+// and type floors (A9): h1 / sentence / quote / prompt-trace / timer match screen ratios.
 const PRINT_PROBE = `(async () => {
+  const clamps = ${CLAMPS};
+  const evalClampPx = (c) => {
+    const rootFs = parseFloat(getComputedStyle(document.documentElement).fontSize) || 16;
+    const min = c.unit === 'rem' ? c.min * rootFs : c.min;
+    const max = c.unit === 'rem' ? c.max * rootFs : c.max;
+    const preferred = (c.vw / 100) * window.innerWidth;
+    return Math.min(max, Math.max(min, preferred));
+  };
+  const floorBase = evalClampPx(clamps.base);
+  const floorH1 = evalClampPx(clamps.h1);
+  const fs = (el) => el ? parseFloat(getComputedStyle(el).fontSize) : null;
   const sections = document.querySelectorAll('.reveal .slides section').length;
   for (let i = 0; i < 150 && document.querySelectorAll('.pdf-page').length < sections; i++) await new Promise((r) => setTimeout(r, 100));
   const out = [];
@@ -230,6 +242,16 @@ const PRINT_PROBE = `(async () => {
     if (hidden > 1) fail.push('card hides ' + Math.round(hidden) + 'px of text');
     if (cr.bottom > pr.bottom + 1 || cr.top < pr.top - 1) fail.push('card outside PDF page');
     const sec = page.querySelector('section');
+    const h1 = fs(card.querySelector('h1'));
+    const sent = fs(card.querySelector('.student-media-slide__sentence') || card.querySelector('p'));
+    const quote = fs(card.querySelector('blockquote, .student-media-slide__quote'));
+    const trace = fs(card.querySelector('.student-media-slide__prompt, .student-media-slide__trace, .slide-trace'));
+    const timer = fs(page.querySelector('.slide-timer'));
+    if (h1 !== null && h1 < floorH1 - 0.25) fail.push('print h1 ' + h1.toFixed(1) + 'px < forge ' + floorH1.toFixed(1));
+    if (sent !== null && sent < floorBase - 0.25) fail.push('print sentence ' + sent.toFixed(1) + 'px < forge base ' + floorBase.toFixed(1));
+    if (quote !== null && quote < 0.72 * floorBase - 0.25) fail.push('print quote ' + quote.toFixed(1) + 'px < ' + (0.72 * floorBase).toFixed(1));
+    if (trace !== null && trace < 0.76 * floorBase - 0.25) fail.push('print prompt/trace ' + trace.toFixed(1) + 'px < ' + (0.76 * floorBase).toFixed(1));
+    if (timer !== null && timer < 0.7 * floorBase - 0.25) fail.push('print timer ' + timer.toFixed(1) + 'px < ' + (0.7 * floorBase).toFixed(1));
     out.push({ page: n + 1, id: (sec && sec.dataset.slideId) || '#' + (n + 1), fail });
   });
   return { pages: document.querySelectorAll('.pdf-page').length, sections, out };
