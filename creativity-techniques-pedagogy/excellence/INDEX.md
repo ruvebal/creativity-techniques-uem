@@ -46,7 +46,7 @@ Only the **first word** of the Gate cell is parsed by `cascade-harness.sh`.
 | 8 | [PHASE-EX8.md](PHASE-EX8.md) | Lab redesign U1–U3 + exercise cards | DONE (EX7 DONE; autopilot sign-off, final review) |
 | 9 | [PHASE-EX9.md](PHASE-EX9.md) | Lesson structure, exemplars, lesson images | DONE (EX8 DONE) |
 | 10 | [PHASE-EX10.md](PHASE-EX10.md) | Knowledge-test prep, measurement, peer CAT, method cards | DONE (EX9 DONE) |
-| 11 | [PHASE-EX11.md](PHASE-EX11.md) | Closing audit against the EX0 baseline | READY (EX10 DONE) |
+| 11 | [PHASE-EX11.md](PHASE-EX11.md) | Closing audit against the EX0 baseline | DONE (EX10 DONE) |
 
 ## Live snapshot (2026-10-04)
 
