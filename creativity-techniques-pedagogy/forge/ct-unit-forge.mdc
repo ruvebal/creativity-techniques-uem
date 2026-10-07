@@ -12,12 +12,12 @@ alwaysApply: false
 
 ## 0. Hard prerequisites (fail closed)
 
-1. [`SESSION-RHYTHM-AND-DELIVERABLES.mdc`](./SESSION-RHYTHM-AND-DELIVERABLES.mdc) — Masterclass → Lab → Workshop; D1–D5; geometrical `lab_opener` / `workshop_opener` / `outro`.  
-2. [`UNIT-THEME-ENRICHMENT.mdc`](./UNIT-THEME-ENRICHMENT.mdc) pack for this unit is complete (`PROFESSOR.md` + `MAIN-IDEAS.yml`) — board: [`unit-enrichment/INDEX.md`](./unit-enrichment/INDEX.md).  
-3. Grounding synthesis read: [`../grounding/COMBINE-RELATE-DISCUSS.md`](../grounding/COMBINE-RELATE-DISCUSS.md) + [`../grounding/pass1.edited.md`](../grounding/pass1.edited.md) + unit row in [`../grounding/EVIDENCE-MATRIX.md`](../grounding/EVIDENCE-MATRIX.md).  
-4. [`DISCURSIVE-CIRCULATION-FORGE.mdc`](./DISCURSIVE-CIRCULATION-FORGE.mdc) — **critical review trans-unit** (D2) **and** the transversal CV critical layer (C1–C3). Every unit names lenguaje/medio/soporte + one circulation moment **and** at least one C1/C2/C3 hook in professor brief or Analysis method. Fail closed if missing — see that forge’s “Transversal critical layer” table. Priority D2 coats: Steimberg 2013 *Semióticas…transposición*; Werhane & Bevan 2026 *Moral Imagination*; Munari *The Circle* + manifesto anthology (quote after Ahmes).  
-5. [`STUDENT-SLIDESHOW-FORGE.mdc`](./STUDENT-SLIDESHOW-FORGE.mdc) spine respected (≤ 6 Masterclass ideas + mandatory Lab/Workshop frame slides). **U4–U6 inherit the Excellence platform** (EX11): slide-bound images + `image_brief`, rights gate (`--rights=flag`, curator flags sticky), exactly two Lab exercise cards from the catalogue, `references.yml` + Chicago `#ref-` links, one retrieval slide, structured `claims` on page-backed notes — see that forge's "U4–U6 inherit" table and [`../excellence/NEXT-CASCADE-12-LESSONS.md`](../excellence/NEXT-CASCADE-12-LESSONS.md).  
-6. Official contract: guía JSON — **150 h** presencial; contact-forgeable **80 h**; evaluation **60/40**.  
+1. [`SESSION-RHYTHM-AND-DELIVERABLES.mdc`](./SESSION-RHYTHM-AND-DELIVERABLES.mdc) — Masterclass → Lab → Workshop; D1–D5; geometrical `lab_opener` / `workshop_opener` / `outro`.
+2. [`UNIT-THEME-ENRICHMENT.mdc`](./UNIT-THEME-ENRICHMENT.mdc) pack for this unit is complete (`PROFESSOR.md` + `MAIN-IDEAS.yml`) — board: [`unit-enrichment/INDEX.md`](./unit-enrichment/INDEX.md).
+3. Grounding synthesis read: [`../grounding/COMBINE-RELATE-DISCUSS.md`](../grounding/COMBINE-RELATE-DISCUSS.md) + [`../grounding/pass1.edited.md`](../grounding/pass1.edited.md) + unit row in [`../grounding/EVIDENCE-MATRIX.md`](../grounding/EVIDENCE-MATRIX.md).
+4. [`DISCURSIVE-CIRCULATION-FORGE.mdc`](./DISCURSIVE-CIRCULATION-FORGE.mdc) — **critical review trans-unit** (D2) **and** the transversal CV critical layer (C1–C3). Every unit names lenguaje/medio/soporte + one circulation moment **and** at least one C1/C2/C3 hook in professor brief or Analysis method. Fail closed if missing — see that forge’s “Transversal critical layer” table. Priority D2 coats: Steimberg 2013 *Semióticas…transposición*; Werhane & Bevan 2026 *Moral Imagination*; Munari *The Circle* + manifesto anthology (quote after Ahmes).
+5. [`STUDENT-SLIDESHOW-FORGE.mdc`](./STUDENT-SLIDESHOW-FORGE.mdc) spine respected (≤ 6 Masterclass ideas + mandatory Lab/Workshop frame slides). **U4–U6 inherit the Excellence platform** (EX11): slide-bound images + `image_brief`, rights gate (`--rights=flag`, curator flags sticky), exactly two Lab exercise cards from the catalogue, `references.yml` + Chicago `#ref-` links, one retrieval slide, structured `claims` on page-backed notes — see that forge's "U4–U6 inherit" table and [`../excellence/NEXT-CASCADE-12-LESSONS.md`](../excellence/NEXT-CASCADE-12-LESSONS.md).
+6. Official contract: guía JSON — **150 h** presencial; contact-forgeable **80 h**; evaluation **60/40**.
 7. Discover in vectors · **cite Ahmes nodes only** (or honest `chicago: null` for pilot).
 8. **In-practice Lab first (all units, including retrofits):** before composing any Lab exercise, read [`../in-practice/INDEX.md`](../in-practice/INDEX.md), the active catalogue [`../in-practice/runtime/EXERCISES-ACTIVE.md`](../in-practice/runtime/EXERCISES-ACTIVE.md) (private), and [`../in-practice/PHASE-IP4.md`](../in-practice/PHASE-IP4.md). For shelf choice (school-facing pedagogy vs technique warehouses), inventory×neural matches, cite-safe coats, and next-lesson priorities, also read [`../in-practice/runtime/teaching-suitability/research/PEDAGOGY-FORGE-CONNECTOR.md`](../in-practice/runtime/teaching-suitability/research/PEDAGOGY-FORGE-CONNECTOR.md) and the pack [`research/INDEX.md`](../in-practice/runtime/teaching-suitability/research/INDEX.md). Select **exactly two** source-grounded exercise records by unit theme and official learning objectives. Prefer `candidate` with `evaluator_safe=yes` Chicago anchors; `needs-review` may support a claim only when the public citation is already page-verified elsewhere in the lesson. Record stable `urn:in-practice:exercise:…` IDs, full source anchors, application problem, selection rationale, and rejected alternatives in (a) a forge receipt under `forge/receipts/U*-LAB-IN-PRACTICE-*.md` and (b) a switch-gated `curriculum-internal` `LAB_EXERCISE_SELECTION` block. Preserve source instructions **verbatim** in private evidence; classroom wording is a **professor adaptation** with a separate adaptation field — never claim the original author wrote the portfolio brief. If no thematically fitting record exists, **report the gap** and leave Lab unfinished rather than inventing an unsourced studio game. Pending/unreviewed records are not “approved procedures”; they remain catalogue candidates.
 
@@ -67,12 +67,12 @@ Map B1 → Masterclass · B2/Lab exercises → portfolio · B3/Workshop → next
 
 ## 4. Waves (suggested)
 
-1. Enrichment pack (if missing)  
-2. Evidence matrix row  
-3. Slideshow `content.json` (spine + `MAIN-IDEAS.yml` sentences)  
-4. Lesson B1 prose from main ideas — **written by `lesson-scribe`** (§4a)  
-5. B2 studio brief · B3 individual problem  
-6. Publication gate + AI-usage declaration (§4b)  
+1. Enrichment pack (if missing)
+2. Evidence matrix row
+3. Slideshow `content.json` (spine + `MAIN-IDEAS.yml` sentences)
+4. Lesson B1 prose from main ideas — **written by `lesson-scribe`** (§4a)
+5. B2 studio brief · B3 individual problem
+6. Publication gate + AI-usage declaration (§4b)
 
 ## 4a. Prose is written through `lesson-scribe`, not by the forger inline
 
@@ -200,8 +200,17 @@ Visible student order after TOC:
 2. Header.
 3. Opening block in `<div class="lesson-opener" markdown="1">`: TTOD quote +
    `{% include lesson-semantic-graphic.html %}`.
-4. Learning objectives → Analysis → Masterclass → Lab → Workshop → Conclusion →
-   Tao of Creativity → References → Editorial note → AI declaration.
+4. **Media slots (mandatory until assets ship)** — after opener:
+   - conceptual graph slot (`lesson-conceptual-graph-slot.html` or CT twin) with
+     HTML comment `FORGE · generative_request` → **`grounding-graph`** then
+     **`visual-forger`** diagram mode; graph must serve the Master idea.
+   - deck photographic background slot with HTML comment
+     `PHOTO · naturalistic generator prompt`; after rights/contrast review, wire
+     Masterclass `background_url` in the unit deck `content.json`.
+   - AI declaration links target `/ai-declaration/#ai-assisted-authorship`
+     (never lesson-local `#:~:text=` fragments).
+5. Learning objectives → Analysis → Masterclass → Lab → Workshop → Conclusion →
+   References → Editorial note → AI declaration.
 
 **Cover is commented / agentic — never a visible H2.** Store CONTENIDOS, one-line
 stake, class rhythm, and grade feeds in `{% comment %} cover-agentic: … {% endcomment %}`.

@@ -1,0 +1,17 @@
+{% comment %}
+  Mandatory forge placeholder for naturalistic photographic deck backgrounds.
+  Pass: purpose — how the photo supports Masterclass slides (student-facing note).
+  The full diffusion prompt lives in a curriculum-internal / HTML comment beside this include.
+{% endcomment %}
+{% assign slot_lang = include.lang | default: page.lang | default: 'en' %}
+{% if slot_lang == 'es' %}
+  {% assign slot_label = 'Fondo fotográfico del deck (pendiente)' %}
+  {% assign slot_default = 'Imagen ad hoc (fotografía naturalista) para fondos de diapositivas Masterclass. Prompt completo en comentario de edición; no publicar assets sin revisión de derechos y contraste de texto.' %}
+{% else %}
+  {% assign slot_label = 'Deck photographic background (pending)' %}
+  {% assign slot_default = 'Ad-hoc naturalistic photograph for Masterclass slide backgrounds. Full generator prompt in the editorial comment; do not publish assets without rights review and text-contrast check.' %}
+{% endif %}
+<aside class="lesson-media-slot" data-slot="deck-photo-background" aria-label="{{ slot_label }}">
+  <p class="lesson-media-slot__label">{{ slot_label }}</p>
+  <p class="lesson-media-slot__body">{{ include.purpose | default: slot_default }}</p>
+</aside>

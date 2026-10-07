@@ -27,3 +27,25 @@ ideas:
     heading: Autonomy with accountability
     sentence: Own your process inside the brief — without romantic isolation.
     chicago: null
+enrichment_pending_cites:
+  - source: "Cameron, *The Artist's Way* + *Workbook* — tranche 20261005-practical-exercises"
+    note: "Morning Pages / Artist Date as opt-in U6 practice-log variants; accessible non-writing alternative required. Practitioner."
+    chicago: "(Cameron 2010, 365); (Cameron 2010, 48); (Cameron 2010, 180); (Cameron 2020, 11)"
+    nodes: "c0039ccb… · fdf38cbc… · aa004dc4… · b1aa295c…"
+    catalogue: "urn:in-practice:exercise:701df11b44f40583c2102445 (+ siblings); procedure_approved=false"
+    evaluator_safe: yes
+  - source: "Dweck, *Mindset* (2008) — tranche 20261005"
+    note: "Process-oriented feedback language only; do not attribute low performance to student attitude. Coat evaluator-safe; Lab exercise harvest not prioritised (research frame)."
+    chicago: null
+  - source: "Amabile 1979 — do not grade raw ideation"
+    note: "Assessment corollary for practice logs: evaluate reflection/selection later, not Morning Pages as products under evaluation expectation."
+    chicago: "(Amabile 1979, 1)"
+    nodes: "f5659140…"
+    catalogue: "urn:in-practice:exercise:86922fb94ad066dca2add3d4 (frame); procedure_approved=false"
+    evaluator_safe: yes
+  - source: "Lamott, *Bird by Bird* (2007) — vault …_3579bf09"
+    note: "Workshop-opening truth-telling ethic as assignment epigraph; shitty-first-draft permission as confidence practice (not polish theatre)."
+    chicago: "(Lamott 2007, 10); (Lamott 2007, 12)"
+    nodes: "948852c2… · e6c3fbb2…"
+    catalogue: "urn:in-practice:exercise:17a90c9ba4c3e4b34bd66b5f · 9907f845999151acd44939cf; procedure_approved=false"
+    evaluator_safe: yes

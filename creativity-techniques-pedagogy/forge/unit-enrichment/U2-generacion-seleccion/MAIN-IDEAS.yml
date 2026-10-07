@@ -42,3 +42,33 @@ enrichment_pending_cites:
     note: "Extracted + vector/Athanor injected 2026-09-15; pair with Williams CRAP for constraint-tool vocabulary. Chicago body cites pending Ahmes `--cite`."
   - source: "de Bono, *Six Thinking Hats* (filename Little Brown 1985) — coat 7e7ba834"
     note: "Extracted 1323 nodes but Docling text is Spanish/mangled — keep English BIBLIO-GAP; do not close with this coat."
+  - source: "Osborn, *How to Think Up* (1941/1942) — tranche 20261005-practical-exercises"
+    note: "Quantity-before-judgment / listing+combination studio. Practitioner."
+    chicago: "(Osborn 1942, 31); (Osborn 1942, 34)"
+    nodes: "f9bd5077… · d9ccab21…"
+    catalogue: "urn:in-practice:exercise:5164a30fda91df45bd76841e · 98079458e80db2cd98cb62a1; procedure_approved=false"
+    evaluator_safe: yes
+  - source: "Amabile 1979 JPSP — vault …_a82725bb"
+    note: "Evaluation-expectation / extrinsic constraint. Assessment design for U2 diverge windows."
+    chicago: "(Amabile 1979, 1)"
+    nodes: "f5659140…"
+    catalogue: "urn:in-practice:exercise:86922fb94ad066dca2add3d4 (frame); procedure_approved=false"
+    evaluator_safe: yes
+  - source: "Eberle 1974 JCB creative dramatics — tranche 20261005"
+    note: "Improvisation/group scene as generation mode; Lab candidate after HITL."
+    chicago: "(EBERLE 1974, 2)"
+    nodes: "e7c6a68a… · 80849355…"
+    catalogue: "urn:in-practice:exercise:aab44a88a68bf05b9937cee7 · 804a511d4476c29fc61f45b0; procedure_approved=false"
+    evaluator_safe: yes
+  - source: "Osborn, *Applied Imagination* (2013 Read Books) — vault …_18074cd0"
+    note: "Chapter-end exercise arsenal (SCAMPER Put-to-other-uses / Adapt; brainstorm specificity; listing). Practitioner CPS lineage; HITL before Lab."
+    chicago: "(Osborn 2013, 29); (Osborn 2013, 31)"
+    nodes: "5e809ca9… · 3aaba6a8… · d745d7b9… · 1c1c52f9…"
+    catalogue: "urn:in-practice:exercise:2a13daec7b3daeedfc22eb2d · 3c24dc439024ddcc67b34bcb · 42e53dd5fbd874aa51985537 · fe7f14e89ebf2b821547930c; procedure_approved=false"
+    evaluator_safe: yes
+  - source: "Lamott, *Bird by Bird* (2007) — vault …_3579bf09"
+    note: "Assignment epigraph (truth-telling) + short-assignment / one-inch-frame generation scaffolds. Translate writing prompts to design briefs."
+    chicago: "(Lamott 2007, 10); (Lamott 2007, 11)"
+    nodes: "948852c2… · aac7b708… · e632e981… · c8e36e85…"
+    catalogue: "urn:in-practice:exercise:17a90c9ba4c3e4b34bd66b5f (epigraph) · 748a7506a3443400748aa60c · e67b32deaf49a3c2e1118782 · da2072f062f5fdd0fb000b02; procedure_approved=false"
+    evaluator_safe: yes

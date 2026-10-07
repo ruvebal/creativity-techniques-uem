@@ -97,6 +97,7 @@ The EU AI Act (2024) provides a regulatory framework that aligns with these educ
 - European Parliament & Council of the European Union. 2024. "Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024 Laying Down Harmonised Rules on Artificial Intelligence." _Official Journal of the European Union_. https://eur-lex.europa.eu/eli/reg/2024/1689/oj.
 
 ## AI-assisted authorship
+{: #ai-assisted-authorship }
 
 Instructor transparency  
 Rubén Vega Balbás, PhD, wrote this page with AI assistance and is responsible for the final text; the declaration elements above apply to every piece you submit in this course (portfolio entry, exercise, project, or exam response).

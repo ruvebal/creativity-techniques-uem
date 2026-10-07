@@ -19,7 +19,7 @@
 **Scholarly grounding:** bibliography `~/projects/ruvebal/scholar/bibliographies/creativity` → Ahmes → DevIAC `project_slug=profield-creativity-techniques` (+ `profield-digital-creativity` for U5 Park) → **cite Ahmes nodes only**.  
 **Publication firewall:** full grounding metadata stays in each lesson's Markdown as a switch-gated `curriculum-internal` comment. Student HTML defaults to Chicago author-date + References/Referencias and must contain no Ahmes/Athanor/DevIAC names, resolver labels, IDs, extraction paths, or local architecture.  
 **Do:** open the matching PDF + guía JSON before forging; keep authority maps in pedagogy; author lessons under `docs/`.  
-**Don't:** invent hours beyond the official guía; invent competencies/contents; cite vector snippets; publish grounding; name UDIT or sibling institutions on student-facing surfaces.
+**Don't:** invent hours beyond the official guía; invent competencies/contents; cite vector snippets; publish grounding; name UDIT or sibling institutions on student-facing surfaces; force mid-word / mid-syllable wraps in student HTML (`overflow-wrap: anywhere`, `word-break: break-all` on prose/tables) — Markdown tables must stay whole-word readable; wide tables scroll horizontally instead of shattering labels.
 
 **Special analysis unit (process):** `forge/CREATIVE-PROCESS-ANALYSIS-FORGE.mdc` + `CREATIVE-PROCESS-ANALYSIS.execute.md` — shared frame `~/src/profield/runs/curriculum-analysis-guides/20260927-special-analysis/SHARED-ANALYSIS-FRAME.md` (sibling: DC fashion-image analysis forge).
 

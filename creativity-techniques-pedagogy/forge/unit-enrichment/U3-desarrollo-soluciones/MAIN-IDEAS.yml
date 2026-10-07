@@ -27,3 +27,27 @@ ideas:
     heading: Reflect at checkpoints
     sentence: "Development needs structured pauses: what changed, what stays."
     chicago: null
+enrichment_pending_cites:
+  - source: "Lamott, *Bird by Bird* (2007) — vault …_3579bf09 · tranche Pass B 2026-10-06"
+    note: "Smallest next action / one-inch frame / shitty-first-draft→revise loop for U3. Assignment epigraph: truth-telling. Translate writing prompts to design briefs. HITL before Lab."
+    chicago: "(Lamott 2007, 10); (Lamott 2007, 11); (Lamott 2007, 12)"
+    nodes: "948852c2… · aac7b708… · e632e981… · e6c3fbb2…"
+    catalogue: "urn:in-practice:exercise:17a90c9ba4c3e4b34bd66b5f · 748a7506a3443400748aa60c · e67b32deaf49a3c2e1118782 · 9907f845999151acd44939cf; procedure_approved=false"
+    evaluator_safe: yes
+  - source: "Osborn, *Applied Imagination* (2013) — Adapt / improvement listing"
+    note: "SCAMPER Adapt + screwdriver improvement listing as development prompts after diverge; pair with exit criteria."
+    chicago: "(Osborn 2013, 29); (Osborn 2013, 7)"
+    nodes: "3aaba6a8… · c5519db1…"
+    catalogue: "urn:in-practice:exercise:3c24dc439024ddcc67b34bcb · 9b844f7d4ad04de7a1b94bd6; procedure_approved=false"
+    evaluator_safe: yes
+  - source: "Amabile 1979 — deferred evaluation during development"
+    note: "Do not externally evaluate mid-prototype; critique observation after a rough version exists. Vault …_a82725bb."
+    chicago: "(Amabile 1979, 1)"
+    nodes: "f5659140…"
+    evaluator_safe: yes
+  - source: "Edwards observation drills — OCR vault `9b9c6a62` · tranche 20261005"
+    note: "Sketch-to-think adjacency; perceptual attention before concept lock."
+    chicago: "(Edwards 1999, 281)"
+    nodes: "8ecc3efe…"
+    catalogue: "urn:in-practice:exercise:91ac1033c9941b7e913b38f9; procedure_approved=false"
+    evaluator_safe: yes

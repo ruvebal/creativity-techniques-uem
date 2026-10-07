@@ -32,10 +32,12 @@ Durable reports (not chat-only) for authors, works, ideas, gaps, procedure, feed
 | [`…/GUIDE-usage-vectors-athanor-ahmes-graph.md`](runtime/teaching-suitability/research/GUIDE-usage-vectors-athanor-ahmes-graph.md) | Operator usage guide |
 | [`…/FEEDBACK-RESULTS-2026-09-29.md`](runtime/teaching-suitability/research/FEEDBACK-RESULTS-2026-09-29.md) | Run feedback + open tickets |
 | [`…/PEDAGOGY-FORGE-CONNECTOR.md`](runtime/teaching-suitability/research/PEDAGOGY-FORGE-CONNECTOR.md) | Reach into next CT lessons / Labs |
+| [`…/PRACTICAL-EXERCISES-TRANCHE-2026-10-05.md`](runtime/teaching-suitability/research/PRACTICAL-EXERCISES-TRANCHE-2026-10-05.md) | Practice canons + Pass B (Osborn *Applied Imagination* / Lamott *Bird by Bird*); exercise vs frame |
 | [`runtime/teaching-suitability/EXERCISES-VALIDATED.md`](runtime/teaching-suitability/EXERCISES-VALIDATED.md) | Model shortlist + HITL |
 | [`runtime/teaching-suitability/ATHANOR-AHMES-E2E-REPORT.md`](runtime/teaching-suitability/ATHANOR-AHMES-E2E-REPORT.md) | Earlier E2E run log |
 
 Private only — do not publish `runtime/` to Pages. Lab selection still follows PHASE-IP4 + `ct-unit-forge` §0.8.
+
 
 ### Review recovery — 2026-09-28
 

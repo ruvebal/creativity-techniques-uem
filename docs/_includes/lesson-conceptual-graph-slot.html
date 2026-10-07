@@ -1,0 +1,17 @@
+{% comment %}
+  Mandatory forge placeholder until visual-forger (imagine/diagram) ships the unit graph.
+  Pass: narrative — one sentence linking the graph to the Master idea (student-facing).
+  Agents: read curriculum-internal comment in the lesson for generative_request + photo prompt.
+{% endcomment %}
+{% assign slot_lang = include.lang | default: page.lang | default: 'en' %}
+{% if slot_lang == 'es' %}
+  {% assign slot_label = 'Gráfico conceptual (pendiente)' %}
+  {% assign slot_default = 'Aquí irá el diagrama que hace visible la idea maestra: relaciones entre conceptos, no decoración. Forja con visual-forger (modo diagrama) + grounding-graph para anclar el relato a la evidencia.' %}
+{% else %}
+  {% assign slot_label = 'Conceptual graph (pending)' %}
+  {% assign slot_default = 'Placeholder for the diagram that makes the master idea visible: relations among concepts, not decoration. Forge with visual-forger (diagram mode) + grounding-graph so the figure serves the narrative claim.' %}
+{% endif %}
+<aside class="lesson-media-slot" data-slot="conceptual-graph" aria-label="{{ slot_label }}">
+  <p class="lesson-media-slot__label">{{ slot_label }}</p>
+  <p class="lesson-media-slot__body">{{ include.narrative | default: slot_default }}</p>
+</aside>

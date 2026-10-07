@@ -50,6 +50,18 @@ enrichment_pending_cites:
     note: "Routine-as-creative-practice counterpoint to talent myth; pending Chicago metadata."
   - source: "Lidwell, *The Pocket Universal Principles of Design* (2015) — coat 2d1a2580"
     note: "Constraint / principle vocabulary for buzzword critique; extracted + injected 2026-09-15; Chicago pending `--cite`."
+  - source: "Edwards, *New Drawing on the Right Side of the Brain* — OCR vault `9b9c6a62` · tranche 20261005"
+    note: "Observation/contour → semantic association drill for U1 Lab. Perceptual exercise only; reject left/right-brain mythology."
+    chicago: "(Edwards 1999, 112); (Edwards 1999, 281)"
+    nodes: "f2638b98… · 8ecc3efe…"
+    catalogue: "urn:in-practice:exercise:08ed3d62f2ed0d8027965388 · 91ac1033c9941b7e913b38f9; procedure_approved=false"
+    evaluator_safe: yes
+  - source: "Osborn, *Applied Imagination* (2013) — vault …_18074cd0"
+    note: "Brick alternate-uses / ink-blot resemblance listing as fluency demos (Guilford-adjacent). Practitioner; needs-review short prompts."
+    chicago: "(Osborn 2013, 6); (Osborn 2013, 12)"
+    nodes: "81865440… · 3c95de78…"
+    catalogue: "urn:in-practice:exercise:e840ffbbbb5efb9956e8fed4 · 244c0d6edd163a2ef36d7d5f; procedure_approved=false"
+    evaluator_safe: yes
 workshop_reminder:
   heading: Reminder · From session 3 you start the session
   sentence: "From session 3, two students open the class with a 15-minute analysis defence each. Use Workshop time now to outline that defence."

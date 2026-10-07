@@ -27,3 +27,18 @@ ideas:
     heading: Ethics inside the method
     sentence: Judgment about harm, credit, and feasibility belongs in the workplace toolkit.
     chicago: null
+enrichment_pending_cites:
+  - source: "Nixon, *The Creativity Leap* (2020) — tranche 20261005"
+    note: "Curiosity/improvisation/intuition as workplace behaviours; convert to observable studio moves. Coat evaluator-safe; no Lab drill harvested yet (practitioner frame)."
+    chicago: null
+  - source: "Eberle 1974 creative dramatics — tranche 20261005"
+    note: "Stakeholder-role improvisation + debrief → requirements. Activity design, not CCI labour outcome claim."
+    chicago: "(EBERLE 1974, 2)"
+    nodes: "e7c6a68a… · 80849355…"
+    catalogue: "urn:in-practice:exercise:aab44a88a68bf05b9937cee7 · 804a511d4476c29fc61f45b0; procedure_approved=false"
+    evaluator_safe: yes
+  - source: "Amabile 1979 — protected diverge window"
+    note: "Workplace pitch culture must not evaluate ideation while generating; aligns with idea 3 (design the diverge window)."
+    chicago: "(Amabile 1979, 1)"
+    nodes: "f5659140…"
+    evaluator_safe: yes

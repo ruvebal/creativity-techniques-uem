@@ -37,6 +37,16 @@
 9. **GenAI co-creation vs originality theatre** — Pass-1 ESTABLISHED anchor is Park IASDR 2025 (`10.21606/iasdr.2025.845`). Fieldlex U5 + C3. **Discovery:** Park paper is indexed under `profield-digital-creativity` (sibling slug), not only CT. Vendor GenAI books dominate raw CT-slug GenAI queries — discard for cite; keep for gap awareness.  
 10. **Creative confidence mediates potential → action** (Beghetto/Karwowski) — primary scholarly spine for U6 alongside Kelley *Creative Confidence* (practitioner) and Csikszentmihalyi systems/flow (individual × domain × field).
 
+### Practice canons + evaluation conditions (tranche 2026-10-05)
+
+11. **Quantity before judgment** (Osborn *How to Think Up* + *Applied Imagination* chapter exercises) extends the U2 diverge→select grammar already present in fieldlex `Convergent Selection` — teach listing/combination/SCAMPER as *rehearsable gestures*, then require an explicit selection rubric.  
+12. **External evaluation expectation** (Amabile 1979, vault live) is the assessment corollary: protect ideation windows; evaluate selection rationale and process evidence later. Transfer boundary: experimental art task ≠ proof of the six-unit CT curriculum.  
+13. **Observation drills** (Edwards) and **creative-practice habits** (Cameron) feed U1/U2/U6 Labs as practitioner canons — label them; do not smuggle hemispheric mythology or therapeutic prescription into CONTENIDOS.  
+14. **Improvisation / dramatics** (Eberle) and **curiosity–improvisation–intuition** (Nixon) strengthen U4 workplace Lab language (stakeholder scenes; observable behaviours) without replacing Lucas/Knotts labour critique.  
+15. **Lamott *Bird by Bird*** (vault `…_3579bf09`, 2026-10-06) closes the U3 development loop: smallest next action / one-inch frame / imperfect first draft — plus the workshop truth-telling opening as an **assignment epigraph** `(Lamott 2007, 10)`. Translate writing prompts into design briefs; HITL before Lab.
+
+Detail + Ahmes checklist: [`../in-practice/runtime/teaching-suitability/research/PRACTICAL-EXERCISES-TRANCHE-2026-10-05.md`](../in-practice/runtime/teaching-suitability/research/PRACTICAL-EXERCISES-TRANCHE-2026-10-05.md) · Profield field note: `~/src/profield/fields/creativity-techniques/new-references-practical-exercises.md`.
+
 ---
 
 ## 2. Relate — who talks to whom (edges for the forger)
