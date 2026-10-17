@@ -16,9 +16,9 @@ ideas:
     sentence: Deadlines need a protected generation phase before pitch mode.
     chicago: "(Michalko 2010, 440)"  # pdf_order; Lab method anchor
   - id: 4
-    heading: Techniques meet stakeholders
-    sentence: Dots on the wall show the team’s favourite ideas. They do not show that a real visitor can use the design.
-    chicago: "(Michalko 2010, 402)"  # pdf_order; Wall of Ideas
+    heading: Follow the visitor's route
+    sentence: Observe what a person does in a customer process; select an idea that answers a recorded moment.
+    chicago: "(Michalko 2010, 371)"  # page-verified customer walkthrough
   - id: 5
     heading: Pitch is convergent craft
     sentence: "Presenting is part of creativity technique: criteria, story, constraint honesty."

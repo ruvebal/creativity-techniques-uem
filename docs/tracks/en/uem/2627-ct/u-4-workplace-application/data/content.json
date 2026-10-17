@@ -2,6 +2,7 @@
 layout: null
 ---
 {
+  "schema_version": 2,
   "unit_label": "Creativity Techniques · U4 Applying Creativity Techniques in the Workplace",
   "ttod_index": [
     {
@@ -14,255 +15,337 @@ layout: null
       ]
     }
   ],
-  "assets": [
-    {
-      "media_slot_id": "U4.still.profield-1",
-      "asset_id": "nypl:3432d330-a629-0135-2798-05f9b175829f",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/0a359d9b946505e1.php",
-      "source_file_url": "https://images.nypl.org/index.php?id=57378963&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/3432d330-a629-0135-2798-05f9b175829f",
-      "alt_text": "Man dreaming",
-      "title": "Man dreaming",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 999,
-      "selection_rank": 999,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "U4.still.profield-2",
-      "asset_id": "nypl:1ff4e4e0-c62b-012f-8b5a-58d385a7bc34",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/3431b3f642ee6a65.php",
-      "source_file_url": "https://images.nypl.org/index.php?id=1642709&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/1ff4e4e0-c62b-012f-8b5a-58d385a7bc34",
-      "alt_text": "A patent sideboard.",
-      "title": "A patent sideboard.",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 3,
-      "selection_rank": 3,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "U4.still.profield-3",
-      "asset_id": "nypl:2afc3a50-4770-0138-609c-5b4d66922571",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/7d20d950889bbb4b.php",
-      "source_file_url": "https://images.nypl.org/index.php?id=58648191&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/2afc3a50-4770-0138-609c-5b4d66922571",
-      "alt_text": "Classroom at Greenbelt, Maryland, school",
-      "title": "Classroom at Greenbelt, Maryland, school",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 9,
-      "selection_rank": 9,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "U4.still.profield-4",
-      "asset_id": "nypl:30e47f20-5a52-0133-dc8e-00505686a51c",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/45ae01614da4f3cc.php",
-      "source_file_url": "https://images.nypl.org/index.php?id=5377959&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/30e47f20-5a52-0133-dc8e-00505686a51c",
-      "alt_text": "Manifestation Dada",
-      "title": "Manifestation Dada",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 8,
-      "selection_rank": 8,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "U4.still.profield-5",
-      "asset_id": "nypl:35535f50-0109-0135-f170-0dce48425fe1",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/cc5c334d35250d00.php",
-      "source_file_url": "https://images.nypl.org/index.php?id=57405662&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/35535f50-0109-0135-f170-0dce48425fe1",
-      "alt_text": "Decoration de la salle de spectacle",
-      "title": "Decoration de la salle de spectacle",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 10,
-      "selection_rank": 10,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "U4.still.profield-6",
-      "asset_id": "nypl:4fde5b00-c5d6-012f-1c90-58d385a7bc34",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/34ca859e7a832527.php",
-      "source_file_url": "https://images.nypl.org/index.php?id=T000182&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/4fde5b00-c5d6-012f-1c90-58d385a7bc34",
-      "alt_text": "Circus performers.",
-      "title": "Circus performers.",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 9,
-      "selection_rank": 9,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "U4.still.profield-7",
-      "asset_id": "nypl:510d47d9-83ad-a3d9-e040-e00a18064a99",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/55a22f1e8a0201ae.php",
-      "source_file_url": "https://images.nypl.org/index.php?id=1221640&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/510d47d9-83ad-a3d9-e040-e00a18064a99",
-      "alt_text": "An illustration of gates",
-      "title": "An illustration of gates",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 8,
-      "selection_rank": 8,
-      "collection": "unit-accepted"
-    },
-    {
-      "media_slot_id": "U4.still.profield-8",
-      "asset_id": "nypl:510d47d9-3f28-a3d9-e040-e00a18064a99",
-      "asset_url": "/creativity-techniques-uem/assets/images/profield-cache/c142adfa3ec48f79.php",
-      "source_file_url": "https://images.nypl.org/index.php?id=74195&t=w",
-      "canonical_source_url": "http://digitalcollections.nypl.org/items/510d47d9-3f28-a3d9-e040-e00a18064a99",
-      "alt_text": "12\" gun in Action, Naval",
-      "title": "12\" gun in Action, Naval",
-      "provider": "nypl",
-      "credit_line": "nypl",
-      "licence": "",
-      "priority": 8,
-      "selection_rank": 8,
-      "collection": "unit-accepted"
-    }
-  ],
+  "assets": [],
+  "media_selection": {
+    "unit_id": "U4",
+    "project_id": "tc",
+    "strategy": "diagram-fallback",
+    "description": "No U4 media asset has a cleared slide-bound rights record. Koch triangle course diagrams carry the idea until suitable assets pass the rights gate."
+  },
   "slides": [
     {
+      "slide_id": "cover",
       "slide_role": "unit_cover",
-      "background_kind": "profield",
-      "media_slot_id": "U4.still.profield-1",
+      "background_kind": "diagram",
       "heading": "U4 · Creativity techniques at work",
-      "sentence": "Techniques meet briefs, deadlines, teams, and credit — or they stay classroom games.",
-      "quote": "A vote is not a visit. Preference is not proof.",
+      "sentence": "Generate under the brief. Select with care. Keep the gap visible.",
+      "image_brief": "A course Koch-triangle diagram opening into two branches: visual generation and careful workplace selection.",
+      "quote": "Walk one route. Ask who has not walked it yet.",
       "quote_origin": "tao_invented",
       "citation": {
         "label": "(Tao of Creativity)",
-        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-4-workplace-application/#references"
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-4-2-select-with-care/#tao-of-creativity"
+      },
+      "semantic_tags": {
+        "themes": [
+          "workplace-application",
+          "ethical-design-judgment"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "getty_aat": [
+          "aphorisms",
+          "design (discipline)"
+        ],
+        "dcterms": [
+          "dcterms:subject",
+          "dcterms:type=Text"
+        ]
       }
     },
     {
+      "slide_id": "analysis-opener",
       "slide_role": "analysis_opener",
       "background_kind": "geometrical",
       "heading": "Analysis opens the class",
-      "sentence": "From session 3: two students defend a D1 piece for 15 minutes. Ask how the piece would survive a workplace brief."
+      "sentence": "From session 3: two students defend a D1 piece for 15 minutes. Name language, medium, and support.",
+      "caption": "Koch triangle course diagram · #5cc4358a"
     },
     {
+      "slide_id": "masterclass-1",
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "U4.still.profield-3",
-      "heading": "1 · Conditions beat slogans",
-      "sentence": "Time, safety, and permission are design decisions. Overload pushes thinking toward convention.",
-      "citation": {
-        "label": "(Fisher 2012, 27)",
-        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-4-workplace-application/#ref-fisher-2012"
-      }
-    },
-    {
-      "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "U4.still.profield-4",
-      "heading": "2 · Watch passion rhetoric",
-      "sentence": "Enthusiasm is not consent to unlimited or uncredited work. Keep a contribution log."
-    },
-    {
-      "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "U4.still.profield-5",
-      "heading": "3 · Design the diverge window",
-      "sentence": "Protect generation before judging. The deadline stays; the window is scheduled.",
+      "background_kind": "diagram",
+      "heading": "1 · Generate before you judge",
+      "sentence": "An unrelated picture can open a route through a workplace brief. The deadline can stay fixed.",
+      "image_brief": "An abstract course diagram linking an unrelated picture to several possible design routes, without marking one as the winner.",
+      "quote": "Give each group member a folder containing two or three pictures that are not related to the problem area.",
+      "quote_origin": "page_verified",
       "citation": {
         "label": "(Michalko 2010, 440)",
-        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-4-workplace-application/#ref-michalko-2010"
-      }
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-4-1-generate-before-you-judge/#ref-michalko-2010"
+      },
+      "semantic_tags": {
+        "themes": [
+          "visual-stimulus",
+          "divergent-thinking"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "notes": "- The first lesson protects a generation window inside a real brief.\n- Ask a Crab uses unrelated pictures as prompts; the class adapts its five-step blueprint.\n- The timer is a professor proposal, not a source instruction.\nSource: (Michalko 2010, 440).\nAsk: What can the image open that the first reading of the brief did not?",
+      "claims": [
+        {
+          "text": "Give each group member a folder containing two or three pictures that are not related to the problem area.",
+          "cite": "Michalko 2010, 440"
+        }
+      ]
     },
     {
+      "slide_id": "masterclass-2",
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "U4.still.profield-6",
-      "heading": "4 · Techniques meet stakeholders",
-      "sentence": "Dots on the wall show the team’s favourite ideas. They do not show that a real visitor can use the design.",
+      "background_kind": "diagram",
+      "heading": "2 · Build on the connection",
+      "sentence": "Read ideas aloud, add a modification, and record the new route before evaluation.",
+      "image_brief": "A course diagram showing one visual association branching into a teammate's modification while both traces remain visible.",
+      "quote": "As each idea is read, ask the group members to discuss it and try to develop new ideas or modifications.",
+      "quote_origin": "page_verified",
       "citation": {
-        "label": "(Michalko 2010, 402)",
-        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-4-workplace-application/#ref-michalko-2010"
-      }
+        "label": "(Michalko 2010, 440)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-4-1-generate-before-you-judge/#ref-michalko-2010"
+      },
+      "semantic_tags": {
+        "themes": [
+          "collaboration",
+          "idea-development"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "notes": "- Let the group develop or modify ideas before it evaluates.\n- Save who added each change so the contribution trail does not disappear.\nSource: (Michalko 2010, 440).\nAsk: Which addition changed the direction of the first idea?",
+      "claims": [
+        {
+          "text": "As each idea is read, ask the group members to discuss it and try to develop new ideas or modifications.",
+          "cite": "Michalko 2010, 440"
+        }
+      ]
     },
     {
+      "slide_id": "masterclass-3",
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "media_slot_id": "U4.still.profield-7",
-      "heading": "5 · Pitch is convergent craft",
-      "sentence": "Present criteria, limits, and the next test. Keep one unresolved concern on the card."
+      "background_kind": "diagram",
+      "heading": "3 · Follow the route from another point of view",
+      "sentence": "Observe where a first-time visitor looks, pauses, turns, or asks what to do next.",
+      "image_brief": "A course diagram tracing a visitor route with observation notes at a pause, a turn, and a search for a sign.",
+      "quote": "People turn around to find out what it's really like to be someone in a different position.",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Michalko 2010, 371)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-4-2-select-with-care/#ref-michalko-2010"
+      },
+      "semantic_tags": {
+        "themes": [
+          "contextual-observation",
+          "visitor-journey"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "notes": "- U4.2 starts from the idea set saved in U4.1, then observes a route rather than running another vote.\n- Record what a walker does and says before interpreting it.\n- The classroom route walk is a course adaptation, not representative visitor research.\nSource: (Michalko 2010, 371).\nAsk: What would a real visitor need to tell you that this walkthrough cannot?",
+      "claims": [
+        {
+          "text": "People turn around to find out what it's really like to be someone in a different position.",
+          "cite": "Michalko 2010, 371"
+        }
+      ]
     },
     {
+      "slide_id": "masterclass-4",
       "slide_role": "masterclass",
-      "background_kind": "profield",
-      "heading": "6 · Ethics inside the method",
-      "sentence": "Name harm, credit, and feasibility before a team calls an idea ready.",
-      "media_slot_id": "U4.still.profield-8"
+      "background_kind": "diagram",
+      "heading": "4 · Record what happened before you explain it",
+      "sentence": "Use observations to choose an idea for the next check; one peer walkthrough cannot speak for every visitor.",
+      "image_brief": "A course diagram linking a written action note at a route junction to one idea carried forward and an open question for a future user check.",
+      "quote": "Recording particular behavior, words, and actions that critically affected their attitude as 'buyers.'",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Michalko 2010, 371)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-4-2-select-with-care/#ref-michalko-2010"
+      },
+      "semantic_tags": {
+        "themes": [
+          "observation-notes",
+          "ethical-design-judgment"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "notes": "- Separate recorded actions and words from interpretations.\n- Compare the route notes with U4.1's saved idea set and carry forward one idea that responds to an observed moment.\n- The role rotation, selection criterion, and next-check question are course adaptations. A peer walkthrough is not representative visitor research.\nSource: (Michalko 2010, 371).\nAsk: Whose experience still needs to be checked?",
+      "claims": [
+        {
+          "text": "Recording particular behavior, words, and actions that critically affected their attitude as 'buyers.'",
+          "cite": "Michalko 2010, 371"
+        }
+      ]
     },
     {
+      "slide_id": "retrieval",
+      "slide_role": "retrieval",
+      "background_kind": "geometrical",
+      "heading": "Recall check",
+      "sentence": "Alone, from memory, 3 minutes. Then compare with a partner.",
+      "caption": "Koch triangle course diagram · #5cc4358a",
+      "questions": [
+        "What kind of stimulus does Ask a Crab use?",
+        "Before evaluation, what does the team do with each idea?",
+        "What should an observer record during a customer walkthrough?",
+        "After the customer walkthrough, what do the salespeople do?",
+        "What can experiencing a customer's process reveal?"
+      ],
+      "notes": "- Timer: 3 minutes. Students answer alone, from memory; then compare with a partner.\n- Practice only. The knowledge-test bank is a draft and is not approved for graded use.\nAnswers:\n- 1. Pictures unrelated to the problem area (Michalko 2010, 440).\n- 2. Discuss it, develop new ideas or modifications, and record them (Michalko 2010, 440).\n- 3. Behaviors, words, and actions that affect the customer's attitude (Michalko 2010, 371).\n- 4. Share their experiences and discuss ways to improve their own service (Michalko 2010, 371).\n- 5. What talking about another person's position alone cannot (Michalko 2010, 371).\nAsk: Which answer needs another look before Lab?",
+      "claims": [
+        {
+          "text": "Give each group member a folder containing two or three pictures that are not related to the problem area.",
+          "cite": "Michalko 2010, 440"
+        },
+        {
+          "text": "As each idea is read, ask the group members to discuss it and try to develop new ideas or modifications.",
+          "cite": "Michalko 2010, 440"
+        },
+        {
+          "text": "People turn around to find out what it's really like to be someone in a different position.",
+          "cite": "Michalko 2010, 371"
+        },
+        {
+          "text": "Recording particular behavior, words, and actions that critically affected their attitude as 'buyers.'",
+          "cite": "Michalko 2010, 371"
+        },
+        {
+          "text": "At the sales meeting, they shared their experiences and talked about ways they could improve their own selling skills.",
+          "cite": "Michalko 2010, 371"
+        }
+      ]
+    },
+    {
+      "slide_id": "lab-opener",
       "slide_role": "lab_opener",
       "background_kind": "geometrical",
       "heading": "Lab · Portfolio",
-      "sentence": "Two exercises come next. Everything you make in Lab goes into your portfolio index.",
+      "sentence": "Two exercises come next. Everything you produce in Lab goes into your portfolio index.",
+      "caption": "Koch triangle course diagram · #5cc4358a",
       "portfolio_bound": true,
       "portfolio_trace": "Save both traces in the portfolio index."
     },
     {
+      "slide_id": "lab-1",
       "slide_role": "lab_exercise",
       "background_kind": "diagram",
       "heading": "Exercise 1 · Ask a Crab — picture diverge",
-      "sentence": "Follow Michalko’s BLUEPRINT steps 1–4 under the Atrium brief. Defer step 5 evaluate (Michalko 2010, 439–440).",
+      "sentence": "Use unrelated pictures to open routes through the brief. Record the ideas and stop before evaluation.",
+      "image_brief": "A course diagram of an unrelated picture prompting several possible design routes, with no selected winner.",
+      "quote": "After a designated period, ask the group members to read their ideas aloud.",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Michalko 2010, 440)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-4-1-generate-before-you-judge/#ref-michalko-2010"
+      },
+      "semantic_tags": {
+        "themes": [
+          "visual-stimulus",
+          "divergent-thinking"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
       "portfolio_bound": true,
-      "portfolio_trace": "Save the brief, pictures used, idea list, and the note that evaluation was deferred."
+      "portfolio_trace": "Save the brief, pictures, initial connections, additions, and note that selection was deferred.",
+      "technique_id": "brainstorming-osborn",
+      "practises": [
+        "masterclass-1",
+        "masterclass-2"
+      ],
+      "timer_seconds": 1200,
+      "notes": "- Follow the five-step Ask a Crab blueprint as a classroom adaptation: state the brief and brainstorm; distribute unrelated pictures; write and share associations; develop and record additions; defer collecting and evaluation to the next exercise.\n- The proposed twenty-minute class timing is the professor's adaptation.\n- Accessibility: students may write or type instead of speaking.\nSource: (Michalko 2010, 439–440).\nAsk: What did the visual prompt make possible to notice?",
+      "claims": [
+        {
+          "text": "After a designated period, ask the group members to read their ideas aloud.",
+          "cite": "Michalko 2010, 440"
+        }
+      ]
     },
     {
+      "slide_id": "lab-2",
       "slide_role": "lab_exercise",
       "background_kind": "diagram",
-      "heading": "Exercise 2 · Wall of Ideas — cluster and prefer",
-      "sentence": "Run Wall of ideas for clustering and dots, then a decision card with one unresolved concern (Michalko 2010, 402).",
+      "heading": "Exercise 2 · Visitor Journey Walkthrough — follow and record the route",
+      "sentence": "Walk a public route from a first-time visitor's point of view. Record what happens, then choose an idea for a real check.",
+      "image_brief": "A course diagram of a visitor route with action notes at decision points, one idea carried forward, and an open question for a later user check.",
+      "quote": "Recording particular behavior, words, and actions that critically affected their attitude as 'buyers.'",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Michalko 2010, 371)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-4-2-select-with-care/#ref-michalko-2010"
+      },
+      "semantic_tags": {
+        "themes": [
+          "contextual-observation",
+          "ethical-design-judgment"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
       "portfolio_bound": true,
-      "portfolio_trace": "Save wall photo, tally, decision card, contribution log, and what the tally does not prove."
+      "portfolio_trace": "Save the route and visitor task, role names, observation notes, selected U4.1 idea and criterion, and one unresolved question.",
+      "technique_id": "contextual-observation",
+      "practises": [
+        "masterclass-3",
+        "masterclass-4"
+      ],
+      "timer_seconds": 1200,
+      "notes": "- Continue from Exercise 1; do not generate or vote on a replacement set.\n- The source describes customers' process walkthroughs and recording the behaviors, words, and actions that affect their attitude.\n- The campus route task, role rotation, observation note sheet, selection criterion, and portfolio fields are professor adaptations. Do not impersonate a disability or present peer observations as visitor research.\nSource: (Michalko 2010, 371).\nAsk: Which observed moment does the selected idea answer, and whose experience still needs checking?",
+      "claims": [
+        {
+          "text": "Recording particular behavior, words, and actions that critically affected their attitude as 'buyers.'",
+          "cite": "Michalko 2010, 371"
+        }
+      ]
     },
     {
+      "slide_id": "workshop-opener",
+      "slide_role": "workshop_opener",
+      "background_kind": "geometrical",
+      "heading": "Workshop · Deliverable",
+      "sentence": "From session 4: about half D2 Transposition, about half the D3 Atrium final event.",
+      "caption": "Koch triangle course diagram · #5cc4358a"
+    },
+    {
+      "slide_id": "workshop-1",
       "slide_role": "workshop_work",
-      "background_kind": "profield",
-      "heading": "Workshop · Pitch the decision",
-      "sentence": "Show the decision card: what you chose, why it fits the brief, what you will test next, and one concern still open.",
-      "media_slot_id": "U4.still.profield-2"
+      "background_kind": "diagram",
+      "heading": "Carry the observation into a public sign",
+      "sentence": "Name the observed moment, the idea it changed, the unresolved question, and the next check. Show what changes as the design reaches the Atrium.",
+      "image_brief": "A course diagram carrying a recorded route moment into a private design note and a public Atrium sign, with one open question still visible.",
+      "quote": "Walk one route. Ask who has not walked it yet.",
+      "quote_origin": "tao_invented",
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-4-2-select-with-care/#tao-of-creativity"
+      },
+      "semantic_tags": {
+        "themes": [
+          "contextual-observation",
+          "ethical-design-judgment"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "portfolio_bound": true,
+      "portfolio_trace": "Save a pitch outline and a version for public circulation."
     },
     {
+      "slide_id": "outro",
       "slide_role": "outro",
       "background_kind": "geometrical",
       "heading": "Carry forward",
-      "sentence": "A class vote is not a visitor test. Name the gap you will investigate next."
+      "sentence": "One route is a clue. Name the next voice you need to hear.",
+      "caption": "Koch triangle course diagram · #5cc4358a"
     }
-  ],
-  "media_selection": {
-    "unit_id": "U4",
-    "project_id": "tc",
-    "collection": "unit-accepted",
-    "strategy": "review-state-assigned",
-    "description": "Cover dreamer; analysis_model removed; Classroom→Conditions then +1 through Ethics (naval); patent on Workshop pitch; Lab exercises without photos.",
-    "media_overrides": {
-      "U4.still.profield-1": "nypl:3432d330-a629-0135-2798-05f9b175829f",
-      "U4.still.profield-2": "nypl:1ff4e4e0-c62b-012f-8b5a-58d385a7bc34",
-      "U4.still.profield-3": "nypl:2afc3a50-4770-0138-609c-5b4d66922571",
-      "U4.still.profield-4": "nypl:30e47f20-5a52-0133-dc8e-00505686a51c",
-      "U4.still.profield-5": "nypl:35535f50-0109-0135-f170-0dce48425fe1",
-      "U4.still.profield-6": "nypl:4fde5b00-c5d6-012f-1c90-58d385a7bc34",
-      "U4.still.profield-7": "nypl:510d47d9-83ad-a3d9-e040-e00a18064a99",
-      "U4.still.profield-8": "nypl:510d47d9-3f28-a3d9-e040-e00a18064a99"
-    }
-  }
+  ]
 }

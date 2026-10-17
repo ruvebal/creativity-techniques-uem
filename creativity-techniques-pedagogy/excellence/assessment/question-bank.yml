@@ -1,4 +1,4 @@
-# Knowledge-test question bank — Creativity Techniques, U1–U3 (PHASE-EX10). PRIVATE: never publish.
+# Knowledge-test question bank — Creativity Techniques, U1–U4 (PHASE-EX10). PRIVATE: never publish.
 #
 # STATUS: DRAFT under AUTOPILOT §2 (EX10 row) — approved_by: autopilot (drafts — not for use
 # before professor approval). See APPROVAL.md. Not for any exam or graded use until the
@@ -37,6 +37,7 @@ units:
   U1: { slug: u-1-introduction-creativity, lesson: /lessons/en/creativity-techniques/u-1-introduction-creativity/ }
   U2: { slug: u-2-idea-generation-selection, lesson: /lessons/en/creativity-techniques/u-2-idea-generation-selection/ }
   U3: { slug: u-3-development-solutions, lesson: /lessons/en/creativity-techniques/u-3-development-solutions/ }
+  U4: { slug: u-4-workplace-application, lesson: /lessons/en/creativity-techniques/u-4-workplace-application/ }
 questions:
   # ---------------------------------------------------------------- U1
   - id: U1-01
@@ -950,3 +951,74 @@ questions:
     where: Masterclass idea 1 (Make it rough, make it early)
     anchor: masterclass
     drafted: hand
+  # ---------------------------------------------------------------- U4 (draft retrieval practice; not exam or graded use)
+  - id: U4-01
+    unit: U4
+    ra: RA5
+    type: short
+    bloom: remember
+    stem: In Ask a Crab, what kind of stimulus does the group use?
+    answer: Pictures unrelated to the problem area.
+    ref: michalko-2010
+    where: Lab Exercise 1
+    anchor: lab-exercise-1
+    drafted: hand
+    public_quiz: true
+    retrieval: What kind of stimulus does Ask a Crab use?
+    retrieval_answer: Pictures unrelated to the problem area (Michalko 2010, 440).
+  - id: U4-02
+    unit: U4
+    ra: RA14
+    type: short
+    bloom: understand
+    stem: Before evaluation, what does the Ask a Crab blueprint ask a team to do with each shared idea?
+    answer: Discuss it, develop new ideas or modifications, and record them.
+    ref: michalko-2010
+    where: Lab Exercise 1
+    anchor: lab-exercise-1
+    drafted: hand
+    public_quiz: true
+    retrieval: Before evaluation, what does the team do with each idea?
+    retrieval_answer: Discuss it, develop new ideas or modifications, and record them (Michalko 2010, 440).
+  - id: U4-03
+    unit: U4
+    ra: RA15
+    type: short
+    bloom: remember
+    stem: In Walking in the Customer's Shoes, what should an observer record during the customer process?
+    answer: Behaviors, words, and actions that affect the customer's attitude.
+    ref: michalko-2010
+    where: Lab Exercise 2
+    anchor: lab-exercise-2
+    drafted: hand
+    public_quiz: true
+    retrieval: What should an observer record during a customer walkthrough?
+    retrieval_answer: Behaviors, words, and actions that affect the customer's attitude (Michalko 2010, 371).
+  - id: U4-04
+    unit: U4
+    ra: RA14
+    type: short
+    bloom: understand
+    stem: After walking through the customer process, what do the salespeople do?
+    answer: Share their experiences and discuss ways to improve their own service.
+    ref: michalko-2010
+    where: Lab Exercise 2
+    anchor: lab-exercise-2
+    drafted: hand
+    public_quiz: true
+    retrieval: After the customer walkthrough, what do the salespeople do?
+    retrieval_answer: Share their experiences and discuss ways to improve their own service (Michalko 2010, 371).
+  - id: U4-05
+    unit: U4
+    ra: RA12
+    type: short
+    bloom: remember
+    stem: What does the customer walkthrough reveal beyond merely talking about another person's position?
+    answer: Experiencing the process can reveal what talking about it alone does not.
+    ref: michalko-2010
+    where: Lab Exercise 2
+    anchor: lab-exercise-2
+    drafted: hand
+    public_quiz: true
+    retrieval: What can experiencing a customer's process reveal?
+    retrieval_answer: What talking about another person's position alone cannot (Michalko 2010, 371).

@@ -7,11 +7,11 @@ status: DRAFT
 
 | Artefact | Path (private unless stated) | State |
 | --- | --- | --- |
-| Knowledge-test question bank (68 items, U1–U3) | `creativity-techniques-pedagogy/excellence/assessment/question-bank.yml` | draft — not for any exam or graded use |
+| Knowledge-test question bank (73 items, U1–U4) | `creativity-techniques-pedagogy/excellence/assessment/question-bank.yml` | draft — U4 adds five retrieval items used for public practice; not for any exam or graded use |
 | Measurement protocol (pre/post AUT + peer CAT + SSCS) | `creativity-techniques-pedagogy/excellence/assessment/MEASUREMENT-PROTOCOL.md` | draft — **not started**; two sources pending (Amabile 1982, Karwowski 2012) |
 | Consent forms, Spanish and English | `creativity-techniques-pedagogy/consent/CONSENT-FORM-ES.md`, `CONSENT-FORM-EN.md` | draft — not to be handed out |
 | Public practice quizzes (5 per unit, from the bank) | `docs/practice/en/u-*/` (public) | published on the phase branch; same approval applies before release |
-| Retrieval slides (5 recall questions per deck, from the bank) | U1–U3 deck `content.json` (public) | as above |
+| Retrieval slides (5 recall questions per deck, from the bank) | U1–U4 deck `content.json` (public) | as above |
 | Peer rating sheet | `docs/practice/en/peer-rating-sheet/` (public) | classroom tool; as above |
 
 ## Professor sign-off (P0 in FINAL-REVIEW.md)

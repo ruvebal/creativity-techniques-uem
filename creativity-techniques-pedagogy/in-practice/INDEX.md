@@ -42,8 +42,10 @@ Private only — do not publish `runtime/` to Pages. Lab selection still follows
 ### Review recovery — 2026-09-28
 
 2026-10-04 evening: U4 lesson + deck pilot shipped (operator prose after
-Thessia audit). Lab = Ask a Crab diverge + Wall of Ideas select (hybrid
-adaptation disclosed). Receipt `forge/receipts/U4-LAB-IN-PRACTICE-2026-10-04.md`.
+Thessia audit). Initial Lab = Ask a Crab diverge + Wall of Ideas select (hybrid
+adaptation disclosed); superseded after the no-repeat audit on 2026-10-13.
+Current Lab = Ask a Crab visual generation + customer-journey observation. Receipt
+`forge/receipts/U4-LAB-IN-PRACTICE-2026-10-04.md` records both decisions.
 Adjudication `runtime/review/u4-thinkertoys-adjudication.md`. No procedure
 approval; Michalko locators remain pdf_order; Lucas cite not evaluator-safe.
 

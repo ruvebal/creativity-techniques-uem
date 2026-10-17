@@ -151,6 +151,14 @@ knapp-2016:
     Knapp, Jake, John Zeratsky, and Braden Kowitz. 2016. *Sprint: How to Solve Big Problems and Test
     New Ideas in Just Five Days*. New York: Simon & Schuster.
 
+michalko-2010:
+  sort: "Michalko 2010"
+  year: 2010
+  edition_used: "2nd ed. (printed folios checked against source PDF)."
+  chicago: >-
+    Michalko, Michael. 2010. *Thinkertoys: A Handbook of Creative-Thinking Techniques*. 2nd ed.
+    Berkeley: Ten Speed Press.
+
 norman-2013:
   sort: "Norman 2013"
   year: 2013

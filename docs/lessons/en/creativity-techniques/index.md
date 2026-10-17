@@ -34,7 +34,7 @@ Start the [Final Portfolio Notebook]({{ '/assignments/en/creativity-techniques-p
 | U1 | Introduction to creativity and its importance | [Lesson]({{ '/lessons/en/creativity-techniques/u-1-introduction-creativity/' | relative_url }}) | [Deck]({{ '/tracks/ct/u-1-introduction-creativity/' | relative_url }}) |
 | U2 | Idea generation and selection techniques | [Lesson]({{ '/lessons/en/creativity-techniques/u-2-idea-generation-selection/' | relative_url }}) | [Deck]({{ '/tracks/ct/u-2-idea-generation-selection/' | relative_url }}) |
 | U3 | Development techniques and solutions | [Lesson]({{ '/lessons/en/creativity-techniques/u-3-development-solutions/' | relative_url }}) | [Deck]({{ '/tracks/ct/u-3-development-solutions/' | relative_url }}) |
-| U4 | Applying creativity techniques in the workplace | [Lesson]({{ '/lessons/en/creativity-techniques/u-4-workplace-application/' | relative_url }}) | [Deck]({{ '/tracks/ct/u-4-workplace-application/' | relative_url }}) |
+| U4 | Applying creativity techniques in the workplace | [U4.1 · Generate]({{ '/lessons/en/creativity-techniques/u-4-1-generate-before-you-judge/' | relative_url }}) · [U4.2 · Select]({{ '/lessons/en/creativity-techniques/u-4-2-select-with-care/' | relative_url }}) · [unit hub]({{ '/lessons/en/creativity-techniques/u-4-workplace-application/' | relative_url }}) | [Deck]({{ '/tracks/ct/u-4-workplace-application/' | relative_url }}) |
 | U5–U6 | Not yet published | — | — |
 
 ## Master Lectures (transversal)

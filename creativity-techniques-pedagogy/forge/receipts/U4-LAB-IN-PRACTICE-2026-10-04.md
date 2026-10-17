@@ -1,5 +1,7 @@
 # U4 Lab · in-practice selection receipt
 
+> The 2026-10-04 selection below is historical and was superseded on 2026-10-13 after a cross-lesson no-repeat audit. The current U4.2 selection and evidence are recorded in “Current selection and no-repeat audit.”
+
 Date: 2026-10-04  
 Unit: U4 · Applying creativity techniques in the workplace  
 Objectives matched: workplace transfer · protected diverge · shared selection · credit/ethics · pitch with unresolved concern
@@ -12,7 +14,7 @@ Objectives matched: workplace transfer · protected diverge · shared selection 
 - Context review: `runtime/u4-thinkertoys-review-20261004/` · adjudication `runtime/review/u4-thinkertoys-adjudication.md`
 - Shortlist map: `runtime/teaching-suitability/EXERCISES-VALIDATED.md` (62 + HITL; not procedure-approved)
 
-## Selected (exactly two Lab titles)
+## Initial selection (superseded 2026-10-13)
 
 | Lab | Classroom title | URN | Source name | Status | Chicago | Coat / node |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -52,3 +54,33 @@ Retained in `runtime/u4-thinkertoys-review-20261004/source-packet.json` (hash-bo
 - `docs/lessons/en/creativity-techniques/u-4-workplace-application/index.md`
 - `docs/tracks/en/uem/2627-ct/u-4-workplace-application/`
 - Track index Units table + `docs/_data/tracks.yml`
+
+## U4 two-lesson split · 2026-10-13
+
+The U4 sequence now follows the twelve-lesson plan:
+
+| Lesson | Exercise record | Canonical technique match | Official outcome fit |
+| --- | --- | --- | --- |
+| U4.1 · Generate before you judge | `urn:in-practice:exercise:6a53c97a0ceade0b828ae569` · Picture Prompting inside the full Ask a Crab blueprint | `brainstorming-osborn` | RA5, RA6, RA14, RA15 |
+| U4.2 · Follow the visitor, then choose what to check | `urn:in-practice:exercise:f518593e47f80d5a916ce40c` · Walking in the Customer's Shoes, adapted as a route walkthrough | `contextual-observation` | RA5, RA12, RA14, RA15 |
+
+The official guide’s U4 anchor is unchanged: **Aplicación de las técnicas de creatividad en el ámbito laboral.** Its five U4 learning outcomes remain the source for the listed outcome matches. Ask a Crab is split after its first four source steps; U4.2 uses U4.1’s saved idea set as input to a materially different operation: situated observation, then an evidence-linked choice. The class brief, route task, timings, portfolio fields, and selection criterion are professor adaptations.
+
+### Live citation and source check
+
+- Michalko, *Thinkertoys*, source context at pages 440 and 371 was read from the private catalogue on 2026-10-13.
+- Ahmes `--cite` returned `(Michalko 2010, 440)` for node `aa4b906e-9a2d-55e4-bd39-1dd0aad4c63d` and `(Michalko 2010, 371)` for node `d1f916c0-e642-5b14-8bde-88a0b6f9d3af`; both reported `evaluator_safe=yes`, `scheme=pdf_order`.
+- Repetition found: Wall of Ideas uses clustering plus silent dot voting and shortlist discussion, overlapping U2 Exercise 2 (`hits-dot-voting`). U4.2 now uses a distinct customer-journey observation operation. Its candidate record remains `needs-review`; procedure approval remains false.
+- Cross-lesson comparison: U1 alternative uses / cut-up; U2 brainwriting / dot-based selection with COCD and hats; U3 parallel prototyping / delayed-judgement checkpoint; U4.1 visual prompting / U4.2 contextual observation. No other assigned Lab repeats the same operative exercise in this lesson set.
+- The reading-view snapshot currently shows `[BIBLIO-GAP]` on these exercise excerpts; that conflicts with the live citation resolver. The lesson comments and this receipt preserve the successful live result. Exercise records remain `candidate` / `needs-review`; procedure approval remains false.
+- The U4 deck now uses schema v2, diagram fallbacks, slide-bound image briefs, one five-question retrieval slide, and exactly two catalogue-backed Lab slides. The U4 retrieval items are drafts in the private bank, not approved exam or graded material.
+- Both student lesson pages and the original U4 hub resolve to the same unit deck so the two Lab cards remain one ordered exercise chain in the single official U4 unit deck.
+
+## Current selection and no-repeat audit · 2026-10-13
+
+| Candidate | Comparison | Decision |
+| --- | --- | --- |
+| `urn:in-practice:exercise:c478dad9bd877b62478ffbf9` · Wall of Ideas | Repeats U2 Exercise 2's silent dot selection and shortlist discussion (`hits-dot-voting`). | Rejected as a duplicate; retained here only as historical source evidence. |
+| `urn:in-practice:exercise:f518593e47f80d5a916ce40c` · Walking in the Customer's Shoes | Distinct contextual observation: walk a process from another person's position and record behaviors, words, and actions. | Selected for U4.2, adapted to a first-time visitor route walkthrough. |
+
+The new U4.2 card does not impersonate disability or present student-peer observations as visitor research. It selects one U4.1 idea that answers a recorded moment, states the criterion, and leaves a real user check open. The same output carries forward, but the exercise operation changes from visual association/generation to contextual observation. The current student lesson, deck, hub, and retrieval bank reflect this selection.
