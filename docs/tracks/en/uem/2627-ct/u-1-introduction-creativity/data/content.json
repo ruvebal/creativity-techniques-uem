@@ -70,6 +70,25 @@ layout: null
       "cropped": false
     },
     {
+      "media_slot_id": "U1.masterclass-2",
+      "asset_id": "wikimedia:File:Kohs Block Design Test - Figure 1.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/e654c33162f2c19a.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Kohs_Block_Design_Test_-_Figure_1.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Kohs_Block_Design_Test_-_Figure_1.jpg",
+      "title": "Kohs Block Design Test - Figure 1",
+      "alt_text": "Black-and-white figure of patterned cubes from the Kohs Block Design Test.",
+      "author": "S. C. Kohs",
+      "licence": "NoC-US+EU-checked",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "S. C. Kohs · Wikimedia Commons",
+      "author_death_year": 1988,
+      "eu_term_ok": true,
+      "eu_term_reason": "US monograph figure (1920). Author death 1988 — flagged.",
+      "rights_status": "flagged",
+      "cropped": false
+    },
+    {
       "media_slot_id": "U1.masterclass-3",
       "asset_id": "wikimedia:File:GemPaperClipAdvertisementJan1893.png",
       "asset_url": "/creativity-techniques-uem/assets/images/deck-media/48f50bbc89c22ae9.webp",
@@ -320,7 +339,7 @@ layout: null
     {
       "slide_id": "masterclass-2",
       "slide_role": "masterclass",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "2 · Four skills tests measure",
       "sentence": "Fluency (many ideas), flexibility (many angles), originality (ideas few other people have), elaboration (work the details). Many workshops try to raise these scores.",
       "quote": "Fluency - the ability to produce a large number of ideas or solutions to a problem rapidly.",
@@ -345,14 +364,16 @@ layout: null
           "dcterms:subject=fluency"
         ]
       },
-      "image_brief": "Katsushika Hokusai, a page of the Hokusai Manga sketchbooks (from 1814): many quick, varied figures on one page — fluency (many ideas), flexibility (many kinds) and elaboration made visible.",
+      "image_brief": "Kohs Block Design Test figure (1920): a measuring task that scores patterned thinking — stand-in for fluency / flexibility / originality / elaboration as trainable dimensions.",
       "notes": "- Guilford's four abilities, as summarised by Chen, give us shared words: fluency (many ideas quickly), flexibility (several approaches to a problem at once), originality (ideas few other people produce), elaboration (work the details).\n- Many workshops try to raise these scores.\n- A higher score is not the same as a better idea in a real brief. That is the next slide.\nSource: the four abilities and the Fluency quote are (Chen 2011, 26); fluency, flexibility, originality as what \"most workshops try to enhance\" is (Csikszentmihalyi 1996, chap. 3). Other bullets are course wording.\nAsk: Which of the four skills do you use most? Which one do you avoid?",
       "claims": [
         {
           "text": "the ability of divergent thinking with a paper clip may tell us little about an individual's talent in music.",
           "cite": "Chen 2011, 26"
         }
-      ]
+      ],
+      "asset_id": "wikimedia:File:Kohs Block Design Test - Figure 1.jpg",
+      "media_slot_id": "U1.masterclass-2"
     },
     {
       "slide_id": "masterclass-3",

@@ -54,8 +54,8 @@ Link gate: STUDENT-SLIDESHOW-FORGE.mdc §Publish gate — track + lesson links
 | U2 | Idea generation and selection techniques | [lesson]({{ '/lessons/en/creativity-techniques/u-2-idea-generation-selection/' | relative_url }}) · [deck]({{ '/tracks/ct/u-2-idea-generation-selection/' | relative_url }}) |
 | U3 | Development techniques and solutions | [lesson]({{ '/lessons/en/creativity-techniques/u-3-development-solutions/' | relative_url }}) · [deck]({{ '/tracks/ct/u-3-development-solutions/' | relative_url }}) |
 | U4 | Applying creativity techniques in the workplace | [U4.1 lesson]({{ '/lessons/en/creativity-techniques/u-4-1-generate-before-you-judge/' | relative_url }}) · [U4.2 lesson]({{ '/lessons/en/creativity-techniques/u-4-2-select-with-care/' | relative_url }}) · [unit hub]({{ '/lessons/en/creativity-techniques/u-4-workplace-application/' | relative_url }}) · [deck]({{ '/tracks/ct/u-4-workplace-application/' | relative_url }}) |
-| U5 | Creativity and technology | — |
-| U6 | Creativity and personal development | — |
+| U5 | Creativity and technology | [lesson]({{ '/lessons/en/creativity-techniques/u-5-creativity-technology/' | relative_url }}) · [deck]({{ '/tracks/ct/u-5-creativity-technology/' | relative_url }}) |
+| U6 | Creativity and personal development | [lesson]({{ '/lessons/en/creativity-techniques/u-6-personal-development/' | relative_url }}) · [deck]({{ '/tracks/ct/u-6-personal-development/' | relative_url }}) |
 
 ## Master Lectures (transversal)
 

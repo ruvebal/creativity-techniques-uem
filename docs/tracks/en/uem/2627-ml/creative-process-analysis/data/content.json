@@ -89,6 +89,25 @@ layout: null
       "cropped": false
     },
     {
+      "media_slot_id": "ML-CPA.masterclass-3",
+      "asset_id": "wikimedia:File:Leonardo Design for a Flying Machine, c. 1505.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/57d7c47591fc93f2.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Leonardo_Design_for_a_Flying_Machine%2C_c._1505.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Leonardo_Design_for_a_Flying_Machine,_c._1505.jpg",
+      "title": "Leonardo Design for a Flying Machine, c. 1505",
+      "alt_text": "Leonardo sketch of a flying machine from around 1505.",
+      "author": "Leonardo da Vinci",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Leonardo da Vinci · Wikimedia Commons",
+      "author_death_year": 1519,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1519; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
       "media_slot_id": "ML-CPA.masterclass-4",
       "asset_id": "wikimedia:File:Design for Six Chairs with Scarlet Upholstery (verso- Sketch for Sofa) MET DP807166.jpg",
       "asset_url": "/creativity-techniques-uem/assets/images/deck-media/8b4874486cda623c.webp",
@@ -163,6 +182,25 @@ layout: null
       "eu_term_reason": "author death year 1972: EU term runs through 2042 — Lillian Gilbreth d. 1972: EU term runs to 2042; PD in the US only",
       "rights_status": "flagged",
       "cropped": false
+    },
+    {
+      "media_slot_id": "ML-CPA.lab-2",
+      "asset_id": "wikimedia:File:Drafting room methods (1918) (14778398165).jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/aa4c4294c2dad0b2.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Drafting_room_methods_%281918%29_%2814778398165%29.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Drafting_room_methods_(1918)_(14778398165).jpg",
+      "title": "Drafting room methods (1918) (14778398165)",
+      "alt_text": "Historic drafting-room methods plate from 1918 showing workstations.",
+      "author": "Charles Dickey Collins",
+      "licence": "NoC-US+EU-checked",
+      "licence_url": "https://www.flickr.com/commons/usage/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Charles Dickey Collins · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "Published 1918; Internet Archive no restrictions.",
+      "rights_status": "ok",
+      "cropped": false
     }
   ],
   "slides": [
@@ -230,7 +268,7 @@ layout: null
     {
       "slide_id": "masterclass-3",
       "slide_role": "masterclass",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "3 · Open, then close",
       "sentence": "A process often needs both: invent many options, then select what fits the brief.",
       "quote": "The same creative act may involve both divergent and convergent thinking.",
@@ -239,13 +277,15 @@ layout: null
         "label": "(Craft 2000, 30)",
         "href": "/lessons/en/master-lectures/creative-process-analysis/#references"
       },
-      "image_brief": "Edgar Degas, album of forty-five figure studies, c. 1882: many poses opened quickly, a few later kept — divergent and convergent work inside one process.",
+      "image_brief": "Leonardo flying-machine study (c. 1505): open options on the sheet, then close toward a workable plan.",
       "claims": [
         {
           "text": "The same creative act may involve both divergent and convergent thinking.",
           "cite": "Craft 2000, 30"
         }
-      ]
+      ],
+      "asset_id": "wikimedia:File:Leonardo Design for a Flying Machine, c. 1505.jpg",
+      "media_slot_id": "ML-CPA.masterclass-3"
     },
     {
       "slide_id": "masterclass-4",
@@ -339,12 +379,14 @@ layout: null
     {
       "slide_id": "lab-2",
       "slide_role": "lab_exercise",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "Exercise 2 · Your Lab trail",
       "sentence": "Apply the same card to your own Lab sequence. One critical sentence + one circulation claim.",
       "portfolio_bound": true,
       "portfolio_trace": "Save card + traces — feeds D1 analysis path.",
-      "image_brief": "A maker's own working notebook page, with notes and diagrams recording a sequence of exercises, to model the record you analyse in your own Lab trail."
+      "image_brief": "Second drafting-room methods plate: leave a trail of process marks another reader can follow.",
+      "asset_id": "wikimedia:File:Drafting room methods (1918) (14778398165).jpg",
+      "media_slot_id": "ML-CPA.lab-2"
     },
     {
       "slide_id": "outro",

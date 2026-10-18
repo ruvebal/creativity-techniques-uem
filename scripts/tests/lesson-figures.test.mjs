@@ -112,7 +112,10 @@ test('A12/F8: no committed deck include captions a flagged asset "Public domain"
     const include = readFileSync(join(root, 'docs/_includes/decks', `${slug}.html`), 'utf8');
     const flagged = (content.assets || []).filter((a) => a.rights_status === 'flagged');
     for (const a of flagged) {
-      const section = include.split('<section ').find((s) => a.canonical_source_url && s.includes(a.canonical_source_url.replaceAll('&', '&amp;')));
+      const needles = [a.canonical_source_url, a.source_file_url, a.asset_id]
+        .filter(Boolean)
+        .map((s) => String(s).replaceAll('&', '&amp;').split('?')[0]);
+      const section = include.split('<section ').find((s) => needles.some((n) => n && s.includes(n)));
       const cap = section && (section.match(/<p class="slide-caption">([\s\S]*?)<\/p>/) || [])[1];
       if (cap && /public domain/i.test(cap)) problems.push(`${slug}: ${a.title}`);
     }

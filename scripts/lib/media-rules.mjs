@@ -189,6 +189,29 @@ export function cleanTitle(title) {
     .trim();
 }
 
+/**
+ * Public "Source" link: prefer the original file URL. For Commons uploads, attach the
+ * index UTMs Wikimedia uses on original-file links (utm_campaign=index).
+ * Fall back to the File: page / other canonical source when no file URL is stored.
+ */
+export function publicSourceUrl(asset) {
+  const a = asset || {};
+  const file = String(a.source_file_url || '').trim();
+  const canonical = String(a.canonical_source_url || a.source || '').trim();
+  const raw = file || canonical;
+  if (!raw) return '';
+  if (!/^https?:\/\/upload\.wikimedia\.org\//i.test(raw)) return raw;
+  try {
+    const u = new URL(raw);
+    u.searchParams.set('utm_source', 'commons.wikimedia.org');
+    u.searchParams.set('utm_campaign', 'index');
+    u.searchParams.set('utm_content', 'original');
+    return u.toString();
+  } catch {
+    return raw;
+  }
+}
+
 /** Public caption fields: title, author, licence (+ URL), source URL, cropped flag, rights_status. */
 export function caption(asset) {
   const a = asset || {};
@@ -197,7 +220,7 @@ export function caption(asset) {
     author: String(a.author || '').trim(),
     licence: String(a.licence || '').trim(),
     licence_url: String(a.licence_url || '').trim(),
-    source_url: String(a.canonical_source_url || a.source || '').trim(),
+    source_url: publicSourceUrl(a),
     cropped: Boolean(a.cropped),
     // EX9 (A12/F8): captions read the rights flag so a flagged asset is never labelled "Public domain".
     rights_status: String(a.rights_status || '').trim(),

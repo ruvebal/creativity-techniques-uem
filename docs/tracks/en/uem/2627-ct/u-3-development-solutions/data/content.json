@@ -99,6 +99,44 @@ layout: null
       "cropped": false
     },
     {
+      "media_slot_id": "U3.masterclass-3",
+      "asset_id": "wikimedia:File:Leonardo Design for a Flying Machine, c. 1488.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/d9e20550857c9897.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Leonardo_Design_for_a_Flying_Machine%2C_c._1488.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Leonardo_Design_for_a_Flying_Machine,_c._1488.jpg",
+      "title": "Leonardo Design for a Flying Machine, c. 1488",
+      "alt_text": "Pen drawing of Leonardo's flying machine design.",
+      "author": "Leonardo da Vinci",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Leonardo da Vinci · Wikimedia Commons",
+      "author_death_year": 1519,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1519; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U3.masterclass-4",
+      "asset_id": "wikimedia:File:Lines family sketchbook - Disc1 009.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/860928e25d445d8f.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Lines_family_sketchbook_-_Disc1_009.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Lines_family_sketchbook_-_Disc1_009.jpg",
+      "title": "Lines family sketchbook - Disc1 009",
+      "alt_text": "Pencil sketchbook page of a landscape from the Lines family sketchbook.",
+      "author": "Lines family (19th century)",
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Lines family (19th century) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "Nineteenth-century sketchbook; public domain on Commons.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
       "media_slot_id": "U3.masterclass-5",
       "asset_id": "wikimedia:File:Paul Klee Pädagogisches Skizzenbuch 10.jpg",
       "asset_url": "/creativity-techniques-uem/assets/images/deck-media/2ef7976e52c1675b.webp",
@@ -260,10 +298,10 @@ layout: null
     {
       "slide_id": "masterclass-3",
       "slide_role": "masterclass",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "3 · Iterate with an exit",
       "sentence": "Write the test before the next version. Stop when the test is answered.",
-      "image_brief": "Replica of the Wright brothers' 1901 wind tunnel: wing shapes tested against one question before the next glider was built, and testing stopped when the data answered it.",
+      "image_brief": "Leonardo, design for a flying machine (c. 1488): iterate a mechanism on paper with an exit toward a workable form.",
       "notes": "- Revision helps when you know what the next version must answer.\n- Write one test before you change the work: \"Can the viewer find the main action?\" or \"Does the form fit the brief?\"\n- Stop when the test is answered, even if another improvement is possible.\n- Iteration can improve an idea, but it can also cause fixation: refining one option without considering others.\nSource: the iteration/fixation bullet is (Dow et al. 2010, 18:1). Other bullets are course wording.\nAsk: What is the one test your next version must pass?",
       "claims": [
         {
@@ -274,12 +312,14 @@ layout: null
           "text": "ads created in the Parallel condition significantly outperformed those from the Serial condition. Moreover, independent raters found Parallel prototypes to be more diverse. Parallel participants also reported a larger increase in task-specific self-confidence.",
           "cite": "Dow et al. 2010, 18:1"
         }
-      ]
+      ],
+      "asset_id": "wikimedia:File:Leonardo Design for a Flying Machine, c. 1488.jpg",
+      "media_slot_id": "U3.masterclass-3"
     },
     {
       "slide_id": "masterclass-4",
       "slide_role": "masterclass",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "4 · Sketch to think",
       "sentence": "Three quick arrangements can show relationships that one polished drawing hides.",
       "quote": "Sketching enables exploration of the problem space and the solution space to proceed together.",
@@ -288,14 +328,16 @@ layout: null
         "label": "(Cross 2006, 37)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-3-development-solutions/#ref-cross-2006"
       },
-      "image_brief": "A sheet of quick alternative sketches by a designer or artist — several arrangements of one idea side by side — showing sketching as a way of thinking before anything is built.",
+      "image_brief": "Lines family sketchbook page: sketching used to think through a landscape, not only to decorate it.",
       "notes": "- Draw three different arrangements, not one beautiful drawing.\n- Cross: \"Sketching enables exploration of the problem space and the solution space to proceed together.\"\n- Compare relationships, rhythm and emphasis. A sketch is a temporary argument: it shows what your idea is doing.\nSource: the quote is (Cross 2006, 37). The first and third bullets are course wording.\nAsk: What did the second and third arrangement show that the first one hid?",
       "claims": [
         {
           "text": "Sketching enables exploration of the problem space and the solution space to proceed together",
           "cite": "Cross 2006, 37"
         }
-      ]
+      ],
+      "asset_id": "wikimedia:File:Lines family sketchbook - Disc1 009.jpg",
+      "media_slot_id": "U3.masterclass-4"
     },
     {
       "slide_id": "masterclass-5",

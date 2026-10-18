@@ -314,3 +314,17 @@ test('B9: caption carries title, author, licence, licence URL, source URL and cr
   assert.equal(c.source_url, 'https://commons.wikimedia.org/wiki/File:Example.jpg');
   assert.equal(c.cropped, true);
 });
+
+test('B9: caption Source prefers Commons original-file URL with index UTMs', () => {
+  const c = impl.caption({
+    ...cleanAsset,
+    source_file_url:
+      'https://upload.wikimedia.org/wikipedia/commons/8/8f/Card_puncher_-_NARA_-_513295.jpg',
+    canonical_source_url:
+      'https://commons.wikimedia.org/wiki/File:Card_puncher_-_NARA_-_513295.jpg',
+  });
+  assert.equal(
+    c.source_url,
+    'https://upload.wikimedia.org/wikipedia/commons/8/8f/Card_puncher_-_NARA_-_513295.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original',
+  );
+});

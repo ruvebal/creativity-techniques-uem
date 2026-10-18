@@ -15,21 +15,174 @@ layout: null
       ]
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "media_slot_id": "U4.cover",
+      "asset_id": "wikimedia:File:People in workshop class.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/dffad12293f6e8ea.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/People_in_workshop_class.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:People_in_workshop_class.jpg",
+      "title": "People in workshop class",
+      "alt_text": "Photograph of adults seated around tables in a workshop classroom.",
+      "author": "Harless Todd (U.S. Fish and Wildlife Service)",
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Harless Todd (U.S. Fish and Wildlife Service) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "US federal government work; public domain.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U4.masterclass-1",
+      "asset_id": "wikimedia:File:Groups participating in the Wikipedia for Education workshop 01.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/c3b7ba2de7a56a4d.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Groups_participating_in_the_Wikipedia_for_Education_workshop_01.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Groups_participating_in_the_Wikipedia_for_Education_workshop_01.jpg",
+      "title": "Groups participating in the Wikipedia for Education workshop 01",
+      "alt_text": "Overhead view of workshop tables with groups in an education session.",
+      "author": "Mounir Neddi",
+      "licence": "CC0",
+      "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Mounir Neddi · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC0 dedication by the rights holder.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U4.masterclass-2",
+      "asset_id": "wikimedia:File:Drafting room methods (1918) (14591687900).jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/09b129179893fce7.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Drafting_room_methods_%281918%29_%2814591687900%29.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Drafting_room_methods_(1918)_(14591687900).jpg",
+      "title": "Drafting room methods (1918) (14591687900)",
+      "alt_text": "Historic plate showing drafting-room layout and method diagrams from 1918.",
+      "author": "Charles Dickey Collins",
+      "licence": "NoC-US+EU-checked",
+      "licence_url": "https://www.flickr.com/commons/usage/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Charles Dickey Collins · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "Published 1918; Internet Archive no restrictions.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U4.masterclass-3",
+      "asset_id": "wikimedia:File:Drafting room, Navy Dept. LCCN2016873947.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/f23f2fae62dd77da.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Drafting_room%2C_Navy_Dept._LCCN2016873947.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Drafting_room,_Navy_Dept._LCCN2016873947.jpg",
+      "title": "Drafting room, Navy Dept. LCCN2016873947",
+      "alt_text": "Black-and-white photograph of a large drafting room with rows of tables.",
+      "author": "Harris & Ewing",
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Harris & Ewing · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "LoC Harris & Ewing collection; public domain.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U4.masterclass-4",
+      "asset_id": "wikimedia:File:Designing room in the Navy Department, 1893 - A. Castaigne. LCCN2003662986.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/b2b3251b7f5f2c5f.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Designing_room_in_the_Navy_Department%2C_1893_-_A._Castaigne._LCCN2003662986.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Designing_room_in_the_Navy_Department,_1893_-_A._Castaigne._LCCN2003662986.jpg",
+      "title": "Designing room in the Navy Department, 1893 - A. Castaigne. LCCN2003662986",
+      "alt_text": "Engraved view of designers at tables in the Navy Department designing room, 1893.",
+      "author": "J. André Castaigne",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "J. André Castaigne · Wikimedia Commons",
+      "author_death_year": 1930,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1930; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U4.lab-1",
+      "asset_id": "wikimedia:File:Moby Dick p91 illustration.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/41d03840c37e8105.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Moby_Dick_p91_illustration.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Moby_Dick_p91_illustration.jpg",
+      "title": "Moby Dick p91 illustration",
+      "alt_text": "Book illustration of Ishmael and Queequeg being directed toward the Pequod.",
+      "author": "Augustus Burnham Shute",
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Augustus Burnham Shute · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "Book illustration; public domain on Commons.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U4.lab-2",
+      "asset_id": "wikimedia:File:Finland road sign 151 (1969-198?).png",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/88f8deffcd489a0a.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Finland_road_sign_151_%281969-198%3F%29.png",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Finland_road_sign_151_(1969-198%3F).png",
+      "title": "Finland road sign 151 (1969-198?)",
+      "alt_text": "Finnish road warning sign 151 depicting pedestrians.",
+      "author": "Arkke",
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Arkke · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "Official Finnish traffic sign; public domain claim on Commons.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U4.workshop-1",
+      "asset_id": "wikimedia:File:Pedestrian overpass signs in Taichung.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/bae61228ff7fe887.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Pedestrian_overpass_signs_in_Taichung.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Pedestrian_overpass_signs_in_Taichung.jpg",
+      "title": "Pedestrian overpass signs in Taichung",
+      "alt_text": "Pedestrian overpass direction signs mounted outdoors in Taichung.",
+      "author": "Hippietrail",
+      "licence": "CC0",
+      "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Hippietrail · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC0 dedication by the rights holder.",
+      "rights_status": "ok",
+      "cropped": false
+    }
+  ],
   "media_selection": {
     "unit_id": "U4",
     "project_id": "tc",
-    "strategy": "diagram-fallback",
-    "description": "No U4 media asset has a cleared slide-bound rights record. Koch triangle course diagrams carry the idea until suitable assets pass the rights gate."
+    "strategy": "slide-bound",
+    "description": "Each image is bound to one named slide by asset_id; slides without a cleared image use the course diagram."
   },
   "slides": [
     {
       "slide_id": "cover",
       "slide_role": "unit_cover",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "U4 · Creativity techniques at work",
       "sentence": "Generate under the brief. Select with care. Keep the gap visible.",
-      "image_brief": "A course Koch-triangle diagram opening into two branches: visual generation and careful workplace selection.",
+      "image_brief": "People in a workshop class: creativity techniques applied together under a shared brief.",
       "quote": "Walk one route. Ask who has not walked it yet.",
       "quote_origin": "tao_invented",
       "citation": {
@@ -52,7 +205,9 @@ layout: null
           "dcterms:subject",
           "dcterms:type=Text"
         ]
-      }
+      },
+      "asset_id": "wikimedia:File:People in workshop class.jpg",
+      "media_slot_id": "U4.cover"
     },
     {
       "slide_id": "analysis-opener",
@@ -65,10 +220,10 @@ layout: null
     {
       "slide_id": "masterclass-1",
       "slide_role": "masterclass",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "1 · Generate before you judge",
       "sentence": "An unrelated picture can open a route through a workplace brief. The deadline can stay fixed.",
-      "image_brief": "An abstract course diagram linking an unrelated picture to several possible design routes, without marking one as the winner.",
+      "image_brief": "Workshop groups at tables: generate routes before judging — many hands, one room.",
       "quote": "Give each group member a folder containing two or three pictures that are not related to the problem area.",
       "quote_origin": "page_verified",
       "citation": {
@@ -90,15 +245,17 @@ layout: null
           "text": "Give each group member a folder containing two or three pictures that are not related to the problem area.",
           "cite": "Michalko 2010, 440"
         }
-      ]
+      ],
+      "asset_id": "wikimedia:File:Groups participating in the Wikipedia for Education workshop 01.jpg",
+      "media_slot_id": "U4.masterclass-1"
     },
     {
       "slide_id": "masterclass-2",
       "slide_role": "masterclass",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "2 · Build on the connection",
       "sentence": "Read ideas aloud, add a modification, and record the new route before evaluation.",
-      "image_brief": "A course diagram showing one visual association branching into a teammate's modification while both traces remain visible.",
+      "image_brief": "1918 drafting-room methods plate: build on a connection by recording the next modification before evaluation.",
       "quote": "As each idea is read, ask the group members to discuss it and try to develop new ideas or modifications.",
       "quote_origin": "page_verified",
       "citation": {
@@ -120,15 +277,17 @@ layout: null
           "text": "As each idea is read, ask the group members to discuss it and try to develop new ideas or modifications.",
           "cite": "Michalko 2010, 440"
         }
-      ]
+      ],
+      "asset_id": "wikimedia:File:Drafting room methods (1918) (14591687900).jpg",
+      "media_slot_id": "U4.masterclass-2"
     },
     {
       "slide_id": "masterclass-3",
       "slide_role": "masterclass",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "3 · Follow the route from another point of view",
       "sentence": "Observe where a first-time visitor looks, pauses, turns, or asks what to do next.",
-      "image_brief": "A course diagram tracing a visitor route with observation notes at a pause, a turn, and a search for a sign.",
+      "image_brief": "Navy Department drafting room (1938): follow a route from another desk's point of view.",
       "quote": "People turn around to find out what it's really like to be someone in a different position.",
       "quote_origin": "page_verified",
       "citation": {
@@ -150,15 +309,17 @@ layout: null
           "text": "People turn around to find out what it's really like to be someone in a different position.",
           "cite": "Michalko 2010, 371"
         }
-      ]
+      ],
+      "asset_id": "wikimedia:File:Drafting room, Navy Dept. LCCN2016873947.jpg",
+      "media_slot_id": "U4.masterclass-3"
     },
     {
       "slide_id": "masterclass-4",
       "slide_role": "masterclass",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "4 · Record what happened before you explain it",
       "sentence": "Use observations to choose an idea for the next check; one peer walkthrough cannot speak for every visitor.",
-      "image_brief": "A course diagram linking a written action note at a route junction to one idea carried forward and an open question for a future user check.",
+      "image_brief": "1893 designing room print: record what happened on the boards before explaining the choice.",
       "quote": "Recording particular behavior, words, and actions that critically affected their attitude as 'buyers.'",
       "quote_origin": "page_verified",
       "citation": {
@@ -180,7 +341,9 @@ layout: null
           "text": "Recording particular behavior, words, and actions that critically affected their attitude as 'buyers.'",
           "cite": "Michalko 2010, 371"
         }
-      ]
+      ],
+      "asset_id": "wikimedia:File:Designing room in the Navy Department, 1893 - A. Castaigne. LCCN2003662986.jpg",
+      "media_slot_id": "U4.masterclass-4"
     },
     {
       "slide_id": "retrieval",
@@ -233,10 +396,10 @@ layout: null
     {
       "slide_id": "lab-1",
       "slide_role": "lab_exercise",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "Exercise 1 · Ask a Crab — picture diverge",
       "sentence": "Use unrelated pictures to open routes through the brief. Record the ideas and stop before evaluation.",
-      "image_brief": "A course diagram of an unrelated picture prompting several possible design routes, with no selected winner.",
+      "image_brief": "Unrelated narrative picture as a diverge prompt — Ask a Crab style stimulus for a workplace brief.",
       "quote": "After a designated period, ask the group members to read their ideas aloud.",
       "quote_origin": "page_verified",
       "citation": {
@@ -266,15 +429,17 @@ layout: null
           "text": "After a designated period, ask the group members to read their ideas aloud.",
           "cite": "Michalko 2010, 440"
         }
-      ]
+      ],
+      "asset_id": "wikimedia:File:Moby Dick p91 illustration.jpg",
+      "media_slot_id": "U4.lab-1"
     },
     {
       "slide_id": "lab-2",
       "slide_role": "lab_exercise",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "Exercise 2 · Visitor Journey Walkthrough — follow and record the route",
       "sentence": "Walk a public route from a first-time visitor's point of view. Record what happens, then choose an idea for a real check.",
-      "image_brief": "A course diagram of a visitor route with action notes at decision points, one idea carried forward, and an open question for a later user check.",
+      "image_brief": "Road sign as a journey marker: walk a route and notice who has not walked it yet.",
       "quote": "Recording particular behavior, words, and actions that critically affected their attitude as 'buyers.'",
       "quote_origin": "page_verified",
       "citation": {
@@ -304,7 +469,9 @@ layout: null
           "text": "Recording particular behavior, words, and actions that critically affected their attitude as 'buyers.'",
           "cite": "Michalko 2010, 371"
         }
-      ]
+      ],
+      "asset_id": "wikimedia:File:Finland road sign 151 (1969-198?).png",
+      "media_slot_id": "U4.lab-2"
     },
     {
       "slide_id": "workshop-opener",
@@ -317,10 +484,10 @@ layout: null
     {
       "slide_id": "workshop-1",
       "slide_role": "workshop_work",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "Carry the observation into a public sign",
       "sentence": "Name the observed moment, the idea it changed, the unresolved question, and the next check. Show what changes as the design reaches the Atrium.",
-      "image_brief": "A course diagram carrying a recorded route moment into a private design note and a public Atrium sign, with one open question still visible.",
+      "image_brief": "Public signs that carry a route into shared space — observation becomes a readable notice.",
       "quote": "Walk one route. Ask who has not walked it yet.",
       "quote_origin": "tao_invented",
       "citation": {
@@ -337,7 +504,9 @@ layout: null
         ]
       },
       "portfolio_bound": true,
-      "portfolio_trace": "Save a pitch outline and a version for public circulation."
+      "portfolio_trace": "Save a pitch outline and a version for public circulation.",
+      "asset_id": "wikimedia:File:Pedestrian overpass signs in Taichung.jpg",
+      "media_slot_id": "U4.workshop-1"
     },
     {
       "slide_id": "outro",

@@ -1,0 +1,456 @@
+---
+layout: null
+---
+{
+  "schema_version": 2,
+  "unit_label": "Creativity Techniques · U6 Creativity and Personal Development",
+  "ttod_index": [
+    {
+      "id": "C-U6-conf-02",
+      "number": "IX",
+      "form": "Máxima",
+      "fields": [
+        "creativeConfidence",
+        "divergentConvergentRhythm"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "media_slot_id": "U6.cover",
+      "asset_id": "wikimedia:File:Self Portrait of the Artist in His Studio by Thomas Hovenden 1875.jpeg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/9a1319613a7bd9ad.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Self_Portrait_of_the_Artist_in_His_Studio_by_Thomas_Hovenden_1875.jpeg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Self_Portrait_of_the_Artist_in_His_Studio_by_Thomas_Hovenden_1875.jpeg",
+      "title": "Self Portrait of the Artist in His Studio by Thomas Hovenden 1875",
+      "alt_text": "Hovenden self-portrait of the artist working in his studio, 1875.",
+      "author": "Thomas Hovenden",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Thomas Hovenden · Wikimedia Commons",
+      "author_death_year": 1895,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1895; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U6.analysis-model",
+      "asset_id": "wikimedia:File:Frances Benjamin Johnston, Self-Portrait (as \"New Woman\"), 1896.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/73d2484eb28d9206.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Frances_Benjamin_Johnston%2C_Self-Portrait_%28as_%22New_Woman%22%29%2C_1896.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Frances_Benjamin_Johnston,_Self-Portrait_(as_%22New_Woman%22),_1896.jpg",
+      "title": "Frances Benjamin Johnston, Self-Portrait (as \"New Woman\"), 1896",
+      "alt_text": "Frances Benjamin Johnston self-portrait as the “New Woman,” 1896.",
+      "author": "Frances Benjamin Johnston",
+      "licence": "NoC-US+EU-checked",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Frances Benjamin Johnston · Wikimedia Commons",
+      "author_death_year": 1952,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1952 — flagged; published 1896 US photograph.",
+      "rights_status": "flagged",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U6.masterclass-1",
+      "asset_id": "wikimedia:File:Vincent van Gogh - Self-Portrait - Google Art Project (454045).jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/35bc5e402a84aa32.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_(454045).jpg",
+      "title": "Vincent van Gogh - Self-Portrait - Google Art Project (454045)",
+      "alt_text": "Van Gogh self-portrait painting.",
+      "author": "Vincent van Gogh",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Vincent van Gogh · Wikimedia Commons",
+      "author_death_year": 1890,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1890; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U6.masterclass-2",
+      "asset_id": "wikimedia:File:Self-Portrait etching at a window (SM 61530d).png",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/cdd057d59eeb52d5.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Self-Portrait_etching_at_a_window_%28SM_61530d%29.png",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Self-Portrait_etching_at_a_window_(SM_61530d).png",
+      "title": "Self-Portrait etching at a window (SM 61530d)",
+      "alt_text": "Rembrandt self-portrait etching at a window.",
+      "author": "Rembrandt",
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Rembrandt · Wikimedia Commons",
+      "author_death_year": 1669,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1669; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U6.masterclass-3",
+      "asset_id": "wikimedia:File:Johannes Vermeer - A Lady Writing - Google Art Project.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/768ade78488c67fe.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Johannes_Vermeer_-_A_Lady_Writing_-_Google_Art_Project.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Johannes_Vermeer_-_A_Lady_Writing_-_Google_Art_Project.jpg",
+      "title": "Johannes Vermeer - A Lady Writing - Google Art Project",
+      "alt_text": "Vermeer painting of a lady writing at a table.",
+      "author": "Johannes Vermeer",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Johannes Vermeer · Wikimedia Commons",
+      "author_death_year": 1675,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1675; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U6.masterclass-4",
+      "asset_id": "wikimedia:File:Jean Siméon Chardin, The House of Cards, probably 1737, NGA 97.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/f8cc52faf8b35357.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Jean_Sim%C3%A9on_Chardin%2C_The_House_of_Cards%2C_probably_1737%2C_NGA_97.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Jean_Sim%C3%A9on_Chardin,_The_House_of_Cards,_probably_1737,_NGA_97.jpg",
+      "title": "Jean Siméon Chardin, The House of Cards, probably 1737, NGA 97",
+      "alt_text": "Chardin painting of a boy building a house of cards.",
+      "author": "Jean-Baptiste-Siméon Chardin",
+      "licence": "CC0",
+      "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Jean-Baptiste-Siméon Chardin · Wikimedia Commons",
+      "author_death_year": 1779,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1779; NGA CC0.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U6.masterclass-5",
+      "asset_id": "wikimedia:File:Woman writing a letter, with her maid, by Johannes Vermeer.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/a6cfbf74965bde26.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Woman_writing_a_letter%2C_with_her_maid%2C_by_Johannes_Vermeer.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Woman_writing_a_letter,_with_her_maid,_by_Johannes_Vermeer.jpg",
+      "title": "Woman writing a letter, with her maid, by Johannes Vermeer",
+      "alt_text": "Vermeer painting of a lady writing a letter with her maid.",
+      "author": "Johannes Vermeer",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Johannes Vermeer · Wikimedia Commons",
+      "author_death_year": 1675,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1675; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U6.masterclass-6",
+      "asset_id": "wikimedia:File:Caspar David Friedrich - Wanderer above the sea of fog.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/5e91015fd842d017.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg",
+      "title": "Caspar David Friedrich - Wanderer above the sea of fog",
+      "alt_text": "Friedrich painting of a wanderer above a sea of fog.",
+      "author": "Caspar David Friedrich",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Caspar David Friedrich · Wikimedia Commons",
+      "author_death_year": 1840,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1840; public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U6.lab-1",
+      "asset_id": "wikimedia:File:Modern telephone service for the home. (1920) (14756669655).jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/69c7be4d025bc536.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Modern_telephone_service_for_the_home._%281920%29_%2814756669655%29.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Modern_telephone_service_for_the_home._(1920)_(14756669655).jpg",
+      "title": "Modern telephone service for the home. (1920) (14756669655)",
+      "alt_text": "1920 advertisement illustration for modern telephone service.",
+      "author": "Unknown",
+      "licence": "NoC-US+EU-checked",
+      "licence_url": "https://www.flickr.com/commons/usage/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Unknown · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "Published 1920; Internet Archive no restrictions.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U6.lab-2",
+      "asset_id": "wikimedia:File:Writing desk.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/9557fc3f36058e33.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Writing_desk.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Writing_desk.jpg",
+      "title": "Writing desk",
+      "alt_text": "Photograph of a wooden writing desk.",
+      "author": "Dvortygirl",
+      "licence": "CC-BY-SA-3.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Dvortygirl · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC BY-SA 3.0 by rights holder.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U6.workshop-1",
+      "asset_id": "wikimedia:File:Study in the mirror, workshop of Rembrandt, c.1629, MOA Museum of Art, Atami, Japan.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/fcefcaee133e023b.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Study_in_the_mirror%2C_workshop_of_Rembrandt%2C_c.1629%2C_MOA_Museum_of_Art%2C_Atami%2C_Japan.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Study_in_the_mirror,_workshop_of_Rembrandt,_c.1629,_MOA_Museum_of_Art,_Atami,_Japan.jpg",
+      "title": "Study in the mirror, workshop of Rembrandt, c.1629, MOA Museum of Art, Atami, Japan",
+      "alt_text": "Study in the mirror from Rembrandt’s workshop, c.1629.",
+      "author": "Workshop of Rembrandt",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Workshop of Rembrandt · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "Public domain; Rembrandt workshop c.1629.",
+      "rights_status": "ok",
+      "cropped": false
+    }
+  ],
+  "media_selection": {
+    "unit_id": "U6",
+    "project_id": "tc",
+    "strategy": "slide-bound",
+    "description": "Each image is bound to one named slide by asset_id; slides without a cleared image use the course diagram."
+  },
+  "slides": [
+    {
+      "slide_id": "cover",
+      "slide_role": "unit_cover",
+      "background_kind": "curated",
+      "heading": "U6 · Creativity and personal development",
+      "sentence": "Confidence is practiced. Blocks are normal. Habits outlast the workshop high.",
+      "quote": "Confidence is not a mood. It is evidence that you paced open-then-close under a brief.",
+      "quote_origin": "tao_invented",
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-6-personal-development/#tao-of-creativity"
+      },
+      "image_brief": "Confidence is practiced in the studio — not waited for as a gift.",
+      "asset_id": "wikimedia:File:Self Portrait of the Artist in His Studio by Thomas Hovenden 1875.jpeg",
+      "media_slot_id": "U6.cover"
+    },
+    {
+      "slide_id": "analysis-opener",
+      "slide_role": "analysis_opener",
+      "background_kind": "geometrical",
+      "heading": "Analysis opens the class",
+      "sentence": "From session 3: two students defend a D1 piece for 15 minutes. Ask what they practiced — not only what they produced."
+    },
+    {
+      "slide_id": "analysis-model",
+      "slide_role": "analysis_model",
+      "background_kind": "curated",
+      "heading": "Read confidence in the work",
+      "sentence": "Name language, medium, and support. Then ask which block appeared and what move restarted the work.",
+      "image_brief": "Read confidence in the work: pose, tools, and gaze are evidence of practice.",
+      "asset_id": "wikimedia:File:Frances Benjamin Johnston, Self-Portrait (as \"New Woman\"), 1896.jpg",
+      "media_slot_id": "U6.analysis-model"
+    },
+    {
+      "slide_id": "masterclass-1",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "heading": "1 · Confidence is practiced",
+      "sentence": "Creative confidence grows from doing creative work — not from waiting to feel gifted.",
+      "quote": "Gifted, you may feel. Rehearse the method, you must.",
+      "quote_origin": "tao_invented",
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-6-personal-development/#tao-of-creativity"
+      },
+      "image_brief": "Confidence is practiced: returning to the canvas is the training.",
+      "notes": "- Confidence follows action more often than the reverse.\n- U1's teachable creativity claim lands here as habit.\n- Do not confuse performance anxiety with lack of ability.\nSource: course wording; Beghetto/Karwowski/Kelley lines still pending page-level citation resolve.\nAsk: What did you finish this week that you can point to?",
+      "claims": [],
+      "asset_id": "wikimedia:File:Vincent van Gogh - Self-Portrait - Google Art Project (454045).jpg",
+      "media_slot_id": "U6.masterclass-1"
+    },
+    {
+      "slide_id": "masterclass-2",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "heading": "2 · Beliefs convert potential",
+      "sentence": "Believing you can and should act creatively turns ability into action under a real brief.",
+      "image_brief": "Beliefs convert potential: the etcher sits down to work as if the work matters.",
+      "notes": "- Creative confidence and centrality beliefs both matter.\n- Potential without action stays potential.\n- Briefs give a lawful place to act.\nSource: course wording.\nAsk: Which belief stopped you last month — can, or should?",
+      "claims": [],
+      "asset_id": "wikimedia:File:Self-Portrait etching at a window (SM 61530d).png",
+      "media_slot_id": "U6.masterclass-2"
+    },
+    {
+      "slide_id": "masterclass-3",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "heading": "3 · Mastery feeds regulation",
+      "sentence": "Success experiences teach what to repeat, revise, or drop — they train self-regulation.",
+      "image_brief": "Mastery feeds regulation: quiet skilled repetition teaches what to keep.",
+      "notes": "- Mastery here means useful feedback from your own work, not perfection.\n- Regulation is choosing the next move on purpose.\n- Pair with reflection logs, not mood tracking.\nSource: course wording.\nAsk: What small success will you repeat on purpose next week?",
+      "claims": [],
+      "asset_id": "wikimedia:File:Johannes Vermeer - A Lady Writing - Google Art Project.jpg",
+      "media_slot_id": "U6.masterclass-3"
+    },
+    {
+      "slide_id": "masterclass-4",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "heading": "4 · Blocks are part of the path",
+      "sentence": "Name blocks; use constraints, peers, and prompts to restart — not shame.",
+      "image_brief": "Blocks are part of the path: fragile constructions teach restart.",
+      "notes": "- Blocks are normal in creative work.\n- Naming beats hiding.\n- Techniques from earlier units are restart tools.\nSource: course wording.\nAsk: What block name fits your last stall?",
+      "claims": [],
+      "asset_id": "wikimedia:File:Jean Siméon Chardin, The House of Cards, probably 1737, NGA 97.jpg",
+      "media_slot_id": "U6.masterclass-4"
+    },
+    {
+      "slide_id": "masterclass-5",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "heading": "5 · Sustain beyond the workshop",
+      "sentence": "Personal development means habits under real briefs — not a one-day energy spike.",
+      "image_brief": "Sustain beyond the workshop: habits under real briefs, not one-day highs.",
+      "notes": "- Workshop highs fade; portfolios accumulate.\n- Tie practice to course deliverables so it survives the semester.\n- Avoid wellness theatre — stay tied to making and judging.\nSource: course wording (C1 adjacency in professor brief).\nAsk: Which habit from this course will survive after the exam?",
+      "claims": [],
+      "asset_id": "wikimedia:File:Woman writing a letter, with her maid, by Johannes Vermeer.jpg",
+      "media_slot_id": "U6.masterclass-5"
+    },
+    {
+      "slide_id": "masterclass-6",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "heading": "6 · Autonomy with accountability",
+      "sentence": "Own your process inside the brief — without romantic isolation.",
+      "image_brief": "Autonomy with accountability: face the brief’s fog without romantic isolation.",
+      "notes": "- Autonomy is self-direction within rules, not ignoring the brief.\n- Accountability includes peers, instructors, and future audiences.\n- Declare AI use and cite influences — same as every unit.\nSource: course wording.\nAsk: Where do you need a peer voice this week?",
+      "claims": [],
+      "asset_id": "wikimedia:File:Caspar David Friedrich - Wanderer above the sea of fog.jpg",
+      "media_slot_id": "U6.masterclass-6"
+    },
+    {
+      "slide_id": "retrieval",
+      "slide_role": "retrieval",
+      "background_kind": "geometrical",
+      "heading": "Recall check",
+      "sentence": "Alone, from memory, 3 minutes. Then compare with a partner.",
+      "questions": [
+        "Does this unit treat confidence as a mood or as practice?",
+        "What two beliefs gate creative action?",
+        "What should a success experience teach you?",
+        "What is the first move when you hit a block?",
+        "What outlasts a workshop high?"
+      ],
+      "notes": "- Timer: 3 minutes. Students answer alone, from memory; then compare with a partner.\n- Practice only. Nothing is collected or graded.\nAnswers:\n- 1. Practice — from doing creative work (course wording).\n- 2. Can I do this creatively? Should I act creatively here? (centrality / confidence gates).\n- 3. What to repeat, revise, or drop (regulation).\n- 4. Name the block; use constraints, peers, or prompts to restart.\n- 5. Habits under real briefs / portfolio accumulation.\nAsk: Which answer will shape your Lab log today?",
+      "claims": []
+    },
+    {
+      "slide_id": "lab-opener",
+      "slide_role": "lab_opener",
+      "background_kind": "geometrical",
+      "heading": "Lab · Portfolio",
+      "sentence": "Two exercises come next. Everything you produce in Lab goes into your portfolio index.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Save both traces in the portfolio index."
+    },
+    {
+      "slide_id": "lab-1",
+      "slide_role": "lab_exercise",
+      "background_kind": "curated",
+      "heading": "Exercise 1 · Reflection-in-action log",
+      "sentence": "When something surprises you, stop. Note expectation, event, and the next move — then link the moves after class.",
+      "image_brief": "Reflection-in-action log: ordinary tools that record a day of practice.",
+      "quote": "In a good process of design, this conversation with the situation is reflective.",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Schön 1983, 79)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-6-personal-development/#ref-schon-1983"
+      },
+      "portfolio_bound": true,
+      "portfolio_trace": "Save at least two surprise stops, the linked end-of-session account, and one line on confidence gained.",
+      "technique_id": "reflection-in-action-log",
+      "practises": [
+        "masterclass-3",
+        "masterclass-5"
+      ],
+      "timer_seconds": 600,
+      "notes": "- Timer: 10 minutes active logging during a shared short making task.\n- Stop when surprised; do not wait until the end to invent a story.\n- After class, link moves into a short account of the conversation with the material.\nSource: (Schön 1983, 79); steps are classroom adaptation.\nAsk: Which surprise changed your next move?",
+      "claims": [
+        {
+          "text": "In a good process of design, this conversation with the situation is reflective.",
+          "cite": "Schön 1983, 79"
+        }
+      ],
+      "asset_id": "wikimedia:File:Modern telephone service for the home. (1920) (14756669655).jpg",
+      "media_slot_id": "U6.lab-1"
+    },
+    {
+      "slide_id": "lab-2",
+      "slide_role": "lab_exercise",
+      "background_kind": "curated",
+      "heading": "Exercise 2 · Mental locks audit",
+      "sentence": "Recall an idea you dropped early. Name the belief that closed it. Revisit the idea for five minutes with that belief set aside.",
+      "image_brief": "Mental locks audit: clear the desk, name what blocks the next page.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Save the dropped idea, the named lock, when the lock helps vs blocks, and what changed in five minutes.",
+      "technique_id": "mental-locks-audit",
+      "practises": [
+        "masterclass-4",
+        "masterclass-6"
+      ],
+      "timer_seconds": 900,
+      "notes": "- Timer: 15 minutes.\n- Private writing is fine; share only what you choose.\n- Do not treat the lock as a character flaw — ask when it helps and when it blocks.\nSource: classroom adaptation of Open Mental Locks catalogue records (von Oech held; not in references.yml). Witness urn:in-practice:exercise:0b497d0ff09fe1fe764b1c52.\nAsk: Did the reopened idea deserve another session?",
+      "claims": [],
+      "asset_id": "wikimedia:File:Writing desk.jpg",
+      "media_slot_id": "U6.lab-2"
+    },
+    {
+      "slide_id": "workshop-opener",
+      "slide_role": "workshop_opener",
+      "background_kind": "geometrical",
+      "heading": "Workshop · Deliverable",
+      "sentence": "From session 4: about half D2 Transposition, about half the D3 Atrium final event."
+    },
+    {
+      "slide_id": "workshop-1",
+      "slide_role": "workshop_work",
+      "background_kind": "curated",
+      "heading": "Draft your D1 confidence paragraph",
+      "sentence": "Write six sentences for your next defence: the block, the restart move, one success, one revision, one peer moment, one open question.",
+      "image_brief": "Draft your confidence paragraph: look at the work, then write what you will defend.",
+      "quote": "Confidence is not a mood. It is evidence that you paced open-then-close under a brief.",
+      "quote_origin": "tao_invented",
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-6-personal-development/#tao-of-creativity"
+      },
+      "portfolio_bound": true,
+      "portfolio_trace": "Save the paragraph draft and note one habit you will repeat before the defence.",
+      "asset_id": "wikimedia:File:Study in the mirror, workshop of Rembrandt, c.1629, MOA Museum of Art, Atami, Japan.jpg",
+      "media_slot_id": "U6.workshop-1"
+    },
+    {
+      "slide_id": "outro",
+      "slide_role": "outro",
+      "background_kind": "geometrical",
+      "heading": "Carry forward",
+      "sentence": "Practice is the evidence. Bring one log line to your next D1 defence."
+    }
+  ]
+}

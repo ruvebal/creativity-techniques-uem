@@ -3,105 +3,123 @@
     "cover": {
       "src": "/assets/images/deck-media/1b014b8e74a8b772.webp",
       "alt": "Diagram of an iterative cycle: planning, requirements, analysis and design, implementation, testing and evaluation, looping back before deployment.",
-      "caption_html": "<span class=\"slide-caption__title\">Iterative Process Diagram</span> · <span class=\"slide-caption__author\">Krupadeluxe</span> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Iterative_Process_Diagram.svg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "caption_html": "<span class=\"slide-caption__title\">Iterative Process Diagram</span> · <span class=\"slide-caption__author\">Krupadeluxe</span> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a> · <a href=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Iterative_Process_Diagram.svg/1920px-Iterative_Process_Diagram.svg.png\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "flagged"
     },
     "analysis-model": {
       "src": "/assets/images/deck-media/206324d9cdf778ac.webp",
       "alt": "A 1921 page of standard process-chart symbols by Frank and Lillian Gilbreth: a column of circles, squares and arrows, each labelled with the step it records.",
-      "caption_html": "<span class=\"slide-caption__title\">Standard Symbols for Process Charts, 1921</span> · <span class=\"slide-caption__author\">Frank B. Gilbreth and Lillian M. Gilbreth</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"https://commons.wikimedia.org/wiki/File:Standard_Symbols_for_Process_Charts_(1),_1921.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "caption_html": "<span class=\"slide-caption__title\">Standard Symbols for Process Charts, 1921</span> · <span class=\"slide-caption__author\">Frank B. Gilbreth and Lillian M. Gilbreth</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/2/20/Standard_Symbols_for_Process_Charts_%281%29%2C_1921.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "flagged"
     },
     "masterclass-1": {
       "src": "/assets/images/deck-media/8a77d4b4393cc371.webp",
       "alt": "A 1921 Gilbreth process chart of the 'present method' for ordering printed forms: numbered circles and squares run down the page, each labelled with who does what.",
-      "caption_html": "<span class=\"slide-caption__title\">Process Chart for Ordering Blank Forms – Present Method, 1921</span> · <span class=\"slide-caption__author\">Frank B. Gilbreth and Lillian M. Gilbreth</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"https://commons.wikimedia.org/wiki/File:Process_Chart_for_Ordering_Blank_Forms_-_Present_Method,_1921.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "caption_html": "<span class=\"slide-caption__title\">Process Chart for Ordering Blank Forms – Present Method, 1921</span> · <span class=\"slide-caption__author\">Frank B. Gilbreth and Lillian M. Gilbreth</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/4/45/Process_Chart_for_Ordering_Blank_Forms_-_Present_Method%2C_1921.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "flagged"
     },
     "masterclass-2": {
       "src": "/assets/images/deck-media/a4122f03534da849.webp",
       "alt": "A wooden Jacquard loom in a museum: warp threads stretched on one side and a long chain of punched cards hanging on the other, the cards carrying the woven pattern.",
-      "caption_html": "<span class=\"slide-caption__title\">A Jacquard loom showing information punchcards</span> · <span class=\"slide-caption__author\">Stephen C. Dickson</span> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:A_Jacquard_loom_showing_information_punchcards,_National_Museum_of_Scotland.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "caption_html": "<span class=\"slide-caption__title\">A Jacquard loom showing information punchcards</span> · <span class=\"slide-caption__author\">Stephen C. Dickson</span> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a> · <a href=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/A_Jacquard_loom_showing_information_punchcards%2C_National_Museum_of_Scotland.jpg/1920px-A_Jacquard_loom_showing_information_punchcards%2C_National_Museum_of_Scotland.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-3": {
+      "src": "/assets/images/deck-media/57d7c47591fc93f2.webp",
+      "alt": "Leonardo sketch of a flying machine from around 1505.",
+      "caption_html": "<span class=\"slide-caption__title\">Leonardo Design for a Flying Machine, c. 1505</span> · <span class=\"slide-caption__author\">Leonardo da Vinci</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/d/da/Leonardo_Design_for_a_Flying_Machine%2C_c._1505.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
     "masterclass-4": {
       "src": "/assets/images/deck-media/8b4874486cda623c.webp",
       "alt": "An early-19th-century design sheet with six chairs in two rows, each a different frame and back, all sharing the same scarlet upholstery.",
-      "caption_html": "<span class=\"slide-caption__title\">Design for Six Chairs with Scarlet Upholstery</span> · <span class=\"slide-caption__author\">Anonymous designer (early 19th century); The Metropolitan Museum of Art (CC0)</span> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Design_for_Six_Chairs_with_Scarlet_Upholstery_(verso-_Sketch_for_Sofa)_MET_DP807166.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "caption_html": "<span class=\"slide-caption__title\">Design for Six Chairs with Scarlet Upholstery</span> · <span class=\"slide-caption__author\">Anonymous designer (early 19th century); The Metropolitan Museum of Art (CC0)</span> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a> · <a href=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Design_for_Six_Chairs_with_Scarlet_Upholstery_%28verso-_Sketch_for_Sofa%29_MET_DP807166.jpg/1920px-Design_for_Six_Chairs_with_Scarlet_Upholstery_%28verso-_Sketch_for_Sofa%29_MET_DP807166.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
     "masterclass-5": {
       "src": "/assets/images/deck-media/004ceab4c9862728.webp",
       "alt": "A 19th-century wood engraving of Loïe Fuller's Serpentine Dance in eight panels: the dancer's swirling silk takes the shape of serpents, a basket, a propeller and butterflies.",
-      "caption_html": "<span class=\"slide-caption__title\">La danse serpentine, Loïe Fuller et ses transformations</span> · <span class=\"slide-caption__author\">Unknown author (before 1900)</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:La_danse_serpentine,_Lo%C3%AFe_Fuller_et_ses_transformations.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "caption_html": "<span class=\"slide-caption__title\">La danse serpentine, Loïe Fuller et ses transformations</span> · <span class=\"slide-caption__author\">Unknown author (before 1900)</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/La_danse_serpentine%2C_Lo%C3%AFe_Fuller_et_ses_transformations.jpg/1920px-La_danse_serpentine%2C_Lo%C3%AFe_Fuller_et_ses_transformations.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
     "masterclass-6": {
       "src": "/assets/images/deck-media/1ab95a4cc1ab40a2.webp",
       "alt": "A printed 1911 table of Binet–Simon test results from two Paris schools: rows of test tasks cross-referenced with pass rates (out of 10) for each age group.",
-      "caption_html": "<span class=\"slide-caption__title\">Tableau de résultats au test de Binet-Simon</span> · <span class=\"slide-caption__author\">Alfred Binet</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Tableau_de_r%C3%A9sultats_au_test_de_Binet-Simon.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "caption_html": "<span class=\"slide-caption__title\">Tableau de résultats au test de Binet-Simon</span> · <span class=\"slide-caption__author\">Alfred Binet</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/d/d9/Tableau_de_r%C3%A9sultats_au_test_de_Binet-Simon.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
     "lab-1": {
       "src": "/assets/images/deck-media/49671848d45566b1.webp",
       "alt": "A 1921 Gilbreth 'proposed process chart' for first orders: a short vertical flow of numbered steps for preparing a purchase order, each with a line of description.",
-      "caption_html": "<span class=\"slide-caption__title\">Proposed Process Chart for First Orders, 1921</span> · <span class=\"slide-caption__author\">Frank B. Gilbreth and Lillian M. Gilbreth</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"https://commons.wikimedia.org/wiki/File:Proposed_Process_Chart_for_First_Orders,_1921.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "caption_html": "<span class=\"slide-caption__title\">Proposed Process Chart for First Orders, 1921</span> · <span class=\"slide-caption__author\">Frank B. Gilbreth and Lillian M. Gilbreth</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/4/4c/Proposed_Process_Chart_for_First_Orders%2C_1921.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "flagged"
+    },
+    "lab-2": {
+      "src": "/assets/images/deck-media/aa4c4294c2dad0b2.webp",
+      "alt": "Historic drafting-room methods plate from 1918 showing workstations.",
+      "caption_html": "<span class=\"slide-caption__title\">Drafting room methods (1918) (14778398165)</span> · <span class=\"slide-caption__author\">Charles Dickey Collins</span> · <a href=\"https://www.flickr.com/commons/usage/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/0/0c/Drafting_room_methods_%281918%29_%2814778398165%29.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
     }
   },
   "u-1-introduction-creativity": {
     "cover": {
       "src": "/assets/images/deck-media/602b24d382784822.webp",
       "alt": "Pen-and-ink sheet by Leonardo da Vinci with two studies of the Virgin holding the Christ Child and a cat, and three smaller studies of the Child with the cat, each pose tried differently.",
-      "caption_html": "<span class=\"slide-caption__title\">Two studies of the Virgin and Child with a cat and three studies of the Child with a cat</span> · <span class=\"slide-caption__author\">Leonardo da Vinci</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_1860,0616.98,_Two_studies_of_the_Virgin_and_Child_with_a_cat_and_three_studies_of_the_Child_with_a_cat.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "caption_html": "<span class=\"slide-caption__title\">Two studies of the Virgin and Child with a cat and three studies of the Child with a cat</span> · <span class=\"slide-caption__author\">Leonardo da Vinci</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/b/bc/Leonardo_da_Vinci_-_1860%2C0616.98%2C_Two_studies_of_the_Virgin_and_Child_with_a_cat_and_three_studies_of_the_Child_with_a_cat.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
     "analysis-model": {
       "src": "/assets/images/deck-media/59f29872951bc0ae.webp",
       "alt": "El Lissitzky's 1919–20 poster: a sharp red triangle drives into a white circle on a black and white field, with Russian words placed along the shapes.",
-      "caption_html": "<span class=\"slide-caption__title\">Beat the Whites with the Red Wedge</span> · <span class=\"slide-caption__author\">El Lissitzky</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Beat_the_Whites_with_the_Red_Wedge.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "caption_html": "<span class=\"slide-caption__title\">Beat the Whites with the Red Wedge</span> · <span class=\"slide-caption__author\">El Lissitzky</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/1/13/Beat_the_Whites_with_the_Red_Wedge.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
     "masterclass-1": {
       "src": "/assets/images/deck-media/1e199b72324443bc.webp",
       "alt": "Chalk drawing by Michelangelo: a large, carefully modelled study of a bent leg and torso, with two small quick sketches of a seated figure in the corners.",
-      "caption_html": "<span class=\"slide-caption__title\">Studies for the Libyan Sibyl</span> · <span class=\"slide-caption__author\">Michelangelo Buonarroti</span> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Studies_for_the_Libyan_Sibyl_(recto);_Studies_for_the_Libyan_Sibyl_and_a_small_Sketch_for_a_Seated_Figure_(verso)_MET_DP807402.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "caption_html": "<span class=\"slide-caption__title\">Studies for the Libyan Sibyl</span> · <span class=\"slide-caption__author\">Michelangelo Buonarroti</span> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a> · <a href=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Studies_for_the_Libyan_Sibyl_%28recto%29%3B_Studies_for_the_Libyan_Sibyl_and_a_small_Sketch_for_a_Seated_Figure_%28verso%29_MET_DP807402.jpg/1920px-Studies_for_the_Libyan_Sibyl_%28recto%29%3B_Studies_for_the_Libyan_Sibyl_and_a_small_Sketch_for_a_Seated_Figure_%28verso%29_MET_DP807402.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
+    },
+    "masterclass-2": {
+      "src": "/assets/images/deck-media/e654c33162f2c19a.webp",
+      "alt": "Black-and-white figure of patterned cubes from the Kohs Block Design Test.",
+      "caption_html": "<span class=\"slide-caption__title\">Kohs Block Design Test - Figure 1</span> · <span class=\"slide-caption__author\">S. C. Kohs</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/c/c4/Kohs_Block_Design_Test_-_Figure_1.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
     },
     "masterclass-3": {
       "src": "/assets/images/deck-media/48f50bbc89c22ae9.webp",
       "alt": "An 1893 newspaper advertisement for the Gem paper clip: a large line drawing of the double-loop wire clip beside text praising it for holding papers together.",
-      "caption_html": "<span class=\"slide-caption__title\">Gem paper clip advertisement, January 1893</span> · <span class=\"slide-caption__author\">Unknown advertiser (1893)</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:GemPaperClipAdvertisementJan1893.png\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "caption_html": "<span class=\"slide-caption__title\">Gem paper clip advertisement, January 1893</span> · <span class=\"slide-caption__author\">Unknown advertiser (1893)</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/d/d5/GemPaperClipAdvertisementJan1893.png?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
     "masterclass-4": {
       "src": "/assets/images/deck-media/6bf5e63d3bbb1b00.webp",
       "alt": "Rodin's bronze The Thinker: a seated nude man leans forward, chin resting on his hand, absorbed in thought before acting.",
-      "caption_html": "<span class=\"slide-caption__title\">The Thinker</span> · <span class=\"slide-caption__author\">Auguste Rodin (sculpture); Cleveland Museum of Art (photograph, CC0)</span> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Auguste_Rodin_-_The_Thinker_-_1917.42_-_Cleveland_Museum_of_Art.tif\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "caption_html": "<span class=\"slide-caption__title\">The Thinker</span> · <span class=\"slide-caption__author\">Auguste Rodin (sculpture); Cleveland Museum of Art (photograph, CC0)</span> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a> · <a href=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Auguste_Rodin_-_The_Thinker_-_1917.42_-_Cleveland_Museum_of_Art.tif/lossy-page1-1920px-Auguste_Rodin_-_The_Thinker_-_1917.42_-_Cleveland_Museum_of_Art.tif.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
     "masterclass-5": {
       "src": "/assets/images/deck-media/764fabac001fcba4.webp",
       "alt": "An 18th-century pocket set of drawing instruments by Peter Dollond: a ruler, a scale and four brass and steel instruments laid out beside their open shagreen case.",
-      "caption_html": "<span class=\"slide-caption__title\">Pocket set of drawing instruments</span> · <span class=\"slide-caption__author\">Peter Dollond (instrument maker); The Metropolitan Museum of Art (photograph, CC0)</span> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Pocket_set_of_drawing_instruments_MET_DP232308.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "caption_html": "<span class=\"slide-caption__title\">Pocket set of drawing instruments</span> · <span class=\"slide-caption__author\">Peter Dollond (instrument maker); The Metropolitan Museum of Art (photograph, CC0)</span> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a> · <a href=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Pocket_set_of_drawing_instruments_MET_DP232308.jpg/1920px-Pocket_set_of_drawing_instruments_MET_DP232308.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
     "masterclass-6": {
       "src": "/assets/images/deck-media/80bb26207763d002.webp",
       "alt": "A promotional wall covered in coloured sticky notes in vertical stripes around a screen reading 'Post-it Teamwork Tools', with product baskets on the counter below.",
-      "caption_html": "<span class=\"slide-caption__title\">Post-It Notes Wall at the Fast Company Innovation Festival</span> · <span class=\"slide-caption__author\">Nan Palmero</span> · <a href=\"https://creativecommons.org/licenses/by/2.0/\" target=\"_blank\" rel=\"noopener\">CC BY 2.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Post-It_Notes_Wall_at_the_Fast_Company_Innovation_Festival_(30772875917).jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "caption_html": "<span class=\"slide-caption__title\">Post-It Notes Wall at the Fast Company Innovation Festival</span> · <span class=\"slide-caption__author\">Nan Palmero</span> · <a href=\"https://creativecommons.org/licenses/by/2.0/\" target=\"_blank\" rel=\"noopener\">CC BY 2.0</a> · <a href=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Post-It_Notes_Wall_at_the_Fast_Company_Innovation_Festival_%2830772875917%29.jpg/1920px-Post-It_Notes_Wall_at_the_Fast_Company_Innovation_Festival_%2830772875917%29.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "flagged"
     },
     "lab-1": {
       "src": "/assets/images/deck-media/47983a023a08feec.webp",
       "alt": "Alfred Stieglitz's 1917 photograph of Duchamp's Fountain: a white porcelain urinal turned on its back on a plinth, signed 'R. Mutt 1917', with an entry tag hanging from it.",
-      "caption_html": "<span class=\"slide-caption__title\">Fountain</span> · <span class=\"slide-caption__author\">Alfred Stieglitz (photograph) / Marcel Duchamp (readymade)</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"https://commons.wikimedia.org/wiki/File:Marcel_Duchamp,_1917,_Fountain,_photograph_by_Alfred_Stieglitz.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "caption_html": "<span class=\"slide-caption__title\">Fountain</span> · <span class=\"slide-caption__author\">Alfred Stieglitz (photograph) / Marcel Duchamp (readymade)</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/d/dd/Marcel_Duchamp%2C_1917%2C_Fountain%2C_photograph_by_Alfred_Stieglitz.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "flagged"
     },
     "lab-2": {
       "src": "/assets/images/deck-media/94083edd814d3e84.webp",
       "alt": "The 1922 Kleine Dada Soirée poster: words in German, Dutch and French, in many sizes, typefaces and directions, jumbled around giant red letters spelling 'DADA'.",
-      "caption_html": "<span class=\"slide-caption__title\">Kleine Dada Soirée (Small Dada Evening)</span> · <span class=\"slide-caption__author\">Theo van Doesburg and Kurt Schwitters</span> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Theo_van_Doesburg_and_Kurt_Schwitters,_Kleine_Dada_Soir%C3%A9e_(Small_Dada_Evening),_1922,_NGA_154076.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "caption_html": "<span class=\"slide-caption__title\">Kleine Dada Soirée (Small Dada Evening)</span> · <span class=\"slide-caption__author\">Theo van Doesburg and Kurt Schwitters</span> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a> · <a href=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Theo_van_Doesburg_and_Kurt_Schwitters%2C_Kleine_Dada_Soir%C3%A9e_%28Small_Dada_Evening%29%2C_1922%2C_NGA_154076.jpg/1920px-Theo_van_Doesburg_and_Kurt_Schwitters%2C_Kleine_Dada_Soir%C3%A9e_%28Small_Dada_Evening%29%2C_1922%2C_NGA_154076.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     }
   },
@@ -109,101 +127,310 @@
     "cover": {
       "src": "/assets/images/deck-media/2fc87d360433fcca.webp",
       "alt": "A page of Charles Darwin's 1837 notebook headed 'I think', with a small branching tree sketch whose lines split, some ending and some reaching the letters A, B, C and D.",
-      "caption_html": "<span class=\"slide-caption__title\">Darwin Tree, 1837</span> · <span class=\"slide-caption__author\">Charles Darwin</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Darwin_Tree_1837.png\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "caption_html": "<span class=\"slide-caption__title\">Darwin Tree, 1837</span> · <span class=\"slide-caption__author\">Charles Darwin</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/1/10/Darwin_Tree_1837.png?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
     "analysis-model": {
       "src": "/assets/images/deck-media/212a6fbf95aab085.webp",
       "alt": "Seurat's 1884 oil study for A Sunday on La Grande Jatte: small strokes of colour build a grassy riverbank with strollers, trees and boats on the water.",
-      "caption_html": "<span class=\"slide-caption__title\">Study for &quot;A Sunday on La Grande Jatte&quot;</span> · <span class=\"slide-caption__author\">Georges Seurat</span> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Study_for_%22A_Sunday_on_La_Grande_Jatte%22_MET_DP259921.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "caption_html": "<span class=\"slide-caption__title\">Study for &quot;A Sunday on La Grande Jatte&quot;</span> · <span class=\"slide-caption__author\">Georges Seurat</span> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a> · <a href=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Study_for_%22A_Sunday_on_La_Grande_Jatte%22_MET_DP259921.jpg/1920px-Study_for_%22A_Sunday_on_La_Grande_Jatte%22_MET_DP259921.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
     "masterclass-1": {
       "src": "/assets/images/deck-media/5e5034d4db013da5.webp",
       "alt": "Concept-art sheet from the short film Sprite Fright: seventeen labelled versions of one red-haired character's head, each with a different expression.",
-      "caption_html": "<span class=\"slide-caption__title\">Sprite Fright concept art: Victoria</span> · <span class=\"slide-caption__author\">Julien Kaspar / Blender Foundation</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Sprite_Fright-concept_art-Victoria_01.png\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "caption_html": "<span class=\"slide-caption__title\">Sprite Fright concept art: Victoria</span> · <span class=\"slide-caption__author\">Julien Kaspar / Blender Foundation</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Sprite_Fright-concept_art-Victoria_01.png/1920px-Sprite_Fright-concept_art-Victoria_01.png\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "flagged"
+    },
+    "masterclass-2": {
+      "src": "/assets/images/deck-media/f93cbb543d2cfc2a.webp",
+      "alt": "Dürer sheet with self-portrait study and six pillow studies.",
+      "caption_html": "<span class=\"slide-caption__title\">Self-portrait, Study of a Hand and a Pillow (recto); Six Studies of Pillows (verso) MET DP809588</span> · <span class=\"slide-caption__author\">Albrecht Dürer</span> · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/f/f3/Self-portrait%2C_Study_of_a_Hand_and_a_Pillow_%28recto%29%3B_Six_Studies_of_Pillows_%28verso%29_MET_DP809588.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
     },
     "masterclass-3": {
       "src": "/assets/images/deck-media/182376a162650045.webp",
       "alt": "A wall covered with columns of handwritten blue and orange sticky notes from a brainstorming session, each note a separate idea kept without judging.",
-      "caption_html": "<span class=\"slide-caption__title\">Stickies to brainstorm</span> · <span class=\"slide-caption__author\">Victor Grigas</span> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 3.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Stickies_to_brainstorm_Edit.2014..jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "caption_html": "<span class=\"slide-caption__title\">Stickies to brainstorm</span> · <span class=\"slide-caption__author\">Victor Grigas</span> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 3.0</a> · <a href=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Stickies_to_brainstorm_Edit.2014..jpg/1920px-Stickies_to_brainstorm_Edit.2014..jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
     "masterclass-4": {
       "src": "/assets/images/deck-media/56194141c1329fd1.webp",
       "alt": "A workshop board headed 'Sombrero negro (Dudas)' — the black thinking hat — asking 'What are the doubts? What are the risks?', with coloured sticky-note answers below.",
-      "caption_html": "<span class=\"slide-caption__title\">Sombrero negro (Dudas)</span> · <span class=\"slide-caption__author\">NMontoya (WMCO)</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Sombrero_negro_(Dudas).jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "caption_html": "<span class=\"slide-caption__title\">Sombrero negro (Dudas)</span> · <span class=\"slide-caption__author\">NMontoya (WMCO)</span> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/7/7a/Sombrero_negro_%28Dudas%29.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
     "masterclass-5": {
       "src": "/assets/images/deck-media/d34fe8bf4ea9f618.webp",
       "alt": "A Pugh concept-selection spreadsheet: criteria such as reliability and safety with weights in rows, four design concepts scored in columns, and totals at the bottom.",
-      "caption_html": "<span class=\"slide-caption__title\">Pugh Concept Selection</span> · <span class=\"slide-caption__author\">Chattons2</span> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 3.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Pugh_Concept_Selection.png\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "caption_html": "<span class=\"slide-caption__title\">Pugh Concept Selection</span> · <span class=\"slide-caption__author\">Chattons2</span> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 3.0</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/7/78/Pugh_Concept_Selection.png?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
     "masterclass-6": {
       "src": "/assets/images/deck-media/c839dd8e96b50396.webp",
       "alt": "Van Gogh's 1889 self-portrait: the painter in a cap and green coat, a white bandage wrapped around his head, with a Japanese print on the wall behind him.",
-      "caption_html": "<span class=\"slide-caption__title\">Self-portrait with bandaged ear</span> · <span class=\"slide-caption__author\">Vincent van Gogh</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Self-portrait_with_bandaged_ear_(1889,_Courtauld_Institute).jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "caption_html": "<span class=\"slide-caption__title\">Self-portrait with bandaged ear</span> · <span class=\"slide-caption__author\">Vincent van Gogh</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Vincent_van_Gogh_-_Self-portrait_with_bandaged_ear_%281889%2C_Courtauld_Institute%29.jpg/1920px-Vincent_van_Gogh_-_Self-portrait_with_bandaged_ear_%281889%2C_Courtauld_Institute%29.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
     "lab-1": {
       "src": "/assets/images/deck-media/7be69b460d03f86a.webp",
       "alt": "Black-and-white photograph of the Zen teacher Kōdō Sawaki seated cross-legged in robes, upright and still, hands resting in his lap in meditation.",
-      "caption_html": "<span class=\"slide-caption__title\">Kodo Sawaki, zazen</span> · <span class=\"slide-caption__author\">Unknown photographer (c. 1920)</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"https://commons.wikimedia.org/wiki/File:Kodo_Sawaki_Zazen.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "caption_html": "<span class=\"slide-caption__title\">Kodo Sawaki, zazen</span> · <span class=\"slide-caption__author\">Unknown photographer (c. 1920)</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/c/c1/Kodo_Sawaki_Zazen.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "flagged"
+    },
+    "lab-2": {
+      "src": "/assets/images/deck-media/e5ba8795adb9ce2c.webp",
+      "alt": "Colour lithograph film poster advertising Mike's Brainstorm (1912).",
+      "caption_html": "<span class=\"slide-caption__title\">Selig presents Mike&#39;s Brainstorm An exceptional wild animal comedy. LCCN2015645268</span> · <span class=\"slide-caption__author\">Selig Polyscope Company</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/a/ac/Selig_presents_Mike%27s_Brainstorm_An_exceptional_wild_animal_comedy._LCCN2015645268.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
     }
   },
   "u-3-development-solutions": {
     "cover": {
       "src": "/assets/images/deck-media/576028393db589ca.webp",
       "alt": "The Wright brothers' 1902 biplane glider in flight over the Kitty Hawk dunes, its pilot on the lower wing, under a cloudy sky.",
-      "caption_html": "<span class=\"slide-caption__title\">Gliding flight, Wright Glider, Kitty Hawk, NC, 1902</span> · <span class=\"slide-caption__author\">Wilbur and Orville Wright</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Gliding_flight,_Wright_Glider,_Kitty_Hawk,_NC._1902.10459_A.S..jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "caption_html": "<span class=\"slide-caption__title\">Gliding flight, Wright Glider, Kitty Hawk, NC, 1902</span> · <span class=\"slide-caption__author\">Wilbur and Orville Wright</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/7/78/Gliding_flight%2C_Wright_Glider%2C_Kitty_Hawk%2C_NC._1902.10459_A.S..jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
     "analysis-model": {
       "src": "/assets/images/deck-media/01ca4277a985054c.webp",
       "alt": "A pencil study by Theo van Doesburg of a cow with its head lowered, drawn in loose lines and blocky masses as the animal starts to become geometric.",
-      "caption_html": "<span class=\"slide-caption__title\">Cow</span> · <span class=\"slide-caption__author\">Theo van Doesburg</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Cow_by_Theo_van_Doesburg_Museum_of_Modern_Art_25.1969.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "caption_html": "<span class=\"slide-caption__title\">Cow</span> · <span class=\"slide-caption__author\">Theo van Doesburg</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Cow_by_Theo_van_Doesburg_Museum_of_Modern_Art_25.1969.jpg/1920px-Cow_by_Theo_van_Doesburg_Museum_of_Modern_Art_25.1969.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
     "masterclass-1": {
       "src": "/assets/images/deck-media/db042aadda24d26b.webp",
       "alt": "Early-1900s photograph of Gaudí's hanging model for the Colonia Güell church: strings loaded with small sacks of weight hang from the ceiling, with paper draped over them to show the inverted form.",
-      "caption_html": "<span class=\"slide-caption__title\">Maqueta polifunicular</span> · <span class=\"slide-caption__author\">Unknown photographer (Gaudí workshop, c. 1908)</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Maqueta_polifunicular.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "caption_html": "<span class=\"slide-caption__title\">Maqueta polifunicular</span> · <span class=\"slide-caption__author\">Unknown photographer (Gaudí workshop, c. 1908)</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/5/59/Maqueta_polifunicular.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
     "masterclass-2": {
       "src": "/assets/images/deck-media/8df17843a71ab0dd.webp",
       "alt": "A page from Beethoven's 1812 sketchbook: hurried ink notation across many staves as themes for the Seventh Symphony are tried out.",
-      "caption_html": "<span class=\"slide-caption__title\">Sketches for the second movement of Symphony no. 7, op. 92 (Petter Sketchbook, 1812)</span> · <span class=\"slide-caption__author\">Ludwig van Beethoven (sketchbook); Daderot (photograph, public-domain dedication)</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Sketches_for_the_second_movement_of_Symphony_no._7,_op._92,_Beethoven,_Petter_Sketchbook,_1812,_musical_autograph_-_Morgan_Library_%26_Museum_-_New_York_City_-_DSC06691.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "caption_html": "<span class=\"slide-caption__title\">Sketches for the second movement of Symphony no. 7, op. 92 (Petter Sketchbook, 1812)</span> · <span class=\"slide-caption__author\">Ludwig van Beethoven (sketchbook); Daderot (photograph, public-domain dedication)</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Sketches_for_the_second_movement_of_Symphony_no._7%2C_op._92%2C_Beethoven%2C_Petter_Sketchbook%2C_1812%2C_musical_autograph_-_Morgan_Library_%26_Museum_-_New_York_City_-_DSC06691.jpg/1920px-thumbnail.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-3": {
+      "src": "/assets/images/deck-media/d9e20550857c9897.webp",
+      "alt": "Pen drawing of Leonardo's flying machine design.",
+      "caption_html": "<span class=\"slide-caption__title\">Leonardo Design for a Flying Machine, c. 1488</span> · <span class=\"slide-caption__author\">Leonardo da Vinci</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/c/c5/Leonardo_Design_for_a_Flying_Machine%2C_c._1488.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-4": {
+      "src": "/assets/images/deck-media/860928e25d445d8f.webp",
+      "alt": "Pencil sketchbook page of a landscape from the Lines family sketchbook.",
+      "caption_html": "<span class=\"slide-caption__title\">Lines family sketchbook - Disc1 009</span> · <span class=\"slide-caption__author\">Lines family (19th century)</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/7/77/Lines_family_sketchbook_-_Disc1_009.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
     "masterclass-5": {
       "src": "/assets/images/deck-media/2ef7976e52c1675b.webp",
       "alt": "A spread from Paul Klee's 1925 Pedagogical Sketchbook: simple lines and shapes worked out as a 'first case', 'second case' and 'third case', each a different development.",
-      "caption_html": "<span class=\"slide-caption__title\">Pädagogisches Skizzenbuch</span> · <span class=\"slide-caption__author\">Paul Klee</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Paul_Klee_P%C3%A4dagogisches_Skizzenbuch_10.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "caption_html": "<span class=\"slide-caption__title\">Pädagogisches Skizzenbuch</span> · <span class=\"slide-caption__author\">Paul Klee</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Paul_Klee_P%C3%A4dagogisches_Skizzenbuch_10.jpg/1920px-Paul_Klee_P%C3%A4dagogisches_Skizzenbuch_10.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
     "masterclass-6": {
       "src": "/assets/images/deck-media/d935477187be848c.webp",
       "alt": "Two pages of Orville Wright's diary for 17 December 1903: dense handwriting on squared notebook paper recording that day's series of flight tests.",
-      "caption_html": "<span class=\"slide-caption__title\">Wright diary</span> · <span class=\"slide-caption__author\">Orville Wright</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Wright_diary.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "caption_html": "<span class=\"slide-caption__title\">Wright diary</span> · <span class=\"slide-caption__author\">Orville Wright</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/8/85/Wright_diary.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
     "lab-1": {
       "src": "/assets/images/deck-media/32b9a38346ca2656.webp",
       "alt": "An early-19th-century watercolour design sheet showing three chairs side by side, each with a differently curved back and patterned seat.",
-      "caption_html": "<span class=\"slide-caption__title\">Design for Three Chairs with Curved Backs</span> · <span class=\"slide-caption__author\">Anonymous designer (early 19th century); The Metropolitan Museum of Art (CC0)</span> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Design_for_Three_Chairs_with_Curved_Backs_(verso-_Sketch_for_a_Sideboard)_MET_DP807145.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "caption_html": "<span class=\"slide-caption__title\">Design for Three Chairs with Curved Backs</span> · <span class=\"slide-caption__author\">Anonymous designer (early 19th century); The Metropolitan Museum of Art (CC0)</span> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a> · <a href=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Design_for_Three_Chairs_with_Curved_Backs_%28verso-_Sketch_for_a_Sideboard%29_MET_DP807145.jpg/1920px-Design_for_Three_Chairs_with_Curved_Backs_%28verso-_Sketch_for_a_Sideboard%29_MET_DP807145.jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     },
     "lab-2": {
       "src": "/assets/images/deck-media/fd8903c0e7a3c0c4.webp",
       "alt": "The Wright brothers' 1900 glider flying unmanned as a tethered kite against a cloudy sky, its two wings and struts clearly visible.",
-      "caption_html": "<span class=\"slide-caption__title\">Wright Glider being flown as a kite, 1900</span> · <span class=\"slide-caption__author\">Wilbur and Orville Wright</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://commons.wikimedia.org/wiki/File:Wright_Glider_being_flown_as_a_kite._-1900_10457_A.S..jpg\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "caption_html": "<span class=\"slide-caption__title\">Wright Glider being flown as a kite, 1900</span> · <span class=\"slide-caption__author\">Wilbur and Orville Wright</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/2/27/Wright_Glider_being_flown_as_a_kite._-1900_10457_A.S..jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
       "rights_status": "ok"
     }
   },
-  "u-4-workplace-application": {}
+  "u-4-workplace-application": {
+    "cover": {
+      "src": "/assets/images/deck-media/dffad12293f6e8ea.webp",
+      "alt": "Photograph of adults seated around tables in a workshop classroom.",
+      "caption_html": "<span class=\"slide-caption__title\">People in workshop class</span> · <span class=\"slide-caption__author\">Harless Todd (U.S. Fish and Wildlife Service)</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/a/a0/People_in_workshop_class.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-1": {
+      "src": "/assets/images/deck-media/c3b7ba2de7a56a4d.webp",
+      "alt": "Overhead view of workshop tables with groups in an education session.",
+      "caption_html": "<span class=\"slide-caption__title\">Groups participating in the Wikipedia for Education workshop 01</span> · <span class=\"slide-caption__author\">Mounir Neddi</span> · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/c/cd/Groups_participating_in_the_Wikipedia_for_Education_workshop_01.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-2": {
+      "src": "/assets/images/deck-media/09b129179893fce7.webp",
+      "alt": "Historic plate showing drafting-room layout and method diagrams from 1918.",
+      "caption_html": "<span class=\"slide-caption__title\">Drafting room methods (1918) (14591687900)</span> · <span class=\"slide-caption__author\">Charles Dickey Collins</span> · <a href=\"https://www.flickr.com/commons/usage/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/6/6e/Drafting_room_methods_%281918%29_%2814591687900%29.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-3": {
+      "src": "/assets/images/deck-media/f23f2fae62dd77da.webp",
+      "alt": "Black-and-white photograph of a large drafting room with rows of tables.",
+      "caption_html": "<span class=\"slide-caption__title\">Drafting room, Navy Dept. LCCN2016873947</span> · <span class=\"slide-caption__author\">Harris &amp; Ewing</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/4/40/Drafting_room%2C_Navy_Dept._LCCN2016873947.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-4": {
+      "src": "/assets/images/deck-media/b2b3251b7f5f2c5f.webp",
+      "alt": "Engraved view of designers at tables in the Navy Department designing room, 1893.",
+      "caption_html": "<span class=\"slide-caption__title\">Designing room in the Navy Department, 1893 - A. Castaigne. LCCN2003662986</span> · <span class=\"slide-caption__author\">J. André Castaigne</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/7/78/Designing_room_in_the_Navy_Department%2C_1893_-_A._Castaigne._LCCN2003662986.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "lab-1": {
+      "src": "/assets/images/deck-media/41d03840c37e8105.webp",
+      "alt": "Book illustration of Ishmael and Queequeg being directed toward the Pequod.",
+      "caption_html": "<span class=\"slide-caption__title\">Moby Dick p91 illustration</span> · <span class=\"slide-caption__author\">Augustus Burnham Shute</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/b/bc/Moby_Dick_p91_illustration.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "lab-2": {
+      "src": "/assets/images/deck-media/88f8deffcd489a0a.webp",
+      "alt": "Finnish road warning sign 151 depicting pedestrians.",
+      "caption_html": "<span class=\"slide-caption__title\">Finland road sign 151 (1969-198?)</span> · <span class=\"slide-caption__author\">Arkke</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/d/dd/Finland_road_sign_151_%281969-198%3F%29.png?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "workshop-1": {
+      "src": "/assets/images/deck-media/bae61228ff7fe887.webp",
+      "alt": "Pedestrian overpass direction signs mounted outdoors in Taichung.",
+      "caption_html": "<span class=\"slide-caption__title\">Pedestrian overpass signs in Taichung</span> · <span class=\"slide-caption__author\">Hippietrail</span> · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/0/0e/Pedestrian_overpass_signs_in_Taichung.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    }
+  },
+  "u-5-creativity-technology": {
+    "cover": {
+      "src": "/assets/images/deck-media/eb7ae9c4a622e549.webp",
+      "alt": "Two operators setting program switches on the ENIAC computer.",
+      "caption_html": "<span class=\"slide-caption__title\">Glen Beck and Betty Snyder program the ENIAC in building 328 at the Ballistic Research Laboratory</span> · <span class=\"slide-caption__author\">U.S. Army</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/d/d3/Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "analysis-model": {
+      "src": "/assets/images/deck-media/f88b292a02a7d940.webp",
+      "alt": "Operator at a mid-century card-punching machine.",
+      "caption_html": "<span class=\"slide-caption__title\">Card puncher - NARA - 513295</span> · <span class=\"slide-caption__author\">Unknown (NARA)</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/8/8f/Card_puncher_-_NARA_-_513295.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-1": {
+      "src": "/assets/images/deck-media/c491e23995c1b412.webp",
+      "alt": "Room of punched-card machines at Bletchley Park, 1945.",
+      "caption_html": "<span class=\"slide-caption__title\">Bletchley Park 1945 photo of punched card machines</span> · <span class=\"slide-caption__author\">Jack Good; Donald Michie; Geoffrey Timms</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/9/97/Bletchley_Park_1945_photo_of_punched_card_machines.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-2": {
+      "src": "/assets/images/deck-media/d3761e3d1b1cdf1f.webp",
+      "alt": "Technicians reprogramming ENIAC by replugging cables.",
+      "caption_html": "<span class=\"slide-caption__title\">Reprogramming ENIAC</span> · <span class=\"slide-caption__author\">U.S. Army</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/a/aa/Reprogramming_ENIAC.png?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-3": {
+      "src": "/assets/images/deck-media/22dea5964bc6caa3.webp",
+      "alt": "UNIVAC file computer installation photograph.",
+      "caption_html": "<span class=\"slide-caption__title\">UNIVAC-FILE-COMPUTER-BRL61-0944</span> · <span class=\"slide-caption__author\">U.S. Army Ballistic Research Laboratory</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/1/16/UNIVAC-FILE-COMPUTER-BRL61-0944.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-4": {
+      "src": "/assets/images/deck-media/6574590a14a91bbd.webp",
+      "alt": "Margaret Hamilton standing beside stacked Apollo software listings.",
+      "caption_html": "<span class=\"slide-caption__title\">Margaret Hamilton - restoration</span> · <span class=\"slide-caption__author\">NASA / restored</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/d/db/Margaret_Hamilton_-_restoration.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-5": {
+      "src": "/assets/images/deck-media/8596bda79884db4f.webp",
+      "alt": "Block diagram of the Apollo Guidance Computer.",
+      "caption_html": "<span class=\"slide-caption__title\">Apollo Guidance Computer block diagram</span> · <span class=\"slide-caption__author\">NASA</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/6/6c/Apollo_Guidance_Computer_block_diagram.png?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-6": {
+      "src": "/assets/images/deck-media/e078833b498be28d.webp",
+      "alt": "Ford assembly line workers in Copenhagen, 1923.",
+      "caption_html": "<span class=\"slide-caption__title\">Ford assembly line in Copenhagen 1923</span> · <span class=\"slide-caption__author\">Unknown</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/1/1f/Ford_assembly_line_in_Copenhagen_1923.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "lab-1": {
+      "src": "/assets/images/deck-media/6b3cdc0ff3fae899.webp",
+      "alt": "UNIVAC Unimatic computer terminal on display.",
+      "caption_html": "<span class=\"slide-caption__title\">Univac Unimatic computer terminal at CHM</span> · <span class=\"slide-caption__author\">Unknown (CHM)</span> · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/1/1e/Univac_Unimatic_computer_terminal_at_CHM.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "lab-2": {
+      "src": "/assets/images/deck-media/7f00ea7620313087.webp",
+      "alt": "Historic photograph of a typewriter model.",
+      "caption_html": "<span class=\"slide-caption__title\">Typewriter model LCCN2016821938</span> · <span class=\"slide-caption__author\">Harris &amp; Ewing</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/9/9e/Typewriter_model_LCCN2016821938.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "workshop-1": {
+      "src": "/assets/images/deck-media/c750e41455f5f42d.webp",
+      "alt": "Newsletter illustration of a UNIVAC magnetic computer.",
+      "caption_html": "<span class=\"slide-caption__title\">Naval Digital Computer Newsletter UNIVAC Magnetic Computer</span> · <span class=\"slide-caption__author\">U.S. Navy</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/d/d5/Naval_Digital_Computer_Newsletter_UNIVAC_Magnetic_Computer.png?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    }
+  },
+  "u-6-personal-development": {
+    "cover": {
+      "src": "/assets/images/deck-media/9a1319613a7bd9ad.webp",
+      "alt": "Hovenden self-portrait of the artist working in his studio, 1875.",
+      "caption_html": "<span class=\"slide-caption__title\">Self Portrait of the Artist in His Studio by Thomas Hovenden 1875</span> · <span class=\"slide-caption__author\">Thomas Hovenden</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/8/86/Self_Portrait_of_the_Artist_in_His_Studio_by_Thomas_Hovenden_1875.jpeg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "analysis-model": {
+      "src": "/assets/images/deck-media/73d2484eb28d9206.webp",
+      "alt": "Frances Benjamin Johnston self-portrait as the “New Woman,” 1896.",
+      "caption_html": "<span class=\"slide-caption__title\">Frances Benjamin Johnston, Self-Portrait (as &quot;New Woman&quot;), 1896</span> · <span class=\"slide-caption__author\">Frances Benjamin Johnston</span> · <span class=\"slide-caption__rights\">Rights under review</span> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/2/24/Frances_Benjamin_Johnston%2C_Self-Portrait_%28as_%22New_Woman%22%29%2C_1896.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "flagged"
+    },
+    "masterclass-1": {
+      "src": "/assets/images/deck-media/35bc5e402a84aa32.webp",
+      "alt": "Van Gogh self-portrait painting.",
+      "caption_html": "<span class=\"slide-caption__title\">Vincent van Gogh - Self-Portrait - Google Art Project (454045)</span> · <span class=\"slide-caption__author\">Vincent van Gogh</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/4/4c/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-2": {
+      "src": "/assets/images/deck-media/cdd057d59eeb52d5.webp",
+      "alt": "Rembrandt self-portrait etching at a window.",
+      "caption_html": "<span class=\"slide-caption__title\">Self-Portrait etching at a window (SM 61530d)</span> · <span class=\"slide-caption__author\">Rembrandt</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/3/37/Self-Portrait_etching_at_a_window_%28SM_61530d%29.png?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-3": {
+      "src": "/assets/images/deck-media/768ade78488c67fe.webp",
+      "alt": "Vermeer painting of a lady writing at a table.",
+      "caption_html": "<span class=\"slide-caption__title\">Johannes Vermeer - A Lady Writing - Google Art Project</span> · <span class=\"slide-caption__author\">Johannes Vermeer</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/6/6b/Johannes_Vermeer_-_A_Lady_Writing_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-4": {
+      "src": "/assets/images/deck-media/f8cc52faf8b35357.webp",
+      "alt": "Chardin painting of a boy building a house of cards.",
+      "caption_html": "<span class=\"slide-caption__title\">Jean Siméon Chardin, The House of Cards, probably 1737, NGA 97</span> · <span class=\"slide-caption__author\">Jean-Baptiste-Siméon Chardin</span> · <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/a/a0/Jean_Sim%C3%A9on_Chardin%2C_The_House_of_Cards%2C_probably_1737%2C_NGA_97.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-5": {
+      "src": "/assets/images/deck-media/a6cfbf74965bde26.webp",
+      "alt": "Vermeer painting of a lady writing a letter with her maid.",
+      "caption_html": "<span class=\"slide-caption__title\">Woman writing a letter, with her maid, by Johannes Vermeer</span> · <span class=\"slide-caption__author\">Johannes Vermeer</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/4/44/Woman_writing_a_letter%2C_with_her_maid%2C_by_Johannes_Vermeer.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-6": {
+      "src": "/assets/images/deck-media/5e91015fd842d017.webp",
+      "alt": "Friedrich painting of a wanderer above a sea of fog.",
+      "caption_html": "<span class=\"slide-caption__title\">Caspar David Friedrich - Wanderer above the sea of fog</span> · <span class=\"slide-caption__author\">Caspar David Friedrich</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/b/b9/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "lab-1": {
+      "src": "/assets/images/deck-media/69c7be4d025bc536.webp",
+      "alt": "1920 advertisement illustration for modern telephone service.",
+      "caption_html": "<span class=\"slide-caption__title\">Modern telephone service for the home. (1920) (14756669655)</span> · <span class=\"slide-caption__author\">Unknown</span> · <a href=\"https://www.flickr.com/commons/usage/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/a/aa/Modern_telephone_service_for_the_home._%281920%29_%2814756669655%29.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "lab-2": {
+      "src": "/assets/images/deck-media/9557fc3f36058e33.webp",
+      "alt": "Photograph of a wooden writing desk.",
+      "caption_html": "<span class=\"slide-caption__title\">Writing desk</span> · <span class=\"slide-caption__author\">Dvortygirl</span> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" target=\"_blank\" rel=\"noopener\">CC BY-SA 3.0</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/a/a1/Writing_desk.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "workshop-1": {
+      "src": "/assets/images/deck-media/fcefcaee133e023b.webp",
+      "alt": "Study in the mirror from Rembrandt’s workshop, c.1629.",
+      "caption_html": "<span class=\"slide-caption__title\">Study in the mirror, workshop of Rembrandt, c.1629, MOA Museum of Art, Atami, Japan</span> · <span class=\"slide-caption__author\">Workshop of Rembrandt</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/6/62/Study_in_the_mirror%2C_workshop_of_Rembrandt%2C_c.1629%2C_MOA_Museum_of_Art%2C_Atami%2C_Japan.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    }
+  }
 }

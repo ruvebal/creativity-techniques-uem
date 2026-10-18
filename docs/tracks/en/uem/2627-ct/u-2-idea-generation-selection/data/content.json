@@ -99,6 +99,25 @@ layout: null
       "cropped": false
     },
     {
+      "media_slot_id": "U2.masterclass-2",
+      "asset_id": "wikimedia:File:Self-portrait, Study of a Hand and a Pillow (recto); Six Studies of Pillows (verso) MET DP809588.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/f93cbb543d2cfc2a.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Self-portrait%2C_Study_of_a_Hand_and_a_Pillow_%28recto%29%3B_Six_Studies_of_Pillows_%28verso%29_MET_DP809588.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Self-portrait,_Study_of_a_Hand_and_a_Pillow_(recto);_Six_Studies_of_Pillows_(verso)_MET_DP809588.jpg",
+      "title": "Self-portrait, Study of a Hand and a Pillow (recto); Six Studies of Pillows (verso) MET DP809588",
+      "alt_text": "Dürer sheet with self-portrait study and six pillow studies.",
+      "author": "Albrecht Dürer",
+      "licence": "CC0",
+      "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Albrecht Dürer · Wikimedia Commons",
+      "author_death_year": 1528,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1528; Met Open Access CC0.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
       "media_slot_id": "U2.masterclass-3",
       "asset_id": "wikimedia:File:Stickies to brainstorm Edit.2014..jpg",
       "asset_url": "/creativity-techniques-uem/assets/images/deck-media/182376a162650045.webp",
@@ -191,6 +210,25 @@ layout: null
       "eu_term_ok": true,
       "eu_term_reason": "anonymous photograph c. 1920; identifiable sitter (Kōdō Sawaki, public religious teacher, d. 1965)",
       "rights_status": "flagged",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U2.lab-2",
+      "asset_id": "wikimedia:File:Selig presents Mike's Brainstorm An exceptional wild animal comedy. LCCN2015645268.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/e5ba8795adb9ce2c.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Selig_presents_Mike%27s_Brainstorm_An_exceptional_wild_animal_comedy._LCCN2015645268.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Selig_presents_Mike%27s_Brainstorm_An_exceptional_wild_animal_comedy._LCCN2015645268.jpg",
+      "title": "Selig presents Mike's Brainstorm An exceptional wild animal comedy. LCCN2015645268",
+      "alt_text": "Colour lithograph film poster advertising Mike's Brainstorm (1912).",
+      "author": "Selig Polyscope Company",
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Selig Polyscope Company · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "US work published 1912; LoC PD.",
+      "rights_status": "ok",
       "cropped": false
     }
   ],
@@ -346,7 +384,7 @@ layout: null
     {
       "slide_id": "masterclass-2",
       "slide_role": "masterclass",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "2 · Fluency with flexibility",
       "sentence": "Many ideas only help if they differ. Thirty sketches of the same sun are many ideas, but only one kind.",
       "quote": "It involves fluency, or the ability to generate a great quantity of ideas; flexibility, or the ability to switch from one perspective to another; and originality in picking unusual associations of ideas.",
@@ -371,14 +409,16 @@ layout: null
         "label": "(Csikszentmihalyi 1996, chap. 3)",
         "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-2-idea-generation-selection/#ref-csikszentmihalyi-1996"
       },
-      "image_brief": "Leonardo da Vinci, a Codex Atlanticus sheet of machine studies, c. 1490s: ideas that differ in kind, not thirty versions of one — fluency only counts when it comes with flexibility.",
+      "image_brief": "Dürer, six pillow studies (verso, 1493): many variations of one motif — fluency with flexibility before a chosen form.",
       "notes": "- In the Lab you count both: how many ideas (fluency) and how many kinds (flexibility).\n- Someone has to decide whether two passages are different possibilities or variations of one.\n- Selection follows the period of production; it does not interrupt it.\nSource: the slide quote is (Csikszentmihalyi 1996, chap. 3); \"Lateral thinking is generative. Vertical thinking is selective.\" is (de Bono 1970, introduction). Other bullets are course wording.\nAsk: How do you decide if two ideas are different, or one idea twice?",
       "claims": [
         {
           "text": "It involves fluency, or the ability to generate a great quantity of ideas; flexibility, or the ability to switch from one perspective to another; and originality in picking unusual associations of ideas.",
           "cite": "Csikszentmihalyi 1996, chap. 3"
         }
-      ]
+      ],
+      "asset_id": "wikimedia:File:Self-portrait, Study of a Hand and a Pillow (recto); Six Studies of Pillows (verso) MET DP809588.jpg",
+      "media_slot_id": "U2.masterclass-2"
     },
     {
       "slide_id": "masterclass-3",
@@ -653,7 +693,7 @@ layout: null
     {
       "slide_id": "lab-2",
       "slide_role": "lab_exercise",
-      "background_kind": "diagram",
+      "background_kind": "curated",
       "heading": "Exercise 2 · Select: hits, COCD box, yellow and black hats",
       "sentence": "Choose in three steps: dot the interesting parts, sort them in a now / wow / how grid, then test your top three with the yellow hat, then the black hat.",
       "prompt": "Practises Masterclass 4–5: role tools, and naming your selection criteria.",
@@ -669,14 +709,16 @@ layout: null
         "masterclass-5"
       ],
       "timer_seconds": 1200,
-      "image_brief": "Course diagram: selection grid (no image). This slide uses the course diagram.",
+      "image_brief": "1912 film poster for “Mike's Brainstorm”: comic brainstorm as public culture — selection and pitch after wild generation.",
       "notes": "- Timer: 20 minutes — about 5 for hits, 7 for the grid, 8 for the hats. Same teams as Exercise 1.\n- Hits: all sheets up. In silence, each person puts dots on the parts of ideas that look interesting. No discussion yet.\n- Take the ideas with the most dots (around ten) to a 2×2 grid: how new (low/high) against how feasible (low/high).\n- Name the corners: now (feasible, ordinary), wow (feasible and original), how (original, not yet feasible); drop the fourth. Keep the wow ideas; pick a top three.\n- Yellow hat, 3 minutes: everyone thinks only about why each idea could work. Black hat, 3 minutes: only about why it could fail.\n- Decide: before you pick, write the criterion you will use; then choose one idea. Compare: is your pick also the idea the team rated most original? If not, why?\n- Optional (about 5 extra minutes): before choosing, swap the top three with a neighbouring team (no names). Each person rates the other team's three items alone on the printable peer rating sheet, then returns the sheet. Compare the averages you receive with your grid.\nSource: silent dot stickers marking the interesting parts of each idea (a heat map) are (Knapp, Zeratsky, and Kowitz 2016, chap. 10); in that handbook, voting is a separate later step; the yellow hat covering hope and positive thinking and the black hat covering why it cannot be done are (de Bono 1985, 32). The COCD box, the step order and the comparison question are course wording.\nAsk: Did the criterion you wrote down match the reason you actually chose?",
       "claims": [
         {
           "text": "Heat map: Look at all the solutions in silence, and use dot stickers to mark interesting parts.",
           "cite": "Knapp, Zeratsky, and Kowitz 2016, chap. 10"
         }
-      ]
+      ],
+      "asset_id": "wikimedia:File:Selig presents Mike's Brainstorm An exceptional wild animal comedy. LCCN2015645268.jpg",
+      "media_slot_id": "U2.lab-2"
     },
     {
       "slide_id": "outro",

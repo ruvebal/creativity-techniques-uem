@@ -9,8 +9,8 @@
 | U2 | Idea generation and selection techniques | `U2-generacion-seleccion/` | ✅ 2026-09-13 | gated (Ahmes resolve on cites) |
 | U3 | Development techniques and solutions | `U3-desarrollo-soluciones/` | ✅ 2026-09-13 | gated (Ahmes resolve on cites) |
 | U4 | Applying creativity techniques in the workplace | `U4-ambito-laboral/` | ✅ 2026-09-13 | gated (Ahmes resolve on cites) |
-| U5 | Creativity and technology | `U5-creatividad-tecnologia/` | ✅ 2026-09-13 | gated (cross-slug Park) |
-| U6 | Creativity and personal development | `U6-desarrollo-personal/` | ✅ 2026-09-13 | gated (Ahmes resolve on cites) |
+| U5 | Creativity and technology | `U5-creatividad-tecnologia/` | ✅ 2026-09-13 | **pilot forged** 2026-10-17 (`chicago: null` masterclass; Knapp in Lab 1) |
+| U6 | Creativity and personal development | `U6-desarrollo-personal/` | ✅ 2026-09-13 | **pilot forged** 2026-10-17 (`chicago: null` masterclass; Schön in Lab 1) |
 
 Each pack: `PROFESSOR.md` · `MAIN-IDEAS.yml` (≤ 6) · `discovery-receipt.json`.
 

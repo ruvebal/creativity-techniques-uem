@@ -31,6 +31,8 @@ references: [michalko-2010]
 
 {% include lesson-semantic-graphic.html %}
 
+**In-class deck:** [U4 slideshow]({{ '/tracks/ct/u-4-workplace-application/' | relative_url }})
+
 </div>
 
 {% comment %}
@@ -50,7 +52,15 @@ LAB_EXERCISE_SELECTION:
   catalogue: creativity-techniques-pedagogy/in-practice/runtime/EXERCISES-ACTIVE.md
   research_pack: creativity-techniques-pedagogy/in-practice/runtime/teaching-suitability/research/PEDAGOGY-FORGE-CONNECTOR.md
   official_outcomes_matched: RA5, RA12, RA14, RA15
-  exercise:
+  exercise_1:
+    classroom_title: "Creative Campus tool seeds — photograph workplace tools"
+    technique_ids: [seed-collection, thought-walk]
+    source_records:
+      - urn:in-practice:exercise:01e7d7fc39c6197869ddaeea
+      - urn:in-practice:exercise:0cf3fe4cc50c256981cb5767
+    application_problem: "Tour authorised Creative Campus zones; photograph tools/fixtures (no people); link one seed to a U4.1 workplace idea."
+    adaptation: "Professor adaptation compresses seed-collection + thought-walk into a 15-minute Creative Campus loop with a no-people photography rule."
+  exercise_2:
     classroom_title: "Visitor Journey Walkthrough — follow and record the route"
     source_record: urn:in-practice:exercise:f518593e47f80d5a916ce40c
     source_name: "Walking in the Customer's Shoes"
@@ -60,11 +70,12 @@ LAB_EXERCISE_SELECTION:
     citation_check: "Ahmes query --cite returned (Michalko 2010, 371), evaluator_safe=yes, scheme=pdf_order; source context read in the catalogue 2026-10-13"
     application_problem: "Notice where a first-time visitor must interpret an accessible Atrium arrival route, then select one U4.1 idea that responds to an observed moment."
     rationale: "This is a different exercise from U2's dot-based selection: it gathers situated observations before the team chooses what to carry forward, matching U4's workplace application and RA5, RA12, RA14, and RA15."
-    adaptation: "Professor adaptation transfers the source's customer-journey observation to a short campus route walkthrough. Students record actions, words, and decision points; they do not simulate disability or claim that peer observations represent visitor research. The U4.1 idea set remains input, not another voting round."
+    adaptation: "Professor adaptation transfers the source's customer-journey observation to a short Creative Campus route walkthrough. Students record actions, words, and decision points; they do not simulate disability or claim that peer observations represent visitor research. The U4.1 idea set remains input, not another voting round."
   rejected_alternatives:
     - "Wall of Ideas / hits-dot-voting: repeats U2 Exercise 2's silent dot selection and shortlist sequence."
     - "Treating a peer walkthrough as an accessibility or visitor test."
     - "Adding an unsourced third selection game."
+    - "readymade-recontextualisation alone: better as U5 tech-tool follow-on than as U4.2 selection core."
 PROVENANCE_LINE: claim=U4.customer-journey-observation; status=VERIFIED; page_basis=printed; source={document_coat=2fa7eabe; node_id=d1f916c0-e642-5b14-8bde-88a0b6f9d3af; page_index=370; printed_page=371}; public_citation="(Michalko 2010, 371)"; resolver_evaluator_safe=yes; scheme=pdf_order; verified_by=Ahmes query --cite 2026-10-13; catalogue source context page-read
 -->
 {% endif %}
@@ -73,11 +84,12 @@ PROVENANCE_LINE: claim=U4.customer-journey-observation; status=VERIFIED; page_ba
 
 By the end of this lesson, you should be able to:
 
-1. Walk a workplace route from a first-time visitor’s point of view without pretending to represent every visitor.
+1. Walk a Creative Campus workplace route from a first-time visitor’s point of view without pretending to represent every visitor.
 2. Record observable actions, words, and decision points rather than guessing what a person thinks.
-3. Select a U4.1 idea that responds to an observed moment and explain the criterion for carrying it forward.
-4. Keep contributions, evidence, and unresolved questions visible in a portfolio trace.
-5. Explain what a short peer walkthrough cannot establish about the people who use a space.
+3. Photograph or sketch workplace tools and fixtures as seeds (no people) and link one seed to a U4.1 idea.
+4. Select a U4.1 idea that responds to an observed moment and explain the criterion for carrying it forward.
+5. Keep contributions, evidence, and unresolved questions visible in a portfolio trace.
+6. Explain what a short peer walkthrough cannot establish about the people who use a space.
 
 ## Analysis
 
@@ -95,13 +107,13 @@ From session 3, two students defend a D1 piece for about 15 minutes each. U4.1 u
 
 **A team can learn from following a process from the other person’s position.** Michalko describes salespeople posing as customers, walking through a sales process, and recording behaviors, words, and actions that affected their attitude [(Michalko 2010, 371)](#ref-michalko-2010). For a design team, the route itself is a sequence of decisions: where to look, which sign to trust, and what to do next. What might a first-time visitor do that the designer never expected?
 
-**Try it:** [Lab · Visitor Journey Walkthrough](#lab-exercise-2) — record what a peer does along the route.
+**Try it:** [Lab · Visitor Journey Walkthrough](#lab-exercise-2) — record what a peer does along a Creative Campus route.
 
 ### 2 · Record what happens before you explain it
 
 **A note about an action is stronger than a guess about a person’s intention.** The source example asks observers to record the behaviors, words, and actions that affect the customer’s attitude [(Michalko 2010, 371)](#ref-michalko-2010). In the classroom walkthrough, write down where the walker paused, looked, turned, or asked a question. Do not label a pause as confusion unless the walker says so. What did you see, and what did you infer?
 
-**Try it:** [Lab · Visitor Journey Walkthrough](#lab-exercise-2) — separate the observation from your interpretation.
+**Try it:** [Lab · Visitor Journey Walkthrough](#lab-exercise-2) — separate the observation from your interpretation. Optional: [Lab · Creative Campus tool seeds](#lab-exercise-1) if the pause is beside a tool or fixture.
 
 ### 3 · Choose an idea for the next check
 
@@ -111,23 +123,40 @@ From session 3, two students defend a D1 piece for about 15 minutes each. U4.1 u
 
 ## Lab (Portfolio)
 
-*Session block 3 · Continue with the idea set saved in U4.1. Everything you produce in Lab goes into your portfolio index.*
+*Session block 3 · Two Creative Campus exercises. Continue with the idea set saved in U4.1. Everything you produce in Lab goes into your portfolio index.*
+
+### Lab · Creative Campus tool seeds — photograph workplace tools {#lab-exercise-1}
+
+- **Practises:** seed collection; noticing ordinary tools as starting points; linking a campus object to a U4.1 idea without claiming the photo is user research.
+- **Time:** about 15 minutes proposed for this class adaptation; your professor sets the actual class clock.
+- **Group:** pairs or the U4.1 team; one photographer, one note-taker (roles can swap).
+- **Materials:** phone or camera; notebook; U4.1 idea set; agreed public zones of the Universidad Europea Creative Campus (studios, corridors, Atrium edges — places you already have permission to be).
+- **Steps:**
+  1. Agree a short tour loop (about ten minutes walking). Stay in public / class-authorised spaces. Do not enter locked workshops or private offices.
+  2. Photograph **tools, fixtures, and workstations only** — printers, cutting tables, screens, signage hardware, carts, benches. No faces, no badges, no identifiable people. If a person enters the frame, delete or crop them out.
+  3. Collect at least **five seed photos**. For each, write one line: what the tool does, and one workplace problem it might reveal (for example: “queue forms here”, “no place to leave bags”).
+  4. Back in class, pick **three seeds** that still interest you. Connect one seed to one U4.1 idea: how would that idea change if this tool were part of the workplace scene?
+  5. Seated alternative: use a campus map or window view and sketch three tools you already know from this building; mark which were imagined.
+- **Portfolio trace:** five seed photos (or sketches); three short labels; one U4.1 idea linked to one seed; a consent note that no people were recorded.
+- **Example trace:** *Illustrative example (not student work)* — seed: empty laptop shelf by a studio door; note: visitors leave bags on the floor; linked U4.1 idea: temporary bag ledge; open question: who maintains it after class.
+- **Judged by:** seeds are tools/fixtures not people; labels separate what you saw from what you guessed; the U4.1 link names a criterion; the limitation (class tour ≠ workplace ethnography) is stated.
+- **Source:** classroom adaptation of **seed collection** (photos count as seeds) and **thought walk** (walk, note what you see, bring two ideas back). Catalogue technique ids: `seed-collection`, `thought-walk`. Timing, Creative Campus loop, and no-people rule are professor adaptations.
 
 ### Lab · Visitor Journey Walkthrough — follow and record the route {#lab-exercise-2}
 
 - **Practises:** contextual observation; recording actions and words; selecting an idea against evidence; keeping the next check open.
 - **Time:** about 20 minutes proposed for this class adaptation; your professor sets the actual class clock.
 - **Group:** the same team that generated the U4.1 idea set; rotate walker, observer, and recorder roles.
-- **Materials:** U4.1 idea set; a publicly accessible route from an agreed starting point to the Atrium information point; a route note sheet; pen or accessible digital notes.
+- **Materials:** U4.1 idea set; a publicly accessible **Creative Campus** route from an agreed starting point (for example the main entrance) to the Atrium information point; a route note sheet; pen or accessible digital notes. Optional: one fixture photo from Lab · tool seeds if it sits on the route.
 - **Steps:**
-  1. Agree the route, destination, and a neutral first-time visitor task. Do not ask anyone to impersonate a disability or claim to represent a particular community.
+  1. Agree the Creative Campus route, destination, and a neutral first-time visitor task. Do not ask anyone to impersonate a disability or claim to represent a particular community.
   2. One teammate walks the public route without seeing the U4.1 ideas. The observer records actions, exact words, pauses, turns, and points where the walker looks for information. Do not record identifiable members of the public.
   3. Switch roles or use a seated route-map walkthrough if walking is inaccessible. Keep the route and task the same; mark which parts were observed and which were imagined.
   4. Compare the notes with the U4.1 idea set. Select one idea that responds to a recorded moment, name the criterion, and write one unresolved question for a real user check.
 - **Portfolio trace:** route and task; role names; observation notes; selected U4.1 idea and criterion; one unresolved question; a note that peer walkthroughs are not visitor research.
 - **Example trace:** *Illustrative example (not student work)* — task: find the Atrium information point from the main entrance; observation: the walker turns toward a directory, then pauses where two corridors meet; selected idea: add a landmark before that junction; criterion: it responds to the recorded pause; open question: whether the sign is visible to the people who use the route.
 - **Judged by:** whether notes distinguish observed actions from interpretation; the selected idea responds to a recorded moment; the contribution trail remains visible; and the limitation is stated.
-- **Source:** “Walking in the Customer’s Shoes” asks salespeople to experience a customer process and record behaviors, words, and actions [(Michalko 2010, 371)](#ref-michalko-2010). This route walkthrough and its portfolio fields are professor adaptations.
+- **Source:** “Walking in the Customer’s Shoes” asks salespeople to experience a customer process and record behaviors, words, and actions [(Michalko 2010, 371)](#ref-michalko-2010). This Creative Campus route walkthrough and its portfolio fields are professor adaptations.
 
 {% if site.publication.publish_internal_metadata %}
 <!-- LAB_LINE: U4.2 selects an idea by relating it to a recorded walkthrough; it does not repeat U2's dot-voting sequence. -->
@@ -154,7 +183,7 @@ These are course sayings, not quotations from another author.
 ## Editorial note. Work in progress. Teaching Innovation Practice
 {: .lesson-editorial-note }
 
-The cited passage supports observing a customer process and recording behaviors, words, and actions that affect the customer’s attitude. The campus route, visitor task, role rotation, timing, portfolio fields, and selection criterion are professor adaptations. A peer walkthrough is not representative visitor research and does not establish accessibility or usability. The catalogue record is a candidate, not a procedure approval; real-world claims remain open.
+The cited passage supports observing a customer process and recording behaviors, words, and actions that affect the customer’s attitude. The Creative Campus route, tool-seed photography loop, visitor task, role rotation, timing, portfolio fields, and selection criterion are professor adaptations. A peer walkthrough is not representative visitor research and does not establish accessibility or usability. Tool photos are seeds, not ethnography. The catalogue record is a candidate, not a procedure approval; real-world claims remain open.
 
 ## AI-assisted authorship
 

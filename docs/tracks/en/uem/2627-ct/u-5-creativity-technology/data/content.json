@@ -1,0 +1,457 @@
+---
+layout: null
+---
+{
+  "schema_version": 2,
+  "unit_label": "Creativity Techniques · U5 Creativity and Technology",
+  "ttod_index": [
+    {
+      "id": "C-U5-genai-02",
+      "number": "VIII",
+      "form": "Máxima",
+      "fields": [
+        "processTransparency",
+        "generativeAiCoCreation"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "media_slot_id": "U5.cover",
+      "asset_id": "wikimedia:File:Glen Beck and Betty Snyder program the ENIAC in building 328 at the Ballistic Research Laboratory.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/eb7ae9c4a622e549.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg",
+      "title": "Glen Beck and Betty Snyder program the ENIAC in building 328 at the Ballistic Research Laboratory",
+      "alt_text": "Two operators setting program switches on the ENIAC computer.",
+      "author": "U.S. Army",
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "U.S. Army · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "US Army photograph; public domain.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U5.analysis-model",
+      "asset_id": "wikimedia:File:Card puncher - NARA - 513295.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/f88b292a02a7d940.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Card_puncher_-_NARA_-_513295.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Card_puncher_-_NARA_-_513295.jpg",
+      "title": "Card puncher - NARA - 513295",
+      "alt_text": "Operator at a mid-century card-punching machine.",
+      "author": "Unknown (NARA)",
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Unknown (NARA) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "US NARA public domain.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U5.masterclass-1",
+      "asset_id": "wikimedia:File:Bletchley Park 1945 photo of punched card machines.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/c491e23995c1b412.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Bletchley_Park_1945_photo_of_punched_card_machines.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Bletchley_Park_1945_photo_of_punched_card_machines.jpg",
+      "title": "Bletchley Park 1945 photo of punched card machines",
+      "alt_text": "Room of punched-card machines at Bletchley Park, 1945.",
+      "author": "Jack Good; Donald Michie; Geoffrey Timms",
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Jack Good; Donald Michie; Geoffrey Timms · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "UK wartime photograph; public domain on Commons.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U5.masterclass-2",
+      "asset_id": "wikimedia:File:Reprogramming ENIAC.png",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/d3761e3d1b1cdf1f.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Reprogramming_ENIAC.png",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Reprogramming_ENIAC.png",
+      "title": "Reprogramming ENIAC",
+      "alt_text": "Technicians reprogramming ENIAC by replugging cables.",
+      "author": "U.S. Army",
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "U.S. Army · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "US Army; public domain.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U5.masterclass-3",
+      "asset_id": "wikimedia:File:UNIVAC-FILE-COMPUTER-BRL61-0944.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/22dea5964bc6caa3.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/UNIVAC-FILE-COMPUTER-BRL61-0944.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:UNIVAC-FILE-COMPUTER-BRL61-0944.jpg",
+      "title": "UNIVAC-FILE-COMPUTER-BRL61-0944",
+      "alt_text": "UNIVAC file computer installation photograph.",
+      "author": "U.S. Army Ballistic Research Laboratory",
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "U.S. Army Ballistic Research Laboratory · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "US federal photograph; public domain.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U5.masterclass-4",
+      "asset_id": "wikimedia:File:Margaret Hamilton - restoration.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/6574590a14a91bbd.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Margaret_Hamilton_-_restoration.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Margaret_Hamilton_-_restoration.jpg",
+      "title": "Margaret Hamilton - restoration",
+      "alt_text": "Margaret Hamilton standing beside stacked Apollo software listings.",
+      "author": "NASA / restored",
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "NASA / restored · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "NASA photograph; public domain.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U5.masterclass-5",
+      "asset_id": "wikimedia:File:Apollo Guidance Computer block diagram.png",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/8596bda79884db4f.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Apollo_Guidance_Computer_block_diagram.png",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Apollo_Guidance_Computer_block_diagram.png",
+      "title": "Apollo Guidance Computer block diagram",
+      "alt_text": "Block diagram of the Apollo Guidance Computer.",
+      "author": "NASA",
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "NASA · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "NASA diagram; public domain.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U5.masterclass-6",
+      "asset_id": "wikimedia:File:Ford assembly line in Copenhagen 1923.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/e078833b498be28d.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Ford_assembly_line_in_Copenhagen_1923.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Ford_assembly_line_in_Copenhagen_1923.jpg",
+      "title": "Ford assembly line in Copenhagen 1923",
+      "alt_text": "Ford assembly line workers in Copenhagen, 1923.",
+      "author": "Unknown",
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Unknown · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "Published 1923 photograph; public domain.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U5.lab-1",
+      "asset_id": "wikimedia:File:Univac Unimatic computer terminal at CHM.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/6b3cdc0ff3fae899.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Univac_Unimatic_computer_terminal_at_CHM.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Univac_Unimatic_computer_terminal_at_CHM.jpg",
+      "title": "Univac Unimatic computer terminal at CHM",
+      "alt_text": "UNIVAC Unimatic computer terminal on display.",
+      "author": "Unknown (CHM)",
+      "licence": "CC0",
+      "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Unknown (CHM) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC0 on Commons.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U5.lab-2",
+      "asset_id": "wikimedia:File:Typewriter model LCCN2016821938.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/7f00ea7620313087.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Typewriter_model_LCCN2016821938.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Typewriter_model_LCCN2016821938.jpg",
+      "title": "Typewriter model LCCN2016821938",
+      "alt_text": "Historic photograph of a typewriter model.",
+      "author": "Harris & Ewing",
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Harris & Ewing · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "LoC Harris & Ewing; public domain.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "U5.workshop-1",
+      "asset_id": "wikimedia:File:Naval Digital Computer Newsletter UNIVAC Magnetic Computer.png",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/c750e41455f5f42d.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Naval_Digital_Computer_Newsletter_UNIVAC_Magnetic_Computer.png",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Naval_Digital_Computer_Newsletter_UNIVAC_Magnetic_Computer.png",
+      "title": "Naval Digital Computer Newsletter UNIVAC Magnetic Computer",
+      "alt_text": "Newsletter illustration of a UNIVAC magnetic computer.",
+      "author": "U.S. Navy",
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "U.S. Navy · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "US federal publication; public domain.",
+      "rights_status": "ok",
+      "cropped": false
+    }
+  ],
+  "media_selection": {
+    "unit_id": "U5",
+    "project_id": "tc",
+    "strategy": "slide-bound",
+    "description": "Each image is bound to one named slide by asset_id; slides without a cleared image use the course diagram."
+  },
+  "slides": [
+    {
+      "slide_id": "cover",
+      "slide_role": "unit_cover",
+      "background_kind": "curated",
+      "heading": "U5 · Creativity and technology",
+      "sentence": "Stage the tool early. Keep framing and final judgment human.",
+      "quote": "Speed without judgement is error at scale.",
+      "quote_origin": "tao_invented",
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-5-creativity-technology/#tao-of-creativity"
+      },
+      "image_brief": "ENIAC programmers at work: stage the machine as an instrument inside a human process.",
+      "asset_id": "wikimedia:File:Glen Beck and Betty Snyder program the ENIAC in building 328 at the Ballistic Research Laboratory.jpg",
+      "media_slot_id": "U5.cover"
+    },
+    {
+      "slide_id": "analysis-opener",
+      "slide_role": "analysis_opener",
+      "background_kind": "geometrical",
+      "heading": "Analysis opens the class",
+      "sentence": "From session 3: two students defend a D1 piece for 15 minutes. Ask where a tool helped and where a person decided."
+    },
+    {
+      "slide_id": "analysis-model",
+      "slide_role": "analysis_model",
+      "background_kind": "curated",
+      "heading": "Read tool use as design work",
+      "sentence": "Name language, medium, and support. Then trace prompts, edits, and refusals — not only the final surface.",
+      "image_brief": "Card punch as language / medium / support for machine work — name the stack before you judge the output.",
+      "asset_id": "wikimedia:File:Card puncher - NARA - 513295.jpg",
+      "media_slot_id": "U5.analysis-model"
+    },
+    {
+      "slide_id": "masterclass-1",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "heading": "1 · Stage the tool",
+      "sentence": "Use generative tools for early variation; keep problem framing and final judgment human.",
+      "image_brief": "Stage the tool: machines widen search; people still set the problem.",
+      "notes": "- Early variation is not the same as outsourcing the brief.\n- Name the stage before you open a tool.\n- Final form and responsibility stay with the designer.\nSource: course wording from unit enrichment (Park / studio pedagogy still pending page-level citation resolve).\nAsk: Where in your last brief did a tool belong — and where did it not?",
+      "claims": [],
+      "asset_id": "wikimedia:File:Bletchley Park 1945 photo of punched card machines.jpg",
+      "media_slot_id": "U5.masterclass-1"
+    },
+    {
+      "slide_id": "masterclass-2",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "heading": "2 · Show the process",
+      "sentence": "Prompts, selection decisions, and re-authoring belong in the portfolio — not only the polished output.",
+      "quote": "Screen-glow winter.\nA thousand options. No taste.\nWho closed the door?",
+      "quote_origin": "tao_invented",
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-5-creativity-technology/#tao-of-creativity"
+      },
+      "image_brief": "Show the process: reprogramming is visible labour, not a magic prompt.",
+      "notes": "- Process transparency is a design ethic, not a software feature.\n- Record what you asked, what you kept, and what you rejected.\n- Assessment should be able to read your judgment, not only your render.\nSource: course wording; fieldlex process transparency.\nAsk: What would a critic miss if they saw only your final file?",
+      "claims": [],
+      "asset_id": "wikimedia:File:Reprogramming ENIAC.png",
+      "media_slot_id": "U5.masterclass-2"
+    },
+    {
+      "slide_id": "masterclass-3",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "heading": "3 · Refuse originality theatre",
+      "sentence": "Fast, pretty outputs without problem framing are empty craft — they perform novelty without a brief.",
+      "image_brief": "Refuse originality theatre: a polished machine surface is not a design argument.",
+      "notes": "- High speed can hide weak framing.\n- Originality theatre looks creative but answers no question.\n- Name the problem before you celebrate the surface.\nSource: course wording; Pass-1 discourse on originality theatre.\nAsk: Which output this week was pretty but untethered to a question?",
+      "claims": [],
+      "asset_id": "wikimedia:File:UNIVAC-FILE-COMPUTER-BRL61-0944.jpg",
+      "media_slot_id": "U5.masterclass-3"
+    },
+    {
+      "slide_id": "masterclass-4",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "heading": "4 · Assess judgment, not only surfaces",
+      "sentence": "Studio assessment must see collaboration, reflection, and selection under AI — not only final pixels.",
+      "image_brief": "Assess judgment: stacks of listings show collaboration and checking, not only a finished surface.",
+      "notes": "- Surfaces are easy to compare; judgment is harder and more important.\n- Portfolio traces make collaboration visible.\n- Aligns with course critical layer on GenAI authorship (C3).\nSource: course wording; Park IASDR 2025 still candidate — do not cite until page-level citation resolve.\nAsk: What evidence would prove you directed the tool?",
+      "claims": [],
+      "asset_id": "wikimedia:File:Margaret Hamilton - restoration.jpg",
+      "media_slot_id": "U5.masterclass-4"
+    },
+    {
+      "slide_id": "masterclass-5",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "heading": "5 · Agency stays with the designer",
+      "sentence": "Treat AI as collaborator or instrument — not as author of record.",
+      "image_brief": "Agency stays with the designer: the diagram is a human framing of the machine.",
+      "notes": "- Tools can suggest; they do not carry professional responsibility.\n- Declare assistance; do not hide it behind polish.\n- Agency is practiced when you refuse an attractive wrong answer.\nSource: course wording.\nAsk: Where did you last override the model — and document it?",
+      "claims": [],
+      "asset_id": "wikimedia:File:Apollo Guidance Computer block diagram.png",
+      "media_slot_id": "U5.masterclass-5"
+    },
+    {
+      "slide_id": "masterclass-6",
+      "slide_role": "masterclass",
+      "background_kind": "curated",
+      "heading": "6 · Name the costs",
+      "sentence": "Critical reading of AI systems — power, labour, planet — belongs beside the toolkit.",
+      "image_brief": "Name the costs: industrial systems carry labour and power alongside “innovation”.",
+      "notes": "- Every tool has upstream costs; design education should not pretend otherwise.\n- Optional deep cut: critical infrastructure literature (C1 adjacency).\n- Naming costs does not forbid tool use; it situates it.\nSource: course wording; Crawford adjacency in professor brief only.\nAsk: Which cost of your last GenAI session could you name in one sentence?",
+      "claims": [],
+      "asset_id": "wikimedia:File:Ford assembly line in Copenhagen 1923.jpg",
+      "media_slot_id": "U5.masterclass-6"
+    },
+    {
+      "slide_id": "retrieval",
+      "slide_role": "retrieval",
+      "background_kind": "geometrical",
+      "heading": "Recall check",
+      "sentence": "Alone, from memory, 3 minutes. Then compare with a partner.",
+      "questions": [
+        "In which studio stage does this unit place generative tools?",
+        "What should a portfolio show besides the final image?",
+        "What is originality theatre in one line?",
+        "What should assessment see under AI, not only on screen?",
+        "Who remains author of record?"
+      ],
+      "notes": "- Timer: 3 minutes. Students answer alone, from memory; then compare with a partner.\n- Practice only. Nothing is collected or graded.\nAnswers:\n- 1. Early variation / divergent opening — not final outsourcing (course wording).\n- 2. Prompts, edits, refusals, and selection decisions (process transparency).\n- 3. Pretty outputs without problem framing (originality theatre).\n- 4. Collaboration, reflection, and judgment — not only surfaces.\n- 5. The human designer (agency / authorship).\nAsk: Which idea will you apply in the first Lab exercise?",
+      "claims": []
+    },
+    {
+      "slide_id": "lab-opener",
+      "slide_role": "lab_opener",
+      "background_kind": "geometrical",
+      "heading": "Lab · Portfolio",
+      "sentence": "Two exercises come next. Everything you produce in Lab goes into your portfolio index.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Save both traces in the portfolio index."
+    },
+    {
+      "slide_id": "lab-1",
+      "slide_role": "lab_exercise",
+      "background_kind": "curated",
+      "heading": "Exercise 1 · Question-led rough prototype (with or without GenAI)",
+      "sentence": "Write one test question. Build only enough to answer it. Record every tool prompt and human edit.",
+      "image_brief": "Question-led rough prototype: a terminal is a prompt surface, not the author.",
+      "quote": "The prototype is meant to answer questions, so keep it focused.",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Knapp, Zeratsky, and Kowitz 2016, chap. 13)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-5-creativity-technology/#ref-knapp-2016"
+      },
+      "portfolio_bound": true,
+      "portfolio_trace": "Save the brief, test question, before/after, prompts or manual steps, and the answer to the question.",
+      "technique_id": "question-led-prototype",
+      "practises": [
+        "masterclass-1",
+        "masterclass-2",
+        "masterclass-5"
+      ],
+      "timer_seconds": 1200,
+      "notes": "- Timer: 20 minutes (classroom adaptation of a 45-minute technique).\n- Use a shared class brief or your current D1 problem.\n- Write one question the prototype must answer; pick role, look and feel, or how it works.\n- If you use GenAI, stage it for variation only; you choose the final form.\n- Test with one classmate; record the answer.\nSource: (Knapp, Zeratsky, and Kowitz 2016, chap. 13); GenAI staging is course wording.\nAsk: What did the rough version teach that a polished render hid?",
+      "claims": [
+        {
+          "text": "The prototype is meant to answer questions, so keep it focused.",
+          "cite": "Knapp, Zeratsky, and Kowitz 2016, chap. 13"
+        }
+      ],
+      "asset_id": "wikimedia:File:Univac Unimatic computer terminal at CHM.jpg",
+      "media_slot_id": "U5.lab-1"
+    },
+    {
+      "slide_id": "lab-2",
+      "slide_role": "lab_exercise",
+      "background_kind": "curated",
+      "heading": "Exercise 2 · Process trail",
+      "sentence": "Lay out every version in order. Mark divergent and convergent moves. Name the turning point.",
+      "image_brief": "Process trail: every keystroke is a record you can later defend.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Save the ordered trail, diverge/converge marks, turning-point paragraph, and any tool prompts attached to each step.",
+      "technique_id": "process-trail",
+      "practises": [
+        "masterclass-2",
+        "masterclass-4"
+      ],
+      "timer_seconds": 1200,
+      "notes": "- Timer: 20 minutes.\n- Include sketches, exports, and discarded variants — not only the winner.\n- Mark where you opened options and where you closed them.\n- One paragraph: what changed your direction?\nSource: classroom adaptation; catalogue witness urn:in-practice:exercise:a073813313fed5939b6194af (Creative Process Journals label). No single authoritative source quote — course wording.\nAsk: Where would an assessor see your judgment in this trail?",
+      "claims": [],
+      "asset_id": "wikimedia:File:Typewriter model LCCN2016821938.jpg",
+      "media_slot_id": "U5.lab-2"
+    },
+    {
+      "slide_id": "workshop-opener",
+      "slide_role": "workshop_opener",
+      "background_kind": "geometrical",
+      "heading": "Workshop · Deliverable",
+      "sentence": "From session 4: about half D2 Transposition, about half the D3 Atrium final event."
+    },
+    {
+      "slide_id": "workshop-1",
+      "slide_role": "workshop_work",
+      "background_kind": "curated",
+      "heading": "Publish a one-page process declaration",
+      "sentence": "For the piece you will show publicly: name the brief, the tool stages you used, what you refused, and what you re-authored by hand.",
+      "image_brief": "One-page process declaration: make tool use and judgment readable to others.",
+      "quote": "Speed without judgement is error at scale.",
+      "quote_origin": "tao_invented",
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-5-creativity-technology/#tao-of-creativity"
+      },
+      "portfolio_bound": true,
+      "portfolio_trace": "Save the declaration page and link it from the portfolio index.",
+      "asset_id": "wikimedia:File:Naval Digital Computer Newsletter UNIVAC Magnetic Computer.png",
+      "media_slot_id": "U5.workshop-1"
+    },
+    {
+      "slide_id": "outro",
+      "slide_role": "outro",
+      "background_kind": "geometrical",
+      "heading": "Carry forward",
+      "sentence": "Tools multiply options. Your job is to close them on purpose — with traces."
+    }
+  ]
+}

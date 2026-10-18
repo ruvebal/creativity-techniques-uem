@@ -51,8 +51,14 @@
       status: pilot
     - unit_id: U5
       title_en: 'Creativity and technology'
+      lesson_en: /lessons/en/creativity-techniques/u-5-creativity-technology/
+      deck_en: /tracks/ct/u-5-creativity-technology/
+      status: pilot
     - unit_id: U6
       title_en: 'Creativity and personal development'
+      lesson_en: /lessons/en/creativity-techniques/u-6-personal-development/
+      deck_en: /tracks/ct/u-6-personal-development/
+      status: pilot
   master_lectures:
     - unit_id: ML-CPA
       title_en: 'Master Lecture · Creative process analysis'
