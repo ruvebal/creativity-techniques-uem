@@ -16,6 +16,8 @@ description: 'S1 · 6 ECTS · Year 3 · 2026–27 — idea generation, selection
 
 **[How to Pass Creativity Techniques]({{ '/tracks/ct/how-to-pass-this-track/' | relative_url }})**
 
+Class-ready Lab datasheets: **[Exercises]({{ '/exercises/en/' | relative_url }})**.
+
 Dates and submission channels are published in Campus Virtual, not on this page.
 
 ## Programme frame

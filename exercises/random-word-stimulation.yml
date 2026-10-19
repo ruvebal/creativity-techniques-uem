@@ -1,0 +1,63 @@
+id: random-word-stimulation
+title: Random word stimulation
+urn: urn:in-practice:exercise:02d790f8312a82fe11c37e45
+technique_id: random-word
+status: ready
+categories:
+- urn:in-practice:concept:association
+- family:generation
+fieldlex: []
+units:
+- U2
+- U5
+summary: 'Force a lateral jump: relate a random word to your brief, then show the path. Same word, many
+  situations.'
+time_min: 10
+group: individual, then brief share
+materials:
+- random word (card, book, or app)
+- brief
+- paper
+requirements:
+- Agree one shared brief.
+- Do not swap the random word mid-pass.
+accessibility: Spoken paths accepted; seated work OK.
+steps:
+- State the problem in one sentence.
+- Draw or receive one random word.
+- Write three links from the word to the problem without judging them.
+- Pick one link and sketch or note a design move it suggests.
+- 'Optional: one student describes their path to the class so others see the same word used differently.'
+adaptation: Ten-minute class clock and design-studio wording are professor adaptations of de Bono’s random-word
+  classroom session.
+quote:
+  chicago: (de Bono 1970, 28)
+  verbatim: The students each write down any problem they would like to tackle. They write it down in
+    duplicate, put a name or number on each sheet, and give one copy to the teacher. This is to prevent
+    a sudden change in the problem when the random word is given. A random word is then found (by page
+    number etc suggested by the students to locate a word in the dictionary or just chosen by the teacher).
+    […] Before they hand in their results some of the students are asked by the teacher to describe to
+    the rest of the class how they related the word to their own problem. In this type of session one
+    can get an idea of how the same random word can be of use in many different situations. If some students
+    find that they cannot make any progress at all then the teacher goes through the problem with them
+    showing how the random word might be used in each case.
+  ref_key: debono-1970
+portfolio_trace: Problem sentence; random word; three links; chosen move.
+judged_by: Portfolio rubric — creative fluency, flexibility, and originality
+graphic:
+  kind: association-branch
+  alt: One random word branches into three links to the brief; one link becomes a design move while the others remain visible.
+  caption: Keep the associative path visible so the lateral jump can be explained and revisited.
+  labels: [Brief, Random word, Link A, Link B, Link C, Design move]
+ahmes:
+  document_coat: bb5aec96
+  vault_slug: de_bono_edward_lateral_thinking_a_textbook_of_creativity_1970_viking_penguin_books_bb5aec96
+  nodes:
+  - node_id: e5f45692-038c-5a7a-88f8-c4f97172692a
+    page_index: 27
+    chicago: (de Bono 1970, 28)
+    role: quote
+  - node_id: 92fc3782-e726-5f29-86ba-6c984885b13c
+    page_index: 27
+    chicago: (de Bono 1970, 28)
+    role: quote

@@ -1,0 +1,48 @@
+id: process-trail
+title: Process trail
+urn: urn:in-practice:exercise:a073813313fed5939b6194af
+technique_id: process-trail
+status: ready
+categories:
+- urn:in-practice:concept:reflection
+- family:reflection
+fieldlex:
+- ct:processTransparency
+units:
+- U1
+- U5
+summary: Order every version and discarded idea on one board. Mark diverge and converge; write the turning
+  point assessors can read.
+time_min: 20
+group: individual; optional pair read
+materials:
+- exports from a recent making loop
+- one board slide or A3 sheet
+requirements:
+- Include discarded options.
+- Attach tool prompts where they belong.
+accessibility: Digital board accepted; voice caption for the turning point OK.
+steps:
+- Save every version, sketch, and discarded idea with a date or order number.
+- Arrange them in order on one page or board.
+- Mark where you diverged (opened options) and converged (closed them).
+- Write one paragraph on the turning point — what changed your direction?
+- Attach tool prompts to the steps where they belong.
+adaptation: 'Professor adaptation of process-journal catalogue practice; diverge/converge marks and GenAI
+  prompt attachments are course wording (source status: gap).'
+quote:
+  chicago: (course adaptation)
+  verbatim: 'A process trail makes the path of work legible: every sketch, discarded option, and revision
+    is kept in order so that diverge and converge moves can be marked, and so that a later reader can
+    find the turning point where judgment changed the direction of the work. In this course the trail
+    is the assessable object—not a single polished final—because creativity techniques are judged by how
+    options were opened and closed under a brief. (Catalogue witness only; no single authoritative book
+    quote is claimed for this classroom procedure.)'
+  ref_key: ''
+portfolio_trace: Ordered trail; diverge/converge marks; turning-point paragraph; prompt attachments.
+judged_by: Portfolio rubric — critical analysis and judgement
+graphic:
+  kind: trail
+  alt: Ordered versions show ideas opening and closing; one marked turning point explains why the design direction changed.
+  caption: >-
+    The trail makes the process legible: keep discarded options and mark the moment judgment changed direction.

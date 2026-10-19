@@ -23,6 +23,22 @@ After collection review, implement the curriculum connector described in PHASE-I
 
 ## Resume states
 
+2026-10-19 current checkpoint: a fresh read-only process-list check found no
+matching in-practice, teaching-suitability, or local Qwen worker. Do not resume
+the stale PID 48350 in aggregate `runtime/status.json` / `runtime/process.json`.
+The teaching-suitability receipt is complete (6,790 seen; 6,751 scored; 39
+cached; zero errors) but remains `awaiting-human-audit`; its 62-item shortlist
+is advisory, not approval. Bounded Athanor recall and full-text Qwen
+classification are complete (12/12 scoped searches; 127 eligible nodes; 23
+proposals). Exact local-source text matching is now recorded for four retained
+leads; this does not clear `[BIBLIO-GAP]`s, locator issues, duplicate-vault
+exclusions, human suitability review, or procedure approval. The *Beyond
+Productivity* PDF is still corrupt and needs a clean authorized witness. The
+October 18 fresh coder review is for pipeline code only. No catalogue promotion,
+shared-store write, or publication occurred. Keep the corpus task open; next
+advance source/citation/coverage adjudication and human review without launching
+a duplicate scan.
+
 2026-10-04 evening: U4 lesson + deck forged as conservative pilot.
 Surfaces: `docs/lessons/en/creativity-techniques/u-4-workplace-application/`,
 `docs/tracks/en/uem/2627-ct/u-4-workplace-application/`, Lab receipt

@@ -1,0 +1,99 @@
+id: follow-dogme-95-rules
+title: Follow Dogme 95 Rules
+urn: urn:in-practice:exercise:192b061952f29008d4f8b5ca
+technique_id: constraint-writing
+status: ready
+categories:
+- urn:in-practice:concept:constraints
+- family:generation
+fieldlex:
+- ct:generativeAiCoCreation
+- ct:processTransparency
+units:
+- U5
+- U6
+summary: 'Set one temporary formal rule for a short piece, make under that rule, then compare a freer
+  pass. Built for Year-3 designers who already have craft — including treating “no generative fill” as
+  one possible rule among others.
+
+  '
+time_min: 25
+group: 1–2
+materials:
+- one shared brief or current D1 problem
+- paper, layout tool, or other medium you already use
+- optional generative tool only if your chosen rule allows it
+requirements:
+- You already have a short piece to make (text, layout, sound, image sequence).
+- Agree the rule before you open any generative tool.
+- Do not photograph people; this exercise is about formal rules, not fieldwork.
+accessibility: 'Rules can be oral, typed, or icon-based. A seated version uses the same rule on a small
+  digital canvas. Voice notes count as the freer comparison pass.
+
+  '
+steps:
+- Choose a short piece tied to your brief (about fifteen minutes of making).
+- Write one strict temporary rule. Examples adapted for design studio — only five shapes; one colour;
+  diegetic type only (words that could exist in the scene); no generative fill; one language only.
+- Make the piece under the rule within the time limit.
+- Make a second version without the rule (or with the rule relaxed).
+- Compare which version is more surprising, and which better fits the brief. Name one craft move the rule
+  forced.
+adaptation: 'Classroom timing (25 minutes), design-studio rule examples, and optional GenAI as a rule
+  among others are professor adaptations of Rubin’s Temporary Rules / Dogme 95 discussion. Steps follow
+  the course canonical technique constraint-writing.
+
+  '
+quote:
+  chicago: (Rubin 2023, 65)
+  verbatim: 'The imposition of rules is most valuable for an artist who has already made some work. If
+    you’re established in a craft or field, temporary rules may be useful to break a pattern. They can
+    challenge you to become better, to innovate, and to bring out a new side of yourself or your work.
+    […] The director Lars von Trier came up with ten rules, Dogme 95 The Vow of Chastity, designed to
+    reduce the artificiality of filmmaking. They were as follows: Shooting must be performed on location,
+    without providing props or sets that don’t logically exist within that setting. Diegetic sound only.
+    Sounds must never be produced, such as music that does not exist within the scene. All shots must
+    be handheld. Movement, immobility, and stability must be attained by hand. […] The rules of baseball
+    or basketball define the game and are rarely altered. Innovation exists only within those rules. As
+    artists, we get to create a new set of rules each and every time we play. After careful consideration,
+    we may choose to break them in the midst of a project if a discovery impels us. While it’s easy to
+    make these changes, there’s little use to rules if they are not taken seriously.'
+  ref_key: rubin-2023
+portfolio_trace: 'The rule in one line; both versions (or photos of them); one sentence on what the rule
+  forced; AI declaration if a generative tool was used.
+
+  '
+judged_by: Portfolio rubric — creative fluency, flexibility, and originality
+graphic:
+  kind: diptych
+  alt: A temporary rule shapes one version beside a freer version; the two are compared for surprise, fit, and craft.
+  caption: The rule is a temporary making condition. Compare what it forces with what the brief needs.
+  labels: [One rule, Made under rule, Freer pass, Compare]
+ahmes:
+  document_coat: 574691eb
+  vault_slug: rick_rubin_the_creative_act_a_way_of_being_penguin_publishing_group_2023_574691eb
+  nodes:
+  - node_id: 46feac27-0fbc-56a4-85a3-e12dfb376e2f
+    page_index: 64
+    chicago: (Rubin 2023, 65)
+    role: quote
+  - node_id: bc4d134e-404d-5d15-a252-8f113fd90a11
+    page_index: 64
+    chicago: (Rubin 2023, 65)
+    role: quote
+  - node_id: 12adc049-208c-5aa7-92a8-afc01d204ef8
+    page_index: 64
+    chicago: (Rubin 2023, 65)
+    role: quote
+  - node_id: 18c22f0f-a304-5079-8add-08d3c4f83388
+    page_index: 64
+    chicago: (Rubin 2023, 65)
+    role: quote
+  - node_id: 3f89c3ab-cd06-536f-9220-c655fcb89dc8
+    page_index: 64
+    chicago: (Rubin 2023, 65)
+    role: quote
+  - node_id: 38047964-0674-56dd-877f-463a56a6f311
+    page_index: 64
+    chicago: (Rubin 2023, 65)
+    role: quote

@@ -151,7 +151,7 @@ Many workshops try to raise these scores. A higher score is not the same as a be
 
 **In practice:** after listing ideas for a shop sign, count them (fluency), then sort them into kinds — lettering only, picture, object — and count the kinds (flexibility).
 
-**Try it:** [Lab · Exercise 1](#lab-exercise-1) scores your own list on all four skills.
+**Try it:** [Alternative Uses Task]({{ '/exercises/en/alternative-uses-task/' | relative_url }}) scores your own list on all four skills.
 
 ### 3 · A test score is not the whole designer
 
@@ -167,7 +167,7 @@ Many workshops try to raise these scores. A higher score is not the same as a be
 
 **In practice:** a long list of uses for a paper clip does not yet tell a packaging client which single idea serves their product, or why.
 
-**Try it:** at the end of [Lab · Exercise 1](#lab-exercise-1), look at your least obvious use and ask whether it would survive a real brief.
+**Try it:** after [Alternative Uses Task]({{ '/exercises/en/alternative-uses-task/' | relative_url }}), look at your least obvious use and ask whether it would survive a real brief.
 
 ### 4 · Name the unclear problem first
 
@@ -247,36 +247,9 @@ Pick one work (yours or from class). In small groups:
 
 Practises Masterclass ideas **2** (four skills that tests measure) and **3** (a test score is not the whole designer).
 
-**Time:** 15 minutes (3 minutes of silent listing, then scoring and pooling on a shared board).
-
-**Group:** alone for the list; the shared board (or table groups of 5–6) for the originality pool.
-
-**Materials:** one everyday object or a photo of it (a brick, a paper clip, a shoe); paper or a laptop; the slide timer; a shared board (wall, whiteboard or online board).
-
-**Steps:**
-
-1. Look at the object. When the timer starts, list as many different uses for it as you can, alone and in silence, for 3 minutes.
-2. **Fluency:** count your uses.
-3. **Flexibility:** group your uses into kinds (for example: building, tool, art, game) and count the kinds.
-4. **Originality:** post your list on the shared board, or compare lists within your table group of 5–6. Mark each use that nobody else wrote. (Reading every list aloud to the whole class does not fit the time.)
-5. **Elaboration:** pick one marked use and add three concrete details — who uses it, where, and how.
-6. Write one sentence: which jump between kinds gave you your least obvious use?
-
-**Portfolio trace:** your raw list; the four numbers (uses, kinds, rare uses, details); the elaborated use; your one-sentence note.
-
-**Example trace:** *Illustrative example (not student work)* — made by the professor to show the format.
-
-<div class="lesson-example-trace" markdown="1">
-- **Object:** a brick.
-- **Raw list (3 minutes):** doorstop · bookend · paperweight · garden edging · step to reach a shelf · weight for pressing flowers · hammer for tent pegs · plinth for a small sculpture · stamp for printing its texture · goal post marker · book press · heat store near a radiator.
-- **Numbers:** 12 uses · 4 kinds (holding down, building, tool, art) · 2 rare uses in my table group (stamp for printing, plinth) · 3 details.
-- **Elaborated use:** printing stamp — *who:* a student making a poster series; *where:* the print room; *how:* ink the rough face with a roller and press it to make a repeated texture.
-- **Note:** the jump from “holding things down” to “art” gave me my least obvious use: printing with the brick’s surface.
-</div>
+**Try it:** [Alternative Uses Task]({{ '/exercises/en/alternative-uses-task/' | relative_url }}) — follow the datasheet; bring the four scores and one elaborated use into your portfolio.
 
 **Judged by:** [Portfolio rubric — creative fluency, flexibility, and originality]({{ '/assignments/en/creativity-techniques-portfolio/' | relative_url }}#rubric)
-
-**Source:** "Tests like Alternate Uses" ask people for as many ways of using a common object as possible, and the four abilities are as Chen reports them [(Chen 2011, 26)](#ref-chen-2011). The same page warns that such a score may say little about talent in a specific field — so treat your numbers as practice, not a verdict. The steps and the shared-board scoring are a classroom adaptation.
 
 ### Exercise 2 — Cut-up and readymade: open, then close {#lab-exercise-2}
 

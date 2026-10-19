@@ -1,0 +1,68 @@
+id: seed-collection
+title: Seed collection
+urn: urn:in-practice:exercise:01e7d7fc39c6197869ddaeea
+technique_id: seed-collection
+status: ready
+categories:
+- urn:in-practice:concept:creative-habits
+- family:generation
+fieldlex: []
+units:
+- U2
+- U4
+- U6
+summary: Collect many small starting points without ranking them. Later, water the ones that still resonate
+  — photos, phrases, and sounds all count.
+time_min: 20
+group: individual or pairs
+materials:
+- notebook or phone notes
+- optional camera for tools/fixtures only (no people)
+requirements:
+- Do not rank while collecting.
+- 'If photographing on campus: tools and fixtures only; no faces or badges.'
+accessibility: Voice notes, photos or text all count as seeds.
+steps:
+- Collect at least five seeds (phrase, sound, image, tool, fixture) in one place.
+- Do not compare or rank them while collecting.
+- Pick three seeds that still interest you.
+- Develop each in a different direction for five minutes.
+- Keep the seed that grew most; note why.
+adaptation: Compressed class timing; optional Creative Campus tool/fixture photography with a no-people
+  rule is a professor adaptation.
+quote:
+  chicago: (Rubin 2023, 50)
+  verbatim: Placing too much emphasis on a seed or dismissing it prematurely can interfere with its natural
+    growth. The temptation to insert too much of yourself in this first phase can undermine the entire
+    enterprise. Be wary of taking shortcuts or crossing items off your list too quickly. The seed that
+    doesn’t get watered cannot reveal its ability to bear fruit. Collect many seeds and then, over time,
+    look back and see which ones resonate. Sometimes we’re too close to them to recognize their true potential,
+    and other times the magical moment that inspired a seed into existence is bigger than the seed itself.
+    It’s generally preferable to accumulate several weeks’ or months’ worth of ideas and then choose which
+    of them to focus on, instead of following an urge or obligation to rush to the finish line with what
+    is in front of us today.
+  ref_key: rubin-2023
+portfolio_trace: Five seeds; three developed; one kept with reason; consent note if photos.
+judged_by: Portfolio rubric — creative fluency, flexibility, and originality
+graphic:
+  kind: seedbed
+  alt: Several unranked starting points are gathered, three are developed in different directions, and one is kept with a reason.
+  caption: >-
+    Delay ranking: collect broadly, develop a few seeds, then choose what has grown and why.
+  labels: [Gather, No ranking, Develop three, Keep one + reason]
+ahmes:
+  document_coat: 574691eb
+  vault_slug: rick_rubin_the_creative_act_a_way_of_being_penguin_publishing_group_2023_574691eb
+  nodes:
+  - node_id: a7f3d3ab-56eb-56f6-939b-31fde1f70375
+    page_index: 49
+    chicago: (Rubin 2023, 50)
+    role: quote
+  - node_id: 891dfa26-d0fd-5024-87dd-3fb34bd87100
+    page_index: 49
+    chicago: (Rubin 2023, 50)
+    role: quote
+  - node_id: 156412bc-37fc-5042-9ed5-c4cb629c803d
+    page_index: 49
+    chicago: (Rubin 2023, 50)
+    role: quote

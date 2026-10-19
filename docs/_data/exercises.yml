@@ -1,0 +1,765 @@
+generated: '2026-10-18'
+exercises:
+  - id: alternative-uses-task
+    title: Alternative Uses Task
+    technique_id: alternative-uses-task
+    status: ready
+    categories:
+      - urn:in-practice:concept:divergent-thinking
+      - family:generation
+    fieldlex:
+      - ct:divergentThinking
+    units:
+      - U1
+      - U2
+    summary: >-
+      List many uses for one ordinary object under a timer. Fluency first; then notice flexibility
+      across categories.
+    time_min: 15
+    group: individual, then shared board
+    materials:
+      - object or image
+      - paper
+      - timer
+    requirements:
+      - One shared prompt object for the class.
+      - No judging during the timed list.
+    accessibility: Oral or typed lists accepted; image prompt can replace a physical object.
+    steps:
+      - Show one everyday object (brick, paperclip, shoe) and start a visible timer.
+      - Each student lists as many uses as possible in silence.
+      - Stop; count the list (fluency).
+      - Mark how many different categories appear (flexibility).
+      - Share two surprising uses with a neighbour; keep the full list for the portfolio.
+    adaptation: >-
+      Classroom timing and portfolio fields are course adaptations of the unusual-uses / brick
+      prompt reported with Guilford’s abilities.
+    quote:
+      chicago: (Chen 2011, 40)
+      verbatim: >-
+        How many uses can you think of for a brick? […] More interestingly, individuals differ
+        considerably in terms of the number of answers they can come up with. Some can think of many
+        different ways to use a brick, whereas others may be only able to think of one or two. Based
+        on the ability of an individual to answer these types of questions, Hudson differentiated
+        individuals in terms of two intellectual types: convergers, who would specialize in
+        mathematics and physical sciences, and divergers, who are likely to excel in the arts and
+        make surprising cognitive leaps.
+      ref_key: chen-2011
+    portfolio_trace: Timed list; fluency count; flexibility note; two shared uses.
+    judged_by: Portfolio rubric — creative fluency, flexibility, and originality
+    graphic:
+      svg: /assets/images/exercise-graphics/alternative-uses-task-b0831031d42181b2.svg
+      png: /assets/images/exercise-graphics/alternative-uses-task-b0831031d42181b2.png
+      alt: >-
+        One everyday object opens into several kinds of use; each branch adds a different category
+        to the idea list.
+      caption: >-
+        One object can produce many ideas; grouping those ideas shows flexibility as well as
+        fluency.
+  - id: ask-a-crab
+    title: Ask a Crab — picture diverge
+    technique_id: brainstorming-osborn
+    status: ready
+    categories:
+      - urn:in-practice:concept:association
+      - family:generation
+    fieldlex: []
+    units:
+      - U4
+    summary: >-
+      Use an unrelated picture to open workplace ideas before you judge. Save the path from image to
+      idea — not only the favourite.
+    time_min: 20
+    group: same team as the U4 idea set
+    materials:
+      - unrelated picture prompt
+      - U4 brief or workplace problem
+      - paper
+    requirements:
+      - Keep generation separate from selection.
+      - Record the picture ID or description in the trace.
+    accessibility: Large-print or screen images; oral idea lists OK.
+    steps:
+      - Show one unrelated picture to the team.
+      - In a timed pass, each person writes ideas the picture suggests for the workplace brief.
+      - Read ideas aloud without ranking them yet.
+      - 'Save a short path: picture → association → idea.'
+      - Stop before voting; selection belongs to a later exercise.
+    adaptation: >-
+      Classroom adaptation of Ask a Crab’s early blueprint steps; full five-step source is not
+      claimed as the class procedure.
+    quote:
+      chicago: (Michalko 2010, 440)
+      verbatim: >-
+        Give each group member a folder containing two or three pictures that are not related to the
+        problem area. Read aloud a problem statement and ask the group to verbally brainstorm
+        solutions. Instruct the group members to examine each picture and write their ideas. After a
+        designated period, ask the group members to read their ideas aloud. As each idea is read,
+        ask the group members to discuss it and try to develop new ideas or modifications. Record
+        all new ideas as they are suggested.
+      ref_key: michalko-2010
+    portfolio_trace: Picture note; idea list; one association path; no selection claim.
+    judged_by: Portfolio rubric — creative fluency, flexibility, and originality
+    graphic:
+      svg: /assets/images/exercise-graphics/ask-a-crab-85d8b0fb302f389f.svg
+      png: /assets/images/exercise-graphics/ask-a-crab-85d8b0fb302f389f.png
+      alt: >-
+        An unrelated picture prompts associations, which lead to several workplace ideas without
+        choosing a winner.
+      caption: Keep the visible path from picture to association to idea; selection happens later.
+  - id: follow-dogme-95-rules
+    title: Follow Dogme 95 Rules
+    technique_id: constraint-writing
+    status: ready
+    categories:
+      - urn:in-practice:concept:constraints
+      - family:generation
+    fieldlex:
+      - ct:generativeAiCoCreation
+      - ct:processTransparency
+    units:
+      - U5
+      - U6
+    summary: >
+      Set one temporary formal rule for a short piece, make under that rule, then compare a freer
+      pass. Built for Year-3 designers who already have craft — including treating “no generative
+      fill” as one possible rule among others.
+    time_min: 25
+    group: 1–2
+    materials:
+      - one shared brief or current D1 problem
+      - paper, layout tool, or other medium you already use
+      - optional generative tool only if your chosen rule allows it
+    requirements:
+      - You already have a short piece to make (text, layout, sound, image sequence).
+      - Agree the rule before you open any generative tool.
+      - Do not photograph people; this exercise is about formal rules, not fieldwork.
+    accessibility: >
+      Rules can be oral, typed, or icon-based. A seated version uses the same rule on a small
+      digital canvas. Voice notes count as the freer comparison pass.
+    steps:
+      - Choose a short piece tied to your brief (about fifteen minutes of making).
+      - >-
+        Write one strict temporary rule. Examples adapted for design studio — only five shapes; one
+        colour; diegetic type only (words that could exist in the scene); no generative fill; one
+        language only.
+      - Make the piece under the rule within the time limit.
+      - Make a second version without the rule (or with the rule relaxed).
+      - >-
+        Compare which version is more surprising, and which better fits the brief. Name one craft
+        move the rule forced.
+    adaptation: >
+      Classroom timing (25 minutes), design-studio rule examples, and optional GenAI as a rule among
+      others are professor adaptations of Rubin’s Temporary Rules / Dogme 95 discussion. Steps
+      follow the course canonical technique constraint-writing.
+    quote:
+      chicago: (Rubin 2023, 65)
+      verbatim: >-
+        The imposition of rules is most valuable for an artist who has already made some work. If
+        you’re established in a craft or field, temporary rules may be useful to break a pattern.
+        They can challenge you to become better, to innovate, and to bring out a new side of
+        yourself or your work. […] The director Lars von Trier came up with ten rules, Dogme 95 The
+        Vow of Chastity, designed to reduce the artificiality of filmmaking. They were as follows:
+        Shooting must be performed on location, without providing props or sets that don’t logically
+        exist within that setting. Diegetic sound only. Sounds must never be produced, such as music
+        that does not exist within the scene. All shots must be handheld. Movement, immobility, and
+        stability must be attained by hand. […] The rules of baseball or basketball define the game
+        and are rarely altered. Innovation exists only within those rules. As artists, we get to
+        create a new set of rules each and every time we play. After careful consideration, we may
+        choose to break them in the midst of a project if a discovery impels us. While it’s easy to
+        make these changes, there’s little use to rules if they are not taken seriously.
+      ref_key: rubin-2023
+    portfolio_trace: >
+      The rule in one line; both versions (or photos of them); one sentence on what the rule forced;
+      AI declaration if a generative tool was used.
+    judged_by: Portfolio rubric — creative fluency, flexibility, and originality
+    graphic:
+      svg: /assets/images/exercise-graphics/follow-dogme-95-rules-63364ca1768e9c4f.svg
+      png: /assets/images/exercise-graphics/follow-dogme-95-rules-63364ca1768e9c4f.png
+      alt: >-
+        A temporary rule shapes one version beside a freer version; the two are compared for
+        surprise, fit, and craft.
+      caption: The rule is a temporary making condition. Compare what it forces with what the brief needs.
+  - id: hits-and-dot-voting
+    title: Hits and dot voting
+    technique_id: hits-dot-voting
+    status: ready
+    categories:
+      - urn:in-practice:concept:selection
+      - family:selection
+    fieldlex: []
+    units:
+      - U2
+      - U4
+    summary: >-
+      Mark interesting parts in silence before you debate. Hits gather heat; a later vote decides —
+      without groupthink in the first pass.
+    time_min: 15
+    group: 3–10
+    materials:
+      - idea sheets on a wall or board
+      - dot stickers
+      - optional digital whiteboard
+    requirements:
+      - Ideas must already be visible (one per sheet).
+      - No talking during the heat-map pass.
+    accessibility: Digital whiteboard voting; allow seated access to the wall.
+    steps:
+      - Put all ideas on the wall, one per note or sheet.
+      - Read in silence; each person places small dots on parts that look strong (hits).
+      - Each person then gets one larger vote for one idea.
+      - Cluster the dots and read out the top three.
+      - The decider (or the group) chooses, and records why.
+    adaptation: >-
+      Classroom timing and portfolio fields are professor adaptations of the sprint sticky decision
+      / heat map sequence.
+    quote:
+      chicago: (Knapp, Zeratsky, and Kowitz 2016, chap. 10)
+      verbatim: >-
+        We’ve spent years optimizing our sprint decisions to be as efficient as possible. We ended
+        up with a five-step process—and coincidentally, every step involves something sticky: 1. Art
+        museum: Put the solution sketches on the wall with masking tape. 2. Heat map: Look at all
+        the solutions in silence, and use dot stickers to mark interesting parts. 3. Speed critique:
+        Quickly discuss the highlights of each solution, and use sticky notes to capture big ideas.
+        4. Straw poll: Each person chooses one solution, and votes for it with a dot sticker. 5.
+        Supervote: The Decider makes the final decision, with—you guessed it—more stickers. This
+        sticky stuff isn’t a gimmick. The dot stickers let us form and express our opinions without
+        lengthy debate, and the sticky notes allow us to record big ideas without relying on our
+        short-term memory.
+      ref_key: knapp-2016
+    portfolio_trace: Photo or list of dotted sheets; top three; chosen idea and criterion.
+    judged_by: Portfolio rubric — critical analysis and judgement
+    graphic:
+      svg: /assets/images/exercise-graphics/hits-and-dot-voting-1cbc89f2719a678e.svg
+      png: /assets/images/exercise-graphics/hits-and-dot-voting-1cbc89f2719a678e.png
+      alt: >-
+        Silent small marks identify promising parts across the idea board; a separate larger vote
+        selects one idea.
+      caption: >-
+        Notice interesting parts before debate, then make the final selection visible as a separate
+        decision.
+  - id: imposing-constraints
+    title: Imposing Constraints
+    technique_id: constraint-writing
+    status: ready
+    categories:
+      - urn:in-practice:concept:constraints
+      - family:generation
+    fieldlex:
+      - ct:processTransparency
+    units:
+      - U5
+      - U6
+    summary: >
+      Add a deliberate constraint to a freewheeling idea pass so craft pressure produces form. Same
+      technique family as Follow Dogme 95 Rules, with a philosophical warrant that constraints can
+      enhance creativity.
+    time_min: 25
+    group: 1–2
+    materials:
+      - brief or problem statement
+      - making materials for one short piece
+      - timer
+    requirements:
+      - Start from a draft or idea set that already feels too open or random.
+      - The constraint must be formal (metre, palette, structure, tool ban) — not “work harder.”
+      - International cohorts may choose a constraint in any working language.
+    accessibility: >
+      Constraints may be written as a checklist or spoken aloud. Digital whiteboard versions are
+      valid. No walking required.
+    steps:
+      - Show or name the unconstrained draft (two minutes).
+      - >-
+        Add one constraint that narrows form (for example fixed grid, twelve-bar structure analogue,
+        two colours, fifty words, no generative fill).
+      - Remake or revise under that constraint for about fifteen minutes.
+      - Note which options the constraint removed, and which new moves it forced.
+      - Keep or reject the constrained version with one criterion tied to the brief.
+    adaptation: >
+      Steps are a classroom adaptation of the catalogue record Imposing Constraints and the course
+      technique constraint-writing. Timing and design-studio examples are professor adaptations; the
+      quoted warrant is from Kieran.
+    quote:
+      chicago: (Kieran 2018, 28)
+      verbatim: >-
+        So far, this heuristic may seem too freewheeling, too random, too haphazard, and not serious
+        enough for your liking—though seriousness and value seem quite orthogonal to me. (And
+        creativity itself is often the result of random or haphazard events or processes—witness
+        Kekulé’s discovery of the benzene ring after having a dream of a snake eating its own tail.)
+        Very well, then; add constraints. It is well known in the psychological literature that
+        constraints can enhance creativity—‘necessity is the mother of invention’, and all that.
+        (See Stokes (2006).) Blues musicians improvising within a 12-bar structure know this.
+        Songwriters and poets know this; think of constraints on metre or rhyme, as we find in
+        sonnets, for example. The Oulipo group of (mostly French) writers and mathematicians impose
+        constraints on their works to foster creativity.
+      ref_key: kieran-2018
+    portfolio_trace: |
+      Unconstrained note; the constraint in one line; constrained piece; keep/reject criterion.
+    judged_by: Portfolio rubric — critical analysis and judgement
+    graphic:
+      svg: /assets/images/exercise-graphics/imposing-constraints-385dfe9ca1f88c17.svg
+      png: /assets/images/exercise-graphics/imposing-constraints-385dfe9ca1f88c17.png
+      alt: >-
+        A wide draft is reshaped inside a deliberate constraint; some paths close while new formal
+        moves become possible.
+      caption: >-
+        A constraint narrows the field and can make new moves possible; keep or reject the result
+        against the brief.
+  - id: mental-locks-audit
+    title: Mental locks audit
+    technique_id: mental-locks-audit
+    status: ready
+    categories:
+      - urn:in-practice:concept:reflection
+      - family:reflection
+    fieldlex: []
+    units:
+      - U6
+    summary: >-
+      Name the belief that closed an idea. Reopen one locked path for five minutes — personal
+      development as craft, not soft-skill theatre.
+    time_min: 15
+    group: individual
+    materials:
+      - a dropped or blocked idea from recent work
+      - paper
+    requirements:
+      - Stay tied to a making brief.
+      - Do not treat this as therapy.
+    accessibility: Typed or oral audit OK.
+    steps:
+      - Pick one idea you dropped this week.
+      - Write the belief or rule that closed it (the “lock”).
+      - Reopen the idea for five minutes under a temporary opposite rule.
+      - Note what appeared that the lock had blocked.
+      - Decide keep, transform, or shelve — with one craft reason.
+    adaptation: >-
+      Classroom adaptation of Open Mental Locks catalogue records (von Oech held; steps are course
+      wording).
+    quote:
+      chicago: (course adaptation)
+      verbatim: >-
+        Mental locks are the beliefs that close an idea before it has been tested—“that is not
+        logical,” “we already tried that,” “people like us don’t do this.” The classroom audit asks
+        you to name one lock that ended a recent idea, ask when that belief helps and when it
+        blocks, then reopen the dropped idea for five private minutes with the lock set aside. What
+        changes in those five minutes is the evidence; the lock itself is not graded as a
+        confession. (Classroom adaptation of Open Mental Locks catalogue records; von Oech is held,
+        not cited as a student quotation here.)
+      ref_key: ''
+    portfolio_trace: Dropped idea; lock sentence; five-minute reopen note; keep/transform/shelve.
+    judged_by: Portfolio rubric — critical analysis and judgement
+    graphic:
+      svg: /assets/images/exercise-graphics/mental-locks-audit-7f25bf1e259d439e.svg
+      png: /assets/images/exercise-graphics/mental-locks-audit-7f25bf1e259d439e.png
+      alt: >-
+        A belief blocks a dropped idea; a temporary opposite rule opens a short test before the
+        student decides what to do.
+      caption: The belief is tested through making—not graded as a personal confession.
+  - id: one-inch-picture-frame
+    title: One-inch picture frame
+    technique_id: entry-point-attention-area
+    status: ready
+    categories:
+      - urn:in-practice:concept:problem-framing
+      - family:framing
+    fieldlex:
+      - ct:visualProblemFraming
+    units:
+      - U3
+    summary: >-
+      Narrow a broad design brief to one small, observable moment. Make a quick sketch or
+      description of only what fits inside that frame, then use the missing details to decide what
+      to explore next.
+    time_min: 20
+    group: individual, then pair review
+    materials:
+      - current design brief or project idea
+      - paper and pen, or a small digital canvas
+      - optional paper frame or crop tool
+    requirements:
+      - Choose one user, object, or moment from the brief.
+      - Keep this pass exploratory; do not grade the first sketch or description.
+    accessibility: >-
+      Students may draw, write, type, dictate, or use a cropped digital image. No physical frame is
+      required.
+    steps:
+      - Write the broad brief at the top of the page.
+      - Choose one small moment, view, or interaction that can be described in a single frame.
+      - >-
+        Spend five minutes sketching or describing only what is visible in that frame; mark unknowns
+        as questions.
+      - Show the frame to a partner. Ask what they notice first and what remains unclear.
+      - Use one observation and one unanswered question to set the next design move.
+    adaptation: >-
+      Lamott describes narrowing a writing task to one small picture frame and one paragraph. This
+      classroom adaptation transfers that scale of attention to a design brief; the five-minute
+      timing and peer prompt are instructor choices.
+    quote:
+      chicago: (Lamott 2007, 11)
+      verbatim: >-
+        It reminds me that all I have to do is to write down as much as I can see through a one-inch
+        picture frame. […] All I am going to do right now, for example, is write that one paragraph
+        that sets the story in my hometown, in the late fifties, when the trains were still running.
+        I am going to paint a picture of it, in words, on my word processor. Or all I am going to do
+        is to describe the main character the very first time we meet her, when she first walks out
+        the front door and onto the porch. […] just what I can see through the one-inch picture
+        frame, just one paragraph describing this woman, in the town where I grew up, the first time
+        we encounter her.
+      ref_key: lamott-2007
+    portfolio_trace: >-
+      One-frame sketch or description; the observation from the partner; the unanswered question;
+      the next move it suggests.
+    judged_by: Portfolio rubric — problem framing, purposeful observation, and reasoned development
+    graphic:
+      svg: /assets/images/exercise-graphics/one-inch-picture-frame-4e4510facab0d72f.svg
+      png: /assets/images/exercise-graphics/one-inch-picture-frame-4e4510facab0d72f.png
+      alt: >-
+        A broad brief narrows to one small visible moment; a partner's observation and an unanswered
+        question guide the next move.
+      caption: >-
+        Frame one observable moment. What is outside it becomes a useful question for the next
+        design move.
+  - id: process-trail
+    title: Process trail
+    technique_id: process-trail
+    status: ready
+    categories:
+      - urn:in-practice:concept:reflection
+      - family:reflection
+    fieldlex:
+      - ct:processTransparency
+    units:
+      - U1
+      - U5
+    summary: >-
+      Order every version and discarded idea on one board. Mark diverge and converge; write the
+      turning point assessors can read.
+    time_min: 20
+    group: individual; optional pair read
+    materials:
+      - exports from a recent making loop
+      - one board slide or A3 sheet
+    requirements:
+      - Include discarded options.
+      - Attach tool prompts where they belong.
+    accessibility: Digital board accepted; voice caption for the turning point OK.
+    steps:
+      - Save every version, sketch, and discarded idea with a date or order number.
+      - Arrange them in order on one page or board.
+      - Mark where you diverged (opened options) and converged (closed them).
+      - Write one paragraph on the turning point — what changed your direction?
+      - Attach tool prompts to the steps where they belong.
+    adaptation: >-
+      Professor adaptation of process-journal catalogue practice; diverge/converge marks and GenAI
+      prompt attachments are course wording (source status: gap).
+    quote:
+      chicago: (course adaptation)
+      verbatim: >-
+        A process trail makes the path of work legible: every sketch, discarded option, and revision
+        is kept in order so that diverge and converge moves can be marked, and so that a later
+        reader can find the turning point where judgment changed the direction of the work. In this
+        course the trail is the assessable object—not a single polished final—because creativity
+        techniques are judged by how options were opened and closed under a brief. (Catalogue
+        witness only; no single authoritative book quote is claimed for this classroom procedure.)
+      ref_key: ''
+    portfolio_trace: Ordered trail; diverge/converge marks; turning-point paragraph; prompt attachments.
+    judged_by: Portfolio rubric — critical analysis and judgement
+    graphic:
+      svg: /assets/images/exercise-graphics/process-trail-38e2c4629d80d1b1.svg
+      png: /assets/images/exercise-graphics/process-trail-38e2c4629d80d1b1.png
+      alt: >-
+        Ordered versions show ideas opening and closing; one marked turning point explains why the
+        design direction changed.
+      caption: >-
+        The trail makes the process legible: keep discarded options and mark the moment judgment
+        changed direction.
+  - id: question-led-rough-prototype
+    title: Question-led rough prototype
+    technique_id: question-led-prototype
+    status: ready
+    categories:
+      - urn:in-practice:concept:prototyping
+      - family:development
+    fieldlex:
+      - ct:prototyping
+      - ct:generativeAiCoCreation
+    units:
+      - U3
+      - U5
+    summary: >-
+      Build the smallest surface that answers one test question. Optional generative tools stay in
+      early variation; you keep the final form.
+    time_min: 20
+    group: alone to make; one classmate tests
+    materials:
+      - shared class brief or D1 problem
+      - paper/card or digital mock-up tool
+      - optional generative tool for early variation only
+    requirements:
+      - Write the test question before you build.
+      - If you use GenAI, log prompt, keep, and re-author moves.
+    accessibility: Seated digital mock-ups accepted; oral test answers OK.
+    steps:
+      - Write the one question this prototype must answer.
+      - Decide whether it tests role, look and feel, or how it works.
+      - >-
+        Build only the surface needed to answer it — by hand, code, or staged tool output you then
+        edit.
+      - >-
+        If a generative tool supplied a variant, log the prompt, what you kept, and what you
+        re-authored.
+      - Let one classmate try the prototype; record the answer to your question.
+    adaptation: >-
+      20-minute class timing; optional GenAI for variation only; mandatory prompt/edit log are
+      professor adaptations of the sprint prototype mindset.
+    quote:
+      chicago: (Knapp, Zeratsky, and Kowitz 2016, chap. 13)
+      verbatim: >-
+        Don’t prototype anything you aren’t willing to throw away. Remember: This solution might not
+        work. So don’t give in to the temptation of spending a few days or weeks getting your
+        prototype ready. You’ll have diminishing returns on that extra work, and all the while,
+        you’ll be falling deeper in love with a solution that could turn out to be a loser. […] The
+        prototype is meant to answer questions, so keep it focused. You don’t need a fully
+        functional product—you just need a real-looking façade to which customers can react.
+      ref_key: knapp-2016
+    portfolio_trace: The brief; the test question; before/after; prompts or manual steps; the test answer.
+    judged_by: Portfolio rubric — creative fluency, flexibility, and originality
+    graphic:
+      svg: /assets/images/exercise-graphics/question-led-rough-prototype-88685913cf9d75c1.svg
+      png: /assets/images/exercise-graphics/question-led-rough-prototype-88685913cf9d75c1.png
+      alt: >-
+        One test question shapes a minimal prototype, which a classmate tries; the answer determines
+        the next design move.
+      caption: >-
+        Build only enough to answer the question; let the test response—not polish—set the next
+        move.
+  - id: random-word-stimulation
+    title: Random word stimulation
+    technique_id: random-word
+    status: ready
+    categories:
+      - urn:in-practice:concept:association
+      - family:generation
+    fieldlex: []
+    units:
+      - U2
+      - U5
+    summary: >-
+      Force a lateral jump: relate a random word to your brief, then show the path. Same word, many
+      situations.
+    time_min: 10
+    group: individual, then brief share
+    materials:
+      - random word (card, book, or app)
+      - brief
+      - paper
+    requirements:
+      - Agree one shared brief.
+      - Do not swap the random word mid-pass.
+    accessibility: Spoken paths accepted; seated work OK.
+    steps:
+      - State the problem in one sentence.
+      - Draw or receive one random word.
+      - Write three links from the word to the problem without judging them.
+      - Pick one link and sketch or note a design move it suggests.
+      - >-
+        Optional: one student describes their path to the class so others see the same word used
+        differently.
+    adaptation: >-
+      Ten-minute class clock and design-studio wording are professor adaptations of de Bono’s
+      random-word classroom session.
+    quote:
+      chicago: (de Bono 1970, 28)
+      verbatim: >-
+        The students each write down any problem they would like to tackle. They write it down in
+        duplicate, put a name or number on each sheet, and give one copy to the teacher. This is to
+        prevent a sudden change in the problem when the random word is given. A random word is then
+        found (by page number etc suggested by the students to locate a word in the dictionary or
+        just chosen by the teacher). […] Before they hand in their results some of the students are
+        asked by the teacher to describe to the rest of the class how they related the word to their
+        own problem. In this type of session one can get an idea of how the same random word can be
+        of use in many different situations. If some students find that they cannot make any
+        progress at all then the teacher goes through the problem with them showing how the random
+        word might be used in each case.
+      ref_key: debono-1970
+    portfolio_trace: Problem sentence; random word; three links; chosen move.
+    judged_by: Portfolio rubric — creative fluency, flexibility, and originality
+    graphic:
+      svg: /assets/images/exercise-graphics/random-word-stimulation-3b1524832b2df974.svg
+      png: /assets/images/exercise-graphics/random-word-stimulation-3b1524832b2df974.png
+      alt: >-
+        One random word branches into three links to the brief; one link becomes a design move while
+        the others remain visible.
+      caption: Keep the associative path visible so the lateral jump can be explained and revisited.
+  - id: reflection-in-action-log
+    title: Reflection-in-action log
+    technique_id: reflection-in-action-log
+    status: ready
+    categories:
+      - urn:in-practice:concept:reflection
+      - family:reflection
+    fieldlex:
+      - ct:processTransparency
+    units:
+      - U3
+      - U6
+    summary: Log surprises while you work — when the situation talks back — then name one move you changed.
+    time_min: 15
+    group: individual
+    materials:
+      - current making session
+      - notebook or voice notes
+    requirements:
+      - Log during work, not only after polishing.
+      - Keep entries short and dated.
+    accessibility: Voice notes accepted; no drawing required.
+    steps:
+      - During a short making pass, note three moments of surprise or resistance.
+      - For each, write what the work “said back” (a constraint, a failure, an unexpected fit).
+      - Name one strategy you changed in response.
+      - Mark whether the change opened or closed options.
+      - Keep the log beside the artefact for critique.
+    adaptation: >-
+      Classroom timing and portfolio fields adapt Schön’s reflective conversation to a short studio
+      log.
+    quote:
+      chicago: (Schön 1983, 79)
+      verbatim: >-
+        In a good process of design, this conversation with the situation is reflective. In answer
+        to the situation’s back-talk, the designer reflects-in-action on the construction of the
+        problem, the strategies of action, or the model of the phenomena, which have been implicit
+        in his moves. […] But the practitioner’s moves also produce unintended changes which give
+        the situations new meanings. The situation talks back, the practitioner listens; and as he
+        appreciates what he hears, he reframes the situation once again. When Quist discovers that
+        his moves have produced a gallery which is “in a minor way . . . the major thing,” he
+        becomes aware of a new whole idea, which sets criteria for the further designing.
+      ref_key: schon-1983
+    portfolio_trace: Three surprise notes; one changed strategy; open/close mark.
+    judged_by: Portfolio rubric — critical analysis and judgement
+    graphic:
+      svg: /assets/images/exercise-graphics/reflection-in-action-log-a8939c48353ca113.svg
+      png: /assets/images/exercise-graphics/reflection-in-action-log-a8939c48353ca113.png
+      alt: >-
+        Making produces a surprise; the student records the situation's response, changes strategy,
+        and returns to making.
+      caption: >-
+        Reflection happens during the work: notice its response, change a move, and see what the new
+        move makes possible.
+  - id: seed-collection
+    title: Seed collection
+    technique_id: seed-collection
+    status: ready
+    categories:
+      - urn:in-practice:concept:creative-habits
+      - family:generation
+    fieldlex: []
+    units:
+      - U2
+      - U4
+      - U6
+    summary: >-
+      Collect many small starting points without ranking them. Later, water the ones that still
+      resonate — photos, phrases, and sounds all count.
+    time_min: 20
+    group: individual or pairs
+    materials:
+      - notebook or phone notes
+      - optional camera for tools/fixtures only (no people)
+    requirements:
+      - Do not rank while collecting.
+      - 'If photographing on campus: tools and fixtures only; no faces or badges.'
+    accessibility: Voice notes, photos or text all count as seeds.
+    steps:
+      - Collect at least five seeds (phrase, sound, image, tool, fixture) in one place.
+      - Do not compare or rank them while collecting.
+      - Pick three seeds that still interest you.
+      - Develop each in a different direction for five minutes.
+      - Keep the seed that grew most; note why.
+    adaptation: >-
+      Compressed class timing; optional Creative Campus tool/fixture photography with a no-people
+      rule is a professor adaptation.
+    quote:
+      chicago: (Rubin 2023, 50)
+      verbatim: >-
+        Placing too much emphasis on a seed or dismissing it prematurely can interfere with its
+        natural growth. The temptation to insert too much of yourself in this first phase can
+        undermine the entire enterprise. Be wary of taking shortcuts or crossing items off your list
+        too quickly. The seed that doesn’t get watered cannot reveal its ability to bear fruit.
+        Collect many seeds and then, over time, look back and see which ones resonate. Sometimes
+        we’re too close to them to recognize their true potential, and other times the magical
+        moment that inspired a seed into existence is bigger than the seed itself. It’s generally
+        preferable to accumulate several weeks’ or months’ worth of ideas and then choose which of
+        them to focus on, instead of following an urge or obligation to rush to the finish line with
+        what is in front of us today.
+      ref_key: rubin-2023
+    portfolio_trace: Five seeds; three developed; one kept with reason; consent note if photos.
+    judged_by: Portfolio rubric — creative fluency, flexibility, and originality
+    graphic:
+      svg: /assets/images/exercise-graphics/seed-collection-f86850db985d3d85.svg
+      png: /assets/images/exercise-graphics/seed-collection-f86850db985d3d85.png
+      alt: >-
+        Several unranked starting points are gathered, three are developed in different directions,
+        and one is kept with a reason.
+      caption: 'Delay ranking: collect broadly, develop a few seeds, then choose what has grown and why.'
+  - id: visitor-journey-walkthrough
+    title: Visitor Journey Walkthrough
+    technique_id: contextual-observation
+    status: ready
+    categories:
+      - urn:in-practice:concept:observation
+      - family:framing
+    fieldlex: []
+    units:
+      - U4
+    summary: >-
+      Walk a Creative Campus route from a first-time visitor’s side. Record actions and words;
+      select one prior idea against evidence — not against taste.
+    time_min: 20
+    group: team; rotate walker, observer, recorder
+    materials:
+      - prior idea set (e.g. U4.1)
+      - agreed public campus route to the Atrium information point
+      - route note sheet
+    requirements:
+      - Do not impersonate a disability or claim to represent a community.
+      - Do not record identifiable members of the public.
+      - Peer walkthroughs are not visitor research.
+    accessibility: Seated route-map walkthrough allowed; mark observed vs imagined parts.
+    steps:
+      - Agree the Creative Campus route, destination, and a neutral first-time visitor task.
+      - >-
+        One teammate walks without seeing the idea set; the observer records actions, words, pauses,
+        and turns.
+      - Switch roles or use a seated map walkthrough if needed.
+      - >-
+        Compare notes with the idea set; select one idea that responds to a recorded moment; name
+        the criterion and one unresolved question.
+    adaptation: >-
+      Professor adaptation of “Walking in the Customer’s Shoes” to a short Creative Campus route
+      with portfolio fields.
+    quote:
+      chicago: (Michalko 2010, 371)
+      verbatim: >-
+        Walking in the customer's shoes. In this approach, people turn around to find out what it's
+        really like to be someone in a different position. For example, a realtor sent his
+        salespeople to car dealerships to help them improve their selling skills. Posing as
+        customers, they walked through the entire sales process, recording particular behavior,
+        words, and actions that critically affected their attitude as 'buyers.' At the sales
+        meeting, they shared their experiences and talked about ways they could improve their own
+        selling skills. It was an eye-opening experience that made the salespeople see that it's one
+        thing to talk about walking in someone else's shoes—and another to actually do it.
+      ref_key: michalko-2010
+    portfolio_trace: >-
+      Route and task; roles; observation notes; selected idea and criterion; unresolved question;
+      limitation note.
+    judged_by: Portfolio rubric — critical analysis and judgement
+    graphic:
+      svg: /assets/images/exercise-graphics/visitor-journey-walkthrough-e44ba8aaf1a9170d.svg
+      png: /assets/images/exercise-graphics/visitor-journey-walkthrough-e44ba8aaf1a9170d.png
+      alt: >-
+        A first-time visitor's route yields observed moments; one prior idea is selected against a
+        recorded moment and criterion.
+      caption: >-
+        Choose against what the walkthrough revealed, not against taste; keep the unresolved
+        question visible.

@@ -1,0 +1,83 @@
+id: hits-and-dot-voting
+title: Hits and dot voting
+urn: urn:in-practice:exercise:c478dad9bd877b62478ffbf9
+technique_id: hits-dot-voting
+status: ready
+categories:
+- urn:in-practice:concept:selection
+- family:selection
+fieldlex: []
+units:
+- U2
+- U4
+summary: Mark interesting parts in silence before you debate. Hits gather heat; a later vote decides —
+  without groupthink in the first pass.
+time_min: 15
+group: 3–10
+materials:
+- idea sheets on a wall or board
+- dot stickers
+- optional digital whiteboard
+requirements:
+- Ideas must already be visible (one per sheet).
+- No talking during the heat-map pass.
+accessibility: Digital whiteboard voting; allow seated access to the wall.
+steps:
+- Put all ideas on the wall, one per note or sheet.
+- Read in silence; each person places small dots on parts that look strong (hits).
+- Each person then gets one larger vote for one idea.
+- Cluster the dots and read out the top three.
+- The decider (or the group) chooses, and records why.
+adaptation: Classroom timing and portfolio fields are professor adaptations of the sprint sticky decision
+  / heat map sequence.
+quote:
+  chicago: (Knapp, Zeratsky, and Kowitz 2016, chap. 10)
+  verbatim: 'We’ve spent years optimizing our sprint decisions to be as efficient as possible. We ended
+    up with a five-step process—and coincidentally, every step involves something sticky: 1. Art museum:
+    Put the solution sketches on the wall with masking tape. 2. Heat map: Look at all the solutions in
+    silence, and use dot stickers to mark interesting parts. 3. Speed critique: Quickly discuss the highlights
+    of each solution, and use sticky notes to capture big ideas. 4. Straw poll: Each person chooses one
+    solution, and votes for it with a dot sticker. 5. Supervote: The Decider makes the final decision,
+    with—you guessed it—more stickers. This sticky stuff isn’t a gimmick. The dot stickers let us form
+    and express our opinions without lengthy debate, and the sticky notes allow us to record big ideas
+    without relying on our short-term memory.'
+  ref_key: knapp-2016
+portfolio_trace: Photo or list of dotted sheets; top three; chosen idea and criterion.
+judged_by: Portfolio rubric — critical analysis and judgement
+graphic:
+  kind: signal-board
+  alt: Silent small marks identify promising parts across the idea board; a separate larger vote selects one idea.
+  caption: Notice interesting parts before debate, then make the final selection visible as a separate decision.
+  labels: [Idea field, Hits, One vote, Reason]
+ahmes:
+  document_coat: 98b7e339
+  vault_slug: jake_knapp_john_zeratsky_braden_kowitz_sprint_how_to_solve_big_problems_and_test_new_ideas_in_just_five_days_simon_schuster_2016_98b7e339
+  nodes:
+  - node_id: 746eccb9-4f19-5c38-8141-1433c0736613
+    page_index: 69
+    chicago: (Knapp, Zeratsky, and Kowitz 2016, chap. 10)
+    role: quote
+  - node_id: 6b4d85b8-4880-5bdb-bd45-e9d2393f522d
+    page_index: 69
+    chicago: (Knapp, Zeratsky, and Kowitz 2016, chap. 10)
+    role: quote
+  - node_id: 81dab6ef-a500-58de-83d2-c23463dbb8f6
+    page_index: 69
+    chicago: (Knapp, Zeratsky, and Kowitz 2016, chap. 10)
+    role: quote
+  - node_id: 88d4d8ec-87b5-5b03-a0c8-9ecb9e833d8b
+    page_index: 69
+    chicago: (Knapp, Zeratsky, and Kowitz 2016, chap. 10)
+    role: quote
+  - node_id: 3fd6564b-0e53-52ba-9a2f-044a8f283ac4
+    page_index: 69
+    chicago: (Knapp, Zeratsky, and Kowitz 2016, chap. 10)
+    role: quote
+  - node_id: e2c45bd1-d9d3-52d3-9644-aea6638b1fc6
+    page_index: 69
+    chicago: (Knapp, Zeratsky, and Kowitz 2016, chap. 10)
+    role: quote
+  - node_id: 315afdc9-5449-584c-af15-17420228660b
+    page_index: 69
+    chicago: (Knapp, Zeratsky, and Kowitz 2016, chap. 10)
+    role: quote

@@ -71,7 +71,7 @@ Think of the studio loop you already know from U2–U3: open many directions, th
 
 **In practice:** for a poster brief, you might generate three layout moods in ten minutes, then **choose one** and redraw the hierarchy by hand because the type sizes are wrong for your audience.
 
-**Try it:** [Lab · Exercise 1](#lab-exercise-1) writes one test question before any build — tool or manual.
+**Try it:** [Question-led rough prototype]({{ '/exercises/en/question-led-rough-prototype/' | relative_url }}) writes one test question before any build — tool or manual.
 
 ### 2 · Show the process
 
@@ -81,7 +81,7 @@ A portfolio that shows only a final render teaches assessors to guess. A portfol
 
 **In practice:** save a screenshot of the prompt, the three outputs you rejected, and the layer you redrew — in that order — next to the PDF you submit.
 
-**Try it:** [Lab · Exercise 2](#lab-exercise-2) orders every version and marks diverge/converge moves.
+**Try it:** [Process trail]({{ '/exercises/en/process-trail/' | relative_url }}) orders every version and marks diverge/converge moves.
 
 ### 3 · Refuse originality theatre
 
@@ -91,7 +91,7 @@ When everything looks “creative” at once, ask the boring question first: **w
 
 **In practice:** if a model returns four beautiful palettes but your brief is wayfinding for visitors with low vision, the theatre stops when you name contrast and distance — not when you pick the prettiest swatch.
 
-**Try it:** step 1 of [Lab · Exercise 1](#lab-exercise-1) forces a test question tied to the brief.
+**Try it:** [Question-led rough prototype]({{ '/exercises/en/question-led-rough-prototype/' | relative_url }}) forces a test question tied to the brief.
 
 ### 4 · Assess judgment, not only surfaces
 
@@ -101,7 +101,7 @@ Rubrics that reward only the last file train students to hide assistance and to 
 
 **In practice:** attach a half-page “judgment log” to a crit: three decisions only you made, with reasons.
 
-**Try it:** [Lab · Exercise 2](#lab-exercise-2) ends with a turning-point paragraph assessors can read.
+**Try it:** [Process trail]({{ '/exercises/en/process-trail/' | relative_url }}) ends with a turning-point paragraph assessors can read.
 
 ### 5 · Agency stays with the designer
 
@@ -111,7 +111,7 @@ Tools can widen the search space; they do not sign contracts, face clients, or c
 
 **In practice:** when a model suggests copy for a public sign, you edit for clarity and liability; the model does not “co-author” the legal risk.
 
-**Try it:** [Lab · Exercise 1](#lab-exercise-1) requires you to record human edits after any generated variant.
+**Try it:** [Question-led rough prototype]({{ '/exercises/en/question-led-rough-prototype/' | relative_url }}) requires you to record human edits after any generated variant.
 
 ### 6 · Name the costs
 
@@ -133,49 +133,22 @@ Design education should not treat tools as magic boxes. Energy, data labour, and
 
 Practises Masterclass ideas **1** (stage the tool), **2** (show the process), and **5** (agency).
 
-**Time:** 20 minutes (classroom adaptation of a longer studio technique).
-
-**Group:** alone to make; one classmate tests your prototype.
-
-**Materials:** shared class brief or your D1 problem; paper/card or a digital mock-up tool; optional generative tool **only** for early variation.
-
-**Steps:**
-
-1. Write the one question this prototype must answer.
-2. Decide whether it tests **role**, **look and feel**, or **how it works** (course wording).
-3. Build only the surface needed to answer it — by hand, code, or staged tool output you then edit.
-4. If a generative tool supplied a variant, log the prompt, what you kept, and what you re-authored.
-5. Let one classmate try the prototype; record the answer to your question.
-
-**Portfolio trace:** the brief; the test question; before/after; prompts or manual steps; the test answer.
-
-**Judged by:** [Portfolio rubric — creative fluency, flexibility, and originality]({{ '/assignments/en/creativity-techniques-portfolio/' | relative_url }}#rubric)
-
-**Source:** "The prototype is meant to answer questions, so keep it focused" [(Knapp, Zeratsky, and Kowitz 2016, chap. 13)](#ref-knapp-2016). GenAI staging and logging rules are course adaptations.
+**Try it:** [Question-led rough prototype]({{ '/exercises/en/question-led-rough-prototype/' | relative_url }})
 
 ### Exercise 2 — Process trail {#lab-exercise-2}
 
 Practises Masterclass ideas **2** (show the process) and **4** (assess judgment).
 
-**Time:** 20 minutes.
+**Try it:** [Process trail]({{ '/exercises/en/process-trail/' | relative_url }})
 
-**Group:** individual; optional pair read at the end.
+### Related exercises (constraint family)
 
-**Materials:** exports from Exercise 1 (or another recent D1 loop); one board slide or A3 sheet.
+Year-3 studio alternatives when you need formal pressure instead of a tool tour:
 
-**Steps:**
+- [Follow Dogme 95 Rules]({{ '/exercises/en/follow-dogme-95-rules/' | relative_url }}) — temporary rules; GenAI can be one rule among others.
+- [Imposing Constraints]({{ '/exercises/en/imposing-constraints/' | relative_url }}) — add one formal constraint to an open draft.
 
-1. Save every version, sketch, and discarded idea with a date or order number.
-2. Arrange them in order on one page or board.
-3. Mark where you **diverged** (opened options) and **converged** (closed them).
-4. Write one paragraph on the **turning point** — what changed your direction?
-5. Attach tool prompts to the steps where they belong.
-
-**Portfolio trace:** the ordered trail; diverge/converge marks; turning-point paragraph; prompt attachments.
-
-**Judged by:** [Portfolio rubric — critical analysis and judgement]({{ '/assignments/en/creativity-techniques-portfolio/' | relative_url }}#rubric)
-
-**Source:** classroom adaptation of the **process trail** technique (catalogue witness only; no single authoritative book quote in student copy).
+Full catalogue: [Exercises]({{ '/exercises/en/' | relative_url }}).
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
@@ -196,20 +169,19 @@ LAB_EXERCISE_SELECTION:
     technique_id: process-trail
     source_status: gap
     adaptation: "Professor adds diverge/converge marks and GenAI prompt attachments"
+  related_exercises_route:
+    - /exercises/en/follow-dogme-95-rules/
+    - /exercises/en/imposing-constraints/
   archived_exercise_3:
     classroom_title: "Creative Campus tech tools"
     reason: "Rejected 2026-10-17 as naive for Year-3 international design cohort"
     archive: creativity-techniques-pedagogy/forge/receipts/U5-ARCHIVED-CREATIVE-CAMPUS-TECH-TOOLS-2026-10-17.md
-  next_lab_candidates:
-    - "Follow Dogme 95 Rules urn:in-practice:exercise:192b061952f29008d4f8b5ca → technique constraint-writing (Rubin 2023, 65)"
-    - "Imposing Constraints urn:in-practice:exercise:054709d8e574bff192593a5c → constraint-writing (Kieran 2018, 28)"
   research_frame_not_lab:
-    - "Park IASDR 2025 GenAI studio collaboration/assessment — candidate; Masterclass/Workshop discourse only"
-    - "Anwar et al. 2025 studio charter / disclosure — Workshop-adjacent"
+    - "Park IASDR 2025 — Ahmes coat b023e745 cite-resolved 2026-10-18; Methods/Masterclass discourse only"
   catalogue_gaps:
     - "parallel-prototyping: verified Dow 2010 but 0 catalogue records — not used as Lab title"
     - "lightning-demos: 0 catalogue records — not used as Lab title"
-    - "Park IASDR 2025 GenAI studio claims: candidate only — not cited in student body"
+  migration: creativity-techniques-pedagogy/forge/receipts/EXERCISES-MIGRATION-BACKLOG.md
 -->
 {% endif %}
 

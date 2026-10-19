@@ -469,6 +469,6 @@ field_index: true
 </div>
 </section>
 <footer class="field-index__related">
-<p>Schema <code>lexfield-public/v1</code> — same Field→Subfield→Concept contract as the fashion prototype tenant. Also see <a href="{{ '/directory/en/' | relative_url }}">Directory</a> · <a href="{{ '/methods/en/' | relative_url }}">Methods</a>.</p>
+<p>Schema <code>lexfield-public/v1</code> — same Field→Subfield→Concept contract as the fashion prototype tenant. Also see <a href="{{ '/exercises/en/' | relative_url }}">Exercises</a> · <a href="{{ '/directory/en/' | relative_url }}">Directory</a> · <a href="{{ '/methods/en/' | relative_url }}">Methods</a>.</p>
 </footer>
 </div>

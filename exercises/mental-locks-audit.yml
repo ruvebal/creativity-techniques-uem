@@ -1,0 +1,46 @@
+id: mental-locks-audit
+title: Mental locks audit
+urn: urn:in-practice:exercise:0b497d0ff09fe1fe764b1c52
+technique_id: mental-locks-audit
+status: ready
+categories:
+- urn:in-practice:concept:reflection
+- family:reflection
+fieldlex: []
+units:
+- U6
+summary: Name the belief that closed an idea. Reopen one locked path for five minutes — personal development
+  as craft, not soft-skill theatre.
+time_min: 15
+group: individual
+materials:
+- a dropped or blocked idea from recent work
+- paper
+requirements:
+- Stay tied to a making brief.
+- Do not treat this as therapy.
+accessibility: Typed or oral audit OK.
+steps:
+- Pick one idea you dropped this week.
+- Write the belief or rule that closed it (the “lock”).
+- Reopen the idea for five minutes under a temporary opposite rule.
+- Note what appeared that the lock had blocked.
+- Decide keep, transform, or shelve — with one craft reason.
+adaptation: Classroom adaptation of Open Mental Locks catalogue records (von Oech held; steps are course
+  wording).
+quote:
+  chicago: (course adaptation)
+  verbatim: Mental locks are the beliefs that close an idea before it has been tested—“that is not logical,”
+    “we already tried that,” “people like us don’t do this.” The classroom audit asks you to name one
+    lock that ended a recent idea, ask when that belief helps and when it blocks, then reopen the dropped
+    idea for five private minutes with the lock set aside. What changes in those five minutes is the evidence;
+    the lock itself is not graded as a confession. (Classroom adaptation of Open Mental Locks catalogue
+    records; von Oech is held, not cited as a student quotation here.)
+  ref_key: ''
+portfolio_trace: Dropped idea; lock sentence; five-minute reopen note; keep/transform/shelve.
+judged_by: Portfolio rubric — critical analysis and judgement
+graphic:
+  kind: unlock
+  alt: A belief blocks a dropped idea; a temporary opposite rule opens a short test before the student decides what to do.
+  caption: The belief is tested through making—not graded as a personal confession.
+  labels: [Dropped idea, Lock belief, Five-minute reopen, Keep · change · shelve]

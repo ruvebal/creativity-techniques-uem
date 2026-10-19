@@ -107,7 +107,7 @@ From session 3, two students defend a D1 piece for about 15 minutes each. Start 
 
 **An idea list is a record of thinking, not a verdict on the people who made it.** Read each association back, add a modification where it helps, and note who contributed the change. The final portfolio trace should show the prompt, the first connections, and the changes made in conversation. That makes later selection easier to inspect and keeps group labour visible. If a polished concept hides the route that produced it, what would a teammate need to recover?
 
-**Try it:** [Lab · Ask a Crab](#lab-exercise-1) — save a trace that another person can follow.
+**Try it:** [Ask a Crab — picture diverge]({{ '/exercises/en/ask-a-crab/' | relative_url }}) — save a trace that another person can follow.
 
 ## Lab (Portfolio)
 
@@ -115,23 +115,11 @@ From session 3, two students defend a D1 piece for about 15 minutes each. Start 
 
 ### Lab · Ask a Crab — picture diverge {#lab-exercise-1}
 
-- **Practises:** generation from visual prompts; building on a teammate’s connection; delaying selection.
-- **Time:** about 20 minutes proposed for this class adaptation; your professor sets the actual class clock.
-- **Group:** teams of 3–5.
-- **Materials:** one shared design brief; unrelated pictures; sticky notes or a shared board; a timer.
-- **Steps:**
-  1. Read the brief aloud and name the user, the constraint, and the question the team needs to solve.
-  2. Give each person two or three unrelated pictures. Each person writes a possible connection to the brief for each picture.
-  3. Take turns reading connections aloud. Teammates may add a modification or a new route; record additions beside the first idea.
-  4. Stop before ranking. Mark the ideas that need a later selection conversation and carry the full set into U4.2.
-- **Portfolio trace:** one-sentence brief; picture titles or images; initial connections; later additions; note that selection was deferred.
-- **Example trace:** *Illustrative example (not student work)* — brief: “Help first-time visitors locate the accessible Atrium entrance.” Picture: river delta. Initial connection: show more than one approach route. Addition: use a clear landmark before the fork. Selection: deferred to U4.2.
-- **Judged by:** whether the trace shows a clear link from brief to picture to idea, whether additions are recorded, and whether the team keeps generation separate from selection.
-- **Source:** Ask a Crab’s five-step blueprint; this card adapts its first four steps to a classroom simulation [(Michalko 2010, 440)](#ref-michalko-2010).
+Practises generation from visual prompts; building on a teammate’s connection; delaying selection. This is the first half of a two-lesson chain; U4.2 continues from the saved idea set.
 
-{% if site.publication.publish_internal_metadata %}
-<!-- LAB_LINE: U4.1 produces the idea set that U4.2 selects; preserve source and classroom adaptation as separate layers. -->
-{% endif %}
+**Try it:** [Ask a Crab — picture diverge]({{ '/exercises/en/ask-a-crab/' | relative_url }})
+
+**Judged by:** whether the portfolio trace shows a clear link from brief to picture to idea, whether additions are recorded, and whether the team keeps generation separate from selection.
 
 ## Workshop
 

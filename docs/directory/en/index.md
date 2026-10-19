@@ -291,6 +291,6 @@ field_index: true
 </div>
 </section>
 <footer class="field-index__related">
-<p>Also see <a href="{{ '/lexicum/en/' | relative_url }}">Lexicum</a> · <a href="{{ '/methods/en/' | relative_url }}">Methods</a> · <a href="{{ '/bibliography/en/' | relative_url }}">Bibliography</a></p>
+<p>Also see <a href="{{ '/exercises/en/' | relative_url }}">Exercises</a> · <a href="{{ '/lexicum/en/' | relative_url }}">Lexicum</a> · <a href="{{ '/methods/en/' | relative_url }}">Methods</a> · <a href="{{ '/bibliography/en/' | relative_url }}">Bibliography</a></p>
 </footer>
 </div>

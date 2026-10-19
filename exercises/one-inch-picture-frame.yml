@@ -1,0 +1,61 @@
+id: one-inch-picture-frame
+title: One-inch picture frame
+urn: urn:in-practice:exercise:e67b32deaf49a3c2e1118782
+technique_id: entry-point-attention-area
+status: ready
+categories:
+  - urn:in-practice:concept:problem-framing
+  - family:framing
+fieldlex:
+  - ct:visualProblemFraming
+units:
+  - U3
+summary: Narrow a broad design brief to one small, observable moment. Make a quick sketch or description
+  of only what fits inside that frame, then use the missing details to decide what to explore next.
+time_min: 20
+group: individual, then pair review
+materials:
+  - current design brief or project idea
+  - paper and pen, or a small digital canvas
+  - optional paper frame or crop tool
+requirements:
+  - Choose one user, object, or moment from the brief.
+  - Keep this pass exploratory; do not grade the first sketch or description.
+accessibility: Students may draw, write, type, dictate, or use a cropped digital image. No physical frame is
+  required.
+steps:
+  - Write the broad brief at the top of the page.
+  - Choose one small moment, view, or interaction that can be described in a single frame.
+  - Spend five minutes sketching or describing only what is visible in that frame; mark unknowns as questions.
+  - Show the frame to a partner. Ask what they notice first and what remains unclear.
+  - Use one observation and one unanswered question to set the next design move.
+adaptation: Lamott describes narrowing a writing task to one small picture frame and one paragraph. This
+  classroom adaptation transfers that scale of attention to a design brief; the five-minute timing and peer
+  prompt are instructor choices.
+quote:
+  chicago: (Lamott 2007, 11)
+  verbatim: >-
+    It reminds me that all I have to do is to write down as much as I can see through a one-inch picture
+    frame. […] All I am going to do right now, for example, is write that one paragraph that sets the
+    story in my hometown, in the late fifties, when the trains were still running. I am going to paint a
+    picture of it, in words, on my word processor. Or all I am going to do is to describe the main
+    character the very first time we meet her, when she first walks out the front door and onto the
+    porch. […] just what I can see through the one-inch picture frame, just one paragraph describing
+    this woman, in the town where I grew up, the first time we encounter her.
+  ref_key: lamott-2007
+portfolio_trace: One-frame sketch or description; the observation from the partner; the unanswered question;
+  the next move it suggests.
+judged_by: Portfolio rubric — problem framing, purposeful observation, and reasoned development
+graphic:
+  kind: viewport
+  alt: A broad brief narrows to one small visible moment; a partner's observation and an unanswered question guide the next move.
+  caption: Frame one observable moment. What is outside it becomes a useful question for the next design move.
+  labels: [Broad brief, One frame, What is visible?, Next question]
+ahmes:
+  document_coat: 3579bf09
+  vault_slug: bird_by_bird_some_instructions_on_writing_and_life_lamott_anne_aut_1995_2019_2007_anchor_books_vintage_books_a_division_of_penguin_random_house_knopf_doubleday_publishing_gr_1_3579bf09
+  nodes:
+    - node_id: e632e981-8dfb-5116-a40b-6185555f869d
+      page_index: 10
+      chicago: (Lamott 2007, 11)
+      role: quote

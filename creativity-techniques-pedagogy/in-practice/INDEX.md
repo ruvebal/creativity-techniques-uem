@@ -41,6 +41,53 @@ Private only — do not publish `runtime/` to Pages. Lab selection still follows
 
 ### Review recovery — 2026-09-28
 
+### 2026-10-19: bounded Athanor recall and citation review
+
+Read-only discovery against `profield-creativity-techniques` and
+`profield-digital-creativity` completed 12/12 queries (382 raw hits; 347
+source-hash/node pairs). Local `qwen2.5:32b-instruct` classified full Ahmes
+text for 127 in-inventory nodes and returned 23 provisional proposals; semantic
+quote extraction refreshed 33 of 34 unique nodes, with one refusal. These are
+discovery/classification receipts, not source verification, approved exercises,
+or permission to publish. See
+[`runtime/review/ATHANOR-QWEN-RECALL-REVIEW-2026-10-19.md`](runtime/review/ATHANOR-QWEN-RECALL-REVIEW-2026-10-19.md)
+for source-context adjudication, quote/citation limits, and candidate dispositions.
+
+Four bounded leads remain for independent exercise review; duplicates, theory,
+and incomplete contexts were held or rejected. The Fisher/Williams resolver
+conflict remains `[BIBLIO-GAP]` despite its evaluator-safe flag. Raster review
+confirms all four Michalko blueprint steps but no printed page number/footer;
+keep the PDF-order locator. EPUB locators also remain location-scheme gaps. No
+record was promoted. A read-only exact text comparison matched the local
+semantic-quote strings to source extractions for the four retained leads; this
+does not resolve their citation locators or constitute exercise approval (see
+the private report for node IDs and hashes).
+The review confirms the four-step “What Is the Essence of a Crazy Idea?”
+blueprint ends on PDF pages 426–427; the adjacent hair-product thought
+experiment is separate and must not be merged into it.
+
+The teaching-suitability full scan completed 2026-09-29: its authoritative
+receipt reports 6,790 records seen (6,751 scored, 39 cached, zero errors),
+stage `awaiting-human-audit`; the advisory shortlist is 62, not 62 approved
+procedures. `full-scan.log` retains an earlier exporter traceback, but the final
+`SUMMARY.json` records a successful Markdown export rerun. The aggregate
+`runtime/status.json` and `runtime/process.json` still show a September 22 PID
+and are stale: a live process-list check on October 19 found no matching
+worker, and the October 19 discovery, recall, and quote jobs are complete. Do
+not resume from that PID or infer corpus/procedure approval from these files.
+The *Beyond Productivity* source remains an ingestion blocker: its bibliography
+PDF and Ahmes `source/original` are byte-identical (SHA-256
+`7ead013331b667880973580637ed5b4938e1f278f171c9b6f13e98014dce0916`), and no
+second local witness was found. `pdfinfo` cannot read a valid Pages tree; MuPDF
+and Ghostscript recovery attempts on temporary copies did not yield readable
+pages. The original is unchanged. A clean authorized copy is needed to close
+this source gap; see the private recall review for diagnostics.
+The fresh October 18 local coder review is recorded in
+`runtime/review/coder-triage-20261018.md`; it is a pipeline-code review, not
+corpus or procedure approval. DevIAC feedback and the curriculum connector plan
+were delivered and byte-verified on September 29; implementation/acceptance
+remains separate.
+
 2026-10-04 evening: U4 lesson + deck pilot shipped (operator prose after
 Thessia audit). Initial Lab = Ask a Crab diverge + Wall of Ideas select (hybrid
 adaptation disclosed); superseded after the no-repeat audit on 2026-10-13.

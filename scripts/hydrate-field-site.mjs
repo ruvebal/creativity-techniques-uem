@@ -235,7 +235,7 @@ ${renderFieldIndexCredit(LEXICUM_PROVENANCE, DIRECTORY_CREDIT_METHOD)}
 ${toc}
 ${sections}
 <footer class="field-index__related">
-<p>Also see <a href="{{ '/lexicum/en/' | relative_url }}">Lexicum</a> · <a href="{{ '/methods/en/' | relative_url }}">Methods</a> · <a href="{{ '/bibliography/en/' | relative_url }}">Bibliography</a></p>
+<p>Also see <a href="{{ '/exercises/en/' | relative_url }}">Exercises</a> · <a href="{{ '/lexicum/en/' | relative_url }}">Lexicum</a> · <a href="{{ '/methods/en/' | relative_url }}">Methods</a> · <a href="{{ '/bibliography/en/' | relative_url }}">Bibliography</a></p>
 </footer>
 </div>
 `,
@@ -312,7 +312,7 @@ ${steps ? `<ol class="field-card__steps">${steps}</ol>` : ''}
 ${toc}
 ${sections}
 <footer class="field-index__related">
-<p>Printable <a href="{{ '/methods/en/cards/' | relative_url }}">method cards</a> for every technique and method used in class · Also see <a href="{{ '/directory/en/' | relative_url }}">Directory</a> · <a href="{{ '/lexicum/en/' | relative_url }}">Lexicum</a></p>
+<p>Printable <a href="{{ '/methods/en/cards/' | relative_url }}">method cards</a> for every technique and method used in class · Also see <a href="{{ '/exercises/en/' | relative_url }}">Exercises</a> · <a href="{{ '/directory/en/' | relative_url }}">Directory</a> · <a href="{{ '/lexicum/en/' | relative_url }}">Lexicum</a></p>
 </footer>
 </div>
 `,
@@ -553,7 +553,7 @@ ${renderFieldIndexCredit(prov, prov.method)}
 ${toc}
 ${sections}
 <footer class="field-index__related">
-<p>Schema <code>lexfield-public/v1</code> — same Field→Subfield→Concept contract as the fashion prototype tenant. Also see <a href="{{ '/directory/en/' | relative_url }}">Directory</a> · <a href="{{ '/methods/en/' | relative_url }}">Methods</a>.</p>
+<p>Schema <code>lexfield-public/v1</code> — same Field→Subfield→Concept contract as the fashion prototype tenant. Also see <a href="{{ '/exercises/en/' | relative_url }}">Exercises</a> · <a href="{{ '/directory/en/' | relative_url }}">Directory</a> · <a href="{{ '/methods/en/' | relative_url }}">Methods</a>.</p>
 </footer>
 </div>
 `,

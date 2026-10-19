@@ -1,0 +1,58 @@
+id: visitor-journey-walkthrough
+title: Visitor Journey Walkthrough
+urn: urn:in-practice:exercise:f518593e47f80d5a916ce40c
+technique_id: contextual-observation
+status: ready
+categories:
+- urn:in-practice:concept:observation
+- family:framing
+fieldlex: []
+units:
+- U4
+summary: Walk a Creative Campus route from a first-time visitor’s side. Record actions and words; select
+  one prior idea against evidence — not against taste.
+time_min: 20
+group: team; rotate walker, observer, recorder
+materials:
+- prior idea set (e.g. U4.1)
+- agreed public campus route to the Atrium information point
+- route note sheet
+requirements:
+- Do not impersonate a disability or claim to represent a community.
+- Do not record identifiable members of the public.
+- Peer walkthroughs are not visitor research.
+accessibility: Seated route-map walkthrough allowed; mark observed vs imagined parts.
+steps:
+- Agree the Creative Campus route, destination, and a neutral first-time visitor task.
+- One teammate walks without seeing the idea set; the observer records actions, words, pauses, and turns.
+- Switch roles or use a seated map walkthrough if needed.
+- Compare notes with the idea set; select one idea that responds to a recorded moment; name the criterion
+  and one unresolved question.
+adaptation: Professor adaptation of “Walking in the Customer’s Shoes” to a short Creative Campus route
+  with portfolio fields.
+quote:
+  chicago: (Michalko 2010, 371)
+  verbatim: Walking in the customer's shoes. In this approach, people turn around to find out what it's
+    really like to be someone in a different position. For example, a realtor sent his salespeople to
+    car dealerships to help them improve their selling skills. Posing as customers, they walked through
+    the entire sales process, recording particular behavior, words, and actions that critically affected
+    their attitude as 'buyers.' At the sales meeting, they shared their experiences and talked about ways
+    they could improve their own selling skills. It was an eye-opening experience that made the salespeople
+    see that it's one thing to talk about walking in someone else's shoes—and another to actually do it.
+  ref_key: michalko-2010
+portfolio_trace: Route and task; roles; observation notes; selected idea and criterion; unresolved question;
+  limitation note.
+judged_by: Portfolio rubric — critical analysis and judgement
+graphic:
+  kind: journey-evidence
+  alt: A first-time visitor's route yields observed moments; one prior idea is selected against a recorded moment and criterion.
+  caption: Choose against what the walkthrough revealed, not against taste; keep the unresolved question visible.
+  labels: [Route, Observed moment, Prior idea, Evidence + criterion]
+ahmes:
+  document_coat: 2fa7eabe
+  vault_slug: michalko_michael_thinkertoys_a_handbook_of_creative_thinking_techniques_2010_ten_speed_press_2fa7eabe
+  nodes:
+  - node_id: d1f916c0-e642-5b14-8bde-88a0b6f9d3af
+    page_index: 370
+    chicago: (Michalko 2010, 371)
+    role: quote

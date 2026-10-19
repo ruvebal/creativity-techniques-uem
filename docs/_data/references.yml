@@ -151,6 +151,21 @@ knapp-2016:
     Knapp, Jake, John Zeratsky, and Braden Kowitz. 2016. *Sprint: How to Solve Big Problems and Test
     New Ideas in Just Five Days*. New York: Simon & Schuster.
 
+lamott-2007:
+  sort: "Lamott 2007"
+  year: 2007
+  edition_used: "Anchor Books e-book edition; cited page numbers follow the printed folios."
+  chicago: >-
+    Lamott, Anne. 2007. *Bird by Bird: Some Instructions on Writing and Life*. New York: Anchor Books.
+
+kieran-2018:
+  sort: "Kieran 2018"
+  year: 2018
+  edition_used: "Taylor & Francis / Routledge PDF (printed folios via Ahmes pdf_order)."
+  chicago: >-
+    Kieran, Matthew. 2018. In *Creativity and Philosophy*, edited by Berys Gaut and Matthew Kieran.
+    New York: Routledge.
+
 michalko-2010:
   sort: "Michalko 2010"
   year: 2010
@@ -190,6 +205,14 @@ raymond-2001:
   chicago: >-
     Raymond, Eric S. 2001. *The Cathedral and the Bazaar: Musings on Linux and Open Source by an
     Accidental Revolutionary*. Rev. ed. Sebastopol, CA: O’Reilly.
+
+park-2025:
+  sort: "Park 2025"
+  year: 2025
+  edition_used: "IASDR 2025 proceedings PDF (DOI 10.21606/iasdr.2025.845)."
+  chicago: >-
+    Park, Hyunyim. 2025. “Generative AI in Studio-Based Design Education: Human–AI Relationships,
+    Collaboration and Assessment.” IASDR 2025. https://doi.org/10.21606/iasdr.2025.845.
 
 rubin-2023:
   edition_note: "EPUB."

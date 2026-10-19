@@ -71,7 +71,7 @@ U1 argued creativity can be taught; U6 asks you to **rehearse** that claim in yo
 
 **In practice:** before a crit, list three concrete moves you tried this week — not three adjectives about your mood.
 
-**Try it:** [Lab · Exercise 1](#lab-exercise-1) logs surprises **while** you work.
+**Try it:** [Reflection-in-action log]({{ '/exercises/en/reflection-in-action-log/' | relative_url }}) logs surprises **while** you work.
 
 ### 2 · Beliefs convert potential
 
@@ -81,7 +81,7 @@ Two gates appear often: *Can I do this creatively here?* and *Should I spend cre
 
 **In practice:** when you stall on a team project, write which gate is closed; ask one peer to name evidence you already have.
 
-**Try it:** [Lab · Exercise 2](#lab-exercise-2) names the belief that closed an idea.
+**Try it:** [Mental locks audit]({{ '/exercises/en/mental-locks-audit/' | relative_url }}) names the belief that closed an idea.
 
 ### 3 · Mastery feeds regulation
 
@@ -91,7 +91,7 @@ Two gates appear often: *Can I do this creatively here?* and *Should I spend cre
 
 **In practice:** after a good sketch, write one sentence: *I will repeat this because…*
 
-**Try it:** step 4 of [Lab · Exercise 1](#lab-exercise-1) links moves into a short account.
+**Try it:** [Reflection-in-action log]({{ '/exercises/en/reflection-in-action-log/' | relative_url }}) links moves into a short account.
 
 ### 4 · Blocks are part of the path
 
@@ -101,7 +101,7 @@ Blocks are normal — techniques from U2–U5 are restart tools. Hiding a block 
 
 **In practice:** when stuck, pick one constraint (timebox, material limit, oblique prompt) before you declare the idea dead.
 
-**Try it:** [Lab · Exercise 2](#lab-exercise-2) revisits a dropped idea for five minutes.
+**Try it:** [Mental locks audit]({{ '/exercises/en/mental-locks-audit/' | relative_url }}) revisits a dropped idea for five minutes.
 
 ### 5 · Sustain beyond the workshop
 
@@ -131,50 +131,13 @@ Autonomy is self-direction **within** constraints: brief, deadline, peers, publi
 
 Practises Masterclass ideas **3** (mastery/regulation) and **5** (sustain).
 
-**Time:** 10 minutes active logging during a shared short making task (plus 5 minutes to link moves after class).
-
-**Group:** individual during making; optional pair share.
-
-**Materials:** log template (paper or file); the class making task.
-
-**Steps:**
-
-1. While working, **stop when something surprises you**.
-2. Note what you expected and what happened.
-3. Write the **next move** you will try because of it.
-4. Repeat at least twice in one session.
-5. After class, link the moves into a short account of the conversation with the material.
-6. Add one line on **confidence gained** — what evidence do you now have?
-
-**Portfolio trace:** two surprise stops; linked account; confidence line.
-
-**Judged by:** [Portfolio rubric — critical analysis and judgement]({{ '/assignments/en/creativity-techniques-portfolio/' | relative_url }}#rubric)
-
-**Source:** Schön describes design as a reflective conversation in which the situation “talks back” [(Schön 1983, 79)](#ref-schon-1983). Steps are a classroom adaptation.
+**Try it:** [Reflection-in-action log]({{ '/exercises/en/reflection-in-action-log/' | relative_url }})
 
 ### Exercise 2 — Mental locks audit {#lab-exercise-2}
 
 Practises Masterclass ideas **4** (blocks) and **6** (autonomy/accountability).
 
-**Time:** 15 minutes.
-
-**Group:** individual — private writing; share only what you choose.
-
-**Materials:** paper or private document.
-
-**Steps:**
-
-1. Recall a recent moment when you **dropped an idea early**.
-2. Write the **belief** that made you drop it (for example “that is not logical”).
-3. Ask when that belief **helps** and when it **blocks**.
-4. Revisit the dropped idea with the belief set aside for **five minutes**.
-5. Note what changed — even slightly — in those five minutes.
-
-**Portfolio trace:** dropped idea; named lock; help vs block note; five-minute revisit note.
-
-**Judged by:** [Portfolio rubric — creative fluency, flexibility, and originality]({{ '/assignments/en/creativity-techniques-portfolio/' | relative_url }}#rubric)
-
-**Source:** classroom adaptation of **Open Mental Locks** catalogue records (von Oech held; not in `references.yml`). Steps are course wording.
+**Try it:** [Mental locks audit]({{ '/exercises/en/mental-locks-audit/' | relative_url }})
 
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:

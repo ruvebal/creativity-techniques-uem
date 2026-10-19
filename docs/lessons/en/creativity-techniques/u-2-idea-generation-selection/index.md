@@ -259,55 +259,19 @@ Practises Masterclass ideas **1** (generate, then select), **2** (fluency with f
 
 **Opt-out:** the warm-up is optional. You may sit quietly, read the brief, or start writing early instead. Nobody gives instructions about posture or breathing.
 
-### Exercise 2 — Select: hits, COCD box, then yellow and black hats {#lab-exercise-2}
+### Exercise 2 — Select: hits, then COCD and hats {#lab-exercise-2}
 
 Practises Masterclass ideas **4** (role and constraint tools) and **5** (name selection criteria).
 
-**Time:** 20 minutes (about 5 for hits, 7 for the grid, 8 for the hats).
+**Try it (hits first):** [Hits and dot voting]({{ '/exercises/en/hits-and-dot-voting/' | relative_url }}) — silent marks on the idea set from Exercise 1.
 
-**Group:** the same teams as Exercise 1.
+**Then in class (same team, ~15 minutes):** place the hottest ideas on a COCD box (new × feasible → now / wow / how); run yellow then black hats on a top three; write your selection criterion before you pick one. Optional peer rating: [peer rating sheet]({{ '/practice/en/peer-rating-sheet/' | relative_url }}).
 
-**Materials:** all idea sheets from Exercise 1 on a wall or table; small dot stickers (or marker dots); a two-by-two grid on the board or on paper; sticky notes.
+**Also useful:** [Random word stimulation]({{ '/exercises/en/random-word-stimulation/' | relative_url }}) when a team is stuck on obvious ideas.
 
-**Steps:**
+**Portfolio trace:** photo of dots / hits; COCD grid; top three with yellow and black notes; criterion and chosen idea.
 
-1. **Hits:** put all your team's ideas up. In silence, each person puts small dots on the ideas, or parts of ideas, that look interesting. No discussion yet.
-2. Take the ideas with the most dots (around ten) to the grid.
-3. **COCD box:** draw a two-by-two grid — how new the idea is (low / high) against how feasible it is (low / high). Place each idea after a short discussion.
-4. Name the corners: **now** (feasible, ordinary), **wow** (feasible and original), **how** (original, not yet feasible); the fourth corner is dropped. Keep the wow ideas and choose a top three.
-5. **Yellow hat** (3 minutes): everyone thinks only about why each of the top three could work.
-6. **Black hat** (3 minutes): everyone thinks only about why each could fail or cannot be done.
-7. Before you pick, write the criterion you will use; then choose one idea. Compare: is your pick also the idea your team placed as most original in the grid? If not, say why in one sentence.
-
-**Optional peer rating (about 5 extra minutes):** before step 7, swap your top three with a neighbouring team (no names on the list). Each person rates the other team's three items alone and in silence on the printable [peer rating sheet]({{ '/practice/en/peer-rating-sheet/' | relative_url }}), then returns the sheet. Compare the averages you receive with your own grid.
-
-**Portfolio trace:** a photo of the dots and the grid; the top three with their yellow and black notes; your criterion, the chosen idea and your one-sentence comparison.
-
-**Example trace:** *Illustrative example (not student work)* — made by the professor to show the format, continuing the cup brief above.
-
-<div class="lesson-example-trace" markdown="1">
-- **Hits:** ten ideas with the most dots, among them the coaster lid with the café map, the lending cup and the colour-changing cup.
-- **COCD box:** *now* — refill stamp card; *wow* — lending cup returned like a library book, map lid; *how* — colour-changing cup.
-- **Top three:** lending cup · map lid · stamp card printed on the cup.
-- **Yellow / black (lending cup):** yellow — no cup to remember, fewer paper cups; black — who washes the cups, and what if they are not returned?
-- **Criterion (written before choosing):** can the café test it for two weeks without new machines?
-- **Choice:** the stamp card printed on the cup. Our most original idea in the grid was the lending cup; we did not pick it because washing and returns fail our criterion.
-</div>
-
-**Judged by:** [Portfolio rubric — critical analysis and judgement]({{ '/assignments/en/creativity-techniques-portfolio/' | relative_url }}#rubric)
-
-**Source:** silent dot stickers marking the interesting parts of each idea (a "heat map") come from a design-sprint handbook, where voting is a separate, later step [(Knapp, Zeratsky, and Kowitz 2016, chap. 10)](#ref-knapp-2016). In de Bono's Six Thinking Hats, the yellow hat "covers hope and positive thinking" and the black hat covers "the negative aspects - why it cannot be done" [(de Bono 1985, 32)](#ref-debono-1985). The COCD box, the order of the steps and the comparison question are a classroom adaptation.
-
-{% if site.publication.publish_internal_metadata %}
-<!-- curriculum-internal:
-LAB_LINE: exercise=1; technique_id=brainwriting-635 (+ open-monitoring-warm-up, embodied → Opt-out); practises=masterclass-1,2,3; source=brainwriting gap/held (Rohrbach 1969 gap; Michalko 2010 describes Geschka card brainwriting, not 6-3-5; Diehl and Stroebe 1987 gap — no claim about which team wins); warm-up=colzato-2012 p. 1 verified (abstract; Method: FA 35 min inside 45-min sessions, pdftotext re-read EX8); shortened to 3 rounds (PHASE-EX8 risk)
-LAB_LINE: exercise=2; technique_id=hits-dot-voting (+ cocd-box gap, six-thinking-hats); practises=masterclass-4,5; source=knapp-2016 chap. 10 "Decide" (The sticky decision: "Heat map: Look at all the solutions in silence, and use dot stickers to mark interesting parts", EPUB re-read EX8); debono-1985 printed p. 32 (c45df305 English copy, PDF p. 45: "The black hat covers the negative aspects - why it cannot be done." / "The yellow hat is optimistic and covers hope and positive thinking."); never the back-translated copy 7e7ba834; Rietzschel, Nijstad and Stroebe 2006 (people do not reliably select their best ideas) is a BIBLIO-GAP — step 7 asks the comparison question without the claim
-PROVENANCE_LINE: claim=U2.six-hats-yellow-black-lab; status=VERIFIED; page_basis=printed; source={source_hash=c45df305; document_id=db89dff4-a2d1-5e75-b9ee-6dc4166e887f; pdf_page=45; printed_page=32}; public_citation="(de Bono 1985, 32)"; verified_by=manual-page-read (pdftotext, EX8 2026-10-06); verbatim="The black hat covers the negative aspects - why it cannot be done." + "The yellow hat is optimistic and covers hope and positive thinking."
-PROVENANCE_LINE: claim=U2.heat-map-lab; status=VERIFIED; page_basis=section; source={document_coat=98b7e339; epub_file=text/part0033_split_001; section="chap. 10, Decide — The sticky decision"}; public_citation="(Knapp, Zeratsky, and Kowitz 2016, chap. 10)"; verified_by=manual-page-read (EX8 2026-10-06); verbatim="Heat map: Look at all the solutions in silence, and use dot stickers to mark interesting parts."
--->
-{% endif %}
-
----
+**Judged by:** [Portfolio rubric — creative fluency, flexibility, and originality]({{ '/assignments/en/creativity-techniques-portfolio/' | relative_url }}#rubric)
 
 ## Workshop
 

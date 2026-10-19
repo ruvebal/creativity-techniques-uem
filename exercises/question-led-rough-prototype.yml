@@ -1,0 +1,62 @@
+id: question-led-rough-prototype
+title: Question-led rough prototype
+urn: urn:in-practice:exercise:129910890898c06d58c0c8da
+technique_id: question-led-prototype
+status: ready
+categories:
+- urn:in-practice:concept:prototyping
+- family:development
+fieldlex:
+- ct:prototyping
+- ct:generativeAiCoCreation
+units:
+- U3
+- U5
+summary: Build the smallest surface that answers one test question. Optional generative tools stay in
+  early variation; you keep the final form.
+time_min: 20
+group: alone to make; one classmate tests
+materials:
+- shared class brief or D1 problem
+- paper/card or digital mock-up tool
+- optional generative tool for early variation only
+requirements:
+- Write the test question before you build.
+- If you use GenAI, log prompt, keep, and re-author moves.
+accessibility: Seated digital mock-ups accepted; oral test answers OK.
+steps:
+- Write the one question this prototype must answer.
+- Decide whether it tests role, look and feel, or how it works.
+- Build only the surface needed to answer it — by hand, code, or staged tool output you then edit.
+- If a generative tool supplied a variant, log the prompt, what you kept, and what you re-authored.
+- Let one classmate try the prototype; record the answer to your question.
+adaptation: 20-minute class timing; optional GenAI for variation only; mandatory prompt/edit log are professor
+  adaptations of the sprint prototype mindset.
+quote:
+  chicago: (Knapp, Zeratsky, and Kowitz 2016, chap. 13)
+  verbatim: 'Don’t prototype anything you aren’t willing to throw away. Remember: This solution might
+    not work. So don’t give in to the temptation of spending a few days or weeks getting your prototype
+    ready. You’ll have diminishing returns on that extra work, and all the while, you’ll be falling deeper
+    in love with a solution that could turn out to be a loser. […] The prototype is meant to answer questions,
+    so keep it focused. You don’t need a fully functional product—you just need a real-looking façade
+    to which customers can react.'
+  ref_key: knapp-2016
+portfolio_trace: The brief; the test question; before/after; prompts or manual steps; the test answer.
+judged_by: Portfolio rubric — creative fluency, flexibility, and originality
+graphic:
+  kind: test-loop
+  alt: One test question shapes a minimal prototype, which a classmate tries; the answer determines the next design move.
+  caption: Build only enough to answer the question; let the test response—not polish—set the next move.
+  labels: [Test question, Small prototype, Peer tries, Answer → next move]
+ahmes:
+  document_coat: 98b7e339
+  vault_slug: jake_knapp_john_zeratsky_braden_kowitz_sprint_how_to_solve_big_problems_and_test_new_ideas_in_just_five_days_simon_schuster_2016_98b7e339
+  nodes:
+  - node_id: fe35f720-1af1-5f21-a897-477269b98c6d
+    page_index: 89
+    chicago: (Knapp, Zeratsky, and Kowitz 2016, chap. 13)
+    role: quote
+  - node_id: 9b6eece5-281f-552e-8dfe-ebfa855d4c7e
+    page_index: 89
+    chicago: (Knapp, Zeratsky, and Kowitz 2016, chap. 13)
+    role: quote

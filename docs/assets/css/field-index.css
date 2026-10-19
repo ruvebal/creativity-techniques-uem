@@ -206,6 +206,246 @@
 	max-width: 40rem;
 }
 
+.field-card--exercise {
+	border-top-color: var(--ct-coral-1);
+	grid-column: 1 / -1;
+	max-width: 46rem;
+}
+
+.field-card--quote {
+	border-top-color: var(--ct-flame-5);
+}
+
+/* Requirements: fact strip + two panels */
+.exercise-facts {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 0.65rem;
+	margin: 0.85rem 0 0;
+	padding: 0;
+	list-style: none;
+}
+
+@media (min-width: 640px) {
+	.exercise-facts {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		gap: 0.75rem;
+	}
+}
+
+.exercise-fact {
+	display: flex;
+	flex-direction: column;
+	gap: 0.35rem;
+	margin: 0;
+	padding: 0.75rem 0.85rem;
+	border: 1px solid var(--border-light);
+	border-radius: 0.35rem;
+	background: color-mix(in oklab, var(--ct-flame-4), transparent 92%);
+	min-width: 0;
+}
+
+.exercise-fact__label {
+	font-size: 0.68rem;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--muted);
+	font-weight: 600;
+}
+
+.exercise-fact__value {
+	font-size: 0.95rem;
+	line-height: 1.4;
+	color: var(--text-primary);
+	overflow-wrap: break-word;
+}
+
+.exercise-req-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1rem;
+	margin: 1.15rem 0 0;
+}
+
+@media (min-width: 640px) {
+	.exercise-req-grid {
+		grid-template-columns: 1fr 1fr;
+		gap: 1.15rem;
+	}
+}
+
+.exercise-req-panel {
+	margin: 0;
+	padding: 0.85rem 0.95rem 1rem;
+	border-left: 3px solid color-mix(in oklab, var(--ct-coral-1), transparent 35%);
+	background: color-mix(in oklab, var(--border-light), transparent 70%);
+	border-radius: 0 0.35rem 0.35rem 0;
+	min-width: 0;
+}
+
+.exercise-req-panel .exercise-h3 {
+	margin: 0 0 0.5rem;
+}
+
+.exercise-h3 {
+	margin: 1.15rem 0 0.4rem;
+	font-size: 0.75rem;
+	letter-spacing: 0.07em;
+	text-transform: uppercase;
+	color: var(--muted);
+	font-weight: 600;
+}
+
+.exercise-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 0.95rem;
+	line-height: 1.45;
+	color: var(--text-secondary);
+}
+
+.exercise-list li {
+	position: relative;
+	margin: 0;
+	padding: 0.3rem 0 0.3rem 1.05rem;
+}
+
+.exercise-list li + li {
+	border-top: 1px solid color-mix(in oklab, var(--border-light), transparent 40%);
+}
+
+.exercise-list li::before {
+	content: "";
+	position: absolute;
+	left: 0.15rem;
+	top: 0.7rem;
+	width: 0.35rem;
+	height: 0.35rem;
+	border-radius: 1px;
+	background: var(--ct-coral-1);
+	opacity: 0.85;
+}
+
+.field-index[data-field-index="exercise"] .field-card__steps {
+	margin: 0.65rem 0 0;
+	padding: 0;
+	list-style: none;
+	counter-reset: ex-step;
+}
+
+.field-index[data-field-index="exercise"] .field-card__steps > li {
+	position: relative;
+	counter-increment: ex-step;
+	margin: 0;
+	padding: 0.7rem 0 0.7rem 2.4rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: var(--text-primary);
+	border-top: 1px solid color-mix(in oklab, var(--border-light), transparent 35%);
+}
+
+.field-index[data-field-index="exercise"] .field-card__steps > li:first-child {
+	border-top: 0;
+	padding-top: 0.35rem;
+}
+
+.field-index[data-field-index="exercise"] .field-card__steps > li::before {
+	content: counter(ex-step);
+	position: absolute;
+	left: 0;
+	top: 0.7rem;
+	width: 1.65rem;
+	height: 1.65rem;
+	display: grid;
+	place-items: center;
+	font-size: 0.78rem;
+	font-weight: 700;
+	letter-spacing: 0.02em;
+	color: var(--ct-flame-1);
+	border: 1px solid color-mix(in oklab, var(--ct-flame-1), transparent 45%);
+	border-radius: 0.3rem;
+	background: color-mix(in oklab, var(--ct-flame-4), transparent 90%);
+}
+
+.field-index[data-field-index="exercise"] .field-card__steps > li:first-child::before {
+	top: 0.35rem;
+}
+
+.exercise-note {
+	margin: 0.85rem 0 0;
+	font-size: 0.9rem;
+	line-height: 1.45;
+	color: var(--text-secondary);
+	max-width: 40rem;
+}
+
+.exercise-portfolio {
+	margin: 0.35rem 0 0;
+	font-size: 1.05rem;
+	line-height: 1.5;
+	color: var(--text-secondary);
+	max-width: 40rem;
+}
+
+/* Legacy dl kept if any stale HTML remains */
+.exercise-dl {
+	display: grid;
+	grid-template-columns: 7rem 1fr;
+	gap: 0.45rem 1rem;
+	margin: 0.75rem 0 0;
+	font-size: 0.95rem;
+	line-height: 1.45;
+}
+
+.exercise-dl dt {
+	margin: 0;
+	font-size: 0.72rem;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--muted);
+	padding-top: 0.15rem;
+}
+
+.exercise-dl dd {
+	margin: 0;
+	color: var(--text-secondary);
+}
+
+.exercise-quote {
+	margin: 0.75rem 0 0;
+	padding: 0.85rem 1rem;
+	border-left: 3px solid var(--ct-flame-1);
+	background: color-mix(in oklab, var(--ct-flame-4), transparent 88%);
+	color: var(--text-primary);
+}
+
+.exercise-quote p {
+	margin: 0;
+	font-size: clamp(0.98rem, 1.45vw, 1.12rem);
+	line-height: 1.55;
+	font-weight: 400;
+	max-width: 40rem;
+}
+
+.exercise-quote footer {
+	margin: 0.65rem 0 0;
+	font-size: 0.9rem;
+	color: var(--muted);
+}
+
+.exercise-cat-row {
+	margin: 0 0 0.65rem;
+	font-size: 0.9rem;
+	line-height: 1.55;
+	color: var(--text-secondary);
+}
+
+.exercise-cat-row a {
+	color: var(--link);
+	text-underline-offset: 2px;
+}
+
 .field-card--concept {
 	border-top-color: var(--ct-flame-5);
 }
@@ -306,6 +546,35 @@
 	color: var(--muted);
 }
 
+.exercise-source-book {
+	margin: 0.55rem 0 0;
+	font-size: 0.88rem;
+	line-height: 1.45;
+	color: var(--text-secondary);
+	max-width: 40rem;
+}
+
+.exercise-source-book a {
+	color: inherit;
+	text-decoration: underline;
+	text-underline-offset: 2px;
+}
+
+.exercise-source-book a:hover,
+.exercise-source-book a:focus-visible {
+	color: var(--link);
+}
+
+.exercise-source-label {
+	display: inline-block;
+	margin-right: 0.35rem;
+	font-size: 0.72rem;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--muted);
+	font-weight: 600;
+}
+
 .field-card__link,
 .field-card__doi {
 	margin: 0.35rem 0 0;
@@ -351,6 +620,114 @@
 	font-style: italic;
 }
 
+/* Exercise catalogue: one set of controls replaces the repeated name lists. */
+.exercise-filters {
+	display: grid;
+	grid-template-columns: 1fr;
+	align-items: end;
+	gap: 0.45rem 0.7rem;
+	margin: 1.4rem 0 0.5rem;
+	padding: 1rem;
+	border: 1px solid var(--border-light);
+	border-left: 4px solid var(--ct-coral-1);
+	background: color-mix(in oklab, var(--border-light), transparent 76%);
+}
+
+.exercise-filters label {
+	display: flex;
+	flex-direction: column;
+	gap: 0.4rem;
+	font-size: 0.8rem;
+	font-weight: 600;
+	color: var(--text-primary);
+}
+
+.exercise-filters input,
+.exercise-filters select {
+	width: 100%;
+	min-height: 2.7rem;
+	padding: 0.5rem 0.65rem;
+	border: 1px solid var(--border-light);
+	border-radius: 0.2rem;
+	background: var(--bg);
+	color: var(--text-primary);
+	font: inherit;
+}
+
+.exercise-filters input:focus-visible,
+.exercise-filters select:focus-visible,
+.exercise-filters button:focus-visible {
+	outline: 3px solid color-mix(in oklab, var(--ct-coral-1), white 45%);
+	outline-offset: 2px;
+}
+
+.exercise-filters button {
+	min-height: 2.7rem;
+	padding: 0.45rem 0.8rem;
+	border: 1px solid var(--border-light);
+	border-radius: 0.2rem;
+	background: transparent;
+	color: var(--text-primary);
+	font: inherit;
+	cursor: pointer;
+}
+
+.exercise-results-count {
+	margin: 0 0 0.8rem;
+	font-size: 0.88rem;
+	color: var(--muted);
+}
+
+.exercise-catalogue-grid {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr);
+	align-items: stretch;
+	gap: 1rem;
+}
+
+.exercise-catalogue-grid > .field-card--exercise {
+	grid-column: auto;
+	max-width: none;
+	width: auto;
+	margin: 0;
+}
+
+.exercise-result {
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+}
+
+.exercise-result .field-card__summary {
+	flex: 1 0 auto;
+}
+
+.exercise-result[hidden] {
+	display: none;
+}
+
+.exercise-no-results {
+	margin: 1rem 0;
+	padding: 1rem;
+	border-left: 4px solid var(--ct-coral-1);
+	color: var(--text-secondary);
+}
+
+@media (min-width: 640px) {
+	.exercise-filters {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+	.exercise-catalogue-grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}
+
+@media (min-width: 960px) {
+	.exercise-filters {
+		grid-template-columns: minmax(12rem, 2fr) repeat(3, minmax(8rem, 1fr)) auto;
+	}
+}
+
 /* Default layout wraps prose; field indexes need full-bleed width */
 main:has(.field-index) {
 	max-width: none;
@@ -370,4 +747,46 @@ main:has(.field-index) .prose,
 	.field-card {
 		scroll-margin-top: calc(var(--site-header-height, 4.5rem) + 1rem);
 	}
+}
+
+.exercise-graphic {
+	max-width: 68rem;
+	margin: 0 auto 1.5rem;
+	padding: clamp(0.35rem, 1vw, 0.75rem);
+	border: 1px solid var(--border-light);
+	background: var(--bg);
+}
+
+.exercise-graphic picture,
+.exercise-graphic img,
+.exercise-graphic-preview img {
+	display: block;
+	width: 100%;
+}
+
+.exercise-graphic img {
+	height: auto;
+	max-height: 36rem;
+	object-fit: contain;
+}
+
+.exercise-graphic figcaption {
+	max-width: 58rem;
+	margin: 0.7rem auto 0.25rem;
+	color: var(--text-secondary);
+	font-size: 0.92rem;
+	line-height: 1.5;
+}
+
+.exercise-graphic-preview {
+	display: block;
+	width: 100%;
+	margin-top: 0.8rem;
+	border: 1px solid var(--border-light);
+	background: var(--bg);
+}
+
+.exercise-graphic-preview img {
+	aspect-ratio: 1200 / 620;
+	object-fit: cover;
 }

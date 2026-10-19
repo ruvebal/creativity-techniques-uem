@@ -1,0 +1,62 @@
+id: reflection-in-action-log
+title: Reflection-in-action log
+urn: urn:in-practice:exercise:00ffb619768a6e98072728a5
+technique_id: reflection-in-action-log
+status: ready
+categories:
+- urn:in-practice:concept:reflection
+- family:reflection
+fieldlex:
+- ct:processTransparency
+units:
+- U3
+- U6
+summary: Log surprises while you work — when the situation talks back — then name one move you changed.
+time_min: 15
+group: individual
+materials:
+- current making session
+- notebook or voice notes
+requirements:
+- Log during work, not only after polishing.
+- Keep entries short and dated.
+accessibility: Voice notes accepted; no drawing required.
+steps:
+- During a short making pass, note three moments of surprise or resistance.
+- For each, write what the work “said back” (a constraint, a failure, an unexpected fit).
+- Name one strategy you changed in response.
+- Mark whether the change opened or closed options.
+- Keep the log beside the artefact for critique.
+adaptation: Classroom timing and portfolio fields adapt Schön’s reflective conversation to a short studio
+  log.
+quote:
+  chicago: (Schön 1983, 79)
+  verbatim: In a good process of design, this conversation with the situation is reflective. In answer
+    to the situation’s back-talk, the designer reflects-in-action on the construction of the problem,
+    the strategies of action, or the model of the phenomena, which have been implicit in his moves. […]
+    But the practitioner’s moves also produce unintended changes which give the situations new meanings.
+    The situation talks back, the practitioner listens; and as he appreciates what he hears, he reframes
+    the situation once again. When Quist discovers that his moves have produced a gallery which is “in
+    a minor way . . . the major thing,” he becomes aware of a new whole idea, which sets criteria for
+    the further designing.
+  ref_key: schon-1983
+portfolio_trace: Three surprise notes; one changed strategy; open/close mark.
+judged_by: Portfolio rubric — critical analysis and judgement
+graphic:
+  kind: backtalk-loop
+  alt: Making produces a surprise; the student records the situation's response, changes strategy, and returns to making.
+  caption: >-
+    Reflection happens during the work: notice its response, change a move, and see what the new move makes possible.
+  labels: [Make, Surprise, Changed move, Make again]
+ahmes:
+  document_coat: 4d215203
+  vault_slug: donald_a_schon_the_reflective_practitioner_how_professionals_think_in_action_1984_basic_books_4d215203
+  nodes:
+  - node_id: 6f338205-e0df-5f6a-af28-05067bfe7975
+    page_index: 11
+    chicago: (Schön 1983, 79)
+    role: quote
+  - node_id: 96a636ec-19f9-54e5-908a-ed823e8a7665
+    page_index: 13
+    chicago: (Schön 1983, 79)
+    role: quote

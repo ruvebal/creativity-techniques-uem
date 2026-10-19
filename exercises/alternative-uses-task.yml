@@ -1,0 +1,61 @@
+id: alternative-uses-task
+title: Alternative Uses Task
+urn: urn:in-practice:exercise:72b3c0104a614f185ce6d678
+technique_id: alternative-uses-task
+status: ready
+categories:
+- urn:in-practice:concept:divergent-thinking
+- family:generation
+fieldlex:
+- ct:divergentThinking
+units:
+- U1
+- U2
+summary: List many uses for one ordinary object under a timer. Fluency first; then notice flexibility
+  across categories.
+time_min: 15
+group: individual, then shared board
+materials:
+- object or image
+- paper
+- timer
+requirements:
+- One shared prompt object for the class.
+- No judging during the timed list.
+accessibility: Oral or typed lists accepted; image prompt can replace a physical object.
+steps:
+- Show one everyday object (brick, paperclip, shoe) and start a visible timer.
+- Each student lists as many uses as possible in silence.
+- Stop; count the list (fluency).
+- Mark how many different categories appear (flexibility).
+- Share two surprising uses with a neighbour; keep the full list for the portfolio.
+adaptation: Classroom timing and portfolio fields are course adaptations of the unusual-uses / brick prompt
+  reported with Guilford’s abilities.
+quote:
+  chicago: (Chen 2011, 40)
+  verbatim: 'How many uses can you think of for a brick? […] More interestingly, individuals differ considerably
+    in terms of the number of answers they can come up with. Some can think of many different ways to
+    use a brick, whereas others may be only able to think of one or two. Based on the ability of an individual
+    to answer these types of questions, Hudson differentiated individuals in terms of two intellectual
+    types: convergers, who would specialize in mathematics and physical sciences, and divergers, who are
+    likely to excel in the arts and make surprising cognitive leaps.'
+  ref_key: chen-2011
+portfolio_trace: Timed list; fluency count; flexibility note; two shared uses.
+judged_by: Portfolio rubric — creative fluency, flexibility, and originality
+graphic:
+  kind: fan
+  alt: One everyday object opens into several kinds of use; each branch adds a different category to the idea list.
+  caption: One object can produce many ideas; grouping those ideas shows flexibility as well as fluency.
+  labels: [One object, Wear, Build, Play, Adapt]
+ahmes:
+  document_coat: d048ab99
+  vault_slug: chaomei_chen_turning_points_the_nature_of_creativity_d048ab99
+  nodes:
+  - node_id: 6ae8c91e-b6e0-50b4-9210-9a156249cabd
+    page_index: 39
+    chicago: (Chen 2011, 40)
+    role: quote
+  - node_id: 54682031-ef7a-5a49-bad5-7bc16670f05e
+    page_index: 39
+    chicago: (Chen 2011, 40)
+    role: quote

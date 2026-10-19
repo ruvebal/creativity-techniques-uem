@@ -1,0 +1,212 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Creative Process Analysis · Quick Card</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: #172b3d;
+      background: #eef3f5;
+      font-synthesis: none;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 1rem; }
+    .toolbar { display: flex; justify-content: flex-end; max-width: 72rem; margin: 0 auto 0.65rem; }
+    .print-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      border: 0;
+      border-radius: 999px;
+      padding: 0.65rem 1rem;
+      color: #fff;
+      background: #087e83;
+      font: inherit;
+      font-size: 0.875rem;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .print-button:hover { background: #06686c; }
+    .print-button:focus-visible { outline: 3px solid #f4aa40; outline-offset: 3px; }
+    .print-button svg { width: 1.05rem; height: 1.05rem; }
+
+    .card {
+      max-width: 72rem;
+      margin: 0 auto;
+      padding: clamp(1rem, 3vw, 1.8rem);
+      border: 1px solid #c5d1d8;
+      border-top: 5px solid #087e83;
+      border-radius: 0.9rem;
+      background: linear-gradient(145deg, #f5faf9, #fff 58%, #f5f8fc);
+      box-shadow: 0 12px 32px rgb(23 43 61 / 0.09);
+    }
+    .card-header {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(14rem, 0.68fr);
+      gap: 1.25rem;
+      align-items: end;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #cbd6de;
+    }
+    .eyebrow {
+      margin: 0 0 0.3rem;
+      color: #087e83;
+      font-size: 0.7rem;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+    h1 { margin: 0; font-size: clamp(1.25rem, 2.4vw, 1.8rem); line-height: 1.15; }
+    .instruction { max-width: 38rem; margin: 0.45rem 0 0; color: #526579; font-size: 0.88rem; }
+    .identity { display: grid; grid-template-columns: 1fr 1fr; gap: 0.55rem 0.9rem; }
+    .identity p, .triad p {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+      margin: 0;
+      color: #526579;
+      font-size: 0.69rem;
+      font-weight: 700;
+      letter-spacing: 0.035em;
+    }
+    .identity p:first-child { grid-column: 1 / -1; }
+    .line { display: block; min-height: 1.1rem; border-bottom: 1px solid #899aa8; }
+
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0.7rem;
+      margin: 1rem 0 0;
+      padding: 0;
+      list-style: none;
+    }
+    .step {
+      display: grid;
+      grid-template-columns: 2rem minmax(0, 1fr);
+      gap: 0.7rem;
+      min-width: 0;
+      min-height: 7.1rem;
+      margin: 0;
+      padding: 0.8rem;
+      border: 1px solid #d4dee5;
+      border-radius: 0.65rem;
+      background: rgb(255 255 255 / 0.86);
+    }
+    .number {
+      display: grid;
+      width: 1.85rem;
+      height: 1.85rem;
+      place-items: center;
+      border-radius: 50%;
+      background: #e1f1ef;
+      color: #075d61;
+      font-size: 0.72rem;
+      font-weight: 800;
+    }
+    h2 { margin: 0; font-size: 0.94rem; line-height: 1.25; }
+    h2 small { color: #526579; font-size: 0.78em; font-weight: 600; }
+    .prompt { margin: 0.18rem 0 0.35rem; color: #526579; font-size: 0.73rem; line-height: 1.3; }
+    .write-lines {
+      display: block;
+      height: 2.2rem;
+      background: repeating-linear-gradient(to bottom, transparent 0, transparent calc(1.05rem - 1px), #bdc9d1 calc(1.05rem - 1px), #bdc9d1 1.05rem);
+    }
+    .step--critical, .step--circulation { grid-column: 1 / -1; }
+    .step--critical .write-lines { height: 3.2rem; }
+    .step--circulation { min-height: 8.2rem; border-color: #93c5c2; background: #f4fbfa; }
+    .triad { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.7rem; margin: 0.45rem 0 0.5rem; }
+    .triad .line { min-height: 1.45rem; }
+    .circulation-prompt { margin: 0 0 0.25rem; color: #075d61; font-size: 0.78rem; font-weight: 700; }
+    .step--circulation .write-lines { height: 2rem; }
+    .footer { margin: 0.8rem 0 0; color: #526579; font-size: 0.72rem; font-weight: 600; }
+
+    @media (max-width: 650px) {
+      body { padding: 0.5rem; }
+      .card { padding: 1rem; border-radius: 0.7rem; }
+      .card-header, .steps { grid-template-columns: 1fr; }
+      .step--critical, .step--circulation { grid-column: auto; }
+      .step--circulation { min-height: 8.2rem; }
+    }
+
+    @page { size: A4 portrait; margin: 12mm; }
+    @media print {
+      :root, body { background: #fff; }
+      body { padding: 0; color: #111; }
+      .toolbar { display: none; }
+      .card {
+        max-width: none;
+        margin: 0;
+        padding: 2mm;
+        border: 0;
+        border-top: 1mm solid #075d61;
+        border-radius: 0;
+        background: #fff;
+        box-shadow: none;
+      }
+      .card-header { grid-template-columns: minmax(0, 1fr) minmax(48mm, 0.68fr); gap: 3mm; padding-bottom: 3mm; }
+      .eyebrow { margin-bottom: 1mm; color: #075d61; font-size: 7pt; }
+      h1 { color: #111; font-size: 15pt; }
+      .instruction { margin-top: 1mm; color: #333; font-size: 8pt; }
+      .identity { gap: 1mm 3mm; }
+      .identity p, .triad p { gap: 0.5mm; color: #333; font-size: 7pt; }
+      .line { min-height: 3mm; border-color: #666; }
+      .steps { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2mm; margin-top: 3mm; }
+      .step { grid-template-columns: 7mm minmax(0, 1fr); gap: 2mm; min-height: 27mm; padding: 2mm; border: 0.2mm solid #aaa; border-radius: 0; background: #fff; break-inside: avoid; }
+      .number { width: 6mm; height: 6mm; border: 0.2mm solid #075d61; background: #fff; color: #075d61; font-size: 7pt; }
+      h2 { color: #111; font-size: 9pt; }
+      h2 small { color: #333; font-size: 7.5pt; }
+      .prompt { margin: 0.5mm 0 1mm; color: #333; font-size: 7.5pt; line-height: 1.2; }
+      .write-lines { height: 8mm; background: repeating-linear-gradient(to bottom, transparent 0, transparent calc(4mm - 0.2mm), #aeb5b8 calc(4mm - 0.2mm), #aeb5b8 4mm); }
+      .step--critical .write-lines { height: 12mm; }
+      .step--circulation { min-height: 32mm; border-color: #777; background: #fff; }
+      .triad { gap: 2mm; margin: 1mm 0; }
+      .triad .line { min-height: 4mm; }
+      .circulation-prompt { margin: 0 0 0.5mm; color: #111; font-size: 8pt; }
+      .step--circulation .write-lines { height: 8mm; }
+      .footer { margin-top: 2mm; color: #333; font-size: 7pt; }
+    }
+  </style>
+</head>
+<body>
+  <div class="toolbar">
+    <button class="print-button" type="button" onclick="window.print()" aria-label="Print this quick card">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M7 8V3h10v5M7 17H5a2 2 0 0 1-2-2v-4a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v4a2 2 0 0 1-2 2h-2M7 14h10v7H7z"/><path d="M17 11h.01"/></svg>
+      Print quick card
+    </button>
+  </div>
+  <main class="card" aria-labelledby="card-title">
+    <header class="card-header">
+      <div>
+        <p class="eyebrow">Creative process analysis · field record</p>
+        <h1 id="card-title">Follow the process, then its circulation</h1>
+        <p class="instruction">Record what you can observe. Use the final prompt to connect reception to what happens next.</p>
+      </div>
+      <div class="identity" aria-label="Record details">
+        <p><span>Process / piece ID</span><i class="line" aria-hidden="true"></i></p>
+        <p><span>Name / group</span><i class="line" aria-hidden="true"></i></p>
+        <p><span>Date</span><i class="line" aria-hidden="true"></i></p>
+      </div>
+    </header>
+    <ol class="steps">
+      <li class="step"><span class="number">01</span><div><h2>Describe</h2><p class="prompt">What was the task? What happened, and in what order?</p><span class="write-lines" aria-hidden="true"></span></div></li>
+      <li class="step"><span class="number">02</span><div><h2>Inventory</h2><p class="prompt">Stages, tools, people, and discarded options you can evidence.</p><span class="write-lines" aria-hidden="true"></span></div></li>
+      <li class="step"><span class="number">03</span><div><h2>Forms</h2><p class="prompt">Rules, timeboxes, software, formats, and critique rounds.</p><span class="write-lines" aria-hidden="true"></span></div></li>
+      <li class="step"><span class="number">04</span><div><h2>Origin <small>(method / habit)</small></h2><p class="prompt">Where did these steps come from?</p><span class="write-lines" aria-hidden="true"></span></div></li>
+      <li class="step"><span class="number">05</span><div><h2>Context of making</h2><p class="prompt">Brief, deadline, budget, and who decides “good enough”.</p><span class="write-lines" aria-hidden="true"></span></div></li>
+      <li class="step"><span class="number">06</span><div><h2>Meaning <small>(hypothesis + evidence)</small></h2><p class="prompt">What does the process value? Point to evidence from steps 1–5.</p><span class="write-lines" aria-hidden="true"></span></div></li>
+      <li class="step step--critical"><span class="number">07</span><div><h2>Critical</h2><p class="prompt">Whose labour, ideology, or authorship is visible or hidden?</p><span class="write-lines" aria-hidden="true"></span></div></li>
+      <li class="step step--circulation"><span class="number">08</span><div><h2>Circulation</h2><div class="triad"><p><span>Language</span><i class="line" aria-hidden="true"></i></p><p><span>Medium</span><i class="line" aria-hidden="true"></i></p><p><span>Support</span><i class="line" aria-hidden="true"></i></p></div><p class="circulation-prompt">Production → recognition → what could this produce next?</p><span class="write-lines" aria-hidden="true"></span></div></li>
+    </ol>
+    <p class="footer">Keep the evidence trail: describe before judging; make one critical claim you can support.</p>
+  </main>
+</body>
+</html>

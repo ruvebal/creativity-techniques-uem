@@ -1,0 +1,73 @@
+id: imposing-constraints
+title: Imposing Constraints
+urn: urn:in-practice:exercise:054709d8e574bff192593a5c
+technique_id: constraint-writing
+status: ready
+categories:
+- urn:in-practice:concept:constraints
+- family:generation
+fieldlex:
+- ct:processTransparency
+units:
+- U5
+- U6
+summary: 'Add a deliberate constraint to a freewheeling idea pass so craft pressure produces form. Same
+  technique family as Follow Dogme 95 Rules, with a philosophical warrant that constraints can enhance
+  creativity.
+
+  '
+time_min: 25
+group: 1–2
+materials:
+- brief or problem statement
+- making materials for one short piece
+- timer
+requirements:
+- Start from a draft or idea set that already feels too open or random.
+- The constraint must be formal (metre, palette, structure, tool ban) — not “work harder.”
+- International cohorts may choose a constraint in any working language.
+accessibility: 'Constraints may be written as a checklist or spoken aloud. Digital whiteboard versions
+  are valid. No walking required.
+
+  '
+steps:
+- Show or name the unconstrained draft (two minutes).
+- Add one constraint that narrows form (for example fixed grid, twelve-bar structure analogue, two colours,
+  fifty words, no generative fill).
+- Remake or revise under that constraint for about fifteen minutes.
+- Note which options the constraint removed, and which new moves it forced.
+- Keep or reject the constrained version with one criterion tied to the brief.
+adaptation: 'Steps are a classroom adaptation of the catalogue record Imposing Constraints and the course
+  technique constraint-writing. Timing and design-studio examples are professor adaptations; the quoted
+  warrant is from Kieran.
+
+  '
+quote:
+  chicago: (Kieran 2018, 28)
+  verbatim: So far, this heuristic may seem too freewheeling, too random, too haphazard, and not serious
+    enough for your liking—though seriousness and value seem quite orthogonal to me. (And creativity itself
+    is often the result of random or haphazard events or processes—witness Kekulé’s discovery of the benzene
+    ring after having a dream of a snake eating its own tail.) Very well, then; add constraints. It is
+    well known in the psychological literature that constraints can enhance creativity—‘necessity is the
+    mother of invention’, and all that. (See Stokes (2006).) Blues musicians improvising within a 12-bar
+    structure know this. Songwriters and poets know this; think of constraints on metre or rhyme, as we
+    find in sonnets, for example. The Oulipo group of (mostly French) writers and mathematicians impose
+    constraints on their works to foster creativity.
+  ref_key: kieran-2018
+portfolio_trace: 'Unconstrained note; the constraint in one line; constrained piece; keep/reject criterion.
+
+  '
+judged_by: Portfolio rubric — critical analysis and judgement
+graphic:
+  kind: boundary
+  alt: A wide draft is reshaped inside a deliberate constraint; some paths close while new formal moves become possible.
+  caption: A constraint narrows the field and can make new moves possible; keep or reject the result against the brief.
+  labels: [Open draft, Constraint, New form, Brief test]
+ahmes:
+  document_coat: d711df2b
+  vault_slug: berys_gaut_matthew_kieran_matthew_kieran_creativity_and_philosophy_taylor_francis_ltd_d711df2b
+  nodes:
+  - node_id: f762502d-6567-5ff0-a880-a6fb969bfe6e
+    page_index: 27
+    chicago: (Kieran 2018, 28)
+    role: quote

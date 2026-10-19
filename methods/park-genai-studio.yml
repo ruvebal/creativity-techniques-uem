@@ -22,6 +22,9 @@ athanor:
   ingested: true
   project_slugs:
     - profield-digital-creativity
-  status: candidate
-  note: Indexed under profield-digital-creativity (2026-09-13); resolve coat·node·page before Chicago in lessons.
+  status: exact
+  note: >-
+    Ahmes coat b023e745 live-resolved 2026-10-18 — (Park 2025, 3/12/13/16) evaluator_safe=yes.
+    Discourse / Methods stance; not an exercise procedure. Receipt:
+    creativity-techniques-pedagogy/forge/receipts/AHMES-CITE-PARK-KIERAN-2026-10-18.md.
 url: https://doi.org/10.21606/iasdr.2025.845

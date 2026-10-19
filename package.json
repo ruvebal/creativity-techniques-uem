@@ -4,7 +4,8 @@
 	"description": "Creativity Techniques — design-degree creativity methods — Universidad Europea Creative Campus teaching site",
 	"private": true,
 	"scripts": {
-		"hydrate": "node scripts/hydrate-field-site.mjs",
+		"hydrate": "node scripts/hydrate-field-site.mjs && node scripts/hydrate-exercises.mjs",
+		"hydrate:exercises": "node scripts/generate-exercise-graphics.mjs && node scripts/hydrate-exercises.mjs",
 		"media:rehydrate": "node scripts/rehydrate-student-media.mjs --rights=flag",
 		"render:decks": "node scripts/render-decks.mjs",
 		"method-cards": "node scripts/build-method-cards.mjs",

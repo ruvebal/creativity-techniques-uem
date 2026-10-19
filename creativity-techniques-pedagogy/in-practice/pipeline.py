@@ -395,8 +395,17 @@ def run():
     OUT.mkdir(parents=True, exist_ok=True)
     lock = (OUT/'pipeline.lock').open('w')
     fcntl.flock(lock, fcntl.LOCK_EX|fcntl.LOCK_NB)
-    save(OUT/'process.json', dict(pid=os.getpid(), started_at=now()))
-    inv = inventory()
+    process = dict(pid=os.getpid(), started_at=now(), stage='inventory')
+    save(OUT/'process.json', process)
+    try:
+        inv = inventory()
+    except Exception as e:
+        process.update(stage='inventory-failed', finished_at=now(), error=repr(e))
+        save(OUT/'process.json', process)
+        event('inventory_failed', error=repr(e))
+        raise
+    process.update(stage='processing', inventory_documents=len(inv['documents']))
+    save(OUT/'process.json', process)
     failures = []
     # Priority tranche first; all other supplied sources follow. Exact twins share work.
     seen = set()
@@ -434,6 +443,9 @@ def run():
     render()
     save(OUT/'failures.json', failures)
     event('awaiting_review', failures=len(failures), collection=str(OUT/'exercises.json'))
+    process.update(stage='awaiting_review', finished_at=now(), failures=len(failures),
+                   collection=str(OUT/'exercises.json'))
+    save(OUT/'process.json', process)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()

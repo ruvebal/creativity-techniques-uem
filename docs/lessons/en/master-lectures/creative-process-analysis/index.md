@@ -210,18 +210,13 @@ Same card on your own Lab sequence. Deliver: card + **one critical sentence** + 
 
 ## Quick card (printable)
 
-```
-Process / piece ID: _______________________
-1 Describe:
-2 Inventory:
-3 Forms:
-4 Origin (method/habit):
-5 Context of making:
-6 Meaning (hypothesis + evidence):
-7 Critical:
-8 Circulation — Language: ____ Medium: ____ Support: ____
-   Production → recognition → what could it produce next?
-```
+<iframe
+  src="{{ '/printables/en/creative-process-analysis-quick-card/' | relative_url }}"
+  title="Printable creative process analysis quick card"
+  width="100%"
+  height="1120"
+  style="display:block; width:100%; max-width:100%; border:0; border-radius:0.75rem;"
+  loading="lazy"></iframe>
 
 ---
 

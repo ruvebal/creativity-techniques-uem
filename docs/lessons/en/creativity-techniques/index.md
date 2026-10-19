@@ -21,6 +21,8 @@ Every ordinary class follows the same spine. The official course units sit insid
 
 **Lab ≠ Workshop.** Lab leaves portfolio traces; Workshop advances deliverables.
 
+Class-ready Lab datasheets live under **[Exercises]({{ '/exercises/en/' | relative_url }})**. Lessons link those sheets; they do not paste the steps.
+
 Geometrical backgrounds are reserved for the Analysis opener, the recall check that closes the Masterclass, the Lab opener, the Workshop opener and the outro. Masterclass slides use course images.
 
 Full contract: [How to Pass]({{ '/tracks/ct/how-to-pass-this-track/' | relative_url }}) · [Evaluation]({{ '/evaluation/' | relative_url }}).

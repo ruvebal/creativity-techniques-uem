@@ -1,0 +1,169 @@
+{
+  "schema": "exercise-graphics/v1",
+  "current": {
+    "alternative-uses-task": {
+      "svg": "/assets/images/exercise-graphics/alternative-uses-task-b0831031d42181b2.svg",
+      "png": "/assets/images/exercise-graphics/alternative-uses-task-b0831031d42181b2.png",
+      "alt": "One everyday object opens into several kinds of use; each branch adds a different category to the idea list.",
+      "caption": "One object can produce many ideas; grouping those ideas shows flexibility as well as fluency."
+    },
+    "ask-a-crab": {
+      "svg": "/assets/images/exercise-graphics/ask-a-crab-85d8b0fb302f389f.svg",
+      "png": "/assets/images/exercise-graphics/ask-a-crab-85d8b0fb302f389f.png",
+      "alt": "An unrelated picture prompts associations, which lead to several workplace ideas without choosing a winner.",
+      "caption": "Keep the visible path from picture to association to idea; selection happens later."
+    },
+    "follow-dogme-95-rules": {
+      "svg": "/assets/images/exercise-graphics/follow-dogme-95-rules-63364ca1768e9c4f.svg",
+      "png": "/assets/images/exercise-graphics/follow-dogme-95-rules-63364ca1768e9c4f.png",
+      "alt": "A temporary rule shapes one version beside a freer version; the two are compared for surprise, fit, and craft.",
+      "caption": "The rule is a temporary making condition. Compare what it forces with what the brief needs."
+    },
+    "hits-and-dot-voting": {
+      "svg": "/assets/images/exercise-graphics/hits-and-dot-voting-1cbc89f2719a678e.svg",
+      "png": "/assets/images/exercise-graphics/hits-and-dot-voting-1cbc89f2719a678e.png",
+      "alt": "Silent small marks identify promising parts across the idea board; a separate larger vote selects one idea.",
+      "caption": "Notice interesting parts before debate, then make the final selection visible as a separate decision."
+    },
+    "imposing-constraints": {
+      "svg": "/assets/images/exercise-graphics/imposing-constraints-385dfe9ca1f88c17.svg",
+      "png": "/assets/images/exercise-graphics/imposing-constraints-385dfe9ca1f88c17.png",
+      "alt": "A wide draft is reshaped inside a deliberate constraint; some paths close while new formal moves become possible.",
+      "caption": "A constraint narrows the field and can make new moves possible; keep or reject the result against the brief."
+    },
+    "mental-locks-audit": {
+      "svg": "/assets/images/exercise-graphics/mental-locks-audit-7f25bf1e259d439e.svg",
+      "png": "/assets/images/exercise-graphics/mental-locks-audit-7f25bf1e259d439e.png",
+      "alt": "A belief blocks a dropped idea; a temporary opposite rule opens a short test before the student decides what to do.",
+      "caption": "The belief is tested through making—not graded as a personal confession."
+    },
+    "one-inch-picture-frame": {
+      "svg": "/assets/images/exercise-graphics/one-inch-picture-frame-4e4510facab0d72f.svg",
+      "png": "/assets/images/exercise-graphics/one-inch-picture-frame-4e4510facab0d72f.png",
+      "alt": "A broad brief narrows to one small visible moment; a partner's observation and an unanswered question guide the next move.",
+      "caption": "Frame one observable moment. What is outside it becomes a useful question for the next design move."
+    },
+    "process-trail": {
+      "svg": "/assets/images/exercise-graphics/process-trail-38e2c4629d80d1b1.svg",
+      "png": "/assets/images/exercise-graphics/process-trail-38e2c4629d80d1b1.png",
+      "alt": "Ordered versions show ideas opening and closing; one marked turning point explains why the design direction changed.",
+      "caption": "The trail makes the process legible: keep discarded options and mark the moment judgment changed direction."
+    },
+    "question-led-rough-prototype": {
+      "svg": "/assets/images/exercise-graphics/question-led-rough-prototype-88685913cf9d75c1.svg",
+      "png": "/assets/images/exercise-graphics/question-led-rough-prototype-88685913cf9d75c1.png",
+      "alt": "One test question shapes a minimal prototype, which a classmate tries; the answer determines the next design move.",
+      "caption": "Build only enough to answer the question; let the test response—not polish—set the next move."
+    },
+    "random-word-stimulation": {
+      "svg": "/assets/images/exercise-graphics/random-word-stimulation-3b1524832b2df974.svg",
+      "png": "/assets/images/exercise-graphics/random-word-stimulation-3b1524832b2df974.png",
+      "alt": "One random word branches into three links to the brief; one link becomes a design move while the others remain visible.",
+      "caption": "Keep the associative path visible so the lateral jump can be explained and revisited."
+    },
+    "reflection-in-action-log": {
+      "svg": "/assets/images/exercise-graphics/reflection-in-action-log-a8939c48353ca113.svg",
+      "png": "/assets/images/exercise-graphics/reflection-in-action-log-a8939c48353ca113.png",
+      "alt": "Making produces a surprise; the student records the situation's response, changes strategy, and returns to making.",
+      "caption": "Reflection happens during the work: notice its response, change a move, and see what the new move makes possible."
+    },
+    "seed-collection": {
+      "svg": "/assets/images/exercise-graphics/seed-collection-f86850db985d3d85.svg",
+      "png": "/assets/images/exercise-graphics/seed-collection-f86850db985d3d85.png",
+      "alt": "Several unranked starting points are gathered, three are developed in different directions, and one is kept with a reason.",
+      "caption": "Delay ranking: collect broadly, develop a few seeds, then choose what has grown and why."
+    },
+    "visitor-journey-walkthrough": {
+      "svg": "/assets/images/exercise-graphics/visitor-journey-walkthrough-e44ba8aaf1a9170d.svg",
+      "png": "/assets/images/exercise-graphics/visitor-journey-walkthrough-e44ba8aaf1a9170d.png",
+      "alt": "A first-time visitor's route yields observed moments; one prior idea is selected against a recorded moment and criterion.",
+      "caption": "Choose against what the walkthrough revealed, not against taste; keep the unresolved question visible."
+    }
+  },
+  "releases": [
+    {
+      "id": "alternative-uses-task",
+      "sha256": "b0831031d42181b2",
+      "svg": "/assets/images/exercise-graphics/alternative-uses-task-b0831031d42181b2.svg",
+      "png": "/assets/images/exercise-graphics/alternative-uses-task-b0831031d42181b2.png"
+    },
+    {
+      "id": "ask-a-crab",
+      "sha256": "7643151ac1283b1e",
+      "svg": "/assets/images/exercise-graphics/ask-a-crab-7643151ac1283b1e.svg",
+      "png": "/assets/images/exercise-graphics/ask-a-crab-7643151ac1283b1e.png"
+    },
+    {
+      "id": "follow-dogme-95-rules",
+      "sha256": "63364ca1768e9c4f",
+      "svg": "/assets/images/exercise-graphics/follow-dogme-95-rules-63364ca1768e9c4f.svg",
+      "png": "/assets/images/exercise-graphics/follow-dogme-95-rules-63364ca1768e9c4f.png"
+    },
+    {
+      "id": "hits-and-dot-voting",
+      "sha256": "1cbc89f2719a678e",
+      "svg": "/assets/images/exercise-graphics/hits-and-dot-voting-1cbc89f2719a678e.svg",
+      "png": "/assets/images/exercise-graphics/hits-and-dot-voting-1cbc89f2719a678e.png"
+    },
+    {
+      "id": "imposing-constraints",
+      "sha256": "385dfe9ca1f88c17",
+      "svg": "/assets/images/exercise-graphics/imposing-constraints-385dfe9ca1f88c17.svg",
+      "png": "/assets/images/exercise-graphics/imposing-constraints-385dfe9ca1f88c17.png"
+    },
+    {
+      "id": "mental-locks-audit",
+      "sha256": "7f25bf1e259d439e",
+      "svg": "/assets/images/exercise-graphics/mental-locks-audit-7f25bf1e259d439e.svg",
+      "png": "/assets/images/exercise-graphics/mental-locks-audit-7f25bf1e259d439e.png"
+    },
+    {
+      "id": "one-inch-picture-frame",
+      "sha256": "4e4510facab0d72f",
+      "svg": "/assets/images/exercise-graphics/one-inch-picture-frame-4e4510facab0d72f.svg",
+      "png": "/assets/images/exercise-graphics/one-inch-picture-frame-4e4510facab0d72f.png"
+    },
+    {
+      "id": "process-trail",
+      "sha256": "38e2c4629d80d1b1",
+      "svg": "/assets/images/exercise-graphics/process-trail-38e2c4629d80d1b1.svg",
+      "png": "/assets/images/exercise-graphics/process-trail-38e2c4629d80d1b1.png"
+    },
+    {
+      "id": "question-led-rough-prototype",
+      "sha256": "88685913cf9d75c1",
+      "svg": "/assets/images/exercise-graphics/question-led-rough-prototype-88685913cf9d75c1.svg",
+      "png": "/assets/images/exercise-graphics/question-led-rough-prototype-88685913cf9d75c1.png"
+    },
+    {
+      "id": "random-word-stimulation",
+      "sha256": "3b1524832b2df974",
+      "svg": "/assets/images/exercise-graphics/random-word-stimulation-3b1524832b2df974.svg",
+      "png": "/assets/images/exercise-graphics/random-word-stimulation-3b1524832b2df974.png"
+    },
+    {
+      "id": "reflection-in-action-log",
+      "sha256": "a8939c48353ca113",
+      "svg": "/assets/images/exercise-graphics/reflection-in-action-log-a8939c48353ca113.svg",
+      "png": "/assets/images/exercise-graphics/reflection-in-action-log-a8939c48353ca113.png"
+    },
+    {
+      "id": "seed-collection",
+      "sha256": "f86850db985d3d85",
+      "svg": "/assets/images/exercise-graphics/seed-collection-f86850db985d3d85.svg",
+      "png": "/assets/images/exercise-graphics/seed-collection-f86850db985d3d85.png"
+    },
+    {
+      "id": "visitor-journey-walkthrough",
+      "sha256": "e44ba8aaf1a9170d",
+      "svg": "/assets/images/exercise-graphics/visitor-journey-walkthrough-e44ba8aaf1a9170d.svg",
+      "png": "/assets/images/exercise-graphics/visitor-journey-walkthrough-e44ba8aaf1a9170d.png"
+    },
+    {
+      "id": "ask-a-crab",
+      "sha256": "85d8b0fb302f389f",
+      "svg": "/assets/images/exercise-graphics/ask-a-crab-85d8b0fb302f389f.svg",
+      "png": "/assets/images/exercise-graphics/ask-a-crab-85d8b0fb302f389f.png"
+    }
+  ]
+}

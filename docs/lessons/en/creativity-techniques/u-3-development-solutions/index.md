@@ -88,7 +88,7 @@ Osborn's first rule for idea sessions was that "Criticism must be withheld until
 
 **In practice:** for a logo, you might give an awkward first mark five more minutes of development before anyone — you included — calls it wrong.
 
-**Try it:** step 2 of [Lab · Exercise 2](#lab-exercise-2) holds back judgement for five minutes.
+**Try it:** [Question-led rough prototype]({{ '/exercises/en/question-led-rough-prototype/' | relative_url }}) holds back judgement before the test.
 
 ### 3 · Iterate with an exit
 
@@ -98,7 +98,7 @@ Development needs direction as well as patience. Iteration has a known trap: as 
 
 **In practice:** for a corridor sign, the test might be “Can a classmate read the room number from the far end?” Once they can, you stop revising.
 
-**Try it:** steps 4–7 of [Lab · Exercise 2](#lab-exercise-2) write one test question, revise once and exit.
+**Try it:** [Question-led rough prototype]({{ '/exercises/en/question-led-rough-prototype/' | relative_url }}) — one test question, revise once, then exit.
 
 ### 4 · Sketch to think
 
@@ -142,7 +142,7 @@ Schön describes design as a conversation in which the designer shapes the situa
 
 **In practice:** after the second version of a chair model, you might note: “seat lowered; legs unchanged; lower felt friendlier but tipped back.”
 
-**Try it:** step 6 of [Lab · Exercise 2](#lab-exercise-2) is the checkpoint.
+**Try it:** [Question-led rough prototype]({{ '/exercises/en/question-led-rough-prototype/' | relative_url }}) — the checkpoint is on the datasheet.
 
 ---
 
@@ -194,52 +194,11 @@ Practises Masterclass ideas **1** (make it rough, make it early), **3** (iterate
 
 Practises Masterclass ideas **2** (defer judgement), **3** (iterate with an exit) and **6** (reflect at checkpoints).
 
-<figure class="lesson-figure" id="figure-lab-2">
-<img src="{{ '/assets/images/deck-media/fd8903c0e7a3c0c4.webp' | relative_url }}" alt="The Wright brothers' 1900 glider flying unmanned as a tethered kite against a cloudy sky, its two wings and struts clearly visible." loading="lazy" decoding="async">
-<figcaption>{% include lesson-figure.html deck="u-3-development-solutions" slide="lab-2" %}</figcaption>
-</figure>
+**Try it:** [Question-led rough prototype]({{ '/exercises/en/question-led-rough-prototype/' | relative_url }}) — start from one of your three versions in Exercise 1; defer judgement, write one testable question, revise once, then exit when the question is answered.
 
-**Time:** 20 minutes (about 5 delay, 5 question, 7 revise and test, 3 checkpoint).
+**Portfolio reminder:** before/after; deferred-judgement note; role / look-and-feel / how-it-works choice; test question; checkpoint lines; exit decision (and prompt log if a tool supplied a variant).
 
-**Group:** alone; one classmate tries your revised version.
-
-**Materials:** your three versions from Exercise 1; the slide timer; a card for your test question.
-
-**Steps:**
-
-1. Choose one of your three versions.
-2. **Delay judgement** (5 minutes): keep developing it without deciding whether it is "right". No criticism yet — including your own.
-3. Ask what this version tests: its **role** (what it does for the person), its **look and feel**, or **how it would actually work**. Pick one.
-4. Write **one testable question** about that choice ("Can a classmate find the main action?").
-5. Revise once to answer it, then let a classmate try the new version.
-6. **Checkpoint:** write three lines — what changed, what stayed, what you learned.
-7. **Exit:** stop when the question is answered, even if another improvement is possible. If a tool or generative system supplied a variation, record the prompt, the option you rejected and why you kept the final form.
-
-**Portfolio trace:** before/after; the deferred-judgement note; the role, look-and-feel or how-it-works choice and the test question; the three checkpoint lines; the exit decision.
-
-**Example trace:** *Illustrative example (not student work)* — made by the professor to show the format, continuing the open-day problem above.
-
-<div class="lesson-example-trace" markdown="1">
-- **Version chosen:** the tape line.
-- **Deferred-judgement note (5 minutes):** added arrows into the line, tried two colours, drew the line splitting at the stairs — kept all three without deciding.
-- **What it tests:** how it would actually work. **Question:** “Can a classmate get from the hall door to the workshop room without asking anyone?”
-- **Revision:** one colour only, an arrow every few metres, a small sign where the line meets the lift.
-- **Checkpoint:** *changed* — one colour, arrows, the lift sign; *stayed* — the line itself; *learned* — the line breaks wherever people must wait.
-- **Exit:** the classmate reached the room without asking, so I stopped, even though the stair split could still be clearer. No generative tool was used.
-</div>
-
-**Judged by:** [Portfolio rubric — critical analysis and judgement]({{ '/assignments/en/creativity-techniques-portfolio/' | relative_url }}#rubric)
-
-**Source:** holding back criticism comes from Osborn's first rule for idea sessions: "Criticism must be withheld until all ideas are in" [(Osborn 1942, chap. 4)](#ref-osborn-1942). The role / look and feel / how-it-works question is an adapted prototyping question (source pending). The steps are a classroom adaptation.
-
-{% if site.publication.publish_internal_metadata %}
-<!-- curriculum-internal:
-LAB_LINE: exercise=1; technique_id=parallel-prototyping (+ entry-point-attention-area); practises=masterclass-1,3,4; source=dow-2010 18:1 abstract (re-read EX8) + debono-1970 chap. "Choice of Entry Point and Attention Area"; Cross 2006, 86 no longer cited in the Lab (provenance U3.sketch-dialectic-ex1 kept)
-LAB_LINE: exercise=2; technique_id=delay-judgement-checkpoint; practises=masterclass-2,3,6; source=osborn-1942 chap. 4 (replaces de Bono 1970 chap. "The New Word PO" for deferred judgement, FINDINGS D3); Houde and Hill 1997 (role / look and feel / implementation) is a BIBLIO-GAP (research-manifest houde-1997) — the question runs as course wording without the citation
--->
-{% endif %}
-
----
+**Judged by:** [Portfolio rubric — creative fluency, flexibility, and originality]({{ '/assignments/en/creativity-techniques-portfolio/' | relative_url }}#rubric)
 
 ## Workshop
 

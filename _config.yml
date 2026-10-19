@@ -49,6 +49,7 @@ include:
   - directory
   - methods
   - lexicum
+  - exercises
   - tao
 
 exclude:

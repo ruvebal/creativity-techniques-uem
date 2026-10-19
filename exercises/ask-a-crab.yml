@@ -1,0 +1,66 @@
+id: ask-a-crab
+title: Ask a Crab — picture diverge
+urn: urn:in-practice:exercise:6a53c97a0ceade0b828ae569
+technique_id: brainstorming-osborn
+status: ready
+categories:
+- urn:in-practice:concept:association
+- family:generation
+fieldlex: []
+units:
+- U4
+summary: Use an unrelated picture to open workplace ideas before you judge. Save the path from image to
+  idea — not only the favourite.
+time_min: 20
+group: same team as the U4 idea set
+materials:
+- unrelated picture prompt
+- U4 brief or workplace problem
+- paper
+requirements:
+- Keep generation separate from selection.
+- Record the picture ID or description in the trace.
+accessibility: Large-print or screen images; oral idea lists OK.
+steps:
+- Show one unrelated picture to the team.
+- In a timed pass, each person writes ideas the picture suggests for the workplace brief.
+- Read ideas aloud without ranking them yet.
+- 'Save a short path: picture → association → idea.'
+- Stop before voting; selection belongs to a later exercise.
+adaptation: Classroom adaptation of Ask a Crab’s early blueprint steps; full five-step source is not claimed
+  as the class procedure.
+quote:
+  chicago: (Michalko 2010, 440)
+  verbatim: Give each group member a folder containing two or three pictures that are not related to the
+    problem area. Read aloud a problem statement and ask the group to verbally brainstorm solutions. Instruct
+    the group members to examine each picture and write their ideas. After a designated period, ask the
+    group members to read their ideas aloud. As each idea is read, ask the group members to discuss it
+    and try to develop new ideas or modifications. Record all new ideas as they are suggested.
+  ref_key: michalko-2010
+portfolio_trace: Picture note; idea list; one association path; no selection claim.
+judged_by: Portfolio rubric — creative fluency, flexibility, and originality
+graphic:
+  kind: image-web
+  alt: An unrelated picture prompts associations, which lead to several workplace ideas without choosing a winner.
+  caption: Keep the visible path from picture to association to idea; selection happens later.
+  labels: [Picture, Curve, Texture, Motion, Route idea, Sign idea, Waiting-zone idea]
+ahmes:
+  document_coat: 2fa7eabe
+  vault_slug: michalko_michael_thinkertoys_a_handbook_of_creative_thinking_techniques_2010_ten_speed_press_2fa7eabe
+  nodes:
+  - node_id: 4ae8c8a2-2272-5c9e-90d0-4144ab7c2c2c
+    page_index: 439
+    chicago: (Michalko 2010, 440)
+    role: quote
+  - node_id: 479f4ba2-e5d1-5066-801b-6a8224dfc457
+    page_index: 439
+    chicago: (Michalko 2010, 440)
+    role: quote
+  - node_id: aa4b906e-9a2d-55e4-bd39-1dd0aad4c63d
+    page_index: 439
+    chicago: (Michalko 2010, 440)
+    role: quote
+  - node_id: 8212c3fd-d0d0-5acc-824b-35e05108bce8
+    page_index: 439
+    chicago: (Michalko 2010, 440)
+    role: quote
