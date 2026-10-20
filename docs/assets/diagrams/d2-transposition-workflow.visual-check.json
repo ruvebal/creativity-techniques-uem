@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "ok": false,
+  "command": "visual-check",
+  "evidenceKind": "automated-browser",
+  "status": "fail",
+  "visualReview": "pending",
+  "artifact": {
+    "path": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/creativity-techniques-uem/docs/assets/diagrams/d2-transposition-workflow.html",
+    "sha256": "50f25fa53d93eb4ee0bdc23bd11629f189269eb0db5437bec637e6f536b18c4e",
+    "bytes": 720334
+  },
+  "state": {
+    "detail": "read",
+    "motion": "still"
+  },
+  "chrome": {
+    "status": "available",
+    "executable": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+  },
+  "diagnostics": [
+    {
+      "code": "viewer/visual-check-runtime",
+      "severity": "error",
+      "message": "visual-check could not complete its Chrome inspection.",
+      "subject": {
+        "artifact": "/Users/ruvebal/projects/ruvebal/scholar/universidadeuropea/creativity-techniques-uem/docs/assets/diagrams/d2-transposition-workflow.html"
+      },
+      "evidence": {
+        "reason": "Chrome DevTools process exit failed: Chrome closed with signal SIGABRT\nChrome process: signal SIGABRT."
+      },
+      "supportedFixes": [
+        "resolve the reported Chrome inspection error, then rerun visual-check"
+      ]
+    }
+  ],
+  "containment": {
+    "status": "fail",
+    "viewports": []
+  },
+  "readability": {
+    "status": "fail",
+    "minimumProjectedNodeTextPx": 6,
+    "viewports": []
+  },
+  "viewerChrome": {
+    "status": "fail",
+    "viewports": []
+  },
+  "captures": {
+    "status": "fail",
+    "screenshots": [],
+    "contactSheet": null
+  },
+  "sidecars": {
+    "receipt": "d2-transposition-workflow.visual-check.json",
+    "contactSheet": "d2-transposition-workflow.visual-check.html"
+  },
+  "error": "Chrome DevTools process exit failed: Chrome closed with signal SIGABRT\nChrome process: signal SIGABRT."
+}

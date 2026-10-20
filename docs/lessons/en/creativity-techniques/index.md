@@ -49,7 +49,7 @@ Start the [Final Portfolio Notebook]({{ '/assignments/en/creativity-techniques-p
 ## Deliverables (course-wide)
 
 1. **D1 Analysis** — 15 min defence (talk + Q&A) · [assignment brief]({{ '/assignments/en/creative-process-analysis-presentation/' | relative_url }}) · slideshow support  
-2. **D2 Transposition** — free format · discursive circulation  
+2. **D2 Transposition** — free format · discursive circulation · [assignment brief and rubric]({{ '/assignments/en/transposition/' | relative_url }})
 3. **D3 Atrium** — technical script + live defence · *What is creativity for you?*  
 4. **D4 Portfolio index** — Lab exercises + D1–D3  
 5. **D5 Exam** — test/questionnaire + self-review of process  

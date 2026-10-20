@@ -47,11 +47,23 @@ Read-only discovery against `profield-creativity-techniques` and
 `profield-digital-creativity` completed 12/12 queries (382 raw hits; 347
 source-hash/node pairs). Local `qwen2.5:32b-instruct` classified full Ahmes
 text for 127 in-inventory nodes and returned 23 provisional proposals; semantic
-quote extraction refreshed 33 of 34 unique nodes, with one refusal. These are
+quote extraction refreshed 33 of 34 unique nodes; the lone refusal was checked
+as an `About the Authors` back-matter node and correctly left unforced. These are
 discovery/classification receipts, not source verification, approved exercises,
 or permission to publish. See
 [`runtime/review/ATHANOR-QWEN-RECALL-REVIEW-2026-10-19.md`](runtime/review/ATHANOR-QWEN-RECALL-REVIEW-2026-10-19.md)
 for source-context adjudication, quote/citation limits, and candidate dispositions.
+
+The private audit reports 30/33 exact normalized text-layer matches, one
+additional quote visually confirmed against a scanned page with no extractable
+text layer, and two non-exact strings held unverified; none was promoted. The
+visually confirmed quote's printed locator and citation are reconciled as
+`(von Oech 1983, xii)` against its title page and an exact-title WorldCat
+catalogue record; the inventory filename's `1990` label still needs source-record
+reconciliation. Follow-up found the
+two non-exact strings splice non-contiguous passages; one also points to an
+Ahmes node titled as author back matter while its fragments appear in chapter 2.
+They remain non-verbatim and uncited. Details are in the review.
 
 Four bounded leads remain for independent exercise review; duplicates, theory,
 and incomplete contexts were held or rejected. The Fisher/Williams resolver

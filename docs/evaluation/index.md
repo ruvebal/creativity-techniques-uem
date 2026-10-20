@@ -41,7 +41,7 @@ In the extraordinary session (*convocatoria extraordinaria*) the same final mark
 | ID | Task | Maps toward |
 | --- | --- | --- |
 | **D1 Analysis** | 15 min defence · slideshow support · 2 students/session from s3 | Delivery / presentation |
-| **D2 Transposition** | Free format · discursive circulation / palimpsest (critical review) | Delivery / presentation |
+| **D2 Transposition** | [Free format · creative transposition + critical review]({{ '/assignments/en/transposition/' | relative_url }}) | Delivery / presentation |
 | **D3 Atrium** | Tech script + live defence · *What is creativity for you?* | Delivery / presentation |
 | **D4 Portfolio index** | Lab exercises + D1–D3 in one index | Both (process evidence) |
 | **D5 Exam** | Critical demonstration of course understanding + final self-review of portfolio process | Knowledge tests (+ process) |

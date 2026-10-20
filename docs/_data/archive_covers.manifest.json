@@ -6,6 +6,7 @@
 		{ "url": "/tracks/en/creativity-techniques/", "asset": "archive-ct", "title": "Creativity Techniques · Year 3", "family": "ct-flame", "seed": "ct-track" },
 		{ "url": "/tracks/en/uem/2627-ct/", "asset": "archive-2627-ct", "title": "Creativity Techniques · 2026–27", "family": "ct-coral", "seed": "2627-ct" },
 		{ "url": "/methodology/en/", "asset": "archive-methodology", "title": "Methodology", "family": "ct-flame", "seed": "methodology" },
+		{ "url": "/assignments/en/transposition/", "asset": "archive-d2-transposition", "title": "D2 · Transposition", "family": "ct-flame", "seed": "d2-transposition" },
 		{ "url": "/evaluation/", "asset": "archive-evaluation", "title": "Evaluation", "family": "ct-coral", "seed": "evaluation" },
 		{ "url": "/bibliography/en/", "asset": "archive-bibliography", "title": "Bibliography", "family": "ct-flame", "seed": "bibliography" }
 	]

@@ -35,6 +35,12 @@
 		"family": "ct-flame",
 		"mode": "archive"
 	},
+	"/assignments/en/transposition/": {
+		"asset": "archive-d2-transposition",
+		"title": "D2 · Transposition",
+		"family": "ct-flame",
+		"mode": "archive"
+	},
 	"/evaluation/": {
 		"asset": "archive-evaluation",
 		"title": "Evaluation",

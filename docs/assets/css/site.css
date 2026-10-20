@@ -2037,6 +2037,35 @@ html.dark,
 	object-fit: cover;
 }
 
+.transposition-map {
+	margin: 1.5rem 0 2rem;
+	border: 1px solid var(--border-light);
+	border-radius: 0.75rem;
+	background: #fff;
+	box-shadow: 0 12px 28px rgb(26 15 8 / 0.12);
+}
+
+.transposition-map iframe {
+	display: block;
+	width: 100%;
+	height: clamp(38rem, 80vh, 56rem);
+	border: 0;
+	border-radius: 0.75rem 0.75rem 0 0;
+}
+
+.transposition-map figcaption {
+	padding: 0.6rem 0.9rem;
+	color: var(--text-secondary);
+	font-size: 0.88rem;
+	line-height: 1.4;
+}
+
+@media (max-width: 640px) {
+	.transposition-map iframe {
+		height: 52rem;
+	}
+}
+
 .portfolio-practice-research {
 	display: grid;
 	grid-template-rows: minmax(0, 1fr) auto;

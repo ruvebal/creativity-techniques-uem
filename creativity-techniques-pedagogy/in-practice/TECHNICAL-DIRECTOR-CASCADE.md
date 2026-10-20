@@ -32,8 +32,16 @@ is advisory, not approval. Bounded Athanor recall and full-text Qwen
 classification are complete (12/12 scoped searches; 127 eligible nodes; 23
 proposals). Exact local-source text matching is now recorded for four retained
 leads; this does not clear `[BIBLIO-GAP]`s, locator issues, duplicate-vault
-exclusions, human suitability review, or procedure approval. The *Beyond
-Productivity* PDF is still corrupt and needs a clean authorized witness. The
+exclusions, human suitability review, or procedure approval. The one quote
+refusal was confirmed as non-prose author back matter and left unforced. A
+source audit matched 30/33 emitted quotes in the text layer; raster inspection
+visually confirmed one additional quote on a scanned page, while two remain
+non-exact because they splice non-contiguous source passages; one also has an
+Ahmes node/section mismatch. The visually verified item is now cited as
+`(von Oech 1983, xii)` from title-page, printed-locator, and WorldCat checks;
+the inventory filename's `1990` label still needs reconciliation. All three
+are held, not promoted. The
+*Beyond Productivity* PDF is still corrupt and needs a clean authorized witness. The
 October 18 fresh coder review is for pipeline code only. No catalogue promotion,
 shared-store write, or publication occurred. Keep the corpus task open; next
 advance source/citation/coverage adjudication and human review without launching

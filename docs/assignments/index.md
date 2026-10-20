@@ -19,6 +19,12 @@ Analyse one creative process with the Master Lecture method; present live (slide
 - [Master Lecture]({{ '/lessons/en/master-lectures/creative-process-analysis/' | relative_url }})
 - [Class slideshow]({{ '/master-lectures/creative-process-analysis/' | relative_url }})
 
+## D2 · Transposition
+
+Create a transposition in a free format and critically examine how it is read in circulation.
+
+- **[Open D2 brief and rubric →]({{ '/assignments/en/transposition/' | relative_url }})**
+
 ## Final portfolio
 
 **[Final Portfolio Notebook and rubric →]({{ '/assignments/en/creativity-techniques-portfolio/' | relative_url }})**
