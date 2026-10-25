@@ -428,10 +428,16 @@
 	max-width: 40rem;
 }
 
-.exercise-quote footer {
+.exercise-quote footer,
+.exercise-quote footer.quote-ref,
+.exercise-quote .quote-ref {
+	display: block;
 	margin: 0.65rem 0 0;
+	padding-left: 1rem;
 	font-size: 0.9rem;
+	font-style: italic;
 	color: var(--muted);
+	text-align: right;
 }
 
 .exercise-cat-row {

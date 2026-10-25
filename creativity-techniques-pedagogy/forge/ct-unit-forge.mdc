@@ -64,6 +64,7 @@ Every lesson includes a Reveal deck per [`STUDENT-SLIDESHOW-FORGE.mdc`](./STUDEN
 - Required **`workshop_opener`** + **`outro`** (geometrical)
 - Masterclass / Lab images from Profield public-safe assets; Koch triangle only as diagram fallback (never Sierpinski; never Resource UUID in captions)
 - Student voice: clear enough for a late-secondary / first-year reader; optional brief page-verified `quote` on idea slides
+- **Quote reference (DH):** blockquote extract + separate right-aligned pin — `<p class="quote-ref">— (<a href="#ref-…">Author Year, page</a>)</p>` or `<footer class="quote-ref">`; decorative marks frame the whole (open before first, close after latest). See `STUDENT-SLIDESHOW-FORGE.mdc` golden rule 4b.
 
 Map B1 → Masterclass · B2/Lab exercises → portfolio · B3/Workshop → next deliverable (D1–D3).
 
