@@ -166,6 +166,15 @@ kieran-2018:
     Kieran, Matthew. 2018. In *Creativity and Philosophy*, edited by Berys Gaut and Matthew Kieran.
     New York: Routledge.
 
+mejias-couldry-2024:
+  edition_note: "EPUB."
+  sort: "Mejias Couldry 2024"
+  year: 2024
+  edition_used: "EPUB without page numbers; lessons cite chapters."
+  chicago: >-
+    Mejias, Ulises A., and Nick Couldry. 2024. *Data Grab: The New Colonialism of Big Tech and How to
+    Fight Back*. Chicago: University of Chicago Press.
+
 michalko-2010:
   sort: "Michalko 2010"
   year: 2010
@@ -188,6 +197,15 @@ osborn-1942:
   edition_used: "First edition, fourth impression, reset as an e-text without page numbers; lessons cite chapters."
   chicago: >-
     Osborn, Alex F. 1942. *How to Think Up*. New York: McGraw-Hill.
+
+osborn-2013:
+  edition_note: "Reprint e-text (EPUB); the reprint does not state which earlier edition it reproduces."
+  sort: "Osborn 2013"
+  year: 2013
+  edition_used: "Read Books reprint, EPUB without page numbers; lessons cite chapters."
+  chicago: >-
+    Osborn, Alex F. 2013. *Applied Imagination: Principles and Procedures of Creative Problem-Solving*.
+    Read Books.
 
 persaud-2007:
   sort: "Persaud 2007"

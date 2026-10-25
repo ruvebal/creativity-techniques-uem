@@ -15,6 +15,7 @@ Investigate — do not assume commercial success proves originality, or that bui
 
 | # | ID | Title | Role |
 | --- | --- | --- | --- |
+| 0 | ML-WCOS | Cycle rationale (`/lessons/en/master-lectures/who-creates-who-owns-who-scales/`) | Three layers (industry → Cold War → capital-as-brand), five connections, fairs/fairness leads; WIP badge on the whole cycle. Pins + gaps in its gated comment (2026-10-26) |
 | 1 | ML-WCOS-E | Who Designs a Product—and Who Owns Its Story? | Edison five-case investigation; three-level frame |
 | 2 | ML-WCOS-F | Can We Redesign the Whole System? | Fuller comparison under the same questions; software transfer |
 
