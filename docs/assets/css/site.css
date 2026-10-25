@@ -2232,6 +2232,63 @@ html.dark,
 	object-fit: cover;
 }
 
+/* D2 Munari — two-column constraint plate */
+.munari-magazine {
+	margin: 1.75rem 0 2.25rem;
+	border: 1px solid var(--border-light);
+	border-radius: 0.75rem;
+	background: #f3eee4;
+	box-shadow: 0 16px 36px rgb(26 15 8 / 0.14);
+	overflow: hidden;
+}
+
+.munari-magazine__spread {
+	display: block;
+	width: 100%;
+	height: auto;
+	aspect-ratio: 16 / 9;
+	background: #f3eee4;
+}
+
+.prose .munari-magazine figcaption {
+	padding: 0.7rem 1rem 0.9rem;
+	/* caption sits on white in both themes, so it keeps the light-theme ink */
+	color: #3d2a1c;
+	font-size: 0.88rem;
+	line-height: 1.45;
+	background: #fff;
+	border-top: 1px solid var(--border-light);
+}
+
+.prose .munari-magazine figcaption a {
+	color: inherit !important; /* beats the site-wide `.prose a` !important */
+	text-decoration: underline;
+	text-underline-offset: 0.12em;
+}
+
+.munari-quote-stack {
+	display: grid;
+	gap: 1.1rem;
+	margin: 1.25rem 0 1.75rem;
+}
+
+.munari-quote-stack blockquote {
+	margin: 0;
+}
+
+/* Classical-edition separator between quotes; transparent, decorative only */
+.fleuron {
+	display: flex;
+	justify-content: center;
+	pointer-events: none;
+}
+
+.prose .fleuron img {
+	width: min(100%, 22rem);
+	height: auto;
+	margin: 0;
+}
+
 .transposition-map {
 	margin: 1.5rem 0 2rem;
 	border: 1px solid var(--border-light);
