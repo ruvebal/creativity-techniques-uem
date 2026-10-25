@@ -2289,6 +2289,21 @@ html.dark,
 	margin: 0;
 }
 
+/* Public work-in-progress tag (the lesson status chip only renders in private builds) */
+.wip-badge {
+	display: inline-block;
+	padding: 0.15em 0.6em;
+	border: 1px solid #c44536;
+	border-radius: 999px;
+	color: #c44536;
+	font-size: 0.75em;
+	font-weight: 500;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+
 .transposition-map {
 	margin: 1.5rem 0 2rem;
 	border: 1px solid var(--border-light);
