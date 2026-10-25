@@ -1,0 +1,69 @@
+{
+	"dodeca-munari": {
+		"releases": [
+			{
+				"release": "f95d80b96e91",
+				"date": "2026-10-25",
+				"preset": {
+					"description": "Quote separator for the D2 Munari stack: one dodecahedron, golden-angle echoes vanishing outward.",
+					"variants": 6,
+					"motifRadius": 72,
+					"rotation": {
+						"yaw": 18,
+						"pitch": 28,
+						"roll": 0
+					},
+					"variantYawStep": 137.508,
+					"echoes": 5,
+					"echoGapUnit": 7,
+					"echoScale": 0.618034,
+					"echoYawStep": 137.508,
+					"echoOpacity": 0.62,
+					"stroke": "#C44536",
+					"strokeWidth": 1.6,
+					"hiddenOpacity": 0.32,
+					"margin": 8
+				},
+				"variants": [
+					{
+						"svg": "/assets/images/fleurons/ct-dodeca-munari-b5d09d8ff1fb.svg",
+						"png": "/assets/images/fleurons/ct-dodeca-munari-b5d09d8ff1fb.png",
+						"width": 752,
+						"height": 160
+					},
+					{
+						"svg": "/assets/images/fleurons/ct-dodeca-munari-89a79497d5c5.svg",
+						"png": "/assets/images/fleurons/ct-dodeca-munari-89a79497d5c5.png",
+						"width": 752,
+						"height": 160
+					},
+					{
+						"svg": "/assets/images/fleurons/ct-dodeca-munari-0a682e051dbc.svg",
+						"png": "/assets/images/fleurons/ct-dodeca-munari-0a682e051dbc.png",
+						"width": 752,
+						"height": 160
+					},
+					{
+						"svg": "/assets/images/fleurons/ct-dodeca-munari-73e67a0a85e4.svg",
+						"png": "/assets/images/fleurons/ct-dodeca-munari-73e67a0a85e4.png",
+						"width": 752,
+						"height": 160
+					},
+					{
+						"svg": "/assets/images/fleurons/ct-dodeca-munari-26efd2a59bd2.svg",
+						"png": "/assets/images/fleurons/ct-dodeca-munari-26efd2a59bd2.png",
+						"width": 752,
+						"height": 160
+					},
+					{
+						"svg": "/assets/images/fleurons/ct-dodeca-munari-66f0f6a48be5.svg",
+						"png": "/assets/images/fleurons/ct-dodeca-munari-66f0f6a48be5.png",
+						"width": 752,
+						"height": 160
+					}
+				]
+			}
+		],
+		"current": "f95d80b96e91"
+	}
+}

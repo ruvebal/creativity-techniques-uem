@@ -1,0 +1,18 @@
+{
+	"dodeca-munari": {
+		"description": "Quote separator for the D2 Munari stack: one dodecahedron, golden-angle echoes vanishing outward.",
+		"variants": 6,
+		"motifRadius": 72,
+		"rotation": { "yaw": 18, "pitch": 28, "roll": 0 },
+		"variantYawStep": 137.508,
+		"echoes": 5,
+		"echoGapUnit": 7,
+		"echoScale": 0.618034,
+		"echoYawStep": 137.508,
+		"echoOpacity": 0.62,
+		"stroke": "#C44536",
+		"strokeWidth": 1.6,
+		"hiddenOpacity": 0.32,
+		"margin": 8
+	}
+}

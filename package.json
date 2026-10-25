@@ -20,7 +20,8 @@
 		"develop": "npm run hydrate && npm run method-cards && npm run practice-quizzes && npm run media:rehydrate && npm run render:decks && npm run postcss:build && bundle exec jekyll serve --source docs --livereload --livereload-port ${LIVERELOAD_PORT:-35731} --config _config.yml --port ${PORT:-4003}",
 		"prebuild": "npm run hydrate && npm run method-cards && npm run practice-quizzes && npm run media:rehydrate && npm run render:decks",
 		"build": "npm run postcss:build && npm run validate:decks && bundle exec jekyll build --source docs --destination _site --config _config.yml && npm run verify:publication",
-		"covers": "node scripts/fractal-architecture/generate-triangle-tile.mjs && node scripts/archive-covers/generate-archive-covers.mjs"
+		"covers": "node scripts/fractal-architecture/generate-triangle-tile.mjs && node scripts/archive-covers/generate-archive-covers.mjs",
+		"fleurons": "node scripts/fractal-architecture/generate-dodeca-fleuron.mjs"
 	},
 	"devDependencies": {
 		"@tailwindcss/typography": "^0.5.19",
