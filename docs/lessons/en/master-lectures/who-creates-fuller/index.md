@@ -48,7 +48,7 @@ PROVENANCE_LINE: claim=ML-WCOS-F.fuller-vocabulary; status=BIBLIO-GAP; owed=page
 
 > **For any system: who makes it, who pays, who owns it, who keeps it, who benefits?**
 
-**Series:** Who Creates, Who Owns, Who Scales? · Lesson 2 of 2  
+{% include wip-badge.html %} **Series:** [Who Creates, Who Owns, Who Scales?]({{ '/lessons/en/master-lectures/who-creates-who-owns-who-scales/' | relative_url }}) · Lesson 2 of 2  
 **Previous:** [Who Designs a Product—and Who Owns Its Story? (Edison)]({{ '/lessons/en/master-lectures/who-creates-edison/' | relative_url }})  
 **In-class slideshow:** [open deck]({{ '/master-lectures/who-creates-fuller/' | relative_url }})
 

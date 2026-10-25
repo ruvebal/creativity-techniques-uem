@@ -45,6 +45,7 @@ Start the [Final Portfolio Notebook]({{ '/assignments/en/creativity-techniques-p
 | Master Lecture | Lesson | Slideshow |
 | --- | --- | --- |
 | **Creative process analysis** | [Lesson]({{ '/lessons/en/master-lectures/creative-process-analysis/' | relative_url }}) | [Deck]({{ '/master-lectures/creative-process-analysis/' | relative_url }}) |
+| **Who Creates, Who Owns, Who Scales?** — cycle rationale {% include wip-badge.html %} | [Read first]({{ '/lessons/en/master-lectures/who-creates-who-owns-who-scales/' | relative_url }}) | — |
 | **Who Creates… (Edison)** | [Lesson]({{ '/lessons/en/master-lectures/who-creates-edison/' | relative_url }}) | [Deck]({{ '/master-lectures/who-creates-edison/' | relative_url }}) |
 | **Who Creates… (Fuller)** | [Lesson]({{ '/lessons/en/master-lectures/who-creates-fuller/' | relative_url }}) | [Deck]({{ '/master-lectures/who-creates-fuller/' | relative_url }}) |
 

@@ -14,8 +14,9 @@ Shared **analysis methods** used across the Creativity Techniques track. They ar
 | Master Lecture | Lesson | Slideshow |
 | --- | --- | --- |
 | **Creative process analysis** | [Lesson]({{ '/lessons/en/master-lectures/creative-process-analysis/' | relative_url }}) | [Deck]({{ '/master-lectures/creative-process-analysis/' | relative_url }}) |
-| **Who Designs a Product—and Who Owns Its Story?** (Edison · series 1/2) | [Lesson]({{ '/lessons/en/master-lectures/who-creates-edison/' | relative_url }}) | [Deck]({{ '/master-lectures/who-creates-edison/' | relative_url }}) |
-| **Can We Redesign the Whole System?** (Fuller · series 2/2) | [Lesson]({{ '/lessons/en/master-lectures/who-creates-fuller/' | relative_url }}) | [Deck]({{ '/master-lectures/who-creates-fuller/' | relative_url }}) |
+| **Who Creates, Who Owns, Who Scales?** — cycle rationale {% include wip-badge.html %} | [Read first]({{ '/lessons/en/master-lectures/who-creates-who-owns-who-scales/' | relative_url }}) | — |
+| **Who Designs a Product—and Who Owns Its Story?** (Edison · series 1/2) {% include wip-badge.html %} | [Lesson]({{ '/lessons/en/master-lectures/who-creates-edison/' | relative_url }}) | [Deck]({{ '/master-lectures/who-creates-edison/' | relative_url }}) |
+| **Can We Redesign the Whole System?** (Fuller · series 2/2) {% include wip-badge.html %} | [Lesson]({{ '/lessons/en/master-lectures/who-creates-fuller/' | relative_url }}) | [Deck]({{ '/master-lectures/who-creates-fuller/' | relative_url }}) |
 
 ### Creative process analysis
 
@@ -24,5 +25,7 @@ Use whenever a session needs the eight-step process critique (language / medium 
 **Graded defence:** [D1 · Live creative-process analysis]({{ '/assignments/en/creative-process-analysis-presentation/' | relative_url }}) — slideshow deliverable; two per session; ≤15 minutes including questions and feedback.
 
 ### Who Creates, Who Owns, Who Scales?
+
+{% include wip-badge.html %} **Start with the [cycle rationale]({{ '/lessons/en/master-lectures/who-creates-who-owns-who-scales/' | relative_url }})**: how American industry, Cold War policy and finance shaped what “creativity” means — then the two lessons.
 
 Two linked sessions on **authorship**: Edison five-case investigation → Fuller systems comparison → software transfer. Bridge: one-page product-biography dossier between lessons. Method spine: artifact / system / political economy.

@@ -52,7 +52,7 @@ PROVENANCE_LINE: claim=ML-WCOS-E.edison-cases; status=BIBLIO-GAP; owed=Ahmes bat
 
 > **A famous name is not the same as a contributor, an owner, or a company.**
 
-**Series:** [Who Creates, Who Owns, Who Scales?]({{ '/lessons/en/master-lectures/' | relative_url }}) · Lesson 1 of 2  
+{% include wip-badge.html %} **Series:** [Who Creates, Who Owns, Who Scales?]({{ '/lessons/en/master-lectures/who-creates-who-owns-who-scales/' | relative_url }}) · Lesson 1 of 2  
 **In-class slideshow:** [open deck]({{ '/master-lectures/who-creates-edison/' | relative_url }})  
 **Next:** [Can We Redesign the Whole System? (Fuller)]({{ '/lessons/en/master-lectures/who-creates-fuller/' | relative_url }})
 
