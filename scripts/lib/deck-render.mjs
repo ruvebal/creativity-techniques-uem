@@ -49,7 +49,7 @@ export function escapeHtml(value) {
 
 export const PUBLIC_DOMAIN = 'Public domain';
 /** Caption label of a flagged asset whose licence claims the public domain (A12/F8). */
-export const RIGHTS_UNDER_REVIEW = 'Rights under review';
+export const RIGHTS_UNDER_REVIEW = 'Rights under review. Pedagogical illustration only.';
 
 /** Public licence label: "PD-old-70" → "Public domain", "CC-BY-SA-4.0" → "CC BY-SA 4.0". */
 export function licenceLabel(licence) {
