@@ -1,0 +1,333 @@
+{
+ "title": "Visual resources for Edison and Fuller lessons",
+ "created": "2026-10-25",
+ "resource_count": 17,
+ "verification_scope": "Source pages or indexed records as individually recorded. No binary downloads tested.",
+ "rights_note": "Publicly accessible is not equivalent to openly licensed; US public-domain statements may not resolve reuse in other countries.",
+ "resources": [
+  {
+   "id": "E01",
+   "title": "Phonograph patent drawing, 1880",
+   "source_page_url": "https://docsteach.org/document/drawing-phonograph/",
+   "media_type": "patent drawing",
+   "lesson": "Edison",
+   "creator_or_provider": "National Archives; patent 227679; identifier 595515",
+   "rights": "Public domain, free of known copyright restrictions",
+   "teaching_notes": "Separate the primary document rights from the website license.",
+   "verification": "2026-10-25",
+   "direct_asset_url": null,
+   "binary_download_tested": false,
+   "deck_binding": {
+    "slides": "edison analysis-model",
+    "rights_status": "ok",
+    "note": "NARA 595515 thumb fetched (1920 px)",
+    "bound_on": "2026-10-25"
+   }
+  },
+  {
+   "id": "E02",
+   "title": "Sound-recording sketches and comparative apparatus images",
+   "source_page_url": "https://www.nps.gov/edis/learn/historyculture/origins-of-sound-recording-edisons-path-to-the-phonograph.htm",
+   "media_type": "illustrated exhibition",
+   "lesson": "Edison",
+   "creator_or_provider": "National Park Service; historic laboratory documents",
+   "rights": "Mixed credits; no blanket image license verified",
+   "teaching_notes": "Includes notebook sketches and comparisons; assess each image credit.",
+   "verification": "2026-10-25",
+   "direct_asset_url": null,
+   "binary_download_tested": false,
+   "deck_binding": {
+    "slides": "edison masterclass-2",
+    "rights_status": "ok",
+    "note": "NPS NS7703D 29 Nov 1877 sketch; NPS Scott-phonautograph caution kept in brief only",
+    "bound_on": "2026-10-25"
+   }
+  },
+  {
+   "id": "E03",
+   "title": "A day with Thomas A. Edison, 1922",
+   "source_page_url": "https://www.loc.gov/item/00694187/",
+   "media_type": "video",
+   "lesson": "Edison",
+   "creator_or_provider": "General Electric; Bray Studios; Library of Congress",
+   "rights": "LOC no-known-US-restrictions guidance, with exceptions and foreign-country caveats",
+   "teaching_notes": "23:51 at 16 fps; factory labor, manufacturing and corporate self-presentation.",
+   "verification": "2026-10-25",
+   "direct_asset_url": null,
+   "binary_download_tested": false,
+   "deck_binding": {
+    "slides": null,
+    "rights_status": null,
+    "note": "linked only in lesson (Watch line); not embedded — qualified US-only rights, no still",
+    "bound_on": "2026-10-25"
+   }
+  },
+  {
+   "id": "E04",
+   "title": "Incandescent lamp patent reproduction",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Light_bulb_Edison.jpg",
+   "media_type": "patent drawing",
+   "lesson": "Edison",
+   "creator_or_provider": "Thomas Edison; Norris Peters reproduction",
+   "rights": "Rights not explicitly verified in retrieved text",
+   "teaching_notes": "2550x3300; source page recommends a superseding scan.",
+   "verification": "2026-10-25",
+   "direct_asset_url": null,
+   "binary_download_tested": false,
+   "deck_binding": {
+    "slides": "edison cover",
+    "rights_status": "ok",
+    "note": "superseded scan replaced by NARA 595450 (patent 223,898)",
+    "bound_on": "2026-10-25"
+   }
+  },
+  {
+   "id": "E05",
+   "title": "Kinetographic camera patent drawing",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Drawing_for_a_Kinetographic_Camera_-_NARA_-_595495_(page_1).jpg",
+   "media_type": "patent drawing",
+   "lesson": "Edison",
+   "creator_or_provider": "National Archives",
+   "rights": "No known copyright restrictions; archival unrestricted-use statement",
+   "teaching_notes": "844x1200; compare legal attribution with laboratory collaboration.",
+   "verification": "2026-10-25",
+   "direct_asset_url": null,
+   "binary_download_tested": false,
+   "deck_binding": {
+    "slides": "edison lab-1",
+    "rights_status": "ok",
+    "note": "NARA 595495 page 1 is the 1902 kinetoscope reissue No. 12,037, not the 1897 patent",
+    "bound_on": "2026-10-25"
+   }
+  },
+  {
+   "id": "E06",
+   "title": "Edison patent gallery",
+   "source_page_url": "https://commons.wikimedia.org/wiki/Category:Patents_by_Thomas_Alva_Edison",
+   "media_type": "collection portal",
+   "lesson": "Edison",
+   "creator_or_provider": "Wikimedia Commons; multiple sources",
+   "rights": "Per-file license check required",
+   "teaching_notes": "Additional lamp, meter, printing and cinema drawings.",
+   "verification": "2026-10-25",
+   "direct_asset_url": null,
+   "binary_download_tested": false,
+   "deck_binding": {
+    "slides": "edison masterclass-3, masterclass-6",
+    "rights_status": "ok",
+    "note": "patent drawings found via this category; MC1, MC4, MC5 and lab-2 photographs come from other Commons/NPS records",
+    "bound_on": "2026-10-25"
+   }
+  },
+  {
+   "id": "F01",
+   "title": "Dymaxion House measured drawing set",
+   "source_page_url": "https://www.loc.gov/item/mi0681/",
+   "media_type": "architectural drawings",
+   "lesson": "Fuller",
+   "creator_or_provider": "HABS MI-438; Library of Congress",
+   "rights": "No known restrictions on US-government images; copied images may be restricted",
+   "teaching_notes": "Seven sheets; lists Fuller, Beech Aircraft and other contributors.",
+   "verification": "2026-10-25",
+   "direct_asset_url": null,
+   "binary_download_tested": false,
+   "deck_binding": {
+    "slides": "fuller cover",
+    "rights_status": "flagged",
+    "note": "HABS Structure sheet via Commons mirror (LOC 403); named delineator Alexander Titenkov (US/ICOMOS) — US federal-work status does not clear the EU term (COLD-REVIEW-5)",
+    "bound_on": "2026-10-25"
+   }
+  },
+  {
+   "id": "F02",
+   "title": "Dymaxion foundation plan and mast detail",
+   "source_page_url": "https://www.loc.gov/resource/hhh.mi0681.sheet/?sp=2",
+   "media_type": "architectural drawing",
+   "lesson": "Fuller",
+   "creator_or_provider": "HABS MI-438; Library of Congress",
+   "rights": "See collection advisory; no blanket worldwide clearance",
+   "teaching_notes": "Second sheet; foundation and central mast detail.",
+   "verification": "2026-10-25",
+   "direct_asset_url": null,
+   "binary_download_tested": false,
+   "deck_binding": {
+    "slides": "fuller masterclass-2",
+    "rights_status": "flagged",
+    "note": "HABS Foundation sheet via Commons mirror; named delineator Alexander Titenkov (US/ICOMOS) — US federal-work status does not clear the EU term (COLD-REVIEW-5)",
+    "bound_on": "2026-10-25"
+   }
+  },
+  {
+   "id": "F03",
+   "title": "Dymaxion House structural drawing, high resolution",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Historic_American_Buildings_Survey_-_Dymaxion_House_-_Structure.jpg",
+   "media_type": "architectural drawing",
+   "lesson": "Fuller",
+   "creator_or_provider": "HABS / National Park Service / Library of Congress",
+   "rights": "Public domain in US; Public Domain Mark displayed",
+   "teaching_notes": "14400x9600; approximately 48.49 MB original.",
+   "verification": "2026-10-25",
+   "direct_asset_url": null,
+   "binary_download_tested": false,
+   "deck_binding": {
+    "slides": "fuller cover",
+    "rights_status": "flagged",
+    "note": "same file as F01 binding; named delineator Alexander Titenkov (US/ICOMOS) — US federal-work status does not clear the EU term (COLD-REVIEW-5)",
+    "bound_on": "2026-10-25"
+   }
+  },
+  {
+   "id": "F04",
+   "title": "Metal Dymaxion dwelling photograph, 1941",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Dymaxion_House_-_LOC_8c14945v.jpg",
+   "media_type": "photograph",
+   "lesson": "Fuller",
+   "creator_or_provider": "Marion Post Wolcott; FSA/OWI",
+   "rights": "US public-domain federal-work statement",
+   "teaching_notes": "4478x3449; do not confuse adapted corn-bin dwelling with later Wichita House.",
+   "verification": "2026-10-25",
+   "direct_asset_url": null,
+   "binary_download_tested": false,
+   "deck_binding": {
+    "slides": "fuller masterclass-3 (+ lab-1 interior 8c14943v)",
+    "rights_status": "flagged",
+    "note": "Wolcott d. 1990; corn-bin dwelling ≠ Wichita House",
+    "bound_on": "2026-10-25"
+   }
+  },
+  {
+   "id": "F05",
+   "title": "Dymaxion replica at Lane Motor Museum",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:1933_Dymaxion_Replica_Lane_Motor_Museum.jpg",
+   "media_type": "photograph",
+   "lesson": "Fuller",
+   "creator_or_provider": "TaurusEmerald",
+   "rights": "CC BY-SA 4.0",
+   "teaching_notes": "4030x2808; photograph dated 2024-07-27; clearly label as replica.",
+   "verification": "2026-10-25",
+   "direct_asset_url": null,
+   "binary_download_tested": false,
+   "deck_binding": {
+    "slides": "fuller masterclass-1",
+    "rights_status": "ok",
+    "note": "CC BY-SA 4.0 TaurusEmerald, 2024 replica",
+    "bound_on": "2026-10-25"
+   }
+  },
+  {
+   "id": "F06",
+   "title": "Geodesic building construction, US2682235A",
+   "source_page_url": "https://patents.google.com/patent/US2682235A",
+   "media_type": "patent drawings and text",
+   "lesson": "Fuller",
+   "creator_or_provider": "Richard Buckminster Fuller",
+   "rights": "Open access; no separate reproduction license verified",
+   "teaching_notes": "Published 1954-06-29; figures 1-4 for dome and geometric basis.",
+   "verification": "2026-10-25",
+   "direct_asset_url": null,
+   "binary_download_tested": false,
+   "deck_binding": {
+    "slides": "fuller masterclass-5",
+    "rights_status": "flagged",
+    "note": "reproduction permission not verified; Fuller d. 1983",
+    "bound_on": "2026-10-25"
+   }
+  },
+  {
+   "id": "F07",
+   "title": "Tensile-integrity structures, US3063521A",
+   "source_page_url": "https://patents.google.com/patent/US3063521A/en",
+   "media_type": "patent drawings and text",
+   "lesson": "Fuller",
+   "creator_or_provider": "Richard Buckminster Fuller",
+   "rights": "Open access; no separate reproduction license verified",
+   "teaching_notes": "Published 1962-11-13; thirteen drawing sheets; start with figures 1-3.",
+   "verification": "2026-10-25",
+   "direct_asset_url": null,
+   "binary_download_tested": false,
+   "deck_binding": {
+    "slides": "fuller analysis-model",
+    "rights_status": "flagged",
+    "note": "reproduction permission not verified",
+    "bound_on": "2026-10-25"
+   }
+  },
+  {
+   "id": "F08",
+   "title": "Dymaxion vehicle, US2101057A",
+   "source_page_url": "https://patents.google.com/patent/US2101057A/en",
+   "media_type": "patent drawings and text",
+   "lesson": "Fuller",
+   "creator_or_provider": "Fuller; Dymaxion Corporation",
+   "rights": "Open access; no separate reproduction license verified",
+   "teaching_notes": "Published 1937-12-07.",
+   "verification": "2026-10-25",
+   "direct_asset_url": null,
+   "binary_download_tested": false,
+   "deck_binding": {
+    "slides": "fuller masterclass-4",
+    "rights_status": "flagged",
+    "note": "reproduction permission not verified; assignee Dymaxion Corp",
+    "bound_on": "2026-10-25"
+   }
+  },
+  {
+   "id": "F09",
+   "title": "Dymaxion House image gallery",
+   "source_page_url": "https://commons.wikimedia.org/wiki/Category:Dymaxion_House",
+   "media_type": "collection portal",
+   "lesson": "Fuller",
+   "creator_or_provider": "Wikimedia Commons; multiple sources",
+   "rights": "Per-file license check required",
+   "teaching_notes": "Historic views, drawings and museum-image subcategory.",
+   "verification": "2026-10-25",
+   "direct_asset_url": null,
+   "binary_download_tested": false,
+   "deck_binding": {
+    "slides": "fuller masterclass-6 (Jay Baldwin 1992)",
+    "rights_status": "ok",
+    "note": "CC BY-SA 4.0 Robert Duchesnay; dismantling, not restoration",
+    "bound_on": "2026-10-25"
+   }
+  },
+  {
+   "id": "F10",
+   "title": "Dymaxion car image gallery",
+   "source_page_url": "https://commons.wikimedia.org/wiki/Category:Dymaxion_car",
+   "media_type": "collection portal",
+   "lesson": "Fuller",
+   "creator_or_provider": "Wikimedia Commons; multiple sources",
+   "rights": "Per-file license check required",
+   "teaching_notes": "Distinguish original vehicles from replicas and historic from modern photographs.",
+   "verification": "2026-10-25",
+   "direct_asset_url": null,
+   "binary_download_tested": false,
+   "deck_binding": {
+    "slides": null,
+    "rights_status": null,
+    "note": "discovery only; replica F05 used instead",
+    "bound_on": "2026-10-25"
+   }
+  },
+  {
+   "id": "F11",
+   "title": "Fuller patent bibliography",
+   "source_page_url": "https://www.bfi.org/about-fuller/bibliography/patents/",
+   "media_type": "patent index",
+   "lesson": "Fuller",
+   "creator_or_provider": "Buckminster Fuller Institute",
+   "rights": "Reference access; no blanket reproduction license verified",
+   "teaching_notes": "Further map, prefabricated bathroom, deployment-unit and truss patent leads.",
+   "verification": "2026-10-25",
+   "direct_asset_url": null,
+   "binary_download_tested": false,
+   "deck_binding": {
+    "slides": null,
+    "rights_status": null,
+    "note": "discovery only (BFI bibliography); also led to Pat2220482 bathroom, lab-2, flagged",
+    "bound_on": "2026-10-25"
+   }
+  }
+ ],
+ "binding_note": "Bound assets live in excellence/curation/autopilot-assets.json (ML-WCOS-E / ML-WCOS-F). Flagged = displays captioned \"Rights under review\" until professor launch decision."
+}

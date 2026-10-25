@@ -1,0 +1,212 @@
+Lesson: Who Designs a Product—and Who Owns Its
+Story?
+Core question for students: Is design the shape of an object, the system that makes it usable,
+the patent that protects it, or the economic machine that distributes it? This session uses
+Edison-era products to examine creativity, appropriation, and the hidden social infrastructure
+behind familiar objects.
+
+Learning objectives
+By the end, students should be able to:
+    Distinguish invention, innovation, design, appropriation, and commercialization.
+    Analyze products as assemblages of form, function, manufacture, law, capital, and cultural
+    meaning.
+    Critically assess how “authorship” is constructed around technologies.
+    Apply these questions to their own design practice: interior, industrial, graphic, product, or
+    speculative design.
+
+Framing: design beyond the object
+For designers, a product is never only an artifact. A light bulb is glass, tungsten, socket
+geometry, electrical infrastructure, pricing, labor, energy policy, and a cultural metaphor for
+“ideas.” A projector is optics, film format, exhibition space, ticket sales, censorship, and
+collective spectatorship.
+This lesson therefore treats design at three levels:
+
+          Level                              Question                                             Example
+
+    Artifact            What is it made of, and how does it work?               Filament, glass envelope, screw base
+
+    System              What infrastructure makes it function?                  Generators, wiring, meters, utilities
+
+    Political economy   Who profits, controls access, and defines authorship?   Patent holders, banks, utilities, distributors
+
+
+Case 1: The incandescent lamp
+The common claim that Edison “invented the light bulb” is historically incomplete. Edison’s
+laboratory developed a commercially practical incandescent lighting system, but earlier
+inventors had worked on incandescent lamps, and the U.S. Supreme Court later invalidated a
+patent belonging to William Sawyer and Albon Man; the Court did not decide that Edison
+invented the light bulb. [1]
+From a design perspective, Edison’s major contribution was system design: a durable lamp,
+generators, distribution wiring, meters, sockets, and a business model that could make electric
+lighting viable. This is crucial for product and industrial designers: the breakthrough was not
+only the object, but the interoperable ecosystem around it.
+Discussion prompt: If you redesign a lamp today, are you designing a light source, a domestic
+ritual, an energy interface, or a data-connected service?
+
+Case 2: The phonograph
+Edison’s phonograph is a stronger case of genuine invention, but even here authorship was
+collective. Edison sketched the concept after work on telephone technology; machinist John
+Kruesi built the first tinfoil machine from Edison’s drawings. Edison filed on December 24,
+1877, and received the patent on February 19, 1878. [2] [3]
+French inventor Charles Cros had earlier proposed a similar recording principle in April 1877,
+though he did not build a working device. Léon Scott’s 1857 phonautograph also anticipated
+aspects of sound recording. [4] [2]
+Design lesson: The phonograph shows how a concept may circulate before one actor turns it
+into a working, manufacturable product. Creativity is often a relay, not a single act.
+Studio exercise: Redesign the phonograph for a contemporary social need—memory
+preservation, oral history, accessibility, or community archiving—while identifying who would
+own the data, hardware, and distribution.
+
+Case 3: The Kinetoscope and cinema projector
+The motion-picture case is especially useful because it separates invention from the eventual
+medium. Edison commissioned William Kennedy Laurie Dickson to develop a motion-picture
+apparatus; Dickson performed much of the experimentation. The result was the Kinetograph
+camera and Kinetoscope, a coin-operated peephole device for one viewer at a time. [5] [6] [7] [8]
+The public cinema projector was not Edison’s original design goal. After the Lumière brothers
+demonstrated their Cinématographe in Paris in 1895—a device that could film, print, and
+project—Edison’s organization added projection to reach larger audiences. [9] [10] [5]
+This is a powerful design contrast:
+    Kinetoscope: private, boxed, individual, coin-operated.
+    Cinématographe: public, projected, social, portable.
+The difference is not merely technical. It changes the social form of the experience: from a
+solitary curiosity to collective cinema, from a machine in an arcade to an institution that
+shapes public culture.
+Design prompt: Choose a contemporary screen technology—VR headset, smartphone,
+interactive installation—and redesign it by shifting its social scale: private to public, personal to
+communal, owned to shared.
+
+Case 4: Radio and the myth of single authorship
+Radio is essential for correcting the Edison-centered narrative. Edison was not the principal
+inventor of radio. Radio emerged through the work of figures including James Clerk Maxwell,
+Heinrich Hertz, Oliver Lodge, Nikola Tesla, Guglielmo Marconi, and others. Marconi is often
+publicly remembered as “the inventor of radio,” while Tesla, Lodge, and many contributors
+were marginalized in popular accounts.
+For design students, radio demonstrates that a product category can be socially attributed to
+one name even when it results from distributed scientific and engineering work. The “radio
+set” as a domestic object was also a design act: it translated invisible electromagnetic
+communication into a cabinet, dial, speaker, living-room ritual, national broadcast culture, and
+advertising economy.
+Critical question: When a company owns the brand, patent, spectrum license, transmitter
+network, and retail channel, who is the real author of the user experience?
+
+Case 5: Edison’s patent system and the “Edison Trust”
+The Motion Picture Patents Company, or “Edison Trust,” is the clearest example of design
+power becoming market power. Edison and allied patent holders pooled patents over cameras,
+projectors, and film stock, then controlled licensing across production, distribution, and
+exhibition. [11] [12] [13]
+The trust attempted to make independent filmmakers dependent on licensed equipment and
+film stock. Independent producers faced extensive litigation; the system was dissolved under
+U.S. antitrust law in 1915, with the court rejecting the use of patents as a weapon to disable
+competitors. [14]
+For designers, this raises an uncomfortable point: the same standardized film format that
+enabled industrial efficiency also enabled control. Standardization can democratize production
+by making tools compatible, but it can also create chokepoints when one actor owns the
+standard.
+
+Banking, capital, and the designer’s blind spot
+Edison’s enterprises were not financed only by sales. J.P. Morgan and Anthony Drexel helped
+finance and consolidate Edison’s electrical businesses; Edison General Electric was formed in
+1889, then merged with Thomson-Houston in 1892 to create General Electric. [15] [16] [17]
+The result was paradoxical: Edison lost operational control of the company that carried part of
+his name. Thomson-Houston management led the new General Electric, while financiers
+shaped the corporate structure. [16] [17]
+This is the “lower-level” design discussion students need: every product exists inside a financial
+architecture. A chair is affected by material suppliers and retail margins; a medical device by
+insurance systems; a lamp by utility regulation; an app by platform fees and venture capital.
+Key idea: Banking does not merely fund design; it can determine which designs survive, who
+receives credit, and which futures become economically visible.
+
+Appropriation versus attribution
+Use this vocabulary carefully in class:
+
+       Term                              Meaning                                             Example
+                   Creating a new technical principle or working
+  Invention                                                            Edison’s working tinfoil phonograph
+                   device
+
+                   Refining performance, usability, or
+  Improvement                                                          Edison’s practical lighting system
+                   manufacturability
+
+                   Taking credit, value, or control from others’       Corporate attribution of team and predecessor work
+  Appropriation
+                   contributions                                       to a single “genius”
+
+                   Using legal rights to control a wider market than
+  Patent capture                                                       Broad claims and the MPPC licensing system
+                   the invention itself
+
+  Standard-
+                   Establishing shared technical rules                 Film gauge, electrical sockets, broadcast formats
+  setting
+
+The ethical issue is not that Edison patented inventions—patents can protect genuine creative
+labor. The issue is when patents, branding, litigation, and finance convert one actor’s
+contribution into control over an entire field.
+
+Creative techniques for the studio
+
+1. Product biography
+Trace one object from raw material to disposal. Include designers, factory workers, patent
+holders, investors, distributors, users, and waste streams.
+
+2. Authorship map
+Draw a network diagram: inventors, assistants, funders, manufacturers, regulators, and users.
+Mark where public history gives credit and where it disappears.
+
+3. Counter-design
+Redesign the product under a different ownership model: open source, cooperative, public
+utility, repairable commons, or community-owned infrastructure.
+4. Format politics
+Take a format—35 mm film, MP3, PDF, USB-C, a building typology—and ask: What does it make
+easy? What does it make impossible? Who benefits from its standardization?
+
+5. Speculative patent
+Write a patent-style document for an everyday social practice: “a method for sharing tools,” “a
+system for collective memory,” “a device for slowing attention.” Then ask what happens when it
+is owned by a bank, a platform, or a public institution.
+
+Assignment
+Brief: Select one product—lamp, phonograph, Kinetoscope, cinema projector, radio, telephone,
+or a contemporary equivalent. Produce:
+ 1. A redesigned artifact or system.
+ 2. An authorship and value-flow map.
+ 3. A one-page critical analysis of ownership, access, labor, and finance.
+ 4. A prototype or visual proposal showing an alternative economic model.
+The goal is not to condemn innovation, but to make designers aware that every object carries a
+political economy. Design is not only making things desirable; it is deciding who may
+participate in their creation, use, repair, and benefit. [5] [11] [14] [15]
+                                                          ⁂
+
+
+  1. https://virginialawreview.org/wp-content/uploads/2020/12/Richards_Online.pdf
+  2. https://www.loc.gov/static/collections/edison-company-motion-pictures-and-sound-recordings/articles-and-essays/hi
+     story-of-edison-sound-recordings/history-of-the-cylinder-phonograph.html
+  3. https://www.loc.gov/programs/national-recording-preservation-plan/tools-and-resources/historical-background/time
+     line/
+  4. https://www.nytimes.com/1977/05/29/archives/music-view-harold-c-schonberg-edison-never-foresaw-the-record-boo
+     m.html
+  5. https://www.britannica.com/art/history-of-film/Edison-and-the-Lumiere-brothers
+  6. https://www.britannica.com/print/article/318205
+  7. https://www.digitalhistory.uh.edu/topic_display.cfm?tcid=121
+  8. https://ethw.org/Motion_Pictures
+  9. https://www.nfsa.gov.au/collection/curated/asset/103067-edison-35mm-projecting-kinetoscope
+ 10. https://edison.rutgers.edu/research/motion-picture-catalogs/catalogs-and-the-early-motion-picture-industry/early-pr
+     ojection
+ 11. https://www.loc.gov/static/collections/edison-company-motion-pictures-and-sound-recordings/articles-and-essays/hi
+     story-of-edison-motion-pictures/fictional-films-dominate.html
+ 12. https://www.csmonitor.com/Business/The-Circle-Bastiat/2010/1202/How-the-patent-office-almost-shut-down-Hollyw
+     ood
+13. https://www.wired.com/2010/09/thomas-edisons-plot-to-hijack-the-movie-industry/
+14. https://www.saturdayeveningpost.com/2021/03/thomas-edison-the-unintentional-founder-of-hollywood/
+15. https://en.wikipedia.org/wiki/General_Electric
+16. https://www.schenectadyhistory.org/ge/oldge/04.html
+17. https://www.raabcollection.com/science-autographs/edison-trust
+18. https://www.loc.gov/collections/edison-company-motion-pictures-and-sound-recordings/articles-and-essays/history-
+    of-edison-sound-recordings/history-of-the-cylinder-phonograph/
+19. https://www.nfsa.gov.au/collection/item/edison-35mm-projecting-kinetoscope
+20. https://www.britannica.com/art/history-of-film/Technical-breakthroughs
+21. https://pressbooks.ccconline.org/accintrotomedia/chapter/8-2-the-history-of-movies/
+22. https://www.bfi.org.uk/sight-and-sound/features/origins-cinema-early-inventors-pioneers
+23. https://www.hmdb.org/m.asp?m=162587
+

@@ -2410,6 +2410,594 @@
       "brief": "Autonomy with accountability: face the brief’s fog without romantic isolation.",
       "origin": "U6 gap masterclass-6",
       "brief_title": "Autonomy with accountability"
+    },
+    {
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-WCOS-E"
+        }
+      ],
+      "title": "Drawing for an Electric Lamp, US patent 223,898 (27 January 1880)",
+      "alt_text": "Printed 1880 patent drawing of Edison's electric lamp: a glass bulb with a coiled carbon filament and figure numbers, signed by two witnesses and, for the inventor, by his attorney.",
+      "author": "Thomas A. Edison (patent drawing; U.S. National Archives)",
+      "author_death_year": 1931,
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "eu_term_reason": "Patent drawing published 1880; inventor died 1931; 1931+70 < 2026.",
+      "date": "1880-01-27",
+      "brief": "The lamp as a legal drawing: one object and one inventor's name; no generators, wiring, investors, or workers.",
+      "asset_id": "wikimedia:File:Drawing for an Electric Lamp - NARA - 595450.jpg",
+      "raw_title": "File:Drawing for an Electric Lamp - NARA - 595450.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Drawing_for_an_Electric_Lamp_-_NARA_-_595450.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Drawing_for_an_Electric_Lamp_-_NARA_-_595450.jpg",
+      "provider": "wikimedia_commons",
+      "rights_source": "Commons API imageinfo extmetadata (Artist, LicenseShortName, DateTimeOriginal, ImageDescription, Credit); death years: standard biographical dates",
+      "eu_term_ok": true,
+      "rights_status": "ok",
+      "cropped": false,
+      "rights_checked_on": "2026-10-25",
+      "approved_by": "autopilot (final review pending)",
+      "origin": "WCOS cycle 3 (2026-10-25): operator visual catalog edison_fuller_visual_resources.json + Commons/NPS/Google Patents checks"
+    },
+    {
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-WCOS-E"
+        }
+      ],
+      "title": "Drawing for a Phonograph, US patent 227,679 (18 May 1880)",
+      "alt_text": "Printed patent drawing, sheet 2 of Edison's phonograph patent No. 227,679, dated 18 May 1880: two views of the mechanism with a speaking tube and a detail part, signed by witnesses and, for the inventor, by his attorney.",
+      "author": "Thomas A. Edison (patent drawing; U.S. National Archives)",
+      "author_death_year": 1931,
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "eu_term_reason": "Patent drawing published 1880; inventor died 1931; 1931+70 < 2026.",
+      "date": "1880-05-18",
+      "brief": "A later phonograph patent (1880, not the 1877 first machine): the legal document names one inventor.",
+      "asset_id": "wikimedia:File:Drawing for a Phonograph - NARA - 595515.jpg",
+      "raw_title": "File:Drawing for a Phonograph - NARA - 595515.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Drawing_for_a_Phonograph_-_NARA_-_595515.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Drawing_for_a_Phonograph_-_NARA_-_595515.jpg",
+      "provider": "wikimedia_commons",
+      "rights_source": "Commons API imageinfo extmetadata (Artist, LicenseShortName, DateTimeOriginal, ImageDescription, Credit); death years: standard biographical dates",
+      "eu_term_ok": true,
+      "rights_status": "ok",
+      "cropped": false,
+      "rights_checked_on": "2026-10-25",
+      "approved_by": "autopilot (final review pending)",
+      "origin": "WCOS cycle 3 (2026-10-25): operator visual catalog edison_fuller_visual_resources.json + Commons/NPS/Google Patents checks"
+    },
+    {
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-WCOS-E"
+        }
+      ],
+      "title": "Thomas Edison with his tin-foil phonograph, Brady studio, Washington, c. 1878",
+      "alt_text": "Studio portrait of a young Thomas Edison seated beside a small table carrying his tin-foil phonograph.",
+      "author": "Levin C. Handy (Brady-Handy studio)",
+      "author_death_year": 1932,
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "eu_term_reason": "Photographer died 1932; 1932+70 < 2026.",
+      "date": "c. 1878",
+      "brief": "A posed studio portrait: the inventor and the device presented together as a public image.",
+      "asset_id": "wikimedia:File:Edison and phonograph.jpg",
+      "raw_title": "File:Edison and phonograph.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Edison_and_phonograph.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Edison_and_phonograph.jpg",
+      "provider": "wikimedia_commons",
+      "rights_source": "Commons API imageinfo extmetadata (Artist, LicenseShortName, DateTimeOriginal, ImageDescription, Credit); death years: standard biographical dates",
+      "eu_term_ok": true,
+      "rights_status": "ok",
+      "cropped": false,
+      "rights_checked_on": "2026-10-25",
+      "approved_by": "autopilot (final review pending)",
+      "origin": "WCOS cycle 3 (2026-10-25): operator visual catalog edison_fuller_visual_resources.json + Commons/NPS/Google Patents checks"
+    },
+    {
+      "asset_id": "nps:edis:NS7703D",
+      "raw_title": "Phonograph drawings, November 29, 1877 (NS7703D, TAEM 7:451)",
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-WCOS-E"
+        }
+      ],
+      "title": "Phonograph drawings, 29 November 1877",
+      "alt_text": "Notebook page with two pencil sketches of possible phonograph designs, dated 29 November 1877 and signed by Edison, Charles Batchelor, and John Kruesi; the lower design is the one the National Park Service says was assigned to Kruesi to build.",
+      "author": "Thomas A. Edison (drawing; Thomas Edison National Historical Park, National Park Service)",
+      "author_death_year": 1931,
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "canonical_source_url": "https://www.nps.gov/edis/learn/historyculture/origins-of-sound-recording-edisons-path-to-the-phonograph.htm",
+      "source_file_url": "https://www.nps.gov/edis/learn/historyculture/images/Phonograph-drawing_11-29-1877_NS7703D_TAEM-7-451_1100pxw.jpg",
+      "provider": "National Park Service",
+      "eu_term_reason": "Drawing made 1877; Edison died 1931; NPS scan of a two-dimensional public-domain work adds no new right (EU DSM Directive art. 14).",
+      "rights_source": "NPS page caption + image credit 'National Park Service', checked 2026-10-25",
+      "date": "1877-11-29",
+      "brief": "Two alternative designs on one page: the phonograph as a sequence of options, one handed to a machinist to build.",
+      "eu_term_ok": true,
+      "rights_status": "ok",
+      "cropped": false,
+      "rights_checked_on": "2026-10-25",
+      "approved_by": "autopilot (final review pending)",
+      "origin": "WCOS cycle 3 (2026-10-25): operator visual catalog edison_fuller_visual_resources.json + Commons/NPS/Google Patents checks"
+    },
+    {
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-WCOS-E"
+        }
+      ],
+      "title": "Electric distribution system, patent drawing dated 31 October 1882",
+      "alt_text": "Patent drawing of an electrical distribution network: conductors running around lettered blocks from a central connection point, feeder lines to dial indicators, and regulating coils, signed by two witnesses and, for the inventor, by his attorneys.",
+      "author": "Thomas A. Edison (patent drawing; Internet Archive Book Images)",
+      "author_death_year": 1931,
+      "licence": "NoC-US+EU-checked",
+      "licence_url": "https://www.flickr.com/commons/usage/",
+      "eu_term_reason": "Patent drawing printed 1882; inventor died 1931; lithographer Norris Peters died 1889.",
+      "date": "1882-10-31",
+      "brief": "The system, not the bulb: conductors, feeders, and regulators drawn as one patented network.",
+      "asset_id": "wikimedia:File:Collection of United States patents granted to Thomas A. Edison, 1869-1884 (1869) (14733855376).jpg",
+      "raw_title": "File:Collection of United States patents granted to Thomas A. Edison, 1869-1884 (1869) (14733855376).jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Collection_of_United_States_patents_granted_to_Thomas_A._Edison,_1869-1884_(1869)_(14733855376).jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Collection_of_United_States_patents_granted_to_Thomas_A._Edison%2C_1869-1884_%281869%29_%2814733855376%29.jpg",
+      "provider": "wikimedia_commons",
+      "rights_source": "Commons API imageinfo extmetadata (Artist, LicenseShortName, DateTimeOriginal, ImageDescription, Credit); death years: standard biographical dates",
+      "eu_term_ok": true,
+      "rights_status": "ok",
+      "cropped": false,
+      "rights_checked_on": "2026-10-25",
+      "approved_by": "autopilot (final review pending)",
+      "origin": "WCOS cycle 3 (2026-10-25): operator visual catalog edison_fuller_visual_resources.json + Commons/NPS/Google Patents checks"
+    },
+    {
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-WCOS-E"
+        }
+      ],
+      "title": "Kinetoscope parlor, San Francisco, c. 1894–95",
+      "alt_text": "A row of wooden Kinetoscope cabinets in a parlor, each with a single eyepiece on top for one viewer at a time.",
+      "author": "Unknown photographer (National Park Service collection)",
+      "author_death_year": null,
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "eu_term_reason": "Anonymous publicity photograph c. 1894–95; anonymous-work term (70 years from publication) expired.",
+      "date": "c. 1894-95",
+      "brief": "One viewer per machine: the peephole design before projection made film a collective audience.",
+      "asset_id": "wikimedia:File:KinetoscopeParlorbis.jpg",
+      "raw_title": "File:KinetoscopeParlorbis.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:KinetoscopeParlorbis.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/KinetoscopeParlorbis.jpg",
+      "provider": "wikimedia_commons",
+      "rights_source": "Commons API imageinfo extmetadata (Artist, LicenseShortName, DateTimeOriginal, ImageDescription, Credit); death years: standard biographical dates",
+      "eu_term_ok": true,
+      "rights_status": "ok",
+      "cropped": false,
+      "rights_checked_on": "2026-10-25",
+      "approved_by": "autopilot (final review pending)",
+      "origin": "WCOS cycle 3 (2026-10-25): operator visual catalog edison_fuller_visual_resources.json + Commons/NPS/Google Patents checks"
+    },
+    {
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-WCOS-E"
+        }
+      ],
+      "title": "Thomas Edison with motion picture manufacturers, licensees of the Motion Picture Patents Company, 19 December 1908",
+      "alt_text": "A group of men in suits seated and standing around a long table in a laboratory library with Thomas Edison at the centre.",
+      "author": "Unknown photographer (Thomas Edison National Historical Park, NPGallery)",
+      "author_death_year": null,
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "eu_term_reason": "Anonymous photograph dated 1908; anonymous-work term (70 years from publication) expired.",
+      "date": "1908-12-19",
+      "brief": "Market organisation made visible: the licensees of a patent pool gathered around one table.",
+      "asset_id": "wikimedia:File:Thomas Edison with motion picture manufacturers, licensees of the Motion Picture Patents Co. (53d4165c7ae043a3af9e2f68a125e5d4).jpg",
+      "raw_title": "File:Thomas Edison with motion picture manufacturers, licensees of the Motion Picture Patents Co. (53d4165c7ae043a3af9e2f68a125e5d4).jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Thomas_Edison_with_motion_picture_manufacturers,_licensees_of_the_Motion_Picture_Patents_Co._(53d4165c7ae043a3af9e2f68a125e5d4).jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Thomas_Edison_with_motion_picture_manufacturers%2C_licensees_of_the_Motion_Picture_Patents_Co._%2853d4165c7ae043a3af9e2f68a125e5d4%29.jpg",
+      "provider": "wikimedia_commons",
+      "rights_source": "Commons API imageinfo extmetadata (Artist, LicenseShortName, DateTimeOriginal, ImageDescription, Credit); death years: standard biographical dates",
+      "eu_term_ok": true,
+      "rights_status": "ok",
+      "cropped": false,
+      "rights_checked_on": "2026-10-25",
+      "approved_by": "autopilot (final review pending)",
+      "origin": "WCOS cycle 3 (2026-10-25): operator visual catalog edison_fuller_visual_resources.json + Commons/NPS/Google Patents checks"
+    },
+    {
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-WCOS-E"
+        }
+      ],
+      "title": "Method of manufacturing electric lamps, US patent 230,255 (20 July 1880)",
+      "alt_text": "Patent drawing of five figures showing glass lamp parts at successive stages of manufacture, from bulb blanks to an assembled bulb with its filament-and-stem piece, signed by two witnesses and, for the inventor, by his attorneys.",
+      "author": "Thomas A. Edison (patent drawing; Internet Archive Book Images)",
+      "author_death_year": 1931,
+      "licence": "NoC-US+EU-checked",
+      "licence_url": "https://www.flickr.com/commons/usage/",
+      "eu_term_reason": "Patent drawing printed 1880; inventor died 1931; lithographer Norris Peters died 1889.",
+      "date": "1880-07-20",
+      "brief": "Five figures on one sheet: manufacture as a sequence of stages, signed by witnesses and, for the inventor, by his attorneys.",
+      "asset_id": "wikimedia:File:Collection of United States patents granted to Thomas A. Edison, 1869-1884 (1869) (14570038339).jpg",
+      "raw_title": "File:Collection of United States patents granted to Thomas A. Edison, 1869-1884 (1869) (14570038339).jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Collection_of_United_States_patents_granted_to_Thomas_A._Edison,_1869-1884_(1869)_(14570038339).jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Collection_of_United_States_patents_granted_to_Thomas_A._Edison%2C_1869-1884_%281869%29_%2814570038339%29.jpg",
+      "provider": "wikimedia_commons",
+      "rights_source": "Commons API imageinfo extmetadata (Artist, LicenseShortName, DateTimeOriginal, ImageDescription, Credit); death years: standard biographical dates",
+      "eu_term_ok": true,
+      "rights_status": "ok",
+      "cropped": false,
+      "rights_checked_on": "2026-10-25",
+      "approved_by": "autopilot (final review pending)",
+      "origin": "WCOS cycle 3 (2026-10-25): operator visual catalog edison_fuller_visual_resources.json + Commons/NPS/Google Patents checks"
+    },
+    {
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-WCOS-E"
+        }
+      ],
+      "title": "Kinetoscope, US reissue patent No. 12,037, drawing sheet 1 (30 September 1902)",
+      "alt_text": "Printed patent drawing, sheet 1 of Edison's 1902 kinetoscope reissue patent No. 12,037: a boxed mechanism with two side-by-side film reels, a lens tube on top, and a geared drive below, signed by two witnesses and, for the inventor, by his attorneys.",
+      "author": "Thomas A. Edison (patent drawing; U.S. National Archives)",
+      "author_death_year": 1931,
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "eu_term_reason": "Patent drawing published 1902; inventor died 1931; 1931+70 < 2026.",
+      "date": "1902-09-30",
+      "brief": "A reissued patent: the same invention claimed again, years later, under one name. A starting point for mapping the laboratory work behind it.",
+      "asset_id": "wikimedia:File:Drawing for a Kinetographic Camera - NARA - 595495 (page 1).jpg",
+      "raw_title": "File:Drawing for a Kinetographic Camera - NARA - 595495 (page 1).jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Drawing_for_a_Kinetographic_Camera_-_NARA_-_595495_(page_1).jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Drawing_for_a_Kinetographic_Camera_-_NARA_-_595495_%28page_1%29.jpg",
+      "provider": "wikimedia_commons",
+      "rights_source": "Commons API imageinfo extmetadata (Artist, LicenseShortName, DateTimeOriginal, ImageDescription, Credit); death years: standard biographical dates",
+      "eu_term_ok": true,
+      "rights_status": "ok",
+      "cropped": false,
+      "rights_checked_on": "2026-10-25",
+      "approved_by": "autopilot (final review pending)",
+      "origin": "WCOS cycle 3 (2026-10-25): operator visual catalog edison_fuller_visual_resources.json + Commons/NPS/Google Patents checks"
+    },
+    {
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-WCOS-E"
+        }
+      ],
+      "title": "Workers at a Harrison Lamp Works factory, c. 1890",
+      "alt_text": "A crowded factory workroom of mostly young men and boys seated among barrels, baskets, and paper wrapping, with one older man standing at the back.",
+      "author": "Unknown photographer (Thomas Edison National Historical Park, NPGallery)",
+      "author_death_year": null,
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "eu_term_reason": "Anonymous photograph c. 1890; anonymous-work term (70 years from publication) expired.",
+      "date": "c. 1890",
+      "brief": "Factory labour at a lamp works, the task unrecorded: who did this work, and who was paid?",
+      "asset_id": "wikimedia:File:Workers at a Harrison Lamp Works factory. (06a8df80f73848b4a9a47f4820c8af64).jpg",
+      "raw_title": "File:Workers at a Harrison Lamp Works factory. (06a8df80f73848b4a9a47f4820c8af64).jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Workers_at_a_Harrison_Lamp_Works_factory._(06a8df80f73848b4a9a47f4820c8af64).jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Workers_at_a_Harrison_Lamp_Works_factory._%2806a8df80f73848b4a9a47f4820c8af64%29.jpg",
+      "provider": "wikimedia_commons",
+      "rights_source": "Commons API imageinfo extmetadata (Artist, LicenseShortName, DateTimeOriginal, ImageDescription, Credit); death years: standard biographical dates",
+      "eu_term_ok": true,
+      "rights_status": "ok",
+      "cropped": false,
+      "rights_checked_on": "2026-10-25",
+      "approved_by": "autopilot (final review pending)",
+      "origin": "WCOS cycle 3 (2026-10-25): operator visual catalog edison_fuller_visual_resources.json + Commons/NPS/Google Patents checks"
+    },
+    {
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-WCOS-F"
+        }
+      ],
+      "title": "Dymaxion House, Henry Ford Museum, Dearborn: sections showing structure (HABS MI-438, sheet 5 of 7)",
+      "alt_text": "Measured architectural drawing, sheet 5 of 7: two cross-sections and a large section showing the central mast, cables, and ribbed dome of the Dymaxion House as installed at the Henry Ford Museum.",
+      "author": "Alexander Titenkov, US/ICOMOS (delineator), Historic American Buildings Survey, National Park Service (Library of Congress)",
+      "author_death_year": null,
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "eu_term_reason": "Named delineator (Alexander Titenkov, US/ICOMOS) with no recorded death year; US federal-work status does not clear the EU term — same basis as the Wolcott FSA photographs. Publishing needs a professor exception.",
+      "date": "undated (HABS recording at the Henry Ford Museum)",
+      "brief": "The house as an engineered system: mast, cables, and shell drawn as one assembly.",
+      "asset_id": "wikimedia:File:Historic American Buildings Survey - Dymaxion House - Structure.jpg",
+      "raw_title": "File:Historic American Buildings Survey - Dymaxion House - Structure.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Historic_American_Buildings_Survey_-_Dymaxion_House_-_Structure.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Historic_American_Buildings_Survey_-_Dymaxion_House_-_Structure.jpg",
+      "provider": "wikimedia_commons",
+      "rights_source": "Commons API imageinfo extmetadata (Artist, LicenseShortName, DateTimeOriginal, ImageDescription, Credit); death years: standard biographical dates",
+      "eu_term_ok": false,
+      "rights_status": "flagged",
+      "cropped": false,
+      "rights_checked_on": "2026-10-25",
+      "approved_by": "autopilot (final review pending)",
+      "origin": "WCOS cycle 3 (2026-10-25): operator visual catalog edison_fuller_visual_resources.json + Commons/NPS/Google Patents checks",
+      "flag_reason": "Named delineator (Alexander Titenkov, US/ICOMOS) with no recorded death year; US federal-work status does not clear the EU term — same basis as the Wolcott FSA photographs. Publishing needs a professor exception."
+    },
+    {
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-WCOS-F"
+        }
+      ],
+      "title": "Tensile-integrity structures, US patent 3,063,521, sheet 1 (13 November 1962)",
+      "alt_text": "Patent drawing, sheet 1 of Fuller's tensile-integrity patent No. 3,063,521 (1962): three rigid struts that do not touch, held in a triangle by continuous tension cables, with detail views of a strut and its cable fittings.",
+      "author": "R. Buckminster Fuller (inventor; patent drawing)",
+      "author_death_year": 1983,
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "eu_term_reason": "R. Buckminster Fuller died 1983: EU term runs to 2053; US patent-drawing public-domain status does not clear the EU term",
+      "date": "1962-11-13",
+      "brief": "Struts that do not touch, held by cables: find tension and compression before using the word 'tensegrity'.",
+      "asset_id": "google-patents:US3063521A:drawings-sheet-1",
+      "raw_title": "US3063521A drawings sheet 1",
+      "canonical_source_url": "https://patents.google.com/patent/US3063521A/en",
+      "source_file_url": "https://patentimages.storage.googleapis.com/70/cf/f5/aa2fc5d1891568/US3063521-drawings-page-1.png",
+      "provider": "Google Patents",
+      "rights_source": "Google Patents record (inventor, assignee, publication date), checked 2026-10-25",
+      "eu_term_ok": false,
+      "rights_status": "flagged",
+      "flag_reason": "R. Buckminster Fuller died 1983: EU term runs to 2053; US patent-drawing public-domain status does not clear the EU term. Reproduction permission for the Google Patents scan not verified.",
+      "cropped": false,
+      "rights_checked_on": "2026-10-25",
+      "approved_by": "autopilot (final review pending)",
+      "origin": "WCOS cycle 3 (2026-10-25): operator visual catalog edison_fuller_visual_resources.json + Commons/NPS/Google Patents checks"
+    },
+    {
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-WCOS-F"
+        }
+      ],
+      "title": "1933 Dymaxion car replica, Lane Motor Museum (photographed 2024)",
+      "alt_text": "A replica of the 1933 Dymaxion car: a silver teardrop-shaped three-wheeled vehicle with large windows, displayed indoors in a museum.",
+      "author": "TaurusEmerald",
+      "author_death_year": null,
+      "licence": "CC-BY-SA-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "eu_term_reason": "Own work, CC BY-SA 4.0 (2024).",
+      "date": "2024-07-27",
+      "brief": "A replica built long after the prototype: a compelling object is not an adopted production system.",
+      "asset_id": "wikimedia:File:1933 Dymaxion Replica Lane Motor Museum.jpg",
+      "raw_title": "File:1933 Dymaxion Replica Lane Motor Museum.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:1933_Dymaxion_Replica_Lane_Motor_Museum.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/1933_Dymaxion_Replica_Lane_Motor_Museum.jpg",
+      "provider": "wikimedia_commons",
+      "rights_source": "Commons API imageinfo extmetadata (Artist, LicenseShortName, DateTimeOriginal, ImageDescription, Credit); death years: standard biographical dates",
+      "eu_term_ok": true,
+      "rights_status": "ok",
+      "cropped": false,
+      "rights_checked_on": "2026-10-25",
+      "approved_by": "autopilot (final review pending)",
+      "origin": "WCOS cycle 3 (2026-10-25): operator visual catalog edison_fuller_visual_resources.json + Commons/NPS/Google Patents checks"
+    },
+    {
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-WCOS-F"
+        }
+      ],
+      "title": "Dymaxion House, Henry Ford Museum, Dearborn: central mast and foundation details (HABS MI-438, sheet 2 of 7)",
+      "alt_text": "Measured drawing sheet with a central mast and foundation detail, a mast foundation plan, and a foundation plan drawn over the existing museum structure.",
+      "author": "Alexander Titenkov, US/ICOMOS (delineator), Historic American Buildings Survey, National Park Service (Library of Congress)",
+      "author_death_year": null,
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "eu_term_reason": "Named delineator (Alexander Titenkov, US/ICOMOS) with no recorded death year; US federal-work status does not clear the EU term — same basis as the Wolcott FSA photographs. Publishing needs a professor exception.",
+      "date": "undated (HABS recording at the Henry Ford Museum)",
+      "brief": "Even a portable house needs a footing: here, the mast foundation set into a museum floor.",
+      "asset_id": "wikimedia:File:Historic American Buildings Survey - Dymaxion House - Foundation.jpg",
+      "raw_title": "File:Historic American Buildings Survey - Dymaxion House - Foundation.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Historic_American_Buildings_Survey_-_Dymaxion_House_-_Foundation.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Historic_American_Buildings_Survey_-_Dymaxion_House_-_Foundation.jpg",
+      "provider": "wikimedia_commons",
+      "rights_source": "Commons API imageinfo extmetadata (Artist, LicenseShortName, DateTimeOriginal, ImageDescription, Credit); death years: standard biographical dates",
+      "eu_term_ok": false,
+      "rights_status": "flagged",
+      "cropped": false,
+      "rights_checked_on": "2026-10-25",
+      "approved_by": "autopilot (final review pending)",
+      "origin": "WCOS cycle 3 (2026-10-25): operator visual catalog edison_fuller_visual_resources.json + Commons/NPS/Google Patents checks",
+      "flag_reason": "Named delineator (Alexander Titenkov, US/ICOMOS) with no recorded death year; US federal-work status does not clear the EU term — same basis as the Wolcott FSA photographs. Publishing needs a professor exception."
+    },
+    {
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-WCOS-F"
+        }
+      ],
+      "title": "Dymaxion dwelling (adapted corn bin) built by Butler Brothers, Kansas City, May 1941",
+      "alt_text": "A round corrugated-metal dwelling with a ribbed domed roof and porthole windows; one man stands outside leaning on a tool while another enters through the door.",
+      "author": "Marion Post Wolcott (Farm Security Administration)",
+      "author_death_year": 1990,
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "eu_term_reason": "US federal FSA photograph; photographer died 1990, so the EU term runs to 2060.",
+      "date": "1941-05",
+      "flag_reason": "Photographer died 1990: EU term runs to 2060; US federal-work status does not clear it.",
+      "brief": "An industrial grain bin adapted as a dwelling: manufacturer, designer, and future residents are different stakeholders.",
+      "asset_id": "wikimedia:File:Dymaxion House - LOC 8c14945v.jpg",
+      "raw_title": "File:Dymaxion House - LOC 8c14945v.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Dymaxion_House_-_LOC_8c14945v.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Dymaxion_House_-_LOC_8c14945v.jpg",
+      "provider": "wikimedia_commons",
+      "rights_source": "Commons API imageinfo extmetadata (Artist, LicenseShortName, DateTimeOriginal, ImageDescription, Credit); death years: standard biographical dates",
+      "eu_term_ok": false,
+      "rights_status": "flagged",
+      "cropped": false,
+      "rights_checked_on": "2026-10-25",
+      "approved_by": "autopilot (final review pending)",
+      "origin": "WCOS cycle 3 (2026-10-25): operator visual catalog edison_fuller_visual_resources.json + Commons/NPS/Google Patents checks"
+    },
+    {
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-WCOS-F"
+        }
+      ],
+      "title": "Motor vehicle (Dymaxion car), US patent 2,101,057, sheet 1 (7 December 1937)",
+      "alt_text": "Patent drawing of a streamlined teardrop vehicle in two views.",
+      "author": "R. Buckminster Fuller (inventor; patent drawing)",
+      "author_death_year": 1983,
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "eu_term_reason": "R. Buckminster Fuller died 1983: EU term runs to 2053; US patent-drawing public-domain status does not clear the EU term",
+      "date": "1937-12-07",
+      "brief": "The vehicle as a legal claim: compare the drawn form with who holds the patent.",
+      "asset_id": "google-patents:US2101057A:drawings-sheet-1",
+      "raw_title": "US2101057A drawings sheet 1",
+      "canonical_source_url": "https://patents.google.com/patent/US2101057A/en",
+      "source_file_url": "https://patentimages.storage.googleapis.com/f3/9e/16/2a5a032cd92b3a/US2101057-drawings-page-1.png",
+      "provider": "Google Patents",
+      "rights_source": "Google Patents record (inventor, assignee, publication date), checked 2026-10-25",
+      "eu_term_ok": false,
+      "rights_status": "flagged",
+      "flag_reason": "R. Buckminster Fuller died 1983: EU term runs to 2053; US patent-drawing public-domain status does not clear the EU term. Reproduction permission for the Google Patents scan not verified.",
+      "cropped": false,
+      "rights_checked_on": "2026-10-25",
+      "approved_by": "autopilot (final review pending)",
+      "origin": "WCOS cycle 3 (2026-10-25): operator visual catalog edison_fuller_visual_resources.json + Commons/NPS/Google Patents checks"
+    },
+    {
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-WCOS-F"
+        }
+      ],
+      "title": "Building construction (geodesic dome), US patent 2,682,235, sheet 1 (29 June 1954)",
+      "alt_text": "Patent drawing of a geodesic dome in elevation and plan, its surface divided into a network of triangles.",
+      "author": "R. Buckminster Fuller (inventor; patent drawing)",
+      "author_death_year": 1983,
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "eu_term_reason": "R. Buckminster Fuller died 1983: EU term runs to 2053; US patent-drawing public-domain status does not clear the EU term",
+      "date": "1954-06-29",
+      "brief": "A structural principle claimed as property: what does the drawing claim, and what has been independently shown?",
+      "asset_id": "google-patents:US2682235A:drawings-sheet-1",
+      "raw_title": "US2682235A drawings sheet 1",
+      "canonical_source_url": "https://patents.google.com/patent/US2682235A/en",
+      "source_file_url": "https://patentimages.storage.googleapis.com/45/de/c6/217e2a2f831fc9/US2682235-drawings-page-1.png",
+      "provider": "Google Patents",
+      "rights_source": "Google Patents record (inventor, assignee, publication date), checked 2026-10-25",
+      "eu_term_ok": false,
+      "rights_status": "flagged",
+      "flag_reason": "R. Buckminster Fuller died 1983: EU term runs to 2053; US patent-drawing public-domain status does not clear the EU term. Reproduction permission for the Google Patents scan not verified.",
+      "cropped": false,
+      "rights_checked_on": "2026-10-25",
+      "approved_by": "autopilot (final review pending)",
+      "origin": "WCOS cycle 3 (2026-10-25): operator visual catalog edison_fuller_visual_resources.json + Commons/NPS/Google Patents checks"
+    },
+    {
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-WCOS-F"
+        }
+      ],
+      "title": "Team leader Jay Baldwin removing a wall section of the Dymaxion House, Wichita, 1992",
+      "alt_text": "A man removing a lower section of the curved metal perimeter wall of the Dymaxion House, Wichita, 1992.",
+      "author": "Robert Duchesnay",
+      "author_death_year": null,
+      "licence": "CC-BY-SA-4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "eu_term_reason": "Own work, CC BY-SA 4.0.",
+      "date": "1992",
+      "brief": "Dismantling labour the visionary story leaves out: the people who take the house apart, move it, and keep it.",
+      "asset_id": "wikimedia:File:Team leader Jay Baldwin, Wichita, Kansas, 1992.jpg",
+      "raw_title": "File:Team leader Jay Baldwin, Wichita, Kansas, 1992.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Team_leader_Jay_Baldwin,_Wichita,_Kansas,_1992.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Team_leader_Jay_Baldwin%2C_Wichita%2C_Kansas%2C_1992.jpg",
+      "provider": "wikimedia_commons",
+      "rights_source": "Commons API imageinfo extmetadata (Artist, LicenseShortName, DateTimeOriginal, ImageDescription, Credit); death years: standard biographical dates",
+      "eu_term_ok": true,
+      "rights_status": "ok",
+      "cropped": false,
+      "rights_checked_on": "2026-10-25",
+      "approved_by": "autopilot (final review pending)",
+      "origin": "WCOS cycle 3 (2026-10-25): operator visual catalog edison_fuller_visual_resources.json + Commons/NPS/Google Patents checks"
+    },
+    {
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-WCOS-F"
+        }
+      ],
+      "title": "Interior of a Dymaxion dwelling (adapted corn bin), Kansas City, May 1941",
+      "alt_text": "Interior of a round metal dwelling: an icebox-style cabinet, a stove, shelving on flat wall panels, curtained porthole windows, and a folding cot.",
+      "author": "Marion Post Wolcott (Farm Security Administration)",
+      "author_death_year": 1990,
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "eu_term_reason": "US federal FSA photograph; photographer died 1990, so the EU term runs to 2060.",
+      "date": "1941-05",
+      "flag_reason": "Photographer died 1990: EU term runs to 2060; US federal-work status does not clear it.",
+      "brief": "The resident's view: furniture, storage, and services inside a standardized shell.",
+      "asset_id": "wikimedia:File:Dymaxion House - LOC 8c14943v.jpg",
+      "raw_title": "File:Dymaxion House - LOC 8c14943v.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Dymaxion_House_-_LOC_8c14943v.jpg",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Dymaxion_House_-_LOC_8c14943v.jpg",
+      "provider": "wikimedia_commons",
+      "rights_source": "Commons API imageinfo extmetadata (Artist, LicenseShortName, DateTimeOriginal, ImageDescription, Credit); death years: standard biographical dates",
+      "eu_term_ok": false,
+      "rights_status": "flagged",
+      "cropped": false,
+      "rights_checked_on": "2026-10-25",
+      "approved_by": "autopilot (final review pending)",
+      "origin": "WCOS cycle 3 (2026-10-25): operator visual catalog edison_fuller_visual_resources.json + Commons/NPS/Google Patents checks"
+    },
+    {
+      "assignments": [
+        {
+          "project_id": "ml",
+          "unit_id": "ML-WCOS-F"
+        }
+      ],
+      "title": "Prefabricated bathroom, US patent 2,220,482, figure 2 (5 November 1940)",
+      "alt_text": "Patent drawing in plan of a prefabricated bathroom unit, assembled from factory-made sections, integrating tub, toilet, and washbasin.",
+      "author": "R. Buckminster Fuller (inventor; patent drawing)",
+      "author_death_year": 1983,
+      "licence": "PDM",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "eu_term_reason": "R. Buckminster Fuller died 1983: EU term runs to 2053; US patent-drawing public-domain status does not clear the EU term",
+      "date": "1940-11-05",
+      "brief": "A factory-made service unit: who installs it, repairs it, and pays for the plumbing it depends on?",
+      "asset_id": "wikimedia:File:Pat2220482fig2.GIF",
+      "raw_title": "File:Pat2220482fig2.GIF",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Pat2220482fig2.GIF",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Pat2220482fig2.GIF",
+      "provider": "wikimedia_commons",
+      "rights_source": "Commons API imageinfo extmetadata (Artist, LicenseShortName, DateTimeOriginal, ImageDescription, Credit); death years: standard biographical dates",
+      "eu_term_ok": false,
+      "rights_status": "flagged",
+      "flag_reason": "R. Buckminster Fuller died 1983: EU term runs to 2053; US patent-drawing public-domain status does not clear the EU term",
+      "cropped": false,
+      "rights_checked_on": "2026-10-25",
+      "approved_by": "autopilot (final review pending)",
+      "origin": "WCOS cycle 3 (2026-10-25): operator visual catalog edison_fuller_visual_resources.json + Commons/NPS/Google Patents checks"
     }
   ]
 }

@@ -65,6 +65,18 @@
       lesson_en: /lessons/en/master-lectures/creative-process-analysis/
       deck_en: /master-lectures/creative-process-analysis/
       status: pilot
+    - unit_id: ML-WCOS-E
+      title_en: 'Master Lecture · Who Designs a Product—and Who Owns Its Story?'
+      lesson_en: /lessons/en/master-lectures/who-creates-edison/
+      deck_en: /master-lectures/who-creates-edison/
+      status: pilot
+      series: who-creates-who-owns-who-scales
+    - unit_id: ML-WCOS-F
+      title_en: 'Master Lecture · Can We Redesign the Whole System?'
+      lesson_en: /lessons/en/master-lectures/who-creates-fuller/
+      deck_en: /master-lectures/who-creates-fuller/
+      status: pilot
+      series: who-creates-who-owns-who-scales
   sessions_list:
     - session_id: u1-pilot
       unit_id: U1

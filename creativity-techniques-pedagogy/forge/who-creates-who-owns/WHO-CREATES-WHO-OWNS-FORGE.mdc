@@ -1,0 +1,89 @@
+---
+description: Forge contract — Master Lecture series Who Creates, Who Owns, Who Scales? (Edison → Fuller)
+globs: 'docs/lessons/en/master-lectures/who-creates-*/**,docs/tracks/en/uem/2627-ml/who-creates-*/**,creativity-techniques-pedagogy/forge/who-creates-who-owns/**'
+alwaysApply: false
+---
+
+# WHO CREATES, WHO OWNS, WHO SCALES? — Master Lecture forge
+
+**Series brief:** [`SERIES.md`](./SERIES.md)  
+**Execute:** [`WHO-CREATES-WHO-OWNS.execute.md`](./WHO-CREATES-WHO-OWNS.execute.md)  
+**Visuals:** `../grounding/who-creates-who-owns/visual-resources.json`  
+**Sibling pattern:** `CREATIVE-PROCESS-ANALYSIS-FORGE.mdc` (master lecture surface)
+
+## Product
+
+Two Master Lectures (EN):
+
+| Artifact | Path |
+| --- | --- |
+| Lesson 1 | `docs/lessons/en/master-lectures/who-creates-edison/` |
+| Deck 1 | `docs/tracks/en/uem/2627-ml/who-creates-edison/` + `data/content.json` + include |
+| Lesson 2 | `docs/lessons/en/master-lectures/who-creates-fuller/` |
+| Deck 2 | `docs/tracks/en/uem/2627-ml/who-creates-fuller/` |
+| Index wire | `docs/lessons/en/master-lectures/index.md` + `docs/_data/tracks.yml` `master_lectures` |
+| Professor briefs | `session-prompts/who-creates-edison.md` · `who-creates-fuller.md` |
+
+Not CONTENIDOS units. Hook **C3 GenAI authorship** + labour (C2) via political-economy level. Reuse Analysis triad (language / medium / support) on *product stories*.
+
+## Method law (student-facing)
+
+Five evidence categories (Lesson 1):
+
+| Category | Evidence |
+| --- | --- |
+| Technical contribution | Drawings, prototypes, experiments |
+| Collaborative labor | Lab records, roles, correspondence |
+| Legal ownership | Patents, assignments, licenses, courts |
+| Financial control | Investment, equity, mergers |
+| Public attribution | Ads, biographies, museums |
+
+Three levels (both lessons): **artifact · system · political economy**.
+
+Five Edison case groups (attribution investigations, not “five thefts”):
+
+1. Incandescent lighting (system beyond the bulb).
+2. Phonograph (stronger Edison contribution case — do not erase it).
+3. Motion pictures (Dickson; Kinetoscope vs projection).
+4. Radio (**counterexample** — not an Edison invention claim).
+5. Motion Picture Patents Company (market organization / access).
+
+Lesson 2: same questions of Fuller; vocabulary lab (synergy, integrity ≠ tensegrity, ephemeralization, comprehensive design); housing stakeholders; Edison–Fuller matrix; “Dymaxion Without a Genius”; software transfer (specific product + claim).
+
+## Grounding
+
+- Discover in vectors (`profield-creativity-techniques`); **cite Ahmes nodes only** when evaluator_safe.
+- Csikszentmihalyi 1996 + Norman 2013 are available bridges.
+- Schumpeter / Fuller primaries / Simon / Edison research PDF: **BIBLIO-GAP** until vaulted + page-verified.
+- Publication firewall: no Ahmes/DevIAC/Athanor names in student HTML.
+
+## Deck spine (master-lecture lean)
+
+```text
+C  unit_cover
+A  analysis_opener          geometrical (three levels)
+A+ analysis_model           five evidence categories (Edison) or vocabulary lab (Fuller)
+1… Masterclass ≤ 6
+N  lab_opener               geometrical
+N+1…N+2  two lab_exercise (link public exercises when forged)
+Z  outro                    geometrical
+```
+
+Pass-1: geometrical / course diagram backgrounds until visual catalog assets are curated (`rights_status`). Do not publish flagged US-PD-only images as “public domain” for Spain classroom without EU term check.
+
+## Lab / exercises
+
+Prefer forged public exercises:
+
+- Lesson 1 Lab: authorship map + value-flow map; counter-design ownership.
+- Lesson 2 Lab: stakeholder housing brief; Dymaxion-without-genius.
+- Bridge dossier (between lessons) and final comparative assignment live in lesson prose + professor brief.
+
+Until new exercises ship: temporary in-lesson Lab cards that match the future `exercises/*.yml` IDs.
+
+## Done when
+
+1. Both lessons + decks render; master-lectures index + tracks.yml wired.
+2. Cold review #1 → amends → cold review #2.
+3. `npm run verify:publication` clean on student HTML.
+4. Receipt next to execute file.

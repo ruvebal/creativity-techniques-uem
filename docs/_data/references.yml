@@ -214,6 +214,15 @@ park-2025:
     Park, Hyunyim. 2025. “Generative AI in Studio-Based Design Education: Human–AI Relationships,
     Collaboration and Assessment.” IASDR 2025. https://doi.org/10.21606/iasdr.2025.845.
 
+robb-2024:
+  sort: "Robb 2024"
+  year: 2024
+  edition_used: "Journal book review (publisher PDF, printed pages 242–245)."
+  chicago: >-
+    Robb, George. 2024. Review of *Seduced by the Light: The Mina Miller Edison Story*, by Alexandra
+    Rimer. *New Jersey Studies: An Interdisciplinary Journal* 10 (2): 242–45.
+    [https://doi.org/10.14713/njs.v10i2.367](https://doi.org/10.14713/njs.v10i2.367).
+
 rubin-2023:
   edition_note: "EPUB."
   sort: "Rubin 2023"

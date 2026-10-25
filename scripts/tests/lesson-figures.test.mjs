@@ -83,6 +83,8 @@ const lessonFiles = [
   'docs/lessons/en/creativity-techniques/u-2-idea-generation-selection/index.md',
   'docs/lessons/en/creativity-techniques/u-3-development-solutions/index.md',
   'docs/lessons/en/master-lectures/creative-process-analysis/index.md',
+  'docs/lessons/en/master-lectures/who-creates-edison/index.md',
+  'docs/lessons/en/master-lectures/who-creates-fuller/index.md',
 ];
 
 const decode = (s) => s.replaceAll('&quot;', '"').replaceAll('&#39;', "'").replaceAll('&amp;', '&');
