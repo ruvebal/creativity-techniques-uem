@@ -64,6 +64,7 @@ exclude:
   - _research
   - student-project-template
   - creativity-techniques-pedagogy
+  - "*.visual-check.json"
 
 plugins:
   - jekyll-seo-tag
