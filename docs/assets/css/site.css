@@ -800,13 +800,14 @@ html.dark,
 .prose ol {
 	padding-left: 1.25rem;
 }
+/* Fit the page measure. Wrap on whole words — do not grow past the column
+ * (max-content + clipped parent was cutting “What to do” cells on narrow viewports). */
 .prose table {
-	display: block; /* intrinsic: allow horizontal scrolling if needed */
-	inline-size: max-content;
-	min-inline-size: 100%;
-	max-inline-size: none;
-	overflow-x: auto;
-	-webkit-overflow-scrolling: touch;
+	display: table;
+	width: 100%;
+	max-width: 100%;
+	table-layout: fixed;
+	border-collapse: collapse;
 	border: 1px solid var(--border-light);
 	border-radius: 8px;
 	background: var(--bg);
@@ -824,11 +825,15 @@ html.dark,
 	text-align: left;
 	vertical-align: top;
 	border-bottom: 1px solid var(--border-light);
-	/* Preserve whole words. Wide tables scroll; they do not force syllable-level wraps. */
+	/* Whole-word wrap only — never mid-syllable break-all. */
 	word-break: normal;
-	overflow-wrap: normal;
+	overflow-wrap: break-word;
 	hyphens: none;
 	white-space: normal;
+	min-width: 0;
+}
+.prose table a {
+	overflow-wrap: break-word;
 }
 .prose table th {
 	font-weight: 700;
