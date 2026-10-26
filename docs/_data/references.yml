@@ -40,6 +40,15 @@ buchanan-1992:
     Buchanan, Richard. 1992. “Wicked Problems in Design Thinking.” *Design Issues* 8 (2): 5–21.
     [https://doi.org/10.2307/1511637](https://doi.org/10.2307/1511637).
 
+brookes-mould-squire-2026:
+  sort: "Brookes Mould Squire 2026"
+  year: 2026
+  edition_used: "Publisher PDF; lessons cite the article folios 1–n (running footer), not the article number 107421."
+  chicago: >-
+    Brookes, Edward, Oli Mould, and Rachael Squire. 2026. “A Fuller City: Rekindling the Work of
+    Buckminster Fuller in the Age of Planetary Urban Crisis.” *Cities* 179: 107421.
+    [https://doi.org/10.1016/j.cities.2026.107421](https://doi.org/10.1016/j.cities.2026.107421).
+
 chen-2011:
   sort: "Chen 2011"
   year: 2011
@@ -126,6 +135,29 @@ fisher-2004:
     Creativity across the Curriculum*, edited by Robert Fisher and Mary Williams, 6–20. London:
     David Fulton.
 
+fuller-1969:
+  sort: "Fuller 1969"
+  year: 1969
+  edition_used: "PDF whose title page prints 1969; lessons cite the printed folios (•1•, •2•, …). Publisher is not printed on this scan."
+  chicago: >-
+    Fuller, R. Buckminster. 1969. *Operating Manual for Spaceship Earth*.
+
+fuller-1975-synergetics:
+  sort: "Fuller 1975"
+  year: 1975
+  edition_used: "1997 Estate digital text of the Macmillan edition first published 1975; this scan has no printed folios, so lessons cite Fuller’s section numbers (e.g. 101.01, 250.41)."
+  chicago: >-
+    Fuller, R. Buckminster. 1975. *Synergetics: Explorations in the Geometry of Thinking*.
+    In collaboration with E. J. Applewhite. Macmillan Publishing Co. Inc.
+
+fuller-1979-synergetics-2:
+  sort: "Fuller 1979"
+  year: 1979
+  edition_used: "1979 Macmillan printing (ISBN 0-02-541880-7 on the copyright page); lessons cite the printed folios, not PDF page numbers."
+  chicago: >-
+    Fuller, R. Buckminster. 1979. *Synergetics 2: Explorations in the Geometry of Thinking*.
+    In collaboration with E. J. Applewhite. New York: Macmillan Publishing Co., Inc.
+
 huppauf-wulf-2009:
   sort: "Huppauf Wulf 2009"
   year: 2009
@@ -175,6 +207,15 @@ lamott-2007:
   edition_used: "Anchor Books e-book edition; cited page numbers follow the printed folios."
   chicago: >-
     Lamott, Anne. 2007. *Bird by Bird: Some Instructions on Writing and Life*. New York: Anchor Books.
+
+lee-2023:
+  sort: "Lee 2023"
+  year: 2023
+  edition_used: "Journal of Student Research PDF; lessons cite the printed page numbers."
+  chicago: >-
+    Lee, Blake. 2023. “The Dymaxion Dwelling Machine: R. Buckminster Fuller’s Vision to House All
+    of Humanity.” *Journal of Student Research* 12 (1).
+    [https://doi.org/10.47611/jsrhs.v12i1.4298](https://doi.org/10.47611/jsrhs.v12i1.4298).
 
 kieran-2018:
   sort: "Kieran 2018"
@@ -275,6 +316,15 @@ schon-1983:
   chicago: >-
     Schön, Donald A. 1983. *The Reflective Practitioner: How Professionals Think in Action*. New York:
     Basic Books.
+
+serra-soriano-meri-diaz-2025:
+  sort: "Serra Soriano Meri Diaz 2025"
+  year: 2025
+  edition_used: "VLC arquitectura PDF; lessons cite the journal folios 133–153, not PDF page numbers."
+  chicago: >-
+    Serra Soriano, Bartolomé, Ricardo Merí de la Maza, and Alfonso Díaz Segura. 2025. “Las viviendas
+    de Buckminster Fuller: tiempo, geometría y energía.” *VLC arquitectura* 12 (1): 133–53.
+    [https://doi.org/10.4995/vlc.2025.21082](https://doi.org/10.4995/vlc.2025.21082).
 
 wong-2009:
   sort: "Wong Galinsky Kray 2009"

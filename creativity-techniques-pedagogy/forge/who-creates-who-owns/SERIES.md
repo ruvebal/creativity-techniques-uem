@@ -44,7 +44,7 @@ Investigate — do not assume commercial success proves originality, or that bui
   Source path: `~/Downloads/export_7506882957666948587.pdf`. Six pages; secondary web footnotes — **not** Ahmes nodes. Case claims stay course-method / professor-brief until Ahmes-batched and page-verified.
 - **Profield OA tranche (DONE 2026-10-25):** `~/src/profield/runs/creativity-techniques/20261025-who-creates-who-owns/`
   11 OA PDFs → Ahmes 11/0/0 (+ semantic) → 11 coats → DevIAC + Athanor inject under `profield-creativity-techniques`. See run `RECEIPT.md` + `PENDING-procurement.md`.
-- **Operator PDF tranche (2026-10-26):** Lissoni et al. 2013 and Langlois 2007 extracted, coated evaluator_safe=yes, injected CT, pinned on the cycle page. Fuller *Operating Manual*, Brookes 2026, Serra 2025, Lee 2023 extracted and injected, coats unsafe (not pinned). *Synergetics* 1–2 still extracting. Mondrian files already in `mondrian-project` — not this run.
+- **Operator PDF tranche (2026-10-26):** Lissoni et al. 2013 and Langlois 2007 extracted, coated evaluator_safe=yes, injected CT, pinned on the cycle page. Fuller *Operating Manual* 1969 (pdf_info year from title page), Brookes/Mould/Squire 2026 (DOI 10.1016/j.cities.2026.107421), Serra et al. 2025 (DOI 10.4995/vlc.2025.21082), Lee 2023 (DOI 10.47611/jsrhs.v12i1.4298), *Synergetics* 1975 (section cites) and *Synergetics 2* 1979 (printed folio 175; copyright page, not the 1983 filename) now evaluator_safe=yes and pinned. Mondrian files already in `mondrian-project` — not this run.
   **Resolver truth (cycle 2):** verify-batch labelled 4 coats “safe”, but `ahmes query --cite --require-evaluator-safe` passes **only Robb 2024** (`71227d15`). Phonograph *Nature* 1878 (`3dd15828`), Beyond Einstein and Edison (`806a22bd`), and the X-ray biography (`3cfe2d56`) carry slug metadata (conf 0.60); `enrich --force-meta --online` recovered no DOI. Discovery only.
 - Student prose: teach **method** + investigation briefs; public Chicago pins only for page-verified works (Csikszentmihalyi 1996, Norman 2013, Robb 2024 in Lesson 1). No fake Edison primary cites.
 
@@ -53,8 +53,8 @@ Investigate — do not assume commercial success proves originality, or that bui
 | Work | Role | Vault status (CT slug) |
 | --- | --- | --- |
 | Schumpeter, *Theory of Economic Development* | Combinations / industrial change | BIBLIO-GAP |
-| Fuller, *Operating Manual for Spaceship Earth* | Primary ambitions/assumptions | BIBLIO-GAP |
-| Fuller, *Synergetics* | Vocabulary laboratory | BIBLIO-GAP |
+| Fuller, *Operating Manual for Spaceship Earth* | Primary ambitions/assumptions | Available (`fuller-1969` / coat `8cf35173`; printed folios) |
+| Fuller, *Synergetics* (1975) and *Synergetics 2* (1979) | Vocabulary laboratory | Available (`fuller-1975-synergetics` / `d86aca34` section numbers; `fuller-1979-synergetics-2` / `318a6518` printed folios) |
 | Simon, *Sciences of the Artificial* | Design problem ↔ solution | BIBLIO-GAP |
 | Csikszentmihalyi, *Creativity* (1996) | Individual vs systems accounts | Available (`csikszentmihalyi-1996` / coat `35dcf3a7`) |
 | Alexander, *Notes on the Synthesis of Form* | Interacting requirements | Special-analysis gap / verify before cite |
