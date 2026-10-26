@@ -44,6 +44,7 @@ Investigate — do not assume commercial success proves originality, or that bui
   Source path: `~/Downloads/export_7506882957666948587.pdf`. Six pages; secondary web footnotes — **not** Ahmes nodes. Case claims stay course-method / professor-brief until Ahmes-batched and page-verified.
 - **Profield OA tranche (DONE 2026-10-25):** `~/src/profield/runs/creativity-techniques/20261025-who-creates-who-owns/`
   11 OA PDFs → Ahmes 11/0/0 (+ semantic) → 11 coats → DevIAC + Athanor inject under `profield-creativity-techniques`. See run `RECEIPT.md` + `PENDING-procurement.md`.
+- **Operator PDF tranche (2026-10-26):** Lissoni et al. 2013 and Langlois 2007 extracted, coated evaluator_safe=yes, injected CT, pinned on the cycle page. Fuller *Operating Manual*, Brookes 2026, Serra 2025, Lee 2023 extracted and injected, coats unsafe (not pinned). *Synergetics* 1–2 still extracting. Mondrian files already in `mondrian-project` — not this run.
   **Resolver truth (cycle 2):** verify-batch labelled 4 coats “safe”, but `ahmes query --cite --require-evaluator-safe` passes **only Robb 2024** (`71227d15`). Phonograph *Nature* 1878 (`3dd15828`), Beyond Einstein and Edison (`806a22bd`), and the X-ray biography (`3cfe2d56`) carry slug metadata (conf 0.60); `enrich --force-meta --online` recovered no DOI. Discovery only.
 - Student prose: teach **method** + investigation briefs; public Chicago pins only for page-verified works (Csikszentmihalyi 1996, Norman 2013, Robb 2024 in Lesson 1). No fake Edison primary cites.
 

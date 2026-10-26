@@ -142,6 +142,24 @@ kimbell-2011:
     Kimbell, Lucy. 2011. “Rethinking Design Thinking: Part I.” *Design and Culture* 3 (3): 285–306.
     [https://doi.org/10.2752/175470811X13071166525216](https://doi.org/10.2752/175470811X13071166525216).
 
+langlois-2007:
+  sort: "Langlois 2007"
+  year: 2007
+  edition_used: "Routledge PDF of the Graz Schumpeter Lectures; lessons cite the printed folios (chapter running heads), not PDF page numbers."
+  chicago: >-
+    Langlois, Richard N. 2007. *The Dynamics of Industrial Capitalism: Schumpeter, Chandler, and the
+    New Economy*. London: Routledge.
+
+lissoni-montobbio-zirulia-2013:
+  sort: "Lissoni Montobbio Zirulia 2013"
+  year: 2013
+  edition_used: "Publisher PDF; lessons cite the journal folios 49–69."
+  chicago: >-
+    Lissoni, Francesco, Fabio Montobbio, and Lorenzo Zirulia. 2013. “Inventorship and Authorship as
+    Attribution Rights: An Enquiry into the Economics of Scientific Credit.” *Journal of Economic
+    Behavior & Organization* 95: 49–69.
+    [https://doi.org/10.1016/j.jebo.2013.08.016](https://doi.org/10.1016/j.jebo.2013.08.016).
+
 knapp-2016:
   edition_note: "EPUB."
   sort: "Knapp Zeratsky Kowitz 2016"
