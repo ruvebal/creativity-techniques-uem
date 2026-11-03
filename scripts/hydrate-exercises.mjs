@@ -202,6 +202,7 @@ ${graphicFigure(graphics[ex.id])}
 <li><a href="#steps">Steps</a></li>
 <li><a href="#source">Source</a></li>
 <li><a href="#portfolio">Portfolio</a></li>
+<li><a href="#references">References</a></li>
 </ul>
 </nav>
 <section class="field-index__section" id="requirements">
@@ -245,12 +246,16 @@ ${adaptation ? `<p class="exercise-note"><em>Classroom note.</em> ${esc(adaptati
 ${judged ? `<p class="field-card__meta">Judged by: ${esc(judged)}</p>` : ''}
 </article>
 </section>
+<section class="field-index__section" id="references">
+<article class="field-card field-card--exercise field-card--references">
+<h2 class="field-card__title">References</h2>
+{% include references.html %}
+</article>
+</section>
 <footer class="field-index__related">
 <p><a href="{{ '/exercises/en/' | relative_url }}">All exercises</a> · <a href="{{ '/lessons/en/creativity-techniques/' | relative_url }}">Lessons</a> · <a href="{{ '/methods/en/' | relative_url }}">Methods</a></p>
 </footer>
 </div>
-<h2 id="references">References</h2>
-{% include references.html %}
 `;
 }
 
@@ -321,9 +326,13 @@ ${cards}
 <footer class="field-index__related">
 <p>Also see <a href="{{ '/lessons/en/creativity-techniques/' | relative_url }}">Lessons</a> · <a href="{{ '/methods/en/' | relative_url }}">Methods</a> · <a href="{{ '/lexicum/en/' | relative_url }}">Lexicum</a> · <a href="{{ '/directory/en/' | relative_url }}">Directory</a>.</p>
 </footer>
-</div>
-<h2 id="references">References</h2>
+<section class="field-index__section field-index__references" id="references">
+<article class="field-card field-card--exercise field-card--references">
+<h2 class="field-card__title">References</h2>
 {% include references.html %}
+</article>
+</section>
+</div>
 <script defer src="{{ '/assets/js/exercise-filters.js' | relative_url }}"></script>
 `;
 }

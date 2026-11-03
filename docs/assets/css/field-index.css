@@ -212,6 +212,36 @@
 	max-width: 46rem;
 }
 
+.field-card--references {
+	margin-top: 0.25rem;
+	border-top-color: var(--ct-flame-3);
+}
+
+.field-card--references .references-list {
+	margin: 0.65rem 0 0;
+	padding: 0;
+	list-style: none;
+}
+
+.field-card--references .references-list li {
+	padding-left: 1.2rem;
+	text-indent: -1.2rem;
+	line-height: 1.65;
+	font-size: 0.95rem;
+	color: var(--text-secondary);
+}
+
+.field-card--references .references-list li + li {
+	margin-top: 0.85rem;
+	padding-top: 0.75rem;
+	border-top: 1px solid var(--border-light);
+}
+
+.field-card--references .references-list a {
+	text-decoration-thickness: 1px;
+	text-underline-offset: 0.15em;
+}
+
 .field-card--quote {
 	border-top-color: var(--ct-flame-5);
 }
