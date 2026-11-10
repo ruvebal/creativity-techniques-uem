@@ -7,6 +7,17 @@ export function smoothstep(value) {
 	return t * t * (3 - 2 * t);
 }
 
+/**
+ * Zero response in the foveal centre, then a smooth nonlinear rise to the edge.
+ * The returned gain can multiply every pointer-driven channel without changing
+ * its direction.
+ */
+export function fovealResponse(x, y, deadZone = 0.08) {
+	const radius = clamp(Math.hypot(x, y));
+	const normalized = clamp((radius - deadZone) / Math.max(0.001, 1 - deadZone));
+	return { radius, gain: smoothstep(normalized) };
+}
+
 export function springStep(state, target, delta, frequency = 7, damping = 1.04) {
 	const stiffness = frequency * frequency;
 	const drag = 2 * damping * frequency;
@@ -44,15 +55,20 @@ export function projectFacet(facet, viewBox, camera, elapsed, options = {}) {
 	const sinYaw = Math.sin(camera.yaw.value);
 	const cosPitch = Math.cos(camera.pitch.value);
 	const sinPitch = Math.sin(camera.pitch.value);
-	const insetX = options.insetX ?? 5.2;
-	const insetY = options.insetY ?? 4.1;
+	const insetX = options.insetX ?? 2.9;
+	const insetY = options.insetY ?? 2.4;
 	const x1 = x * cosYaw - z * sinYaw * insetX;
 	const z1 = z * cosYaw + x * sinYaw;
 	const y2 = y * cosPitch - z1 * sinPitch * insetY;
 	const z2 = z1 * cosPitch + y * sinPitch;
 	const fov = options.fov ?? 920;
-	const perspectiveStrength = options.perspectiveStrength ?? 0.55;
-	const perspective = fov / Math.max(fov * 0.35, fov + z2 * perspectiveStrength);
+	const perspectiveStrength = options.perspectiveStrength ?? 0.28;
+	const rawPerspective = fov / Math.max(fov * 0.35, fov + z2 * perspectiveStrength);
+	const perspective = clamp(
+		rawPerspective,
+		options.minPerspective ?? 0.94,
+		options.maxPerspective ?? 1.06,
+	);
 	return { x: x1 * perspective, y: y2 * perspective, z: z2, perspective };
 }
 

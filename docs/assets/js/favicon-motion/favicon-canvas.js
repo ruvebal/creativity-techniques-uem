@@ -1,5 +1,6 @@
 import {
 	clamp,
+	fovealResponse,
 	projectFacet,
 	sourceLayerDepth,
 	springAtRest,
@@ -100,7 +101,7 @@ export async function mountFaviconCanvas(host, options = {}) {
 		context.setTransform(dpr, 0, 0, dpr, 0, 0);
 		context.clearRect(0, 0, width, height);
 		// Reserve a small overscan margin so plane travel and near facets do not clip.
-		const fit = Math.min(width / viewBox.width, height / viewBox.height) * (options.fitScale ?? 0.88);
+		const fit = Math.min(width / viewBox.width, height / viewBox.height) * (options.fitScale ?? 0.9);
 		const items = facets.map((facet) => ({
 			facet,
 			projected: projectFacet(facet, viewBox, camera, elapsed, options),
@@ -194,11 +195,12 @@ export async function mountFaviconCanvas(host, options = {}) {
 		const bounds = host.getBoundingClientRect();
 		const x = clamp(((event.clientX - bounds.left) / Math.max(1, bounds.width) - 0.5) * 2, -1, 1);
 		const y = clamp(((event.clientY - bounds.top) / Math.max(1, bounds.height) - 0.5) * 2, -1, 1);
-		target.yaw = x * (options.yawAmplitude ?? 0.115);
-		target.pitch = -y * (options.pitchAmplitude ?? 0.085);
-		target.depth = Math.min(1, Math.hypot(x, y));
-		target.planeX = x * width * (options.planeTravelX ?? 0.052);
-		target.planeY = y * height * (options.planeTravelY ?? 0.04);
+		const response = fovealResponse(x, y, options.fovealDeadZone ?? 0.08);
+		target.yaw = x * response.gain * (options.yawAmplitude ?? 0.07);
+		target.pitch = -y * response.gain * (options.pitchAmplitude ?? 0.052);
+		target.depth = response.gain;
+		target.planeX = x * response.gain * width * (options.planeTravelX ?? 0.042);
+		target.planeY = y * response.gain * height * (options.planeTravelY ?? 0.032);
 		schedule();
 	}
 
@@ -266,6 +268,7 @@ export async function mountFaviconCanvas(host, options = {}) {
 	visibilityObserver.observe(host);
 	host.addEventListener('pointerenter', enter, { passive: true });
 	host.addEventListener('pointermove', move, { passive: true });
+	host.addEventListener('pointerdown', move, { passive: true });
 	host.addEventListener('pointerleave', leave, { passive: true });
 	host.addEventListener('click', hitFacet);
 	resize();
@@ -282,6 +285,7 @@ export async function mountFaviconCanvas(host, options = {}) {
 			visibilityObserver.disconnect();
 			host.removeEventListener('pointerenter', enter);
 			host.removeEventListener('pointermove', move);
+			host.removeEventListener('pointerdown', move);
 			host.removeEventListener('pointerleave', leave);
 			host.removeEventListener('click', hitFacet);
 			signal(false);
