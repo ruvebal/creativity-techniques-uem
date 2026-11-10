@@ -7,8 +7,8 @@ import {
 	springStep,
 	svgScale,
 	svgViewBox,
-} from './math.js?v=20261110-clean-base-depth-7';
-import { buildPalette, staggeredColour, transitionDuration } from './palette.js?v=20261110-clean-base-depth-7';
+} from './math.js?v=20261110-clean-base-depth-8';
+import { buildPalette, staggeredColour, transitionDuration } from './palette.js?v=20261110-clean-base-depth-8';
 
 const SVG_NS = 'http://www.w3.org/2000/svg';
 
@@ -153,11 +153,11 @@ export async function mountFaviconCanvas(host, options = {}) {
 		const delta = Math.min(0.032, Math.max(0.001, (now - previous) / 1000));
 		previous = now;
 		elapsed += delta;
-		springStep(camera.yaw, target.yaw, delta, options.cameraFrequency ?? 7.2);
-		springStep(camera.pitch, target.pitch, delta, options.cameraFrequency ?? 7.2);
-		springStep(camera.depth, target.depth, delta, options.depthFrequency ?? 6.2);
-		springStep(camera.planeX, target.planeX, delta, options.planeFrequency ?? 5.4, options.planeDamping ?? 0.92);
-		springStep(camera.planeY, target.planeY, delta, options.planeFrequency ?? 5.4, options.planeDamping ?? 0.92);
+		springStep(camera.yaw, target.yaw, delta, options.cameraFrequency ?? 4.8, options.cameraDamping ?? 1.08);
+		springStep(camera.pitch, target.pitch, delta, options.cameraFrequency ?? 4.8, options.cameraDamping ?? 1.08);
+		springStep(camera.depth, target.depth, delta, options.depthFrequency ?? 4.2, options.depthDamping ?? 1.08);
+		springStep(camera.planeX, target.planeX, delta, options.planeFrequency ?? 3.8, options.planeDamping ?? 1.04);
+		springStep(camera.planeY, target.planeY, delta, options.planeFrequency ?? 3.8, options.planeDamping ?? 1.04);
 		if (paletteChanging) {
 			paletteTransition.elapsed += delta;
 			if (paletteTransition.elapsed >= paletteTotal) {
@@ -199,10 +199,10 @@ export async function mountFaviconCanvas(host, options = {}) {
 		const centerY = bounds.top + bounds.height / 2;
 		const rawX = clamp((event.clientX - centerX) / Math.max(1, window.innerWidth * 0.5), -1, 1);
 		const rawY = clamp((event.clientY - centerY) / Math.max(1, window.innerHeight * 0.5), -1, 1);
-		const smoothing = options.pointerSmoothing ?? 0.14;
+		const smoothing = options.pointerSmoothing ?? 0.08;
 		filteredPointer.x += (rawX - filteredPointer.x) * smoothing;
 		filteredPointer.y += (rawY - filteredPointer.y) * smoothing;
-		const response = fovealResponse(filteredPointer.x, filteredPointer.y, options.fovealDeadZone ?? 0.16);
+		const response = fovealResponse(filteredPointer.x, filteredPointer.y, options.fovealDeadZone ?? 0.24);
 		target.yaw = filteredPointer.x * response.gain * (options.yawAmplitude ?? 0.07);
 		target.pitch = -filteredPointer.y * response.gain * (options.pitchAmplitude ?? 0.052);
 		target.depth = response.gain;
