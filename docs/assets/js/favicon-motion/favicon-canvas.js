@@ -7,8 +7,8 @@ import {
 	springStep,
 	svgScale,
 	svgViewBox,
-} from './math.js?v=20261110-clean-base-depth-6';
-import { buildPalette, staggeredColour, transitionDuration } from './palette.js?v=20261110-clean-base-depth-6';
+} from './math.js?v=20261110-clean-base-depth-7';
+import { buildPalette, staggeredColour, transitionDuration } from './palette.js?v=20261110-clean-base-depth-7';
 
 const SVG_NS = 'http://www.w3.org/2000/svg';
 
@@ -83,6 +83,7 @@ export async function mountFaviconCanvas(host, options = {}) {
 	let elapsed = 0;
 	let drawOrder = [];
 	const target = { yaw: 0, pitch: 0, depth: 0, planeX: 0, planeY: 0 };
+	const filteredPointer = { x: 0, y: 0 };
 	const camera = {
 		yaw: { value: 0, velocity: 0 },
 		pitch: { value: 0, velocity: 0 },
@@ -196,14 +197,17 @@ export async function mountFaviconCanvas(host, options = {}) {
 		const bounds = host.getBoundingClientRect();
 		const centerX = bounds.left + bounds.width / 2;
 		const centerY = bounds.top + bounds.height / 2;
-		const x = clamp((event.clientX - centerX) / Math.max(1, window.innerWidth * 0.5), -1, 1);
-		const y = clamp((event.clientY - centerY) / Math.max(1, window.innerHeight * 0.5), -1, 1);
-		const response = fovealResponse(x, y, options.fovealDeadZone ?? 0.08);
-		target.yaw = x * response.gain * (options.yawAmplitude ?? 0.07);
-		target.pitch = -y * response.gain * (options.pitchAmplitude ?? 0.052);
+		const rawX = clamp((event.clientX - centerX) / Math.max(1, window.innerWidth * 0.5), -1, 1);
+		const rawY = clamp((event.clientY - centerY) / Math.max(1, window.innerHeight * 0.5), -1, 1);
+		const smoothing = options.pointerSmoothing ?? 0.14;
+		filteredPointer.x += (rawX - filteredPointer.x) * smoothing;
+		filteredPointer.y += (rawY - filteredPointer.y) * smoothing;
+		const response = fovealResponse(filteredPointer.x, filteredPointer.y, options.fovealDeadZone ?? 0.16);
+		target.yaw = filteredPointer.x * response.gain * (options.yawAmplitude ?? 0.07);
+		target.pitch = -filteredPointer.y * response.gain * (options.pitchAmplitude ?? 0.052);
 		target.depth = response.gain;
-		target.planeX = x * response.gain * width * (options.planeTravelX ?? 0.1);
-		target.planeY = y * response.gain * height * (options.planeTravelY ?? 0.075);
+		target.planeX = filteredPointer.x * response.gain * width * (options.planeTravelX ?? 0.1);
+		target.planeY = filteredPointer.y * response.gain * height * (options.planeTravelY ?? 0.075);
 		schedule();
 	}
 
@@ -212,6 +216,8 @@ export async function mountFaviconCanvas(host, options = {}) {
 	}
 
 	function resetCamera() {
+		filteredPointer.x = 0;
+		filteredPointer.y = 0;
 		target.yaw = 0;
 		target.pitch = 0;
 		target.depth = 0;
