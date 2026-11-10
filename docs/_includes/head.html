@@ -1,3 +1,4 @@
+{% if page.robots %}<meta name="robots" content="{{ page.robots }}">{% endif %}
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>{% if page.title and page.title != site.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>

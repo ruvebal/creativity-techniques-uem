@@ -1,0 +1,8 @@
+neoplasticizer 1.0.0
+source: ~/src/.cursor/skills/neoplasticizer (studio skill; edit there, then re-sync)
+sha256:
+adc10284161a650920f2ea993ece32fcdf768dee9dde7611f4cf585d1e9b7ef1  neoplastic-field.js
+280816b7cee9914743f20769d69c01bca5ab095ec261b786344baa7fd53604b2  neoplastic-grid.js
+9405166f81dae8d44bc14b1ec00e1b80a819bd1d210061cc1171a9dab0ced859  neoplastic-svg.js
+2efd7f1ceeaca18f496244998527b68d331948a13f60ebe4ac571cd862ef8d8a  tilings.json
+e93260bfa5fad3a9185f61df71790315a55cb1b189dc89ce8f030e4dd2bf1723  mondrian-art.json
