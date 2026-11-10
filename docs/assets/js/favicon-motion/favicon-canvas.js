@@ -7,8 +7,8 @@ import {
 	springStep,
 	svgScale,
 	svgViewBox,
-} from './math.js';
-import { buildPalette, staggeredColour, transitionDuration } from './palette.js';
+} from './math.js?v=20261110-viewport-depth-4';
+import { buildPalette, staggeredColour, transitionDuration } from './palette.js?v=20261110-viewport-depth-4';
 
 const SVG_NS = 'http://www.w3.org/2000/svg';
 
@@ -79,7 +79,6 @@ export async function mountFaviconCanvas(host, options = {}) {
 	let frame = 0;
 	let destroyed = false;
 	let visible = true;
-	let pointerActive = false;
 	let previous = performance.now();
 	let elapsed = 0;
 	let drawOrder = [];
@@ -140,6 +139,14 @@ export async function mountFaviconCanvas(host, options = {}) {
 		if (!destroyed && visible && !frame) frame = requestAnimationFrame(tick);
 	}
 
+	function cameraSettled() {
+		return springAtRest(camera.yaw, target.yaw)
+			&& springAtRest(camera.pitch, target.pitch)
+			&& springAtRest(camera.depth, target.depth)
+			&& springAtRest(camera.planeX, target.planeX, 0.01)
+			&& springAtRest(camera.planeY, target.planeY, 0.01);
+	}
+
 	function tick(now) {
 		frame = 0;
 		const delta = Math.min(0.032, Math.max(0.001, (now - previous) / 1000));
@@ -159,12 +166,7 @@ export async function mountFaviconCanvas(host, options = {}) {
 			}
 		}
 		draw();
-		const settled = springAtRest(camera.yaw, target.yaw)
-			&& springAtRest(camera.pitch, target.pitch)
-			&& springAtRest(camera.depth, target.depth)
-			&& springAtRest(camera.planeX, target.planeX, 0.01)
-			&& springAtRest(camera.planeY, target.planeY, 0.01);
-		if (pointerActive || !settled || paletteChanging) schedule();
+		if (!cameraSettled() || paletteChanging) schedule();
 	}
 
 	function resize() {
@@ -186,33 +188,40 @@ export async function mountFaviconCanvas(host, options = {}) {
 	}
 
 	function enter() {
-		pointerActive = true;
 		signal(true);
-		schedule();
 	}
 
 	function move(event) {
+		if (event.isPrimary === false) return;
 		const bounds = host.getBoundingClientRect();
-		const x = clamp(((event.clientX - bounds.left) / Math.max(1, bounds.width) - 0.5) * 2, -1, 1);
-		const y = clamp(((event.clientY - bounds.top) / Math.max(1, bounds.height) - 0.5) * 2, -1, 1);
+		const centerX = bounds.left + bounds.width / 2;
+		const centerY = bounds.top + bounds.height / 2;
+		const x = clamp((event.clientX - centerX) / Math.max(1, window.innerWidth * 0.5), -1, 1);
+		const y = clamp((event.clientY - centerY) / Math.max(1, window.innerHeight * 0.5), -1, 1);
 		const response = fovealResponse(x, y, options.fovealDeadZone ?? 0.08);
 		target.yaw = x * response.gain * (options.yawAmplitude ?? 0.07);
 		target.pitch = -y * response.gain * (options.pitchAmplitude ?? 0.052);
 		target.depth = response.gain;
-		target.planeX = x * response.gain * width * (options.planeTravelX ?? 0.042);
-		target.planeY = y * response.gain * height * (options.planeTravelY ?? 0.032);
+		target.planeX = x * response.gain * width * (options.planeTravelX ?? 0.1);
+		target.planeY = y * response.gain * height * (options.planeTravelY ?? 0.075);
 		schedule();
 	}
 
 	function leave() {
-		pointerActive = false;
+		signal(false);
+	}
+
+	function resetCamera() {
 		target.yaw = 0;
 		target.pitch = 0;
 		target.depth = 0;
 		target.planeX = 0;
 		target.planeY = 0;
-		signal(false);
 		schedule();
+	}
+
+	function leaveViewport(event) {
+		if (!event.relatedTarget) resetCamera();
 	}
 
 	function hitFacet(event) {
@@ -258,7 +267,7 @@ export async function mountFaviconCanvas(host, options = {}) {
 	const resizeObserver = new ResizeObserver(resize);
 	const visibilityObserver = new IntersectionObserver(([entry]) => {
 		visible = entry.isIntersecting;
-		if (visible && (pointerActive || paletteChanging || camera.depth.value > 0.0002)) schedule();
+		if (visible && (paletteChanging || !cameraSettled())) schedule();
 		else if (!visible) {
 			cancelAnimationFrame(frame);
 			frame = 0;
@@ -267,10 +276,12 @@ export async function mountFaviconCanvas(host, options = {}) {
 	resizeObserver.observe(host);
 	visibilityObserver.observe(host);
 	host.addEventListener('pointerenter', enter, { passive: true });
-	host.addEventListener('pointermove', move, { passive: true });
-	host.addEventListener('pointerdown', move, { passive: true });
 	host.addEventListener('pointerleave', leave, { passive: true });
 	host.addEventListener('click', hitFacet);
+	window.addEventListener('pointermove', move, { passive: true });
+	window.addEventListener('pointerdown', move, { passive: true });
+	window.addEventListener('pointerout', leaveViewport, { passive: true });
+	window.addEventListener('blur', resetCamera);
 	resize();
 	draw();
 
@@ -284,10 +295,12 @@ export async function mountFaviconCanvas(host, options = {}) {
 			resizeObserver.disconnect();
 			visibilityObserver.disconnect();
 			host.removeEventListener('pointerenter', enter);
-			host.removeEventListener('pointermove', move);
-			host.removeEventListener('pointerdown', move);
 			host.removeEventListener('pointerleave', leave);
 			host.removeEventListener('click', hitFacet);
+			window.removeEventListener('pointermove', move);
+			window.removeEventListener('pointerdown', move);
+			window.removeEventListener('pointerout', leaveViewport);
+			window.removeEventListener('blur', resetCamera);
 			signal(false);
 			canvas.remove();
 			host.classList.remove('is-canvas-ready');

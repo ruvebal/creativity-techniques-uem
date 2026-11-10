@@ -48,9 +48,11 @@ export function sourceLayerDepth(index, count) {
 export function projectFacet(facet, viewBox, camera, elapsed, options = {}) {
 	const x = facet.x - (viewBox.x + viewBox.width / 2);
 	const y = facet.y - (viewBox.y + viewBox.height / 2);
-	const floatDepth = options.floatDepth ?? 5;
-	const z = facet.z * camera.depth.value
-		+ Math.sin(elapsed * 1.25 + facet.phase) * floatDepth * camera.depth.value;
+	const floatDepth = options.floatDepth ?? 6;
+	const extrusionStrength = options.extrusionStrength ?? 1.55;
+	const z = (
+		facet.z + Math.sin(elapsed * 1.25 + facet.phase) * floatDepth
+	) * camera.depth.value * extrusionStrength;
 	const cosYaw = Math.cos(camera.yaw.value);
 	const sinYaw = Math.sin(camera.yaw.value);
 	const cosPitch = Math.cos(camera.pitch.value);
