@@ -105,6 +105,7 @@ export function createGeometryField(canvas, options) {
 	const reducedQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
 	let reduced = reducedQuery.matches;
 	let active = true;
+	let cameraPaused = false;
 	let destroyed = false;
 	let raf = 0;
 	let nodes = [];
@@ -207,6 +208,7 @@ export function createGeometryField(canvas, options) {
 	}
 
 	function onPointerMove(event) {
+		if (cameraPaused) return;
 		const bounds = options.pointerRoot.getBoundingClientRect();
 		pointerX = (event.clientX - bounds.left) / Math.max(1, bounds.width);
 		pointerY = (event.clientY - bounds.top) / Math.max(1, bounds.height);
@@ -222,6 +224,7 @@ export function createGeometryField(canvas, options) {
 	}
 
 	function onScroll() {
+		if (cameraPaused) return;
 		const bounds = options.pointerRoot.getBoundingClientRect();
 		const position = Math.max(-1, Math.min(1, -bounds.top / Math.max(1, bounds.height)));
 		scrollPitch = position * 0.1;
@@ -255,6 +258,15 @@ export function createGeometryField(canvas, options) {
 	start();
 
 	return {
+		setCameraPaused(next) {
+			cameraPaused = Boolean(next);
+			if (cameraPaused) {
+				pointerActive = false;
+				targetYaw = 0;
+				targetPitch = 0;
+			}
+			return { cameraPaused };
+		},
 		destroy() {
 			destroyed = true;
 			stop();

@@ -9,11 +9,12 @@ lang: en
 	class="hero-section hero-section--archive hero-section--hub"
 	aria-labelledby="hero-title">
 	<div class="max-w-4xl mx-auto text-center px-4 py-12 hero-section__inner">
-		<img
-			src="{{ '/assets/icons/favicon.svg' | relative_url }}"
-			alt=""
-			class="w-24 h-24 mx-auto mb-6"
-			aria-hidden="true" />
+		<span
+			id="favicon-hero-icon"
+			class="favicon-canvas-25d w-24 h-24 mx-auto mb-6"
+			data-favicon-src="{{ '/assets/icons/favicon.svg' | relative_url }}?v=20261110-canvas">
+			<img src="{{ '/assets/icons/favicon.svg' | relative_url }}?v=20261110-canvas" alt="" aria-hidden="true" />
+		</span>
 		<h1 id="hero-title" class="text-4xl md:text-5xl font-bold mb-3">
 			Creativity Techniques
 		</h1>
@@ -38,6 +39,13 @@ lang: en
 		</p>
 	</div>
 </section>
+
+<script type="module">
+	import { mountFaviconCanvas } from '{{ '/assets/js/favicon-canvas-25d.js' | relative_url }}?v=20261110-plane-depth-1';
+	mountFaviconCanvas(document.getElementById('favicon-hero-icon')).catch((error) => {
+		console.warn('[favicon-canvas-25d] Static SVG fallback retained.', error);
+	});
+</script>
 
 <section class="ct-hub max-w-5xl mx-auto py-12 px-4 grid md:grid-cols-2 gap-8" aria-label="Main sections">
 	<article class="ct-hub-card">

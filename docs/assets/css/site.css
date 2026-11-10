@@ -3418,3 +3418,44 @@ main#main:has(.lesson-wrapper) {
 		border-color: #555 !important;
 	}
 }
+
+/* SVG-derived favicon Canvas: exact frontal rest, inertial plane travel, facet depth. */
+.favicon-canvas-25d {
+	position: relative;
+	display: grid;
+	place-items: center;
+	isolation: isolate;
+}
+
+.favicon-canvas-25d.is-canvas-ready {
+	cursor: pointer;
+	touch-action: manipulation;
+}
+
+.favicon-canvas-25d > img,
+.favicon-canvas-25d__surface {
+	grid-area: 1 / 1;
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.favicon-canvas-25d__surface {
+	z-index: 1;
+	pointer-events: none;
+}
+
+.favicon-canvas-25d > img {
+	transition: opacity 120ms ease;
+}
+
+.favicon-canvas-25d.is-canvas-ready > img {
+	opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.favicon-canvas-25d > img {
+		transition: none;
+	}
+}
