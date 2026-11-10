@@ -12,8 +12,8 @@ lang: en
 		<span
 			id="favicon-hero-icon"
 			class="favicon-canvas-25d w-24 h-24 mx-auto mb-6"
-			data-favicon-src="{{ '/assets/icons/favicon.svg' | relative_url }}?v=20261110-canvas">
-			<img src="{{ '/assets/icons/favicon.svg' | relative_url }}?v=20261110-canvas" alt="" aria-hidden="true" />
+			data-favicon-src="{{ '/assets/icons/favicon.svg' | relative_url }}?v=20261110-clean-base-6">
+			<img src="{{ '/assets/icons/favicon.svg' | relative_url }}?v=20261110-clean-base-6" alt="" aria-hidden="true" />
 		</span>
 		<h1 id="hero-title" class="text-4xl md:text-5xl font-bold mb-3">
 			Creativity Techniques
@@ -41,7 +41,7 @@ lang: en
 </section>
 
 <script type="module">
-	import { mountFaviconCanvas } from '{{ '/assets/js/favicon-canvas-25d.js' | relative_url }}?v=20261110-viewport-depth-4';
+	import { mountFaviconCanvas } from '{{ '/assets/js/favicon-canvas-25d.js' | relative_url }}?v=20261110-clean-base-depth-6';
 	mountFaviconCanvas(document.getElementById('favicon-hero-icon')).catch((error) => {
 		console.warn('[favicon-canvas-25d] Static SVG fallback retained.', error);
 	});

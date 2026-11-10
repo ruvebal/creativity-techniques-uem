@@ -7,8 +7,8 @@ import {
 	springStep,
 	svgScale,
 	svgViewBox,
-} from './math.js?v=20261110-viewport-depth-4';
-import { buildPalette, staggeredColour, transitionDuration } from './palette.js?v=20261110-viewport-depth-4';
+} from './math.js?v=20261110-clean-base-depth-6';
+import { buildPalette, staggeredColour, transitionDuration } from './palette.js?v=20261110-clean-base-depth-6';
 
 const SVG_NS = 'http://www.w3.org/2000/svg';
 

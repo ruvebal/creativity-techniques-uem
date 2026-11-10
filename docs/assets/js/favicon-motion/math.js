@@ -49,7 +49,7 @@ export function projectFacet(facet, viewBox, camera, elapsed, options = {}) {
 	const x = facet.x - (viewBox.x + viewBox.width / 2);
 	const y = facet.y - (viewBox.y + viewBox.height / 2);
 	const floatDepth = options.floatDepth ?? 6;
-	const extrusionStrength = options.extrusionStrength ?? 1.55;
+	const extrusionStrength = options.extrusionStrength ?? 2.1;
 	const z = (
 		facet.z + Math.sin(elapsed * 1.25 + facet.phase) * floatDepth
 	) * camera.depth.value * extrusionStrength;

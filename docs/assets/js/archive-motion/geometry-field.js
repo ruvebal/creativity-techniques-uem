@@ -213,8 +213,8 @@ export function createGeometryField(canvas, options) {
 		pointerX = (event.clientX - bounds.left) / Math.max(1, bounds.width);
 		pointerY = (event.clientY - bounds.top) / Math.max(1, bounds.height);
 		pointerActive = true;
-		targetYaw = (pointerX - 0.5) * 0.28;
-		targetPitch = (pointerY - 0.5) * -0.18;
+		targetYaw = (pointerX - 0.5) * 0.09;
+		targetPitch = (pointerY - 0.5) * -0.055;
 	}
 
 	function onPointerLeave() {
