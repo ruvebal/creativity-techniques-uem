@@ -120,8 +120,29 @@ export function createGeometryField(canvas, options) {
 	let targetPitch = 0;
 	let pointerX = 0.5;
 	let pointerY = 0.5;
+	let targetPointerX = 0.5;
+	let targetPointerY = 0.5;
 	let pointerActive = false;
 	let scrollPitch = 0;
+	const neutralRoot = options.neutralRoot || null;
+
+	function neutralPoint() {
+		if (!neutralRoot?.getBoundingClientRect) return { x: 0.5, y: 0.5 };
+		const root = options.pointerRoot.getBoundingClientRect();
+		const focal = neutralRoot.getBoundingClientRect();
+		return {
+			x: (focal.left + focal.width * 0.5 - root.left) / Math.max(1, root.width),
+			y: (focal.top + focal.height * 0.5 - root.top) / Math.max(1, root.height),
+		};
+	}
+
+	function neutralResponse(neutral) {
+		const distance = Math.hypot(pointerX - neutral.x, pointerY - neutral.y);
+		const deadZone = options.neutralDeadZone ?? 0.045;
+		const full = Math.max(deadZone + 0.001, options.neutralFullResponse ?? 0.42);
+		const t = Math.max(0, Math.min(1, (distance - deadZone) / (full - deadZone)));
+		return t * t * (3 - 2 * t);
+	}
 
 	function resize() {
 		const bounds = canvas.getBoundingClientRect();
@@ -153,6 +174,15 @@ export function createGeometryField(canvas, options) {
 		const delta = Math.min(0.05, (now - previous) / 1000);
 		previous = now;
 		if (!still && !reduced) elapsed += delta;
+		const pointerEase = 1 - Math.exp(-delta * (options.pointerFollow ?? 4.2));
+		pointerX += (targetPointerX - pointerX) * pointerEase;
+		pointerY += (targetPointerY - pointerY) * pointerEase;
+		const neutral = neutralPoint();
+		const gravityGain = neutralResponse(neutral);
+		if (pointerActive) {
+			targetYaw = (pointerX - neutral.x) * gravityGain * 0.09;
+			targetPitch = (pointerY - neutral.y) * gravityGain * -0.055;
+		}
 		const ease = 1 - Math.exp(-delta * 4.8);
 		yaw += (targetYaw - yaw) * ease;
 		pitch += (targetPitch + scrollPitch - pitch) * ease;
@@ -169,7 +199,10 @@ export function createGeometryField(canvas, options) {
 			const node = entry.node;
 			const probe = project(node.x, node.y, node.z, yaw, pitch, options.fov, width / 2, height / 2);
 			const distance = Math.hypot(probe.x - pointerX * width, probe.y - pointerY * height);
-			const pulse = pointerActive ? Math.exp(-(distance * distance) / 36000) : 0;
+			const targetPulse = pointerActive ? Math.exp(-(distance * distance) / 36000) * gravityGain : 0;
+			const pulseEase = 1 - Math.exp(-delta * (options.geometryFollow ?? 3.6));
+			node.pulse = (node.pulse || 0) + (targetPulse - (node.pulse || 0)) * pulseEase;
+			const pulse = node.pulse;
 			const { centre, points } = polygon(node, yaw, pitch, pulse);
 			if (centre.x < -140 || centre.x > width + 140 || centre.y < -140 || centre.y > height + 140) continue;
 			const color = palette[node.color] || palette[0];
@@ -208,19 +241,14 @@ export function createGeometryField(canvas, options) {
 	}
 
 	function onPointerMove(event) {
-		if (cameraPaused) return;
 		const bounds = options.pointerRoot.getBoundingClientRect();
-		pointerX = (event.clientX - bounds.left) / Math.max(1, bounds.width);
-		pointerY = (event.clientY - bounds.top) / Math.max(1, bounds.height);
+		targetPointerX = Math.max(0, Math.min(1, (event.clientX - bounds.left) / Math.max(1, bounds.width)));
+		targetPointerY = Math.max(0, Math.min(1, (event.clientY - bounds.top) / Math.max(1, bounds.height)));
 		pointerActive = true;
-		targetYaw = (pointerX - 0.5) * 0.09;
-		targetPitch = (pointerY - 0.5) * -0.055;
 	}
 
 	function onPointerLeave() {
-		pointerActive = false;
-		targetYaw = 0;
-		targetPitch = 0;
+		// Retain the last meaningful position; event silence is not centre input.
 	}
 
 	function onScroll() {
@@ -260,11 +288,6 @@ export function createGeometryField(canvas, options) {
 	return {
 		setCameraPaused(next) {
 			cameraPaused = Boolean(next);
-			if (cameraPaused) {
-				pointerActive = false;
-				targetYaw = 0;
-				targetPitch = 0;
-			}
 			return { cameraPaused };
 		},
 		destroy() {
