@@ -1,3 +1,4 @@
+{% if page.robots %}<meta name="robots" content="{{ page.robots }}">{% endif %}
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>{% if page.title and page.title != site.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
@@ -12,7 +13,7 @@
 <meta name="theme-color" content="#1a0a0c" />
 
 <link rel="stylesheet" href="{{ '/assets/css/tailwind-processed.css' | relative_url }}" />
-<link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}?v=20261110-favicon-motion-2" />
+<link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}?v=20261110-intrinsic-hero-1" />
 <script src="{{ '/assets/js/site-menu.js' | relative_url }}?v=site-menu-3" defer></script>
 <link rel="stylesheet" href="{{ '/assets/css/field-index.css' | relative_url }}?v=references-card-1" />
 <!-- Print Stylesheet -->

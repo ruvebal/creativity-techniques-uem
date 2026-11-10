@@ -1,0 +1,69 @@
+---
+layout: default
+title: "Neoplastic hero lab"
+description: "Three hero variants: Duijvestijn's squared square as a fractal, in this course's palette."
+lang: en
+robots: noindex
+sitemap: false
+hide_site_hero: true
+---
+<div class="np-lab" style="--np-red:#ff7119;--np-yellow:#ffdc19;--np-blue:#0050b3;--np-black:#fff7ec;--np-white:#1a0a0c;--np-line:#fff7ec;">
+<header class="np-lab__intro">
+<p class="np-hero__kicker">Creativity Techniques (UEM) · lab</p>
+<h1 class="np-lab__title">Neoplastic hero lab</h1>
+<p>Instead of hexagons or triangles, this hero field is a perfect squared square: 21 squares, no two equal, filling a square of side 112 (Duijvestijn, 1978). Every ground plane can open into the whole. Three modes, one geometry, this course's colours.</p>
+<ul class="np-lab__toc" aria-label="Variants">
+<li><a href="#planes">Creativity Techniques</a></li>
+<li><a href="#descent">Every plane holds the whole</a></li>
+<li><a href="#focus">The grid opens where you look</a></li>
+</ul>
+</header>
+{% include neoplastic-hero.html id="planes" mode="planes" kicker="Variant 1 · Relief" title="Creativity Techniques" lede="Generation, selection, and development of ideas in design." twin="/assets/images/neoplastic/hero-twin-16aea0180cab.svg" %}
+{% include neoplastic-hero.html id="descent" mode="descent" kicker="Variant 2 · Descent" title="Every plane holds the whole" lede="An endless zoom into the ground planes: when one fills the frame, it is the whole square again." twin="/assets/images/neoplastic/hero-twin-16aea0180cab.svg" %}
+{% include neoplastic-hero.html id="focus" mode="focus" kicker="Variant 3 · Foveal" title="The grid opens where you look" lede="Level of detail follows the pointer and settles where you are not looking." twin="/assets/images/neoplastic/hero-twin-16aea0180cab.svg" %}
+<aside class="np-lab__grounding">
+<h2>Grounding</h2>
+<p>Mathematics, not Mondrian's proportions: Duijvestijn's tiling is the unique simple perfect squared square of lowest order (21). Colour planes never blend; they enter by orthogonal wipe. With reduced motion the still image stays.</p>
+</aside>
+</div>
+
+<style>
+.np-lab { --np-arm: clamp(6px, 0.8vw, 12px); background: var(--np-white); color: var(--np-line); padding: var(--np-arm); display: grid; gap: var(--np-arm); }
+.np-lab__intro, .np-lab__grounding { padding: clamp(1.25rem, 3vw, 2.5rem); border: var(--np-arm) solid var(--np-line); }
+.np-lab__title { font-size: clamp(2.2rem, 5vw, 4rem); line-height: 1; margin: 0 0 1rem; font-weight: 500; letter-spacing: -0.02em; }
+.np-lab__intro p, .np-lab__grounding p { max-width: 64ch; line-height: 1.6; margin: 0; }
+.np-lab__toc { display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; padding: 0; margin: 1.25rem 0 0; list-style: none; }
+.np-lab__toc a, .np-hero__link a { color: inherit; text-underline-offset: 0.2em; }
+.np-lab__grounding h2 { font-size: 0.8rem; letter-spacing: 0.14em; text-transform: uppercase; margin: 0 0 0.75rem; font-weight: 500; }
+.np-hero { position: relative; min-height: min(92vh, 56rem); overflow: hidden; display: grid; align-items: end; scroll-margin-top: 5rem; }
+.np-hero__twin, .np-hero__canvas { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+.np-hero__canvas { opacity: 0; transition: opacity 600ms ease; }
+.np-hero.is-live .np-hero__canvas { opacity: 1; }
+.np-hero__plane { position: relative; z-index: 1; margin: clamp(1rem, 4vw, 3rem); max-width: 34rem; background: var(--np-white); color: var(--np-line); padding: clamp(1.25rem, 3vw, 2.25rem); outline: var(--np-arm) solid var(--np-line); }
+.np-hero__kicker { font-size: 0.75rem; letter-spacing: 0.14em; text-transform: uppercase; margin: 0 0 0.6rem; opacity: 0.85; }
+.np-hero__title { font-size: clamp(1.8rem, 4vw, 3rem); line-height: 1.02; margin: 0 0 0.75rem; font-weight: 500; letter-spacing: -0.015em; }
+.np-hero__lede { line-height: 1.55; margin: 0; }
+.np-hero__link { margin: 0.9rem 0 0; font-size: 0.85rem; opacity: 0.8; }
+@media (prefers-reduced-motion: reduce) { .np-hero__canvas { display: none; } }
+</style>
+
+<script type="module">
+import { createNeoplasticField } from '{{ "/assets/js/neoplastic/neoplastic-field.js" | relative_url }}';
+const root = document.querySelector('.np-lab');
+const css = getComputedStyle(root);
+const palette = Object.fromEntries(['red', 'yellow', 'blue', 'black', 'white', 'line'].map((k) => [k, css.getPropertyValue('--np-' + k).trim()]));
+if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  for (const hero of root.querySelectorAll('.np-hero')) {
+    try {
+      const field = createNeoplasticField(hero.querySelector('.np-hero__canvas'), { mode: hero.dataset.npMode, palette, pointerRoot: hero, lineRatio: 0.02 });
+      hero.classList.add('is-live');
+      const plane = hero.querySelector('.np-hero__plane');
+      plane.addEventListener('pointerenter', () => field.setCameraPaused(true));
+      plane.addEventListener('pointerleave', () => field.setCameraPaused(false));
+      addEventListener('pagehide', () => field.destroy(), { once: true });
+    } catch (error) {
+      console.warn('[neoplastic-hero] static twin kept', error);
+    }
+  }
+}
+</script>

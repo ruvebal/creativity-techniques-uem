@@ -1,4 +1,4 @@
-import { createGeometryField } from './geometry-field.js';
+import { createGeometryField } from './geometry-field.js?v=20261110-focal-neutral-1';
 import { bindFaviconBackgroundMotion } from '../favicon-motion/hero-coordinator.js';
 
 const FAMILIES = {
@@ -37,6 +37,7 @@ export function mountArchiveHero(hero, { family = 'ct-flame', asset = 'archive-h
 		fov: 740,
 		floatDepth: 29,
 		pointerRoot: hero,
+		neutralRoot: hero.querySelector('#favicon-hero-icon'),
 	});
 	const unbindFavicon = bindFaviconBackgroundMotion(hero, field, { selector: '#favicon-hero-icon' });
 	const destroy = () => {

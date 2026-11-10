@@ -278,6 +278,63 @@ img.footer-logo {
 	border-bottom: 1px solid rgb(255 220 25 / 0.32);
 }
 
+.hero-section--landing {
+	--landing-mark-max: 15rem;
+	box-sizing: border-box;
+	display: grid;
+	min-block-size: calc(100svh - var(--site-header-height));
+	min-block-size: calc(100dvh - var(--site-header-height));
+	margin: 0;
+	padding: clamp(0.75rem, 2.5cqb, 2rem) clamp(1rem, 4cqi, 3rem);
+	place-items: center;
+	container-type: size;
+}
+
+.hero-section--landing .hero-section__inner {
+	display: grid;
+	width: min(100%, 58rem);
+	max-block-size: 100%;
+	align-content: center;
+	justify-items: center;
+	padding-block: 0;
+	transform: translateY(clamp(-1rem, -1.5cqb, -0.25rem));
+}
+
+.hero-section--landing .landing-hero__mark {
+	--landing-mark-size: clamp(8rem, 24vmin, var(--landing-mark-max));
+	inline-size: var(--landing-mark-size);
+	block-size: var(--landing-mark-size);
+	aspect-ratio: 1;
+	margin-block-end: clamp(0.45rem, 1.4cqb, 1rem);
+}
+
+@supports (width: 1cqi) {
+	.hero-section--landing .landing-hero__mark {
+		--landing-mark-size: clamp(8rem, min(20cqi, 24svh), var(--landing-mark-max));
+	}
+}
+
+.hero-section--landing #hero-title {
+	font-size: clamp(1.75rem, min(4.4cqi, 5.7cqb), 3rem);
+	line-height: 1.04;
+}
+
+.hero-section--landing p {
+	font-size: clamp(0.82rem, min(1.5cqi, 2cqb), 1.05rem);
+	line-height: 1.42;
+}
+
+/* Borderless glass plane: one quiet reading surface over the triangle field. */
+.hero-section--landing .hero-foreground-plane::before {
+	inset: clamp(-1rem, -2cqb, -0.5rem) clamp(-2rem, -4cqi, -0.75rem);
+	border: 0;
+	clip-path: polygon(5% 0, 100% 0, 95% 100%, 0 100%);
+	background:
+		linear-gradient(150deg, color-mix(in srgb, var(--background) 72%, transparent), color-mix(in srgb, var(--ct-coral-paper) 42%, transparent)),
+		linear-gradient(35deg, color-mix(in srgb, var(--ct-flame-1) 7%, transparent), color-mix(in srgb, var(--ct-coral-3) 8%, transparent));
+	box-shadow: 0 1.75rem 6rem rgb(0 0 0 / 0.2);
+}
+
 .geometry-live-bg {
 	position: absolute;
 	inset: 0;
@@ -461,10 +518,13 @@ img.footer-logo {
 	}
 }
 
-.site-chrome-header {
+html .site-chrome-header {
 	position: sticky;
 	top: 0;
 	z-index: 40;
+	background-color: color-mix(in srgb, var(--background) 84%, transparent);
+	backdrop-filter: blur(10px) saturate(1.08);
+	-webkit-backdrop-filter: blur(10px) saturate(1.08);
 }
 .site-header,
 .site-footer {

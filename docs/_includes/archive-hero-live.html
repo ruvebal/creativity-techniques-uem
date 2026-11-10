@@ -1,7 +1,7 @@
 {% assign archive_cover = site.data.archive_covers[page.url] %}
 {% if archive_cover %}
 <script type="module">
-	import { mountArchiveHero } from '{{ "/assets/js/archive-motion/archive-hero-live.js" | relative_url }}';
+	import { mountArchiveHero } from '{{ "/assets/js/archive-motion/archive-hero-live.js" | relative_url }}?v=20261110-focal-neutral-1';
 	mountArchiveHero(document.querySelector('.hero-section--archive'), {
 		family: {{ archive_cover.family | jsonify }},
 		asset: {{ archive_cover.asset | jsonify }}
