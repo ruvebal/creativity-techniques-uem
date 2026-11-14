@@ -5,7 +5,7 @@ layout: default
 <article class="lesson-content">
   {% assign archive_cover = site.data.archive_covers[page.url] %}
   {% if archive_cover %}<section class="hero-section hero-section--archive hero-section--hub" aria-labelledby="track-hero-title">{% endif %}
-  <header class="lesson-header{% if archive_cover %} hero-section__inner{% endif %}">
+  <header class="lesson-header{% if archive_cover %} hero-section__inner hero-foreground-plane{% endif %}">
     <div class="flex items-start justify-between gap-4 mb-4">
       <div class="flex-1">
         <h1 {% if archive_cover %}id="track-hero-title" {% endif %}class="lesson-title">{{ page.title | escape }}</h1>

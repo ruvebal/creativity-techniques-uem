@@ -8,31 +8,30 @@ lang: en
 <section
 	class="hero-section hero-section--archive hero-section--hub hero-section--landing"
 	aria-labelledby="hero-title">
-	<div class="max-w-4xl mx-auto text-center px-4 py-12 hero-section__inner">
+	<div class="hero-section__inner hero-foreground-plane">
 		<span
 			id="favicon-hero-icon"
-			class="favicon-canvas-25d landing-hero__mark mx-auto"
-			data-favicon-src="{{ '/assets/icons/favicon.svg' | relative_url }}?v=20261110-clean-base-6">
-			<img src="{{ '/assets/icons/favicon.svg' | relative_url }}?v=20261110-clean-base-6" alt="" aria-hidden="true" />
+			class="favicon-canvas-25d landing-hero__mark"
+			data-favicon-src="{{ '/assets/icons/favicon.svg' | relative_url }}?v=20261114-g1-atelier">
+			<img
+				src="{{ '/assets/icons/favicon.svg' | relative_url }}?v=20261114-g1-atelier"
+				alt=""
+				width="1024"
+				height="920"
+				decoding="async"
+				aria-hidden="true" />
 		</span>
-		<h1 id="hero-title" class="text-3xl md:text-4xl font-bold mb-3">
-			Creativity Techniques
-		</h1>
-		<p class="text-lg mb-2 opacity-90">
+		<h1 id="hero-title">Creativity Techniques</h1>
+		<p class="landing-hero__tagline">
 			Generation, selection, and development of ideas in design
 		</p>
-		<p class="text-lg italic opacity-80 mb-6">
-			Methods for professional design practice
-		</p>
-		<p class="text-base opacity-80">
-			Rubén Vega Balbás, PhD — Creative Technologist &amp; Developer ·
+		<p class="landing-hero__meta">
+			Methods for professional design practice · Rubén Vega Balbás, PhD ·
 			<a href="mailto:ruben.vega@universidadeuropea.es" class="hover:underline">ruben.vega@universidadeuropea.es</a>
-			·
-			<a href="https://www.instagram.com/ruvebal/" class="hover:underline" rel="noopener noreferrer" target="_blank">@ruvebal</a>
 			·
 			<a href="https://orcid.org/0000-0001-6862-9081" class="hover:underline">ORCID</a>
 		</p>
-		<p class="max-w-2xl mx-auto mt-8 leading-relaxed opacity-90">
+		<p class="landing-hero__lede">
 			Track and methodology for <strong>Creativity Techniques</strong>
 			(<a href="https://creativecampus.universidadeuropea.com/en/degree-design-madrid/" class="hover:underline" rel="noopener noreferrer" target="_blank">Bachelor's Degree in Design</a>,
 			Universidad Europea Creative Campus · Year 3 · 2026–27): six units from foundations to personal and technological creativity, with critical judgement in professional context.
@@ -41,7 +40,7 @@ lang: en
 </section>
 
 <script type="module">
-	import { mountFaviconCanvas } from '{{ '/assets/js/favicon-canvas-25d.js' | relative_url }}?v=20261110-clean-base-depth-8';
+	import { mountFaviconCanvas } from '{{ '/assets/js/favicon-canvas-25d.js' | relative_url }}?v=20261114-g1-atelier';
 	mountFaviconCanvas(document.getElementById('favicon-hero-icon')).catch((error) => {
 		console.warn('[favicon-canvas-25d] Static SVG fallback retained.', error);
 	});

@@ -5,14 +5,28 @@ layout: default
 {% comment %} Detect if TOC exists by checking if markdown has {:toc} {% endcomment %} {% assign has_toc = false %} {%
 if page.content contains '{:toc}' %} {% assign has_toc = true %} {% endif %}
 
+{% assign archive_cover = site.data.archive_covers[page.url] %}
+{% if archive_cover %}
+<section class="hero-section hero-section--archive hero-section--hub" aria-labelledby="methodology-hero-title">
+	<div class="hero-section__inner hero-foreground-plane">
+		<p class="hero-section__lede" style="margin:0 0 0.5rem;opacity:0.85">Creativity Techniques · Ideation and critical judgement in design</p>
+		<h1 id="methodology-hero-title" class="hero-section__title lesson-title">{{ page.title }}</h1>
+		{% if page.description %}
+		<p class="hero-section__lede">{{ page.description | escape }}</p>
+		{% endif %}
+	</div>
+</section>
+{% endif %}
 <article class="lesson mx-auto py-4 px-4">
 	<header class="mb-8 pb-6 border-b border-slate-200 dark:border-neutral-800">
+		{% unless archive_cover %}
 		<div class="flex items-center gap-2 mb-3">
 			<img src="{{ '/assets/icons/favicon.svg' | relative_url }}" alt="" class="w-6 h-6" aria-hidden="true" />
 			<p class="text-slate-500 dark:text-neutral-500 text-sm m-0">
 				Creativity Techniques · Ideation and critical judgement in design
 			</p>
 		</div>
+		{% endunless %}
 		<aside class="bg-amber-50 dark:bg-amber-950/30 border-l-4 border-amber-500 p-4 mb-6 text-sm">
 			<p class="font-medium text-amber-800 dark:text-amber-200 mb-2">On AI usage</p>
 			<p class="text-amber-700 dark:text-amber-300 mb-2">
@@ -27,7 +41,9 @@ if page.content contains '{:toc}' %} {% assign has_toc = true %} {% endif %}
 				Disclose tool, contribution, and human verification on every substantial hand-in.
 			</p>
 		</aside>
+		{% unless archive_cover %}
 		<h1 class="text-4xl font-bold mb-4 text-slate-900 dark:text-neutral-100">{{ page.title }}</h1>
+		{% endunless %}
 		<p class="canonical-url text-sm">
 			<span class="sr-only">URL:</span>
 			<a

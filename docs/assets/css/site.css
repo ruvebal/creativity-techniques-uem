@@ -218,9 +218,11 @@ img.footer-logo {
 
 .page-art {
 	--page-art-corner: clamp(1.25rem, 5vw, 5.5rem);
+	position: relative;
 	display: grid;
 	margin: 0;
-	height: clamp(8rem, 18vw, 16rem);
+	/* Atelier parity with DC lesson heading band */
+	height: clamp(10rem, 22vw, 20rem);
 	overflow: hidden;
 	background: #050816;
 	clip-path: polygon(
@@ -253,7 +255,7 @@ img.footer-logo {
 
 @media (max-width: 640px) {
 	.page-art {
-		height: clamp(6.5rem, 28vw, 10rem);
+		height: clamp(8rem, 32vw, 12rem);
 	}
 }
 
@@ -279,7 +281,8 @@ img.footer-logo {
 }
 
 .hero-section--landing {
-	--landing-mark-max: 15rem;
+	/* Atelier parity with DC G1: mark owns focal weight */
+	--landing-mark-max: 20rem;
 	box-sizing: border-box;
 	display: grid;
 	min-block-size: calc(100svh - var(--site-header-height));
@@ -292,31 +295,60 @@ img.footer-logo {
 
 .hero-section--landing .hero-section__inner {
 	display: grid;
-	width: min(100%, 58rem);
+	width: min(100%, 60rem);
 	max-block-size: 100%;
 	align-content: center;
 	justify-items: center;
 	padding-block: 0;
+	gap: clamp(0.75rem, 2cqb, 1.5rem);
 	transform: translateY(clamp(-1rem, -1.5cqb, -0.25rem));
 }
 
 .hero-section--landing .landing-hero__mark {
-	--landing-mark-size: clamp(8rem, 24vmin, var(--landing-mark-max));
+	--landing-mark-size: clamp(9rem, 28vmin, var(--landing-mark-max));
 	inline-size: var(--landing-mark-size);
 	block-size: var(--landing-mark-size);
 	aspect-ratio: 1;
-	margin-block-end: clamp(0.45rem, 1.4cqb, 1rem);
+	margin-block-end: clamp(0.35rem, 1.2cqb, 0.85rem);
 }
 
 @supports (width: 1cqi) {
 	.hero-section--landing .landing-hero__mark {
-		--landing-mark-size: clamp(8rem, min(20cqi, 24svh), var(--landing-mark-max));
+		--landing-mark-size: clamp(9rem, min(26cqi, 30svh), var(--landing-mark-max));
 	}
 }
 
 .hero-section--landing #hero-title {
-	font-size: clamp(1.75rem, min(4.4cqi, 5.7cqb), 3rem);
+	font-size: clamp(1.8rem, min(4.6cqi, 6cqb), 3.25rem);
 	line-height: 1.04;
+	font-weight: 600;
+	letter-spacing: -0.02em;
+	margin: 0;
+}
+
+.hero-section--landing .landing-hero__tagline {
+	font-size: clamp(0.95rem, min(1.8cqi, 2.4cqb), 1.2rem);
+	line-height: 1.35;
+	font-style: italic;
+	opacity: 0.88;
+	margin: 0;
+}
+
+.hero-section--landing .landing-hero__meta {
+	font-size: clamp(0.82rem, min(1.5cqi, 2cqb), 1.05rem);
+	line-height: 1.42;
+	opacity: 0.8;
+	margin: 0;
+	text-align: center;
+}
+
+.hero-section--landing .landing-hero__lede {
+	font-size: clamp(0.88rem, min(1.6cqi, 2.1cqb), 1.1rem);
+	line-height: 1.5;
+	opacity: 0.9;
+	max-inline-size: 42rem;
+	margin: clamp(0.5rem, 1.5cqb, 1rem) 0 0;
+	text-align: center;
 }
 
 .hero-section--landing p {
@@ -446,9 +478,12 @@ img.footer-logo {
 }
 
 .hero-section--title-only {
-	padding: clamp(2.5rem, 6vw, 4rem) 1.5rem;
+	padding: clamp(3rem, 8vw, 5.5rem) 1.5rem;
 	text-align: center;
 	margin-bottom: 2rem;
+	min-block-size: clamp(14rem, 28vw, 22rem);
+	display: grid;
+	place-items: center;
 }
 
 .hero-section--title-only .hero-section__title {
@@ -468,18 +503,20 @@ img.footer-logo {
 
 .hero-section--hub {
 	margin-bottom: 2rem;
-	padding: clamp(2rem, 5vw, 3.5rem) 1rem 2rem;
+	padding: clamp(2.75rem, 6vw, 4.5rem) 1rem 2.5rem;
+	min-block-size: clamp(14rem, 26vw, 22rem);
 }
 
 .lesson-header.hero-section--archive {
 	margin-bottom: 0;
-	padding: clamp(2rem, 5vw, 3.5rem) 1rem 2rem;
+	padding: clamp(2.75rem, 6vw, 4.5rem) 1rem 2.5rem;
 	border-bottom: none;
 	width: 100vw;
 	max-width: 100vw;
 	margin-left: calc(50% - 50vw);
 	margin-right: calc(50% - 50vw);
 	box-sizing: border-box;
+	min-block-size: clamp(14rem, 26vw, 22rem);
 }
 
 .lesson-header.hero-section--archive .lesson-title,
