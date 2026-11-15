@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title-self-orbit-2627-ct desc-self-orbit-2627-ct">
   <title id="title-self-orbit-2627-ct">Self &amp; Creativity · orbital triangle field</title>
-  <desc id="desc-self-orbit-2627-ct">Forged from ct-pass-01 structure: ungrouped coral triangles — one polygon per Canvas 2.5D facet with triangular Z spread — no people or brands depicted.</desc>
+  <desc id="desc-self-orbit-2627-ct">Course geometric field from ct-pass-01 structure: independent coral triangles — one polygon per Canvas 2.5D facet with triangular Z spread — no people or brands depicted.</desc>
   <defs>
     <linearGradient id="ground-self-orbit-2627-ct" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#1A0A0C"/>
@@ -37,7 +37,7 @@
   <rect width="1600" height="900" fill="url(#self-orbit-2627-ct-neb-b)"/>
   <rect width="1600" height="900" fill="url(#self-orbit-2627-ct-neb-c)"/>
   <rect width="1600" height="900" filter="url(#self-orbit-2627-ct-nebula)" opacity="0.58"/>
-  <!-- ungrouped facets: one polygon = one independent 2.5D layer -->
+  <!-- independent facets: one polygon = one 2.5D layer -->
   <polygon points="937.89,154.70 1217.89,639.68 657.89,639.68" fill="#963590" fill-opacity="0.089" stroke="#8CA362" stroke-opacity="0.104" stroke-width="1.2"/>
   <polygon points="737.89,362.55 1137.89,362.55 937.89,708.96" fill="#C93532" fill-opacity="0.073" stroke="#C93532" stroke-opacity="0.088" stroke-width="1.2"/>
   <polygon points="937.89,316.36 1077.89,558.85 797.89,558.85" fill="#963590" fill-opacity="0.057" stroke="#8CA362" stroke-opacity="0.072" stroke-width="1.2"/>

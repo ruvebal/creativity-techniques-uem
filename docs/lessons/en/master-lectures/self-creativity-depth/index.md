@@ -99,7 +99,7 @@ Draft the **six-sentence U6 confidence paragraph** — fold in one attention mod
 ## Editorial note. Work in progress. Teaching Innovation Practice
 {: .lesson-editorial-note }
 
-Corbin and Castoriadis lines are recycled from the author’s dissertation quotations bank for classroom schemata. Jung/Plotinus stay flagship mentions. Full Ahmes extract of those corpora is out of scope for this session.
+Corbin and Castoriadis lines are recycled from the author’s dissertation quotations for classroom schemata. Jung/Plotinus stay flagship mentions. Full extract of those corpora is out of scope for this session.
 
 ## AI-assisted authorship
 

@@ -6,7 +6,7 @@
 
 ## What
 
-Forged `ct-pass-07-self-orbit-09f95231.svg` from `ct-pass-01-structure-980beb83.svg` (497 triangles **ungrouped** to one polygon = one facet; triangular Bates Z + size bands). Mounted as **heading background** with a **glass title card** (`orbit_hero: true`). Independent facet float/orbit + subtle parallax. Static SVG = reduced-motion fallback.
+Forged `ct-pass-07-self-orbit-44d0a266.svg` from `ct-pass-01-structure-980beb83.svg` (497 triangles **ungrouped** to one polygon = one facet; triangular Bates Z + size bands). Mounted as **heading background** with a **glass title card** (`orbit_hero: true`). Independent facet float/orbit + subtle parallax. Static SVG = reduced-motion fallback.
 
 ## Project paths
 

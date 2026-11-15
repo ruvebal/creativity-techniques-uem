@@ -3,7 +3,7 @@
  * Pure string output; works in Node (build scripts) and browsers (no DOM needed).
  *
  * Every SVG is the reduced-motion / no-script twin of a Canvas field, or an asset of its own.
- * Text never goes inside the SVG (captions live in HTML, per visual-forger §2.1).
+ * Text never goes inside the SVG (captions live in HTML, per studio visual-art caption rules).
  */
 import { DUIJVESTIJN_21, normalise, orient, composeOrientation, childOrientation, equilibre, PALETTES } from "./neoplastic-grid.js";
 
