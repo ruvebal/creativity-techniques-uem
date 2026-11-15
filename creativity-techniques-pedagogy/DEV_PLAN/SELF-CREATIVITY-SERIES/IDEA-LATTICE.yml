@@ -155,14 +155,15 @@ ideas:
   - id: SC.3.2
     ring: 3
     lessons: [B]
-    title: Alchemy as symbolic psychology of transformation
-    idea: Alchemical operations were real as psychological drama — unification of psychic parts toward wholeness.
-    student_payoff: Process metaphors (blackening, wedding, stone) name studio phases without cosplay chemistry.
+    title: Collective unconscious — flagship mention only
+    idea: Name Jung’s first major formulation of the collective unconscious; do not extract the alchemy corpus for this series.
+    student_payoff: Shared images are not only private taste — one bibliographic landmark is enough.
     discovery:
-      ahmes_coats: [jung_alchemy_e377907a, marlan_2005]
-      entities: {jung: 12177, relations: 885}
-      vector_project: scholar-alchemy
-    quote_slot: {status: needs_cherry_pick, caution: "Classroom = metaphor literacy, not therapy"}
+      policy: mention_first_edition_masterpiece_only
+      flagship: "Jung, Wandlungen und Symbole der Libido / Psychology of the Unconscious lineage → CW / standard first collective-unconscious definition (board: pick one 1st-edition cite; no Ahmes deep dive)"
+      recycle: dissertation_bibliography_may_lack_Jung; quotations_bank Jung count=0 — rely on short Chicago mention
+      ahmes_coats: []
+    quote_slot: {status: skip_deep_extract, caution: "Overkill avoided — no Marlan/alchemy forge for CT morning class"}
 
   - id: SC.3.3
     ring: 3
@@ -199,13 +200,15 @@ ideas:
     idea: Societies create themselves through imaginary significations (Castoriadis) — design participates in that magma.
     student_payoff: A brief is never “just a brief”; it carries instituted meanings.
     discovery:
-      ahmes_coats: []
-      bib_only: castoriadis_cornelius
-      status: BLOCKED_PENDING_EXTRACT
+      flagship: "L'institution imaginaire de la société (1975) — dissertation bibl Castoriadis1975; EN 1987 Castoriadis1987"
+      recycle_quotations_bank:
+        - "Method, in the philosophical sense, is simply the operating set of categories. Castoriadis, p. 11"
+      bib_pdfs_ready: castoriadis_cornelius
+      status: MENTION_PLUS_BANK — full Ahmes extract optional later; not blocking Lesson A/B
       bridge_now:
         - {id: SC.3.1, role: psyche-collective bridge}
         - {coat: werhane_moral_imagination_96302b7e, role: "institutional scripts + free reflection — already in vectors+Ahmes"}
-    quote_slot: {status: blocked_bib_only}
+    quote_slot: {status: recycle_from_quotations_bank, page: 11}
 
   - id: SC.4.2
     ring: 4
@@ -236,26 +239,29 @@ ideas:
   - id: SC.5.1
     ring: 5
     lessons: [C]
-    title: Contemplation orients beyond private utility
-    idea: Plotinian / contemplative frames treat beauty and ascent as formative — cultural tool, not compulsory belief.
+    title: Plotinus — flagship mention only
+    idea: Thought/being (Parmenides via Plotinus) or One/contemplation named from the Opera / Enneads landmark — no Plotinus monograph extract for CT.
     discovery:
-      bib_only: plotino
-      bridge_now:
-        - {coat: scholem_major_trends, role: "Plotinus named in Jewish mysticism reception — weak bridge only"}
-        - {id: SC.3.4, role: Bachelard vertical / air rêverie}
-      status: BLOCKED_PENDING_EXTRACT
-    quote_slot: {status: blocked_bib_only}
+      policy: mention_first_edition_masterpiece_only
+      flagship: "Plotini Opera (Henry–Schwyzer) / Enneads — dissertation bibl Plotinus1951"
+      recycle_quotations_bank:
+        - "Parménides via Plotinus v, I, 8 — thought and being are the same (quotations_bank.xml)"
+      status: mention_only
+    quote_slot: {status: optional_bank_recycle, caution: "Overkill avoided — no plotino/ Ahmes batch for this series"}
 
   - id: SC.5.2
     ring: 5
-    lessons: [C]
+    lessons: [B, C]
     title: Mundus imaginalis as intermediary world
-    idea: The imaginal is neither fantasy dump nor sensory copy — a real intermediary (Corbin lineage; Edgar→Sufi edge).
+    idea: The imaginal is a mediating function between matter/mind banalities — already quoted in quotations_bank (Corbin 1972).
     discovery:
-      bib_only: corbin-henry
+      recycle_quotations_bank:
+        - "Active imagination is the mirror… mundus imaginalis… p. 7 (Corbin 1972; bank quote)"
+        - "bibl: Corbin 1972 Mundus Imaginalis; Creative imagination… Ibn Arabi (2008 Routledge in bank)"
       local_edge_bridge: {vault: edgar, predicate: defined_in, subject: imaginal world, object: Sufi tradition}
-      status: PARTIAL — edge lead only until Corbin extract
-    quote_slot: {status: needs_cherry_pick, interim: "Edgar imaginal/Sufi node after page audit; Corbin later"}
+      dissertation_frame: "Docta UCM T37047 — imagination as transpersonal mediation technology (Vega Balbás 2016)"
+      status: READY_RECYCLE — no new Corbin ingest required for first forge
+    quote_slot: {status: recycle_from_quotations_bank, page: 7}
 
   # ── Practice / exercise ideas (catalogue slots) ─────────────────────────
   - id: SC.X.1
@@ -286,11 +292,13 @@ ideas:
 # Authority readiness (deep pass 2026-11-15)
 readiness:
   forge_lesson_A_ideas: [SC.1.1, SC.1.2, SC.1.3, SC.1.4, SC.2.1, SC.2.2, SC.2.3, SC.X.1]
-  forge_lesson_B_ideas: [SC.2.4, SC.2.5, SC.2.6, SC.3.1, SC.3.2, SC.3.3, SC.3.4, SC.4.2, SC.X.2, SC.X.3]
-  forge_lesson_C_blocked: [SC.4.1, SC.5.1]
-  forge_lesson_C_partial: [SC.5.2, SC.4.3]
-  dense_local_graphs: [edgar_imagework, jung_alchemy]
-  thin_entity_extracts: [colzato, bachelard_poetics, werhane, huppauf]
+  forge_lesson_B_ideas: [SC.2.4, SC.2.5, SC.2.6, SC.3.1, SC.3.3, SC.3.4, SC.4.2, SC.X.2, SC.X.3]
+  forge_lesson_C_light: [SC.4.1, SC.5.1, SC.5.2]  # bank recycle + flagship mentions; no Plotinus/Jung extract
+  recycle_sources:
+    - scholar/quotations_bank/quotations_bank.xml
+    - dissertation/src/sources/resources/bibliography.tei  # Castoriadis1975, Plotinus1951
+    - Docta UCM T37047 (Vega Balbás 2016) — imagination as mediating/transpersonal technology
+  overnight_forge: false  # need SC2 enrichment + human rest; teach tomorrow from U2/U6 + frame
   parallel_boden_pipe: do_not_ingest_now
   graph_mcp: vault_misconfigured_use_local_sqlite
 
