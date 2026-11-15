@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: 'U6 · Creativity and Personal Development'
+title: 'U6.2 · Creativity and Personal Development'
 slug: u-6-personal-development
 date: 2026-10-17
 author: 'Rubén Vega Balbás, PhD'
@@ -31,12 +31,12 @@ references: [schon-1983]
 
 **In-class deck:** [U6 slideshow]({{ '/tracks/ct/u-6-personal-development/' | relative_url }})
 
-**Related master lectures:**
+**U6 arc:**
 
-1. [Self & Creativity I — Attention]({{ '/master-lectures/self-creativity-attention/' | relative_url }})  
-2. **This U6 deck** — confidence as practice  
-3. Lab — U6 exercises (+ optional OM warm-up from Attention, with Opt-out)  
-4. [Self & Creativity II — Depth]({{ '/master-lectures/self-creativity-depth/' | relative_url }}) + [Workshop paragraph](#workshop)
+1. [U6.1 · Attention]({{ '/lessons/en/master-lectures/self-creativity-attention/' | relative_url }})  
+2. **U6.2 · This deck** — confidence as practice  
+3. Lab — U6 exercises (+ optional OM warm-up from U6.1, with Opt-out)  
+4. [U6.3 · Depth]({{ '/lessons/en/master-lectures/self-creativity-depth/' | relative_url }}) + [Workshop paragraph](#workshop)
 
 </div>
 

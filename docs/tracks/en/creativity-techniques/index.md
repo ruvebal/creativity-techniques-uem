@@ -57,7 +57,7 @@ Link gate: STUDENT-SLIDESHOW-FORGE.mdc §Publish gate — track + lesson links
 | U3 | Development techniques and solutions | [lesson]({{ '/lessons/en/creativity-techniques/u-3-development-solutions/' | relative_url }}) · [deck]({{ '/tracks/ct/u-3-development-solutions/' | relative_url }}) |
 | U4 | Applying creativity techniques in the workplace | [U4.1 lesson]({{ '/lessons/en/creativity-techniques/u-4-1-generate-before-you-judge/' | relative_url }}) · [U4.2 lesson]({{ '/lessons/en/creativity-techniques/u-4-2-select-with-care/' | relative_url }}) · [unit hub]({{ '/lessons/en/creativity-techniques/u-4-workplace-application/' | relative_url }}) · [deck]({{ '/tracks/ct/u-4-workplace-application/' | relative_url }}) |
 | U5 | Creativity and technology | [lesson]({{ '/lessons/en/creativity-techniques/u-5-creativity-technology/' | relative_url }}) · [deck]({{ '/tracks/ct/u-5-creativity-technology/' | relative_url }}) |
-| U6 | Creativity and personal development | [lesson]({{ '/lessons/en/creativity-techniques/u-6-personal-development/' | relative_url }}) · [deck]({{ '/tracks/ct/u-6-personal-development/' | relative_url }}) |
+| U6 | Creativity and personal development | [U6.1 Attention]({{ '/lessons/en/master-lectures/self-creativity-attention/' | relative_url }}) · [U6.1 deck]({{ '/master-lectures/self-creativity-attention/' | relative_url }}) · [U6.2 Personal development]({{ '/lessons/en/creativity-techniques/u-6-personal-development/' | relative_url }}) · [U6.2 deck]({{ '/tracks/ct/u-6-personal-development/' | relative_url }}) · [U6.3 Depth]({{ '/lessons/en/master-lectures/self-creativity-depth/' | relative_url }}) · [U6.3 deck]({{ '/master-lectures/self-creativity-depth/' | relative_url }}) |
 
 ## Master Lectures (transversal)
 

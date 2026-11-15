@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: 'Master Lecture · Self & Creativity I — Attention'
+title: 'U6.1 · Self & Creativity I — Attention'
 slug: self-creativity-attention
 date: 2026-11-15
 author: 'Rubén Vega Balbás, PhD'
@@ -8,12 +8,11 @@ lang: en
 permalink: /lessons/en/master-lectures/self-creativity-attention/
 description: 'Attention modes for inventing and selecting — open-monitoring, focused attention, incubation, and honest classroom dose.'
 status: pilot
-tags: [master-lecture, self-creativity, attention, meditation, divergent]
+tags: [master-lecture, self-creativity, attention, meditation, divergent, u6]
 master_idea: 'Creativity needs more than one attention style — open to invent, focus to finish, and never fake the minutes.'
 practice_anchor: 'OM warm-up (Opt-out) + attention brief for a live design problem.'
 frontier_signal: 'Open question: how short can an attention warm-up be before it stops helping ideation?'
 deck_url: /master-lectures/self-creativity-attention/
-orbit_hero: true
 references: [colzato-2012, craft-2000, csikszentmihalyi-1996]
 ---
 
@@ -30,9 +29,9 @@ references: [colzato-2012, craft-2000, csikszentmihalyi-1996]
 
 {% include lesson-semantic-graphic.html %}
 
-**In-class deck:** [Self & Creativity I — Attention]({{ '/master-lectures/self-creativity-attention/' | relative_url }})
+**In-class deck:** [U6.1 · Self & Creativity I — Attention]({{ '/master-lectures/self-creativity-attention/' | relative_url }})
 
-**Series:** This is **part 1 of 2** with [Self & Creativity II — Depth]({{ '/lessons/en/master-lectures/self-creativity-depth/' | relative_url }}). Pairs with [U6 · Personal development]({{ '/lessons/en/creativity-techniques/u-6-personal-development/' | relative_url }}).
+**Series:** **U6.1** of three with [U6.2 · Personal development]({{ '/lessons/en/creativity-techniques/u-6-personal-development/' | relative_url }}) and [U6.3 · Depth]({{ '/lessons/en/master-lectures/self-creativity-depth/' | relative_url }}).
 
 </div>
 

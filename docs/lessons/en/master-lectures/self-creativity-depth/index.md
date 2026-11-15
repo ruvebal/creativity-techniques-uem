@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: 'Master Lecture · Self & Creativity II — Depth'
+title: 'U6.3 · Self & Creativity II — Depth'
 slug: self-creativity-depth
 date: 2026-11-15
 author: 'Rubén Vega Balbás, PhD'
@@ -8,12 +8,11 @@ lang: en
 permalink: /lessons/en/master-lectures/self-creativity-depth/
 description: 'Confidence, shared images, imaginal mediation, and instituted categories — depth for personal creativity under briefs.'
 status: pilot
-tags: [master-lecture, self-creativity, confidence, imaginal, castoriadis]
+tags: [master-lecture, self-creativity, confidence, imaginal, castoriadis, u6]
 master_idea: 'The inventing self is practiced — and inhabited by shared images and instituted categories.'
 practice_anchor: 'Shared-image note + category audit → six-sentence U6 confidence paragraph.'
 frontier_signal: 'Open question: can designers revise a brief’s categories without pretending to stand outside society?'
 deck_url: /master-lectures/self-creativity-depth/
-orbit_hero: true
 references: [csikszentmihalyi-1996, corbin-1972, castoriadis-1975, schon-1983]
 ---
 
@@ -30,9 +29,9 @@ references: [csikszentmihalyi-1996, corbin-1972, castoriadis-1975, schon-1983]
 
 {% include lesson-semantic-graphic.html %}
 
-**In-class deck:** [Self & Creativity II — Depth]({{ '/master-lectures/self-creativity-depth/' | relative_url }})
+**In-class deck:** [U6.3 · Self & Creativity II — Depth]({{ '/master-lectures/self-creativity-depth/' | relative_url }})
 
-**Series:** **Part 2 of 2** after [Self & Creativity I — Attention]({{ '/lessons/en/master-lectures/self-creativity-attention/' | relative_url }}). Closes the arc into [U6 · Personal development]({{ '/lessons/en/creativity-techniques/u-6-personal-development/' | relative_url }}).
+**Series:** **U6.3** of three after [U6.1 · Attention]({{ '/lessons/en/master-lectures/self-creativity-attention/' | relative_url }}) and [U6.2 · Personal development]({{ '/lessons/en/creativity-techniques/u-6-personal-development/' | relative_url }}).
 
 </div>
 

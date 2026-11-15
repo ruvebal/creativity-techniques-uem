@@ -3,13 +3,13 @@ layout: null
 ---
 {
   "schema_version": 2,
-  "unit_label": "Master Lecture · Self & Creativity II — Depth",
+  "unit_label": "U6.3 · Self & Creativity II — Depth",
   "final_event_theme": "Which shared image are you inventing inside — and which institution does it serve?",
   "media_selection": {
-    "unit_id": "ML-SCD",
-    "project_id": "ml",
+    "unit_id": "U6.3",
+    "project_id": "tc",
     "strategy": "slide-bound",
-    "description": "Images reused from cleared U6/U2 deck-media."
+    "description": "Each image is bound to one named slide by asset_id; slides without a cleared image use the course diagram."
   },
   "assets": [],
   "slides": [
