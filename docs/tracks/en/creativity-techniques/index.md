@@ -66,8 +66,12 @@ Shared analysis methods — **not** units of the official course contents. Use f
 | Master Lecture | Lesson | Slideshow |
 | --- | --- | --- |
 | **Creative process analysis** | [Lesson]({{ '/lessons/en/master-lectures/creative-process-analysis/' | relative_url }}) | [Deck]({{ '/master-lectures/creative-process-analysis/' | relative_url }}) |
+| **Self & Creativity I — Attention** | [Lesson]({{ '/lessons/en/master-lectures/self-creativity-attention/' | relative_url }}) | [Deck]({{ '/master-lectures/self-creativity-attention/' | relative_url }}) |
+| **Self & Creativity II — Depth** | [Lesson]({{ '/lessons/en/master-lectures/self-creativity-depth/' | relative_url }}) | [Deck]({{ '/master-lectures/self-creativity-depth/' | relative_url }}) |
 
-The Master Lecture is a method guide shared by all units.
+**4-hour personal-creativity session:** Attention → [U6]({{ '/lessons/en/creativity-techniques/u-6-personal-development/' | relative_url }}) → Depth (Lab/Workshop shared with U6).
+
+The Master Lectures are method guides shared by units — not official CONTENIDOS rows.
 
 ## How to complete a unit
 

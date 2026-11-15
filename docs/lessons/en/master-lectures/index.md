@@ -14,6 +14,8 @@ Shared **analysis methods** used across the Creativity Techniques track. They ar
 | Master Lecture | Lesson | Slideshow |
 | --- | --- | --- |
 | **Creative process analysis** | [Lesson]({{ '/lessons/en/master-lectures/creative-process-analysis/' | relative_url }}) | [Deck]({{ '/master-lectures/creative-process-analysis/' | relative_url }}) |
+| **Self & Creativity I — Attention** (with U6 · 4h arc) | [Lesson]({{ '/lessons/en/master-lectures/self-creativity-attention/' | relative_url }}) | [Deck]({{ '/master-lectures/self-creativity-attention/' | relative_url }}) |
+| **Self & Creativity II — Depth** (with U6 · 4h arc) | [Lesson]({{ '/lessons/en/master-lectures/self-creativity-depth/' | relative_url }}) | [Deck]({{ '/master-lectures/self-creativity-depth/' | relative_url }}) |
 | **Who Creates, Who Owns, Who Scales?** — cycle rationale {% include wip-badge.html %} | [Read first]({{ '/lessons/en/master-lectures/who-creates-who-owns-who-scales/' | relative_url }}) | — |
 | **Who Designs a Product—and Who Owns Its Story?** (Edison · series 1/2) {% include wip-badge.html %} | [Lesson]({{ '/lessons/en/master-lectures/who-creates-edison/' | relative_url }}) | [Deck]({{ '/master-lectures/who-creates-edison/' | relative_url }}) |
 | **Can We Redesign the Whole System?** (Fuller · series 2/2) {% include wip-badge.html %} | [Lesson]({{ '/lessons/en/master-lectures/who-creates-fuller/' | relative_url }}) | [Deck]({{ '/master-lectures/who-creates-fuller/' | relative_url }}) |

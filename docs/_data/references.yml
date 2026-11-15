@@ -67,6 +67,21 @@ colzato-2012:
     *Frontiers in Psychology* 3:116.
     [https://doi.org/10.3389/fpsyg.2012.00116](https://doi.org/10.3389/fpsyg.2012.00116).
 
+castoriadis-1975:
+  sort: "Castoriadis 1975"
+  year: 1975
+  edition_used: "French first edition pagination via dissertation quotations bank (p. 11)."
+  chicago: >-
+    Castoriadis, Cornélius. 1975. *L’institution imaginaire de la société*. Paris: Éditions du Seuil.
+
+corbin-1972:
+  sort: "Corbin 1972"
+  year: 1972
+  edition_used: "English pamphlet / essay pagination via dissertation quotations bank (p. 7)."
+  chicago: >-
+    Corbin, Henry. 1972. “Mundus Imaginalis, or the Imaginary and the Imaginal.” Translated by Ruth Horine.
+    Ipswich: Golgonooza Press.
+
 craft-2000:
   edition_note: "Taylor & Francis e-Library edition, 2005."
   sort: "Craft 2000"
