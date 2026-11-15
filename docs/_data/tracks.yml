@@ -59,6 +59,22 @@
       lesson_en: /lessons/en/creativity-techniques/u-6-personal-development/
       deck_en: /tracks/ct/u-6-personal-development/
       status: pilot
+      parts:
+        - unit_id: U6.1
+          title_en: 'Self & Creativity I — Attention'
+          lesson_en: /lessons/en/master-lectures/self-creativity-attention/
+          deck_en: /master-lectures/self-creativity-attention/
+          status: pilot
+        - unit_id: U6.2
+          title_en: 'Creativity and personal development'
+          lesson_en: /lessons/en/creativity-techniques/u-6-personal-development/
+          deck_en: /tracks/ct/u-6-personal-development/
+          status: pilot
+        - unit_id: U6.3
+          title_en: 'Self & Creativity II — Depth'
+          lesson_en: /lessons/en/master-lectures/self-creativity-depth/
+          deck_en: /master-lectures/self-creativity-depth/
+          status: pilot
   master_lectures:
     - unit_id: ML-CPA
       title_en: 'Master Lecture · Creative process analysis'

@@ -15,6 +15,7 @@ See parent [`../README.mdc`](../README.mdc) for layout and re-sync commands.
 | `media-query-queue.yaml` | Symlink → 178-seed CT image query queue |
 | `PROFIELD-SYNC.json` | Sync metadata |
 | `GROUNDING-RECEIPT.md` | Curriculum + bibliography + media audit receipt |
+| `boden-conceptual-spaces/` | Boden *Creative Mind* + AI 1995 reception pipe + master-lecture reading list |
 
 **Public field surfaces (repo root, hydrated into `docs/` on build):**
 

@@ -1,0 +1,310 @@
+# IDEA-LATTICE — Self × Creativity series
+# Semantic structure only. Quotes are EMPTY slots for human cherry-pick from Ahmes.
+# Rule: discover via vectors / local Ahmes entities+relations; cite only after page-backed node.
+# Graph MCP (2026-11-15): AHMES_VAULT_DIR mispointed at MSCA SVCM — use local extraction.db edges.
+# Parallel: Boden pipe running — do not start new ingest; Boden coat already has nodes (pending vectors).
+
+schema_version: idea-lattice-v1
+series: self-creativity-meditation
+updated: "2026-11-15"
+quote_policy: human_cherry_pick
+vector_collection: knowledge  # ~176559 docs live
+
+fractal_center:
+  id: SC.0
+  title: Self × Creativity
+  student_question: How does my attention — and the images I share with others — shape what I can invent?
+  lesson_hook: Every lesson re-asks this at a larger ring.
+
+ideas:
+
+  # ── Ring 1 · Attention states ──────────────────────────────────────────
+  - id: SC.1.1
+    ring: 1
+    lessons: [A]
+    title: Two meditation modes, two control states
+    idea: Focused-attention and open-monitoring are different practices that bias different cognitive-control states.
+    student_payoff: Stop treating “meditation” as one mood.
+    discovery:
+      ahmes_coats: [a9393760]
+      vector_queries: ["Colzato open-monitoring focused-attention divergent"]
+      vector_note: Colzato coat NOT in vectors yet — local Ahmes only
+      seed_nodes: [2455fd0e-0d13-582d-b958-0b3fb7194aca]
+    quote_slot: {status: needs_cherry_pick, preferred_pages: [1, 2], note: "FA vs OM definitions (Method)"}
+    already_in_course: {u2_cite: "Colzato, Ozturk, and Hommel 2012, 1"}
+
+  - id: SC.1.2
+    ring: 1
+    lessons: [A]
+    title: OM promotes divergent thinking
+    idea: After open-monitoring practice, performance on divergent tasks (e.g. AUT) improves relative to baselines in the study.
+    student_payoff: Opening attention can feed ideation — when the brief needs many kinds.
+    discovery:
+      ahmes_coats: [a9393760]
+      seed_nodes: [2455fd0e-0d13-582d-b958-0b3fb7194aca]
+    quote_slot: {status: needs_cherry_pick, preferred_pages: [1, 3], note: "Results/Discussion — OM → divergent"}
+    honesty: "Classroom 3-min warm-up ≠ study ~35 min; label adaptation + Opt-out."
+
+  - id: SC.1.3
+    ring: 1
+    lessons: [A]
+    title: FA does not magically fix convergent thinking
+    idea: Focused-attention did not significantly sustain convergent (RAT) gains in the same study — teach the limit.
+    student_payoff: Focusing is a skill; it is not a guaranteed “select better” switch.
+    discovery:
+      ahmes_coats: [a9393760]
+    quote_slot: {status: needs_cherry_pick, preferred_pages: [3], note: "Discussion — FA prediction not supported"}
+
+  - id: SC.1.4
+    ring: 1
+    lessons: [A]
+    title: Divergent / convergent are different jobs
+    idea: Guilford’s cut (via Chen and course U1/U2) — fluency, flexibility, originality, elaboration vs constrained search.
+    student_payoff: Schedule the two moves; don’t judge while generating (U2 bridge).
+    discovery:
+      ahmes_coats: [chaomei_chen_turning_points…d048ab99]
+      project_slug: profield-creativity-techniques
+      vector_hit_themes: [Guilford divergent, keep mind open]
+    quote_slot: {status: needs_cherry_pick, note: "Prefer Chen pages already used in CT where possible"}
+
+  # ── Ring 2 · Personal habit / agency ───────────────────────────────────
+  - id: SC.2.1
+    ring: 2
+    lessons: [A, B]
+    title: Personal creativity = redesign of everyday psychic energy
+    idea: Changing habits of attention, work, and relationship is creativity in the domain of personal life.
+    student_payoff: Creativity is not only “the project” — it is how you run a day.
+    discovery:
+      ahmes_coats: [csikszentmihalyi_flow_35dcf3a7]
+      entities_present: true
+      vector_hit_themes: [personal creativity domain of life, personality as attention pattern]
+    quote_slot: {status: needs_cherry_pick}
+
+  - id: SC.2.2
+    ring: 2
+    lessons: [A, B]
+    title: Undirected reflection + light kinesthetic load
+    idea: Incubation and reflection work better when attention is partial — walk, shower, craft — not forced decision.
+    student_payoff: Design recovery windows into studio time.
+    discovery:
+      ahmes_coats: [csikszentmihalyi_flow_35dcf3a7]
+      vector_hit_themes: [incubation empty space, reflection for its own sake]
+    quote_slot: {status: needs_cherry_pick}
+
+  - id: SC.2.3
+    ring: 2
+    lessons: [A]
+    title: Skilled distraction frees the undermind
+    idea: Mantra / beads / autopilot tasks can occupy the front mind so associative work continues.
+    student_payoff: Distraction is a tool when chosen; noise is not.
+    discovery:
+      ahmes_coats: [rubin_creative_act_574691eb]
+      project_slug: profield-creativity-techniques
+      adjacent: [fisher_williams_unlocking_creativity — gestation / Claxton undermind]
+    quote_slot: {status: needs_cherry_pick, caution: "Practitioner voice — not peer-reviewed mechanism"}
+
+  - id: SC.2.4
+    ring: 2
+    lessons: [B]
+    title: Creative confidence is trainable
+    idea: Belief in creative capacity is a muscle — blocked in many, unblockable through practice.
+    student_payoff: “I’m not creative” is a design problem, not a destiny.
+    discovery:
+      ahmes_coats: [kelley_creative_confidence_64e9e459]
+      entities_present: true
+    quote_slot: {status: needs_cherry_pick}
+
+  - id: SC.2.5
+    ring: 2
+    lessons: [B]
+    title: Agency needs confidence AND centrality
+    idea: People act creatively when they believe they can and that creativity matters to who they are.
+    student_payoff: Identity work (“I am a designer who invents”) is part of technique.
+    discovery:
+      ahmes_coats: [beghetto_agency_09e171eb]
+      entities_present: true
+      vector_hit_themes: [creative identity stages, self-regulation reciprocal with activity]
+    quote_slot: {status: needs_cherry_pick}
+
+  - id: SC.2.6
+    ring: 2
+    lessons: [B]
+    title: Growth mindset fuels creative self-regulation
+    idea: Believing creativity improves with effort predicts use of regulation strategies under setbacks.
+    student_payoff: Critique becomes data, not identity threat.
+    discovery:
+      ahmes_coats: [beghetto_agency_09e171eb]
+    quote_slot: {status: needs_cherry_pick}
+
+  # ── Ring 3 · Meta-personal / collective psyche ─────────────────────────
+  - id: SC.3.1
+    ring: 3
+    lessons: [B]
+    title: Some psychic contents are not produced by the ego
+    idea: There are processes in the psyche that produce themselves — active imagination makes them graspable.
+    student_payoff: Studio images can arrive; the craft is how you host them without ownership panic.
+    discovery:
+      ahmes_coats: [edgar_imagework_344de2dc, jung_alchemy_e377907a, marlan_2005]
+      local_edges:
+        - {vault: edgar, predicate: developed_by, subject: active imagination, object: Jung}
+        - {vault: edgar, predicate: influenced_by, subject: collective unconscious, object: Jung}
+        - {vault: edgar, predicate: mentioned_in, subject: collective unconscious, object: Jung}
+      vector_hit_themes: [alchemy as psychic projection, active imagination]
+    quote_slot: {status: needs_cherry_pick, note: "Prefer Edgar quoting Jung OR Jung node after page audit — Jung relation table is index-noisy"}
+
+  - id: SC.3.2
+    ring: 3
+    lessons: [B]
+    title: Collective unconscious — flagship mention only
+    idea: Name Jung’s first major formulation of the collective unconscious; do not extract the alchemy corpus for this series.
+    student_payoff: Shared images are not only private taste — one bibliographic landmark is enough.
+    discovery:
+      policy: mention_first_edition_masterpiece_only
+      flagship: "Jung, Wandlungen und Symbole der Libido / Psychology of the Unconscious lineage → CW / standard first collective-unconscious definition (board: pick one 1st-edition cite; no Ahmes deep dive)"
+      recycle: dissertation_bibliography_may_lack_Jung; quotations_bank Jung count=0 — rely on short Chicago mention
+      ahmes_coats: []
+    quote_slot: {status: skip_deep_extract, caution: "Overkill avoided — no Marlan/alchemy forge for CT morning class"}
+
+  - id: SC.3.3
+    ring: 3
+    lessons: [B]
+    title: Imagework mediates unconscious ↔ conscious
+    idea: Spontaneous image sequences are a researchable and teachable method (with ethics / Opt-out).
+    student_payoff: A short, consensual image protocol can open a brief — not replace critique.
+    discovery:
+      ahmes_coats: [edgar_imagework_344de2dc]
+      local_edges:
+        - {predicate: defined_in, subject: imaginal world, object: Sufi tradition}
+        - {predicate: authored, subject: meditative technique, object: groupwork process}
+      relations: 1172
+    quote_slot: {status: needs_cherry_pick}
+
+  - id: SC.3.4
+    ring: 3
+    lessons: [B, C]
+    title: Imagination deforms images; the imaginary is the measure
+    idea: Imagination is not storing pictures — it is changing them; value is the imaginary halo.
+    student_payoff: Designers remix perception; copying is memory, not imagination.
+    discovery:
+      ahmes_coats: [bachelard_poetics_and_air_water_runs]
+      project_slug: profield-philosophy-of-imagination
+      vector_hit_themes: [déformer les images, imaginaire vs image, rêverie]
+      entities_note: Poetics of Space coat has nodes but 0 entities — quote from fission_node text
+    quote_slot: {status: needs_cherry_pick, lang: fr_ok_with_EN_gloss}
+
+  # ── Ring 4 · Collective institution / magma (gap-aware) ────────────────
+  - id: SC.4.1
+    ring: 4
+    lessons: [C]
+    title: Social imaginary institutes what counts as real
+    idea: Societies create themselves through imaginary significations (Castoriadis) — design participates in that magma.
+    student_payoff: A brief is never “just a brief”; it carries instituted meanings.
+    discovery:
+      flagship: "L'institution imaginaire de la société (1975) — dissertation bibl Castoriadis1975; EN 1987 Castoriadis1987"
+      recycle_quotations_bank:
+        - "Method, in the philosophical sense, is simply the operating set of categories. Castoriadis, p. 11"
+      bib_pdfs_ready: castoriadis_cornelius
+      status: MENTION_PLUS_BANK — full Ahmes extract optional later; not blocking Lesson A/B
+      bridge_now:
+        - {id: SC.3.1, role: psyche-collective bridge}
+        - {coat: werhane_moral_imagination_96302b7e, role: "institutional scripts + free reflection — already in vectors+Ahmes"}
+    quote_slot: {status: recycle_from_quotations_bank, page: 11}
+
+  - id: SC.4.2
+    ring: 4
+    lessons: [B, C]
+    title: Moral imagination exits the script
+    idea: Moral imagination critiques operative mental models and projects new justifiable possibilities (Werhane & Bevan).
+    student_payoff: Creative move ≠ ethical move — you need both for design responsibility (C1/C2 hook).
+    discovery:
+      ahmes_coats: [werhane_moral_imagination_96302b7e]
+      project_slug: profield-creativity-techniques
+      nodes: 1315
+      entities_note: 0 entities — node text still citable after page read
+    quote_slot: {status: needs_cherry_pick}
+
+  - id: SC.4.3
+    ring: 4
+    lessons: [C]
+    title: Circulation metabolizes what counts as folklore / style
+    idea: A form becomes collective only when a community metabolizes it (Steimberg / Jakobson lead) — transposition ethics.
+    student_payoff: Your “original” image may already be social metabolism.
+    discovery:
+      ahmes_coats: [steimberg_semioticas_d639c32d]
+      project_slug: profield-creativity-techniques
+      course_hook: D2 critical layer / transposition
+    quote_slot: {status: needs_cherry_pick}
+
+  # ── Ring 5 · Contemplative / imaginal / transcendental ─────────────────
+  - id: SC.5.1
+    ring: 5
+    lessons: [C]
+    title: Plotinus — flagship mention only
+    idea: Thought/being (Parmenides via Plotinus) or One/contemplation named from the Opera / Enneads landmark — no Plotinus monograph extract for CT.
+    discovery:
+      policy: mention_first_edition_masterpiece_only
+      flagship: "Plotini Opera (Henry–Schwyzer) / Enneads — dissertation bibl Plotinus1951"
+      recycle_quotations_bank:
+        - "Parménides via Plotinus v, I, 8 — thought and being are the same (quotations_bank.xml)"
+      status: mention_only
+    quote_slot: {status: optional_bank_recycle, caution: "Overkill avoided — no plotino/ Ahmes batch for this series"}
+
+  - id: SC.5.2
+    ring: 5
+    lessons: [B, C]
+    title: Mundus imaginalis as intermediary world
+    idea: The imaginal is a mediating function between matter/mind banalities — already quoted in quotations_bank (Corbin 1972).
+    discovery:
+      recycle_quotations_bank:
+        - "Active imagination is the mirror… mundus imaginalis… p. 7 (Corbin 1972; bank quote)"
+        - "bibl: Corbin 1972 Mundus Imaginalis; Creative imagination… Ibn Arabi (2008 Routledge in bank)"
+      local_edge_bridge: {vault: edgar, predicate: defined_in, subject: imaginal world, object: Sufi tradition}
+      dissertation_frame: "Docta UCM T37047 — imagination as transpersonal mediation technology (Vega Balbás 2016)"
+      status: READY_RECYCLE — no new Corbin ingest required for first forge
+    quote_slot: {status: recycle_from_quotations_bank, page: 7}
+
+  # ── Practice / exercise ideas (catalogue slots) ─────────────────────────
+  - id: SC.X.1
+    ring: 1
+    lessons: [A]
+    title: Attention-mode brief (studio)
+    idea: Students declare FA vs OM windows for a live brief; measure kinds of ideas, not vibes.
+    exercise_leads: [open-monitoring-warm-up catalogue fill, morning-pages harvest, artist-date harvest]
+    no_repeat: "Not U2 6-3-5 + OM pairing"
+    quote_slot: {status: n/a_procedure}
+
+  - id: SC.X.2
+    ring: 2
+    lessons: [B]
+    title: Creative-centrality journaling
+    idea: Prompts that bind creativity to self-concept (Beghetto classroom strategies).
+    exercise_leads: [beghetto reflection strategies]
+    quote_slot: {status: needs_cherry_pick}
+
+  - id: SC.X.3
+    ring: 3
+    lessons: [B]
+    title: Consensual imagework micro-protocol
+    idea: Short Opt-out image sequence → one design move — ethics first.
+    exercise_leads: [edgar imagework adaptation — professor adaptation field]
+    quote_slot: {status: needs_cherry_pick}
+
+# Authority readiness (deep pass 2026-11-15)
+readiness:
+  forge_lesson_A_ideas: [SC.1.1, SC.1.2, SC.1.3, SC.1.4, SC.2.1, SC.2.2, SC.2.3, SC.X.1]
+  forge_lesson_B_ideas: [SC.2.4, SC.2.5, SC.2.6, SC.3.1, SC.3.3, SC.3.4, SC.4.2, SC.X.2, SC.X.3]
+  forge_lesson_C_light: [SC.4.1, SC.5.1, SC.5.2]  # bank recycle + flagship mentions; no Plotinus/Jung extract
+  recycle_sources:
+    - scholar/quotations_bank/quotations_bank.xml
+    - dissertation/src/sources/resources/bibliography.tei  # Castoriadis1975, Plotinus1951
+    - Docta UCM T37047 (Vega Balbás 2016) — imagination as mediating/transpersonal technology
+  overnight_forge: false  # need SC2 enrichment + human rest; teach tomorrow from U2/U6 + frame
+  parallel_boden_pipe: do_not_ingest_now
+  graph_mcp: vault_misconfigured_use_local_sqlite
+
+cherry_pick_protocol:
+  1: Pick idea_id from this lattice
+  2: Open listed ahmes coat extraction.db (or vector hit → resolve coat)
+  3: Page-read; assign node_id + Chicago page
+  4: Fill quote_slot in a private quotes.yml (not student HTML internals)
+  5: Never cite vector snippet or hypothesis edges

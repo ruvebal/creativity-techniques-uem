@@ -2387,6 +2387,137 @@ html.dark,
 	object-fit: cover;
 }
 
+/* Self×Creativity / Canvas 2.5D orbit hero (verbatim SVG facets) */
+.lesson-cover,
+[data-svg-plane-25d] {
+	position: relative;
+	isolation: isolate;
+}
+
+/* Heading hero: 2.5D field behind a glass title card (canvas-25d skill). */
+.lesson-header--orbit {
+	margin: 0 0 1.5rem;
+	padding: 0;
+	border: 0;
+	background: transparent;
+}
+
+.lesson-body.prose .lesson-cover--orbit,
+.lesson-cover--orbit {
+	position: relative;
+	display: block;
+	container-type: size;
+	margin: 0;
+	width: 100%;
+	max-width: none !important;
+	aspect-ratio: 16 / 9;
+	min-block-size: clamp(14rem, 42vw, 26rem);
+	overflow: hidden;
+	border-radius: 0.85rem;
+	border: 0;
+	background: #0b0708;
+	isolation: isolate;
+}
+
+.lesson-cover--orbit img,
+.lesson-cover--orbit .svg-plane-25d__surface {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.lesson-cover--orbit .svg-plane-25d__surface {
+	position: absolute;
+	inset: 0;
+	z-index: 0;
+	border-radius: inherit;
+	touch-action: none;
+	background: transparent;
+}
+
+.lesson-cover--orbit.is-svg-plane-ready > img {
+	opacity: 0;
+	pointer-events: none;
+}
+
+.lesson-cover--heading .lesson-cover__caption {
+	position: absolute;
+	z-index: 2;
+	inset: auto auto 9% 7%;
+	display: grid;
+	gap: 0.65rem;
+	max-width: min(42rem, 78%);
+	padding: clamp(0.85rem, 2.2cqi, 1.35rem) clamp(1rem, 2.8cqi, 1.6rem);
+	color: #f7f2e8;
+	pointer-events: none;
+	isolation: isolate;
+}
+
+/* Borderless glass plane over quiet region — skill: restrained alpha, no hard border. */
+.lesson-cover--heading .lesson-cover__caption.hero-foreground-plane::before {
+	position: absolute;
+	z-index: -1;
+	inset: clamp(-0.55rem, -1.4cqi, -0.35rem) clamp(-0.85rem, -2cqi, -0.45rem);
+	content: '';
+	border: 0;
+	clip-path: polygon(4% 0, 100% 0, 96% 100%, 0 100%);
+	background:
+		linear-gradient(150deg, rgb(8 6 10 / 0.72), rgb(26 10 12 / 0.48)),
+		linear-gradient(35deg, rgb(201 53 50 / 0.12), rgb(150 53 144 / 0.1));
+	box-shadow: 0 1.5rem 4.5rem rgb(0 0 0 / 0.35);
+	pointer-events: none;
+}
+
+.lesson-cover--heading .lesson-tagline--cover {
+	margin: 0;
+	font-size: clamp(0.72rem, 1.4cqi, 0.85rem);
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	opacity: 0.82;
+}
+
+.lesson-cover--heading .lesson-title--cover {
+	margin: 0;
+	font-size: clamp(1.45rem, min(4.2cqi, 5.5cqb), 2.55rem);
+	line-height: 1.15;
+	color: #fff;
+	text-shadow: 0 2px 18px rgb(0 0 0 / 0.45);
+}
+
+.lesson-cover--heading .lesson-cover__quote {
+	margin: 0;
+	max-width: 36ch;
+	font-family: Georgia, 'Times New Roman', serif;
+	font-size: clamp(0.95rem, 1.7cqi, 1.15rem);
+	font-style: italic;
+	line-height: 1.35;
+	color: rgb(247 242 232 / 0.92);
+}
+
+.lesson-cover--heading .lesson-cover__meta {
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.65rem 1rem;
+	font-size: 0.85rem;
+	opacity: 0.8;
+}
+
+.lesson-url--orbit {
+	margin-top: 0.75rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.lesson-cover--orbit .svg-plane-25d__surface {
+		display: none !important;
+	}
+	.lesson-cover--orbit.is-svg-plane-ready > img {
+		opacity: 1;
+		pointer-events: auto;
+	}
+}
+
 /* D2 Munari — two-column constraint plate */
 .munari-magazine {
 	margin: 1.75rem 0 2.25rem;

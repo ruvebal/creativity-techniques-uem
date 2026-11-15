@@ -57,17 +57,36 @@ Link gate: STUDENT-SLIDESHOW-FORGE.mdc §Publish gate — track + lesson links
 | U3 | Development techniques and solutions | [lesson]({{ '/lessons/en/creativity-techniques/u-3-development-solutions/' | relative_url }}) · [deck]({{ '/tracks/ct/u-3-development-solutions/' | relative_url }}) |
 | U4 | Applying creativity techniques in the workplace | [U4.1 lesson]({{ '/lessons/en/creativity-techniques/u-4-1-generate-before-you-judge/' | relative_url }}) · [U4.2 lesson]({{ '/lessons/en/creativity-techniques/u-4-2-select-with-care/' | relative_url }}) · [unit hub]({{ '/lessons/en/creativity-techniques/u-4-workplace-application/' | relative_url }}) · [deck]({{ '/tracks/ct/u-4-workplace-application/' | relative_url }}) |
 | U5 | Creativity and technology | [lesson]({{ '/lessons/en/creativity-techniques/u-5-creativity-technology/' | relative_url }}) · [deck]({{ '/tracks/ct/u-5-creativity-technology/' | relative_url }}) |
-| U6 | Creativity and personal development | [lesson]({{ '/lessons/en/creativity-techniques/u-6-personal-development/' | relative_url }}) · [deck]({{ '/tracks/ct/u-6-personal-development/' | relative_url }}) |
+| U6 | Creativity and personal development | [U6.1 Attention]({{ '/lessons/en/master-lectures/self-creativity-attention/' | relative_url }}) · [U6.1 deck]({{ '/master-lectures/self-creativity-attention/' | relative_url }}) · [U6.2 Personal development]({{ '/lessons/en/creativity-techniques/u-6-personal-development/' | relative_url }}) · [U6.2 deck]({{ '/tracks/ct/u-6-personal-development/' | relative_url }}) · [U6.3 Depth]({{ '/lessons/en/master-lectures/self-creativity-depth/' | relative_url }}) · [U6.3 deck]({{ '/master-lectures/self-creativity-depth/' | relative_url }}) |
 
 ## Master Lectures (transversal)
 
-Shared analysis methods — **not** units of the official course contents. Use from any unit that needs the eight-step process critique (feeds D1).
+Shared analysis methods — **not** units of the official course contents. Indexed from the track registry (`tracks.yml`).
 
-| Master Lecture | Lesson | Slideshow |
-| --- | --- | --- |
-| **Creative process analysis** | [Lesson]({{ '/lessons/en/master-lectures/creative-process-analysis/' | relative_url }}) | [Deck]({{ '/master-lectures/creative-process-analysis/' | relative_url }}) |
+{% assign ct_track = nil %}
+{% for track in site.data.tracks %}
+  {% if track.slug == 'creativity-techniques' %}
+    {% assign ct_track = track %}
+  {% endif %}
+{% endfor %}
 
-The Master Lecture is a method guide shared by all units.
+<table>
+<thead>
+<tr><th>ID</th><th>Master Lecture</th><th>Lesson</th><th>Slideshow</th></tr>
+</thead>
+<tbody>
+{% for ml in ct_track.master_lectures %}
+<tr>
+<td><code>{{ ml.unit_id }}</code></td>
+<td><strong>{{ ml.title_en | remove_first: 'Master Lecture · ' }}</strong></td>
+<td>{% if ml.lesson_en %}<a href="{{ ml.lesson_en | relative_url }}">Lesson</a>{% else %}—{% endif %}</td>
+<td>{% if ml.deck_en %}<a href="{{ ml.deck_en | relative_url }}">Deck</a>{% else %}—{% endif %}</td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+
+The Master Lectures are method guides shared by units — not official CONTENIDOS rows.
 
 ## How to complete a unit
 

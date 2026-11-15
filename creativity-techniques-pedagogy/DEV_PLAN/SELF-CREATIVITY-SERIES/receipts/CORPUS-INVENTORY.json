@@ -1,0 +1,360 @@
+{
+  "generated_at": "2026-11-15T18:45:07.326952+00:00",
+  "postgres_vectors": "online_2026-11-15",
+  "athanor_broadcast": "retrieve_grounded_context_online_no_graph_edges",
+  "rule": "Discover here; cite Ahmes nodes only after page read.",
+  "inventory": [
+    {
+      "key": "colzato_2012",
+      "role": "empirical FA/OM → divergent/convergent",
+      "ahmes_dirs": [
+        "frontiers_in_psychology_2012_vol_3_meditate_to_create_the_impact_of_focused_attention_and_open_monitoring_training_on_convergent_and_divergent_thinking_colzato_ozturk_hommel_2012_10_3389_fpsyg_2012_00116_a9393760"
+      ],
+      "ahmes_node_counts": {
+        "frontiers_in_psychology_2012_vol_3_meditate_to_create_the_impact_of_focused_attention_and_open_monitoring_training_on_convergent_and_divergent_thinking_colzato_ozturk_hommel_2012_10_3389_fpsyg_2012_00116_a9393760": 116
+      },
+      "bib_files": [
+        "creativity/[Frontiers in Psychology 2012 vol. 3] Meditate to create_ the impact of focused-attention and open-monitoring training on convergent and divergent thinking{Colzato, Ozturk, Hommel}(2012)[10.3389_fpsyg.2012.00116].pdf"
+      ],
+      "status": "extracted"
+    },
+    {
+      "key": "csikszentmihalyi_flow",
+      "role": "flow / personal creative life",
+      "ahmes_dirs": [
+        "harper_perennial_modern_classics_mihaly_csikszentmihalyi_creativity_flow_and_the_psychology_of_discovery_and_invention_harpercollins_35dcf3a7"
+      ],
+      "ahmes_node_counts": {
+        "harper_perennial_modern_classics_mihaly_csikszentmihalyi_creativity_flow_and_the_psychology_of_discovery_and_invention_harpercollins_35dcf3a7": 3290
+      },
+      "bib_files": [
+        "creativity/[Harper Perennial Modern Classics] Mihaly Csikszentmihalyi - Creativity_ Flow and the Psychology of Discovery and Invention (HarperCollins).epub"
+      ],
+      "status": "extracted"
+    },
+    {
+      "key": "jung",
+      "role": "collective unconscious / imaginal self",
+      "ahmes_dirs": [
+        "2014_c_g_jung_gerhard_adler_r_f_c_hull_e377907a"
+      ],
+      "ahmes_node_counts": {
+        "2014_c_g_jung_gerhard_adler_r_f_c_hull_e377907a": 5147
+      },
+      "bib_files": [
+        "alchemy/2014-c-g-jung-gerhard-adler-r-f-c-hull.pdf",
+        "psychology/Carl Gustav Jung, edited by Shamdasani et al. - The Red Book - Liber Novus  -W. W. Norton & Company (2009).pdf",
+        "psychology/James Hollis - Under Saturn's Shadow_ The Wounding and Healing of Men (Studies in Jungian Psychology By Jungian Analysts)-Inner City Books (1994).epub"
+      ],
+      "status": "extracted"
+    },
+    {
+      "key": "castoriadis",
+      "role": "social imaginary / magma",
+      "ahmes_dirs": [],
+      "ahmes_node_counts": {},
+      "bib_files": [
+        "castoriadis_cornelius/(Meridian) Cornelius Castoriadis_ David Ames Curtis (ed., transl.) - World in Fragments_ Writings on Politics, Society, Psychoanalysis, and the Imagination-Stanford Univ.pdf",
+        "castoriadis_cornelius/.DS_Store",
+        "castoriadis_cornelius/13c.Castoriadis.pdf",
+        "castoriadis_cornelius/1975-cornelius_castoriadis-the_imaginary_institution-ALTERNATIVE.pdf",
+        "castoriadis_cornelius/1975-cornelius_castoriadis-the_imaginary_institution.pdf",
+        "castoriadis_cornelius/Cornelius Castoriadis - Les carrefours du labyrinthe, tome 1 (1998).pdf",
+        "castoriadis_cornelius/David Curtis - The Castoriadis Reader (Blackwell Readers) (1997, Wiley-Blackwell).pdf",
+        "castoriadis_cornelius/[Castoriadis_Cornelius]_Visiones_Sobre_El_Mexico_F(BookFi.org).pdf",
+        "castoriadis_cornelius/[Cornelius_Castoriadis,_John_V._Garner,_Gabriel_Ro(BookFi.org).pdf",
+        "castoriadis_cornelius/[Cornelius_Castoriadis]_Les_carrefours_du_labyrinth.pdf",
+        "castoriadis_cornelius/[Cornelius_Castoriadis]_Philosophy,_Politics,_Auto(BookFi.org).pdf",
+        "castoriadis_cornelius/[Cornelius_Castoriadis]_Political_and_Social_Writings.pdf",
+        "castoriadis_cornelius/[David_Curtis]_The_Castoriadis_Reader_(Blackwell).pdf",
+        "castoriadis_cornelius/[Jeff_Klooger]_Castoriadis_Psyche,_Society,_Autonomy.pdf"
+      ],
+      "status": "bib_only"
+    },
+    {
+      "key": "plotinus",
+      "role": "One / contemplative ascent",
+      "ahmes_dirs": [],
+      "ahmes_node_counts": {},
+      "bib_files": [
+        "plotino/.DS_Store",
+        "plotino/[Eyjolfur_Kjalar_Emilsson]_Plotinus_on_Sense-Perce(BookFi).pdf",
+        "plotino/[Giannis_Stamatellos]_Plotinus_and_the_Presocratic(BookFi).pdf",
+        "plotino/[Guijarro_Hortelano]_La_Filosofia_Y_Estetica_De_Pl(BookFi).doc",
+        "plotino/[Inge._William_Ralph]_REPRINT_Inge,_William_Ra(BookFi).pdf",
+        "plotino/[Jean-Marc_Narbonne]_Plotinus_in_Dialogue_with_the(BookFi).pdf",
+        "plotino/[Plotino]_PLOTINO_-_Sobre_el_bien_o_el_uno(BookFi).pdf",
+        "plotino/[Plotinus]_Ethical_Treatises;_the_Books_of_the_Fou(BookFi).mobi",
+        "plotino/[Reuter,_Mark,_Ph.D]_Plotinus_on_the_role_of_nous_(BookFi).pdf",
+        "plotino/[Sara_Rappe]_Reading_Neoplatonism_Non-discursive_(BookFi).pdf",
+        "plotino/plotinus_on_arts.pdf"
+      ],
+      "status": "bib_only"
+    },
+    {
+      "key": "corbin_imaginal",
+      "role": "mundus imaginalis bridge",
+      "ahmes_dirs": [],
+      "ahmes_node_counts": {},
+      "bib_files": [
+        "cheetham_tom/Tom Cheetham - All the World an Icon_ Henry Corbin and the Angelic Function of Beings (2012, North Atlantic Books) - libgen.li.epub",
+        "cheetham_tom/Tom Cheetham - Imaginal Love_ The Meanings of Imagination in Henry Corbin and James Hillman - libgen.li.epub",
+        "cheetham_tom/Tom Cheetham - The World Turned Inside Out_ Henry Corbin and Islamic Mysticism (2003, Spring Journal, Inc.) - libgen.li.pdf",
+        "corbin-henry/.DS_Store",
+        "corbin-henry/Corbin, Hhenry - Creative Imagination in the Sufism of Ibn Arabi-PUP (1969).pdf",
+        "corbin-henry/[Corbin_Henry]_Hombre_De_Luz_Y_Su_Guia(BookFi).pdf",
+        "corbin-henry/[Henry_Corbin]_Alone_with_the_Alone(BookFi).pdf",
+        "corbin-henry/[Henry_Corbin]_History_of_Islamic_Philosophy(BookFi).pdf",
+        "corbin-henry/[Henry_Corbin]_Spiritual_Body_and_Celestial_Earth(BookFi).pdf",
+        "corbin-henry/[Henry_Corbin]_Swedenborg__Esoteric_Islam_(Sweden(BookFi).pdf",
+        "corbin-henry/[Henry_Corbin]_The_Man_of_Light_in_Iranian_Sufism(BookFi).pdf",
+        "corbin-henry/henry_corbin__mundus_imaginalis.pdf",
+        "hillman-james/Tom Cheetham - Imaginal Love_ The Meanings of Imagination in Henry Corbin and James Hillman.epub"
+      ],
+      "status": "bib_only"
+    },
+    {
+      "key": "kelley_confidence",
+      "role": "practiced confidence (U6 adjacency)",
+      "ahmes_dirs": [
+        "tom_kelley_david_kelley_creative_confidence_unleashing_the_creative_potential_within_us_all_2013_crown_business_64e9e459",
+        "tom_kelley_david_kelley_creative_confidence_unleashing_the_creative_potential_within_us_all_crown_business_2013_64e9e459"
+      ],
+      "ahmes_node_counts": {
+        "tom_kelley_david_kelley_creative_confidence_unleashing_the_creative_potential_within_us_all_2013_crown_business_64e9e459": 1361,
+        "tom_kelley_david_kelley_creative_confidence_unleashing_the_creative_potential_within_us_all_crown_business_2013_64e9e459": 1355
+      },
+      "bib_files": [
+        "creativity/Tom Kelley, David Kelley - Creative Confidence_ Unleashing the Creative Potential Within Us All (2013, Crown Business).epub",
+        "creativity/Tom Kelley, David Kelley - Creative Confidence_ Unleashing the Creative Potential Within Us All-Crown Business (2013).epub"
+      ],
+      "status": "extracted"
+    },
+    {
+      "key": "beghetto_agency",
+      "role": "creative agency / education",
+      "ahmes_dirs": [
+        "elements_in_creativity_and_imagination_creative_agency_unbound_ronald_a_beghetto_author_maciej_karwowski_author_2025_cambridge_university_press_10_1017_9781009479417_11_09e171eb"
+      ],
+      "ahmes_node_counts": {
+        "elements_in_creativity_and_imagination_creative_agency_unbound_ronald_a_beghetto_author_maciej_karwowski_author_2025_cambridge_university_press_10_1017_9781009479417_11_09e171eb": 894
+      },
+      "bib_files": [
+        "creativity/[Elements in Creativity and Imagination] Creative Agency Unbound{Ronald A. Beghetto (author)_ Maciej Karwowski (author)}(2025, Cambridge University Press)[10.1017_9781009479417]{11.pdf"
+      ],
+      "status": "extracted"
+    }
+  ],
+  "colzato_claim_seeds": [
+    {
+      "node_id": "f672cfb6-06ee-5f58-ba83-405b606fe666",
+      "page_index": 0,
+      "excerpt": "Meditate to create: the impact of focused-attention and open-monitoring training on convergent and divergent thinking",
+      "coat_hint": "a9393760",
+      "cite_gate": "manual-page-read required; resolver may BIBLIO-GAP"
+    },
+    {
+      "node_id": "2455fd0e-0d13-582d-b958-0b3fb7194aca",
+      "page_index": 0,
+      "excerpt": "The practice of meditation has seen a tremendous increase in the western world since the 60s. Scientific interest in meditation has also significantly grown in the past years; however, so far, it has neglected the idea that different type of meditations may drive specific cogniti",
+      "coat_hint": "a9393760",
+      "cite_gate": "manual-page-read required; resolver may BIBLIO-GAP"
+    },
+    {
+      "node_id": "0a68e3a1-8afb-55ab-99db-a042af37bbb0",
+      "page_index": 0,
+      "excerpt": "Keywords: meditation, creativity, divergent thinking, convergent thinking, open-monitoring, focused-attention",
+      "coat_hint": "a9393760",
+      "cite_gate": "manual-page-read required; resolver may BIBLIO-GAP"
+    },
+    {
+      "node_id": "aedfab0d-5b5f-5b9b-baa5-1d94a1764d4c",
+      "page_index": 0,
+      "excerpt": "More concretely, we investigated the impact of focused-attention (FA) meditation and open-monitoring (OM) meditation on creativity tasks tapping into convergent and divergent thinking.",
+      "coat_hint": "a9393760",
+      "cite_gate": "manual-page-read required; resolver may BIBLIO-GAP"
+    },
+    {
+      "node_id": "f7f008b9-2b9c-57e1-842b-d70b8e1fc148",
+      "page_index": 0,
+      "excerpt": "Regarding creativity, Guilford (1950, 1967) has distinguished between two main ingredients of most creative activities: divergent and convergent thinking - even though other processes may also contribute (Wallas, 1926). Divergent thinking is taken to represent a style of thinking",
+      "coat_hint": "a9393760",
+      "cite_gate": "manual-page-read required; resolver may BIBLIO-GAP"
+    },
+    {
+      "node_id": "72270dc0-4ff7-5298-8fe9-d826faa5a933",
+      "page_index": 1,
+      "excerpt": "with this profile: participants are presented with three unrelated words, such as 'time,''hair,' and 'stretch,' and are to identify the common associate ('long'). Interestingly for our purposes, performance on the AUT and the RAT were found to be uncorrelated (Akbari Chermahini a",
+      "coat_hint": "a9393760",
+      "cite_gate": "manual-page-read required; resolver may BIBLIO-GAP"
+    },
+    {
+      "node_id": "a5f1a9db-bd22-5028-a3ec-14bb6c8181b9",
+      "page_index": 1,
+      "excerpt": "Hommel (2012) and Hommel et al. (submitted) have argued that convergent and divergent thinking call for different cognitivecontrol states. Based on general considerations regarding the processes underlying human decision-making (for a review, see Bogacz, 2007) and on the possible",
+      "coat_hint": "a9393760",
+      "cite_gate": "manual-page-read required; resolver may BIBLIO-GAP"
+    },
+    {
+      "node_id": "21528c83-fc10-5977-a215-bb8829f66b73",
+      "page_index": 1,
+      "excerpt": "1 One might object that some degree of memory search (and 'jumping') is involved in both the AUT and the RAT because, in the RAT people need to frequently check candidate items against the three constraining concepts. Indeed, both tasks comprise of convergent components (as the s",
+      "coat_hint": "a9393760",
+      "cite_gate": "manual-page-read required; resolver may BIBLIO-GAP"
+    },
+    {
+      "node_id": "1cf5db49-26b3-5363-96d0-ccb18a7729e9",
+      "page_index": 1,
+      "excerpt": "We investigated this hypothesis by having participants practicing OM- and FA-type meditation, in addition to a third visualization exercise that was considered as a baseline, and then performing a divergent thinking and a convergent thinking task. We expected that OM meditation p",
+      "coat_hint": "a9393760",
+      "cite_gate": "manual-page-read required; resolver may BIBLIO-GAP"
+    },
+    {
+      "node_id": "d5243a56-5001-5f87-ac4c-c5b823bdad14",
+      "page_index": 1,
+      "excerpt": "Focused-attention meditation",
+      "coat_hint": "a9393760",
+      "cite_gate": "manual-page-read required; resolver may BIBLIO-GAP"
+    },
+    {
+      "node_id": "0e1931a9-2304-5270-9edb-ee0dda07dbcb",
+      "page_index": 2,
+      "excerpt": "Open-monitoring meditation",
+      "coat_hint": "a9393760",
+      "cite_gate": "manual-page-read required; resolver may BIBLIO-GAP"
+    },
+    {
+      "node_id": "f0b3ba68-8e78-5ec5-9ffd-42f9fbe1929e",
+      "page_index": 2,
+      "excerpt": "ALTERNATE USES TASK (DIVERGENT THINKING)",
+      "coat_hint": "a9393760",
+      "cite_gate": "manual-page-read required; resolver may BIBLIO-GAP"
+    },
+    {
+      "node_id": "67f8c252-a5a6-586d-868f-f2a3b293fb1e",
+      "page_index": 3,
+      "excerpt": "| Session      | Focused-attention   | Open-monitoring   | Baseline    |\n|--------------|---------------------|-------------------|-------------|\n| AUT          |                     |                   |             |\n| Elaboration  | 0.1 (0.5)           | 0.4 (1 .1)        | 0.",
+      "coat_hint": "a9393760",
+      "cite_gate": "manual-page-read required; resolver may BIBLIO-GAP"
+    },
+    {
+      "node_id": "7877a54b-2202-5425-8132-2959fa1f6dd2",
+      "page_index": 3,
+      "excerpt": "Table 1 | Means and SD for originality, fluency, flexibility, and elaboration scores from the Alternate UsesTask (AUT), the number of correct items from the Remote AssociatesTask (RAT), and perceived mood ratings as a function of focused-attention training, Open-Monitoring traini",
+      "coat_hint": "a9393760",
+      "cite_gate": "manual-page-read required; resolver may BIBLIO-GAP"
+    },
+    {
+      "node_id": "3d514cb8-8a92-5fc3-908c-cedba7b7ec4f",
+      "page_index": 3,
+      "excerpt": "The aim of our study to evaluate the possibility that different types of meditation (OM vs. FA) induce or bias people toward particular cognitive-control states. OM meditation was assumed to induce a relatively 'distributed' cognitive-control state that is characterized by weak t",
+      "coat_hint": "a9393760",
+      "cite_gate": "manual-page-read required; resolver may BIBLIO-GAP"
+    },
+    {
+      "node_id": "f76ab6cd-892f-5530-89ad-ce4301bff5f4",
+      "page_index": 3,
+      "excerpt": "Our second prediction was that FA meditation practice should facilitate convergent thinking,as assessed by the RAT,but not divergent thinking. Even though RAT performance was best after FA meditation, this increase was far from significant. However, the mood scores show that both",
+      "coat_hint": "a9393760",
+      "cite_gate": "manual-page-read required; resolver may BIBLIO-GAP"
+    },
+    {
+      "node_id": "e0035944-2dcc-5129-a848-8f140367c3c3",
+      "page_index": 3,
+      "excerpt": "Our hypotheses are motivated by the idea that particular types of meditation might establish or prime a particular cognitivecontrol state, which then primes or interferes with the control states needed to perform a convergentor divergent-thinking task. A different, but not necess",
+      "coat_hint": "a9393760",
+      "cite_gate": "manual-page-read required; resolver may BIBLIO-GAP"
+    },
+    {
+      "node_id": "569bf2f4-a027-5611-b492-8cc9b4f4f9d9",
+      "page_index": 3,
+      "excerpt": "In any case, at least for divergent thinking we were able to show that meditation has a specific impact. This suggests that not all types of meditation have the same effect, which",
+      "coat_hint": "a9393760",
+      "cite_gate": "manual-page-read required; resolver may BIBLIO-GAP"
+    },
+    {
+      "node_id": "0b2b0e95-57a8-5abd-92d1-4dea9532dcb3",
+      "page_index": 4,
+      "excerpt": "Akbari Chermahini, S., and Hommel, B. (2010). The (b)link between creativity and dopamine: spontaneous eye blink rates predict and dissociate divergent and convergent thinking. Cognition 115, 458-465.",
+      "coat_hint": "a9393760",
+      "cite_gate": "manual-page-read required; resolver may BIBLIO-GAP"
+    },
+    {
+      "node_id": "07154d1a-e255-5ff8-a7fd-7426c6de47da",
+      "page_index": 4,
+      "excerpt": "Akbari Chermahini, S., and Hommel, B. (in press). Creative mood swings: divergent and convergent thinking affect mood in opposite ways. Psychol. Res. doi: 10.1007/s00426-0110358z. [Epub ahead of print].",
+      "coat_hint": "a9393760",
+      "cite_gate": "manual-page-read required; resolver may BIBLIO-GAP"
+    },
+    {
+      "node_id": "c1ce375b-60c2-504f-b5da-3d1e60dbe930",
+      "page_index": 4,
+      "excerpt": "Hommel, B. (2012). 'Convergent and divergent operations in cognitive search,' in Cognitive Search: Evolution, Algorithms, and the Brain. Strüngmann Forum Reports , Vol. 9, eds P. M. Todd, T. T. Hills, and T. W. Robbins (Cambridge, MA: MIT Press), 215-230.",
+      "coat_hint": "a9393760",
+      "cite_gate": "manual-page-read required; resolver may BIBLIO-GAP"
+    },
+    {
+      "node_id": "431b7474-ae63-5e6e-86c4-c60361c0f813",
+      "page_index": 4,
+      "excerpt": "another - as required in divergent thinking. This consideration fits with the observation of Slagter et al. (2007) that OM meditation leads to better performance in a distributed-attention task and reinforces the view that meditation practice can have a lasting and generalizable ",
+      "coat_hint": "a9393760",
+      "cite_gate": "manual-page-read required; resolver may BIBLIO-GAP"
+    },
+    {
+      "node_id": "9131ba36-9616-5712-ab1f-cb98c24743fa",
+      "page_index": 4,
+      "excerpt": "Citation: Colzato LS, Ozturk A and Hommel B (2012) Meditate to create: the impact of focused-attention and open-monitoring training on convergent anddivergent thinking. Front. Psychology 3 :116. doi: 10.3389/fpsyg.2012.00116",
+      "coat_hint": "a9393760",
+      "cite_gate": "manual-page-read required; resolver may BIBLIO-GAP"
+    }
+  ],
+  "series_readiness": {
+    "part_a_attention_empirical": "ready",
+    "part_b_self_depth": "partial",
+    "part_c_collective_transpersonal": "blocked_pending_ahmes_extract"
+  },
+  "vector_discovery": {
+    "colzato_in_vectors": false,
+    "note": "Ahmes vault a9393760 exists locally but is NOT in DevIAC knowledge vectors yet — ingest gap. Cite from Ahmes nodes only.",
+    "related_hits_for_series": [
+      {
+        "slug": "rick_rubin_…_574691eb",
+        "theme": "meditation/mantra distraction vs creative habits",
+        "project": "profield-creativity-techniques"
+      },
+      {
+        "slug": "harper_…_csikszentmihalyi_…_35dcf3a7",
+        "theme": "undirected reflection + kinesthetic incubation",
+        "project": "profield-creativity-techniques"
+      },
+      {
+        "slug": "chaomei_chen_…_d048ab99",
+        "theme": "Guilford divergent/convergent framing",
+        "project": "profield-creativity-techniques"
+      },
+      {
+        "slug": "2014_c_g_jung_…_e377907a",
+        "theme": "collective unconscious / alchemy psyche",
+        "project": "scholar-alchemy"
+      },
+      {
+        "slug": "marlan_2005_…_6f86f737",
+        "theme": "Jung alchemy as imaginal psychology",
+        "project": "scholar-alchemy"
+      },
+      {
+        "slug": "iain_edgar_…_344de2dc",
+        "theme": "imagework / dream re-entry meditation",
+        "project": "scholar-research-methodology"
+      },
+      {
+        "slug": "gaut_kieran_…_d711df2b",
+        "theme": "imagination as productive faculty",
+        "project": "profield-creativity-techniques"
+      }
+    ],
+    "castoriadis_plotinus_in_vectors": false,
+    "graph_edges_for_query": 0
+  },
+  "updated_at": "2026-11-15T18:46:26.177626+00:00"
+}

@@ -1,0 +1,10 @@
+{% comment %}
+  Canvas 2.5D: verbatim SVG facets → independent float/orbit + subtle parallax.
+  Studio skill: ~/src/.cursor/skills/canvas-25d-content-hero/
+{% endcomment %}
+<script type="module">
+	import { mountAllSvgPlanes25d } from '{{ '/assets/js/svg-plane-25d.js' | relative_url }}?v=20261115-tri-z-glass-1';
+	mountAllSvgPlanes25d().catch((error) => {
+		console.warn('[svg-plane-25d] Boot skipped.', error);
+	});
+</script>

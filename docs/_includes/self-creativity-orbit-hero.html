@@ -1,0 +1,33 @@
+{% comment %}
+  Heading hero: 2.5D triangle field as background + glass caption for the title.
+  Studio: canvas-25d-content-hero (glass foreground / decorative canvas at inset 0).
+{% endcomment %}
+{% assign orbit_svg = 'ct-pass-07-self-orbit-44d0a266.svg.svg' %}
+{% assign orbit_quote = page.master_idea | default: 'Open to invent. Focus to finish.' %}
+<figure
+	class="lesson-cover lesson-cover--orbit lesson-cover--heading"
+	data-svg-plane-25d="orbit"
+	data-ambient-float="true"
+	data-svg-plane-src="{{ '/assets/images/fractal-pass-track/' | append: orbit_svg | relative_url }}"
+	aria-label="{{ page.title | escape }}">
+	<img
+		src="{{ '/assets/images/fractal-pass-track/' | append: orbit_svg | relative_url }}"
+		width="1600"
+		height="900"
+		alt=""
+		decoding="async"
+		fetchpriority="high" />
+	<figcaption class="lesson-cover__caption hero-foreground-plane">
+		<p class="lesson-tagline lesson-tagline--cover">Creativity Techniques · Master lecture</p>
+		<h1 class="lesson-title lesson-title--cover" id="lesson-title">{{ page.title }}</h1>
+		{% if orbit_quote %}
+		<p class="lesson-cover__quote">{{ orbit_quote | escape }}</p>
+		{% endif %}
+		{% if page.author or page.date %}
+		<p class="lesson-cover__meta">
+			{% if page.author %}<span class="lesson-author">{{ page.author }}</span>{% endif %}
+			{% if page.date %}<span class="lesson-date">{{ page.date | date: "%Y-%m-%d" }}</span>{% endif %}
+		</p>
+		{% endif %}
+	</figcaption>
+</figure>
