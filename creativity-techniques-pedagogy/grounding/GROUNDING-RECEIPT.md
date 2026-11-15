@@ -29,7 +29,8 @@ Note: institutional guía PDFs often lack DOI/ISBN — expect `[BIBLIO-GAP]` on 
 | ----- | -------- | ------ |
 | File corpus | `~/projects/ruvebal/scholar/bibliographies/creativity` | Ready (operator corpus) |
 | Ahmes vaults | `~/ahmes-library/scholar/documents/*creativ*` (+ Creative Confidence, Chen, Craft, Persaud, Beghetto, Feldman, …) | Extracted |
-| DevIAC vectors | `project_slug=profield-creativity-techniques` · `knowledge_scope=field_prospection` | Live (smoke-tested 2026-09-11) |
+| Boden pipe (2026-11-15) | Biblio `boden_margaret` → Profield `20261115-boden-creative-mind` → Ahmes scholar | **GREEN** — Creative Mind + Perkins/Ram 1995; see `grounding/boden-conceptual-spaces/` |
+| DevIAC vectors | `project_slug=profield-creativity-techniques` · `knowledge_scope=field_prospection` | Live; Boden primary + reception ingested 2026-11-15 (+1260 chunks) |
 | Profield panorama run | `~/src/profield/runs/creativity-techniques/20260909/` | Pass-1 edited; Pass-3 tool-verify still owed |
 
 **Smoke queries returning cite-grade candidates (discovery only):** Guilford divergent-thinking lineage (Chen); creative confidence / design-thinking method (Kelley); reflective / creative capability framing (Craft); Beghetto creative agency.

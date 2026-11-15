@@ -244,17 +244,25 @@ layout: null
       "slide_role": "analysis_opener",
       "background_kind": "geometrical",
       "heading": "Open",
-      "sentence": "Whose image is this — only yours, or already a shared form?"
+      "sentence": "Whose image is this — only yours, or already a shared form?",
+      "background_url": "/assets/images/fractal-pass-track/ct-pass-07-self-orbit-09f95231.svg"
     },
     {
       "slide_id": "analysis-model",
       "slide_role": "analysis_model",
       "background_kind": "curated",
       "heading": "Read the self in the work",
-      "sentence": "Ask what the maker practiced — and which collective image they borrowed or broke.",
+      "sentence": "Before technique: look at a piece and ask — was this made while searching openly, or while locking a choice? Can you see the switch?",
       "image_brief": "A self-portrait as staged identity, not only face.",
       "asset_id": "wikimedia:File:Frances Benjamin Johnston, Self-Portrait (as \"New Woman\"), 1896.jpg",
-      "media_slot_id": "ML-SCD.analysis-model"
+      "media_slot_id": "ML-SCD.analysis-model",
+      "quote": "Open to invent. Focus to finish.",
+      "quote_origin": "tao_invented",
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/master-lectures/self-creativity-attention/#tao-of-creativity"
+      },
+      "notes": "Pairs with U2 deferred judgement. Language/medium/support still apply; today the lens is attention mode. Tao names the two jobs before the Colzato evidence."
     },
     {
       "slide_id": "masterclass-1",
@@ -309,18 +317,18 @@ layout: null
       "slide_id": "masterclass-4",
       "slide_role": "masterclass",
       "background_kind": "curated",
-      "heading": "4 · Images larger than the ego",
-      "sentence": "Some images arrive as if not only yours — Jung named a collective unconscious; we mention the landmark, we do not play therapist.",
+      "heading": "4 · Focus is not magic selection",
+      "sentence": "Why: the study predicted focused-attention would help convergent thinking — it did not hold up. What then: use FA to return to one object when you already have options; do not expect it to invent the right pick for you.",
       "image_brief": "A figure facing a shared vista — the self before something larger.",
-      "quote": "Name the landmark; keep the studio ethical.",
+      "quote": "FA meditation did not sustain convergent thinking as predicted.",
       "quote_origin": "tao_invented",
       "citation": {
-        "label": "(Tao of Creativity)",
-        "href": "/creativity-techniques-uem/lessons/en/master-lectures/self-creativity-depth/#tao-of-creativity"
+        "label": "(Tao of Creativity — after Colzato et al. 2012)",
+        "href": "/creativity-techniques-uem/lessons/en/master-lectures/self-creativity-attention/#ref-colzato-2012"
       },
       "asset_id": "wikimedia:File:Caspar David Friedrich - Wanderer above the sea of fog.jpg",
       "media_slot_id": "ML-SCD.masterclass-4",
-      "notes": "Flagship mention only — Psychology of the Unconscious / CW lineage. No alchemy extract."
+      "notes": "Why/what-then: students must not leave thinking FA = automatic good picks. Convergent work still needs criteria, comparison, and craft — attention style is only one tool."
     },
     {
       "slide_id": "masterclass-5",
@@ -343,18 +351,18 @@ layout: null
       "slide_id": "masterclass-6",
       "slide_role": "masterclass",
       "background_kind": "curated",
-      "heading": "6 · Institutions invent worlds",
-      "sentence": "Method is the set of categories we operate — societies institute what counts as real (Castoriadis). Design participates.",
+      "heading": "6 · Dose honesty + Opt-out",
+      "sentence": "Opt-out means: you may skip the embodied warm-up — sit quietly or jump to listing — no explanation. Dose honesty means: the lab used ~35 minutes; our classroom version is shorter and untested — never pretend the minutes match.",
       "image_brief": "A writer at a desk inside a social world of forms.",
-      "quote": "Method, in the philosophical sense, is simply the operating set of categories.",
-      "quote_origin": "page_verified",
+      "quote": "Adaptation is allowed. Pretending the minutes match is not.",
+      "quote_origin": "tao_invented",
       "citation": {
-        "label": "(Castoriadis 1975, 11)",
-        "href": "/creativity-techniques-uem/lessons/en/master-lectures/self-creativity-depth/#ref-castoriadis-1975"
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/master-lectures/self-creativity-attention/#tao-of-creativity"
       },
       "asset_id": "wikimedia:File:Johannes Vermeer - A Lady Writing - Google Art Project.jpg",
       "media_slot_id": "ML-SCD.masterclass-6",
-      "notes": "Flagship: L'institution imaginaire de la société (1975). Plotinus: optional name-drop of Enneads only."
+      "notes": "Define Opt-out on the slide for teenagers. Lab card repeats it. Consent before technique."
     },
     {
       "slide_id": "retrieval",

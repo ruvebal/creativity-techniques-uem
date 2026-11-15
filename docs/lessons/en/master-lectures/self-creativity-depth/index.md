@@ -13,6 +13,7 @@ master_idea: 'The inventing self is practiced — and inhabited by shared images
 practice_anchor: 'Shared-image note + category audit → six-sentence U6 confidence paragraph.'
 frontier_signal: 'Open question: can designers revise a brief’s categories without pretending to stand outside society?'
 deck_url: /master-lectures/self-creativity-depth/
+orbit_hero: true
 references: [csikszentmihalyi-1996, corbin-1972, castoriadis-1975, schon-1983]
 ---
 

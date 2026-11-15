@@ -39,15 +39,34 @@ export function svgViewBox(svg) {
 	return { x: values[0], y: values[1], width: values[2], height: values[3] };
 }
 
-export function sourceLayerDepth(index, count) {
-	const sourceLayer = (count - 1) / 2 - index;
-	const irregularity = (((index * 0.61803398875 + 0.17) % 1) - 0.5) * 10;
-	return sourceLayer * 22 + irregularity;
+/**
+ * Triangular-ish Z spread (Bates n=3): denser mid-layers, rarer extremes.
+ * Optional `sizeNorm` (0–1) pushes larger facets farther from the mid-plane
+ * so ungrouped triangles read as independent depth bands.
+ */
+export function sourceLayerDepth(index, count, sizeNorm = 0.5) {
+	const t1 = (index * 0.61803398875 + 0.11) % 1;
+	const t2 = (index * 0.41421356237 + 0.37) % 1;
+	const t3 = (index * 0.73205080757 + 0.59) % 1;
+	const triangular = (t1 + t2 + t3) / 3;
+	const mid = (triangular - 0.5) * 2;
+	const span = Math.max(48, count * 0.42);
+	const sizePush = (sizeNorm - 0.5) * 36;
+	const jitter = (((index * 0.61803398875 + 0.17) % 1) - 0.5) * 14;
+	return mid * span + sizePush + jitter;
 }
 
 export function projectFacet(facet, viewBox, camera, elapsed, options = {}) {
-	const x = facet.x - (viewBox.x + viewBox.width / 2);
-	const y = facet.y - (viewBox.y + viewBox.height / 2);
+	const orbitRadius = options.orbitRadius ?? 0;
+	const orbitSpeed = options.orbitSpeed ?? 0.42;
+	const orbitX = orbitRadius
+		? Math.cos(elapsed * orbitSpeed + facet.phase) * orbitRadius
+		: 0;
+	const orbitY = orbitRadius
+		? Math.sin(elapsed * orbitSpeed * 0.87 + facet.phase * 1.13) * orbitRadius * 0.62
+		: 0;
+	const x = facet.x - (viewBox.x + viewBox.width / 2) + orbitX;
+	const y = facet.y - (viewBox.y + viewBox.height / 2) + orbitY;
 	const floatDepth = options.floatDepth ?? 6;
 	const extrusionStrength = options.extrusionStrength ?? 2.1;
 	const z = (

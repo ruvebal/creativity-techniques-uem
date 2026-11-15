@@ -91,7 +91,10 @@ breadcrumbs = breadcrumbs | push: breadcrumb_item %} {% endif %} {% endfor %}
 			{% include lesson-action-bar.html %}
 			</div>
 
-			<header class="lesson-header{% if site.data.archive_covers[page.url] %} hero-section hero-section--archive hero-section--hub hero-foreground-plane--self{% endif %}">
+			<header class="lesson-header{% if page.orbit_hero %} lesson-header--orbit{% elsif site.data.archive_covers[page.url] %} hero-section hero-section--archive hero-section--hub hero-foreground-plane--self{% endif %}">
+				{% if page.orbit_hero %}
+					{% include self-creativity-orbit-hero.html %}
+				{% else %}
 				{% assign cover_key = page.slug | default: page.title | slugify %}
 				{% assign lesson_cover = site.data.lesson_covers[cover_key] %}
 				<div class="lesson-meta">
@@ -113,7 +116,7 @@ breadcrumbs = breadcrumbs | push: breadcrumb_item %} {% endif %} {% endfor %}
 								{% if status_lower == 'finished' or status_lower == 'terminado' %} {% if page.lang == 'es' %}✓ Finalizado{% else
 								%}✓ Finished{% endif %} {% elsif status_lower == 'scaffold' %} {% if page.lang == 'es' %}Andamiaje{% else %}Scaffold{% endif %} {% elsif status_lower == 'draft' or status_lower == 'borrador' %} {% if page.lang == 'es'
 								%}Borrador{% else %}Draft{% endif %} {% elsif status_lower == 'in progress' or status_lower == 'in-progress' or
-								status_lower == 'en proceso' %} {% if page.lang == 'es' %}En Proceso{% else %}In Progress{% endif %} {% else %} {{
+								status_lower == 'en progreso' %} {% if page.lang == 'es' %}En Proceso{% else %}In Progress{% endif %} {% else %} {{
 								page.status | capitalize }} {% endif %}
 							</span>
 							{% endif %}
@@ -127,7 +130,7 @@ breadcrumbs = breadcrumbs | push: breadcrumb_item %} {% endif %} {% endfor %}
 						{% if status_lower == 'finished' or status_lower == 'terminado' %} {% if page.lang == 'es' %}✓ Finalizado{% else
 						%}✓ Finished{% endif %} {% elsif status_lower == 'scaffold' %} {% if page.lang == 'es' %}Andamiaje{% else %}Scaffold{% endif %} {% elsif status_lower == 'draft' or status_lower == 'borrador' %} {% if page.lang == 'es'
 						%}Borrador{% else %}Draft{% endif %} {% elsif status_lower == 'in progress' or status_lower == 'in-progress' or
-						status_lower == 'en proceso' %} {% if page.lang == 'es' %}En Proceso{% else %}In Progress{% endif %} {% else %} {{
+						status_lower == 'en progreso' %} {% if page.lang == 'es' %}En Proceso{% else %}In Progress{% endif %} {% else %} {{
 						page.status | capitalize }} {% endif %}
 					</span>
 					{% endif %}
@@ -142,7 +145,8 @@ breadcrumbs = breadcrumbs | push: breadcrumb_item %} {% endif %} {% endfor %}
 					{% endif %}
 				</div>
 				{% endif %}
-				<p class="lesson-url">
+				{% endif %}
+				<p class="lesson-url{% if page.orbit_hero %} lesson-url--orbit{% endif %}">
 					<span class="sr-only">URL:</span>
 					<a
 						href="{{ site.url }}{{ site.baseurl }}{{ page.url }}"

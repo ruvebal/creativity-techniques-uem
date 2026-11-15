@@ -13,6 +13,7 @@ master_idea: 'Creativity needs more than one attention style — open to invent,
 practice_anchor: 'OM warm-up (Opt-out) + attention brief for a live design problem.'
 frontier_signal: 'Open question: how short can an attention warm-up be before it stops helping ideation?'
 deck_url: /master-lectures/self-creativity-attention/
+orbit_hero: true
 references: [colzato-2012, craft-2000, csikszentmihalyi-1996]
 ---
 
@@ -62,7 +63,9 @@ After open-monitoring, people did better on a divergent task in that laboratory 
 
 ### 4 · Focus is not magic selection
 
-Focused-attention did **not** reliably boost the convergent task as predicted. Teach the limit.
+**Why:** Colzato et al. predicted that focused-attention training would help *convergent* thinking (finding the fit). That prediction did **not** hold in their results [(Colzato, Ozturk, and Hommel 2012, 1)](#ref-colzato-2012).
+
+**What then:** Use FA when you already have options and need to *return to one object* — not as a spell that invents the right pick. Convergent work still needs criteria, comparison, and craft. Teach the limit so nobody leaves thinking “focus = automatic good selection.”
 
 ### 5 · Incubation needs partial attention
 
@@ -70,7 +73,9 @@ Walk, shower, craft — leave a problem half-held so new links can surface [(Csi
 
 ### 6 · Dose honesty + Opt-out
 
-The study used sessions of about **35 minutes**. Our warm-up is shorter and **untested**. Every embodied step offers **Opt-out**.
+**Opt-out** (defined here, repeated on the Lab card): you may **skip the embodied warm-up** — sit quietly or jump straight to listing — **without explaining why**. Consent before technique.
+
+**Dose honesty:** the lab study used sessions of about **35 minutes**. Our classroom warm-up is shorter and **untested**. Adaptation is allowed; pretending the minutes match is not.
 
 ## Lab
 

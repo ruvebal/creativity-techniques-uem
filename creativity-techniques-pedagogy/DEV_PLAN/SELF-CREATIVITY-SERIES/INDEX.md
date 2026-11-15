@@ -48,6 +48,7 @@
 | [`SELF-CREATIVITY-ORCHESTRATOR.md`](SELF-CREATIVITY-ORCHESTRATOR.md) | Resume / paste / hard rules |
 | [`scripts/inventory_self_creativity_corpus.py`](scripts/inventory_self_creativity_corpus.py) | Reusable forger preflight |
 | [`FORGER-SKILL-UPDATE.md`](FORGER-SKILL-UPDATE.md) | Proposed curriculum-forger / CT forge hook |
+| [`GRAPHICS-ORBIT-25D.md`](GRAPHICS-ORBIT-25D.md) | Canvas 2.5D orbit hero from pass-01 geometry (project + studio index) |
 
 ## Out of scope (this cascade)
 

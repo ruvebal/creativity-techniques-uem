@@ -245,18 +245,25 @@ layout: null
       "slide_role": "analysis_opener",
       "background_kind": "geometrical",
       "heading": "Open",
-      "sentence": "Before technique: what attention state are you in when you invent — and when you select?"
+      "sentence": "Before technique: what attention state are you in when you invent — and when you select?",
+      "background_url": "/assets/images/fractal-pass-track/ct-pass-07-self-orbit-09f95231.svg"
     },
     {
       "slide_id": "analysis-model",
       "slide_role": "analysis_model",
       "background_kind": "curated",
       "heading": "Read the attention in the work",
-      "sentence": "Ask of any piece: was this made in open search or in constrained choice — and can you see the switch?",
+      "sentence": "Before technique: look at a piece and ask — was this made while searching openly, or while locking a choice? Can you see the switch?",
       "image_brief": "A study that holds many marks before a single composition.",
       "asset_id": "wikimedia:File:Study for \"A Sunday on La Grande Jatte\" MET DP259921.jpg",
       "media_slot_id": "ML-SCA.analysis-model",
-      "notes": "Pairs with U2 deferred judgement. Language/medium/support still apply; today the lens is attention mode."
+      "notes": "Pairs with U2 deferred judgement. Language/medium/support still apply; today the lens is attention mode. Tao names the two jobs before the Colzato evidence.",
+      "quote": "Open to invent. Focus to finish.",
+      "quote_origin": "tao_invented",
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/master-lectures/self-creativity-attention/#tao-of-creativity"
+      }
     },
     {
       "slide_id": "masterclass-1",
@@ -314,17 +321,17 @@ layout: null
       "slide_role": "masterclass",
       "background_kind": "curated",
       "heading": "4 · Focus is not magic selection",
-      "sentence": "Focused-attention did not reliably boost the convergent task in the same study. Teach the limit.",
+      "sentence": "Why: the study predicted focused-attention would help convergent thinking — it did not hold up. What then: use FA to return to one object when you already have options; do not expect it to invent the right pick for you.",
       "image_brief": "A careful stack that can still fall — focus without guarantee.",
       "quote": "FA meditation did not sustain convergent thinking as predicted.",
       "quote_origin": "tao_invented",
       "citation": {
         "label": "(Tao of Creativity — after Colzato et al. 2012)",
-        "href": "/creativity-techniques-uem/lessons/en/master-lectures/self-creativity-attention/#tao-of-creativity"
+        "href": "/creativity-techniques-uem/lessons/en/master-lectures/self-creativity-attention/#ref-colzato-2012"
       },
       "asset_id": "wikimedia:File:Jean Siméon Chardin, The House of Cards, probably 1737, NGA 97.jpg",
       "media_slot_id": "ML-SCA.masterclass-4",
-      "notes": "Discussion honesty. Students must not leave thinking FA = automatic good picks."
+      "notes": "Why/what-then: students must not leave thinking FA = automatic good picks. Convergent work still needs criteria, comparison, and craft — attention style is only one tool."
     },
     {
       "slide_id": "masterclass-5",
@@ -348,7 +355,7 @@ layout: null
       "slide_role": "masterclass",
       "background_kind": "curated",
       "heading": "6 · Dose honesty + Opt-out",
-      "sentence": "The study used ~35-minute sessions. Our warm-up is shorter and untested — always offer Opt-out.",
+      "sentence": "Opt-out means: you may skip the embodied warm-up — sit quietly or jump to listing — no explanation. Dose honesty means: the lab used ~35 minutes; our classroom version is shorter and untested — never pretend the minutes match.",
       "image_brief": "A bandaged ear — technique has a cost; consent first.",
       "quote": "Adaptation is allowed. Pretending the minutes match is not.",
       "quote_origin": "tao_invented",
@@ -358,7 +365,7 @@ layout: null
       },
       "asset_id": "wikimedia:File:Vincent van Gogh - Self-portrait with bandaged ear (1889, Courtauld Institute).jpg",
       "media_slot_id": "ML-SCA.masterclass-6",
-      "notes": "EX7/EX8 cold-review honesty. Embodied Opt-out on Lab card."
+      "notes": "Define Opt-out on the slide for teenagers. Lab card repeats it. Consent before technique."
     },
     {
       "slide_id": "retrieval",

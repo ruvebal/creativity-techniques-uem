@@ -118,6 +118,7 @@
     'ct-pass-04-practice-6e0ce9bc.svg',
     'ct-pass-05-feedback-86525d56.svg',
     'ct-pass-06-coherence-bcb1f0e6.svg',
+    'ct-pass-07-self-orbit-09f95231.svg',
   ];
   const kochFile = 'ct-koch-triangle-5cc4358a9bdb.svg';
   const kochUrl = `${base}/assets/images/fractal-triangles/${kochFile}`;
