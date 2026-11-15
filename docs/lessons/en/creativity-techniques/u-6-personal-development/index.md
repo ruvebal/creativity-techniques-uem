@@ -31,12 +31,12 @@ references: [schon-1983]
 
 **In-class deck:** [U6 slideshow]({{ '/tracks/ct/u-6-personal-development/' | relative_url }})
 
-**4-hour session map (with Self & Creativity master lectures):**
+**Related master lectures:**
 
-1. [Attention]({{ '/master-lectures/self-creativity-attention/' | relative_url }}) — open/focus modes (~50–60 min)  
-2. **This U6 deck** — confidence as practice (~50–60 min)  
-3. Lab — U6 exercises (+ optional OM warm-up from Attention, with Opt-out) (~70–80 min)  
-4. [Depth]({{ '/master-lectures/self-creativity-depth/' | relative_url }}) + [Workshop paragraph](#workshop) (~50–60 min)
+1. [Self & Creativity I — Attention]({{ '/master-lectures/self-creativity-attention/' | relative_url }})  
+2. **This U6 deck** — confidence as practice  
+3. Lab — U6 exercises (+ optional OM warm-up from Attention, with Opt-out)  
+4. [Self & Creativity II — Depth]({{ '/master-lectures/self-creativity-depth/' | relative_url }}) + [Workshop paragraph](#workshop)
 
 </div>
 

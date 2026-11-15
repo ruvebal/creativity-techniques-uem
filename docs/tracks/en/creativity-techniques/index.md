@@ -78,7 +78,7 @@ Shared analysis methods — **not** units of the official course contents. Index
 {% for ml in ct_track.master_lectures %}
 <tr>
 <td><code>{{ ml.unit_id }}</code></td>
-<td><strong>{{ ml.title_en | remove_first: 'Master Lecture · ' }}</strong>{% if ml.series == 'self-creativity' %} · <em>with U6</em>{% endif %}</td>
+<td><strong>{{ ml.title_en | remove_first: 'Master Lecture · ' }}</strong></td>
 <td>{% if ml.lesson_en %}<a href="{{ ml.lesson_en | relative_url }}">Lesson</a>{% else %}—{% endif %}</td>
 <td>{% if ml.deck_en %}<a href="{{ ml.deck_en | relative_url }}">Deck</a>{% else %}—{% endif %}</td>
 </tr>
@@ -86,15 +86,7 @@ Shared analysis methods — **not** units of the official course contents. Index
 </tbody>
 </table>
 
-### Self & Creativity · 4-hour session (with U6)
-
-| Order | Surface |
-| --- | --- |
-| 1 | [Self & Creativity I — Attention]({{ '/lessons/en/master-lectures/self-creativity-attention/' | relative_url }}) · [deck]({{ '/master-lectures/self-creativity-attention/' | relative_url }}) |
-| 2 | [U6 · Personal development]({{ '/lessons/en/creativity-techniques/u-6-personal-development/' | relative_url }}) · [deck]({{ '/tracks/ct/u-6-personal-development/' | relative_url }}) |
-| 3 | [Self & Creativity II — Depth]({{ '/lessons/en/master-lectures/self-creativity-depth/' | relative_url }}) · [deck]({{ '/master-lectures/self-creativity-depth/' | relative_url }}) |
-
-Lab/Workshop traces for the arc are shared with U6. Master Lectures remain method guides — not official CONTENIDOS rows.
+The Master Lectures are method guides shared by units — not official CONTENIDOS rows.
 
 ## How to complete a unit
 

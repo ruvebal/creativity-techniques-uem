@@ -32,7 +32,7 @@ references: [colzato-2012, craft-2000, csikszentmihalyi-1996]
 
 **In-class deck:** [Self & Creativity I — Attention]({{ '/master-lectures/self-creativity-attention/' | relative_url }})
 
-**Series:** This is **part 1 of 2** with [Self & Creativity II — Depth]({{ '/lessons/en/master-lectures/self-creativity-depth/' | relative_url }}). Together with [U6 · Personal development]({{ '/lessons/en/creativity-techniques/u-6-personal-development/' | relative_url }}) they fill a **4-hour** personal-creativity session.
+**Series:** This is **part 1 of 2** with [Self & Creativity II — Depth]({{ '/lessons/en/master-lectures/self-creativity-depth/' | relative_url }}). Pairs with [U6 · Personal development]({{ '/lessons/en/creativity-techniques/u-6-personal-development/' | relative_url }}).
 
 </div>
 
@@ -103,7 +103,7 @@ Park one sentence for the [U6 confidence paragraph]({{ '/lessons/en/creativity-t
 ## Editorial note. Work in progress. Teaching Innovation Practice
 {: .lesson-editorial-note }
 
-Teaching schemata for a 4-hour session with U6. Colzato / Craft / Csíkszentmihalyi support the spine; classroom OM minutes are an explicit adaptation.
+Teaching schemata paired with U6. Colzato / Craft / Csíkszentmihalyi support the spine; classroom OM minutes are an explicit adaptation.
 
 ## AI-assisted authorship
 
