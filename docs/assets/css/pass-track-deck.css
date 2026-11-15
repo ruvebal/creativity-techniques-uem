@@ -477,18 +477,22 @@ body {
 }
 .student-media-slide--quote .student-media-slide__sentence { font-size: 0.8em; }
 
-/* split (default for openers and outro): heading left, text right. */
+/* split (default for openers and outro): one column, heading above the text.
+   Two columns read poorly in the card; stacking keeps every line in the frame. */
 .student-media-slide--split {
-  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
-  column-gap: 1.4rem;
+  grid-template-columns: minmax(0, 1fr);
+  row-gap: 0.6rem;
   align-items: start;
-  max-width: min(52rem, 72%);
+  max-width: min(52rem, 80%);
   min-height: 0;
 }
 .student-media-slide--split > .student-media-slide__unit,
-.student-media-slide--split > h1 { grid-column: 1; }
-.student-media-slide--split > :not(h1):not(.student-media-slide__unit) { grid-column: 2; }
-.student-media-slide--split > h1 { grid-row: 2 / span 4; align-self: start; }
+.student-media-slide--split > h1,
+.student-media-slide--split > :not(h1):not(.student-media-slide__unit) {
+  grid-column: 1;
+  grid-row: auto;
+  align-self: start;
+}
 
 /* exercise (Lab and Workshop slides): task first, portfolio trace boxed, timer. */
 /* Exercise type uses the course type sizes (no reductions: golden rule 1). Space
