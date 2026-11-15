@@ -1,6 +1,6 @@
 # Forge exec — U6 + Self×Creativity for 4h class
 
-**Status:** RUNNING (autonomous)  
+**Status:** DONE — localhost green; Qwen PASS_WITH_NITS  
 **Branch:** `forge/self-creativity-meditation-series`  
 **Human:** dinner / sleep — no loop required for publishable teaching surfaces
 
