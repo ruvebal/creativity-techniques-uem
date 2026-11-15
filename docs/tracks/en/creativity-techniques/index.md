@@ -61,17 +61,40 @@ Link gate: STUDENT-SLIDESHOW-FORGE.mdc §Publish gate — track + lesson links
 
 ## Master Lectures (transversal)
 
-Shared analysis methods — **not** units of the official course contents. Use from any unit that needs the eight-step process critique (feeds D1).
+Shared analysis methods — **not** units of the official course contents. Indexed from the track registry (`tracks.yml`).
 
-| Master Lecture | Lesson | Slideshow |
-| --- | --- | --- |
-| **Creative process analysis** | [Lesson]({{ '/lessons/en/master-lectures/creative-process-analysis/' | relative_url }}) | [Deck]({{ '/master-lectures/creative-process-analysis/' | relative_url }}) |
-| **Self & Creativity I — Attention** | [Lesson]({{ '/lessons/en/master-lectures/self-creativity-attention/' | relative_url }}) | [Deck]({{ '/master-lectures/self-creativity-attention/' | relative_url }}) |
-| **Self & Creativity II — Depth** | [Lesson]({{ '/lessons/en/master-lectures/self-creativity-depth/' | relative_url }}) | [Deck]({{ '/master-lectures/self-creativity-depth/' | relative_url }}) |
+{% assign ct_track = nil %}
+{% for track in site.data.tracks %}
+  {% if track.slug == 'creativity-techniques' %}
+    {% assign ct_track = track %}
+  {% endif %}
+{% endfor %}
 
-**4-hour personal-creativity session:** Attention → [U6]({{ '/lessons/en/creativity-techniques/u-6-personal-development/' | relative_url }}) → Depth (Lab/Workshop shared with U6).
+<table>
+<thead>
+<tr><th>ID</th><th>Master Lecture</th><th>Lesson</th><th>Slideshow</th></tr>
+</thead>
+<tbody>
+{% for ml in ct_track.master_lectures %}
+<tr>
+<td><code>{{ ml.unit_id }}</code></td>
+<td><strong>{{ ml.title_en | remove_first: 'Master Lecture · ' }}</strong>{% if ml.series == 'self-creativity' %} · <em>with U6</em>{% endif %}</td>
+<td>{% if ml.lesson_en %}<a href="{{ ml.lesson_en | relative_url }}">Lesson</a>{% else %}—{% endif %}</td>
+<td>{% if ml.deck_en %}<a href="{{ ml.deck_en | relative_url }}">Deck</a>{% else %}—{% endif %}</td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
 
-The Master Lectures are method guides shared by units — not official CONTENIDOS rows.
+### Self & Creativity · 4-hour session (with U6)
+
+| Order | Surface |
+| --- | --- |
+| 1 | [Self & Creativity I — Attention]({{ '/lessons/en/master-lectures/self-creativity-attention/' | relative_url }}) · [deck]({{ '/master-lectures/self-creativity-attention/' | relative_url }}) |
+| 2 | [U6 · Personal development]({{ '/lessons/en/creativity-techniques/u-6-personal-development/' | relative_url }}) · [deck]({{ '/tracks/ct/u-6-personal-development/' | relative_url }}) |
+| 3 | [Self & Creativity II — Depth]({{ '/lessons/en/master-lectures/self-creativity-depth/' | relative_url }}) · [deck]({{ '/master-lectures/self-creativity-depth/' | relative_url }}) |
+
+Lab/Workshop traces for the arc are shared with U6. Master Lectures remain method guides — not official CONTENIDOS rows.
 
 ## How to complete a unit
 
