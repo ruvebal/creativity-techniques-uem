@@ -1,6 +1,6 @@
 {
   "schema": "lexfield-clone-manifest/v1",
-  "cloned_at": "2026-11-15T20:07:22Z",
+  "cloned_at": "2026-11-15T21:08:13Z",
   "upstream": {
     "tool": "lexfield",
     "field": "creativity_techniques",
