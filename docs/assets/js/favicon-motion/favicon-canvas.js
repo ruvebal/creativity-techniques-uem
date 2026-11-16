@@ -97,16 +97,30 @@ export async function mountFaviconCanvas(host, options = {}) {
 	const paletteTotal = transitionDuration(facets.length, paletteDelay, paletteDuration);
 	let paletteChanging = false;
 
+	const ambientFloat = options.ambientFloat !== false;
+	const ambientDepth = options.ambientDepth ?? 0.3;
+
 	function draw() {
 		context.setTransform(dpr, 0, 0, dpr, 0, 0);
 		context.clearRect(0, 0, width, height);
 		// Reserve a small overscan margin so plane travel and near facets do not clip.
 		const fit = Math.min(width / viewBox.width, height / viewBox.height) * (options.fitScale ?? 0.9);
+		const renderCamera = ambientFloat
+			? {
+				...camera,
+				depth: { value: Math.max(camera.depth.value, ambientDepth), velocity: camera.depth.velocity },
+				yaw: { value: camera.yaw.value + Math.sin(elapsed * 0.35) * 0.03, velocity: camera.yaw.velocity },
+				pitch: { value: camera.pitch.value + Math.cos(elapsed * 0.28) * 0.02, velocity: camera.pitch.velocity },
+			}
+			: camera;
 		const items = facets.map((facet) => ({
 			facet,
-			projected: projectFacet(facet, viewBox, camera, elapsed, options),
+			projected: projectFacet(facet, viewBox, renderCamera, elapsed, {
+				...options,
+				floatDepth: options.floatDepth ?? 8,
+			}),
 		}));
-		if (camera.depth.value > 0.08) {
+		if (renderCamera.depth.value > 0.08) {
 			items.sort((a, b) => b.projected.z - a.projected.z || a.facet.index - b.facet.index);
 		}
 		drawOrder = items;
@@ -167,7 +181,7 @@ export async function mountFaviconCanvas(host, options = {}) {
 			}
 		}
 		draw();
-		if (!cameraSettled() || paletteChanging) schedule();
+		if (!cameraSettled() || paletteChanging || ambientFloat) schedule();
 	}
 
 	function resize() {
@@ -188,27 +202,11 @@ export async function mountFaviconCanvas(host, options = {}) {
 		}));
 	}
 
+	let touchDriving = false;
+	let touchReleaseTimer = 0;
+
 	function enter() {
 		signal(true);
-	}
-
-	function move(event) {
-		if (event.isPrimary === false) return;
-		const bounds = host.getBoundingClientRect();
-		const centerX = bounds.left + bounds.width / 2;
-		const centerY = bounds.top + bounds.height / 2;
-		const rawX = clamp((event.clientX - centerX) / Math.max(1, window.innerWidth * 0.5), -1, 1);
-		const rawY = clamp((event.clientY - centerY) / Math.max(1, window.innerHeight * 0.5), -1, 1);
-		const smoothing = options.pointerSmoothing ?? 0.08;
-		filteredPointer.x += (rawX - filteredPointer.x) * smoothing;
-		filteredPointer.y += (rawY - filteredPointer.y) * smoothing;
-		const response = fovealResponse(filteredPointer.x, filteredPointer.y, options.fovealDeadZone ?? 0.24);
-		target.yaw = filteredPointer.x * response.gain * (options.yawAmplitude ?? 0.07);
-		target.pitch = -filteredPointer.y * response.gain * (options.pitchAmplitude ?? 0.052);
-		target.depth = response.gain;
-		target.planeX = filteredPointer.x * response.gain * width * (options.planeTravelX ?? 0.1);
-		target.planeY = filteredPointer.y * response.gain * height * (options.planeTravelY ?? 0.075);
-		schedule();
 	}
 
 	function leave() {
@@ -226,9 +224,90 @@ export async function mountFaviconCanvas(host, options = {}) {
 		schedule();
 	}
 
+	function applyPointer(clientX, clientY, { immediate = false, fromTouch = false } = {}) {
+		const bounds = host.getBoundingClientRect();
+		const centerX = bounds.left + bounds.width / 2;
+		const centerY = bounds.top + bounds.height / 2;
+		const rawX = clamp((clientX - centerX) / Math.max(1, window.innerWidth * 0.5), -1, 1);
+		const rawY = clamp((clientY - centerY) / Math.max(1, window.innerHeight * 0.5), -1, 1);
+		const smoothing = immediate ? 1 : (options.pointerSmoothing ?? (fromTouch ? 0.45 : 0.16));
+		filteredPointer.x += (rawX - filteredPointer.x) * smoothing;
+		filteredPointer.y += (rawY - filteredPointer.y) * smoothing;
+		const deadZone = fromTouch
+			? (options.touchDeadZone ?? 0.02)
+			: (options.fovealDeadZone ?? 0.12);
+		const response = fovealResponse(filteredPointer.x, filteredPointer.y, deadZone);
+		const yawAmp = (options.yawAmplitude ?? 0.11) * (fromTouch ? 1.35 : 1);
+		const pitchAmp = (options.pitchAmplitude ?? 0.082) * (fromTouch ? 1.35 : 1);
+		const planeXAmp = (options.planeTravelX ?? 0.12) * (fromTouch ? 1.25 : 1);
+		const planeYAmp = (options.planeTravelY ?? 0.09) * (fromTouch ? 1.25 : 1);
+		// Touch needs a floor on depth so facets actually separate in Z.
+		const depth = fromTouch ? Math.max(0.55, response.gain) : response.gain;
+		target.yaw = filteredPointer.x * response.gain * yawAmp;
+		target.pitch = -filteredPointer.y * response.gain * pitchAmp;
+		target.depth = depth;
+		target.planeX = filteredPointer.x * response.gain * width * planeXAmp;
+		target.planeY = filteredPointer.y * response.gain * height * planeYAmp;
+		host.dataset.faviconDepth = String(target.depth.toFixed(3));
+		host.dataset.faviconYaw = String(target.yaw.toFixed(3));
+		schedule();
+	}
+
+	function move(event) {
+		if (event.isPrimary === false) return;
+		// While a touch session is live, ignore duplicate pointer events from the same finger.
+		if (touchDriving && event.pointerType === 'touch') return;
+		applyPointer(event.clientX, event.clientY, {
+			fromTouch: event.pointerType === 'touch',
+			immediate: event.pointerType === 'touch',
+		});
+	}
+
 	function leaveViewport(event) {
+		// Mobile WebKit fires pointerout with relatedTarget=null after every touch —
+		// that must not zero the camera or facets never appear to move.
+		if (touchDriving) return;
+		if (event.pointerType === 'touch') return;
 		if (!event.relatedTarget) resetCamera();
 	}
+
+	function touchPoint(event) {
+		const touch = (event.touches && event.touches[0])
+			|| (event.changedTouches && event.changedTouches[0]);
+		return touch || null;
+	}
+
+	function onTouchStart(event) {
+		const touch = touchPoint(event);
+		if (!touch) return;
+		touchDriving = true;
+		if (touchReleaseTimer) {
+			window.clearTimeout(touchReleaseTimer);
+			touchReleaseTimer = 0;
+		}
+		enter();
+		applyPointer(touch.clientX, touch.clientY, { immediate: true, fromTouch: true });
+	}
+
+	function onTouchMove(event) {
+		if (!touchDriving) return;
+		const touch = touchPoint(event);
+		if (!touch) return;
+		applyPointer(touch.clientX, touch.clientY, { immediate: true, fromTouch: true });
+	}
+
+	function onTouchEnd() {
+		if (!touchDriving) return;
+		leave();
+		// Hold the disentangled pose briefly, then ease home (do not snap on pointerout).
+		if (touchReleaseTimer) window.clearTimeout(touchReleaseTimer);
+		touchReleaseTimer = window.setTimeout(() => {
+			touchDriving = false;
+			touchReleaseTimer = 0;
+			resetCamera();
+		}, options.touchHoldMs ?? 900);
+	}
+
 
 	function hitFacet(event) {
 		const bounds = host.getBoundingClientRect();
@@ -281,12 +360,20 @@ export async function mountFaviconCanvas(host, options = {}) {
 	}, { threshold: 0.02 });
 	resizeObserver.observe(host);
 	visibilityObserver.observe(host);
+	const gestureRoot = host.closest('.hero-section--landing, .hero-section, main') || document;
 	host.addEventListener('pointerenter', enter, { passive: true });
 	host.addEventListener('pointerleave', leave, { passive: true });
 	host.addEventListener('click', hitFacet);
 	window.addEventListener('pointermove', move, { passive: true });
 	window.addEventListener('pointerdown', move, { passive: true });
 	window.addEventListener('pointerout', leaveViewport, { passive: true });
+	// document + gestureRoot: iOS delivers touch to the element under the finger; bubble to document.
+	document.addEventListener('touchstart', onTouchStart, { passive: true, capture: true });
+	document.addEventListener('touchmove', onTouchMove, { passive: true, capture: true });
+	document.addEventListener('touchend', onTouchEnd, { passive: true, capture: true });
+	document.addEventListener('touchcancel', onTouchEnd, { passive: true, capture: true });
+	gestureRoot.addEventListener('pointerdown', move, { passive: true });
+	gestureRoot.addEventListener('pointermove', move, { passive: true });
 	window.addEventListener('blur', resetCamera);
 	resize();
 	draw();
@@ -297,6 +384,7 @@ export async function mountFaviconCanvas(host, options = {}) {
 		destroy() {
 			destroyed = true;
 			cancelAnimationFrame(frame);
+			if (touchReleaseTimer) window.clearTimeout(touchReleaseTimer);
 			if (paletteTimer) window.clearInterval(paletteTimer);
 			resizeObserver.disconnect();
 			visibilityObserver.disconnect();
@@ -306,6 +394,12 @@ export async function mountFaviconCanvas(host, options = {}) {
 			window.removeEventListener('pointermove', move);
 			window.removeEventListener('pointerdown', move);
 			window.removeEventListener('pointerout', leaveViewport);
+			document.removeEventListener('touchstart', onTouchStart, true);
+			document.removeEventListener('touchmove', onTouchMove, true);
+			document.removeEventListener('touchend', onTouchEnd, true);
+			document.removeEventListener('touchcancel', onTouchEnd, true);
+			gestureRoot.removeEventListener('pointerdown', move);
+			gestureRoot.removeEventListener('pointermove', move);
 			window.removeEventListener('blur', resetCamera);
 			signal(false);
 			canvas.remove();

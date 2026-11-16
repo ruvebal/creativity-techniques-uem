@@ -1,4 +1,4 @@
-import { createGeometryField } from './geometry-field.js?v=20261110-focal-neutral-1';
+import { createGeometryField } from './geometry-field.js?v=20261116-landing-vh-touch-1';
 import { bindFaviconBackgroundMotion } from '../favicon-motion/hero-coordinator.js';
 
 const FAMILIES = {

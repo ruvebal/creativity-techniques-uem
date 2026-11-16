@@ -270,6 +270,12 @@ export function createGeometryField(canvas, options) {
 		}
 	}
 
+	function onTouchMove(event) {
+		if (!event.touches || !event.touches.length) return;
+		const touch = event.touches[0];
+		onPointerMove({ clientX: touch.clientX, clientY: touch.clientY });
+	}
+
 	const resizeObserver = new ResizeObserver(resize);
 	const visibilityObserver = new IntersectionObserver(([entry]) => {
 		active = entry.isIntersecting;
@@ -280,6 +286,8 @@ export function createGeometryField(canvas, options) {
 	visibilityObserver.observe(canvas);
 	options.pointerRoot.addEventListener('pointermove', onPointerMove, { passive: true });
 	options.pointerRoot.addEventListener('pointerleave', onPointerLeave, { passive: true });
+	options.pointerRoot.addEventListener('touchstart', onTouchMove, { passive: true });
+	options.pointerRoot.addEventListener('touchmove', onTouchMove, { passive: true });
 	window.addEventListener('scroll', onScroll, { passive: true });
 	reducedQuery.addEventListener('change', onReducedChange);
 	resize();
@@ -297,6 +305,8 @@ export function createGeometryField(canvas, options) {
 			visibilityObserver.disconnect();
 			options.pointerRoot.removeEventListener('pointermove', onPointerMove);
 			options.pointerRoot.removeEventListener('pointerleave', onPointerLeave);
+			options.pointerRoot.removeEventListener('touchstart', onTouchMove);
+			options.pointerRoot.removeEventListener('touchmove', onTouchMove);
 			window.removeEventListener('scroll', onScroll);
 			reducedQuery.removeEventListener('change', onReducedChange);
 		},
