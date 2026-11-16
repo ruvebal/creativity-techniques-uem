@@ -56,7 +56,6 @@ By the end of this unit, you should be able to:
 
 ## Analysis
 
-*Session block 1 · Analysis opens the class.* From session 3, two students defend a D1 piece for 15 minutes. Use **language / medium / support**, then ask a personal-development question: **what did the maker practice** (restart moves, logs, constraints) **—not only what they produced?**
 
 <figure class="lesson-figure" id="figure-analysis-model">
 <img src="{{ '/assets/images/deck-media/73d2484eb28d9206.webp' | relative_url }}" alt="Frances Benjamin Johnston self-portrait as the “New Woman,” 1896." loading="lazy" decoding="async">

@@ -102,9 +102,13 @@ breadcrumbs = breadcrumbs | push: breadcrumb_item %} {% endif %} {% endfor %}
 				</div>
 				{% if lesson_cover %}
 					{% assign lesson_cover_alt = lesson_cover.alt_en | default: lesson_cover.alt %}
-					<figure class="lesson-cover lesson-cover--{{ lesson_cover.family }}" data-cover-mode="{{ lesson_cover.mode }}">
+					<figure
+						class="lesson-cover lesson-cover--{{ lesson_cover.family }}"
+						data-cover-mode="{{ lesson_cover.mode }}"
+						data-svg-plane-25d
+						data-svg-plane-src="{{ '/assets/images/lesson-covers/' | append: lesson_cover.asset | append: '.svg' | relative_url }}?v=20261115-cover-orbit-1">
 						<img
-							src="{{ '/assets/images/lesson-covers/' | append: lesson_cover.asset | append: '.svg' | relative_url }}"
+							src="{{ '/assets/images/lesson-covers/' | append: lesson_cover.asset | append: '.svg' | relative_url }}?v=20261115-cover-orbit-1"
 							width="1600"
 							height="900"
 							alt="{{ lesson_cover_alt | escape }}"

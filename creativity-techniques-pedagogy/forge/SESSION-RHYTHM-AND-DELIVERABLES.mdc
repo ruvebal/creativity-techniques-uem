@@ -93,7 +93,7 @@ background_kind: profield | geometrical | diagram | none
 portfolio_bound: true | false
 ```
 
-`unit_cover` MUST open **Creativity Techniques** unit decks (title / stake); `analysis_opener` follows immediately. Digital Creativity may keep its existing cover slot naming. The student **lesson** (TC) MUST include Analysis method prose (not deck-only). `lab_opener` MUST appear **immediately before** the first `lab_exercise`. Forge **exactly two** `lab_exercise` slides per ordinary unit (lesson B2 matches).
+`unit_cover` MUST open **Creativity Techniques** unit decks (title / stake); `analysis_opener` may follow as a **geometrical slide only** (no scripted “Analysis opens the class” / “Now the analysis” prose). Live analysis guiding is **professor-led in class** — strip session-block Analysis opener essays from student lessons and decks; keep compact method axes where the unit needs them; **keep graphical elements**. Digital Creativity follows the same compact law. `lab_opener` MUST appear **immediately before** the first `lab_exercise`. Forge **exactly two** `lab_exercise` slides per ordinary unit (lesson B2 matches). Compactness cascade: sibling DC `digital-creativity-pedagogy/DEV_PLAN/LESSON-COMPACT-ANALYSIS/` (CT mirrors the same gates).
 
 ---
 

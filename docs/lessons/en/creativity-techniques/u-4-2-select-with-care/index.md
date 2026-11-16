@@ -93,9 +93,6 @@ By the end of this lesson, you should be able to:
 
 ## Analysis
 
-*Session block 1 · Analysis opens the class.*
-
-From session 3, two students defend a D1 piece for about 15 minutes each. U4.1 used the **language / medium / support** frame: name the sign system, the carrier, and the material or platform. Today, add a circulation question: what changes when a team’s route idea becomes a public sign? A short walkthrough can reveal where one peer pauses or looks. It cannot stand in for the people who use that route every day.
 
 **Debate prompt:** whose experience is missing when a design team walks its own route? Keep credit visible too: whose observation, question, or check changed the idea the team carries forward?
 

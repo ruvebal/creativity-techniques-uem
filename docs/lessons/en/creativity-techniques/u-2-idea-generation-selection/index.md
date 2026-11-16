@@ -75,7 +75,6 @@ By the end of this unit, you should be able to:
 
 ## Analysis
 
-*Session block 1 · Analysis opens the class.* From session 3, two students × ~15 minutes each defend their D1 piece. Before you watch the deck, revisit the U1 method: **language / medium / support** first, **circulation** second. This unit adds one axis to that method — before you judge whether a piece is creative, ask *how many other pieces the maker considered and how they chose this one*.
 
 <figure class="lesson-figure" id="figure-analysis-model">
 <img src="{{ '/assets/images/deck-media/212a6fbf95aab085.webp' | relative_url }}" alt="Seurat's 1884 oil study for A Sunday on La Grande Jatte: small strokes of colour build a grassy riverbank with strollers, trees and boats on the water." loading="lazy" decoding="async">

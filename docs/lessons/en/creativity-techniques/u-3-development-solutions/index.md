@@ -45,7 +45,6 @@ By the end of this unit, you should be able to:
 
 ## Analysis
 
-*Session block 1 · Analysis opens the class.* From session 3, two students begin each class with a 15-minute defence of a D1 piece. Read the piece through **language / medium / support**: what signs does it use, what material or channel carries them, and what support lets someone encounter them? Then add a development question: which version came before this one, and what did the maker learn by changing it?
 
 <figure class="lesson-figure" id="figure-analysis-model">
 <img src="{{ '/assets/images/deck-media/01ca4277a985054c.webp' | relative_url }}" alt="A pencil study by Theo van Doesburg of a cow with its head lowered, drawn in loose lines and blocky masses as the animal starts to become geometric." loading="lazy" decoding="async">

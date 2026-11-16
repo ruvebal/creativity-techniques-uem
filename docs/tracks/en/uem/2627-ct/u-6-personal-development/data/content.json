@@ -253,8 +253,8 @@ layout: null
       "slide_id": "analysis-opener",
       "slide_role": "analysis_opener",
       "background_kind": "geometrical",
-      "heading": "Analysis opens the class",
-      "sentence": "From session 3: two students defend a D1 piece for 15 minutes. Ask what they practiced — not only what they produced."
+      "heading": "Open",
+      "sentence": ""
     },
     {
       "slide_id": "analysis-model",
@@ -294,7 +294,13 @@ layout: null
       "notes": "- Creative confidence and centrality beliefs both matter.\n- Potential without action stays potential.\n- Briefs give a lawful place to act.\nSource: course wording.\nAsk: Which belief stopped you last month — can, or should?",
       "claims": [],
       "asset_id": "wikimedia:File:Self-Portrait etching at a window (SM 61530d).png",
-      "media_slot_id": "U6.masterclass-2"
+      "media_slot_id": "U6.masterclass-2",
+      "quote": "Can I, and should I — belief turns potential into a move under the brief.",
+      "quote_origin": "tao_invented",
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-6-personal-development/#tao-of-creativity"
+      }
     },
     {
       "slide_id": "masterclass-3",
@@ -306,7 +312,13 @@ layout: null
       "notes": "- Mastery here means useful feedback from your own work, not perfection.\n- Regulation is choosing the next move on purpose.\n- Pair with reflection logs, not mood tracking.\nSource: course wording.\nAsk: What small success will you repeat on purpose next week?",
       "claims": [],
       "asset_id": "wikimedia:File:Johannes Vermeer - A Lady Writing - Google Art Project.jpg",
-      "media_slot_id": "U6.masterclass-3"
+      "media_slot_id": "U6.masterclass-3",
+      "quote": "A success teaches only when you name what to repeat, revise, or drop.",
+      "quote_origin": "tao_invented",
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-6-personal-development/#tao-of-creativity"
+      }
     },
     {
       "slide_id": "masterclass-4",
@@ -318,7 +330,13 @@ layout: null
       "notes": "- Blocks are normal in creative work.\n- Naming beats hiding.\n- Techniques from earlier units are restart tools.\nSource: course wording.\nAsk: What block name fits your last stall?",
       "claims": [],
       "asset_id": "wikimedia:File:Jean Siméon Chardin, The House of Cards, probably 1737, NGA 97.jpg",
-      "media_slot_id": "U6.masterclass-4"
+      "media_slot_id": "U6.masterclass-4",
+      "quote": "Name the block. Shame is not a technique.",
+      "quote_origin": "tao_invented",
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-6-personal-development/#tao-of-creativity"
+      }
     },
     {
       "slide_id": "masterclass-5",
@@ -330,7 +348,13 @@ layout: null
       "notes": "- Workshop highs fade; portfolios accumulate.\n- Tie practice to course deliverables so it survives the semester.\n- Avoid wellness theatre — stay tied to making and judging.\nSource: course wording (C1 adjacency in professor brief).\nAsk: Which habit from this course will survive after the exam?",
       "claims": [],
       "asset_id": "wikimedia:File:Woman writing a letter, with her maid, by Johannes Vermeer.jpg",
-      "media_slot_id": "U6.masterclass-5"
+      "media_slot_id": "U6.masterclass-5",
+      "quote": "Workshop heat fades. Habits keep the brief warm.",
+      "quote_origin": "tao_invented",
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-6-personal-development/#tao-of-creativity"
+      }
     },
     {
       "slide_id": "masterclass-6",
@@ -342,7 +366,13 @@ layout: null
       "notes": "- Autonomy is self-direction within rules, not ignoring the brief.\n- Accountability includes peers, instructors, and future audiences.\n- Declare AI use and cite influences — same as every unit.\nSource: course wording.\nAsk: Where do you need a peer voice this week?",
       "claims": [],
       "asset_id": "wikimedia:File:Caspar David Friedrich - Wanderer above the sea of fog.jpg",
-      "media_slot_id": "U6.masterclass-6"
+      "media_slot_id": "U6.masterclass-6",
+      "quote": "Own the process inside the brief — among peers, not alone on a mountain.",
+      "quote_origin": "tao_invented",
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-6-personal-development/#tao-of-creativity"
+      }
     },
     {
       "slide_id": "retrieval",

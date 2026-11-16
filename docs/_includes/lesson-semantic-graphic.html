@@ -1,16 +1,17 @@
 {% comment %}
-  Opening framing (+ optional semantic graphic when lesson_covers exist).
-  Master idea = the unit's one pedagogical claim.
-  Practice anchor = durable studio operations students rehearse — not a tool UI.
+  Opening framing + optional cover-band figure.
+  CT Hexaform / fractal bands are ornamental placeholders until a true
+  semantic plate exists (lesson_covers.semantic == true). Keep the art;
+  do not label it semantic in the DOM.
 {% endcomment %}
-{% assign semantic_cover_key = page.slug | default: page.title | slugify %}
-{% assign semantic_cover = nil %}
+{% assign cover_key = page.slug | default: page.title | slugify %}
+{% assign cover = nil %}
 {% if site.data.lesson_covers %}
-  {% assign semantic_cover = site.data.lesson_covers[semantic_cover_key] %}
+  {% assign cover = site.data.lesson_covers[cover_key] %}
 {% endif %}
 
-{% assign semantic_idea = page.master_idea | default: semantic_cover.master_idea %}
-{% assign practice_text = page.practice_anchor | default: semantic_cover.field_lens %}
+{% assign semantic_idea = page.master_idea | default: cover.master_idea %}
+{% assign practice_text = page.practice_anchor | default: cover.field_lens %}
 {% assign frontier_text = page.frontier_signal %}
 
 {% if practice_text contains 'Emerging:' %}
@@ -36,8 +37,15 @@
 </aside>
 {% endif %}
 
-{% if semantic_cover %}
-<figure class="lesson-semantic lesson-semantic--{{ semantic_cover.family }}" data-semantic-mode="{{ semantic_cover.mode }}" markdown="0">
-<img src="{{ '/assets/images/lesson-covers/' | append: semantic_cover.asset | append: '-semantic.svg' | relative_url }}" width="1600" height="560" alt="{{ semantic_cover.semantic_alt_en | default: semantic_cover.alt_en | default: semantic_cover.master_idea | escape }}" />
+{% if cover %}
+  {% assign band_alt = cover.alt_en | default: cover.master_idea %}
+  {% if cover.semantic %}
+<figure class="lesson-semantic lesson-semantic--{{ cover.family }}" data-semantic-mode="{{ cover.mode }}" markdown="0">
+<img src="{{ '/assets/images/lesson-covers/' | append: cover.asset | append: '-semantic.svg' | relative_url }}" width="1600" height="560" alt="{{ cover.semantic_alt_en | default: band_alt | escape }}" />
 </figure>
+  {% else %}
+<figure class="lesson-ornament lesson-ornament--{{ cover.family }}" data-ornament-mode="placeholder" markdown="0">
+<img src="{{ '/assets/images/lesson-covers/' | append: cover.asset | append: '-semantic.svg' | relative_url }}" width="1600" height="560" alt="{{ band_alt | escape }}" />
+</figure>
+  {% endif %}
 {% endif %}

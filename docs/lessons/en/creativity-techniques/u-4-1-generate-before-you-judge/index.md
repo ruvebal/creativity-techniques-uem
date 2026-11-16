@@ -81,9 +81,6 @@ By the end of this lesson, you should be able to:
 
 ## Analysis
 
-*Session block 1 · Analysis opens the class.*
-
-From session 3, two students defend a D1 piece for about 15 minutes each. Start with **language** (the sign system or visual code), **medium** (the form that carries it, such as print or a screen), and **support** (the material or platform that holds it). Then ask who made the piece, who will meet it, and what changes when it moves from a studio draft to a public sign. A selection decision can travel into a pitch deck, but each change of support brings a new audience and a new chance to misread the idea.
 
 **Debate prompt:** who gets time to try an unfinished idea when a deadline is close, and whose contribution stays visible in the final pitch? This is the unit’s labour question: creative work needs credit as well as a clever prompt.
 

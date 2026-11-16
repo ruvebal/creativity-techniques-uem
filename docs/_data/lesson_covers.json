@@ -1,0 +1,122 @@
+{
+  "u-1-introduction-creativity": {
+    "asset": "ct-u1-structure",
+    "course": "CT",
+    "index": 1,
+    "family": "ct",
+    "mode": "hexaform",
+    "master_idea": "Creativity is paced craft under a brief",
+    "alt_en": "Ornamental geometric band (placeholder \u2014 not a semantic plate) (structure) for Creativity Techniques U1; abstract, no people.",
+    "semantic": false
+  },
+  "u-2-idea-generation-selection": {
+    "asset": "ct-u2-threshold",
+    "course": "CT",
+    "index": 2,
+    "family": "ct",
+    "mode": "hexaform",
+    "master_idea": "Generate before you judge",
+    "alt_en": "Ornamental geometric band (placeholder \u2014 not a semantic plate) (threshold) for Creativity Techniques U2; abstract, no people.",
+    "semantic": false
+  },
+  "u-3-development-solutions": {
+    "asset": "ct-u3-branching",
+    "course": "CT",
+    "index": 3,
+    "family": "ct",
+    "mode": "hexaform",
+    "master_idea": "Develop options by changing the brief",
+    "alt_en": "Ornamental geometric band (placeholder \u2014 not a semantic plate) (branching) for Creativity Techniques U3; abstract, no people.",
+    "semantic": false
+  },
+  "u-4-workplace-application": {
+    "asset": "ct-u4-practice",
+    "course": "CT",
+    "index": 4,
+    "family": "ct",
+    "mode": "hexaform",
+    "master_idea": "Apply techniques under workplace constraints",
+    "alt_en": "Ornamental geometric band (placeholder \u2014 not a semantic plate) (practice) for Creativity Techniques U4; abstract, no people.",
+    "semantic": false
+  },
+  "u-4-1-generate-before-you-judge": {
+    "asset": "ct-u4-practice",
+    "course": "CT",
+    "index": 41,
+    "family": "ct",
+    "mode": "hexaform",
+    "master_idea": "Generate before you judge",
+    "alt_en": "Ornamental geometric band (placeholder \u2014 not a semantic plate) (practice) for Creativity Techniques U4.1; abstract, no people.",
+    "semantic": false
+  },
+  "u-4-2-select-with-care": {
+    "asset": "ct-u4-practice",
+    "course": "CT",
+    "index": 42,
+    "family": "ct",
+    "mode": "hexaform",
+    "master_idea": "Select with care",
+    "alt_en": "Ornamental geometric band (placeholder \u2014 not a semantic plate) (practice) for Creativity Techniques U4.2; abstract, no people.",
+    "semantic": false
+  },
+  "u-5-creativity-technology": {
+    "asset": "ct-u5-feedback",
+    "course": "CT",
+    "index": 5,
+    "family": "ct",
+    "mode": "hexaform",
+    "master_idea": "Tools suggest; people decide",
+    "alt_en": "Ornamental geometric band (placeholder \u2014 not a semantic plate) (feedback) for Creativity Techniques U5; abstract, no people.",
+    "semantic": false
+  },
+  "u-6-personal-development": {
+    "asset": "ct-u6-coherence",
+    "course": "CT",
+    "index": 6,
+    "family": "ct",
+    "mode": "hexaform",
+    "master_idea": "Practice is personal development under constraint",
+    "alt_en": "Ornamental geometric band (placeholder \u2014 not a semantic plate) (coherence) for Creativity Techniques U6; abstract, no people.",
+    "semantic": false
+  },
+  "creative-process-analysis": {
+    "asset": "ct-u1-structure",
+    "course": "CT",
+    "index": 10,
+    "family": "ct",
+    "mode": "hexaform",
+    "master_idea": "Analyse process before product",
+    "alt_en": "Ornamental geometric band (placeholder \u2014 not a semantic plate) for Creative process analysis master lecture; abstract, no people.",
+    "semantic": false
+  },
+  "who-creates-edison": {
+    "asset": "ct-u3-branching",
+    "course": "CT",
+    "index": 11,
+    "family": "ct",
+    "mode": "hexaform",
+    "master_idea": "Who designs a product \u2014 and who owns its story?",
+    "alt_en": "Ornamental geometric band (placeholder \u2014 not a semantic plate) for Who Creates (Edison); abstract, no people.",
+    "semantic": false
+  },
+  "who-creates-fuller": {
+    "asset": "ct-u6-coherence",
+    "course": "CT",
+    "index": 12,
+    "family": "ct",
+    "mode": "hexaform",
+    "master_idea": "Can we redesign the whole system?",
+    "alt_en": "Ornamental geometric band (placeholder \u2014 not a semantic plate) for Who Creates (Fuller); abstract, no people.",
+    "semantic": false
+  },
+  "who-creates-who-owns-who-scales": {
+    "asset": "ct-u2-threshold",
+    "course": "CT",
+    "index": 13,
+    "family": "ct",
+    "mode": "hexaform",
+    "master_idea": "Who creates, who owns, who scales?",
+    "alt_en": "Ornamental geometric band (placeholder \u2014 not a semantic plate) for Who Creates cycle rationale; abstract, no people.",
+    "semantic": false
+  }
+}

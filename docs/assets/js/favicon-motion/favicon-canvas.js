@@ -352,7 +352,7 @@ export async function mountFaviconCanvas(host, options = {}) {
 	const resizeObserver = new ResizeObserver(resize);
 	const visibilityObserver = new IntersectionObserver(([entry]) => {
 		visible = entry.isIntersecting;
-		if (visible && (paletteChanging || !cameraSettled())) schedule();
+		if (visible && (paletteChanging || !cameraSettled() || ambientFloat)) schedule();
 		else if (!visible) {
 			cancelAnimationFrame(frame);
 			frame = 0;

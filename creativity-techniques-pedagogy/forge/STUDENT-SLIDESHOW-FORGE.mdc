@@ -48,6 +48,7 @@ frame slides are structural and do **not** count against that six.
 ```text
 C  unit_cover                       background_kind: curated | diagram   ← REQUIRED FIRST
 A  analysis_opener                  background_kind: geometrical   ← REQUIRED
+   (graphic only — no “Analysis opens the class” ritual prose; live guiding in class)
 A+ analysis_model (optional)        background_kind: curated | diagram
 1… Masterclass ideas (≤ 6)          background_kind: curated | diagram
 R  retrieval (recall check)         background_kind: geometrical   ← REQUIRED in U1–U3 (EX10): last slide of the Masterclass

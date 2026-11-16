@@ -284,6 +284,12 @@ export function createGeometryField(canvas, options) {
 	}, { threshold: 0.02 });
 	resizeObserver.observe(canvas);
 	visibilityObserver.observe(canvas);
+	function onTouchMove(event) {
+		if (!event.touches || !event.touches.length) return;
+		const touch = event.touches[0];
+		onPointerMove({ clientX: touch.clientX, clientY: touch.clientY });
+	}
+
 	options.pointerRoot.addEventListener('pointermove', onPointerMove, { passive: true });
 	options.pointerRoot.addEventListener('pointerleave', onPointerLeave, { passive: true });
 	options.pointerRoot.addEventListener('touchstart', onTouchMove, { passive: true });

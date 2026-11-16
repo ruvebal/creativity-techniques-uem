@@ -48,7 +48,6 @@ By the end of this unit, you should be able to:
 
 ## Analysis
 
-*Session block 1 · Analysis opens the class.* From session 3, two students begin each class with a 15-minute defence of a D1 piece. Read the piece through **language / medium / support**, then add a technology question: **where did a tool suggest, and where did a person decide?** If a generative system produced a variant, name the instruction, the selection, and the human responsibility for the final form.
 
 <figure class="lesson-figure" id="figure-analysis-model">
 <img src="{{ '/assets/images/deck-media/f88b292a02a7d940.webp' | relative_url }}" alt="Operator at a mid-century card-punching machine." loading="lazy" decoding="async">

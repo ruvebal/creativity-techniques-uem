@@ -72,7 +72,6 @@ By the end of this unit, you should be able to:
 
 ## Analysis
 
-*Session block 1 · Analysis opens the class. Read this section before you watch the deck.*
 
 ### When it happens
 
