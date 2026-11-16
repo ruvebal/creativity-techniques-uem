@@ -36,6 +36,7 @@ references: [schon-1983]
 1. [U6.1 · Attention]({{ '/lessons/en/master-lectures/self-creativity-attention/' | relative_url }})  
 2. **U6.2 · This deck** — confidence as practice  
 3. Lab — U6 exercises (+ optional OM warm-up from U6.1, with Opt-out)  
+   **Opt-in** means the default is non-participation: you take part only if you choose to. **Opt-out** means the default is participation: you take part unless you choose to skip.  
 4. [U6.3 · Depth]({{ '/lessons/en/master-lectures/self-creativity-depth/' | relative_url }}) + [Workshop paragraph](#workshop)
 
 </div>
@@ -133,6 +134,8 @@ Autonomy is self-direction **within** constraints: brief, deadline, peers, publi
 ---
 
 ## Lab (Portfolio)
+
+Reminder: **Opt-in** means the default is non-participation: you take part only if you choose to. **Opt-out** means the default is participation: you take part unless you choose to skip.
 
 ### Exercise 1 — Reflection-in-action log {#lab-exercise-1}
 

@@ -82,6 +82,8 @@ Walk, shower, craft — leave a problem half-held so new links can surface [(Csi
 
 **Opt-out:** sit quietly or jump to listing — no explanation required. Then list idea **kinds** on today’s brief.
 
+**Opt-in** means the default is non-participation: you take part only if you choose to. **Opt-out** means the default is participation: you take part unless you choose to skip.
+
 ### Exercise 2 — Attention brief
 
 Two sentences: when you will **open**, when you will **focus**, for the live brief.
