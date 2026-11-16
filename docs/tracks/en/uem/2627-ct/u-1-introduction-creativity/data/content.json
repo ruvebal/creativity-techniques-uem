@@ -397,6 +397,21 @@ layout: null
       "media_slot_id": "U1.masterclass-2"
     },
     {
+      "slide_id": "four-skills",
+      "slide_role": "masterclass",
+      "layout": "graphic",
+      "background_kind": "geometrical",
+      "background_url": "/assets/images/fractal-pass-track/ct-pass-09-four-skills-ac5996d1.svg",
+      "background_alt": "Course diagram of the four skills of divergent thinking: one large triangle split into four. Top corner, fluency: a dense burst of many identical small gold triangles. Left corner, flexibility: small triangles pointing out in six directions, each spoke a different colour. Right corner, originality: a field of identical violet triangles with one coral triangle turned the other way and set apart. Inverted centre, elaboration: a triangle subdivided again and again into finer triangles.",
+      "heading": "Four skills of divergent thinking: fluency, flexibility, originality, elaboration",
+      "citation": {
+        "label": "(Chen 2011, 26)",
+        "href": "/creativity-techniques-uem/lessons/en/creativity-techniques/u-1-introduction-creativity/#ref-chen-2011",
+        "ref_key": "chen-2011"
+      },
+      "notes": "- Let the diagram speak first. Ask: which corner shows many ideas, which shows many directions, which shows the odd one out, and which shows detail?\n- Fluency: the burst of many small triangles. Flexibility: spokes turned six ways. Originality: one triangle unlike the rest. Elaboration: the triangle worked down into finer and finer detail.\n- The four definitions, word for word, are in the lesson under idea 2.\nSource: the four abilities are (Chen 2011, 26), summarising Guilford. The diagram is a course drawing, not a figure from the book.\nAsk: Which corner is strongest in your own sketchbook, and which is empty?"
+    },
+    {
       "slide_id": "masterclass-3",
       "slide_role": "masterclass",
       "background_kind": "curated",

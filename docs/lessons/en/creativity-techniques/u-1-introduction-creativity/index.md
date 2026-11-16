@@ -144,8 +144,18 @@ Guilford’s four abilities, as Chen summarises them:
 - **Originality** — produce ideas that few other people produce (rare answers)  
 - **Elaboration** — work the details and carry the idea through  
 
-> “Fluency - the ability to produce a large number of ideas or solutions to a problem rapidly.”  
+> 1) Fluency — the ability to produce a large number of ideas or solutions to a problem rapidly.  
+> 2) Flexibility — the ability to consider a variety of approaches to a problem simultaneously.  
+> 3) Originality — the tendency to produce ideas different from those of most other people.  
+> 4) Elaboration — the ability to think through the details of an idea and carry it out.
+>
 > — [(Chen 2011, 26)](#ref-chen-2011)
+
+<figure class="lesson-diagram" id="figure-four-skills">
+<img src="{{ '/assets/images/four-skills/four-skills-divergent-thinking.svg' | relative_url }}" width="1600" height="600" alt="Course diagram: a frieze of four triangles, alternately pointing up and down. Fluency: a dense burst of many identical small gold triangles. Flexibility: small triangles pointing out in six directions, each spoke a different colour. Originality: a field of identical violet triangles with one coral triangle turned the other way and set apart. Elaboration: a triangle subdivided again and again into finer triangles." loading="lazy" decoding="async">
+<figcaption>Fluency: many ideas. Flexibility: many directions at once. Originality: the idea unlike the rest. Elaboration: the details worked through. Course diagram after <a href="#ref-chen-2011">(Chen 2011, 26)</a>.
+</figcaption>
+</figure>
 
 Csikszentmihalyi names a close triad for divergent work:
 
@@ -217,7 +227,7 @@ Kimbell reviews how "design thinking" moved from research on designers into mana
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
 PROVENANCE_LINE: claim=U1.diverge-converge; status=VERIFIED; page_basis=printed; discovery={service=DevIAC; project_slug=profield-creativity-techniques; knowledge_scope=field_prospection; query="Guilford divergent convergent"}; source={document_coat=061d6093; node_id=3ed2bb7b-55cd-5818-ab1c-84566cca76ac; page_index=42; pdf_page=43; printed_page=30}; public_citation="(Craft 2000, 30)"; resolver_evaluator_safe=yes; verified_by=manual-page-read; verbatim="The same creative act may involve both divergent and convergent thinking."; ex6=old "(Craft 2003, 43)" was the PDF page and the e-Library year; first published 2000 (Routledge), e-Library 2005
-PROVENANCE_LINE: claim=U1.four-dimensions; status=VERIFIED; page_basis=printed; source={document_coat=d048ab99; node_id=90e85d4a-d90f-5caa-b264-cf34f8554cee; page_index=40; pdf_page=41; printed_page=26}; public_citation="(Chen 2011, 26)"; resolver_evaluator_safe=yes; verified_by=manual-page-read; also_nodes=b46a53dc (Flexibility), ac443610 (Originality), ed31e911 (Elaboration); ex6=old pin Chen 2012 p. 41 was the PDF index; folio 26 read with pdftotext; copyright 2011
+PROVENANCE_LINE: claim=U1.four-dimensions; status=VERIFIED; page_basis=printed; source={document_coat=d048ab99; node_id=90e85d4a-d90f-5caa-b264-cf34f8554cee; page_index=40; pdf_page=41; printed_page=26}; public_citation="(Chen 2011, 26)"; resolver_evaluator_safe=yes; verified_by=manual-page-read; also_nodes=b46a53dc (Flexibility), ac443610 (Originality), ed31e911 (Elaboration); lesson_quote=all four definitions quoted in full, em dashes as printed on folio 26 (2026-11-16 page re-read); ex6=old pin Chen 2012 p. 41 was the PDF index; folio 26 read with pdftotext; copyright 2011
 PROVENANCE_LINE: claim=U1.fluency-triad-csi; status=VERIFIED; page_basis=section; source={document_coat=35dcf3a7; node_id=5f7e3435-6955-5c3c-9128-42a578c201ef; page_index=7; epub_file=OEBPS/ch03.xhtml; section="chap. 3, The Creative Personality"}; public_citation="(Csikszentmihalyi 1996, chap. 3)"; resolver_evaluator_safe=yes; verified_by=manual-page-read; ex6=old "(Csikszentmihalyi 2007, 8)" was a synthetic EPUB index+1; the EPUB (HarperCollins e-books 2007, text © 1996) has no page-list, so chapter locator
 PROVENANCE_LINE: claim=U1.context-over-brick-test; status=VERIFIED; page_basis=printed; source={document_coat=d048ab99; node_id=a849be72-786d-5d7d-8cbe-fa74d59f7de5; page_index=40; pdf_page=41; printed_page=26}; public_citation="(Chen 2011, 26)"; resolver_evaluator_safe=yes; verified_by=manual-page-read; verbatim="the ability of divergent thinking with a paper clip may tell us little about an individual's talent in music."
 PROVENANCE_LINE: claim=U1.definition-novelty-meaning; status=VERIFIED; page_basis=printed; discovery={pdftotext search "standard definitions of creativity"}; source={document_coat=09e171eb; node_id=10055dde-d470-5e71-afe8-cc9c22f9b52d; page_index=8; pdf_page=9; printed_page=3}; public_citation="(Beghetto and Karwowski 2025, 3)"; resolver_evaluator_safe=no; verified_by=manual-page-read; verbatim="the 'creative' aspect addresses both novelty and meaningfulness, aligning with standard definitions of creativity (Plucker et al., 2004; Runco & Jaeger, 2012)"; note=Runco & Jaeger 2012 itself is a gap (manifest); named only through this page
