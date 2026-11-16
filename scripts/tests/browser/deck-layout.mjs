@@ -254,7 +254,8 @@ function printProbe(enforceTypeFloors) {
     const sec = page.querySelector('section');
     if (enforceTypeFloors) {
       const h1 = fs(card.querySelector('h1'));
-      const sent = fs(card.querySelector('.student-media-slide__sentence') || card.querySelector('p'));
+      // A graphic slide (course diagram) has no sentence: its only <p> is the bibliography line.
+      const sent = fs(card.querySelector('.student-media-slide__sentence') || (card.classList.contains('student-media-slide--graphic') ? null : card.querySelector('p')));
       const quote = fs(card.querySelector('blockquote, .student-media-slide__quote'));
       const trace = fs(card.querySelector('.student-media-slide__prompt, .student-media-slide__trace, .slide-trace'));
       const timer = fs(page.querySelector('.slide-timer'));

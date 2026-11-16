@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Pre-render student decks (PHASE-EX5). Node stdlib only.
+ * Pre-render student decks (PHASE-EX5). Node stdlib + js-yaml (references.yml).
  *
  *   node scripts/render-decks.mjs [--check]
  *
@@ -16,6 +16,9 @@
  * Geometric backgrounds: docs/assets/images/fractal-pass-track/ct-pass-NN-<name>-<hash8>.svg,
  * where <hash8> is the first 8 hex of the file's SHA-256 (checked here).
  * Diagram fallback: the Koch triangle named in fractal-triangles/current.json.
+ * A slide may pin a course diagram (`background_url`, `background_alt`, `layout: graphic`);
+ * `citation.ref_key` adds the Chicago entry from docs/_data/references.yml after the
+ * author-date label (the bibliography line); an unknown key stops the render.
  *
  * Also writes docs/_data/lesson_figures.json (PHASE-EX9): each deck's curated slide
  * images with the deck's own caption HTML, read by docs/_includes/lesson-figure.html
@@ -26,6 +29,8 @@
 import { createHash } from 'node:crypto';
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join, relative } from 'node:path';
+
+import yaml from 'js-yaml';
 
 import { DECK_SCHEMA_VERSION } from './lib/media-rules.mjs';
 import { lessonFigures, parseHashedSvgName, renderDeck } from './lib/deck-render.mjs';
@@ -38,6 +43,7 @@ const geometricDir = join(root, 'docs/assets/images/fractal-pass-track');
 const kochDir = join(root, 'docs/assets/images/fractal-triangles');
 const base = (readFileSync(join(root, '_config.yml'), 'utf8').match(/^baseurl:\s*['"]?([^'"\n]*)['"]?/m) || [])[1] ?? '';
 
+const references = yaml.load(readFileSync(join(root, 'docs/_data/references.yml'), 'utf8')) || {};
 const sha8 = (path) => createHash('sha256').update(readFileSync(path)).digest('hex').slice(0, 8);
 
 // Geometric cycle: hashed names only, hash must match the content.
@@ -73,8 +79,13 @@ for (const { slug, path } of decks) {
     }
     continue;
   }
+  const unknownRefs = content.slides.map((s) => s.citation?.ref_key).filter((k) => k && !references[k]);
+  if (unknownRefs.length) {
+    console.error(`ERROR ${relative(root, path)}: citation.ref_key not in docs/_data/references.yml: ${unknownRefs.join(', ')}`);
+    process.exit(1);
+  }
   figures[slug] = lessonFigures(content, { base });
-  const html = renderDeck(content, { base, geometric, koch, source: relative(root, path) });
+  const html = renderDeck(content, { base, geometric, koch, references, source: relative(root, path) });
   const out = join(outDir, `${slug}.html`);
   rendered += 1;
   const current = existsSync(out) ? readFileSync(out, 'utf8') : null;

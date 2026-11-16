@@ -8,6 +8,7 @@
  * - questionsHtml: the retrieval slide's recall questions (EX10; answers only in notes)
  * - renderSlide / renderDeck: one <section> per slide, readable without JavaScript
  * - parseHashedSvgName: `ct-pass-01-structure-<hash8>.svg` → parts
+ * - referenceHtml: Chicago entry from references.yml (citation.ref_key) → safe HTML
  *
  * Tests: scripts/tests/deck-render.test.mjs (node --test).
  * I/O wrapper: scripts/render-decks.mjs.
@@ -108,6 +109,17 @@ export function parseHashedSvgName(fileName) {
   return match ? { stem: match[1], name: match[2].replace(/-/g, ' '), hash: match[3] } : null;
 }
 
+/**
+ * Chicago reference entry (docs/_data/references.yml `chicago`) → safe HTML:
+ * whitespace collapsed, `*Title*` → <em>Title</em>, `[text](url)` → text.
+ */
+export function referenceHtml(chicago) {
+  const raw = String(chicago || '').replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/\s+/g, ' ').trim();
+  return raw.split(/(\*[^*]+\*)/g)
+    .map((part) => (part.length > 2 && part.startsWith('*') && part.endsWith('*') ? `<em>${escapeHtml(part.slice(1, -1))}</em>` : escapeHtml(part)))
+    .join('');
+}
+
 /** Caption of a geometric course background: always shows the SVG content hash. */
 export function geometricCaptionHtml(fileName) {
   const parsed = parseHashedSvgName(fileName);
@@ -180,7 +192,8 @@ const isStructural = (slide) => slide.background_kind === 'geometrical' || STRUC
  * Background of one slide.
  * ctx = { base, geometric: [file names in cycle order], koch: file name }
  * state = { geometricIndex } (mutated: structural slides walk the cycle)
- * Returns { url, captionHtml, alt } (alt only for curated images).
+ * Returns { url, captionHtml, alt } (alt for curated images, and for a geometric
+ * background that carries meaning: `background_alt`, e.g. a course diagram).
  */
 export function backgroundFor(slide, assetsBySlot, ctx, state) {
   const base = String(ctx.base || '');
@@ -192,7 +205,7 @@ export function backgroundFor(slide, assetsBySlot, ctx, state) {
       file = ctx.geometric[state.geometricIndex % ctx.geometric.length];
     }
     state.geometricIndex += 1;
-    return { url: `${base}/assets/images/fractal-pass-track/${file}`, captionHtml: geometricCaptionHtml(file), alt: '' };
+    return { url: `${base}/assets/images/fractal-pass-track/${file}`, captionHtml: geometricCaptionHtml(file), alt: String(slide.background_alt || '').trim() };
   }
   const asset = slide.background_kind === 'curated' && slide.media_slot_id ? assetsBySlot.get(slide.media_slot_id) : null;
   if (asset?.asset_url) {
@@ -222,15 +235,23 @@ export function renderSlide(slide, deck, background, ctx = {}) {
     ...(timer ? [['data-timer', String(timer)]] : []),
   ].filter(([, v]) => v !== undefined && v !== null && v !== '');
   const open = `<section ${attrs.map(([k, v]) => `${k}="${escapeHtml(v)}"`).join(' ')}>`;
-  const body = [
+  const cite = slide.citation || {};
+  const ref = cite.ref_key ? ctx.references?.[cite.ref_key] : null;
+  const citationHtml = cite.label
+    ? `<p class="student-media-slide__citation">${cite.href ? `<a href="${escapeHtml(withBase(cite.href, ctx.base))}">${escapeHtml(cite.label)}</a>` : escapeHtml(cite.label)}`
+      + `${ref?.chicago ? ` · <span class="student-media-slide__reference">${referenceHtml(ref.chicago)}</span>` : ''}</p>`
+    : '';
+  // graphic: the background carries the content; only the bibliography line is visible.
+  const body = layout === 'graphic' ? [
+    `<h1 class="sr-only">${escapeHtml(slide.heading)}</h1>`,
+    citationHtml,
+  ].filter(Boolean) : [
     `<p class="student-media-slide__unit">${escapeHtml(deck.unit_label)}</p>`,
     `<h1>${escapeHtml(slide.heading)}</h1>`,
     slide.sentence ? `<p class="student-media-slide__sentence">${escapeHtml(slide.sentence)}</p>` : '',
     questionsHtml(slide.questions),
     slide.quote ? `<blockquote class="student-media-slide__quote"><p>${escapeHtml(slide.quote)}</p></blockquote>` : '',
-    slide.citation?.label
-      ? `<p class="student-media-slide__citation">${slide.citation.href ? `<a href="${escapeHtml(withBase(slide.citation.href, ctx.base))}">${escapeHtml(slide.citation.label)}</a>` : escapeHtml(slide.citation.label)}</p>`
-      : '',
+    citationHtml,
     slide.prompt ? `<p class="student-media-slide__prompt">${escapeHtml(slide.prompt)}</p>` : '',
     slide.portfolio_trace ? `<p class="student-media-slide__prompt student-media-slide__trace">${escapeHtml(slide.portfolio_trace)}</p>` : '',
   ].filter(Boolean);
@@ -249,7 +270,7 @@ export function renderSlide(slide, deck, background, ctx = {}) {
 
 /**
  * Whole deck → HTML fragment (one <section> per slide, nothing else emits <section).
- * ctx = { base, geometric: [...], koch, source }
+ * ctx = { base, geometric: [...], koch, source, references: { key: { chicago } } }
  */
 export function renderDeck(content, ctx) {
   const slides = Array.isArray(content?.slides) ? content.slides : [];

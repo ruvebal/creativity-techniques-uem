@@ -3491,22 +3491,27 @@ main#main:has(.lesson-wrapper) {
 	color: #1a1a1a;
 }
 
-/* Lesson figures (PHASE-EX9): deck images reused in lessons, caption from the deck. */
-.lesson-figure {
+/* Lesson figures (PHASE-EX9): deck images reused in lessons, caption from the deck.
+   .lesson-diagram: a course diagram (original SVG) with its own caption, same frame. */
+.lesson-figure,
+.lesson-diagram {
 	margin: 1.25rem 0 1.5rem;
 	max-width: 46rem;
 }
 
-.lesson-figure img {
+.lesson-figure img,
+.lesson-diagram img {
 	display: block;
 	width: 100%;
+	height: auto;
 	max-height: 26rem;
 	object-fit: contain;
 	background: rgb(15 23 42 / 0.04);
 	border-radius: 0.5rem;
 }
 
-.lesson-figure figcaption {
+.lesson-figure figcaption,
+.lesson-diagram figcaption {
 	margin-top: 0.45rem;
 	font-size: 0.85rem;
 	line-height: 1.4;
@@ -3514,7 +3519,8 @@ main#main:has(.lesson-wrapper) {
 	opacity: 0.8;
 }
 
-.lesson-figure figcaption a {
+.lesson-figure figcaption a,
+.lesson-diagram figcaption a {
 	text-decoration: underline;
 }
 

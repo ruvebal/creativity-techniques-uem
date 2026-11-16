@@ -119,6 +119,12 @@ Start with a working definition. Most definitions of creativity ask for two thin
 
 Opening is **divergent** thinking: you invent many possibilities. Closing is **convergent** thinking: you select what fits the needs of the brief. Stage models describe the same rhythm over a longer time. Csikszentmihalyi notes that the creative process "has traditionally been described as taking five steps": preparation, incubation, insight, evaluation and elaboration. He also warns that this framework "gives a severely distorted picture of the creative process if it is taken too literally": in real work, insights, incubation and evaluation keep interrupting one another [(Csikszentmihalyi 1996, chap. 4)](#ref-csikszentmihalyi-1996).
 
+<figure class="lesson-diagram" id="figure-creative-process">
+<img src="{{ '/assets/images/creative-process/creative-process-five-stages.svg' | relative_url }}" width="1600" height="520" alt="Course diagram: five triangles made of smaller triangles stand in a row, labelled preparation, incubation, insight, evaluation and elaboration. A dashed line joins them in the textbook order. Curved arrows run back between the middle three: from insight to incubation, from evaluation to insight and from evaluation to incubation." loading="lazy" decoding="async">
+<figcaption>Dashed line: the five steps in textbook order. Arrows: insight, incubation and evaluation interrupt one another. Course diagram after <a href="#ref-csikszentmihalyi-1996">(Csikszentmihalyi 1996, chap. 4)</a>.
+</figcaption>
+</figure>
+
 <figure class="lesson-figure" id="figure-masterclass-1">
 <img src="{{ '/assets/images/deck-media/1e199b72324443bc.webp' | relative_url }}" alt="Chalk drawing by Michelangelo: a large, carefully modelled study of a bent leg and torso, with two small quick sketches of a seated figure in the corners." loading="lazy" decoding="async">
 <figcaption>{% include lesson-figure.html deck="u-1-introduction-creativity" slide="masterclass-1" %}</figcaption>

@@ -27,6 +27,7 @@ import {
   notesHtml,
   parseHashedSvgName,
   questionsHtml,
+  referenceHtml,
   renderDeck,
   timerFor,
   withBase,
@@ -193,6 +194,47 @@ test('EX5 cold review F1: root-relative citation hrefs get the base path; others
   ]), CTX);
   assert.match(html, /<a href="\/site\/lessons\/en\/master-lectures\/cpa\/#references">/);
   assert.doesNotMatch(html, /href="\/lessons\//);
+});
+
+test('referenceHtml: Chicago entry → one line, *Title* in <em>, markdown links reduced to text, escaped', () => {
+  assert.equal(
+    referenceHtml('Doe, Jane. 2000. *A <Book>*.\n    London: Press. [https://doi.org/x](https://doi.org/x).'),
+    'Doe, Jane. 2000. <em>A &lt;Book&gt;</em>. London: Press. https://doi.org/x.',
+  );
+  assert.equal(referenceHtml(''), '');
+});
+
+test('graphic layout: diagram background with alt text, sr-only heading, bibliography line only', () => {
+  const slide = {
+    slide_id: 'creative-process', slide_role: 'masterclass', layout: 'graphic', background_kind: 'geometrical',
+    background_url: '/assets/images/fractal-pass-track/ct-pass-02-threshold-7a624a21.svg', background_alt: 'Five stages in a loop.',
+    heading: 'The creative process', sentence: 'Never shown.',
+    citation: { label: '(Doe 2000, chap. 4)', href: '/lessons/en/x/#ref-doe-2000', ref_key: 'doe-2000' },
+  };
+  const html = renderDeck(deck([slide]), { ...CTX, references: { 'doe-2000': { chicago: 'Doe, Jane. 2000. *A Book*. London: Press.' } } });
+  assert.equal(layoutFor(slide), 'graphic');
+  assert.match(html, /data-layout="graphic"[^>]*fractal-pass-track\/ct-pass-02-threshold-7a624a21\.svg/);
+  assert.match(html, /<h1 class="sr-only">The creative process<\/h1>/);
+  assert.match(html, /<p class="sr-only">Image: Five stages in a loop\.<\/p>/);
+  assert.match(html, /<a href="\/site\/lessons\/en\/x\/#ref-doe-2000">\(Doe 2000, chap\. 4\)<\/a> · <span class="student-media-slide__reference">Doe, Jane\. 2000\. <em>A Book<\/em>\. London: Press\.<\/span>/);
+  assert.doesNotMatch(html, /student-media-slide__unit|Never shown/, 'no unit line, no body text');
+  const plain = renderDeck(deck([{ ...slide, background_alt: undefined, layout: undefined, citation: { label: '(Doe 2000, 1)' } }]), CTX);
+  assert.doesNotMatch(plain, /class="sr-only"/, 'a plain geometric background has no alt text');
+  assert.doesNotMatch(plain, /student-media-slide__reference/, 'no ref_key → label only');
+});
+
+test('validator: a graphic slide needs a pinned geometrical background, alt text and a citation', () => {
+  const { errors } = deckProblems(deck([
+    { slide_id: 'masterclass-9', slide_role: 'masterclass', layout: 'graphic', background_kind: 'diagram', heading: 'H' },
+  ]), { unit: 'U9' });
+  assert.ok(errors.some((e) => /graphic layout needs background_kind geometrical/.test(e)), errors.join('\n'));
+  assert.ok(errors.some((e) => /graphic layout needs background_alt/.test(e)), errors.join('\n'));
+  assert.ok(errors.some((e) => /graphic layout needs a citation/.test(e)), errors.join('\n'));
+  const ok = deckProblems(deck([
+    { slide_id: 'masterclass-9', slide_role: 'masterclass', layout: 'graphic', background_kind: 'geometrical', heading: 'H',
+      background_url: '/assets/images/fractal-pass-track/ct-pass-01-structure-980beb83.svg', background_alt: 'A diagram.', citation: { label: '(X 2000, 1)' } },
+  ]), { unit: 'U9' });
+  assert.deepEqual(ok.errors, []);
 });
 
 // ---------------------------------------------------------------------------

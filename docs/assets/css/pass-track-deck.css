@@ -528,6 +528,31 @@ body {
   font-style: normal;
 }
 
+/* graphic (a course diagram on a geometrical slide): the background is the
+   content. The card shrinks to the bibliography line at the bottom left, inside
+   the 72% column clear of the caption (top right), the card toggle and Reveal's
+   arrows (bottom right). The heading is sr-only; the type keeps the course size. */
+.student-media-deck .reveal .slides section[data-layout="graphic"] {
+  height: 100%;
+  max-height: none;
+  overflow: visible;
+}
+.student-media-slide--graphic {
+  position: absolute;
+  left: clamp(1.15rem, 3.8vw, 2rem);
+  bottom: 0.9rem;
+  box-sizing: border-box;
+  max-width: 72%;
+  min-height: 0;
+  gap: 0;
+  padding: 0.4rem 0.75rem;
+  background: rgb(var(--background) / 0.62);
+  box-shadow: none;
+  backdrop-filter: blur(6px) saturate(120%);
+}
+.student-media-slide--graphic .student-media-slide__citation { line-height: 1.35; }
+.student-media-slide__reference { color: rgb(var(--muted-foreground) / 0.95); }
+
 /* Retrieval slide (EX10): five recall questions at the prompt size (0.76 of the
    base, like the other secondary card text); answers stay in the speaker notes. */
 .student-media-slide__questions {
@@ -607,6 +632,7 @@ body {
   text-align: left;
 }
 .no-js .student-media-slide { max-width: none; min-height: 0; max-height: none; overflow: visible; }
+.no-js .student-media-slide--graphic { position: static; }
 
 /* Speaker notes shown with ?show-notes (Reveal showNotes) stay readable. */
 .reveal .speaker-notes,
@@ -616,6 +642,11 @@ body {
 .reveal-print .slide-timer,
 .reveal-print .track-back,
 .reveal-print .student-media-controls { display: none !important; }
+
+/* ?print-pdf: Reveal centres each section with an inline top from its content
+   height; a graphic section is full height (its card is absolute), so it starts
+   at the top of its PDF page. */
+.reveal-print .slides section[data-layout="graphic"] { top: 0 !important; }
 
 /* ?print-pdf: no height cap on Lab cards, so no exercise text is clipped in print. */
 .reveal-print .student-media-slide--exercise {
