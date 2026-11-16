@@ -13,6 +13,10 @@
  * answer and the lesson pointer are published: no RA codes, Bloom levels, drafting notes
  * or the rest of the bank. Also writes docs/practice/en/index.html.
  *
+ * A unit taught as several lessons (U4: one hub slug, deck and practice page; lessons
+ * U4.1 and U4.2) lists them in `units.<U>.lessons`; each of its questions names its
+ * lesson slug in `lesson:`, and the answer link points at that lesson's anchor.
+ *
  * --check: exit 1 if a committed page differs from what this script would write.
  * Wired into `npm run prebuild`. Tests: scripts/tests/practice-quizzes.test.mjs.
  */
@@ -42,6 +46,13 @@ export function options(q, slot = 0) {
   all.splice(at, 0, String(q.answer));
   return { all, correct: at };
 }
+
+/** Lesson slug a question's answer lives in: its own `lesson:` or the unit's slug. */
+export function lessonSlug(q, info) {
+  return q.lesson || info.slug;
+}
+
+const lessonUrl = (slug) => `/lessons/en/creativity-techniques/${slug}/`;
 
 function lessonTitle(slug) {
   const md = readFileSync(join(root, `docs/lessons/en/creativity-techniques/${slug}/index.md`), 'utf8');
@@ -86,7 +97,7 @@ export function quizPage(unit, info, questions, { references, title }) {
 <h1>${escapeHtml(unit)} practice quiz</h1>
 <p>Five questions on <a href="{{ '${info.lesson}' | relative_url }}">${escapeHtml(title)}</a>. Answer each one from memory first, then open the answer and check the lesson. Trying to recall before you look is the point of the exercise.</p>
 <p>This page is practice only: it is not graded, it is not the exam, and nothing you do here is recorded.</p>
-${questions.map((q, i) => questionHtml(q, i + 1, { lesson: info.lesson, references, slot: questions.slice(0, i).filter((x) => x.type === 'mcq').length })).join('\n')}
+${questions.map((q, i) => questionHtml(q, i + 1, { lesson: q.lesson ? lessonUrl(q.lesson) : info.lesson, references, slot: questions.slice(0, i).filter((x) => x.type === 'mcq').length })).join('\n')}
 <section class="practice-quiz__references" id="references">
 <h2>References</h2>
 {% include references.html %}

@@ -11,12 +11,14 @@ import { test } from 'node:test';
 import { fileURLToPath } from 'node:url';
 import yaml from 'js-yaml';
 
-import { BANK, options, PER_UNIT } from '../build-practice-quizzes.mjs';
+import { BANK, lessonSlug, options, PER_UNIT } from '../build-practice-quizzes.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..', '..');
 const bank = yaml.load(readFileSync(BANK, 'utf8'));
 const refs = yaml.load(readFileSync(join(root, 'docs/_data/references.yml'), 'utf8'));
 const deck = (slug) => JSON.parse(readFileSync(join(root, `docs/tracks/en/uem/2627-ct/${slug}/data/content.json`), 'utf8').replace(/^---[\s\S]*?---\s*/, ''));
+const lessonMd = (slug) => readFileSync(join(root, `docs/lessons/en/creativity-techniques/${slug}/index.md`), 'utf8');
+const slugify = (h) => h.toLowerCase().replace(/[^\p{L}\p{N}\s-]/gu, '').trim().replace(/\s+/g, '-');
 const HIGHER = ['apply', 'analyse', 'evaluate', 'create'];
 const RA = ['RA5', 'RA6', 'RA12', 'RA14', 'RA15'];
 
@@ -25,9 +27,17 @@ test('bank: ≥ 20 per unit, required fields, refs exist and are cited by the un
   for (const [unit, info] of Object.entries(bank.units)) {
     const mine = qs.filter((q) => q.unit === unit);
     assert.ok(mine.length >= 20, `${unit}: ${mine.length}`);
-    const lesson = readFileSync(join(root, `docs/lessons/en/creativity-techniques/${info.slug}/index.md`), 'utf8');
-    const keys = (lesson.match(/^references: \[(.*)\]$/m) || [])[1].split(', ');
-    for (const q of mine) assert.ok(keys.includes(q.ref), `${q.id}: ${q.ref} not in the ${unit} lesson references`);
+    for (const q of mine) {
+      // A unit split into lessons (U4.1, U4.2) checks each question against its own lesson.
+      if (info.lessons) assert.ok(info.lessons.includes(q.lesson), `${q.id}: lesson ${q.lesson} not in ${unit} lessons`);
+      const slug = lessonSlug(q, info);
+      const lesson = lessonMd(slug);
+      const keys = ((lesson.match(/^references: \[(.*)\]$/m) || [])[1] || '').split(', ');
+      assert.ok(keys.includes(q.ref), `${q.id}: ${q.ref} not in the ${slug} lesson references`);
+      const anchors = [...lesson.matchAll(/\{#([\w-]+)\}/g)].map((m) => m[1])
+        .concat([...lesson.matchAll(/^#{2,3} (.+?)\s*$/gm)].map((m) => slugify(m[1])));
+      assert.ok(anchors.includes(q.anchor), `${q.id}: no #${q.anchor} in ${slug}`);
+    }
   }
   assert.equal(new Set(qs.map((q) => q.id)).size, qs.length, 'unique ids');
   for (const q of qs) {
@@ -101,6 +111,9 @@ test('higher-order stems do not copy the lesson worked example', () => {
     'promote the festival',
     'seat lowered',
     'a list, a grid and a map',
+    'river delta',
+    'atrium',
+    'creative campus',
   ];
   for (const q of bank.questions.filter((item) => HIGHER.includes(item.bloom))) {
     const hay = `${q.stem} ${q.answer}`.toLowerCase();

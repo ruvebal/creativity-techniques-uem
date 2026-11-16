@@ -20,6 +20,8 @@
 #   not that lesson's worked example (EX10 cold review F2). Copying an
 #   "In practice" scenario is remember, whatever the label says.
 # - `where`: the lesson block that holds the answer; `anchor`: its id on the lesson page.
+# - `lesson`: for a unit split into lessons (`units.<U>.lessons`), the slug of the lesson
+#   whose page holds `where` / `anchor` and whose `references:` must list `ref`.
 # - `public_quiz: true`: one of the five questions on the public practice page
 #   (docs/practice/en/<unit slug>/, built by scripts/build-practice-quizzes.mjs).
 # - `retrieval`: the short recall form shown on the deck's retrieval slide (answer in the
@@ -37,7 +39,9 @@ units:
   U1: { slug: u-1-introduction-creativity, lesson: /lessons/en/creativity-techniques/u-1-introduction-creativity/ }
   U2: { slug: u-2-idea-generation-selection, lesson: /lessons/en/creativity-techniques/u-2-idea-generation-selection/ }
   U3: { slug: u-3-development-solutions, lesson: /lessons/en/creativity-techniques/u-3-development-solutions/ }
-  U4: { slug: u-4-workplace-application, lesson: /lessons/en/creativity-techniques/u-4-workplace-application/ }
+  # U4 is taught as two lessons (U4.1, U4.2) on one hub slug, deck and practice page. Each U4
+  # question names its lesson in `lesson:`; refs and anchors are checked against that lesson.
+  U4: { slug: u-4-workplace-application, lesson: /lessons/en/creativity-techniques/u-4-workplace-application/, lessons: [u-4-1-generate-before-you-judge, u-4-2-select-with-care] }
 questions:
   # ---------------------------------------------------------------- U1
   - id: U1-01
@@ -954,13 +958,14 @@ questions:
   # ---------------------------------------------------------------- U4 (draft retrieval practice; not exam or graded use)
   - id: U4-01
     unit: U4
+    lesson: u-4-1-generate-before-you-judge
     ra: RA5
     type: short
     bloom: remember
     stem: In Ask a Crab, what kind of stimulus does the group use?
     answer: Pictures unrelated to the problem area.
     ref: michalko-2010
-    where: Lab Exercise 1
+    where: U4.1 Lab · Ask a Crab
     anchor: lab-exercise-1
     drafted: hand
     public_quiz: true
@@ -968,13 +973,14 @@ questions:
     retrieval_answer: Pictures unrelated to the problem area (Michalko 2010, 440).
   - id: U4-02
     unit: U4
+    lesson: u-4-1-generate-before-you-judge
     ra: RA14
     type: short
     bloom: understand
     stem: Before evaluation, what does the Ask a Crab blueprint ask a team to do with each shared idea?
     answer: Discuss it, develop new ideas or modifications, and record them.
     ref: michalko-2010
-    where: Lab Exercise 1
+    where: U4.1 Lab · Ask a Crab
     anchor: lab-exercise-1
     drafted: hand
     public_quiz: true
@@ -982,13 +988,14 @@ questions:
     retrieval_answer: Discuss it, develop new ideas or modifications, and record them (Michalko 2010, 440).
   - id: U4-03
     unit: U4
+    lesson: u-4-2-select-with-care
     ra: RA15
     type: short
     bloom: remember
     stem: In Walking in the Customer's Shoes, what should an observer record during the customer process?
     answer: Behaviors, words, and actions that affect the customer's attitude.
     ref: michalko-2010
-    where: Lab Exercise 2
+    where: U4.2 Lab · Visitor Journey Walkthrough
     anchor: lab-exercise-2
     drafted: hand
     public_quiz: true
@@ -996,13 +1003,14 @@ questions:
     retrieval_answer: Behaviors, words, and actions that affect the customer's attitude (Michalko 2010, 371).
   - id: U4-04
     unit: U4
+    lesson: u-4-2-select-with-care
     ra: RA14
     type: short
     bloom: understand
     stem: After walking through the customer process, what do the salespeople do?
     answer: Share their experiences and discuss ways to improve their own service.
     ref: michalko-2010
-    where: Lab Exercise 2
+    where: U4.2 Lab · Visitor Journey Walkthrough
     anchor: lab-exercise-2
     drafted: hand
     public_quiz: true
@@ -1010,15 +1018,314 @@ questions:
     retrieval_answer: Share their experiences and discuss ways to improve their own service (Michalko 2010, 371).
   - id: U4-05
     unit: U4
+    lesson: u-4-2-select-with-care
     ra: RA12
     type: short
     bloom: remember
     stem: What does the customer walkthrough reveal beyond merely talking about another person's position?
     answer: Experiencing the process can reveal what talking about it alone does not.
     ref: michalko-2010
-    where: Lab Exercise 2
+    where: U4.2 Lab · Visitor Journey Walkthrough
     anchor: lab-exercise-2
     drafted: hand
     public_quiz: true
     retrieval: What can experiencing a customer's process reveal?
     retrieval_answer: What talking about another person's position alone cannot (Michalko 2010, 371).
+  # U4.1 · Generate before you judge (u-4-1-generate-before-you-judge)
+  - id: U4-06
+    unit: U4
+    lesson: u-4-1-generate-before-you-judge
+    ra: RA5
+    type: mcq
+    bloom: remember
+    stem: In what order does the Ask a Crab blueprint, as U4.1 describes it, run?
+    answer: Bring in unrelated pictures, write and build on connections, then collect and evaluate them.
+    distractors:
+      - Evaluate the brief first, then choose pictures that illustrate the best idea.
+      - Vote on the pictures, then write one finished idea per person.
+      - Collect existing solutions, then find a picture to match each one.
+    ref: michalko-2010
+    where: U4.1 Masterclass idea 1 (A deadline does not have to judge every minute)
+    anchor: masterclass
+    drafted: hand
+  - id: U4-07
+    unit: U4
+    lesson: u-4-1-generate-before-you-judge
+    ra: RA14
+    type: short
+    bloom: understand
+    stem: According to U4.1, how can a design team keep a fixed deadline and still give the idea stage a real place?
+    answer: Set a brief and a timer, generate first, and postpone the "best idea" conversation until the first round is on the table.
+    ref: michalko-2010
+    where: U4.1 Masterclass idea 1 (A deadline does not have to judge every minute)
+    anchor: masterclass
+    drafted: hand
+  - id: U4-08
+    unit: U4
+    lesson: u-4-1-generate-before-you-judge
+    ra: RA14
+    type: mcq
+    bloom: understand
+    stem: In U4.1, what can an unrelated picture do for a brief, and what can it not do?
+    answer: It can open a new angle on the brief; it cannot show whether that possibility serves the brief.
+    distractors:
+      - It can prove which idea users will prefer; it cannot be used in a group.
+      - It can replace the brief with a better problem; it cannot be shared.
+      - It can decide whose idea wins; it cannot produce new connections.
+    ref: michalko-2010
+    where: U4.1 Masterclass idea 2 (An unrelated image can change the route)
+    anchor: masterclass
+    drafted: hand
+  - id: U4-09
+    unit: U4
+    lesson: u-4-1-generate-before-you-judge
+    ra: RA5
+    type: short
+    bloom: remember
+    stem: After looking at the unrelated pictures in Ask a Crab, what do participants write, and what happens to it next?
+    answer: They write associations with the problem, share them, and develop new connections before any evaluation.
+    ref: michalko-2010
+    where: U4.1 Masterclass idea 2 (An unrelated image can change the route)
+    anchor: masterclass
+    drafted: hand
+  - id: U4-10
+    unit: U4
+    lesson: u-4-1-generate-before-you-judge
+    ra: RA15
+    type: short
+    bloom: understand
+    stem: Why does U4.1 call an idea list "a record of thinking, not a verdict on the people who made it"?
+    answer: Because it records the prompt, the first connections, the modifications made in conversation and who contributed them; that makes later selection easier to inspect and keeps group labour visible.
+    ref: michalko-2010
+    where: U4.1 Masterclass idea 3 (Save the path, not just the favourite)
+    anchor: masterclass
+    drafted: hand
+  - id: U4-11
+    unit: U4
+    lesson: u-4-1-generate-before-you-judge
+    ra: RA15
+    type: mcq
+    bloom: remember
+    stem: Which three things should the U4.1 portfolio trace show?
+    answer: The prompt, the first connections, and the changes made in conversation.
+    distractors:
+      - Only the winning concept, polished for the pitch.
+      - The vote count for each idea and the name of the winner.
+      - The final design and a photograph of where it will go.
+    ref: michalko-2010
+    where: U4.1 Masterclass idea 3 (Save the path, not just the favourite)
+    anchor: masterclass
+    drafted: hand
+  - id: U4-12
+    unit: U4
+    lesson: u-4-1-generate-before-you-judge
+    ra: RA14
+    type: short
+    bloom: understand
+    stem: The U4.1 Ask a Crab lab is judged on three things. What are they?
+    answer: A clear link from brief to picture to idea, recorded additions, and generation kept separate from selection.
+    ref: michalko-2010
+    where: U4.1 Lab · Ask a Crab
+    anchor: lab-exercise-1
+    drafted: hand
+  - id: U4-13
+    unit: U4
+    lesson: u-4-1-generate-before-you-judge
+    ra: RA12
+    type: short
+    bloom: understand
+    stem: Why does U4.1 say that a picture-led idea from class does not show what a real visitor needs?
+    answer: The picture can open a route but cannot tell whether real people will find their way; that needs a field check, an accessibility review or a conversation with the people who use the space.
+    ref: michalko-2010
+    where: U4.1 Conclusion
+    anchor: conclusion
+    drafted: hand
+  - id: U4-14
+    unit: U4
+    lesson: u-4-1-generate-before-you-judge
+    ra: RA5
+    type: case
+    bloom: apply
+    stem: A packaging team must show cereal-box concepts by Friday. Plan the first half hour of their session with Ask a Crab.
+    answer: Fix the brief and a timer; give each person two or three pictures unrelated to cereal or packaging (a beehive, a bridge); each writes associations with the brief and reads them out; the group discusses each one, builds modifications and records them; choosing the best concept waits until the first round is complete.
+    ref: michalko-2010
+    where: U4.1 Masterclass ideas 1–2
+    anchor: masterclass
+    drafted: hand
+  - id: U4-15
+    unit: U4
+    lesson: u-4-1-generate-before-you-judge
+    ra: RA14
+    type: case
+    bloom: analyse
+    stem: During a picture-prompt round for a poster, the art director says "that one's weak" as soon as the second idea is read out. What has gone wrong, and what should the group do instead?
+    answer: Evaluation has entered the generation round, so the group judges before the first round is on the table; instead it should discuss the idea, try a modification, record it, and save judgement for the separate selection step.
+    ref: michalko-2010
+    where: U4.1 Masterclass idea 1 (A deadline does not have to judge every minute)
+    anchor: masterclass
+    drafted: hand
+  - id: U4-16
+    unit: U4
+    lesson: u-4-1-generate-before-you-judge
+    ra: RA15
+    type: case
+    bloom: evaluate
+    stem: A team pitches one polished brand concept and deletes the sheets that show where it came from, "to keep things clean". Judge this decision using U4.1.
+    answer: It is a weak decision. Without the route, nobody can inspect why this idea was chosen, and teammates' contributions disappear. Keep the prompt, the first connections and the changes made in conversation, with names, so another person can follow the path.
+    ref: michalko-2010
+    where: U4.1 Masterclass idea 3 (Save the path, not just the favourite)
+    anchor: masterclass
+    drafted: hand
+  - id: U4-17
+    unit: U4
+    lesson: u-4-1-generate-before-you-judge
+    ra: RA6
+    type: case
+    bloom: apply
+    stem: From a picture of a spider's web, a teammate proposes a museum app whose routes branch from one centre. What do you write in the trace, and what question stays open?
+    answer: Record the picture, the association, each step from it to the app idea and who made it; still open is whether real visitors can use those routes, which the picture cannot tell you and a later check must.
+    ref: michalko-2010
+    where: U4.1 Masterclass ideas 2–3
+    anchor: masterclass
+    drafted: hand
+  # U4.2 · Follow the visitor, then choose what to check (u-4-2-select-with-care)
+  - id: U4-18
+    unit: U4
+    lesson: u-4-2-select-with-care
+    ra: RA12
+    type: mcq
+    bloom: remember
+    stem: In the source example U4.2 cites, who walks through the sales process posing as customers?
+    answer: The salespeople themselves.
+    distractors:
+      - Real customers paid for feedback.
+      - Managers inspecting the store.
+      - Outside researchers running a survey.
+    ref: michalko-2010
+    where: U4.2 Masterclass idea 1 (Follow the process from the visitor's side)
+    anchor: masterclass
+    drafted: hand
+  - id: U4-19
+    unit: U4
+    lesson: u-4-2-select-with-care
+    ra: RA14
+    type: mcq
+    bloom: understand
+    stem: U4.2 says a note about an action is stronger than a guess about intention. Which walkthrough note follows that rule?
+    answer: The walker stopped at the stairs and asked where the lift was.
+    distractors:
+      - The walker was confused by the stairs.
+      - The walker disliked the signs.
+      - The walker felt lost near the entrance.
+    ref: michalko-2010
+    where: U4.2 Masterclass idea 2 (Record what happens before you explain it)
+    anchor: masterclass
+    drafted: hand
+  - id: U4-20
+    unit: U4
+    lesson: u-4-2-select-with-care
+    ra: RA14
+    type: short
+    bloom: understand
+    stem: In the walkthrough, when may an observer write that a pause was confusion?
+    answer: Only if the walker says so; otherwise the pause is recorded as an observation, kept apart from the observer's interpretation.
+    ref: michalko-2010
+    where: U4.2 Masterclass idea 2 (Record what happens before you explain it)
+    anchor: masterclass
+    drafted: hand
+  - id: U4-21
+    unit: U4
+    lesson: u-4-2-select-with-care
+    ra: RA5
+    type: short
+    bloom: understand
+    stem: On what basis does U4.2 ask the team to select one of its saved U4.1 ideas?
+    answer: Because the idea responds to something the walker actually did, a recorded moment; the team then notes what still needs a check with people who use the space.
+    ref: michalko-2010
+    where: U4.2 Masterclass idea 3 (Choose an idea for the next check)
+    anchor: masterclass
+    drafted: hand
+  - id: U4-22
+    unit: U4
+    lesson: u-4-2-select-with-care
+    ra: RA14
+    type: short
+    bloom: remember
+    stem: According to U4.2, what does a useful observation do to the design question, and what does it not do?
+    answer: It narrows the next question; it does not settle the design.
+    ref: michalko-2010
+    where: U4.2 Masterclass idea 3 (Choose an idea for the next check)
+    anchor: masterclass
+    drafted: hand
+  - id: U4-23
+    unit: U4
+    lesson: u-4-2-select-with-care
+    ra: RA12
+    type: short
+    bloom: understand
+    stem: What is one peer's walkthrough of a route good for, according to U4.2, and what can it not claim?
+    answer: It helps the team choose what to investigate next; it cannot announce that the design works for the people who use the space.
+    ref: michalko-2010
+    where: U4.2 Conclusion
+    anchor: conclusion
+    drafted: hand
+  - id: U4-24
+    unit: U4
+    lesson: u-4-2-select-with-care
+    ra: RA15
+    type: short
+    bloom: understand
+    stem: Why does U4.2 ask the team to keep the observer's name beside each note?
+    answer: So that a polished pitch does not erase who noticed the problem; credit for observations, questions and checks stays visible.
+    ref: michalko-2010
+    where: U4.2 Masterclass idea 3 (Choose an idea for the next check)
+    anchor: masterclass
+    drafted: hand
+  - id: U4-25
+    unit: U4
+    lesson: u-4-2-select-with-care
+    ra: RA12
+    type: case
+    bloom: apply
+    stem: A team is redesigning a public library's self-service loan process. Using the practice U4.2 cites, how could they learn from the borrower's side, and what should they record?
+    answer: Team members go through the loan process themselves as first-time borrowers would, recording the behaviours, words and actions that affect how a borrower feels (where they pause, what a screen or staff member says); afterwards they share what they found and discuss improvements, without claiming it represents every borrower.
+    ref: michalko-2010
+    where: U4.2 Masterclass ideas 1–2
+    anchor: masterclass
+    drafted: hand
+  - id: U4-26
+    unit: U4
+    lesson: u-4-2-select-with-care
+    ra: RA14
+    type: case
+    bloom: analyse
+    stem: 'An observer''s notes read: "Hesitated at the lobby screen. Probably cannot read small text. Asked: is this floor two?" Sort them into observations and inferences, and say what to do with the inference.'
+    answer: 'Observations: hesitated at the lobby screen; asked "is this floor two?". Inference: cannot read small text. Mark it as the observer''s interpretation and keep it as a question to check, not as a finding.'
+    ref: michalko-2010
+    where: U4.2 Masterclass idea 2 (Record what happens before you explain it)
+    anchor: masterclass
+    drafted: hand
+  - id: U4-27
+    unit: U4
+    lesson: u-4-2-select-with-care
+    ra: RA14
+    type: case
+    bloom: evaluate
+    stem: After one teammate walked the route through a new coworking space, a team's pitch says "our walkthrough shows the wayfinding is accessible". Evaluate the claim and suggest a better sentence.
+    answer: It overclaims, because a single peer walkthrough is not representative research and cannot establish accessibility. Better is to report the recorded moments, the idea selected because of them, and what still needs a check with people who use the space.
+    ref: michalko-2010
+    where: U4.2 Conclusion
+    anchor: conclusion
+    drafted: hand
+  - id: U4-28
+    unit: U4
+    lesson: u-4-2-select-with-care
+    ra: RA5
+    type: case
+    bloom: evaluate
+    stem: A team has two saved ideas, one the most popular in a show of hands and one that answers the moment the walker turned back at an unmarked door. Which should it carry forward under U4.2's criterion, and why?
+    answer: The second, because U4.2 selects an idea that responds to something the walker actually did; popularity is preference, not evidence. The team should then note what still needs a check with people who use the space.
+    ref: michalko-2010
+    where: U4.2 Masterclass idea 3 (Choose an idea for the next check)
+    anchor: masterclass
+    drafted: hand
