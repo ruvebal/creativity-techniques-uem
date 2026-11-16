@@ -56,6 +56,31 @@ export function sourceLayerDepth(index, count, sizeNorm = 0.5) {
 	return mid * span + sizePush + jitter;
 }
 
+/**
+ * Size-ordered Z: smaller facets come forward (negative Z is nearer the
+ * viewer), larger ones recede. `sizeRank` is 0 for the smallest facet and 1
+ * for the largest; a tiny deterministic jitter only separates equal sizes.
+ */
+export function sizeLayerDepth(sizeRank, index, count) {
+	const span = Math.max(48, count * 0.42);
+	const jitter = (((index * 0.61803398875 + 0.17) % 1) - 0.5) * 3;
+	return (sizeRank - 0.5) * 2 * span + jitter;
+}
+
+/** Shoelace area of a path element sampled along its outline. */
+export function sampledPathArea(pathElement, samples = 48) {
+	const length = pathElement.getTotalLength();
+	if (!length) return 0;
+	let area = 0;
+	let prev = pathElement.getPointAtLength(0);
+	for (let i = 1; i <= samples; i += 1) {
+		const next = pathElement.getPointAtLength((length * i) / samples);
+		area += prev.x * next.y - next.x * prev.y;
+		prev = next;
+	}
+	return Math.abs(area) / 2;
+}
+
 export function projectFacet(facet, viewBox, camera, elapsed, options = {}) {
 	const orbitRadius = options.orbitRadius ?? 0;
 	const orbitSpeed = options.orbitSpeed ?? 0.42;

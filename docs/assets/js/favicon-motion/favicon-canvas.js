@@ -2,12 +2,13 @@ import {
 	clamp,
 	fovealResponse,
 	projectFacet,
-	sourceLayerDepth,
+	sampledPathArea,
+	sizeLayerDepth,
 	springAtRest,
 	springStep,
 	svgScale,
 	svgViewBox,
-} from './math.js?v=20261110-clean-base-depth-8';
+} from './math.js?v=20261116-size-depth-1';
 import { buildPalette, staggeredColour, transitionDuration } from './palette.js?v=20261110-clean-base-depth-8';
 
 const SVG_NS = 'http://www.w3.org/2000/svg';
@@ -38,7 +39,9 @@ async function loadMark(source) {
 		const bounds = probe.getBBox();
 		const rawX = bounds.x + bounds.width / 2;
 		const rawY = bounds.y + bounds.height / 2;
+		const area = sampledPathArea(probe) * Math.abs(scale.x * scale.y);
 		return {
+			area,
 			index,
 			path: new Path2D(sourcePath.getAttribute('d') || ''),
 			fill: sourcePath.getAttribute('fill') || 'currentColor',
@@ -48,13 +51,20 @@ async function loadMark(source) {
 			rawY,
 			x: rawX * scale.x,
 			y: rawY * scale.y,
-			z: sourceLayerDepth(index, sourcePaths.length),
+			z: 0,
 			phase: index * 0.73,
 			inverted: false,
 			inverseTransform: null,
 		};
 	});
 	measure.remove();
+	// Depth follows size: the smallest facet sits nearest, the largest farthest.
+	const bySize = [...facets].sort((a, b) => a.area - b.area || a.index - b.index);
+	const last = Math.max(1, bySize.length - 1);
+	bySize.forEach((facet, rank) => {
+		facet.sizeRank = rank / last;
+		facet.z = sizeLayerDepth(facet.sizeRank, facet.index, facets.length);
+	});
 	return { facets, viewBox, palette: buildPalette(facets) };
 }
 
