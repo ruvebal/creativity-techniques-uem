@@ -97,7 +97,7 @@ function makeNodes(width, height, options) {
 }
 
 export function createGeometryField(canvas, options) {
-	const context = canvas.getContext('2d', { alpha: true, desynchronized: true });
+	const context = canvas.getContext('2d', { alpha: true });
 	if (!context) return null;
 
 	const palette = options.palette.map(rgb);

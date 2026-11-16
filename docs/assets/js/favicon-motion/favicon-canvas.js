@@ -77,7 +77,7 @@ export async function mountFaviconCanvas(host, options = {}) {
 	const canvas = document.createElement('canvas');
 	canvas.className = 'favicon-canvas-25d__surface';
 	canvas.setAttribute('aria-hidden', 'true');
-	const context = canvas.getContext('2d', { alpha: true, desynchronized: true });
+	const context = canvas.getContext('2d', { alpha: true });
 	if (!context) return null;
 	const { facets, viewBox, palette } = await loadMark(source);
 	if (!facets.length) return null;

@@ -289,7 +289,7 @@ export async function mountSvgPlane25d(host, options = {}) {
 	const canvas = document.createElement('canvas');
 	canvas.className = 'svg-plane-25d__surface';
 	canvas.setAttribute('aria-hidden', 'true');
-	const context = canvas.getContext('2d', { alpha: true, desynchronized: true });
+	const context = canvas.getContext('2d', { alpha: true });
 	if (!context) return null;
 
 	const fallbacks = [...host.querySelectorAll(':scope > img, :scope > object')];

@@ -1,7 +1,7 @@
 {% assign archive_cover = site.data.archive_covers[page.url] %}
 {% if archive_cover %}
 <script type="module">
-	import { mountArchiveHero } from '{{ "/assets/js/archive-motion/archive-hero-live.js" | relative_url }}?v=20261116-landing-vh-touch-1';
+	import { mountArchiveHero } from '{{ "/assets/js/archive-motion/archive-hero-live.js" | relative_url }}?v=20261116-opaque-fix-1';
 	const header = document.querySelector('.site-chrome-header, .site-header, header.site-header');
 	if (header) {
 		document.documentElement.style.setProperty('--site-header-height', `${Math.ceil(header.getBoundingClientRect().height)}px`);
