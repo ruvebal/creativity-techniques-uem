@@ -1,4 +1,4 @@
-generated: '2026-11-15'
+generated: '2026-11-16'
 exercises:
   - id: alternative-uses-task
     title: Alternative Uses Task
@@ -56,6 +56,8 @@ exercises:
       caption: >-
         One object can produce many ideas; grouping those ideas shows flexibility as well as
         fluency.
+    used_in:
+      - /lessons/en/creativity-techniques/u-1-introduction-creativity/
   - id: ask-a-crab
     title: Ask a Crab — picture diverge
     technique_id: brainstorming-osborn
@@ -107,6 +109,244 @@ exercises:
         An unrelated picture prompts associations, which lead to several workplace ideas without
         choosing a winner.
       caption: Keep the visible path from picture to association to idea; selection happens later.
+    used_in:
+      - /lessons/en/creativity-techniques/u-4-1-generate-before-you-judge/
+  - id: brainstorm-ground-rules
+    title: Brainstorm Ground Rules
+    technique_id: brainstorming-osborn
+    status: pilot
+    categories:
+      - urn:in-practice:concept:divergent-thinking
+      - family:generation
+    fieldlex:
+      - ct:brainstorming
+      - ct:groupDynamics
+    units:
+      - U2
+    summary: >-
+      Run a short group idea session under the four original brainstorming rules: no criticism, wild
+      ideas welcome, go for quantity, build on others. A rule-keeper calls out any judgement, and
+      selection happens only after the session ends.
+    time_min: 30
+    group: 4–6, with one scribe and one rule-keeper
+    materials:
+      - one specific problem statement, written where everyone can see it
+      - sticky notes or a shared digital board
+      - timer
+      - a card with the four rules
+    requirements:
+      - The problem must be narrow enough to aim at (one user, one situation), not a general theme.
+      - Rotate the rule-keeper and scribe roles so the same people do not always lead.
+      - >-
+        International cohorts may contribute in any working language; the scribe writes a short
+        gloss.
+    accessibility: >-
+      Ideas can be spoken, written on notes, or typed into the shared board; quieter students may
+      pass notes to the scribe. No movement is required. A silent written round can open the
+      session.
+    steps:
+      - Read the four rules aloud, then put them in your own words as a group.
+      - Write the problem on the board as one specific question.
+      - >-
+        For fifteen minutes, call out ideas. The scribe numbers every idea. The rule-keeper says
+        "later" whenever someone judges.
+      - >-
+        Every few minutes, the scribe reads two ideas aloud and the group tries to combine or
+        improve them.
+      - >-
+        Stop. Count the ideas. Only now sort them, using a separate selection method such as Hits
+        and Dot Voting.
+      - Note how many times the rule-keeper had to call "later", and what kind of comment it was.
+    adaptation: >-
+      Osborn's rules and the hot-and-cold-water warning are quoted as written. The rule-keeper role,
+      the fifteen-minute timing, the combine checkpoint, and the hand-off to a separate selection
+      exercise are professor adaptations. Osborn's claims for group sessions have been contested
+      since; treat this as a rule-following exercise, not proof that groups always beat individuals.
+    quote:
+      chicago: (Osborn 2013, chap. 26)
+      verbatim: >-
+        Idea-producing conferences are relatively fruitless unless certain rules are understood by
+        all present, and are faithfully followed. Here are four basics: (1) Judicial judgment is
+        ruled out. Criticism of ideas must be withheld until later. (2) "Free-wheeling" is welcomed.
+        The wilder the idea, the better; it is easier to tame down than to think up. (3) Quantity is
+        wanted. The greater the number of ideas, the more the likelihood of winners. (4) Combination
+        and improvement are sought. In addition to contributing ideas of their own, participants
+        should suggest how ideas of others can be turned into better ideas; or how two or more ideas
+        can be joined into still another idea. […] "If you try to get hot and cold water out of the
+        same faucet at the same time, you will get only tepid water. And if you try to criticize and
+        create at the same time, you can't turn on either cold enough criticism or hot enough ideas.
+        So let's stick solely to ideas—let's cut out all criticism during this session."
+      ref_key: osborn-2013
+    portfolio_trace: >-
+      Problem statement; numbered idea list (photo); idea count; number of "later" calls and one
+      example.
+    judged_by: Portfolio rubric — process transparency
+    graphic:
+      svg: /assets/images/exercise-graphics/brainstorm-ground-rules-9d18fcdcbeb24a0a.svg
+      png: /assets/images/exercise-graphics/brainstorm-ground-rules-9d18fcdcbeb24a0a.png
+      alt: >-
+        A specific problem at the centre; four rules surround it; ideas pile up first and pass
+        through a judgement gate only after the session.
+      caption: Create first, judge later. The gate stays closed until the idea count is in.
+    used_in:
+      - /lessons/en/creativity-techniques/u-2-idea-generation-selection/
+  - id: consider-the-negative
+    title: Consider the Negative
+    technique_id: reversal-method
+    status: pilot
+    categories:
+      - urn:in-practice:concept:constraints
+      - family:generation
+    fieldlex:
+      - ct:solutionSpace
+      - ct:lateralThinking
+    units:
+      - U5
+      - U6
+    summary: >-
+      List the unwritten rules of a familiar style or product type, then negate one deep rule — do
+      its opposite — and sketch what becomes possible. Changing a structural rule, not a surface
+      detail, can open a whole new space of designs.
+    time_min: 30
+    group: pairs
+    materials:
+      - >-
+        one familiar style or product type (for example a bus stop, a wedding invitation, a login
+        screen)
+      - paper or whiteboard
+      - timer
+    requirements:
+      - Choose something both partners know well enough to list its rules.
+      - Negate a structural rule (how it works or is organised), not a surface detail like colour.
+      - Keep the rule list; it is part of the trace.
+    accessibility: >-
+      Rules can be listed in writing or spoken while a partner writes. Sketches, collages, or short
+      written scenarios are all valid outputs. No movement required.
+    steps:
+      - >-
+        Together, list six rules that every example of the style follows, even if nobody says them
+        out loud.
+      - >-
+        Mark each rule as surface (looks) or structure (how it works). Circle the most structural
+        rule.
+      - >-
+        Negate it — write its opposite as a new rule (for example "a bus stop is where you wait"
+        becomes "a bus stop is where you never wait").
+      - >-
+        In ten minutes, sketch two or three designs that obey the negated rule and keep the other
+        five.
+      - >-
+        For comparison, try dropping the rule entirely instead of negating it. Note how the results
+        differ.
+      - Write one sentence: what did the negation make possible that the old rule blocked?
+    adaptation: >-
+      Boden describes "consider the negative" and "dropping a constraint" as general heuristics for
+      transforming a conceptual space; she gives no classroom procedure. The six-rule list, the
+      surface/structure sort, the timings, and the negate-versus-drop comparison are professor
+      adaptations of the reversal method.
+    quote:
+      chicago: (Boden 2004, 66)
+      verbatim: >-
+        One very general heuristic is consider the negative. In other words, one way of getting a
+        new slant on a problem is to negate some aspect of it, whether consciously or unconsciously.
+        When this heuristic is applied to a structural aspect of the problem, as opposed to a mere
+        superficial detail, it can change the conceptual geography in one step. (Negating a
+        constraint is not the same as dropping it: wanting any nonred sweet is not the same as
+        wanting any sweet, whatever its colour. However, dropping constraints is a general
+        heuristic, too. We have already seen that Kekulé's visualization of his problem could have
+        been transformed by dropping the 'strings-only' constraint. Likewise, dropping Euclid's
+        sixth axiom - that parallel lines meet at infinity - led to a fundamentally different,
+        non-Euclidean, geometry.)
+      ref_key: boden-2004
+    portfolio_trace: >-
+      Six-rule list with the circled rule; the negated rule; two or three sketches; the drop
+      comparison; one sentence.
+    judged_by: Portfolio rubric — critical analysis and judgement
+    graphic:
+      svg: /assets/images/exercise-graphics/consider-the-negative-d1377f35bbaa98fe.svg
+      png: /assets/images/exercise-graphics/consider-the-negative-d1377f35bbaa98fe.png
+      alt: >-
+        A list of style rules with one structural rule circled; negating it redraws the map of
+        possible designs, while dropping it leaves an open field.
+      caption: >-
+        Negate a deep rule and the map changes in one step. Dropping the rule is a different move
+        with different results.
+    used_in:
+      - /lessons/en/master-lectures/conceptual-spaces-creative-change/
+      - /lessons/en/creativity-techniques/u-5-creativity-technology/
+      - /lessons/en/creativity-techniques/u-6-personal-development/
+  - id: down-draft-up-draft
+    title: Down Draft, Up Draft
+    technique_id: delay-judgement-checkpoint
+    status: pilot
+    categories:
+      - urn:in-practice:concept:divergent-thinking
+      - family:development
+    fieldlex:
+      - ct:divergentConvergentRhythm
+      - ct:ideaDevelopment
+    units:
+      - U3
+      - U5
+    summary: >-
+      Make the same piece three times with three different jobs: get it down, fix it up, then check
+      every detail. Separating the passes stops you from judging work before it exists.
+    time_min: 40
+    group: individual, with one peer check
+    materials:
+      - the brief or piece you are working on
+      - paper, sketchbook, or any making tool
+      - timer
+      - coloured pen for the third pass
+    requirements:
+      - The first pass is not shown to anyone and is not assessed.
+      - Works for writing, sketches, layouts, storyboards, or code.
+      - Keep all three versions; do not overwrite the first one.
+    accessibility: >-
+      Any medium is valid. Students who find the timer stressful may use page or frame counts
+      instead. The peer check can be written instead of spoken.
+    steps:
+      - >-
+        Down draft (15 minutes). Get everything out, fast and loose. Do not delete, erase, or fix
+        anything. No one will see this.
+      - Mark the one part of the down draft that surprised you most.
+      - >-
+        Up draft (15 minutes). On a fresh page, rebuild the piece around that part. Now you may cut,
+        reorder, and say it more accurately.
+      - >-
+        Dental draft (10 minutes). With a coloured pen, check every element of the up draft against
+        the brief. Mark each one keep, fix, or cut.
+      - Show only the up draft and dental marks to a peer. Ask which mark they would challenge.
+    adaptation: >-
+      Lamott writes about prose drafts and quotes a friend's three-step naming: down draft, up
+      draft, dental draft. This classroom version applies the three passes to any design medium,
+      adds timings, the "mark what surprised you" bridge between passes, and the peer check.
+      Lamott's own, blunter name for the first pass appears in the same chapter.
+    quote:
+      chicago: (Lamott 2007, 12)
+      verbatim: >-
+        The first draft is the child's draft, where you let it all pour out and then let it romp all
+        over the place, knowing that no one is going to see it and that you can shape it later. […]
+        Almost all good writing begins with terrible first efforts. You need to start somewhere.
+        Start by getting something—anything—down on paper. A friend of mine says that the first
+        draft is the down draft—you just get it down. The second draft is the up draft—you fix it
+        up. You try to say what you have to say more accurately. And the third draft is the dental
+        draft, where you check every tooth, to see if it's loose or cramped or decayed, or even, God
+        help us, healthy.
+      ref_key: lamott-2007
+    portfolio_trace: >-
+      Down draft (photo), the surprise mark, up draft, dental marks, and the peer's challenge in one
+      line.
+    judged_by: Portfolio rubric — process transparency; critical analysis and judgement
+    graphic:
+      svg: /assets/images/exercise-graphics/down-draft-up-draft-7a7b949f8fdfdc64.svg
+      png: /assets/images/exercise-graphics/down-draft-up-draft-7a7b949f8fdfdc64.png
+      alt: >-
+        Three versions of the same piece; a loose down draft, a rebuilt up draft, and a dental draft
+        marked keep, fix, or cut.
+      caption: Each pass has one job. Judging waits until there is something to judge.
+    used_in:
+      - /lessons/en/creativity-techniques/u-3-development-solutions/
   - id: follow-dogme-95-rules
     title: Follow Dogme 95 Rules
     technique_id: constraint-writing
@@ -180,6 +420,8 @@ exercises:
         A temporary rule shapes one version beside a freer version; the two are compared for
         surprise, fit, and craft.
       caption: The rule is a temporary making condition. Compare what it forces with what the brief needs.
+    used_in:
+      - /lessons/en/creativity-techniques/u-5-creativity-technology/
   - id: hits-and-dot-voting
     title: Hits and dot voting
     technique_id: hits-dot-voting
@@ -238,6 +480,90 @@ exercises:
       caption: >-
         Notice interesting parts before debate, then make the final selection visible as a separate
         decision.
+    used_in:
+      - /lessons/en/creativity-techniques/u-2-idea-generation-selection/
+  - id: idea-spurring-questions
+    title: Idea-Spurring Questions
+    technique_id: scamper
+    status: pilot
+    categories:
+      - urn:in-practice:concept:divergent-thinking
+      - family:generation
+    fieldlex:
+      - ct:ideaProduction
+      - ct:creativeProblemSolving
+    units:
+      - U2
+      - U4
+    summary: >-
+      Take one existing object, layout, or service and run it through Osborn's nine questions: other
+      uses, adapt, modify, magnify, minify, substitute, rearrange, reverse, combine. One quick
+      sketch per question gives nine variants to choose from. (This checklist is the source of the
+      later SCAMPER acronym.)
+    time_min: 35
+    group: individual or pairs
+    materials:
+      - one existing thing to change (product, poster, screen, room, service step)
+      - a sheet folded into nine boxes, or a nine-frame digital board
+      - the nine questions printed on a card
+      - timer
+    requirements:
+      - >-
+        Start from something that already exists; the questions work on a concrete starting point,
+        not a blank page.
+      - One sketch or note per box; quantity before quality.
+      - Any working language is fine; sketches count as answers.
+    accessibility: >-
+      Answers can be drawn, written, typed, or spoken to a partner who sketches. The card can be
+      read aloud. Pairs may split the nine questions between them.
+    steps:
+      - >-
+        Draw or paste the starting thing in the centre of the page. Write one line on what it is
+        for.
+      - Set a timer for three minutes per question. Work through the nine questions in order.
+      - >-
+        In each box, make one quick sketch or note that answers that question. If stuck, read the
+        sub-questions on the card.
+      - >-
+        When all nine boxes are full, star the two variants that most change how the thing works,
+        not just how it looks.
+      - Develop one starred variant into a slightly larger sketch with a one-line reason.
+    adaptation: >-
+      Osborn lists these questions as a self-questioning summary for finding alternatives. The
+      nine-box sheet, three-minute timing, and the "changes how it works" selection step are
+      professor adaptations. Later authors condensed the list into the SCAMPER acronym; this
+      datasheet uses Osborn's own wording.
+    quote:
+      chicago: (Osborn 2013, chap. 24)
+      verbatim: >-
+        Put to other uses? New ways to use as is? Other uses if modified? Adapt? What else is like
+        this? What other idea does this suggest? Does past offer parallel? What could I copy? Whom
+        could I emulate? Modify? New twist? Change meaning, color, motion, sound, odor, form, shape?
+        Other changes? Magnify? What to add? More time? Greater frequency? Stronger? Higher? Longer?
+        Thicker? Extra value? Plus ingredient? Duplicate? Multiply? Exaggerate? Minify? What to
+        subtract? Smaller? Condensed? Miniature? Lower? Shorter? Lighter? Omit? Streamline? Split
+        up? Understate? Substitute? Who else instead? What else instead? Other ingredient? Other
+        material? Other process? Other power? Other place? Other approach? Other tone of voice?
+        Rearrange? Interchange components? Other pattern? Other layout? Other sequence? Transpose
+        cause and effect? Change pace? Change schedule? Reverse? Transpose positive and negative?
+        How about opposites? Turn it backward? Turn it upside down? Reverse roles? Change shoes?
+        Turn tables? Turn other cheek? Combine? How about a blend, an alloy, an assortment, an
+        ensemble? Combine units? Combine purposes? Combine appeals? Combine ideas?
+      ref_key: osborn-2013
+    portfolio_trace: The nine-box sheet (photo); two starred variants; one developed sketch with its reason.
+    judged_by: Portfolio rubric — process transparency
+    graphic:
+      svg: /assets/images/exercise-graphics/idea-spurring-questions-ea74252f4b4e583f.svg
+      png: /assets/images/exercise-graphics/idea-spurring-questions-ea74252f4b4e583f.png
+      alt: >-
+        One existing object sits at the centre of nine question spokes; each spoke produces a
+        variant, and two variants are starred.
+      caption: >-
+        Nine questions, nine variants. Star the ones that change how the thing works, not only how
+        it looks.
+    used_in:
+      - /lessons/en/creativity-techniques/u-2-idea-generation-selection/
+      - /lessons/en/creativity-techniques/u-4-1-generate-before-you-judge/
   - id: imposing-constraints
     title: Imposing Constraints
     technique_id: constraint-writing
@@ -305,6 +631,9 @@ exercises:
       caption: >-
         A constraint narrows the field and can make new moves possible; keep or reject the result
         against the brief.
+    used_in:
+      - /lessons/en/master-lectures/conceptual-spaces-creative-change/
+      - /lessons/en/creativity-techniques/u-5-creativity-technology/
   - id: mental-locks-audit
     title: Mental locks audit
     technique_id: mental-locks-audit
@@ -356,6 +685,89 @@ exercises:
         A belief blocks a dropped idea; a temporary opposite rule opens a short test before the
         student decides what to do.
       caption: The belief is tested through making—not graded as a personal confession.
+    used_in:
+      - /lessons/en/creativity-techniques/u-6-personal-development/
+  - id: morning-pages
+    title: Morning Pages
+    technique_id: creative-journal
+    status: pilot
+    categories:
+      - urn:in-practice:concept:creative-habits
+      - urn:in-practice:concept:reflection
+      - family:reflection
+    fieldlex:
+      - ct:overcomingBlocks
+      - ct:sustainedCreativePractice
+    units:
+      - U1
+      - U6
+    summary: >-
+      Write three pages of fast, unedited longhand before you start a design task. The pages are
+      private and never assessed; their job is to empty out the inner critic so the next idea pass
+      starts with a clearer head.
+    time_min: 20
+    group: individual
+    materials:
+      - three sheets of lined or plain paper (or a notebook)
+      - pen or pencil
+      - timer
+      - an envelope or folder to keep the pages private
+    requirements:
+      - >-
+        Nobody reads the pages — not the professor, not a partner. Only the date and page count are
+        shared.
+      - Write by hand if you can; speed matters more than neatness.
+      - Run it before a generation exercise in the same session, so the effect can be noticed.
+    accessibility: >-
+      Students who cannot write longhand may type with the screen dimmed, dictate into a private
+      voice memo, or write fewer, larger pages; the rule is continuous output without rereading. Any
+      language is fine. Students may opt out of the in-class pass and do it at home instead.
+    steps:
+      - Set a timer for fifteen minutes and write the date at the top of page one.
+      - >-
+        Write without stopping until you fill three pages. If nothing comes, write "nothing comes"
+        until something does.
+      - >-
+        When the critic starts commenting ("this is boring", "you can't spell"), write the comment
+        down and keep going.
+      - Do not reread. Fold the pages and put them away.
+      - >-
+        Start the next exercise straight away. Afterwards, note in one line whether the first ideas
+        came faster or slower than usual.
+    adaptation: >-
+      Cameron's tool is a daily, at-home practice done first thing in the morning; this classroom
+      version is one fifteen-minute pass at the start of a studio session, done as a warm-up before
+      idea generation. Repeating it at home for a week is optional homework. Timing, the opt-out,
+      and the one-line note are professor adaptations. The three-pages, longhand, do-not-reread
+      rules follow Cameron's workbook instructions; the quoted warrant is from The Artist's Way.
+    quote:
+      chicago: (Cameron 2002, “The Basic Tools”)
+      verbatim: >-
+        The morning pages are the primary tool of creative recovery. As blocked artists, we tend to
+        criticize ourselves mercilessly. Even if we look like functioning artists to the world, we
+        feel we never do enough and what we do isn't right. We are victims of our own internalized
+        perfectionist, a nasty internal and eternal critic, the Censor, who resides in our (left)
+        brain and keeps up a constant stream of subversive remarks that are often disguised as the
+        truth. […] Make this a rule: always remember that your Censor's negative opinions are not
+        the truth. This takes practice. By spilling out of bed and straight onto the page every
+        morning, you learn to evade the Censor. Because there is no wrong way to write the morning
+        pages, the Censor's opinion doesn't count. Let your Censor rattle on. (And it will.) Just
+        keep your hand moving across the page.
+      ref_key: cameron-2002
+    portfolio_trace: Date and page count only (the pages stay private); one line on how the next idea pass felt.
+    judged_by: Portfolio rubric — process transparency (habit evidence, not content)
+    graphic:
+      svg: /assets/images/exercise-graphics/morning-pages-37a07fa00974106e.svg
+      png: /assets/images/exercise-graphics/morning-pages-37a07fa00974106e.png
+      alt: >-
+        Three pages of continuous handwriting drain the critic's comments into the margin, leaving a
+        clear start for the next idea pass.
+      caption: >-
+        Keep the hand moving for three pages; the critic's comments go onto the page instead of into
+        the next design move.
+    used_in:
+      - /lessons/en/creativity-techniques/u-1-introduction-creativity/
+      - /lessons/en/creativity-techniques/u-6-personal-development/
   - id: one-inch-picture-frame
     title: One-inch picture frame
     technique_id: entry-point-attention-area
@@ -420,6 +832,86 @@ exercises:
       caption: >-
         Frame one observable moment. What is outside it becomes a useful question for the next
         design move.
+    used_in:
+      - /lessons/en/creativity-techniques/u-3-development-solutions/
+  - id: parallel-prototyping
+    title: Parallel Prototyping
+    technique_id: parallel-prototyping
+    status: pilot
+    categories:
+      - urn:in-practice:concept:prototyping
+      - family:development
+    fieldlex:
+      - ct:prototyping
+      - ct:divergentConvergentRhythm
+    units:
+      - U3
+      - U5
+    summary: >-
+      Make three quick prototypes side by side before anyone gives feedback, then two more, then a
+      final. In the source study, designers who worked this way produced better and more varied
+      results, and felt more confident, than designers who refined one prototype at a time.
+    time_min: 70
+    group: individual makers, with a peer giving feedback
+    materials:
+      - one short brief (poster, banner, screen, label, or similar)
+      - paper or a simple design tool
+      - timer
+      - feedback cards (one line of description per prototype, no ranking)
+    requirements:
+      - Prototypes must be rough — about ten minutes each.
+      - Feedback describes what a prototype does; it does not say which one is best.
+      - Keep every prototype, numbered in the order made.
+    accessibility: >-
+      Any medium is valid (paper, slides, Figma, cardboard). Feedback may be written on cards
+      instead of spoken. The session can be split across two classes: three prototypes and feedback
+      in one, the rest in the next.
+    steps:
+      - >-
+        Read the brief. Set a timer and make three different prototypes, about ten minutes each. Do
+        not stop to polish.
+      - >-
+        Swap with a peer. They write one descriptive feedback line on each of the three (about five
+        minutes).
+      - Make two more prototypes (ten minutes each), using what you learned from all three.
+      - Get one feedback line on each of the two new ones.
+      - Make a final version (fifteen minutes). It may combine parts of any earlier prototype.
+      - >-
+        Lay all six side by side. Write which earlier prototype the final borrows from, and what you
+        would have missed with only one.
+    adaptation: >-
+      Dow and colleagues ran this structure as a controlled experiment with web banner ads and an
+      expert's scripted critique. This classroom version keeps their timings and the 3 → feedback →
+      2 → feedback → final structure; peer feedback cards replace the expert critique, and the
+      side-by-side reflection is a professor addition.
+    quote:
+      chicago: (Dow et al. 2010, 18:5)
+      verbatim: >-
+        The experiment employed a between-subjects design with one independent variable: the
+        structure of the prototyping process. The study held constant the number of prototypes
+        created, the amount of feedback provided, and the overall time allotted. In the parallel
+        condition, participants created 3 prototypes and got feedback, then made 2 more and got more
+        feedback, and then made a final version. In the serial condition, participants created 5
+        prototypes in a series, received feedback after each prototype, then made a final version.
+        Parallel participants were instructed to start subsequent prototypes at the same intervals
+        as serial participants.
+      ref_key: dow-2010
+    portfolio_trace: >-
+      Six numbered prototypes (photos); the five feedback lines; one paragraph tracing what the
+      final borrows.
+    judged_by: Portfolio rubric — process transparency; critical analysis and judgement
+    graphic:
+      svg: /assets/images/exercise-graphics/parallel-prototyping-5d4388ad4707e1c1.svg
+      png: /assets/images/exercise-graphics/parallel-prototyping-5d4388ad4707e1c1.png
+      alt: >-
+        Three prototypes are made side by side, receive feedback together, then two more are made,
+        then one final that draws on all of them.
+      caption: >-
+        Make several before you hear feedback. Comparing options side by side keeps you from
+        polishing the first idea too early.
+    used_in:
+      - /lessons/en/creativity-techniques/u-3-development-solutions/
+      - /lessons/en/creativity-techniques/u-5-creativity-technology/
   - id: process-trail
     title: Process trail
     technique_id: process-trail
@@ -474,6 +966,90 @@ exercises:
       caption: >-
         The trail makes the process legible: keep discarded options and mark the moment judgment
         changed direction.
+    used_in:
+      - /lessons/en/master-lectures/who-creates-edison/
+      - /lessons/en/creativity-techniques/u-5-creativity-technology/
+  - id: pure-contour-drawing
+    title: Pure Contour Drawing
+    technique_id: pure-contour-drawing
+    status: pilot
+    categories:
+      - urn:in-practice:concept:observation
+      - family:embodied
+    fieldlex:
+      - ct:sketchingAsThinking
+      - ct:mentalBlock
+    units:
+      - U1
+      - U4
+    summary: >-
+      Draw the creases of your own palm for five minutes without looking at the paper. The drawing
+      will not look like a hand; that is the point. It trains slow, exact looking and switches off
+      the habit of drawing what you think things look like.
+    time_min: 15
+    group: individual, then pairs to compare
+    materials:
+      - one sheet of paper, taped to the table
+      - pencil or fine pen
+      - timer
+    requirements:
+      - No drawing skill needed; results are not judged on likeness.
+      - Tape the paper down before you start so it does not move.
+      - Keep this pass separate from project work; it is a perception warm-up.
+    accessibility: >-
+      Any complex object can replace the palm (crumpled paper, a leaf, a key) if holding the hand
+      still is uncomfortable. Students may sit any way that lets them face away from the paper. A
+      tablet with the screen covered works too. Low-vision students can trace a textured object by
+      touch.
+    steps:
+      - >-
+        Tape the paper down. Hold the pencil on it, then turn your body so you face away from the
+        paper.
+      - >-
+        Set a timer for five minutes. Rest your other hand somewhere stable and look at the creases
+        in your palm.
+      - >-
+        Pick one crease. Move your eyes along it very slowly and let the pencil move at exactly the
+        same speed.
+      - >-
+        When the crease meets another line, follow the new line. Do not look at the paper until the
+        timer ends.
+      - >-
+        Look at the drawing. With a partner, name one detail you saw that you would normally never
+        notice.
+      - Write one sentence on how your attention changed between minute one and minute five.
+    adaptation: >-
+      Edwards demonstrates the method and gives it to drawing students as a single five-minute
+      exercise. This classroom version keeps her five-minute timer, the palm subject, and the
+      no-peeking rule; the partner comparison and the one-sentence attention note are professor
+      additions that turn the drawing into evidence for the portfolio.
+    quote:
+      chicago: (Edwards 1999, 90)
+      verbatim: >-
+        Gaze at a single wrinkle in your palm. Place your pencil on the paper and begin to draw just
+        that edge. As your eyes track the direction of the edge very slowly, one millimeter at a
+        time, your pencil will record your perceptions. If the edge changes direction, so does your
+        pencil. If the edge intersects with another edge, follow that new information slowly with
+        your eyes, while your pencil simultaneously records every detail. An important point: Your
+        pencil can record only what you see-nothing more, nothing less-at the moment of seeing. Your
+        hand and pencil function like a seismograph, responding only to your actual perceptions.
+      ref_key: edwards-1999
+    portfolio_trace: >-
+      The contour drawing (photo or scan); one detail you noticed; one sentence on how attention
+      changed.
+    judged_by: Portfolio rubric — process transparency
+    graphic:
+      svg: /assets/images/exercise-graphics/pure-contour-drawing-382312b619b792fc.svg
+      png: /assets/images/exercise-graphics/pure-contour-drawing-382312b619b792fc.png
+      alt: >-
+        The eye follows one crease of the palm while the pencil, out of sight, records the same line
+        slowly like a seismograph trace.
+      caption: >-
+        Eye and pencil move at the same slow speed; the drawing records what you saw, not what a
+        hand is supposed to look like.
+    used_in:
+      - /lessons/en/creativity-techniques/u-1-introduction-creativity/
+      - /lessons/en/creativity-techniques/u-4-2-select-with-care/
   - id: question-led-rough-prototype
     title: Question-led rough prototype
     technique_id: question-led-prototype
@@ -534,6 +1110,9 @@ exercises:
       caption: >-
         Build only enough to answer the question; let the test response—not polish—set the next
         move.
+    used_in:
+      - /lessons/en/creativity-techniques/u-3-development-solutions/
+      - /lessons/en/creativity-techniques/u-5-creativity-technology/
   - id: random-word-stimulation
     title: Random word stimulation
     technique_id: random-word
@@ -592,6 +1171,8 @@ exercises:
         One random word branches into three links to the brief; one link becomes a design move while
         the others remain visible.
       caption: Keep the associative path visible so the lateral jump can be explained and revisited.
+    used_in:
+      - /lessons/en/creativity-techniques/u-2-idea-generation-selection/
   - id: reflection-in-action-log
     title: Reflection-in-action log
     technique_id: reflection-in-action-log
@@ -646,6 +1227,8 @@ exercises:
       caption: >-
         Reflection happens during the work: notice its response, change a move, and see what the new
         move makes possible.
+    used_in:
+      - /lessons/en/creativity-techniques/u-6-personal-development/
   - id: seed-collection
     title: Seed collection
     technique_id: seed-collection
@@ -702,6 +1285,8 @@ exercises:
         Several unranked starting points are gathered, three are developed in different directions,
         and one is kept with a reason.
       caption: 'Delay ranking: collect broadly, develop a few seeds, then choose what has grown and why.'
+    used_in:
+      - /lessons/en/creativity-techniques/u-4-2-select-with-care/
   - id: visitor-journey-walkthrough
     title: Visitor Journey Walkthrough
     technique_id: contextual-observation
@@ -763,3 +1348,78 @@ exercises:
       caption: >-
         Choose against what the walkthrough revealed, not against taste; keep the unresolved
         question visible.
+    used_in:
+      - /lessons/en/creativity-techniques/u-4-2-select-with-care/
+  - id: yes-and
+    title: Yes, And
+    technique_id: improv-yes-and
+    status: pilot
+    categories:
+      - urn:in-practice:concept:association
+      - family:embodied
+    fieldlex:
+      - ct:groupDynamics
+      - ct:teamCommunication
+    units:
+      - U2
+      - U4
+    summary: >-
+      Build one idea as a group by answering every offer with "Yes, and…". Then run the same round
+      with "Yes, but…" and compare what happened to the idea and to the group.
+    time_min: 25
+    group: 4–6 in a circle
+    materials:
+      - one opening prompt (for example "a library for people who hate reading")
+      - a scribe with paper or a shared board
+      - timer
+    requirements:
+      - Listen to the whole offer before you add; you must build on the last thing said.
+      - Everyone speaks at least once per round.
+      - Keep the topic light for the first round so the rule, not the content, is the focus.
+    accessibility: >-
+      Offers can be spoken, written on cards passed around the circle, or typed into a shared chat.
+      Students can sit or stand. A student who prefers not to speak may act as scribe and add in
+      writing.
+    steps:
+      - >-
+        Round one (eight minutes). The first person states the prompt as an idea. Each next person
+        says "Yes, and…" and adds one detail that builds on the previous one.
+      - The scribe writes each addition as a chain.
+      - >-
+        Round two (five minutes). Same prompt, but each person answers "Yes, but…" and names a
+        problem before adding.
+      - Compare the two chains. Count the additions. Mark where the idea grew and where it stalled.
+      - Pick one surprising addition from round one and sketch it in two minutes.
+    adaptation: >-
+      Nixon presents "Yes, and" as a basic rule of improvisation and argues for its use at work. The
+      two-round comparison, timings, scribe role, and closing sketch are professor adaptations. The
+      "Yes, but" round is a contrast, not a recommendation; critique returns later in a separate
+      selection step.
+    quote:
+      chicago: (Nixon 2020, chap. 4)
+      verbatim: >-
+        Being hyperpresent. One of the basic rules in improvisation is "Yes, and . . ." It is about
+        agreement and building on a concept. It prevents the breakdown of momentum that comes from a
+        "Yes, but . . ." or, even worse, straight-out "No" response. In order to build on the idea
+        that someone has just offered to you, it is required that you engage in deep, intentional
+        listening. It is an exercise in selflessness and generosity to give someone else your rapt
+        attention and then amplify their idea, rather than wait for them to shut up so that you can
+        focus on your own. Imagine if this principle were actively employed in our work
+        environments. Think of the more energizing exchange of ideas we would have.
+      ref_key: nixon-2020
+    portfolio_trace: >-
+      Both chains (photo or text); addition counts; one sentence on where the idea stalled; the
+      two-minute sketch.
+    judged_by: Portfolio rubric — process transparency
+    graphic:
+      svg: /assets/images/exercise-graphics/yes-and-23ba4dcedb4e8316.svg
+      png: /assets/images/exercise-graphics/yes-and-23ba4dcedb4e8316.png
+      alt: >-
+        A chain of offers grows as each person adds with "yes, and", while a "yes, but" branch
+        stalls after a few links.
+      caption: >-
+        Each "yes, and" builds on the last offer. Compare how far the idea travels when every turn
+        starts with "but".
+    used_in:
+      - /lessons/en/creativity-techniques/u-2-idea-generation-selection/
+      - /lessons/en/creativity-techniques/u-4-1-generate-before-you-judge/

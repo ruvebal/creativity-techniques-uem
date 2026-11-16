@@ -1,0 +1,68 @@
+id: yes-and
+title: Yes, And
+technique_id: improv-yes-and
+status: pilot
+categories:
+- urn:in-practice:concept:association
+- family:embodied
+fieldlex:
+- ct:groupDynamics
+- ct:teamCommunication
+units:
+- U2
+- U4
+summary: >-
+  Build one idea as a group by answering every offer with "Yes, and…". Then run the same round
+  with "Yes, but…" and compare what happened to the idea and to the group.
+time_min: 25
+group: 4–6 in a circle
+materials:
+- one opening prompt (for example "a library for people who hate reading")
+- a scribe with paper or a shared board
+- timer
+requirements:
+- Listen to the whole offer before you add; you must build on the last thing said.
+- Everyone speaks at least once per round.
+- Keep the topic light for the first round so the rule, not the content, is the focus.
+accessibility: >-
+  Offers can be spoken, written on cards passed around the circle, or typed into a shared chat.
+  Students can sit or stand. A student who prefers not to speak may act as scribe and add in writing.
+steps:
+- Round one (eight minutes). The first person states the prompt as an idea. Each next person says "Yes, and…" and adds one detail that builds on the previous one.
+- The scribe writes each addition as a chain.
+- Round two (five minutes). Same prompt, but each person answers "Yes, but…" and names a problem before adding.
+- Compare the two chains. Count the additions. Mark where the idea grew and where it stalled.
+- Pick one surprising addition from round one and sketch it in two minutes.
+adaptation: >-
+  Nixon presents "Yes, and" as a basic rule of improvisation and argues for its use at work. The
+  two-round comparison, timings, scribe role, and closing sketch are professor adaptations. The
+  "Yes, but" round is a contrast, not a recommendation; critique returns later in a separate
+  selection step.
+quote:
+  chicago: (Nixon 2020, chap. 4)
+  verbatim: >-
+    Being hyperpresent. One of the basic rules in improvisation is "Yes, and . . ." It is about
+    agreement and building on a concept. It prevents the breakdown of momentum that comes from a "Yes,
+    but . . ." or, even worse, straight-out "No" response. In order to build on the idea that someone
+    has just offered to you, it is required that you engage in deep, intentional listening. It is an
+    exercise in selflessness and generosity to give someone else your rapt attention and then amplify
+    their idea, rather than wait for them to shut up so that you can focus on your own. Imagine if
+    this principle were actively employed in our work environments. Think of the more energizing
+    exchange of ideas we would have.
+  ref_key: nixon-2020
+portfolio_trace: >-
+  Both chains (photo or text); addition counts; one sentence on where the idea stalled; the two-minute sketch.
+judged_by: Portfolio rubric — process transparency
+graphic:
+  kind: yes-and-chain
+  alt: A chain of offers grows as each person adds with "yes, and", while a "yes, but" branch stalls after a few links.
+  caption: Each "yes, and" builds on the last offer. Compare how far the idea travels when every turn starts with "but".
+  labels: [Opening offer, Yes and, Yes and, Yes and, Grown idea, Yes but, Stalled]
+ahmes:
+  document_coat: 7d5e2587
+  vault_slug: natalie_nixon_the_creativity_leap_unleash_curiosity_improvisation_and_intuition_at_work_2020_berrett_koehler_publishers_7d5e2587
+  nodes:
+  - node_id: 634445a8-34d5-5a9c-9970-63e12ab4fca6
+    page_index: 12
+    chicago: (Nixon 2020, chap. 4) — EPUB chapter 4 "Improvise"; resolver pdf_order gives 13
+    role: quote

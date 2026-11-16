@@ -1,0 +1,84 @@
+id: morning-pages
+title: Morning Pages
+urn: urn:in-practice:exercise:f71fc2a59e33b08ef788b175
+technique_id: creative-journal
+status: pilot
+categories:
+- urn:in-practice:concept:creative-habits
+- urn:in-practice:concept:reflection
+- family:reflection
+fieldlex:
+- ct:overcomingBlocks
+- ct:sustainedCreativePractice
+units:
+- U1
+- U6
+summary: >-
+  Write three pages of fast, unedited longhand before you start a design task. The pages are
+  private and never assessed; their job is to empty out the inner critic so the next idea pass
+  starts with a clearer head.
+time_min: 20
+group: individual
+materials:
+- three sheets of lined or plain paper (or a notebook)
+- pen or pencil
+- timer
+- an envelope or folder to keep the pages private
+requirements:
+- Nobody reads the pages — not the professor, not a partner. Only the date and page count are shared.
+- Write by hand if you can; speed matters more than neatness.
+- Run it before a generation exercise in the same session, so the effect can be noticed.
+accessibility: >-
+  Students who cannot write longhand may type with the screen dimmed, dictate into a private
+  voice memo, or write fewer, larger pages; the rule is continuous output without rereading.
+  Any language is fine. Students may opt out of the in-class pass and do it at home instead.
+steps:
+- Set a timer for fifteen minutes and write the date at the top of page one.
+- Write without stopping until you fill three pages. If nothing comes, write "nothing comes" until something does.
+- When the critic starts commenting ("this is boring", "you can't spell"), write the comment down and keep going.
+- Do not reread. Fold the pages and put them away.
+- Start the next exercise straight away. Afterwards, note in one line whether the first ideas came faster or slower than usual.
+adaptation: >-
+  Cameron's tool is a daily, at-home practice done first thing in the morning; this classroom
+  version is one fifteen-minute pass at the start of a studio session, done as a warm-up before
+  idea generation. Repeating it at home for a week is optional homework. Timing, the opt-out, and
+  the one-line note are professor adaptations. The three-pages, longhand, do-not-reread rules
+  follow Cameron's workbook instructions; the quoted warrant is from The Artist's Way.
+quote:
+  chicago: (Cameron 2002, “The Basic Tools”)
+  verbatim: >-
+    The morning pages are the primary tool of creative recovery. As blocked artists, we tend to
+    criticize ourselves mercilessly. Even if we look like functioning artists to the world, we feel
+    we never do enough and what we do isn't right. We are victims of our own internalized
+    perfectionist, a nasty internal and eternal critic, the Censor, who resides in our (left) brain
+    and keeps up a constant stream of subversive remarks that are often disguised as the truth. […]
+    Make this a rule: always remember that your Censor's negative opinions are not the truth. This
+    takes practice. By spilling out of bed and straight onto the page every morning, you learn to
+    evade the Censor. Because there is no wrong way to write the morning pages, the Censor's opinion
+    doesn't count. Let your Censor rattle on. (And it will.) Just keep your hand moving across the
+    page.
+  ref_key: cameron-2002
+portfolio_trace: >-
+  Date and page count only (the pages stay private); one line on how the next idea pass felt.
+judged_by: Portfolio rubric — process transparency (habit evidence, not content)
+graphic:
+  kind: pages-drain
+  alt: Three pages of continuous handwriting drain the critic's comments into the margin, leaving a clear start for the next idea pass.
+  caption: Keep the hand moving for three pages; the critic's comments go onto the page instead of into the next design move.
+  labels: [Three pages, Critic's comments, Keep the hand moving, Clear start]
+ahmes:
+  document_coat: 5ad308ce
+  vault_slug: cameron_julia_the_artist_s_way_penguin_usa_inc_5ad308ce
+  nodes:
+  - node_id: 884f2853-7441-5033-8192-78b6af591717
+    page_index: 50
+    chicago: (Cameron 2002, “The Basic Tools”) — calibre PDF of the 2002 Tarcher/Putnam ed.; resolver gives (Cameron 2010, 51) pdf_order
+    role: quote
+  - node_id: 41530faa-9466-523b-a469-8a3724303481
+    page_index: 50
+    chicago: (Cameron 2002, “The Basic Tools”)
+    role: quote
+  - node_id: b1aa295c-efb8-5f46-b800-bb2106332646
+    page_index: 10
+    chicago: (Cameron 2020, 11) — workbook coat 11291d2c; procedure rules
+    role: support

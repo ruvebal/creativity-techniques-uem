@@ -1,0 +1,109 @@
+id: idea-spurring-questions
+title: Idea-Spurring Questions
+urn: urn:in-practice:exercise:3c24dc439024ddcc67b34bcb
+technique_id: scamper
+status: pilot
+categories:
+- urn:in-practice:concept:divergent-thinking
+- family:generation
+fieldlex:
+- ct:ideaProduction
+- ct:creativeProblemSolving
+units:
+- U2
+- U4
+summary: >-
+  Take one existing object, layout, or service and run it through Osborn's nine questions: other
+  uses, adapt, modify, magnify, minify, substitute, rearrange, reverse, combine. One quick sketch
+  per question gives nine variants to choose from. (This checklist is the source of the later
+  SCAMPER acronym.)
+time_min: 35
+group: individual or pairs
+materials:
+- one existing thing to change (product, poster, screen, room, service step)
+- a sheet folded into nine boxes, or a nine-frame digital board
+- the nine questions printed on a card
+- timer
+requirements:
+- Start from something that already exists; the questions work on a concrete starting point, not a blank page.
+- One sketch or note per box; quantity before quality.
+- Any working language is fine; sketches count as answers.
+accessibility: >-
+  Answers can be drawn, written, typed, or spoken to a partner who sketches. The card can be read
+  aloud. Pairs may split the nine questions between them.
+steps:
+- Draw or paste the starting thing in the centre of the page. Write one line on what it is for.
+- Set a timer for three minutes per question. Work through the nine questions in order.
+- In each box, make one quick sketch or note that answers that question. If stuck, read the sub-questions on the card.
+- When all nine boxes are full, star the two variants that most change how the thing works, not just how it looks.
+- Develop one starred variant into a slightly larger sketch with a one-line reason.
+adaptation: >-
+  Osborn lists these questions as a self-questioning summary for finding alternatives. The
+  nine-box sheet, three-minute timing, and the "changes how it works" selection step are professor
+  adaptations. Later authors condensed the list into the SCAMPER acronym; this datasheet uses
+  Osborn's own wording.
+quote:
+  chicago: (Osborn 2013, chap. 24)
+  verbatim: >-
+    Put to other uses? New ways to use as is? Other uses if modified? Adapt? What else is like this?
+    What other idea does this suggest? Does past offer parallel? What could I copy? Whom could I
+    emulate? Modify? New twist? Change meaning, color, motion, sound, odor, form, shape? Other
+    changes? Magnify? What to add? More time? Greater frequency? Stronger? Higher? Longer? Thicker?
+    Extra value? Plus ingredient? Duplicate? Multiply? Exaggerate? Minify? What to subtract? Smaller?
+    Condensed? Miniature? Lower? Shorter? Lighter? Omit? Streamline? Split up? Understate?
+    Substitute? Who else instead? What else instead? Other ingredient? Other material? Other process?
+    Other power? Other place? Other approach? Other tone of voice? Rearrange? Interchange components?
+    Other pattern? Other layout? Other sequence? Transpose cause and effect? Change pace? Change
+    schedule? Reverse? Transpose positive and negative? How about opposites? Turn it backward? Turn it
+    upside down? Reverse roles? Change shoes? Turn tables? Turn other cheek? Combine? How about a
+    blend, an alloy, an assortment, an ensemble? Combine units? Combine purposes? Combine appeals?
+    Combine ideas?
+  ref_key: osborn-2013
+portfolio_trace: >-
+  The nine-box sheet (photo); two starred variants; one developed sketch with its reason.
+judged_by: Portfolio rubric — process transparency
+graphic:
+  kind: question-wheel
+  alt: One existing object sits at the centre of nine question spokes; each spoke produces a variant, and two variants are starred.
+  caption: Nine questions, nine variants. Star the ones that change how the thing works, not only how it looks.
+  labels: [Existing thing, Other uses, Adapt, Modify, Magnify, Minify, Substitute, Rearrange, Reverse, Combine, Two starred]
+ahmes:
+  document_coat: 18074cd0
+  vault_slug: alex_osborn_applied_imagination_principles_and_procedures_of_creative_writing_2013_read_books_ltd_18074cd0
+  nodes:
+  - node_id: 5e809ca9-cff0-5e21-8023-66309b74aca7
+    page_index: 28
+    chicago: (Osborn 2013, chap. 24) — EPUB chapter XXIV summary; resolver pdf_order gives 29
+    role: quote
+  - node_id: 3aaba6a8-6733-512f-9911-4de753d93c17
+    page_index: 28
+    chicago: (Osborn 2013, chap. 24)
+    role: quote
+  - node_id: abb128ee-616b-558f-9971-b13cd9909734
+    page_index: 28
+    chicago: (Osborn 2013, chap. 24)
+    role: quote
+  - node_id: c3b0e414-c8e7-5889-af2f-6e5d5002d547
+    page_index: 28
+    chicago: (Osborn 2013, chap. 24)
+    role: quote
+  - node_id: ca81d416-ad5a-561f-bbff-c290031d0807
+    page_index: 28
+    chicago: (Osborn 2013, chap. 24)
+    role: quote
+  - node_id: 5a7d0f03-aad4-5767-821c-c5ab146d8178
+    page_index: 28
+    chicago: (Osborn 2013, chap. 24)
+    role: quote
+  - node_id: e622e08d-5004-5ef8-a024-3ef9739e4a2d
+    page_index: 28
+    chicago: (Osborn 2013, chap. 24)
+    role: quote
+  - node_id: 20bbc2df-d3ae-579d-8086-14f846145ca1
+    page_index: 28
+    chicago: (Osborn 2013, chap. 24)
+    role: quote
+  - node_id: 956e2b5d-062e-55cd-8b2d-a9792a0e173b
+    page_index: 28
+    chicago: (Osborn 2013, chap. 24)
+    role: quote

@@ -119,6 +119,8 @@ Practises generation from visual prompts; building on a teammate’s connection;
 
 **Try it:** [Ask a Crab — picture diverge]({{ '/exercises/en/ask-a-crab/' | relative_url }})
 
+**Also useful:** [Idea-Spurring Questions]({{ '/exercises/en/idea-spurring-questions/' | relative_url }}) to push a picture-led idea through nine changes before selection; [Yes, And]({{ '/exercises/en/yes-and/' | relative_url }}) to build on a teammate's connection without judging it.
+
 **Judged by:** whether the portfolio trace shows a clear link from brief to picture to idea, whether additions are recorded, and whether the team keeps generation separate from selection.
 
 ## Workshop

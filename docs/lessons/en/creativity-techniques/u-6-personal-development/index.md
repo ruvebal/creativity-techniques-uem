@@ -149,6 +149,8 @@ Practises Masterclass ideas **4** (blocks) and **6** (autonomy/accountability).
 
 **Try it:** [Mental locks audit]({{ '/exercises/en/mental-locks-audit/' | relative_url }})
 
+**Also useful:** [Morning Pages]({{ '/exercises/en/morning-pages/' | relative_url }}) — a week of private pages as a habit experiment; [Consider the Negative]({{ '/exercises/en/consider-the-negative/' | relative_url }}) — when the locked belief is a rule of the style itself.
+
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
 LAB_EXERCISE_SELECTION:

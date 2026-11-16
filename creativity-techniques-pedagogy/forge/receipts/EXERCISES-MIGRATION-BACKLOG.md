@@ -4,7 +4,7 @@
 
 **Harness:** `~/src/.cursor/skills/exercises-forger/SKILL.md` · `npm run hydrate:exercises` (emits `.html` — Liquid only; avoids kramdown mangling field-index markup).
 
-## Live catalogue (12)
+## Live catalogue (21 — 12 + 8 from 2026-11-16, see `EXERCISES-NEW-MONOGRAPHS-2026-11-16.md`; table lists the original 12)
 
 | ex-id | Units | Notes |
 | --- | --- | --- |
@@ -38,7 +38,7 @@
 | Candidate | Why | Target lesson |
 | --- | --- | --- |
 | 6-3-5 brainwriting | U2 Ex1 still long in lesson | U2 |
-| Parallel prototyping (three entry points) | U3 Ex1 | U3 |
+| ~~Parallel prototyping~~ | datasheet `parallel-prototyping` exists (2026-11-16); U3 Ex1 still to link | U3 |
 | Cut-up + readymade | U1 Ex2 | U1 |
 
 ## Link pattern (student HTML)

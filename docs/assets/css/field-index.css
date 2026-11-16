@@ -576,6 +576,17 @@
 	background: color-mix(in oklab, var(--ct-flame-2), transparent 55%);
 }
 
+/* Ready = class-tested; WIP (pilot) keeps the flame tint above. */
+.field-card__status--ready {
+	color: #1f5f53;
+	background: color-mix(in oklab, #287668, transparent 82%);
+}
+
+.dark .field-card__status--ready {
+	color: #bfe3d8;
+	background: color-mix(in oklab, #287668, transparent 50%);
+}
+
 .field-card__meta {
 	margin: 0;
 	font-size: 0.78rem;

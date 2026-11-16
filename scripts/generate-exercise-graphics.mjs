@@ -150,6 +150,88 @@ function draw(ex) {
 			s += `${line(820,305,890,305,C.coral,3)}${card(895,180,245,110,at(1,'Observed moment'),'',C.coralWash,C.coral)}${card(895,322,245,110,at(2,'Prior idea'),'',C.white,C.teal)}${line(1018,435,1018,468,C.teal,3)}${pill(880,478,270,at(3,'Evidence + criterion'),C.tealWash,C.teal)}`;
 			break;
 		}
+		case 'pages-drain': {
+			[[90,190],[112,174],[134,158]].forEach(([x,y],i)=>{ s += rect(x,y,230,320,i===2?C.white:C.paper,C.faint,10); });
+			for(let y=205;y<=440;y+=29) s += `<path d="M158 ${y} q15 -9 30 0 t30 0 t30 0 t30 0 t30 0 t30 0" fill="none" stroke="${C.ink}" stroke-width="2.5" stroke-linecap="round" opacity="0.72"/>`;
+			s += `${label(250,528,at(0,'Three pages'),{size:22})}${label(250,566,at(2,'Keep the hand moving'),{size:19,color:C.teal,weight:400})}`;
+			s += `${label(560,152,at(1,"Critic's comments"),{size:22,color:C.coral})}${rect(445,178,230,300,'none',C.coral,18)}`;
+			[[490,226],[530,316],[488,406]].forEach(([x,y],i)=>{ s += curve(`M372 ${250+i*80} C410 ${250+i*80} 420 ${y} ${x-6} ${y}`,C.coral,2.5,'7 7'); s += `${rect(x,y-24,140,48,C.coralWash,'none',24)}<path d="M${x+22} ${y} q12 -10 24 0 t24 0 t24 0 t24 0" fill="none" stroke="${C.coral}" stroke-width="3" stroke-linecap="round"/>`; });
+			s += `${label(560,510,'Written down, not obeyed',{size:18,color:C.mute,weight:400})}${line(700,330,830,330,C.teal,4)}${card(842,268,300,124,at(3,'Clear start'),'Next idea pass',C.tealWash,C.teal)}`;
+			break;
+		}
+		case 'seismograph': {
+			s += `${label(245,160,at(0,'Look at one edge'),{size:22})}${rect(80,188,330,300,C.coralWash,C.faint,140)}`;
+			s += `<path d="M130 290 C190 250 260 300 330 262" fill="none" stroke="${C.mute}" stroke-width="3" stroke-linecap="round" opacity="0.55"/><path d="M140 420 C210 380 280 440 360 400" fill="none" stroke="${C.mute}" stroke-width="3" stroke-linecap="round" opacity="0.55"/>`;
+			s += `<path d="M120 352 C170 322 205 372 250 340 C290 312 320 368 372 338" fill="none" stroke="${C.teal}" stroke-width="7" stroke-linecap="round"/>`;
+			s += `<path d="M600 140 V520" stroke="${C.coral}" stroke-width="4" stroke-dasharray="12 10"/>${label(600,560,at(2,'No looking'),{size:21,color:C.coral})}`;
+			s += `${circle(600,330,34,C.white,C.coral,3)}<path d="M600 330 V308 M600 330 L617 340" stroke="${C.coral}" stroke-width="3" stroke-linecap="round"/>${rect(570,382,60,30,C.paper,'none',6)}${label(600,404,'5 min',{size:18,color:C.coral,weight:400})}`;
+			s += curve('M380 330 C470 240 520 240 560 262',C.teal,3,'8 8');
+			s += `${label(955,160,at(1,'Pencil records'),{size:22})}${rect(790,188,330,300,C.white,C.faint,10)}`;
+			s += `<path d="M820 352 l18 -14 l14 10 l16 -22 l12 30 l18 -26 l14 18 l16 -8 l18 20 l14 -30 l18 22 l16 -12 l20 16 l14 -20 l18 14 l16 -6 l20 10" fill="none" stroke="${C.teal}" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>`;
+			s += curve('M640 262 C690 240 730 270 780 320',C.teal,3,'8 8')+pill(830,510,250,at(3,'Record of seeing'),C.tealWash,C.teal);
+			break;
+		}
+		case 'three-drafts': {
+			const xs=[70,445,820];
+			xs.forEach((x,i)=>{ s += `${label(x+155,160,at(i,['Down draft','Up draft','Dental draft'][i]),{size:24,color:i===0?C.coral:C.ink})}${rect(x,190,310,290,i===0?C.coralWash:C.white,i===0?C.coral:C.faint,16)}${label(x+155,520,at(i+3,['Get it down','Fix it up','Check every tooth'][i]),{size:19,color:C.mute,weight:400})}`; });
+			const scrib=['M100 240 C150 210 190 290 250 250 S330 220 350 270','M95 300 C160 340 200 270 260 320 S320 350 345 300','M110 370 C140 330 210 420 260 380 S330 360 340 420','M100 440 C170 410 230 460 300 430'];
+			scrib.forEach(d=>{ s += `<path d="${d}" fill="none" stroke="${C.coral}" stroke-width="3" stroke-linecap="round" opacity="0.8"/>`; });
+			s += pathStar(300,384,C.gold);
+			for(let i=0;i<6;i++){ const y=235+i*38; s += `<path d="M480 ${y} H${700-(i%3)*45}" stroke="${C.ink}" stroke-width="6" stroke-linecap="round" opacity="${i===2?0.95:0.55}"/>`; s += `<path d="M855 ${y} H${1035-(i%3)*45}" stroke="${C.ink}" stroke-width="6" stroke-linecap="round" opacity="0.55"/>`; const mark=i===1?C.coral:C.teal; s += i===4?`<path d="M1080 ${y-9} l14 14 M1094 ${y-9} l-14 14" stroke="${C.coral}" stroke-width="4" stroke-linecap="round"/>`:`<path d="M1078 ${y} l7 8 l14 -16" fill="none" stroke="${mark}" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>`; }
+			s += `${curve('M318 384 C380 384 400 320 470 316',C.gold,3,'8 8')}${line(762,335,808,335,C.teal,4)}`;
+			break;
+		}
+		case 'four-rules': {
+			s += `${circle(330,350,74,C.coralWash,C.coral,4)}${circle(330,350,40,C.white,C.coral,3)}${circle(330,350,12,C.coral,C.coral,0)}${label(330,456,at(0,'Specific problem'),{size:19,color:C.coral})}`;
+			s += `${pill(60,170,230,at(1,'No criticism'))}${pill(370,170,230,at(2,'Wild welcome'))}${pill(60,500,230,at(3,'Quantity'))}${pill(370,500,250,at(4,'Combine + improve'))}`;
+			s += `${line(410,350,520,350,C.teal,4)}`;
+			for(let r=0;r<4;r++) for(let c=0;c<4;c++){ const x=540+c*58, y=245+r*58; s += rect(x,y,44,40,(r+c)%3===0?C.goldWash:C.tealWash,'none',6); }
+			s += `${label(655,500,'Ideas pile up',{size:19,color:C.mute,weight:400})}${line(785,350,870,350,C.mute,3,'8 8')}`;
+			s += `<path d="M890 230 V470 M930 230 V470" stroke="${C.coral}" stroke-width="8" stroke-linecap="round"/><path d="M890 350 H930" stroke="${C.coral}" stroke-width="5"/>${label(910,206,at(5,'Judge later'),{size:21,color:C.coral})}`;
+			s += `${line(950,350,1010,350,C.coral,3)}${rect(1020,300,120,100,C.white,C.coral,16)}${pathStar(1080,350,C.coral)}${label(1080,440,'After the count',{size:17,color:C.mute,weight:400})}`;
+			break;
+		}
+		case 'question-wheel': {
+			const cx=380, cy=352, R=196;
+			const qs=['Other uses','Adapt','Modify','Magnify','Minify','Substitute','Rearrange','Reverse','Combine'];
+			qs.forEach((q,i)=>{ const a=-Math.PI/2+i*2*Math.PI/9; const x=cx+R*Math.cos(a), y=cy+R*Math.sin(a)*0.95; const hot=i===2||i===3; s += `<path d="M${cx+66*Math.cos(a)} ${cy+66*Math.sin(a)} L${x-16*Math.cos(a)} ${y-16*Math.sin(a)}" stroke="${hot?C.coral:C.teal}" stroke-width="${hot?3.5:2.5}" stroke-linecap="round"/>${circle(x,y,15,hot?C.coralWash:C.tealWash,hot?C.coral:C.teal,2)}`; const right=Math.cos(a)>0.15, left=Math.cos(a)<-0.15; s += label(right?x+24:left?x-24:x, Math.abs(Math.cos(a))<=0.15?y-26:y+7, at(i+1,q), {size:18,anchor:right?'start':left?'end':'middle',color:hot?C.coral:C.ink,limit:12}); });
+			s += `${circle(cx,cy,62,C.white,C.ink,3)}${label(cx,cy+8,at(0,'Existing thing'),{size:19,limit:10})}`;
+			s += `${line(690,320,800,300,C.coral,3)}${rect(812,232,150,120,C.white,C.coral,16)}${pathStar(887,292,C.coral)}${rect(982,232,150,120,C.white,C.coral,16)}${pathStar(1057,292,C.coral)}${label(972,402,at(10,'Two starred'),{size:21,color:C.coral})}${label(972,440,'Changes how it works',{size:18,color:C.mute,weight:400})}`;
+			break;
+		}
+		case 'parallel-lanes': {
+			const ty=280;
+			[[80,ty-70],[80,ty-10],[80,ty+50]].forEach(([x,y])=>{ s += rect(x,y,110,46,C.tealWash,C.teal,8); });
+			s += `${label(135,158,at(0,'Three at once'),{size:20,color:C.teal})}${line(200,ty,280,ty,C.teal,3)}${circle(320,ty,30,C.goldWash,C.gold,3)}${label(320,ty+62,at(1,'Feedback'),{size:17,color:C.gold,weight:400})}${line(356,ty,430,ty,C.teal,3)}`;
+			[[440,ty-40],[440,ty+20]].forEach(([x,y])=>{ s += rect(x,y,110,46,C.tealWash,C.teal,8); });
+			s += `${label(495,190,at(2,'Two more'),{size:20,color:C.teal})}${line(560,ty,640,ty,C.teal,3)}${circle(680,ty,30,C.goldWash,C.gold,3)}${label(680,ty+62,at(3,'Feedback'),{size:17,color:C.gold,weight:400})}${line(716,ty,800,ty,C.coral,4)}${rect(812,ty-60,170,120,C.coralWash,C.coral,16)}${pathStar(897,ty,C.coral)}${label(897,190,at(4,'Final'),{size:22,color:C.coral})}`;
+			s += curve(`M135 ${ty+100} C300 ${ty+130} 700 ${ty+130} 860 ${ty+66}`,C.coral,2,'6 8');
+			s += `<path d="M56 432 H1144" stroke="${C.faint}" stroke-width="2"/>`;
+			const by=510; for(let i=0;i<5;i++){ const x=80+i*150; s += `${rect(x,by-22,90,44,C.white,C.faint,8)}${i<4?`${circle(x+120,by,8,C.faint,C.mute,1.5)}`:''}`; }
+			s += `${line(822,by,880,by,C.mute,2.5,'6 6')}${rect(890,by-30,110,60,C.white,C.mute,12)}${label(1072,by-6,at(5,'One at a time'),{size:18,color:C.mute,weight:400,limit:14})}${label(1072,by+22,'for comparison',{size:16,color:C.mute,weight:400})}`;
+			break;
+		}
+		case 'rule-negation': {
+			s += `${label(190,158,at(0,'Style rules'),{size:22})}${rect(70,182,240,330,C.white,C.faint,16)}`;
+			for(let i=0;i<6;i++){ const y=222+i*48; s += `${circle(100,y,6,C.mute,C.mute,0)}<path d="M118 ${y} H${280-(i%2)*40}" stroke="${C.ink}" stroke-width="6" stroke-linecap="round" opacity="0.55"/>`; }
+			s += `<ellipse cx="190" cy="366" rx="128" ry="26" fill="none" stroke="${C.coral}" stroke-width="4"/>${label(190,548,at(1,'Structural rule'),{size:19,color:C.coral})}`;
+			s += `${curve('M320 366 C430 366 440 250 560 250',C.teal,4)}${label(440,236,at(2,'Negate'),{size:21,color:C.teal})}${curve('M320 366 C430 366 440 470 560 470',C.mute,3,'9 9')}${label(440,520,at(3,'Drop'),{size:21,color:C.mute})}`;
+			s += rect(575,165,330,170,C.tealWash,C.teal,18);
+			for(let r=0;r<3;r++) for(let c=0;c<6;c++){ const x=606+c*50+(r%2)*26, y=205+r*45; s += `<path d="M${x} ${y-14} L${x+14} ${y+10} L${x-14} ${y+10} Z" fill="${(r+c)%4===0?C.coral:C.teal}" opacity="0.8"/>`; }
+			s += rect(575,395,330,150,'none',C.faint,18);
+			[[620,430],[700,500],[790,445],[860,515],[650,515],[835,420],[740,450]].forEach(([x,y])=>{ s += circle(x,y,7,C.faint,C.mute,1); });
+			s += `${line(915,250,975,250,C.teal,4)}${card(985,195,180,110,at(4,'New space'),'',C.white,C.teal)}${label(1083,470,'Open field,',{size:18,color:C.mute,weight:400})}${label(1083,498,'fewer cues',{size:18,color:C.mute,weight:400})}`;
+			break;
+		}
+		case 'yes-and-chain': {
+			const pts=[[110,420,24],[290,370,30],[470,320,36],[650,270,42],[880,220,58]];
+			pts.forEach(([x,y,r],i)=>{ if(i) s += line(pts[i-1][0]+pts[i-1][2]+4,pts[i-1][1]-((pts[i-1][1]-y)*0.3),x-r-6,y+((pts[i-1][1]-y)*0.2),C.teal,3); s += circle(x,y,r,i===4?C.tealWash:C.white,C.teal,i===4?4:2.5); });
+			s += `${label(110,380,at(0,'Opening offer'),{size:18})}${label(290,430,at(1,'Yes and'),{size:18,color:C.teal})}${label(470,386,at(2,'Yes and'),{size:18,color:C.teal})}${label(650,342,at(3,'Yes and'),{size:18,color:C.teal})}${label(880,310,at(4,'Grown idea'),{size:22,color:C.teal})}`;
+			s += pathStar(880,220,C.teal);
+			s += `${curve('M128 440 C200 520 260 530 330 530',C.coral,3,'8 8')}${circle(350,530,18,C.coralWash,C.coral,2)}${line(372,530,450,530,C.coral,3,'8 8')}${circle(470,530,14,C.coralWash,C.coral,2)}<path d="M500 508 V552" stroke="${C.coral}" stroke-width="7" stroke-linecap="round"/>`;
+			s += `${label(410,580,at(5,'Yes but'),{size:18,color:C.coral})}${label(575,537,at(6,'Stalled'),{size:20,color:C.coral,anchor:'start'})}`;
+			break;
+		}
 		default: throw new Error(`Unsupported graphic kind for ${ex.id}: ${g.kind}`);
 	}
 	return base(s, ex.title);

@@ -26,6 +26,47 @@ const outRoot = join(root, 'docs', 'exercises', 'en');
 const dataOut = join(root, 'docs', '_data', 'exercises.yml');
 const refsPath = join(root, 'docs', '_data', 'references.yml');
 const graphicsPath = join(root, 'docs', '_data', 'exercise-graphics.yml');
+const lessonsRoot = join(root, 'docs', 'lessons', 'en');
+
+/** Public status label: pilot sheets are still being tested in class. */
+const STATUS = {
+	pilot: { label: 'WIP', title: 'Work in progress: being piloted in class; steps and timings may change.' },
+	ready: { label: 'Ready', title: 'Class-tested datasheet.' },
+};
+function statusBadge(ex) {
+	const key = ex.status || 'pilot';
+	const st = STATUS[key] || { label: key, title: '' };
+	return `<span class="field-card__status field-card__status--${esc(key)}" title="${esc(st.title)}">${esc(st.label)}</span>`;
+}
+
+/** Back-links: every lesson whose body links a datasheet via relative_url. */
+function walkLessons(dir, out = []) {
+	if (!existsSync(dir)) return out;
+	for (const entry of readdirSync(dir, { withFileTypes: true })) {
+		const full = join(dir, entry.name);
+		if (entry.isDirectory()) walkLessons(full, out);
+		else if (entry.name === 'index.md') out.push(full);
+	}
+	return out;
+}
+function loadLessonLinks() {
+	const usedIn = {};
+	for (const file of walkLessons(lessonsRoot)) {
+		const text = readFileSync(file, 'utf8');
+		const fm = text.match(/^---\n([\s\S]*?)\n---/);
+		if (!fm) continue;
+		const meta = yaml.load(fm[1]) || {};
+		if (!meta.permalink || !meta.title || meta.permalink.endsWith('/en/')) continue;
+		const ids = new Set([...text.matchAll(/'\/exercises\/en\/([a-z0-9-]+)\/'\s*\|\s*relative_url/g)].map((m) => m[1]));
+		for (const id of ids) (usedIn[id] ||= []).push({ title: String(meta.title), permalink: meta.permalink });
+	}
+	for (const list of Object.values(usedIn)) list.sort((a, b) => a.title.localeCompare(b.title));
+	return usedIn;
+}
+function shortLesson(title) {
+	const head = String(title).split(' · ')[0];
+	return /^master lecture$/i.test(head) ? 'Master lecture' : head;
+}
 
 function esc(s) {
 	return String(s ?? '')
@@ -157,7 +198,7 @@ function graphicFigure(graphic, { preview = false } = {}) {
 	return `<figure class="exercise-graphic" aria-describedby="exercise-graphic-caption"><picture><source srcset="{{ '${esc(graphic.svg)}' | relative_url }}" type="image/svg+xml"><img src="{{ '${esc(graphic.png)}' | relative_url }}" alt="${esc(graphic.alt)}" width="1200" height="620" fetchpriority="high"></picture><figcaption id="exercise-graphic-caption">${esc(oneLine(graphic.caption))}</figcaption></figure>`;
 }
 
-function renderExercisePage(ex, refs, graphics) {
+function renderExercisePage(ex, refs, graphics, usedIn = []) {
 	const units = (ex.units || []).join(', ');
 	const quote = oneLine(ex.quote?.verbatim || '');
 	const chicago = esc(oneLine(ex.quote?.chicago || ''));
@@ -185,6 +226,7 @@ ${ahmesComment(ex)}
 <div class="field-index not-prose" data-field-index="exercise">
 <header class="field-index__hero">
 <p class="field-index__eyebrow"><a href="{{ '/exercises/en/' | relative_url }}">Exercises</a>${units ? ` · ${esc(units)}` : ''}</p>
+<p class="field-card__badges">${statusBadge(ex)}</p>
 <h1 class="field-index__title">${esc(ex.title)}</h1>
 <p class="field-index__lede">${esc(oneLine(ex.summary || ''))}</p>
 <ul class="field-index__stats" aria-label="Exercise facts">
@@ -202,7 +244,7 @@ ${graphicFigure(graphics[ex.id])}
 <li><a href="#steps">Steps</a></li>
 <li><a href="#source">Source</a></li>
 <li><a href="#portfolio">Portfolio</a></li>
-<li><a href="#references">References</a></li>
+${usedIn.length ? '<li><a href="#used-in">Used in</a></li>\n' : ''}<li><a href="#references">References</a></li>
 </ul>
 </nav>
 <section class="field-index__section" id="requirements">
@@ -246,7 +288,13 @@ ${adaptation ? `<p class="exercise-note"><em>Classroom note.</em> ${esc(adaptati
 ${judged ? `<p class="field-card__meta">Judged by: ${esc(judged)}</p>` : ''}
 </article>
 </section>
-<section class="field-index__section" id="references">
+${usedIn.length ? `<section class="field-index__section" id="used-in">
+<article class="field-card field-card--exercise">
+<h2 class="field-card__title">Used in</h2>
+<ul class="exercise-list">${usedIn.map((l) => `<li><a href="{{ '${esc(l.permalink)}' | relative_url }}">${esc(l.title)}</a></li>`).join('')}</ul>
+</article>
+</section>
+` : ''}<section class="field-index__section" id="references">
 <article class="field-card field-card--exercise field-card--references">
 <h2 class="field-card__title">References</h2>
 {% include references.html %}
@@ -259,7 +307,7 @@ ${judged ? `<p class="field-card__meta">Judged by: ${esc(judged)}</p>` : ''}
 `;
 }
 
-function renderIndex(exercises, refs, graphics) {
+function renderIndex(exercises, refs, graphics, usedInAll = {}) {
 	const refKeys = [
 		...new Set(
 			exercises.map((ex) => ex.quote?.ref_key).filter((k) => k && refs[k]),
@@ -279,11 +327,12 @@ function renderIndex(exercises, refs, graphics) {
 			return `<article class="field-card field-card--exercise exercise-result"
 data-exercise-card data-units="${esc(unitTokens)}" data-family="${esc(familyToken)}" data-minutes="${esc(ex.time_min)}"
 data-search="${esc(searchText.toLowerCase())}">
-<p class="field-card__badges"><span class="field-card__status">${esc(ex.status || 'pilot')}</span></p>
+<p class="field-card__badges">${statusBadge(ex)}</p>
 <h2 class="field-card__title"><a href="{{ '/exercises/en/${ex.id}/' | relative_url }}">${esc(ex.title)}</a></h2>
 <p class="field-card__summary">${esc(oneLine(ex.summary || ''))}</p>
 <p class="field-card__meta"><strong>~${esc(ex.time_min)} min</strong> · ${esc(oneLine(ex.group))} · ${esc(units)}</p>
 ${book}
+${(usedInAll[ex.id] || []).length ? `<p class="field-card__meta exercise-used-in"><span class="exercise-source-label">Used in</span> ${[...new Set(usedInAll[ex.id].map((l) => shortLesson(l.title)))].map(esc).join(', ')}</p>` : ''}
 ${graphicFigure(graphics[ex.id], { preview: true })}
 ${chips(ex)}
 </article>`;
@@ -308,14 +357,15 @@ references: [${refsFm}]
 <p class="field-index__lede">Atomic, teachable datasheets. Lessons and decks <strong>link</strong> here — they do not paste the steps.</p>
 <ul class="field-index__stats" aria-label="Catalogue size">
 <li><strong>${exercises.length}</strong> exercises</li>
+<li><strong>${exercises.filter((ex) => (ex.status || 'pilot') === 'ready').length}</strong> ready · <strong>${exercises.filter((ex) => (ex.status || 'pilot') !== 'ready').length}</strong> WIP</li>
 <li>Choose by unit, method, or class time</li>
 </ul>
 </header>
 <form class="exercise-filters" data-exercise-filters role="search" aria-label="Find a classroom exercise">
 <label for="exercise-search">Search exercises<input id="exercise-search" type="search" name="q" placeholder="Try “prototype” or “observation”" autocomplete="off"></label>
 <label for="exercise-unit">Unit<select id="exercise-unit" name="unit"><option value="">All units</option><option>U1</option><option>U2</option><option>U3</option><option>U4</option><option>U5</option><option>U6</option></select></label>
-<label for="exercise-family">Method<select id="exercise-family" name="family"><option value="">All methods</option><option value="generation">Generation</option><option value="selection">Selection</option><option value="framing">Framing</option><option value="development">Development</option><option value="reflection">Reflection</option></select></label>
-<label for="exercise-time">Class time<select id="exercise-time" name="minutes"><option value="">Any length</option><option value="15">15 minutes or less</option><option value="20">20 minutes or less</option><option value="30">30 minutes or less</option></select></label>
+<label for="exercise-family">Method<select id="exercise-family" name="family"><option value="">All methods</option><option value="generation">Generation</option><option value="selection">Selection</option><option value="framing">Framing</option><option value="development">Development</option><option value="reflection">Reflection</option><option value="embodied">Embodied</option></select></label>
+<label for="exercise-time">Class time<select id="exercise-time" name="minutes"><option value="">Any length</option><option value="15">15 minutes or less</option><option value="20">20 minutes or less</option><option value="30">30 minutes or less</option><option value="45">45 minutes or less</option><option value="75">75 minutes or less</option></select></label>
 <button type="reset">Clear filters</button>
 </form>
 <p class="exercise-results-count" data-exercise-count aria-live="polite">Showing ${exercises.length} exercises</p>
@@ -344,6 +394,7 @@ function main() {
 		? yaml.load(readFileSync(graphicsPath, 'utf8')) || {}
 		: {};
 	const graphics = graphicData.exercises || {};
+	const usedIn = loadLessonLinks();
 	for (const ex of exercises) {
 		if (!graphics[ex.id]) throw new Error(`Missing generated semantic graphic: ${ex.id}`);
 	}
@@ -358,15 +409,15 @@ function main() {
 		const dir = join(outRoot, ex.id);
 		mkdirSync(dir, { recursive: true });
 		// .html = Liquid only (no kramdown) — keeps field-index markup intact
-		writeFileSync(join(dir, 'index.html'), renderExercisePage(ex, refs, graphics), 'utf8');
+		writeFileSync(join(dir, 'index.html'), renderExercisePage(ex, refs, graphics, usedIn[ex.id] || []), 'utf8');
 	}
-	writeFileSync(join(outRoot, 'index.html'), renderIndex(exercises, refs, graphics), 'utf8');
+	writeFileSync(join(outRoot, 'index.html'), renderIndex(exercises, refs, graphics, usedIn), 'utf8');
 	writeFileSync(
 		dataOut,
 		yaml.dump(
 			{
 				generated: new Date().toISOString().slice(0, 10),
-				exercises: exercises.map((ex) => publicRecord(ex, graphics)),
+				exercises: exercises.map((ex) => ({ ...publicRecord(ex, graphics), used_in: (usedIn[ex.id] || []).map((l) => l.permalink) })),
 			},
 			{ lineWidth: 100, noRefs: true },
 		),

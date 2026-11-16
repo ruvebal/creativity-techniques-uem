@@ -1,0 +1,94 @@
+id: brainstorm-ground-rules
+title: Brainstorm Ground Rules
+urn: urn:in-practice:exercise:5164a30fda91df45bd76841e
+technique_id: brainstorming-osborn
+status: pilot
+categories:
+- urn:in-practice:concept:divergent-thinking
+- family:generation
+fieldlex:
+- ct:brainstorming
+- ct:groupDynamics
+units:
+- U2
+summary: >-
+  Run a short group idea session under the four original brainstorming rules: no criticism, wild
+  ideas welcome, go for quantity, build on others. A rule-keeper calls out any judgement, and
+  selection happens only after the session ends.
+time_min: 30
+group: 4–6, with one scribe and one rule-keeper
+materials:
+- one specific problem statement, written where everyone can see it
+- sticky notes or a shared digital board
+- timer
+- a card with the four rules
+requirements:
+- The problem must be narrow enough to aim at (one user, one situation), not a general theme.
+- Rotate the rule-keeper and scribe roles so the same people do not always lead.
+- International cohorts may contribute in any working language; the scribe writes a short gloss.
+accessibility: >-
+  Ideas can be spoken, written on notes, or typed into the shared board; quieter students may
+  pass notes to the scribe. No movement is required. A silent written round can open the session.
+steps:
+- Read the four rules aloud, then put them in your own words as a group.
+- Write the problem on the board as one specific question.
+- For fifteen minutes, call out ideas. The scribe numbers every idea. The rule-keeper says "later" whenever someone judges.
+- Every few minutes, the scribe reads two ideas aloud and the group tries to combine or improve them.
+- Stop. Count the ideas. Only now sort them, using a separate selection method such as Hits and Dot Voting.
+- Note how many times the rule-keeper had to call "later", and what kind of comment it was.
+adaptation: >-
+  Osborn's rules and the hot-and-cold-water warning are quoted as written. The rule-keeper role,
+  the fifteen-minute timing, the combine checkpoint, and the hand-off to a separate selection
+  exercise are professor adaptations. Osborn's claims for group sessions have been contested
+  since; treat this as a rule-following exercise, not proof that groups always beat individuals.
+quote:
+  chicago: (Osborn 2013, chap. 26)
+  verbatim: >-
+    Idea-producing conferences are relatively fruitless unless certain rules are understood by all
+    present, and are faithfully followed. Here are four basics: (1) Judicial judgment is ruled out.
+    Criticism of ideas must be withheld until later. (2) "Free-wheeling" is welcomed. The wilder the
+    idea, the better; it is easier to tame down than to think up. (3) Quantity is wanted. The greater
+    the number of ideas, the more the likelihood of winners. (4) Combination and improvement are
+    sought. In addition to contributing ideas of their own, participants should suggest how ideas of
+    others can be turned into better ideas; or how two or more ideas can be joined into still another
+    idea. […] "If you try to get hot and cold water out of the same faucet at the same time, you will
+    get only tepid water. And if you try to criticize and create at the same time, you can't turn on
+    either cold enough criticism or hot enough ideas. So let's stick solely to ideas—let's cut out
+    all criticism during this session."
+  ref_key: osborn-2013
+portfolio_trace: >-
+  Problem statement; numbered idea list (photo); idea count; number of "later" calls and one example.
+judged_by: Portfolio rubric — process transparency
+graphic:
+  kind: four-rules
+  alt: A specific problem at the centre; four rules surround it; ideas pile up first and pass through a judgement gate only after the session.
+  caption: Create first, judge later. The gate stays closed until the idea count is in.
+  labels: [Specific problem, No criticism, Wild welcome, Quantity, Combine + improve, Judge later]
+ahmes:
+  document_coat: 18074cd0
+  vault_slug: alex_osborn_applied_imagination_principles_and_procedures_of_creative_writing_2013_read_books_ltd_18074cd0
+  nodes:
+  - node_id: 7dd98f6c-a765-5532-9867-d372efaa1a3d
+    page_index: 30
+    chicago: (Osborn 2013, chap. 26) — EPUB chapter XXVI; resolver pdf_order gives 31
+    role: quote
+  - node_id: e9a13e4e-a494-5c95-bb77-a437cc983b94
+    page_index: 30
+    chicago: (Osborn 2013, chap. 26)
+    role: quote
+  - node_id: 762f0f0c-6d2d-52e6-89f9-d606d7321d4d
+    page_index: 30
+    chicago: (Osborn 2013, chap. 26)
+    role: quote
+  - node_id: c5c8a5a8-3feb-5c36-b7d6-8c4b09a51085
+    page_index: 30
+    chicago: (Osborn 2013, chap. 26)
+    role: quote
+  - node_id: ab223424-e4d3-5a2a-9ce7-cfff1560395c
+    page_index: 30
+    chicago: (Osborn 2013, chap. 26)
+    role: quote
+  - node_id: 3f8db73b-1965-5d13-a41d-6f48271a48ab
+    page_index: 30
+    chicago: (Osborn 2013, chap. 26)
+    role: quote

@@ -10,6 +10,27 @@ exercises:
     png: /assets/images/exercise-graphics/ask-a-crab-85d8b0fb302f389f.png
     alt: An unrelated picture prompts associations, which lead to several workplace ideas without choosing a winner.
     caption: Keep the visible path from picture to association to idea; selection happens later.
+  brainstorm-ground-rules:
+    svg: /assets/images/exercise-graphics/brainstorm-ground-rules-9d18fcdcbeb24a0a.svg
+    png: /assets/images/exercise-graphics/brainstorm-ground-rules-9d18fcdcbeb24a0a.png
+    alt: >-
+      A specific problem at the centre; four rules surround it; ideas pile up first and pass through a judgement gate
+      only after the session.
+    caption: Create first, judge later. The gate stays closed until the idea count is in.
+  consider-the-negative:
+    svg: /assets/images/exercise-graphics/consider-the-negative-d1377f35bbaa98fe.svg
+    png: /assets/images/exercise-graphics/consider-the-negative-d1377f35bbaa98fe.png
+    alt: >-
+      A list of style rules with one structural rule circled; negating it redraws the map of possible designs, while
+      dropping it leaves an open field.
+    caption: Negate a deep rule and the map changes in one step. Dropping the rule is a different move with different results.
+  down-draft-up-draft:
+    svg: /assets/images/exercise-graphics/down-draft-up-draft-7a7b949f8fdfdc64.svg
+    png: /assets/images/exercise-graphics/down-draft-up-draft-7a7b949f8fdfdc64.png
+    alt: >-
+      Three versions of the same piece; a loose down draft, a rebuilt up draft, and a dental draft marked keep, fix, or
+      cut.
+    caption: Each pass has one job. Judging waits until there is something to judge.
   follow-dogme-95-rules:
     svg: /assets/images/exercise-graphics/follow-dogme-95-rules-63364ca1768e9c4f.svg
     png: /assets/images/exercise-graphics/follow-dogme-95-rules-63364ca1768e9c4f.png
@@ -20,6 +41,13 @@ exercises:
     png: /assets/images/exercise-graphics/hits-and-dot-voting-1cbc89f2719a678e.png
     alt: Silent small marks identify promising parts across the idea board; a separate larger vote selects one idea.
     caption: Notice interesting parts before debate, then make the final selection visible as a separate decision.
+  idea-spurring-questions:
+    svg: /assets/images/exercise-graphics/idea-spurring-questions-ea74252f4b4e583f.svg
+    png: /assets/images/exercise-graphics/idea-spurring-questions-ea74252f4b4e583f.png
+    alt: >-
+      One existing object sits at the centre of nine question spokes; each spoke produces a variant, and two variants
+      are starred.
+    caption: Nine questions, nine variants. Star the ones that change how the thing works, not only how it looks.
   imposing-constraints:
     svg: /assets/images/exercise-graphics/imposing-constraints-385dfe9ca1f88c17.svg
     png: /assets/images/exercise-graphics/imposing-constraints-385dfe9ca1f88c17.png
@@ -32,6 +60,13 @@ exercises:
       A belief blocks a dropped idea; a temporary opposite rule opens a short test before the student decides what to
       do.
     caption: The belief is tested through making—not graded as a personal confession.
+  morning-pages:
+    svg: /assets/images/exercise-graphics/morning-pages-37a07fa00974106e.svg
+    png: /assets/images/exercise-graphics/morning-pages-37a07fa00974106e.png
+    alt: >-
+      Three pages of continuous handwriting drain the critic's comments into the margin, leaving a clear start for the
+      next idea pass.
+    caption: Keep the hand moving for three pages; the critic's comments go onto the page instead of into the next design move.
   one-inch-picture-frame:
     svg: /assets/images/exercise-graphics/one-inch-picture-frame-4e4510facab0d72f.svg
     png: /assets/images/exercise-graphics/one-inch-picture-frame-4e4510facab0d72f.png
@@ -39,6 +74,15 @@ exercises:
       A broad brief narrows to one small visible moment; a partner's observation and an unanswered question guide the
       next move.
     caption: Frame one observable moment. What is outside it becomes a useful question for the next design move.
+  parallel-prototyping:
+    svg: /assets/images/exercise-graphics/parallel-prototyping-5d4388ad4707e1c1.svg
+    png: /assets/images/exercise-graphics/parallel-prototyping-5d4388ad4707e1c1.png
+    alt: >-
+      Three prototypes are made side by side, receive feedback together, then two more are made, then one final that
+      draws on all of them.
+    caption: >-
+      Make several before you hear feedback. Comparing options side by side keeps you from polishing the first idea too
+      early.
   process-trail:
     svg: /assets/images/exercise-graphics/process-trail-38e2c4629d80d1b1.svg
     png: /assets/images/exercise-graphics/process-trail-38e2c4629d80d1b1.png
@@ -46,6 +90,15 @@ exercises:
       Ordered versions show ideas opening and closing; one marked turning point explains why the design direction
       changed.
     caption: 'The trail makes the process legible: keep discarded options and mark the moment judgment changed direction.'
+  pure-contour-drawing:
+    svg: /assets/images/exercise-graphics/pure-contour-drawing-382312b619b792fc.svg
+    png: /assets/images/exercise-graphics/pure-contour-drawing-382312b619b792fc.png
+    alt: >-
+      The eye follows one crease of the palm while the pencil, out of sight, records the same line slowly like a
+      seismograph trace.
+    caption: >-
+      Eye and pencil move at the same slow speed; the drawing records what you saw, not what a hand is supposed to look
+      like.
   question-led-rough-prototype:
     svg: /assets/images/exercise-graphics/question-led-rough-prototype-88685913cf9d75c1.svg
     png: /assets/images/exercise-graphics/question-led-rough-prototype-88685913cf9d75c1.png
@@ -77,3 +130,8 @@ exercises:
       A first-time visitor's route yields observed moments; one prior idea is selected against a recorded moment and
       criterion.
     caption: Choose against what the walkthrough revealed, not against taste; keep the unresolved question visible.
+  yes-and:
+    svg: /assets/images/exercise-graphics/yes-and-23ba4dcedb4e8316.svg
+    png: /assets/images/exercise-graphics/yes-and-23ba4dcedb4e8316.png
+    alt: A chain of offers grows as each person adds with "yes, and", while a "yes, but" branch stalls after a few links.
+    caption: Each "yes, and" builds on the last offer. Compare how far the idea travels when every turn starts with "but".

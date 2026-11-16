@@ -1,0 +1,73 @@
+id: down-draft-up-draft
+title: Down Draft, Up Draft
+urn: urn:in-practice:exercise:9907f845999151acd44939cf
+technique_id: delay-judgement-checkpoint
+status: pilot
+categories:
+- urn:in-practice:concept:divergent-thinking
+- family:development
+fieldlex:
+- ct:divergentConvergentRhythm
+- ct:ideaDevelopment
+units:
+- U3
+- U5
+summary: >-
+  Make the same piece three times with three different jobs: get it down, fix it up, then check
+  every detail. Separating the passes stops you from judging work before it exists.
+time_min: 40
+group: individual, with one peer check
+materials:
+- the brief or piece you are working on
+- paper, sketchbook, or any making tool
+- timer
+- coloured pen for the third pass
+requirements:
+- The first pass is not shown to anyone and is not assessed.
+- Works for writing, sketches, layouts, storyboards, or code.
+- Keep all three versions; do not overwrite the first one.
+accessibility: >-
+  Any medium is valid. Students who find the timer stressful may use page or frame counts instead.
+  The peer check can be written instead of spoken.
+steps:
+- Down draft (15 minutes). Get everything out, fast and loose. Do not delete, erase, or fix anything. No one will see this.
+- Mark the one part of the down draft that surprised you most.
+- Up draft (15 minutes). On a fresh page, rebuild the piece around that part. Now you may cut, reorder, and say it more accurately.
+- Dental draft (10 minutes). With a coloured pen, check every element of the up draft against the brief. Mark each one keep, fix, or cut.
+- Show only the up draft and dental marks to a peer. Ask which mark they would challenge.
+adaptation: >-
+  Lamott writes about prose drafts and quotes a friend's three-step naming: down draft, up draft,
+  dental draft. This classroom version applies the three passes to any design medium, adds
+  timings, the "mark what surprised you" bridge between passes, and the peer check. Lamott's own,
+  blunter name for the first pass appears in the same chapter.
+quote:
+  chicago: (Lamott 2007, 12)
+  verbatim: >-
+    The first draft is the child's draft, where you let it all pour out and then let it romp all
+    over the place, knowing that no one is going to see it and that you can shape it later. […]
+    Almost all good writing begins with terrible first efforts. You need to start somewhere. Start
+    by getting something—anything—down on paper. A friend of mine says that the first draft is the
+    down draft—you just get it down. The second draft is the up draft—you fix it up. You try to say
+    what you have to say more accurately. And the third draft is the dental draft, where you check
+    every tooth, to see if it's loose or cramped or decayed, or even, God help us, healthy.
+  ref_key: lamott-2007
+portfolio_trace: >-
+  Down draft (photo), the surprise mark, up draft, dental marks, and the peer's challenge in one line.
+judged_by: Portfolio rubric — process transparency; critical analysis and judgement
+graphic:
+  kind: three-drafts
+  alt: Three versions of the same piece; a loose down draft, a rebuilt up draft, and a dental draft marked keep, fix, or cut.
+  caption: Each pass has one job. Judging waits until there is something to judge.
+  labels: [Down draft, Up draft, Dental draft, Get it down, Fix it up, Check every tooth]
+ahmes:
+  document_coat: 3579bf09
+  vault_slug: bird_by_bird_some_instructions_on_writing_and_life_lamott_anne_aut_1995_2019_2007_anchor_books_vintage_books_a_division_of_penguin_random_house_knopf_doubleday_publishing_gr_1_3579bf09
+  nodes:
+  - node_id: ae75c9f0-8e4f-5d8e-bad8-ed4e0e6bca6e
+    page_index: 11
+    chicago: (Lamott 2007, 12)
+    role: quote
+  - node_id: 7915ec06-2265-5632-a6ed-ce1e05ebeab5
+    page_index: 11
+    chicago: (Lamott 2007, 12)
+    role: quote

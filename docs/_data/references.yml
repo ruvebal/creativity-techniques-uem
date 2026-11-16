@@ -349,3 +349,53 @@ wong-2009:
     Wong, Elaine M., Adam D. Galinsky, and Laura J. Kray. 2009. “The Counterfactual Mind-Set: A
     Decade of Research.” In *Handbook of Imagination and Mental Simulation*, edited by Keith D.
     Markman, William M. P. Klein, and Julie A. Suhr, 161–74. New York: Psychology Press.
+
+boden-2004:
+  sort: "Boden 2004"
+  year: 2004
+  edition_used: "Routledge second edition, Taylor & Francis e-Library issue, 2004 (printed folios)."
+  chicago: >-
+    Boden, Margaret A. 2004. *The Creative Mind: Myths and Mechanisms*. 2nd ed. London: Routledge.
+
+perkins-1995:
+  sort: "Perkins 1995"
+  year: 1995
+  edition_used: "Journal article (publisher PDF, journal pagination)."
+  chicago: >-
+    Perkins, David. 1995. “An Unfair Review of Margaret Boden’s *The Creative Mind* from the
+    Perspective of Creative Systems.” *Artificial Intelligence* 79 (1): 97–109.
+    [https://doi.org/10.1016/0004-3702(95)90026-8](https://doi.org/10.1016/0004-3702(95)90026-8).
+
+ram-1995:
+  sort: "Ram Wills Domeshek 1995"
+  year: 1995
+  edition_used: "Journal article (publisher PDF, journal pagination)."
+  chicago: >-
+    Ram, Ashwin, Linda Wills, Eric Domeshek, Nancy Nersessian, and Janet Kolodner. 1995.
+    “Understanding the Creative Mind: A Review of Margaret Boden’s *Creative Mind*.” *Artificial
+    Intelligence* 79 (1): 111–28.
+    [https://doi.org/10.1016/0004-3702(95)90027-6](https://doi.org/10.1016/0004-3702(95)90027-6).
+
+cameron-2002:
+  sort: "Cameron 2002"
+  year: 2002
+  edition_used: "Tarcher/Putnam tenth-anniversary edition (© 1992, 2002), e-book conversion without printed folios; cited by section."
+  chicago: >-
+    Cameron, Julia. 2002. *The Artist’s Way: A Spiritual Path to Higher Creativity*. 10th anniversary
+    ed. New York: Jeremy P. Tarcher/Putnam.
+
+edwards-1999:
+  sort: "Edwards 1999"
+  year: 1999
+  edition_used: "Tarcher/Putnam revised edition, scanned PDF (printed folios)."
+  chicago: >-
+    Edwards, Betty. 1999. *The New Drawing on the Right Side of the Brain*. New York: Jeremy P.
+    Tarcher/Putnam.
+
+nixon-2020:
+  sort: "Nixon 2020"
+  year: 2020
+  edition_used: "Berrett-Koehler e-book (EPUB without page numbers); cited by chapter."
+  chicago: >-
+    Nixon, Natalie. 2020. *The Creativity Leap: Unleash Curiosity, Improvisation, and Intuition at
+    Work*. Oakland, CA: Berrett-Koehler.

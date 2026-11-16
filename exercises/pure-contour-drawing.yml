@@ -1,0 +1,79 @@
+id: pure-contour-drawing
+title: Pure Contour Drawing
+urn: urn:in-practice:exercise:08ed3d62f2ed0d8027965388
+technique_id: pure-contour-drawing
+status: pilot
+categories:
+- urn:in-practice:concept:observation
+- family:embodied
+fieldlex:
+- ct:sketchingAsThinking
+- ct:mentalBlock
+units:
+- U1
+- U4
+summary: >-
+  Draw the creases of your own palm for five minutes without looking at the paper. The drawing
+  will not look like a hand; that is the point. It trains slow, exact looking and switches off
+  the habit of drawing what you think things look like.
+time_min: 15
+group: individual, then pairs to compare
+materials:
+- one sheet of paper, taped to the table
+- pencil or fine pen
+- timer
+requirements:
+- No drawing skill needed; results are not judged on likeness.
+- Tape the paper down before you start so it does not move.
+- Keep this pass separate from project work; it is a perception warm-up.
+accessibility: >-
+  Any complex object can replace the palm (crumpled paper, a leaf, a key) if holding the hand still
+  is uncomfortable. Students may sit any way that lets them face away from the paper. A tablet with
+  the screen covered works too. Low-vision students can trace a textured object by touch.
+steps:
+- Tape the paper down. Hold the pencil on it, then turn your body so you face away from the paper.
+- Set a timer for five minutes. Rest your other hand somewhere stable and look at the creases in your palm.
+- Pick one crease. Move your eyes along it very slowly and let the pencil move at exactly the same speed.
+- When the crease meets another line, follow the new line. Do not look at the paper until the timer ends.
+- Look at the drawing. With a partner, name one detail you saw that you would normally never notice.
+- Write one sentence on how your attention changed between minute one and minute five.
+adaptation: >-
+  Edwards demonstrates the method and gives it to drawing students as a single five-minute
+  exercise. This classroom version keeps her five-minute timer, the palm subject, and the
+  no-peeking rule; the partner comparison and the one-sentence attention note are professor
+  additions that turn the drawing into evidence for the portfolio.
+quote:
+  chicago: (Edwards 1999, 90)
+  verbatim: >-
+    Gaze at a single wrinkle in your palm. Place your pencil on the paper and begin to draw just
+    that edge. As your eyes track the direction of the edge very slowly, one millimeter at a time,
+    your pencil will record your perceptions. If the edge changes direction, so does your pencil.
+    If the edge intersects with another edge, follow that new information slowly with your eyes,
+    while your pencil simultaneously records every detail. An important point: Your pencil can
+    record only what you see-nothing more, nothing less-at the moment of seeing. Your hand and
+    pencil function like a seismograph, responding only to your actual perceptions.
+  ref_key: edwards-1999
+portfolio_trace: >-
+  The contour drawing (photo or scan); one detail you noticed; one sentence on how attention changed.
+judged_by: Portfolio rubric — process transparency
+graphic:
+  kind: seismograph
+  alt: The eye follows one crease of the palm while the pencil, out of sight, records the same line slowly like a seismograph trace.
+  caption: Eye and pencil move at the same slow speed; the drawing records what you saw, not what a hand is supposed to look like.
+  labels: [Look at one edge, Pencil records, No looking, Record of seeing]
+ahmes:
+  document_coat: 9b9c6a62
+  vault_slug: betty_edwards_new_drawing_ocr_9b9c6a62
+  nodes:
+  - node_id: e7e49142-5b34-59f9-a308-0ba0880574c9
+    page_index: 107
+    chicago: (Edwards 1999, 90) — printed folio verified on PDF p. 108; resolver pdf_order gives 108
+    role: quote
+  - node_id: 19f9c6d6-94a6-5b14-b6fd-6a4e0395ddeb
+    page_index: 107
+    chicago: (Edwards 1999, 90) — five-minute timer
+    role: support
+  - node_id: c367a3b8-bf9d-518b-a44d-2188a269a66a
+    page_index: 110
+    chicago: (Edwards 1999, 93) — paradox of the exercise
+    role: support

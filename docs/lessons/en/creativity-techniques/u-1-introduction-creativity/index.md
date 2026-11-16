@@ -299,6 +299,8 @@ Practises Masterclass idea **1** (open, then close) and the **language / medium 
 
 **Source:** Classroom adaptation.
 
+**Also useful:** [Morning Pages]({{ '/exercises/en/morning-pages/' | relative_url }}) as a private warm-up before generating; [Pure Contour Drawing]({{ '/exercises/en/pure-contour-drawing/' | relative_url }}) to practise slow, exact looking.
+
 {% if site.publication.publish_internal_metadata %}
 <!-- curriculum-internal:
 LAB_LINE: exercise=1; technique_id=alternative-uses-task; practises=masterclass-2,masterclass-3; source=chen-2011 p. 26 (verified, pdftotext re-read in EX8: "Tests like Alternate Uses ask individuals to come up with as many different ways of using a common object as possible"; four abilities; caution sentence); steps=classroom adaptation

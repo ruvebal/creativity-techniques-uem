@@ -190,11 +190,17 @@ Practises Masterclass ideas **1** (make it rough, make it early), **3** (iterate
 
 **Source:** making several versions before any feedback is called parallel prototyping. In a study with novice designers, those who made several prototypes in parallel before receiving critique produced better-performing and more varied designs than those who received critique after each single prototype, and they reported a larger gain in their confidence at this kind of task [(Dow et al. 2010, 18:1)](#ref-dow-2010). Starting from different entry points follows de Bono: "a different entry point will usually mean a different train of ideas" [(de Bono 1970, chap. "Choice of Entry Point and Attention Area")](#ref-debono-1970). The steps are a classroom adaptation.
 
+**Longer version:** [Parallel Prototyping]({{ '/exercises/en/parallel-prototyping/' | relative_url }}) — the full three → feedback → two → feedback → final sequence from the same study (about 70 minutes).
+
+**Also useful:** [One-inch picture frame]({{ '/exercises/en/one-inch-picture-frame/' | relative_url }}) to narrow a broad problem to one visible moment before you name the entry points.
+
 ### Exercise 2 — Delay judgement, then checkpoint and exit {#lab-exercise-2}
 
 Practises Masterclass ideas **2** (defer judgement), **3** (iterate with an exit) and **6** (reflect at checkpoints).
 
 **Try it:** [Question-led rough prototype]({{ '/exercises/en/question-led-rough-prototype/' | relative_url }}) — start from one of your three versions in Exercise 1; defer judgement, write one testable question, revise once, then exit when the question is answered.
+
+**Also useful:** [Down Draft, Up Draft]({{ '/exercises/en/down-draft-up-draft/' | relative_url }}) — three passes, each with one job, when a draft keeps getting judged too early.
 
 **Portfolio reminder:** before/after; deferred-judgement note; role / look-and-feel / how-it-works choice; test question; checkpoint lines; exit decision (and prompt log if a tool supplied a variant).
 

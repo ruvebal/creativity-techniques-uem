@@ -1,0 +1,75 @@
+id: consider-the-negative
+title: Consider the Negative
+technique_id: reversal-method
+status: pilot
+categories:
+- urn:in-practice:concept:constraints
+- family:generation
+fieldlex:
+- ct:solutionSpace
+- ct:lateralThinking
+units:
+- U5
+- U6
+summary: >-
+  List the unwritten rules of a familiar style or product type, then negate one deep rule — do
+  its opposite — and sketch what becomes possible. Changing a structural rule, not a surface
+  detail, can open a whole new space of designs.
+time_min: 30
+group: pairs
+materials:
+- one familiar style or product type (for example a bus stop, a wedding invitation, a login screen)
+- paper or whiteboard
+- timer
+requirements:
+- Choose something both partners know well enough to list its rules.
+- Negate a structural rule (how it works or is organised), not a surface detail like colour.
+- Keep the rule list; it is part of the trace.
+accessibility: >-
+  Rules can be listed in writing or spoken while a partner writes. Sketches, collages, or short
+  written scenarios are all valid outputs. No movement required.
+steps:
+- Together, list six rules that every example of the style follows, even if nobody says them out loud.
+- Mark each rule as surface (looks) or structure (how it works). Circle the most structural rule.
+- Negate it — write its opposite as a new rule (for example "a bus stop is where you wait" becomes "a bus stop is where you never wait").
+- In ten minutes, sketch two or three designs that obey the negated rule and keep the other five.
+- For comparison, try dropping the rule entirely instead of negating it. Note how the results differ.
+- Write one sentence: what did the negation make possible that the old rule blocked?
+adaptation: >-
+  Boden describes "consider the negative" and "dropping a constraint" as general heuristics for
+  transforming a conceptual space; she gives no classroom procedure. The six-rule list, the
+  surface/structure sort, the timings, and the negate-versus-drop comparison are professor
+  adaptations of the reversal method.
+quote:
+  chicago: (Boden 2004, 66)
+  verbatim: >-
+    One very general heuristic is consider the negative. In other words, one way of getting a new
+    slant on a problem is to negate some aspect of it, whether consciously or unconsciously. When this
+    heuristic is applied to a structural aspect of the problem, as opposed to a mere superficial
+    detail, it can change the conceptual geography in one step. (Negating a constraint is not the
+    same as dropping it: wanting any nonred sweet is not the same as wanting any sweet, whatever its
+    colour. However, dropping constraints is a general heuristic, too. We have already seen that
+    Kekulé's visualization of his problem could have been transformed by dropping the 'strings-only'
+    constraint. Likewise, dropping Euclid's sixth axiom - that parallel lines meet at infinity - led
+    to a fundamentally different, non-Euclidean, geometry.)
+  ref_key: boden-2004
+portfolio_trace: >-
+  Six-rule list with the circled rule; the negated rule; two or three sketches; the drop comparison; one sentence.
+judged_by: Portfolio rubric — critical analysis and judgement
+graphic:
+  kind: rule-negation
+  alt: A list of style rules with one structural rule circled; negating it redraws the map of possible designs, while dropping it leaves an open field.
+  caption: Negate a deep rule and the map changes in one step. Dropping the rule is a different move with different results.
+  labels: [Style rules, Structural rule, Negate, Drop, New space]
+ahmes:
+  document_coat: c2f1c705
+  vault_slug: boden_creative_mind_myths_and_mechanisms_2004_c2f1c705
+  nodes:
+  - node_id: 3b852714-6905-5e35-b20d-e133defcdb9c
+    page_index: 80
+    chicago: (Boden 2004, 66) — printed = page_index − 14 (verified in conceptual-spaces lesson); resolver gives (Boden 2003, 81)
+    role: quote
+  - node_id: f30de044-edeb-5f78-b630-66791582e05e
+    page_index: 80
+    chicago: (Boden 2004, 66)
+    role: quote

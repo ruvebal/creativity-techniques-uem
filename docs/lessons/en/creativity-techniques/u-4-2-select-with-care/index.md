@@ -137,6 +137,8 @@ Practises contextual observation; selecting one U4.1 idea against a recorded mom
 
 **Try it:** [Visitor Journey Walkthrough]({{ '/exercises/en/visitor-journey-walkthrough/' | relative_url }})
 
+**Warm-up option:** [Pure Contour Drawing]({{ '/exercises/en/pure-contour-drawing/' | relative_url }}) — five minutes of slow looking before the walkthrough.
+
 ## Workshop
 
 From session 4, Workshop time is split about half for D2 Transposition and half for the D3 Atrium final event. D1 analysis never receives Workshop time. Carry the selected idea into a private team note and a public Atrium sign. Name the language, medium, and support in each version, then explain what changes as the design circulates and who can challenge the choice.

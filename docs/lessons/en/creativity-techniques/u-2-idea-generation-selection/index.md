@@ -259,6 +259,8 @@ Practises Masterclass ideas **1** (generate, then select), **2** (fluency with f
 
 **Opt-out:** the warm-up is optional. You may sit quietly, read the brief, or start writing early instead. Nobody gives instructions about posture or breathing.
 
+**Also useful:** [Brainstorm Ground Rules]({{ '/exercises/en/brainstorm-ground-rules/' | relative_url }}) if you run a spoken session instead of brainwriting; [Idea-Spurring Questions]({{ '/exercises/en/idea-spurring-questions/' | relative_url }}) to push one idea through nine changes; [Yes, And]({{ '/exercises/en/yes-and/' | relative_url }}) to practise building on a teammate's idea.
+
 ### Exercise 2 — Select: hits, then COCD and hats {#lab-exercise-2}
 
 Practises Masterclass ideas **4** (role and constraint tools) and **5** (name selection criteria).

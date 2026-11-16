@@ -147,6 +147,8 @@ Year-3 studio alternatives when you need formal pressure instead of a tool tour:
 
 - [Follow Dogme 95 Rules]({{ '/exercises/en/follow-dogme-95-rules/' | relative_url }}) — temporary rules; GenAI can be one rule among others.
 - [Imposing Constraints]({{ '/exercises/en/imposing-constraints/' | relative_url }}) — add one formal constraint to an open draft.
+- [Consider the Negative]({{ '/exercises/en/consider-the-negative/' | relative_url }}) — negate one structural rule of a style and see what opens up.
+- [Parallel Prototyping]({{ '/exercises/en/parallel-prototyping/' | relative_url }}) — make several variants (by hand or with a tool) before any feedback.
 
 Full catalogue: [Exercises]({{ '/exercises/en/' | relative_url }}).
 
@@ -172,6 +174,8 @@ LAB_EXERCISE_SELECTION:
   related_exercises_route:
     - /exercises/en/follow-dogme-95-rules/
     - /exercises/en/imposing-constraints/
+    - /exercises/en/consider-the-negative/
+    - /exercises/en/parallel-prototyping/
   archived_exercise_3:
     classroom_title: "Creative Campus tech tools"
     reason: "Rejected 2026-10-17 as naive for Year-3 international design cohort"
