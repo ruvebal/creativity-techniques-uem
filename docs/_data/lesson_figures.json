@@ -1,4 +1,66 @@
 {
+  "conceptual-spaces-creative-change": {
+    "cover": {
+      "src": "/assets/images/deck-media/ca698931b3c6a161.webp",
+      "alt": "A colour plate from Owen Jones's Grammar of Ornament (1868): a page of Moorish tile patterns, each one a different variation built from the same geometric rules.",
+      "caption_html": "<span class=\"slide-caption__title\">Grammar of Ornament, plate XLIII: Moresque No. 5</span> · <span class=\"slide-caption__author\">Owen Jones</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/1/15/Owen_Jones_-_Grammar_of_Ornament_-_1868_-_plate_043_-_300ppi.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "analysis-model": {
+      "src": "/assets/images/deck-media/db98b18ba848d450.webp",
+      "alt": "A hand-coloured fashion plate from La Mode Illustrée (1880): two women in bustle dresses, one teal, one purple, standing in a salon beside a window.",
+      "caption_html": "<span class=\"slide-caption__title\">La Mode Illustrée, 1880, No. 22: Toilettes de Mon. Fladry</span> · <span class=\"slide-caption__author\">La Mode Illustrée (publisher); Rijksmuseum (CC0)</span> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/f/fc/La_Mode_Illustr%C3%A9e%2C_1880%2C_No._22_Toilettes_de_Mon._Fladry%2C_RP-P-2009-3683.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-1": {
+      "src": "/assets/images/deck-media/e9254c41c7551f44.webp",
+      "alt": "Albert Anker's 1888 painting of a young girl standing at a table, knitting, with a basket of yarn on her arm.",
+      "caption_html": "<span class=\"slide-caption__title\">Strickendes Mädchen (Girl Knitting)</span> · <span class=\"slide-caption__author\">Albert Anker</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/b/b4/Albert_Anker_-_Strickendes_M%C3%A4dchen_%281888%29.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-2": {
+      "src": "/assets/images/deck-media/a0edffaac2c24586.webp",
+      "alt": "John Ogilby's 1675 strip road map: the route from London to Bristol drawn as seven vertical scrolls, with side roads, towns and compass roses.",
+      "caption_html": "<span class=\"slide-caption__title\">The Road from London to the City of Bristol (1675)</span> · <span class=\"slide-caption__author\">John Ogilby</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/e/e0/John_Ogilby_-_The_Road_from_London_to_the_City_of_Bristol_%281675%29.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-3": {
+      "src": "/assets/images/deck-media/782142ae2d4ee21d.webp",
+      "alt": "An American crazy quilt from about 1880: dozens of irregular silk and velvet patches in reds and browns, stitched together into one surface.",
+      "caption_html": "<span class=\"slide-caption__title\">Crazy Quilt</span> · <span class=\"slide-caption__author\">Unknown American maker; The Metropolitan Museum of Art (photograph, CC0)</span> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/2/24/Crazy_Quilt_MET_DP171162.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-4": {
+      "src": "/assets/images/deck-media/54940a40abf351f6.webp",
+      "alt": "Two line diagrams from 1866: a single hexagon ring of six carbon atoms, and a larger linked ring structure, as proposed by August Kekulé.",
+      "caption_html": "<span class=\"slide-caption__title\">Benzene structures proposed by Kekulé in 1866</span> · <span class=\"slide-caption__author\">August Kekulé</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/6/62/Benzene-1866.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-5": {
+      "src": "/assets/images/deck-media/515edcd09fcc0a1e.webp",
+      "alt": "Jean-Simon Berthélemy's 1767 painting: Alexander in armour raises his sword over the knot while soldiers and priests crowd around.",
+      "caption_html": "<span class=\"slide-caption__title\">Alexander Cuts the Gordian Knot</span> · <span class=\"slide-caption__author\">Jean-Simon Berthélemy</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/b/bb/Alexander_cuts_the_Gordian_Knot.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "masterclass-6": {
+      "src": "/assets/images/deck-media/0ff772256ce4a766.webp",
+      "alt": "A page of Hokusai's sketchbook Manga: travellers under wide straw umbrellas, a porter with a pole and a rider on a horse, drawn in quick, sure lines.",
+      "caption_html": "<span class=\"slide-caption__title\">Hokusai Manga, volume I (page)</span> · <span class=\"slide-caption__author\">Katsushika Hokusai</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/3/31/Hokusai_Manga_01.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "lab-1": {
+      "src": "/assets/images/deck-media/b1966ccb1ef4c719.webp",
+      "alt": "A brown-ink sheet by Luigi Baccio del Bianco (about 1620): seven heads, each wearing a different fantastical hat on the same basic shape.",
+      "caption_html": "<span class=\"slide-caption__title\">Seven Designs for Hats</span> · <span class=\"slide-caption__author\">Luigi Baccio del Bianco; The Metropolitan Museum of Art (photograph, CC0)</span> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/2/2b/Seven_Designs_for_Hats._MET_DP823544.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    },
+    "lab-2": {
+      "src": "/assets/images/deck-media/28a85eb51ef5c2ea.webp",
+      "alt": "Piet Mondrian's 1911 painting Gray Tree: a tree reduced to black curving branches over a grey ground, halfway between a real tree and a pattern of lines.",
+      "caption_html": "<span class=\"slide-caption__title\">Gray Tree</span> · <span class=\"slide-caption__author\">Piet Mondrian</span> · <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\" target=\"_blank\" rel=\"noopener\">Public domain</a> · <a href=\"https://upload.wikimedia.org/wikipedia/commons/b/b8/Gray_Tree_1911.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" target=\"_blank\" rel=\"noopener\">Source</a>",
+      "rights_status": "ok"
+    }
+  },
   "creative-process-analysis": {
     "cover": {
       "src": "/assets/images/deck-media/1b014b8e74a8b772.webp",

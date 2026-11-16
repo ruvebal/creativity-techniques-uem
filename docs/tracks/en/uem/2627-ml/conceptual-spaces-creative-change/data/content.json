@@ -1,0 +1,667 @@
+---
+layout: null
+---
+{
+  "schema_version": 2,
+  "unit_label": "Master Lecture · Conceptual Spaces and Creative Change",
+  "final_event_theme": "Which rule of your project's style will you keep, and which will you test?",
+  "ttod_index": [],
+  "media_selection": {
+    "unit_id": "ML-CS",
+    "project_id": "tc",
+    "strategy": "slide-bound",
+    "description": "Each image is bound to one named slide by asset_id; slides without a cleared image use the course diagram."
+  },
+  "assets": [
+    {
+      "media_slot_id": "ML-CS.cover",
+      "asset_id": "wikimedia:File:Owen Jones - Grammar of Ornament - 1868 - plate 043 - 300ppi.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/ca698931b3c6a161.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Owen_Jones_-_Grammar_of_Ornament_-_1868_-_plate_043_-_300ppi.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Owen_Jones_-_Grammar_of_Ornament_-_1868_-_plate_043_-_300ppi.jpg",
+      "title": "Grammar of Ornament, plate XLIII: Moresque No. 5",
+      "alt_text": "A colour plate from Owen Jones's Grammar of Ornament (1868): a page of Moorish tile patterns, each one a different variation built from the same geometric rules.",
+      "author": "Owen Jones",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Owen Jones · Wikimedia Commons",
+      "author_death_year": 1874,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1874; 1874+70 < 2026: public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-CS.analysis-model",
+      "asset_id": "wikimedia:File:La Mode Illustrée, 1880, No. 22 Toilettes de Mon. Fladry, RP-P-2009-3683.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/db98b18ba848d450.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/La_Mode_Illustr%C3%A9e%2C_1880%2C_No._22_Toilettes_de_Mon._Fladry%2C_RP-P-2009-3683.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:La_Mode_Illustr%C3%A9e,_1880,_No._22_Toilettes_de_Mon._Fladry,_RP-P-2009-3683.jpg",
+      "title": "La Mode Illustrée, 1880, No. 22: Toilettes de Mon. Fladry",
+      "alt_text": "A hand-coloured fashion plate from La Mode Illustrée (1880): two women in bustle dresses, one teal, one purple, standing in a salon beside a window.",
+      "author": "La Mode Illustrée (publisher); Rijksmuseum (CC0)",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "La Mode Illustrée (publisher); Rijksmuseum (CC0) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC0 dedication by the rights holder (Rijksmuseum, file page). Underlying work: fashion plate published 1880.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-CS.masterclass-1",
+      "asset_id": "wikimedia:File:Albert Anker - Strickendes Mädchen (1888).jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/e9254c41c7551f44.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Albert_Anker_-_Strickendes_M%C3%A4dchen_%281888%29.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Albert_Anker_-_Strickendes_M%C3%A4dchen_(1888).jpg",
+      "title": "Strickendes Mädchen (Girl Knitting)",
+      "alt_text": "Albert Anker's 1888 painting of a young girl standing at a table, knitting, with a basket of yarn on her arm.",
+      "author": "Albert Anker",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Albert Anker · Wikimedia Commons",
+      "author_death_year": 1910,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1910; 1910+70 < 2026: public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-CS.masterclass-2",
+      "asset_id": "wikimedia:File:John Ogilby - The Road from London to the City of Bristol (1675).jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/a0edffaac2c24586.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/John_Ogilby_-_The_Road_from_London_to_the_City_of_Bristol_%281675%29.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:John_Ogilby_-_The_Road_from_London_to_the_City_of_Bristol_(1675).jpg",
+      "title": "The Road from London to the City of Bristol (1675)",
+      "alt_text": "John Ogilby's 1675 strip road map: the route from London to Bristol drawn as seven vertical scrolls, with side roads, towns and compass roses.",
+      "author": "John Ogilby",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "John Ogilby · Wikimedia Commons",
+      "author_death_year": 1676,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1676; 1676+70 < 2026: public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-CS.masterclass-3",
+      "asset_id": "wikimedia:File:Crazy Quilt MET DP171162.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/782142ae2d4ee21d.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Crazy_Quilt_MET_DP171162.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Crazy_Quilt_MET_DP171162.jpg",
+      "title": "Crazy Quilt",
+      "alt_text": "An American crazy quilt from about 1880: dozens of irregular silk and velvet patches in reds and browns, stitched together into one surface.",
+      "author": "Unknown American maker; The Metropolitan Museum of Art (photograph, CC0)",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Unknown American maker; The Metropolitan Museum of Art (photograph, CC0) · Wikimedia Commons",
+      "author_death_year": null,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC0 dedication by the rights holder (The Metropolitan Museum of Art, file page). Underlying work: textile, about 1880.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-CS.masterclass-4",
+      "asset_id": "wikimedia:File:Benzene-1866.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/54940a40abf351f6.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Benzene-1866.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Benzene-1866.jpg",
+      "title": "Benzene structures proposed by Kekulé in 1866",
+      "alt_text": "Two line diagrams from 1866: a single hexagon ring of six carbon atoms, and a larger linked ring structure, as proposed by August Kekulé.",
+      "author": "August Kekulé",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "August Kekulé · Wikimedia Commons",
+      "author_death_year": 1896,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1896; 1896+70 < 2026: public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-CS.masterclass-5",
+      "asset_id": "wikimedia:File:Alexander cuts the Gordian Knot.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/515edcd09fcc0a1e.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Alexander_cuts_the_Gordian_Knot.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Alexander_cuts_the_Gordian_Knot.jpg",
+      "title": "Alexander Cuts the Gordian Knot",
+      "alt_text": "Jean-Simon Berthélemy's 1767 painting: Alexander in armour raises his sword over the knot while soldiers and priests crowd around.",
+      "author": "Jean-Simon Berthélemy",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Jean-Simon Berthélemy · Wikimedia Commons",
+      "author_death_year": 1811,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1811; 1811+70 < 2026: public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-CS.masterclass-6",
+      "asset_id": "wikimedia:File:Hokusai Manga 01.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/0ff772256ce4a766.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Hokusai_Manga_01.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Hokusai_Manga_01.jpg",
+      "title": "Hokusai Manga, volume I (page)",
+      "alt_text": "A page of Hokusai's sketchbook Manga: travellers under wide straw umbrellas, a porter with a pole and a rider on a horse, drawn in quick, sure lines.",
+      "author": "Katsushika Hokusai",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Katsushika Hokusai · Wikimedia Commons",
+      "author_death_year": 1849,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1849; 1849+70 < 2026: public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-CS.lab-1",
+      "asset_id": "wikimedia:File:Seven Designs for Hats. MET DP823544.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/b1966ccb1ef4c719.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Seven_Designs_for_Hats._MET_DP823544.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Seven_Designs_for_Hats._MET_DP823544.jpg",
+      "title": "Seven Designs for Hats",
+      "alt_text": "A brown-ink sheet by Luigi Baccio del Bianco (about 1620): seven heads, each wearing a different fantastical hat on the same basic shape.",
+      "author": "Luigi Baccio del Bianco; The Metropolitan Museum of Art (photograph, CC0)",
+      "licence": "CC0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Luigi Baccio del Bianco; The Metropolitan Museum of Art (photograph, CC0) · Wikimedia Commons",
+      "author_death_year": 1657,
+      "eu_term_ok": true,
+      "eu_term_reason": "CC0 dedication by the rights holder (The Metropolitan Museum of Art, file page). Underlying work: author died 1657.",
+      "rights_status": "ok",
+      "cropped": false
+    },
+    {
+      "media_slot_id": "ML-CS.lab-2",
+      "asset_id": "wikimedia:File:Gray Tree 1911.jpg",
+      "asset_url": "/creativity-techniques-uem/assets/images/deck-media/28a85eb51ef5c2ea.webp",
+      "source_file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Gray_Tree_1911.jpg",
+      "canonical_source_url": "https://commons.wikimedia.org/wiki/File:Gray_Tree_1911.jpg",
+      "title": "Gray Tree",
+      "alt_text": "Piet Mondrian's 1911 painting Gray Tree: a tree reduced to black curving branches over a grey ground, halfway between a real tree and a pattern of lines.",
+      "author": "Piet Mondrian",
+      "licence": "PD-old-70",
+      "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "provider": "Wikimedia Commons",
+      "credit_line": "Piet Mondrian · Wikimedia Commons",
+      "author_death_year": 1944,
+      "eu_term_ok": true,
+      "eu_term_reason": "Author died 1944; 1944+70 < 2026: public domain in the EU.",
+      "rights_status": "ok",
+      "cropped": false
+    }
+  ],
+  "slides": [
+    {
+      "slide_id": "cover",
+      "slide_role": "unit_cover",
+      "heading": "Conceptual Spaces and Creative Change",
+      "sentence": "Every style is a space with rules. You can combine inside it, explore it, or change one of its rules.",
+      "quote": "Creativity is the ability to come up with ideas or artefacts that are new, surprising and valuable.",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Boden 2004, 1)",
+        "href": "/creativity-techniques-uem/lessons/en/master-lectures/conceptual-spaces-creative-change/#ref-boden-2004"
+      },
+      "semantic_tags": {
+        "themes": [
+          "definition-of-creativity",
+          "conceptual-spaces"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "claims": [
+        {
+          "text": "Creativity is the ability to come up with ideas or artefacts that are new, surprising and valuable.",
+          "cite": "Boden 2004, 1"
+        }
+      ],
+      "background_kind": "curated",
+      "image_brief": "One style written down as a grammar: many patterns, same rules — a conceptual space on a single page.",
+      "asset_id": "wikimedia:File:Owen Jones - Grammar of Ornament - 1868 - plate 043 - 300ppi.jpg",
+      "media_slot_id": "ML-CS.cover"
+    },
+    {
+      "slide_id": "analysis-opener",
+      "slide_role": "analysis_opener",
+      "background_kind": "geometrical",
+      "heading": "Read the style",
+      "sentence": "Before theory: pick one piece of design. What are its rules? Which rule held, and which one changed?",
+      "background_url": "/assets/images/fractal-pass-track/ct-pass-01-structure-980beb83.svg"
+    },
+    {
+      "slide_id": "analysis-model",
+      "slide_role": "analysis_model",
+      "heading": "Language · medium · support",
+      "sentence": "Language: the style and its rules. Medium: the material, which has rules too. Support: where the work lives, and who decides it is valuable.",
+      "quote": "many arguments about creativity are rooted in disagreements about value.",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Boden 2004, 10)",
+        "href": "/creativity-techniques-uem/lessons/en/master-lectures/conceptual-spaces-creative-change/#ref-boden-2004"
+      },
+      "semantic_tags": {
+        "themes": [
+          "analysis",
+          "value",
+          "circulation"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "notes": "- Language = the style's grammar; today we call it a conceptual space.\n- Medium = material and technique: it makes some moves easy, others nearly impossible.\n- Support = magazine, shop, feed, jury: who gets to call it valuable.\n- Then: which road did the piece take — combine, explore or transform? Name the rule.\nSource: (Boden 2004, 10)\nAsk: Who decided this 1880 dress was in fashion — the maker, the magazine, or the buyer?",
+      "claims": [
+        {
+          "text": "many arguments about creativity are rooted in disagreements about value.",
+          "cite": "Boden 2004, 10"
+        }
+      ],
+      "background_kind": "curated",
+      "image_brief": "A fashion plate to read with language, medium and support: the style, the print, and the magazine that circulated it.",
+      "asset_id": "wikimedia:File:La Mode Illustrée, 1880, No. 22 Toilettes de Mon. Fladry, RP-P-2009-3683.jpg",
+      "media_slot_id": "ML-CS.analysis-model"
+    },
+    {
+      "slide_id": "masterclass-1",
+      "slide_role": "masterclass",
+      "heading": "1 · New, surprising, valuable — new to whom?",
+      "sentence": "P-creative: new to you. H-creative: new to history. For a student, P-creativity is the one that counts.",
+      "quote": "P–creativity involves coming up with a surprising, valuable idea that’s new to the person who comes up with it.",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Boden 2004, 2)",
+        "href": "/creativity-techniques-uem/lessons/en/master-lectures/conceptual-spaces-creative-change/#ref-boden-2004"
+      },
+      "semantic_tags": {
+        "themes": [
+          "p-creativity",
+          "h-creativity"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "notes": "- New, surprising, valuable: all three.\n- Everyone is creative to a degree — not a rare gift.\n- Ask how creative, and in which way, not yes or no.\nSource: (Boden 2004, 1–2)\nAsk: Name an idea you had that turned out to be old. Did it stop being creative for you?",
+      "claims": [
+        {
+          "text": "P–creativity involves coming up with a surprising, valuable idea that’s new to the person who comes up with it.",
+          "cite": "Boden 2004, 2"
+        },
+        {
+          "text": "every one of us is creative, to a degree.",
+          "cite": "Boden 2004, 1"
+        },
+        {
+          "text": "Just how creative is it, and in just which way(s)?",
+          "cite": "Boden 2004, 2"
+        }
+      ],
+      "background_kind": "curated",
+      "image_brief": "A young person absorbed in an ordinary craft — an idea can be new to her even if it is old to history.",
+      "asset_id": "wikimedia:File:Albert Anker - Strickendes Mädchen (1888).jpg",
+      "media_slot_id": "ML-CS.masterclass-1"
+    },
+    {
+      "slide_id": "masterclass-2",
+      "slide_role": "masterclass",
+      "heading": "2 · A style is a space you can map",
+      "sentence": "A conceptual space is a style of thinking with rules — in music, science, or couture. You pick it up from your culture.",
+      "quote": "Conceptual spaces are structured styles of thought.",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Boden 2004, 4)",
+        "href": "/creativity-techniques-uem/lessons/en/master-lectures/conceptual-spaces-creative-change/#ref-boden-2004"
+      },
+      "semantic_tags": {
+        "themes": [
+          "conceptual-spaces",
+          "style"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "notes": "- Boden's list includes fashions in couture and choreography.\n- No single person invents a space; you learn it from a group.\n- Later she calls these maps of the mind: they guide thought into some paths and not others.\nSource: (Boden 2004, 4; 59)\nAsk: Write three rules of a style everyone in this room would recognise.",
+      "claims": [
+        {
+          "text": "Conceptual spaces are structured styles of thought.",
+          "cite": "Boden 2004, 4"
+        },
+        {
+          "text": "generative systems that guide thought and action into some paths but not others.",
+          "cite": "Boden 2004, 59"
+        }
+      ],
+      "background_kind": "curated",
+      "image_brief": "A road map with main roads and side roads — the map metaphor for a conceptual space you can explore.",
+      "asset_id": "wikimedia:File:John Ogilby - The Road from London to the City of Bristol (1675).jpg",
+      "media_slot_id": "ML-CS.masterclass-2"
+    },
+    {
+      "slide_id": "masterclass-3",
+      "slide_role": "masterclass",
+      "heading": "3 · Three roads: combine, explore, transform",
+      "sentence": "Combine familiar ideas in a new way. Explore what a style can already do. Or transform it by changing a rule.",
+      "quote": "The first involves making unfamiliar combinations of familiar ideas.",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Boden 2004, 3)",
+        "href": "/creativity-techniques-uem/lessons/en/master-lectures/conceptual-spaces-creative-change/#ref-boden-2004"
+      },
+      "semantic_tags": {
+        "themes": [
+          "combinational-creativity",
+          "exploratory-creativity",
+          "transformational-creativity"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "notes": "- Combination needs a link people can follow; random is not enough.\n- Exploration shows possibilities you had not glimpsed.\n- Transformation makes the 'impossible' idea possible by changing the style.\nSource: (Boden 2004, 3–6)\nAsk: This quilt — which road? What would a transformed quilt look like?",
+      "claims": [
+        {
+          "text": "The first involves making unfamiliar combinations of familiar ideas.",
+          "cite": "Boden 2004, 3"
+        },
+        {
+          "text": "Exploratory creativity is valuable because it can enable someone to see possibilities they hadn’t glimpsed before.",
+          "cite": "Boden 2004, 4"
+        },
+        {
+          "text": "The supposedly impossible idea can come about only if the creator changes the pre-existing style in some way.",
+          "cite": "Boden 2004, 6"
+        }
+      ],
+      "background_kind": "curated",
+      "image_brief": "Familiar scraps joined into an unfamiliar whole — combination as textile collage.",
+      "asset_id": "wikimedia:File:Crazy Quilt MET DP171162.jpg",
+      "media_slot_id": "ML-CS.masterclass-3"
+    },
+    {
+      "slide_id": "masterclass-4",
+      "slide_role": "masterclass",
+      "heading": "4 · Rules are the material of change",
+      "sentence": "No rules means no style to change. Negate a rule, drop it, or ask what it is for. You can only break a rule you know.",
+      "quote": "far from being the antithesis of creativity, constraints on thinking are what make it possible.",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Boden 2004, 95)",
+        "href": "/creativity-techniques-uem/lessons/en/master-lectures/conceptual-spaces-creative-change/#ref-boden-2004"
+      },
+      "semantic_tags": {
+        "themes": [
+          "constraints",
+          "consider-the-negative",
+          "rule-change"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "notes": "- Consider the negative: applied to a deep rule, it can redraw the space in one step.\n- Schoenberg dropped even the home-chord ending and left tonality.\n- Perkins: ask not how it is usually done but what it is supposed to do.\n- To recognise a structural novelty, you need a structured mind.\nSource: (Boden 2004, 66; 72; 74; 95), (Perkins 1995, 103)\nAsk: Which rule of your current project have you never questioned?",
+      "claims": [
+        {
+          "text": "far from being the antithesis of creativity, constraints on thinking are what make it possible.",
+          "cite": "Boden 2004, 95"
+        },
+        {
+          "text": "One very general heuristic is consider the negative.",
+          "cite": "Boden 2004, 66"
+        },
+        {
+          "text": "To recognize a structural novelty, one needs a structured mind.",
+          "cite": "Boden 2004, 74"
+        },
+        {
+          "text": "asking not how is this usually done but what is this supposed to do",
+          "cite": "Perkins 1995, 103"
+        }
+      ],
+      "background_kind": "curated",
+      "image_brief": "An open chain turned into a closed ring — one rule changed, and a new family of shapes becomes thinkable.",
+      "asset_id": "wikimedia:File:Benzene-1866.jpg",
+      "media_slot_id": "ML-CS.masterclass-4"
+    },
+    {
+      "slide_id": "masterclass-5",
+      "slide_role": "masterclass",
+      "heading": "5 · The critics: search, systems, process",
+      "sentence": "Perkins: creative work is search, and it gets stuck in four ways. Ram and colleagues: the map shows creativity is possible, not how it works.",
+      "quote": "Problems are hard creatively when the circumstances mask novel solutions.",
+      "quote_origin": "page_verified",
+      "citation": {
+        "label": "(Perkins 1995, 108)",
+        "href": "/creativity-techniques-uem/lessons/en/master-lectures/conceptual-spaces-creative-change/#ref-perkins-1995"
+      },
+      "semantic_tags": {
+        "themes": [
+          "creative-systems",
+          "search",
+          "critique"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "notes": "- Perkins: creative systems = anything that yields adaptive novelty (minds, teams, evolution, cultures).\n- Four traps: rarity, isolation, oasis (almost good), plateau (no direction). Only isolation needs a bigger space.\n- Perkins: Boden underplays creative results from systems that never change their rules.\n- Ram et al.: the book leaves most process details unexplained — but shows an explanation is possible.\nSource: (Perkins 1995, 98–108), (Ram et al. 1995, 111)\nAsk: Last time you were stuck — oasis or plateau?",
+      "claims": [
+        {
+          "text": "Problems are hard creatively when the circumstances mask novel solutions.",
+          "cite": "Perkins 1995, 108"
+        },
+        {
+          "text": "creative systems are any systems that over time yield adaptive novelty, that is, unexpected outcomes that are nonetheless functional in context.",
+          "cite": "Perkins 1995, 98"
+        },
+        {
+          "text": "Boden’s conception allows for but perhaps underplays the phenomenon of fundamentally creative outcomes from uncreative systems.",
+          "cite": "Perkins 1995, 105"
+        },
+        {
+          "text": "the book leaves most details of the processes of creativity and their interactions unexplicated.",
+          "cite": "Ram et al. 1995, 111"
+        }
+      ],
+      "background_kind": "curated",
+      "image_brief": "Changing the rules of the game in one stroke — the story a critic uses to open his review.",
+      "asset_id": "wikimedia:File:Alexander cuts the Gordian Knot.jpg",
+      "media_slot_id": "ML-CS.masterclass-5"
+    },
+    {
+      "slide_id": "masterclass-6",
+      "slide_role": "masterclass",
+      "heading": "6 · Ordinary minds, practised — value is argued",
+      "sentence": "Big ideas come from ordinary thinking, used with knowledge and control. Practice changes the space you search. Who judges the value stays open.",
+      "quote": "Great leaps do not come from extraordinary thinking. They come from ordinary thinking used extraordinarily well.",
+      "quote_origin": "tao_invented",
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/master-lectures/conceptual-spaces-creative-change/#tao-of-creativity"
+      },
+      "semantic_tags": {
+        "themes": [
+          "ordinary-mechanisms",
+          "expertise",
+          "value",
+          "authorship"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "notes": "- Ram et al.: extraordinary outcomes from ordinary mechanisms plus strategic control.\n- Design team example: a submarine launching missiles one at a time → launch each egg separately.\n- Ideas move from one design culture to another.\n- Expertise changes the search space and how you search it.\n- Boden: values change and are disputed; with image-evolving programs, a person still picks what survives.\nSource: (Ram et al. 1995, 112; 116; 117; 126), (Boden 2004, 9–10)\nAsk: If a program makes the variants and you pick one, who is the author?",
+      "claims": [
+        {
+          "text": "extraordinary outcomes arise from the application of ordinary mechanisms, enhanced and applied with conscious (strategic) control.",
+          "cite": "Ram et al. 1995, 112"
+        },
+        {
+          "text": "Innovation often arises when ideas from one culture are applied in another.",
+          "cite": "Ram et al. 1995, 117"
+        },
+        {
+          "text": "What’s difficult is to state our aesthetic values clearly enough to enable the program itself to make the evaluation at each generation.",
+          "cite": "Boden 2004, 9"
+        }
+      ],
+      "background_kind": "curated",
+      "image_brief": "Ordinary scenes drawn with practised skill — extraordinary results from ordinary means.",
+      "asset_id": "wikimedia:File:Hokusai Manga 01.jpg",
+      "media_slot_id": "ML-CS.masterclass-6"
+    },
+    {
+      "slide_id": "retrieval",
+      "slide_role": "retrieval",
+      "background_kind": "geometrical",
+      "heading": "Recall check",
+      "sentence": "Alone, from memory, 3 minutes. Then compare with a partner.",
+      "questions": [
+        "What three things make an idea creative, for Boden?",
+        "What is the difference between P- and H-creativity?",
+        "Name the three roads to a creative idea.",
+        "Name one move that can change a rule of a conceptual space.",
+        "What do Ram and colleagues say Boden's book leaves unexplained?"
+      ],
+      "notes": "Answers:\n- 1. New, surprising and valuable (Boden 2004, 1).\n- 2. P: new to the person who has it; H: new in human history (Boden 2004, 2).\n- 3. Combination, exploration, transformation (Boden 2004, 3).\n- 4. Consider the negative (Boden 2004, 66); drop a constraint (Boden 2004, 72); ask what it is for (Perkins 1995, 103).\n- 5. Most details of the processes of creativity and how they interact (Ram et al. 1995, 111).",
+      "background_url": "/assets/images/fractal-pass-track/ct-pass-05-feedback-86525d56.svg"
+    },
+    {
+      "slide_id": "lab-opener",
+      "slide_role": "lab_opener",
+      "background_kind": "geometrical",
+      "heading": "Lab · Map it, then change it",
+      "sentence": "Two exercises come next. Everything you produce in Lab goes into your portfolio index.",
+      "portfolio_bound": true,
+      "portfolio_trace": "Save the rule list, the sketches, the changed rule and the partner's answers.",
+      "background_url": "/assets/images/fractal-pass-track/ct-pass-03-branching-e18a0dc7.svg"
+    },
+    {
+      "slide_id": "lab-1",
+      "slide_role": "lab_exercise",
+      "heading": "Exercise 1 · Map a style, then explore it",
+      "sentence": "Write six rules of a style you know. Sketch three variants that keep every rule, then one that joins a distant field — and write the link.",
+      "quote": "Student: Does my idea count if history had it first? Master: The moon is not less full when seen through leaves — but do you see the gaps where the light passes?",
+      "quote_origin": "tao_invented",
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/master-lectures/conceptual-spaces-creative-change/#tao-of-creativity"
+      },
+      "semantic_tags": {
+        "themes": [
+          "exploratory-creativity",
+          "combinational-creativity",
+          "p-creativity"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "technique_id": "attribute-listing",
+      "practises": [
+        "masterclass-2",
+        "masterclass-3"
+      ],
+      "timer_seconds": 1500,
+      "portfolio_bound": true,
+      "portfolio_trace": "Six-rule list, four thumbnails, one road label (explore / combine) per thumbnail.",
+      "notes": "- Timer: 25 minutes, pairs.\n- Rules: shape, material, colour, type or pattern, user, place.\n- Three variants keep every rule (explore); one joins a distant field (combine) with a written link.\n- Keep the rule list for Exercise 2.",
+      "background_kind": "curated",
+      "image_brief": "Seven variants that keep one set of rules — exploring a style on a single sheet.",
+      "asset_id": "wikimedia:File:Seven Designs for Hats. MET DP823544.jpg",
+      "media_slot_id": "ML-CS.lab-1"
+    },
+    {
+      "slide_id": "lab-2",
+      "slide_role": "lab_exercise",
+      "heading": "Exercise 2 · Change one rule",
+      "sentence": "Circle the most fixed rule. Negate it, drop it, or ask what it is for. Sketch one variant, then add one new rule. Swap: new? surprising? valuable — to whom?",
+      "quote": "A rule, not a cage — an anchor you can lift once when you know the sea.",
+      "quote_origin": "tao_invented",
+      "citation": {
+        "label": "(Tao of Creativity)",
+        "href": "/creativity-techniques-uem/lessons/en/master-lectures/conceptual-spaces-creative-change/#tao-of-creativity"
+      },
+      "semantic_tags": {
+        "themes": [
+          "transformational-creativity",
+          "consider-the-negative",
+          "constraints"
+        ],
+        "cidoc": [
+          "crm:E33_Linguistic_Object"
+        ],
+        "dcterms": [
+          "dcterms:type=Text"
+        ]
+      },
+      "technique_id": "reversal-method",
+      "technique_ids_also": [
+        "constraint-writing"
+      ],
+      "practises": [
+        "masterclass-4",
+        "masterclass-5"
+      ],
+      "timer_seconds": 1500,
+      "portfolio_bound": true,
+      "portfolio_trace": "Circled rule, the move used, the new sketch, the replacement rule, the other pair's three answers, one oasis-or-plateau sentence.",
+      "notes": "- Timer: 25 minutes, same pairs.\n- One move only: negate, drop, or function question.\n- Step 4 replaces the broken rule so the new space still has a shape.\n- Last line: before the change, were you on an oasis or a plateau?",
+      "background_kind": "curated",
+      "image_brief": "A painter changing one rule of his style — the tree stays, the look of nature goes.",
+      "asset_id": "wikimedia:File:Gray Tree 1911.jpg",
+      "media_slot_id": "ML-CS.lab-2"
+    },
+    {
+      "slide_id": "outro",
+      "slide_role": "outro",
+      "background_kind": "geometrical",
+      "heading": "Carry forward",
+      "sentence": "For your project: one rule of its space you will keep, and one rule you will test. Write it in your portfolio index.",
+      "background_url": "/assets/images/fractal-pass-track/ct-pass-02-threshold-7a624a21.svg"
+    }
+  ]
+}

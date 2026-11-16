@@ -17,6 +17,7 @@ const PAIRS = [
   ['docs/tracks/en/uem/2627-ct/u-2-idea-generation-selection/data/content.json', 'docs/lessons/en/creativity-techniques/u-2-idea-generation-selection/index.md'],
   ['docs/tracks/en/uem/2627-ct/u-3-development-solutions/data/content.json', 'docs/lessons/en/creativity-techniques/u-3-development-solutions/index.md'],
   ['docs/tracks/en/uem/2627-ml/creative-process-analysis/data/content.json', 'docs/lessons/en/master-lectures/creative-process-analysis/index.md'],
+  ['docs/tracks/en/uem/2627-ml/conceptual-spaces-creative-change/data/content.json', 'docs/lessons/en/master-lectures/conceptual-spaces-creative-change/index.md'],
 ];
 
 const norm = (s) => String(s || '').replace(/\s+/g, ' ').trim().toLowerCase();
